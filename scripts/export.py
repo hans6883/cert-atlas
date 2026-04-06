@@ -76,15 +76,36 @@ def slugify(text: str) -> str:
     return s.strip("-")
 
 
-def make_practice_url(exam_id: str) -> str:
-    """Generate a QuizForge practice URL from the exam ID."""
-    return f"{QUIZFORGE_BASE}/{exam_id}"
+SLUG_MAP_PATH = os.environ.get(
+    "SLUG_MAP",
+    str(REPO_ROOT / "slug_map.json"),
+)
+
+
+def load_slug_map():
+    """Load the mapping from blueprint exam_id to verified QuizForge slug."""
+    if os.path.exists(SLUG_MAP_PATH):
+        with open(SLUG_MAP_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def make_practice_url(exam_id: str, exam_name: str, slug_map: dict) -> str:
+    """Generate a QuizForge practice URL. Use verified slug if available, else search."""
+    if exam_id in slug_map:
+        return f"{QUIZFORGE_BASE}/{slug_map[exam_id]}"
+    # Fallback: link to QuizForge search with exam name
+    from urllib.parse import quote
+    return f"https://quizforge.ai/?q={quote(exam_name)}"
 
 
 def export():
     if not os.path.exists(DB_PATH):
         print(f"Database not found: {DB_PATH}", file=sys.stderr)
         sys.exit(1)
+
+    slug_map = load_slug_map()
+    print(f"Loaded {len(slug_map)} verified QuizForge slug mappings")
 
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
@@ -135,7 +156,8 @@ def export():
             exam_data["aliases"] = sorted(aliases_by_exam[exam_id])
 
         # Add practice link
-        exam_data["practice_url"] = make_practice_url(exam_id)
+        exam_name = exam_data.get("exam_name", exam_id)
+        exam_data["practice_url"] = make_practice_url(exam_id, exam_name, slug_map)
 
         # Determine vendor slug for directory
         vendor_info = vendor_map.get(body_id, {})

@@ -640,7 +640,7 @@ def build():
 
     # CNAME placeholder
     with open(DOCS_DIR / "CNAME", "w", encoding="utf-8") as f:
-        f.write("certatlas.org\n")
+        f.write("atlas.quizforge.ai\n")
 
     print(f"Built {page_count:,} pages in {DOCS_DIR}")
     print(f"  {len(exams_by_vendor)} vendor pages")
