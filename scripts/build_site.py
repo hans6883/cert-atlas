@@ -260,6 +260,7 @@ def page_shell(title, description, canonical, body, schema_json=None, breadcrumb
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{h(title)}">
 <meta name="twitter:description" content="{h(description)}">
+<meta name="msvalidate.01" content="1C8084D9E33FF8202EE0063D3FF269F4" />
 {schemas}<style>{CSS}</style>
 </head>
 <body>
