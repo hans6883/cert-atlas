@@ -250,6 +250,8 @@ def page_shell(title, description, canonical, body, schema_json=None, breadcrumb
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{h(title)}</title>
+<link rel="icon" type="image/svg+xml" href="{SITE_URL}/favicon.svg">
+<link rel="icon" type="image/x-icon" href="{SITE_URL}/favicon.ico">
 <meta name="description" content="{h(description)}">
 <link rel="canonical" href="{h(canonical)}">
 <meta property="og:title" content="{h(title)}">
@@ -616,6 +618,17 @@ def build():
         import shutil
         shutil.rmtree(DOCS_DIR)
     DOCS_DIR.mkdir(parents=True)
+
+    # Copy static assets (favicons)
+    import shutil as _shutil
+    for asset in ["favicon.ico", "favicon.svg"]:
+        src = REPO_ROOT / asset
+        if not src.exists():
+            src = REPO_ROOT / "docs" / asset  # might survive rmtree if pre-copied
+        # Copy from repo root if available
+        asset_src = REPO_ROOT / asset
+        if asset_src.exists():
+            _shutil.copy2(asset_src, DOCS_DIR / asset)
 
     # Home page
     with open(DOCS_DIR / "index.html", "w", encoding="utf-8") as f:
