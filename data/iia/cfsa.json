@@ -1,0 +1,105 @@
+{
+  "exam_id": "cfsa",
+  "exam_name": "CFSA (Certified Financial Services Auditor)",
+  "exam_code": "CFSA",
+  "certifying_body": "IIA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.theiia.org/en/certifications/specialty-certifications/cfsa/",
+  "passing_score": 600,
+  "passing_score_scale": "Scaled score 600–750 (passing = 600)",
+  "total_questions": 115,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (fixed-form, Pearson VUE)",
+  "duration_minutes": 140,
+  "exam_price_usd": 370.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/iia",
+      "notes": "Schedule at Pearson VUE testing centers worldwide. Online proctored option available via Pearson VUE OnVUE. CIA eligibility must be confirmed by IIA before scheduling."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match IIA registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted. Calculator provided on-screen for applicable parts. CIA candidates must pass all three parts within 4 years of initial registration. Specialty certifications are standalone and do not require CIA. All candidates must agree to IIA's Code of Ethics.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "40 CPE hours required annually for CIA maintenance. Specialty certifications also require 40 CPE hours per year. CPE must be relevant to internal auditing. Maintain active IIA membership for reduced exam pricing.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "IIA membership recommended; financial services audit experience",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "90-day waiting period between failed attempts for the same part. Retake fees are the same as initial attempt fees ($370 member / $570 non-member). CIA candidates have a maximum of 4 years from initial registration to pass all parts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Financial Services Environment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Audit and Assurance in Financial Services",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Financial Services Risk and Control",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Regulatory Compliance",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "IIA CIA Learning System",
+      "url": "https://www.theiia.org/en/products/cia-learning-system/",
+      "provider": "IIA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official IIA study materials including textbooks and online resources"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "IIA Practice Tests (Pearson VUE)",
+      "url": "https://home.pearsonvue.com/iia",
+      "provider": "Pearson VUE",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Practice exams available through Pearson VUE prep materials"
+    }
+  ],
+  "aliases": [
+    "certified financial services auditor",
+    "cfsa",
+    "cfsa certified financial services auditor",
+    "financial services auditor"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cfsa"
+}

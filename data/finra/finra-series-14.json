@@ -1,0 +1,98 @@
+{
+  "exam_id": "finra-series-14",
+  "exam_name": "Compliance Officer Exam (Series 14)",
+  "exam_code": "Series 14",
+  "certifying_body": "FINRA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.finra.org/registration-exams-ce/qualification-exams/series14",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 170,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 255,
+  "exam_price_usd": 245.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.finra.org/registration-exams-ce/qualification-exams",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/finra",
+      "notes": "In-person at Prometric testing centers; online proctoring available for some exams"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID required: one government-issued photo ID (primary) and one secondary ID. Name on ID must match FINRA registration exactly.",
+  "exam_rules": "Closed-book. No personal items in exam room. On-screen calculator provided. Scratch paper provided. No phones or electronic devices. Monitored by proctor.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "FINRA licenses remain active as long as registered with a member firm. Regulatory Element continuing education required within 120 days of 2-year anniversary, then every 3 years. Firm Element CE also required annually. If registration lapses, must retake exam after 2+ years of inactivity.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Must be sponsored by a FINRA member firm",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after first and second failed attempts. 180-day waiting period after third failed attempt and any subsequent failures. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Regulatory Framework and Compliance Obligations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Supervisory Systems and Procedures",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Compliance Program Development",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Anti-Money Laundering",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "FINRA Exam Qualification Study Outline",
+      "url": "https://www.finra.org/registration-exams-ce/qualification-exams",
+      "provider": "FINRA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable content outlines for each exam"
+    }
+  ],
+  "aliases": [
+    "compliance officer exam series 14",
+    "finra-series-14",
+    "s14",
+    "series 14"
+  ],
+  "practice_url": "https://quizforge.ai/tests/finra-series-14"
+}

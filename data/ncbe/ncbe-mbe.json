@@ -1,0 +1,127 @@
+{
+  "exam_id": "ncbe-mbe",
+  "exam_name": "Multistate Bar Examination (MBE)",
+  "exam_code": "MBE",
+  "certifying_body": "NCBE",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ncbex.org/exams/mbe/",
+  "passing_score": null,
+  "passing_score_scale": "Scaled 0–200 (200-question component of UBE/state bar exams)",
+  "total_questions": 200,
+  "question_types": [
+    "Multiple Choice (MBE and MPRE)",
+    "Essay (MEE — 6 questions, 30 min each)",
+    "Performance Test (MPT — 2 tasks, 90 min each)"
+  ],
+  "exam_format": "Multi-component exam administered over two days",
+  "duration_minutes": 360,
+  "exam_price_usd": null,
+  "exam_price_notes": "Component of the UBE and many state bar exams. Fee included in state bar exam fee.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ncbex.org/exams/registration/",
+  "testing_centers": [
+    {
+      "provider": "Prometric (MPRE) / State Bar Boards (UBE/MBE)",
+      "scheduling_url": "https://www.ncbex.org/exams",
+      "notes": "MPRE: computer-based at Prometric test centers or online proctored. UBE/MBE: administered by individual state bar boards at designated test sites; increasingly computer-based via ExamSoft."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. ID must match bar exam or NCBE registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator provided for some calculations. UBE: essays and MPT tasks allow basic calculator. MPRE: no supplementary materials. Personal electronic devices not permitted.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Bar license renewal requirements set by individual state bar boards. Typically requires Continuing Legal Education (CLE) credits annually. Annual bar dues also required.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Must be registered for the bar examination through a state bar board",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "UBE: retake policies set by individual state bar boards; most allow unlimited attempts. MPRE: offered 3 times per year (March, August, November); may be taken unlimited times."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Civil Procedure",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Constitutional Law",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Contracts",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Criminal Law and Procedure",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Evidence",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Real Property",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Torts",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "NCBE Official Practice Exams",
+      "url": "https://www.ncbex.org/study-aids/",
+      "provider": "NCBE",
+      "is_official": true,
+      "price_usd": 30.0,
+      "notes": "Official NCBE practice MBE questions and released MEE/MPT materials"
+    },
+    {
+      "resource_type": "pdf",
+      "title": "MBE Subject Matter Outline",
+      "url": "https://www.ncbex.org/exams/mbe/preparing/",
+      "provider": "NCBE",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "mbe",
+    "multistate bar examination",
+    "multistate bar examination mbe",
+    "ncbe-mbe"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ncbe-mbe"
+}

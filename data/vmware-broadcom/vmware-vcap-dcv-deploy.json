@@ -1,0 +1,105 @@
+{
+  "exam_id": "vmware-vcap-dcv-deploy",
+  "exam_name": "VCAP-DCV Deploy 2021",
+  "exam_code": "2V0-21.20D",
+  "certifying_body": "VMware (Broadcom)",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.broadcom.com/support/education/vmware/certification/vcap-dcv",
+  "passing_score": 300,
+  "passing_score_scale": "100-500",
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": "Multiple Choice (VCP/VCAP Design); Hands-on Lab (VCAP Deploy); Panel Defense (VCDX)",
+  "duration_minutes": 205,
+  "exam_price_usd": 350.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/vmware",
+      "notes": "VCP and VCAP written/design exams via Pearson VUE test centers or OnVUE online proctoring"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. ID must match the name on the exam registration. Acceptable forms include passport, driver's license, or national ID card.",
+  "exam_rules": "Closed-book exam for VCP and VCAP written/design exams. No notes, study materials, or electronic devices permitted. Personal items must be stored. No food or drink. VCAP Deploy lab exams are hands-on in a live vSphere environment — no closed-book restriction applies to the lab interface. VCDX panel defense requires submitting a design documentation package in advance.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "All VMware certifications are valid for 2 years. Renewal requires passing the current version of the exam or a higher-level exam in the same track before expiry. No CE credit option — exam retake is the only renewal path.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "VCP-DCV required",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 15,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "15-day waiting period between retake attempts for VCP and VCAP written/design exams. VCAP lab and VCDX panel defense retake scheduling is coordinated with VMware/Broadcom directly."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Installing, Configuring, and Setup",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Performance-tuning, Optimization, and Upgrades",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Troubleshooting and Repairing",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Administrative and Operational Tasks",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://www.broadcom.com/support/education/vmware/certification/vcap-dcv",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "VMware Learning",
+      "url": "https://www.vmware.com/learning.html",
+      "provider": "VMware (Broadcom)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official instructor-led and self-paced training courses from VMware/Broadcom"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "VMware Certification Study Guides",
+      "url": "https://www.broadcom.com/support/education/vmware/certification",
+      "provider": "VMware (Broadcom)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official exam guides and blueprint documents available on the Broadcom certification portal"
+    }
+  ],
+  "aliases": [
+    "2v0-21 20d",
+    "vcap deploy",
+    "vcap-dcv deploy",
+    "vcap-dcv deploy 2021",
+    "vmware advanced professional deploy",
+    "vmware-vcap-dcv-deploy"
+  ],
+  "practice_url": "https://quizforge.ai/tests/vmware-vcap-dcv-deploy"
+}

@@ -1,0 +1,114 @@
+{
+  "exam_id": "safe-agile-ssm",
+  "exam_name": "SAFe Scrum Master (SSM)",
+  "exam_code": "SSM",
+  "certifying_body": "Scaled Agile",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://scaledagile.com/training/safe-scrum-master/",
+  "passing_score": 77,
+  "passing_score_scale": null,
+  "total_questions": 45,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (online, included with training)",
+  "duration_minutes": 90,
+  "exam_price_usd": 995.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://scaledagile.com/training/certifications/",
+  "testing_centers": [
+    {
+      "provider": "Online (Scaled Agile)",
+      "scheduling_url": "https://scaledagile.com/",
+      "notes": "Exam included with training. Taken online through Scaled Agile portal after attending training."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match registration.",
+  "exam_rules": "Closed-book. Online proctored. Exam is included with SAFe training course attendance. Must complete exam within 30 days of training.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "SAFe certifications expire annually. Renew by attending training, taking a renewal exam ($50 USD), or earning required Community of Practice credits.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "training",
+      "description": "Attend a SAFe Scrum Master course (2-day)",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 2,
+    "notes": "First retake included free. Subsequent retakes $50 USD each. Must complete within 30 days of training."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Scrum in the SAFe Context",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Facilitating ART Events",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Coaching and Servant Leadership",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Team Dynamics and Development",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Continuous Improvement",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Scaled Agile Training",
+      "url": "https://scaledagile.com/training/",
+      "provider": "Scaled Agile",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "All SAFe certifications require attending official SAFe training"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "SAFe Framework Reference Guide",
+      "url": "https://scaledagileframework.com/",
+      "provider": "Scaled Agile",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free reference guide at scaledagileframework.com"
+    }
+  ],
+  "aliases": [
+    "leading safe sm",
+    "safe scrum master",
+    "safe scrum master ssm",
+    "safe-agile-ssm",
+    "ssm"
+  ],
+  "practice_url": "https://quizforge.ai/tests/safe-agile-ssm"
+}

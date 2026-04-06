@@ -1,0 +1,105 @@
+{
+  "exam_id": "f5-101",
+  "exam_name": "F5 Certified BIG-IP Administrator (101 — Application Delivery Fundamentals)",
+  "exam_code": "101",
+  "certifying_body": "F5 Networks",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.f5.com/company/training/certifications/application-delivery-fundamentals",
+  "passing_score": 245,
+  "passing_score_scale": null,
+  "total_questions": 80,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (Pearson VUE)",
+  "duration_minutes": 90,
+  "exam_price_usd": 155.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/f5",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/f5",
+      "notes": "Online proctored or in-person via Pearson VUE."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID. Name must match registration.",
+  "exam_rules": "Closed-book. Pearson VUE online proctored or in-person. No notes or reference materials. Score reported on scale of 1–350; passing is 245.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renew by passing the current exam or a higher-level exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "OSI Model and Networking Fundamentals",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Application Delivery Concepts",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "BIG-IP Platform Overview",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Load Balancing and Traffic Management",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security Concepts",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Troubleshooting Basics",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "F5 Certification Exam Study Guides",
+      "url": "https://www.f5.com/company/training/certifications",
+      "provider": "F5 Networks",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guides available for each certification"
+    }
+  ],
+  "aliases": [
+    "101",
+    "f5 certified big-ip administrator 101 application delivery fundamentals",
+    "f5-101"
+  ],
+  "practice_url": "https://quizforge.ai/tests/f5-101"
+}

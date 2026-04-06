@@ -1,0 +1,104 @@
+{
+  "exam_id": "ace-gfi",
+  "exam_name": "ACE Group Fitness Instructor (ACE-GFI)",
+  "exam_code": "ACE-GFI",
+  "certifying_body": "ACE Fitness",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.acefitness.org/fitness-certifications/group-fitness-instructor-certification/",
+  "passing_score": 500,
+  "passing_score_scale": null,
+  "total_questions": 150,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 165,
+  "exam_price_usd": 249.0,
+  "exam_price_notes": "Exam-only fee $249. With study materials bundle $399. CPR/AED certification required.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.acefitness.org/fitness-certifications/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ace",
+      "notes": "Computer-based testing at Pearson VUE test centers worldwide"
+    },
+    {
+      "provider": "Castle Worldwide",
+      "scheduling_url": "https://www.acefitness.org/fitness-certifications/",
+      "notes": "Online proctored exams available through Castle Worldwide"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID. Name must match ACE registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. No personal items allowed in testing area. CPR/AED certification required for all ACE credentials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renewal requires 20 CE credits and an active CPR/AED certification. Credits earned through ACE-approved continuing education courses, workshops, and professional development activities.",
+  "continuing_education_units": 20,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between exam attempts. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Group Fitness Programming and Instruction",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Instructional and Training Techniques",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Fitness Testing and Assessment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Legal, Professional, and Ethical Responsibilities",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Health Promotion and Wellness",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ACE Exam Prep and Study Materials",
+      "url": "https://www.acefitness.org/fitness-certifications/",
+      "provider": "ACE Fitness",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official textbooks, study companions, practice tests, and bundle packages"
+    }
+  ],
+  "aliases": [
+    "ace gfi",
+    "ace group fitness",
+    "ace group fitness instructor ace-gfi",
+    "ace-gfi",
+    "group fitness instructor"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ace-gfi"
+}

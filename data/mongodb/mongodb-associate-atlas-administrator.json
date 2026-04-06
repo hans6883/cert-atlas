@@ -1,0 +1,100 @@
+{
+  "exam_id": "mongodb-associate-atlas-administrator",
+  "exam_name": "MongoDB Associate Atlas Administrator",
+  "exam_code": "C100AtlasAdmin",
+  "certifying_body": "MongoDB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://learn.mongodb.com/pages/mongodb-associate-atlas-administrator-exam",
+  "passing_score": 60,
+  "passing_score_scale": null,
+  "total_questions": 53,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 75,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://learn.mongodb.com/pages/certification",
+  "testing_centers": [
+    {
+      "provider": "Online (MongoDB Learn)",
+      "scheduling_url": "https://learn.mongodb.com/pages/certification",
+      "notes": "Online proctored exam via MongoDB University platform."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required.",
+  "exam_rules": "Closed-book. Online proctored. No notes or reference materials. Webcam and microphone required.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renew by retaking the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Atlas Deployments and Clusters",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Atlas Security",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Atlas Data Services",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Monitoring and Alerts",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Backup and Recovery",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "MongoDB University",
+      "url": "https://learn.mongodb.com/",
+      "provider": "MongoDB",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online courses and learning paths at MongoDB University"
+    }
+  ],
+  "aliases": [
+    "c100atlasadmin",
+    "mongodb associate atlas admin",
+    "mongodb associate atlas administrator",
+    "mongodb atlas administrator",
+    "mongodb-associate-atlas-administrator"
+  ],
+  "practice_url": "https://quizforge.ai/tests/mongodb-associate-atlas-administrator"
+}

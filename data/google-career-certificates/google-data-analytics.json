@@ -1,0 +1,130 @@
+{
+  "exam_id": "google-data-analytics",
+  "exam_name": "Google Data Analytics Professional Certificate",
+  "exam_code": "Google Data Analytics",
+  "certifying_body": "Google Career Certificates",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://grow.google/certificates/data-analytics/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Coursera subscription ~$49/month; financial aid available",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Coursera (online, self-paced)",
+      "scheduling_url": "https://www.coursera.org/google-certificates",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Coursera account; Google certificate credential shared via Credly badge upon completion",
+  "exam_rules": "No single timed proctored exam. Assessment is embedded across courses: multiple-choice quizzes (≥80% to pass), hands-on labs, peer-reviewed projects, and a capstone project. Learners can retry quizzes up to 3 times per attempt.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Certificates do not expire; no formal renewal required. Google recommends keeping skills current through continued learning.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Spanish",
+    "Portuguese",
+    "French",
+    "Arabic",
+    "Indonesian"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; no prior data analytics experience required; basic spreadsheet skills helpful",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Quizzes can be retaken; no limit on course re-enrolment; learners progress at their own pace"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Foundations of Data Analytics (data analysis process, analytical thinking)",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Ask, Prepare, Process, Analyze, Share, Act (6-phase data analysis framework)",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Data Preparation and Cleaning (spreadsheets, SQL, data integrity)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Analyze Data to Answer Questions (SQL queries, calculations, aggregations)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Data Visualization with Tableau (charts, dashboards, storytelling)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Capstone: Case Study (end-to-end data analysis project)",
+      "weight_percent": 16.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "course",
+      "title": "Google Career Certificates on Coursera",
+      "url": "https://www.coursera.org/google-certificates",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 49.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Google Career Certificates — Practice Quizzes (embedded in courses)",
+      "url": "https://grow.google/certificates/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "study_material",
+      "title": "Google Career Certificates — Course Readings and Labs",
+      "url": "https://grow.google/certificates/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "google data analytics",
+    "google data analytics professional certificate",
+    "google-data-analytics"
+  ],
+  "practice_url": "https://quizforge.ai/tests/google-data-analytics"
+}

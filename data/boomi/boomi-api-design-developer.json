@@ -1,0 +1,98 @@
+{
+  "exam_id": "boomi-api-design-developer",
+  "exam_name": "Boomi API Design and Development Certification",
+  "exam_code": "BADD",
+  "certifying_body": "Boomi",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://community.boomi.com/s/certification",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://community.boomi.com/s/certification",
+  "testing_centers": [
+    {
+      "provider": "Online (Boomi Community)",
+      "scheduling_url": "https://community.boomi.com/s/certification",
+      "notes": "Online proctored exams taken through the Boomi Community portal."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Boomi Community account required. Government-issued photo ID for proctored exams.",
+  "exam_rules": "Closed-book. Online proctored. No reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current exam version.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "API Design Principles and REST",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Boomi API Management Platform",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "API Security and Authentication",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "API Analytics and Monitoring",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Developer Portal and Documentation",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Boomi Training",
+      "url": "https://train.boomi.com/",
+      "provider": "Boomi",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free Boomi training and learning paths"
+    }
+  ],
+  "aliases": [
+    "badd",
+    "boomi api design and development certification",
+    "boomi-api-design-developer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/boomi-api-design-developer"
+}

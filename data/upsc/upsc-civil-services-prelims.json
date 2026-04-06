@@ -1,0 +1,118 @@
+{
+  "exam_id": "upsc-civil-services-prelims",
+  "exam_name": "Civil Services Preliminary Examination (IAS/IPS/IFS)",
+  "exam_code": "CSE Prelims",
+  "certifying_body": "UPSC (Union Public Service Commission)",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://upsc.gov.in/examinations/civil-services-examination",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 180,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 240,
+  "exam_price_usd": 1.2,
+  "exam_price_notes": "INR 100 (~$1.20 USD). Exemption for female, SC, ST, and PwBD candidates. Payment via SBI net banking, cash, debit/credit card.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "UPSC Examination Centres",
+      "scheduling_url": "https://upsc.gov.in/examinations/active-examinations",
+      "notes": "Offline paper-based (OMR) examination conducted at designated centres in major cities across all states and union territories of India. Centre allocation done by UPSC; candidates cannot choose specific centres."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID required on exam day: Aadhaar card, passport, voter ID, or driving licence. Admit card (hall ticket) is mandatory and must be downloaded from the UPSC OTR portal before the exam.",
+  "exam_rules": "OMR-based objective papers (where applicable). Negative marking: 1/3 mark deducted per wrong answer. Unattempted questions carry no penalty. No calculators or electronic devices permitted. Dark blue or black ballpoint pen only (not gel or ink pens). Candidates must report 30 minutes before commencement. Mobile phones strictly prohibited.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Hindi"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Indian citizen (or eligible national of specific countries). Bachelor's degree in any discipline from a recognised university. Age: 21-32 years (General); relaxations for OBC (35), SC/ST (37), PwBD (42+). Maximum 6 attempts for General; 9 for OBC; unlimited for SC/ST/PwBD up to age limit.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Indian History & Culture",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Indian Polity & Constitution",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Geography (Indian & World)",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Indian Economy",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Environment & Ecology",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Science & Technology",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Current Affairs & Events",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "website",
+      "title": "UPSC Official Website",
+      "url": "https://upsc.gov.in",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Syllabus, previous year papers, notifications, and e-admit cards."
+    },
+    {
+      "resource_type": "website",
+      "title": "UPSC Previous Year Question Papers",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official repository of all previous year question papers."
+    }
+  ],
+  "aliases": [
+    "civil services preliminary examination ias ips ifs",
+    "cse prelims",
+    "upsc-civil-services-prelims"
+  ],
+  "practice_url": "https://quizforge.ai/tests/upsc-civil-services-prelims"
+}

@@ -1,0 +1,109 @@
+{
+  "exam_id": "cma-aama",
+  "exam_name": "CMA (AAMA) Exam — Certified Medical Assistant",
+  "exam_code": "CMA",
+  "certifying_body": "AAMA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.aama-ntl.org/cma-aama-exam",
+  "passing_score": 70,
+  "passing_score_scale": "Scaled score or percentage depending on certifying body",
+  "total_questions": 200,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based, fixed-form)",
+  "duration_minutes": 220,
+  "exam_price_usd": 255.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/",
+      "notes": "CMA (AAMA) and CCMA (NHA) administered at Pearson VUE test centers. Schedule at home.pearsonvue.com. Government-issued photo ID required."
+    },
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://candidate.psiexams.com/",
+      "notes": "RMA (AMT) and NCMA (NCCT) may be administered at PSI test centers. Check with individual certifying body for current testing vendor."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly. Secondary ID (credit card, school ID) may be required by some vendors.",
+  "exam_rules": "Closed book; no reference materials or calculators permitted. Medical terminology reference not permitted during exam. Candidate must present valid government-issued photo ID at check-in. Personal items must be stored during the exam.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "CMA (AAMA): Valid for 5 years; renewal requires 60 continuing education units (CEUs) or retaking the exam. RMA (AMT): Annual renewal with CE requirements set by AMT. NCMA (NCCT): Annual renewal with CE requirements. CCMA (NHA): 2-year renewal with 10 CE hours required.",
+  "continuing_education_units": 60,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Graduate of a CAAHEP- or ABHES-accredited medical assisting program required",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "CMA (AAMA): 60-day waiting period between failed attempts; maximum 3 attempts within a 12-month eligibility window. RMA (AMT): Retake policies set by AMT; contact AMT for current policy. NCMA (NCCT): 30-day waiting period. CCMA (NHA): 30-day waiting period between attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "General (medical terminology, anatomy, psychology)",
+      "weight_percent": 32.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Administrative (insurance, coding, office management)",
+      "weight_percent": 24.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Clinical (patient prep, specimen collection, pharmacology)",
+      "weight_percent": 44.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "CMA (AAMA) Exam Content Outline",
+      "url": "https://www.aama-ntl.org/cma-aama-exam/study",
+      "provider": "AAMA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free content outline and study resources available at aama-ntl.org"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "AAMA Practice Questions",
+      "url": "https://www.aama-ntl.org/cma-aama-exam/study",
+      "provider": "AAMA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice questions available through the AAMA study portal"
+    }
+  ],
+  "aliases": [
+    "aama",
+    "aama cma",
+    "aama exam",
+    "certified medical assistant",
+    "cma",
+    "cma aama",
+    "cma aama exam certified medical assistant",
+    "cma-aama",
+    "medical assistant certification"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cma-aama"
+}

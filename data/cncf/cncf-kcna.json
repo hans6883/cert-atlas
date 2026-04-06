@@ -1,0 +1,75 @@
+{
+  "exam_id": "cncf-kcna",
+  "exam_name": "Kubernetes and Cloud Native Associate (KCNA)",
+  "exam_code": "KCNA",
+  "certifying_body": "CNCF",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate/",
+  "passing_score": 75,
+  "passing_score_scale": "percentage",
+  "total_questions": 60,
+  "question_types": [],
+  "exam_format": "Performance-based (hands-on terminal)",
+  "duration_minutes": 90,
+  "exam_price_usd": 250.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Online Proctoring",
+      "scheduling_url": "https://training.linuxfoundation.org/",
+      "notes": "Online proctored via PSI; no in-person test center required"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. ID must match the name on the exam registration. Acceptable forms include passport, driver's license, or national ID card.",
+  "exam_rules": "Performance-based exam conducted in a live Kubernetes cluster terminal environment. Open-book: official documentation may be accessed during the exam at kubernetes.io, helm.sh, and github.com/kubernetes. No personal notes, unauthorized websites, or external resources permitted. No food or drink. Exam area must be clear of papers and unauthorized materials. Proctor monitors via webcam and screen share.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications are valid for 2 years. Renewal requires retaking and passing the exam before expiry. No CE credit option — exam retake is the only renewal path.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "One free retake attempt is included with the exam purchase. A minimum 12-hour waiting period is required between attempts. The free retake must be used within 12 months of the original purchase."
+  },
+  "domains": [],
+  "official_objectives_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate/",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Kubernetes Fundamentals (LFS258)",
+      "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals/",
+      "provider": "Linux Foundation",
+      "is_official": true,
+      "price_usd": 299.0,
+      "notes": "Official preparation course for CKA"
+    },
+    {
+      "resource_type": "online_course",
+      "title": "Kubernetes for Developers (LFD259)",
+      "url": "https://training.linuxfoundation.org/training/kubernetes-for-developers/",
+      "provider": "Linux Foundation",
+      "is_official": true,
+      "price_usd": 299.0,
+      "notes": "Official preparation course for CKAD"
+    }
+  ],
+  "aliases": [
+    "cncf-kcna",
+    "kcna",
+    "kcna-jp",
+    "kubernetes and cloud native associate",
+    "kubernetes and cloud native associate kcna",
+    "kubernetes associate",
+    "認定kubernetesクラウドネイティブアソシエイト kcna-jp"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cncf-kcna"
+}

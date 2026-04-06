@@ -1,0 +1,106 @@
+{
+  "exam_id": "loma-flmi-part2",
+  "exam_name": "FLMI Part 2 — Insurance Company Operations (LOMA 290)",
+  "exam_code": "LOMA 290",
+  "certifying_body": "LOMA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.loma.org/designations/flmi",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 130.0,
+  "exam_price_notes": "$130 per exam. LOMA member discount available. Prerequisite: LOMA 280 (FLMI Part 1).",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.loma.org/designations",
+  "testing_centers": [
+    {
+      "provider": "Online Proctored (LOMA platform)",
+      "scheduling_url": "https://www.loma.org/designations",
+      "notes": "Online proctored exam via LOMA's testing platform; requires webcam, microphone, and stable internet"
+    },
+    {
+      "provider": "Paper-based (employer-administered)",
+      "scheduling_url": "https://www.loma.org/designations",
+      "notes": "Paper-based exams may be administered through employer arrangements; contact LOMA or employer HR for availability"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID. Name must match LOMA registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted during proctored exams. No personal items in testing area. Employer-sponsored paper-based testing arrangements may have different protocols.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Designations valid for 3 years with required CE hours. Renewal requires continuing education hours through LOMA-approved courses and professional development activities. Contact LOMA for specific CE requirements per designation. LOMA membership provides discounts on exam fees and study materials.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "exam",
+      "description": "Passing LOMA 280 (FLMI Part 1 — Insurance Foundations)",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between exam attempts. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Organizational structure",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Actuarial",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Claims",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "IT systems",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "LOMA Education and Training Materials",
+      "url": "https://www.loma.org/education",
+      "provider": "LOMA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official textbooks, online courses, and study materials available from LOMA"
+    }
+  ],
+  "aliases": [
+    "fellow life management institute part 2",
+    "flmi 290",
+    "flmi part 2",
+    "flmi part 2 insurance company operations loma 290",
+    "insurance company operations",
+    "loma 290",
+    "loma-flmi-part2"
+  ],
+  "practice_url": "https://quizforge.ai/tests/loma-flmi-part2"
+}

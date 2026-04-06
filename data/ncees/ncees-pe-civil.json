@@ -1,0 +1,137 @@
+{
+  "exam_id": "ncees-pe-civil",
+  "exam_name": "Principles and Practice of Engineering (PE) – Civil",
+  "exam_code": "PE Civil",
+  "certifying_body": "NCEES",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://ncees.org/exams/pe-exam/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 80,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 480,
+  "exam_price_usd": 375.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://account.ncees.org/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ncees",
+      "notes": "Computer-based testing at Pearson VUE test centers. FE and PE exams taken year-round."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One valid, unexpired government-issued photo ID. Name must match NCEES MyNCEES account exactly.",
+  "exam_rules": "Closed-book. NCEES provides an electronic reference handbook (FE Reference Handbook or PE Reference Handbook) on-screen during the exam — no personal reference materials allowed. On-screen calculator provided. Personal calculators NOT allowed. No notes or personal items in exam room.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "PE and SE licenses must be renewed per state board requirements. Typically every 2 years with Continuing Professional Competency (CPC) requirements. Requirements vary by state.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Must have passed FE exam and hold EIT/EI certification",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "4 years of progressive engineering experience (requirements vary by state board)",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "FE exams: can register immediately after receiving score report. PE exams: most states allow unlimited attempts; check your state board. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Project Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Means and Methods",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Soil Mechanics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Structural Mechanics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Hydraulics and Hydrology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Geometrics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Materials",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Site Development",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "FE Reference Handbook",
+      "url": "https://ncees.org/exams/fe-exam/",
+      "provider": "NCEES",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable reference handbook — same version used in the exam"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "NCEES Practice Exams",
+      "url": "https://ncees.org/store/",
+      "provider": "NCEES",
+      "is_official": true,
+      "price_usd": 29.95,
+      "notes": "Official practice exams available for FE and PE disciplines"
+    }
+  ],
+  "aliases": [
+    "ncees-pe-civil",
+    "pe civil",
+    "pe exam",
+    "principles and practice of engineering pe civil",
+    "professional engineer civil"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ncees-pe-civil"
+}

@@ -1,0 +1,114 @@
+{
+  "exam_id": "aws-solutions-architect-associate-saa-c03",
+  "exam_name": "AWS Certified Solutions Architect – Associate",
+  "exam_code": "SAA-C03",
+  "certifying_body": "AWS",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf",
+  "passing_score": 720,
+  "passing_score_scale": "100-1000",
+  "total_questions": 65,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 130,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": "https://aws.amazon.com/certification/certification-prep/",
+  "exam_registration_url": "https://home.pearsonvue.com/aws",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/aws",
+      "notes": "In-person test centers and online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One primary, government-issued ID with name, photo, and signature (passport, driver's license, national ID card). Name must match registration exactly.",
+  "exam_rules": "No personal items, phones, or notes in testing area. Scratch paper provided by testing center. No breaks for most exams (unscheduled breaks allowed but timer continues). Online proctored: no second monitor, must be alone in room, no virtual machines or remote desktop.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Recertify by passing current version before expiry, or earn recertification credit via eligible AWS exam or training activities.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Korean",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "Bahasa Indonesia",
+    "Spanish",
+    "French",
+    "German",
+    "Italian",
+    "Portuguese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "After first failed attempt: 14-day waiting period. After each subsequent failed attempt: additional 14-day waiting period. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Design Secure Architectures",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Design Resilient Architectures",
+      "weight_percent": 26.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Design High-Performing Architectures",
+      "weight_percent": 24.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Design Cost-Optimized Architectures",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf",
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "AWS Official Practice Exam (via Skill Builder)",
+      "url": "https://explore.skillbuilder.aws/learn/catalog?ctldoc-catalog-0=se-official%20practice",
+      "provider": "AWS",
+      "is_official": true,
+      "price_usd": 40.0,
+      "notes": "20-question official practice exam with rationale"
+    },
+    {
+      "resource_type": "online_course",
+      "title": "AWS Skill Builder (free tier)",
+      "url": "https://explore.skillbuilder.aws/",
+      "provider": "AWS",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free and paid digital training; subscription includes full practice exams"
+    }
+  ],
+  "aliases": [
+    "aws certified solutions architect - associate",
+    "aws certified solutions architect associate",
+    "aws saa",
+    "aws-solutions-architect-associate-saa-c03",
+    "saa-c03",
+    "solutions architect associate"
+  ],
+  "practice_url": "https://quizforge.ai/tests/aws-solutions-architect-associate-saa-c03"
+}

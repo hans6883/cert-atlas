@@ -1,0 +1,125 @@
+{
+  "exam_id": "ancc-pmhnp-bc",
+  "exam_name": "Psychiatric Mental Health Nurse Practitioner, Board Certified (PMHNP-BC)",
+  "exam_code": "PMHNP-BC",
+  "certifying_body": "ANCC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nursingworld.org/certification/",
+  "passing_score": 350,
+  "passing_score_scale": "Scaled score 200–500; 350 required to pass",
+  "total_questions": 175,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 210,
+  "exam_price_usd": 520.0,
+  "exam_price_notes": "ANA member price $395. Non-member price $520.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.nursingworld.org/our-certifications/",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/ancc",
+      "notes": "Computer-based testing at Prometric test centers; online proctoring available for select exams"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match ANCC registration exactly. RN license number required at check-in.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. On-screen calculator provided where applicable. 60-day waiting period required before retaking. MSN or APRN graduate degree required for advanced practice NP certifications.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "Earn 75 CE credits (contact hours) every 5 years. CE credits must be relevant to the certification specialty. Submit renewal application via the ANCC certification portal. Maintain current, active RN license throughout certification period.",
+  "continuing_education_units": 75,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "Graduate-level (MSN or higher) NP program with PMHNP specialty focus",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "license",
+      "description": "Current, active RN license in the US or its territories",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "training",
+      "description": "500 supervised clinical hours in psychiatric-mental health setting",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Must wait 60 days before retaking. Full exam fee required for each retake attempt. Check ANCC website for current retake policies."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Assessment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Diagnosis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Treatment Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Psychopharmacology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Evidence-Based Practice",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ANCC Certification Exam Test Content Outlines",
+      "url": "https://www.nursingworld.org/our-certifications/",
+      "provider": "ANCC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable test content outlines available for each specialty on the certification page"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ANCC Practice Test",
+      "url": "https://www.nursingworld.org/our-certifications/",
+      "provider": "ANCC",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice tests available for purchase through the ANCC store"
+    }
+  ],
+  "aliases": [
+    "ancc-pmhnp-bc",
+    "pmhnp",
+    "pmhnp-bc",
+    "psychiatric mental health np",
+    "psychiatric mental health nurse practitioner board certified pmhnp-bc",
+    "psychiatric-mental health nurse practitioner across the lifespan certification pmhnp-bc"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ancc-pmhnp-bc"
+}

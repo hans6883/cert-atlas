@@ -1,0 +1,121 @@
+{
+  "exam_id": "opos-guardia-civil",
+  "exam_name": "Oposiciones Guardia Civil — Escala de Cabos y Guardias",
+  "exam_code": "GC Cabos y Guardias",
+  "certifying_body": "Oposiciones Spain",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.guardiacivil.es/es/institucional/reclutamiento/index.html",
+  "passing_score": 5,
+  "passing_score_scale": null,
+  "total_questions": 100,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 90,
+  "exam_price_usd": null,
+  "exam_price_notes": "€0 — no application fee for Guardia Civil convocatoria (as per current practice)",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "INAP — Instituto Nacional de Administración Pública",
+      "scheduling_url": "https://www.inap.es",
+      "notes": null
+    },
+    {
+      "provider": "Regional Government / Municipal Exam Centers (varies by convocatoria)",
+      "scheduling_url": "https://www.boe.es",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid Spanish DNI (Documento Nacional de Identidad) or NIE + supporting ID",
+  "exam_rules": "Pen-and-paper, written multiple-choice (tipo test) and/or practical exercises. No mobile phones, calculators, or study materials. Negative marking: -0.33 per wrong answer (varies by convocatoria). Answer blank = 0 marks.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Funcionarios de carrera have permanent status; no expiry. Continuing education (formación continua) available but not mandatory for retention.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Graduado en ESO or equivalent; Spanish nationality; age 18–36; height min. 162cm (men) / 158cm (women); valid driver's licence (B)",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 1,
+    "max_attempts_total": null,
+    "notes": "One official call (convocatoria) per year per body; no limit on attempts across years until age limit"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Spanish Constitutional Law and Fundamental Rights (Art. 1–55 CE)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Civil Guard Organic Law and Structure (Ley Orgánica 11/2007, LOFCS 2/1986)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Criminal Law: Offences Against Persons, Property, Public Order (Código Penal)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Road Traffic Law (Ley de Tráfico, Reglamento General de Circulación)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Spanish Geography, History and Democratic Values",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "First Aid, Physical Tests (Cooper Test, Swimming, Chin-ups, Sprint)",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "syllabus",
+      "title": "Temario Oficial — BOE (Boletín Oficial del Estado)",
+      "url": "https://www.boe.es",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Simulacros y Ejercicios — INAP",
+      "url": "https://www.inap.es",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "gc cabos y guardias",
+    "opos-guardia-civil",
+    "oposiciones guardia civil escala de cabos y guardias"
+  ],
+  "practice_url": "https://quizforge.ai/tests/opos-guardia-civil"
+}

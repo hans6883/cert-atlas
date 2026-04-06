@@ -1,0 +1,162 @@
+{
+  "exam_id": "nccpa-panre",
+  "exam_name": "PANRE (Physician Assistant National Recertifying Exam)",
+  "exam_code": "PANRE",
+  "certifying_body": "NCCPA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nccpa.net/panre/",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; passing threshold determined by NCCPA",
+  "total_questions": 240,
+  "question_types": [
+    "Multiple Choice (single best answer)"
+  ],
+  "exam_format": "Linear fixed-form computer-based test (CBT); NBME item development",
+  "duration_minutes": 300,
+  "exam_price_usd": 350.0,
+  "exam_price_notes": "$350 exam fee; required every 10 years as part of MOC.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.nccpa.net/apply/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/nccpa",
+      "notes": "PANCE and PANRE administered at Pearson VUE test centers; PANRE-LA is online quarterly modules"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name must match NCCPA registration exactly. Secondary ID may be requested.",
+  "exam_rules": "Closed-book computer-based test. NBME-developed content; multiple-choice only (single best answer). PANCE: 5 blocks of 60 questions, 60 minutes per block, optional 45-minute total break. PANRE: 4 blocks of 60 questions, 60 minutes per block, optional 45-minute total break. On-screen calculator provided. No personal items permitted in testing room.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Initial PA-C certification valid for 6 years. Ongoing Maintenance of Certification (MOC) required every 10 years thereafter. MOC includes: 100 CME credits per 2-year cycle (50 must be Category 1), passing PANRE or completing PANRE-LA, and logging practice hours. Biennial application submitted through NCCPA portal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Active PA-C (NCCPA-certified Physician Assistant) credential required; taken within the 10-year MOC cycle",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 6,
+    "notes": "PANCE: maximum 6 lifetime attempts total. After failing 6 times, candidate is permanently ineligible for PANCE. PANRE: no stated lifetime maximum; must be taken within MOC 10-year cycle. Full exam fee required for each attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Cardiovascular",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Pulmonary",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Gastrointestinal",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Musculoskeletal",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Endocrine",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Reproductive",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Neurologic/Psychiatric",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Genitourinary/Renal",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Dermatologic",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Hematologic/Oncologic",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Infectious Disease",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Ophthalmic/Otolaryngologic",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Other",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "PANCE/PANRE Blueprint",
+      "url": "https://www.nccpa.net/pance/",
+      "provider": "NCCPA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable content blueprint listing organ systems and task areas with percentage weights"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "NCCPA Practice Exam",
+      "url": "https://www.nccpa.net/prepare/",
+      "provider": "NCCPA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official NCCPA practice exam available through NCCPA portal"
+    }
+  ],
+  "aliases": [
+    "nccpa-panre",
+    "pa recertification exam",
+    "panre",
+    "panre physician assistant national recertifying exam",
+    "physician assistant recertifying exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nccpa-panre"
+}

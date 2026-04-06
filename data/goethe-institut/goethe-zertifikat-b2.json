@@ -1,0 +1,109 @@
+{
+  "exam_id": "goethe-zertifikat-b2",
+  "exam_name": "Goethe-Zertifikat B2",
+  "exam_code": "GZ B2",
+  "certifying_body": "Goethe-Institut",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.goethe.de/en/spr/kup/prf/prf/gzb2.html",
+  "passing_score": 60,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 190,
+  "exam_price_usd": null,
+  "exam_price_notes": "Approx. €150–€195 (~$165–$215 USD) depending on country",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Goethe-Institut (worldwide branches and partner institutes)",
+      "scheduling_url": "https://www.goethe.de/en/spr/kup/prf/ort.html",
+      "notes": null
+    },
+    {
+      "provider": "Prometric (selected locations for computer-based delivery)",
+      "scheduling_url": "https://www.prometric.com/",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID (passport or national identity card) required at all exam centres.",
+  "exam_rules": "No electronic devices (phones, tablets, dictionaries) permitted in the exam room. Oral exams conducted face-to-face with a trained examiner. Bring your ID and registration confirmation.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "All Goethe-Zertifikat certificates have lifetime validity — they do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "German"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; recommended ~500 hours of German study. Often required for university admission in German-speaking countries alongside TestDaF.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No official limit on retakes. Candidates may re-sit at the next available exam date after a failed attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Lesen — Reading (complex newspaper and magazine texts, correspondence, reports)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Hören — Listening (extended interviews, discussions, lectures, debates)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Schreiben — Writing (formal email/letter, argumentative text on current topic)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Sprechen — Speaking (present a complex topic, debate with partner, negotiate)",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "Goethe-Zertifikat Sample Exams (Modellsätze) — All Levels",
+      "url": "https://www.goethe.de/en/spr/kup/prf/prf.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Goethe-Institut Übungshefte (Official Practice Books)",
+      "url": "https://www.goethe.de/en/spr/kup/prf/vor.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "goethe-zertifikat b2",
+    "goethe-zertifikat-b2",
+    "gz b2"
+  ],
+  "practice_url": "https://quizforge.ai/tests/goethe-zertifikat-b2"
+}

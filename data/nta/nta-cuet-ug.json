@@ -1,0 +1,109 @@
+{
+  "exam_id": "nta-cuet-ug",
+  "exam_name": "CUET UG (Common University Entrance Test — Undergraduate)",
+  "exam_code": "CUET UG",
+  "certifying_body": "NTA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://cuet.nta.nic.in",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 50,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 60,
+  "exam_price_usd": null,
+  "exam_price_notes": "₹700–₹1,500 depending on number of subject papers chosen; ₹350–₹700 for SC/ST/PwBD",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "NTA CBT Centers",
+      "scheduling_url": "https://nta.ac.in",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Admit card + valid government-issued photo ID (Aadhaar preferred; Passport, Driving Licence also accepted)",
+  "exam_rules": "Computer Based Test (CBT) for most exams (NEET UG is pen-and-paper OMR). No calculators, mobile phones, or study materials. Negative marking: -1 mark per wrong answer (NEET, JEE), -1 mark (CUET), -1 mark (UGC-NET).",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Hindi",
+    "Regional Languages (CUET/NEET: 13 languages)"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Class 12 or equivalent; no age limit",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 2,
+    "max_attempts_total": null,
+    "notes": "JEE Main is held twice a year; NEET once a year; UGC-NET twice a year; CUET once a year"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section IA/IB: Language Papers (from 33 languages)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section II: Domain-Specific Subjects (27 subjects from Class 12 syllabus)",
+      "weight_percent": 50.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section III: General Test (Numerical Ability, Quantitative Reasoning, GK, Current Affairs)",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "syllabus",
+      "title": "NTA Official Exam Syllabi",
+      "url": "https://nta.ac.in/examination",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "previous_papers",
+      "title": "NTA Previous Year Question Papers",
+      "url": "https://nta.ac.in",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "NTA Abhyas App (Free Mock Tests)",
+      "url": "https://nta.ac.in/ExamCentre",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cuet ug",
+    "cuet ug common university entrance test undergraduate",
+    "nta-cuet-ug"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nta-cuet-ug"
+}

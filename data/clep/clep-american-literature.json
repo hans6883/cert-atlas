@@ -1,0 +1,144 @@
+{
+  "exam_id": "clep-american-literature",
+  "exam_name": "American Literature",
+  "exam_code": "AMLIT",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/american-literature",
+  "passing_score": 50,
+  "passing_score_scale": "50-200",
+  "total_questions": 98,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students who have completed a college-level survey course in American literature",
+  "recommended_experience": "Read widely and developed an appreciation of American literature, know the basic literary periods, and have a sense of the historical development of American literature",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Completed a college-level survey course in American literature",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": null
+  },
+  "domains": [
+    {
+      "id": "15%",
+      "name": "The Precolonial, Colonial and Early National Period (Beginnings–1800)",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "20%",
+      "name": "The Romantic Period (1800–1865)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "20%",
+      "name": "The Period of Realism and Naturalism (1865–1910)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "20%",
+      "name": "The Modernist Period (1910–1945)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "25%",
+      "name": "The Contemporary Period (1945–Present)",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP American Literature Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "This guide provides practice questions for the CLEP American Literature Exam only."
+    },
+    {
+      "resource_type": "online_course",
+      "title": "CLEP Practice App",
+      "url": "Go to examIam",
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides from examIam."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "article",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: American Literature",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: American Literature",
+      "url": "Link",
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "american literature",
+    "american literature clep",
+    "amlit",
+    "clep american literature",
+    "clep-american-literature"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-american-literature"
+}

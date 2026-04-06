@@ -1,0 +1,98 @@
+{
+  "exam_id": "new-relic-performance-engineer",
+  "exam_name": "New Relic Certified Performance Engineer",
+  "exam_code": "NR-PE",
+  "certifying_body": "New Relic",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://learn.newrelic.com/series/certifications",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 65,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 149.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://learn.newrelic.com/series/certifications",
+  "testing_centers": [
+    {
+      "provider": "Online (New Relic University)",
+      "scheduling_url": "https://learn.newrelic.com/series/certifications",
+      "notes": "Online proctored via New Relic University platform."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "New Relic account required.",
+  "exam_rules": "Closed-book. Online proctored. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 3,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "3-day waiting period after failed attempt. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Performance Concepts and SLOs",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Identifying Performance Bottlenecks",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Database and External Service Monitoring",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Error Analysis and Root Cause",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Capacity Planning",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "New Relic University",
+      "url": "https://learn.newrelic.com/",
+      "provider": "New Relic",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free learning paths at New Relic University"
+    }
+  ],
+  "aliases": [
+    "new relic certified performance engineer",
+    "new-relic-performance-engineer",
+    "nr-pe"
+  ],
+  "practice_url": "https://quizforge.ai/tests/new-relic-performance-engineer"
+}

@@ -1,0 +1,104 @@
+{
+  "exam_id": "hrci-phr",
+  "exam_name": "Professional in Human Resources (PHR)",
+  "exam_code": "PHR",
+  "certifying_body": "HRCI",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.hrci.org/certifications/hr-certifications/phr",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 150,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 180,
+  "exam_price_usd": 495.0,
+  "exam_price_notes": "Exam fee $395 + $100 application fee.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.hrci.org/certifications/apply",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/hrci",
+      "notes": "Computer-based testing at Pearson VUE test centers or online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID with name and signature. Name must match HRCI registration and NDA form exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator provided. Scratch paper provided at test center. No personal items in testing area.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn recertification credits (CEUs) every 3 years: PHR/SPHR/GPHR require 60 credits; aPHR requires 45 credits. Credits earned through continuing education, professional development, and HR activities.",
+  "continuing_education_units": 60,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "1 year experience in HR + bachelor's degree, OR 2 years HR experience + associate's degree, OR 4 years HR experience with high school diploma",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 3,
+    "notes": "90-day waiting period after first failed attempt. 180-day waiting period after second failed attempt. Maximum 3 attempts per exam cycle. Full fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Business Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Talent Planning and Acquisition",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Learning and Development",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Total Rewards",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Employee and Labor Relations",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "HRCI Exam Prep Resources",
+      "url": "https://www.hrci.org/our-programs/hrci-learning",
+      "provider": "HRCI",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guides, practice questions, and learning bundles"
+    }
+  ],
+  "aliases": [
+    "hrci-phr",
+    "phr",
+    "professional in human resources",
+    "professional in human resources phr"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hrci-phr"
+}

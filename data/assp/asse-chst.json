@@ -1,0 +1,98 @@
+{
+  "exam_id": "asse-chst",
+  "exam_name": "Construction Health and Safety Technician (CHST)",
+  "exam_code": "CHST",
+  "certifying_body": "ASSP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.bcsp.org/chst",
+  "passing_score": 460,
+  "passing_score_scale": null,
+  "total_questions": 200,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 360,
+  "exam_price_usd": 399.0,
+  "exam_price_notes": "BCSP exam fee $399. Administered by BCSP in partnership with ASSP.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.bcsp.org/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/bcsp",
+      "notes": "Computer-based testing at Pearson VUE authorized test centers. Online proctoring not available."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One government-issued photo ID with full name and signature. Name must match BCSP registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. Score reported on a scale of 0–800; passing score is 460. Exams are administered by BCSP (Board of Certified Safety Professionals) in partnership with ASSP.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "Earn 30 Continuance of Certification (COC) points (equivalent to 30 hours of continuing education) every 5 years and pay the annual maintenance fee. Points earned through safety-related coursework, presentations, publications, and professional activities.",
+  "continuing_education_units": 30,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "High school diploma or GED",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "3 years of construction health and safety experience with at least 35% of time devoted to construction safety",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between attempts. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Construction Hazard Recognition",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "OSHA Construction Standards",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Safety Planning",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "BCSP Examination Information Guides",
+      "url": "https://www.bcsp.org/",
+      "provider": "BCSP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official exam content outlines and information guides available on the BCSP website"
+    }
+  ],
+  "aliases": [
+    "asse-chst",
+    "bcsp chst",
+    "chst",
+    "construction health and safety technician chst",
+    "construction health safety technician"
+  ],
+  "practice_url": "https://quizforge.ai/tests/asse-chst"
+}

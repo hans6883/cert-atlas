@@ -1,0 +1,121 @@
+{
+  "exam_id": "offsec-oswe-web-300",
+  "exam_name": "OffSec Web Expert (OSWE)",
+  "exam_code": "OSWE",
+  "certifying_body": "OffSec",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.offsec.com/courses/web-300/",
+  "passing_score": 85,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Practical/Hands-On (exploit vulnerable machines, submit proof.txt files)"
+  ],
+  "exam_format": "Practical / Penetration Test Lab",
+  "duration_minutes": 1440,
+  "exam_price_usd": 1499.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.offsec.com/courses/pen-200/",
+  "testing_centers": [
+    {
+      "provider": "OffSec Proctored (online only)",
+      "scheduling_url": "https://www.offsec.com/",
+      "notes": "All OffSec exams are taken online via OffSec's own proctored VPN lab environment. No external testing centers. Must use OffSec-provided VPN connection."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Valid government-issued photo ID shown to proctor via webcam at exam start.",
+  "exam_rules": "Fully open-book/open-internet exam — research is allowed and expected. Automated tools like Metasploit are restricted (limited use for OSCP). Must write a professional penetration test report submitted within 24 hours after exam. AI-assisted answer generation is prohibited. Proctor monitors via webcam throughout.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "OffSec certifications do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "OSCP or equivalent web application security experience",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake attempts can be purchased separately. No mandatory waiting period. Retake pricing varies by course bundle."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Source Code Review and Authentication Bypass",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "SQL Injection via Source Code Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Server-Side Request Forgery (SSRF)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "OS Command Injection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "XML External Entity (XXE) Injection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Deserialization Vulnerabilities",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Cross-Site Scripting (XSS) and Prototype Pollution",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Exploit Chaining and Report Writing",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "OffSec Learning Library (PEN-200/WEB-300/EXP-301)",
+      "url": "https://www.offsec.com/library/",
+      "provider": "OffSec",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Course material, lab time, and one exam attempt typically bundled together"
+    }
+  ],
+  "aliases": [
+    "offsec web expert oswe",
+    "offsec-oswe-web-300",
+    "oswe"
+  ],
+  "practice_url": "https://quizforge.ai/tests/offsec-oswe-web-300"
+}

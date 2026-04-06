@@ -1,0 +1,101 @@
+{
+  "exam_id": "pega-pcdc",
+  "exam_name": "Certified Pega Decisioning Consultant (PCDC)",
+  "exam_code": "PEGAPCDC23V1",
+  "certifying_body": "Pegasystems",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://academy.pega.com/certification/certified-pega-decisioning-consultant",
+  "passing_score": 68,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored or in-person)",
+  "duration_minutes": 90,
+  "exam_price_usd": 175.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://academy.pega.com/certifications",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/pega",
+      "notes": "Online proctored or in-person via Pearson VUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required.",
+  "exam_rules": "Closed-book. Online proctored or in-person at Pearson VUE. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Recertify by retaking the exam or completing Pega continuing education.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Pega Customer Decision Hub Overview",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Proposition Management",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Engagement Strategies and Arbitration",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "AI and Predictive Models",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Channels and Real-Time Integration",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Pega Academy",
+      "url": "https://academy.pega.com/",
+      "provider": "Pegasystems",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online learning paths and missions aligned to certification exams at Pega Academy"
+    }
+  ],
+  "aliases": [
+    "certified pega decisioning consultant pcdc",
+    "pcdc",
+    "pega customer decision hub",
+    "pega decisioning consultant",
+    "pega-pcdc",
+    "pegapcdc23v1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/pega-pcdc"
+}

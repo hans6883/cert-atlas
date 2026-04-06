@@ -1,0 +1,93 @@
+{
+  "exam_id": "safe-mlo-state",
+  "exam_name": "SAFE MLO Test — State Component (various states)",
+  "exam_code": "State-MLO",
+  "certifying_body": "NMLS",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://mortgage.nationwidelicensingsystem.org/slr/Pages/TestingandEducation.aspx",
+  "passing_score": 75,
+  "passing_score_scale": "Percentage (75% passing for all SAFE MLO test components)",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (Pearson VUE in-person or OnVUE online proctored)",
+  "duration_minutes": null,
+  "exam_price_usd": 69.0,
+  "exam_price_notes": "$69 USD in addition to the national component (UST); required in some states",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/nmls",
+      "notes": "In-person testing at Pearson VUE test centers nationwide. Online proctoring available via Pearson VUE OnVUE."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID required at Pearson VUE test center: one government-issued photo ID with signature (primary) and one additional ID. Name on IDs must match NMLS registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted. Online proctored via Pearson VUE OnVUE: must be alone in room, no second monitors. Calculator provided on-screen; no personal calculators allowed. Candidates must complete NMLS-required pre-licensure education (PE) before scheduling. NMLS background check and credit report must be on file prior to testing.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "MLO licenses are renewed annually through NMLS. 8 hours of continuing education (CE) required each year, including: 3 hours of federal law, 2 hours of ethics, 2 hours of non-traditional mortgage lending, and 1 hour of undefined instruction. State-specific CE may be required in addition to federal CE requirements. Renew at mortgage.nationwidelicensingsystem.org.",
+  "continuing_education_units": 8,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Must pass the national component (UST or NTP) before or concurrently with the state component. Required only in states that mandate a separate state component.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after 1st and 2nd failed attempts. 180-day waiting period after 3rd and subsequent failed attempts. Each retake requires full exam fee ($110 or $69)."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "State Licensing Laws",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "State Mortgage Laws",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "State-Specific Requirements",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "NMLS Testing Candidate Handbook",
+      "url": "https://mortgage.nationwidelicensingsystem.org/slr/Pages/TestingandEducation.aspx",
+      "provider": "NMLS / Pearson VUE",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free candidate handbook available at NMLS resource center"
+    }
+  ],
+  "aliases": [
+    "mlo state test",
+    "nmls state component",
+    "safe mlo state",
+    "safe mlo test state component various states",
+    "safe state component",
+    "safe-mlo-state",
+    "state-mlo"
+  ],
+  "practice_url": "https://quizforge.ai/tests/safe-mlo-state"
+}

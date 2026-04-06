@@ -1,0 +1,95 @@
+{
+  "exam_id": "ndtr-exam",
+  "exam_name": "Nutrition and Dietetics Technician, Registered (NDTR) Examination",
+  "exam_code": "NDTR",
+  "certifying_body": "CDR",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.cdrnet.org/certifications/nutrition-and-dietetics-technician-registered",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score 25–75 for RDN (passing = 25); scaled for NDTR",
+  "total_questions": 125,
+  "question_types": [
+    "Multiple Choice (computer-adaptive)"
+  ],
+  "exam_format": "Computer-adaptive at Pearson VUE test centers",
+  "duration_minutes": 120,
+  "exam_price_usd": 140.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/cdr",
+      "notes": "Computer-adaptive exams administered at Pearson VUE test centers. Schedule through Pearson VUE after CDR eligibility authorization is received."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted at Pearson VUE test centers. Both exams are computer-adaptive (CAT format). 45-day waiting period between failed attempts. Maximum 5 total attempts permitted; candidates exhausting attempts require CDR re-evaluation before additional attempts are granted. Credentials must be renewed every 5 years by earning 75 CPEUs (Continuing Professional Education Units).",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "RDN and NDTR credentials must be renewed every 5 years by earning 75 CPEUs (Continuing Professional Education Units). Renewal managed through CDR at cdrnet.org.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 45,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 5,
+    "notes": "45-day waiting period between failed attempts. Maximum 5 total attempts; after exhausting attempts, CDR re-evaluation is required before further testing is permitted."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Principles of Dietetics (nutrition science, food science)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Nutrition Care for Individuals and Groups",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Management of Food and Nutrition Programs and Services",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Foodservice Systems Management",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "exam_content_guide",
+      "title": "CDR Exam Candidate Handbook",
+      "url": "https://www.cdrnet.org/certifications/registered-dietitian-nutritionist",
+      "provider": "CDR",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official candidate handbook and content outlines available at cdrnet.org"
+    }
+  ],
+  "aliases": [
+    "cdr ndtr",
+    "dietetic technician exam",
+    "dietetic technician registered exam",
+    "dtr exam",
+    "ndtr",
+    "ndtr exam",
+    "ndtr-exam",
+    "nutrition and dietetics technician exam",
+    "nutrition and dietetics technician registered ndtr examination"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ndtr-exam"
+}

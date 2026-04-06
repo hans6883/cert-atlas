@@ -1,0 +1,114 @@
+{
+  "exam_id": "servsafe-food-handler",
+  "exam_name": "ServSafe Food Handler Certificate",
+  "exam_code": "ServSafe FH",
+  "certifying_body": "ServSafe",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.servsafe.com/ServSafe-Food-Handler",
+  "passing_score": 75,
+  "passing_score_scale": "Percentage (75% passing for all exams)",
+  "total_questions": 40,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Online (non-proctored) or proctored (Manager certification)",
+  "duration_minutes": 60,
+  "exam_price_usd": 15.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "ServSafe Test Centers / Online",
+      "scheduling_url": "https://www.servsafe.com/",
+      "notes": "The Food Protection Manager exam is available at authorized proctored test sites or via online proctoring through servsafe.com. Food Handler, Alcohol, and Allergens exams are online-only and self-scheduled at servsafe.com. Employer group sessions are available for the Manager exam through authorized proctors."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Photo ID required for proctored exams (Manager certification). No ID required for online non-proctored exams (Food Handler, Alcohol, Allergens).",
+  "exam_rules": "Proctored Manager exam: closed-book, no personal items or notes permitted. Online non-proctored exams: open at any time on servsafe.com; no proctor or scheduling required. Manager exam requires a proctor (instructor, third-party, or online proctor).",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Food Protection Manager Certification: valid 5 years; must retake exam to renew. Food Handler Certificate: valid 3 years; must retake online course and exam. Alcohol and Allergens certificates: valid 3 years; must retake online exam. Renewal is at servsafe.com.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Spanish",
+    "Chinese (Simplified)",
+    "Korean",
+    "Japanese",
+    "French Canadian"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Food Protection Manager: retake available immediately; full exam fee applies. Some proctors may require scheduling lead time. No waiting period for online non-proctored exams (Food Handler, Alcohol, Allergens)."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Food Safety Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Personal Hygiene",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Cross-Contamination Prevention",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Time and Temperature Control",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Cleaning and Sanitizing",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "textbook",
+      "title": "ServSafe Manager Book",
+      "url": "https://www.servsafe.com/ServSafe-Manager",
+      "provider": "ServSafe / National Restaurant Association Solutions",
+      "is_official": true,
+      "price_usd": 65.0,
+      "notes": "Bundled course + exam packages available from $179. Online course also available at servsafe.com."
+    },
+    {
+      "resource_type": "online_course",
+      "title": "ServSafe Online Course",
+      "url": "https://www.servsafe.com/ServSafe-Manager",
+      "provider": "ServSafe",
+      "is_official": true,
+      "price_usd": 179.0,
+      "notes": "Includes online course + exam attempt; bundled pricing varies by channel"
+    }
+  ],
+  "aliases": [
+    "food handler certificate",
+    "servsafe fh",
+    "servsafe food handler",
+    "servsafe food handler certificate",
+    "servsafe handler",
+    "servsafe-food-handler"
+  ],
+  "practice_url": "https://quizforge.ai/tests/servsafe-food-handler"
+}

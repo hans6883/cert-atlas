@@ -1,0 +1,112 @@
+{
+  "exam_id": "asq-cqe",
+  "exam_name": "Certified Quality Engineer (CQE)",
+  "exam_code": "CQE",
+  "certifying_body": "ASQ",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://asq.org/cert/quality-engineer",
+  "passing_score": 550,
+  "passing_score_scale": null,
+  "total_questions": 160,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 270,
+  "exam_price_usd": 338.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://asq.org/cert",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/asq",
+      "notes": "Pearson VUE CBT test centers or remote proctored online. CSSWB is online only through ASQ website."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match ASQ registration exactly.",
+  "exam_rules": "Open-book: printed and bound reference materials allowed. No electronic reference aids (no tablets, phones, laptops, e-readers). No programmable calculators. Basic scientific calculators permitted. Available in English and Spanish for some exams.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "3-year recertification cycle. 18 Recertification Units (RUs) required per 3-year period. RUs can be earned through education, experience, and professional activities. Alternatively, recertify by retaking and passing the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "8 years of work experience in one or more areas of the CQE Body of Knowledge, of which 3 years must be in a decision-making position.",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 8,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "8-day waiting period between attempts. Full exam fee required for each retake. No limit on total number of attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Management and Leadership",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "The Quality System",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Product, Process, and Service Design",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Product and Process Control",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Continuous Improvement",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Quantitative Methods and Tools",
+      "weight_percent": 11.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "webpage",
+      "title": "ASQ Certification Body of Knowledge",
+      "url": "https://asq.org/cert",
+      "provider": "ASQ",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free Body of Knowledge (BoK) documents and exam preparation resources for each certification"
+    }
+  ],
+  "aliases": [
+    "asq-cqe",
+    "certified quality engineer",
+    "certified quality engineer cqe",
+    "cqe",
+    "quality engineer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/asq-cqe"
+}

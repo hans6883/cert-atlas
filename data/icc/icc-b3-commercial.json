@@ -1,0 +1,118 @@
+{
+  "exam_id": "icc-b3-commercial",
+  "exam_name": "ICC B3 Commercial Building Inspector",
+  "exam_code": "B3",
+  "certifying_body": "ICC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.iccsafe.org/professional-development/certifications-and-testing/",
+  "passing_score": 75,
+  "passing_score_scale": "Percentage (75% passing for all ICC exams)",
+  "total_questions": 80,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Computer-based at Pearson VUE or ICC testing sites",
+  "duration_minutes": 150,
+  "exam_price_usd": 174.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/icc",
+      "notes": "Computer-based testing at Pearson VUE testing centers nationwide. Schedule at home.pearsonvue.com/icc."
+    },
+    {
+      "provider": "ICC Authorized Testing Sites",
+      "scheduling_url": "https://www.iccsafe.org/professional-development/certifications-and-testing/",
+      "notes": "Select ICC exams also available at ICC-authorized proctoring sites."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "Computer-based exams administered at Pearson VUE testing centers or ICC-authorized sites. No personal reference materials permitted during the exam. Certain ICC exams are open-book (code book allowed) — verify for specific exam. Candidates must present valid photo ID at the testing center.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "ICC certifications are valid for 3 years. Renewal requires 45 continuing education units (CEUs) within the 3-year period. CEUs can be earned through ICC-approved courses, seminars, and events. Renew through your ICC member account at iccsafe.org.",
+  "continuing_education_units": 45,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies set by ICC; contact ICC or check the candidate handbook for current waiting period and attempt limits per exam."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Building Codes and Ordinances",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Commercial Construction Inspection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Structural Requirements",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Life Safety and Fire Protection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Mechanical/Electrical/Plumbing Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Accessibility Requirements (ADA)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "ICC Certification Exam Study Companions",
+      "url": "https://www.iccsafe.org/professional-development/certifications-and-testing/",
+      "provider": "ICC",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "ICC publishes official study companions for each exam. Check iccsafe.org for current titles and pricing."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ICC Online Practice Exams",
+      "url": "https://www.iccsafe.org/professional-development/",
+      "provider": "ICC",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "ICC offers online practice exams; pricing varies by exam."
+    }
+  ],
+  "aliases": [
+    "b3",
+    "commercial building inspector",
+    "icc b3",
+    "icc b3 commercial building inspector",
+    "icc commercial inspector",
+    "icc-b3-commercial"
+  ],
+  "practice_url": "https://quizforge.ai/tests/icc-b3-commercial"
+}

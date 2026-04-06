@@ -1,0 +1,124 @@
+{
+  "exam_id": "iiba-ccba",
+  "exam_name": "Certification of Competency in Business Analysis (CCBA)",
+  "exam_code": "CCBA",
+  "certifying_body": "IIBA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.iiba.org/certification/certification-of-competency-in-business-analysis/",
+  "passing_score": 65,
+  "passing_score_scale": "Percentage; 65% required to pass",
+  "total_questions": 130,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 150,
+  "exam_price_usd": 450.0,
+  "exam_price_notes": "IIBA member price $325. Non-member price $450.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.iiba.org/certification/",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://candidate.psiexams.com/",
+      "notes": "PSI test centers and online proctored delivery"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match IIBA registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. BABOK Guide v3 is the primary reference for exam content. 30-day waiting period required before retaking.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn 60 CDUs (Continuing Development Units) every 3 years. CDUs earned through professional development, education, volunteering, and BA activities. Submit CDUs via the IIBA certification portal.",
+  "continuing_education_units": 60,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Minimum 2 years (3,750 hours) of BA work experience in the last 7 years",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "training",
+      "description": "21 hours of professional development in the last 4 years",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Must wait 30 days before retaking. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Business Analysis Planning and Monitoring",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Elicitation and Collaboration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Requirements Life Cycle Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Strategy Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Requirements Analysis and Design Definition",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Solution Evaluation",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "BABOK Guide v3 (Business Analysis Body of Knowledge)",
+      "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/",
+      "provider": "IIBA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Primary reference for all IIBA certification exams"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "IIBA Exam Prep Resources",
+      "url": "https://www.iiba.org/career-resources/iiba-exam-prep/",
+      "provider": "IIBA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice questions and study resources"
+    }
+  ],
+  "aliases": [
+    "ccba",
+    "certification of competency business analysis",
+    "certification of competency in business analysis ccba",
+    "iiba-ccba"
+  ],
+  "practice_url": "https://quizforge.ai/tests/iiba-ccba"
+}

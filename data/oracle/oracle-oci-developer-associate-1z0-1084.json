@@ -1,0 +1,131 @@
+{
+  "exam_id": "oracle-oci-developer-associate-1z0-1084",
+  "exam_name": "Oracle Cloud Infrastructure 2023 Developer Professional (1Z0-1084-23)",
+  "exam_code": "1Z0-1084-23",
+  "certifying_body": "Oracle",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-developer-professional/pexam_1Z0-1084-23",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 245.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/oracle",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/oracle",
+      "notes": "Computer-based testing at Pearson VUE test centers or online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID with full name. Name must match Pearson VUE registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator for applicable exams. Proctor monitors throughout.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Oracle certifications are version-specific. When Oracle releases a new database/platform version, a new exam version is typically released. Previous certifications remain valid as earned.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Brazilian Portuguese",
+    "Simplified Chinese",
+    "Japanese",
+    "Korean",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Maximum 3 attempts per exam in a 12-month period. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Cloud Native Fundamentals",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Container Engine for Kubernetes (OKE)",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Functions",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "API Gateway",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Streaming and Queue",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "DevOps Service",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Object Storage and Artifacts",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Security and Observability",
+      "weight_percent": 14.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Oracle University",
+      "url": "https://education.oracle.com/",
+      "provider": "Oracle",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Oracle training courses and learning paths"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Oracle Exam Preparation Materials",
+      "url": "https://education.oracle.com/certification",
+      "provider": "Oracle",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice tests available through Oracle University"
+    }
+  ],
+  "aliases": [
+    "1z0-1084-23",
+    "oracle cloud infrastructure 2023 developer professional",
+    "oracle cloud infrastructure 2023 developer professional 1z0-1084-23",
+    "oracle-oci-developer-associate-1z0-1084"
+  ],
+  "practice_url": "https://quizforge.ai/tests/oracle-oci-developer-associate-1z0-1084"
+}

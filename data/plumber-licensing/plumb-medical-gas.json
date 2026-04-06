@@ -1,0 +1,101 @@
+{
+  "exam_id": "plumb-medical-gas",
+  "exam_name": "Medical Gas Installer/Verifier Exam (ASSE 6010/6020)",
+  "exam_code": "Med-Gas",
+  "certifying_body": "Plumber Licensing",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.asse-plumbing.org/",
+  "passing_score": 70,
+  "passing_score_scale": "Percentage (typically 70%; 72% for California C-36)",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Computer-based or paper test at testing center; most states allow the relevant plumbing code book (IPC or UPC) as a reference during the exam.",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Exams",
+      "scheduling_url": "https://candidate.psiexams.com/",
+      "notes": "PSI Exams administers most national and many state plumber licensing exams. Exams taken at PSI testing centers; no online proctoring for plumber license exams."
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/",
+      "notes": "Pearson VUE administers some state-specific plumbing license exams."
+    },
+    {
+      "provider": "State Licensing Board Offices",
+      "scheduling_url": null,
+      "notes": "Some states (e.g., Texas TSBPE, NYC DOB) administer exams directly through their own offices or contracted test centers."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "Open-book allowed in most states (IPC or UPC codebook); approved calculator permitted; government-issued photo ID required. Exams are computer-based or paper-based at a testing center; no online proctoring option for most plumber license exams.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "License renewal every 2–3 years; continuing education required (8–16 hours depending on state); plumbing code editions update every 3 years and may require code-update training.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Licensed plumber with medical gas installation experience; ASSE application required",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Typically a 30-day waiting period between failed attempts. Most states allow 3–5 attempts per year. Some states require reapplication after multiple consecutive failures."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Medical Gas Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Plumbing System Design and Installation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Water Supply and Distribution",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Safety and OSHA Requirements",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "International Plumbing Code (IPC) or Uniform Plumbing Code (UPC)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "med-gas",
+    "medical gas installer verifier exam asse 6010 6020",
+    "plumb-medical-gas"
+  ],
+  "practice_url": "https://quizforge.ai/tests/plumb-medical-gas"
+}

@@ -1,0 +1,114 @@
+{
+  "exam_id": "iiba-aaoc",
+  "exam_name": "Agile Analysis Certification (AAC)",
+  "exam_code": "AAC",
+  "certifying_body": "IIBA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.iiba.org/certification/agile-analysis-certification/",
+  "passing_score": 65,
+  "passing_score_scale": "Percentage; 65% required to pass",
+  "total_questions": 85,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 350.0,
+  "exam_price_notes": "IIBA member price $250. Non-member price $350.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.iiba.org/certification/",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://candidate.psiexams.com/",
+      "notes": "PSI test centers and online proctored delivery"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match IIBA registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. BABOK Guide v3 is the primary reference for exam content. 30-day waiting period required before retaking.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn 60 CDUs (Continuing Development Units) every 3 years. CDUs earned through professional development, education, volunteering, and BA activities. Submit CDUs via the IIBA certification portal.",
+  "continuing_education_units": 60,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Must wait 30 days before retaking. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Agile Principles and Mindset",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Value-Driven Delivery",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Stakeholder Engagement",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Team Performance Practices",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Adaptive Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Problem Detection and Resolution",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "BABOK Guide v3 (Business Analysis Body of Knowledge)",
+      "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/",
+      "provider": "IIBA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Primary reference for all IIBA certification exams"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "IIBA Exam Prep Resources",
+      "url": "https://www.iiba.org/career-resources/iiba-exam-prep/",
+      "provider": "IIBA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice questions and study resources"
+    }
+  ],
+  "aliases": [
+    "aac",
+    "aaoc",
+    "agile analysis certification",
+    "agile analysis certification aac",
+    "iiba-aaoc"
+  ],
+  "practice_url": "https://quizforge.ai/tests/iiba-aaoc"
+}

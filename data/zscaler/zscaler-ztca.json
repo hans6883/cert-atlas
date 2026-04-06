@@ -1,0 +1,72 @@
+{
+  "exam_id": "zscaler-ztca",
+  "exam_name": "ZTCA (Zscaler Zero Trust Cyber Associate)",
+  "exam_code": "ZTCA",
+  "certifying_body": "Zscaler",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.zscaler.com/zscaler-academy/ztca-zero-trust-certified-associate",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 75,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (online proctored via OnVUE or in-person Pearson VUE)",
+  "duration_minutes": 120,
+  "exam_price_usd": null,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/zscaler",
+      "notes": "ZDTA/ZDTE/ZDXA: In-person at Pearson VUE test centers or online-proctored via OnVUE. OnVUE not available in China. ZTCA is an unproctored online self-assessment only."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match Zscaler Cyber Academy account exactly.",
+  "exam_rules": "ZDTA/ZDTE/ZDXA: Online proctored (OnVUE) or in-person at Pearson VUE. Closed-book. No personal items, notes, or reference materials permitted. Online: must be alone in room, one display only, no VMs or remote desktop. Free study guide and exam blueprint available per certification on Cyber Academy. ZTCA is an unproctored self-assessment (online exam, not proctored).",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Proctored certifications (ZDTA/ZDTE/ZDXA) are valid for 2 years from date earned. Recertification requires retaking the current version of the exam before expiry.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between failed attempts. Full exam fee required for each retake. Exam fees are non-refundable and non-transferable."
+  },
+  "domains": [],
+  "official_objectives_url": "https://www.zscaler.com/zscaler-academy/ztca-zero-trust-certified-associate",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Zscaler Cyber Academy",
+      "url": "https://www.zscaler.com/zscaler-cyber-academy",
+      "provider": "Zscaler",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free study guides and eLearning courses available after creating a Cyber Academy account"
+    }
+  ],
+  "aliases": [
+    "zero trust certified architect",
+    "zero trust cyber associate",
+    "zscaler architect",
+    "zscaler zero trust certified architect ztca",
+    "zscaler ztca",
+    "zscaler-ztca",
+    "ztca",
+    "ztca zscaler zero trust cyber associate"
+  ],
+  "practice_url": "https://quizforge.ai/tests/zscaler-ztca"
+}

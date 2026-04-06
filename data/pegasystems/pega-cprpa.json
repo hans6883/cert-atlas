@@ -1,0 +1,102 @@
+{
+  "exam_id": "pega-cprpa",
+  "exam_name": "Certified Pega Robotic Process Automation Architect (CPRPA)",
+  "exam_code": "PEGACPRPA23V1",
+  "certifying_body": "Pegasystems",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://academy.pega.com/certification/certified-pega-rpa-architect",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored or in-person)",
+  "duration_minutes": 90,
+  "exam_price_usd": 175.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://academy.pega.com/certifications",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/pega",
+      "notes": "Online proctored or in-person via Pearson VUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required.",
+  "exam_rules": "Closed-book. Online proctored or in-person at Pearson VUE. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Recertify by retaking the exam or completing Pega continuing education.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "RPA Architecture and Design",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Robot Configuration and Automation",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Integration and Orchestration",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Exception Handling and Monitoring",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security and Governance",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Pega Academy",
+      "url": "https://academy.pega.com/",
+      "provider": "Pegasystems",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online learning paths and missions aligned to certification exams at Pega Academy"
+    }
+  ],
+  "aliases": [
+    "certified pega robotic process automation architect cprpa",
+    "certified pega rpa",
+    "cprpa",
+    "pega robotic process automation",
+    "pega rpa architect",
+    "pega-cprpa",
+    "pegacprpa23v1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/pega-cprpa"
+}

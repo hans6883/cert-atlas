@@ -1,0 +1,126 @@
+{
+  "exam_id": "hashicorp-terraform-associate-003",
+  "exam_name": "HashiCorp Certified: Terraform Associate (003)",
+  "exam_code": "Terraform Associate 003",
+  "certifying_body": "HashiCorp",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.hashicorp.com/certification/terraform-associate",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 57,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Fill-in-the-Blank"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 60,
+  "exam_price_usd": 70.5,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.hashicorp.com/certification",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://www.psionline.com/hashicorp",
+      "notes": "Online proctored via PSI. In-person testing also available at PSI test centers."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID with name and photograph. Name must match PSI registration exactly.",
+  "exam_rules": "Closed-book. No notes or documentation. No access to HashiCorp products during exam. Proctor monitors via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Wait 7 days before retaking. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Understand Infrastructure as Code (IaC) concepts",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Understand Terraform's purpose and use cases",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Understand Terraform basics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Use the Terraform CLI",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Interact with Terraform modules",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Use the core Terraform workflow",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Implement and maintain state",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Read, generate, and modify configuration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Understand Terraform Cloud capabilities",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "HashiCorp Learn (Developer Portal)",
+      "url": "https://developer.hashicorp.com/certifications",
+      "provider": "HashiCorp",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official tutorials and study guides on developer.hashicorp.com"
+    }
+  ],
+  "aliases": [
+    "hashicorp certified terraform associate 003",
+    "hashicorp-terraform-associate-003",
+    "hcp terraform",
+    "terraform",
+    "terraform associate",
+    "terraform associate 003"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hashicorp-terraform-associate-003"
+}

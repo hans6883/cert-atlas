@@ -1,0 +1,109 @@
+{
+  "exam_id": "dele-b1",
+  "exam_name": "DELE B1 (Umbral)",
+  "exam_code": "DELE B1",
+  "certifying_body": "Instituto Cervantes",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.cervantes.es/lengua_y_ensenanza/dele/dele_b1.htm",
+  "passing_score": 33,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 210,
+  "exam_price_usd": null,
+  "exam_price_notes": "Approx. €130–€175 (~$145–$195 USD) depending on country",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Instituto Cervantes Exam Centres (worldwide)",
+      "scheduling_url": "https://dele.org/en/exam-centres/",
+      "notes": null
+    },
+    {
+      "provider": "SIELE (Online, Computer-Based)",
+      "scheduling_url": "https://siele.org/en/exam-centres",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Valid government-issued photo ID (Passport, National ID card, or equivalent)",
+  "exam_rules": "No electronic devices or dictionaries. Oral exams conducted with examiner present or recorded. SIELE is fully computer-based.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "DELE certificates have lifetime validity. SIELE is valid for 5 years.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; recommended ~350 hours of Spanish study",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "DELE: no limit on retakes; CCSE: can retake immediately if failed"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Reading Comprehension (newspaper articles, instructions, correspondence)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Integrated Writing Skills (articles, formal letters, opinion texts)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Listening Comprehension (radio programmes, lectures, conversations)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Spoken Production and Interaction (argue positions, handle real situations)",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "DELE Modelos de Examen (Official Sample Papers)",
+      "url": "https://dele.org/en/sample-exams/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CCSE Official Preparation Materials",
+      "url": "https://ccse.cervantes.es/en/information/preparation-guides.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "dele b1",
+    "dele b1 umbral",
+    "dele-b1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/dele-b1"
+}

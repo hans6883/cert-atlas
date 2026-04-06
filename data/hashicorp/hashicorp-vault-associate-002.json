@@ -1,0 +1,113 @@
+{
+  "exam_id": "hashicorp-vault-associate-002",
+  "exam_name": "HashiCorp Certified: Vault Associate (002)",
+  "exam_code": "Vault Associate 002",
+  "certifying_body": "HashiCorp",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.hashicorp.com/certification/vault-associate",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 57,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Fill-in-the-Blank"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 60,
+  "exam_price_usd": 70.5,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.hashicorp.com/certification",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://www.psionline.com/hashicorp",
+      "notes": "Online proctored via PSI. In-person testing also available at PSI test centers."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID with name and photograph. Name must match PSI registration exactly.",
+  "exam_rules": "Closed-book. No notes or documentation. No access to HashiCorp products during exam. Proctor monitors via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Wait 7 days before retaking. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Compare authentication methods",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Create Vault policies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Assess Vault tokens",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Manage Vault leases",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Compare and configure Vault secrets engines",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Utilize Vault CLI",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Configure Vault HA",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "HashiCorp Learn (Developer Portal)",
+      "url": "https://developer.hashicorp.com/certifications",
+      "provider": "HashiCorp",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official tutorials and study guides on developer.hashicorp.com"
+    }
+  ],
+  "aliases": [
+    "hashicorp certified vault associate 002",
+    "hashicorp vault",
+    "hashicorp-vault-associate-002",
+    "vault associate",
+    "vault associate 002"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hashicorp-vault-associate-002"
+}

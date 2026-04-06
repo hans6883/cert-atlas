@@ -1,0 +1,68 @@
+{
+  "exam_id": "ssat-elementary",
+  "exam_name": "SSAT Elementary Level",
+  "exam_code": "SSAT-E",
+  "certifying_body": "SSAT",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ssat.org/test/elementary",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [],
+  "exam_format": "Multiple-choice (Verbal, Quantitative, Reading) + unscored Writing Sample; wrong answers penalized (-1/4 point)",
+  "duration_minutes": 110,
+  "exam_price_usd": 135.0,
+  "exam_price_notes": "$135 standard registration. $240 flex test (take at your own school). Additional fees for late registration.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Grades 3-4 (applying to grades 4-5)",
+      "is_required": false
+    }
+  ],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Verbal (Analogies)",
+      "weight_percent": 33.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Quantitative (Math)",
+      "weight_percent": 33.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Reading Comprehension",
+      "weight_percent": 34.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "ssat elementary",
+    "ssat elementary level",
+    "ssat lower",
+    "ssat-e",
+    "ssat-elementary"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ssat-elementary"
+}

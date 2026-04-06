@@ -1,0 +1,216 @@
+{
+  "exam_id": "clep-calculus",
+  "exam_name": "Calculus",
+  "exam_code": "CALC",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/calculus",
+  "passing_score": 50,
+  "passing_score_scale": "0-80",
+  "total_questions": 44,
+  "question_types": [
+    "Multiple Choice",
+    "Performance-Based"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": "No calculator is allowed for Section 1. An online graphing calculator (non-CAS) is allowed for Section 2. Students are expected to know how and when to make appropriate use of the calculator.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students who have completed a one-semester college course in calculus",
+  "recommended_experience": "Knowledge of preparatory mathematics, including algebra, geometry, trigonometry, and analytic geometry",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Knowledge of preparatory mathematics, including algebra, geometry, trigonometry, and analytic geometry",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "Limits (10%)",
+      "name": "Limits",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Statement of properties, e.g., limit of a constant, sum, product or quotient",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Limit calculations, including limits involving infinity",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Continuity",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Differential Calculus (50%)",
+      "name": "Differential Calculus",
+      "weight_percent": 50.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "The Derivative",
+          "sub_objectives": [
+            "Definitions of the derivative",
+            "Derivatives of elementary functions",
+            "Derivatives of sums, products and quotients",
+            "Derivative of a composite function (chain rule)",
+            "Implicit differentiation",
+            "Derivative of the inverse of a function",
+            "Higher order derivatives",
+            "Corresponding characteristics of graphs of f, f', and f''",
+            "Statement of the Mean Value Theorem; applications and graphical illustrations",
+            "Relation between differentiability and continuity",
+            "Use of L'Hospital's Rule (quotient and indeterminate forms)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Applications of the Derivative",
+          "sub_objectives": [
+            "Slope of a curve at a point",
+            "Tangent lines and linear approximation",
+            "Curve sketching: increasing and decreasing functions; relative and absolute maximum and minimum points; concavity; points of inflection",
+            "Extreme value problems",
+            "Velocity and acceleration of a particle moving along a line",
+            "Average and instantaneous rates of change",
+            "Related rates of change"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Integral Calculus (40%)",
+      "name": "Integral Calculus",
+      "weight_percent": 40.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Antiderivatives and Techniques of Integration",
+          "sub_objectives": [
+            "Concept of antiderivatives",
+            "Basic integration formulas",
+            "Integration by substitution (use of identities and change of variable)"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Applications of Antiderivatives",
+          "sub_objectives": [
+            "Distance and velocity from acceleration with initial conditions",
+            "Solutions of y' = ky and applications to growth and decay"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "The Definite Integral",
+          "sub_objectives": [
+            "Definition of the definite integral as the limit of a sequence of Riemann sums and approximations of the definite integral using areas of rectangles",
+            "Properties of the definite integral",
+            "The Fundamental Theorem"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Applications of the Definite Integral",
+          "sub_objectives": [
+            "Average value of a function on an interval",
+            "Area, including area between curves",
+            "Other (e.g., accumulated change from a rate of change)"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.collegeboard.org/",
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP Calculus Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "The Calculus exam is approximately 60% limits and differential calculus and 40% integral calculus."
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: Calculus",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: Calculus",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the Calculus exam."
+    },
+    {
+      "resource_type": "online_course",
+      "title": "CLEP Practice App",
+      "url": "https://www.examIam.com",
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides from examIam."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education (ACE)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "calc",
+    "calculus",
+    "calculus clep",
+    "clep calculus",
+    "clep-calculus"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-calculus"
+}

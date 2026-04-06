@@ -1,0 +1,98 @@
+{
+  "exam_id": "mulesoft-mcdn-level-1",
+  "exam_name": "MuleSoft Certified Developer — Level 1 (Mule 4)",
+  "exam_code": "MCDN-Level-1",
+  "certifying_body": "MuleSoft",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://training.salesforce.com/credentials/developeroverview",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://training.salesforce.com/credentials/developeroverview",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/mulesoft",
+      "notes": "Online proctored or in-person via Kryterion"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required.",
+  "exam_rules": "Closed-book. No notes or external resources. Online proctored via Kryterion.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 15,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "15-day waiting period after failed attempt. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Anypoint Platform Fundamentals",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Building Mule Applications",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "API Design with RAML",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Data Transformation with DataWeave",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Testing, Debugging, and Deployment",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "MuleSoft Training",
+      "url": "https://training.salesforce.com/",
+      "provider": "MuleSoft/Salesforce",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official training courses aligned to certification exams"
+    }
+  ],
+  "aliases": [
+    "mcdn-level-1",
+    "mulesoft certified developer level 1 mule 4",
+    "mulesoft-mcdn-level-1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/mulesoft-mcdn-level-1"
+}

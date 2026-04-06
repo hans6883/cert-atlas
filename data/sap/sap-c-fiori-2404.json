@@ -1,0 +1,124 @@
+{
+  "exam_id": "sap-c-fiori-2404",
+  "exam_name": "SAP Certified Development Associate — SAP Fiori Application Developer",
+  "exam_code": "C_FIORI_2404",
+  "certifying_body": "SAP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://training.sap.com/certification/c_fiori_2404",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 80,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Drag and Drop",
+    "Matching"
+  ],
+  "exam_format": "Linear (online proctored or in-person Pearson VUE)",
+  "duration_minutes": 180,
+  "exam_price_usd": 562.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://training.sap.com/certification",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/sap",
+      "notes": "In-person and online proctored via Pearson VUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID. Name must match registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. Online proctored or in-person at Pearson VUE. SAP certifications do not expire once passed (except SuccessFactors and cloud certs which require annual validation).",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Most SAP certifications do not expire. SAP SuccessFactors and cloud solution certifications require annual validation via a delta exam or stay current exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "German",
+    "Japanese",
+    "Chinese",
+    "French",
+    "Portuguese",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No official waiting period. Full exam fee ($562) required for retake. Unlimited attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "SAPUI5 and Fiori Development Basics",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "OData Services",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Fiori Launchpad Configuration",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Extension and Adaptation",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "SAP Business Technology Platform (BTP)",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Security and Deployment",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "SAP Learning Hub",
+      "url": "https://learning.sap.com/",
+      "provider": "SAP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official SAP training and e-learning aligned to certification exams"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "SAP Certification Hub Practice Tests",
+      "url": "https://training.sap.com/",
+      "provider": "SAP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice exams available for purchase through SAP Training"
+    }
+  ],
+  "aliases": [
+    "c_fiori_2404",
+    "sap certified development associate sap fiori application developer",
+    "sap fiori application developer",
+    "sap fiori developer",
+    "sap-c-fiori-2404",
+    "sapui5 developer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/sap-c-fiori-2404"
+}

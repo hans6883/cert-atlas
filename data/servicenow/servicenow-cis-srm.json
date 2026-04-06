@@ -1,0 +1,94 @@
+{
+  "exam_id": "servicenow-cis-srm",
+  "exam_name": "ServiceNow Certified Implementation Specialist – Supplier Risk and Performance Management (CIS-SRM)",
+  "exam_code": "CIS-SRM",
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-srm.html",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/servicenow",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/servicenow",
+      "notes": "In-person and online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match exactly as registered.",
+  "exam_rules": "No notes, books, or external resources. Closed-book exam. ServiceNow platform access not provided during exam. Proctor monitors via webcam.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "Pass a delta maintenance exam after each major ServiceNow release (approximately twice per year). Delta exams are shorter and free for certified candidates.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "CSA certification recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "7-day waiting period after first failed attempt. Full exam fee required for retake. Certifications must be maintained via delta exams after each major release."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "SRM Configuration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Supplier Assessments",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Performance Management",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official NowLearning platform with free and paid courses aligned to each cert"
+    }
+  ],
+  "aliases": [
+    "cis-srm",
+    "servicenow certified implementation specialist supplier risk and performance management cis-srm",
+    "servicenow supplier management",
+    "servicenow supplier risk",
+    "servicenow-cis-srm"
+  ],
+  "practice_url": "https://quizforge.ai/tests/servicenow-cis-srm"
+}

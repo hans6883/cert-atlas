@@ -1,0 +1,106 @@
+{
+  "exam_id": "atlassian-acp-900",
+  "exam_name": "Atlassian Certified Expert",
+  "exam_code": "ACP-900",
+  "certifying_body": "Atlassian",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.atlassian.com/university/certification/certifications/atlassian-certified-expert",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored or in-person)",
+  "duration_minutes": null,
+  "exam_price_usd": 500.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.atlassian.com/university/certification",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/atlassian",
+      "notes": "Online and in-person proctored via Pearson VUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. Online proctored or in-person at Pearson VUE. Webcam and microphone required for online proctoring.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Recertify by passing the current exam version or completing approved continuing education.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "One or more ACP certifications required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period between attempts. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Atlassian Platform Architecture",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Advanced Configuration and Administration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Integration and Extensibility",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Enterprise Deployment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Best Practices and Governance",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Atlassian University",
+      "url": "https://university.atlassian.com/",
+      "provider": "Atlassian",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official learning paths and practice tests"
+    }
+  ],
+  "aliases": [
+    "ace",
+    "acp-900",
+    "atlassian certified expert",
+    "atlassian expert certification",
+    "atlassian-acp-900"
+  ],
+  "practice_url": "https://quizforge.ai/tests/atlassian-acp-900"
+}

@@ -1,0 +1,132 @@
+{
+  "exam_id": "open-group-togaf-combined",
+  "exam_name": "TOGAF® Combined (Level 1 & 2)",
+  "exam_code": "OG0-093",
+  "certifying_body": "The Open Group",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.opengroup.org/certifications/togaf-individual-certification",
+  "passing_score": null,
+  "passing_score_scale": "55% required for Part 1 (Foundation), 60% required for Part 2 (Certified)",
+  "total_questions": 48,
+  "question_types": [
+    "Multiple Choice",
+    "Scenario-based Essay"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 150,
+  "exam_price_usd": 695.0,
+  "exam_price_notes": "$695 combined exam. Part 2 is open-book (TOGAF Standard v10 permitted).",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.opengroup.org/certifications/togaf-individual-certification",
+  "testing_centers": [
+    {
+      "provider": "PeopleCert",
+      "scheduling_url": "https://www.peoplecert.org",
+      "notes": "Online proctored and test center delivery for TOGAF and ArchiMate exams"
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/opengroup",
+      "notes": "Test center and online proctored delivery for select Open Group exams"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name. Name must match registration exactly.",
+  "exam_rules": "TOGAF Level 1 (Foundation) is closed-book. TOGAF Level 2 (Certified) and Combined Part 2 are open-book: the TOGAF Standard v10 document is permitted. No expiry on Open Group certifications. CBP (Certified Business Professional) pathway available for TOGAF.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Open Group certifications do not expire and do not require renewal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies are set by the delivery partner (PeopleCert or Pearson VUE). Check with the relevant provider."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Introduction to Enterprise Architecture",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "The Architecture Development Method (ADM)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "ADM Guidelines and Techniques",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Architecture Content Framework",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Enterprise Continuum and Tools",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "TOGAF Reference Models",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Architecture Capability Framework",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Applying the ADM (Scenario-Based)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "TOGAF Standard, 10th Edition",
+      "url": "https://www.opengroup.org/togaf/",
+      "provider": "The Open Group",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "The primary reference document; permitted in Level 2 / Combined Part 2 exams"
+    },
+    {
+      "resource_type": "pdf",
+      "title": "Open Group Certification Study Guides",
+      "url": "https://www.opengroup.org/certifications/togaf-individual-certification",
+      "provider": "The Open Group",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official exam preparation materials available on the certification page"
+    }
+  ],
+  "aliases": [
+    "og0-093",
+    "open-group-togaf-combined",
+    "togaf combined",
+    "togaf combined level 1 2",
+    "togaf level 1 and 2"
+  ],
+  "practice_url": "https://quizforge.ai/tests/open-group-togaf-combined"
+}

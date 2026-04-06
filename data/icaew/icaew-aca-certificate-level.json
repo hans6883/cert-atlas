@@ -1,0 +1,110 @@
+{
+  "exam_id": "icaew-aca-certificate-level",
+  "exam_name": "ACA Certificate Level (6 Papers)",
+  "exam_code": "ACA Certificate Level",
+  "certifying_body": "ICAEW",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.icaew.com/qualifications/aca/certificate-level",
+  "passing_score": 55,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice (Certificate Level)",
+    "Written (Professional and Advanced Level)"
+  ],
+  "exam_format": "Computer-based (Certificate Level); Written paper (Professional and Advanced Level)",
+  "duration_minutes": 90,
+  "exam_price_usd": null,
+  "exam_price_notes": "Approx. £200–£300 per paper sitting; varies by exam centre and region. ICAEW student registration required (~£300/year).",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.icaew.com/qualifications/aca/exam-booking",
+  "testing_centers": [
+    {
+      "provider": "ICAEW / Pearson VUE",
+      "scheduling_url": "https://www.icaew.com/qualifications/aca/exam-booking",
+      "notes": "Certificate Level papers are computer-based, booked at Pearson VUE test centres. Professional and Advanced Level papers are written (paper-based) examinations, sat in ICAEW-approved examination centres worldwide."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID. ICAEW student registration number required for booking. Name must match ICAEW registration.",
+  "exam_rules": "Certificate Level: computer-based, closed-book, 1.5 hours per paper. Professional Level: written, 3.5 hours, tax tables provided for BPT. Advanced Level Case Study: written, 4 hours, open book (pre-seen material permitted). No personal notes or unauthorised materials.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "ACA qualification does not expire. ICAEW members must complete a minimum of 40 CPD hours per year to maintain membership and practising certificate. Ongoing CPD is mandatory for practising members.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "registration",
+      "description": "Must be registered as an ICAEW student under an Authorised Training Employer (ATE) or Principal and have a valid training contract.",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Exams are offered in March/June/September/December windows. Students may attempt each paper multiple times; full fee required for each attempt. No maximum attempt limit, but progress reviews apply under training contract rules."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Accounting",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Assurance",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Business and Finance",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Law",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Management Information",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Principles of Taxation",
+      "weight_percent": 16.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ICAEW Learning Materials (ICAEW VITAL)",
+      "url": "https://www.icaew.com/qualifications/aca/study-materials",
+      "provider": "ICAEW",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ICAEW study manuals, question banks, and mock exams available via ICAEW's online learning platform (VITAL)."
+    }
+  ],
+  "aliases": [
+    "aca certificate level",
+    "aca certificate level 6 papers",
+    "icaew-aca-certificate-level"
+  ],
+  "practice_url": "https://quizforge.ai/tests/icaew-aca-certificate-level"
+}

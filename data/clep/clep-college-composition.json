@@ -1,0 +1,340 @@
+{
+  "exam_id": "clep-college-composition",
+  "exam_name": "College Composition",
+  "exam_code": "COMP",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/college-composition",
+  "passing_score": 50,
+  "passing_score_scale": "20-80",
+  "total_questions": 50,
+  "question_types": [
+    "multiple_choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 120,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": "Includes pretest multiple-choice questions that are not counted toward the test taker's score. Essays are typed on the computer and must cite sources whether paraphrasing or quoting.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students seeking to demonstrate college-level writing skills.",
+  "recommended_experience": "Knowledge of the fundamental principles of rhetoric and composition, ability to apply Standard Written English principles, and familiarity with research and reference skills.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Knowledge of the fundamental principles of rhetoric and composition and ability to apply Standard Written English principles.",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Colleges set their own credit-granting policies and differ with regard to their acceptance of the College Composition exam."
+  },
+  "domains": [
+    {
+      "id": "Conventions of Standard Written English",
+      "name": "Conventions of Standard Written English",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Syntax (parallelism, coordination, subordination)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Sentence boundaries (comma splices, run-ons, sentence fragments)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Recognition of correct sentences",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Concord/agreement (pronoun reference, case shift, and number; subject-verb; verb tense)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Diction",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Modifiers",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Idiom",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Active/passive voice",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Lack of subject in modifying word group",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Logical comparison",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Logical agreement",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.12",
+          "title": "Punctuation",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Revision Skills",
+      "name": "Revision Skills",
+      "weight_percent": 40.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Organization",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Evaluation of evidence",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Awareness of audience, tone, and purpose",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Level of detail",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Coherence between sentences and paragraphs",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Sentence variety and structure",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Main idea, thesis statements, and topic sentences",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Rhetorical effects and emphasis",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Use of language",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.10",
+          "title": "Evaluation of author's authority and appeal",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.11",
+          "title": "Evaluation of reasoning",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.12",
+          "title": "Consistency of point of view",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.13",
+          "title": "Transitions",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.14",
+          "title": "Sentence-level errors primarily relating to the conventions of Standard Written English",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Ability to Use Source Materials",
+      "name": "Ability to Use Source Materials",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Use of reference materials",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Evaluation of sources",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Integration of resource material",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Documentation of sources (including, but not limited to, MLA, APA, and Chicago manuals of style)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Rhetorical Analysis",
+      "name": "Rhetorical Analysis",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Appeals",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Tone",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Organization/structure",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Rhetorical effects",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Use of language",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Evaluation of evidence",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP College Composition and College Composition Modular Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "Provides practice questions for the CLEP College Composition and College Composition Modular Exams."
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: College Composition",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: College Composition",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the College Composition exam."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "College Composition Resource Guide and Sample Questions",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Details about the exam breakdown, credit recommendations, and free sample questions."
+    },
+    {
+      "resource_type": "article",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education (ACE)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    },
+    {
+      "resource_type": "app",
+      "title": "CLEP Practice App",
+      "url": "examIam",
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides."
+    },
+    {
+      "resource_type": "article",
+      "title": "College Composition Scoring and Score Availability Dates",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Access scoring dates for the current academic year as well as dates for when scores will be made available to students and mailed to institutions."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    }
+  ],
+  "aliases": [
+    "clep college composition",
+    "clep-college-composition",
+    "college composition",
+    "college composition clep",
+    "comp"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-college-composition"
+}

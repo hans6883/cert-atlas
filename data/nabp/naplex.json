@@ -1,0 +1,98 @@
+{
+  "exam_id": "naplex",
+  "exam_name": "NAPLEX (North American Pharmacist Licensure Examination)",
+  "exam_code": "NAPLEX",
+  "certifying_body": "NABP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://nabp.pharmacy/programs/naplex/",
+  "passing_score": 75,
+  "passing_score_scale": "Scaled scores; NAPLEX scale 0–150 (passing 75), MPJE scale 0–100 (passing 75)",
+  "total_questions": 250,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response",
+    "Computer-Adaptive (NAPLEX)"
+  ],
+  "exam_format": "Computer-based at Pearson VUE (NAPLEX is computer-adaptive)",
+  "duration_minutes": 255,
+  "exam_price_usd": 680.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/nabp",
+      "notes": "NAPLEX, MPJE, and FPGEE are administered at Pearson VUE testing centers. Schedule online at home.pearsonvue.com/nabp. ExCPT is administered separately by NHA at PSI or NHA testing sites."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name must match NABP e-Profile exactly. Two forms of ID may be required at some testing sites.",
+  "exam_rules": "No personal items, notes, phones, or reference materials permitted in testing room. NABP e-Profile enrollment required before registering for NAPLEX, MPJE, or FPGEE. State board eligibility confirmation required before scheduling NAPLEX and MPJE. NAPLEX score is valid for one year from test date for licensure purposes.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Pharmacist licensure renewal requirements vary by state. ExCPT (NHA) requires renewal every 2 years with continuing education. NAPLEX score itself does not expire for most states (check individual state board rules).",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Graduate of an ACPE-accredited pharmacy program (or FPGEC certificate for foreign graduates)",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 5,
+    "notes": "30-day waiting period between NAPLEX attempts. Maximum of 5 total NAPLEX attempts; 6th or subsequent attempts require individual state board approval. MPJE retake waiting period and limits vary by state board. FPGEE has its own eligibility window; consult NABP for retake rules."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Pharmacotherapy and Patient Assessment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Drug Information, Pharmacy Practice, and Patient Safety",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Compounding, Dispensing, and Medication Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Calculations and Pharmaceutical Sciences",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "candidate_handbook",
+      "title": "NAPLEX/MPJE Registration Bulletin",
+      "url": "https://nabp.pharmacy/programs/naplex/",
+      "provider": "NABP",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official registration bulletins and competency statements available at nabp.pharmacy"
+    }
+  ],
+  "aliases": [
+    "naplex",
+    "naplex north american pharmacist licensure examination",
+    "north american pharmacist licensure examination",
+    "pharmacist licensure exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/naplex"
+}

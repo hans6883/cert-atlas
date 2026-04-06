@@ -1,0 +1,114 @@
+{
+  "exam_id": "nic-barbering",
+  "exam_name": "NIC Barbering Written Exam",
+  "exam_code": "NIC-BW",
+  "certifying_body": "NIC / Cosmetology Licensing",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nictest.com/",
+  "passing_score": 75,
+  "passing_score_scale": "Percentage (75% passing for most exams)",
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice (written)",
+    "Practical Performance Evaluation (practical)"
+  ],
+  "exam_format": "Computer-based (written); In-person practical at authorized site",
+  "duration_minutes": 120,
+  "exam_price_usd": 99.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "NIC / State Board Exam Sites",
+      "scheduling_url": "https://www.nictest.com/",
+      "notes": "Exams are administered at authorized NIC testing sites, often coordinated through state boards of cosmetology. Registration and scheduling handled at nictest.com or through the candidate's state board. Practical exams require a mannequin and kit supplied by the candidate per state board specifications."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name must match registration. Some states require proof of school enrollment or graduation hours.",
+  "exam_rules": "No personal items, notes, or electronic devices permitted during written exam. Practical exams require candidate-supplied kit; allowed tools and mannequin specifications vary by state. Written exam is computer-based at authorized test site.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Cosmetology licenses are issued by state boards after passing NIC (or equivalent) exams. License renewal periods and continuing education requirements vary by state; typically 2-year renewal cycles with CEU requirements. Candidates must contact their state board for renewal details.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Spanish (availability varies by state)"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies are set by individual state boards. Most states impose a waiting period between failed attempts (commonly 30–90 days). Full exam fee typically required for each retake. Check your state board for specifics."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Infection Control and Safety",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Anatomy and Physiology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Chemistry (Hair, Skin, and Shaving Products)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Hair Cutting and Styling Techniques",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Shaving and Facial Services",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Chemical Services (relaxers, color)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Business Skills and State Law",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "website",
+      "title": "NIC Candidate Information Bulletin",
+      "url": "https://www.nictest.com/",
+      "provider": "NIC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Candidate information bulletins and content outlines available at nictest.com"
+    }
+  ],
+  "aliases": [
+    "barber written",
+    "barbering written",
+    "nic barbering",
+    "nic barbering written exam",
+    "nic-barbering",
+    "nic-bw"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nic-barbering"
+}

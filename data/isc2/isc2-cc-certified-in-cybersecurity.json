@@ -1,0 +1,81 @@
+{
+  "exam_id": "isc2-cc-certified-in-cybersecurity",
+  "exam_name": "CC – Certified in Cybersecurity",
+  "exam_code": "CC",
+  "certifying_body": "ISC2",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.isc2.org/certifications/cc",
+  "passing_score": 700,
+  "passing_score_scale": "0-1000",
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": null,
+  "duration_minutes": 120,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/isc2",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/isc2",
+      "notes": "In-person and online proctored (OnVUE). CISSP is Computer Adaptive Testing (CAT)."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name, photo, and signature. Name must match exactly as registered. Foreign nationals: passport required.",
+  "exam_rules": "No personal items in testing room. Scratch paper provided. No food, drinks (except clear water in clear container), or breaks for shorter exams. CISSP: optional scheduled break at question 100.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn CPE (Continuing Professional Education) credits and pay Annual Maintenance Fee (AMF). AMF is $125/year. CPE credits through education, contributions to the field, or unique work experience.",
+  "continuing_education_units": 45,
+  "available_languages": [
+    "English",
+    "Chinese",
+    "German",
+    "Japanese",
+    "Korean",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after first failed attempt. 90-day waiting period after second failed attempt. Maximum 3 attempts in a 12-month period. Full exam fee required for each retake."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ISC2 Official Study Guide",
+      "url": "https://www.isc2.org/training",
+      "provider": "ISC2",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CBK training, self-paced and instructor-led options"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ISC2 Official Practice Tests",
+      "url": "https://www.isc2.org/training",
+      "provider": "ISC2",
+      "is_official": true,
+      "price_usd": null,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cc",
+    "cc certified in cybersecurity",
+    "certified in cybersecurity",
+    "isc2-cc-certified-in-cybersecurity"
+  ],
+  "practice_url": "https://quizforge.ai/tests/isc2-cc-certified-in-cybersecurity"
+}

@@ -1,0 +1,108 @@
+{
+  "exam_id": "ibm-watsonx-genai",
+  "exam_name": "IBM Certified watsonx Generative AI Engineer - Associate",
+  "exam_code": "C1000-185",
+  "certifying_body": "IBM",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ibm.com/training/certification/ibm-certified-watsonx-generative-ai-engineer-associate-C9007000",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 62,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.pearsonvue.com/ibm",
+      "notes": "Online proctoring available through Pearson VUE OnVUE; in-person test centers also available"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No notes or external resources permitted. Proctor monitors via webcam for online proctored sessions. Assessment exams (unproctored practice tests) are also available via Pearson VUE.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "IBM certifications are valid for 2 years. Renew by retaking the current version or a higher-level exam before expiry.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Analyze and Design a Generative AI Solution",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Prompt Engineering",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Fine-Tuning",
+      "weight_percent": 31.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Retrieval-Augmented Generation (RAG)",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Deployment",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Integration with Model Orchestration",
+      "weight_percent": 8.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://www.ibm.com/training/certification/ibm-certified-watsonx-generative-ai-engineer-associate-C9007000",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "IBM Training",
+      "url": "https://www.ibm.com/training",
+      "provider": "IBM",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official IBM instructor-led and self-paced training; study guides and sample tests available per cert page"
+    }
+  ],
+  "aliases": [
+    "c1000-185",
+    "c9007000",
+    "ibm ai engineer",
+    "ibm certified watsonx",
+    "ibm certified watsonx generative ai engineer - associate",
+    "ibm watsonx genai",
+    "ibm-watsonx-genai"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ibm-watsonx-genai"
+}

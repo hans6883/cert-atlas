@@ -1,0 +1,119 @@
+{
+  "exam_id": "hashicorp-terraform-authoring-operations-professional-603",
+  "exam_name": "HashiCorp Certified: Terraform Authoring and Operations Professional",
+  "exam_code": "Terraform Professional 603",
+  "certifying_body": "HashiCorp",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.hashicorp.com/certification/terraform-authoring-and-operations-professional",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Fill-in-the-Blank"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 120.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.hashicorp.com/certification",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://www.psionline.com/hashicorp",
+      "notes": "Online proctored via PSI. In-person testing also available at PSI test centers."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID with name and photograph. Name must match PSI registration exactly.",
+  "exam_rules": "Closed-book. No notes or documentation. No access to HashiCorp products during exam. Proctor monitors via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "Terraform Associate certification recommended before attempting Professional",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Wait 7 days before retaking. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Understand Terraform Modules",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Use the Core Terraform Workflow",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Interact with Terraform Modules",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Implement and Maintain State",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Use the Terraform CLI Outside of Core Workflow",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Navigate Terraform Workflow",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Automate Terraform Operations",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "HashiCorp Learn (Developer Portal)",
+      "url": "https://developer.hashicorp.com/certifications",
+      "provider": "HashiCorp",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official tutorials and study guides on developer.hashicorp.com"
+    }
+  ],
+  "aliases": [
+    "hashicorp certified terraform authoring and operations professional",
+    "hashicorp-terraform-authoring-operations-professional-603",
+    "terraform pro",
+    "terraform professional",
+    "terraform professional 603"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hashicorp-terraform-authoring-operations-professional-603"
+}

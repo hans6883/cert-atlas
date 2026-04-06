@@ -1,0 +1,116 @@
+{
+  "exam_id": "nha-cehrs",
+  "exam_name": "Certified Electronic Health Records Specialist (CEHRS)",
+  "exam_code": "CEHRS",
+  "certifying_body": "NHA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nhanow.com/certifications/electronic-health-records-specialist",
+  "passing_score": 390,
+  "passing_score_scale": "390/500 scaled score",
+  "total_questions": 110,
+  "question_types": [
+    "Multiple Choice (single best answer)"
+  ],
+  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "duration_minutes": 150,
+  "exam_price_usd": 117.0,
+  "exam_price_notes": "$117 exam fee.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.nhanow.com/certifications",
+  "testing_centers": [
+    {
+      "provider": "PSI Testing Centers",
+      "scheduling_url": "https://www.nhanow.com/certifications",
+      "notes": "PSI testing centers nationwide; online remote proctoring also available"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match NHA registration exactly. Secondary ID may be requested at test center.",
+  "exam_rules": "Closed-book computer-based test. On-screen calculator provided where applicable. No personal items permitted in testing room. Score scale 200–500; passing score is 390.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "2-year certification validity. Renewal requires 10 CE credits per 2-year cycle. CE can be completed through NHA online platform or approved providers. Renewal application submitted through NHA candidate portal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "Completion of an NHA-recognized EHR program or 1 year of recent work experience with electronic health records",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Candidates must wait 30 days before retaking an NHA exam. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "EHR Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Patient Registration and Scheduling",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Clinical Documentation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Health Information Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Revenue Cycle",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "NHA Exam Content Outline",
+      "url": "https://www.nhanow.com/certifications",
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free content outlines per certification available on NHA website"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "NHA Practice Tests",
+      "url": "https://www.nhanow.com/study-materials",
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official NHA study materials and practice tests available for purchase"
+    }
+  ],
+  "aliases": [
+    "cehrs",
+    "cehrs exam",
+    "certified electronic health records specialist cehrs",
+    "electronic health records nha",
+    "nha ehr specialist",
+    "nha-cehrs"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nha-cehrs"
+}

@@ -1,0 +1,70 @@
+{
+  "exam_id": "fortinet-nse1",
+  "exam_name": "NSE 1 Network Security Associate",
+  "exam_code": "NSE1",
+  "certifying_body": "Fortinet",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse1",
+  "passing_score": null,
+  "passing_score_scale": "percentage",
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": "Multiple Choice",
+  "duration_minutes": 60,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/fortinet",
+      "notes": "NSE 4 and above via Pearson VUE test centers or OnVUE online proctoring"
+    },
+    {
+      "provider": "Fortinet Training Institute (online)",
+      "scheduling_url": "https://training.fortinet.com/",
+      "notes": "NSE 1, 2, and 3 are free self-paced online courses with proctored assessments on the Fortinet training portal"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required for Pearson VUE exams (NSE 4 and above). NSE 1-3 are completed online via the Fortinet training portal with no external ID verification.",
+  "exam_rules": "NSE 4 and above: Closed-book exam via Pearson VUE. No notes, study materials, or electronic devices permitted. Personal items must be stored. No food or drink. NSE 1-3: Free online self-paced assessments; no proctoring. NSE 8 includes a separate written exam and an 8-hour hands-on practical lab.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "NSE 4 through NSE 8 certifications are valid for 3 years. Renewal requires earning CE credits through Fortinet's continuing education program or retaking the current exam version. NSE 1-3 are valid for 2 years and renewed by retaking the free assessments.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between retake attempts for NSE 4 through NSE 7. NSE 1-3 may be retaken immediately. NSE 8 retake policies are scheduled separately through Fortinet."
+  },
+  "domains": [],
+  "official_objectives_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse1",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Fortinet Training Institute",
+      "url": "https://training.fortinet.com/",
+      "provider": "Fortinet",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official self-paced and instructor-led training; free for NSE 1-3"
+    }
+  ],
+  "aliases": [
+    "fortinet nse 1",
+    "fortinet-nse1",
+    "network security associate level 1",
+    "nse 1",
+    "nse 1 network security associate",
+    "nse1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/fortinet-nse1"
+}

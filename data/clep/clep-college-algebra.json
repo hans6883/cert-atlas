@@ -1,0 +1,186 @@
+{
+  "exam_id": "clep-college-algebra",
+  "exam_name": "College Algebra",
+  "exam_code": "COLALG",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/college-algebra",
+  "passing_score": 50,
+  "passing_score_scale": "0-80",
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": "An online scientific calculator (nongraphing) will be available during the exam. Students are expected to know how and when to make appropriate use of the calculator.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students who have completed a one-semester college course in algebra",
+  "recommended_experience": "Familiarity with currently taught algebraic vocabulary, symbols, and notation",
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy."
+  },
+  "domains": [
+    {
+      "id": "Algebraic operations (25%)",
+      "name": "Algebraic operations",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "Operations with exponents",
+          "title": "Operations with exponents",
+          "sub_objectives": []
+        },
+        {
+          "id": "Factoring and expanding polynomials",
+          "title": "Factoring and expanding polynomials",
+          "sub_objectives": []
+        },
+        {
+          "id": "Operations with algebraic expressions",
+          "title": "Operations with algebraic expressions",
+          "sub_objectives": []
+        },
+        {
+          "id": "Absolute value",
+          "title": "Absolute value",
+          "sub_objectives": []
+        },
+        {
+          "id": "Properties of logarithms",
+          "title": "Properties of logarithms",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Equations and inequalities (25%)",
+      "name": "Equations and inequalities",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "Linear equations and inequalities",
+          "title": "Linear equations and inequalities",
+          "sub_objectives": []
+        },
+        {
+          "id": "Quadratic equations and inequalities",
+          "title": "Quadratic equations and inequalities",
+          "sub_objectives": []
+        },
+        {
+          "id": "Absolute value equations and inequalities",
+          "title": "Absolute value equations and inequalities",
+          "sub_objectives": []
+        },
+        {
+          "id": "Systems of equations and inequalities",
+          "title": "Systems of equations and inequalities",
+          "sub_objectives": []
+        },
+        {
+          "id": "Exponential and logarithmic equations",
+          "title": "Exponential and logarithmic equations",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Functions and their properties (30%)",
+      "name": "Functions and their properties",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "Definition, interpretation, and representation/modeling (graphical, numerical, symbolic, and verbal)",
+          "title": "Definition, interpretation, and representation/modeling (graphical, numerical, symbolic, and verbal)",
+          "sub_objectives": []
+        },
+        {
+          "id": "Domain and range",
+          "title": "Domain and range",
+          "sub_objectives": []
+        },
+        {
+          "id": "Evaluation of functions",
+          "title": "Evaluation of functions",
+          "sub_objectives": []
+        },
+        {
+          "id": "Algebra of functions",
+          "title": "Algebra of functions",
+          "sub_objectives": []
+        },
+        {
+          "id": "Graphs and their properties (including intercepts, symmetry, and transformations)",
+          "title": "Graphs and their properties (including intercepts, symmetry, and transformations)",
+          "sub_objectives": []
+        },
+        {
+          "id": "Inverse functions",
+          "title": "Inverse functions",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Number systems and operations (20%)",
+      "name": "Number systems and operations",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "Real numbers",
+          "title": "Real numbers",
+          "sub_objectives": []
+        },
+        {
+          "id": "Complex numbers",
+          "title": "Complex numbers",
+          "sub_objectives": []
+        },
+        {
+          "id": "Factorials and binomial theorem",
+          "title": "Factorials and binomial theorem",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP College Algebra Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "PDF"
+    }
+  ],
+  "aliases": [
+    "clep college algebra",
+    "clep-college-algebra",
+    "colalg",
+    "college algebra",
+    "college algebra clep"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-college-algebra"
+}

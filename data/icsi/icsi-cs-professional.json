@@ -1,0 +1,124 @@
+{
+  "exam_id": "icsi-cs-professional",
+  "exam_name": "CS Professional",
+  "exam_code": "CS Professional",
+  "certifying_body": "ICSI",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.icsi.edu/professional-programme/",
+  "passing_score": 50,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 1080,
+  "exam_price_usd": null,
+  "exam_price_notes": "₹2,250 (~$27 USD) per module exam fee (2 modules: Module I — 3 papers, Module II — 3 papers)",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "ICSI Regional Exam Centres and CBT Centres",
+      "scheduling_url": "https://www.icsi.edu/examinations/",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "ICSI Student Registration Number + valid government photo ID (Aadhaar, Passport, Voter ID, Driving Licence)",
+  "exam_rules": "Pen-and-paper examination OR CBT (Computer Based Test) for Foundation. Descriptive answers required for Executive and Professional. No negative marking.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "CS membership is for lifetime; practising members require Certificate of Practice with annual renewal and CPD compliance",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "CS Executive (both modules) cleared; enrolled in Professional Programme with ICSI",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 2,
+    "max_attempts_total": null,
+    "notes": "Exams held in June and December; no limit on attempts; exemption in any paper scored ≥60% is valid for next 3 sittings"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Paper 1: Advanced Company Law and Practice (Meetings, Resolutions, NCLT, Cross-Border)",
+      "weight_percent": 16.7,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Paper 2: Secretarial Audit, Compliance Management and Due Diligence",
+      "weight_percent": 16.7,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Paper 3: Corporate Restructuring, Insolvency, Liquidation and Winding-Up",
+      "weight_percent": 16.7,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Paper 4: Economic, Business and Commercial Laws (Competition Act, IPR, Consumer Protection)",
+      "weight_percent": 16.7,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Paper 5: Governance, Risk Management, Compliances and Ethics",
+      "weight_percent": 16.7,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Paper 6: Drafting, Pleadings and Appearances (Legal Drafting, Court Practice, ADR)",
+      "weight_percent": 16.7,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_material",
+      "title": "ICSI Official Study Material",
+      "url": "https://www.icsi.edu/student/study-material/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ICSI Past Question Papers",
+      "url": "https://www.icsi.edu/examinations/past-question-papers/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "mock_test",
+      "title": "ICSI Mock Test Papers",
+      "url": "https://www.icsi.edu/examinations/mock-test-papers/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cs professional",
+    "icsi-cs-professional"
+  ],
+  "practice_url": "https://quizforge.ai/tests/icsi-cs-professional"
+}

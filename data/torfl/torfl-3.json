@@ -1,0 +1,120 @@
+{
+  "exam_id": "torfl-3",
+  "exam_name": "TORFL III Сертификационный уровень (Third Certificate Level / C1)",
+  "exam_code": "ТРКИ-III",
+  "certifying_body": "TORFL",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.torfl.info/en/test-levels/third-level/",
+  "passing_score": 66,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 280,
+  "exam_price_usd": null,
+  "exam_price_notes": "Approx. 3,500–4,200 RUB (~$39–$47 USD) in Russia; varies internationally",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "TORFL Certified Test Centres worldwide (~300 centres at universities, Russian cultural institutes, embassies)",
+      "scheduling_url": "https://www.torfl.info/en/test-centres/",
+      "notes": null
+    },
+    {
+      "provider": "Pushkin State Russian Language Institute (Moscow — flagship centre)",
+      "scheduling_url": "https://pushkin.institute/",
+      "notes": null
+    },
+    {
+      "provider": "Russian Cultural Centres (Rossotrudnichestvo network)",
+      "scheduling_url": "https://rs.gov.ru/",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID: passport or national identity card required at the test centre.",
+  "exam_rules": "Each level consists of five separately timed sub-tests administered in one session. No dictionaries, phones, or reference materials permitted. The speaking sub-test is conducted face-to-face with a trained examiner and is recorded. Candidates who fail up to two sub-tests receive a partial TORFL certificate indicating which sub-tests were passed.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "TORFL certificates have lifetime validity — they do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "Russian"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; recommended ~700+ hours of Russian study. Recognised for academic and professional purposes at C1 level.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No official waiting period between attempts. Exam frequency depends on the individual test centre schedule (typically 2–4 sessions per year). Candidates may retake the full exam or only failed sub-tests at participating centres."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Лексика и грамматика — Vocabulary & Grammar (~5,000 words, idiomatic expressions, complex syntax)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Чтение — Reading (academic papers, literary criticism, specialised professional texts)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Аудирование — Listening (academic lectures, complex documentaries, specialist interviews)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Письмо — Writing (analytical report, academic essay, critical literary commentary)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Говорение — Speaking (present and defend a complex academic position, discuss nuanced topics spontaneously)",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "TORFL Official Sample Tests (All Levels)",
+      "url": "https://www.torfl.info/en/sample-tests/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "TORFL Preparation Materials — Pushkin Institute",
+      "url": "https://pushkin.institute/educational-activities/examination-activities/trki/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "torfl iii сертификационный уровень third certificate level c1",
+    "torfl-3",
+    "трки-iii"
+  ],
+  "practice_url": "https://quizforge.ai/tests/torfl-3"
+}

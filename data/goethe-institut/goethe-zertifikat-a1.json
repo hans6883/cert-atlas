@@ -1,0 +1,109 @@
+{
+  "exam_id": "goethe-zertifikat-a1",
+  "exam_name": "Goethe-Zertifikat A1: Start Deutsch 1",
+  "exam_code": "GZ A1",
+  "certifying_body": "Goethe-Institut",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.goethe.de/en/spr/kup/prf/prf/gza1.html",
+  "passing_score": 60,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 65,
+  "exam_price_usd": null,
+  "exam_price_notes": "Approx. €80–€100 (~$87–$110 USD) depending on country and exam centre",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Goethe-Institut (worldwide branches and partner institutes)",
+      "scheduling_url": "https://www.goethe.de/en/spr/kup/prf/ort.html",
+      "notes": null
+    },
+    {
+      "provider": "Prometric (selected locations for computer-based delivery)",
+      "scheduling_url": "https://www.prometric.com/",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID (passport or national identity card) required at all exam centres.",
+  "exam_rules": "No electronic devices (phones, tablets, dictionaries) permitted in the exam room. Oral exams conducted face-to-face with a trained examiner. Bring your ID and registration confirmation.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "All Goethe-Zertifikat certificates have lifetime validity — they do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "German"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; suitable for absolute beginners with basic German knowledge",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No official limit on retakes. Candidates may re-sit at the next available exam date after a failed attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Lesen — Reading Comprehension (notices, signs, short personal messages)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Hören — Listening Comprehension (short announcements, everyday dialogues)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Schreiben — Writing (fill in a form, write a short personal note)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Sprechen — Oral Interaction (introduce yourself, ask/answer simple questions)",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "Goethe-Zertifikat Sample Exams (Modellsätze) — All Levels",
+      "url": "https://www.goethe.de/en/spr/kup/prf/prf.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Goethe-Institut Übungshefte (Official Practice Books)",
+      "url": "https://www.goethe.de/en/spr/kup/prf/vor.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "goethe-zertifikat a1 start deutsch 1",
+    "goethe-zertifikat-a1",
+    "gz a1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/goethe-zertifikat-a1"
+}

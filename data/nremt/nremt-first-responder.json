@@ -1,0 +1,105 @@
+{
+  "exam_id": "nremt-first-responder",
+  "exam_name": "NREMT Emergency Medical Responder (EMR)",
+  "exam_code": "EMR",
+  "certifying_body": "NREMT",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nremt.org/rwd/public/document/emr",
+  "passing_score": null,
+  "passing_score_scale": "Competency-based (pass/fail via CAT algorithm)",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Adaptive/CAT (EMT and Paramedic); Linear (AEMT and EMR)",
+  "duration_minutes": 90,
+  "exam_price_usd": 65.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/nremt",
+      "notes": "In-person testing at Pearson VUE authorized test centers nationwide. Schedule at home.pearsonvue.com/nremt. Government-issued photo ID required."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "Closed book; no reference materials permitted. Computer-adaptive testing (CAT) for EMT and Paramedic levels — exam ends when the algorithm has determined competency or non-competency. Cognitive (written) exam only; does not include psychomotor skills assessment. Calculator not permitted.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "All NREMT certifications are valid for 2 years. Renewal requires 24 hours of continuing education (CE) or completion of a refresher course. CE must be submitted through the NREMT online portal. Paramedics must include specific topic hours as defined by NREMT requirements.",
+  "continuing_education_units": 24,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Completion of accredited EMR training program required",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 15,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 6,
+    "notes": "15-day waiting period between failed attempts. Maximum 6 lifetime attempts per certification level. After 6 failed attempts, candidates must complete an additional refresher course before being eligible to retest. Each retake requires a new registration fee."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Airway, Respiration, and Ventilation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Cardiology and Resuscitation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Trauma",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Medical/Obstetrics/Gynecology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "EMS Operations",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "NREMT Candidate Handbook",
+      "url": "https://www.nremt.org/rwd/public/document/cognitive-exam-faqs",
+      "provider": "NREMT",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free candidate handbook and exam FAQs available at nremt.org"
+    }
+  ],
+  "aliases": [
+    "emergency medical responder",
+    "emr",
+    "first responder",
+    "nremt emergency medical responder emr",
+    "nremt emr",
+    "nremt-first-responder",
+    "nremt-fr"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nremt-first-responder"
+}

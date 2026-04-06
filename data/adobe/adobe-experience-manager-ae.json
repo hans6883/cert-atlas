@@ -1,0 +1,114 @@
+{
+  "exam_id": "adobe-experience-manager-ae",
+  "exam_name": "Adobe Experience Manager Sites Business Practitioner",
+  "exam_code": "AD0-E121",
+  "certifying_body": "Adobe",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://learning.adobe.com/certification/exams/AD0-E121-adobe-experience-manager.html",
+  "passing_score": 68,
+  "passing_score_scale": null,
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice",
+    "Performance-Based Tasks (ACP only)"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 100,
+  "exam_price_usd": 225.0,
+  "exam_price_notes": "Standard price $225 via Pearson VUE.",
+  "voucher_url": null,
+  "exam_registration_url": "https://learning.adobe.com/certification.html",
+  "testing_centers": [
+    {
+      "provider": "Certiport",
+      "scheduling_url": "https://www.certiport.com/",
+      "notes": "ACP (Creative Cloud) exams delivered via Certiport at authorized test centers."
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/adobe",
+      "notes": "Adobe Experience Cloud professional/expert exams (AD0-E series) delivered via Pearson VUE. Online proctoring available."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One government-issued photo ID with full name. Name must match registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. ACP exams include both multiple-choice questions and performance-based tasks in a simulated application environment. AD0-E series exams are multiple-choice only.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "ACP (Creative Cloud) certifications are version-specific and do not expire but may become outdated with new software versions. Adobe Experience Cloud certifications (AD0-E series) are valid for 2 years; renewal by passing a current renewal exam at no charge.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "0–12 months experience with AEM Sites; understanding of AEM technology, architecture, and capabilities",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between attempts. Full exam fee required for retake. Third and subsequent attempts require 14-day waiting period."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Education",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Architecture",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Technical Understanding",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Product Knowledge",
+      "weight_percent": 38.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "Adobe Certification Exam Guides",
+      "url": "https://learning.adobe.com/certification.html",
+      "provider": "Adobe",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official exam guides and study materials available on Adobe Learning"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Adobe Experience League",
+      "url": "https://experienceleague.adobe.com/",
+      "provider": "Adobe",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Free courses, tutorials, and practice resources on Adobe Experience League"
+    }
+  ],
+  "aliases": [
+    "ad0-e121",
+    "adobe experience manager certification",
+    "adobe experience manager sites business practitioner",
+    "adobe-experience-manager-ae",
+    "aem sites business practitioner"
+  ],
+  "practice_url": "https://quizforge.ai/tests/adobe-experience-manager-ae"
+}

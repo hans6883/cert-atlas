@@ -1,0 +1,113 @@
+{
+  "exam_id": "open-group-archimate-certified",
+  "exam_name": "ArchiMate® 3 Certified",
+  "exam_code": "OGA-032",
+  "certifying_body": "The Open Group",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.opengroup.org/certifications/archimate-individual-certification",
+  "passing_score": 60,
+  "passing_score_scale": "Percentage; 60% required to pass",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice",
+    "Scenario-based Essay"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 495.0,
+  "exam_price_notes": "$495 via PeopleCert or Pearson VUE.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.opengroup.org/certifications/togaf-individual-certification",
+  "testing_centers": [
+    {
+      "provider": "PeopleCert",
+      "scheduling_url": "https://www.peoplecert.org",
+      "notes": "Online proctored and test center delivery for TOGAF and ArchiMate exams"
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/opengroup",
+      "notes": "Test center and online proctored delivery for select Open Group exams"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name. Name must match registration exactly.",
+  "exam_rules": "TOGAF Level 1 (Foundation) is closed-book. TOGAF Level 2 (Certified) and Combined Part 2 are open-book: the TOGAF Standard v10 document is permitted. No expiry on Open Group certifications. CBP (Certified Business Professional) pathway available for TOGAF.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Open Group certifications do not expire and do not require renewal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "ArchiMate 3 Foundation certification required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies are set by the delivery partner (PeopleCert or Pearson VUE). Check with the relevant provider."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Applying ArchiMate Core Framework",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Modeling Architecture Viewpoints",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Cross-Layer Integration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Enterprise Architecture Scenarios",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "TOGAF Standard, 10th Edition",
+      "url": "https://www.opengroup.org/togaf/",
+      "provider": "The Open Group",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "The primary reference document; permitted in Level 2 / Combined Part 2 exams"
+    },
+    {
+      "resource_type": "pdf",
+      "title": "Open Group Certification Study Guides",
+      "url": "https://www.opengroup.org/certifications/togaf-individual-certification",
+      "provider": "The Open Group",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official exam preparation materials available on the certification page"
+    }
+  ],
+  "aliases": [
+    "archimate 3 certified",
+    "archimate certified",
+    "oga-032",
+    "open-group-archimate-certified"
+  ],
+  "practice_url": "https://quizforge.ai/tests/open-group-archimate-certified"
+}

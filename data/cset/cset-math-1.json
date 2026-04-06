@@ -1,0 +1,89 @@
+{
+  "exam_id": "cset-math-1",
+  "exam_name": "CSET Mathematics Subtest I (Algebra & Number Theory)",
+  "exam_code": "CSET-M1",
+  "certifying_body": "CSET",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CSET211_TestPage.html",
+  "passing_score": 220,
+  "passing_score_scale": null,
+  "total_questions": 52,
+  "question_types": [
+    "multiple_choice",
+    "constructed_response"
+  ],
+  "exam_format": "Multiple-choice and constructed-response (short essay); computer-based",
+  "duration_minutes": 150,
+  "exam_price_usd": 99.0,
+  "exam_price_notes": "$99 per subtest. CSET Math requires Subtests I, II, and III for Single Subject credential ($297 total). 45-day wait between retakes.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.pearsonvue.com",
+      "notes": "Locate a test center"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Review the list of materials that are prohibited at the test center. When you register, you agree to abide by all testing policies and rules. Read them now.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Candidates seeking a Single Subject Teaching Credential in Mathematics",
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Required to demonstrate subject matter competence for California math teaching credential",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "If you have previously passed one or more subtests of the CSET: Mathematics examination prior to December 29, 2014, your scores will remain valid and you will not have to retake those subtests."
+  },
+  "domains": [
+    {
+      "id": "Subtest I",
+      "name": "CSET: Mathematics Subtest I (Algebra & Number Theory)",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "Subtest I",
+          "title": "Algebra & Number Theory",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.cte.wa.gov",
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "Test structure for CSET: Mathematics",
+      "url": "https://www.cte.wa.gov",
+      "provider": "CSET",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Review the test structure for CSET: Mathematics."
+    }
+  ],
+  "aliases": [
+    "cset 211",
+    "cset math i",
+    "cset mathematics subtest 1",
+    "cset mathematics subtest i algebra number theory",
+    "cset-m1",
+    "cset-math-1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cset-math-1"
+}

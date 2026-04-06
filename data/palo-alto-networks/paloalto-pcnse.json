@@ -1,0 +1,108 @@
+{
+  "exam_id": "paloalto-pcnse",
+  "exam_name": "Palo Alto Networks Certified Network Security Engineer (PCNSE)",
+  "exam_code": "PCNSE",
+  "certifying_body": "Palo Alto Networks",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.paloaltonetworks.com/services/education/certification/pcnse",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 75,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 80,
+  "exam_price_usd": 175.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/paloaltonetworks",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/paloaltonetworks",
+      "notes": "Computer-based testing at Pearson VUE test centers or online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID with full name. Name must match Pearson VUE registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. No access to Palo Alto Networks products. Proctor monitors via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by passing a recertification exam or a higher-level exam. Continuing education pathway also available.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "PCNSA recommended; 3+ years hands-on experience with Palo Alto Networks products",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 15,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "15-day waiting period after failed attempt. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Planning",
+      "weight_percent": 21.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Deployment",
+      "weight_percent": 28.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Configuration",
+      "weight_percent": 27.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Troubleshooting",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Core Concepts",
+      "weight_percent": 6.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Palo Alto Networks Education Services",
+      "url": "https://www.paloaltonetworks.com/services/education",
+      "provider": "Palo Alto Networks",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official instructor-led and e-learning training aligned to certifications"
+    }
+  ],
+  "aliases": [
+    "palo alto engineer",
+    "palo alto network security engineer",
+    "palo alto networks certified network security engineer",
+    "palo alto networks certified network security engineer pcnse",
+    "paloalto-pcnse",
+    "pcnse"
+  ],
+  "practice_url": "https://quizforge.ai/tests/paloalto-pcnse"
+}

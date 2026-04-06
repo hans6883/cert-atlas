@@ -1,0 +1,119 @@
+{
+  "exam_id": "ancc-cmsrn",
+  "exam_name": "Certified Medical-Surgical Registered Nurse (CMSRN)",
+  "exam_code": "CMSRN",
+  "certifying_body": "ANCC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.msncb.org/certification",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; passing standard set by MSNCB",
+  "total_questions": 150,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 180,
+  "exam_price_usd": 349.0,
+  "exam_price_notes": "$349. Administered by MSNCB (Medical-Surgical Nursing Certification Board), an affiliate of AMSN.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.nursingworld.org/our-certifications/",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/ancc",
+      "notes": "Computer-based testing at Prometric test centers; online proctoring available for select exams"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match ANCC registration exactly. RN license number required at check-in.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. On-screen calculator provided where applicable. 60-day waiting period required before retaking. MSN or APRN graduate degree required for advanced practice NP certifications.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "Earn 75 CE credits (contact hours) every 5 years. CE credits must be relevant to the certification specialty. Submit renewal application via the ANCC certification portal. Maintain current, active RN license throughout certification period.",
+  "continuing_education_units": 75,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "license",
+      "description": "Current, active RN license",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "2 years of med-surg RN practice and 2,000 hours in med-surg nursing within 3 years",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Must wait 60 days before retaking. Full exam fee required for each retake attempt. Check ANCC website for current retake policies."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Medical-Surgical Clinical Nursing",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Pathophysiology and Disease Processes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Nursing Interventions and Therapeutics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Patient Safety and Quality Outcomes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Complex Care Management",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ANCC Certification Exam Test Content Outlines",
+      "url": "https://www.nursingworld.org/our-certifications/",
+      "provider": "ANCC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable test content outlines available for each specialty on the certification page"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ANCC Practice Test",
+      "url": "https://www.nursingworld.org/our-certifications/",
+      "provider": "ANCC",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice tests available for purchase through the ANCC store"
+    }
+  ],
+  "aliases": [
+    "ancc-cmsrn",
+    "certified medical-surgical registered nurse",
+    "certified medical-surgical registered nurse cmsrn",
+    "cmsrn",
+    "msncb"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ancc-cmsrn"
+}

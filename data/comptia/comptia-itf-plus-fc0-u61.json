@@ -1,0 +1,339 @@
+{
+  "exam_id": "comptia-itf-plus-fc0-u61",
+  "exam_name": "CompTIA ITF+ (IT Fundamentals)",
+  "exam_code": "FC0-U61",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA Tech+",
+  "version": "V6",
+  "source_url": "https://www.comptia.org/certifications/it-fundamentals",
+  "passing_score": 650,
+  "passing_score_scale": "100-900",
+  "total_questions": 75,
+  "question_types": [
+    "Multiple Choice (single)",
+    "Multiple Choice (multiple)",
+    "Performance-Based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 60,
+  "exam_price_usd": 139.0,
+  "exam_price_notes": "Buy Now",
+  "voucher_url": "https://store.comptia.org/",
+  "exam_registration_url": "https://home.pearsonvue.com/comptia",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/comptia",
+      "notes": "In-person test centers worldwide and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID are required. Primary ID must be government-issued, include candidate's name, photo, and signature (e.g. passport, driver's license). Secondary ID must include candidate's name and signature or name and photo.",
+  "exam_rules": "No notes, scratch paper, electronic devices, books, or study materials permitted. Personal items must be stored. No food or drink except water. Restroom breaks allowed but timer continues. Testing center staff may monitor via video/audio.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Earn CE credits through CompTIA CE program (training, conferences, publishing, teaching, higher certs) or retake the current exam version before expiry.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Portuguese",
+    "Simplified Chinese"
+  ],
+  "target_audience": "Anyone exploring a career in tech",
+  "recommended_experience": "No prior experience necessary",
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period required before first retake. After the second failed attempt, candidates must wait 14 calendar days before any subsequent attempt. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Tech concepts and terminology",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Computing basics",
+          "sub_objectives": [
+            "input, processing, output, and storage fundamentals"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Notational systems",
+          "sub_objectives": [
+            "binary, hexadecimal, decimal, and octal systems"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Units of measure",
+          "sub_objectives": [
+            "storage (bit, byte, KB, GB, TB), speed (MHz, GHz), and throughput (bps, Mbps, Gbps)"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Troubleshooting methodology",
+          "sub_objectives": [
+            "identifying problems, testing theories, implementing solutions, and documenting findings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Infrastructure",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Computing devices",
+          "sub_objectives": [
+            "smartphones, tablets, laptops, servers, IoT devices, and gaming consoles"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Internal components",
+          "sub_objectives": [
+            "motherboard, CPU, RAM, storage (HDD, SSD, NVMe), NIC, and GPU"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Storage types",
+          "sub_objectives": [
+            "volatile vs. non-volatile, local, network, and cloud storage"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Peripheral setup",
+          "sub_objectives": [
+            "printers, scanners, monitors, and driver installation"
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Device interfaces",
+          "sub_objectives": [
+            "USB, HDMI, Ethernet, Bluetooth, and NFC"
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "Virtualization and cloud",
+          "sub_objectives": [
+            "hypervisors, SaaS, PaaS, IaaS, hybrid, and on-premises models"
+          ]
+        },
+        {
+          "id": "2.7",
+          "title": "Networking basics",
+          "sub_objectives": [
+            "LAN vs. WAN, IP/MAC addresses, routers, switches, and firewalls"
+          ]
+        },
+        {
+          "id": "2.8",
+          "title": "Wireless networks",
+          "sub_objectives": [
+            "802.11 standards, speed, and interference considerations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Applications and software",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Operating systems",
+          "sub_objectives": [
+            "mobile, desktop, server, embedded systems"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "OS components",
+          "sub_objectives": [
+            "file systems (NTFS, FAT32), interfaces (GUI, command line), utilities, and drivers"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Software types",
+          "sub_objectives": [
+            "productivity tools, collaboration apps, web browsers, and remote support"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Web browser features",
+          "sub_objectives": [
+            "private browsing, add-ons, password management, and cache clearing"
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Artificial intelligence",
+          "sub_objectives": [
+            "chatbots, assistants, and generative AI for content and predictions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Software development concepts",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Programming languages",
+          "sub_objectives": [
+            "interpreted, compiled, scripting, markup, and assembly"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Data types",
+          "sub_objectives": [
+            "char, strings, numbers (integers, floats), and Boolean"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Programming concepts",
+          "sub_objectives": [
+            "variables, constants, arrays, functions, and objects"
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Organizational techniques",
+          "sub_objectives": [
+            "pseudocode, flowcharts, object-oriented methods, branching, looping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Data and database fundamentals",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Value of data",
+          "sub_objectives": [
+            "data-driven decisions, reporting, and monetization"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Database concepts",
+          "sub_objectives": [
+            "relational vs. non-relational, tables, rows, fields, primary/foreign keys"
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Database use",
+          "sub_objectives": [
+            "queries, reports, scalability, cloud vs. local storage"
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Backup concepts",
+          "sub_objectives": [
+            "file and system backups, local vs. cloud storage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Security",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Security concepts",
+          "sub_objectives": [
+            "confidentiality, integrity, availability, authentication, and authorization"
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "Device security",
+          "sub_objectives": [
+            "anti-malware, firewalls, patching, physical security, safe browsing"
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "Password practices",
+          "sub_objectives": [
+            "length, complexity, privacy, reuse, and password managers"
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "Encryption",
+          "sub_objectives": [
+            "data at rest, data in transit, HTTPS, VPNs, mobile devices"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-it-fundamentals-fc0-u61-exam-objectives",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "CertMaster Learn",
+      "url": "https://www.comptia.org/training/certmaster-learn",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 499.0,
+      "notes": "Official e-learning with performance-based questions and study guides"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CertMaster Practice",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "Adaptive practice question engine with rationale"
+    },
+    {
+      "resource_type": "lab",
+      "title": "CertMaster Labs",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Browser-based virtual lab environments"
+    }
+  ],
+  "aliases": [
+    "comptia itf+",
+    "comptia itf+ it fundamentals",
+    "comptia tech+",
+    "comptia-itf-plus-fc0-u61",
+    "fc0-u61",
+    "it fundamentals",
+    "itf+"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-itf-plus-fc0-u61"
+}

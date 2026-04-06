@@ -1,0 +1,126 @@
+{
+  "exam_id": "salesforce-marketing-cloud-consultant",
+  "exam_name": "Salesforce Certified Marketing Cloud Consultant",
+  "exam_code": "Marketing Cloud Consultant",
+  "certifying_body": "Salesforce",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://trailhead.salesforce.com/credentials/marketingcloudconsultant",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 105,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": "Retake fee $100.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.webassessor.com/salesforce",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/salesforce",
+      "notes": "In-person and online proctored via Kryterion Webassessor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID. Name must match Webassessor registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. No access to Salesforce org. Proctor monitors via webcam.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Salesforce releases three major updates per year. For each release, certified professionals must complete a free maintenance module on Trailhead to retain their certification. No cost for maintenance.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Brazilian Portuguese",
+    "Spanish",
+    "French",
+    "German"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Salesforce Certified Administrator recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 1,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake available after scheduling (no mandatory waiting period for first retake). Retake fee ~$100 for most exams."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Discovery and Architecture",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Integration",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Account Configuration",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Analytical Tools",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Marketing Automation",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Data Modeling and Management",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Salesforce Trailhead",
+      "url": "https://trailhead.salesforce.com/",
+      "provider": "Salesforce",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official learning platform with trails aligned to each certification"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Salesforce Exam Guide & Sample Questions",
+      "url": "https://trailhead.salesforce.com/credentials",
+      "provider": "Salesforce",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free exam guides with sample questions on each credential page"
+    }
+  ],
+  "aliases": [
+    "marketing cloud consultant",
+    "salesforce certified marketing cloud consultant",
+    "salesforce certified marketing cloud engagement consultant",
+    "salesforce-marketing-cloud-consultant",
+    "sfmc consultant"
+  ],
+  "practice_url": "https://quizforge.ai/tests/salesforce-marketing-cloud-consultant"
+}

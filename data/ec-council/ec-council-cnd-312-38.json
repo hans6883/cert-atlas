@@ -1,0 +1,194 @@
+{
+  "exam_id": "ec-council-cnd-312-38",
+  "exam_name": "Certified Network Defender (CND)",
+  "exam_code": "312-38",
+  "certifying_body": "EC-Council",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.eccouncil.org/train-certify/certified-network-defender-cnd/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 240,
+  "exam_price_usd": 450.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://eccexam.com/",
+  "testing_centers": [
+    {
+      "provider": "EC-Council ECC Exam Portal",
+      "scheduling_url": "https://eccexam.com/",
+      "notes": "Online proctored via EC-Council's own portal"
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ec-council",
+      "notes": "In-person at Pearson VUE authorized test centers"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. ID must match the name used during registration.",
+  "exam_rules": "No notes, books, or electronic devices. No internet access during exam. Scratch paper may be provided. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn 120 ECE (EC-Council Continuing Education) credits over 3-year cycle. ECE credits earned through courses, conferences, publications, or EC-Council activities.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No official waiting period specified between retakes. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Network Attacks and Defense Strategies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Administrative Network Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Technical Network Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Network Perimeter Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Endpoint Security - Windows Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Endpoint Security - Linux Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Endpoint Security - Mobile Devices",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Endpoint Security - IoT Devices",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Administrative Application Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Data Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Enterprise Virtual Network Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Enterprise Cloud Network Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Enterprise Wireless Network Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Network Traffic Monitoring and Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "Network Logs Monitoring and Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "16",
+      "name": "Incident Response and Forensic Investigation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "17",
+      "name": "Business Continuity and Disaster Recovery",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "18",
+      "name": "Risk Anticipation with Risk Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "19",
+      "name": "Threat Assessment with Attack Surface Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "20",
+      "name": "Threat Prediction with Cyber Threat Intelligence",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "EC-Council Official Courseware",
+      "url": "https://www.eccouncil.org/train-certify/",
+      "provider": "EC-Council",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Instructor-led and iLearn self-paced options"
+    }
+  ],
+  "aliases": [
+    "312-38",
+    "certified network defender",
+    "certified network defender cnd",
+    "cnd",
+    "ec-council-cnd-312-38"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ec-council-cnd-312-38"
+}

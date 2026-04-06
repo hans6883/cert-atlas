@@ -1,0 +1,116 @@
+{
+  "exam_id": "ec-council-ceh-312-50",
+  "exam_name": "Certified Ethical Hacker (CEH)",
+  "exam_code": "312-50",
+  "certifying_body": "EC-Council",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 125,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 240,
+  "exam_price_usd": 550.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://eccexam.com/",
+  "testing_centers": [
+    {
+      "provider": "EC-Council ECC Exam Portal",
+      "scheduling_url": "https://eccexam.com/",
+      "notes": "Online proctored via EC-Council's own portal"
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ec-council",
+      "notes": "In-person at Pearson VUE authorized test centers"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. ID must match the name used during registration.",
+  "exam_rules": "No notes, books, or electronic devices. No internet access during exam. Scratch paper may be provided. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn 120 ECE (EC-Council Continuing Education) credits over 3-year cycle. ECE credits earned through courses, conferences, publications, or EC-Council activities.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "2 years of information security work experience (waived with official EC-Council training)",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No official waiting period specified between retakes. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Background",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Analysis / Assessment",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Security",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Tools / Systems / Programs",
+      "weight_percent": 32.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Procedures / Methodology",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Regulation / Policy / Ethics",
+      "weight_percent": 4.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "EC-Council Official Courseware",
+      "url": "https://www.eccouncil.org/train-certify/",
+      "provider": "EC-Council",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Instructor-led and iLearn self-paced options"
+    }
+  ],
+  "aliases": [
+    "312-50",
+    "ceh",
+    "certified ethical hacker ceh",
+    "certified ethical hacker ceh v13",
+    "ec-council-ceh-312-50"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ec-council-ceh-312-50"
+}

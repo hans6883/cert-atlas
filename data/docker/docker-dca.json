@@ -1,0 +1,112 @@
+{
+  "exam_id": "docker-dca",
+  "exam_name": "Docker Certified Associate (DCA)",
+  "exam_code": "DCA",
+  "certifying_body": "Docker",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.docker.com/certification/",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 55,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 195.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.docker.com/certification/",
+  "testing_centers": [
+    {
+      "provider": "Online (Mirantis/Docker proctored)",
+      "scheduling_url": "https://www.docker.com/certification/",
+      "notes": "Online proctored exam."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID.",
+  "exam_rules": "Closed-book. Online proctored. No reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Valid 2 years. Renew by retaking the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Recommended: 6+ months hands-on Docker experience",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Orchestration",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Image Creation, Management, and Registry",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Installation and Configuration",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Networking",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Storage and Volumes",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "Docker Documentation",
+      "url": "https://docs.docker.com/",
+      "provider": "Docker",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "dca",
+    "docker certification",
+    "docker certified associate",
+    "docker certified associate dca",
+    "docker-dca"
+  ],
+  "practice_url": "https://quizforge.ai/tests/docker-dca"
+}

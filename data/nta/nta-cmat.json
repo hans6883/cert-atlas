@@ -1,0 +1,115 @@
+{
+  "exam_id": "nta-cmat",
+  "exam_name": "CMAT (Common Management Admission Test)",
+  "exam_code": "CMAT",
+  "certifying_body": "NTA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://cmat.nta.nic.in",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 100,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 180,
+  "exam_price_usd": null,
+  "exam_price_notes": "₹2,000 (~$24 USD) general; ₹1,000 SC/ST/PwBD/Female",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "NTA CBT Centers",
+      "scheduling_url": "https://nta.ac.in",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Admit card + valid government-issued photo ID (Aadhaar preferred; Passport, Driving Licence also accepted)",
+  "exam_rules": "Computer Based Test (CBT) for most exams (NEET UG is pen-and-paper OMR). No calculators, mobile phones, or study materials. Negative marking: -1 mark per wrong answer (NEET, JEE), -1 mark (CUET), -1 mark (UGC-NET).",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Hindi",
+    "Regional Languages (CUET/NEET: 13 languages)"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Bachelor's degree with minimum 50% marks (45% for SC/ST); or final year degree students",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 2,
+    "max_attempts_total": null,
+    "notes": "JEE Main is held twice a year; NEET once a year; UGC-NET twice a year; CUET once a year"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Quantitative Techniques and Data Interpretation (Arithmetic, Algebra, DI)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Logical Reasoning (Analytical Reasoning, Statement-Conclusion, Blood Relations)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Language Comprehension (Reading Comprehension, Vocabulary, Grammar)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "General Awareness (Current Affairs, Business, Economy, Static GK)",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "syllabus",
+      "title": "NTA Official Exam Syllabi",
+      "url": "https://nta.ac.in/examination",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "previous_papers",
+      "title": "NTA Previous Year Question Papers",
+      "url": "https://nta.ac.in",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "NTA Abhyas App (Free Mock Tests)",
+      "url": "https://nta.ac.in/ExamCentre",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cmat",
+    "cmat common management admission test",
+    "nta-cmat"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nta-cmat"
+}

@@ -1,0 +1,104 @@
+{
+  "exam_id": "icmai-cma-intermediate-group2",
+  "exam_name": "CMA Intermediate Group II",
+  "exam_code": "CMA Inter Gr. II",
+  "certifying_body": "ICMAI",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.icmai.in/icmai/Examination/Intermediate.php",
+  "passing_score": 50,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 720,
+  "exam_price_usd": null,
+  "exam_price_notes": "₹1,800 (~$22 USD) per group exam fee",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "ICMAI Regional and Chapter Exam Centres",
+      "scheduling_url": "https://www.icmai.in/icmai/Examination/ExamHome.php",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "ICMAI Registration Number + valid government-issued photo ID (Aadhaar, Passport, Voter ID, Driving Licence)",
+  "exam_rules": "Pen-and-paper examination at designated centres. No electronic devices permitted. Papers are descriptive/analytical; no multiple-choice format. Negative marking does not apply.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "CMA membership is for lifetime; Certificate of Practice holders must complete 30 CPD hours every 3 years",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "CMA Foundation qualified; may be attempted alongside or after Group I",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 2,
+    "max_attempts_total": null,
+    "notes": "Exams held in June and December; no limit on total attempts; exemption in passed papers valid for next 3 attempts"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Paper 9: Operations Management and Strategic Management",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Paper 10: Cost and Management Accounting and Financial Management",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Paper 11: Indirect Taxation (GST, Customs, FTP)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Paper 12: Corporate Accounting and Auditing",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_material",
+      "title": "ICMAI Official Study Notes (Free Download)",
+      "url": "https://www.icmai.in/icmai/Students/Syllabus-StudyMaterial.php",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ICMAI Suggested Answers and Past Papers",
+      "url": "https://www.icmai.in/icmai/Examination/SuggestedAnswers.php",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cma inter gr ii",
+    "cma intermediate group ii",
+    "icmai-cma-intermediate-group2"
+  ],
+  "practice_url": "https://quizforge.ai/tests/icmai-cma-intermediate-group2"
+}

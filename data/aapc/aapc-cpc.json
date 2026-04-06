@@ -1,0 +1,148 @@
+{
+  "exam_id": "aapc-cpc",
+  "exam_name": "Certified Professional Coder (CPC)",
+  "exam_code": "CPC",
+  "certifying_body": "AAPC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.aapc.com/certification/cpc/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 340,
+  "exam_price_usd": 399.0,
+  "exam_price_notes": "AAPC member price $299. Non-member $399. Annual AAPC membership ~$199.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.aapc.com/certification/exam-scheduling.aspx",
+  "testing_centers": [
+    {
+      "provider": "AAPC Proctored (online)",
+      "scheduling_url": "https://www.aapc.com/certification/exam-scheduling.aspx",
+      "notes": "Online proctored via AAPC's proctoring service"
+    },
+    {
+      "provider": "AAPC Local Chapter In-Person",
+      "scheduling_url": "https://www.aapc.com/find-local-chapter/",
+      "notes": "May also be taken at AAPC local chapter meetings with in-person proctor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match AAPC account registration.",
+  "exam_rules": "Open-book for coding manuals (ICD-10-CM, CPT, HCPCS Level II code books). Physical books only — no electronic or online resources. Tabs and highlighting allowed in code books. Scratch paper provided. Proctor monitors via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Complete 36 CEUs (Continuing Education Units) every 2 years. CEUs earned through AAPC approved education, workshops, webinars, and conferences.",
+  "continuing_education_units": 36,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "training",
+      "description": "Formal medical coding education recommended. No formal prerequisites, but practical coding knowledge required.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Must wait 30 days between attempts. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Medical Terminology and Anatomy",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Evaluation and Management (E/M)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Anesthesia",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Surgery (multiple sections)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Radiology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Pathology and Laboratory",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Medicine",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "HCPCS Level II",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "ICD-10-CM Diagnosis Coding",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "CPT Modifiers",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "AAPC Medical Coding Training",
+      "url": "https://www.aapc.com/training/",
+      "provider": "AAPC",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official AAPC medical coding courses and exam preparation"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "AAPC Practice Exams",
+      "url": "https://www.aapc.com/certification/practice-exams.aspx",
+      "provider": "AAPC",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "aapc-cpc",
+    "certified professional coder",
+    "certified professional coder cpc",
+    "cpc"
+  ],
+  "practice_url": "https://quizforge.ai/tests/aapc-cpc"
+}

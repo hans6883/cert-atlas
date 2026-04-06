@@ -1,0 +1,119 @@
+{
+  "exam_id": "zendesk-ai-powered-cx",
+  "exam_name": "Zendesk AI-Powered CX Expert",
+  "exam_code": "Zendesk AI CX Expert",
+  "certifying_body": "Zendesk",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.zendesk.com/certification/ai-powered-cx/",
+  "passing_score": 80,
+  "passing_score_scale": null,
+  "total_questions": 45,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 90,
+  "exam_price_usd": 299.0,
+  "exam_price_notes": "$299 USD; includes 1 free retake",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Kryterion Webassessor (online proctored)",
+      "scheduling_url": "https://www.webassessor.com/zendesk",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID (passport, driving licence, national ID); webcam and microphone required for online proctoring via Kryterion",
+  "exam_rules": "Online proctored exam via Kryterion Webassessor. Closed book. No notes, calculators, or external resources. Webcam monitoring throughout. Exam session is recorded.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years; renewal requires re-examination at current exam fee ($299)",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Recommended: Zendesk Support Administrator experience; familiarity with Zendesk AI features and bots",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "One free retake included with each exam purchase after 7-day waiting period; subsequent retakes require full repurchase at $299"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Zendesk AI Foundations (AI agents, intelligent triage, intent/sentiment detection)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Bot Building and Conversation Design (flow builder, answer bot, escalation paths)",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "AI-Powered Triage and Routing (intelligent triage, skills-based routing, AI suggestions)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Reporting AI Performance (bot metrics, deflection rate, CSAT for AI interactions)",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Advanced AI Features (Copilot, AI for agents, knowledge base optimisation)",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_material",
+      "title": "Zendesk Training and Certification Portal",
+      "url": "https://training.zendesk.com",
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": null
+    },
+    {
+      "resource_type": "documentation",
+      "title": "Zendesk Help Centre",
+      "url": "https://support.zendesk.com/hc/en-us",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Zendesk Certification Practice Tests (Kryterion)",
+      "url": "https://www.zendesk.com/certification/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "zendesk ai cx expert",
+    "zendesk ai-powered cx expert",
+    "zendesk-ai-powered-cx"
+  ],
+  "practice_url": "https://quizforge.ai/tests/zendesk-ai-powered-cx"
+}

@@ -1,0 +1,106 @@
+{
+  "exam_id": "confluent-ccoak",
+  "exam_name": "Confluent Certified Operator for Apache Kafka (CCOAK)",
+  "exam_code": "CCOAK",
+  "certifying_body": "Confluent",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.confluent.io/certification/confluent-certified-operator-apache-kafka/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.confluent.io/certification/",
+  "testing_centers": [
+    {
+      "provider": "Online (Confluent proctored)",
+      "scheduling_url": "https://www.confluent.io/certification/",
+      "notes": "Online proctored exam via Confluent certification portal."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required.",
+  "exam_rules": "Closed-book. Online proctored. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current exam version.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after failed attempt. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Kafka Architecture and Internals",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Cluster Deployment and Configuration",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Security (Authentication, Authorization, Encryption)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Monitoring and Performance Tuning",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Disaster Recovery and High Availability",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Confluent Platform Operations",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Confluent Training",
+      "url": "https://training.confluent.io/",
+      "provider": "Confluent",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Confluent training courses and learning paths"
+    }
+  ],
+  "aliases": [
+    "ccoak",
+    "confluent certified operator for apache kafka ccoak",
+    "confluent kafka operator",
+    "confluent operator",
+    "confluent-ccoak"
+  ],
+  "practice_url": "https://quizforge.ai/tests/confluent-ccoak"
+}

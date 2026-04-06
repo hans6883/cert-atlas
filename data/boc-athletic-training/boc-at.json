@@ -1,0 +1,116 @@
+{
+  "exam_id": "boc-at",
+  "exam_name": "BOC Athletic Trainer Certification Examination",
+  "exam_code": "BOC-AT",
+  "certifying_body": "BOC Athletic Training",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.bocatc.org/athletic-trainers/become-an-at/take-the-exam",
+  "passing_score": 500,
+  "passing_score_scale": "Scaled score 200–800; passing score 500",
+  "total_questions": 175,
+  "question_types": [
+    "Multiple Choice",
+    "Single Best Answer"
+  ],
+  "exam_format": "Linear computer-based (Pearson VUE); offered year-round",
+  "duration_minutes": 210,
+  "exam_price_usd": 360.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/bocatc",
+      "notes": "BOC-AT examination administered at Pearson VUE testing centers nationwide. Available year-round; schedule through the Pearson VUE BOC candidate portal."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match BOC registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted. Computer-based format at Pearson VUE testing centers. Candidates must agree to the BOC Standards of Professional Practice.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "BOC certification must be renewed every 2 years. 50 CEUs required per 2-year renewal cycle, including EBP and ethics requirements. Renew through the BOC candidate portal at bocatc.org.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Graduation from a CAATE-accredited Athletic Training program (master's degree required for programs transitioning to graduate entry; verify current CAATE requirements)",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 6,
+    "notes": "60-day waiting period between failed attempts. Maximum 6 lifetime attempts. Candidates who exhaust all attempts are permanently ineligible and must petition the BOC."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Injury and Illness Prevention and Wellness Promotion",
+      "weight_percent": 21.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Examination, Assessment, and Diagnosis",
+      "weight_percent": 29.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Immediate and Emergency Care",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Therapeutic Intervention",
+      "weight_percent": 24.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Healthcare Administration and Professional Responsibility",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "candidate_guide",
+      "title": "BOC Exam Candidate Handbook",
+      "url": "https://www.bocatc.org/athletic-trainers/become-an-at/take-the-exam",
+      "provider": "BOC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official candidate handbook with content outline, eligibility, and scheduling information."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "BOC Practice Examination",
+      "url": "https://www.bocatc.org/athletic-trainers/become-an-at/take-the-exam",
+      "provider": "BOC",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice examination available through the BOC portal."
+    }
+  ],
+  "aliases": [
+    "atc exam",
+    "athletic trainer board exam",
+    "athletic trainer certification exam",
+    "board of certification athletic trainer",
+    "boc athletic trainer certification examination",
+    "boc athletic training exam",
+    "boc exam",
+    "boc-at"
+  ],
+  "practice_url": "https://quizforge.ai/tests/boc-at"
+}

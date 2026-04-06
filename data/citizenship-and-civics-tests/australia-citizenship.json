@@ -1,0 +1,111 @@
+{
+  "exam_id": "australia-citizenship",
+  "exam_name": "Australian Citizenship Test",
+  "exam_code": "AUS-CIT",
+  "certifying_body": "Citizenship and Civics Tests",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://immi.homeaffairs.gov.au/citizenship-subsite/files/life-in-australia.pdf",
+  "passing_score": 75,
+  "passing_score_scale": "Percentage correct (pass/fail threshold varies by country)",
+  "total_questions": 20,
+  "question_types": [
+    "Multiple Choice",
+    "True/False",
+    "Oral Interview"
+  ],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": "No separate exam fee; included in the Australian citizenship application fee. Based on the 'Australian Citizenship: Our Common Bond' study resource.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID or passport required at all test centers. For USCIS: applicants present at naturalization interview with required documents. For Life in the UK: photo ID required at test center.",
+  "exam_rules": "No unauthorized materials, mobile phones, or notes permitted during testing. USCIS civics test is conducted orally by a USCIS officer; answers may be given in any order. Life in the UK: computer-based at approved test centers; results available immediately. Canadian citizenship test: conducted online or in-person; supervised by IRCC. Results and pass/fail status determine eligibility for the citizenship ceremony or further steps.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Citizenship is permanent once granted; these tests are one-time requirements as part of the application process. Test result validity period may apply: Life in the UK results valid indefinitely once passed.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Applied for Australian citizenship; met residency requirements; English language proficiency demonstrated",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "USCIS: applicants who fail are retested within 60–90 days on the failed components only. Life in the UK: candidates may retake immediately; each attempt costs £50. Canadian citizenship test: IRCC will schedule a retake if needed. Australian citizenship test: retakes available at departmental discretion."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Australia and its People",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Australia's Democratic Beliefs, Rights and Liberties",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Government and the Law in Australia",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Australian Values",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "USCIS 100 Civics Questions and Answers",
+      "url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test",
+      "provider": "USCIS",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free; includes all 100 civics questions with answers, flashcards, and audio recordings"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Discover Canada: The Rights and Responsibilities of Citizenship",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada.html",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online; official study guide for the Canadian Citizenship Test"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Life in the United Kingdom: A Guide for New Residents (3rd edition)",
+      "url": "https://www.gov.uk/life-in-the-uk-test/overview",
+      "provider": "UK Home Office",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study book; available for purchase; required for Life in the UK Test preparation"
+    }
+  ],
+  "aliases": [
+    "aus-cit",
+    "australia-citizenship",
+    "australian citizenship exam",
+    "australian citizenship test",
+    "our common bond test"
+  ],
+  "practice_url": "https://quizforge.ai/tests/australia-citizenship"
+}

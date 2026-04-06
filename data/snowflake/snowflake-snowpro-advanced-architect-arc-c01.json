@@ -1,0 +1,115 @@
+{
+  "exam_id": "snowflake-snowpro-advanced-architect-arc-c01",
+  "exam_name": "SnowPro Advanced: Architect (ARC-C01)",
+  "exam_code": "ARC-C01",
+  "certifying_body": "Snowflake",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-architect/",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 65,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 115,
+  "exam_price_usd": 250.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.webassessor.com/snowflake",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/snowflake",
+      "notes": "In-person and online proctored via Kryterion Webassessor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match registration exactly.",
+  "exam_rules": "No notes, books, or external resources. Closed-book. Online: alone in room, no dual monitors, webcam and microphone required. Snowflake console access not provided during exam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Recertify by passing the current version of the exam before expiry. Certifications valid for 2 years.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "SnowPro Core Certification strongly recommended before Advanced exams",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Accounts and Security",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Snowflake Architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Data Engineering",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Data Governance",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Performance Optimization",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Snowflake University",
+      "url": "https://learn.snowflake.com/",
+      "provider": "Snowflake",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official learning paths and hands-on labs aligned to certification exams"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "SnowPro Core Practice Exam",
+      "url": "https://learn.snowflake.com/en/certifications/snowpro-core/",
+      "provider": "Snowflake",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free practice questions available on the certification page"
+    }
+  ],
+  "aliases": [
+    "arc-c01",
+    "snowflake-snowpro-advanced-architect-arc-c01",
+    "snowpro advanced architect",
+    "snowpro advanced architect arc-c01",
+    "snowpro architect"
+  ],
+  "practice_url": "https://quizforge.ai/tests/snowflake-snowpro-advanced-architect-arc-c01"
+}

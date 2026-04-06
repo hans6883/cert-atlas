@@ -1,0 +1,99 @@
+{
+  "exam_id": "ahima-chda",
+  "exam_name": "Certified Health Data Analyst (CHDA)",
+  "exam_code": "CHDA",
+  "certifying_body": "AHIMA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ahima.org/certification-careers/certifications-info/chda/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 130,
+  "question_types": [
+    "Multiple Choice",
+    "Medical Record Coding (CCS only)"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 210,
+  "exam_price_usd": 329.0,
+  "exam_price_notes": "AHIMA member price $239. Non-member price $329.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ahima.org/certification-careers/certifications-info/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ahima",
+      "notes": "Computer-based testing at Pearson VUE authorized test centers. Online proctoring available for some exams."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One government-issued photo ID with full name. Name must match AHIMA registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator available. CCS exam includes medical record coding section using actual patient records presented on screen.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Complete required CEUs (Continuing Education Units) every 2 years and pay annual certification maintenance fee. CEUs earned through AHIMA-approved education, conferences, and professional activities.",
+  "continuing_education_units": 20,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "RHIT or RHIA credential or 5 years of health data analysis experience",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "60-day waiting period between attempts. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Data Analysis Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Healthcare Data Sources and Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Population Health and Outcomes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Data Visualization and Communication",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "AHIMA Exam Prep",
+      "url": "https://hcmarketplace.com/",
+      "provider": "AHIMA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guides published by AHIMA Press for each credential"
+    }
+  ],
+  "aliases": [
+    "ahima-chda",
+    "certified health data analyst",
+    "certified health data analyst chda",
+    "chda"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ahima-chda"
+}

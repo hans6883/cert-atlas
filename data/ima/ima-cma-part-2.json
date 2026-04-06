@@ -1,0 +1,112 @@
+{
+  "exam_id": "ima-cma-part-2",
+  "exam_name": "CMA Exam Part 2 – Strategic Financial Management",
+  "exam_code": "CMA Part 2",
+  "certifying_body": "IMA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.imanet.org/cma-certification/cma-exam-overview",
+  "passing_score": 360,
+  "passing_score_scale": "0-500 scaled score; 360 required to pass",
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice",
+    "Essay"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 240,
+  "exam_price_usd": 415.0,
+  "exam_price_notes": "IMA member price $311. Non-member price $415. Both parts must be passed within 3 years.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.imanet.org/cma-certification/cma-exam-overview",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/ima",
+      "notes": "Computer-based testing at Prometric authorized test centers globally"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One government-issued photo ID with your name, signature, and photograph. A second form of ID bearing your name and signature is recommended.",
+  "exam_rules": "Closed-book for MCQ section. Essays are open-book (access to a dictionary allowed). On-screen calculator provided. No personal calculators permitted. Scratch paper provided. Essays graded holistically by IMA-trained graders.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Maintain active IMA membership and complete 30 hours of CPE per year (including 2 hours of ethics). Report CPE through IMA's online system.",
+  "continuing_education_units": 30,
+  "available_languages": [
+    "English",
+    "Chinese",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Same experience requirements as Part 1; both parts must be passed within 3 years of each other",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "CMA exam offered during three testing windows per year: January/February, May/June, September/October. Both parts must be completed within 3 years of enrollment."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Financial Statement Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Corporate Finance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Decision Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Risk Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Investment Decisions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Professional Ethics",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "IMA CMA Learning System",
+      "url": "https://www.imanet.org/cma-certification/cma-study-resources",
+      "provider": "IMA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official comprehensive study materials and practice tests"
+    }
+  ],
+  "aliases": [
+    "cma exam part 2 strategic financial management",
+    "cma part 2",
+    "ima-cma-part-2"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ima-cma-part-2"
+}

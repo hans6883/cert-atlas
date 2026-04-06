@@ -1,0 +1,115 @@
+{
+  "exam_id": "snowflake-snowpro-core-cof-c02",
+  "exam_name": "SnowPro Core Certification (COF-C02)",
+  "exam_code": "COF-C02",
+  "certifying_body": "Snowflake",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://learn.snowflake.com/en/certifications/snowpro-core/",
+  "passing_score": 75,
+  "passing_score_scale": null,
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 115,
+  "exam_price_usd": 175.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.webassessor.com/snowflake",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/snowflake",
+      "notes": "In-person and online proctored via Kryterion Webassessor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match registration exactly.",
+  "exam_rules": "No notes, books, or external resources. Closed-book. Online: alone in room, no dual monitors, webcam and microphone required. Snowflake console access not provided during exam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Recertify by passing the current version of the exam before expiry. Certifications valid for 2 years.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Snowflake AI Data Cloud Features and Architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Account Access and Security",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Performance Concepts",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Data Loading and Unloading",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Data Transformations",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Data Protection and Data Sharing",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Snowflake University",
+      "url": "https://learn.snowflake.com/",
+      "provider": "Snowflake",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official learning paths and hands-on labs aligned to certification exams"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "SnowPro Core Practice Exam",
+      "url": "https://learn.snowflake.com/en/certifications/snowpro-core/",
+      "provider": "Snowflake",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free practice questions available on the certification page"
+    }
+  ],
+  "aliases": [
+    "cof-c02",
+    "snowflake-snowpro-core-cof-c02",
+    "snowpro core",
+    "snowpro core certification",
+    "snowpro core certification cof-c02"
+  ],
+  "practice_url": "https://quizforge.ai/tests/snowflake-snowpro-core-cof-c02"
+}

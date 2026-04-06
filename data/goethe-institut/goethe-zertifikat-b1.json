@@ -1,0 +1,139 @@
+{
+  "exam_id": "goethe-zertifikat-b1",
+  "exam_name": "Goethe-Zertifikat B1 (Zertifikat Deutsch)",
+  "exam_code": "GZ B1",
+  "certifying_body": "Goethe-Institut",
+  "certification_name": "Goethe-Zertifikat B1",
+  "version": null,
+  "source_url": "https://www.goethe.de/en/spr/kup/prf/prf/gzb1.html",
+  "passing_score": 60,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Listening",
+    "Reading",
+    "Writing",
+    "Speaking"
+  ],
+  "exam_format": "Modular",
+  "duration_minutes": 195,
+  "exam_price_usd": null,
+  "exam_price_notes": "Approx. €130–€165 (~$143–$182 USD) depending on country",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Goethe-Institut (worldwide branches and partner institutes)",
+      "scheduling_url": "https://www.goethe.de/en/spr/kup/prf/ort.html",
+      "notes": null
+    },
+    {
+      "provider": "Prometric (selected locations for computer-based delivery)",
+      "scheduling_url": "https://www.prometric.com/",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID (passport or national identity card) required at all exam centres.",
+  "exam_rules": "No electronic devices (phones, tablets, dictionaries) permitted in the exam room. Oral exams conducted face-to-face with a trained examiner. Bring your ID and registration confirmation.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "All Goethe-Zertifikat certificates have lifetime validity — they do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "German"
+  ],
+  "target_audience": "Young people (recommended ages 12 and above) and adults (recommended ages 16 and above)",
+  "recommended_experience": "Basic language knowledge at the B1 level",
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; recommended ~350 hours of German study. Widely required for German citizenship (since 2024) and university entrance for foreign applicants.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No official limit on retakes. Candidates may re-sit at the next available exam date after a failed attempt."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Listening",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand the main information if clear standard language is spoken and the conversation is about everyday topics like work, school or leisure",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Reading",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Understand uncomplicated non-fiction texts about their interests and their own field",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Writing",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Express themselves in a simple, structured and addressee-specific way about known topics, personal interests and experiences, dreams and goals, as well as give reasons and explanations",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Speaking",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Express themselves in a simple, structured and addressee-specific way about known topics, personal interests and experiences, dreams and goals, as well as give reasons and explanations",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "Goethe-Zertifikat Sample Exams (Modellsätze) — All Levels",
+      "url": "https://www.goethe.de/en/spr/kup/prf/prf.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Goethe-Institut Übungshefte (Official Practice Books)",
+      "url": "https://www.goethe.de/en/spr/kup/prf/vor.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "goethe-zertifikat b1",
+    "goethe-zertifikat b1 zertifikat deutsch",
+    "goethe-zertifikat-b1",
+    "gz b1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/goethe-zertifikat-b1"
+}

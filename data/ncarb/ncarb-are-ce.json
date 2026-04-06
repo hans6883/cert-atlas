@@ -1,0 +1,110 @@
+{
+  "exam_id": "ncarb-are-ce",
+  "exam_name": "ARE 5.0 — Construction & Evaluation (CE)",
+  "exam_code": "ARE CE",
+  "certifying_body": "NCARB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ncarb.org/pass-the-are/are-5/construction-evaluation",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 95,
+  "question_types": [
+    "Multiple Choice",
+    "Case Study"
+  ],
+  "exam_format": "Linear computer-based with case study sections (Prometric CBT)",
+  "duration_minutes": 210,
+  "exam_price_usd": 235.0,
+  "exam_price_notes": "95 multiple-choice questions + 2 case studies.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ncarb.org/pass-the-are",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/ncarb",
+      "notes": "Computer-based testing at Prometric test centers. All 6 ARE 5.0 divisions available year-round."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One valid, unexpired government-issued photo ID. Name must match NCARB account exactly.",
+  "exam_rules": "Closed-book. No personal reference materials permitted. Open-book NOT permitted. Candidates must complete all 6 divisions within a 5-year rolling window. 60-day waiting period required between retakes of the same division.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "ARE 5.0 divisions passed are valid indefinitely once the full 6-division credential is earned. Individual passed divisions within the 5-year rolling window do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "NCARB AXP (Architectural Experience Program) completion recommended; state board eligibility required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "60-day waiting period between retakes of the same division. Unlimited retakes permitted. All 6 divisions must be passed within a 5-year rolling window. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Preconstruction Activities",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Construction Observation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Administrative Procedures and Protocols",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Project Closeout and Evaluation",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "ARE 5.0 Guidelines",
+      "url": "https://www.ncarb.org/pass-the-are/are-5",
+      "provider": "NCARB",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official guidelines and exam guides for all 6 ARE 5.0 divisions"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "NCARB Practice Exams",
+      "url": "https://www.ncarb.org/pass-the-are/study",
+      "provider": "NCARB",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice materials and case study examples available through NCARB"
+    }
+  ],
+  "aliases": [
+    "architect exam ce",
+    "are 5 0 construction evaluation ce",
+    "are ce",
+    "are construction evaluation",
+    "ce",
+    "ncarb-are-ce"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ncarb-are-ce"
+}

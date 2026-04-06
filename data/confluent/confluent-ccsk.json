@@ -1,0 +1,106 @@
+{
+  "exam_id": "confluent-ccsk",
+  "exam_name": "Confluent Certified Apache Kafka Streams Developer",
+  "exam_code": "CCSK",
+  "certifying_body": "Confluent",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.confluent.io/certification/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.confluent.io/certification/",
+  "testing_centers": [
+    {
+      "provider": "Online (Confluent proctored)",
+      "scheduling_url": "https://www.confluent.io/certification/",
+      "notes": "Online proctored exam via Confluent certification portal."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required.",
+  "exam_rules": "Closed-book. Online proctored. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current exam version.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "CCDAK recommended before taking CCSK",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after failed attempt. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Kafka Streams API Fundamentals",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Stateful and Stateless Transformations",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Interactive Queries",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Testing Kafka Streams Applications",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "ksqlDB and Stream Processing",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Confluent Training",
+      "url": "https://training.confluent.io/",
+      "provider": "Confluent",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Confluent training courses and learning paths"
+    }
+  ],
+  "aliases": [
+    "ccsk",
+    "confluent certified apache kafka streams developer",
+    "confluent streams developer",
+    "confluent-ccsk",
+    "kafka streams developer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/confluent-ccsk"
+}

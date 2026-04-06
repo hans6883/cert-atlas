@@ -1,0 +1,265 @@
+{
+  "exam_id": "comptia-datasys-plus-ds0-001",
+  "exam_name": "CompTIA DataSys+",
+  "exam_code": "DS0-001",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA DataSys+",
+  "version": "V1",
+  "source_url": "https://www.comptia.org/certifications/datasys",
+  "passing_score": 750,
+  "passing_score_scale": "100-900",
+  "total_questions": 90,
+  "question_types": [
+    "Multiple Choice (single)",
+    "Multiple Choice (multiple)",
+    "Performance-Based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 369.0,
+  "exam_price_notes": "Buy Now",
+  "voucher_url": "https://store.comptia.org/",
+  "exam_registration_url": "https://home.pearsonvue.com/comptia",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/comptia",
+      "notes": "In-person test centers worldwide and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID are required. Primary ID must be government-issued, include candidate's name, photo, and signature (e.g. passport, driver's license). Secondary ID must include candidate's name and signature or name and photo.",
+  "exam_rules": "No notes, scratch paper, electronic devices, books, or study materials permitted. Personal items must be stored. No food or drink except water. Restroom breaks allowed but timer continues. Testing center staff may monitor via video/audio.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn CE credits through CompTIA CE program (training, conferences, publishing, teaching, higher certs) or retake the current exam version before expiry.",
+  "continuing_education_units": 30,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Portuguese",
+    "Simplified Chinese"
+  ],
+  "target_audience": "Professionals with 2–3 years of experience in database administration",
+  "recommended_experience": "2–3 years of experience in a database administrator role recommended",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "2–3 years of experience in a database administrator role recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period required before first retake. After the second failed attempt, candidates must wait 14 calendar days before any subsequent attempt. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Database fundamentals",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Database structure types",
+          "sub_objectives": [
+            "Comparing relational and non-relational databases like NoSQL, DynamoDB, and MongoDB"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "SQL code development",
+          "sub_objectives": [
+            "Applying data definition language (DDL), data manipulation language (DML), transaction control language (TCL), ACID (atomicity, consistency, isolation, durability) principles, stored procedures, and views"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Scripting methods",
+          "sub_objectives": [
+            "Comparing server-side vs. client-side scripting and using languages like Python, PowerShell, and command-line scripting"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Programming impact",
+          "sub_objectives": [
+            "Using object-relational mapping (ORM) tools like Hibernate and Entity Framework, validating SQL code, and analyzing database server impact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Database deployment",
+      "weight_percent": 16.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Planning and design",
+          "sub_objectives": [
+            "Gathering requirements, designing database architecture, and creating documentation like data dictionaries and entity relationship diagrams (ERDs)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Implementation and testing",
+          "sub_objectives": [
+            "Validating schemas, performing stress tests, managing version control, and testing database connectivity"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Deployment phases",
+          "sub_objectives": [
+            "Installing, configuring, provisioning, and validating scalability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Database management and maintenance",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Monitoring and reporting",
+          "sub_objectives": [
+            "Tracking system alerts, performance metrics, transaction logs, and resource utilization"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Maintenance processes",
+          "sub_objectives": [
+            "Optimizing queries, managing patches, planning capacity, and tuning performance"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Documentation and tools",
+          "sub_objectives": [
+            "Using data dictionaries, ERDs, standard operating procedures (SOPs), and compliance documentation"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Data management tasks",
+          "sub_objectives": [
+            "Modifying data, managing redundancy, defining relationships, and using views/materialized views"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Data and database security",
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Data security concepts",
+          "sub_objectives": [
+            "Applying encryption (in transit, at rest), data masking, and destruction techniques"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Governance and compliance",
+          "sub_objectives": [
+            "Implementing data loss prevention, retention policies, and regulations like the General Data Protection Regulation (GDPR) and Payment Card Industry Data Security Standard (PCI DSS)"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Authentication and authorization",
+          "sub_objectives": [
+            "Managing access controls, password policies, and identity management"
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Infrastructure security",
+          "sub_objectives": [
+            "Applying physical controls like biometrics and fire suppression, and logical controls like firewalls and port security"
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Threat mitigation",
+          "sub_objectives": [
+            "Addressing SQL injection, denial of service (DoS), phishing, ransomware, and brute-force attacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Business continuity",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Backup and recovery",
+          "sub_objectives": [
+            "Creating disaster recovery plans, replication strategies, and failover processes"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "High availability",
+          "sub_objectives": [
+            "Implementing clustering, load balancing, and system redundancy"
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Risk assessment",
+          "sub_objectives": [
+            "Conducting impact analysis, risk mitigation, and continuity testing"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "CertMaster Learn",
+      "url": "https://www.comptia.org/training/certmaster-learn",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 499.0,
+      "notes": "Official e-learning with performance-based questions and study guides"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CertMaster Practice",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "Adaptive practice question engine with rationale"
+    },
+    {
+      "resource_type": "lab",
+      "title": "CertMaster Labs",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Browser-based virtual lab environments"
+    }
+  ],
+  "aliases": [
+    "comptia datasys+",
+    "comptia-datasys-plus-ds0-001",
+    "datasys+",
+    "ds0-001"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-datasys-plus-ds0-001"
+}

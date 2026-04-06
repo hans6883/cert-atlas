@@ -1,0 +1,93 @@
+{
+  "exam_id": "asq-cqia",
+  "exam_name": "Certified Quality Improvement Associate (CQIA)",
+  "exam_code": "CQIA",
+  "certifying_body": "ASQ",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://asq.org/cert/quality-improvement-associate",
+  "passing_score": 550,
+  "passing_score_scale": null,
+  "total_questions": 70,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 135,
+  "exam_price_usd": 248.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://asq.org/cert",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/asq",
+      "notes": "Pearson VUE CBT test centers or remote proctored online. CSSWB is online only through ASQ website."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match ASQ registration exactly.",
+  "exam_rules": "Open-book: printed and bound reference materials allowed. No electronic reference aids (no tablets, phones, laptops, e-readers). No programmable calculators. Basic scientific calculators permitted. Available in English and Spanish for some exams.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "3-year recertification cycle. 18 Recertification Units (RUs) required per 3-year period. RUs can be earned through education, experience, and professional activities. Alternatively, recertify by retaking and passing the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 8,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "8-day waiting period between attempts. Full exam fee required for each retake. No limit on total number of attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Quality Basics",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Teams and Team Processes",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Continuous Improvement",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Customer-Supplier Relations",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "webpage",
+      "title": "ASQ Certification Body of Knowledge",
+      "url": "https://asq.org/cert",
+      "provider": "ASQ",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free Body of Knowledge (BoK) documents and exam preparation resources for each certification"
+    }
+  ],
+  "aliases": [
+    "asq-cqia",
+    "certified quality improvement associate cqia",
+    "cqia",
+    "quality improvement associate"
+  ],
+  "practice_url": "https://quizforge.ai/tests/asq-cqia"
+}

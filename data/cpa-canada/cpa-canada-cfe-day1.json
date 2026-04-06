@@ -1,0 +1,105 @@
+{
+  "exam_id": "cpa-canada-cfe-day1",
+  "exam_name": "CPA Common Final Examination (CFE) — Day 1 Role Simulation",
+  "exam_code": "CFE Day 1",
+  "certifying_body": "CPA Canada",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.cpacanada.ca/en/become-a-cpa/certification-process/cfe",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Written Case Response",
+    "Role Simulation",
+    "Multi-Competency Case"
+  ],
+  "exam_format": "3-day written examination at CPA exam centres (paper-based or CBE)",
+  "duration_minutes": 240,
+  "exam_price_usd": null,
+  "exam_price_notes": "CAD $570 for the 3-day CFE package (Day 1 included). Pass/fail with competency-level assessment.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.cpacanada.ca/en/become-a-cpa/certification-process/cfe",
+  "testing_centers": [
+    {
+      "provider": "CPA Canada / Provincial CPA Bodies",
+      "scheduling_url": "https://www.cpacanada.ca/en/become-a-cpa/certification-process/cfe",
+      "notes": "CFE is administered at designated CPA exam centres across Canada. Not delivered via Pearson VUE or Prometric. Paper-based or computer-based depending on sitting year and jurisdiction."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required at CPA exam centre. Name must match CPA Canada / provincial body registration exactly.",
+  "exam_rules": "CFE is a 3-day written examination (paper-based or CBE at CPA exam centres). Not externally proctored — administered exclusively at official CPA exam centres. Passing is assessed as pass/fail with sub-competency level ratings. CPA PEP prerequisite modules (Core 1, Core 2, two elective modules) must be completed before CFE. 30 months of CPA-approved practical experience required alongside or after PEP for full designation.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "CPA designation does not expire but requires annual membership in good standing with the provincial CPA body. Continuing Professional Development (CPD) requirements apply annually.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "French"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "CPA PEP (Professional Education Program) — all prerequisite modules must be completed before CFE registration",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "30 months of supervised practical experience (concurrent with or after PEP)",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 6,
+    "notes": "CFE may be attempted up to 6 times total. Candidates who do not pass may be eligible to write only the failing day(s) on subsequent attempts. Retake registration fees apply."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Business Analysis and Strategy",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Stakeholder Communication",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "CPA Canada Competency Map",
+      "url": "https://www.cpacanada.ca/en/become-a-cpa/certification-process/cpa-competency-map",
+      "provider": "CPA Canada",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official competency map defining all knowledge and skill areas assessed on the CFE"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CPA Canada CFE Past Exams and Debrief",
+      "url": "https://www.cpacanada.ca/en/become-a-cpa/certification-process/cfe",
+      "provider": "CPA Canada",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Past CFE papers and official debrief documents available free to registered candidates"
+    }
+  ],
+  "aliases": [
+    "cfe day 1",
+    "common final examination day 1",
+    "cpa canada exam",
+    "cpa cfe",
+    "cpa common final examination cfe day 1 role simulation",
+    "cpa-canada-cfe-day1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cpa-canada-cfe-day1"
+}

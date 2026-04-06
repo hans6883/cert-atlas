@@ -1,0 +1,308 @@
+{
+  "exam_id": "clep-biology",
+  "exam_name": "Biology",
+  "exam_code": "BIO",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/biology",
+  "passing_score": 50,
+  "passing_score_scale": null,
+  "total_questions": 115,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students who have completed a one-year college general biology course",
+  "recommended_experience": "Completion of a one-year college general biology course",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Completion of a one-year college general biology course",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "Molecular and Cellular Biology",
+      "name": "Molecular and Cellular Biology",
+      "weight_percent": 33.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Chemical composition of organisms",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Simple chemical reactions and bonds",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Properties of water",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Chemical structure of carbohydrates, lipids, proteins, and nucleic acids",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Origin of life",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Cells",
+          "sub_objectives": [
+            "Structure and function of cell organelles",
+            "Properties of cell membranes",
+            "Comparison of prokaryotic and eukaryotic cells"
+          ]
+        },
+        {
+          "id": "1.7",
+          "title": "Enzymes",
+          "sub_objectives": [
+            "Enzyme-substrate complex",
+            "Roles of coenzymes",
+            "Inorganic cofactors",
+            "Inhibition and regulation"
+          ]
+        },
+        {
+          "id": "1.8",
+          "title": "Energy transformations",
+          "sub_objectives": [
+            "Glycolysis, cellular respiration, aerobic and anaerobic pathways",
+            "Photosynthesis"
+          ]
+        },
+        {
+          "id": "1.9",
+          "title": "Cell division",
+          "sub_objectives": [
+            "Structure of chromosomes",
+            "Mitosis, meiosis, and cytokinesis in plants and animals"
+          ]
+        },
+        {
+          "id": "1.10",
+          "title": "Chemical nature of the gene",
+          "sub_objectives": [
+            "Watson-Crick model of nucleic acids",
+            "DNA replication",
+            "Mutations",
+            "Control of protein synthesis: transcription, translation, and post-transcriptional processing",
+            "Structural and regulatory genes",
+            "Transformation",
+            "Viruses"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Organismal Biology",
+      "name": "Organismal Biology",
+      "weight_percent": 34.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Structure and function in plants with emphasis on angiosperms",
+          "sub_objectives": [
+            "Root, stem, leaf, flower, seed, and fruit",
+            "Water and mineral absorption and transport",
+            "Food translocation and storage",
+            "Plant reproduction and development",
+            "Alternation of generations in ferns, conifers, and flowering plants",
+            "Gamete formation and fertilization",
+            "Growth and development: hormonal control",
+            "Tropisms and photoperiodicity"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Structure and function in animals with emphasis on vertebrates",
+          "sub_objectives": [
+            "Major systems (e.g., digestive, gas exchange, skeletal, nervous, circulatory, excretory, and immune)",
+            "Homeostatic mechanisms",
+            "Hormonal control in homeostasis and reproduction",
+            "Animal reproduction and development",
+            "Gamete formation and fertilization",
+            "Cleavage, gastrulation, germ layer formation, and differentiation of organ systems",
+            "Experimental analysis of vertebrate development",
+            "Extraembryonic membranes of vertebrates",
+            "Formation and function of the mammalian placenta",
+            "Blood circulation in the human embryo"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Principles of heredity",
+          "sub_objectives": [
+            "Mendelian inheritance (dominance, segregation, independent assortment)",
+            "Chromosomal basis of inheritance",
+            "Linkage, including sex-linked",
+            "Polygenic inheritance (height, skin color, etc.)",
+            "Multiple alleles (human blood groups)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Population Biology",
+      "name": "Population Biology",
+      "weight_percent": 33.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Principles of ecology",
+          "sub_objectives": [
+            "Energy flow and productivity in ecosystems",
+            "Biogeochemical cycles",
+            "Population growth and regulation (natality, mortality, competition, migration, density, r- and K-selection)",
+            "Community structure, growth, and regulation (major biomes and succession)",
+            "Habitat (biotic and abiotic factors)",
+            "Concept of niche",
+            "Island biogeography"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Principles of evolution",
+          "sub_objectives": [
+            "History of evolutionary concepts",
+            "Concepts of natural selection (differential reproduction, mutation, Hardy-Weinberg equilibrium, speciation, and punctuated equilibrium)",
+            "Adaptive radiation",
+            "Major features of plant and animal evolution",
+            "Concepts of homology and analogy",
+            "Convergence, extinction, balanced polymorphism, and genetic drift"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Classification of living organisms",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Evolutionary history of humans",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Principles of behavior",
+          "sub_objectives": [
+            "Stereotyped and learned social behavior",
+            "Societies (insects, birds, and primates)",
+            "Social biology"
+          ]
+        },
+        {
+          "id": "3.6",
+          "title": "Human population growth",
+          "sub_objectives": [
+            "Age composition, birth and fertility rates, and theory of demographic transition"
+          ]
+        },
+        {
+          "id": "3.7",
+          "title": "Human intervention in the natural world",
+          "sub_objectives": [
+            "Management of resources, and environmental pollution",
+            "Biomedical progress (control of human reproduction, and genetic engineering)"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP Biology Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "The Biology exam covers molecular and cellular biology, organismal biology, and population biology."
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: Biology",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: Biology",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the Biology exam."
+    },
+    {
+      "resource_type": "app",
+      "title": "CLEP Practice App",
+      "url": null,
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides from examIam."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education (ACE)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "bio",
+    "biology",
+    "biology clep",
+    "clep biology",
+    "clep-biology"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-biology"
+}

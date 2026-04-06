@@ -1,0 +1,114 @@
+{
+  "exam_id": "ascp-h",
+  "exam_name": "Hematology Technologist (H)",
+  "exam_code": "H",
+  "certifying_body": "ASCP Board of Certification",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ascp.org/content/board-of-certification/get-credentialed/",
+  "passing_score": 400,
+  "passing_score_scale": "400/999 scaled score",
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice (single best answer)"
+  ],
+  "exam_format": "Linear fixed-form computer-based examination (CBE)",
+  "duration_minutes": 120,
+  "exam_price_usd": 135.0,
+  "exam_price_notes": "$135 exam fee; specialist-level credential.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ascp.org/content/board-of-certification/get-credentialed",
+  "testing_centers": [
+    {
+      "provider": "ASCP Online CBE Platform",
+      "scheduling_url": "https://www.ascp.org/content/board-of-certification/get-credentialed",
+      "notes": "ASCP administers exams through its own online computer-based examination (CBE) platform; not administered via Pearson VUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match ASCP BOC registration exactly.",
+  "exam_rules": "Closed-book computer-based examination. On-screen calculator provided for applicable questions. Score scale 100–999; passing score is 400 for most credentials. Exams administered through ASCP's own online platform.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "3-year recertification cycle. Recertification requires 36 CE credits per 3-year cycle. CE must be in laboratory medicine or related clinical science. Recertification application submitted through ASCP BOC portal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "Bachelor's degree in chemical, physical, or biological science plus clinical hematology laboratory experience; or MT/MLS credential plus hematology experience",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 6,
+    "notes": "Candidates must wait 90 days between attempts. Maximum of 6 total attempts per credential. Full exam fee required for each attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Routine Hematology Testing",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Blood Cell Morphology and Interpretation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Coagulation Studies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Hemostasis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Troubleshooting and Quality Assurance",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "ASCP BOC Exam Content Guidelines",
+      "url": "https://www.ascp.org/content/board-of-certification/get-credentialed",
+      "provider": "ASCP Board of Certification",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free content guidelines per credential available on ASCP BOC website"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ASCP BOC Practice Exams",
+      "url": "https://www.ascp.org/content/board-of-certification/prepare",
+      "provider": "ASCP Board of Certification",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ASCP practice exams sold through ASCP marketplace"
+    }
+  ],
+  "aliases": [
+    "ascp hematology",
+    "ascp-h",
+    "h",
+    "hematology technologist certification",
+    "hematology technologist h"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ascp-h"
+}

@@ -1,0 +1,135 @@
+{
+  "exam_id": "microsoft-ai-102-azure-ai-engineer",
+  "exam_name": "Designing and Implementing a Microsoft Azure AI Solution",
+  "exam_code": "AI-102",
+  "certifying_body": "Microsoft",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/",
+  "passing_score": 700,
+  "passing_score_scale": "1-1000",
+  "total_questions": 40,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response",
+    "Drag and Drop",
+    "Case Study",
+    "Build List",
+    "Hot Area",
+    "Repeated Answer Choices"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 100,
+  "exam_price_usd": 165.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/microsoft",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/microsoft",
+      "notes": "In-person and online proctored (OnVUE)"
+    },
+    {
+      "provider": "Certiport",
+      "scheduling_url": "https://certiport.pearsonvue.com/",
+      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
+  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "French",
+    "German",
+    "Japanese",
+    "Korean",
+    "Portuguese",
+    "Russian",
+    "Spanish",
+    "Arabic",
+    "Indonesian"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 5,
+    "max_attempts_total": null,
+    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Plan and manage an Azure AI solution",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Implement decision support solutions",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Implement computer vision solutions",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Implement natural language processing solutions",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Implement knowledge mining and document intelligence solutions",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Implement generative AI solutions",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Microsoft Learn (free self-paced training)",
+      "url": "https://learn.microsoft.com/en-us/training/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official learning paths mapped to each exam"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Microsoft Official Practice Assessment",
+      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official practice questions on Microsoft Learn"
+    }
+  ],
+  "aliases": [
+    "ai-102",
+    "designing and implementing a microsoft azure ai solution",
+    "microsoft certified azure ai engineer associate",
+    "microsoft-ai-102-azure-ai-engineer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/microsoft-ai-102-azure-ai-engineer"
+}

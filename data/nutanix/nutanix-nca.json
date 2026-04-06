@@ -1,0 +1,84 @@
+{
+  "exam_id": "nutanix-nca",
+  "exam_name": "NCA (Nutanix Certified Associate)",
+  "exam_code": "NCA-6.10",
+  "certifying_body": "Nutanix",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-associate-v6-10",
+  "passing_score": 3000,
+  "passing_score_scale": "1000-6000 (3000 passing for NCA/NCP exams); pass/fail for NCM-MCI lab",
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response",
+    "Practical Lab (NCM-MCI)"
+  ],
+  "exam_format": "Linear (NCA/NCP); Hands-on Live Lab (NCM-MCI)",
+  "duration_minutes": 90,
+  "exam_price_usd": 100.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/nutanix",
+      "notes": "In-person test centers and online proctored (OnVUE) available for NCA and NCP exams. NCM-MCI is a live lab exam."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "No personal items or notes permitted in the testing area. NCA and NCP exams are multiple-choice via Pearson VUE. NCM-MCI is a hands-on live lab exam (180 minutes, 16-20 scenarios). NCM-MCI requires any non-expired NCP or NCM-level certification as a prerequisite.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Recertify by passing the current version of the exam before expiry. A one-year grace period may be available for recertification.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between attempts. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Describe Lifecycle Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Describe Nutanix Basic Administration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Maintain the Environmental Health of a Nutanix Cluster",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Describe Cluster Configuration Options",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-associate-v6-10",
+  "official_study_resources": [],
+  "aliases": [
+    "nca",
+    "nca nutanix certified associate",
+    "nca-6 10",
+    "nutanix associate",
+    "nutanix certified associate",
+    "nutanix-nca"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nutanix-nca"
+}

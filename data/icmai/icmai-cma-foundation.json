@@ -1,0 +1,103 @@
+{
+  "exam_id": "icmai-cma-foundation",
+  "exam_name": "CMA Foundation",
+  "exam_code": "CMA Foundation",
+  "certifying_body": "ICMAI",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.icmai.in/icmai/Examination/Foundation.php",
+  "passing_score": 50,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 720,
+  "exam_price_usd": null,
+  "exam_price_notes": "₹1,200 (~$14 USD) registration fee",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "ICMAI Regional and Chapter Exam Centres",
+      "scheduling_url": "https://www.icmai.in/icmai/Examination/ExamHome.php",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "ICMAI Registration Number + valid government-issued photo ID (Aadhaar, Passport, Voter ID, Driving Licence)",
+  "exam_rules": "Pen-and-paper examination at designated centres. No electronic devices permitted. Papers are descriptive/analytical; no multiple-choice format. Negative marking does not apply.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "CMA membership is for lifetime; Certificate of Practice holders must complete 30 CPD hours every 3 years",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Class 10+2 from recognised board; registration with ICMAI",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 2,
+    "max_attempts_total": null,
+    "notes": "Exams held in June and December; no limit on total attempts; exemption in passed papers valid for next 3 attempts"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Paper 1: Fundamentals of Business Laws and Business Communication",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Paper 2: Fundamentals of Financial Accounting",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Paper 3: Fundamentals of Management",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Paper 4: Fundamentals of Business Mathematics and Statistics",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_material",
+      "title": "ICMAI Official Study Notes (Free Download)",
+      "url": "https://www.icmai.in/icmai/Students/Syllabus-StudyMaterial.php",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ICMAI Suggested Answers and Past Papers",
+      "url": "https://www.icmai.in/icmai/Examination/SuggestedAnswers.php",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cma foundation",
+    "icmai-cma-foundation"
+  ],
+  "practice_url": "https://quizforge.ai/tests/icmai-cma-foundation"
+}

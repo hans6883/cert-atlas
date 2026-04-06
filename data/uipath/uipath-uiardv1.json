@@ -1,0 +1,118 @@
+{
+  "exam_id": "uipath-uiardv1",
+  "exam_name": "UiPath RPA Associate v1.0",
+  "exam_code": "UiARD",
+  "certifying_body": "UiPath",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.uipath.com/rpa/certification/uipath-rpa-associate",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Scenario-based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 75,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.uipath.com/rpa/certification",
+  "testing_centers": [
+    {
+      "provider": "ExamBuilder",
+      "scheduling_url": "https://www.uipath.com/rpa/certification",
+      "notes": "Online proctored via ExamBuilder"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No notes or external resources permitted. Professional-level exams include a practical component. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "UiPath Platform Overview",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Build Automation with Studio",
+      "weight_percent": 36.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Variables, Arguments, and Control Flow",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Application Integration and Data Manipulation",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Error and Exception Handling",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Orchestrator for Developers",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "UiPath Academy",
+      "url": "https://academy.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Free official learning paths and practice exams aligned to each certification"
+    },
+    {
+      "resource_type": "community",
+      "title": "UiPath Community Forum",
+      "url": "https://forum.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Community discussion and study support"
+    }
+  ],
+  "aliases": [
+    "uiard",
+    "uipath associate",
+    "uipath automation developer associate",
+    "uipath certified automation developer associate",
+    "uipath rpa associate",
+    "uipath rpa associate v1 0",
+    "uipath-uiardv1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/uipath-uiardv1"
+}

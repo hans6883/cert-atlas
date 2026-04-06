@@ -1,0 +1,101 @@
+{
+  "exam_id": "acca-sbl",
+  "exam_name": "Strategic Business Leader (SBL/P1)",
+  "exam_code": "SBL/P1",
+  "certifying_body": "ACCA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/professional-exams-study-resources.html",
+  "passing_score": 50,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Objective Test Questions (OTQ)",
+    "Constructed Response"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 240,
+  "exam_price_usd": 222.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.accaglobal.com/gb/en/student/exam-entry-and-administration/enter-an-exam.html",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/acca",
+      "notes": "Computer-Based Exams (CBE) at Pearson VUE test centers globally; paper-based exams available in some regions"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Valid government-issued photo ID required. Name on ID must match ACCA registration exactly.",
+  "exam_rules": "Closed-book. Scientific calculators permitted (non-programmable, non-financial). No graphical or financial calculators. No phones or electronic devices. Scratch paper provided.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Passed exams do not expire. Once qualified, ACCA members must complete 40 CPD hours per year (21 verifiable hours minimum). Annual membership subscription required to maintain active ACCA status.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Must complete all Applied Skills exams before attempting Strategic Professional",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": 4,
+    "max_attempts_total": null,
+    "notes": "Maximum 4 attempts per exam in total for Applied Knowledge CBEs (on-demand). Applied Skills and Strategic Professional: 4 exam sessions per year (March, June, September, December). Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Strategic position",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Strategic choices",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Strategic action",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Professional skills",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "webpage",
+      "title": "ACCA Study Resources",
+      "url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f1.html",
+      "provider": "ACCA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free past exam papers, examiners' reports, and technical articles"
+    }
+  ],
+  "aliases": [
+    "acca qualification",
+    "acca-sbl",
+    "sbl",
+    "sbl p1",
+    "strategic business leader",
+    "strategic business leader sbl p1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/acca-sbl"
+}

@@ -1,0 +1,78 @@
+{
+  "exam_id": "giac-gcfa",
+  "exam_name": "GCFA (GIAC Certified Forensic Analyst)",
+  "exam_code": "GCFA",
+  "certifying_body": "GIAC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
+  "passing_score": 71,
+  "passing_score_scale": "percentage",
+  "total_questions": 115,
+  "question_types": [],
+  "exam_format": "Multiple Choice",
+  "duration_minutes": 180,
+  "exam_price_usd": 949.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/giac",
+      "notes": "Available at Pearson VUE test centers worldwide"
+    },
+    {
+      "provider": "ProctorU (Remote)",
+      "scheduling_url": "https://www.proctoru.com/",
+      "notes": "Online remote proctoring via ProctorU"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. ID must match the name on the exam registration. Acceptable forms include passport, driver's license, or national ID card.",
+  "exam_rules": "Open-book exam. Physical and electronic notes are permitted — building a comprehensive index is a key preparation strategy. No internet access during the exam except to pre-loaded approved materials. Proctored at Pearson VUE centers or online via ProctorU. Candidates have a 4-month window to schedule and take the exam after registration.",
+  "certification_validity_years": 4,
+  "renewal_required": true,
+  "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
+  "continuing_education_units": 36,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
+  },
+  "domains": [],
+  "official_objectives_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "SANS Institute Training Courses",
+      "url": "https://www.sans.org/courses/",
+      "provider": "SANS Institute",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "GIAC certifications are aligned with SANS Institute courses (e.g., SEC401 → GSEC, SEC504 → GCIH)"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "GIAC Practice Tests (included with registration)",
+      "url": "https://www.giac.org/",
+      "provider": "GIAC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "2 free practice tests included with every GIAC exam registration"
+    }
+  ],
+  "aliases": [
+    "forensic analyst giac",
+    "gcfa",
+    "gcfa giac certified forensic analyst",
+    "giac certified forensic analyst",
+    "giac-gcfa"
+  ],
+  "practice_url": "https://quizforge.ai/tests/giac-gcfa"
+}

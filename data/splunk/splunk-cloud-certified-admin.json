@@ -1,0 +1,56 @@
+{
+  "exam_id": "splunk-cloud-certified-admin",
+  "exam_name": "Splunk Cloud Certified Admin",
+  "exam_code": "SPLK-1005",
+  "certifying_body": "Splunk",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.splunk.com/en_us/training/certification-track/splunk-cloud-certified-admin.html",
+  "passing_score": 70,
+  "passing_score_scale": "Percentage (70% passing)",
+  "total_questions": 65,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 60,
+  "exam_price_usd": 130.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/splunk",
+      "notes": "In-person test centers and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted. Online proctored (OnVUE): must be alone in room, no second monitors, no virtual machines or remote desktop. SPLK-1002 prereq: Core Certified User recommended. SPLK-1004 prereq: Enterprise Certified Admin recommended.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Recertify by passing the current version of the exam before expiry.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between failed attempts. No limit on total attempts."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "splk-1005",
+    "splunk cloud admin",
+    "splunk cloud certified admin",
+    "splunk-cloud-certified-admin"
+  ],
+  "practice_url": "https://quizforge.ai/tests/splunk-cloud-certified-admin"
+}

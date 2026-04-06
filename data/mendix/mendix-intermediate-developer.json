@@ -1,0 +1,104 @@
+{
+  "exam_id": "mendix-intermediate-developer",
+  "exam_name": "Mendix Intermediate Developer Certification",
+  "exam_code": "MID",
+  "certifying_body": "Mendix",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://academy.mendix.com/link/certifications/intermediate",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://academy.mendix.com/link/certifications",
+  "testing_centers": [
+    {
+      "provider": "Online (Mendix Academy)",
+      "scheduling_url": "https://academy.mendix.com/link/certifications",
+      "notes": "Online proctored via Mendix Academy platform."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Mendix Academy account required.",
+  "exam_rules": "Closed-book. Online proctored. No reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Mendix Rapid Developer recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "7-day waiting period after failed attempt. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Advanced Domain Modeling",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Advanced Microflows and Nanoflows",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Integration and APIs (REST/SOAP/OData)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Advanced Pages and Widgets",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security and Access Control",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Mendix Academy",
+      "url": "https://academy.mendix.com/",
+      "provider": "Mendix",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free learning paths at Mendix Academy"
+    }
+  ],
+  "aliases": [
+    "mendix intermediate developer certification",
+    "mendix-intermediate-developer",
+    "mid"
+  ],
+  "practice_url": "https://quizforge.ai/tests/mendix-intermediate-developer"
+}

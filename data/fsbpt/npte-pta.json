@@ -1,0 +1,120 @@
+{
+  "exam_id": "npte-pta",
+  "exam_name": "NPTE-PTA (National Physical Therapy Examination — Physical Therapist Assistant)",
+  "exam_code": "NPTE-PTA",
+  "certifying_body": "FSBPT",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.fsbpt.org/",
+  "passing_score": 600,
+  "passing_score_scale": "Scaled score 200–800; passing score is 600 for both NPTE-PT and NPTE-PTA",
+  "total_questions": 200,
+  "question_types": [
+    "Multiple Choice (4 options)",
+    "Scenario-based questions"
+  ],
+  "exam_format": "Computer-based linear exam at Prometric testing centers; offered quarterly",
+  "duration_minutes": 240,
+  "exam_price_usd": 445.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/fsbpt",
+      "notes": "NPTE-PT and NPTE-PTA are administered at Prometric testing centers nationwide. Schedule online at prometric.com. Exams are offered during quarterly windows: January, April, July, and October."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly. Secondary ID may be required.",
+  "exam_rules": "No personal items, notes, phones, or reference materials permitted in testing room. Must obtain state board Authorization to Test (ATT) before scheduling. Scores valid for use with licensing authorities; individual state boards set score acceptance windows. Unscored pretest items are distributed throughout the exam and not identified to candidates.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "NPTE is a licensure examination, not a renewable certification. State PT licenses must be renewed separately according to individual state requirements. Most states require continuing education for license renewal.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Graduate of a CAPTE-accredited PTA program (Associate degree); state board application required",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 6,
+    "notes": "60-day waiting period between attempts. Maximum of 6 total attempts (state board rules may vary; some states impose stricter limits). Candidates must reapply to their state board for Authorization to Test for each attempt. After exhausting attempts, candidates may petition their state board for additional attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Musculoskeletal",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Neuromuscular and Nervous System",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Cardiovascular and Pulmonary",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Non-Systems (safety, equipment, professional development)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Integumentary (skin/wound)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Other Systems",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "candidate_handbook",
+      "title": "NPTE Candidate Handbook",
+      "url": "https://www.fsbpt.org/Free-Resources/NPTE-Candidate-Handbook",
+      "provider": "FSBPT",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official candidate handbook with content outline, exam structure, and policies"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "FSBPT Practice Exam",
+      "url": "https://www.fsbpt.org/Candidates/Prepare-for-the-NPTE/Practice-Exam",
+      "provider": "FSBPT",
+      "is_official": true,
+      "price_usd": 55.0,
+      "notes": "Official FSBPT practice exam; 150 items with rationales"
+    }
+  ],
+  "aliases": [
+    "national physical therapy examination pta",
+    "npte physical therapist assistant",
+    "npte pta",
+    "npte-pta",
+    "npte-pta national physical therapy examination physical therapist assistant",
+    "pta boards"
+  ],
+  "practice_url": "https://quizforge.ai/tests/npte-pta"
+}

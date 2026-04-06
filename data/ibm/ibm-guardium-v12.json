@@ -1,0 +1,120 @@
+{
+  "exam_id": "ibm-guardium-v12",
+  "exam_name": "IBM Certified Guardium Data Protection v12.x Administrator - Professional",
+  "exam_code": "C1000-197",
+  "certifying_body": "IBM",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ibm.com/training/certification/ibm-certified-guardium-data-protection-v12x-administrator-professional-C9008300",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.pearsonvue.com/ibm",
+      "notes": "Online proctoring available through Pearson VUE OnVUE; in-person test centers also available"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No notes or external resources permitted. Proctor monitors via webcam for online proctored sessions. Assessment exams (unproctored practice tests) are also available via Pearson VUE.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "IBM certifications are valid for 2 years. Renew by retaking the current version or a higher-level exam before expiry.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Architecture / Planning / Designing",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Deploy and Configure",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Discover, Assess and Harden",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Policy Management",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Reporting and Alerting",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "System Health",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Maintenance",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Troubleshooting",
+      "weight_percent": 12.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://www.ibm.com/training/certification/ibm-certified-guardium-data-protection-v12x-administrator-professional-C9008300",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "IBM Training",
+      "url": "https://www.ibm.com/training",
+      "provider": "IBM",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official IBM instructor-led and self-paced training; study guides and sample tests available per cert page"
+    }
+  ],
+  "aliases": [
+    "c1000-197",
+    "c9008300",
+    "guardium administrator",
+    "ibm certified guardium data protection v12 x administrator - professional",
+    "ibm guardium data protection",
+    "ibm guardium v12",
+    "ibm-guardium-v12"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ibm-guardium-v12"
+}

@@ -1,0 +1,350 @@
+{
+  "exam_id": "comptia-cloud-plus-cv0-004",
+  "exam_name": "CompTIA Cloud+",
+  "exam_code": "CV0-004",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA Cloud+",
+  "version": "V4",
+  "source_url": "https://www.comptia.org/certifications/cloud",
+  "passing_score": 750,
+  "passing_score_scale": "100-900",
+  "total_questions": 90,
+  "question_types": [
+    "Multiple Choice (single)",
+    "Multiple Choice (multiple)",
+    "Performance-Based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 369.0,
+  "exam_price_notes": null,
+  "voucher_url": "https://store.comptia.org/",
+  "exam_registration_url": "https://home.pearsonvue.com/comptia",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/comptia",
+      "notes": "In-person test centers worldwide and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID are required. Primary ID must be government-issued, include candidate's name, photo, and signature (e.g. passport, driver's license). Secondary ID must include candidate's name and signature or name and photo.",
+  "exam_rules": "No notes, scratch paper, electronic devices, books, or study materials permitted. Personal items must be stored. No food or drink except water. Restroom breaks allowed but timer continues. Testing center staff may monitor via video/audio.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn CE credits through CompTIA CE program (training, conferences, publishing, teaching, higher certs) or retake the current exam version before expiry.",
+  "continuing_education_units": 30,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Portuguese",
+    "Simplified Chinese"
+  ],
+  "target_audience": "network operations specialist, systems administrator, enterprise architect, and security architect",
+  "recommended_experience": "2–3 years of hands-on experience as a systems administrator or cloud engineer",
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period required before first retake. After the second failed attempt, candidates must wait 14 calendar days before any subsequent attempt. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Cloud architecture",
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Cloud models",
+          "sub_objectives": [
+            "Analyzing public, private, hybrid, and multi-cloud models to support business needs."
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Virtualization",
+          "sub_objectives": [
+            "Understanding virtualization technologies and their role in cloud environments."
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Cloud networking",
+          "sub_objectives": [
+            "Deploying solutions like virtual private networks (VPNs) and virtual networks."
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Containerization",
+          "sub_objectives": [
+            "Explaining containerization and its role in cloud environments."
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Orchestration",
+          "sub_objectives": [
+            "Managing containers using orchestration techniques."
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "Database fundamentals",
+          "sub_objectives": [
+            "Exploring database concepts and their cloud applications."
+          ]
+        },
+        {
+          "id": "1.7",
+          "title": "Resource optimization",
+          "sub_objectives": [
+            "Optimizing cloud resources for performance and cost efficiency."
+          ]
+        },
+        {
+          "id": "1.8",
+          "title": "Billing management",
+          "sub_objectives": [
+            "Managing billing considerations for cloud usage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Deployment",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "System requirements",
+          "sub_objectives": [
+            "Analyzing requirements for workload migrations."
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Infrastructure as code (IaC)",
+          "sub_objectives": [
+            "Implementing IaC techniques for automation."
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Workload migrations",
+          "sub_objectives": [
+            "Planning and executing migrations to cloud environments."
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Resource provisioning",
+          "sub_objectives": [
+            "Provisioning and configuring cloud resources effectively."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Operations",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Lifecycle management",
+          "sub_objectives": [
+            "Managing the lifecycle of cloud resources, including scaling and updates."
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Backup and recovery",
+          "sub_objectives": [
+            "Implementing strategies to ensure data integrity."
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Observability",
+          "sub_objectives": [
+            "Monitoring and analyzing cloud environments for performance optimization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Security",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Vulnerability management",
+          "sub_objectives": [
+            "Identifying and addressing vulnerabilities in cloud environments."
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Identity and access management (IAM)",
+          "sub_objectives": [
+            "Implementing IAM to control resource access."
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Container security",
+          "sub_objectives": [
+            "Safeguarding containerized applications and resources."
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Compliance standards",
+          "sub_objectives": [
+            "Ensuring compliance with standards like PCI DSS, SOC 2, and ISO 27001."
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Security controls",
+          "sub_objectives": [
+            "Deploying controls to protect cloud environments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "DevOps fundamentals",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Automation",
+          "sub_objectives": [
+            "Using tools to streamline cloud operations."
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Source control",
+          "sub_objectives": [
+            "Managing code with source control techniques."
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "CI/CD pipelines",
+          "sub_objectives": [
+            "Building and managing continuous integration/continuous deployment pipelines."
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "System integration",
+          "sub_objectives": [
+            "Integrating systems for seamless cloud operations."
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "DevOps tools",
+          "sub_objectives": [
+            "Tools like Kubernetes, Ansible, and Jenkins are used for automation."
+          ]
+        },
+        {
+          "id": "5.6",
+          "title": "Event-driven architectures",
+          "sub_objectives": [
+            "Exploring architectures for cloud applications."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Troubleshooting",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Deployment issues",
+          "sub_objectives": [
+            "Diagnosing and resolving deployment problems."
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "Network connectivity",
+          "sub_objectives": [
+            "Troubleshooting connectivity issues in cloud environments."
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "Security incidents",
+          "sub_objectives": [
+            "Addressing issues like leaked credentials and privilege escalation."
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "Service disruptions",
+          "sub_objectives": [
+            "Resolving disruptions in services like DNS, DHCP, and NTP."
+          ]
+        },
+        {
+          "id": "6.5",
+          "title": "Misconfigurations",
+          "sub_objectives": [
+            "Identifying and fixing misconfigurations in cloud setups."
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-cloud-cv0-004-exam-objectives",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "CertMaster Learn",
+      "url": "https://www.comptia.org/training/certmaster-learn",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 499.0,
+      "notes": "Official e-learning with performance-based questions and study guides"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CertMaster Practice",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "Adaptive practice question engine with rationale"
+    },
+    {
+      "resource_type": "lab",
+      "title": "CertMaster Labs",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Browser-based virtual lab environments"
+    }
+  ],
+  "aliases": [
+    "cloud+",
+    "comptia cloud+",
+    "comptia-cloud-plus-cv0-004",
+    "cv0-004"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-cloud-plus-cv0-004"
+}

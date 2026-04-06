@@ -1,0 +1,198 @@
+{
+  "exam_id": "clep-precalculus",
+  "exam_name": "Precalculus",
+  "exam_code": "PRECLC",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/precalculus",
+  "passing_score": 50,
+  "passing_score_scale": "0-80",
+  "total_questions": 48,
+  "question_types": [
+    "Multiple Choice",
+    "Numerical Entry"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students preparing for a first-semester calculus course",
+  "recommended_experience": "Knowledge of specific properties of many types of functions",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Knowledge of specific properties of many types of functions",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": null
+  },
+  "domains": [
+    {
+      "id": "Algebraic Expressions, Equations, and Inequalities",
+      "name": "Algebraic Expressions, Equations, and Inequalities",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "1",
+          "title": "Ability to perform operations on algebraic expressions",
+          "sub_objectives": []
+        },
+        {
+          "id": "2",
+          "title": "Ability to solve equations and inequalities, including linear, quadratic, absolute value, polynomial, rational, radical, exponential, logarithmic, and trigonometric",
+          "sub_objectives": []
+        },
+        {
+          "id": "3",
+          "title": "Ability to solve systems of equations, including linear and nonlinear",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Functions: Concept, Properties, and Operations",
+      "name": "Functions: Concept, Properties, and Operations",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "1",
+          "title": "Ability to demonstrate an understanding of the concept of a function, the general properties of functions (e.g., domain and range), function notation, and to perform symbolic operations with functions (e.g., evaluation and inverse functions)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Representations of Functions: Symbolic, Graphical, and Tabular",
+      "name": "Representations of Functions: Symbolic, Graphical, and Tabular",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "1",
+          "title": "Ability to recognize and perform operations and transformations on functions presented symbolically, graphically, or in tabular form",
+          "sub_objectives": []
+        },
+        {
+          "id": "2",
+          "title": "Ability to demonstrate an understanding of basic properties of functions and to recognize elementary functions (linear, quadratic, absolute value, square root, polynomial, rational, exponential, logarithmic, trigonometric, inverse trigonometric, and piecewise-defined functions) that are presented symbolically, graphically, or in tabular form",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Analytic Geometry",
+      "name": "Analytic Geometry",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "1",
+          "title": "Ability to demonstrate an understanding of the analytic geometry of lines, circles, parabolas, ellipses, and hyperbolas",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Trigonometry and its Applications",
+      "name": "Trigonometry and its Applications",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "1",
+          "title": "Ability to demonstrate an understanding of the basic trigonometric functions and their inverses and to apply the basic trigonometric ratios and identities (in right triangles and on the unit circle)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2",
+          "title": "Ability to apply trigonometry in various problem-solving contexts",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Functions as Models",
+      "name": "Functions as Models",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "1",
+          "title": "Ability to interpret and construct functions as models and to translate ideas among symbolic, graphical, tabular, and verbal representations of functions",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP Precalculus Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "PDF"
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: Precalculus",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: Precalculus",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the Precalculus exam."
+    },
+    {
+      "resource_type": "article",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "clep precalculus",
+    "clep-precalculus",
+    "precalculus",
+    "precalculus clep",
+    "preclc"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-precalculus"
+}

@@ -1,0 +1,100 @@
+{
+  "exam_id": "dynatrace-professional",
+  "exam_name": "Dynatrace Professional",
+  "exam_code": "DT-Professional",
+  "certifying_body": "Dynatrace",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.dynatrace.com/services-support/university/certification/dynatrace-professional/",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online, self-administered)",
+  "duration_minutes": 90,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.dynatrace.com/services-support/university/certification/",
+  "testing_centers": [
+    {
+      "provider": "Online (Dynatrace University)",
+      "scheduling_url": "https://www.dynatrace.com/services-support/university/certification/",
+      "notes": "All exams taken online through Dynatrace University platform. No external proctoring required for most exams."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Dynatrace account required. No external ID verification for standard assessments.",
+  "exam_rules": "Online self-administered. Open to all with a Dynatrace University account. Closed-book unless otherwise specified.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam through Dynatrace University.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Dynatrace Associate recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 1,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Wait 24 hours between attempts. Exams are free; no cost for retakes."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Advanced Monitoring and Instrumentation",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Root Cause Analysis and Problem Remediation",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Automation and API Integration",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Performance Optimization",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Dynatrace University",
+      "url": "https://university.dynatrace.com/",
+      "provider": "Dynatrace",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online learning paths aligned to certification exams"
+    }
+  ],
+  "aliases": [
+    "dt professional",
+    "dt-professional",
+    "dynatrace professional",
+    "dynatrace professional certification",
+    "dynatrace-professional"
+  ],
+  "practice_url": "https://quizforge.ai/tests/dynatrace-professional"
+}

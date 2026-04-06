@@ -1,0 +1,116 @@
+{
+  "exam_id": "uipath-uisaa",
+  "exam_name": "UiPath Solution Architect",
+  "exam_code": "UiSAA",
+  "certifying_body": "UiPath",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.uipath.com/rpa/certification",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 55,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Scenario-based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 350.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.uipath.com/rpa/certification",
+  "testing_centers": [
+    {
+      "provider": "ExamBuilder",
+      "scheduling_url": "https://www.uipath.com/rpa/certification",
+      "notes": "Online proctored via ExamBuilder"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No notes or external resources permitted. Professional-level exams include a practical component. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "UiPath Automation Developer Professional (UiAPRO) required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Architecture Design and Best Practices",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Technical Pre-sales and Scoping",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Project Governance and Delivery",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Technical Architecture and Infrastructure",
+      "weight_percent": 28.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Deployment, Operations, and Support",
+      "weight_percent": 17.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "UiPath Academy",
+      "url": "https://academy.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Free official learning paths and practice exams aligned to each certification"
+    },
+    {
+      "resource_type": "community",
+      "title": "UiPath Community Forum",
+      "url": "https://forum.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Community discussion and study support"
+    }
+  ],
+  "aliases": [
+    "uipath architect",
+    "uipath certified professional automation solution architect professional",
+    "uipath solution architect",
+    "uipath-uisaa",
+    "uisaa"
+  ],
+  "practice_url": "https://quizforge.ai/tests/uipath-uisaa"
+}

@@ -1,0 +1,95 @@
+{
+  "exam_id": "ssc-je",
+  "exam_name": "SSC Junior Engineer",
+  "exam_code": "SSC JE",
+  "certifying_body": "SSC (Staff Selection Commission)",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://ssc.gov.in/portal/examinations",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 200,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 120,
+  "exam_price_usd": 1.2,
+  "exam_price_notes": "INR 100 (~$1.20 USD). Free for female, SC, ST, PwBD, and Ex-Servicemen.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "SSC CBT Centres (TCS iON / regional CBT centres)",
+      "scheduling_url": "https://ssc.gov.in",
+      "notes": "Computer-Based Tests conducted at SSC-authorised CBT centres across India. TCS iON is the primary technology partner. Admit cards specify the allotted centre; candidates cannot choose specific venues."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Admit card plus one original photo ID required: Aadhaar card, voter ID, passport, driving licence, or PAN card. Photograph must be pasted on the admit card as instructed.",
+  "exam_rules": "Computer-Based Test (CBT). Negative marking applies: 0.5 marks deducted per wrong answer in Tier I/most papers (1 mark deduction in some Tier II sections, as specified per notification). No electronic devices or calculators for most exams. Biometric verification at exam centre.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Hindi"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Indian citizen. Diploma in relevant Engineering or B.E./B.Tech (stream-specific). Age: 18-32 years (relaxation for OBC, SC/ST, PwBD). Posts in CPWD, CWC, MES, FCIIL, and other central departments.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1",
+      "name": "General Intelligence & Reasoning",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "General Awareness",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Technical Subjects (Civil/Electrical/Mechanical)",
+      "weight_percent": 50.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "website",
+      "title": "SSC Official Website",
+      "url": "https://ssc.gov.in",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Exam notifications, syllabus, previous year papers, and admit cards."
+    },
+    {
+      "resource_type": "website",
+      "title": "SSC Previous Year Question Papers",
+      "url": "https://ssc.gov.in/portal/previous-year-question-papers",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official repository of previous year question papers."
+    }
+  ],
+  "aliases": [
+    "ssc je",
+    "ssc je junior engineer civil mechanical electrical",
+    "ssc junior engineer",
+    "ssc-je"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ssc-je"
+}
