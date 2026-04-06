@@ -175,6 +175,7 @@ section.domains h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px so
 .domain-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
 .domain-name { font-weight: 600; font-size: 16px; }
 .domain-weight { font-weight: 700; color: var(--accent); font-size: 15px; white-space: nowrap; }
+.domain-weight.weight-na { font-weight: 400; color: var(--text-muted); font-size: 13px; font-style: italic; }
 .domain-bar { height: 6px; background: var(--bar-bg); border-radius: 3px; margin-bottom: 12px; }
 .domain-bar-fill { height: 100%; background: var(--bar); border-radius: 3px; }
 
@@ -430,13 +431,20 @@ def build_exam_page(vendor_slug, vendor_info, exam):
                     )
                 objectives_html = f'<ul class="objectives">{"".join(obj_items)}</ul>'
 
+            if weight > 0:
+                weight_html = f'<span class="domain-weight">{weight:.0f}%</span>'
+                bar_html = f'<div class="domain-bar"><div class="domain-bar-fill" style="width:{weight}%"></div></div>'
+            else:
+                weight_html = '<span class="domain-weight weight-na">Weight not published</span>'
+                bar_html = ''
+
             domain_blocks.append(f"""
 <div class="domain">
 <div class="domain-header">
 <span class="domain-name">{h(dom.get("id", ""))} {h(dom.get("name", ""))}</span>
-<span class="domain-weight">{weight:.0f}%</span>
+{weight_html}
 </div>
-<div class="domain-bar"><div class="domain-bar-fill" style="width:{weight}%"></div></div>
+{bar_html}
 {objectives_html}
 </div>""")
 
