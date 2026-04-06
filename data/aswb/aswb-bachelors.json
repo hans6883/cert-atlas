@@ -1,0 +1,107 @@
+{
+  "exam_id": "aswb-bachelors",
+  "exam_name": "ASWB Bachelor's Examination (BSW Licensing)",
+  "exam_code": "ASWB-BSW",
+  "certifying_body": "ASWB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.aswb.org/exam-candidates/about-the-exams/exam-levels/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 170,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 240,
+  "exam_price_usd": 230.0,
+  "exam_price_notes": "$230 exam fee paid to ASWB. Separate application fee may be required by state board.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.aswb.org/exam-candidates/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/aswb",
+      "notes": "Computer-based testing at Pearson VUE test centers in the US and Canada"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One valid government-issued photo ID with name and signature. Name must match ASWB Authorization to Test (ATT) exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. On-screen calculator provided. Scratch paper available at test center. No personal items in testing area.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "License renewal requirements (CE hours, renewal period, fees) are set by each state licensing board, not by ASWB. Contact your state board for specific renewal requirements.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "Bachelor of Social Work (BSW) degree from a CSWE-accredited program; eligibility determined by state licensing board",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "90-day waiting period between exam attempts. Maximum 3 attempts per year. Full exam fee required for each retake. State board may impose additional restrictions."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Human Development, Diversity, and Behavior in the Environment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Intervention Processes and Techniques",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Assessment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Communication",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Professional Relationships and Ethics",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ASWB Exam Preparation Resources",
+      "url": "https://www.aswb.org/exam-candidates/preparing-for-the-exam/",
+      "provider": "ASWB",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice tests, content outlines, and candidate handbook"
+    }
+  ],
+  "aliases": [
+    "aswb bachelor",
+    "aswb bachelor s examination bsw licensing",
+    "aswb bsw",
+    "aswb-bachelors",
+    "aswb-bsw",
+    "bachelor s social work exam",
+    "bsw exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/aswb-bachelors"
+}

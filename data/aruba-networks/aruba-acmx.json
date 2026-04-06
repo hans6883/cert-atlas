@@ -1,0 +1,105 @@
+{
+  "exam_id": "aruba-acmx",
+  "exam_name": "Aruba Certified Mobility Expert (ACMX)",
+  "exam_code": "HPE6-A84",
+  "certifying_body": "Aruba Networks",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.arubanetworks.com/support-services/education-services/certifications/aruba-certified-mobility-expert/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (Pearson VUE)",
+  "duration_minutes": 90,
+  "exam_price_usd": 215.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/hpe",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/hpe",
+      "notes": "Aruba certifications delivered via Pearson VUE (under HPE/Aruba). In-person or online proctored."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID. Name must match registration.",
+  "exam_rules": "Closed-book. Pearson VUE online proctored or in-person. No notes or reference materials.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renew by passing the current exam or a higher-level exam in the same track.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "ACMP required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Expert Network Architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Advanced Security Architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Aruba ClearPass Policy Manager",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "SD-WAN and Cloud Integration",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Design and Optimization",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Aruba Networks Education",
+      "url": "https://www.arubanetworks.com/support-services/education-services/",
+      "provider": "Aruba Networks",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Aruba training and learning paths"
+    }
+  ],
+  "aliases": [
+    "acmx",
+    "aruba certified mobility expert acmx",
+    "aruba-acmx",
+    "hpe6-a84"
+  ],
+  "practice_url": "https://quizforge.ai/tests/aruba-acmx"
+}

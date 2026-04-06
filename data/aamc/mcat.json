@@ -1,0 +1,124 @@
+{
+  "exam_id": "mcat",
+  "exam_name": "MCAT (Medical College Admission Test)",
+  "exam_code": "MCAT",
+  "certifying_body": "AAMC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.aamc.org/what-we-do/mission-areas/medical-education/mcat",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 230,
+  "question_types": [
+    "Multiple Choice (4 answer options)",
+    "Passage-Based Questions",
+    "Discrete (stand-alone) Questions"
+  ],
+  "exam_format": "Computer-based, fixed-form (not adaptive); at Prometric test centers only — no at-home option. Four sections with optional scheduled breaks between each section. Total seated time approximately 7 hours 30 minutes (includes tutorial, void option, breaks). Section order is fixed: CPBS, CARS, BBFL, PSBF. Void option: candidate may void all scores at the end of the exam at no cost; voided scores are not reported.",
+  "duration_minutes": 450,
+  "exam_price_usd": 335.0,
+  "exam_price_notes": "$335 USD standard registration; $375 USD late registration. Fee assistance program (FAP) available for eligible applicants: reduces fee to $135. Rescheduling and cancellation fees apply; see aamc.org for current fee schedule.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://students-residents.aamc.org/register-mcat-exam",
+      "notes": "MCAT is available exclusively at Prometric test centers. No at-home or online proctored option is available. Register via the AAMC registration portal at students-residents.aamc.org. Seats are limited; register early, especially for spring testing dates (most competitive). Test centers are located throughout the United States, Canada, and select international locations."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One government-issued, unexpired photo ID required (e.g., driver's license, passport). Name on ID must exactly match name on AAMC registration. A second acceptable form of ID is recommended as backup. Biometric data (fingerprint or palm vein scan) collected at some Prometric centers.",
+  "exam_rules": "No personal items permitted in the testing room. Scratch paper (laminated noteboard and marker) provided at the test center — no outside materials. No unauthorized electronic devices, notes, food, or drinks in the testing room (small snack/drink for break consumption only, stored in locker). Bathroom breaks permitted between sections only (breaks are scheduled). Candidates may opt to void all scores at the end of the exam; once voided, scores cannot be recovered. Attempting to access testing materials or communicate with others during the exam may result in score cancellation and a ban from future MCAT administrations.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "MCAT scores are not certifications requiring renewal. Most medical schools accept MCAT scores up to 3 years old at the time of matriculation; some schools accept scores up to 2 years old, and some up to 5 years old. Verify score acceptance windows directly with each medical school. Candidates may retake the MCAT within lifetime attempt limits to obtain higher or more recent scores.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": 7,
+    "notes": "Up to 3 MCAT attempts per testing year (Jan 1–Dec 31). Up to 4 attempts in any 2 consecutive testing years. Maximum 7 lifetime attempts. All non-voided scores are reported to schools (no score selection). Score release is approximately 30-35 days after the test date. Scores from voided exams or no-shows are not reported."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Chemical and Physical Foundations of Biological Systems (CPBS): general chemistry, physics, biochemistry, organic chemistry",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Critical Analysis and Reasoning Skills (CARS): reading comprehension, inference, argument evaluation",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Biological and Biochemical Foundations of Living Systems (BBFL): biology, biochemistry, organic chemistry, general chemistry",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Psychological, Social, and Biological Foundations of Behavior (PSBF): psychology, sociology, biology",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "AAMC Official MCAT Full-Length Practice Exam 1 (Free)",
+      "url": "https://students-residents.aamc.org/prepare-mcat-exam/aamc-mcat-official-prep-products",
+      "provider": "AAMC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "One free full-length practice exam available to all registered users. Identical format and question types to the real exam."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "AAMC Official MCAT Full-Length Practice Exams 2-6",
+      "url": "https://students-residents.aamc.org/prepare-mcat-exam/aamc-mcat-official-prep-products",
+      "provider": "AAMC",
+      "is_official": true,
+      "price_usd": 35.0,
+      "notes": "$35 USD each; full-length scored practice exams with detailed score reports."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "AAMC Official MCAT Prep Bundle (All Products)",
+      "url": "https://students-residents.aamc.org/prepare-mcat-exam/aamc-mcat-official-prep-products",
+      "provider": "AAMC",
+      "is_official": true,
+      "price_usd": 246.0,
+      "notes": "Bundle of all official AAMC prep products including full-length practice tests, section banks, question packs, and flashcards. Discounted vs. purchasing individually."
+    },
+    {
+      "resource_type": "online_course",
+      "title": "Khan Academy MCAT Collection",
+      "url": "https://www.khanacademy.org/test-prep/mcat",
+      "provider": "Khan Academy / AAMC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free, comprehensive content review created in partnership with AAMC. Covers all four MCAT sections with videos, articles, and practice questions."
+    }
+  ],
+  "aliases": [
+    "aamc exam",
+    "doctor school exam",
+    "mcat",
+    "mcat exam",
+    "mcat medical college admission test",
+    "med school admission test",
+    "medical college admission test",
+    "medical school entrance exam",
+    "pre-med exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/mcat"
+}

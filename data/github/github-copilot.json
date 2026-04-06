@@ -1,0 +1,109 @@
+{
+  "exam_id": "github-copilot",
+  "exam_name": "GitHub Copilot",
+  "exam_code": "GitHub-Copilot",
+  "certifying_body": "GitHub",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://examregistration.github.com/certification/GHCP",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Drag and Drop"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 120,
+  "exam_price_usd": 99.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://examregistration.github.com/",
+  "testing_centers": [
+    {
+      "provider": "PSI Exams",
+      "scheduling_url": "https://examregistration.github.com/",
+      "notes": "Online proctored via PSI. Schedule through examregistration.github.com."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID. Name must match registration exactly.",
+  "exam_rules": "Closed-book. Online proctored via PSI. No notes or reference materials. Webcam required.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Retake the exam to renew.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 1,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Wait 24 hours between attempts. Full exam fee for retake ($99)."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Responsible AI and GitHub Copilot",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "GitHub Copilot Features and Functionality",
+      "weight_percent": 28.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "GitHub Copilot for Individual, Business, and Enterprise",
+      "weight_percent": 19.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Configure and Troubleshoot GitHub Copilot",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Using GitHub Copilot",
+      "weight_percent": 26.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "GitHub Certification Study Guides",
+      "url": "https://github.com/LadyKerr/github-certification-guide",
+      "provider": "GitHub",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official study resources on GitHub"
+    },
+    {
+      "resource_type": "online_course",
+      "title": "GitHub Learning Paths on Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/github/",
+      "provider": "GitHub/Microsoft",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free learning paths aligned to certification exams"
+    }
+  ],
+  "aliases": [
+    "ghcp",
+    "github copilot",
+    "github copilot certification",
+    "github-copilot"
+  ],
+  "practice_url": "https://quizforge.ai/tests/github-copilot"
+}

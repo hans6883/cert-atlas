@@ -1,0 +1,116 @@
+{
+  "exam_id": "lsat",
+  "exam_name": "LSAT",
+  "exam_code": "LSAT",
+  "certifying_body": "LSAC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.lsac.org/lsat",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 92,
+  "question_types": [
+    "Multiple Choice (4 answer options)",
+    "Essay / Constructed Response (Writing Sample — unscored)"
+  ],
+  "exam_format": "Computer-based (tablet interface); at home via ProctorU or at Prometric test centers. 3 scored sections of approximately 23-27 questions each (~35 min per section) plus one unscored variable section and an unscored Writing sample (taken separately). Note: As of August 2024, the Analytical Reasoning (Logic Games) section has been replaced by a second Reading Comprehension section per updated LSAC test design.",
+  "duration_minutes": 140,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": "$200 USD standard registration; $215 USD late registration. Fee waivers available for eligible candidates via lsac.org.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "ProctorU",
+      "scheduling_url": "https://www.lsac.org/lsat/taking-lsat/how-register-lsat",
+      "notes": "LSAT available at home via ProctorU online proctoring. Must have a reliable internet connection, webcam, and microphone. Private, quiet room required; no other people in the room. Test-taker must use an approved device and browser."
+    },
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.lsac.org/lsat/taking-lsat/how-register-lsat",
+      "notes": "LSAT also available at Prometric test centers for candidates who prefer an in-person testing environment. Limited seats per administration; register early to secure preferred location and date."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. The name on the ID must exactly match the name on the LSAC account. For at-home testing: ID must be held up to the webcam for visual verification.",
+  "exam_rules": "No personal items, notes, books, printed materials, or scratch paper permitted in the testing area. Digital scratch paper (notes tool) is provided within the testing interface. For at-home: must be alone in a quiet, private room. No virtual machines, dual monitors, or remote desktop software permitted. LSAT Writing must be completed in a separate session using a different proctoring platform (Proctorio). Candidates may pause the exam only between sections. All five LSAT scores from the past 5 years are reported to law schools by default (LSAC policy).",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "LSAT scores are not certifications requiring renewal. Scores are valid for 5 years from the test date for most ABA-accredited law schools. Some schools may accept scores older than 5 years at their discretion. Candidates may retake the LSAT within lifetime attempt limits.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "Candidates may take the LSAT up to 3 times in a single testing year (June 1–May 31), up to 5 times in 5 years, and up to 7 times total over a lifetime. LSAC reports all scores from the last 5 years to law schools. No mandatory waiting period between attempts; candidates may register for the next available administration after receiving scores."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Logical Reasoning (argument analysis, flaws, assumptions, strengthening/weakening)",
+      "weight_percent": 50.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Reading Comprehension (passages, comparative reading, inference)",
+      "weight_percent": 50.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Writing Sample (unscored; argument essay sent directly to law schools)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Analytical Reasoning / Logic Games (ordering, grouping, sequencing) [pre-Aug 2024 format — archived]",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "Official LSAT Prep on Khan Academy",
+      "url": "https://www.khanacademy.org/prep/lsat",
+      "provider": "LSAC / Khan Academy",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free, adaptive LSAT prep including real LSAT questions, personalized practice, and full-length official practice tests."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "LawHub Advantage (Official LSAT Practice)",
+      "url": "https://lawhub.lsac.org/",
+      "provider": "LSAC",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "$99/year subscription via LawHub. Includes 70+ full-length official LSAT PrepTests, full-length practice tests in the real exam interface, and performance analytics. Some free access available without subscription."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "The Official LSAT SuperPrep II",
+      "url": "https://www.lsac.org/lsat/lsat-prep/lsat-prep-books",
+      "provider": "LSAC",
+      "is_official": true,
+      "price_usd": 24.99,
+      "notes": "Includes 3 full PrepTests plus explanations for every question. Available in print and digital formats."
+    }
+  ],
+  "aliases": [
+    "law school admission test",
+    "law school admissions test",
+    "law school entrance exam",
+    "lsac exam",
+    "lsat",
+    "lsat exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/lsat"
+}

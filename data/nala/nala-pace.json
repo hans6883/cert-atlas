@@ -1,0 +1,99 @@
+{
+  "exam_id": "nala-pace",
+  "exam_name": "NALA PACE (Professional Paralegal) Exam",
+  "exam_code": "PACE",
+  "certifying_body": "NALA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://nala.org/certifications/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear; CP exam is two separate parts (General Knowledge + Specialty Law)",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Contact NALA directly for current PACE exam pricing and availability details.",
+  "voucher_url": null,
+  "exam_registration_url": "https://nala.org/certifications/cp-certification/",
+  "testing_centers": [
+    {
+      "provider": "ExamSoft",
+      "scheduling_url": "https://nala.org/certifications/cp-certification/",
+      "notes": "Online proctored via ExamSoft; requires webcam, microphone, and stable internet"
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/nala",
+      "notes": "Computer-based testing at Pearson VUE test centers (availability may vary)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID. Name must match NALA registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. No personal items in testing area. Multiple-choice format only.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "CP/CLA and PACE certifications valid for 5 years. Renewal requires 50 CE credits earned through NALA-approved continuing education. Credits may include legal seminars, webinars, self-study courses, and professional development activities. A minimum number of credits must be NALA-approved.",
+  "continuing_education_units": 50,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Active CP/CLA certification from NALA required to sit for PACE",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Contact NALA for current retake waiting period and fee structure. Full exam fee required for retake attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Specialty Area Law",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Advanced Legal Research",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Advanced Practice Management",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "NALA CP/CLA Exam Preparation Materials",
+      "url": "https://nala.org/certifications/cp-certification/",
+      "provider": "NALA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guides, practice questions, and content outlines available from NALA"
+    }
+  ],
+  "aliases": [
+    "nala pace",
+    "nala pace professional paralegal exam",
+    "nala-pace",
+    "pace",
+    "pp",
+    "professional paralegal"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nala-pace"
+}

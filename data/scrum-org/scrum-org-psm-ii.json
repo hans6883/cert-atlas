@@ -1,0 +1,105 @@
+{
+  "exam_id": "scrum-org-psm-ii",
+  "exam_name": "Professional Scrum Master II (PSM II)",
+  "exam_code": "PSM II",
+  "certifying_body": "Scrum.org",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.scrum.org/assessments/professional-scrum-master-ii-assessment",
+  "passing_score": 85,
+  "passing_score_scale": null,
+  "total_questions": 30,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "True/False"
+  ],
+  "exam_format": "Online self-administered (not proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 250.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.scrum.org/professional-scrum-certifications",
+  "testing_centers": [
+    {
+      "provider": "Online (scrum.org)",
+      "scheduling_url": "https://www.scrum.org/assessments",
+      "notes": "All assessments taken online directly at scrum.org — no testing center required"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "No ID required for online assessments. Email address and scrum.org account required.",
+  "exam_rules": "Open-book, not proctored. Taken directly on scrum.org. One browser tab only recommended. No time banking — timer runs continuously. No formal expiry on certifications.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Scrum.org certifications do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Scrum Mastery and Facilitation",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Coaching and Leadership",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Scrum in Practice",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Organizational Change",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Scrum Guide",
+      "url": "https://www.scrumguides.org/",
+      "provider": "Scrum.org",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "The Scrum Guide is the primary reference for all scrum.org assessments"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Open Assessments",
+      "url": "https://www.scrum.org/open-assessments",
+      "provider": "Scrum.org",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free practice assessments available for all certification levels"
+    }
+  ],
+  "aliases": [
+    "advanced scrum master",
+    "professional scrum master ii",
+    "professional scrum master ii psm ii",
+    "psm 2",
+    "psm ii",
+    "scrum-org-psm-ii"
+  ],
+  "practice_url": "https://quizforge.ai/tests/scrum-org-psm-ii"
+}

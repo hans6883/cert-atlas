@@ -1,0 +1,117 @@
+{
+  "exam_id": "aacn-accns-ag",
+  "exam_name": "ACCNS-AG — Acute Care Clinical Nurse Specialist, Adult Gerontology",
+  "exam_code": "ACCNS-AG",
+  "certifying_body": "AACN",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.aacn.org/certification/get-certified/accns-ag",
+  "passing_score": 87,
+  "passing_score_scale": null,
+  "total_questions": 150,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 180,
+  "exam_price_usd": 280.0,
+  "exam_price_notes": "AACN member price $280. Non-member price $430.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.aacn.org/certification",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://candidate.psiexams.com/",
+      "notes": "Computer-based testing at PSI test centers for most AACN exams."
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/",
+      "notes": "Pearson VUE test centers available for select AACN credentials."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One government-issued photo ID with full name and signature. Name must match AACN registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials permitted. Linear computer-based exam. Unscored pretest items are distributed randomly throughout the exam.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "Earn 100 CERPs (Continuing Education Recognition Points) every 5 years including required clinical practice hours, OR retake and pass the certification exam. Annual maintenance fee applies.",
+  "continuing_education_units": 100,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "Graduate-level (MSN or higher) CNS program with acute care adult-gerontology focus",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "license",
+      "description": "Current, unencumbered RN license in the United States",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between attempts. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Clinical Expert Practice",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Systems Leadership",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Collaboration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Research/Evidence-Based Practice",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "AACN Certification Exam Handbooks",
+      "url": "https://www.aacn.org/certification",
+      "provider": "AACN",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official exam handbooks with test blueprints available on the AACN website"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "AACN Online Practice Exams",
+      "url": "https://www.aacn.org/certification",
+      "provider": "AACN",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "AACN offers official online practice exams for most credentials"
+    }
+  ],
+  "aliases": [
+    "aacn-accns-ag",
+    "accns-ag",
+    "accns-ag acute care clinical nurse specialist adult gerontology",
+    "acute care cns adult gerontology"
+  ],
+  "practice_url": "https://quizforge.ai/tests/aacn-accns-ag"
+}

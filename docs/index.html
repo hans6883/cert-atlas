@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cert Atlas -- Open Index of Certification Exam Blueprints</title>
+<meta name="description" content="Browse exam blueprints for 1,562 certification exams across 217 certifying bodies. Domains, objectives, requirements, and study resources.">
+<link rel="canonical" href="https://atlas.quizforge.ai/">
+<meta property="og:title" content="Cert Atlas -- Open Index of Certification Exam Blueprints">
+<meta property="og:description" content="Browse exam blueprints for 1,562 certification exams across 217 certifying bodies. Domains, objectives, requirements, and study resources.">
+<meta property="og:url" content="https://atlas.quizforge.ai/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cert Atlas">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cert Atlas -- Open Index of Certification Exam Blueprints">
+<meta name="twitter:description" content="Browse exam blueprints for 1,562 certification exams across 217 certifying bodies. Domains, objectives, requirements, and study resources.">
+<style>
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1a2e;
+  --text-muted: #6c757d;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --border: #e2e8f0;
+  --bar: #3b82f6;
+  --bar-bg: #e2e8f0;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --radius: 8px;
+  --green: #059669;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header .container { display: flex; align-items: center; justify-content: space-between; }
+header h1 { font-size: 20px; font-weight: 700; }
+header h1 a { color: var(--text); }
+header nav a { margin-left: 24px; font-size: 14px; color: var(--text-muted); }
+header nav a:hover { color: var(--accent); text-decoration: none; }
+
+.hero { padding: 48px 0 32px; }
+.hero h2 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; }
+
+.stats-bar {
+  display: flex; gap: 32px; padding: 16px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.stat { text-align: center; }
+.stat-num { font-size: 28px; font-weight: 700; color: var(--accent); display: block; }
+.stat-label { font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.search-box {
+  width: 100%; padding: 12px 16px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 16px; outline: none;
+  margin-bottom: 24px;
+}
+.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.vendor-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: box-shadow 0.15s;
+}
+.vendor-card:hover { box-shadow: var(--card-shadow); text-decoration: none; }
+.vendor-card h3 { font-size: 16px; margin-bottom: 4px; }
+.vendor-card .count { color: var(--text-muted); font-size: 14px; }
+
+.breadcrumb {
+  padding: 12px 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb span { margin: 0 6px; }
+
+.exam-header { padding: 24px 0 16px; }
+.exam-header h2 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.exam-header .exam-code { color: var(--text-muted); font-size: 16px; }
+.exam-header .vendor-link { font-size: 14px; margin-top: 8px; }
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+.fact {
+  background: var(--bg-alt);
+  padding: 16px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.fact-value { font-size: 20px; font-weight: 700; display: block; }
+.fact-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+section.domains { margin: 32px 0; }
+section.domains h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+
+.domain {
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.domain-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.domain-name { font-weight: 600; font-size: 16px; }
+.domain-weight { font-weight: 700; color: var(--accent); font-size: 15px; white-space: nowrap; }
+.domain-bar { height: 6px; background: var(--bar-bg); border-radius: 3px; margin-bottom: 12px; }
+.domain-bar-fill { height: 100%; background: var(--bar); border-radius: 3px; }
+
+.objectives { list-style: none; padding-left: 0; }
+.objectives li { padding: 4px 0 4px 16px; font-size: 14px; border-left: 2px solid var(--border); margin-bottom: 4px; }
+.obj-id { color: var(--text-muted); font-weight: 600; margin-right: 6px; font-size: 13px; }
+.sub-objectives { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+section.info { margin: 32px 0; }
+section.info h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.info-grid { display: grid; gap: 12px; }
+.info-row { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.info-label { font-weight: 600; min-width: 180px; color: var(--text-muted); }
+.info-value { flex: 1; }
+
+.practice-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0;
+  transition: background 0.15s;
+}
+.practice-cta:hover { background: var(--accent-hover); color: #fff; text-decoration: none; }
+
+.resources { margin: 24px 0; }
+.resource-item { padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.resource-type { display: inline-block; background: var(--bg-alt); padding: 2px 8px; border-radius: 4px; font-size: 12px; color: var(--text-muted); margin-right: 8px; }
+
+.exam-list { list-style: none; }
+.exam-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.exam-list li:last-child { border-bottom: none; }
+.exam-list a { font-weight: 500; }
+.exam-list .meta { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  margin-top: 48px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+footer a { color: var(--text-muted); }
+
+.source-link { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+.source-link a { color: var(--text-muted); }
+
+@media (max-width: 640px) {
+  .hero h2 { font-size: 24px; }
+  .stats-bar { gap: 16px; flex-wrap: wrap; }
+  .quick-facts { grid-template-columns: repeat(2, 1fr); }
+  .info-row { flex-direction: column; gap: 2px; }
+  .info-label { min-width: auto; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="https://atlas.quizforge.ai/">Cert Atlas</a></h1>
+<nav>
+<a href="https://atlas.quizforge.ai/">Browse</a>
+<a href="https://github.com/quizforge/cert-atlas">GitHub</a>
+<a href="https://quizforge.ai">QuizForge</a>
+</nav>
+</div>
+</header>
+
+<div class="container">
+<div class="hero">
+<h2>Cert Atlas</h2>
+<p>The open index of certification exam blueprints. Browse domains, objectives, and requirements for 1,562 exams across 217 certifying bodies.</p>
+</div>
+<div class="stats-bar">
+<div class="stat"><span class="stat-num">1,562</span><span class="stat-label">Exams</span></div>
+<div class="stat"><span class="stat-num">217</span><span class="stat-label">Certifying Bodies</span></div>
+<div class="stat"><span class="stat-num">1,477</span><span class="stat-label">With Blueprints</span></div>
+</div>
+<input type="text" class="search-box" id="vendorSearch" placeholder="Search certifying bodies..." oninput="filterVendors(this.value)">
+<div class="vendor-grid" id="vendorGrid">
+<a class="vendor-card" href="https://atlas.quizforge.ai/dmv-state-driver-licensing/"><h3>DMV / State Driver Licensing</h3><span class="count">51 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/microsoft/"><h3>Microsoft</h3><span class="count">45 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/college-board/"><h3>College Board</h3><span class="count">44 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/dsst/"><h3>DSST</h3><span class="count">38 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/clep/"><h3>CLEP</h3><span class="count">34 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/salesforce/"><h3>Salesforce</h3><span class="count">32 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ncees/"><h3>NCEES</h3><span class="count">29 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/servicenow/"><h3>ServiceNow</h3><span class="count">27 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/finra/"><h3>FINRA</h3><span class="count">26 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aapc/"><h3>AAPC</h3><span class="count">20 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/sap/"><h3>SAP</h3><span class="count">20 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/oracle/"><h3>Oracle</h3><span class="count">19 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hvac-licensing/"><h3>HVAC Licensing</h3><span class="count">17 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/state-teacher-certification/"><h3>State Teacher Certification</h3><span class="count">17 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cima/"><h3>CIMA</h3><span class="count">16 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/comptia/"><h3>CompTIA</h3><span class="count">16 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/google-cloud/"><h3>Google Cloud</h3><span class="count">16 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/acca/"><h3>ACCA</h3><span class="count">15 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aws/"><h3>AWS</h3><span class="count">15 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/peoplecert-axelos/"><h3>PeopleCert (AXELOS)</h3><span class="count">15 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/septic-wastewater-licensing/"><h3>Septic / Wastewater Licensing</h3><span class="count">14 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/electrician-licensing/"><h3>Electrician Licensing</h3><span class="count">13 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/huawei/"><h3>Huawei</h3><span class="count">13 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ascp-board-of-certification/"><h3>ASCP Board of Certification</h3><span class="count">12 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/alibaba-cloud/"><h3>Alibaba Cloud</h3><span class="count">12 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ets/"><h3>ETS</h3><span class="count">12 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/insurance-licensing/"><h3>Insurance Licensing</h3><span class="count">12 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nes-teacher-exams/"><h3>NES Teacher Exams</h3><span class="count">12 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/plumber-licensing/"><h3>Plumber Licensing</h3><span class="count">12 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ase/"><h3>ASE</h3><span class="count">10 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/giac/"><h3>GIAC</h3><span class="count">10 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hubspot-academy/"><h3>HubSpot Academy</h3><span class="count">10 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/icc/"><h3>ICC</h3><span class="count">10 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/scaled-agile/"><h3>Scaled Agile</h3><span class="count">10 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/scrum-org/"><h3>Scrum.org</h3><span class="count">10 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aacn/"><h3>AACN</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cdl-commercial-driver-licensing/"><h3>CDL / Commercial Driver Licensing</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/fortinet/"><h3>Fortinet</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/google-skillshop/"><h3>Google Skillshop</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nasm/"><h3>NASM</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nccco/"><h3>NCCCO</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nic-cosmetology-licensing/"><h3>NIC / Cosmetology Licensing</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/okta/"><h3>Okta</h3><span class="count">9 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ahima/"><h3>AHIMA</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ancc/"><h3>ANCC</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/arrt/"><h3>ARRT</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aws-american-welding-society/"><h3>AWS - American Welding Society</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/adobe/"><h3>Adobe</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cpcu-society/"><h3>CPCU Society</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/faa-pilot-certification/"><h3>FAA Pilot Certification</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hrci/"><h3>HRCI</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/icagile/"><h3>ICAgile</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/instituto-cervantes/"><h3>Instituto Cervantes</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/juniper-networks/"><h3>Juniper Networks</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nebosh/"><h3>NEBOSH</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/vmware-broadcom/"><h3>VMware (Broadcom)</h3><span class="count">8 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/accuplacer/"><h3>ACCUPLACER</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/atlassian/"><h3>Atlassian</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hsk/"><h3>HSK</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/icaew/"><h3>ICAEW</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/iia/"><h3>IIA</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/isaca/"><h3>ISACA</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/istqb/"><h3>ISTQB</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nna-notary/"><h3>NNA / Notary</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/netapp/"><h3>NetApp</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/real-estate-licensing/"><h3>Real Estate Licensing</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/scrum-alliance/"><h3>Scrum Alliance</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/society-of-actuaries/"><h3>Society of Actuaries</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/splunk/"><h3>Splunk</h3><span class="count">7 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aicpa/"><h3>AICPA</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/asq/"><h3>ASQ</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/celi-cils/"><h3>CELI / CILS</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cfa-institute/"><h3>CFA Institute</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cipd/"><h3>CIPD</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cips/"><h3>CIPS</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cpa-australia/"><h3>CPA Australia</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cambridge-english/"><h3>Cambridge English</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cisco/"><h3>Cisco</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/citizenship-and-civics-tests/"><h3>Citizenship and Civics Tests</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/crowdstrike/"><h3>CrowdStrike</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/danb/"><h3>DANB</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/delf-dalf/"><h3>DELF/DALF</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/databricks/"><h3>Databricks</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/faa-aviation-maintenance/"><h3>FAA Aviation Maintenance</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/goethe-institut/"><h3>Goethe-Institut</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/google-career-certificates/"><h3>Google Career Certificates</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/iassc/"><h3>IASSC</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/iiba/"><h3>IIBA</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/meta-blueprint/"><h3>Meta Blueprint</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nascla/"><h3>NASCLA</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nbpts/"><h3>NBPTS</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ncarb/"><h3>NCARB</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nha/"><h3>NHA</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/oposiciones-spain/"><h3>Oposiciones Spain</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/pegasystems/"><h3>Pegasystems</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/rics/"><h3>RICS</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/sas-institute/"><h3>SAS Institute</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ssc/"><h3>SSC</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/torfl/"><h3>TORFL</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/the-open-group/"><h3>The Open Group</h3><span class="count">6 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/acfe/"><h3>ACFE</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/apics-ascm/"><h3>APICS (ASCM)</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/assp/"><h3>ASSP</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/appian/"><h3>Appian</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ca-anz/"><h3>CA ANZ</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cncf/"><h3>CNCF</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cpa-canada/"><h3>CPA Canada</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cset/"><h3>CSET</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/check-point/"><h3>Check Point</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/epa-section-608/"><h3>EPA Section 608</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ftce/"><h3>FTCE</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/github/"><h3>GitHub</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hesi/"><h3>HESI</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hashicorp/"><h3>HashiCorp</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hiset/"><h3>HiSET</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hootsuite/"><h3>Hootsuite</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ibps/"><h3>IBPS</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/icai/"><h3>ICAI</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/icmai/"><h3>ICMAI</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ielts/"><h3>IELTS</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/jlpt/"><h3>JLPT</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/loma/"><h3>LOMA</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/linux-foundation/"><h3>Linux Foundation</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/mulesoft/"><h3>MuleSoft</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ncbe/"><h3>NCBE</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nta/"><h3>NTA</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/outsystems/"><h3>OutSystems</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ptcb/"><h3>PTCB</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/servsafe/"><h3>ServSafe</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/snowflake/"><h3>Snowflake</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/texes/"><h3>TExES</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/upsc/"><h3>UPSC</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/uipath/"><h3>UiPath</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/zendesk/"><h3>Zendesk</h3><span class="count">5 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aama/"><h3>AAMA</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ace-fitness/"><h3>ACE Fitness</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/act/"><h3>ACT</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/asvab/"><h3>ASVAB</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aswb/"><h3>ASWB</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ati-teas/"><h3>ATI TEAS</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aruba-networks/"><h3>Aruba Networks</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/boomi/"><h3>Boomi</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/celpe-bras/"><h3>CELPE-Bras</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/celonis/"><h3>Celonis</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/dama-international/"><h3>DAMA International</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/datadog/"><h3>Datadog</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/dynatrace/"><h3>Dynatrace</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ec-council/"><h3>EC-Council</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/elastic/"><h3>Elastic</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/f5-networks/"><h3>F5 Networks</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ged-testing-service/"><h3>GED Testing Service</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/iosh/"><h3>IOSH</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/isc2/"><h3>ISC2</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/isee/"><h3>ISEE</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ism/"><h3>ISM</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/international-baccalaureate/"><h3>International Baccalaureate</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/language-proficiency-tests/"><h3>Language Proficiency Tests</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/mendix/"><h3>Mendix</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/mongodb/"><h3>MongoDB</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nabp/"><h3>NABP</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nbde-joint-commission/"><h3>NBDE / Joint Commission</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nbeo/"><h3>NBEO</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nbome/"><h3>NBOME</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nccer/"><h3>NCCER</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nremt/"><h3>NREMT</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/new-relic/"><h3>New Relic</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nutanix/"><h3>Nutanix</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/offsec/"><h3>OffSec</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/pmi/"><h3>PMI</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/palo-alto-networks/"><h3>Palo Alto Networks</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/red-hat/"><h3>Red Hat</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/tableau/"><h3>Tableau</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/veeam/"><h3>Veeam</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/wonderlic/"><h3>Wonderlic</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/zscaler/"><h3>Zscaler</h3><span class="count">4 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aavsb/"><h3>AAVSB</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/afp/"><h3>AFP</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/bloomberg/"><h3>Bloomberg</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cmt-association/"><h3>CMT Association</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cambridge-international-education-caie/"><h3>Cambridge International Education (CAIE)</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/confluent/"><h3>Confluent</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/garp/"><h3>GARP</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ibm/"><h3>IBM</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/icsi/"><h3>ICSI</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/miller-analogies-test/"><h3>Miller Analogies Test</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/naea-enrolled-agent/"><h3>NAEA (Enrolled Agent)</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nbme-usmle/"><h3>NBME (USMLE)</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nccpa/"><h3>NCCPA</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nmls/"><h3>NMLS</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/pearson-pte/"><h3>Pearson PTE</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ssat/"><h3>SSAT</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/toeic-ets/"><h3>TOEIC (ETS)</h3><span class="count">3 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/caia-association/"><h3>CAIA Association</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cdr/"><h3>CDR</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/celpip/"><h3>CELPIP</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/docker/"><h3>Docker</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/duolingo-english-test/"><h3>Duolingo English Test</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/fsbpt/"><h3>FSBPT</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/gmac/"><h3>GMAC</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ima/"><h3>IMA</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nala/"><h3>NALA</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nbcot/"><h3>NBCOT</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/nbrc/"><h3>NBRC</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ncsbn/"><h3>NCSBN</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/oet/"><h3>OET</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/shrm/"><h3>SHRM</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/topik/"><h3>TOPIK</h3><span class="count">2 exams</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aacp-pcat/"><h3>AACP (PCAT)</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/aamc/"><h3>AAMC</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/ada-dat/"><h3>ADA (DAT)</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/asco-oat/"><h3>ASCO (OAT)</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/boc-athletic-training/"><h3>BOC Athletic Training</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cbest/"><h3>CBEST</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/cfp-board/"><h3>CFP Board</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/hspt/"><h3>HSPT</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/lsac/"><h3>LSAC</h3><span class="count">1 exam</span></a><a class="vendor-card" href="https://atlas.quizforge.ai/shsat/"><h3>SHSAT</h3><span class="count">1 exam</span></a>
+</div>
+</div>
+<script>
+function filterVendors(q) {
+  q = q.toLowerCase();
+  document.querySelectorAll('.vendor-card').forEach(c => {
+    c.style.display = c.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+}
+</script>
+<footer>
+<div class="container">
+Data sourced from official certifying body publications.
+Maintained by <a href="https://quizforge.ai">QuizForge</a> &mdash; free certification practice exams.
+</div>
+</footer>
+</body>
+</html>

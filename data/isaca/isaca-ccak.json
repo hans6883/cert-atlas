@@ -1,0 +1,127 @@
+{
+  "exam_id": "isaca-ccak",
+  "exam_name": "Certificate of Cloud Auditing Knowledge (CCAK)",
+  "exam_code": "CCAK",
+  "certifying_body": "ISACA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.isaca.org/credentialing/ccak",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score",
+  "total_questions": 76,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 580.0,
+  "exam_price_notes": "ISACA member price $475. Non-member price $580. Co-developed with Cloud Security Alliance (CSA).",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.isaca.org/credentialing/exam-candidate-guide",
+  "testing_centers": [
+    {
+      "provider": "PSI / Pearson VUE",
+      "scheduling_url": "https://www.isaca.org/credentialing/exam-candidate-guide",
+      "notes": "Computer-based testing at PSI or Pearson VUE test centers. Online proctoring available."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, unexpired government-issued photo ID with full name and signature. Name must match ISACA registration exactly.",
+  "exam_rules": "Closed-book. On-screen calculator provided. No notes or reference materials. Proctor monitors throughout.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Complete 120 CPE hours over 3 years (minimum 20 hours annually). Pay annual maintenance fee. Adhere to ISACA Code of Professional Ethics. CPE hours earned through education, conferences, professional activities.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Chinese",
+    "Japanese",
+    "Korean",
+    "Spanish",
+    "German",
+    "French",
+    "Portuguese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "Must wait 30 days before retaking. Maximum 3 exam attempts per 12-month period. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Cloud Concepts, Architecture, and Design",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Cloud Data Security",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Cloud Platform and Infrastructure Security",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Cloud Application Security",
+      "weight_percent": 9.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Cloud Security Operations",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Legal, Risk, and Compliance",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Cloud Auditing Knowledge and Skills",
+      "weight_percent": 24.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ISACA Exam Prep Resources",
+      "url": "https://www.isaca.org/credentialing/exam-prep",
+      "provider": "ISACA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official review manuals, question databases, and virtual labs"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ISACA Question, Answers & Explanations Database",
+      "url": "https://www.isaca.org/credentialing/exam-prep",
+      "provider": "ISACA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Official QA&E database with 1,000+ practice questions per exam"
+    }
+  ],
+  "aliases": [
+    "ccak",
+    "certificate of cloud auditing knowledge",
+    "certificate of cloud auditing knowledge ccak",
+    "cloud auditing knowledge",
+    "isaca-ccak"
+  ],
+  "practice_url": "https://quizforge.ai/tests/isaca-ccak"
+}

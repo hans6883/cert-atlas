@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oracle Certification Exams -- Cert Atlas</title>
+<meta name="description" content="Browse exam blueprints for 19 Oracle certification exams. Domains, objectives, passing scores, and study resources.">
+<link rel="canonical" href="https://atlas.quizforge.ai/oracle/">
+<meta property="og:title" content="Oracle Certification Exams -- Cert Atlas">
+<meta property="og:description" content="Browse exam blueprints for 19 Oracle certification exams. Domains, objectives, passing scores, and study resources.">
+<meta property="og:url" content="https://atlas.quizforge.ai/oracle/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cert Atlas">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Oracle Certification Exams -- Cert Atlas">
+<meta name="twitter:description" content="Browse exam blueprints for 19 Oracle certification exams. Domains, objectives, passing scores, and study resources.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlas.quizforge.ai/"}, {"@type": "ListItem", "position": 2, "name": "Oracle", "item": "https://atlas.quizforge.ai/oracle/"}]}</script>
+<style>
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1a2e;
+  --text-muted: #6c757d;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --border: #e2e8f0;
+  --bar: #3b82f6;
+  --bar-bg: #e2e8f0;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --radius: 8px;
+  --green: #059669;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header .container { display: flex; align-items: center; justify-content: space-between; }
+header h1 { font-size: 20px; font-weight: 700; }
+header h1 a { color: var(--text); }
+header nav a { margin-left: 24px; font-size: 14px; color: var(--text-muted); }
+header nav a:hover { color: var(--accent); text-decoration: none; }
+
+.hero { padding: 48px 0 32px; }
+.hero h2 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; }
+
+.stats-bar {
+  display: flex; gap: 32px; padding: 16px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.stat { text-align: center; }
+.stat-num { font-size: 28px; font-weight: 700; color: var(--accent); display: block; }
+.stat-label { font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.search-box {
+  width: 100%; padding: 12px 16px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 16px; outline: none;
+  margin-bottom: 24px;
+}
+.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.vendor-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: box-shadow 0.15s;
+}
+.vendor-card:hover { box-shadow: var(--card-shadow); text-decoration: none; }
+.vendor-card h3 { font-size: 16px; margin-bottom: 4px; }
+.vendor-card .count { color: var(--text-muted); font-size: 14px; }
+
+.breadcrumb {
+  padding: 12px 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb span { margin: 0 6px; }
+
+.exam-header { padding: 24px 0 16px; }
+.exam-header h2 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.exam-header .exam-code { color: var(--text-muted); font-size: 16px; }
+.exam-header .vendor-link { font-size: 14px; margin-top: 8px; }
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+.fact {
+  background: var(--bg-alt);
+  padding: 16px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.fact-value { font-size: 20px; font-weight: 700; display: block; }
+.fact-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+section.domains { margin: 32px 0; }
+section.domains h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+
+.domain {
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.domain-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.domain-name { font-weight: 600; font-size: 16px; }
+.domain-weight { font-weight: 700; color: var(--accent); font-size: 15px; white-space: nowrap; }
+.domain-bar { height: 6px; background: var(--bar-bg); border-radius: 3px; margin-bottom: 12px; }
+.domain-bar-fill { height: 100%; background: var(--bar); border-radius: 3px; }
+
+.objectives { list-style: none; padding-left: 0; }
+.objectives li { padding: 4px 0 4px 16px; font-size: 14px; border-left: 2px solid var(--border); margin-bottom: 4px; }
+.obj-id { color: var(--text-muted); font-weight: 600; margin-right: 6px; font-size: 13px; }
+.sub-objectives { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+section.info { margin: 32px 0; }
+section.info h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.info-grid { display: grid; gap: 12px; }
+.info-row { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.info-label { font-weight: 600; min-width: 180px; color: var(--text-muted); }
+.info-value { flex: 1; }
+
+.practice-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0;
+  transition: background 0.15s;
+}
+.practice-cta:hover { background: var(--accent-hover); color: #fff; text-decoration: none; }
+
+.resources { margin: 24px 0; }
+.resource-item { padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.resource-type { display: inline-block; background: var(--bg-alt); padding: 2px 8px; border-radius: 4px; font-size: 12px; color: var(--text-muted); margin-right: 8px; }
+
+.exam-list { list-style: none; }
+.exam-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.exam-list li:last-child { border-bottom: none; }
+.exam-list a { font-weight: 500; }
+.exam-list .meta { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  margin-top: 48px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+footer a { color: var(--text-muted); }
+
+.source-link { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+.source-link a { color: var(--text-muted); }
+
+@media (max-width: 640px) {
+  .hero h2 { font-size: 24px; }
+  .stats-bar { gap: 16px; flex-wrap: wrap; }
+  .quick-facts { grid-template-columns: repeat(2, 1fr); }
+  .info-row { flex-direction: column; gap: 2px; }
+  .info-label { min-width: auto; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="https://atlas.quizforge.ai/">Cert Atlas</a></h1>
+<nav>
+<a href="https://atlas.quizforge.ai/">Browse</a>
+<a href="https://github.com/quizforge/cert-atlas">GitHub</a>
+<a href="https://quizforge.ai">QuizForge</a>
+</nav>
+</div>
+</header>
+
+<div class="breadcrumb"><div class="container"><a href="https://atlas.quizforge.ai/">Home</a><span>/</span>Oracle</div></div>
+<div class="container">
+<div class="exam-header">
+<h2>Oracle</h2>
+<p class="exam-code">19 certification exams</p>
+<p class="vendor-link"><a href="https://education.oracle.com/certification" rel="nofollow">Official certification page</a></p>
+</div>
+<ul class="exam-list">
+<li><a href="https://atlas.quizforge.ai/oracle/oracle-1z0-061">1z0-061</a> (1z0-061)<div class="meta">69 questions</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-1z0-062">1z0-062</a> (1z0-062)<div class="meta">268 questions</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-java-se-11-developer-1z0-819">Java SE 11 Developer (1Z0-819)</a> (1Z0-819)<div class="meta">50 questions | 90 min | 9 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-java-se-8-programmer-i-1z0-808">Java SE 8 Programmer I – OCA (1Z0-808)</a> (1Z0-808)<div class="meta">80 questions | 150 min | 9 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-mysql-database-admin-1z0-908">MySQL 8.0 Database Administrator (1Z0-908)</a> (1Z0-908)<div class="meta">90 questions | 120 min | 8 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-java-se-17-developer-1z0-829">Oracle Certified Professional: Java SE 17 Developer (1Z0-829)</a> (1Z0-829)<div class="meta">50 questions | 90 min | 9 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-ai-foundations-1z0-931">Oracle Cloud Infrastructure 2023 AI Foundations Associate (1Z0-931-23)</a> (1Z0-931-23)<div class="meta">60 questions | 90 min | 7 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-architect-associate-1z0-1072">Oracle Cloud Infrastructure 2023 Architect Associate (1Z0-1072-23)</a> (1Z0-1072-23)<div class="meta">60 questions | 90 min | 8 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-cloud-operations-1z0-1067">Oracle Cloud Infrastructure 2023 Cloud Operations Professional (1Z0-1067-23)</a> (1Z0-1067-23)<div class="meta">60 questions | 90 min | 7 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-data-science-professional-1z0-1109">Oracle Cloud Infrastructure 2023 Data Science Professional (1Z0-1109-23)</a> (1Z0-1109-23)<div class="meta">60 questions | 90 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-developer-associate-1z0-1084">Oracle Cloud Infrastructure 2023 Developer Professional (1Z0-1084-23)</a> (1Z0-1084-23)<div class="meta">60 questions | 90 min | 8 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-foundations-associate-1z0-1085">Oracle Cloud Infrastructure 2023 Foundations Associate (1Z0-1085-23)</a> (1Z0-1085-23)<div class="meta">60 questions | 90 min | 8 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-generative-ai-1z0-1110">Oracle Cloud Infrastructure 2023 Generative AI Professional (1Z0-1110-23)</a> (1Z0-1110-23)<div class="meta">50 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-multicloud-architect-1z0-1091">Oracle Cloud Infrastructure 2023 Multicloud Architect Professional (1Z0-1091-23)</a> (1Z0-1091-23)<div class="meta">60 questions | 90 min | 7 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-oci-security-professional-1z0-1104">Oracle Cloud Infrastructure 2023 Security Professional (1Z0-1104-23)</a> (1Z0-1104-23)<div class="meta">60 questions | 90 min | 7 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-database-admin-associate-1z0-082">Oracle Database Administration I (1Z0-082)</a> (1Z0-082)<div class="meta">85 questions | 120 min | 10 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-database-admin-ii-1z0-083">Oracle Database Administration II (1Z0-083)</a> (1Z0-083)<div class="meta">85 questions | 120 min | 8 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-database-sql-1z0-071">Oracle Database SQL Certified Associate (1Z0-071)</a> (1Z0-071)<div class="meta">73 questions | 90 min | 11 domains</div></li><li><a href="https://atlas.quizforge.ai/oracle/oracle-database-plsql-1z0-149">Oracle Database: Program with PL/SQL (1Z0-149)</a> (1Z0-149)<div class="meta">65 questions | 90 min | 9 domains</div></li>
+</ul>
+</div>
+<footer>
+<div class="container">
+Data sourced from official certifying body publications.
+Maintained by <a href="https://quizforge.ai">QuizForge</a> &mdash; free certification practice exams.
+</div>
+</footer>
+</body>
+</html>

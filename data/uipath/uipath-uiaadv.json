@@ -1,0 +1,116 @@
+{
+  "exam_id": "uipath-uiaadv",
+  "exam_name": "UiPath Automation Developer Advanced",
+  "exam_code": "UiAAD",
+  "certifying_body": "UiPath",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.uipath.com/rpa/certification",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 55,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Scenario-based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 250.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.uipath.com/rpa/certification",
+  "testing_centers": [
+    {
+      "provider": "ExamBuilder",
+      "scheduling_url": "https://www.uipath.com/rpa/certification",
+      "notes": "Online proctored via ExamBuilder"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No notes or external resources permitted. Professional-level exams include a practical component. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "UiPath Automation Developer Professional (UiAPRO) required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Advanced Architecture and Design Patterns",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Advanced Orchestrator Workflows and APIs",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "AI Center and Document Understanding",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Performance Optimization and Troubleshooting",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security and Governance",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "UiPath Academy",
+      "url": "https://academy.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Free official learning paths and practice exams aligned to each certification"
+    },
+    {
+      "resource_type": "community",
+      "title": "UiPath Community Forum",
+      "url": "https://forum.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Community discussion and study support"
+    }
+  ],
+  "aliases": [
+    "uiaad",
+    "uipath advanced",
+    "uipath automation developer advanced",
+    "uipath developer advanced",
+    "uipath-uiaadv"
+  ],
+  "practice_url": "https://quizforge.ai/tests/uipath-uiaadv"
+}

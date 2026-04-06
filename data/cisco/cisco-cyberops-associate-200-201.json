@@ -1,0 +1,80 @@
+{
+  "exam_id": "cisco-cyberops-associate-200-201",
+  "exam_name": "Cisco CyberOps Associate",
+  "exam_code": "200-201",
+  "certifying_body": "Cisco",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccnacbr.html",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 95,
+  "question_types": [
+    "Multiple Choice",
+    "Drag and Drop",
+    "Fill in the Blank",
+    "Testlet"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 330.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/cisco",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/cisco",
+      "notes": "In-person and online proctored"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name, photo, and signature.",
+  "exam_rules": "No notes, books, or electronic devices. Scratch paper or whiteboard provided. No breaks for most exams; timer continues during any unscheduled break.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn Continuing Education (CE) credits, pass any Associate or higher exam, pass any technology core exam, or pass a Professional or Specialist exam. Credits tracked on cisco.com.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Simplified Chinese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 5,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "5-day waiting period before retaking the same exam. After 3 failed attempts, 180-day waiting period. No limit on total attempts."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Cisco U (Cisco Learning Network)",
+      "url": "https://u.cisco.com/",
+      "provider": "Cisco",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Cisco training platform with free and paid content"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Cisco Certification Practice Exam (via Pearson)",
+      "url": "https://home.pearsonvue.com/cisco/practice",
+      "provider": "Cisco / Pearson VUE",
+      "is_official": true,
+      "price_usd": 95.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "ccna cybersecurity",
+    "cisco cyberops associate",
+    "cisco-cyberops-associate-200-201"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cisco-cyberops-associate-200-201"
+}

@@ -1,0 +1,72 @@
+{
+  "exam_id": "juniper-jncia-cloud",
+  "exam_name": "JNCIA-Cloud",
+  "exam_code": "JN0-211",
+  "certifying_body": "Juniper Networks",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.juniper.net/us/en/training/certification/tracks/cloud/jncia-cloud.html",
+  "passing_score": 70,
+  "passing_score_scale": "percentage",
+  "total_questions": 65,
+  "question_types": [],
+  "exam_format": "Multiple Choice",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/juniper",
+      "notes": "In-person Pearson VUE test centers worldwide; online proctoring available for select exams"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. ID must match the name on the exam registration. Acceptable forms include passport, driver's license, or national ID card.",
+  "exam_rules": "Closed-book exam. No notes, study materials, electronic devices, or reference materials permitted. Personal items must be stored before entering the testing area. No food or drink except water. Restroom breaks allowed but timer continues. JNCIE lab exams are hands-on practical exams in a live Juniper network environment.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Associate and Specialist certifications do not expire. Professional certifications do not expire. JNCIE (Expert) certifications are valid for 2 years and require retaking the lab exam for renewal.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period between retake attempts for Associate and Specialist exams. 30-day waiting period for Professional-level exams. JNCIE lab exam retake policies are determined by Juniper Networks directly."
+  },
+  "domains": [],
+  "official_objectives_url": "https://www.juniper.net/us/en/training/certification/tracks/cloud/jncia-cloud.html",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Juniper Learning Portal",
+      "url": "https://learningportal.juniper.net/",
+      "provider": "Juniper Networks",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official self-paced and instructor-led training courses"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Day One Books",
+      "url": "https://www.juniper.net/documentation/day-one-books/",
+      "provider": "Juniper Networks",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable technical guides covering Junos topics"
+    }
+  ],
+  "aliases": [
+    "jn0-211",
+    "jncia-cloud",
+    "juniper associate cloud",
+    "juniper-jncia-cloud"
+  ],
+  "practice_url": "https://quizforge.ai/tests/juniper-jncia-cloud"
+}

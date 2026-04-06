@@ -1,0 +1,119 @@
+{
+  "exam_id": "faa-amt-parachute",
+  "exam_name": "FAA Parachute Rigger Knowledge Test",
+  "exam_code": "PGT",
+  "certifying_body": "FAA Aviation Maintenance",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.faa.gov/mechanics/become/",
+  "passing_score": 70,
+  "passing_score_scale": "Percentage (70% passing for all knowledge tests)",
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based at PSI/CATS testing centers)",
+  "duration_minutes": null,
+  "exam_price_usd": 175.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Exams (CATS — Computer Assisted Testing Service)",
+      "scheduling_url": "https://faa.psiexams.com/",
+      "notes": "All FAA Airman Knowledge Tests administered at PSI/CATS authorized testing centers. No online proctoring available. Schedule at faa.psiexams.com or call PSI at 1-800-211-2753."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "Appropriate aircraft maintenance manuals and Advisory Circulars (ACs) may be available as FAA-approved test supplements at the testing center. Approved calculators permitted. No personal electronic devices or personal reference materials.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "FAA AMT/A&P certificates do not expire. Mechanics must stay current with aircraft they maintain; training and currency requirements apply per 14 CFR Part 65 and employer requirements.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period required after a failed attempt. No limit on total number of attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Federal Aviation Regulations (Part 65, 65 Subpart F)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Parachute Materials and Construction",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Packing Procedures",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Reserve Parachute Systems",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "FAA Airman Knowledge Test Question Bank",
+      "url": "https://www.faa.gov/training_testing/testing/test_questions/",
+      "provider": "FAA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official FAA test question database available for free download"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Aviation Maintenance Technician Handbook — General (FAA-H-8083-30)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aircraft/amt_handbook/",
+      "provider": "FAA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free PDF download from FAA; primary study resource for AMT-G"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Aviation Maintenance Technician Handbook — Airframe (FAA-H-8083-31)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aircraft/amt_airframe_handbook/",
+      "provider": "FAA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free PDF download from FAA; primary study resource for AMT-A"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Aviation Maintenance Technician Handbook — Powerplant (FAA-H-8083-32)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aircraft/amt_powerplant_handbook/",
+      "provider": "FAA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free PDF download from FAA; primary study resource for AMT-P"
+    }
+  ],
+  "aliases": [
+    "faa parachute rigger knowledge test",
+    "faa parachute rigger test",
+    "faa-amt-parachute",
+    "parachute rigger",
+    "parachute rigger written",
+    "pgt"
+  ],
+  "practice_url": "https://quizforge.ai/tests/faa-amt-parachute"
+}

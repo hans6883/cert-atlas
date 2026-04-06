@@ -1,0 +1,110 @@
+{
+  "exam_id": "edtpa-ny",
+  "exam_name": "edTPA Teacher Performance Assessment (NY)",
+  "exam_code": "edTPA",
+  "certifying_body": "State Teacher Certification",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://edtpa.aacte.org/",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score (scale varies by state and exam program)",
+  "total_questions": null,
+  "question_types": [
+    "Selected-Response (Multiple Choice)",
+    "Constructed-Response",
+    "Essay",
+    "Portfolio-Based Performance Assessment"
+  ],
+  "exam_format": "Computer-based testing at approved testing centers; online proctored options available for some exams",
+  "duration_minutes": null,
+  "exam_price_usd": 300.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "NES / Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/",
+      "notes": "Most FTCE, CSET, CBEST, TExES, NYSTCE, and MTTC exams are administered through NES (National Evaluation Series) / Pearson VUE testing centers. Online proctored options may be available for some exams."
+    },
+    {
+      "provider": "ETS",
+      "scheduling_url": "https://www.ets.org/",
+      "notes": "GACE and PPAT are administered through ETS. edTPA is submitted electronically through the Pearson ePortfolio system."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly. Secondary ID may be required at some testing centers.",
+  "exam_rules": "No personal items, notes, or reference materials permitted in testing rooms. Calculator policies vary by exam — check the official exam guide. Candidates must agree to testing program terms before registering. Performance assessments (edTPA, PPAT) are submitted electronically and scored by trained raters.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "Initial teaching credentials are typically valid for 5 years. Renewal requirements vary by state and typically involve continuing education or professional development credits. Contact the relevant state Department of Education for current renewal requirements.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Completion of a student teaching or clinical placement",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Standard 30-day waiting period between failed attempts for NES-administered exams. Some states impose additional restrictions — verify with the relevant state DOE. Performance assessment retake policies vary; contact the assessment provider."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Planning for Instruction and Assessment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Instructing and Engaging Students in Learning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Assessing Student Learning",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "NES Exam Preparation Materials",
+      "url": "https://www.nestest.com/",
+      "provider": "NES / Pearson",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free study guides, practice tests, and preparation materials available on the official NES and state exam program websites"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "GACE Preparation Materials",
+      "url": "https://gace.ets.org/prepare/",
+      "provider": "ETS",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free preparation materials including interactive practice tests available from ETS"
+    }
+  ],
+  "aliases": [
+    "edtpa",
+    "edtpa new york",
+    "edtpa ny",
+    "edtpa teacher performance assessment ny",
+    "edtpa-ny",
+    "ny",
+    "teacher performance assessment"
+  ],
+  "practice_url": "https://quizforge.ai/tests/edtpa-ny"
+}

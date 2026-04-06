@@ -1,0 +1,115 @@
+{
+  "exam_id": "netapp-ncda",
+  "exam_name": "NCDA — NetApp Certified Data Administrator (ONTAP)",
+  "exam_code": "NS0-175",
+  "certifying_body": "NetApp",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.netapp.com/services/education/certification/ncda/",
+  "passing_score": 60,
+  "passing_score_scale": "Scaled score; approximately 70% passing for most exams",
+  "total_questions": 65,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response"
+  ],
+  "exam_format": "Linear (fixed-form, Pearson VUE)",
+  "duration_minutes": 90,
+  "exam_price_usd": 250.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/netapp",
+      "notes": "All NetApp exams are delivered exclusively through Pearson VUE. Online proctored (OnVUE) and test center options both available."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted. Online proctored via Pearson VUE OnVUE: must be alone in room, no second monitors. All candidates must accept the NetApp Certification Program Agreement before scheduling.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications are valid for 2 years. Recertification requires passing the current version of the same exam or a higher-level exam in the same track before expiration. NetApp does not currently offer maintenance exams separate from the full exam.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period between failed attempts. Full exam fee applies for each retake attempt. Candidates who pass may not retake the exam to improve their score."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "ONTAP Data Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Storage Architecture and Design",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "SAN/NAS Configuration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Data Protection and SnapVault",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Cloud Integration (AWS, Azure, GCP)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Performance and Troubleshooting",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "NetApp Certification Exam Preparation",
+      "url": "https://www.netapp.com/services/education/certification/",
+      "provider": "NetApp",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Exam objectives and preparation guides available on the official certification page."
+    },
+    {
+      "resource_type": "training_course",
+      "title": "NetApp Learning Center",
+      "url": "https://learningcenter.netapp.com/",
+      "provider": "NetApp",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official instructor-led and self-paced courses aligned to certification tracks."
+    }
+  ],
+  "aliases": [
+    "ncda netapp certified data administrator ontap",
+    "netapp certified data administrator",
+    "netapp data administrator",
+    "netapp ncda",
+    "netapp-ncda",
+    "ns0-175",
+    "ontap"
+  ],
+  "practice_url": "https://quizforge.ai/tests/netapp-ncda"
+}

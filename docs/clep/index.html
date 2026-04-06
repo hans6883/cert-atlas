@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CLEP Certification Exams -- Cert Atlas</title>
+<meta name="description" content="Browse exam blueprints for 34 CLEP certification exams. Domains, objectives, passing scores, and study resources.">
+<link rel="canonical" href="https://atlas.quizforge.ai/clep/">
+<meta property="og:title" content="CLEP Certification Exams -- Cert Atlas">
+<meta property="og:description" content="Browse exam blueprints for 34 CLEP certification exams. Domains, objectives, passing scores, and study resources.">
+<meta property="og:url" content="https://atlas.quizforge.ai/clep/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cert Atlas">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CLEP Certification Exams -- Cert Atlas">
+<meta name="twitter:description" content="Browse exam blueprints for 34 CLEP certification exams. Domains, objectives, passing scores, and study resources.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlas.quizforge.ai/"}, {"@type": "ListItem", "position": 2, "name": "CLEP", "item": "https://atlas.quizforge.ai/clep/"}]}</script>
+<style>
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1a2e;
+  --text-muted: #6c757d;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --border: #e2e8f0;
+  --bar: #3b82f6;
+  --bar-bg: #e2e8f0;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --radius: 8px;
+  --green: #059669;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header .container { display: flex; align-items: center; justify-content: space-between; }
+header h1 { font-size: 20px; font-weight: 700; }
+header h1 a { color: var(--text); }
+header nav a { margin-left: 24px; font-size: 14px; color: var(--text-muted); }
+header nav a:hover { color: var(--accent); text-decoration: none; }
+
+.hero { padding: 48px 0 32px; }
+.hero h2 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; }
+
+.stats-bar {
+  display: flex; gap: 32px; padding: 16px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.stat { text-align: center; }
+.stat-num { font-size: 28px; font-weight: 700; color: var(--accent); display: block; }
+.stat-label { font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.search-box {
+  width: 100%; padding: 12px 16px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 16px; outline: none;
+  margin-bottom: 24px;
+}
+.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.vendor-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: box-shadow 0.15s;
+}
+.vendor-card:hover { box-shadow: var(--card-shadow); text-decoration: none; }
+.vendor-card h3 { font-size: 16px; margin-bottom: 4px; }
+.vendor-card .count { color: var(--text-muted); font-size: 14px; }
+
+.breadcrumb {
+  padding: 12px 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb span { margin: 0 6px; }
+
+.exam-header { padding: 24px 0 16px; }
+.exam-header h2 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.exam-header .exam-code { color: var(--text-muted); font-size: 16px; }
+.exam-header .vendor-link { font-size: 14px; margin-top: 8px; }
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+.fact {
+  background: var(--bg-alt);
+  padding: 16px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.fact-value { font-size: 20px; font-weight: 700; display: block; }
+.fact-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+section.domains { margin: 32px 0; }
+section.domains h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+
+.domain {
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.domain-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.domain-name { font-weight: 600; font-size: 16px; }
+.domain-weight { font-weight: 700; color: var(--accent); font-size: 15px; white-space: nowrap; }
+.domain-bar { height: 6px; background: var(--bar-bg); border-radius: 3px; margin-bottom: 12px; }
+.domain-bar-fill { height: 100%; background: var(--bar); border-radius: 3px; }
+
+.objectives { list-style: none; padding-left: 0; }
+.objectives li { padding: 4px 0 4px 16px; font-size: 14px; border-left: 2px solid var(--border); margin-bottom: 4px; }
+.obj-id { color: var(--text-muted); font-weight: 600; margin-right: 6px; font-size: 13px; }
+.sub-objectives { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+section.info { margin: 32px 0; }
+section.info h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.info-grid { display: grid; gap: 12px; }
+.info-row { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.info-label { font-weight: 600; min-width: 180px; color: var(--text-muted); }
+.info-value { flex: 1; }
+
+.practice-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0;
+  transition: background 0.15s;
+}
+.practice-cta:hover { background: var(--accent-hover); color: #fff; text-decoration: none; }
+
+.resources { margin: 24px 0; }
+.resource-item { padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.resource-type { display: inline-block; background: var(--bg-alt); padding: 2px 8px; border-radius: 4px; font-size: 12px; color: var(--text-muted); margin-right: 8px; }
+
+.exam-list { list-style: none; }
+.exam-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.exam-list li:last-child { border-bottom: none; }
+.exam-list a { font-weight: 500; }
+.exam-list .meta { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  margin-top: 48px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+footer a { color: var(--text-muted); }
+
+.source-link { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+.source-link a { color: var(--text-muted); }
+
+@media (max-width: 640px) {
+  .hero h2 { font-size: 24px; }
+  .stats-bar { gap: 16px; flex-wrap: wrap; }
+  .quick-facts { grid-template-columns: repeat(2, 1fr); }
+  .info-row { flex-direction: column; gap: 2px; }
+  .info-label { min-width: auto; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="https://atlas.quizforge.ai/">Cert Atlas</a></h1>
+<nav>
+<a href="https://atlas.quizforge.ai/">Browse</a>
+<a href="https://github.com/quizforge/cert-atlas">GitHub</a>
+<a href="https://quizforge.ai">QuizForge</a>
+</nav>
+</div>
+</header>
+
+<div class="breadcrumb"><div class="container"><a href="https://atlas.quizforge.ai/">Home</a><span>/</span>CLEP</div></div>
+<div class="container">
+<div class="exam-header">
+<h2>CLEP</h2>
+<p class="exam-code">34 certification exams</p>
+<p class="vendor-link"><a href="https://clep.collegeboard.org/clep-exams" rel="nofollow">Official certification page</a></p>
+</div>
+<ul class="exam-list">
+<li><a href="https://atlas.quizforge.ai/clep/clep-american-government">American Government</a> (AMGOV)<div class="meta">100 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-american-literature">American Literature</a> (AMLIT)<div class="meta">98 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-analyzing-interpreting-literature">Analyzing and Interpreting Literature</a> (AIL)<div class="meta">80 questions | 90 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-biology">Biology</a> (BIO)<div class="meta">115 questions | 90 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-calculus">Calculus</a> (CALC)<div class="meta">44 questions | 90 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-chemistry">Chemistry</a> (CHEM)<div class="meta">75 questions | 90 min | 9 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-college-algebra">College Algebra</a> (COLALG)<div class="meta">60 questions | 90 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-college-composition">College Composition</a> (COMP)<div class="meta">50 questions | 120 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-college-composition-modular">College Composition Modular</a> (CCMB)<div class="meta">90 questions | 90 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-college-mathematics">College Mathematics</a> (COLMAT)<div class="meta">60 questions | 90 min | 7 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-english-literature">English Literature</a> (ENGLIT)<div class="meta">95 questions | 90 min | 2 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-financial-accounting">Financial Accounting</a> (FINAC)<div class="meta">75 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-french-language-level-1">French Language, Level 1</a> (FREN1)<div class="meta">121 questions | 90 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-french-language-level-2">French Language, Level 2</a> (FREN2)<div class="meta">121 questions | 90 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-german-language-level-1">German Language, Level 1</a> (GER1)<div class="meta">96 questions | 90 min | 2 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-history-of-the-united-states-i">History of the United States I</a> (USHI)<div class="meta">120 questions | 90 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-history-of-the-united-states-ii">History of the United States II</a> (USHII)<div class="meta">120 questions | 90 min | 8 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-human-growth-and-development">Human Growth and Development</a> (HUMD)<div class="meta">90 questions | 90 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-humanities">Humanities</a> (HUM)<div class="meta">140 questions | 90 min | 2 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-information-systems">Information Systems and Computer Applications</a> (INFO)<div class="meta">100 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-introduction-to-business-law">Introduction to Business Law</a> (BUSLAW)<div class="meta">100 questions | 90 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-introduction-to-educational-psychology">Introduction to Educational Psychology</a> (EDPSY)<div class="meta">100 questions | 90 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-introductory-psychology">Introductory Psychology</a> (PSYC)<div class="meta">95 questions | 90 min | 13 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-introductory-sociology">Introductory Sociology</a> (SOC)<div class="meta">100 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-natural-sciences">Natural Sciences</a> (NATSCI)<div class="meta">120 questions | 90 min | 2 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-precalculus">Precalculus</a> (PRECLC)<div class="meta">48 questions | 90 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-principles-of-macroeconomics">Principles of Macroeconomics</a> (MACECON)<div class="meta">80 questions | 90 min | 7 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-principles-of-management">Principles of Management</a> (MGMT)<div class="meta">100 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-principles-of-marketing">Principles of Marketing</a> (MKT)<div class="meta">100 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-principles-of-microeconomics">Principles of Microeconomics</a> (MICECON)<div class="meta">80 questions | 90 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-spanish-language-level-1">Spanish Language, Level 1</a> (SPAN1)<div class="meta">121 questions | 90 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-spanish-language-level-2">Spanish Language, Level 2</a> (SPAN2)<div class="meta">121 questions | 90 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-western-civilization-i">Western Civilization I</a> (WSTCIV1)<div class="meta">120 questions | 90 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/clep/clep-western-civilization-ii">Western Civilization II</a> (WSTCIV2)<div class="meta">120 questions | 90 min | 8 domains</div></li>
+</ul>
+</div>
+<footer>
+<div class="container">
+Data sourced from official certifying body publications.
+Maintained by <a href="https://quizforge.ai">QuizForge</a> &mdash; free certification practice exams.
+</div>
+</footer>
+</body>
+</html>

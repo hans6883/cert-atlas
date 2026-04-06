@@ -1,0 +1,98 @@
+{
+  "exam_id": "appian-platform-administrator",
+  "exam_name": "Appian Platform Administrator",
+  "exam_code": "ACA400",
+  "certifying_body": "Appian",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://academy.appian.com/learn/certifications",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://academy.appian.com/certifications",
+  "testing_centers": [
+    {
+      "provider": "Online (Appian Academy)",
+      "scheduling_url": "https://academy.appian.com/certifications",
+      "notes": "Online proctored through Appian Academy platform"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Appian Academy account required. Government-issued photo ID for proctored exams.",
+  "exam_rules": "Closed-book. Online proctored. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Installation and Upgrade",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "System Configuration",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Security and Access Control",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Monitoring and Troubleshooting",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "High Availability and Disaster Recovery",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Appian Academy",
+      "url": "https://academy.appian.com/",
+      "provider": "Appian",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free learning paths at Appian Academy aligned to certification exams"
+    }
+  ],
+  "aliases": [
+    "aca400",
+    "appian platform administrator",
+    "appian-platform-administrator"
+  ],
+  "practice_url": "https://quizforge.ai/tests/appian-platform-administrator"
+}

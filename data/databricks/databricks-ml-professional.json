@@ -1,0 +1,107 @@
+{
+  "exam_id": "databricks-ml-professional",
+  "exam_name": "Databricks Certified Machine Learning Professional",
+  "exam_code": "ML Professional",
+  "certifying_body": "Databricks",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.databricks.com/learn/certification/machine-learning-professional",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 400.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.webassessor.com/databricks",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/databricks",
+      "notes": "Online proctored via Kryterion Webassessor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID with full name. Name must match Webassessor registration exactly.",
+  "exam_rules": "Closed-book. No notes or Databricks workspace access. Proctor monitors via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "Databricks Certified Machine Learning Associate recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Experimentation",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Model Lifecycle Management",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Model Deployment",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Solution and Data Monitoring",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Databricks Academy",
+      "url": "https://www.databricks.com/learn/training",
+      "provider": "Databricks",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Databricks training courses aligned to certification exams"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Databricks Certification Practice Exams",
+      "url": "https://www.databricks.com/learn/certification",
+      "provider": "Databricks",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free practice questions available on each certification page"
+    }
+  ],
+  "aliases": [
+    "databricks certified machine learning professional",
+    "databricks-ml-professional",
+    "ml professional"
+  ],
+  "practice_url": "https://quizforge.ai/tests/databricks-ml-professional"
+}

@@ -1,0 +1,102 @@
+{
+  "exam_id": "atlassian-acp-300",
+  "exam_name": "Atlassian Certified in Jira Service Management Administration",
+  "exam_code": "ACP-300",
+  "certifying_body": "Atlassian",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.atlassian.com/university/certification/certifications/jira-service-management-administrator",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 75,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored or in-person)",
+  "duration_minutes": 120,
+  "exam_price_usd": 250.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.atlassian.com/university/certification",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/atlassian",
+      "notes": "Online and in-person proctored via Pearson VUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. Online proctored or in-person at Pearson VUE. Webcam and microphone required for online proctoring.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Recertify by passing the current exam version or completing approved continuing education.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period between attempts. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Jira Service Management Setup and Configuration",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Request Types and Queues",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "SLAs and Automation",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Knowledge Base and Self-Service",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Reporting and Analytics",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Atlassian University",
+      "url": "https://university.atlassian.com/",
+      "provider": "Atlassian",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official learning paths and practice tests"
+    }
+  ],
+  "aliases": [
+    "acp-300",
+    "atlassian certified in jira service management administration",
+    "atlassian jsm admin",
+    "atlassian-acp-300",
+    "jira service desk administrator",
+    "jira service management admin",
+    "jsm administrator"
+  ],
+  "practice_url": "https://quizforge.ai/tests/atlassian-acp-300"
+}

@@ -1,0 +1,113 @@
+{
+  "exam_id": "scrum-org-psm-i",
+  "exam_name": "Professional Scrum Master I (PSM I)",
+  "exam_code": "PSM I",
+  "certifying_body": "Scrum.org",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification",
+  "passing_score": 85,
+  "passing_score_scale": null,
+  "total_questions": 80,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "True/False"
+  ],
+  "exam_format": "Online self-administered (not proctored)",
+  "duration_minutes": 60,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.scrum.org/professional-scrum-certifications",
+  "testing_centers": [
+    {
+      "provider": "Online (scrum.org)",
+      "scheduling_url": "https://www.scrum.org/assessments",
+      "notes": "All assessments taken online directly at scrum.org — no testing center required"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "No ID required for online assessments. Email address and scrum.org account required.",
+  "exam_rules": "Open-book, not proctored. Taken directly on scrum.org. One browser tab only recommended. No time banking — timer runs continuously. No formal expiry on certifications.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Scrum.org certifications do not expire.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Scrum Theory and Principles",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Scrum Framework",
+      "weight_percent": 35.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Scrum Team and Accountabilities",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Scrum Events",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Scrum Artifacts",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Scrum Guide",
+      "url": "https://www.scrumguides.org/",
+      "provider": "Scrum.org",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "The Scrum Guide is the primary reference for all scrum.org assessments"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Open Assessments",
+      "url": "https://www.scrum.org/open-assessments",
+      "provider": "Scrum.org",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free practice assessments available for all certification levels"
+    }
+  ],
+  "aliases": [
+    "professional scrum master",
+    "professional scrum master i",
+    "professional scrum master i psm i",
+    "psm 1",
+    "psm i",
+    "scrum master certification",
+    "scrum org psm",
+    "scrum-org-psm-i"
+  ],
+  "practice_url": "https://quizforge.ai/tests/scrum-org-psm-i"
+}

@@ -1,0 +1,103 @@
+{
+  "exam_id": "nna-notary-exam-fl",
+  "exam_name": "Florida Notary Public (No state exam)",
+  "exam_code": "FL-Notary",
+  "certifying_body": "NNA / Notary",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://notaries.dos.state.fl.us/",
+  "passing_score": null,
+  "passing_score_scale": "Percentage (70-80% passing depending on exam)",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Online proctored (NNA national); state-administered (state exams)",
+  "duration_minutes": null,
+  "exam_price_usd": 39.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "NNA Online (national exams)",
+      "scheduling_url": "https://www.nationalnotary.org/notary-certification",
+      "notes": "NNA national exams (CNSA, LSA) are taken online via NNA's proctored platform. State exams vary: California uses PSI, New York uses state exam sites, Colorado uses the SOS online portal."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required for all exams. For state commissions, applicants must be legal residents of the state.",
+  "exam_rules": "NNA national exams are online proctored. State exams are administered by state-contracted vendors or state portals. Texas and Florida do not require a written exam; applicants must complete other commission requirements (background check or education course). All notary applicants must meet state-specific age and residency requirements.",
+  "certification_validity_years": 4,
+  "renewal_required": true,
+  "renewal_options": "Most state notary commissions are valid for 4 years and require re-application and re-examination at renewal. NNA national certifications (CNSA, LSA) are valid for 4 years and require renewal through NNA.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies vary by state and exam provider. NNA national exams typically allow retakes with a short waiting period. State exams: CA and NY allow multiple attempts; check state SOS for waiting period details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Notary Law and Statutes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Proper Identification of Signers",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Notarial Acts and Certificates",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Journal Requirements",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Document Handling and Prohibited Practices",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Loan Signing Procedures (for signing agents)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "NNA Notary Signing Agent Study Guide",
+      "url": "https://www.nationalnotary.org/notary-certification",
+      "provider": "National Notary Association",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official NNA study materials available at nationalnotary.org"
+    }
+  ],
+  "aliases": [
+    "fl-notary",
+    "florida notary exam",
+    "florida notary public",
+    "florida notary public no state exam",
+    "nna-notary-exam-fl"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nna-notary-exam-fl"
+}

@@ -1,0 +1,85 @@
+{
+  "exam_id": "faa-sport-pilot",
+  "exam_name": "FAA Sport Pilot Knowledge Test (SPT)",
+  "exam_code": "SPT",
+  "certifying_body": "FAA Pilot Certification",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.faa.gov/training_testing/testing/test_questions/",
+  "passing_score": 70,
+  "passing_score_scale": "Percentage (70% passing for all knowledge tests)",
+  "total_questions": 40,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based at PSI/CATS testing centers)",
+  "duration_minutes": null,
+  "exam_price_usd": 175.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Exams (CATS — Computer Assisted Testing Service)",
+      "scheduling_url": "https://faa.psiexams.com/",
+      "notes": "All FAA Airman Knowledge Tests administered at PSI/CATS authorized testing centers. No online proctoring available. Schedule at faa.psiexams.com or call PSI at 1-800-211-2753."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Student pilot certificate or instructor endorsement required for some tests. Name on ID must match registration exactly.",
+  "exam_rules": "FAA-approved test supplements provided at testing center. Approved calculators and flight computers permitted. E6B flight computer (mechanical or electronic) allowed. No personal electronic devices. No personal notes or reference materials.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "FAA Airman certificates do not expire, but proficiency requirements apply. Airman Knowledge Test result valid for 24 months for scheduling the practical test (checkride). Pilots must complete a Biennial Flight Review (BFR) every 24 months to act as PIC. Currency requirements (landings, instrument approaches) are separate from certificate renewal.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period required after a failed attempt. No limit on total number of attempts. Instructor endorsement or authorized sign-off required before retaking."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "FAA Airman Knowledge Test Question Bank",
+      "url": "https://www.faa.gov/training_testing/testing/test_questions/",
+      "provider": "FAA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official FAA test question database available for free download"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "FAA Pilot's Handbook of Aeronautical Knowledge (PHAK)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/",
+      "provider": "FAA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free PDF download from FAA; primary study resource for Private and Commercial"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "FAA Instrument Flying Handbook",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/",
+      "provider": "FAA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free PDF download from FAA; primary study resource for Instrument Rating"
+    }
+  ],
+  "aliases": [
+    "faa sport pilot knowledge test spt",
+    "faa sport pilot test",
+    "faa-sport-pilot",
+    "sport pilot",
+    "sport pilot written",
+    "spt"
+  ],
+  "practice_url": "https://quizforge.ai/tests/faa-sport-pilot"
+}

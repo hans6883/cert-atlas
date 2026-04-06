@@ -1,0 +1,111 @@
+{
+  "exam_id": "nbcot-cota",
+  "exam_name": "COTA Certification Examination (Certified Occupational Therapy Assistant)",
+  "exam_code": "COTA",
+  "certifying_body": "NBCOT",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nbcot.org/",
+  "passing_score": 450,
+  "passing_score_scale": "Scaled score 300–600; passing score is 450 for both OTR and COTA exams",
+  "total_questions": 200,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response",
+    "Computer-Adaptive"
+  ],
+  "exam_format": "Computer-adaptive at Pearson VUE testing centers",
+  "duration_minutes": 240,
+  "exam_price_usd": 475.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/nbcot",
+      "notes": "OTR and COTA examinations are administered at Pearson VUE testing centers. Schedule online at home.pearsonvue.com/nbcot. Online proctored testing may be available; check NBCOT website for current options."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match NBCOT registration exactly. Secondary form of ID may be required.",
+  "exam_rules": "No personal items, notes, phones, or reference materials permitted in testing room. NBCOT eligibility verification required before scheduling. Exam includes scored and unscored (pretest) items; unscored items not identified. Results reported as pass/fail with scaled score; domain performance feedback provided.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "NBCOT certification renews on a 3-year cycle. 36 Professional Development Units (PDUs) required per renewal period. PDUs must align with NBCOT-approved categories (professional development, scholarship, service). Renewal fee applies; failure to renew results in certification lapse. Lapsed certification requires meeting current reinstatement requirements.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Graduate of an ACOTE-accredited occupational therapy assistant program (associate level); completion of Level II fieldwork",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 45,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 4,
+    "notes": "45-day waiting period between attempts. Maximum of 4 attempts; after the 4th failed attempt, candidate must demonstrate remediation (e.g., additional coursework) before NBCOT will approve further attempts. Each attempt requires full exam fee payment and new eligibility application."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Acquire and Interpret Information to Guide OT Practice",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Formulate, Implement, Evaluate, and Modify an Intervention Plan",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Uphold Professional Standards and Responsibilities",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Gather and Reason Through Information to Direct OT Practice",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "candidate_handbook",
+      "title": "NBCOT Candidate Handbook",
+      "url": "https://www.nbcot.org/en/Candidates/Certification-Exam-Prep",
+      "provider": "NBCOT",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official handbook with exam content outline, policies, and preparation guidance"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "NBCOT OTR/COTA Practice Exams",
+      "url": "https://www.nbcot.org/en/Candidates/Certification-Exam-Prep",
+      "provider": "NBCOT",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice exams available through NBCOT exam prep portal"
+    }
+  ],
+  "aliases": [
+    "certified occupational therapy assistant",
+    "cota",
+    "cota certification examination certified occupational therapy assistant",
+    "cota l",
+    "nbcot cota",
+    "nbcot-cota",
+    "ota boards",
+    "ota certification exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/nbcot-cota"
+}

@@ -1,0 +1,104 @@
+{
+  "exam_id": "sas-a00-233",
+  "exam_name": "SAS Certified Professional: SAS Platform Administration",
+  "exam_code": "A00-233",
+  "certifying_body": "SAS Institute",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.sas.com/en_us/certification/exam-content-guides/platform-administration.html",
+  "passing_score": 725,
+  "passing_score_scale": null,
+  "total_questions": 55,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Short Answer"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 110,
+  "exam_price_usd": 180.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.sas.com/en_us/certification.html",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://candidate.psiexams.com",
+      "notes": "Online proctoring or test center via PSI"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No open-book, notes, or external resources permitted. Proctor monitors via webcam for online proctored sessions.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renewal requires 15 continuing education credits per 3-year cycle.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "ANOVA and Regression",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Logistic Regression",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Predictive Modeling",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Model Selection and Validation",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "SAS Training",
+      "url": "https://www.sas.com/en_us/training.html",
+      "provider": "SAS Institute",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official instructor-led and e-learning courses aligned to certification exams"
+    },
+    {
+      "resource_type": "documentation",
+      "title": "SAS Certification Exam Content Guides",
+      "url": "https://www.sas.com/en_us/certification/exam-content-guides.html",
+      "provider": "SAS Institute",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Free exam content guides listing all topic areas and sample questions"
+    }
+  ],
+  "aliases": [
+    "a00-233",
+    "sas admin",
+    "sas certified professional sas platform administration",
+    "sas platform administration",
+    "sas-a00-233"
+  ],
+  "practice_url": "https://quizforge.ai/tests/sas-a00-233"
+}

@@ -1,0 +1,113 @@
+{
+  "exam_id": "cmt-level-1",
+  "exam_name": "CMT Level I",
+  "exam_code": "CMT-I",
+  "certifying_body": "CMT Association",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://cmtassociation.org/certification/cmt-level-i/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 132,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 120,
+  "exam_price_usd": 650.0,
+  "exam_price_notes": "$650 USD per attempt; CMT Association membership ($330/year) required. Offered twice yearly (spring and fall exam windows).",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/test-takers/search/cmt",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID required: one government-issued photo ID (passport, driver's license) and one secondary ID. Name must match registration exactly.",
+  "exam_rules": "All three CMT levels are administered at Prometric test centers or via online proctoring. Exams are offered twice per year in spring and fall windows. CMT Association membership is required to register for any level. No notes, study materials, or external calculators are permitted during the exam. The CMT designation is awarded only after passing all three levels, adhering to the Code of Ethics, and maintaining CMT Association membership.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "The CMT designation does not expire once all three levels are passed and the designation is awarded. However, annual CMT Association membership dues are required to maintain good standing and use the CMT designation. Continuing education may be encouraged but is not formally required for renewal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "CMT Association membership required; no academic prerequisites",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": 2,
+    "max_attempts_total": null,
+    "notes": "Candidates may attempt each exam level twice per year (once per exam window). Full exam fee ($650) is required for each attempt. There is no limit on total lifetime attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Theory and History of Technical Analysis",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Chart Construction and Patterns",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Trend Analysis and Moving Averages",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Momentum and Oscillators",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Volume Analysis",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Dow Theory",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Basic Statistics and Risk Management",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "textbook",
+      "title": "CMT Curriculum (official required readings per level)",
+      "url": "https://cmtassociation.org/certification/prepare/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cmt level i",
+    "cmt-i",
+    "cmt-level-1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cmt-level-1"
+}

@@ -1,0 +1,100 @@
+{
+  "exam_id": "shrm-cp",
+  "exam_name": "SHRM Certified Professional (SHRM-CP)",
+  "exam_code": "SHRM-CP",
+  "certifying_body": "SHRM",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.shrm.org/credentials/certification/shrm-cp",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 160,
+  "question_types": [
+    "Multiple Choice",
+    "Knowledge Items",
+    "Situational Judgment Items"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 240,
+  "exam_price_usd": 400.0,
+  "exam_price_notes": "SHRM member price $300. Non-member price $400.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.shrm.org/credentials/certification/apply",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/shrm",
+      "notes": "Computer-based testing at Prometric test centers or online proctored"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One government-issued photo ID with name, signature, and date of birth. Name must match SHRM registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator provided. Proctor monitors throughout.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Complete 60 PDCs (Professional Development Credits) every 3 years. PDCs earned through HR-related education, community involvement, research, and volunteering. Or retake and pass the exam.",
+  "continuing_education_units": 60,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Less than 3 years in HR role with HR-related degree, OR 1-4 years HR experience without degree. See SHRM eligibility criteria.",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "May attempt up to 3 times per testing window. SHRM exams offered twice per year (spring and winter windows). Full fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "People",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Organization",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Workplace",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Strategy",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "SHRM Learning System",
+      "url": "https://www.shrm.org/credentials/certification/prepare",
+      "provider": "SHRM",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official comprehensive study program aligned to the SHRM Body of Applied Skills and Knowledge (BASK)"
+    }
+  ],
+  "aliases": [
+    "shrm certified professional",
+    "shrm certified professional shrm-cp",
+    "shrm cp",
+    "shrm-cp"
+  ],
+  "practice_url": "https://quizforge.ai/tests/shrm-cp"
+}

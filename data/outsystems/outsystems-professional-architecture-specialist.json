@@ -1,0 +1,104 @@
+{
+  "exam_id": "outsystems-professional-architecture-specialist",
+  "exam_name": "OutSystems Architecture Specialist",
+  "exam_code": "Arch-Specialist",
+  "certifying_body": "OutSystems",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.outsystems.com/learn/certifications/architecture-specialist/",
+  "passing_score": 75,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.outsystems.com/learn/certifications/",
+  "testing_centers": [
+    {
+      "provider": "Online (OutSystems proctored)",
+      "scheduling_url": "https://www.outsystems.com/learn/certifications/",
+      "notes": "Online proctored exam via OutSystems platform"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "OutSystems Training account required. Government-issued photo ID for proctored exams.",
+  "exam_rules": "Closed-book. Online proctored. No reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current exam version.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Professional Reactive Developer certification required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Domain-Driven Design in OutSystems",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Large-Scale Application Architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Infrastructure and Deployment Architecture",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Integration Architecture",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Governance and Best Practices",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "OutSystems Training",
+      "url": "https://www.outsystems.com/training/",
+      "provider": "OutSystems",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online learning at OutSystems Training"
+    }
+  ],
+  "aliases": [
+    "arch-specialist",
+    "outsystems architecture specialist",
+    "outsystems-professional-architecture-specialist"
+  ],
+  "practice_url": "https://quizforge.ai/tests/outsystems-professional-architecture-specialist"
+}

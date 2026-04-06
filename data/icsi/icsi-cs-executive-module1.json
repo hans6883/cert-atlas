@@ -1,0 +1,113 @@
+{
+  "exam_id": "icsi-cs-executive-module1",
+  "exam_name": "CS Executive Module I",
+  "exam_code": "CS Executive Mod. I",
+  "certifying_body": "ICSI",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.icsi.edu/executive-programme/",
+  "passing_score": 50,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 720,
+  "exam_price_usd": null,
+  "exam_price_notes": "₹2,250 (~$27 USD) per module exam fee",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "ICSI Regional Exam Centres and CBT Centres",
+      "scheduling_url": "https://www.icsi.edu/examinations/",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "ICSI Student Registration Number + valid government photo ID (Aadhaar, Passport, Voter ID, Driving Licence)",
+  "exam_rules": "Pen-and-paper examination OR CBT (Computer Based Test) for Foundation. Descriptive answers required for Executive and Professional. No negative marking.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "CS membership is for lifetime; practising members require Certificate of Practice with annual renewal and CPD compliance",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "CS Foundation cleared (or graduate/postgraduate with direct entry); registered with ICSI",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 2,
+    "max_attempts_total": null,
+    "notes": "Exams held in June and December; no limit on attempts; exemption in any paper scored ≥60% is valid for next 3 sittings"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Paper 1: Jurisprudence, Interpretation and General Laws (IPC, CPC, Evidence Act)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Paper 2: Company Law (Companies Act 2013 — Formation to Winding Up)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Paper 3: Setting Up of Business Entities and Closure (LLP, Partnership, Insolvency)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Paper 4: Tax Laws (Income Tax + GST)",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_material",
+      "title": "ICSI Official Study Material",
+      "url": "https://www.icsi.edu/student/study-material/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ICSI Past Question Papers",
+      "url": "https://www.icsi.edu/examinations/past-question-papers/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "mock_test",
+      "title": "ICSI Mock Test Papers",
+      "url": "https://www.icsi.edu/examinations/mock-test-papers/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cs executive mod i",
+    "cs executive module i",
+    "icsi-cs-executive-module1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/icsi-cs-executive-module1"
+}

@@ -1,0 +1,538 @@
+{
+  "exam_id": "comptia-network-plus-n10-009",
+  "exam_name": "CompTIA Network+",
+  "exam_code": "N10-009",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA Network+",
+  "version": "V9",
+  "source_url": "https://www.comptia.org/certifications/network",
+  "passing_score": 720,
+  "passing_score_scale": "100-900",
+  "total_questions": 90,
+  "question_types": [
+    "Multiple Choice (single)",
+    "Multiple Choice (multiple)",
+    "Performance-Based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 369.0,
+  "exam_price_notes": "Buy Now",
+  "voucher_url": "https://store.comptia.org/",
+  "exam_registration_url": "https://home.pearsonvue.com/comptia",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/comptia",
+      "notes": "In-person test centers worldwide and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID are required. Primary ID must be government-issued, include candidate's name, photo, and signature (e.g. passport, driver's license). Secondary ID must include candidate's name and signature or name and photo.",
+  "exam_rules": "No notes, scratch paper, electronic devices, books, or study materials permitted. Personal items must be stored. No food or drink except water. Restroom breaks allowed but timer continues. Testing center staff may monitor via video/audio.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn CE credits through CompTIA CE program (training, conferences, publishing, teaching, higher certs) or retake the current exam version before expiry.",
+  "continuing_education_units": 30,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Portuguese",
+    "Simplified Chinese"
+  ],
+  "target_audience": "technical support, network operation, system administration",
+  "recommended_experience": "CompTIA A+ certification, with 9 to 12 months of hands-on experience in a junior network administrator or network support technician role",
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "CompTIA A+ certification",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "9 to 12 months of hands-on experience in a junior network administrator or network support technician role",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period required before first retake. After the second failed attempt, candidates must wait 14 calendar days before any subsequent attempt. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Networking concepts",
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "OSI model layers",
+          "sub_objectives": [
+            "physical",
+            "data link",
+            "network",
+            "transport",
+            "session",
+            "presentation",
+            "application"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Networking appliances",
+          "sub_objectives": [
+            "routers",
+            "switches",
+            "firewalls",
+            "IDS/IPS",
+            "load balancers",
+            "proxies",
+            "NAS",
+            "SAN",
+            "wireless devices"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Cloud concepts",
+          "sub_objectives": [
+            "NFV",
+            "VPC",
+            "network security groups",
+            "cloud gateways",
+            "deployment models (public, private, hybrid)",
+            "service models (SaaS, IaaS, PaaS)"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Ports and protocols",
+          "sub_objectives": [
+            "FTP",
+            "SFTP",
+            "SSH",
+            "Telnet",
+            "SMTP",
+            "DNS",
+            "DHCP",
+            "HTTP",
+            "HTTPS",
+            "SNMP",
+            "LDAP",
+            "RDP",
+            "SIP"
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Traffic types",
+          "sub_objectives": [
+            "unicast",
+            "multicast",
+            "anycast",
+            "broadcast"
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "Transmission media",
+          "sub_objectives": [
+            "wireless (802.11, cellular, satellite)",
+            "wired (fiber, coaxial, DAC)"
+          ]
+        },
+        {
+          "id": "1.7",
+          "title": "Transceivers and connectors",
+          "sub_objectives": [
+            "SC",
+            "LC",
+            "ST",
+            "MPO",
+            "RJ11",
+            "RJ45",
+            "F-type",
+            "BNC"
+          ]
+        },
+        {
+          "id": "1.8",
+          "title": "Network topologies",
+          "sub_objectives": [
+            "mesh",
+            "hybrid",
+            "star/hub and spoke",
+            "spine and leaf",
+            "point-to-point",
+            "three-tier",
+            "collapsed core"
+          ]
+        },
+        {
+          "id": "1.9",
+          "title": "IPv4 addressing",
+          "sub_objectives": [
+            "public vs. private",
+            "APIPA",
+            "RFC1918",
+            "loopback",
+            "subnetting (VLSM, CIDR)",
+            "address classes (A, B, C, D, E)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Network implementation",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Routing technologies",
+          "sub_objectives": [
+            "static and dynamic routing (BGP, EIGRP, OSPF)",
+            "route selection",
+            "NAT",
+            "PAT",
+            "FHRP",
+            "VIP",
+            "subinterfaces"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Switching technologies",
+          "sub_objectives": [
+            "VLANs",
+            "interface configuration",
+            "spanning tree",
+            "MTU",
+            "jumbo frames"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Wireless devices",
+          "sub_objectives": [
+            "channels",
+            "frequency options",
+            "SSID",
+            "network types",
+            "encryption",
+            "guest networks",
+            "authentication",
+            "antennas",
+            "access points"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Physical installations",
+          "sub_objectives": [
+            "installation implications",
+            "power considerations",
+            "environmental factors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Network operations",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Documentation",
+          "sub_objectives": [
+            "physical vs. logical diagrams",
+            "rack diagrams",
+            "cable maps",
+            "network diagrams",
+            "asset inventory",
+            "IPAM",
+            "SLA",
+            "wireless surveys"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Life-cycle management",
+          "sub_objectives": [
+            "EOL",
+            "EOS",
+            "software management",
+            "decommissioning"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Change management",
+          "sub_objectives": [
+            "request process tracking"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Configuration management",
+          "sub_objectives": [
+            "production",
+            "backup",
+            "baseline configurations"
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Network monitoring",
+          "sub_objectives": [
+            "SNMP",
+            "flow data",
+            "packet capture",
+            "baseline metrics",
+            "log aggregation",
+            "API integration",
+            "port mirroring"
+          ]
+        },
+        {
+          "id": "3.6",
+          "title": "Disaster recovery",
+          "sub_objectives": [
+            "RPO",
+            "RTO",
+            "MTTR",
+            "MTBF",
+            "cold/warm/hot sites",
+            "active-active/passive",
+            "testing"
+          ]
+        },
+        {
+          "id": "3.7",
+          "title": "Network services",
+          "sub_objectives": [
+            "DHCP",
+            "SLAAC",
+            "DNS",
+            "NTP",
+            "PTP",
+            "NTS"
+          ]
+        },
+        {
+          "id": "3.8",
+          "title": "Access and management",
+          "sub_objectives": [
+            "VPNs",
+            "SSH",
+            "GUI",
+            "API",
+            "console"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Network security",
+      "weight_percent": 14.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Logical security",
+          "sub_objectives": [
+            "encryption (data in transit/rest)",
+            "PKI",
+            "IAM",
+            "MFA",
+            "SSO",
+            "RADIUS",
+            "LDAP",
+            "SAML",
+            "TACACS+",
+            "time-based authentication",
+            "authorization",
+            "least privilege",
+            "role-based access control",
+            "geofencing"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Physical security",
+          "sub_objectives": [
+            "cameras and locks"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Deception technologies",
+          "sub_objectives": [
+            "honeypot",
+            "honeynet"
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Security terminology",
+          "sub_objectives": [
+            "risk",
+            "vulnerability",
+            "exploit",
+            "threat",
+            "CIA triad"
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Audits and compliance",
+          "sub_objectives": [
+            "data locality",
+            "PCI DSS",
+            "GDPR"
+          ]
+        },
+        {
+          "id": "4.6",
+          "title": "Network segmentation",
+          "sub_objectives": [
+            "IoT",
+            "IIoT",
+            "SCADA",
+            "ICS",
+            "OT",
+            "guest",
+            "BYOD"
+          ]
+        },
+        {
+          "id": "4.7",
+          "title": "Types of attacks",
+          "sub_objectives": [
+            "DoS/DDoS",
+            "VLAN hopping",
+            "MAC flooding",
+            "ARP poisoning/spoofing",
+            "DNS poisoning/spoofing",
+            "rogue devices/services",
+            "evil twin",
+            "on-path attack",
+            "social engineering (phishing, dumpster diving, shoulder surfing, tailgating)"
+          ]
+        },
+        {
+          "id": "4.8",
+          "title": "Security features and defense",
+          "sub_objectives": [
+            "device hardening",
+            "NAC",
+            "key management",
+            "ACL",
+            "URL/content filtering",
+            "trusted vs. untrusted zones",
+            "screened subnet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Network troubleshooting",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Troubleshooting methodology",
+          "sub_objectives": [
+            "identifying the problem",
+            "establishing a theory",
+            "testing",
+            "planning",
+            "implementing a solution",
+            "verifying functionality",
+            "documenting findings"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Cabling and physical interface issues",
+          "sub_objectives": [
+            "cable issues (incorrect type, signal degradation, improper termination, TX/RX transposed)",
+            "interface issues (increasing counters, port status)",
+            "hardware issues (PoE, transceiver mismatch, signal strength)"
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Network services issues",
+          "sub_objectives": [
+            "switching issues (STP, VLAN assignment, ACLs)",
+            "routing issues (routing table and default routes)",
+            "address pool exhaustion",
+            "incorrect gateway/IP/subnet mask"
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Performance issues",
+          "sub_objectives": [
+            "congestion",
+            "latency",
+            "packet loss",
+            "wireless interference"
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "Tools and protocols",
+          "sub_objectives": [
+            "protocol analyzers",
+            "command line tools",
+            "cable testers",
+            "Wi-Fi analyzers"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-network-n10-009-exam-objectives",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "CertMaster Learn",
+      "url": "https://www.comptia.org/training/certmaster-learn",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 499.0,
+      "notes": "Official e-learning with performance-based questions and study guides"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CertMaster Practice",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "Adaptive practice question engine with rationale"
+    },
+    {
+      "resource_type": "lab",
+      "title": "CertMaster Labs",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Browser-based virtual lab environments"
+    }
+  ],
+  "aliases": [
+    "comptia network+",
+    "comptia-network-plus-n10-009",
+    "n10-009",
+    "network+"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-network-plus-n10-009"
+}

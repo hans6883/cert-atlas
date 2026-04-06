@@ -1,0 +1,104 @@
+{
+  "exam_id": "ahima-cds",
+  "exam_name": "Clinical Data Specialist (CDS)",
+  "exam_code": "CDS",
+  "certifying_body": "AHIMA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ahima.org/certification-careers/certifications-info/cds/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 115,
+  "question_types": [
+    "Multiple Choice",
+    "Medical Record Coding (CCS only)"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 180,
+  "exam_price_usd": 329.0,
+  "exam_price_notes": "AHIMA member price $239. Non-member price $329.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ahima.org/certification-careers/certifications-info/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ahima",
+      "notes": "Computer-based testing at Pearson VUE authorized test centers. Online proctoring available for some exams."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One government-issued photo ID with full name. Name must match AHIMA registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator available. CCS exam includes medical record coding section using actual patient records presented on screen.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Complete required CEUs (Continuing Education Units) every 2 years and pay annual certification maintenance fee. CEUs earned through AHIMA-approved education, conferences, and professional activities.",
+  "continuing_education_units": 20,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "No formal prerequisites listed; healthcare data or HIM background recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "60-day waiting period between attempts. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Health Data Structure, Content and Standards",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Information Protection: Access, Disclosure, Archival, Privacy and Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Informatics, Analytics and Data Use",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Revenue Management and Reimbursement",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Leadership",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "AHIMA Exam Prep",
+      "url": "https://hcmarketplace.com/",
+      "provider": "AHIMA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guides published by AHIMA Press for each credential"
+    }
+  ],
+  "aliases": [
+    "ahima-cds",
+    "clinical data specialist",
+    "clinical data specialist cds"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ahima-cds"
+}

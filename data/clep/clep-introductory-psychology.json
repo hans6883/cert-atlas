@@ -1,0 +1,544 @@
+{
+  "exam_id": "clep-introductory-psychology",
+  "exam_name": "Introductory Psychology",
+  "exam_code": "PSYC",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/introductory-psychology",
+  "passing_score": 50,
+  "passing_score_scale": "0-99",
+  "total_questions": 95,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": "Some questions are pretest questions that will not be scored. Questions adhere to the terminology, criteria, and classifications referred to in the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-5).",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "History, Approaches, and Methods",
+      "weight_percent": 11.5,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "History of psychology",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Approaches: biological, biopsychosocial, behavioral, cognitive, humanistic, and psychodynamic",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Research methods: experimental, clinical, and correlational",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Ethics in research",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Biological Bases of Behavior",
+      "weight_percent": 8.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Endocrine system",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Etiology",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Functional organization of the nervous system",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Genetics",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Neuroanatomy",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Physiological techniques",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Sensation and Perception",
+      "weight_percent": 7.5,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Attention",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Other senses: somesthesis, olfaction, gustation, and vestibular system",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Perceptual development",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Perceptual processes",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Receptor processes: vision and audition",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Sensory mechanisms: thresholds and adaptation",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "States of Consciousness",
+      "weight_percent": 5.5,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Hypnosis and meditation",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Psychoactive drug effects",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Sleep and dreaming",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Learning",
+      "weight_percent": 8.5,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Biological bases",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Classical conditioning",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Cognitive process in learning",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Observational learning",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Operant conditioning",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Cognition",
+      "weight_percent": 8.5,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Intelligence and creativity",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Language",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Memory",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Thinking and problem solving",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Motivation and Emotion",
+      "weight_percent": 5.5,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Biological bases",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Hunger, thirst, sex, and pain",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Social motivation",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "Theories of emotion",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.5",
+          "title": "Theories of motivation",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Developmental Psychology Across the Lifespan",
+      "weight_percent": 8.5,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Dimensions of development: physical, cognitive, social, and moral",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Gender identity and sex roles",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Heredity-environment issues",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.4",
+          "title": "Research methods: longitudinal, and cross-sectional",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.5",
+          "title": "Theories of development",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Personality",
+      "weight_percent": 7.5,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Assessment techniques",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Growth and adjustment",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.3",
+          "title": "Personality theories and approaches",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.4",
+          "title": "Self-concept and self-esteem",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Psychological disorders and health",
+      "weight_percent": 8.5,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Affective disorders",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.2",
+          "title": "Anxiety disorders",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.3",
+          "title": "Dissociative disorders",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.4",
+          "title": "Eating disorders",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.5",
+          "title": "Health, stress, and coping",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.6",
+          "title": "Personality disorders",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.7",
+          "title": "Psychoses",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.8",
+          "title": "Somatoform disorders",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.9",
+          "title": "Theories of psychopathology",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Treatment of psychological disorders",
+      "weight_percent": 6.5,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Behavioral therapies",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.2",
+          "title": "Biological and drug therapies",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.3",
+          "title": "Cognitive therapies",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.4",
+          "title": "Community and preventive approaches",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.5",
+          "title": "Insight therapies: psychodynamic and humanistic approaches",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "Social Psychology",
+      "weight_percent": 9.5,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Aggression/antisocial behavior",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.2",
+          "title": "Attitudes and attitude change",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.3",
+          "title": "Attribution processes",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.4",
+          "title": "Conformity, compliance, and obedience",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.5",
+          "title": "Group dynamics",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.6",
+          "title": "Interpersonal attraction",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.7",
+          "title": "Stereotypes, prejudice, discrimination, prosocial behavior",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Statistics, Tests, and Measurement",
+      "weight_percent": 3.5,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Descriptive statistics",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.2",
+          "title": "Inferential statistics",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.3",
+          "title": "Measurement of intelligence",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.4",
+          "title": "Reliability and validity",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.5",
+          "title": "Samples, populations, and norms",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.6",
+          "title": "Types of tests",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP Introductory Psychology Examination Guide",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "PDF"
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: Introductory Psychology",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: Introductory Psychology",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the Introductory Psychology exam."
+    },
+    {
+      "resource_type": "link",
+      "title": "CLEP Practice App",
+      "url": "Go to examIam",
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Download"
+    },
+    {
+      "resource_type": "article",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "article",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "clep introductory psychology",
+    "clep psychology",
+    "clep-introductory-psychology",
+    "introductory psychology",
+    "psyc"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-introductory-psychology"
+}

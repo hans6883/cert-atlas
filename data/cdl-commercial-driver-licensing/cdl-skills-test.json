@@ -1,0 +1,73 @@
+{
+  "exam_id": "cdl-skills-test",
+  "exam_name": "CDL Skills Test (Road Test)",
+  "exam_code": "CDL-Skills",
+  "certifying_body": "CDL / Commercial Driver Licensing",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.fmcsa.dot.gov/",
+  "passing_score": null,
+  "passing_score_scale": "Percentage (80% passing for all CDL knowledge tests)",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based at state DMV)",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Varies by state ($50–$200)",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "State DMV / Driver Licensing Office",
+      "scheduling_url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license",
+      "notes": "Knowledge tests administered at state DMV or driver licensing offices. No Pearson VUE or Prometric involvement. Skills test administered at state-approved CDL third-party testing sites or DMV."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid state-issued identification required. Must have a valid non-CDL driver's license to apply for a CDL learner's permit. DOT medical certificate (DOT physical) required for CDL issuance.",
+  "exam_rules": "CDL knowledge tests administered on computer at state DMV offices. No personal reference materials permitted during testing. HazMat endorsement additionally requires TSA security threat assessment (STA) — background check fee and processing time apply separately. CDL learner's permit required before scheduling the skills (road) test.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "CDL valid for 4–8 years depending on state. Renewal requires current DOT medical certificate. HazMat endorsement must be renewed every 5 years (TSA STA also renewed). Contact your state DMV for state-specific renewal requirements.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Must pass applicable CDL knowledge tests before scheduling skills test",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Typical 14-day waiting period between failed attempts; exact policy varies by state. Some states impose additional fees for each retake attempt."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "CDL Commercial Driver's License Manual",
+      "url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/drivers",
+      "provider": "FMCSA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free CDL manual available from FMCSA and individual state DMV websites. States may publish their own version of the manual with state-specific content."
+    }
+  ],
+  "aliases": [
+    "cdl driving test",
+    "cdl road test",
+    "cdl skills",
+    "cdl skills test road test",
+    "cdl-skills",
+    "cdl-skills-test"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cdl-skills-test"
+}

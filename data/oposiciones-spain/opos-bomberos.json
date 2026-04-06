@@ -1,0 +1,121 @@
+{
+  "exam_id": "opos-bomberos",
+  "exam_name": "Oposiciones Bombero — Bombero Conductor (Municipal/Autonómico)",
+  "exam_code": "Bomberos OPE",
+  "certifying_body": "Oposiciones Spain",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.inap.es/convocatorias",
+  "passing_score": 5,
+  "passing_score_scale": null,
+  "total_questions": 80,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 90,
+  "exam_price_usd": null,
+  "exam_price_notes": "€18–€30 (~$20–$33 USD) depending on municipality/regional body",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "INAP — Instituto Nacional de Administración Pública",
+      "scheduling_url": "https://www.inap.es",
+      "notes": null
+    },
+    {
+      "provider": "Regional Government / Municipal Exam Centers (varies by convocatoria)",
+      "scheduling_url": "https://www.boe.es",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid Spanish DNI (Documento Nacional de Identidad) or NIE + supporting ID",
+  "exam_rules": "Pen-and-paper, written multiple-choice (tipo test) and/or practical exercises. No mobile phones, calculators, or study materials. Negative marking: -0.33 per wrong answer (varies by convocatoria). Answer blank = 0 marks.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Funcionarios de carrera have permanent status; no expiry. Continuing education (formación continua) available but not mandatory for retention.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Bachillerato or equivalent; driver's licence (C); age 18–40 (varies by body); physical fitness requirements",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": 1,
+    "max_attempts_total": null,
+    "notes": "One official call (convocatoria) per year per body; no limit on attempts across years until age limit"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Firefighting Techniques, Fire Behavior, and Extinction Methods",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Rescue and Extrication (traffic accidents, urban rescue, confined spaces)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Hazardous Materials (NFPA, UN classifications, MATPEL)",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "First Aid and Emergency Medical Response (RCP, trauma, burns)",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Fire Prevention Regulations (CTE-DB-SI, industrial fire safety regulations)",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Vehicle Mechanics and Equipment Maintenance",
+      "weight_percent": 5.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "syllabus",
+      "title": "Temario Oficial — BOE (Boletín Oficial del Estado)",
+      "url": "https://www.boe.es",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Simulacros y Ejercicios — INAP",
+      "url": "https://www.inap.es",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "bomberos ope",
+    "opos-bomberos",
+    "oposiciones bombero bombero conductor municipal autonómico"
+  ],
+  "practice_url": "https://quizforge.ai/tests/opos-bomberos"
+}

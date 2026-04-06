@@ -1,0 +1,160 @@
+{
+  "exam_id": "cfa-level-3",
+  "exam_name": "CFA Program Level III",
+  "exam_code": "CFA Level III",
+  "certifying_body": "CFA Institute",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.cfainstitute.org/programs/cfa/exam/examinationtopics",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice",
+    "Constructed Response (Essay) — Level III AM session"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 270,
+  "exam_price_usd": 1000.0,
+  "exam_price_notes": "Registration fee $700–$1,450 depending on registration window. Passing Level III + 4,000 hours work experience earns the CFA Charter.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.cfainstitute.org/programs/cfa/exam/register",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/cfa",
+      "notes": "Computer-based testing at Prometric authorized test centers globally"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "One valid, unexpired, original government-issued photo ID (passport strongly recommended internationally). ID must match the name on the CFA Institute registration exactly. Photocopies not accepted.",
+  "exam_rules": "Closed-book. Only approved CFA Institute calculators permitted: Texas Instruments BA II Plus (including Professional) or HP 12C (including Platinum). No personal calculators, phones, or electronic devices. Scratch paper provided and collected. Two sessions per day with optional break.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "CFA Charter is permanent. No renewal or continuing education required.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Must pass CFA Level II before registering for Level III",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "4,000 hours of relevant professional work experience required to receive CFA Charter after passing all 3 levels",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Candidates may register for the next available exam window after a failed attempt. CFA exams offered 2–4 times per year depending on level. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Ethical and Professional Standards",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Behavioral Finance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Capital Market Expectations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Asset Allocation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Derivatives and Risk Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Fixed Income",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Equity Investments",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Alternative Investments",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Portfolio Management for Institutional Investors",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Trading, Performance Evaluation, and Manager Selection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Private Wealth Management",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CFA Program Curriculum",
+      "url": "https://www.cfainstitute.org/programs/cfa/curriculum",
+      "provider": "CFA Institute",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Included in exam registration. Covers all topic areas and learning outcome statements."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CFA Official Mock Exams",
+      "url": "https://www.cfainstitute.org/programs/cfa/exam/mock",
+      "provider": "CFA Institute",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free mock exams included with registration; additional mocks available"
+    }
+  ],
+  "aliases": [
+    "cfa",
+    "cfa charter",
+    "cfa iii",
+    "cfa l3",
+    "cfa level 3",
+    "cfa level iii",
+    "cfa program level iii",
+    "cfa-level-3",
+    "chartered financial analyst cfa"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cfa-level-3"
+}

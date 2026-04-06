@@ -1,0 +1,233 @@
+{
+  "exam_id": "comptia-cysa-plus-cs0-003",
+  "exam_name": "CompTIA CySA+",
+  "exam_code": "CS0-003",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA Cybersecurity Analyst (CySA+)",
+  "version": "V3",
+  "source_url": "https://www.comptia.org/certifications/cybersecurity-analyst",
+  "passing_score": 750,
+  "passing_score_scale": "100-900",
+  "total_questions": 85,
+  "question_types": [
+    "Multiple Choice (single)",
+    "Multiple Choice (multiple)",
+    "Performance-Based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 165,
+  "exam_price_usd": 404.0,
+  "exam_price_notes": "Buy Now",
+  "voucher_url": "https://store.comptia.org/",
+  "exam_registration_url": "https://home.pearsonvue.com/comptia",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/comptia",
+      "notes": "In-person test centers worldwide and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID are required. Primary ID must be government-issued, include candidate's name, photo, and signature (e.g. passport, driver's license). Secondary ID must include candidate's name and signature or name and photo.",
+  "exam_rules": "No notes, scratch paper, electronic devices, books, or study materials permitted. Personal items must be stored. No food or drink except water. Restroom breaks allowed but timer continues. Testing center staff may monitor via video/audio.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn CE credits through CompTIA CE program (training, conferences, publishing, teaching, higher certs) or retake the current exam version before expiry.",
+  "continuing_education_units": 60,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Portuguese",
+    "Simplified Chinese"
+  ],
+  "target_audience": "Incident response analyst, security operations center (SOC) analyst",
+  "recommended_experience": "Network+, Security+, or equivalent knowledge, with a minimum of 4 years of hands-on experience as an incident response analyst, security operations center (SOC) analyst, or equivalent experience",
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Network+, Security+, or equivalent knowledge",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period required before first retake. After the second failed attempt, candidates must wait 14 calendar days before any subsequent attempt. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Security Operations",
+      "weight_percent": 33.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "System and network architecture",
+          "sub_objectives": [
+            "Explaining log ingestion, operating system (OS) concepts, infrastructure, network architecture, identity and access management (IAM), encryption, and sensitive data protection"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Malicious activity indicators",
+          "sub_objectives": [
+            "Analyzing network anomalies like bandwidth spikes and rogue devices, host issues like unauthorized software and data exfiltration, application irregularities like unexpected communication and service interruptions, and threats like social engineering attacks"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Tools and techniques",
+          "sub_objectives": [
+            "Detecting malicious activity using tools like Wireshark, security information and event management (SIEM), and VirusTotal, along with techniques like pattern recognition and email analysis, supported by scripting languages like Python and PowerShell"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Threat intelligence and hunting",
+          "sub_objectives": [
+            "Comparing threat actors, tactics, techniques, and procedures (TTP); confidence levels; collection methods; intelligence sharing; and hunting techniques"
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Process improvement",
+          "sub_objectives": [
+            "Standardizing processes, streamlining operations, integrating tools, and using a single pane of glass"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Vulnerability Management",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Vulnerability scanning",
+          "sub_objectives": [
+            "Implementing asset discovery, internal vs. external scanning, agent vs. agentless, credentialed vs. non-credentialed, passive vs. active, static vs. dynamic, and critical infrastructure scanning"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Assessment tool output",
+          "sub_objectives": [
+            "Analyzing network scanning, web application scanners, vulnerability scanners, debuggers, multipurpose tools, and cloud infrastructure assessments"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Vulnerability prioritization",
+          "sub_objectives": [
+            "Interpreting common vulnerability scoring system (CVSS), validating findings, assessing exploitability, and considering asset value and zero-day vulnerabilities"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Mitigation controls",
+          "sub_objectives": [
+            "Recommending controls for cross-site scripting (XSS), overflow vulnerabilities, and data poisoning"
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Vulnerability response",
+          "sub_objectives": [
+            "Explaining compensating controls, patching, configuration management, maintenance windows, exceptions, governance, service-level objectives (SLOs), secure software development life cycle (SDLC), and threat modeling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Incident Response Management",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Attack methodology frameworks",
+          "sub_objectives": [
+            "Explaining cyber kill chains, diamond model of intrusion analysis, MITRE ATT&CK, Open Source Security Testing Methodology Manual (OSSTMM), and OWASP testing guide"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Incident response activities",
+          "sub_objectives": [
+            "Performing detection, analysis, containment, eradication, and recovery"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Incident management life cycle",
+          "sub_objectives": [
+            "Explaining incident response plans, tools, playbooks, tabletop exercises, training, business continuity (BC), disaster recovery (DR), forensic analysis, and root cause analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Reporting and Communication",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Vulnerability management reporting",
+          "sub_objectives": [
+            "Explaining compliance reports, action plans, inhibitors to remediation, metrics, key performance indicators (KPIs), and stakeholder communication"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Incident response reporting",
+          "sub_objectives": [
+            "Explaining incident declaration, escalation, reporting, communication, root cause analysis, lessons learned, and metrics and KPIs"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-cysa-cs0-003-exam-objectives",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "CertMaster Learn",
+      "url": "https://www.comptia.org/training/certmaster-learn",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 499.0,
+      "notes": "Official e-learning with performance-based questions and study guides"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CertMaster Practice",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "Adaptive practice question engine with rationale"
+    },
+    {
+      "resource_type": "lab",
+      "title": "CertMaster Labs",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Browser-based virtual lab environments"
+    }
+  ],
+  "aliases": [
+    "comptia cybersecurity analyst cysa+",
+    "comptia cysa+",
+    "comptia-cysa-plus-cs0-003",
+    "cs0-003",
+    "cysa+",
+    "cysa+ v3",
+    "v3"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-cysa-plus-cs0-003"
+}

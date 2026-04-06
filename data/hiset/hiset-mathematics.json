@@ -1,0 +1,96 @@
+{
+  "exam_id": "hiset-mathematics",
+  "exam_name": "HiSET Mathematics",
+  "exam_code": "MATH",
+  "certifying_body": "HiSET",
+  "certification_name": "High School Equivalency (HSE) Credential",
+  "version": null,
+  "source_url": "https://hiset.ets.org/requirements/subtests/",
+  "passing_score": 8,
+  "passing_score_scale": null,
+  "total_questions": 55,
+  "question_types": [],
+  "exam_format": "Multiple-choice (computer or paper-based) + essay for ELA Writing",
+  "duration_minutes": 90,
+  "exam_price_usd": 15.25,
+  "exam_price_notes": "$15.25/subtest computer; $10.75/subtest paper. Price varies by state.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Test Center",
+      "scheduling_url": null,
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Not enrolled in high school; minimum age varies by state (typically 16-18).",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": null
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Numbers & Operations",
+      "weight_percent": 19.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Measurement/Geometry",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Data Analysis/Probability/Statistics",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Algebraic Concepts",
+      "weight_percent": 45.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "HiSET Academy by Essential Education",
+      "url": null,
+      "provider": "Essential Education",
+      "is_official": true,
+      "price_usd": null,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "high school equivalency hse credential",
+    "hiset math",
+    "hiset mathematics",
+    "hiset-mathematics",
+    "hse",
+    "math"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hiset-mathematics"
+}

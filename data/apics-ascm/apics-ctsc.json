@@ -1,0 +1,101 @@
+{
+  "exam_id": "apics-ctsc",
+  "exam_name": "Certified in Transformation for Supply Chain (CTSC)",
+  "exam_code": "CTSC",
+  "certifying_body": "APICS (ASCM)",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ascm.org/certifications/ctsc/",
+  "passing_score": 300,
+  "passing_score_scale": "Scaled score 200–350; 300 required to pass",
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 150,
+  "exam_price_usd": 1295.0,
+  "exam_price_notes": "ASCM member price $995. Non-member price $1,295.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ascm.org/certifications/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ascm",
+      "notes": "Computer-based testing at Pearson VUE test centers and online proctored delivery"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name. Name must match ASCM registration exactly.",
+  "exam_rules": "Closed-book. No notes or study materials permitted. On-screen calculator provided. 3-year access to official study materials included with exam registration. 30-day waiting period required before retaking.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "Earn 75 PDCs (Professional Development Credits) every 5 years. PDCs earned through education, professional activities, and volunteering. Submit PDCs via the ASCM certification portal.",
+  "continuing_education_units": 75,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Must wait 30 days before retaking. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Digital Transformation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Supply Chain Strategy",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Change Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Data and Analytics",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ASCM Official Exam Study Materials",
+      "url": "https://www.ascm.org/learning-development/",
+      "provider": "ASCM",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official learning system with 3-year access included with exam registration fee"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ASCM Practice Questions",
+      "url": "https://www.ascm.org/certifications/",
+      "provider": "ASCM",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice questions available through the ASCM learning portal"
+    }
+  ],
+  "aliases": [
+    "apics-ctsc",
+    "certified in transformation for supply chain ctsc",
+    "ctsc",
+    "transformation for supply chain"
+  ],
+  "practice_url": "https://quizforge.ai/tests/apics-ctsc"
+}

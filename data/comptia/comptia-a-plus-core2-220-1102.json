@@ -1,0 +1,238 @@
+{
+  "exam_id": "comptia-a-plus-core2-220-1102",
+  "exam_name": "CompTIA A+ Core 2",
+  "exam_code": "220-1102",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA A+",
+  "version": "V15",
+  "source_url": "https://www.comptia.org/certifications/a",
+  "passing_score": 700,
+  "passing_score_scale": "100-900",
+  "total_questions": 90,
+  "question_types": [
+    "Multiple Choice (single)",
+    "Multiple Choice (multiple)",
+    "Performance-Based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 253.0,
+  "exam_price_notes": null,
+  "voucher_url": "https://store.comptia.org/",
+  "exam_registration_url": "https://home.pearsonvue.com/comptia",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/comptia",
+      "notes": "In-person test centers worldwide and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID are required. Primary ID must be government-issued, include candidate's name, photo, and signature (e.g. passport, driver's license). Secondary ID must include candidate's name and signature or name and photo.",
+  "exam_rules": "No notes, scratch paper, electronic devices, books, or study materials permitted. Personal items must be stored. No food or drink except water. Restroom breaks allowed but timer continues. Testing center staff may monitor via video/audio.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn CE credits through CompTIA CE program (training, conferences, publishing, teaching, higher certs) or retake the current exam version before expiry.",
+  "continuing_education_units": 20,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Portuguese",
+    "Simplified Chinese"
+  ],
+  "target_audience": "IT support specialist, help desk technician",
+  "recommended_experience": "12 months of hands-on experience in an IT support specialist job role",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "12 months of hands-on experience in an IT support specialist job role",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period required before first retake. After the second failed attempt, candidates must wait 14 calendar days before any subsequent attempt. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Mobile devices",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Hardware setup",
+          "sub_objectives": [
+            "installing components like batteries, cameras, and Wi-Fi antennas."
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Accessory options",
+          "sub_objectives": [
+            "configuring USB, Bluetooth, NFC, and docking stations."
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Network setup",
+          "sub_objectives": [
+            "configuring Wi-Fi, Bluetooth, cellular data, and synchronization settings."
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Troubleshooting",
+          "sub_objectives": [
+            "identifying and fixing hardware and connectivity issues."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Networking",
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Protocols and ports",
+          "sub_objectives": [
+            "learning about networking protocols, ports, and wireless technologies."
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "SOHO networks",
+          "sub_objectives": [
+            "setting up small office/home office networks, including IP addressing and VPNs."
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Networking tools",
+          "sub_objectives": [
+            "troubleshooting with crimpers, cable testers, and Wi-Fi analyzers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Hardware",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Component installation",
+          "sub_objectives": [
+            "setting up RAM, CPUs, and storage devices."
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Cables and connectors",
+          "sub_objectives": [
+            "working with HDMI, Ethernet, and USB cables."
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Peripheral devices",
+          "sub_objectives": [
+            "installing and maintaining printers, scanners, and other peripherals."
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Motherboards and power",
+          "sub_objectives": [
+            "configuring motherboards, power supplies, and cooling solutions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Virtualization and cloud computing",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Virtualization concepts",
+          "sub_objectives": [
+            "understanding virtual machines, hypervisors, and desktop virtualization."
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Cloud models",
+          "sub_objectives": [
+            "learning about IaaS, SaaS, and PaaS."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Hardware and network troubleshooting",
+      "weight_percent": 28.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Diagnosing issues",
+          "sub_objectives": [
+            "identifying and fixing hardware, network, and connectivity problems."
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Troubleshooting tools",
+          "sub_objectives": [
+            "using multimeters, cable testers, and loopback plugs."
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-a-220-1101-220-1102-exam-objectives",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "CertMaster Learn",
+      "url": "https://www.comptia.org/training/certmaster-learn",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 499.0,
+      "notes": "Official e-learning with performance-based questions and study guides"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CertMaster Practice",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "Adaptive practice question engine with rationale"
+    },
+    {
+      "resource_type": "lab",
+      "title": "CertMaster Labs",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Browser-based virtual lab environments"
+    }
+  ],
+  "aliases": [
+    "220-1102",
+    "a+ core 2",
+    "comptia a+",
+    "comptia a+ core 2",
+    "comptia-a-plus-core2-220-1102"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-a-plus-core2-220-1102"
+}

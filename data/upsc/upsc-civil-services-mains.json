@@ -1,0 +1,118 @@
+{
+  "exam_id": "upsc-civil-services-mains",
+  "exam_name": "Civil Services Main Examination",
+  "exam_code": "CSE Mains",
+  "certifying_body": "UPSC (Union Public Service Commission)",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://upsc.gov.in/examinations/civil-services-examination",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": "No separate fee for Mains; Prelims application fee (INR 100) covers both stages. Candidates must qualify Prelims to appear in Mains.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "UPSC Examination Centres",
+      "scheduling_url": "https://upsc.gov.in/examinations/active-examinations",
+      "notes": "Offline paper-based (OMR) examination conducted at designated centres in major cities across all states and union territories of India. Centre allocation done by UPSC; candidates cannot choose specific centres."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid government-issued photo ID required on exam day: Aadhaar card, passport, voter ID, or driving licence. Admit card (hall ticket) is mandatory and must be downloaded from the UPSC OTR portal before the exam.",
+  "exam_rules": "OMR-based objective papers (where applicable). Negative marking: 1/3 mark deducted per wrong answer. Unattempted questions carry no penalty. No calculators or electronic devices permitted. Dark blue or black ballpoint pen only (not gel or ink pens). Candidates must report 30 minutes before commencement. Mobile phones strictly prohibited.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Hindi"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Must qualify UPSC Civil Services Preliminary Examination (CSE Prelims) in the same year. Same citizenship and educational eligibility as Prelims.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Essay Writing",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "General Studies I -- History, Geography & Society",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "General Studies II -- Polity, Governance & International Relations",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "General Studies III -- Economy, Environment, Technology & Security",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "General Studies IV -- Ethics, Integrity & Aptitude",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Optional Paper I",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Optional Paper II",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "website",
+      "title": "UPSC Official Website",
+      "url": "https://upsc.gov.in",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Syllabus, previous year papers, notifications, and e-admit cards."
+    },
+    {
+      "resource_type": "website",
+      "title": "UPSC Previous Year Question Papers",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official repository of all previous year question papers."
+    }
+  ],
+  "aliases": [
+    "civil services main examination",
+    "cse mains",
+    "upsc-civil-services-mains"
+  ],
+  "practice_url": "https://quizforge.ai/tests/upsc-civil-services-mains"
+}

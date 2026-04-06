@@ -1,0 +1,100 @@
+{
+  "exam_id": "hubspot-seo",
+  "exam_name": "SEO Certification",
+  "exam_code": "HubSpot-SEO",
+  "certifying_body": "HubSpot Academy",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://academy.hubspot.com/courses/seo-training-course",
+  "passing_score": 75,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 75,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": "Free; requires a free HubSpot account",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "HubSpot Academy (online)",
+      "scheduling_url": "https://app.hubspot.com/academy",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "HubSpot account login required. No government-issued ID required. All exams are unproctored and taken online at app.hubspot.com/academy.",
+  "exam_rules": "Exams are taken online via the HubSpot Academy platform at app.hubspot.com/academy. No external proctor is required. Candidates may use notes and reference materials during the exam. A free HubSpot account is required to access the exam. Certifications are valid for 2 years and must be renewed by retaking the exam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications expire after 2 years. Renewal requires passing the current version of the exam. HubSpot may send reminder emails before expiration.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; free HubSpot account required",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period between attempts. Candidates may retake the exam immediately after a failed attempt at no cost."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "SEO Fundamentals",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "On-Page SEO and Technical SEO",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Keyword Research",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Link Building",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "SEO Reporting and Analytics",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "course",
+      "title": "HubSpot Academy Free Online Courses",
+      "url": "https://academy.hubspot.com/courses",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "hubspot-seo",
+    "seo certification"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hubspot-seo"
+}

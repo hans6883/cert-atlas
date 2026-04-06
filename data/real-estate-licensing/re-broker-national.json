@@ -1,0 +1,146 @@
+{
+  "exam_id": "re-broker-national",
+  "exam_name": "Real Estate Broker National Exam (PSI)",
+  "exam_code": "RE-Broker-National",
+  "certifying_body": "Real Estate Licensing",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.psiexams.com/real-estate",
+  "passing_score": 70,
+  "passing_score_scale": "Percentage (70-75% passing depending on state and exam portion)",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear; national and state portions (most states); online proctored or test center",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Exams",
+      "scheduling_url": "https://www.psiexams.com/real-estate",
+      "notes": "PSI administers real estate exams in many states. Testing available at PSI test centers and via online proctoring in select states."
+    },
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.pearsonvue.com/real-estate",
+      "notes": "Pearson VUE administers real estate exams for Texas (TREC), Florida (DBPR), and several other states. Online proctoring available in select states."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly. Some states require two forms of ID.",
+  "exam_rules": "No personal items, notes, or reference materials permitted during exam. Most state exams consist of a national portion and a state-specific portion; both portions must be passed (may be taken separately or together depending on state). Pre-license education hours must be completed before sitting for the exam. Background check required for license application in most states.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Real estate licenses are typically valid for 2 years. Renewal requires continuing education (CE) hours, which vary by state (e.g., CA requires 45 CE hours, TX requires 18 CE hours). Renewal deadlines and fees are set by each state's real estate commission.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Active salesperson license (typically 1-3 years experience); additional broker pre-license education required",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies vary by state. Most states allow unlimited retakes with a waiting period (typically 24 hours to 30 days). Some states charge the full exam fee for each attempt. CA allows unlimited retakes; TX requires waiting 24 hours after failure."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Real Property Characteristics and Types",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Forms of Ownership and Land Use",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Property Valuation and Appraisal",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Financing (mortgages, loans, types)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Agency Law and Fiduciary Duties",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Contract Law and Transactions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Fair Housing and Ethics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Property Disclosures",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Leases and Property Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "License Law and Regulations (state-specific)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "PSI Real Estate Candidate Handbook",
+      "url": "https://www.psiexams.com/real-estate",
+      "provider": "PSI Exams",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free candidate handbook with content outline available per state at psiexams.com"
+    },
+    {
+      "resource_type": "study_guide",
+      "title": "Pearson VUE Real Estate Candidate Bulletin",
+      "url": "https://www.pearsonvue.com/real-estate",
+      "provider": "Pearson VUE",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free candidate bulletin with exam content outline available at pearsonvue.com"
+    }
+  ],
+  "aliases": [
+    "broker license exam",
+    "re-broker-national",
+    "real estate broker exam",
+    "real estate broker national exam psi"
+  ],
+  "practice_url": "https://quizforge.ai/tests/re-broker-national"
+}

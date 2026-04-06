@@ -1,0 +1,99 @@
+{
+  "exam_id": "appian-associate-developer",
+  "exam_name": "Appian Associate Developer (ACD200)",
+  "exam_code": "ACD200",
+  "certifying_body": "Appian",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://academy.appian.com/learn/certifications/appian-associate-developer",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://academy.appian.com/certifications",
+  "testing_centers": [
+    {
+      "provider": "Online (Appian Academy)",
+      "scheduling_url": "https://academy.appian.com/certifications",
+      "notes": "Online proctored through Appian Academy platform"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Appian Academy account required. Government-issued photo ID for proctored exams.",
+  "exam_rules": "Closed-book. Online proctored. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Process Modeling and Configuration",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Data Design and Management",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "User Interface Design (SAIL)",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Integrations and Web APIs",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security and Administration",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Appian Academy",
+      "url": "https://academy.appian.com/",
+      "provider": "Appian",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free learning paths at Appian Academy aligned to certification exams"
+    }
+  ],
+  "aliases": [
+    "acd200",
+    "appian associate developer",
+    "appian associate developer acd200",
+    "appian-associate-developer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/appian-associate-developer"
+}

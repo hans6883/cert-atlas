@@ -1,0 +1,64 @@
+{
+  "exam_id": "linux-foundation-ckad",
+  "exam_name": "Certified Kubernetes Application Developer (CKAD)",
+  "exam_code": "CKAD",
+  "certifying_body": "Linux Foundation",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/",
+  "passing_score": 66,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Performance-Based (hands-on tasks in live Kubernetes/Linux environment)"
+  ],
+  "exam_format": "Performance-Based / Practical",
+  "duration_minutes": 120,
+  "exam_price_usd": 395.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://training.linuxfoundation.org/certification/",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "https://training.linuxfoundation.org/certification/",
+      "notes": "Online proctored only via PSI secure browser. No in-person testing centers."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID. Name must match registration. Must show ID to proctor via webcam.",
+  "exam_rules": "Performance-based: open terminal environment. One additional browser tab allowed (for kubernetes.io docs, GitHub kubernetes docs, helm.sh only for CKA/CKAD/CKS). No other external resources. Must be alone in quiet room. No notes. Proctor monitors via webcam and screen share.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Retake the exam before the certification expires.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 2,
+    "notes": "One free retake included with exam registration. No waiting period between attempts. After 2 attempts, full repurchase required."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Linux Foundation Training",
+      "url": "https://training.linuxfoundation.org/",
+      "provider": "Linux Foundation",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official instructor-led and self-paced courses aligned to each cert"
+    }
+  ],
+  "aliases": [
+    "linux-foundation-ckad"
+  ],
+  "practice_url": "https://quizforge.ai/tests/linux-foundation-ckad"
+}

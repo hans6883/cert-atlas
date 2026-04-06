@@ -1,0 +1,144 @@
+{
+  "exam_id": "cfp-board-cfp-exam",
+  "exam_name": "CFP Exam (Certified Financial Planner)",
+  "exam_code": "CFP",
+  "certifying_body": "CFP Board",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.cfp.net/get-certified/certification-process/pass-the-cfp-exam",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 170,
+  "question_types": [
+    "Multiple Choice",
+    "Stand-alone questions",
+    "Case-study sets"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 270,
+  "exam_price_usd": 925.0,
+  "exam_price_notes": "Standard registration $925. Early registration discount and military discount available.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.cfp.net/get-certified/certification-process/pass-the-cfp-exam/register",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/cfp",
+      "notes": "Computer-based testing at Prometric authorized test centers. Online proctoring available."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One government-issued photo ID with first and last name. Name must match registration exactly.",
+  "exam_rules": "Closed-book. On-screen financial calculator provided (HP 10BII+ or similar). Personal calculators are NOT allowed. Scratch paper provided. No notes or reference materials. Proctor monitors via webcam and screen share for online testing.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Complete 30 CE hours every two years, including 2 hours of CFP Board-approved ethics CE. Pay annual certification fee. Agree to CFP Board's Standards of Professional Conduct.",
+  "continuing_education_units": 30,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "6,000 hours of professional experience in financial planning OR 4,000 hours in an apprenticeship pathway",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "training",
+      "description": "Completion of a CFP Board-registered education program covering the financial planning principal knowledge topics",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Bachelor's degree (or higher) from an accredited college or university (may be completed after passing the exam but before certification)",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 4,
+    "notes": "Maximum 4 lifetime attempts at the CFP Exam. Candidates who fail 4 times must petition the Board of Examiners for additional attempts. Exam offered 3 times per year (March, July, November)."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Professional Conduct and Regulation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "General Financial Planning Principles",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Education Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Risk Management and Insurance Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Investment Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Tax Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Retirement Savings and Income Planning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Estate Planning",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "CFP Exam Blueprint",
+      "url": "https://www.cfp.net/get-certified/certification-process/pass-the-cfp-exam/cfp-exam-blueprint",
+      "provider": "CFP Board",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable exam blueprint with principal knowledge topics and weightings"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CFP Board Practice Exam",
+      "url": "https://www.cfp.net/get-certified/certification-process/pass-the-cfp-exam/study-resources",
+      "provider": "CFP Board",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Available through CFP Board-registered education programs"
+    }
+  ],
+  "aliases": [
+    "certified financial planner",
+    "cfp",
+    "cfp certification",
+    "cfp exam certified financial planner",
+    "cfp-board-cfp-exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cfp-board-cfp-exam"
+}

@@ -1,0 +1,104 @@
+{
+  "exam_id": "outsystems-tech-lead",
+  "exam_name": "OutSystems Tech Lead",
+  "exam_code": "Tech-Lead",
+  "certifying_body": "OutSystems",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.outsystems.com/learn/certifications/tech-lead/",
+  "passing_score": 75,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.outsystems.com/learn/certifications/",
+  "testing_centers": [
+    {
+      "provider": "Online (OutSystems proctored)",
+      "scheduling_url": "https://www.outsystems.com/learn/certifications/",
+      "notes": "Online proctored exam via OutSystems platform"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "OutSystems Training account required. Government-issued photo ID for proctored exams.",
+  "exam_rules": "Closed-book. Online proctored. No reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current exam version.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Architecture Specialist or Professional Reactive Developer; 2+ years OutSystems experience",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Technical Leadership and Mentoring",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Application Design and Architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Team Best Practices and Code Quality",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "DevOps and Continuous Delivery",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Stakeholder Communication",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "OutSystems Training",
+      "url": "https://www.outsystems.com/training/",
+      "provider": "OutSystems",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online learning at OutSystems Training"
+    }
+  ],
+  "aliases": [
+    "outsystems tech lead",
+    "outsystems-tech-lead",
+    "tech-lead"
+  ],
+  "practice_url": "https://quizforge.ai/tests/outsystems-tech-lead"
+}

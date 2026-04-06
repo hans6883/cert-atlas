@@ -1,0 +1,67 @@
+{
+  "exam_id": "hiset-language-arts-reading",
+  "exam_name": "HiSET Language Arts – Reading",
+  "exam_code": "LAR",
+  "certifying_body": "HiSET",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://hiset.ets.org/requirements/subtests/",
+  "passing_score": 8,
+  "passing_score_scale": null,
+  "total_questions": 40,
+  "question_types": [],
+  "exam_format": "Multiple-choice (computer or paper-based) + essay for ELA Writing",
+  "duration_minutes": 65,
+  "exam_price_usd": 15.25,
+  "exam_price_notes": "$15.25/subtest computer; $10.75/subtest paper. Price varies by state.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Not enrolled in high school; minimum age varies by state (typically 16-18).",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": null
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Literary Texts",
+      "weight_percent": 60.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Informational Texts",
+      "weight_percent": 40.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "hiset language arts reading",
+    "hiset lar",
+    "hiset reading",
+    "hiset-language-arts-reading",
+    "lar"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hiset-language-arts-reading"
+}

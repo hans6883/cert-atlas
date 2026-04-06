@@ -1,0 +1,76 @@
+{
+  "exam_id": "comlex-level-2-pe",
+  "exam_name": "COMLEX-USA Level 2-PE (Performance Evaluation)",
+  "exam_code": "COMLEX-L2PE",
+  "certifying_body": "NBOME",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.nbome.org/exams/comlex-usa/comlex-usa-level-2/",
+  "passing_score": null,
+  "passing_score_scale": "9–999 scale; passing varies by level (400 for Levels 1 and 2-CE, 350 for Level 3)",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice",
+    "Single Best Answer",
+    "OSCE (Level 2-PE, suspended)"
+  ],
+  "exam_format": "Linear computer-based (Levels 1, 2-CE, 3 at Prometric); OSCE (Level 2-PE, suspended)",
+  "duration_minutes": null,
+  "exam_price_usd": 1400.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/",
+      "notes": "COMLEX-USA Levels 1, 2-CE, and 3 administered at Prometric testing centers. Schedule through the NBOME MyNBOME candidate portal at nbome.org."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match NBOME registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted at Prometric centers. COMLEX-USA Level 2-PE (OSCE) is currently suspended as of 2026. Results typically available within 3–6 weeks of examination.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "COMLEX-USA scores do not expire. DO licensure itself is subject to state board continuing medical education (CME) requirements, which vary by state.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "COMLEX-USA Level 1 passage",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 4,
+    "notes": "60-day waiting period between failed attempts. Maximum 4 attempts per COMLEX-USA level. Candidates who exhaust attempts must petition NBOME for additional eligibility."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "candidate_guide",
+      "title": "COMLEX-USA Bulletin of Information",
+      "url": "https://www.nbome.org/exams/comlex-usa/",
+      "provider": "NBOME",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official bulletin with content specifications, eligibility requirements, and policies."
+    }
+  ],
+  "aliases": [
+    "comlex 2 pe",
+    "comlex level 2 pe",
+    "comlex level 2 performance evaluation",
+    "comlex usa level 2-pe",
+    "comlex-l2pe",
+    "comlex-level-2-pe",
+    "comlex-usa level 2-pe performance evaluation"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comlex-level-2-pe"
+}

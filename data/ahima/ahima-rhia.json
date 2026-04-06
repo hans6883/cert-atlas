@@ -1,0 +1,105 @@
+{
+  "exam_id": "ahima-rhia",
+  "exam_name": "Registered Health Information Administrator (RHIA)",
+  "exam_code": "RHIA",
+  "certifying_body": "AHIMA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ahima.org/certification-careers/certifications-info/rhia/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 180,
+  "question_types": [
+    "Multiple Choice",
+    "Medical Record Coding (CCS only)"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 240,
+  "exam_price_usd": 299.0,
+  "exam_price_notes": "AHIMA member price $299. Non-member price $399.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ahima.org/certification-careers/certifications-info/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ahima",
+      "notes": "Computer-based testing at Pearson VUE authorized test centers. Online proctoring available for some exams."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One government-issued photo ID with full name. Name must match AHIMA registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator available. CCS exam includes medical record coding section using actual patient records presented on screen.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Complete required CEUs (Continuing Education Units) every 2 years and pay annual certification maintenance fee. CEUs earned through AHIMA-approved education, conferences, and professional activities.",
+  "continuing_education_units": 30,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Graduate of an AHIMA-accredited (CAHIIM) Bachelor's degree Health Information Management program",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "60-day waiting period between attempts. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Health Data Management and Governance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Health Informatics and Information Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Revenue Cycle Management and Compliance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Organizational Management and Leadership",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Health Law, Ethics, and Integrity",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "AHIMA Exam Prep",
+      "url": "https://hcmarketplace.com/",
+      "provider": "AHIMA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guides published by AHIMA Press for each credential"
+    }
+  ],
+  "aliases": [
+    "ahima-rhia",
+    "health information administrator",
+    "registered health information administrator rhia",
+    "rhia"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ahima-rhia"
+}

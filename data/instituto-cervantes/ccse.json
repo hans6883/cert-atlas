@@ -1,0 +1,102 @@
+{
+  "exam_id": "ccse",
+  "exam_name": "CCSE (Conocimientos Constitucionales y Socioculturales de España)",
+  "exam_code": "CCSE",
+  "certifying_body": "Instituto Cervantes",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://ccse.cervantes.es",
+  "passing_score": 60,
+  "passing_score_scale": null,
+  "total_questions": 25,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 30,
+  "exam_price_usd": 85.0,
+  "exam_price_notes": "€85 (~$93 USD) per attempt; can retake if failed",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Instituto Cervantes Exam Centres (worldwide)",
+      "scheduling_url": "https://dele.org/en/exam-centres/",
+      "notes": null
+    },
+    {
+      "provider": "SIELE (Online, Computer-Based)",
+      "scheduling_url": "https://siele.org/en/exam-centres",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Valid government-issued photo ID (Passport, National ID card, or equivalent)",
+  "exam_rules": "No electronic devices or dictionaries. Oral exams conducted with examiner present or recorded. SIELE is fully computer-based.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "DELE certificates have lifetime validity. SIELE is valid for 5 years.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Non-EU national applying for Spanish nationality (naturalización); A2+ Spanish level recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "DELE: no limit on retakes; CCSE: can retake immediately if failed"
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Spanish Constitutional Principles and Democratic Values",
+      "weight_percent": 40.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Spanish Society, Culture, History, and Geography",
+      "weight_percent": 40.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Spanish Political and Administrative Structure",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "DELE Modelos de Examen (Official Sample Papers)",
+      "url": "https://dele.org/en/sample-exams/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CCSE Official Preparation Materials",
+      "url": "https://ccse.cervantes.es/en/information/preparation-guides.html",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "ccse",
+    "ccse conocimientos constitucionales y socioculturales de españa"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ccse"
+}

@@ -1,0 +1,132 @@
+{
+  "exam_id": "cset-social-science",
+  "exam_name": "CSET Social Science Subtest I (World History, U.S. History)",
+  "exam_code": "CSET-SS1",
+  "certifying_body": "CSET",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CSET114_TestPage.html",
+  "passing_score": 220,
+  "passing_score_scale": null,
+  "total_questions": 52,
+  "question_types": [
+    "multiple-choice",
+    "constructed-response"
+  ],
+  "exam_format": "Multiple-choice and constructed-response (short essay); computer-based",
+  "duration_minutes": 130,
+  "exam_price_usd": 99.0,
+  "exam_price_notes": "$99 per subtest.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.pearsonvue.com/cset",
+      "notes": "Locate a test center"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Review the list of materials that are prohibited at the test center for computer-based testing. For online proctoring, review the list of reasons your exam could be stopped and/or revoked.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Required for California Single Subject Social Science teaching credential",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No specific retake policy information provided."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "World History",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understanding of major historical events and developments",
+          "sub_objectives": [
+            "Analyzing the causes and effects of major historical events",
+            "Evaluating the impact of historical developments on societies"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Knowledge of significant historical figures and movements",
+          "sub_objectives": [
+            "Identifying key historical figures and their contributions",
+            "Analyzing the influence of historical movements on global history"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "U.S. History",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Understanding of major events and developments in U.S. history",
+          "sub_objectives": [
+            "Analyzing the causes and effects of major events in U.S. history",
+            "Evaluating the impact of historical developments on American society"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Knowledge of significant historical figures and movements in U.S. history",
+          "sub_objectives": [
+            "Identifying key historical figures and their contributions",
+            "Analyzing the influence of historical movements on U.S. history"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.cset.nesinc.com/",
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CSET Social Science Study Guide",
+      "url": "https://www.cset.nesinc.com/study-resources",
+      "provider": "CSET",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guide and practice materials for CSET Social Science."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CSET Social Science Practice Tests",
+      "url": "https://www.cset.nesinc.com/practice-tests",
+      "provider": "CSET",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice tests for CSET Social Science."
+    }
+  ],
+  "aliases": [
+    "cset 114",
+    "cset social science",
+    "cset social science i",
+    "cset social science subtest i world history u s history",
+    "cset-social-science",
+    "cset-ss1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cset-social-science"
+}

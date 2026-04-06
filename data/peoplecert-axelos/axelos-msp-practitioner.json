@@ -1,0 +1,102 @@
+{
+  "exam_id": "axelos-msp-practitioner",
+  "exam_name": "MSP Practitioner",
+  "exam_code": "MSP Practitioner",
+  "certifying_body": "PeopleCert (AXELOS)",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.axelos.com/certifications/msp-project-programme-management",
+  "passing_score": 55,
+  "passing_score_scale": null,
+  "total_questions": 70,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 150,
+  "exam_price_usd": 440.0,
+  "exam_price_notes": "Open-book (MSP manual allowed). Pricing varies by region.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.peoplecert.org/",
+  "testing_centers": [
+    {
+      "provider": "PeopleCert",
+      "scheduling_url": "https://www.peoplecert.org/",
+      "notes": "Online proctored via PeopleCert or at PeopleCert authorized test centres globally"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID. Name must match PeopleCert registration exactly.",
+  "exam_rules": "ITIL and PRINCE2 Foundation: closed-book. PRINCE2 Practitioner: open-book (official PRINCE2 manual only). No notes or personal items. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Renew every 3 years through PeopleCert's subscription model: earn CPDs (Continuing Professional Development) or retake the exam. Digital badge re-issued upon renewal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "German",
+    "French",
+    "Spanish",
+    "Portuguese",
+    "Japanese",
+    "Chinese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Must hold MSP Foundation certificate",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No mandatory waiting period. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Applying MSP Principles and Governance Themes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Programme Management Integration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Transformational Flow Application",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Benefits Realization and Stakeholder Management",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ITIL 4 Foundation Publication (Axelos)",
+      "url": "https://www.axelos.com/store",
+      "provider": "AXELOS",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official AXELOS publications; also available via authorized training organizations (ATOs)"
+    }
+  ],
+  "aliases": [
+    "axelos-msp-practitioner",
+    "msp practitioner"
+  ],
+  "practice_url": "https://quizforge.ai/tests/axelos-msp-practitioner"
+}

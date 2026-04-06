@@ -1,0 +1,103 @@
+{
+  "exam_id": "navle",
+  "exam_name": "NAVLE (North American Veterinary Licensing Examination)",
+  "exam_code": "NAVLE",
+  "certifying_body": "AAVSB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.aavsb.org/navle/",
+  "passing_score": 425,
+  "passing_score_scale": "NAVLE: scaled 200–800 (passing = 425); VTNE: scaled (refer to AAVSB)",
+  "total_questions": 360,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Computer-based at Prometric test centers",
+  "duration_minutes": 480,
+  "exam_price_usd": 500.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/",
+      "notes": "NAVLE and VTNE are administered at Prometric test centers. NAVLE is offered in November–December and April testing windows. VTNE is offered monthly throughout the year. Schedule through Prometric after AAVSB eligibility confirmation."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted at Prometric test centers. NAVLE is required for veterinary licensure in all US states and Canada. VTNE is required for Veterinary Technician/Nurse (RVT/CVT/LVT) licensure in most US states. California requires an additional practical skills examination (CA-VTPE) in addition to the VTNE. Renewal requirements and continuing education obligations vary by state.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "Renewal and continuing education requirements vary by state licensing board. Candidates must verify requirements with their state veterinary or veterinary technician licensing authority.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "NAVLE retake policies are governed by AAVSB and state boards; typically limited attempts per testing window. VTNE retake policies vary; refer to AAVSB at aavsb.org for current rules."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Diagnosis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Management and Treatment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Prevention and Control",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Species Mix: Canine/Feline (~40%), Equine (~15%), Bovine (~15%), Other Large Animals (~10%), Poultry/Exotic/Other (~20%)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "candidate_handbook",
+      "title": "NAVLE Candidate Handbook",
+      "url": "https://www.aavsb.org/navle/",
+      "provider": "AAVSB",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official NAVLE candidate information and content outline at aavsb.org/navle"
+    },
+    {
+      "resource_type": "candidate_handbook",
+      "title": "VTNE Candidate Handbook",
+      "url": "https://www.aavsb.org/vtne/",
+      "provider": "AAVSB",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official VTNE candidate information and content outline at aavsb.org/vtne"
+    }
+  ],
+  "aliases": [
+    "navle",
+    "navle exam",
+    "navle north american veterinary licensing examination",
+    "north american veterinary licensing examination",
+    "vet boards",
+    "vet licensing exam",
+    "veterinary board exam",
+    "veterinary licensing exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/navle"
+}

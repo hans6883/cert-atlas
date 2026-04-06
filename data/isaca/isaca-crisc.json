@@ -1,0 +1,114 @@
+{
+  "exam_id": "isaca-crisc",
+  "exam_name": "Certified in Risk and Information Systems Control (CRISC)",
+  "exam_code": "CRISC",
+  "certifying_body": "ISACA",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.isaca.org/credentialing/crisc/crisc-exam-content-outline",
+  "passing_score": 450,
+  "passing_score_scale": "200–800 scaled score; 450 required to pass",
+  "total_questions": 150,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 240,
+  "exam_price_usd": 760.0,
+  "exam_price_notes": "ISACA member price $575. Non-member price $760.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.isaca.org/credentialing/exam-candidate-guide",
+  "testing_centers": [
+    {
+      "provider": "PSI / Pearson VUE",
+      "scheduling_url": "https://www.isaca.org/credentialing/exam-candidate-guide",
+      "notes": "Computer-based testing at PSI or Pearson VUE test centers. Online proctoring available."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, unexpired government-issued photo ID with full name and signature. Name must match ISACA registration exactly.",
+  "exam_rules": "Closed-book. On-screen calculator provided. No notes or reference materials. Proctor monitors throughout.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Complete 120 CPE hours over 3 years (minimum 20 hours annually). Pay annual maintenance fee. Adhere to ISACA Code of Professional Ethics. CPE hours earned through education, conferences, professional activities.",
+  "continuing_education_units": 120,
+  "available_languages": [
+    "English",
+    "Chinese",
+    "Japanese",
+    "Korean",
+    "Spanish",
+    "German",
+    "French",
+    "Portuguese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "3 years of work experience in IT risk management and IS control",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "Must wait 30 days before retaking. Maximum 3 exam attempts per 12-month period. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Governance",
+      "weight_percent": 26.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "IT Risk Assessment",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Risk Response and Reporting",
+      "weight_percent": 32.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Information Technology and Security",
+      "weight_percent": 22.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ISACA Exam Prep Resources",
+      "url": "https://www.isaca.org/credentialing/exam-prep",
+      "provider": "ISACA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official review manuals, question databases, and virtual labs"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ISACA Question, Answers & Explanations Database",
+      "url": "https://www.isaca.org/credentialing/exam-prep",
+      "provider": "ISACA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Official QA&E database with 1,000+ practice questions per exam"
+    }
+  ],
+  "aliases": [
+    "certified in risk and information systems control crisc",
+    "crisc",
+    "isaca-crisc",
+    "risk and information systems control"
+  ],
+  "practice_url": "https://quizforge.ai/tests/isaca-crisc"
+}

@@ -1,0 +1,110 @@
+{
+  "exam_id": "afp-fpna",
+  "exam_name": "Certified Corporate FP&A Professional",
+  "exam_code": "FP&A",
+  "certifying_body": "AFP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.afponline.org/certifications/fpna",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 120,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 180,
+  "exam_price_usd": 695.0,
+  "exam_price_notes": "$695 USD for AFP members; $895 USD for non-members. Application fee required in addition to exam fee.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/test-takers/search/afp",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID required at the test center: one must be a government-issued photo ID (passport, driver's license, national ID). The name must match exactly the name on the exam registration.",
+  "exam_rules": "Exams are administered at Prometric test centers or via online proctoring. No notes, calculators, or reference materials are permitted unless provided by the exam. A basic financial calculator may be available via the testing software. Candidates must arrive 30 minutes early for check-in at test centers. Scores are reported on a scaled basis; passing score is 70.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "CTP: 36 Recertification Credit Hours (RCHs) within the 3-year certification period. FP&A: 30 RCHs within the 3-year certification period. RCHs are earned through AFP conference attendance, webinars, academic courses, and other approved continuing education activities. Alternatively, lapsed credential holders may retake the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Either (A) a bachelor's degree and 2 years of FP&A/finance experience, or (B) 5 years of FP&A/finance experience without a degree.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Candidates who fail must wait 90 days before retaking the exam. Full exam fee is required for each retake attempt. Contact AFP for current retake policies."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Financial Planning and Forecasting",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Budgeting",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Financial Reporting and Analysis",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Business Acumen and Strategy",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Leadership and Communication",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "guide",
+      "title": "AFP CTP Exam Study Guide",
+      "url": "https://www.afponline.org/certifications/ctp/prepare",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "guide",
+      "title": "AFP FP&A Exam Study Guide",
+      "url": "https://www.afponline.org/certifications/fpna/prepare",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "afp-fpna",
+    "certified corporate fp a professional",
+    "fp a"
+  ],
+  "practice_url": "https://quizforge.ai/tests/afp-fpna"
+}

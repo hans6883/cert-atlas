@@ -1,0 +1,156 @@
+{
+  "exam_id": "clep-english-literature",
+  "exam_name": "English Literature",
+  "exam_code": "ENGLIT",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/english-literature",
+  "passing_score": 50,
+  "passing_score_scale": "0-800",
+  "total_questions": 95,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students who have completed a college-level course in English Literature",
+  "recommended_experience": "Read widely and developed an appreciation of English literature, know the basic literary periods, and have a sense of the historical development of English literature",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Completion of a college-level course in English Literature",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy"
+  },
+  "domains": [
+    {
+      "id": "Knowledge of",
+      "name": "Knowledge of",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "Literary background",
+          "title": "Literary background",
+          "sub_objectives": []
+        },
+        {
+          "id": "Identification of authors",
+          "title": "Identification of authors",
+          "sub_objectives": []
+        },
+        {
+          "id": "Metrical patterns",
+          "title": "Metrical patterns",
+          "sub_objectives": []
+        },
+        {
+          "id": "Literary references",
+          "title": "Literary references",
+          "sub_objectives": []
+        },
+        {
+          "id": "Literary terms",
+          "title": "Literary terms",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Ability to",
+      "name": "Ability to",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "Analyze the elements of form in a literary passage",
+          "title": "Analyze the elements of form in a literary passage",
+          "sub_objectives": []
+        },
+        {
+          "id": "Perceive meanings",
+          "title": "Perceive meanings",
+          "sub_objectives": []
+        },
+        {
+          "id": "Identify tone and mood",
+          "title": "Identify tone and mood",
+          "sub_objectives": []
+        },
+        {
+          "id": "Follow patterns of imagery",
+          "title": "Follow patterns of imagery",
+          "sub_objectives": []
+        },
+        {
+          "id": "Identify characteristics of style",
+          "title": "Identify characteristics of style",
+          "sub_objectives": []
+        },
+        {
+          "id": "Comprehend the reasoning in an excerpt of literary criticism",
+          "title": "Comprehend the reasoning in an excerpt of literary criticism",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP English Literature Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "This guide provides practice questions for the CLEP English Literature Exam only."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "pdf",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education (ACE)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "clep english literature",
+    "clep-english-literature",
+    "english literature",
+    "english literature clep",
+    "englit"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-english-literature"
+}

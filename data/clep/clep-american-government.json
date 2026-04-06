@@ -1,0 +1,249 @@
+{
+  "exam_id": "clep-american-government",
+  "exam_name": "American Government",
+  "exam_code": "AMGOV",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/american-government",
+  "passing_score": 50,
+  "passing_score_scale": "0-200",
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students who have completed a one-semester introductory course in American government and politics at the college level",
+  "recommended_experience": "Knowledge of American government and politics, understanding of typical patterns of political processes and behavior, and analysis and interpretation of simple data relevant to American government and politics",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Completion of a one-semester introductory course in American government and politics at the college level",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Institutions and Policy Processes: Presidency, Bureaucracy, Congress, and the Federal Courts",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "The major formal and informal institutional arrangements and powers",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Structure, policy processes, and outputs",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Relationships among these three institutions and links between them and political parties, interest groups, the media, and public opinion",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Structure and processes of the judicial system, with emphasis on the role and influence of the Supreme Court",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Civil Liberties and Civil Rights",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "The development of civil rights and civil liberties by judicial interpretation",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "The Bill of Rights",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Incorporation of the Bill of Rights",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Equal protection and due process",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Political Parties and Interest Groups",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Political parties (including their function, organization, mobilization, historical development, and effects on the political process)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Interest groups (including the variety of activities they typically undertake and their effects on the political process)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Elections (including the electoral process)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Political Beliefs and Behavior",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Processes by which citizens learn about politics",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Political participation (including voting behavior)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Public opinion",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Beliefs that citizens hold about their government and its leaders",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Political culture (the variety of factors that predispose citizens to differ from one another in terms of their political perceptions, values, attitudes, and activities)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "The influence of public opinion on political leaders",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Constitutional Underpinnings of American Democracy",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "The development of concepts such as federalism (with attention to intergovernmental relations), separation of powers, checks and balances, majority rule, minority rights",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Considerations that influenced the formulation and adoption of the Constitution",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Theories of democracy",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP American Government Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "This guide provides practice questions for the CLEP American Government Exam only."
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: American Government",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: American Government",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the American Government exam."
+    },
+    {
+      "resource_type": "app",
+      "title": "CLEP Practice App",
+      "url": null,
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides from examIam."
+    },
+    {
+      "resource_type": "article",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "article",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education (ACE)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "american government",
+    "american government clep",
+    "amgov",
+    "clep american government",
+    "clep-american-government"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-american-government"
+}

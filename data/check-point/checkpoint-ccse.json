@@ -1,0 +1,101 @@
+{
+  "exam_id": "checkpoint-ccse",
+  "exam_name": "CCSE R82 (Check Point Certified Security Expert)",
+  "exam_code": "156-315.82",
+  "certifying_body": "Check Point",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.checkpoint.com/certifications/certified-security-expert-ccse/",
+  "passing_score": 70,
+  "passing_score_scale": "Percentage (70% passing)",
+  "total_questions": 90,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 300.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/checkpoint",
+      "notes": "In-person test centers only; online proctoring not available for all exams"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "Closed-book exam; no personal items, notes, or reference materials permitted. No open-book policy. Scratch paper may be provided by the testing center. CCSE prereq: CCSA required. CCSM prereq: CCSE required. Online proctoring not available for all Check Point exams.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Renew by passing the recertification exam before the 3-year validity period expires.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between failed attempts. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Management High Availability",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Advanced Policy Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Site-to-Site VPN",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Advanced Security Monitoring",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Upgrades",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Advanced Upgrades and Migrations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "ElasticXL Cluster",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "156-315 81 20",
+    "156-315 82",
+    "ccse r81 20 check point certified security expert",
+    "ccse r82 check point certified security expert",
+    "check point security expert",
+    "checkpoint-ccse",
+    "cp ccse"
+  ],
+  "practice_url": "https://quizforge.ai/tests/checkpoint-ccse"
+}

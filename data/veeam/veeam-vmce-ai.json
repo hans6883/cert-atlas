@@ -1,0 +1,110 @@
+{
+  "exam_id": "veeam-vmce-ai",
+  "exam_name": "Veeam Certified Architect (VMCA)",
+  "exam_code": "VMCA",
+  "certifying_body": "Veeam",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.veeam.com/certifications/veeam-certified-architect.html",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Online (included with training or via portal)",
+  "duration_minutes": 120,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.veeam.com/certifications.html",
+  "testing_centers": [
+    {
+      "provider": "Online (Veeam ProPartner Portal)",
+      "scheduling_url": "https://www.veeam.com/certifications.html",
+      "notes": "VMCE exam taken online after attending official training. Sales certs taken via online portal."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Veeam ProPartner or training account required.",
+  "exam_rules": "Closed-book. VMCE and VMCA exams included with training course attendance. Sales certs available via online portal.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "VMCE/VMCA valid for 2 years; renew by attending updated training. Sales certs valid for 1 year.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "German",
+    "French",
+    "Japanese",
+    "Chinese",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "VMCE certification required; advanced training required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake included with training registration."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Enterprise Architecture Design",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Veeam Cloud and Service Provider Design",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Backup Repository Design and Sizing",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Disaster Recovery Architecture",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security and Compliance Design",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Veeam Education Center",
+      "url": "https://www.veeam.com/technical-training.html",
+      "provider": "Veeam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Veeam training required for VMCE/VMCA"
+    }
+  ],
+  "aliases": [
+    "veeam certified architect",
+    "veeam certified architect vmca",
+    "veeam-vmce-ai",
+    "vmca"
+  ],
+  "practice_url": "https://quizforge.ai/tests/veeam-vmce-ai"
+}

@@ -1,0 +1,108 @@
+{
+  "exam_id": "alibaba-cloud-ace-cloud-computing",
+  "exam_name": "ACE Cloud Computing Expert",
+  "exam_code": "ACE-Cloud",
+  "certifying_body": "Alibaba Cloud",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://edu.alibabacloud.com/certification/ace_cloudcomputing",
+  "passing_score": null,
+  "passing_score_scale": "Pass/fail; passing threshold not publicly disclosed",
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Response"
+  ],
+  "exam_format": "Linear (computer-based, online proctored via Pearson VUE OnVUE or at authorized test centers). ACE adds Scenario-Based questions.",
+  "duration_minutes": 120,
+  "exam_price_usd": 500.0,
+  "exam_price_notes": "$500 USD; includes MCQ (120 min) plus a separate 4-hour hands-on scenario exam",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/alibaba",
+      "notes": "Pearson VUE test centers globally and online proctoring via Pearson VUE OnVUE. Also delivered via Alibaba Cloud Certification test centers in China and online proctoring globally."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Passport required for international candidates.",
+  "exam_rules": "Closed-book; no aids; no personal devices permitted during exam. ACE includes a 4-hour hands-on scenario exam in addition to the MCQ portion. Online proctored globally via Pearson VUE OnVUE.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications are valid for 3 years. Renewal is exam-based only: pass the current version of the same exam or a higher-level exam. No continuing education (CE) credits accepted — exam-based renewal only.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Chinese (Simplified)"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "ACP Cloud Computing or equivalent professional-level experience",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period between failed attempts. No stated maximum number of attempts. Full exam fee required for each attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Enterprise Architecture",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Multi-Cloud Strategy",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Advanced Networking",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Security and Compliance",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Cost Optimization",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "Alibaba Cloud Certification Learning Path",
+      "url": "https://edu.alibabacloud.com/certification",
+      "provider": "Alibaba Cloud",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free learning paths and exam preparation materials available on Alibaba Cloud Academy."
+    }
+  ],
+  "aliases": [
+    "ace cloud computing",
+    "ace cloud computing expert",
+    "ace-cloud",
+    "alibaba ace expert",
+    "alibaba cloud ace",
+    "alibaba-cloud-ace-cloud-computing"
+  ],
+  "practice_url": "https://quizforge.ai/tests/alibaba-cloud-ace-cloud-computing"
+}

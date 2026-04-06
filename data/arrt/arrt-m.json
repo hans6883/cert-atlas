@@ -1,0 +1,107 @@
+{
+  "exam_id": "arrt-m",
+  "exam_name": "Mammography (M)",
+  "exam_code": "M",
+  "certifying_body": "ARRT",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/mammography",
+  "passing_score": 75,
+  "passing_score_scale": "75 on scale of 1–99",
+  "total_questions": 165,
+  "question_types": [
+    "Multiple Choice (single best answer)"
+  ],
+  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "duration_minutes": 195,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": "$200 exam fee; post-primary credential.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/arrt",
+      "notes": "Computer-based testing (CBT) at Pearson VUE test centers"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name must match ARRT registration exactly. Secondary ID may be requested.",
+  "exam_rules": "Closed-book computer-based test. On-screen calculator provided. No personal items permitted in testing room. Score scale 1–99; passing score is 75. Ethics review (pre-application review) required before testing.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Biennial (2-year) renewal required. 24 continuing education (CE) credits required per 2-year renewal cycle. CE must be in radiologic sciences or related field. Initial certification valid for 3 years from exam pass date.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Active primary ARRT certification (R); structured education or clinical experience in mammography",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 3,
+    "notes": "Maximum 3 attempts to pass an ARRT exam. After 3 failures, candidate must petition the ARRT board for additional attempts. Full exam fee required for each attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Patient Care",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Safety",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Image Acquisition and Technical Evaluation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Mammography Procedures",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Equipment Operation and Quality Control",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "ARRT Exam Content Specifications",
+      "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography",
+      "provider": "ARRT",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable content specifications per credential; lists content categories and subcategories"
+    }
+  ],
+  "aliases": [
+    "arrt mammography",
+    "arrt-m",
+    "m",
+    "mammography certification",
+    "mammography m",
+    "registered mammographer",
+    "rt m"
+  ],
+  "practice_url": "https://quizforge.ai/tests/arrt-m"
+}

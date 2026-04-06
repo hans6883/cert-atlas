@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microsoft Certification Exams -- Cert Atlas</title>
+<meta name="description" content="Browse exam blueprints for 45 Microsoft certification exams. Domains, objectives, passing scores, and study resources.">
+<link rel="canonical" href="https://atlas.quizforge.ai/microsoft/">
+<meta property="og:title" content="Microsoft Certification Exams -- Cert Atlas">
+<meta property="og:description" content="Browse exam blueprints for 45 Microsoft certification exams. Domains, objectives, passing scores, and study resources.">
+<meta property="og:url" content="https://atlas.quizforge.ai/microsoft/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cert Atlas">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Microsoft Certification Exams -- Cert Atlas">
+<meta name="twitter:description" content="Browse exam blueprints for 45 Microsoft certification exams. Domains, objectives, passing scores, and study resources.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlas.quizforge.ai/"}, {"@type": "ListItem", "position": 2, "name": "Microsoft", "item": "https://atlas.quizforge.ai/microsoft/"}]}</script>
+<style>
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1a2e;
+  --text-muted: #6c757d;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --border: #e2e8f0;
+  --bar: #3b82f6;
+  --bar-bg: #e2e8f0;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --radius: 8px;
+  --green: #059669;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header .container { display: flex; align-items: center; justify-content: space-between; }
+header h1 { font-size: 20px; font-weight: 700; }
+header h1 a { color: var(--text); }
+header nav a { margin-left: 24px; font-size: 14px; color: var(--text-muted); }
+header nav a:hover { color: var(--accent); text-decoration: none; }
+
+.hero { padding: 48px 0 32px; }
+.hero h2 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; }
+
+.stats-bar {
+  display: flex; gap: 32px; padding: 16px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.stat { text-align: center; }
+.stat-num { font-size: 28px; font-weight: 700; color: var(--accent); display: block; }
+.stat-label { font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.search-box {
+  width: 100%; padding: 12px 16px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 16px; outline: none;
+  margin-bottom: 24px;
+}
+.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.vendor-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: box-shadow 0.15s;
+}
+.vendor-card:hover { box-shadow: var(--card-shadow); text-decoration: none; }
+.vendor-card h3 { font-size: 16px; margin-bottom: 4px; }
+.vendor-card .count { color: var(--text-muted); font-size: 14px; }
+
+.breadcrumb {
+  padding: 12px 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb span { margin: 0 6px; }
+
+.exam-header { padding: 24px 0 16px; }
+.exam-header h2 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.exam-header .exam-code { color: var(--text-muted); font-size: 16px; }
+.exam-header .vendor-link { font-size: 14px; margin-top: 8px; }
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+.fact {
+  background: var(--bg-alt);
+  padding: 16px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.fact-value { font-size: 20px; font-weight: 700; display: block; }
+.fact-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+section.domains { margin: 32px 0; }
+section.domains h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+
+.domain {
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.domain-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.domain-name { font-weight: 600; font-size: 16px; }
+.domain-weight { font-weight: 700; color: var(--accent); font-size: 15px; white-space: nowrap; }
+.domain-bar { height: 6px; background: var(--bar-bg); border-radius: 3px; margin-bottom: 12px; }
+.domain-bar-fill { height: 100%; background: var(--bar); border-radius: 3px; }
+
+.objectives { list-style: none; padding-left: 0; }
+.objectives li { padding: 4px 0 4px 16px; font-size: 14px; border-left: 2px solid var(--border); margin-bottom: 4px; }
+.obj-id { color: var(--text-muted); font-weight: 600; margin-right: 6px; font-size: 13px; }
+.sub-objectives { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+section.info { margin: 32px 0; }
+section.info h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.info-grid { display: grid; gap: 12px; }
+.info-row { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.info-label { font-weight: 600; min-width: 180px; color: var(--text-muted); }
+.info-value { flex: 1; }
+
+.practice-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0;
+  transition: background 0.15s;
+}
+.practice-cta:hover { background: var(--accent-hover); color: #fff; text-decoration: none; }
+
+.resources { margin: 24px 0; }
+.resource-item { padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.resource-type { display: inline-block; background: var(--bg-alt); padding: 2px 8px; border-radius: 4px; font-size: 12px; color: var(--text-muted); margin-right: 8px; }
+
+.exam-list { list-style: none; }
+.exam-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.exam-list li:last-child { border-bottom: none; }
+.exam-list a { font-weight: 500; }
+.exam-list .meta { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  margin-top: 48px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+footer a { color: var(--text-muted); }
+
+.source-link { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+.source-link a { color: var(--text-muted); }
+
+@media (max-width: 640px) {
+  .hero h2 { font-size: 24px; }
+  .stats-bar { gap: 16px; flex-wrap: wrap; }
+  .quick-facts { grid-template-columns: repeat(2, 1fr); }
+  .info-row { flex-direction: column; gap: 2px; }
+  .info-label { min-width: auto; }
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="https://atlas.quizforge.ai/">Cert Atlas</a></h1>
+<nav>
+<a href="https://atlas.quizforge.ai/">Browse</a>
+<a href="https://github.com/quizforge/cert-atlas">GitHub</a>
+<a href="https://quizforge.ai">QuizForge</a>
+</nav>
+</div>
+</header>
+
+<div class="breadcrumb"><div class="container"><a href="https://atlas.quizforge.ai/">Home</a><span>/</span>Microsoft</div></div>
+<div class="container">
+<div class="exam-header">
+<h2>Microsoft</h2>
+<p class="exam-code">45 certification exams</p>
+<p class="vendor-link"><a href="https://learn.microsoft.com/en-us/credentials/browse/" rel="nofollow">Official certification page</a></p>
+</div>
+<ul class="exam-list">
+<li><a href="https://atlas.quizforge.ai/microsoft/microsoft-sc-400-information-protection">Administering Information Protection and Compliance in Microsoft 365</a> (SC-400)<div class="meta">40 questions | 100 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-sc-401-information-security-administrator">Administering Information Security in Microsoft 365</a> (SC-401)<div class="meta">40 questions | 100 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-dp-300-azure-sql">Administering Relational Databases on Microsoft Azure</a> (DP-300)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-800-windows-server-hybrid-core">Administering Windows Server Hybrid Core Infrastructure</a> (AZ-800)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-ms-721-collaboration-communications">Collaboration Communications Systems Engineer</a> (MS-721)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-801-windows-server-hybrid-advanced">Configuring Windows Server Hybrid Advanced Services</a> (AZ-801)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-140-azure-virtual-desktop">Configuring and Operating Microsoft Azure Virtual Desktop</a> (AZ-140)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-dp-203-azure-data-engineering">Data Engineering on Microsoft Azure</a> (DP-203)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-305-azure-solutions-architect">Designing Microsoft Azure Infrastructure Solutions</a> (AZ-305)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-dp-420-azure-cosmos-db">Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB</a> (DP-420)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-700-azure-network">Designing and Implementing Microsoft Azure Networking Solutions</a> (AZ-700)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-400-azure-devops">Designing and Implementing Microsoft DevOps Solutions</a> (AZ-400)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-dp-100-azure-data-scientist">Designing and Implementing a Data Science Solution on Azure</a> (DP-100)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-ai-102-azure-ai-engineer">Designing and Implementing a Microsoft Azure AI Solution</a> (AI-102)<div class="meta">40 questions | 100 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-204-azure-developer">Developing Solutions for Microsoft Azure</a> (AZ-204)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-dp-600-microsoft-fabric">Implementing Analytics Solutions Using Microsoft Fabric</a> (DP-600)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-ms-700-managing-teams">Managing Microsoft Teams</a> (MS-700)<div class="meta">40 questions | 100 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-ms-102-m365-administrator">Microsoft 365 Administrator</a> (MS-102)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-md-102-endpoint-administrator">Microsoft 365 Endpoint Administrator</a> (MD-102)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-ms-900-m365-fundamentals">Microsoft 365 Fundamentals</a> (MS-900)<div class="meta">40 questions | 45 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-ai-900-azure-ai-fundamentals">Microsoft Azure AI Fundamentals</a> (AI-900)<div class="meta">40 questions | 45 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-104-azure-administrator">Microsoft Azure Administrator</a> (AZ-104)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-dp-900-azure-data-fundamentals">Microsoft Azure Data Fundamentals</a> (DP-900)<div class="meta">40 questions | 45 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-900-azure-fundamentals">Microsoft Azure Fundamentals</a> (AZ-900)<div class="meta">40 questions | 45 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-az-500-azure-security">Microsoft Azure Security Technologies</a> (AZ-500)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-800-dynamics-365-business-central">Microsoft Dynamics 365 Business Central Functional Consultant</a> (MB-800)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-220-dynamics-365-customer-insights">Microsoft Dynamics 365 Customer Insights - Journeys Functional Consultant</a> (MB-220)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-230-dynamics-365-customer-service">Microsoft Dynamics 365 Customer Service Functional Consultant</a> (MB-230)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-240-dynamics-365-field-service">Microsoft Dynamics 365 Field Service Functional Consultant</a> (MB-240)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-310-dynamics-365-finance">Microsoft Dynamics 365 Finance Functional Consultant</a> (MB-310)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-500-dynamics-365-finance-operations-developer">Microsoft Dynamics 365 Finance and Operations Apps Developer</a> (MB-500)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-910-dynamics-365-fundamentals-crm">Microsoft Dynamics 365 Fundamentals (CRM)</a> (MB-910)<div class="meta">40 questions | 45 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-920-dynamics-365-fundamentals-erp">Microsoft Dynamics 365 Fundamentals (ERP)</a> (MB-920)<div class="meta">40 questions | 45 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-210-dynamics-365-sales">Microsoft Dynamics 365 Sales Functional Consultant</a> (MB-210)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-330-dynamics-365-supply-chain">Microsoft Dynamics 365 Supply Chain Management Functional Consultant</a> (MB-330)<div class="meta">40 questions | 100 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-300-dynamics-365-core-finance-operations">Microsoft Dynamics 365: Core Finance and Operations</a> (MB-300)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-mb-700-dynamics-365-solution-architect">Microsoft Dynamics 365: Finance and Operations Apps Solution Architect</a> (MB-700)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-sc-300-identity-access">Microsoft Identity and Access Administrator</a> (SC-300)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-pl-500-power-automate-rpa">Microsoft Power Automate RPA Developer</a> (PL-500)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-pl-300-power-bi-analyst">Microsoft Power BI Data Analyst</a> (PL-300)<div class="meta">40 questions | 100 min | 4 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-pl-400-power-platform-developer">Microsoft Power Platform Developer</a> (PL-400)<div class="meta">40 questions | 100 min | 6 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-pl-900-power-platform-fundamentals">Microsoft Power Platform Fundamentals</a> (PL-900)<div class="meta">40 questions | 45 min | 5 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-pl-600-power-platform-solution-architect">Microsoft Power Platform Solution Architect</a> (PL-600)<div class="meta">40 questions | 100 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-sc-200-security-operations">Microsoft Security Operations Analyst</a> (SC-200)<div class="meta">40 questions | 100 min | 3 domains</div></li><li><a href="https://atlas.quizforge.ai/microsoft/microsoft-sc-900-security-fundamentals">Microsoft Security, Compliance, and Identity Fundamentals</a> (SC-900)<div class="meta">40 questions | 45 min | 4 domains</div></li>
+</ul>
+</div>
+<footer>
+<div class="container">
+Data sourced from official certifying body publications.
+Maintained by <a href="https://quizforge.ai">QuizForge</a> &mdash; free certification practice exams.
+</div>
+</footer>
+</body>
+</html>

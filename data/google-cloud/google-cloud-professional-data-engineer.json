@@ -1,0 +1,77 @@
+{
+  "exam_id": "google-cloud-professional-data-engineer",
+  "exam_name": "Professional Data Engineer",
+  "exam_code": "PDE",
+  "certifying_body": "Google Cloud",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://cloud.google.com/learn/certification/data-engineer",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.webassessor.com/googlecloud",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/googlecloud",
+      "notes": "In-person and online proctored via Kryterion Webassessor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name, photo, and signature. Name must match registration exactly.",
+  "exam_rules": "No notes, books, electronic devices, or study materials. Online: alone in room, no dual monitors, must show room scan via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Recertify by passing the same or higher-level exam before expiry. Associate certs valid 3 years; Professional certs valid 2 years.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Google Cloud Skills Boost (free tier)",
+      "url": "https://www.cloudskillsboost.google/",
+      "provider": "Google Cloud",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free and subscription-based learning paths aligned to certifications"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Google Cloud Practice Exam",
+      "url": "https://cloud.google.com/certification/sample-questions",
+      "provider": "Google Cloud",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official sample questions for each certification"
+    }
+  ],
+  "aliases": [
+    "google-cloud-professional-data-engineer",
+    "pde",
+    "professional data engineer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/google-cloud-professional-data-engineer"
+}

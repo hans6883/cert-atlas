@@ -1,0 +1,103 @@
+{
+  "exam_id": "afqt",
+  "exam_name": "Armed Forces Qualification Test (AFQT)",
+  "exam_code": "AFQT",
+  "certifying_body": "ASVAB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.officialasvab.com/applicants/afqt/",
+  "passing_score": null,
+  "passing_score_scale": "AFQT percentile score 1-99. Branch-specific line scores determine job (MOS/rating) eligibility.",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice (CAT adaptive or paper)",
+    "Computer-Adaptive (CAT-ASVAB)"
+  ],
+  "exam_format": "Computer-adaptive (CAT) or paper multiple choice; 10 subtests",
+  "duration_minutes": null,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "MEPS (Military Entrance Processing Station)",
+      "scheduling_url": "https://www.militaryonesource.mil/recreation-travel-shopping/recreation/mwr-programs/military-entrance-processing-stations/",
+      "notes": "CAT-ASVAB administered at 65 MEPS locations nationwide. Paper ASVAB at some recruiting offices. Contact a military recruiter to schedule."
+    },
+    {
+      "provider": "High Schools (Student ASVAB)",
+      "scheduling_url": "https://www.officialasvab.com/educators/",
+      "notes": "Career exploration version administered at participating high schools. Not valid for enlistment."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Recruiter will coordinate identity verification prior to MEPS appointment.",
+  "exam_rules": "Free test administered by the U.S. military. Government-issued ID required. No study materials, notes, or electronic devices allowed during test. Candidates must be accompanied or referred by a military recruiter for enlistment versions.",
+  "certification_validity_years": 2,
+  "renewal_required": false,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Requires ASVAB (CAT-ASVAB or P&P-ASVAB)",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "1-month wait after first attempt, 1 month after second attempt, then 6-month waiting periods for each subsequent attempt. Recruiter authorization required to retest."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Arithmetic Reasoning (AR)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Mathematics Knowledge (MK)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Paragraph Comprehension (PC)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Word Knowledge (WK)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "ASVAB Practice Tests",
+      "url": "https://www.officialasvab.com/test-takers/sample-questions/",
+      "provider": "ASVAB Program",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free official sample questions available at officialasvab.com."
+    }
+  ],
+  "aliases": [
+    "afqt",
+    "afqt score",
+    "armed forces qualification test",
+    "armed forces qualification test afqt",
+    "military afqt"
+  ],
+  "practice_url": "https://quizforge.ai/tests/afqt"
+}

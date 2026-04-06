@@ -1,0 +1,92 @@
+{
+  "exam_id": "hsk-1",
+  "exam_name": "HSK Level 1 (一级)",
+  "exam_code": "HSK 1",
+  "certifying_body": "HSK",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.chinesetest.cn/gosyllabus.do",
+  "passing_score": 120,
+  "passing_score_scale": null,
+  "total_questions": 40,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 40,
+  "exam_price_usd": 20.0,
+  "exam_price_notes": "~$20–30 USD; varies significantly by country and test centre",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Confucius Institutes and Authorised HSK Test Centres (worldwide)",
+      "scheduling_url": "https://www.chinesetest.cn/",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Valid government-issued photo ID required (passport recommended for international candidates). Registration name must exactly match the ID presented on test day.",
+  "exam_rules": "Available in both paper-based (PBT) and internet-based (IBT) formats. No dictionaries, notes, or electronic devices permitted during the written exam. HSKK is computer-based with audio recording; candidates speak into a microphone. Candidates must arrive at least 15 minutes before the scheduled start time.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "Mandarin Chinese (Simplified Characters)"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "None; designed for true beginners (~150 vocabulary items)",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No mandatory waiting period between HSK attempts. Candidates may register for multiple test dates throughout the year. HSK is offered monthly or bi-monthly at many authorised centres."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Listening Comprehension (听力)",
+      "weight_percent": 50.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Reading Comprehension (阅读)",
+      "weight_percent": 50.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "syllabus",
+      "title": "HSK Official Vocabulary Lists (各级词汇表)",
+      "url": "https://www.chinesetest.cn/gosyllabus.do",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "HSK Official Sample Papers (样题)",
+      "url": "https://www.chinesetest.cn/",
+      "provider": null,
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "hsk 1",
+    "hsk level 1 一级",
+    "hsk-1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hsk-1"
+}

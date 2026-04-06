@@ -1,0 +1,106 @@
+{
+  "exam_id": "arrt-t",
+  "exam_name": "Radiation Therapy (T)",
+  "exam_code": "T",
+  "certifying_body": "ARRT",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiation-therapy",
+  "passing_score": 75,
+  "passing_score_scale": "75 on scale of 1–99",
+  "total_questions": 200,
+  "question_types": [
+    "Multiple Choice (single best answer)"
+  ],
+  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "duration_minutes": 210,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": "$200 exam fee.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/arrt",
+      "notes": "Computer-based testing (CBT) at Pearson VUE test centers"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name must match ARRT registration exactly. Secondary ID may be requested.",
+  "exam_rules": "Closed-book computer-based test. On-screen calculator provided. No personal items permitted in testing room. Score scale 1–99; passing score is 75. Ethics review (pre-application review) required before testing.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Biennial (2-year) renewal required. 24 continuing education (CE) credits required per 2-year renewal cycle. CE must be in radiologic sciences or related field. Initial certification valid for 3 years from exam pass date.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "Graduate of an ARRT-recognized radiation therapy education program; ethics review required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 3,
+    "notes": "Maximum 3 attempts to pass an ARRT exam. After 3 failures, candidate must petition the ARRT board for additional attempts. Full exam fee required for each attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Patient Care",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Safety",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Medical Imaging",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Radiation Therapy Planning",
+      "weight_percent": 27.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Radiation Therapy Delivery",
+      "weight_percent": 36.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "ARRT Exam Content Specifications",
+      "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography",
+      "provider": "ARRT",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable content specifications per credential; lists content categories and subcategories"
+    }
+  ],
+  "aliases": [
+    "arrt radiation therapy",
+    "arrt-t",
+    "radiation therapist board exam",
+    "radiation therapy t",
+    "rt t",
+    "t"
+  ],
+  "practice_url": "https://quizforge.ai/tests/arrt-t"
+}

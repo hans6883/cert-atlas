@@ -1,0 +1,77 @@
+{
+  "exam_id": "red-hat-rhce-ex294",
+  "exam_name": "Red Hat Certified Engineer (RHCE) – EX294 (Ansible)",
+  "exam_code": "EX294",
+  "certifying_body": "Red Hat",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux",
+  "passing_score": 210,
+  "passing_score_scale": "0–300; 210 required to pass",
+  "total_questions": null,
+  "question_types": [
+    "Performance-Based (hands-on tasks in live RHEL environment)"
+  ],
+  "exam_format": "Performance-Based / Practical",
+  "duration_minutes": 240,
+  "exam_price_usd": 400.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.redhat.com/en/services/certification",
+  "testing_centers": [
+    {
+      "provider": "Red Hat Remote Exams",
+      "scheduling_url": "https://www.redhat.com/en/services/certification/rhcsa",
+      "notes": "Remote kiosk-based exams via Red Hat's own platform. Also available at Red Hat partner test centers."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match Red Hat Learning Subscription / Red Hat customer account exactly.",
+  "exam_rules": "Performance-based: tasks completed in a live RHEL environment. Access to man pages and documentation is allowed during the exam. No internet access to external sites. No notes or books. All work done in the exam's provided terminal/environment.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Red Hat certifications are valid for 3 years. Renew by passing any Red Hat exam tied to the current major version of RHEL, or by passing the same exam again.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Chinese",
+    "Japanese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Active RHCSA certification required before attempting RHCE",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No mandatory waiting period between attempts. Full exam fee required for retake."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Red Hat Learning Subscription",
+      "url": "https://www.redhat.com/en/services/training",
+      "provider": "Red Hat",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Red Hat training courses aligned to certification exams"
+    }
+  ],
+  "aliases": [
+    "ex294",
+    "red hat certified engineer rhce",
+    "red hat certified engineer rhce ex294 ansible",
+    "red hat engineer",
+    "red-hat-rhce-ex294",
+    "rhce"
+  ],
+  "practice_url": "https://quizforge.ai/tests/red-hat-rhce-ex294"
+}

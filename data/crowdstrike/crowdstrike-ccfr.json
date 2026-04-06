@@ -1,0 +1,93 @@
+{
+  "exam_id": "crowdstrike-ccfr",
+  "exam_name": "CCFR (CrowdStrike Certified Falcon Responder)",
+  "exam_code": "CCFR",
+  "certifying_body": "CrowdStrike",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://assets.crowdstrike.com/is/content/crowdstrikeinc/CCFR_CertificationGuidepdf",
+  "passing_score": 70,
+  "passing_score_scale": "Percentage (70% passing)",
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 70,
+  "exam_price_usd": null,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Online",
+      "scheduling_url": "https://www.crowdstrike.com/en-us/services/training/",
+      "notes": "Online proctored exams via PSI"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted. Online proctored: must be alone in room, no second monitors, no virtual machines or remote desktop. CCFH: CCFA recommended as prerequisite but not strictly enforced.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Renew by retaking and passing the current version of the exam before expiry.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between failed attempts. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "ATT&CK Frameworks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Detection Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Event Search",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Event Investigation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Search Tools",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Real Time Response (RTR)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "ccfr",
+    "ccfr crowdstrike certified falcon responder",
+    "crowdstrike falcon responder",
+    "crowdstrike-ccfr",
+    "falcon responder"
+  ],
+  "practice_url": "https://quizforge.ai/tests/crowdstrike-ccfr"
+}

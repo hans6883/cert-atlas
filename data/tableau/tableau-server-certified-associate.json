@@ -1,0 +1,95 @@
+{
+  "exam_id": "tableau-server-certified-associate",
+  "exam_name": "Tableau Server Certified Associate",
+  "exam_code": "TSCA",
+  "certifying_body": "Tableau",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.tableau.com/learn/certification/server-certified-associate",
+  "passing_score": 75,
+  "passing_score_scale": null,
+  "total_questions": 55,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Hands-on / Practical"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 350.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.webassessor.com/tableau",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/tableau",
+      "notes": "Online proctored via Kryterion Webassessor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match Webassessor registration exactly.",
+  "exam_rules": "Closed-book for multiple-choice portions. Tableau Desktop installed on the candidate's laptop is required for hands-on portions. Proctor monitors via webcam for online proctored sessions.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. A maintenance exam is required per major Tableau release to keep the certification current.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Connecting to & Preparing Data",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Exploring & Analyzing Data",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Sharing Insights",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Understanding Tableau Concepts",
+      "weight_percent": 27.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Tableau Training and Tutorials",
+      "url": "https://www.tableau.com/learn/training",
+      "provider": "Tableau",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official free and paid training paths aligned to each certification level"
+    }
+  ],
+  "aliases": [
+    "tableau server admin",
+    "tableau server associate",
+    "tableau server certified associate",
+    "tableau-server-certified-associate",
+    "tsca"
+  ],
+  "practice_url": "https://quizforge.ai/tests/tableau-server-certified-associate"
+}

@@ -1,0 +1,91 @@
+{
+  "exam_id": "ptcb-tech-check",
+  "exam_name": "Tech-Check (Pharmacy Technician)",
+  "exam_code": "Tech-Check",
+  "certifying_body": "PTCB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://ptcb.org/credentials/",
+  "passing_score": null,
+  "passing_score_scale": "On-demand assessment; pass/fail varies by program",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice (single best answer)"
+  ],
+  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "On-demand program; pricing varies by participating employer/institution.",
+  "voucher_url": null,
+  "exam_registration_url": "https://ptcb.org/i-want-to-be-a-cpht/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ptcb",
+      "notes": "Computer-based testing at Pearson VUE test centers nationwide"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must exactly match registration. Secondary ID may be requested.",
+  "exam_rules": "Closed-book. On-screen calculator provided. No personal items permitted in testing room. PTCE includes 80 scored items and 10 unscored pretest items (not identified). Score scale: 1000–1600; passing is 1400.",
+  "certification_validity_years": null,
+  "renewal_required": true,
+  "renewal_options": "2-year certification cycle. Renewal requires 20 pharmacy-related CE hours per 2-year cycle, including 1 hour in pharmacy law and 1 hour in patient safety. Online renewal application submitted through PTCB portal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Active CPhT credential; employer or program participation required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 5,
+    "notes": "Candidates must wait 90 days before retaking any PTCB exam. PTCE has a lifetime maximum of 5 attempts. Full exam fee required for each attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Pharmacy Technician Skills Assessment",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "PTCE Content Outline",
+      "url": "https://ptcb.org/wp-content/uploads/2025/07/PTCE-Content-Outline.pdf",
+      "provider": "PTCB",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable content outline with knowledge domain breakdown; linked from the credential page"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "PTCB Practice Exam",
+      "url": "https://ptcb.org/official-ptcb-practice-tools/",
+      "provider": "PTCB",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice exam available through PTCB"
+    }
+  ],
+  "aliases": [
+    "certified pharmacy technician cpht",
+    "ptcb tech check",
+    "ptcb-tech-check",
+    "tech-check",
+    "tech-check pharmacy technician",
+    "technician check"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ptcb-tech-check"
+}

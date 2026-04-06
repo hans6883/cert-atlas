@@ -1,0 +1,333 @@
+{
+  "exam_id": "comptia-security-plus-sy0-701",
+  "exam_name": "CompTIA Security+",
+  "exam_code": "SY0-701",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA Security+",
+  "version": "V7",
+  "source_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-security-701-exam-objectives",
+  "passing_score": 750,
+  "passing_score_scale": "100-900",
+  "total_questions": 90,
+  "question_types": [
+    "Multiple Choice (single)",
+    "Multiple Choice (multiple)",
+    "Performance-Based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 404.0,
+  "exam_price_notes": null,
+  "voucher_url": "https://store.comptia.org/",
+  "exam_registration_url": "https://home.pearsonvue.com/comptia",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/comptia",
+      "notes": "In-person test centers worldwide and online proctored via OnVUE"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Two forms of ID are required. Primary ID must be government-issued, include candidate's name, photo, and signature (e.g. passport, driver's license). Secondary ID must include candidate's name and signature or name and photo.",
+  "exam_rules": "No notes, scratch paper, electronic devices, books, or study materials permitted. Personal items must be stored. No food or drink except water. Restroom breaks allowed but timer continues. Testing center staff may monitor via video/audio.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn CE credits through CompTIA CE program (training, conferences, publishing, teaching, higher certs) or retake the current exam version before expiry.",
+  "continuing_education_units": 50,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Portuguese",
+    "Simplified Chinese"
+  ],
+  "target_audience": null,
+  "recommended_experience": "CompTIA Network+ and two years of experience working in a security/ systems administrator job role",
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "CompTIA Network+",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "two years of experience working in a security/ systems administrator job role",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "No waiting period required before first retake. After the second failed attempt, candidates must wait 14 calendar days before any subsequent attempt. No limit on total attempts."
+  },
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "General security concepts",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Security controls",
+          "sub_objectives": [
+            "comparing technical, preventive, managerial, deterrent, operational, detective, physical, corrective, compensating, and directive controls."
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Fundamental concepts",
+          "sub_objectives": [
+            "summarizing confidentiality, integrity, and availability (CIA); non-repudiation; authentication, authorization, and accounting (AAA); zero trust; and deception/disruption technology."
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Change management",
+          "sub_objectives": [
+            "explaining business processes, technical implications, documentation, and version control."
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Cryptographic solutions",
+          "sub_objectives": [
+            "using public key infrastructure (PKI), encryption, obfuscation, hashing, digital signatures, and blockchain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Threats, vulnerabilities, and mitigations",
+      "weight_percent": 22.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Threat actors and motivations",
+          "sub_objectives": [
+            "comparing nation-states, unskilled attackers, hacktivists, insider threats, organized crime, shadow IT, and motivations like data exfiltration, espionage, and financial gain."
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Threat vectors and attack surfaces",
+          "sub_objectives": [
+            "explaining message-based, unsecure networks, social engineering, file-based, voice call, supply chain, and vulnerable software vectors."
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Vulnerabilities",
+          "sub_objectives": [
+            "explaining application, hardware, mobile device, virtualization, operating system (OS)-based, cloud-specific, web-based, and supply chain vulnerabilities."
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Malicious activity",
+          "sub_objectives": [
+            "analyzing malware attacks, password attacks, application attacks, physical attacks, network attacks, and cryptographic attacks."
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Mitigation techniques",
+          "sub_objectives": [
+            "using segmentation, access control, configuration enforcement, hardening, isolation, and patching."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Security architecture",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Architecture models",
+          "sub_objectives": [
+            "comparing on-premises, cloud, virtualization, Internet of Things (IoT), industrial control systems (ICS), and infrastructure as code (IaC)."
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Enterprise infrastructure",
+          "sub_objectives": [
+            "applying security principles to infrastructure considerations, control selection, and secure communication/access."
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Data protection",
+          "sub_objectives": [
+            "comparing data types, securing methods, general considerations, and classifications."
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Resilience and recovery",
+          "sub_objectives": [
+            "explaining high availability, site considerations, testing, power, platform diversity, backups, and continuity of operations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Security operations",
+      "weight_percent": 28.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Computing resources",
+          "sub_objectives": [
+            "applying secure baselines, mobile solutions, hardening, wireless security, application security, sandboxing, and monitoring."
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Asset management",
+          "sub_objectives": [
+            "explaining acquisition, disposal, assignment, and monitoring/tracking of hardware, software, and data assets."
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Vulnerability management",
+          "sub_objectives": [
+            "identifying, analyzing, remediating, validating, and reporting vulnerabilities."
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Alerting and monitoring",
+          "sub_objectives": [
+            "explaining monitoring tools and computing resource activities."
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Enterprise security",
+          "sub_objectives": [
+            "modifying firewalls, IDS/IPS, DNS filtering, DLP (data loss prevention), NAC (network access control), and EDR/XDR (endpoint/extended detection and response)."
+          ]
+        },
+        {
+          "id": "4.6",
+          "title": "Identity and access management",
+          "sub_objectives": [
+            "implementing provisioning, SSO (single sign-on), MFA (multifactor authentication), and privileged access tools."
+          ]
+        },
+        {
+          "id": "4.7",
+          "title": "Automation and orchestration",
+          "sub_objectives": [
+            "explaining automation use cases, scripting benefits, and considerations."
+          ]
+        },
+        {
+          "id": "4.8",
+          "title": "Incident response",
+          "sub_objectives": [
+            "implementing processes, training, testing, root cause analysis, threat hunting, and digital forensics."
+          ]
+        },
+        {
+          "id": "4.9",
+          "title": "Data sources",
+          "sub_objectives": [
+            "using log data and other sources to support investigations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Security program management and oversight",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Security governance",
+          "sub_objectives": [
+            "summarizing guidelines, policies, standards, procedures, external considerations, monitoring, governance structures, and roles/responsibilities."
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Risk management",
+          "sub_objectives": [
+            "explaining risk identification, assessment, analysis, register, tolerance, appetite, strategies, reporting, and business impact analysis (BIA)."
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Third-party risk",
+          "sub_objectives": [
+            "managing vendor assessment, selection, agreements, monitoring, questionnaires, and rules of engagement."
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Security compliance",
+          "sub_objectives": [
+            "summarizing compliance reporting, consequences of non-compliance, monitoring, and privacy."
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "Audits and assessments",
+          "sub_objectives": [
+            "explaining attestation, internal/external audits, and penetration testing."
+          ]
+        },
+        {
+          "id": "5.6",
+          "title": "Security awareness",
+          "sub_objectives": [
+            "implementing phishing training, anomalous behavior recognition, user guidance, reporting, and monitoring."
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-security-701-exam-objectives",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "CertMaster Learn",
+      "url": "https://www.comptia.org/training/certmaster-learn",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 499.0,
+      "notes": "Official e-learning with performance-based questions and study guides"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CertMaster Practice",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 99.0,
+      "notes": "Adaptive practice question engine with rationale"
+    },
+    {
+      "resource_type": "lab",
+      "title": "CertMaster Labs",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "provider": "CompTIA",
+      "is_official": true,
+      "price_usd": 199.0,
+      "notes": "Browser-based virtual lab environments"
+    }
+  ],
+  "aliases": [
+    "comptia security+",
+    "comptia-security-plus-sy0-701",
+    "security+",
+    "sy0-701"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-security-plus-sy0-701"
+}

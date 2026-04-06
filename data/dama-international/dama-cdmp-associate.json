@@ -1,0 +1,158 @@
+{
+  "exam_id": "dama-cdmp-associate",
+  "exam_name": "CDMP Data Management Associate",
+  "exam_code": "CDMP Associate",
+  "certifying_body": "DAMA International",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.dama.org/cpages/certification",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": null,
+  "exam_price_usd": 311.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.dama.org/cpages/certification",
+  "testing_centers": [
+    {
+      "provider": "ProctorU",
+      "scheduling_url": "https://www.proctoru.com",
+      "notes": "Online proctored via ProctorU"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No open-book permitted. All exams are based on the DMBOK 2 (DAMA-DMBOK) reference guide. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Foundation exam has no expiry once passed. Associate, Practitioner, and Master levels are valid for 3 years and require specialty exams for higher levels. Renewal details available at dama.org/cpages/certification.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "CDMP Foundation exam required; 2 specialty exams required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "7-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Data Governance",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Data Architecture",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Data Modeling and Design",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Data Storage and Operations",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Data Security",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Data Integration and Interoperability",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Document and Content Management",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Reference and Master Data",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Data Warehousing and Business Intelligence",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Metadata Management",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Data Quality",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Data Management Maturity Assessment",
+      "weight_percent": 4.0,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Data Management Organization and Role Expectations",
+      "weight_percent": 4.0,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Data Management and Organizational Change Management",
+      "weight_percent": 6.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "book",
+      "title": "DAMA-DMBOK: Data Management Body of Knowledge (2nd Edition)",
+      "url": "https://www.dama.org/cpages/body-of-knowledge",
+      "provider": "DAMA International",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "The primary reference for all CDMP exams; purchase required"
+    }
+  ],
+  "aliases": [
+    "cdmp associate",
+    "cdmp data management associate",
+    "dama associate",
+    "dama-cdmp-associate"
+  ],
+  "practice_url": "https://quizforge.ai/tests/dama-cdmp-associate"
+}

@@ -1,0 +1,135 @@
+{
+  "exam_id": "uipath-uiapro23",
+  "exam_name": "UiPath Automation Developer Professional",
+  "exam_code": "UiAPRO",
+  "certifying_body": "UiPath",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.uipath.com/rpa/certification/automation-developer-professional",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 55,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select",
+    "Scenario-based"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 250.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.uipath.com/rpa/certification",
+  "testing_centers": [
+    {
+      "provider": "ExamBuilder",
+      "scheduling_url": "https://www.uipath.com/rpa/certification",
+      "notes": "Online proctored via ExamBuilder"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
+  "exam_rules": "Closed-book. No notes or external resources permitted. Professional-level exams include a practical component. Proctor monitors via webcam.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 3 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "UiPath RPA Associate (UiARD) required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Software Development Lifecycle and Agile",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "UiPath Products and Services Overview",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Advanced Studio and Studio Web",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Orchestrator Administration and APIs",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Testing and Test Manager",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Advanced UI Automation",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Document Understanding and AI Features",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Debugging and Advanced Exception Handling",
+      "weight_percent": 14.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "UiPath Academy",
+      "url": "https://academy.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Free official learning paths and practice exams aligned to each certification"
+    },
+    {
+      "resource_type": "community",
+      "title": "UiPath Community Forum",
+      "url": "https://forum.uipath.com",
+      "provider": "UiPath",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Community discussion and study support"
+    }
+  ],
+  "aliases": [
+    "uiapro",
+    "uipath automation developer professional",
+    "uipath certified professional automation developer professional",
+    "uipath developer professional",
+    "uipath professional",
+    "uipath-uiapro23"
+  ],
+  "practice_url": "https://quizforge.ai/tests/uipath-uiapro23"
+}

@@ -1,0 +1,115 @@
+{
+  "exam_id": "ase-a6",
+  "exam_name": "A6 Electrical/Electronic Systems",
+  "exam_code": "A6",
+  "certifying_body": "ASE",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ase.com/tests-certifications/automobile-light-truck-certification/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice",
+    "Composite Vehicle Scenario (L-series)"
+  ],
+  "exam_format": "Linear (computer-based)",
+  "duration_minutes": 63,
+  "exam_price_usd": 50.0,
+  "exam_price_notes": "Test fee approximately $50 plus ASE registration fee (~$36). Fees vary by testing window.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ase.com/tests-certifications",
+  "testing_centers": [
+    {
+      "provider": "Prometric",
+      "scheduling_url": "https://www.prometric.com/ase",
+      "notes": "Computer-based testing at Prometric test centers and ASE-authorized locations."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One government-issued photo ID with full name. Name must match ASE registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. ASE exams report Pass/Fail only — no numeric score is provided to the test-taker. Recertification required every 5 years by retaking the test.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "ASE certifications are valid for 5 years. Recertification is achieved by retaking and passing the current version of the test before the expiration date. No continuing education requirement — recertification is exam-only.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "2 years of hands-on working experience as an automotive technician",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period between attempts. Full test fee required for retake. ASE registration fee applies per testing window."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Battery",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Starting system",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Charging system",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Lighting",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Instrumentation",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ASE Study Guides",
+      "url": "https://www.ase.com/tests-certifications/study-guides/",
+      "provider": "ASE",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ASE study guides available for purchase on the ASE website"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ASE Practice Tests",
+      "url": "https://www.ase.com/tests-certifications/study-guides/",
+      "provider": "ASE",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice tests available for purchase via the ASE website"
+    }
+  ],
+  "aliases": [
+    "a6",
+    "a6 electrical electronic systems",
+    "ase a6",
+    "ase-a6",
+    "electrical electronic systems certification"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ase-a6"
+}

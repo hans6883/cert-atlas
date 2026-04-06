@@ -1,0 +1,162 @@
+{
+  "exam_id": "clep-german-language-level-1",
+  "exam_name": "German Language, Level 1",
+  "exam_code": "GER1",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/german-language",
+  "passing_score": 50,
+  "passing_score_scale": "0-80",
+  "total_questions": 96,
+  "question_types": [
+    "multiple_choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Students who have completed two to three semesters of college German language study",
+  "recommended_experience": "Knowledge and ability equivalent to that of students who have completed two to three semesters of college German language study",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Knowledge and ability equivalent to that of students who have completed two to three semesters of college German language study",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "Sections I and II: Listening",
+      "name": "Listening",
+      "weight_percent": 40.0,
+      "objectives": [
+        {
+          "id": "15% Rejoinders",
+          "title": "Ability to understand spoken language through short stimuli or everyday situations",
+          "sub_objectives": []
+        },
+        {
+          "id": "25% Dialogues and Narratives",
+          "title": "Ability to understand the language as spoken by native speakers in longer dialogues and narratives",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Section III: Reading",
+      "name": "Reading",
+      "weight_percent": 60.0,
+      "objectives": [
+        {
+          "id": "16% Part A. Discrete sentences",
+          "title": "Mastery of vocabulary and structure in the context of sentences",
+          "sub_objectives": []
+        },
+        {
+          "id": "20% Part B. Short cloze passages",
+          "title": "Mastery of vocabulary and structure in the context of paragraphs",
+          "sub_objectives": []
+        },
+        {
+          "id": "24% Part C. Reading comprehension",
+          "title": "Ability to read and understand texts representative of various styles and levels of difficulty (e.g., passages of about 200 words; shorter pieces such as advertisements, signs, etc.)",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP German Language Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "This guide provides practice questions for the CLEP German Language (Levels 1 and 2) Exam only."
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: German Language",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: German Language: Levels 1 and 2",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the German Language exam."
+    },
+    {
+      "resource_type": "document",
+      "title": "German Language Listening Exercise",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Listen to sample questions in this listening section."
+    },
+    {
+      "resource_type": "application",
+      "title": "CLEP Practice App",
+      "url": null,
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides from examIam."
+    },
+    {
+      "resource_type": "article",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "article",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education (ACE)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "clep german language level 1",
+    "clep german level 1",
+    "clep-german-language-level-1",
+    "ger1",
+    "german language level 1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-german-language-level-1"
+}

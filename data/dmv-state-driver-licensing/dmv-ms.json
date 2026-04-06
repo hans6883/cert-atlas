@@ -1,0 +1,107 @@
+{
+  "exam_id": "dmv-ms",
+  "exam_name": "Mississippi Driver's License Knowledge Test",
+  "exam_code": "MS",
+  "certifying_body": "DMV / State Driver Licensing",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.dps.state.ms.us/driver-services/driver-license/",
+  "passing_score": 80,
+  "passing_score_scale": "Percentage",
+  "total_questions": 30,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Computer-based or paper test at DMV office; closed-book",
+  "duration_minutes": null,
+  "exam_price_usd": 24.0,
+  "exam_price_notes": "$24 new driver's license fee",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "State DMV Office",
+      "scheduling_url": "https://www.dmv.org/",
+      "notes": "Walk-in or appointment at local DMV/motor vehicle office; no third-party testing center."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Valid proof of identity, Social Security number, and proof of residency required. Requirements vary by state. Acceptable documents typically include a birth certificate or passport (identity), Social Security card or W-2 (SSN), and utility bill or bank statement (residency). REAL ID-compliant licenses require additional documentation.",
+  "exam_rules": "Closed-book written test on traffic laws, road signs, and safe driving practices. Calculators and personal items not permitted. Most states allow 2–3 free attempts; additional fees may apply after failures. Test administered at local DMV office on a computer terminal or paper. Most states require in-person testing; a small number offer online options for renewals.",
+  "certification_validity_years": 4,
+  "renewal_required": true,
+  "renewal_options": "License renewal required every 4–8 years depending on state. Renewal typically does not require re-taking the written test unless the license has been expired for an extended period (usually 1–4 years, varies by state). Many states offer online or mail-in renewal for standard licenses.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 1,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Most states require a 1-day wait between attempts. Some states allow same-day retake. Fees may apply for retakes after the first 2–3 attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Traffic Laws and Regulations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Road Signs and Signals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Safe Driving Practices",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Right-of-Way Rules",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Speed Limits and Distances",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "State Driver's Handbook",
+      "url": "https://www.dmv.org/how-to-guides/drivers-handbook.php",
+      "provider": "State DMV / Motor Vehicle Office",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Each state publishes a free official driver's handbook covering all test topics. Available at the state DMV website or dmv.org."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "DMV Practice Tests",
+      "url": "https://www.dmv.org/practice-tests/",
+      "provider": "dmv.org",
+      "is_official": false,
+      "price_usd": 0.0,
+      "notes": "Free unofficial practice tests organized by state at dmv.org."
+    }
+  ],
+  "aliases": [
+    "dmv-ms",
+    "mississippi dmv written test",
+    "mississippi driver s license knowledge test",
+    "mississippi driver s license test",
+    "mississippi permit test",
+    "ms dmv knowledge test"
+  ],
+  "practice_url": "https://quizforge.ai/tests/dmv-ms"
+}

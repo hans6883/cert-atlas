@@ -1,0 +1,82 @@
+{
+  "exam_id": "csce",
+  "exam_name": "Clinical Simulation Examination (CSCE) — Dental Hygiene",
+  "exam_code": "CSCE",
+  "certifying_body": "NBDE / Joint Commission",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.adha.org/nbdhe",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score 49–99; passing score 75",
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice",
+    "Case-Based Multiple Choice"
+  ],
+  "exam_format": "Linear (computer-based at PSI testing centers)",
+  "duration_minutes": 120,
+  "exam_price_usd": 100.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Examination Services",
+      "scheduling_url": "https://www.psiexams.com/",
+      "notes": "INBDE and NBDHE administered at PSI testing centers nationwide. Register and schedule through the JCNDE or ADHA candidate portal."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly.",
+  "exam_rules": "No personal items, notes, or reference materials permitted. Computer-based format at PSI testing centers. INBDE is administered over 2 days. Scores are reported as scaled scores on a 49–99 scale.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "INBDE and NBDHE scores do not expire under JCNDE/ADHA policy, but individual state dental boards may impose score age limits (commonly 5 years). Verify with the applicable state licensing board.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "NBDHE passage or concurrent eligibility; required by some states",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "60-day waiting period between failed attempts. Maximum 3 attempts per calendar year for INBDE. Scores are generally valid for 5 years for most state licensure boards."
+  },
+  "domains": [],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "candidate_guide",
+      "title": "INBDE Candidate Guide",
+      "url": "https://www.ada.org/education/nbde",
+      "provider": "ADA / JCNDE",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official candidate guide including content specifications and sample items."
+    },
+    {
+      "resource_type": "candidate_guide",
+      "title": "NBDHE Candidate Guide",
+      "url": "https://www.adha.org/nbdhe",
+      "provider": "ADHA",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Official NBDHE candidate guide from the American Dental Hygienists' Association."
+    }
+  ],
+  "aliases": [
+    "clinical simulation exam",
+    "clinical simulation examination",
+    "clinical simulation examination csce dental hygiene",
+    "csce",
+    "dental hygiene clinical simulation"
+  ],
+  "practice_url": "https://quizforge.ai/tests/csce"
+}

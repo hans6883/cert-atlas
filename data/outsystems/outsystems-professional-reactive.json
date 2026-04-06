@@ -1,0 +1,104 @@
+{
+  "exam_id": "outsystems-professional-reactive",
+  "exam_name": "OutSystems Professional Reactive Developer",
+  "exam_code": "Professional-RD",
+  "certifying_body": "OutSystems",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.outsystems.com/learn/certifications/professional-reactive-developer/",
+  "passing_score": 73,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.outsystems.com/learn/certifications/",
+  "testing_centers": [
+    {
+      "provider": "Online (OutSystems proctored)",
+      "scheduling_url": "https://www.outsystems.com/learn/certifications/",
+      "notes": "Online proctored exam via OutSystems platform"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "OutSystems Training account required. Government-issued photo ID for proctored exams.",
+  "exam_rules": "Closed-book. Online proctored. No reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current exam version.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "Associate Reactive Developer certification recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Advanced Application Architecture",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Performance and Scalability",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Advanced Integration Patterns",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Security Best Practices",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "DevOps and Lifecycle Management",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "OutSystems Training",
+      "url": "https://www.outsystems.com/training/",
+      "provider": "OutSystems",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free online learning at OutSystems Training"
+    }
+  ],
+  "aliases": [
+    "outsystems professional reactive developer",
+    "outsystems-professional-reactive",
+    "professional-rd"
+  ],
+  "practice_url": "https://quizforge.ai/tests/outsystems-professional-reactive"
+}

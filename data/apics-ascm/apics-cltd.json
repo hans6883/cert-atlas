@@ -1,0 +1,144 @@
+{
+  "exam_id": "apics-cltd",
+  "exam_name": "Certified in Logistics, Transportation and Distribution (CLTD)",
+  "exam_code": "CLTD",
+  "certifying_body": "APICS (ASCM)",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ascm.org/certifications/cltd/",
+  "passing_score": 300,
+  "passing_score_scale": "Scaled score 200–350; 300 required to pass",
+  "total_questions": 150,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 210,
+  "exam_price_usd": 1395.0,
+  "exam_price_notes": "ASCM member price $1,095. Non-member price $1,395.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.ascm.org/certifications/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ascm",
+      "notes": "Computer-based testing at Pearson VUE test centers and online proctored delivery"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name. Name must match ASCM registration exactly.",
+  "exam_rules": "Closed-book. No notes or study materials permitted. On-screen calculator provided. 3-year access to official study materials included with exam registration. 30-day waiting period required before retaking.",
+  "certification_validity_years": 5,
+  "renewal_required": true,
+  "renewal_options": "Earn 75 PDCs (Professional Development Credits) every 5 years. PDCs earned through education, professional activities, and volunteering. Submit PDCs via the ASCM certification portal.",
+  "continuing_education_units": 75,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "3 years of related business experience OR CPIM, CSCP, CLTD, or other relevant designations",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Must wait 30 days before retaking. Full exam fee required for each retake attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Logistics and Supply Chain Overview",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Capacity Planning and Demand Management",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Order Management",
+      "weight_percent": 9.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Inventory Management",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Warehouse Management",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Transportation Management",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Global Logistics Considerations",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Sustainability and Humanitarian Logistics",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Reverse Logistics",
+      "weight_percent": 5.0,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Technology and Analytics",
+      "weight_percent": 5.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "ASCM Official Exam Study Materials",
+      "url": "https://www.ascm.org/learning-development/",
+      "provider": "ASCM",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official learning system with 3-year access included with exam registration fee"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "ASCM Practice Questions",
+      "url": "https://www.ascm.org/certifications/",
+      "provider": "ASCM",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice questions available through the ASCM learning portal"
+    }
+  ],
+  "aliases": [
+    "apics-cltd",
+    "certified in logistics transportation and distribution",
+    "certified in logistics transportation and distribution cltd",
+    "cltd",
+    "logistics transportation distribution"
+  ],
+  "practice_url": "https://quizforge.ai/tests/apics-cltd"
+}

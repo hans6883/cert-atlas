@@ -1,0 +1,249 @@
+{
+  "exam_id": "clep-financial-accounting",
+  "exam_name": "Financial Accounting",
+  "exam_code": "FINAC",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/financial-accounting",
+  "passing_score": 50,
+  "passing_score_scale": "0-100",
+  "total_questions": 75,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": "A four-function calculator is available during the exam as part of the testing software.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Undergraduate students",
+  "recommended_experience": "Introductory financial accounting course",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Introductory financial accounting course",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "General Topics",
+      "name": "General Topics",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Generally accepted accounting principles",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Rules of double-entry accounting/transaction analysis/accounting equation",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "The accounting cycle",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Business ethics",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Purpose of, presentation of, and relationships between financial statements",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Forms of business",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "The Income Statement",
+      "name": "The Income Statement",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Presentation format issues (e.g., single-step vs multi-step)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Recognition of revenue and expenses",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Cost of goods sold",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Nonoperational items (e.g., gains and losses, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Profitability analysis",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "The Balance Sheet",
+      "name": "The Balance Sheet",
+      "weight_percent": 35.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Cash and internal controls",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Valuation of accounts and notes receivable (including bad debts)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Valuation of inventories",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Acquisition and disposal of long-term assets",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Depreciation/amortization/depletion",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Intangible assets (e.g., patents, goodwill, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Accounts and notes payable",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Long-term liabilities (e.g., bonds payable)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.9",
+          "title": "Owner's equity",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.10",
+          "title": "Preferred and common stock",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.11",
+          "title": "Retained earnings",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.12",
+          "title": "Liquidity, solvency, and activity analysis",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Statement of Cash Flows",
+      "name": "Statement of Cash Flows",
+      "weight_percent": 7.5,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Indirect method",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Cash flow analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Operating, financing, and investing activities",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Noncash financing and investing activities",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Miscellaneous",
+      "name": "Miscellaneous",
+      "weight_percent": 2.5,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Investments",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Contingent liabilities",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP Financial Accounting Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "PDF"
+    }
+  ],
+  "aliases": [
+    "clep financial accounting",
+    "clep-financial-accounting",
+    "finac",
+    "financial accounting",
+    "financial accounting clep"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-financial-accounting"
+}

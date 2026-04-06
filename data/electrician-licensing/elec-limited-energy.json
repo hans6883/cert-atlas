@@ -1,0 +1,101 @@
+{
+  "exam_id": "elec-limited-energy",
+  "exam_name": "Limited Energy Technician Exam",
+  "exam_code": "LET",
+  "certifying_body": "Electrician Licensing",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://candidate.psiexams.com/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [],
+  "exam_format": "Computer-based at testing center; most states allow NEC codebook reference.",
+  "duration_minutes": null,
+  "exam_price_usd": 65.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "PSI Exams and Pearson VUE authorized centers; some state DOL offices",
+      "scheduling_url": "https://candidate.psiexams.com/",
+      "notes": "Most state electrician exams are administered at PSI Exams or Pearson VUE authorized testing centers. Some states administer exams at Department of Labor offices. Online proctoring is not available."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Open-book for NEC code book in most states; approved calculator permitted; government-issued photo ID required.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "License renewal every 2-3 years; continuing education hours required (typically 8-16 hours per renewal cycle); NEC code updates every 3 years may require re-examination.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Varies by state; typically 30-day wait between attempts, maximum 3-5 attempts per year depending on state."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "National Electrical Code (NEC) — Wiring Methods and Materials",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "National Electrical Code — Overcurrent Protection and Grounding",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "National Electrical Code — Services, Feeders, and Branch Circuits",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Electrical Theory (Ohm's Law, AC/DC circuits)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Motor Controls and Industrial Wiring",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Residential Wiring",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Conduit Installation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Safety and OSHA Requirements",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "elec-limited-energy",
+    "let",
+    "limited energy technician exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/elec-limited-energy"
+}

@@ -1,0 +1,109 @@
+{
+  "exam_id": "databricks-gen-ai-engineer-associate",
+  "exam_name": "Databricks Certified Generative AI Engineer Associate",
+  "exam_code": "Gen AI Engineer Associate",
+  "certifying_body": "Databricks",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.databricks.com/learn/certification/genai-engineer-associate",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 200.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.webassessor.com/databricks",
+  "testing_centers": [
+    {
+      "provider": "Kryterion / Webassessor",
+      "scheduling_url": "https://www.webassessor.com/databricks",
+      "notes": "Online proctored via Kryterion Webassessor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID with full name. Name must match Webassessor registration exactly.",
+  "exam_rules": "Closed-book. No notes or Databricks workspace access. Proctor monitors via webcam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current version of the exam.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Full exam fee required for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Design Applications",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Data Preparation",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Application Development",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Assembling and Deploying Applications",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Monitoring Applications",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Databricks Academy",
+      "url": "https://www.databricks.com/learn/training",
+      "provider": "Databricks",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Databricks training courses aligned to certification exams"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Databricks Certification Practice Exams",
+      "url": "https://www.databricks.com/learn/certification",
+      "provider": "Databricks",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free practice questions available on each certification page"
+    }
+  ],
+  "aliases": [
+    "databricks certified generative ai engineer associate",
+    "databricks gen ai",
+    "databricks genai",
+    "databricks-gen-ai-engineer-associate",
+    "gen ai engineer associate"
+  ],
+  "practice_url": "https://quizforge.ai/tests/databricks-gen-ai-engineer-associate"
+}

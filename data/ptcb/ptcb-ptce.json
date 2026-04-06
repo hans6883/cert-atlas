@@ -1,0 +1,109 @@
+{
+  "exam_id": "ptcb-ptce",
+  "exam_name": "PTCB Exam (PTCE)",
+  "exam_code": "PTCE",
+  "certifying_body": "PTCB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://ptcb.org/credentials/certification/certified-pharmacy-technician/",
+  "passing_score": 1400,
+  "passing_score_scale": "1400/1600 scaled score",
+  "total_questions": 90,
+  "question_types": [
+    "Multiple Choice (single best answer)"
+  ],
+  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "duration_minutes": 110,
+  "exam_price_usd": 129.0,
+  "exam_price_notes": "$129 exam fee; retake fee also $129.",
+  "voucher_url": null,
+  "exam_registration_url": "https://ptcb.org/i-want-to-be-a-cpht/",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/ptcb",
+      "notes": "Computer-based testing at Pearson VUE test centers nationwide"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name must exactly match registration. Secondary ID may be requested.",
+  "exam_rules": "Closed-book. On-screen calculator provided. No personal items permitted in testing room. PTCE includes 80 scored items and 10 unscored pretest items (not identified). Score scale: 1000–1600; passing is 1400.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "2-year certification cycle. Renewal requires 20 pharmacy-related CE hours per 2-year cycle, including 1 hour in pharmacy law and 1 hour in patient safety. Online renewal application submitted through PTCB portal.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "education",
+      "description": "High school diploma or equivalent; PTCB-recognized education/training program or equivalent work experience",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 5,
+    "notes": "Candidates must wait 90 days before retaking any PTCB exam. PTCE has a lifetime maximum of 5 attempts. Full exam fee required for each attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Medications",
+      "weight_percent": 40.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Federal Requirements",
+      "weight_percent": 12.5,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Patient Safety and Quality Assurance",
+      "weight_percent": 26.25,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Order Entry and Processing",
+      "weight_percent": 21.25,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "pdf",
+      "title": "PTCE Content Outline",
+      "url": "https://ptcb.org/wp-content/uploads/2025/07/PTCE-Content-Outline.pdf",
+      "provider": "PTCB",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free downloadable content outline with knowledge domain breakdown; linked from the credential page"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "PTCB Practice Exam",
+      "url": "https://ptcb.org/official-ptcb-practice-tools/",
+      "provider": "PTCB",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice exam available through PTCB"
+    }
+  ],
+  "aliases": [
+    "cpht exam",
+    "pharmacy technician certification",
+    "ptcb exam",
+    "ptcb exam ptce",
+    "ptcb-ptce",
+    "ptce"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ptcb-ptce"
+}

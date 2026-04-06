@@ -1,0 +1,127 @@
+{
+  "exam_id": "oracle-oci-cloud-operations-1z0-1067",
+  "exam_name": "Oracle Cloud Infrastructure 2023 Cloud Operations Professional (1Z0-1067-23)",
+  "exam_code": "1Z0-1067-23",
+  "certifying_body": "Oracle",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-cloud-operations-professional/pexam_1Z0-1067-23",
+  "passing_score": 65,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 245.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/oracle",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/oracle",
+      "notes": "Computer-based testing at Pearson VUE test centers or online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID with full name. Name must match Pearson VUE registration exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator for applicable exams. Proctor monitors throughout.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "Oracle certifications are version-specific. When Oracle releases a new database/platform version, a new exam version is typically released. Previous certifications remain valid as earned.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Brazilian Portuguese",
+    "Simplified Chinese",
+    "Japanese",
+    "Korean",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": 3,
+    "max_attempts_total": null,
+    "notes": "14-day waiting period after failed attempt. Maximum 3 attempts per exam in a 12-month period. Full exam fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Managing Cloud Resources",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Monitoring and Alerting",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Logging and Audit",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Cost Management and Governance",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Tagging and Automation",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Backup and Disaster Recovery",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Security and Compliance",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Oracle University",
+      "url": "https://education.oracle.com/",
+      "provider": "Oracle",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Oracle training courses and learning paths"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Oracle Exam Preparation Materials",
+      "url": "https://education.oracle.com/certification",
+      "provider": "Oracle",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official practice tests available through Oracle University"
+    }
+  ],
+  "aliases": [
+    "1z0-1067",
+    "1z0-1067-23",
+    "oci cloud operations",
+    "oracle cloud infrastructure 2023 cloud operations professional",
+    "oracle cloud infrastructure 2023 cloud operations professional 1z0-1067-23",
+    "oracle-oci-cloud-operations-1z0-1067"
+  ],
+  "practice_url": "https://quizforge.ai/tests/oracle-oci-cloud-operations-1z0-1067"
+}

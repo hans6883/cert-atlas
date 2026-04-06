@@ -1,0 +1,87 @@
+{
+  "exam_id": "teas-7",
+  "exam_name": "ATI TEAS 7",
+  "exam_code": "TEAS7",
+  "certifying_body": "ATI TEAS",
+  "certification_name": null,
+  "version": "7",
+  "source_url": "https://www.atitesting.com/teas/register",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 170,
+  "question_types": [],
+  "exam_format": "Multiple-choice (computer-based); 170 scored questions + 20 unscored pilot items",
+  "duration_minutes": 209,
+  "exam_price_usd": 115.0,
+  "exam_price_notes": "$115 at ATI testing center. School-administered sittings may vary.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [
+    {
+      "provider": "PSI",
+      "scheduling_url": "Register",
+      "notes": "On-site exam at a PSI Testing Center with an in-person proctor"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "You will need to have a physical copy of your government-issued ID (U.S. State or Territory Issued Driver’s License or ID Card, U.S. Passport or U.S. Passport Card, U.S. Military ID, U.S. Permanent Resident Card, U.S. Visa, or Foreign Government Issued Passport).",
+  "exam_rules": "ATI has a strict rescheduling policy. Please read this policy prior to registering and paying for the TEAS.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": "nursing and allied health schools",
+  "recommended_experience": "allowing at least 6 weeks of preparation prior to taking the TEAS",
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "High school diploma or GED. Required by nursing/allied health programs.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Not all exam types allow for rescheduling. Please read our rescheduling policy before registering for your exam."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Reading (Key Ideas, Craft and Structure, Integration of Knowledge)",
+      "weight_percent": 26.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Mathematics (Numbers/Algebra, Measurement/Data)",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Science (Life Science, Physical Science, Scientific Reasoning)",
+      "weight_percent": 29.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "English and Language Usage (Conventions, Knowledge of Language, Vocabulary)",
+      "weight_percent": 22.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "ati teas",
+    "ati teas 7",
+    "teas 7",
+    "teas version 7",
+    "teas-7",
+    "teas7",
+    "test of essential academic skills version 7"
+  ],
+  "practice_url": "https://quizforge.ai/tests/teas-7"
+}

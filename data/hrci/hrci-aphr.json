@@ -1,0 +1,104 @@
+{
+  "exam_id": "hrci-aphr",
+  "exam_name": "Associate Professional in Human Resources (aPHR)",
+  "exam_code": "aPHR",
+  "certifying_body": "HRCI",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.hrci.org/certifications/hr-certifications/aphr",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 100,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 120,
+  "exam_price_usd": 400.0,
+  "exam_price_notes": "Exam fee $300 + $100 application fee. No experience required.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.hrci.org/certifications/apply",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/hrci",
+      "notes": "Computer-based testing at Pearson VUE test centers or online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid government-issued photo ID with name and signature. Name must match HRCI registration and NDA form exactly.",
+  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator provided. Scratch paper provided at test center. No personal items in testing area.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Earn recertification credits (CEUs) every 3 years: PHR/SPHR/GPHR require 60 credits; aPHR requires 45 credits. Credits earned through continuing education, professional development, and HR activities.",
+  "continuing_education_units": 45,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": 3,
+    "notes": "90-day waiting period after first failed attempt. 180-day waiting period after second failed attempt. Maximum 3 attempts per exam cycle. Full fee required for each retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "HR Operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Recruitment and Selection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Compensation and Benefits",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Human Resource Development and Retention",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Employee Relations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Health, Safety, and Security",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "HRCI Exam Prep Resources",
+      "url": "https://www.hrci.org/our-programs/hrci-learning",
+      "provider": "HRCI",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official study guides, practice questions, and learning bundles"
+    }
+  ],
+  "aliases": [
+    "aphr",
+    "associate phr",
+    "associate professional in human resources aphr",
+    "hrci-aphr"
+  ],
+  "practice_url": "https://quizforge.ai/tests/hrci-aphr"
+}

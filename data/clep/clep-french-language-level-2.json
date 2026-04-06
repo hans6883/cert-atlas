@@ -1,0 +1,170 @@
+{
+  "exam_id": "clep-french-language-level-2",
+  "exam_name": "French Language, Level 2",
+  "exam_code": "FREN2",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/french-language",
+  "passing_score": 59,
+  "passing_score_scale": null,
+  "total_questions": 121,
+  "question_types": [
+    "multiple_choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "French"
+  ],
+  "target_audience": "Students who have completed two to three semesters of college French language study",
+  "recommended_experience": "Knowledge and ability equivalent to that of students who have completed two to three semesters of college French language study",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Knowledge and ability equivalent to that of students who have completed two to three semesters of college French language study",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "Section I",
+      "name": "Listening: Rejoinders",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Listening comprehension: choosing the best responses to short spoken prompts",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Section II",
+      "name": "Listening: Dialogues and Narratives",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Listening comprehension: choosing the answers to questions based on longer spoken selections",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Section III",
+      "name": "Reading",
+      "weight_percent": 60.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Part A. Discrete sentences (vocabulary and structure)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Part B. Short cloze passages (vocabulary and structure)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Part C. Reading passages and authentic stimulus materials (reading comprehension)",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP French Language Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "This guide provides practice questions for the CLEP French Language (Levels 1 and 2) Exam only."
+    },
+    {
+      "resource_type": "article",
+      "title": "Study Resources: French Language",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "A study plan and list of online resources."
+    },
+    {
+      "resource_type": "article",
+      "title": "Sample Questions: French Language: Levels 1 and 2",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the French Language exam."
+    },
+    {
+      "resource_type": "document",
+      "title": "French Language Listening Exercise",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Listen to sample questions in this listening section."
+    },
+    {
+      "resource_type": "app",
+      "title": "CLEP Practice App",
+      "url": null,
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides from examIam."
+    },
+    {
+      "resource_type": "article",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "article",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "clep french language level 2",
+    "clep french level 2",
+    "clep-french-language-level-2",
+    "fren2",
+    "french language level 2"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-french-language-level-2"
+}

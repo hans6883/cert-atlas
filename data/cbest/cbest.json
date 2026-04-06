@@ -1,0 +1,165 @@
+{
+  "exam_id": "cbest",
+  "exam_name": "CBEST (California Basic Educational Skills Test)",
+  "exam_code": "CBEST",
+  "certifying_body": "CBEST",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CBEST_TestPage.html",
+  "passing_score": 37,
+  "passing_score_scale": "20-80",
+  "total_questions": 100,
+  "question_types": [
+    "multiple_choice",
+    "essay"
+  ],
+  "exam_format": "Multiple-choice (Reading, Mathematics) + 2 essay prompts (Writing); computer-based or paper-based",
+  "duration_minutes": 240,
+  "exam_price_usd": 102.0,
+  "exam_price_notes": "$102 for full battery; $41 to retake one section; $82 to retake two sections.",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Test centers",
+      "scheduling_url": "Check appointment availability",
+      "notes": null
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "When you register, you agree to abide by all testing policies and rules. Review the list of materials that are prohibited at the test center. Review the list of reasons your exam could be stopped and/or revoked.",
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Individuals seeking teaching credentials in California",
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Required for California teaching credential, administrative services credential, or pupil personnel services credential; also required for many classified staff positions",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Candidates must register and pay for each section separately."
+  },
+  "domains": [
+    {
+      "id": "Reading",
+      "name": "Reading",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "1.0",
+          "title": "Critical Analysis and Evaluation",
+          "sub_objectives": [
+            "Comprehend information presented in written passages, tables, and graphs",
+            "Approximately 40 percent of the questions are drawn from this area"
+          ]
+        },
+        {
+          "id": "2.0",
+          "title": "Comprehension and Research Skills",
+          "sub_objectives": [
+            "Approximately 60 percent of the questions are drawn from this area"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Mathematics",
+      "name": "Mathematics",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "1.0",
+          "title": "Estimation, Measurement, and Statistical Principles",
+          "sub_objectives": [
+            "Approximately 30 percent of the questions are drawn from this area"
+          ]
+        },
+        {
+          "id": "2.0",
+          "title": "Computation and Problem Solving",
+          "sub_objectives": [
+            "Approximately 35 percent of the questions are drawn from this area"
+          ]
+        },
+        {
+          "id": "3.0",
+          "title": "Numerical and Graphic Relationships",
+          "sub_objectives": [
+            "Approximately 35 percent of the questions are drawn from this area"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Writing",
+      "name": "Writing",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "1.0",
+          "title": "Analysis of a Given Situation or Statement",
+          "sub_objectives": [
+            "Respond to both topics"
+          ]
+        },
+        {
+          "id": "2.0",
+          "title": "Writing About a Specified Personal Experience",
+          "sub_objectives": [
+            "Respond to both topics"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CBEST Reading Section",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "The questions in the Reading section assess your ability to comprehend information presented in written passages, tables, and graphs."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CBEST Mathematics Section",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "The questions in the Mathematics section require you to solve mathematical problems."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CBEST Writing Section",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "The Writing section includes two writing topics that assess your ability to write effectively."
+    }
+  ],
+  "aliases": [
+    "california basic educational skills test",
+    "california cbest",
+    "california teacher exam",
+    "cbest",
+    "cbest california basic educational skills test"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cbest"
+}

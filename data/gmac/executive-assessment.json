@@ -1,0 +1,125 @@
+{
+  "exam_id": "executive-assessment",
+  "exam_name": "Executive Assessment (EA)",
+  "exam_code": "EA",
+  "certifying_body": "GMAC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.mba.com/exams/ea",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 40,
+  "question_types": [
+    "Multiple Choice",
+    "Data Sufficiency",
+    "Multi-Source Reasoning",
+    "Graphics Interpretation",
+    "Table Analysis",
+    "Two-Part Analysis"
+  ],
+  "exam_format": "Fixed-form (non-adaptive) computer-based exam; available at Pearson VUE test centers or online via OnVUE. Sections presented in fixed order: Integrated Reasoning, Verbal, Quantitative.",
+  "duration_minutes": 90,
+  "exam_price_usd": 350.0,
+  "exam_price_notes": "$350 USD per attempt. Maximum 2 lifetime attempts (once per year).",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.mba.com/exams/gmat-exam/register-for-the-gmat-exam",
+      "notes": "GMAT Focus and EA available at Pearson VUE test centers worldwide. GMAT Focus also available as an online proctored exam via Pearson VUE OnVUE. Schedule at mba.com or mba.com/exams/ea."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required. Name on ID must exactly match the name used during registration. For online exams: webcam, microphone, and a private, quiet room required.",
+  "exam_rules": "No personal items, notes, scratch paper, books, or unauthorized electronic devices permitted. Scratch paper and pencils provided at test centers; online whiteboard available for online exams. GMAT Focus: candidates may choose the order of the three sections. GMAT Focus ScoreSelect: send only the scores you choose to programs. EA: sections must be taken in fixed order. No section-order choice.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "GMAT exam scores are not certifications requiring renewal. GMAT Focus scores are valid for 5 years from the test date. EA scores are valid for 5 years from the test date. Candidates may retake exams (within retake limits) to obtain higher or more recent scores.",
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Recommended: significant professional work experience (typically 8+ years). Designed for EMBA applicants.",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 16,
+    "max_attempts_per_year": 5,
+    "max_attempts_total": 8,
+    "notes": "GMAT Focus Edition: once every 16 calendar days; max 5 attempts per rolling 12-month period; max 8 lifetime attempts. Executive Assessment: once per calendar year; max 2 lifetime attempts."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Integrated Reasoning (multi-source reasoning, graphics interpretation, table analysis, two-part analysis)",
+      "weight_percent": 33.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Verbal Reasoning (reading comprehension, critical reasoning)",
+      "weight_percent": 34.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Quantitative Reasoning (problem solving, data sufficiency)",
+      "weight_percent": 33.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "practice_exam",
+      "title": "GMAT Focus Official Starter Kit + Practice Exams 1 & 2",
+      "url": "https://www.mba.com/exams/gmat-exam/prepare-for-the-gmat-exam",
+      "provider": "GMAC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free. Two full-length official practice exams via mba.com."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "GMAT Focus Official Practice Exams 3-6",
+      "url": "https://www.mba.com/exams/gmat-exam/prepare-for-the-gmat-exam",
+      "provider": "GMAC",
+      "is_official": true,
+      "price_usd": 49.99,
+      "notes": "Paid bundle of four additional full-length practice tests."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "GMAT Official Guide 2024-2025",
+      "url": "https://www.mba.com/exams/gmat-exam/prepare-for-the-gmat-exam",
+      "provider": "GMAC",
+      "is_official": true,
+      "price_usd": 39.99,
+      "notes": "Print + online question bank. Focus Edition-specific guide available."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "Executive Assessment Preparation Materials",
+      "url": "https://www.mba.com/exams/ea/prepare-for-the-ea",
+      "provider": "GMAC",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free sample questions and preparation guide available at mba.com/exams/ea."
+    }
+  ],
+  "aliases": [
+    "ea",
+    "ea exam",
+    "emba entrance exam",
+    "executive assessment",
+    "executive assessment ea",
+    "executive mba admissions test",
+    "executive-assessment"
+  ],
+  "practice_url": "https://quizforge.ai/tests/executive-assessment"
+}

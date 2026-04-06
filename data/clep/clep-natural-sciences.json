@@ -1,0 +1,169 @@
+{
+  "exam_id": "clep-natural-sciences",
+  "exam_name": "Natural Sciences",
+  "exam_code": "NATSCI",
+  "certifying_body": "CLEP",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://clep.collegeboard.org/clep-exams/natural-sciences",
+  "passing_score": 50,
+  "passing_score_scale": "0-80",
+  "total_questions": 120,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Multiple-choice (computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 93.0,
+  "exam_price_notes": "$93 exam fee + ~$30 test center fee. Fee waivers for military/low-income.",
+  "voucher_url": null,
+  "exam_registration_url": "Register",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Nonscience majors taking introductory courses in biological and physical sciences",
+  "recommended_experience": "Understanding of scientific concepts expected of college students meeting a distribution or general education requirement in the natural sciences",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Understanding of scientific concepts expected of college students meeting a distribution or general education requirement in the natural sciences",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Each institution reserves the right to set its own credit-granting policy, which may differ from the American Council on Education (ACE). Contact your college to find out the score required for credit and the number of credit hours granted."
+  },
+  "domains": [
+    {
+      "id": "Biological Science",
+      "name": "Biological Science",
+      "weight_percent": 50.0,
+      "objectives": [
+        {
+          "id": "10%",
+          "title": "Origin and evolution of life; classification of organisms",
+          "sub_objectives": []
+        },
+        {
+          "id": "10%",
+          "title": "Cell organization, cell division, chemical nature of the gene, bioenergetics, and biosynthesis",
+          "sub_objectives": []
+        },
+        {
+          "id": "20%",
+          "title": "Structure, function, and development in organisms; patterns of heredity",
+          "sub_objectives": []
+        },
+        {
+          "id": "10%",
+          "title": "Concepts of population biology with emphasis on ecology",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Physical Science",
+      "name": "Physical Science",
+      "weight_percent": 50.0,
+      "objectives": [
+        {
+          "id": "7%",
+          "title": "Atomic and nuclear structure and properties, elementary particles, and nuclear reactions",
+          "sub_objectives": []
+        },
+        {
+          "id": "10%",
+          "title": "Chemical elements, compounds and reactions, molecular structure and bonding",
+          "sub_objectives": []
+        },
+        {
+          "id": "12%",
+          "title": "Heat, thermodynamics, and states of matter; classical mechanics; relativity",
+          "sub_objectives": []
+        },
+        {
+          "id": "4%",
+          "title": "Electricity and magnetism, waves, light, and sound",
+          "sub_objectives": []
+        },
+        {
+          "id": "7%",
+          "title": "The universe: galaxies, stars, and the solar system",
+          "sub_objectives": []
+        },
+        {
+          "id": "10%",
+          "title": "The Earth: atmosphere, hydrosphere, structure features, geologic processes, and history",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "CLEP Natural Sciences Examination Guide",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": 10.0,
+      "notes": "The Natural Sciences exam covers intro-level topics for nonscience majors surveying both biological and physical sciences."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "Sample Questions: Natural Sciences",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Answer sample questions related to the Natural Sciences exam."
+    },
+    {
+      "resource_type": "online_course",
+      "title": "CLEP Practice App",
+      "url": "Go to examIam",
+      "provider": "examIam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official CLEP eguides from examIam."
+    },
+    {
+      "resource_type": "article",
+      "title": "What Your CLEP Score Means",
+      "url": null,
+      "provider": "CLEP",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Guide to understanding how CLEP scores are calculated and credit-granting recommendations for all exams."
+    },
+    {
+      "resource_type": "article",
+      "title": "ACE Credit Recommendations",
+      "url": null,
+      "provider": "American Council on Education (ACE)",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Recommendations for credit-granting scores from the American Council on Education."
+    }
+  ],
+  "aliases": [
+    "clep natural sciences",
+    "clep-natural-sciences",
+    "natsci",
+    "natural sciences",
+    "natural sciences clep"
+  ],
+  "practice_url": "https://quizforge.ai/tests/clep-natural-sciences"
+}

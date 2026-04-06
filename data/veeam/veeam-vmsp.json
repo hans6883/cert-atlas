@@ -1,0 +1,98 @@
+{
+  "exam_id": "veeam-vmsp",
+  "exam_name": "Veeam Certified Sales Professional (VMSP)",
+  "exam_code": "VMSP",
+  "certifying_body": "Veeam",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.veeam.com/certifications/veeam-certified-sales-professional.html",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 40,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Online (included with training or via portal)",
+  "duration_minutes": 60,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.veeam.com/certifications.html",
+  "testing_centers": [
+    {
+      "provider": "Online (Veeam ProPartner Portal)",
+      "scheduling_url": "https://www.veeam.com/certifications.html",
+      "notes": "VMCE exam taken online after attending official training. Sales certs taken via online portal."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Veeam ProPartner or training account required.",
+  "exam_rules": "Closed-book. VMCE and VMCA exams included with training course attendance. Sales certs available via online portal.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "VMCE/VMCA valid for 2 years; renew by attending updated training. Sales certs valid for 1 year.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "German",
+    "French",
+    "Japanese",
+    "Chinese",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake included with training registration."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Veeam Product Portfolio Overview",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Data Protection Concepts and Value",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Competitive Positioning",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Sales Process and Partner Program",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Veeam Education Center",
+      "url": "https://www.veeam.com/technical-training.html",
+      "provider": "Veeam",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Veeam training required for VMCE/VMCA"
+    }
+  ],
+  "aliases": [
+    "veeam certified sales professional",
+    "veeam certified sales professional vmsp",
+    "veeam-vmsp",
+    "vmsp"
+  ],
+  "practice_url": "https://quizforge.ai/tests/veeam-vmsp"
+}

@@ -1,0 +1,106 @@
+{
+  "exam_id": "confluent-ccdak",
+  "exam_name": "Confluent Certified Developer for Apache Kafka (CCDAK)",
+  "exam_code": "CCDAK",
+  "certifying_body": "Confluent",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.confluent.io/certification/confluent-certified-developer-apache-kafka/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear (online proctored)",
+  "duration_minutes": 90,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.confluent.io/certification/",
+  "testing_centers": [
+    {
+      "provider": "Online (Confluent proctored)",
+      "scheduling_url": "https://www.confluent.io/certification/",
+      "notes": "Online proctored exam via Confluent certification portal."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required.",
+  "exam_rules": "Closed-book. Online proctored. No notes or reference materials.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "Certifications valid for 2 years. Renew by retaking the current exam version.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "30-day waiting period after failed attempt. Full exam fee for retake."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Apache Kafka Core Fundamentals",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Kafka Producer Design and Implementation",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Kafka Consumer Design and Implementation",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Kafka Streams and ksqlDB",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Kafka Connect",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Confluent Platform and Cloud",
+      "weight_percent": 10.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Confluent Training",
+      "url": "https://training.confluent.io/",
+      "provider": "Confluent",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official Confluent training courses and learning paths"
+    }
+  ],
+  "aliases": [
+    "ccdak",
+    "confluent certified developer for apache kafka ccdak",
+    "confluent developer",
+    "confluent kafka developer",
+    "confluent-ccdak"
+  ],
+  "practice_url": "https://quizforge.ai/tests/confluent-ccdak"
+}

@@ -1,0 +1,63 @@
+{
+  "exam_id": "shsat",
+  "exam_name": "SHSAT (Specialized High Schools Admissions Test)",
+  "exam_code": "SHSAT",
+  "certifying_body": "SHSAT",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.schools.nyc.gov/enrollment/high-schools/specialized-high-schools/about-the-shsat",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": 114,
+  "question_types": [],
+  "exam_format": "Paper-based; ELA (Reading + Revising/Editing) + Mathematics; no penalty for wrong answers",
+  "duration_minutes": 180,
+  "exam_price_usd": 0.0,
+  "exam_price_notes": "Free. Administered by NYC DOE annually in October-November to 8th graders (and some 9th graders for Staten Island Tech).",
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "NYC public or private school 8th grader (or 9th grader for Staten Island Tech); must register through NYC DOE",
+      "is_required": false
+    }
+  ],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1",
+      "name": "English Language Arts (ELA)",
+      "weight_percent": 50.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Mathematics",
+      "weight_percent": 50.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "bronx science exam",
+    "nyc specialized high school test",
+    "shsat",
+    "shsat specialized high schools admissions test",
+    "specialized high school admissions test",
+    "stuyvesant exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/shsat"
+}

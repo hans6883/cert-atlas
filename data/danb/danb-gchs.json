@@ -1,0 +1,108 @@
+{
+  "exam_id": "danb-gchs",
+  "exam_name": "General Chairside and Human Sciences (GC) Exam",
+  "exam_code": "GC",
+  "certifying_body": "DANB",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.danb.org/Get-Certified/DANB-Certifications/GC",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score (passing threshold varies by exam; set by DANB standard setting process)",
+  "total_questions": 120,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Linear (fixed-form, computer-based)",
+  "duration_minutes": 90,
+  "exam_price_usd": 110.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/danb",
+      "notes": "In-person testing at Pearson VUE authorized test centers nationwide. Schedule at home.pearsonvue.com/danb. Government-issued photo ID required."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Government-issued photo ID with photo and signature required. Name on ID must match registration exactly.",
+  "exam_rules": "Closed book; no reference materials or calculators permitted. All DANB exams are administered at Pearson VUE test centers. Candidate must present valid government-issued photo ID. Personal items must be stored in a locker during the exam.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "CDA certification is valid for 2 years. Renewal requires 12 continuing education (CE) hours per 2-year cycle. CE hours must be completed through DANB-approved providers. Renewal applications submitted through the DANB online portal.",
+  "continuing_education_units": 12,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 90,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "90-day waiting period between failed attempts. No stated limit on total attempts. Each retake requires a new exam registration fee."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Head and Neck Anatomy",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Chairside Dental Procedures",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Dental Materials",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Patient Management and Education",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Office Management and Professionalism",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "DANB Candidate Guide",
+      "url": "https://www.danb.org/Get-Certified/Prepare-for-Exams",
+      "provider": "DANB",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": "Free candidate guides and content outlines available at danb.org"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "DANB Practice Tests",
+      "url": "https://www.danb.org/Get-Certified/Prepare-for-Exams/Practice-Tests",
+      "provider": "DANB",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official DANB practice tests available for purchase through the DANB portal"
+    }
+  ],
+  "aliases": [
+    "danb gc",
+    "danb-gchs",
+    "gc",
+    "general chairside",
+    "general chairside and human sciences gc exam",
+    "general chairside exam",
+    "human sciences exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/danb-gchs"
+}

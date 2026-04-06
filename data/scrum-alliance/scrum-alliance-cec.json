@@ -1,0 +1,101 @@
+{
+  "exam_id": "scrum-alliance-cec",
+  "exam_name": "Certified Enterprise Coach (CEC)",
+  "exam_code": "CEC",
+  "certifying_body": "Scrum Alliance",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.scrumalliance.org/get-certified/teams-and-organizations/certified-enterprise-coach",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice (for CSM)",
+    "Course Completion (for CSPO, CSD, CAL)"
+  ],
+  "exam_format": "Varies: online assessment (CSM) or training completion (CSPO, CSD, CAL)",
+  "duration_minutes": null,
+  "exam_price_usd": 500.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://www.scrumalliance.org/get-certified",
+  "testing_centers": [
+    {
+      "provider": "Online (Scrum Alliance)",
+      "scheduling_url": "https://www.scrumalliance.org/",
+      "notes": "CSM and CSP-SM exams taken online through Scrum Alliance portal after completing training. Most certifications are training-based, not exam-based."
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": "Scrum Alliance account required. Training attendance verified.",
+  "exam_rules": "Most certifications awarded upon completing certified training. CSM includes an 50-question online exam (74% pass). CSP-SM/CSP-PO require active lower-level certifications and experience.",
+  "certification_validity_years": 2,
+  "renewal_required": true,
+  "renewal_options": "All certifications expire every 2 years. Renew by earning 20 SEUs (Scrum Education Units) and paying renewal fee ($100).",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Multiple languages depending on trainer"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "certification",
+      "description": "CSP-SM or equivalent; 5+ years enterprise coaching experience; portfolio review required",
+      "is_required": true
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 60,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "60-day waiting period for CSM exam retake. Retake fee $25. Unlimited retakes."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Enterprise Agility Coaching",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Organizational Transformation",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Systems Thinking",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Leadership Development",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [
+    {
+      "resource_type": "study_guide",
+      "title": "Scrum Guide",
+      "url": "https://www.scrumguides.org/",
+      "provider": "Scrum Alliance / Scrum.org",
+      "is_official": true,
+      "price_usd": 0.0,
+      "notes": null
+    }
+  ],
+  "aliases": [
+    "cec",
+    "certified enterprise coach",
+    "certified enterprise coach cec",
+    "scrum alliance enterprise coach",
+    "scrum-alliance-cec"
+  ],
+  "practice_url": "https://quizforge.ai/tests/scrum-alliance-cec"
+}
