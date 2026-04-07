@@ -194,7 +194,11 @@ def main():
             unmatched_list.append((exam_id, ename, ecode, ebody))
 
     # Cross-vendor validation: remove suspect matches
+    # Only remove if BOTH word overlap AND code overlap are zero
     qf_slug_to_title = {e["slug"]: e["title"] for e in qf_exams}
+    stopwords = {
+        "the", "and", "of", "in", "for", "a", "an", "to", "on",
+    }
     removed = 0
     to_remove = []
     for eid in matched:
@@ -202,20 +206,22 @@ def main():
         if not bp_row:
             continue
         bp_name = bp_row[1] or ""
+        bp_code = bp_row[2] or ""
         qf_title = qf_slug_to_title.get(matched[eid], "")
-        bp_words = set(norm(bp_name).split("-")) - {
-            "the", "and", "of", "in", "for", "a", "an", "to", "on",
-            "certified", "exam", "professional", "associate", "specialist",
-            "microsoft", "aws", "google", "cisco", "oracle",
-        }
-        qf_words = set(norm(qf_title).split("-")) - {
-            "the", "and", "of", "in", "for", "a", "an", "to", "on",
-            "certified", "exam", "professional", "associate", "specialist",
-            "microsoft", "aws", "google", "cisco", "oracle",
-        }
-        common = bp_words & qf_words
-        # If very few meaningful words overlap, it's likely a mismatch
-        if len(bp_words) >= 3 and len(common) == 0:
+        qf_slug = matched[eid]
+
+        # Check word overlap (liberal -- only remove basic stopwords)
+        bp_words = set(norm(bp_name).split("-")) - stopwords
+        qf_words = set(norm(qf_title).split("-")) - stopwords
+        common_words = bp_words & qf_words
+
+        # Check code overlap
+        bp_codes = extract_codes(bp_code) | extract_codes(bp_name)
+        qf_codes = extract_codes(qf_title) | extract_codes(qf_slug)
+        common_codes = bp_codes & qf_codes
+
+        # Only remove if NO word overlap AND NO code overlap AND enough words to judge
+        if len(bp_words) >= 3 and len(common_words) == 0 and len(common_codes) == 0:
             to_remove.append(eid)
             removed += 1
 
