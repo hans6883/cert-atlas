@@ -16,6 +16,65 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cert Atlas -- Open Index of Certification Exam Blueprints">
 <meta name="twitter:description" content="Browse exam blueprints for 1,562 certification exams across 217 certifying bodies. Domains, objectives, requirements, and study resources.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Cert Atlas — Open Index of Certification Exam Blueprints",
+  "alternateName": "Cert Atlas",
+  "description": "An open, machine-readable dataset of certification exam blueprints for 1,562 exams across 217 certifying bodies. Each exam record includes the official domain/objective breakdown with topic weights, passing score, question count and types, duration, price, prerequisites, retake and renewal policies, testing centers, available languages, and source URLs. Sourced from official exam guides and certification pages — no proprietary or scraped questions.",
+  "url": "https://atlas.quizforge.ai/",
+  "sameAs": "https://github.com/hans6883/cert-atlas",
+  "identifier": "https://github.com/hans6883/cert-atlas",
+  "keywords": ["certification exams", "exam blueprints", "exam objectives", "certification", "study resources", "AWS certification", "CompTIA", "Microsoft certifications", "NCLEX", "CFA", "PMP", "open dataset", "education"],
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true,
+  "version": "2026.04",
+  "dateModified": "2026-04-05",
+  "creator": {
+    "@type": "Organization",
+    "name": "QuizForge.ai",
+    "url": "https://quizforge.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "QuizForge.ai",
+    "url": "https://quizforge.ai"
+  },
+  "variableMeasured": [
+    "exam domains and topic weights",
+    "passing score",
+    "total questions",
+    "question types",
+    "duration minutes",
+    "exam price",
+    "prerequisites",
+    "retake policy",
+    "renewal requirements",
+    "testing centers",
+    "available languages"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Cert Atlas master index (JSON)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Cert Atlas full dataset (GitHub repository)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://github.com/hans6883/cert-atlas"
+    }
+  ],
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Cert Atlas",
+    "url": "https://atlas.quizforge.ai/"
+  }
+}
+</script>
 <style>
 :root {
   --bg: #ffffff;

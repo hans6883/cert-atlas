@@ -1,0 +1,61 @@
+{
+  "name": "cert-atlas",
+  "title": "Cert Atlas — Open Index of Certification Exam Blueprints",
+  "description": "An open, machine-readable dataset of certification exam blueprints for 1,562 exams across 217 certifying bodies. Each record includes the official domain/objective breakdown with topic weights, passing score, question count and types, duration, price, prerequisites, retake and renewal policies, testing centers, available languages, and source URLs. Sourced from official exam guides — no proprietary or scraped questions.",
+  "homepage": "https://atlas.quizforge.ai/",
+  "version": "2026.04",
+  "created": "2026-04-05",
+  "keywords": [
+    "certification",
+    "exam blueprints",
+    "exam objectives",
+    "certification exams",
+    "study resources",
+    "open data",
+    "education",
+    "aws",
+    "comptia",
+    "microsoft",
+    "nclex",
+    "cfa",
+    "pmp"
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "title": "MIT License",
+      "path": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "QuizForge.ai",
+      "path": "https://quizforge.ai",
+      "role": "publisher"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official certifying-body exam guides and certification pages",
+      "path": "https://atlas.quizforge.ai/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "index",
+      "title": "Master index of all certification exams",
+      "description": "One summary record per exam (id, name, code, certifying body, vendor slug, domain count, question count, duration, source URL, and practice URL).",
+      "path": "data/index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "exam-blueprints",
+      "title": "Full per-exam blueprint files",
+      "description": "One JSON file per exam under data/<vendor>/<exam>.json with the complete blueprint (domains and weights, passing score, prerequisites, retake/renewal policy, testing centers, languages, etc.).",
+      "path": "data",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ]
+}
