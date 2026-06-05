@@ -1,0 +1,1742 @@
+{
+  "generated": "2026-04-05",
+  "total_vendors": 217,
+  "vendors": [
+    {
+      "vendor_id": "dmv",
+      "display_name": "DMV / State Driver Licensing",
+      "website": "https://www.dmv.org",
+      "certification_page": "https://www.dmv.org/practice-tests/",
+      "exam_count": 51,
+      "slug": "dmv-state-driver-licensing"
+    },
+    {
+      "vendor_id": "microsoft",
+      "display_name": "Microsoft",
+      "website": "https://learn.microsoft.com",
+      "certification_page": "https://learn.microsoft.com/en-us/credentials/browse/",
+      "exam_count": 45,
+      "slug": "microsoft"
+    },
+    {
+      "vendor_id": "college_board",
+      "display_name": "College Board",
+      "website": "https://www.collegeboard.org",
+      "certification_page": "https://apstudents.collegeboard.org/",
+      "exam_count": 44,
+      "slug": "college-board"
+    },
+    {
+      "vendor_id": "dsst",
+      "display_name": "DSST",
+      "website": "https://www.prometric.com/dsst",
+      "certification_page": "https://www.prometric.com/dsst",
+      "exam_count": 38,
+      "slug": "dsst"
+    },
+    {
+      "vendor_id": "clep",
+      "display_name": "CLEP",
+      "website": "https://clep.collegeboard.org",
+      "certification_page": "https://clep.collegeboard.org/clep-exams",
+      "exam_count": 34,
+      "slug": "clep"
+    },
+    {
+      "vendor_id": "salesforce",
+      "display_name": "Salesforce",
+      "website": "https://trailhead.salesforce.com",
+      "certification_page": "https://trailhead.salesforce.com/credentials/administratoroverview",
+      "exam_count": 32,
+      "slug": "salesforce"
+    },
+    {
+      "vendor_id": "ncees",
+      "display_name": "NCEES",
+      "website": "https://ncees.org",
+      "certification_page": "https://ncees.org/exams/",
+      "exam_count": 29,
+      "slug": "ncees"
+    },
+    {
+      "vendor_id": "servicenow",
+      "display_name": "ServiceNow",
+      "website": "https://www.servicenow.com",
+      "certification_page": "https://www.servicenow.com/services/training-and-certification.html",
+      "exam_count": 27,
+      "slug": "servicenow"
+    },
+    {
+      "vendor_id": "finra",
+      "display_name": "FINRA",
+      "website": "https://www.finra.org",
+      "certification_page": "https://www.finra.org/registration-exams-ce/qualification-exams",
+      "exam_count": 26,
+      "slug": "finra"
+    },
+    {
+      "vendor_id": "aapc",
+      "display_name": "AAPC",
+      "website": "https://www.aapc.com",
+      "certification_page": "https://www.aapc.com/certification/",
+      "exam_count": 20,
+      "slug": "aapc"
+    },
+    {
+      "vendor_id": "sap",
+      "display_name": "SAP",
+      "website": "https://training.sap.com",
+      "certification_page": "https://training.sap.com/certification",
+      "exam_count": 20,
+      "slug": "sap"
+    },
+    {
+      "vendor_id": "oracle",
+      "display_name": "Oracle",
+      "website": "https://education.oracle.com",
+      "certification_page": "https://education.oracle.com/certification",
+      "exam_count": 19,
+      "slug": "oracle"
+    },
+    {
+      "vendor_id": "hvac_licensing",
+      "display_name": "HVAC Licensing",
+      "website": "https://www.psiexams.com",
+      "certification_page": "https://www.psiexams.com/",
+      "exam_count": 17,
+      "slug": "hvac-licensing"
+    },
+    {
+      "vendor_id": "teacher_cert",
+      "display_name": "State Teacher Certification",
+      "website": "https://www.nesinc.com",
+      "certification_page": "https://www.nesinc.com/",
+      "exam_count": 17,
+      "slug": "state-teacher-certification"
+    },
+    {
+      "vendor_id": "cima",
+      "display_name": "CIMA",
+      "website": "https://www.cimaglobal.com",
+      "certification_page": "https://www.cimaglobal.com/Our-locations/UK/Qualification-and-assessment/CIMA-Professional-Qualification/",
+      "exam_count": 16,
+      "slug": "cima"
+    },
+    {
+      "vendor_id": "comptia",
+      "display_name": "CompTIA",
+      "website": "https://www.comptia.org",
+      "certification_page": "https://www.comptia.org/certifications",
+      "exam_count": 16,
+      "slug": "comptia"
+    },
+    {
+      "vendor_id": "google_cloud",
+      "display_name": "Google Cloud",
+      "website": "https://cloud.google.com",
+      "certification_page": "https://cloud.google.com/learn/certification",
+      "exam_count": 16,
+      "slug": "google-cloud"
+    },
+    {
+      "vendor_id": "acca",
+      "display_name": "ACCA",
+      "website": "https://www.accaglobal.com",
+      "certification_page": "https://www.accaglobal.com/gb/en/qualifications/glance.html",
+      "exam_count": 15,
+      "slug": "acca"
+    },
+    {
+      "vendor_id": "aws",
+      "display_name": "AWS",
+      "website": "https://aws.amazon.com",
+      "certification_page": "https://aws.amazon.com/certification/",
+      "exam_count": 15,
+      "slug": "aws"
+    },
+    {
+      "vendor_id": "axelos",
+      "display_name": "PeopleCert (AXELOS)",
+      "website": "https://www.axelos.com",
+      "certification_page": "https://www.axelos.com/certifications",
+      "exam_count": 15,
+      "slug": "peoplecert-axelos"
+    },
+    {
+      "vendor_id": "septic_wastewater",
+      "display_name": "Septic / Wastewater Licensing",
+      "website": "https://www.nawt.org",
+      "certification_page": "https://www.nawt.org/certification",
+      "exam_count": 14,
+      "slug": "septic-wastewater-licensing"
+    },
+    {
+      "vendor_id": "electrician_licensing",
+      "display_name": "Electrician Licensing",
+      "website": "https://www.psiexams.com",
+      "certification_page": "https://candidate.psiexams.com/",
+      "exam_count": 13,
+      "slug": "electrician-licensing"
+    },
+    {
+      "vendor_id": "huawei_cert",
+      "display_name": "Huawei",
+      "website": "https://e.huawei.com/en/talent",
+      "certification_page": "https://e.huawei.com/en/talent/#/cert/product-catalog",
+      "exam_count": 13,
+      "slug": "huawei"
+    },
+    {
+      "vendor_id": "ascp",
+      "display_name": "ASCP Board of Certification",
+      "website": "https://www.ascp.org",
+      "certification_page": "https://www.ascp.org/content/board-of-certification/get-credentialed",
+      "exam_count": 12,
+      "slug": "ascp-board-of-certification"
+    },
+    {
+      "vendor_id": "alibaba_cloud",
+      "display_name": "Alibaba Cloud",
+      "website": "https://edu.alibabacloud.com",
+      "certification_page": "https://edu.alibabacloud.com/certification",
+      "exam_count": 12,
+      "slug": "alibaba-cloud"
+    },
+    {
+      "vendor_id": "ets",
+      "display_name": "ETS",
+      "website": "https://www.ets.org",
+      "certification_page": "https://www.ets.org/",
+      "exam_count": 12,
+      "slug": "ets"
+    },
+    {
+      "vendor_id": "insurance_licensing",
+      "display_name": "Insurance Licensing",
+      "website": "https://www.nipr.com",
+      "certification_page": "https://www.nipr.com/",
+      "exam_count": 12,
+      "slug": "insurance-licensing"
+    },
+    {
+      "vendor_id": "nes",
+      "display_name": "NES Teacher Exams",
+      "website": "https://www.nesinc.com",
+      "certification_page": "https://www.nesinc.com/",
+      "exam_count": 12,
+      "slug": "nes-teacher-exams"
+    },
+    {
+      "vendor_id": "plumber_licensing",
+      "display_name": "Plumber Licensing",
+      "website": "https://www.psiexams.com",
+      "certification_page": "https://candidate.psiexams.com/",
+      "exam_count": 12,
+      "slug": "plumber-licensing"
+    },
+    {
+      "vendor_id": "ase",
+      "display_name": "ASE",
+      "website": "https://www.ase.com",
+      "certification_page": "https://www.ase.com/tests-certifications",
+      "exam_count": 10,
+      "slug": "ase"
+    },
+    {
+      "vendor_id": "giac",
+      "display_name": "GIAC",
+      "website": "https://www.giac.org",
+      "certification_page": "https://www.giac.org/certifications",
+      "exam_count": 10,
+      "slug": "giac"
+    },
+    {
+      "vendor_id": "hubspot_academy",
+      "display_name": "HubSpot Academy",
+      "website": "https://academy.hubspot.com",
+      "certification_page": "https://academy.hubspot.com/courses",
+      "exam_count": 10,
+      "slug": "hubspot-academy"
+    },
+    {
+      "vendor_id": "icc",
+      "display_name": "ICC",
+      "website": "https://www.iccsafe.org",
+      "certification_page": "https://www.iccsafe.org/professional-development/certifications-and-testing/",
+      "exam_count": 10,
+      "slug": "icc"
+    },
+    {
+      "vendor_id": "safe_agile",
+      "display_name": "Scaled Agile",
+      "website": "https://scaledagile.com",
+      "certification_page": "https://scaledagile.com/training/certifications/",
+      "exam_count": 10,
+      "slug": "scaled-agile"
+    },
+    {
+      "vendor_id": "scrum_org",
+      "display_name": "Scrum.org",
+      "website": "https://www.scrum.org",
+      "certification_page": "https://www.scrum.org/professional-scrum-certifications",
+      "exam_count": 10,
+      "slug": "scrum-org"
+    },
+    {
+      "vendor_id": "aacn",
+      "display_name": "AACN",
+      "website": "https://www.aacn.org",
+      "certification_page": "https://www.aacn.org/certification",
+      "exam_count": 9,
+      "slug": "aacn"
+    },
+    {
+      "vendor_id": "cdl",
+      "display_name": "CDL / Commercial Driver Licensing",
+      "website": "https://www.fmcsa.dot.gov",
+      "certification_page": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license",
+      "exam_count": 9,
+      "slug": "cdl-commercial-driver-licensing"
+    },
+    {
+      "vendor_id": "fortinet",
+      "display_name": "Fortinet",
+      "website": "https://www.fortinet.com",
+      "certification_page": "https://www.fortinet.com/training/certification",
+      "exam_count": 9,
+      "slug": "fortinet"
+    },
+    {
+      "vendor_id": "google_skillshop",
+      "display_name": "Google Skillshop",
+      "website": "https://skillshop.withgoogle.com",
+      "certification_page": "https://skillshop.withgoogle.com/",
+      "exam_count": 9,
+      "slug": "google-skillshop"
+    },
+    {
+      "vendor_id": "nasm",
+      "display_name": "NASM",
+      "website": "https://www.nasm.org",
+      "certification_page": "https://www.nasm.org/certifications",
+      "exam_count": 9,
+      "slug": "nasm"
+    },
+    {
+      "vendor_id": "nccco",
+      "display_name": "NCCCO",
+      "website": "https://www.nccco.org",
+      "certification_page": "https://www.nccco.org/certifications/",
+      "exam_count": 9,
+      "slug": "nccco"
+    },
+    {
+      "vendor_id": "nic",
+      "display_name": "NIC / Cosmetology Licensing",
+      "website": "https://www.nictest.com",
+      "certification_page": "https://www.nictest.com/",
+      "exam_count": 9,
+      "slug": "nic-cosmetology-licensing"
+    },
+    {
+      "vendor_id": "okta",
+      "display_name": "Okta",
+      "website": "https://www.okta.com",
+      "certification_page": "https://www.okta.com/resources/certification/",
+      "exam_count": 9,
+      "slug": "okta"
+    },
+    {
+      "vendor_id": "ahima",
+      "display_name": "AHIMA",
+      "website": "https://www.ahima.org",
+      "certification_page": "https://www.ahima.org/certification-careers/certifications-info/",
+      "exam_count": 8,
+      "slug": "ahima"
+    },
+    {
+      "vendor_id": "ancc",
+      "display_name": "ANCC",
+      "website": "https://www.nursingworld.org",
+      "certification_page": "https://www.nursingworld.org/our-certifications/",
+      "exam_count": 8,
+      "slug": "ancc"
+    },
+    {
+      "vendor_id": "arrt",
+      "display_name": "ARRT",
+      "website": "https://www.arrt.org",
+      "certification_page": "https://www.arrt.org/earn-arrt-credentials/initial-credentials",
+      "exam_count": 8,
+      "slug": "arrt"
+    },
+    {
+      "vendor_id": "welding_aws",
+      "display_name": "AWS - American Welding Society",
+      "website": "https://www.aws.org",
+      "certification_page": "https://www.aws.org/certification",
+      "exam_count": 8,
+      "slug": "aws-american-welding-society"
+    },
+    {
+      "vendor_id": "adobe",
+      "display_name": "Adobe",
+      "website": "https://learning.adobe.com",
+      "certification_page": "https://learning.adobe.com/certification.html",
+      "exam_count": 8,
+      "slug": "adobe"
+    },
+    {
+      "vendor_id": "cpcu",
+      "display_name": "CPCU Society",
+      "website": "https://aicpcu.org",
+      "certification_page": "https://aicpcu.org/designations/cpcu/",
+      "exam_count": 8,
+      "slug": "cpcu-society"
+    },
+    {
+      "vendor_id": "faa_pilot",
+      "display_name": "FAA Pilot Certification",
+      "website": "https://www.faa.gov",
+      "certification_page": "https://www.faa.gov/training_testing/testing/",
+      "exam_count": 8,
+      "slug": "faa-pilot-certification"
+    },
+    {
+      "vendor_id": "hrci",
+      "display_name": "HRCI",
+      "website": "https://www.hrci.org",
+      "certification_page": "https://www.hrci.org/certifications",
+      "exam_count": 8,
+      "slug": "hrci"
+    },
+    {
+      "vendor_id": "icagile",
+      "display_name": "ICAgile",
+      "website": "https://www.icagile.com",
+      "certification_page": "https://www.icagile.com/certification",
+      "exam_count": 8,
+      "slug": "icagile"
+    },
+    {
+      "vendor_id": "instituto_cervantes",
+      "display_name": "Instituto Cervantes",
+      "website": "https://www.cervantes.es",
+      "certification_page": "https://www.cervantes.es/lengua_y_ensenanza/certificados_espanol.htm",
+      "exam_count": 8,
+      "slug": "instituto-cervantes"
+    },
+    {
+      "vendor_id": "juniper",
+      "display_name": "Juniper Networks",
+      "website": "https://www.juniper.net",
+      "certification_page": "https://www.juniper.net/us/en/training/certifications.html",
+      "exam_count": 8,
+      "slug": "juniper-networks"
+    },
+    {
+      "vendor_id": "nebosh",
+      "display_name": "NEBOSH",
+      "website": "https://www.nebosh.org.uk",
+      "certification_page": "https://www.nebosh.org.uk/qualifications/",
+      "exam_count": 8,
+      "slug": "nebosh"
+    },
+    {
+      "vendor_id": "vmware",
+      "display_name": "VMware (Broadcom)",
+      "website": "https://www.broadcom.com",
+      "certification_page": "https://www.broadcom.com/support/education/vmware/certification",
+      "exam_count": 8,
+      "slug": "vmware-broadcom"
+    },
+    {
+      "vendor_id": "accuplacer",
+      "display_name": "ACCUPLACER",
+      "website": "https://accuplacer.collegeboard.org",
+      "certification_page": "https://accuplacer.collegeboard.org/students/prepare-for-accuplacer/sample-questions",
+      "exam_count": 7,
+      "slug": "accuplacer"
+    },
+    {
+      "vendor_id": "atlassian",
+      "display_name": "Atlassian",
+      "website": "https://www.atlassian.com",
+      "certification_page": "https://www.atlassian.com/university/certification",
+      "exam_count": 7,
+      "slug": "atlassian"
+    },
+    {
+      "vendor_id": "hsk",
+      "display_name": "HSK",
+      "website": "https://www.chinesetest.cn",
+      "certification_page": "https://www.chinesetest.cn/gosign.do",
+      "exam_count": 7,
+      "slug": "hsk"
+    },
+    {
+      "vendor_id": "icaew",
+      "display_name": "ICAEW",
+      "website": "https://www.icaew.com",
+      "certification_page": "https://www.icaew.com/learning-and-development/aca",
+      "exam_count": 7,
+      "slug": "icaew"
+    },
+    {
+      "vendor_id": "iia",
+      "display_name": "IIA",
+      "website": "https://www.theiia.org",
+      "certification_page": "https://www.theiia.org/en/certifications/",
+      "exam_count": 7,
+      "slug": "iia"
+    },
+    {
+      "vendor_id": "isaca",
+      "display_name": "ISACA",
+      "website": "https://www.isaca.org",
+      "certification_page": "https://www.isaca.org/credentialing",
+      "exam_count": 7,
+      "slug": "isaca"
+    },
+    {
+      "vendor_id": "istqb",
+      "display_name": "ISTQB",
+      "website": "https://www.istqb.org",
+      "certification_page": "https://www.istqb.org/certifications",
+      "exam_count": 7,
+      "slug": "istqb"
+    },
+    {
+      "vendor_id": "nna",
+      "display_name": "NNA / Notary",
+      "website": "https://www.nationalnotary.org",
+      "certification_page": "https://www.nationalnotary.org/notary-certification",
+      "exam_count": 7,
+      "slug": "nna-notary"
+    },
+    {
+      "vendor_id": "netapp",
+      "display_name": "NetApp",
+      "website": "https://www.netapp.com/services/training/",
+      "certification_page": "https://www.netapp.com/services/training/certification/",
+      "exam_count": 7,
+      "slug": "netapp"
+    },
+    {
+      "vendor_id": "real_estate",
+      "display_name": "Real Estate Licensing",
+      "website": "https://www.psiexams.com",
+      "certification_page": "https://www.psiexams.com/real-estate",
+      "exam_count": 7,
+      "slug": "real-estate-licensing"
+    },
+    {
+      "vendor_id": "scrum_alliance",
+      "display_name": "Scrum Alliance",
+      "website": "https://www.scrumalliance.org",
+      "certification_page": "https://www.scrumalliance.org/get-certified",
+      "exam_count": 7,
+      "slug": "scrum-alliance"
+    },
+    {
+      "vendor_id": "soa",
+      "display_name": "Society of Actuaries",
+      "website": "https://www.soa.org",
+      "certification_page": "https://www.soa.org/education/exam-req/edu-exam-p-detail/",
+      "exam_count": 7,
+      "slug": "society-of-actuaries"
+    },
+    {
+      "vendor_id": "splunk",
+      "display_name": "Splunk",
+      "website": "https://www.splunk.com",
+      "certification_page": "https://www.splunk.com/en_us/training/certification-track.html",
+      "exam_count": 7,
+      "slug": "splunk"
+    },
+    {
+      "vendor_id": "aicpa",
+      "display_name": "AICPA",
+      "website": "https://www.aicpa-cima.com",
+      "certification_page": "https://www.aicpa-cima.com/certifications/certified-public-accountant/cpa-exam",
+      "exam_count": 6,
+      "slug": "aicpa"
+    },
+    {
+      "vendor_id": "asq",
+      "display_name": "ASQ",
+      "website": "https://asq.org",
+      "certification_page": "https://asq.org/cert",
+      "exam_count": 6,
+      "slug": "asq"
+    },
+    {
+      "vendor_id": "celi",
+      "display_name": "CELI / CILS",
+      "website": "https://www.unistrasi.it",
+      "certification_page": "https://www.unistrasi.it/1/schede/128/Esami_di_certificazione.htm",
+      "exam_count": 6,
+      "slug": "celi-cils"
+    },
+    {
+      "vendor_id": "cfa_institute",
+      "display_name": "CFA Institute",
+      "website": "https://www.cfainstitute.org",
+      "certification_page": "https://www.cfainstitute.org/programs/cfa",
+      "exam_count": 6,
+      "slug": "cfa-institute"
+    },
+    {
+      "vendor_id": "cipd",
+      "display_name": "CIPD",
+      "website": "https://www.cipd.org",
+      "certification_page": "https://www.cipd.org/en/qualifications/",
+      "exam_count": 6,
+      "slug": "cipd"
+    },
+    {
+      "vendor_id": "cips",
+      "display_name": "CIPS",
+      "website": "https://www.cips.org",
+      "certification_page": "https://www.cips.org/qualifications/",
+      "exam_count": 6,
+      "slug": "cips"
+    },
+    {
+      "vendor_id": "cpa_australia",
+      "display_name": "CPA Australia",
+      "website": "https://www.cpaaustralia.com.au",
+      "certification_page": "https://www.cpaaustralia.com.au/become-a-cpa/cpa-program",
+      "exam_count": 6,
+      "slug": "cpa-australia"
+    },
+    {
+      "vendor_id": "cambridge_english",
+      "display_name": "Cambridge English",
+      "website": "https://www.cambridgeenglish.org",
+      "certification_page": "https://www.cambridgeenglish.org/exams-and-tests/",
+      "exam_count": 6,
+      "slug": "cambridge-english"
+    },
+    {
+      "vendor_id": "cisco",
+      "display_name": "Cisco",
+      "website": "https://www.cisco.com",
+      "certification_page": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html",
+      "exam_count": 6,
+      "slug": "cisco"
+    },
+    {
+      "vendor_id": "citizenship_tests",
+      "display_name": "Citizenship and Civics Tests",
+      "website": "https://www.uscis.gov",
+      "certification_page": "https://www.uscis.gov/citizenship",
+      "exam_count": 6,
+      "slug": "citizenship-and-civics-tests"
+    },
+    {
+      "vendor_id": "crowdstrike",
+      "display_name": "CrowdStrike",
+      "website": "https://www.crowdstrike.com",
+      "certification_page": "https://www.crowdstrike.com/en-us/services/training/",
+      "exam_count": 6,
+      "slug": "crowdstrike"
+    },
+    {
+      "vendor_id": "danb",
+      "display_name": "DANB",
+      "website": "https://www.danb.org",
+      "certification_page": "https://www.danb.org/Become-Certified",
+      "exam_count": 6,
+      "slug": "danb"
+    },
+    {
+      "vendor_id": "delf_dalf",
+      "display_name": "DELF/DALF",
+      "website": "https://www.france-education-international.fr",
+      "certification_page": "https://www.france-education-international.fr/en/delfdalf",
+      "exam_count": 6,
+      "slug": "delf-dalf"
+    },
+    {
+      "vendor_id": "databricks",
+      "display_name": "Databricks",
+      "website": "https://www.databricks.com",
+      "certification_page": "https://www.databricks.com/learn/certification",
+      "exam_count": 6,
+      "slug": "databricks"
+    },
+    {
+      "vendor_id": "faa_mechanic",
+      "display_name": "FAA Aviation Maintenance",
+      "website": "https://www.faa.gov",
+      "certification_page": "https://www.faa.gov/mechanics/become",
+      "exam_count": 6,
+      "slug": "faa-aviation-maintenance"
+    },
+    {
+      "vendor_id": "goethe",
+      "display_name": "Goethe-Institut",
+      "website": "https://www.goethe.de",
+      "certification_page": "https://www.goethe.de/en/spr/kup/prf.html",
+      "exam_count": 6,
+      "slug": "goethe-institut"
+    },
+    {
+      "vendor_id": "google_career_certs",
+      "display_name": "Google Career Certificates",
+      "website": "https://grow.google",
+      "certification_page": "https://grow.google/certificates/",
+      "exam_count": 6,
+      "slug": "google-career-certificates"
+    },
+    {
+      "vendor_id": "iassc",
+      "display_name": "IASSC",
+      "website": "https://www.iassc.org",
+      "certification_page": "https://www.iassc.org/six-sigma-certifications/",
+      "exam_count": 6,
+      "slug": "iassc"
+    },
+    {
+      "vendor_id": "iiba",
+      "display_name": "IIBA",
+      "website": "https://www.iiba.org",
+      "certification_page": "https://www.iiba.org/certification/",
+      "exam_count": 6,
+      "slug": "iiba"
+    },
+    {
+      "vendor_id": "meta_blueprint",
+      "display_name": "Meta Blueprint",
+      "website": "https://www.facebook.com/business/learn",
+      "certification_page": "https://www.facebook.com/business/learn/certification",
+      "exam_count": 6,
+      "slug": "meta-blueprint"
+    },
+    {
+      "vendor_id": "nascla",
+      "display_name": "NASCLA",
+      "website": "https://www.nascla.org",
+      "certification_page": "https://www.nascla.org/page/ExamInfo",
+      "exam_count": 6,
+      "slug": "nascla"
+    },
+    {
+      "vendor_id": "nbpts",
+      "display_name": "NBPTS",
+      "website": "https://www.nbpts.org",
+      "certification_page": "https://www.nbpts.org/certification/",
+      "exam_count": 6,
+      "slug": "nbpts"
+    },
+    {
+      "vendor_id": "ncarb",
+      "display_name": "NCARB",
+      "website": "https://www.ncarb.org",
+      "certification_page": "https://www.ncarb.org/pass-the-are/about",
+      "exam_count": 6,
+      "slug": "ncarb"
+    },
+    {
+      "vendor_id": "nha",
+      "display_name": "NHA",
+      "website": "https://www.nhanow.com",
+      "certification_page": "https://www.nhanow.com/certifications",
+      "exam_count": 6,
+      "slug": "nha"
+    },
+    {
+      "vendor_id": "oposiciones_spain",
+      "display_name": "Oposiciones Spain",
+      "website": "https://www.inap.es",
+      "certification_page": "https://www.inap.es/convocatorias",
+      "exam_count": 6,
+      "slug": "oposiciones-spain"
+    },
+    {
+      "vendor_id": "pega",
+      "display_name": "Pegasystems",
+      "website": "https://academy.pega.com",
+      "certification_page": "https://academy.pega.com/certification",
+      "exam_count": 6,
+      "slug": "pegasystems"
+    },
+    {
+      "vendor_id": "rics",
+      "display_name": "RICS",
+      "website": "https://www.rics.org",
+      "certification_page": "https://www.rics.org/join/assessment-of-professional-competence",
+      "exam_count": 6,
+      "slug": "rics"
+    },
+    {
+      "vendor_id": "sas_institute",
+      "display_name": "SAS Institute",
+      "website": "https://www.sas.com",
+      "certification_page": "https://www.sas.com/en_us/certification.html",
+      "exam_count": 6,
+      "slug": "sas-institute"
+    },
+    {
+      "vendor_id": "ssc",
+      "display_name": "SSC",
+      "website": "https://ssc.gov.in",
+      "certification_page": "https://ssc.gov.in/portal/examschedule",
+      "exam_count": 6,
+      "slug": "ssc"
+    },
+    {
+      "vendor_id": "torfl",
+      "display_name": "TORFL",
+      "website": "https://www.torfl.ru",
+      "certification_page": "https://www.torfl.ru/en/tests",
+      "exam_count": 6,
+      "slug": "torfl"
+    },
+    {
+      "vendor_id": "open_group",
+      "display_name": "The Open Group",
+      "website": "https://www.opengroup.org",
+      "certification_page": "https://www.opengroup.org/certifications",
+      "exam_count": 6,
+      "slug": "the-open-group"
+    },
+    {
+      "vendor_id": "acfe",
+      "display_name": "ACFE",
+      "website": "https://www.acfe.com",
+      "certification_page": "https://www.acfe.com/cfe-exam/",
+      "exam_count": 5,
+      "slug": "acfe"
+    },
+    {
+      "vendor_id": "apics",
+      "display_name": "APICS (ASCM)",
+      "website": "https://www.ascm.org",
+      "certification_page": "https://www.ascm.org/certifications/",
+      "exam_count": 5,
+      "slug": "apics-ascm"
+    },
+    {
+      "vendor_id": "asse",
+      "display_name": "ASSP",
+      "website": "https://www.assp.org",
+      "certification_page": "https://www.assp.org/professional-development/certifications",
+      "exam_count": 5,
+      "slug": "assp"
+    },
+    {
+      "vendor_id": "appian",
+      "display_name": "Appian",
+      "website": "https://appian.com/learn/certifications",
+      "certification_page": "https://appian.com/learn/certifications",
+      "exam_count": 5,
+      "slug": "appian"
+    },
+    {
+      "vendor_id": "caanz",
+      "display_name": "CA ANZ",
+      "website": "https://www.charteredaccountantsanz.com",
+      "certification_page": "https://www.charteredaccountantsanz.com/become-a-member/pathways-to-membership/chartered-accountant",
+      "exam_count": 5,
+      "slug": "ca-anz"
+    },
+    {
+      "vendor_id": "cncf",
+      "display_name": "CNCF",
+      "website": "https://www.cncf.io",
+      "certification_page": "https://www.cncf.io/certifications/",
+      "exam_count": 5,
+      "slug": "cncf"
+    },
+    {
+      "vendor_id": "cpa_canada",
+      "display_name": "CPA Canada",
+      "website": "https://www.cpacanada.ca",
+      "certification_page": "https://www.cpacanada.ca/en/become-a-cpa/cpa-certification-program",
+      "exam_count": 5,
+      "slug": "cpa-canada"
+    },
+    {
+      "vendor_id": "cset",
+      "display_name": "CSET",
+      "website": "https://www.ctcexams.nesinc.com",
+      "certification_page": "https://www.ctcexams.nesinc.com/home.aspx",
+      "exam_count": 5,
+      "slug": "cset"
+    },
+    {
+      "vendor_id": "checkpoint",
+      "display_name": "Check Point",
+      "website": "https://www.checkpoint.com",
+      "certification_page": "https://www.checkpoint.com/downloads/training-certifications/certifications-info.pdf",
+      "exam_count": 5,
+      "slug": "check-point"
+    },
+    {
+      "vendor_id": "epa_608",
+      "display_name": "EPA Section 608",
+      "website": "https://www.epa.gov",
+      "certification_page": "https://www.epa.gov/section608",
+      "exam_count": 5,
+      "slug": "epa-section-608"
+    },
+    {
+      "vendor_id": "ftce",
+      "display_name": "FTCE",
+      "website": "https://www.fl.nesinc.com",
+      "certification_page": "https://www.fl.nesinc.com/",
+      "exam_count": 5,
+      "slug": "ftce"
+    },
+    {
+      "vendor_id": "github",
+      "display_name": "GitHub",
+      "website": "https://examregistration.github.com",
+      "certification_page": "https://examregistration.github.com/",
+      "exam_count": 5,
+      "slug": "github"
+    },
+    {
+      "vendor_id": "hesi",
+      "display_name": "HESI",
+      "website": "https://www.elsevier.com/education/hesi",
+      "certification_page": "https://www.elsevier.com/education/hesi/hesi-admissions-assessment",
+      "exam_count": 5,
+      "slug": "hesi"
+    },
+    {
+      "vendor_id": "hashicorp",
+      "display_name": "HashiCorp",
+      "website": "https://www.hashicorp.com",
+      "certification_page": "https://www.hashicorp.com/certification",
+      "exam_count": 5,
+      "slug": "hashicorp"
+    },
+    {
+      "vendor_id": "hiset",
+      "display_name": "HiSET",
+      "website": "https://hiset.ets.org",
+      "certification_page": "https://hiset.ets.org/requirements/subtests/",
+      "exam_count": 5,
+      "slug": "hiset"
+    },
+    {
+      "vendor_id": "hootsuite",
+      "display_name": "Hootsuite",
+      "website": "https://education.hootsuite.com",
+      "certification_page": "https://education.hootsuite.com/collections/certifications",
+      "exam_count": 5,
+      "slug": "hootsuite"
+    },
+    {
+      "vendor_id": "ibps",
+      "display_name": "IBPS",
+      "website": "https://www.ibps.in",
+      "certification_page": "https://www.ibps.in/examination",
+      "exam_count": 5,
+      "slug": "ibps"
+    },
+    {
+      "vendor_id": "icai",
+      "display_name": "ICAI",
+      "website": "https://icai.org",
+      "certification_page": "https://icai.org/examination.html",
+      "exam_count": 5,
+      "slug": "icai"
+    },
+    {
+      "vendor_id": "icmai",
+      "display_name": "ICMAI",
+      "website": "https://icmai.in",
+      "certification_page": "https://icmai.in/Examination/index.php",
+      "exam_count": 5,
+      "slug": "icmai"
+    },
+    {
+      "vendor_id": "ielts",
+      "display_name": "IELTS",
+      "website": "https://www.ielts.org",
+      "certification_page": "https://www.ielts.org/about-ielts/which-ielts-test-should-i-take",
+      "exam_count": 5,
+      "slug": "ielts"
+    },
+    {
+      "vendor_id": "jlpt",
+      "display_name": "JLPT",
+      "website": "https://www.jlpt.jp",
+      "certification_page": "https://www.jlpt.jp/e/about/levelsummary.html",
+      "exam_count": 5,
+      "slug": "jlpt"
+    },
+    {
+      "vendor_id": "loma",
+      "display_name": "LOMA",
+      "website": "https://www.loma.org",
+      "certification_page": "https://www.loma.org/designations",
+      "exam_count": 5,
+      "slug": "loma"
+    },
+    {
+      "vendor_id": "linux_foundation",
+      "display_name": "Linux Foundation",
+      "website": "https://training.linuxfoundation.org",
+      "certification_page": "https://training.linuxfoundation.org/certification/",
+      "exam_count": 5,
+      "slug": "linux-foundation"
+    },
+    {
+      "vendor_id": "mulesoft",
+      "display_name": "MuleSoft",
+      "website": "https://training.salesforce.com",
+      "certification_page": "https://training.salesforce.com/credentials/developeroverview",
+      "exam_count": 5,
+      "slug": "mulesoft"
+    },
+    {
+      "vendor_id": "ncbe",
+      "display_name": "NCBE",
+      "website": "https://www.ncbex.org",
+      "certification_page": "https://www.ncbex.org/exams",
+      "exam_count": 5,
+      "slug": "ncbe"
+    },
+    {
+      "vendor_id": "nta",
+      "display_name": "NTA",
+      "website": "https://nta.ac.in",
+      "certification_page": "https://nta.ac.in/examination",
+      "exam_count": 5,
+      "slug": "nta"
+    },
+    {
+      "vendor_id": "outsystems",
+      "display_name": "OutSystems",
+      "website": "https://www.outsystems.com/learn/certifications",
+      "certification_page": "https://www.outsystems.com/learn/certifications",
+      "exam_count": 5,
+      "slug": "outsystems"
+    },
+    {
+      "vendor_id": "ptcb",
+      "display_name": "PTCB",
+      "website": "https://www.ptcb.org",
+      "certification_page": "https://www.ptcb.org/credentials",
+      "exam_count": 5,
+      "slug": "ptcb"
+    },
+    {
+      "vendor_id": "servsafe",
+      "display_name": "ServSafe",
+      "website": "https://www.servsafe.com",
+      "certification_page": "https://www.servsafe.com/",
+      "exam_count": 5,
+      "slug": "servsafe"
+    },
+    {
+      "vendor_id": "snowflake",
+      "display_name": "Snowflake",
+      "website": "https://learn.snowflake.com",
+      "certification_page": "https://learn.snowflake.com/en/certifications/",
+      "exam_count": 5,
+      "slug": "snowflake"
+    },
+    {
+      "vendor_id": "texes",
+      "display_name": "TExES",
+      "website": "https://www.tx.nesinc.com",
+      "certification_page": "https://www.tx.nesinc.com/",
+      "exam_count": 5,
+      "slug": "texes"
+    },
+    {
+      "vendor_id": "upsc",
+      "display_name": "UPSC",
+      "website": "https://upsc.gov.in",
+      "certification_page": "https://upsc.gov.in/examinations/active-examinations",
+      "exam_count": 5,
+      "slug": "upsc"
+    },
+    {
+      "vendor_id": "uipath",
+      "display_name": "UiPath",
+      "website": "https://www.uipath.com",
+      "certification_page": "https://www.uipath.com/resources/automation-analyst-study-guide",
+      "exam_count": 5,
+      "slug": "uipath"
+    },
+    {
+      "vendor_id": "zendesk",
+      "display_name": "Zendesk",
+      "website": "https://www.zendesk.com/training/",
+      "certification_page": "https://www.zendesk.com/training/certifications/",
+      "exam_count": 5,
+      "slug": "zendesk"
+    },
+    {
+      "vendor_id": "aama",
+      "display_name": "AAMA",
+      "website": "https://www.aama-ntl.org",
+      "certification_page": "https://www.aama-ntl.org/cma-aama-exam",
+      "exam_count": 4,
+      "slug": "aama"
+    },
+    {
+      "vendor_id": "ace_fitness",
+      "display_name": "ACE Fitness",
+      "website": "https://www.acefitness.org",
+      "certification_page": "https://www.acefitness.org/fitness-certifications/ace-answers/exam-preparation-blog/",
+      "exam_count": 4,
+      "slug": "ace-fitness"
+    },
+    {
+      "vendor_id": "act_exam",
+      "display_name": "ACT",
+      "website": "https://www.act.org",
+      "certification_page": "https://www.act.org/content/act/en/products-and-services/the-act.html",
+      "exam_count": 4,
+      "slug": "act"
+    },
+    {
+      "vendor_id": "asvab",
+      "display_name": "ASVAB",
+      "website": "https://www.officialasvab.com",
+      "certification_page": "https://www.officialasvab.com/",
+      "exam_count": 4,
+      "slug": "asvab"
+    },
+    {
+      "vendor_id": "aswb",
+      "display_name": "ASWB",
+      "website": "https://www.aswb.org",
+      "certification_page": "https://www.aswb.org/exam-candidates/about-the-exams/",
+      "exam_count": 4,
+      "slug": "aswb"
+    },
+    {
+      "vendor_id": "teas",
+      "display_name": "ATI TEAS",
+      "website": "https://www.atitesting.com/teas",
+      "certification_page": "https://www.atitesting.com/teas",
+      "exam_count": 4,
+      "slug": "ati-teas"
+    },
+    {
+      "vendor_id": "aruba",
+      "display_name": "Aruba Networks",
+      "website": "https://www.arubanetworks.com/support-services/hpe-aruba-networking-certifications/",
+      "certification_page": "https://www.arubanetworks.com/support-services/hpe-aruba-networking-certifications/",
+      "exam_count": 4,
+      "slug": "aruba-networks"
+    },
+    {
+      "vendor_id": "boomi",
+      "display_name": "Boomi",
+      "website": "https://community.boomi.com/s/certification",
+      "certification_page": "https://community.boomi.com/s/certification",
+      "exam_count": 4,
+      "slug": "boomi"
+    },
+    {
+      "vendor_id": "celpe_bras",
+      "display_name": "CELPE-Bras",
+      "website": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/celpe-bras",
+      "certification_page": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/celpe-bras",
+      "exam_count": 4,
+      "slug": "celpe-bras"
+    },
+    {
+      "vendor_id": "celonis",
+      "display_name": "Celonis",
+      "website": "https://academy.celonis.com",
+      "certification_page": "https://academy.celonis.com/learn/catalog/view/certifications",
+      "exam_count": 4,
+      "slug": "celonis"
+    },
+    {
+      "vendor_id": "dama",
+      "display_name": "DAMA International",
+      "website": "https://www.dama.org",
+      "certification_page": "https://www.dama.org/cpages/certification",
+      "exam_count": 4,
+      "slug": "dama-international"
+    },
+    {
+      "vendor_id": "datadog",
+      "display_name": "Datadog",
+      "website": "https://www.datadoghq.com",
+      "certification_page": "https://www.datadoghq.com/certification/overview/",
+      "exam_count": 4,
+      "slug": "datadog"
+    },
+    {
+      "vendor_id": "dynatrace",
+      "display_name": "Dynatrace",
+      "website": "https://www.dynatrace.com",
+      "certification_page": "https://www.dynatrace.com/services-support/university/certification/",
+      "exam_count": 4,
+      "slug": "dynatrace"
+    },
+    {
+      "vendor_id": "ec_council",
+      "display_name": "EC-Council",
+      "website": "https://www.eccouncil.org",
+      "certification_page": "https://www.eccouncil.org/train-certify/",
+      "exam_count": 4,
+      "slug": "ec-council"
+    },
+    {
+      "vendor_id": "elastic",
+      "display_name": "Elastic",
+      "website": "https://www.elastic.co",
+      "certification_page": "https://www.elastic.co/training/certification",
+      "exam_count": 4,
+      "slug": "elastic"
+    },
+    {
+      "vendor_id": "f5_networks",
+      "display_name": "F5 Networks",
+      "website": "https://www.f5.com/services/training/certification",
+      "certification_page": "https://www.f5.com/services/training/certification",
+      "exam_count": 4,
+      "slug": "f5-networks"
+    },
+    {
+      "vendor_id": "ged",
+      "display_name": "GED Testing Service",
+      "website": "https://ged.com",
+      "certification_page": "https://ged.com/about_test/test_subjects/",
+      "exam_count": 4,
+      "slug": "ged-testing-service"
+    },
+    {
+      "vendor_id": "iosh",
+      "display_name": "IOSH",
+      "website": "https://www.iosh.com",
+      "certification_page": "https://www.iosh.com/training-and-skills/",
+      "exam_count": 4,
+      "slug": "iosh"
+    },
+    {
+      "vendor_id": "isc2",
+      "display_name": "ISC2",
+      "website": "https://www.isc2.org",
+      "certification_page": "https://www.isc2.org/certifications",
+      "exam_count": 4,
+      "slug": "isc2"
+    },
+    {
+      "vendor_id": "isee",
+      "display_name": "ISEE",
+      "website": "https://www.erblearn.org",
+      "certification_page": "https://www.erblearn.org/families/isee/",
+      "exam_count": 4,
+      "slug": "isee"
+    },
+    {
+      "vendor_id": "ism",
+      "display_name": "ISM",
+      "website": "https://www.ismworld.org",
+      "certification_page": "https://www.ismworld.org/certification-and-training/certification/",
+      "exam_count": 4,
+      "slug": "ism"
+    },
+    {
+      "vendor_id": "ib",
+      "display_name": "International Baccalaureate",
+      "website": "https://www.ibo.org",
+      "certification_page": "https://www.ibo.org/programmes/",
+      "exam_count": 4,
+      "slug": "international-baccalaureate"
+    },
+    {
+      "vendor_id": "language_tests",
+      "display_name": "Language Proficiency Tests",
+      "website": "https://www.ielts.org",
+      "certification_page": "https://www.ielts.org/",
+      "exam_count": 4,
+      "slug": "language-proficiency-tests"
+    },
+    {
+      "vendor_id": "mendix",
+      "display_name": "Mendix",
+      "website": "https://academy.mendix.com/link/certification",
+      "certification_page": "https://academy.mendix.com/link/certification",
+      "exam_count": 4,
+      "slug": "mendix"
+    },
+    {
+      "vendor_id": "mongodb",
+      "display_name": "MongoDB",
+      "website": "https://learn.mongodb.com",
+      "certification_page": "https://learn.mongodb.com/pages/certification",
+      "exam_count": 4,
+      "slug": "mongodb"
+    },
+    {
+      "vendor_id": "nabp",
+      "display_name": "NABP",
+      "website": "https://nabp.pharmacy",
+      "certification_page": "https://nabp.pharmacy/programs/",
+      "exam_count": 4,
+      "slug": "nabp"
+    },
+    {
+      "vendor_id": "nbde",
+      "display_name": "NBDE / Joint Commission",
+      "website": "https://www.ada.org",
+      "certification_page": "https://jcnde.ada.org/",
+      "exam_count": 4,
+      "slug": "nbde-joint-commission"
+    },
+    {
+      "vendor_id": "nbeo",
+      "display_name": "NBEO",
+      "website": "https://www.nbeo.org",
+      "certification_page": "https://www.nbeo.org/examinations",
+      "exam_count": 4,
+      "slug": "nbeo"
+    },
+    {
+      "vendor_id": "nbome",
+      "display_name": "NBOME",
+      "website": "https://www.nbome.org",
+      "certification_page": "https://www.nbome.org/comlex-usa/",
+      "exam_count": 4,
+      "slug": "nbome"
+    },
+    {
+      "vendor_id": "nccer",
+      "display_name": "NCCER",
+      "website": "https://www.nccer.org",
+      "certification_page": "https://www.nccer.org/workforce-development-programs/credentials",
+      "exam_count": 4,
+      "slug": "nccer"
+    },
+    {
+      "vendor_id": "nremt",
+      "display_name": "NREMT",
+      "website": "https://www.nremt.org",
+      "certification_page": "https://www.nremt.org/certifications/",
+      "exam_count": 4,
+      "slug": "nremt"
+    },
+    {
+      "vendor_id": "new_relic",
+      "display_name": "New Relic",
+      "website": "https://learn.newrelic.com",
+      "certification_page": "https://learn.newrelic.com/certifications",
+      "exam_count": 4,
+      "slug": "new-relic"
+    },
+    {
+      "vendor_id": "nutanix",
+      "display_name": "Nutanix",
+      "website": "https://www.nutanix.com",
+      "certification_page": "https://www.nutanix.com/support-services/training-certification/certifications",
+      "exam_count": 4,
+      "slug": "nutanix"
+    },
+    {
+      "vendor_id": "offsec",
+      "display_name": "OffSec",
+      "website": "https://www.offsec.com",
+      "certification_page": "https://www.offsec.com/courses-and-certifications/",
+      "exam_count": 4,
+      "slug": "offsec"
+    },
+    {
+      "vendor_id": "pmi",
+      "display_name": "PMI",
+      "website": "https://www.pmi.org",
+      "certification_page": "https://www.pmi.org/certifications",
+      "exam_count": 4,
+      "slug": "pmi"
+    },
+    {
+      "vendor_id": "paloalto",
+      "display_name": "Palo Alto Networks",
+      "website": "https://www.paloaltonetworks.com",
+      "certification_page": "https://www.paloaltonetworks.com/services/education/certification",
+      "exam_count": 4,
+      "slug": "palo-alto-networks"
+    },
+    {
+      "vendor_id": "red_hat",
+      "display_name": "Red Hat",
+      "website": "https://www.redhat.com",
+      "certification_page": "https://www.redhat.com/en/services/certification",
+      "exam_count": 4,
+      "slug": "red-hat"
+    },
+    {
+      "vendor_id": "tableau",
+      "display_name": "Tableau",
+      "website": "https://www.tableau.com",
+      "certification_page": "https://www.tableau.com/learn/certification",
+      "exam_count": 4,
+      "slug": "tableau"
+    },
+    {
+      "vendor_id": "veeam",
+      "display_name": "Veeam",
+      "website": "https://www.veeam.com/certifications.html",
+      "certification_page": "https://www.veeam.com/certifications.html",
+      "exam_count": 4,
+      "slug": "veeam"
+    },
+    {
+      "vendor_id": "wonderlic",
+      "display_name": "Wonderlic",
+      "website": "https://www.wonderlic.com",
+      "certification_page": "https://www.wonderlic.com/assessments/ability/",
+      "exam_count": 4,
+      "slug": "wonderlic"
+    },
+    {
+      "vendor_id": "zscaler",
+      "display_name": "Zscaler",
+      "website": "https://www.zscaler.com",
+      "certification_page": "https://www.zscaler.com/learning-resources/certifications",
+      "exam_count": 4,
+      "slug": "zscaler"
+    },
+    {
+      "vendor_id": "aavsb",
+      "display_name": "AAVSB",
+      "website": "https://www.aavsb.org",
+      "certification_page": "https://www.aavsb.org/navle/",
+      "exam_count": 3,
+      "slug": "aavsb"
+    },
+    {
+      "vendor_id": "afp",
+      "display_name": "AFP",
+      "website": "https://www.afponline.org",
+      "certification_page": "https://www.afponline.org/certifications",
+      "exam_count": 3,
+      "slug": "afp"
+    },
+    {
+      "vendor_id": "bloomberg",
+      "display_name": "Bloomberg",
+      "website": "https://www.bloomberg.com/professional/product/bloomberg-market-concepts/",
+      "certification_page": "https://www.bloomberg.com/professional/product/bloomberg-market-concepts/",
+      "exam_count": 3,
+      "slug": "bloomberg"
+    },
+    {
+      "vendor_id": "cmt_association",
+      "display_name": "CMT Association",
+      "website": "https://cmtassociation.org",
+      "certification_page": "https://cmtassociation.org/cmt-program/",
+      "exam_count": 3,
+      "slug": "cmt-association"
+    },
+    {
+      "vendor_id": "caie",
+      "display_name": "Cambridge International Education (CAIE)",
+      "website": "https://www.cambridgeinternational.org",
+      "certification_page": "https://www.cambridgeinternational.org/programmes-and-qualifications/",
+      "exam_count": 3,
+      "slug": "cambridge-international-education-caie"
+    },
+    {
+      "vendor_id": "confluent",
+      "display_name": "Confluent",
+      "website": "https://www.confluent.io",
+      "certification_page": "https://www.confluent.io/certification/",
+      "exam_count": 3,
+      "slug": "confluent"
+    },
+    {
+      "vendor_id": "garp",
+      "display_name": "GARP",
+      "website": "https://www.garp.org",
+      "certification_page": "https://www.garp.org/frm",
+      "exam_count": 3,
+      "slug": "garp"
+    },
+    {
+      "vendor_id": "ibm",
+      "display_name": "IBM",
+      "website": "https://www.ibm.com",
+      "certification_page": "https://www.ibm.com/training/certifications",
+      "exam_count": 3,
+      "slug": "ibm"
+    },
+    {
+      "vendor_id": "icsi",
+      "display_name": "ICSI",
+      "website": "https://www.icsi.edu",
+      "certification_page": "https://www.icsi.edu/examinations/",
+      "exam_count": 3,
+      "slug": "icsi"
+    },
+    {
+      "vendor_id": "mat",
+      "display_name": "Miller Analogies Test",
+      "website": "https://www.milleranalogies.com",
+      "certification_page": "https://www.milleranalogies.com/",
+      "exam_count": 3,
+      "slug": "miller-analogies-test"
+    },
+    {
+      "vendor_id": "naea",
+      "display_name": "NAEA (Enrolled Agent)",
+      "website": "https://www.naea.org",
+      "certification_page": "https://www.prometric.com/test-takers/search/irs",
+      "exam_count": 3,
+      "slug": "naea-enrolled-agent"
+    },
+    {
+      "vendor_id": "nbme",
+      "display_name": "NBME (USMLE)",
+      "website": "https://www.usmle.org",
+      "certification_page": "https://www.usmle.org/step-exams",
+      "exam_count": 3,
+      "slug": "nbme-usmle"
+    },
+    {
+      "vendor_id": "nccpa",
+      "display_name": "NCCPA",
+      "website": "https://www.nccpa.net",
+      "certification_page": "https://www.nccpa.net/certifications/",
+      "exam_count": 3,
+      "slug": "nccpa"
+    },
+    {
+      "vendor_id": "nmls",
+      "display_name": "NMLS",
+      "website": "https://mortgage.nationwidelicensingsystem.org",
+      "certification_page": "https://mortgage.nationwidelicensingsystem.org/slr/Pages/default.aspx",
+      "exam_count": 3,
+      "slug": "nmls"
+    },
+    {
+      "vendor_id": "pte",
+      "display_name": "Pearson PTE",
+      "website": "https://www.pearsonpte.com",
+      "certification_page": "https://www.pearsonpte.com/",
+      "exam_count": 3,
+      "slug": "pearson-pte"
+    },
+    {
+      "vendor_id": "ssat",
+      "display_name": "SSAT",
+      "website": "https://www.ssat.org",
+      "certification_page": "https://www.ssat.org/test/",
+      "exam_count": 3,
+      "slug": "ssat"
+    },
+    {
+      "vendor_id": "toeic",
+      "display_name": "TOEIC (ETS)",
+      "website": "https://www.ets.org/toeic",
+      "certification_page": "https://www.ets.org/toeic/about/",
+      "exam_count": 3,
+      "slug": "toeic-ets"
+    },
+    {
+      "vendor_id": "caia",
+      "display_name": "CAIA Association",
+      "website": "https://caia.org",
+      "certification_page": "https://caia.org/caia-program",
+      "exam_count": 2,
+      "slug": "caia-association"
+    },
+    {
+      "vendor_id": "cdr",
+      "display_name": "CDR",
+      "website": "https://www.cdrnet.org",
+      "certification_page": "https://www.cdrnet.org/certifications",
+      "exam_count": 2,
+      "slug": "cdr"
+    },
+    {
+      "vendor_id": "celpip",
+      "display_name": "CELPIP",
+      "website": "https://www.celpip.ca",
+      "certification_page": "https://www.celpip.ca/take-celpip/",
+      "exam_count": 2,
+      "slug": "celpip"
+    },
+    {
+      "vendor_id": "docker",
+      "display_name": "Docker",
+      "website": "https://www.docker.com",
+      "certification_page": "https://www.docker.com/certification/",
+      "exam_count": 2,
+      "slug": "docker"
+    },
+    {
+      "vendor_id": "duolingo_english",
+      "display_name": "Duolingo English Test",
+      "website": "https://englishtest.duolingo.com",
+      "certification_page": "https://englishtest.duolingo.com/",
+      "exam_count": 2,
+      "slug": "duolingo-english-test"
+    },
+    {
+      "vendor_id": "fsbpt",
+      "display_name": "FSBPT",
+      "website": "https://www.fsbpt.org",
+      "certification_page": "https://www.fsbpt.org/Examinations",
+      "exam_count": 2,
+      "slug": "fsbpt"
+    },
+    {
+      "vendor_id": "gmac",
+      "display_name": "GMAC",
+      "website": "https://www.mba.com",
+      "certification_page": "https://www.mba.com/exams",
+      "exam_count": 2,
+      "slug": "gmac"
+    },
+    {
+      "vendor_id": "ima",
+      "display_name": "IMA",
+      "website": "https://www.imanet.org",
+      "certification_page": "https://www.imanet.org/cma-certification",
+      "exam_count": 2,
+      "slug": "ima"
+    },
+    {
+      "vendor_id": "nala",
+      "display_name": "NALA",
+      "website": "https://nala.org",
+      "certification_page": "https://nala.org/certifications/",
+      "exam_count": 2,
+      "slug": "nala"
+    },
+    {
+      "vendor_id": "nbcot",
+      "display_name": "NBCOT",
+      "website": "https://www.nbcot.org",
+      "certification_page": "https://www.nbcot.org/candidates",
+      "exam_count": 2,
+      "slug": "nbcot"
+    },
+    {
+      "vendor_id": "nbrc",
+      "display_name": "NBRC",
+      "website": "https://www.nbrc.org",
+      "certification_page": "https://www.nbrc.org/examinations",
+      "exam_count": 2,
+      "slug": "nbrc"
+    },
+    {
+      "vendor_id": "ncsbn",
+      "display_name": "NCSBN",
+      "website": "https://www.ncsbn.org",
+      "certification_page": "https://www.ncsbn.org/nclex",
+      "exam_count": 2,
+      "slug": "ncsbn"
+    },
+    {
+      "vendor_id": "oet",
+      "display_name": "OET",
+      "website": "https://www.occupationalenglishtest.org",
+      "certification_page": "https://www.occupationalenglishtest.org/test-takers/about-oet/test-format/",
+      "exam_count": 2,
+      "slug": "oet"
+    },
+    {
+      "vendor_id": "shrm",
+      "display_name": "SHRM",
+      "website": "https://www.shrm.org",
+      "certification_page": "https://www.shrm.org/credentials",
+      "exam_count": 2,
+      "slug": "shrm"
+    },
+    {
+      "vendor_id": "topik",
+      "display_name": "TOPIK",
+      "website": "https://www.topik.go.kr",
+      "certification_page": "https://www.topik.go.kr/usr/cmm/index.do",
+      "exam_count": 2,
+      "slug": "topik"
+    },
+    {
+      "vendor_id": "pcat",
+      "display_name": "AACP (PCAT)",
+      "website": "https://www.pcatweb.info",
+      "certification_page": "https://www.pcatweb.info/taking-the-pcat/test-content/",
+      "exam_count": 1,
+      "slug": "aacp-pcat"
+    },
+    {
+      "vendor_id": "aamc",
+      "display_name": "AAMC",
+      "website": "https://www.aamc.org",
+      "certification_page": "https://www.aamc.org/what-we-do/mission-areas/medical-education/mcat",
+      "exam_count": 1,
+      "slug": "aamc"
+    },
+    {
+      "vendor_id": "dat",
+      "display_name": "ADA (DAT)",
+      "website": "https://www.ada.org/dat",
+      "certification_page": "https://www.ada.org/dat/dat-guide",
+      "exam_count": 1,
+      "slug": "ada-dat"
+    },
+    {
+      "vendor_id": "oat",
+      "display_name": "ASCO (OAT)",
+      "website": "https://www.optomcas.org",
+      "certification_page": "https://www.optomcas.org/oat",
+      "exam_count": 1,
+      "slug": "asco-oat"
+    },
+    {
+      "vendor_id": "boc_athletic",
+      "display_name": "BOC Athletic Training",
+      "website": "https://www.bocatc.org",
+      "certification_page": "https://www.bocatc.org/athletic-trainers/earn-the-atc",
+      "exam_count": 1,
+      "slug": "boc-athletic-training"
+    },
+    {
+      "vendor_id": "cbest",
+      "display_name": "CBEST",
+      "website": "https://www.ctcexams.nesinc.com",
+      "certification_page": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CBEST_TestPage.html",
+      "exam_count": 1,
+      "slug": "cbest"
+    },
+    {
+      "vendor_id": "cfp_board",
+      "display_name": "CFP Board",
+      "website": "https://www.cfp.net",
+      "certification_page": "https://www.cfp.net/get-certified/certification-process/pass-the-cfp-exam",
+      "exam_count": 1,
+      "slug": "cfp-board"
+    },
+    {
+      "vendor_id": "hspt",
+      "display_name": "HSPT",
+      "website": "https://www.ststesting.com",
+      "certification_page": "https://www.ststesting.com/hspt.html",
+      "exam_count": 1,
+      "slug": "hspt"
+    },
+    {
+      "vendor_id": "lsac",
+      "display_name": "LSAC",
+      "website": "https://www.lsac.org",
+      "certification_page": "https://www.lsac.org/lsat",
+      "exam_count": 1,
+      "slug": "lsac"
+    },
+    {
+      "vendor_id": "shsat",
+      "display_name": "SHSAT",
+      "website": "https://www.schools.nyc.gov",
+      "certification_page": "https://www.schools.nyc.gov/enrollment/high-schools/specialized-high-schools",
+      "exam_count": 1,
+      "slug": "shsat"
+    }
+  ]
+}

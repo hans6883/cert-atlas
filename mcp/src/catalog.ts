@@ -22,46 +22,84 @@ const RAW_BASE =
   process.env.CERT_ATLAS_RAW_BASE?.replace(/\/+$/, "") ??
   "https://raw.githubusercontent.com/hans6883/cert-atlas/master";
 
-const UA = "cert-atlas-mcp/1.0 (+https://github.com/hans6883/cert-atlas)";
+const UA = "cert-atlas-mcp/1.2 (+https://github.com/hans6883/cert-atlas)";
 
-/** Locate a local data/ dir: explicit env override, else repo root relative to dist/. */
-function resolveLocalDataDir(): string | null {
-  if (process.env.CERT_ATLAS_DATA_DIR) return process.env.CERT_ATLAS_DATA_DIR;
+/**
+ * Ordered list of local `data/` directories to try before the network:
+ *   1. CERT_ATLAS_DATA_DIR  — explicit data dir.
+ *   2. CERT_ATLAS_LOCAL/data — repo root (used by the VPS/remote deployment).
+ *   3. <dist>/../../data     — repo-local, when run from inside the cert-atlas repo.
+ *   4. <dist>/../data        — the snapshot bundled in the npm package (instant search).
+ * The bundled index.json makes search work offline/instantly; blueprints not in any
+ * local dir are lazy-fetched from raw GitHub (so the install stays tiny).
+ */
+function localDataDirs(): string[] {
+  const dirs: string[] = [];
+  if (process.env.CERT_ATLAS_DATA_DIR) dirs.push(process.env.CERT_ATLAS_DATA_DIR);
+  if (process.env.CERT_ATLAS_LOCAL) dirs.push(join(process.env.CERT_ATLAS_LOCAL, "data"));
   try {
     const here = dirname(fileURLToPath(import.meta.url)); // .../mcp/dist
-    return resolve(here, "..", "..", "data"); // .../cert-atlas/data
+    dirs.push(resolve(here, "..", "..", "data")); // repo: .../cert-atlas/data
+    dirs.push(resolve(here, "..", "data")); // bundled: .../mcp/data
   } catch {
-    return null;
+    /* import.meta.url unavailable — remote only */
   }
+  return dirs;
 }
 
-const LOCAL_DATA_DIR = resolveLocalDataDir();
-// null = unknown, true = local files present, false = fall back to remote.
-let localUsable: boolean | null = null;
+const LOCAL_DIRS = localDataDirs();
+const sourcesUsed = new Set<string>();
 
 /** Read a dataset file by its path relative to data/ (e.g. "index.json", "aws/x.json"). */
 async function readData(relPath: string): Promise<unknown> {
-  if (LOCAL_DATA_DIR && localUsable !== false) {
+  for (const dir of LOCAL_DIRS) {
     try {
-      const txt = await fs.readFile(join(LOCAL_DATA_DIR, relPath), "utf8");
-      localUsable = true;
+      const txt = await fs.readFile(join(dir, relPath), "utf8");
+      sourcesUsed.add(dir);
       return JSON.parse(txt);
     } catch {
-      // The index is the probe: if it's missing locally, switch to remote for good.
-      if (relPath === "index.json") localUsable = false;
-      // A single missing blueprint still falls through to the remote fetch below.
+      /* try the next candidate, then remote */
     }
   }
   const res = await fetch(`${RAW_BASE}/data/${relPath}`, { headers: { "User-Agent": UA } });
   if (!res.ok) throw new Error(`Cert Atlas fetch failed for data/${relPath}: HTTP ${res.status}`);
+  sourcesUsed.add(`${RAW_BASE}/data`);
   return res.json();
 }
 
-/** Where the data is being read from, for diagnostics. */
+/** Where data has actually been read from, for diagnostics. */
 export function dataSource(): string {
-  if (localUsable === true && LOCAL_DATA_DIR) return `local: ${LOCAL_DATA_DIR}`;
-  if (localUsable === false) return `remote: ${RAW_BASE}/data`;
-  return `auto (local: ${LOCAL_DATA_DIR ?? "n/a"}, remote: ${RAW_BASE}/data)`;
+  if (sourcesUsed.size) return [...sourcesUsed].join(", ");
+  return `auto (local candidates: ${LOCAL_DIRS.length}, remote: ${RAW_BASE}/data)`;
+}
+
+// ---------------------------------------------------------------------------
+// Funnel: append QuizForge UTM attribution + a one-line CTA to every practice link
+// ---------------------------------------------------------------------------
+const UTM_MEDIUM = "cert_atlas";
+
+/**
+ * Append utm_source/medium/campaign to a practice_url, preserving any existing
+ * query. utm_campaign is the tool that produced the link, so analytics shows
+ * which agent intent converts. Returns null only when there is no url.
+ */
+export function withUtm(url: string | null | undefined, tool: string): string | null {
+  if (!url) return null;
+  try {
+    const u = new URL(url);
+    if (!u.searchParams.has("utm_source")) u.searchParams.set("utm_source", "mcp");
+    if (!u.searchParams.has("utm_medium")) u.searchParams.set("utm_medium", UTM_MEDIUM);
+    u.searchParams.set("utm_campaign", tool);
+    return u.toString();
+  } catch {
+    const sep = url.includes("?") ? "&" : "?";
+    return `${url}${sep}utm_source=mcp&utm_medium=${UTM_MEDIUM}&utm_campaign=${tool}`;
+  }
+}
+
+/** Factual, singular call-to-action for a single exam's practice link. */
+export function practiceCta(examName: string, practiceUrl: string): string {
+  return `Free practice exam for ${examName} → ${practiceUrl}`;
 }
 
 // ---------------------------------------------------------------------------

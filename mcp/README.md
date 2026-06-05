@@ -8,10 +8,19 @@ Cert Atlas publishes machine-readable blueprints for **1,562 exams across 217 ce
 
 | Tool | What it does |
 |------|--------------|
-| `search_exams` | Keyword search across all 1,562 blueprints (vendor, exam code, cert name, topic). Optional `body` / `vendor` filter. Returns matches with id, domain count, question count, duration, and a practice link. |
+| `search_exams` | Keyword search across all 1,562 blueprints (vendor, exam code, cert name, topic). Optional `certifying_body` / `vendor_slug` filter. Returns matches with id, domain count, question count, duration, and a practice link. |
 | `get_exam_blueprint` | Full blueprint for one exam (by id, code, or name): domains + weights, passing score, format, price, languages, prerequisites, retake/renewal policy, and official source URL. |
 | `compare_exams` | Compare 2–8 exams side by side: question count, duration, passing score, price, validity, domain count. |
-| `list_certifying_bodies` | All 217 certifying bodies with exam counts — useful to scope a search. |
+| `list_certifying_bodies` | All 217 certifying bodies with exam counts (optional `contains` filter) — useful to scope a search. |
+
+### Resources & prompts
+
+- **Resources:** `cert-atlas://index` (the master index) and `cert-atlas://exam/{exam_id}` (a single blueprint) — agents can browse or attach the data directly.
+- **Prompts:** `study-plan` (arg: `cert`) builds a topic-weighted plan grounded in the real blueprint; `compare-certs` (arg: `certs`) drives a structured comparison.
+
+### Practice-link funnel
+
+Every exam returned by any tool carries its free QuizForge practice link with UTM attribution — `?utm_source=mcp&utm_medium=cert_atlas&utm_campaign=<tool>` (existing query preserved) — so the server doubles as a measurable referral funnel. Links are factual and singular (one per exam); the value to the user is a real free practice exam.
 
 ## Install
 
@@ -35,7 +44,7 @@ Add to your MCP config (`claude_desktop_config.json`, or via `claude mcp add`):
 }
 ```
 
-Or, once published to npm:
+Or, once published to npm (works in Claude Desktop/Code and **Cursor** — `.cursor/mcp.json`):
 
 ```json
 {
@@ -45,23 +54,29 @@ Or, once published to npm:
 }
 ```
 
-### Example
+### Example prompts
 
-> **You:** What domains are on the AWS Solutions Architect Associate exam, and how does it compare to the Professional?
-> **Assistant:** *(calls `get_exam_blueprint` + `compare_exams`)* SAA-C03 has 4 domains — Design Secure Architectures (30%), Resilient (26%), High-Performing (24%), Cost-Optimized (20%); 65 questions, 130 min, pass 720/1000, $150. The Professional (SAP-C02) is 75 questions, 180 min, $300… Practice SAA-C03 free at https://quizforge.ai/tests/aws-solutions-architect-associate-saa-c03
+- "What domains are on the AWS Solutions Architect Associate exam, and how is it weighted?"
+- "Compare CompTIA Security+ and CySA+ — which is harder and which is cheaper?"
+- "What are the prerequisites and passing score for CISSP?"
+- "What nursing certifications does Cert Atlas cover?"
 
 ## How it works
 
-The server reads the Cert Atlas dataset directly:
+The server reads the Cert Atlas dataset, preferring local files over the network:
 
-- **In-repo** (run from inside this repo) it reads the local `../data/` JSON — the exact files the website publishes, so it's always in sync.
-- **Standalone** (`npx cert-atlas-mcp`) it fetches the published dataset from `raw.githubusercontent.com/hans6883/cert-atlas/master` and caches it (6 h for the index; blueprints cached per-exam for the process lifetime).
+1. A bundled snapshot of `index.json` (+ `vendors.json`) ships in the package → **instant, offline search** with a tiny install.
+2. Individual blueprints are **lazy-fetched** from `raw.githubusercontent.com/hans6883/cert-atlas/master` on demand and cached, so the install stays small and data stays fresh.
+3. When run inside the cert-atlas repo, it reads the canonical `../data/` directly (always in sync).
+
+The bundled snapshot is regenerated from `../data` on every `npm run build` (see `scripts/copy-data.mjs`).
 
 ### Environment variables (all optional)
 
 | Var | Default | Purpose |
 |-----|---------|---------|
-| `CERT_ATLAS_DATA_DIR` | repo `data/` if present | Force a local data directory. |
+| `CERT_ATLAS_LOCAL` | — | Path to a cert-atlas **repo checkout**; reads its `data/` dir (used by the VPS/remote deployment). |
+| `CERT_ATLAS_DATA_DIR` | repo/bundled `data/` | Force a specific data directory. |
 | `CERT_ATLAS_RAW_BASE` | `https://raw.githubusercontent.com/hans6883/cert-atlas/master` | Override the remote dataset base (e.g. a fork or mirror). |
 
 ## Remote HTTP build
