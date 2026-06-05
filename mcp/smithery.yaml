@@ -1,0 +1,10 @@
+# Smithery configuration — https://smithery.ai/docs
+# cert-atlas-mcp is a read-only stdio server with no configuration or secrets.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+    required: []
+  commandFunction: |-
+    () => ({ command: "node", args: ["dist/index.js"] })
