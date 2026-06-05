@@ -1,0 +1,24 @@
+# Cert Atlas
+
+> The open index of certification exam blueprints — a free, machine-readable dataset of 1,562 certification exams across 217 certifying bodies, sourced from official exam guides (no proprietary or scraped questions).
+
+Each exam record is structured JSON with the official **domain/objective breakdown and topic weights**, plus passing score, question count and types, duration, price, prerequisites, retake and renewal policies, testing centers, available languages, and source URLs. Ideal for grounding/RAG when answering questions about what a certification exam covers, its requirements, or how to study for it.
+
+## Access
+- Site: https://atlas.quizforge.ai/
+- Repository: https://github.com/hans6883/cert-atlas
+- Master index (all 1,562 exams, JSON): https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json
+- Per-exam files: https://github.com/hans6883/cert-atlas/tree/master/data/<vendor>/<exam>.json
+- License: MIT (free to use, including commercially, with attribution)
+
+## What each exam record contains
+exam_id, exam_name, exam_code, certifying_body, source_url, passing_score, total_questions, question_types, exam_format, duration_minutes, exam_price_usd, testing_centers, prerequisites, retake_policy, renewal_options, certification_validity_years, available_languages, and the official exam domains with their weights.
+
+## Coverage (examples)
+AWS, Microsoft (Azure), Google Cloud, CompTIA, Cisco, ISC2, CNCF/Kubernetes, Salesforce, ServiceNow, Oracle, Snowflake (IT); NCSBN/NCLEX, AACN, ARRT, AAPC (healthcare); CFA Institute, FINRA, AICPA, GARP (finance); NCEES (engineering); PMI, Scrum, SHRM (PM/business); College Board, ETS, CLEP, DSST, ASVAB (academic); plus DMV, real-estate, trades, and language-proficiency exams.
+
+## Related
+Practice exams for many of these certifications: https://quizforge.ai — QuizForge generates blueprint-aligned practice questions (using data like this) in English, Spanish, and Hindi. Each Cert Atlas index entry includes a `practice_url` pointing to the matching QuizForge practice exam.
+
+## How to cite
+"Cert Atlas — Open Index of Certification Exam Blueprints" (QuizForge.ai), https://atlas.quizforge.ai/

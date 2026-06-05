@@ -2,7 +2,15 @@
 
 **The open index of certification exam blueprints.**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Exams](https://img.shields.io/badge/exams-1%2C562-2563eb.svg)
+![Certifying bodies](https://img.shields.io/badge/certifying%20bodies-217-3b82f6.svg)
+![Format](https://img.shields.io/badge/format-JSON-success.svg)
+[![Browse online](https://img.shields.io/badge/browse-atlas.quizforge.ai-1d4ed8.svg)](https://atlas.quizforge.ai)
+
 1,562 exams. 217 certifying bodies. Structured, machine-readable JSON sourced from official exam guides and certification pages.
+
+🔎 **Browse:** [atlas.quizforge.ai](https://atlas.quizforge.ai) &nbsp;·&nbsp; 📦 **Use:** [`data/index.json`](data/index.json) &nbsp;·&nbsp; 📋 **Data Package:** [`datapackage.json`](datapackage.json) &nbsp;·&nbsp; 🤖 **For LLMs:** [`llms.txt`](https://atlas.quizforge.ai/llms.txt)
 
 Whether you're building a study app, planning your next certification, or researching exam requirements -- this is the most complete open dataset of exam blueprints available.
 
@@ -153,6 +161,8 @@ Each exam file follows this structure:
 **Tracking your certification path?** Use `prerequisites` to map out dependencies between exams.
 
 **Researching exam difficulty?** Cross-reference `passing_score`, `total_questions`, and `duration_minutes`.
+
+**Grounding an AI assistant or agent?** Cert Atlas is clean, factual, source-linked structured data — ideal for RAG / grounding so an LLM can accurately answer "what does the AWS Solutions Architect exam cover?", "what are the CISSP prerequisites?", or "how is CompTIA Security+ weighted by domain?" The site ships an [`llms.txt`](https://atlas.quizforge.ai/llms.txt) manifest, and each index entry carries a `practice_url` to a matching practice exam.
 
 ## How this data was collected
 
