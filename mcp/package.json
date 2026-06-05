@@ -1,0 +1,52 @@
+{
+  "name": "cert-atlas-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Cert Atlas — the open index of 1,562 certification exam blueprints (domains, weights, passing scores, prerequisites, renewal) across 217 certifying bodies. Lets AI agents search exams, pull full blueprints, and compare certifications.",
+  "type": "module",
+  "bin": {
+    "cert-atlas-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cert-atlas",
+    "certification",
+    "exam-blueprint",
+    "exam-objectives",
+    "aws",
+    "comptia",
+    "cissp",
+    "nclex",
+    "cfa",
+    "pmp",
+    "education",
+    "dataset"
+  ],
+  "author": "Cert Atlas (atlas.quizforge.ai)",
+  "license": "MIT",
+  "homepage": "https://atlas.quizforge.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hans6883/cert-atlas.git",
+    "directory": "mcp"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
