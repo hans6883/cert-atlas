@@ -164,6 +164,23 @@ Each exam file follows this structure:
 
 **Grounding an AI assistant or agent?** Cert Atlas is clean, factual, source-linked structured data — ideal for RAG / grounding so an LLM can accurately answer "what does the AWS Solutions Architect exam cover?", "what are the CISSP prerequisites?", or "how is CompTIA Security+ weighted by domain?" The site ships an [`llms.txt`](https://atlas.quizforge.ai/llms.txt) manifest, and each index entry carries a `practice_url` to a matching practice exam.
 
+## MCP server
+
+Want agents to query Cert Atlas **directly**, in context? The [`mcp/`](mcp/) directory ships a [Model Context Protocol](https://modelcontextprotocol.io) server — `cert-atlas-mcp` — that exposes the dataset to Claude, Cursor, and any MCP client. Read-only, no API key.
+
+| Tool | What it does |
+|------|--------------|
+| `search_exams` | Keyword search across all 1,562 blueprints, optional body/vendor filter |
+| `get_exam_blueprint` | Full blueprint for one exam: domains + weights, scoring, prerequisites, renewal |
+| `compare_exams` | Compare 2–8 exams side by side (questions, duration, passing score, price, validity) |
+| `list_certifying_bodies` | All 217 certifying bodies with exam counts |
+
+```bash
+cd mcp && npm install && npm run build
+```
+
+It reads the local `data/` JSON when run from this repo, or fetches the published dataset from GitHub when installed standalone — so it's always in sync. See [`mcp/README.md`](mcp/README.md) for setup.
+
 ## How this data was collected
 
 Each blueprint was sourced from the certifying body's official exam guide, certification page, or published PDF. The `source_url` field in every exam file links to the original source. No third-party question banks or proprietary content were used.
