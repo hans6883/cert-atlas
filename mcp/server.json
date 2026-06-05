@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.hans6883/cert-atlas",
+  "description": "Open index of 1,562 certification exam blueprints across 217 certifying bodies — search exams, pull full blueprints (domains + weights, scoring, prerequisites, renewal), and compare certifications. Read-only, no API key.",
+  "title": "Cert Atlas",
+  "websiteUrl": "https://atlas.quizforge.ai",
+  "repository": {
+    "url": "https://github.com/hans6883/cert-atlas",
+    "source": "github",
+    "subfolder": "mcp"
+  },
+  "version": "1.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "cert-atlas-mcp",
+      "version": "1.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

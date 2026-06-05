@@ -64,10 +64,44 @@ The server reads the Cert Atlas dataset directly:
 | `CERT_ATLAS_DATA_DIR` | repo `data/` if present | Force a local data directory. |
 | `CERT_ATLAS_RAW_BASE` | `https://raw.githubusercontent.com/hans6883/cert-atlas/master` | Override the remote dataset base (e.g. a fork or mirror). |
 
-## Roadmap
+## Remote HTTP build
 
-- **Phase 1 (this):** stdio package — runs locally in any MCP client, zero hosting.
-- **Phase 2:** a remote HTTP/SSE build so people can use it with no install.
+The same four tools are also served over the MCP **Streamable HTTP** transport, for hosting with no client install:
+
+```bash
+npm run build
+npm run start:http        # PORT (default 3000), HOST (default 0.0.0.0)
+# POST /mcp   — MCP endpoint
+# GET  /health — liveness probe -> {"ok":true}
+```
+
+It's stateless (a fresh server per request), so it scales horizontally with no session store. A [`Dockerfile`](./Dockerfile) is included:
+
+```bash
+docker build -t cert-atlas-mcp .
+docker run -p 3000:3000 cert-atlas-mcp
+```
+
+Put it behind your reverse proxy (TLS) and point HTTP-capable MCP clients at `https://<host>/mcp`.
+
+## Publishing
+
+**npm** (stdio package):
+
+```bash
+npm login
+npm publish --access public      # runs the build via prepublishOnly
+```
+
+**Official MCP registry** ([registry.modelcontextprotocol.io](https://registry.modelcontextprotocol.io)) — uses [`server.json`](./server.json); `package.json` carries the matching `mcpName` for ownership verification:
+
+```bash
+# one-time: install the publisher CLI, then authenticate via GitHub
+mcp-publisher login github
+mcp-publisher publish            # reads ./server.json
+```
+
+[`smithery.yaml`](./smithery.yaml) lets [Smithery](https://smithery.ai) list it. Other directories (Glama, PulseMCP, mcp.so) auto-index from npm + GitHub once published.
 
 ## License
 
