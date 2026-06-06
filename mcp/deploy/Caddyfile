@@ -1,0 +1,6 @@
+# Caddy reverse-proxy snippet for the remote MCP endpoint (auto-HTTPS).
+# Add to /etc/caddy/Caddyfile, then: sudo systemctl reload caddy
+# MCP endpoint: https://mcp.quizforge.ai/mcp   ·   health: /health
+mcp.quizforge.ai {
+	reverse_proxy 127.0.0.1:3000
+}
