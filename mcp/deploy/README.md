@@ -39,6 +39,20 @@ HTTP-capable MCP clients (Claude.ai/Desktop "Add custom connector", etc.) point 
 https://mcp.quizforge.ai/mcp
 ```
 
+## Hardening (recommended)
+
+- **Run as an isolated user.** The unit uses systemd `DynamicUser=true` — a dedicated,
+  no-shell, no-home, zero-capability user — so an app/dependency compromise can't reach
+  the host. Put the checkout somewhere world-readable (`/opt/cert-atlas`), not a private home.
+- **Rate limit at the edge.** [`nginx-mcp.conf`](./nginx-mcp.conf) adds a per-IP `limit_req`
+  (20 r/s, burst 40 → 429). Add a Cloudflare rate-limiting rule too if proxied.
+- **Lock the origin to Cloudflare.** If Cloudflare-proxied, stop attackers reaching the
+  origin IP directly (bypassing CF's WAF/DDoS): enable Cloudflare **Authenticated Origin
+  Pulls** (SSL/TLS → Origin Server) and add `ssl_client_certificate <CF origin-pull CA>;
+  ssl_verify_client on;` to the 443 server block — enable the Cloudflare toggle **first**,
+  then add the nginx lines, or you'll lock CF out. Alternatively, a host firewall allowing
+  only [Cloudflare IP ranges](https://www.cloudflare.com/ips/) on 80/443.
+
 ## After it's live
 
 Add a remote entry to [`../server.json`](../server.json) so the official registry lists
