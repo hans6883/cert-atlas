@@ -46,12 +46,18 @@ https://mcp.quizforge.ai/mcp
   the host. Put the checkout somewhere world-readable (`/opt/cert-atlas`), not a private home.
 - **Rate limit at the edge.** [`nginx-mcp.conf`](./nginx-mcp.conf) adds a per-IP `limit_req`
   (20 r/s, burst 40 → 429). Add a Cloudflare rate-limiting rule too if proxied.
-- **Lock the origin to Cloudflare.** If Cloudflare-proxied, stop attackers reaching the
-  origin IP directly (bypassing CF's WAF/DDoS): enable Cloudflare **Authenticated Origin
-  Pulls** (SSL/TLS → Origin Server) and add `ssl_client_certificate <CF origin-pull CA>;
-  ssl_verify_client on;` to the 443 server block — enable the Cloudflare toggle **first**,
-  then add the nginx lines, or you'll lock CF out. Alternatively, a host firewall allowing
-  only [Cloudflare IP ranges](https://www.cloudflare.com/ips/) on 80/443.
+- **Lock the origin to Cloudflare** (no cert needed). If Cloudflare-proxied, stop attackers
+  reaching the origin IP directly and bypassing CF's WAF/DDoS. Allow only Cloudflare's edge
+  IPs, evaluated on the real TCP peer (`$realip_remote_addr`, works with `set_real_ip_from`):
+  ```nginx
+  # http scope — fill from https://www.cloudflare.com/ips-v4 + ips-v6
+  geo $realip_remote_addr $cf_ok { default 0; 173.245.48.0/20 1; 2400:cb00::/32 1; ...; }
+  # in each mcp server { } block, before location:
+  if ($cf_ok = 0) { return 403; }
+  ```
+  Direct hits to the origin IP then return 403; Cloudflare-proxied requests pass. (Stronger
+  alternative: Cloudflare **Authenticated Origin Pulls** + `ssl_verify_client on` — but enable
+  the CF toggle first or you lock CF out.)
 
 ## After it's live
 
