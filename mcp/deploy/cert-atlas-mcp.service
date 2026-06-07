@@ -1,31 +1,47 @@
-# systemd unit for the cert-atlas-mcp Streamable HTTP server (Phase 2 remote).
-# Install: copy to /etc/systemd/system/, adjust paths/user, then:
+# systemd unit for cert-atlas-mcp (Streamable HTTP, Phase 2 remote).
+# Runs under a dedicated, isolated, no-privilege DynamicUser (no shell, no home,
+# zero capabilities) — so an app/dependency compromise can't touch the host.
+# App must live somewhere world-readable (e.g. /opt/cert-atlas) for the dynamic
+# user to read it. Install:
+#   sudo cp deploy/cert-atlas-mcp.service /etc/systemd/system/
 #   sudo systemctl daemon-reload && sudo systemctl enable --now cert-atlas-mcp
 [Unit]
 Description=cert-atlas-mcp (Streamable HTTP MCP server)
 After=network-online.target
 Wants=network-online.target
+StartLimitIntervalSec=60
+StartLimitBurst=5
 
 [Service]
 Type=simple
-User=blazor
+DynamicUser=true
 WorkingDirectory=/opt/cert-atlas/mcp
-# Bind to loopback; the reverse proxy (see Caddyfile) terminates TLS on :443.
 Environment=NODE_ENV=production
 Environment=HOST=127.0.0.1
 Environment=PORT=3000
-# Read blueprints from the repo checkout so the endpoint tracks `git pull`.
-# Omit to use the package's bundled index + lazy remote fetch instead.
 Environment=CERT_ATLAS_LOCAL=/opt/cert-atlas
 ExecStart=/usr/bin/node /opt/cert-atlas/mcp/dist/http.js
 Restart=on-failure
 RestartSec=3
-# Hardening
+
+# --- sandbox ---
 NoNewPrivileges=true
-PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=true
-ReadOnlyPaths=/opt/cert-atlas
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+RestrictNamespaces=true
+RestrictRealtime=true
+LockPersonality=true
+CapabilityBoundingSet=
+AmbientCapabilities=
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
+UMask=0077
 
 [Install]
 WantedBy=multi-user.target
