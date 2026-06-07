@@ -99,6 +99,8 @@ docker run -p 3000:3000 cert-atlas-mcp
 
 Put it behind your reverse proxy (TLS) and point HTTP-capable MCP clients at `https://<host>/mcp`.
 
+**Live endpoint:** `https://mcp.quizforge.ai/mcp` (health: `https://mcp.quizforge.ai/health`) — add it as a custom/remote connector in any HTTP-capable MCP client, no install.
+
 ## Publishing
 
 **npm** (stdio package):
