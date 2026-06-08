@@ -1,0 +1,89 @@
+{
+  "exam_id": "iabac-gais-ai3140",
+  "exam_name": "Generative AI Specialist (GAIS)",
+  "exam_code": "GAIS – AI3140",
+  "certifying_body": "IABAC",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://iabac.org/artificial-intelligence-certification/generative-ai-specialist",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice",
+    "Project-based Assessment"
+  ],
+  "exam_format": "Training + exam or direct exam; some tracks emphasize hands-on projects and portfolios",
+  "duration_minutes": null,
+  "exam_price_usd": 220.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "IABAC Authorized Training Providers (ATPs) + Exam Portal",
+      "scheduling_url": "https://iabac.org/",
+      "notes": "Certifications are typically earned via ATP training + exam or direct exam purchase. EDISON-aligned framework. Renewal every 3 years. Global recognition with focus on practical Data Science + AI skills."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Valid ID for proctored exams; IABAC portal account.",
+  "exam_rules": "Follow IABAC exam policy and any ATP proctoring requirements. Many include project or hands-on components in addition to knowledge exams.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Renewal every 3 years via CPD, re-examination, or approved activities per IABAC guidelines.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 0,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies are defined per program/exam; ATPs often provide discounted retakes after additional training."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Generative AI Fundamentals and Model Families (GANs, VAEs, Transformers, Diffusion)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Prompt Engineering, Fine-Tuning, and Alignment Techniques",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Evaluation, Hallucination Mitigation, and Output Validation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Enterprise Applications and Integration Patterns (RAG, Agents, Workflows)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Risks, Governance, Copyright, and Responsible Deployment of Generative Systems",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "gais",
+    "gais ai3140",
+    "generative ai specialist gais",
+    "iabac-gais-ai3140"
+  ],
+  "practice_url": "https://quizforge.ai/?q=Generative%20AI%20Specialist%20%28GAIS%29"
+}

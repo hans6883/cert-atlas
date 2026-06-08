@@ -15,9 +15,11 @@ import os
 import re
 import sqlite3
 import sys
+from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+GENERATED = os.environ.get("GENERATED_DATE", date.today().isoformat())
 DATA_DIR = REPO_ROOT / "data"
 DB_PATH = os.environ.get(
     "BLUEPRINT_DB",
@@ -198,7 +200,7 @@ def export():
     # Write master index
     with open(DATA_DIR / "index.json", "w", encoding="utf-8") as f:
         json.dump({
-            "generated": "2026-04-05",
+            "generated": GENERATED,
             "total_exams": total_exams,
             "total_vendors": len(vendor_exam_counts),
             "exams_with_domain_breakdowns": total_with_domains,
@@ -223,7 +225,7 @@ def export():
 
     with open(DATA_DIR / "vendors.json", "w", encoding="utf-8") as f:
         json.dump({
-            "generated": "2026-04-05",
+            "generated": GENERATED,
             "total_vendors": len(vendors_out),
             "vendors": vendors_out,
         }, f, indent=2, ensure_ascii=False)

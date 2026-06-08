@@ -3,11 +3,11 @@
   "exam_name": "SAFe Advanced Scrum Master (SASM)",
   "exam_code": "SASM",
   "certifying_body": "Scaled Agile",
-  "certification_name": null,
+  "certification_name": "SAFe Advanced Scrum Master (SASM)",
   "version": null,
   "source_url": "https://scaledagile.com/training/safe-advanced-scrum-master/",
   "passing_score": 77,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 45,
   "question_types": [
     "Multiple Choice"
@@ -35,8 +35,8 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Experienced Scrum Masters, certified SSM",
+  "recommended_experience": "Firm understanding of the Scrum Master role, SAFe principles, and team-level facilitation",
   "prerequisites": [
     {
       "prerequisite_type": "certification",
@@ -52,28 +52,131 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Advanced Facilitation and Coaching",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Evolving the Advanced Scrum Master role",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understanding the Advanced Scrum Master Role",
+          "sub_objectives": [
+            "Empowering teams with AI"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Technical Agility and DevOps",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Improving Flow",
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Selecting the team method",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Visualizing team flow",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Measuring and accelerating team flow",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Using built-in quality to improve flow",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Kanban and Flow",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Building high-performing teams",
+      "weight_percent": 27.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Characteristics of high-performing teams",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Employing powerful questions",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Promoting cross-team collaboration",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Assessing team performance",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Organizational Agility",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Addressing conflict",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Identifying behaviors that improve conflict",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Identifying sources of conflict",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Apply interest-based problem solving",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Framing and reframing through conflict",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Using the conflict analysis and the strategy design framework",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Improving ART performance",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Driving outcome-based team events",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Coaching the IP iteration",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Driving improvement with Inspect and Adapt",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Facilitating the problem-solving workshop",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -104,5 +207,5 @@
     "safe-agile-asm",
     "sasm"
   ],
-  "practice_url": "https://quizforge.ai/tests/pmi-disciplined-agile-senior-scrum-master-dasm"
+  "practice_url": "https://quizforge.ai/?q=SAFe%20Advanced%20Scrum%20Master%20%28SASM%29"
 }

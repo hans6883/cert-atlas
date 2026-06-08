@@ -3,7 +3,7 @@
   "exam_name": "SAFe Release Train Engineer (RTE)",
   "exam_code": "RTE",
   "certifying_body": "Scaled Agile",
-  "certification_name": null,
+  "certification_name": "SAFe Release Train Engineer",
   "version": null,
   "source_url": "https://scaledagile.com/training/safe-release-train-engineer/",
   "passing_score": 77,
@@ -35,8 +35,8 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Program Managers and Agile Coaches who currently oversee multiple teams and aspire to transition into the RTE role. It is ideal for leaders responsible for synchronizing complex workflows, managing stakeholder alignment, and leveraging AI to optimize ART performance and delivery.",
+  "recommended_experience": "Familiar with SAFe Agilist and SAFe Scrum Master roles.",
   "prerequisites": [
     {
       "prerequisite_type": "training",
@@ -53,33 +53,179 @@
   "domains": [
     {
       "id": "1",
-      "name": "Release Train Engineering",
-      "weight_percent": 30.0,
-      "objectives": []
+      "name": "Exploring the RTE Role and Responsibilities",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe the Responsibilities of the RTE role in SAFe",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Apply effective RTE behaviors",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Apply the Lean-Agile Mindset, SAFe Principles and Core Values to the RTE role",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "2",
-      "name": "PI Planning Facilitation",
-      "weight_percent": 25.0,
-      "objectives": []
+      "name": "Organizing the ART",
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Define the characteristics of an effective ART",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Describe Key ART Roles and Responsibilities",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "3",
-      "name": "ART Execution and Improvement",
-      "weight_percent": 20.0,
-      "objectives": []
+      "name": "Facilitating PI Planning",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Prepare for PI Planning",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Facilitating PI Planning",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "4",
-      "name": "Lean-Agile Leadership",
-      "weight_percent": 15.0,
-      "objectives": []
+      "name": "Supporting PI Execution",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Identify Key Team and ART Objectives",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Describe the tools needed to visualize flow",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Summarize basic Agile quality Practices",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Summarize the Continuous Delivery Pipeline with DevOps",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "5",
-      "name": "Technical and Business Alignment",
-      "weight_percent": 10.0,
-      "objectives": []
+      "name": "Optimizing Flow",
+      "weight_percent": 7.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Describe how to measure flow",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Summarize practices to optimize flow",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Fostering Relentless Improvement",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Prepare for and facilitate IP iteration activities",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Define the components of an Inspect and Adapt event",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Describe how to measure and grow the ART",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Understand Systems thinking and value stream mapping",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Coaching the ART",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Identify patterns and the evolution of group dynamics",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Describe coaching techniques",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Apply group facilitation techniques",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "Describe the steps to create an ART",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Applying AI to the RTE Role",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Understand AI Basics and Prompting",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Understand risks and responsible AI use",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Augmenting and integrating AI into the RTE role",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -106,6 +252,7 @@
   "aliases": [
     "release train engineer",
     "rte",
+    "safe release train engineer",
     "safe release train engineer rte",
     "safe rte",
     "safe-agile-rte"
