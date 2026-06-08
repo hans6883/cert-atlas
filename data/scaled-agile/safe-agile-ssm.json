@@ -3,11 +3,11 @@
   "exam_name": "SAFe Scrum Master (SSM)",
   "exam_code": "SSM",
   "certifying_body": "Scaled Agile",
-  "certification_name": null,
+  "certification_name": "SAFe Scrum Master (SSM)",
   "version": null,
   "source_url": "https://scaledagile.com/training/safe-scrum-master/",
   "passing_score": 77,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 45,
   "question_types": [
     "Multiple Choice"
@@ -15,7 +15,7 @@
   "exam_format": "Linear (online, included with training)",
   "duration_minutes": 90,
   "exam_price_usd": 995.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Training certification course not required",
   "voucher_url": null,
   "exam_registration_url": "https://scaledagile.com/training/certifications/",
   "testing_centers": [
@@ -31,12 +31,12 @@
   "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "SAFe certifications expire annually. Renew by attending training, taking a renewal exam ($50 USD), or earning required Community of Practice credits.",
-  "continuing_education_units": null,
+  "continuing_education_units": 24,
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Facilitators and problem-solvers who want to guide Agile teams in an enterprise environment",
+  "recommended_experience": "Transition from traditional project tracking to Agile facilitation, using AI to streamline workflows and improve predictability across complex, multi-team enterprise projects",
   "prerequisites": [
     {
       "prerequisite_type": "training",
@@ -52,34 +52,117 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Scrum in the SAFe Context",
+      "id": "1.0",
+      "name": "Introducing Scrum in SAFe®",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Basic Agile and Scrum development concepts",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Basic Scrum Framework concepts",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Agile Scrum Teams in a SAFe Enterprise",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "High-performing team characteristics",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Team events overview",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "DevOps and Release on Demand",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Facilitating ART Events",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Defining the Scrum Master / Team Coach role",
+      "weight_percent": 28.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Scrum Master / Team Coach characteristics",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Scrum Master / Team Coach responsibilities",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Agile team coaching",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Coaching and Servant Leadership",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Supporting Team Events",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Iteration planning",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Team sync",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Backlog refinement",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Iteration review",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Iteration retrospective",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Team Dynamics and Development",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Continuous Improvement",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Supporting ART Events",
+      "weight_percent": 28.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "PI Planning",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "IP Iteration",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Inspect and Adapt event",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -110,5 +193,5 @@
     "safe-agile-ssm",
     "ssm"
   ],
-  "practice_url": "https://quizforge.ai/tests/pmi-disciplined-agile-senior-scrum-master-dasm"
+  "practice_url": "https://quizforge.ai/?q=SAFe%20Scrum%20Master%20%28SSM%29"
 }

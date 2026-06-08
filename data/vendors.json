@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-05",
-  "total_vendors": 217,
+  "generated": "2026-06-07",
+  "total_vendors": 222,
   "vendors": [
     {
       "vendor_id": "dmv",
@@ -155,6 +155,14 @@
       "slug": "aws"
     },
     {
+      "vendor_id": "nes",
+      "display_name": "NES Teacher Exams",
+      "website": "https://www.nesinc.com",
+      "certification_page": "https://www.nesinc.com/",
+      "exam_count": 15,
+      "slug": "nes-teacher-exams"
+    },
+    {
       "vendor_id": "axelos",
       "display_name": "PeopleCert (AXELOS)",
       "website": "https://www.axelos.com",
@@ -217,14 +225,6 @@
       "certification_page": "https://www.nipr.com/",
       "exam_count": 12,
       "slug": "insurance-licensing"
-    },
-    {
-      "vendor_id": "nes",
-      "display_name": "NES Teacher Exams",
-      "website": "https://www.nesinc.com",
-      "certification_page": "https://www.nesinc.com/",
-      "exam_count": 12,
-      "slug": "nes-teacher-exams"
     },
     {
       "vendor_id": "plumber_licensing",
@@ -1211,6 +1211,14 @@
       "slug": "ged-testing-service"
     },
     {
+      "vendor_id": "iabac",
+      "display_name": "IABAC",
+      "website": "https://iabac.org",
+      "certification_page": "https://iabac.org/artificial-intelligence-certification",
+      "exam_count": 4,
+      "slug": "iabac"
+    },
+    {
       "vendor_id": "iosh",
       "display_name": "IOSH",
       "website": "https://www.iosh.com",
@@ -1321,6 +1329,14 @@
       "certification_page": "https://www.nremt.org/certifications/",
       "exam_count": 4,
       "slug": "nremt"
+    },
+    {
+      "vendor_id": "nvidia",
+      "display_name": "NVIDIA",
+      "website": "https://www.nvidia.com",
+      "certification_page": "https://www.nvidia.com/en-us/training/certification/",
+      "exam_count": 4,
+      "slug": "nvidia"
     },
     {
       "vendor_id": "new_relic",
@@ -1443,6 +1459,14 @@
       "slug": "cambridge-international-education-caie"
     },
     {
+      "vendor_id": "certiprof",
+      "display_name": "CertiProf",
+      "website": "https://certiprof.com",
+      "certification_page": "https://certiprof.com/products/ai-management-certification-iso-42001",
+      "exam_count": 3,
+      "slug": "certiprof"
+    },
+    {
       "vendor_id": "confluent",
       "display_name": "Confluent",
       "website": "https://www.confluent.io",
@@ -1563,6 +1587,14 @@
       "slug": "celpip"
     },
     {
+      "vendor_id": "certnexus",
+      "display_name": "CertNexus",
+      "website": "https://certnexus.com",
+      "certification_page": "https://certnexus.com/certified-artificial-intelligence-practitioner-caip/",
+      "exam_count": 2,
+      "slug": "certnexus"
+    },
+    {
       "vendor_id": "docker",
       "display_name": "Docker",
       "website": "https://www.docker.com",
@@ -1593,6 +1625,14 @@
       "certification_page": "https://www.mba.com/exams",
       "exam_count": 2,
       "slug": "gmac"
+    },
+    {
+      "vendor_id": "hugging_face",
+      "display_name": "Hugging Face",
+      "website": "https://huggingface.co",
+      "certification_page": "https://huggingface.co/learn",
+      "exam_count": 2,
+      "slug": "hugging-face"
     },
     {
       "vendor_id": "ima",

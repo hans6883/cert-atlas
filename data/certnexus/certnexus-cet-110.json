@@ -1,0 +1,87 @@
+{
+  "exam_id": "certnexus-cet-110",
+  "exam_name": "Certified Ethical Emerging Technologist (CET)",
+  "exam_code": "CET-110",
+  "certifying_body": "CertNexus",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://certnexus.com/certified-ethical-emerging-technologist-cet/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 50,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Proctored multiple-choice exam (some certifications include scenario-based items)",
+  "duration_minutes": 90,
+  "exam_price_usd": 299.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.pearsonvue.com/us/en/certnexus.html",
+      "notes": "CertNexus exams (including CAIP AIP-210 and CET-110) are delivered through Pearson VUE test centers and online proctoring where available. ANSI/ANAB accredited under ISO/IEC 17024."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required for proctored exams. Registration via CertNexus or Pearson VUE account.",
+  "exam_rules": "Closed book. No external resources or notes unless explicitly permitted. Follow Pearson VUE and CertNexus candidate rules.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Recertification every 3 years via continuing education, re-examination, or approved activities. CertNexus regularly updates content for new AI regulations and techniques.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Standard CertNexus retake policy; check current candidate handbook."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Ethical and Legal Frameworks for Emerging Tech",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Identifying and Mitigating Bias and Risk",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Privacy, Security, and Data Governance",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Societal Impact and Responsible Innovation",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Organizational Governance and Compliance",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "certified ethical emerging technologist cet",
+    "certnexus-cet-110",
+    "cet-110"
+  ],
+  "practice_url": "https://quizforge.ai/?q=Certified%20Ethical%20Emerging%20Technologist%20%28CET%29"
+}
