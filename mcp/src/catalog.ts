@@ -2,7 +2,7 @@
  * Cert Atlas data loader.
  *
  * Reads the published Cert Atlas dataset — the same JSON the website serves:
- *   - data/index.json                       (1,562-exam catalog)
+ *   - data/index.json                       (1,580-exam catalog)
  *   - data/<vendor_slug>/<exam_id>.json      (full per-exam blueprint)
  *
  * Source resolution (in order):

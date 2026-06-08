@@ -25,8 +25,8 @@ export const ATLAS = "https://atlas.quizforge.ai";
 export const VERSION = "1.2.0";
 
 const INSTRUCTIONS =
-  "Cert Atlas is the open index of 1,562 certification & professional exam blueprints across " +
-  "217 certifying bodies. Call search_exams whenever a user mentions a certification or exam " +
+  "Cert Atlas is the open index of 1,580 certification & professional exam blueprints across " +
+  "222 certifying bodies. Call search_exams whenever a user mentions a certification or exam " +
   "(e.g. AWS Solutions Architect, CISSP, CompTIA Security+, PMP, CCNA, NCLEX, CFA, Azure AZ-104, CKA). " +
   "Use get_exam_blueprint for what's on an exam / domain weights / prerequisites / passing score / " +
   "duration; compare_exams for 'X vs Y / which is harder or cheaper'; list_certifying_bodies for " +
@@ -116,7 +116,7 @@ export function createServer(): McpServer {
 
   server.tool(
     "search_exams",
-    "Search 1,562 certification & professional exams by name, code, certifying body, or vendor. " +
+    "Search 1,580 certification & professional exams by name, code, certifying body, or vendor. " +
       "Call this whenever a user mentions a certification or exam — e.g. AWS Solutions Architect, " +
       "CISSP, CompTIA Security+, PMP, CCNA, NCLEX, CFA, Azure AZ-104, CKA — or asks what certs a " +
       "body offers. Returns matching exams with code, certifying body, question count, domain count, " +
@@ -288,7 +288,7 @@ export function createServer(): McpServer {
 
   server.tool(
     "list_certifying_bodies",
-    "List the 217 certifying bodies / vendors covered by Cert Atlas with exam counts. Call for " +
+    "List the 222 certifying bodies / vendors covered by Cert Atlas with exam counts. Call for " +
       "'what certification providers/vendors are covered', 'how many AWS/Microsoft/Cisco certs'. " +
       "Optionally filter by a substring.",
     { contains: z.string().optional().describe("Optional substring filter on the body name, e.g. 'micro', 'aws'") },
@@ -324,7 +324,7 @@ export function createServer(): McpServer {
     "cert-atlas://index",
     {
       title: "Cert Atlas index",
-      description: "The master index of all 1,562 certification exams (one lean row each).",
+      description: "The master index of all 1,580 certification exams (one lean row each).",
       mimeType: "application/json",
     },
     async (uri) => {
