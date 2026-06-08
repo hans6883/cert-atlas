@@ -3,8 +3,8 @@
  * cert-atlas-mcp (stdio) — a Model Context Protocol server over Cert Atlas, the
  * open index of certification exam blueprints (atlas.quizforge.ai).
  *
- * Cert Atlas publishes structured, machine-readable blueprints for 1,562 exams
- * across 217 certifying bodies — exam domains and topic weights, passing scores,
+ * Cert Atlas publishes structured, machine-readable blueprints for 1,580 exams
+ * across 222 certifying bodies — exam domains and topic weights, passing scores,
  * question counts, durations, prerequisites, renewal rules, and official source
  * links. This server lets an AI agent search those exams, pull a full blueprint,
  * and compare certifications, with a QuizForge practice link on every result.
