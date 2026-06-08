@@ -1,0 +1,88 @@
+{
+  "exam_id": "nes-english-language-arts",
+  "exam_name": "NES English Language Arts",
+  "exam_code": "NES ELA",
+  "certifying_body": "NES Teacher Exams",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://www.pearsonassessments.com/teacher-candidates/support/national-evaluation-series.html",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [
+    "Multiple Choice",
+    "Constructed Response (selected tests)"
+  ],
+  "exam_format": "Computer-based. Combination of selected-response and, for some, constructed-response items. Domain-level feedback provided.",
+  "duration_minutes": 180,
+  "exam_price_usd": 90.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE test centers or online proctoring (where available)",
+      "scheduling_url": "https://www.pearsonassessments.com/teacher-candidates/support/national-evaluation-series.html",
+      "notes": "Computer-based. Some tests include constructed-response sections. Score reports include detailed performance by domain. Score validity and passing thresholds set by individual states/territories."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID. Name must match registration exactly.",
+  "exam_rules": "Closed book. No personal calculators or notes unless specified. Follow Pearson testing policies.",
+  "certification_validity_years": 5,
+  "renewal_required": false,
+  "renewal_options": "Scores typically valid for 5-10 years depending on the state. No renewal of the exam itself; recertification follows state rules for teaching licenses.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 30,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Retake policies may be further restricted by the state using the score. Full fee per attempt."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Reading Literature and Informational Texts",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Writing and Language Conventions",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Speaking and Listening",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Literacy Across the Curriculum",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Pedagogical Knowledge for ELA Instruction",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": null,
+  "official_study_resources": [],
+  "aliases": [
+    "nes ela",
+    "nes english language arts",
+    "nes-english-language-arts"
+  ],
+  "practice_url": "https://quizforge.ai/?q=NES%20English%20Language%20Arts"
+}

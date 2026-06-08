@@ -1,0 +1,88 @@
+{
+  "exam_id": "certnexus-caip-aip-210",
+  "exam_name": "Certified Artificial Intelligence Practitioner (CAIP)",
+  "exam_code": "AIP-210",
+  "certifying_body": "CertNexus",
+  "certification_name": null,
+  "version": null,
+  "source_url": "https://certnexus.com/certified-artificial-intelligence-practitioner-caip/",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": 80,
+  "question_types": [
+    "Multiple Choice"
+  ],
+  "exam_format": "Proctored multiple-choice exam (some certifications include scenario-based items)",
+  "duration_minutes": 120,
+  "exam_price_usd": 349.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": null,
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://www.pearsonvue.com/us/en/certnexus.html",
+      "notes": "CertNexus exams (including CAIP AIP-210 and CET-110) are delivered through Pearson VUE test centers and online proctoring where available. ANSI/ANAB accredited under ISO/IEC 17024."
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "Government-issued photo ID required for proctored exams. Registration via CertNexus or Pearson VUE account.",
+  "exam_rules": "Closed book. No external resources or notes unless explicitly permitted. Follow Pearson VUE and CertNexus candidate rules.",
+  "certification_validity_years": 3,
+  "renewal_required": true,
+  "renewal_options": "Recertification every 3 years via continuing education, re-examination, or approved activities. CertNexus regularly updates content for new AI regulations and techniques.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": 14,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Standard CertNexus retake policy; check current candidate handbook."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Understanding the Artificial Intelligence Problem",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Machine Learning and Data Foundations for AI",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Implementing AI Solutions",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Evaluating, Deploying, and Monitoring AI",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Ethical, Responsible, and Legal AI",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://certnexus.com/wp-content/uploads/2023/08/CertNexus-Certified-Artificial-Intelligence-Practitioner-Exam-AIP-210-blueprint.pdf",
+  "official_study_resources": [],
+  "aliases": [
+    "aip-210",
+    "caip",
+    "certified artificial intelligence practitioner caip",
+    "certnexus-caip-aip-210"
+  ],
+  "practice_url": "https://quizforge.ai/?q=Certified%20Artificial%20Intelligence%20Practitioner%20%28CAIP%29"
+}

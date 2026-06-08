@@ -1,96 +1,89 @@
 {
   "exam_id": "nes-mathematics",
-  "exam_name": "NES Mathematics (304)",
-  "exam_code": "NES-304",
+  "exam_name": "NES Mathematics",
+  "exam_code": "NES Math",
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.nestest.com/",
+  "source_url": "https://www.pearsonassessments.com/teacher-candidates/support/national-evaluation-series.html",
   "passing_score": null,
-  "passing_score_scale": "Scaled score 100–300; passing score set by each adopting state",
+  "passing_score_scale": null,
   "total_questions": null,
   "question_types": [
-    "Selected-Response (Multiple Choice)",
-    "Constructed-Response"
+    "Multiple Choice",
+    "Constructed Response (selected tests)"
   ],
-  "exam_format": "Computer-based testing at Pearson VUE testing centers; online proctored option available",
-  "duration_minutes": null,
-  "exam_price_usd": 95.0,
+  "exam_format": "Computer-based. Combination of selected-response and, for some, constructed-response items. Domain-level feedback provided.",
+  "duration_minutes": 150,
+  "exam_price_usd": 85.0,
   "exam_price_notes": null,
   "voucher_url": null,
   "exam_registration_url": null,
   "testing_centers": [
     {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/",
-      "notes": "NES exams are administered through Pearson VUE testing centers. Online proctored (OP) testing is available for most NES exams. Schedule at nestest.com or through the Pearson VUE candidate portal."
+      "provider": "Pearson VUE test centers or online proctoring (where available)",
+      "scheduling_url": "https://www.pearsonassessments.com/teacher-candidates/support/national-evaluation-series.html",
+      "notes": "Computer-based. Some tests include constructed-response sections. Score reports include detailed performance by domain. Score validity and passing thresholds set by individual states/territories."
     }
   ],
   "online_proctoring_available": true,
-  "id_requirements": "Government-issued photo ID required. Name on ID must match registration exactly. Secondary ID may be required at some testing centers. For online proctored testing, webcam and valid ID are required.",
-  "exam_rules": "No personal items, notes, or reference materials permitted in testing rooms or during online proctored sessions. Calculator policies vary by exam — check the official NES exam guide. Candidates must agree to the NES testing program terms and Pearson VUE policies before registering. Online proctored sessions require a private room, stable internet, and compatible hardware.",
-  "certification_validity_years": null,
+  "id_requirements": "Government-issued photo ID. Name must match registration exactly.",
+  "exam_rules": "Closed book. No personal calculators or notes unless specified. Follow Pearson testing policies.",
+  "certification_validity_years": 5,
   "renewal_required": false,
-  "renewal_options": "NES exam scores are valid for 3 years from the test date. Teaching credential renewal is governed by each adopting state's DOE, not by NES directly. Contact the relevant state Department of Education for credential renewal requirements.",
+  "renewal_options": "Scores typically valid for 5-10 years depending on the state. No renewal of the exam itself; recertification follows state rules for teaching licenses.",
   "continuing_education_units": null,
-  "available_languages": [],
+  "available_languages": [
+    "English"
+  ],
   "target_audience": null,
   "recommended_experience": null,
   "prerequisites": [],
   "retake_policy": {
-    "waiting_period_days": 45,
+    "waiting_period_days": 30,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
-    "notes": "45-day waiting period between failed attempts. No limit on total number of attempts. Full exam fee is required for each attempt."
+    "notes": "Retake policies may be further restricted by the state using the score. Full fee per attempt."
   },
   "domains": [
     {
       "id": "1",
-      "name": "Number and Operations",
-      "weight_percent": null,
+      "name": "Numbers and Operations",
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "2",
       "name": "Algebra and Functions",
-      "weight_percent": null,
+      "weight_percent": 25.0,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Geometry and Measurement",
-      "weight_percent": null,
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Statistics, Probability, and Discrete Mathematics",
-      "weight_percent": null,
+      "name": "Data Analysis, Statistics, and Probability",
+      "weight_percent": 15.0,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Calculus and Advanced Topics",
-      "weight_percent": null,
+      "name": "Mathematical Practices and Pedagogy",
+      "weight_percent": 20.0,
       "objectives": []
     }
   ],
   "official_objectives_url": null,
-  "official_study_resources": [
-    {
-      "resource_type": "study_guide",
-      "title": "NES Preparation Materials",
-      "url": "https://www.nestest.com/",
-      "provider": "NES / Pearson",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free study guides, interactive practice tests, and preparation materials available at nestest.com"
-    }
-  ],
+  "official_study_resources": [],
   "aliases": [
     "national evaluation series mathematics",
     "nes 304",
     "nes math",
+    "nes mathematics",
     "nes mathematics 304",
     "nes-304",
     "nes-mathematics"

@@ -3,7 +3,7 @@
   "exam_name": "SAFe Product Owner/Product Manager (POPM)",
   "exam_code": "POPM",
   "certifying_body": "Scaled Agile",
-  "certification_name": null,
+  "certification_name": "SAFe Product Owner/Product Manager",
   "version": null,
   "source_url": "https://scaledagile.com/training/safe-product-owner-product-manager/",
   "passing_score": 77,
@@ -15,7 +15,7 @@
   "exam_format": "Linear (online, included with training)",
   "duration_minutes": 90,
   "exam_price_usd": 995.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "*Training certification course not required",
   "voucher_url": null,
   "exam_registration_url": "https://scaledagile.com/training/certifications/",
   "testing_centers": [
@@ -31,11 +31,11 @@
   "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "SAFe certifications expire annually. Renew by attending training, taking a renewal exam ($50 USD), or earning required Community of Practice credits.",
-  "continuing_education_units": null,
+  "continuing_education_units": 12,
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
+  "target_audience": "AI-Empowered SAFe® Product Owner/Product Manager is for professionals responsible for maximizing value delivery across the enterprise. It is designed for those who bridge customer needs with program execution, translating strategy into actionable work while using AI to sharpen decision-making, manage backlogs, and align cross-functional teams with business goals.",
   "recommended_experience": null,
   "prerequisites": [
     {
@@ -53,33 +53,169 @@
   "domains": [
     {
       "id": "1",
-      "name": "Product Ownership in SAFe",
-      "weight_percent": 25.0,
-      "objectives": []
+      "name": "Understanding Product Owner/Product Management Roles and Responsibilities",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Applying SAFe to Product Owner/Product Management Roles and Responsibilities",
+          "sub_objectives": [
+            "Apply the Lean-Agile Mindset",
+            "Explain Value Streams",
+            "Apply Product Owner/Product Management Responsibilities"
+          ]
+        }
+      ]
     },
     {
       "id": "2",
-      "name": "Program and Solution Backlog Management",
-      "weight_percent": 25.0,
-      "objectives": []
+      "name": "PI Planning Preparation",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Summarize PI Planning",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Explain the Solution Vision",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Forecast work through Roadmaps",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Planning Features",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Managing the ART Backlog and Kanban",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "3",
-      "name": "Customer-Centric Development",
-      "weight_percent": 20.0,
-      "objectives": []
+      "name": "Leadership for PI Planning",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Communicate the Vision in PI Planning",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Plan PI Objectives",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Organize and Manage Dependencies",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Analyze Risks",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "4",
-      "name": "PI Planning and Feature Prioritization",
-      "weight_percent": 15.0,
-      "objectives": []
+      "name": "Iteration Execution",
+      "weight_percent": 29.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Creating Stories",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Planning an Iteration",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Manage Flow with the Team Kanban",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Refine the Team Backlog",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Participate in the Iteration Review and Retrospective",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Support DevOps and Release on Demand",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "5",
-      "name": "Lean Startup and Innovation",
-      "weight_percent": 15.0,
-      "objectives": []
+      "name": "PI Execution",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Participate in the PO Sync",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Participate in the System Demo",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Innovation throughout the PI",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Understand how to Inspect and Adapt",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Apply AI to Product Roles",
+      "weight_percent": 14.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Understand AI Basics and Terminology",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Understand AI Prompting",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Understanding Risks and Responsible AI Use",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Augmenting Product Roles with AI",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -107,6 +243,7 @@
     "popm",
     "safe po pm",
     "safe product owner",
+    "safe product owner product manager",
     "safe product owner product manager popm",
     "safe-agile-popm"
   ],
