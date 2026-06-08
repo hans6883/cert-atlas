@@ -270,7 +270,8 @@ def page_shell(title, description, canonical, body, schema_json=None, breadcrumb
 <h1><a href="{SITE_URL}/">Cert Atlas</a></h1>
 <nav>
 <a href="{SITE_URL}/">Browse</a>
-<a href="https://github.com/quizforge/cert-atlas">GitHub</a>
+<a href="https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json">Download</a>
+<a href="https://github.com/hans6883/cert-atlas">GitHub</a>
 <a href="{QUIZFORGE_URL}">QuizForge</a>
 </nav>
 </div>
@@ -301,6 +302,7 @@ def build_home(index, vendors, vendor_map):
 <div class="hero">
 <h2>Cert Atlas</h2>
 <p>The open index of certification exam blueprints. Browse domains, objectives, and requirements for {index["total_exams"]:,} exams across {index["total_vendors"]} certifying bodies.</p>
+<p style="margin-top:1rem"><strong>Download the dataset (free, MIT):</strong> <a href="https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json">master index (JSON)</a> &middot; <a href="https://github.com/hans6883/cert-atlas/archive/refs/heads/master.zip">full dataset (.zip)</a> &middot; <a href="https://github.com/hans6883/cert-atlas">browse on GitHub</a></p>
 </div>
 <div class="stats-bar">
 <div class="stat"><span class="stat-num">{index["total_exams"]:,}</span><span class="stat-label">Exams</span></div>
