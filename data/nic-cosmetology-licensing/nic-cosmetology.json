@@ -68,20 +68,26 @@
     {
       "id": "4",
       "name": "Skin Care and Facials",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
       "id": "5",
       "name": "Hair Care (Cutting, Coloring, Chemical Services)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 45.0,
+      "objectives": [],
+      "weight_min": 45.0,
+      "weight_max": 45.0
     },
     {
       "id": "6",
       "name": "Nail Care",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
       "id": "7",

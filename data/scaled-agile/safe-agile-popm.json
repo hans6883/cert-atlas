@@ -15,7 +15,7 @@
   "exam_format": "Linear (online, included with training)",
   "duration_minutes": 90,
   "exam_price_usd": 995.0,
-  "exam_price_notes": "*Training certification course not required",
+  "exam_price_notes": null,
   "voucher_url": null,
   "exam_registration_url": "https://scaledagile.com/training/certifications/",
   "testing_centers": [
@@ -35,7 +35,7 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": "AI-Empowered SAFe® Product Owner/Product Manager is for professionals responsible for maximizing value delivery across the enterprise. It is designed for those who bridge customer needs with program execution, translating strategy into actionable work while using AI to sharpen decision-making, manage backlogs, and align cross-functional teams with business goals.",
+  "target_audience": "Professionals responsible for maximizing value delivery across the enterprise, including product owners, product managers, business owners, and portfolio managers.",
   "recommended_experience": null,
   "prerequisites": [
     {
@@ -75,27 +75,12 @@
         {
           "id": "2.1",
           "title": "Summarize PI Planning",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.2",
-          "title": "Explain the Solution Vision",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.3",
-          "title": "Forecast work through Roadmaps",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.4",
-          "title": "Planning Features",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.5",
-          "title": "Managing the ART Backlog and Kanban",
-          "sub_objectives": []
+          "sub_objectives": [
+            "Explain the Solution Vision",
+            "Forecast work through Roadmaps",
+            "Planning Features",
+            "Managing the ART Backlog and Kanban"
+          ]
         }
       ]
     },
@@ -107,22 +92,11 @@
         {
           "id": "3.1",
           "title": "Communicate the Vision in PI Planning",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.2",
-          "title": "Plan PI Objectives",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.3",
-          "title": "Organize and Manage Dependencies",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.4",
-          "title": "Analyze Risks",
-          "sub_objectives": []
+          "sub_objectives": [
+            "Plan PI Objectives",
+            "Organize and Manage Dependencies",
+            "Analyze Risks"
+          ]
         }
       ]
     },
@@ -134,32 +108,13 @@
         {
           "id": "4.1",
           "title": "Creating Stories",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.2",
-          "title": "Planning an Iteration",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.3",
-          "title": "Manage Flow with the Team Kanban",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.4",
-          "title": "Refine the Team Backlog",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.5",
-          "title": "Participate in the Iteration Review and Retrospective",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.6",
-          "title": "Support DevOps and Release on Demand",
-          "sub_objectives": []
+          "sub_objectives": [
+            "Planning an Iteration",
+            "Manage Flow with the Team Kanban",
+            "Refine the Team Backlog",
+            "Participate in the Iteration Review and Retrospective",
+            "Support DevOps and Release on Demand"
+          ]
         }
       ]
     },
@@ -171,22 +126,11 @@
         {
           "id": "5.1",
           "title": "Participate in the PO Sync",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.2",
-          "title": "Participate in the System Demo",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.3",
-          "title": "Innovation throughout the PI",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.4",
-          "title": "Understand how to Inspect and Adapt",
-          "sub_objectives": []
+          "sub_objectives": [
+            "Participate in the System Demo",
+            "Innovation throughout the PI",
+            "Understand how to Inspect and Adapt"
+          ]
         }
       ]
     },
@@ -198,22 +142,11 @@
         {
           "id": "6.1",
           "title": "Understand AI Basics and Terminology",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.2",
-          "title": "Understand AI Prompting",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.3",
-          "title": "Understanding Risks and Responsible AI Use",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.4",
-          "title": "Augmenting Product Roles with AI",
-          "sub_objectives": []
+          "sub_objectives": [
+            "Understand AI Prompting",
+            "Understanding Risks and Responsible AI Use",
+            "Augmenting Product Roles with AI"
+          ]
         }
       ]
     }

@@ -3,45 +3,50 @@
   "exam_name": "Certified Phlebotomy Technician (CPT)",
   "exam_code": "CPT",
   "certifying_body": "NHA",
-  "certification_name": null,
+  "certification_name": "Certified Phlebotomy Technician (CPT)",
   "version": null,
   "source_url": "https://www.nhanow.com/certifications/phlebotomy-technician",
   "passing_score": 390,
-  "passing_score_scale": "390/500 scaled score",
+  "passing_score_scale": null,
   "total_questions": 100,
   "question_types": [
     "Multiple Choice (single best answer)"
   ],
-  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "exam_format": "Computer-based testing (CBT), fixed-form. 100-150 questions depending on exam. Scaled scoring (390 passing out of 500).",
   "duration_minutes": 120,
   "exam_price_usd": 117.0,
-  "exam_price_notes": "$117 exam fee.",
+  "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": "https://www.nhanow.com/certifications",
+  "exam_registration_url": null,
   "testing_centers": [
     {
-      "provider": "PSI Testing Centers",
+      "provider": "PSI or NHA-approved test centers / online proctoring",
       "scheduling_url": "https://www.nhanow.com/certifications",
-      "notes": "PSI testing centers nationwide; online remote proctoring also available"
+      "notes": "Most exams are computer-based (linear fixed-form). Some available via live remote proctoring. NCCA accredited. Results often immediate or within days."
     }
   ],
   "online_proctoring_available": true,
-  "id_requirements": "Government-issued photo ID required. Name must match NHA registration exactly. Secondary ID may be requested at test center.",
-  "exam_rules": "Closed-book computer-based test. On-screen calculator provided where applicable. No personal items permitted in testing room. Score scale 200–500; passing score is 390.",
+  "id_requirements": "Government-issued photo ID required at check-in. Must match name on registration exactly.",
+  "exam_rules": "Closed book. No notes, phones, or reference materials. Calculators provided on-screen if needed. Follow all test center or remote proctoring rules.",
   "certification_validity_years": 2,
   "renewal_required": true,
-  "renewal_options": "2-year certification validity. Renewal requires 10 CE credits per 2-year cycle. CE can be completed through NHA online platform or approved providers. Renewal application submitted through NHA candidate portal.",
-  "continuing_education_units": null,
+  "renewal_options": "Every 2 years via online portal. Requires 10 continuing education (CE) credits per cycle. CE can be earned through NHA courses or approved providers. Renewal fee applies.",
+  "continuing_education_units": 10,
   "available_languages": [
     "English",
-    "Spanish"
+    "Spanish (select exams)"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Phlebotomy technicians",
+  "recommended_experience": "Completed a phlebotomy technician training or education program within the last 5 years and have performed a minimum of thirty (30) venipunctures and ten (10) capillary or finger sticks on live individuals",
   "prerequisites": [
     {
-      "prerequisite_type": "education",
-      "description": "Completion of an NHA-recognized phlebotomy program or documented phlebotomy work experience",
+      "prerequisite_type": "required_certification",
+      "description": "Possess a high school diploma or GED/high school equivalency",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Completed a phlebotomy technician training or education program within the last 5 years and have performed a minimum of thirty (30) venipunctures and ten (10) capillary or finger sticks on live individuals",
       "is_required": true
     }
   ],
@@ -49,59 +54,86 @@
     "waiting_period_days": 30,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
-    "notes": "Candidates must wait 30 days before retaking an NHA exam. Full exam fee required for each retake attempt."
+    "notes": "Full exam fee charged for each retake. No limit specified beyond waiting period."
   },
   "domains": [
     {
       "id": "1",
       "name": "Anatomy and Physiology",
-      "weight_percent": null,
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "2",
       "name": "Patient Preparation and Identification",
-      "weight_percent": null,
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Venipuncture and Capillary Puncture",
-      "weight_percent": null,
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "4",
       "name": "Specimen Handling",
-      "weight_percent": null,
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "5",
       "name": "Safety",
-      "weight_percent": null,
+      "weight_percent": 20.0,
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nhanow.com/certifications/phlebotomy-technician",
   "official_study_resources": [
     {
-      "resource_type": "pdf",
-      "title": "NHA Exam Content Outline",
-      "url": "https://www.nhanow.com/certifications",
-      "provider": "NHA",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free content outlines per certification available on NHA website"
-    },
-    {
-      "resource_type": "practice_exam",
-      "title": "NHA Practice Tests",
-      "url": "https://www.nhanow.com/study-materials",
+      "resource_type": "official_study_guide",
+      "title": "CPT Online Study Guide",
+      "url": null,
       "provider": "NHA",
       "is_official": true,
       "price_usd": null,
-      "notes": "Official NHA study materials and practice tests available for purchase"
+      "notes": "Provides contemporary learning tools such as interactive games, quizzes, flashcards, and professionalism tips from experts in the field"
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CPT Practice Tests",
+      "url": null,
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Get up to six attempts on a phlebotomy practice test (based on actual exam)"
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CPT Preparation Package",
+      "url": null,
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Includes robust interactive study materials and a phlebotomy study guide, along with the phlebotomy practice test"
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CPT Test Plan",
+      "url": null,
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "This free study aide maps out key concepts you will see on the CPT exam"
+    },
+    {
+      "resource_type": "online_course",
+      "title": "NHA Mobile",
+      "url": null,
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Empowering learner success with study-on-the-go flashcards aligned to your enrolled NHA course"
     }
   ],
   "aliases": [

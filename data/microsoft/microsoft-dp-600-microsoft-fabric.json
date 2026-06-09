@@ -4,8 +4,8 @@
   "exam_code": "DP-600",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/",
+  "version": "as of April 20, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "As a candidate for this exam, you should have subject matter expertise in designing, creating, and managing analytical assets, such as semantic models, warehouses, or lakehouses. Your responsibilities for this role include: Prepare and enrich data for analysis, Secure and maintain analytics assets, Implement and manage semantic models. You work closely with stakeholders for business requirements and partner with architects, analysts, engineers, and administrators. You should also be able to query and analyze data by using Structured Query Language (SQL), Kusto Query Language (KQL), and Data Analysis Expressions (DAX).",
+  "recommended_experience": "Train and get hands-on experience before you take the exam. We offer self-study options and classroom training as well as links to documentation, community sites, and videos.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,84 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Plan, implement, and manage a solution for data analytics",
-      "weight_percent": 10.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Prepare and serve data",
-      "weight_percent": 40.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Implement and manage semantic models",
+      "id": "1.0",
+      "name": "Maintain a data analytics solution",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Implement security and governance",
+          "sub_objectives": [
+            "Implement workspace-level access controls",
+            "Implement item-level access controls",
+            "Implement row-level, column-level, object-level, and file-level access control",
+            "Apply sensitivity labels to items",
+            "Endorse items"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Maintain the analytics development lifecycle",
+          "sub_objectives": [
+            "Configure version control for a workspace",
+            "Create and manage a Power BI Desktop project (.pbip)",
+            "Create and configure deployment pipelines",
+            "Perform impact analysis of downstream dependencies from lakehouses, warehouses, dataflows, and semantic models",
+            "Deploy and manage semantic models by using the XMLA endpoint",
+            "Create and update reusable assets, including Power BI template (.pbit) files, Power BI data source (.pbids) files, and shared semantic models"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Explore and analyze data",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Prepare data",
+      "weight_percent": 45.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Get data",
+          "sub_objectives": [
+            "Create a data connection",
+            "Discover data by using OneLake catalog and Real-Time hub",
+            "Ingest or access data as needed",
+            "Choose between different data stores",
+            "Implement OneLake integration for Eventhouse and semantic models"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Transform data",
+          "sub_objectives": [
+            "Create views, functions, and stored procedures",
+            "Enrich data by adding new columns or tables",
+            "Implement a star schema for a lakehouse or warehouse",
+            "Denormalize data",
+            "Aggregate data",
+            "Merge or join data",
+            "Identify and resolve duplicate data, missing data, or null values",
+            "Convert column data types",
+            "Filter data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Query and analyze data",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Query and analyze data",
+          "sub_objectives": [
+            "Select, filter, and aggregate data by using the Visual Query Editor",
+            "Select, filter, and aggregate data by using SQL",
+            "Select, filter, and aggregate data by using KQL",
+            "Select, filter, and aggregate data by using DAX"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

@@ -5,7 +5,7 @@
   "certifying_body": "Microsoft",
   "certification_name": null,
   "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-fundamentals-customer-engagement-apps-crm/",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-910",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "As a candidate for this exam, you aspire to understand how customer engagement apps for Dynamics 365 can be used to: Unify profiles and tailor targeted, personalized customer journeys by using Dynamics 365 Customer Insights apps. Efficiently assist users through the complete sales order lifecycle by using Dynamics 365 Sales. Assist agents with case management through the complete customer support lifecycle by using Dynamics 365 Customer Service. Schedule and complete work orders by using Dynamics 365 Field Service. Evaluate how Microsoft 365 Copilot can assist with each of these.",
+  "recommended_experience": "You can use this exam to prepare for role-based or specialty certifications, but it’s not a prerequisite for any of them.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,34 +68,132 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Describe Dynamics 365 Marketing",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "Describe Dynamics 365 Customer Insights",
+      "name": "Describe Dynamics 365 Customer Insights",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "Explore Customer Insights - Journeys",
+          "title": "Explore Customer Insights - Journeys",
+          "sub_objectives": [
+            "Describe use cases for Customer Insights - Journeys",
+            "Describe lead generation and qualification",
+            "Describe use cases for marketing forms",
+            "Describe how to target customers by using segments",
+            "Describe email marketing",
+            "Describe customer journeys",
+            "Describe event management features and capabilities",
+            "Describe how to use Microsoft 365 Copilot with Customer Insights - Journeys"
+          ]
+        },
+        {
+          "id": "Describe Customer Insights - Data",
+          "title": "Describe Customer Insights - Data",
+          "sub_objectives": [
+            "Describe use cases of and capabilities for Customer Insights – Data",
+            "Describe unified customer profiles",
+            "Describe measures, segments, and predictions"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "Describe Dynamics 365 Sales",
       "name": "Describe Dynamics 365 Sales",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "Explore Sales",
+          "title": "Explore Sales",
+          "sub_objectives": [
+            "Describe use cases for Sales",
+            "Describe leads and the process for qualifying leads",
+            "Describe the opportunity management process",
+            "Describe the quote lifecycle",
+            "Describe the order management and invoice management processes",
+            "Describe use cases for guided selling including business process flows",
+            "Describe the product catalog, prices list, and unit groups",
+            "Describe Microsoft 365 Copilot in Sales",
+            "Describe the Sales accelerator",
+            "Describe Sales capabilities and related apps",
+            "Describe sales pipeline and forecasting concepts",
+            "Describe use cases for and capabilities of Sales Insights features",
+            "Describe use cases for and capabilities of LinkedIn Sales Insights",
+            "Describe use cases for the Dynamics 365 Sales mobile app",
+            "Describe Microsoft 365 Copilot for Sales"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Describe Dynamics 365 Customer Service",
       "name": "Describe Dynamics 365 Customer Service",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "Explore Customer Service",
+          "title": "Explore Customer Service",
+          "sub_objectives": [
+            "Describe use cases for Customer Service",
+            "Describe the functionality for workload management, including cases, basic routing rulesets (basic queues), Unified Routing, and the inbox for agents",
+            "Describe knowledge management in Customer Service",
+            "Describe the case lifecycle including service-level agreements (SLAs) and entitlements",
+            "Describe use cases for Copilot in Customer Service",
+            "Describe Customer Service capabilities and related apps",
+            "Describe Omnichannel for Customer Service",
+            "Describe reporting and data visualization options in Customer Service",
+            "Describe use cases for agent productivity tools"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "Describe Dynamics 365 Field Service",
       "name": "Describe Dynamics 365 Field Service",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "Explore Field Service",
+          "title": "Explore Field Service",
+          "sub_objectives": [
+            "Describe use cases for Field Service",
+            "Describe the work order lifecycle",
+            "Describe inspections in Field Service",
+            "Describe the Field Service mobile app",
+            "Describe use cases of Copilot in Field Service",
+            "Describe capabilities related to Field Service",
+            "Describe resource management and scheduling processes",
+            "Describe asset management and customer assets",
+            "Describe Connected Field Service for Dynamics 365"
+          ]
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Describe shared features",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "Explore the core capabilities of customer engagement apps in Dynamics 365",
+      "name": "Explore the core capabilities of customer engagement apps in Dynamics 365",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "Describe the foundations of customer engagement apps",
+          "title": "Describe the foundations of customer engagement apps",
+          "sub_objectives": [
+            "Describe customer engagement apps",
+            "Describe Microsoft Power Platform as it relates to customer engagement apps",
+            "Describe Microsoft Dataverse as the foundation for customer engagement apps",
+            "Navigate to and within customer engagement apps",
+            "Describe capabilities of Microsoft 365 Copilot in the Dynamics 365 customer engagement apps",
+            "Describe shared activities and integration options in customer engagement apps",
+            "Describe customers and activities",
+            "Describe search options and filter criteria",
+            "Describe reporting capabilities including dashboards, charts, and views",
+            "Describe Microsoft Teams integration",
+            "Describe Microsoft Outlook integration",
+            "Describe Microsoft Excel and Word integration",
+            "Describe Microsoft SharePoint integration"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

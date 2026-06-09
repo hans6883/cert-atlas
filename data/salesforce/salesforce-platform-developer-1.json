@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified Platform Developer I (PD1)",
   "exam_code": "PD1",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/platformdeveloperI",
+  "certification_name": "Salesforce Certified Platform Developer",
+  "version": "Exam questions align to the Summer '25 Release.",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Developer-Exam-Guide",
   "passing_score": 65,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who have related knowledge, skills, and experience building custom applications on the Lightning Platform.",
+  "recommended_experience": "1–2 years of experience as a developer and at least 6 months of experience on the Lightning Platform.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,34 +52,137 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Salesforce Fundamentals",
-      "weight_percent": 7.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Developer Fundamentals",
+      "weight_percent": 27.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand multi-tenant concepts and design frameworks, such as MVC architecture and Lightning Component Framework.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Given a scenario, identify common use cases and best practices for declarative versus programmatic customizations, including governor limits, formula fields, and roll-up summaries.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given a scenario, determine, create, and access the appropriate data model including objects, fields, relationships, and external IDs.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Understand use cases and limitations of using Agentforce for Developers.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Data Modeling and Management",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Process Automation and Logic",
+      "weight_percent": 28.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Identify the capabilities of the declarative process automation features.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Understand how to declare variables, constants, methods, modifiers, Apex interfaces, and the appropriate use cases for each.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a scenario, assess how Apex control flow statements will execute and when to apply different control flow statements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Given a scenario, write SOSL, SOQL, and DML statements in Apex, and assess what they will return.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Given a scenario, follow best practices to write Apex classes and triggers.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Given a scenario, understand governor limits and their implications on Apex transactions.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Describe the relationship between Apex transactions, the save order of execution, and the potential for recursion and/or cascading.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Implement exception handling in Apex, including custom exceptions as needed.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Given a scenario, use declarative functionality and Apex together to automate business logic.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Logic and Process Automation",
-      "weight_percent": 40.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
+      "id": "3.0",
       "name": "User Interface",
-      "weight_percent": 23.0,
-      "objectives": []
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, prevent user interface and data access security vulnerabilities.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, display and use custom user interface components, including Lightning components, Flow, and Visualforce.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Describe the use cases and best practices for Lightning Web Components, including the framework, benefits, and events.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a scenario, implement Apex to work with various types of page components, including Lightning components, Flow, and Agentforce.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "4.0",
       "name": "Testing, Debugging, and Deployment",
-      "weight_percent": 17.0,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Write and execute tests for triggers, controllers, classes, and flows using various sources of test data.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a scenario, know how and when to use the Salesforce Developer tools such as Salesforce DX, Salesforce CLI, and Developer Console.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Describe how to approach debugging system issues and monitoring flows, performance, asynchronous, and batch jobs.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Describe the environments, requirements, and process for deploying code and associated configurations.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

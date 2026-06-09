@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Marketing Cloud Administrator",
   "exam_code": "Marketing Cloud Administrator",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/marketingcloudadministrator",
+  "certification_name": "Salesforce Certified Marketing Cloud Engagement Administrator",
+  "version": "Winter '25 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Engagement-Administrator-Exam-Guide",
   "passing_score": 67,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Administrators who can configure Marketing Cloud products utilizing industry and product best practices",
+  "recommended_experience": "3 to 6 months of experience administering a Marketing Cloud instance and prior experience with digital marketing",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,40 +52,124 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Digital Marketing and Channel Strategy",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "Digital Marketing Proficiency",
+      "name": "Digital Marketing Proficiency",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe governance and compliance in relation to digital marketing",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Recognize security best practices for data, permissions, and PII",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Describe Marketing Cloud product inventory and product offerings",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Subscriber Data Management and Governance",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "Subscriber Data Management",
+      "name": "Subscriber Data Management",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a scenario, describe the contact model",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a scenario, evaluate data quality",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Explain preference and profile center concepts",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Marketing Cloud Configuration",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "Setup",
+      "name": "Setup",
+      "weight_percent": 38.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, implement the configuration of business units, users/permissions, and security/passwords",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, determine how to configure integrations",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Describe the features in Setup Home",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Describe Marketing Cloud extension products",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Messaging and Automation",
-      "weight_percent": 24.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Data Management",
+      "id": "Channel Management",
+      "name": "Channel Management",
       "weight_percent": 16.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a scenario, describe the configuration of Mobile Studio",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a scenario, describe the configuration of Email Studio",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Given a scenario, describe the configuration of Advertising Studio",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Explain the concepts and typical use cases of Journey Builder",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
-      "name": "Analytics and Reporting",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "Maintenance",
+      "name": "Maintenance",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a scenario, describe solutions for data extraction and report generation",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a scenario, monitor a Marketing Cloud account and provide system availability",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Given a scenario, evaluate benefits of additional Marketing Cloud products",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

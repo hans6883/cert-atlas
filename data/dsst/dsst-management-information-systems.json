@@ -45,20 +45,26 @@
     {
       "id": "3",
       "name": "Telecommunications",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
       "id": "4",
       "name": "Database",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.0,
+      "objectives": [],
+      "weight_min": 12.0,
+      "weight_max": 12.0
     },
     {
       "id": "5",
       "name": "Systems Development",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
       "id": "6",

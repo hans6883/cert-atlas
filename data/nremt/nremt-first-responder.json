@@ -3,8 +3,8 @@
   "exam_name": "NREMT Emergency Medical Responder (EMR)",
   "exam_code": "EMR",
   "certifying_body": "NREMT",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Emergency Medical Responder (EMR)",
+  "version": "Updated versions launched on April 7, 2025",
   "source_url": "https://www.nremt.org/rwd/public/document/emr",
   "passing_score": null,
   "passing_score_scale": "Competency-based (pass/fail via CAT algorithm)",
@@ -32,8 +32,10 @@
   "renewal_required": true,
   "renewal_options": "All NREMT certifications are valid for 2 years. Renewal requires 24 hours of continuing education (CE) or completion of a refresher course. CE must be submitted through the NREMT online portal. Paramedics must include specific topic hours as defined by NREMT requirements.",
   "continuing_education_units": 24,
-  "available_languages": [],
-  "target_audience": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "EMR",
   "recommended_experience": null,
   "prerequisites": [
     {
@@ -80,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nremt.org",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -94,6 +96,7 @@
   ],
   "aliases": [
     "emergency medical responder",
+    "emergency medical responder emr",
     "emr",
     "first responder",
     "nremt emergency medical responder emr",

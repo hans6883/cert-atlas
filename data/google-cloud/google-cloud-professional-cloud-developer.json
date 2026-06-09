@@ -46,7 +46,26 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "2",
+      "name": "Building and testing applications",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Configuring cloud-native applications for deployment",
+      "weight_percent": 24.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Integrating applications with Google Cloud services",
+      "weight_percent": 21.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -70,7 +89,8 @@
   ],
   "aliases": [
     "google-cloud-professional-cloud-developer",
-    "pcd"
+    "pcd",
+    "professional cloud developer"
   ],
   "practice_url": "https://quizforge.ai/?q=Professional%20Cloud%20Developer"
 }

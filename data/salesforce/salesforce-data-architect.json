@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Data Architect",
   "exam_code": "Data Architect",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/dataarchitect",
+  "certification_name": "Salesforce Certified Platform Data Architect",
+  "version": "Exam questions align to the Spring '23 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Data-Architect-Exam-Guide",
   "passing_score": 62,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "A Salesforce Certified Platform Data Architect assesses the architecture environment and requirements and designs sound, scalable, and performant solutions on the Customer 360 Platform as it pertains to enterprise data management.",
+  "recommended_experience": "2 to 3 years of Salesforce experience, 5+ years of experience supporting or implementing data-centric solutions",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,40 +52,167 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Data Modeling/Database Design",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Compare and contrast various techniques and considerations for designing a data model for the Customer 360 Platform.",
+          "sub_objectives": [
+            "(for example, objects, fields & relationships, object features)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Given a scenario, recommend approaches and techniques to design a scalable data model that obeys the current security and sharing model.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Compare and contrast various techniques, approaches and considerations for capturing and managing business and technical metadata.",
+          "sub_objectives": [
+            "(for example, business dictionary, data lineage, taxonomy, data classification)"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Compare and contrast the different reasons for implementing big objects versus standard/custom objects within a production instance.",
+          "sub_objectives": [
+            "alongside the unique pros and cons of utilizing big objects in a Salesforce data model."
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Given a customer scenario, recommend approaches and techniques to avoid data skew.",
+          "sub_objectives": [
+            "(record locking, sharing calculation issues, and excessive child to parent relationships)"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Master Data Management",
-      "weight_percent": 16.0,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Compare and contrast the various techniques, approaches and considerations for implementing master data management (MDM) Solutions.",
+          "sub_objectives": [
+            "(for example, MDM implementation styles; harmonizing and consolidating data from multiple sources; establishing data survivorship rules, thresholds and weights; leveraging external reference data for enrichment; canonical modeling techniques, hierarchy management)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Given a customer scenario, recommend and use techniques for establishing a 'golden record' or 'system of truth' for the customer domain in a single org.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a customer scenario, recommend approaches and techniques for consolidating data attributes from multiple sources.",
+          "sub_objectives": [
+            "Discuss criteria and methodology for picking the winning attributes."
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Given a customer scenario, recommend appropriate approaches and techniques to capture and maintain customer reference and metadata.",
+          "sub_objectives": [
+            "preserve traceability and establish a common context for business rules."
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
+      "name": "Salesforce Data Management",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a customer scenario, recommend appropriate combination of Salesforce license types to effectively leverage standard and custom objects to meet business needs.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a customer scenario, recommend techniques to ensure data is persisted in a consistent manner.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a scenario with multiple systems of interaction, describe techniques to represent a single view of the customer on the Salesforce Platform.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a customer scenario, recommend a design to effectively consolidate and/or leverage data from multiple Salesforce instances.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
       "name": "Data Governance",
-      "weight_percent": 17.0,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a customer scenario, recommend an approach for designing a General Data Protection Regulation (GDPR) compliant data model.",
+          "sub_objectives": [
+            "Discuss the various options to identify, classify, and protect personal and sensitive information."
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Compare and contrast various approaches and considerations for designing and implementing an enterprise data governance program.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "5.0",
+      "name": "Large Data Volume Considerations",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a customer scenario, design a data model that scales considering LDV and solution performance.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a customer scenario, recommend a data archiving and purging plan that is optimal for the customer's data storage management needs.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Given a customer scenario, decide when to use virtualized data and describe virtualized data options.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
       "name": "Data Migration",
-      "weight_percent": 17.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Data Quality",
       "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Integration",
-      "weight_percent": 15.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Given a customer scenario, recommend appropriate techniques and methods for ensuring high data quality at load time.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Compare and contrast various techniques for improving performance when migrating LDVs into Salesforce.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Compare and contrast various techniques and considerations for exporting data from Salesforce.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

@@ -61,14 +61,18 @@
     {
       "id": "3",
       "name": "Decision Trees and Random Forests",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 20.0
     },
     {
       "id": "4",
       "name": "Generalized Linear Models",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [],
+      "weight_min": 25.0,
+      "weight_max": 35.0
     },
     {
       "id": "5",

@@ -53,38 +53,50 @@
     {
       "id": "1",
       "name": "Basic and Applied Sciences and Nutritional Concepts",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "2",
       "name": "Assessment",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.0,
+      "objectives": [],
+      "weight_min": 16.0,
+      "weight_max": 16.0
     },
     {
       "id": "3",
       "name": "Program Design",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "4",
       "name": "Exercise Technique and Training Instruction",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 24.0,
+      "objectives": [],
+      "weight_min": 24.0,
+      "weight_max": 24.0
     },
     {
       "id": "5",
       "name": "Client Relations and Behavioral Coaching",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "6",
       "name": "Professional Development and Responsibility",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     }
   ],
   "official_objectives_url": null,
@@ -101,7 +113,6 @@
   ],
   "aliases": [
     "certified personal trainer",
-    "cpt",
     "nasm certified personal trainer cpt",
     "nasm cpt",
     "nasm personal trainer",

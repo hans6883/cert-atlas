@@ -33,26 +33,34 @@
     {
       "id": "1",
       "name": "Criminal Justice System",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 25.0,
+      "objectives": [],
+      "weight_min": 25.0,
+      "weight_max": 25.0
     },
     {
       "id": "2",
       "name": "Law Enforcement",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "3",
       "name": "Courts",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "4",
       "name": "Corrections",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "5",

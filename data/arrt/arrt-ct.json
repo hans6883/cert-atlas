@@ -54,26 +54,34 @@
     {
       "id": "1",
       "name": "Patient Care and Education",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.3,
+      "objectives": [],
+      "weight_min": 13.3,
+      "weight_max": 13.3
     },
     {
       "id": "2",
       "name": "Safety",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.3,
+      "objectives": [],
+      "weight_min": 13.3,
+      "weight_max": 13.3
     },
     {
       "id": "3",
       "name": "Image Production",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.3,
+      "objectives": [],
+      "weight_min": 30.3,
+      "weight_max": 30.3
     },
     {
       "id": "4",
       "name": "Procedures",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 43.0,
+      "objectives": [],
+      "weight_min": 43.0,
+      "weight_max": 43.0
     }
   ],
   "official_objectives_url": null,

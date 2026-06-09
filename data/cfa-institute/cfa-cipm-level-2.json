@@ -55,20 +55,26 @@
     {
       "id": "1",
       "name": "Performance Measurement",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 7.5,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 10.0
     },
     {
       "id": "2",
       "name": "Performance Attribution",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 20.0
     },
     {
       "id": "3",
       "name": "Performance Appraisal",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 20.0
     },
     {
       "id": "4",
@@ -79,8 +85,10 @@
     {
       "id": "5",
       "name": "Performance Presentation Standards (GIPS)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     }
   ],
   "official_objectives_url": null,

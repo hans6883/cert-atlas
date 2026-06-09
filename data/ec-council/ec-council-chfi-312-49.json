@@ -3,7 +3,7 @@
   "exam_name": "Computer Hacking Forensic Investigator (CHFI)",
   "exam_code": "312-49",
   "certifying_body": "EC-Council",
-  "certification_name": null,
+  "certification_name": "Computer Hacking Forensic Investigator (CHFI)",
   "version": null,
   "source_url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
   "passing_score": 70,
@@ -36,12 +36,12 @@
   "certification_validity_years": 3,
   "renewal_required": true,
   "renewal_options": "Earn 120 ECE (EC-Council Continuing Education) credits over 3-year cycle. ECE credits earned through courses, conferences, publications, or EC-Council activities.",
-  "continuing_education_units": null,
+  "continuing_education_units": 120,
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "IT/forensics professionals with basic knowledge of IT/cybersecurity, computer forensics, and incident response",
+  "recommended_experience": "Basic understanding of IT/cybersecurity, computer forensics, and incident response",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -51,103 +51,577 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Computer Forensics in Today's World",
+      "id": "1.0",
+      "name": "Computer Forensics in Today’s World",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Fundamentals of Computer Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Cybercrimes and their Investigation Procedures",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Digital Evidence and eDiscovery",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Forensic Readiness",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Roles and Responsibilities of a Forensic Investigator",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Challenges Faced in Investigating Cybercrimes",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Standards and Best Practices Related to Computer Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Laws and Legal Compliance in Computer Forensics",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Computer Forensics Investigation Process",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Forensic Investigation Process and its Importance",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "First Response",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Pre-Investigation Phase",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Investigation Phase",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Post-Investigation Phase",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Understanding Hard Disks and File Systems",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Disk Drives and their Characteristics",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Logical Structure of a Disk",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Booting Process of Windows, Linux, and macOS Operating Systems",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "File Systems of Windows, Linux, and macOS Operating Systems",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "File System Analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Storage Systems",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Encoding Standards and Hex Editors",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Analyze Popular File Formats",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Data Acquisition and Duplication",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Data Acquisition",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "eDiscovery",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Data Acquisition Methodology",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Preparing an Image File for Examination",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "Defeating Anti-Forensics Techniques",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Anti-Forensics Techniques",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Data Deletion and Recycle Bin Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "File Carving Techniques and Ways to Recover Evidence from Deleted Partitions",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Password Cracking/Bypassing Techniques",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Steganography, Hidden Data in File System Structures, Trail Obfuscation, and File Extension Mismatch",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Techniques of Artifact Wiping, Overwritten Data/Metadata Detection, and Encryption",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.7",
+          "title": "Program Packers and Footprint Minimizing Techniques",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
+      "id": "6.0",
       "name": "Windows Forensics",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Windows Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Collect Volatile Information",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Collect Non-volatile Information",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Windows Memory Analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Windows Registry Analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.6",
+          "title": "Electron Application Analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.7",
+          "title": "Web Browser Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.8",
+          "title": "Examine Windows Files and Metadata",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.9",
+          "title": "ShellBags, LNK Files, and Jump Lists",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.10",
+          "title": "Text-based Logs and Windows Event Logs",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
+      "id": "7.0",
       "name": "Linux and Mac Forensics",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Collect Volatile Information in Linux",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Collect Non-Volatile Information in Linux",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Linux Memory Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "Mac Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.5",
+          "title": "Collect Volatile Information in Mac",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.6",
+          "title": "Collect Non-Volatile Information in Mac",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.7",
+          "title": "Mac Memory Forensics and Mac Forensics Tools",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
+      "id": "8.0",
       "name": "Network Forensics",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Network Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Event Correlation",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Indicators of Compromise (IoCs) from Network Logs",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.4",
+          "title": "Investigate Network Traffic",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.5",
+          "title": "Incident Detection and Examination",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.6",
+          "title": "Wireless Network Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.7",
+          "title": "Detect and Investigate Wireless Network Attacks",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "9",
-      "name": "Investigating Web Attacks",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "10",
-      "name": "Dark Web Forensics",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "11",
-      "name": "Database Forensics",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "12",
-      "name": "Cloud Forensics",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "13",
-      "name": "Investigating Email Crimes",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "14",
+      "id": "9.0",
       "name": "Malware Forensics",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Malware",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Malware Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.3",
+          "title": "Static Malware Analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.4",
+          "title": "Analyze Suspicious Documents",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.5",
+          "title": "System Behavior Analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.6",
+          "title": "Network Behavior Analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.7",
+          "title": "Ransomware Analysis",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "15",
+      "id": "10.0",
+      "name": "Investigating Web Attacks",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Web Application Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.2",
+          "title": "Internet Information Services (IIS) Logs",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.3",
+          "title": "Apache Web Server Logs",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.4",
+          "title": "Detect and Investigate Various Attacks on Web Applications",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Dark Web Forensics",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Dark Web and Dark Web Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.2",
+          "title": "Identify the Traces of Tor Browser during Investigation",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.3",
+          "title": "Tor Browser Forensics",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "Cloud Forensics",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Cloud Computing",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.2",
+          "title": "Cloud Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.3",
+          "title": "Amazon Web Services (AWS) Fundamentals",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.4",
+          "title": "AWS Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.5",
+          "title": "Microsoft Azure Fundamentals",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.6",
+          "title": "Microsoft Azure Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.7",
+          "title": "Google Cloud Fundamentals",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.8",
+          "title": "Google Cloud Forensics",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Email and Social Media Forensics",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Email Basics",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.2",
+          "title": "Email Crime Investigation and its Steps",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.3",
+          "title": "U.S. Laws Against Email Crime",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.4",
+          "title": "Social Media Forensics",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "14.0",
       "name": "Mobile Forensics",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Mobile Device Forensics",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.2",
+          "title": "Android and iOS Architecture and Boot Process",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.3",
+          "title": "Mobile Forensics Process",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.4",
+          "title": "Investigate Cellular Network Data",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.5",
+          "title": "File System Acquisition",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.6",
+          "title": "Phone Locks, Rooting, and Jailbreaking of Mobile Devices",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.7",
+          "title": "Logical Acquisition on Mobile Devices",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.8",
+          "title": "Physical Acquisition of Mobile Devices",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.9",
+          "title": "Android and iOS Forensic Analysis",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "16",
+      "id": "15.0",
       "name": "IoT Forensics",
       "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "IoT Concepts",
+          "sub_objectives": []
+        },
+        {
+          "id": "15.2",
+          "title": "IoT Devices Forensics",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.eccouncil.org",
   "official_study_resources": [
     {
       "resource_type": "online_course",

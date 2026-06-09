@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified B2C Commerce Developer",
   "exam_code": "B2C Commerce Developer",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/b2ccommercedeveloper",
+  "certification_name": "Salesforce Certified B2C Commerce Developer",
+  "version": "Spring '23 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-B2C-Commerce-Cloud-Developer-Exam-Guide",
   "passing_score": 62,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Ecommerce developers who have a minimum of 1 year of developer experience, plus 3-6 months of experience in a B2C Commerce Developer role.",
+  "recommended_experience": "Experience as developers for Salesforce B2C Commerce Digital.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,34 +52,172 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Business Manager Site Administration",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "B2C Commerce Setup",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given a sandbox environment, configure an IDE to use WebDAV to deploy cartridges to the correct version directories.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Given a sandbox instance and data import files, import files using the Business Manager Import/Export modules.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given the code for a storefront site, add the correct sequence of cartridge names to the provided cartridge path.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Given a sandbox environment, use the Business Manager to add a new site to the instance, configuring the default currency and taxation type according to business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Given a recently created B2C site, assign the storefront data configurations according to business requirements.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Commerce Cloud Digital for Developers",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Work With a B2C Site",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a Business Manager task, work with the product data model to manage products and product search model, their categorization, and associated inventory and pricebooks.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a configuration for tasks, such as payment and shipping information, use Business Manager to enable shoppers to complete storefront orders.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a configuration task, use Business Manager to work with Content Assets, Page Designer, Content Slots, and Content Folders.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Storefront Rendering",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Data Management Using Business Manager Usage",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a business requirement, modify site search preferences and settings to enable searching for a specified term or product attribute.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a business requirement, create and configure a new search refinement and sorting definition that can be used on the storefront.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a debugging requirement or code, configure the logging categories and access the logs in Business Manager.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given business requirements, extend the storefront to expose a new attribute on an existing system object type.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Given a business need to store custom data, determine if a custom object is needed and create and configure as required.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Given a problem or performance issue and data, use relevant tools to inspect code performance and determine and implement solutions (cache configuration, profilers, etc.) to resolve this issue.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Given a specification and a sandbox instance, configure OCAPI permissions for Data and Shop APIs.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Given a service configuration, recognize how they are applicable to the development process.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Check Out and Order Management",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Data Imports and Integrations",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Application Development",
+      "weight_percent": 53.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a development task, code ISML templates that use functionality, such as local include, remote include, components, and other ISML tags.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Use debugging best practices and techniques to troubleshoot scripts and controllers and verify outcomes.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Given a requirement, create and extend the functionality of a JavaScript controller that leverages models, decorators, factories, or helpers following API best practices, and renders a template or returns a JSON response.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Given a business requirement and design for a new marketing page, develop page types and components to allow a marketer to build a page with the Page Designer tool.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Given a requirement to accept, validate, and persist information from a storefront customer, modify the appearance of a form, add validation and cross-site request forgery (CSRF) protection, and use bindings to process fields.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Given localization requirements, implement and enhance templates, form definitions, static files, properties files, and persistent object attributes to ensure that pages are displayed in the expected language.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Given a logging task and existing configuration, write code that logs non-sensitive data to custom log files with different log levels.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Integrate, deploy, and use a service instance based on a given requirement.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.9",
+          "title": "Given a use case, extend functionality or capture an event using hook extension points.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.10",
+          "title": "Given code that violates documented best practices, identify the issues and modify the code to conform with best practices including performance and scalability.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.11",
+          "title": "Given a business requirement, use OCAPI Shop and Data APIs to enable interoperability with an external system.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.12",
+          "title": "Given a business requirement to perform a scheduled task, develop jobs and code job scripts.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

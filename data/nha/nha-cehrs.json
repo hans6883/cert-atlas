@@ -3,45 +3,50 @@
   "exam_name": "Certified Electronic Health Records Specialist (CEHRS)",
   "exam_code": "CEHRS",
   "certifying_body": "NHA",
-  "certification_name": null,
+  "certification_name": "Certified Electronic Health Records Specialist (CEHRS)",
   "version": null,
   "source_url": "https://www.nhanow.com/certifications/electronic-health-records-specialist",
   "passing_score": 390,
-  "passing_score_scale": "390/500 scaled score",
+  "passing_score_scale": null,
   "total_questions": 110,
   "question_types": [
     "Multiple Choice (single best answer)"
   ],
-  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "exam_format": "Computer-based testing (CBT), fixed-form. 100-150 questions depending on exam. Scaled scoring (390 passing out of 500).",
   "duration_minutes": 150,
   "exam_price_usd": 117.0,
-  "exam_price_notes": "$117 exam fee.",
+  "exam_price_notes": "Eligibility requirements include a high school diploma or GED, and completion of a training program or work experience in the field.",
   "voucher_url": null,
-  "exam_registration_url": "https://www.nhanow.com/certifications",
+  "exam_registration_url": "Create an Account to Get Started",
   "testing_centers": [
     {
-      "provider": "PSI Testing Centers",
+      "provider": "PSI or NHA-approved test centers / online proctoring",
       "scheduling_url": "https://www.nhanow.com/certifications",
-      "notes": "PSI testing centers nationwide; online remote proctoring also available"
+      "notes": "Most exams are computer-based (linear fixed-form). Some available via live remote proctoring. NCCA accredited. Results often immediate or within days."
     }
   ],
   "online_proctoring_available": true,
-  "id_requirements": "Government-issued photo ID required. Name must match NHA registration exactly. Secondary ID may be requested at test center.",
-  "exam_rules": "Closed-book computer-based test. On-screen calculator provided where applicable. No personal items permitted in testing room. Score scale 200–500; passing score is 390.",
+  "id_requirements": "Government-issued photo ID required at check-in. Must match name on registration exactly.",
+  "exam_rules": "Closed book. No notes, phones, or reference materials. Calculators provided on-screen if needed. Follow all test center or remote proctoring rules.",
   "certification_validity_years": 2,
   "renewal_required": true,
-  "renewal_options": "2-year certification validity. Renewal requires 10 CE credits per 2-year cycle. CE can be completed through NHA online platform or approved providers. Renewal application submitted through NHA candidate portal.",
-  "continuing_education_units": null,
+  "renewal_options": "Every 2 years via online portal. Requires 10 continuing education (CE) credits per cycle. CE can be earned through NHA courses or approved providers. Renewal fee applies.",
+  "continuing_education_units": 10,
   "available_languages": [
     "English",
-    "Spanish"
+    "Spanish (select exams)"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Healthcare professionals and individuals seeking to become electronic health records specialists.",
+  "recommended_experience": "Completion of an electronic health records specialist training program within the last 5 years, or 1-2 years of supervised work experience in the field.",
   "prerequisites": [
     {
-      "prerequisite_type": "education",
-      "description": "Completion of an NHA-recognized EHR program or 1 year of recent work experience with electronic health records",
+      "prerequisite_type": "required_certification",
+      "description": "High school diploma or GED, or scheduled to earn one within the next 12 months.",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Completion of an electronic health records specialist training program within the last 5 years, or 1-2 years of supervised work experience in the field.",
       "is_required": true
     }
   ],
@@ -49,59 +54,102 @@
     "waiting_period_days": 30,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
-    "notes": "Candidates must wait 30 days before retaking an NHA exam. Full exam fee required for each retake attempt."
+    "notes": "Full exam fee charged for each retake. No limit specified beyond waiting period."
   },
   "domains": [
     {
-      "id": "1",
-      "name": "EHR Fundamentals",
+      "id": "1.0",
+      "name": "Electronic Health Records Specialist Certification (CEHRS)",
       "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Patient Registration and Scheduling",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Clinical Documentation",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Health Information Management",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Revenue Cycle",
-      "weight_percent": null,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Auditing patient records for compliance",
+          "sub_objectives": [
+            "Ensure accuracy and completeness of patient data",
+            "Review compliance with healthcare regulations"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Abstracting clinical information for reports",
+          "sub_objectives": [
+            "Extract relevant clinical data from patient records",
+            "Prepare reports for internal or external use"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Performing basic coding for reimbursement claims",
+          "sub_objectives": [
+            "Apply appropriate coding standards",
+            "Submit accurate reimbursement claims"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Processing Release of Information (ROI) requests",
+          "sub_objectives": [
+            "Review ROI requests for compliance",
+            "Ensure proper authorization for release of information"
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Reviewing patient demographic and insurance information",
+          "sub_objectives": [
+            "Verify accuracy of patient demographics",
+            "Ensure insurance information is up to date"
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "Discussing patient information with physicians and insurance professionals",
+          "sub_objectives": [
+            "Communicate effectively with healthcare professionals",
+            "Ensure accurate and appropriate sharing of information"
+          ]
+        }
+      ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nhanow.com/certifications/electronic-health-records-specialist",
   "official_study_resources": [
     {
-      "resource_type": "pdf",
-      "title": "NHA Exam Content Outline",
-      "url": "https://www.nhanow.com/certifications",
-      "provider": "NHA",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free content outlines per certification available on NHA website"
-    },
-    {
-      "resource_type": "practice_exam",
-      "title": "NHA Practice Tests",
-      "url": "https://www.nhanow.com/study-materials",
+      "resource_type": "official_study_guide",
+      "title": "CEHRS Online Study Guide",
+      "url": "Page Link",
       "provider": "NHA",
       "is_official": true,
       "price_usd": null,
-      "notes": "Official NHA study materials and practice tests available for purchase"
+      "notes": "Provides contemporary learning tools such as practice drills, audio and video content, and review questions."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CEHRS Practice Tests",
+      "url": "Page Link",
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Get up to five attempts on a CEHRS practice test."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CEHRS Preparation Package",
+      "url": "Page Link",
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Includes robust interactive study materials and a CEHRS study guide, along with the CEHRS practice test."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CEHRS Test Plan",
+      "url": "Page Link",
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Free study aide that maps out key tasks and knowledge needed for the CEHRS exam."
     }
   ],
   "aliases": [

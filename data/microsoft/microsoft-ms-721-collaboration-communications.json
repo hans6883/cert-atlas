@@ -3,9 +3,9 @@
   "exam_name": "Collaboration Communications Systems Engineer",
   "exam_code": "MS-721",
   "certifying_body": "Microsoft",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/collaboration-communications-systems-engineer/",
+  "certification_name": "Microsoft Certified: Collaboration Communications Systems Engineer",
+  "version": "As of April 28, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-721",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -39,7 +39,7 @@
   "online_proctoring_available": true,
   "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
   "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
-  "certification_validity_years": null,
+  "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
   "continuing_education_units": null,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Collaboration communications systems engineers responsible for planning, deploying, configuring, maintaining, and troubleshooting collaboration communication systems",
+  "recommended_experience": "Fundamental understanding of networking, telecommunications, audio/visual and meeting room technologies, and identity and access management. Proficient in managing collaboration and communications solutions using Microsoft Teams admin center, Microsoft Teams Rooms Pro Management portal, PowerShell, and Microsoft Call Quality Dashboard",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience with Microsoft Teams Phone, Microsoft Teams meetings, webinars, and town halls, Microsoft Teams Premium, Microsoft 365 Copilot, Microsoft Teams Rooms, and other certified and supported devices",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,28 +74,274 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Plan and design calling solutions",
+      "id": "1.0",
+      "name": "Plan and design collaboration communications systems",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Plan and design Teams meetings",
+          "sub_objectives": [
+            "Plan for Teams meetings, webinars, and town halls",
+            "Plan and design Teams meeting policies and settings",
+            "Plan for PSTN audio conferencing",
+            "Recommend when to use Teams Premium, including Microsoft 365 Copilot",
+            "Recommend meeting types based on business requirements, including virtual appointments, webinars, town halls, and meetings",
+            "Recommend methods for assigning policies",
+            "Plan and design Teams policy packages"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Plan and design Teams Phone and PSTN connectivity",
+          "sub_objectives": [
+            "Identify licensing requirements to enable Teams Phone for users, shared devices, and Teams resource accounts",
+            "Identify PSTN connectivity requirements",
+            "Recommend when to use Teams Phone Mobile",
+            "Plan for Operator Connect",
+            "Plan and design SMS in Teams with Microsoft Calling Plan numbers",
+            "Recommend an appropriate billing method for communications consumption, including domestic, international, and pay-as-you-go (PAYG)",
+            "Plan for Shared Calling",
+            "Plan usage scenarios for service and user phone numbers",
+            "Plan for porting and/or acquiring phone numbers",
+            "Design call flows for auto attendants and call queues",
+            "Design a solution for dynamic emergency calling",
+            "Recommend devices for Teams Phone",
+            "Plan for and recommend analog devices, Session Initiation Protocol (SIP) handsets, and SIP devices",
+            "Recommend when to use Survivable Branch Appliances (SBAs)",
+            "Plan and design Direct Routing",
+            "Recommend a Session Border Controller (SBC) solution based on PSTN connectivity",
+            "Identify an appropriate compliance recording solution",
+            "Identify use cases for certified contact center solutions",
+            "Identify use cases for the Queues app"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Plan and design Teams-certified device solutions",
+          "sub_objectives": [
+            "Recommend a room configuration based on the meeting space, including Bring Your Own Device (BYOD)",
+            "Recommend a room configuration based on customer and business requirements",
+            "Choose between Teams Rooms Basic and Teams Rooms Pro",
+            "Recommend a Teams Rooms device platform, including Windows and Android",
+            "Recommend Teams-certified devices",
+            "Recommend Teams Rooms certified components",
+            "Recommend an interoperability solution for Microsoft Teams Rooms, including Cloud Video Interop (CVI), Direct Guest Join, and SIP Guest Join",
+            "Identify the requirements for a Microsoft Teams Rooms resource account",
+            "Identify the enrollment requirements for Microsoft Intune",
+            "Identify the enrollment requirements for Android Open Source Project (AOSP) device management",
+            "Plan for advanced features on shared devices",
+            "Prepare the network for Teams",
+            "Evaluate network readiness by using the Microsoft Teams Network Assessment Tool",
+            "Recommend when to use Enterprise Content Delivery Network (eCDN)",
+            "Specify the network configuration for certified devices",
+            "Determine network requirements by using the Network planner for Teams",
+            "Specify the optimal network architecture for Teams",
+            "Specify Teams Quality of Service (QoS) requirements and policies",
+            "Configure Teams for QoS",
+            "Configure Media Bit Rate (MBR)",
+            "Create and assign a network roaming policy",
+            "Configure the network topology",
+            "Configure tenant data upload for the Microsoft Call Quality Dashboard",
+            "Configure reporting labels for Call Analytics"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Implement and configure calling solutions",
+      "id": "2.0",
+      "name": "Configure and manage Teams meetings, webinars, and town halls",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Configure and manage Teams meetings",
+          "sub_objectives": [
+            "Create and manage meeting policies",
+            "Configure meeting settings",
+            "Configure avatars for Teams meetings",
+            "Configure and manage meeting features, including meeting apps, polls and forms, Q&A, breakout rooms, and Teams Premium features",
+            "Create and manage Teams meeting templates and meeting template policies",
+            "Configure controlled-content meeting policies",
+            "Configure Cloud Video Interop policies",
+            "Configure meeting recording and transcription to support Microsoft 365 Copilot and Microsoft Teams Premium",
+            "Configure virtual appointments and advanced virtual appointment policies",
+            "Evaluate Teams Premium by using the Teams admin center",
+            "Configure and manage Audio Conferencing",
+            "Configure Audio Conferencing for Teams",
+            "Configure a default Audio Conferencing bridge",
+            "Configure an Audio Conferencing bridge number",
+            "Configure a toll-free Audio Conferencing bridge number",
+            "Assign a specific Audio Conferencing number to a user",
+            "Configure toll-free Audio Conferencing",
+            "Configure the Audio Conferencing numbers included in meeting invitations"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Configure and manage Teams webinars",
+          "sub_objectives": [
+            "Configure webinar roles and presenter and attendee experience",
+            "Manage access to scheduling Teams webinars",
+            "Configure policies for Teams webinars",
+            "Configure in-org vs public webinars",
+            "Configure advanced webinar features",
+            "Configure attendee interaction for webinars"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Configure and manage Teams Town halls",
+          "sub_objectives": [
+            "Configure Town Hall settings",
+            "Configure a Microsoft eCDN for Town halls",
+            "Configure advanced Town hall features",
+            "Configure Town halls with Teams, Viva Engage, and Microsoft Stream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Implement and configure Teams Phone",
       "weight_percent": 30.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Create and configure Teams Phone policies",
+          "sub_objectives": [
+            "Create and configure dial plans",
+            "Create and configure calling policies",
+            "Create and configure call park policies",
+            "Create and configure caller ID policies",
+            "Create and configure IP Phone policies",
+            "Create and configure mobility policies",
+            "Create and configure voicemail policies",
+            "Create and configure call hold policies",
+            "Create and configure outbound call restrictions",
+            "Create and configure inbound call blocking",
+            "Create and configure routing of unassigned numbers",
+            "Create and configure compliance recording policies",
+            "Create and configure Shared Calling policies",
+            "Create and configure auto attendants and call queues",
+            "Create and configure resource accounts",
+            "Assign licenses to resource accounts",
+            "Assign phone numbers to resource accounts, including toll-free phone numbers",
+            "Assign a resource account to an auto attendant or call queue",
+            "Choose an appropriate call queue routing method, including call priorities",
+            "Configure business hours and holidays for auto attendants",
+            "Configure custom Music on Hold (MoH)",
+            "Configure caller ID policies and outbound caller ID for call queues",
+            "Create and configure voice applications policies for auto attendants and call queues",
+            "Implement callback for call queues",
+            "Configure the Queues app",
+            "Configure emergency calling",
+            "Create and configure emergency calling locations",
+            "Configure emergency call routing policies",
+            "Configure emergency calling policies",
+            "Configure networks and locations (Location Information Service (LIS))",
+            "Validate emergency address and emergency calling from Teams clients",
+            "Assign a verified emergency address location",
+            "Troubleshoot dynamic emergency address",
+            "Assign Teams Phone licenses, phone numbers, and policies",
+            "Assign a Teams Phone Standard license",
+            "Assign a Teams Calling Plan",
+            "Assign phone numbers to users by using the Microsoft Teams admin center",
+            "Assign phone numbers in bulk by using PowerShell",
+            "Assign Teams Phone policies to a specific user",
+            "Create and assign policy packages",
+            "Configure and assign Teams Phone policies by using group policy",
+            "Configure and manage calling features for Teams Phone",
+            "Configure Cloud Voicemail",
+            "Configure group call pickup",
+            "Configure Call Forwarding",
+            "Configure Simultaneous Ring",
+            "Configure call delegation",
+            "Configure Audio Conferencing",
+            "Configure private lines",
+            "Configure and manage Direct Routing for Teams Phone",
+            "Configure connectivity for Teams Phone to an SBC",
+            "Create and configure a PSTN gateway",
+            "Create PSTN usage records",
+            "Create and configure voice routes",
+            "Create and configure voice routing policies",
+            "Validate Direct Routing SBC connectivity",
+            "Identify use cases for Location-Based Routing (LBR)",
+            "Identify use cases for Local Media Optimization (LMO)",
+            "Configure trunk translation rules",
+            "Configure on-network conferencing for Direct Routing",
+            "Configure SBA policies",
+            "Manage emergency call routing policies for Direct Routing",
+            "Configure phone number inventory for Direct Routing",
+            "Troubleshoot Direct Routing by using the Teams admin center"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Implement and configure meeting solutions",
-      "weight_percent": 30.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Manage Teams Rooms",
+      "id": "4.0",
+      "name": "Configure and manage Teams Rooms and devices",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Manage and maintain Teams Rooms and devices",
+          "sub_objectives": [
+            "Configure device settings",
+            "Configure local network settings",
+            "Configure device updates",
+            "Recommend Microsoft Entra Conditional Access MFA exceptions for resource accounts",
+            "Configure meeting room settings by using the Microsoft Teams admin center or the local Teams application settings",
+            "Manage Teams Rooms from the Microsoft Teams Rooms Pro Management portal",
+            "Specify Intune configuration requirements for Teams devices",
+            "Deploy common area phones, user phones, and conference phones",
+            "Create and manage Teams device tags",
+            "Configure SIP Gateway and provision SIP devices",
+            "Monitor Teams device health",
+            "Troubleshoot authentication issues",
+            "Troubleshoot update issues",
+            "Troubleshoot remote provisioning issues",
+            "Troubleshoot proximity join issues"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Configure and manage Teams Android devices",
+          "sub_objectives": [
+            "Configure Teams IP phone policies",
+            "Create and configure device configuration profiles for Android based devices",
+            "Enable hotline for shared space devices",
+            "Deploy Android devices remotely",
+            "Configure custom displays for Teams Rooms on Android and Teams panels",
+            "Specify Intune configuration requirements for AOSP and Microsoft Device Ecosystem Platform (MDEP) devices"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Configure and manage Teams Rooms on Windows",
+          "sub_objectives": [
+            "Specify domain group policy exclusions for Teams Rooms on Windows",
+            "Configure custom displays for Teams Rooms on Windows",
+            "Customize Teams Rooms on Windows settings by using an XML configuration file",
+            "Configure settings for peripherals for Teams Rooms on Windows",
+            "Configure optional features for Teams Rooms and devices",
+            "Configure HDMI ingest and options",
+            "Configure a content camera",
+            "Configure Teams casting",
+            "Configure proximity join",
+            "Configure room remote",
+            "Configure Direct Guest Join",
+            "Configure hot desking on Teams shared devices",
+            "Configure AI-enabled voice and video capabilities for shared space devices",
+            "Configure BYOD spaces and bookable desks",
+            "Create and publish room types",
+            "Manage inventory, including discovery of or import of hardware",
+            "Assign devices to room types",
+            "Set up and configure bookable desks",
+            "Manage and monitor shared space rooms that include bring-your-own devices"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -115,6 +367,7 @@
   ],
   "aliases": [
     "collaboration communications systems engineer",
+    "microsoft certified collaboration communications systems engineer",
     "microsoft-ms-721-collaboration-communications",
     "ms-721"
   ],

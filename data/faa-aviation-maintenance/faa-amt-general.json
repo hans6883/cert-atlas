@@ -46,32 +46,42 @@
     {
       "id": "1",
       "name": "Arithmetic and Algebra",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 7.5,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 10.0
     },
     {
       "id": "2",
       "name": "Physics",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 7.5,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 10.0
     },
     {
       "id": "3",
       "name": "Electricity and Electronics",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 15.0
     },
     {
       "id": "4",
       "name": "Materials and Processes",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 7.5,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 10.0
     },
     {
       "id": "5",
       "name": "Ground Handling and Servicing",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 15.0
     },
     {
       "id": "6",
@@ -88,8 +98,10 @@
     {
       "id": "8",
       "name": "Weight and Balance",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 7.5,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 10.0
     }
   ],
   "official_objectives_url": null,

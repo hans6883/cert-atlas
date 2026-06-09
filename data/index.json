@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-07",
-  "total_exams": 1580,
-  "total_vendors": 222,
-  "exams_with_domain_breakdowns": 1495,
+  "generated": "2026-06-09",
+  "total_exams": 1606,
+  "total_vendors": 223,
+  "exams_with_domain_breakdowns": 1533,
   "exams": [
     {
       "exam_id": "aacn-accns-ag",
@@ -1942,10 +1942,10 @@
       "exam_code": "DAS-C01",
       "certifying_body": "AWS",
       "vendor_slug": "aws",
-      "domains": 0,
+      "domains": 5,
       "total_questions": 65,
       "duration_minutes": 180,
-      "source_url": "https://aws.amazon.com/certification/certified-data-analytics-specialty/",
+      "source_url": "https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Exam-Guide.pdf",
       "practice_url": "https://quizforge.ai/tests/aws-certified-data-analytics-â€“-specialty-2dwh62"
     },
     {
@@ -1966,10 +1966,10 @@
       "exam_code": "DBS-C01",
       "certifying_body": "AWS",
       "vendor_slug": "aws",
-      "domains": 0,
+      "domains": 5,
       "total_questions": 65,
       "duration_minutes": 180,
-      "source_url": "https://aws.amazon.com/certification/certified-database-specialty/",
+      "source_url": "https://d1.awsstatic.com/training-and-certification/docs-database-specialty/AWS-Certified-Database-Specialty_Exam-Guide.pdf",
       "practice_url": "https://quizforge.ai/tests/aws-database-specialty-dbs-c01"
     },
     {
@@ -4582,7 +4582,7 @@
       "exam_code": "200-301",
       "certifying_body": "Cisco",
       "vendor_slug": "cisco",
-      "domains": 0,
+      "domains": 6,
       "total_questions": 100,
       "duration_minutes": 120,
       "source_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ccna-200-301.html",
@@ -4606,7 +4606,7 @@
       "exam_code": "350-701",
       "certifying_body": "Cisco",
       "vendor_slug": "cisco",
-      "domains": 0,
+      "domains": 6,
       "total_questions": 100,
       "duration_minutes": 120,
       "source_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/scor-350-701.html",
@@ -4630,7 +4630,7 @@
       "exam_code": "200-901",
       "certifying_body": "Cisco",
       "vendor_slug": "cisco",
-      "domains": 0,
+      "domains": 6,
       "total_questions": 100,
       "duration_minutes": 120,
       "source_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/devasc-200-901.html",
@@ -6802,7 +6802,7 @@
       "exam_code": "Spark Developer Associate",
       "certifying_body": "Databricks",
       "vendor_slug": "databricks",
-      "domains": 4,
+      "domains": 7,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://www.databricks.com/learn/certification/apache-spark-developer-associate",
@@ -6826,7 +6826,7 @@
       "exam_code": "Data Engineer Professional",
       "certifying_body": "Databricks",
       "vendor_slug": "databricks",
-      "domains": 6,
+      "domains": 10,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://www.databricks.com/learn/certification/data-engineer-professional",
@@ -6838,7 +6838,7 @@
       "exam_code": "Gen AI Engineer Associate",
       "certifying_body": "Databricks",
       "vendor_slug": "databricks",
-      "domains": 5,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://www.databricks.com/learn/certification/genai-engineer-associate",
@@ -6862,7 +6862,7 @@
       "exam_code": "ML Professional",
       "certifying_body": "Databricks",
       "vendor_slug": "databricks",
-      "domains": 4,
+      "domains": 3,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://www.databricks.com/learn/certification/machine-learning-professional",
@@ -7018,7 +7018,7 @@
       "exam_code": "312-50",
       "certifying_body": "EC-Council",
       "vendor_slug": "ec-council",
-      "domains": 6,
+      "domains": 20,
       "total_questions": 125,
       "duration_minutes": 240,
       "source_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
@@ -7054,7 +7054,7 @@
       "exam_code": "312-49",
       "certifying_body": "EC-Council",
       "vendor_slug": "ec-council",
-      "domains": 16,
+      "domains": 15,
       "total_questions": 150,
       "duration_minutes": 240,
       "source_url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
@@ -8734,7 +8734,7 @@
       "exam_code": "ACE",
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
-      "domains": 0,
+      "domains": 4,
       "total_questions": 50,
       "duration_minutes": 120,
       "source_url": "https://cloud.google.com/learn/certification/cloud-engineer",
@@ -8746,7 +8746,7 @@
       "exam_code": "CDL",
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
-      "domains": 0,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://cloud.google.com/learn/certification/cloud-digital-leader",
@@ -8758,7 +8758,7 @@
       "exam_code": "PCA",
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
-      "domains": 0,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://cloud.google.com/learn/certification/cloud-architect",
@@ -8770,7 +8770,7 @@
       "exam_code": "PCD",
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
-      "domains": 0,
+      "domains": 3,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://cloud.google.com/learn/certification/cloud-developer",
@@ -8782,7 +8782,7 @@
       "exam_code": "PCNE",
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
-      "domains": 0,
+      "domains": 4,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://cloud.google.com/learn/certification/cloud-network-engineer",
@@ -8794,7 +8794,7 @@
       "exam_code": "PCSE",
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
-      "domains": 0,
+      "domains": 5,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://cloud.google.com/learn/certification/cloud-security-engineer",
@@ -8806,7 +8806,7 @@
       "exam_code": "PDE",
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
-      "domains": 0,
+      "domains": 5,
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://cloud.google.com/learn/certification/data-engineer",
@@ -10745,6 +10745,306 @@
       "practice_url": "https://quizforge.ai/tests/iiba-entry-certificate-business-analysis-ecba"
     },
     {
+      "exam_id": "iicrc-amrt",
+      "exam_name": "Applied Microbial Remediation Technician (AMRT)",
+      "exam_code": "AMRT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": 100,
+      "duration_minutes": 90,
+      "source_url": "https://iicrc.org/amrt/",
+      "practice_url": "https://quizforge.ai/?q=Applied%20Microbial%20Remediation%20Technician%20%28AMRT%29"
+    },
+    {
+      "exam_id": "iicrc-asd",
+      "exam_name": "Applied Structural Drying Technician (ASD)",
+      "exam_code": "ASD",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": 50,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/asd/",
+      "practice_url": "https://quizforge.ai/?q=Applied%20Structural%20Drying%20Technician%20%28ASD%29"
+    },
+    {
+      "exam_id": "iicrc-cct",
+      "exam_name": "Carpet Cleaning Technician (CCT)",
+      "exam_code": "CCT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": 100,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/cct/",
+      "practice_url": "https://quizforge.ai/?q=Carpet%20Cleaning%20Technician%20%28CCT%29"
+    },
+    {
+      "exam_id": "iicrc-rrt",
+      "exam_name": "Carpet Repair and Reinstallation Technician (RRT)",
+      "exam_code": "RRT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/rrt/",
+      "practice_url": "https://quizforge.ai/?q=Carpet%20Repair%20and%20Reinstallation%20Technician%20%28RRT%29"
+    },
+    {
+      "exam_id": "iicrc-crt",
+      "exam_name": "Color Repair Technician (CRT)",
+      "exam_code": "CRT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/crt/",
+      "practice_url": "https://quizforge.ai/?q=Color%20Repair%20Technician%20%28CRT%29"
+    },
+    {
+      "exam_id": "iicrc-ccmt",
+      "exam_name": "Commercial Carpet Maintenance Technician (CCMT)",
+      "exam_code": "CCMT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/ccmt/",
+      "practice_url": "https://quizforge.ai/?q=Commercial%20Carpet%20Maintenance%20Technician%20%28CCMT%29"
+    },
+    {
+      "exam_id": "iicrc-cds",
+      "exam_name": "Commercial Drying Specialist (CDS)",
+      "exam_code": "CDS",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/commercial-drying-specialist-cds/",
+      "practice_url": "https://quizforge.ai/?q=Commercial%20Drying%20Specialist%20%28CDS%29"
+    },
+    {
+      "exam_id": "iicrc-cpt",
+      "exam_name": "Contents Processing Technician (CPT)",
+      "exam_code": "CPT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/cpt/",
+      "practice_url": "https://quizforge.ai/?q=Contents%20Processing%20Technician%20%28CPT%29"
+    },
+    {
+      "exam_id": "iicrc-fsrt",
+      "exam_name": "Fire and Smoke Damage Restoration Technician (FSRT)",
+      "exam_code": "FSRT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": 100,
+      "duration_minutes": 90,
+      "source_url": "https://iicrc.org/fsrt/",
+      "practice_url": "https://quizforge.ai/?q=Fire%20and%20Smoke%20Damage%20Restoration%20Technician%20%28FSRT%29"
+    },
+    {
+      "exam_id": "iicrc-fct",
+      "exam_name": "Floor Care Technician (FCT)",
+      "exam_code": "FCT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/fct/",
+      "practice_url": "https://quizforge.ai/?q=Floor%20Care%20Technician%20%28FCT%29"
+    },
+    {
+      "exam_id": "iicrc-hst",
+      "exam_name": "Health and Safety Technician (HST)",
+      "exam_code": "HST",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/hst/",
+      "practice_url": "https://quizforge.ai/?q=Health%20and%20Safety%20Technician%20%28HST%29"
+    },
+    {
+      "exam_id": "iicrc-hct",
+      "exam_name": "House Cleaning Technician (HCT)",
+      "exam_code": "HCT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/hct/",
+      "practice_url": "https://quizforge.ai/?q=House%20Cleaning%20Technician%20%28HCT%29"
+    },
+    {
+      "exam_id": "iicrc-issi",
+      "exam_name": "Introduction to Substrate and Subfloor Inspection (ISSI)",
+      "exam_code": "ISSI",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 4,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/issi/",
+      "practice_url": "https://quizforge.ai/?q=Introduction%20to%20Substrate%20and%20Subfloor%20Inspection%20%28ISSI%29"
+    },
+    {
+      "exam_id": "iicrc-lct",
+      "exam_name": "Leather Cleaning Technician (LCT)",
+      "exam_code": "LCT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/lct/",
+      "practice_url": "https://quizforge.ai/?q=Leather%20Cleaning%20Technician%20%28LCT%29"
+    },
+    {
+      "exam_id": "iicrc-oct",
+      "exam_name": "Odor Control Technician (OCT)",
+      "exam_code": "OCT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/oct/",
+      "practice_url": "https://quizforge.ai/?q=Odor%20Control%20Technician%20%28OCT%29"
+    },
+    {
+      "exam_id": "iicrc-rfi",
+      "exam_name": "Resilient Flooring Inspector (RFI)",
+      "exam_code": "RFI",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://iicrc.org/rfi/",
+      "practice_url": "https://quizforge.ai/?q=Resilient%20Flooring%20Inspector%20%28RFI%29"
+    },
+    {
+      "exam_id": "iicrc-rfmt",
+      "exam_name": "Resilient Flooring Maintenance Technician (RFMT)",
+      "exam_code": "RFMT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/rfmt/",
+      "practice_url": "https://quizforge.ai/?q=Resilient%20Flooring%20Maintenance%20Technician%20%28RFMT%29"
+    },
+    {
+      "exam_id": "iicrc-rct",
+      "exam_name": "Rug Cleaning Technician (RCT)",
+      "exam_code": "RCT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/rct/",
+      "practice_url": "https://quizforge.ai/?q=Rug%20Cleaning%20Technician%20%28RCT%29"
+    },
+    {
+      "exam_id": "iicrc-sci",
+      "exam_name": "Senior Carpet Inspector (SCI)",
+      "exam_code": "SCI",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://iicrc.org/sci/",
+      "practice_url": "https://quizforge.ai/?q=Senior%20Carpet%20Inspector%20%28SCI%29"
+    },
+    {
+      "exam_id": "iicrc-smt",
+      "exam_name": "Stone, Masonry and Ceramic Tile Cleaning Technician (SMT)",
+      "exam_code": "SMT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/smt/",
+      "practice_url": "https://quizforge.ai/?q=Stone%2C%20Masonry%20and%20Ceramic%20Tile%20Cleaning%20Technician%20%28SMT%29"
+    },
+    {
+      "exam_id": "iicrc-tcst",
+      "exam_name": "Trauma and Crime Scene Technician (TCST)",
+      "exam_code": "TCST",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/tcst/",
+      "practice_url": "https://quizforge.ai/?q=Trauma%20and%20Crime%20Scene%20Technician%20%28TCST%29"
+    },
+    {
+      "exam_id": "iicrc-uft",
+      "exam_name": "Upholstery and Fabric Cleaning Technician (UFT)",
+      "exam_code": "UFT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/uft/",
+      "practice_url": "https://quizforge.ai/?q=Upholstery%20and%20Fabric%20Cleaning%20Technician%20%28UFT%29"
+    },
+    {
+      "exam_id": "iicrc-wrt",
+      "exam_name": "Water Damage Restoration Technician (WRT)",
+      "exam_code": "WRT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": 84,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/wrt/",
+      "practice_url": "https://quizforge.ai/?q=Water%20Damage%20Restoration%20Technician%20%28WRT%29"
+    },
+    {
+      "exam_id": "iicrc-wfmt",
+      "exam_name": "Wood Floor Maintenance Technician (WFMT)",
+      "exam_code": "WFMT",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://iicrc.org/wfmt/",
+      "practice_url": "https://quizforge.ai/?q=Wood%20Floor%20Maintenance%20Technician%20%28WFMT%29"
+    },
+    {
+      "exam_id": "iicrc-wlfi",
+      "exam_name": "Wood and Laminate Flooring Inspector (WLFI)",
+      "exam_code": "WLFI",
+      "certifying_body": "IICRC",
+      "vendor_slug": "iicrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://iicrc.org/wlfi/",
+      "practice_url": "https://quizforge.ai/?q=Wood%20and%20Laminate%20Flooring%20Inspector%20%28WLFI%29"
+    },
+    {
       "exam_id": "ima-cma-part-1",
       "exam_name": "CMA Exam Part 1 – Financial Planning, Performance, and Analytics",
       "exam_code": "CMA Part 1",
@@ -11110,7 +11410,7 @@
       "exam_code": "CTFL",
       "certifying_body": "ISTQB",
       "vendor_slug": "istqb",
-      "domains": 6,
+      "domains": 1,
       "total_questions": 40,
       "duration_minutes": 60,
       "source_url": "https://www.istqb.org/certifications/certified-tester-foundation-level",
@@ -11878,10 +12178,10 @@
       "exam_code": "SC-400",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 3,
+      "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/information-protection-administrator/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-400",
       "practice_url": "https://quizforge.ai/?q=Administering%20Information%20Protection%20and%20Compliance%20in%20Microsoft%20365"
     },
     {
@@ -11893,7 +12193,7 @@
       "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-401",
       "practice_url": "https://quizforge.ai/tests/microsoft-information-security-administrator-sc-401-2dj29u"
     },
     {
@@ -11905,7 +12205,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300",
       "practice_url": "https://quizforge.ai/tests/microsoft-azure-database-administrator-dp-300"
     },
     {
@@ -11914,10 +12214,10 @@
       "exam_code": "AZ-800",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 4,
+      "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-800",
       "practice_url": "https://quizforge.ai/tests/microsoft-windows-server-hybrid-administrator-az-800"
     },
     {
@@ -11929,7 +12229,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/collaboration-communications-systems-engineer/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-721",
       "practice_url": "https://quizforge.ai/tests/ms-721-collaboration-communications-engineer"
     },
     {
@@ -11941,7 +12241,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-801",
       "practice_url": "https://quizforge.ai/?q=Configuring%20Windows%20Server%20Hybrid%20Advanced%20Services"
     },
     {
@@ -11950,10 +12250,10 @@
       "exam_code": "AZ-140",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 5,
+      "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-virtual-desktop-specialty/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-140",
       "practice_url": "https://quizforge.ai/tests/cnor-certified-nurse-operating-room"
     },
     {
@@ -11962,10 +12262,10 @@
       "exam_code": "DP-203",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 4,
+      "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203",
       "practice_url": "https://quizforge.ai/tests/data-engineering-on-microsoft-azure-2e04v7"
     },
     {
@@ -11977,7 +12277,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305",
       "practice_url": "https://quizforge.ai/tests/az-305-designing-azure-infrastructure"
     },
     {
@@ -11989,7 +12289,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-cosmos-db-developer-specialty/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-420",
       "practice_url": "https://quizforge.ai/?q=Designing%20and%20Implementing%20Cloud-Native%20Applications%20Using%20Microsoft%20Azure%20Cosmos%20DB"
     },
     {
@@ -12001,7 +12301,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-700",
       "practice_url": "https://quizforge.ai/tests/az-700-azure-networking"
     },
     {
@@ -12013,7 +12313,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-400",
       "practice_url": "https://quizforge.ai/?q=Designing%20and%20Implementing%20Microsoft%20DevOps%20Solutions"
     },
     {
@@ -12025,7 +12325,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-100",
       "practice_url": "https://quizforge.ai/tests/designing-and-implementing-a-data-science-solution-on-azure-425259e0"
     },
     {
@@ -12037,7 +12337,7 @@
       "domains": 6,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102",
       "practice_url": "https://quizforge.ai/tests/microsoft-ai-102-designing-implementing-ai-solutions"
     },
     {
@@ -12049,7 +12349,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204",
       "practice_url": "https://quizforge.ai/tests/microsoft-azure-solutions-architect-az-305"
     },
     {
@@ -12058,10 +12358,10 @@
       "exam_code": "DP-600",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 4,
+      "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600",
       "practice_url": "https://quizforge.ai/tests/dp-600-fabric-analytics"
     },
     {
@@ -12070,10 +12370,10 @@
       "exam_code": "MS-700",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 3,
+      "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/m365-teams-administrator-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-700",
       "practice_url": "https://quizforge.ai/tests/managing-microsoft-teams-ms-700-2dhudg"
     },
     {
@@ -12085,7 +12385,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/m365-administrator-expert/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-102",
       "practice_url": "https://quizforge.ai/?q=Microsoft%20365%20Administrator"
     },
     {
@@ -12097,7 +12397,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/modern-desktop/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/md-102",
       "practice_url": "https://quizforge.ai/tests/md-102-microsoft-365-endpoint-administrator"
     },
     {
@@ -12109,7 +12409,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-365-fundamentals/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-900",
       "practice_url": "https://quizforge.ai/tests/microsoft-365-fundamentals-2dywyt"
     },
     {
@@ -12121,7 +12421,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900",
       "practice_url": "https://quizforge.ai/tests/microsoft-ai-900-azure-ai-fundamentals"
     },
     {
@@ -12133,7 +12433,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
       "practice_url": "https://quizforge.ai/tests/microsoft-azure-administrator-az-104-0a5c6bb6"
     },
     {
@@ -12145,7 +12445,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900",
       "practice_url": "https://quizforge.ai/tests/microsoft-azure-data-fundamentals-2dxp2g"
     },
     {
@@ -12154,10 +12454,10 @@
       "exam_code": "AZ-900",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 3,
+      "domains": 4,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900",
       "practice_url": "https://quizforge.ai/tests/microsoft-azure-fundamentals-az-900"
     },
     {
@@ -12169,7 +12469,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500",
       "practice_url": "https://quizforge.ai/tests/microsoft-azure-security-engineer-az-500"
     },
     {
@@ -12181,7 +12481,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-business-central-functional-consultant-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-800",
       "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-business-central-functional-consultant-mb-800"
     },
     {
@@ -12190,10 +12490,10 @@
       "exam_code": "MB-220",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 4,
+      "domains": 6,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-customer-insights-journeys/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-220",
       "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Customer%20Insights%20-%20Journeys%20Functional%20Consultant"
     },
     {
@@ -12202,10 +12502,10 @@
       "exam_code": "MB-230",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 5,
+      "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-customer-service/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-230",
       "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-customer-service-mb-230"
     },
     {
@@ -12214,10 +12514,10 @@
       "exam_code": "MB-240",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 5,
+      "domains": 6,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-field-service/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-240",
       "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Field%20Service%20Functional%20Consultant"
     },
     {
@@ -12229,7 +12529,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-financials/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-310",
       "practice_url": "https://quizforge.ai/tests/mb-310-microsoft-dynamics-365-finance"
     },
     {
@@ -12238,10 +12538,10 @@
       "exam_code": "MB-500",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 5,
+      "domains": 7,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-finance-and-operations-apps-developer-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-500",
       "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Finance%20and%20Operations%20Apps%20Developer"
     },
     {
@@ -12253,7 +12553,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-fundamentals-customer-engagement-apps-crm/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-910",
       "practice_url": "https://quizforge.ai/tests/microsoft-mb-910-dynamics-365-fundamentals-crm"
     },
     {
@@ -12262,10 +12562,10 @@
       "exam_code": "MB-920",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 6,
+      "domains": 3,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-fundamentals-finance-and-operations-apps-erp/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-920",
       "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-fundamentals-erp-mb-920-2dgmh3"
     },
     {
@@ -12274,10 +12574,10 @@
       "exam_code": "MB-210",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 4,
+      "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-sales/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-210",
       "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-sales-functional-consultant-mb-210"
     },
     {
@@ -12289,7 +12589,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-supply-chain-management/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-330",
       "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-supply-chain-management-mb-335"
     },
     {
@@ -12301,7 +12601,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-finance-and-operations-apps-developer-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-300",
       "practice_url": "https://quizforge.ai/tests/mb-300-microsoft-dynamics-365-finance-operations"
     },
     {
@@ -12313,7 +12613,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-finance-and-operations-apps-solution-architect-expert/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-700",
       "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%3A%20Finance%20and%20Operations%20Apps%20Solution%20Architect"
     },
     {
@@ -12325,7 +12625,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-300",
       "practice_url": "https://quizforge.ai/tests/microsoft-identity-and-access-administrator-sc-300"
     },
     {
@@ -12334,10 +12634,10 @@
       "exam_code": "PL-500",
       "certifying_body": "Microsoft",
       "vendor_slug": "microsoft",
-      "domains": 4,
+      "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/power-automate-rpa-developer-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-500",
       "practice_url": "https://quizforge.ai/tests/microsoft-power-automate-rpa-developer-pl-500-2de6ob"
     },
     {
@@ -12349,7 +12649,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-300",
       "practice_url": "https://quizforge.ai/tests/microsoft-power-bi-data-analyst-pl-300"
     },
     {
@@ -12361,7 +12661,7 @@
       "domains": 6,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/power-platform-developer-associate/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-400",
       "practice_url": "https://quizforge.ai/tests/microsoft-power-platform-developer-pl-400-2dcyrx"
     },
     {
@@ -12373,7 +12673,7 @@
       "domains": 5,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-900",
       "practice_url": "https://quizforge.ai/tests/microsoft-pl-900-power-platform-fundamentals"
     },
     {
@@ -12385,7 +12685,7 @@
       "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/power-platform-solution-architect-expert/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-600",
       "practice_url": "https://quizforge.ai/tests/microsoft-power-platform-solution-architect-pl-600-2dfekp"
     },
     {
@@ -12397,7 +12697,7 @@
       "domains": 3,
       "total_questions": 40,
       "duration_minutes": 100,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-200",
       "practice_url": "https://quizforge.ai/tests/microsoft-sc-200-security-operations-analyst"
     },
     {
@@ -12409,7 +12709,7 @@
       "domains": 4,
       "total_questions": 40,
       "duration_minutes": 45,
-      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900",
       "practice_url": "https://quizforge.ai/tests/microsoft-security-compliance-identity-fundamentals-sc-900"
     },
     {
@@ -14149,8 +14449,20 @@
       "domains": 5,
       "total_questions": 150,
       "duration_minutes": 165,
-      "source_url": "https://www.nhanow.com/certifications/ekg-technician",
+      "source_url": "https://www.nhanow.com/certifications/clinical-cardiac-technician",
       "practice_url": "https://quizforge.ai/tests/ardms-rdcs-registered-diagnostic-cardiac-sonographer"
+    },
+    {
+      "exam_id": "nha-cet",
+      "exam_name": "Certified EKG Technician (CET)",
+      "exam_code": "CET",
+      "certifying_body": "NHA",
+      "vendor_slug": "nha",
+      "domains": 5,
+      "total_questions": 100,
+      "duration_minutes": 120,
+      "source_url": "https://www.nhanow.com/certifications/ekg-technician",
+      "practice_url": "https://quizforge.ai/?q=Certified%20EKG%20Technician%20%28CET%29"
     },
     {
       "exam_id": "nha-cehrs",
@@ -14158,7 +14470,7 @@
       "exam_code": "CEHRS",
       "certifying_body": "NHA",
       "vendor_slug": "nha",
-      "domains": 5,
+      "domains": 1,
       "total_questions": 110,
       "duration_minutes": 150,
       "source_url": "https://www.nhanow.com/certifications/electronic-health-records-specialist",
@@ -16549,7 +16861,7 @@
       "domains": 4,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/aiassociate",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-AI-Associate-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-ai-associate-36e4f3eb"
     },
     {
@@ -16558,10 +16870,10 @@
       "exam_code": "AI Specialist",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 5,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/aispecialist",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Agentforce-Specialist-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20AI%20Specialist"
     },
     {
@@ -16570,10 +16882,10 @@
       "exam_code": "ADM-201",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 7,
+      "domains": 8,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/administrator",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Administrator-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-administrator-a39b39dd"
     },
     {
@@ -16582,10 +16894,10 @@
       "exam_code": "ADM-211",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 10,
+      "domains": 7,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/advancedadministrator",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Administrator-II-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-advanced-admin"
     },
     {
@@ -16606,10 +16918,10 @@
       "exam_code": "B2B Solution Architect",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 4,
+      "domains": 5,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/b2bsolutionarchitect",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-B2B-Solution-Architect-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20B2B%20Solution%20Architect"
     },
     {
@@ -16618,10 +16930,10 @@
       "exam_code": "B2C Commerce Developer",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 5,
+      "domains": 4,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/b2ccommercedeveloper",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-B2C-Commerce-Cloud-Developer-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-b2c-commerce-developer-2ekv5p"
     },
     {
@@ -16630,10 +16942,10 @@
       "exam_code": "B2C Solution Architect",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 4,
+      "domains": 5,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/b2csolutionarchitect",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-B2C-Solution-Architect-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20B2C%20Solution%20Architect"
     },
     {
@@ -16642,10 +16954,10 @@
       "exam_code": "CPQ Specialist",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 7,
+      "domains": 8,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/cpqspecialist",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-CPQ-Administrator-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-cpq-specialist-certification"
     },
     {
@@ -16657,7 +16969,7 @@
       "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/dataarchitect",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Data-Architect-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-data-architect"
     },
     {
@@ -16666,10 +16978,10 @@
       "exam_code": "Education Cloud Consultant",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 5,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/educationcloudconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Education-Cloud-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-education-cloud-consultant-2eerns"
     },
     {
@@ -16681,7 +16993,7 @@
       "domains": 8,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/experiencecloudconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Experience-Cloud-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-experience-cloud-consultant"
     },
     {
@@ -16693,7 +17005,7 @@
       "domains": 8,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/fieldserviceconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Field-Service-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-field-service-consultant-certification"
     },
     {
@@ -16702,10 +17014,10 @@
       "exam_code": "Heroku Architecture Designer",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 4,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/herokuarchitecturedesigner",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Heroku-Architect-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/ibstpi-certified-instructional-designer"
     },
     {
@@ -16714,10 +17026,10 @@
       "exam_code": "Integration Architect",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 4,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/integrationarchitect",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Integration-Architect-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20Integration%20Architect"
     },
     {
@@ -16729,7 +17041,7 @@
       "domains": 7,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/javascriptdeveloperI",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-JavaScript-Developer-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-javascript-developer-i-2ejn9b"
     },
     {
@@ -16738,10 +17050,10 @@
       "exam_code": "Marketing Cloud Administrator",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 6,
+      "domains": 5,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/marketingcloudadministrator",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Engagement-Administrator-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-marketing-cloud"
     },
     {
@@ -16753,7 +17065,7 @@
       "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/marketingcloudconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Engagement-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20Marketing%20Cloud%20Consultant"
     },
     {
@@ -16765,7 +17077,7 @@
       "domains": 5,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/marketingcloudemailspecialist",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Email-Specialist-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-marketing-cloud-email-specialist"
     },
     {
@@ -16774,10 +17086,10 @@
       "exam_code": "Nonprofit Cloud Consultant",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 7,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/nonprofitcloudconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Nonprofit-Success-Pack-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-nonprofit-cloud-consultant"
     },
     {
@@ -16786,10 +17098,10 @@
       "exam_code": "OmniStudio Developer",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 4,
+      "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/omnistudiodeveloper",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Omnistudio-Developer-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-omnistudio-developer-2em323"
     },
     {
@@ -16798,10 +17110,10 @@
       "exam_code": "Pardot Consultant",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 7,
+      "domains": 8,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/pardotconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Account-Engagement-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-pardot-consultant-2eifcy"
     },
     {
@@ -16813,7 +17125,7 @@
       "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/pardotspecialist",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Account-Engagement-Specialist-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-pardot-specialist-2eh7gk"
     },
     {
@@ -16825,7 +17137,7 @@
       "domains": 5,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/platformappbuilder",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-App-Builder-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-platform-app-builder-2dka68"
     },
     {
@@ -16834,10 +17146,10 @@
       "exam_code": "PD1",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 5,
+      "domains": 4,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/platformdeveloperI",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Developer-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-platform-developer-i-pd1"
     },
     {
@@ -16847,9 +17159,9 @@
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
       "domains": 5,
-      "total_questions": null,
+      "total_questions": 65,
       "duration_minutes": 120,
-      "source_url": "https://trailhead.salesforce.com/credentials/platformdeveloperII",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Developer-II-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-platform-developer-ii"
     },
     {
@@ -16858,10 +17170,10 @@
       "exam_code": "Revenue Cloud Consultant",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 6,
+      "domains": 7,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/revenuecloudconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Revenue-Cloud-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-revenue-cloud-consultant-2efzk6"
     },
     {
@@ -16870,10 +17182,10 @@
       "exam_code": "Sales Cloud Consultant",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 8,
+      "domains": 5,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/salescloudconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Sales-Cloud-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-sales-cloud-consultant"
     },
     {
@@ -16885,7 +17197,7 @@
       "domains": 8,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/servicecloudconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Service-Cloud-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-service-cloud-consultant"
     },
     {
@@ -16894,10 +17206,10 @@
       "exam_code": "Sharing and Visibility Architect",
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
-      "domains": 7,
+      "domains": 4,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/sharingandvisibilityarchitect",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Sharing-and-Visibility-Architect-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20Sharing%20and%20Visibility%20Architect"
     },
     {
@@ -16921,7 +17233,7 @@
       "domains": 6,
       "total_questions": 60,
       "duration_minutes": 105,
-      "source_url": "https://trailhead.salesforce.com/credentials/tableaucrmandeinsteinDiscoveryconsultant",
+      "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-CRM-Analytics-and-Einstein-Discovery-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20Tableau%20CRM%20and%20Einstein%20Discovery%20Consultant"
     },
     {
@@ -16954,7 +17266,7 @@
       "exam_code": "SDP",
       "certifying_body": "Scaled Agile",
       "vendor_slug": "scaled-agile",
-      "domains": 5,
+      "domains": 4,
       "total_questions": 45,
       "duration_minutes": 90,
       "source_url": "https://scaledagile.com/training/safe-devops/",
@@ -16966,7 +17278,7 @@
       "exam_code": "LPM",
       "certifying_body": "Scaled Agile",
       "vendor_slug": "scaled-agile",
-      "domains": 4,
+      "domains": 5,
       "total_questions": 45,
       "duration_minutes": 90,
       "source_url": "https://scaledagile.com/training/lean-portfolio-management/",

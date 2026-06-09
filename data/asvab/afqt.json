@@ -58,26 +58,34 @@
     {
       "id": "1",
       "name": "Arithmetic Reasoning (AR)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.7,
+      "objectives": [],
+      "weight_min": 16.67,
+      "weight_max": 16.67
     },
     {
       "id": "2",
       "name": "Mathematics Knowledge (MK)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.7,
+      "objectives": [],
+      "weight_min": 16.67,
+      "weight_max": 16.67
     },
     {
       "id": "3",
       "name": "Paragraph Comprehension (PC)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 33.3,
+      "objectives": [],
+      "weight_min": 33.33,
+      "weight_max": 33.33
     },
     {
       "id": "4",
       "name": "Word Knowledge (WK)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 33.3,
+      "objectives": [],
+      "weight_min": 33.33,
+      "weight_max": 33.33
     }
   ],
   "official_objectives_url": null,

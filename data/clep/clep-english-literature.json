@@ -48,7 +48,7 @@
     {
       "id": "Knowledge of",
       "name": "Knowledge of",
-      "weight_percent": null,
+      "weight_percent": 37.5,
       "objectives": [
         {
           "id": "Literary background",
@@ -75,12 +75,14 @@
           "title": "Literary terms",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min": 35.0,
+      "weight_max": 40.0
     },
     {
       "id": "Ability to",
       "name": "Ability to",
-      "weight_percent": null,
+      "weight_percent": 62.5,
       "objectives": [
         {
           "id": "Analyze the elements of form in a literary passage",
@@ -112,7 +114,9 @@
           "title": "Comprehend the reasoning in an excerpt of literary criticism",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min": 60.0,
+      "weight_max": 65.0
     }
   ],
   "official_objectives_url": null,

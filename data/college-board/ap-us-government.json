@@ -47,32 +47,42 @@
     {
       "id": "1",
       "name": "Foundations of American Democracy",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 18.5,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 22.0
     },
     {
       "id": "2",
       "name": "Interactions Among Branches of Government",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.5,
+      "objectives": [],
+      "weight_min": 25.0,
+      "weight_max": 36.0
     },
     {
       "id": "3",
       "name": "Civil Liberties and Civil Rights",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.5,
+      "objectives": [],
+      "weight_min": 13.0,
+      "weight_max": 18.0
     },
     {
       "id": "4",
       "name": "American Political Ideologies and Beliefs",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
       "id": "5",
       "name": "Political Participation",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 23.5,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 27.0
     }
   ],
   "official_objectives_url": null,

@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified OmniStudio Developer",
   "exam_code": "OmniStudio Developer",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/omnistudiodeveloper",
+  "certification_name": "Salesforce Certified Omnistudio Developer",
+  "version": "Exam questions align to the Spring '26 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Omnistudio-Developer-Exam-Guide",
   "passing_score": 63,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who have experience building and customizing applications on the Salesforce platform",
+  "recommended_experience": "One year of developer experience plus 3-6 months of design, implementation, and deployment experience working with Omnistudio tools in one or more of the roles below: Salesforce Platform Developer, Salesforce App Builder, Solution Architect, Technical Architect, UI Developer",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,28 +52,276 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "OmniScript",
-      "weight_percent": 29.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Omnistudio Fundamentals",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe the Omnistudio solution as it applies to common customer use case scenarios in different industries (telco, energy, healthcare, public sector, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Determine a project’s needs by evaluating a customer's requirements, assumptions, risks, and constraints",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Explain Managed Package Runtime vs. Standard Runtime, Automatic Upgrades, and Manual Intervention Upgrade",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Explain Omnistudio license requirements, Permission Set licenses and Permission Sets",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Describe the tools required to complete the end-to-end implementation process (SFCLI, VBT, Migration, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Explain testing, versioning, cloning where applicable through Omnistudio components",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "DataRaptor",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Flexcards",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Configure data sources such as SOQL, Data Mapper, Integration Procedure, Custom, etc. and test resulting JSON structure",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Construct single and multi-level Flexcards, organizing data using layouts, and repeaters",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Bind essential components to construct the Flexcards and configure their properties",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Define and implement complex card actions, including launching Omiscripts, firing events, and updating other components",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Configure advanced properties for Flexcards (Event Listeners, Session Variables, Public Attributes of Flexcards, multi-language, Omniscript, child Flexcard, custom LWCs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Customize Flexcard appearance using styling or themes",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Implement conditional rendering logic to show/hide elements or alter component appearance based on conditions using states",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Embed Flexcards across UI components and different channels",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Describe best practices for Flexcards",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "FlexCards",
+      "id": "3.0",
+      "name": "Omniscripts",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Implement dynamic interactions using various Omniscript elements (Group, Actions, and Input elements to create an Omniscript)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Use child Omniscripts, Flexcards, and custom LWCs for enhanced interactivity and complex UI configurations",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Customize Omniscript appearance using styling or themes",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Configure advanced properties for Omniscripts (Mult-language, Save Options, Knowledge Articles, Messaging Framework, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Embed Omniscripts across UI components and different channels",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Describe best practices for Omniscripts",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Integration Procedures",
-      "weight_percent": 26.0,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Design and configure server side processes to integrate and orchestrate data between systems",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Configure Groups, Data Mapper Actions (Extract, Load, Transform), Standard Actions (Remote Actions, HTTP Actions, Response Actions, Sub-Integration Procedures), etc.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Apply conditional logic, loops, and branching within IPs to control the execution path",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Implement chainable integration procedures to split long running processes into multiple transactions",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Determine and configure caching mechanisms within IPs to maximize performance",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Implement robust exception handling using Try/Catch blocks to manage failures and ensure proper rollback",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Configure Response Action to return specific data",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Describe best practices for Integration Procedures",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Data Mappers",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Define and configure Data Mappers to extract, transform, load and map data between source (JSON, XML, Custom Apex class, etc.) and target (JSON, XML, Custom Apex class, sObject, PDF, Docusign, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Configure and retrieve data from multiple objects with various filter options using Extract Interface",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Configure and retrieve data from a single object and related fields using Turbo Extract Interface",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Configure and import data to multiple objects using load interface",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Configure the Transform interface type to prepare data for downstream use (JSON, etc.) or document generation (PDF, Docusign)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Configure formulas to create or modify values within Data Mappers (concatenate, arithmetic, date formatting, etc.) across interface types (Transform, Extract and Load interface) for downstream use",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.7",
+          "title": "Map source and target data structures to achieve expected output structure",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.8",
+          "title": "Describe best practices for Data Mappers",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Troubleshooting and Debugging",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Resolve Flexcards display and state issues",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Resolve Omniscripts errors or UI not rendering correctly",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Resolve Data Mapper output and Data Mapping issues",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Resolve integration procedures execution errors",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Resolve caching problems",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.6",
+          "title": "Resolve incorrect permissions and access issues",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.7",
+          "title": "Resolve missing or broken JSON",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.8",
+          "title": "Resolve publishing and deployment issues",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.9",
+          "title": "Use the Debug Console to identify failures and implement resolutions",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

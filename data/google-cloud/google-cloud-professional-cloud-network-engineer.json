@@ -46,7 +46,32 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Designing and planning a Google Cloud VPC network",
+      "weight_percent": 21.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Implementing a VPC network",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Configuring managed network services",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Managing, monitoring, and troubleshooting network operations",
+      "weight_percent": 14.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -70,7 +95,8 @@
   ],
   "aliases": [
     "google-cloud-professional-cloud-network-engineer",
-    "pcne"
+    "pcne",
+    "professional cloud network engineer"
   ],
   "practice_url": "https://quizforge.ai/?q=Professional%20Cloud%20Network%20Engineer"
 }

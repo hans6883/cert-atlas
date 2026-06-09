@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Education Cloud Consultant",
   "exam_code": "Education Cloud Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/educationcloudconsultant",
+  "certification_name": "Salesforce Certified Education Cloud Consultant",
+  "version": "Winter '24 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Education-Cloud-Consultant-Exam-Guide",
   "passing_score": 62,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Consultants who have experience implementing Salesforce for Education solutions",
+  "recommended_experience": "2+ years of Salesforce Platform experience, 1+ years of Salesforce implementation experience in the education industry, implemented and supported at least one project involving Education Cloud",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,34 +52,116 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Education Data Architecture",
-      "weight_percent": 24.0,
-      "objectives": []
+      "id": "Domain Expertise",
+      "name": "Domain Expertise",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Determine the solution set that satisfies customer requirements (marketing and engagement, recruitment and admissions, student experience, and advancement and alumni relations)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Explain the Education Cloud solution for K-12 customers",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Education Cloud Solutions",
-      "weight_percent": 33.0,
-      "objectives": []
+      "id": "Education Cloud Configuration",
+      "name": "Education Cloud Configuration",
+      "weight_percent": 22.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Discuss the capabilities and considerations of Education Cloud, including compatibility with other Salesforce products and features",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Install and configure Salesforce for Education solutions",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Implementation Strategy",
-      "weight_percent": 17.0,
-      "objectives": []
+      "id": "Implementation Strategies and Best Practices",
+      "name": "Implementation Strategies and Best Practices",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Facilitate a successful implementation (plan, gather requirements, design, build, test, document, deploy, and optimize)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Illustrate governance, change management, staffing, implementation strategies, deployment considerations, and adoption best practices including community resources for long-term solution success",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Enablement",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "Solution Design",
+      "name": "Solution Design",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Evaluate the similarities, differences, and relationships between Salesforce for Education solutions account model considerations and standard Salesforce Account-Contact data models",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Design an appropriate and scalable solution for education customers",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Locate community and open-source solutions and resources",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Decide when to use Education Cloud, other Salesforce solutions, community open source solutions, and third-party applications",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Integration",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "Integration and Data Management",
+      "name": "Integration and Data Management",
+      "weight_percent": 16.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Evaluate integration considerations for connecting systems in an Education Cloud implementation",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Explain data management considerations (data usage, forecasting, large data volumes, migrations in Education Cloud)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Analytics",
+      "name": "Analytics",
+      "weight_percent": 7.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Distinguish between reporting solutions in Education Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Demonstrate when a data analytics solution is appropriate",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

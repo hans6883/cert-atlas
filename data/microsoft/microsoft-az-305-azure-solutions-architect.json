@@ -4,8 +4,8 @@
   "exam_code": "AZ-305",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+  "version": "as of April 17, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Azure solutions architect",
+  "recommended_experience": "Advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,153 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "Design identity, governance, and monitoring solutions",
       "name": "Design identity, governance, and monitoring solutions",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 27.5,
+      "objectives": [
+        {
+          "id": "Design solutions for logging and monitoring",
+          "title": "Design solutions for logging and monitoring",
+          "sub_objectives": [
+            "Recommend a logging solution",
+            "Recommend a solution for routing logs",
+            "Recommend a monitoring solution"
+          ]
+        },
+        {
+          "id": "Design authentication and authorization solutions",
+          "title": "Design authentication and authorization solutions",
+          "sub_objectives": [
+            "Recommend an authentication solution",
+            "Recommend an identity management solution",
+            "Recommend a solution for authorizing access to Azure resources",
+            "Recommend a solution for authorizing access to on-premises resources",
+            "Recommend a solution to manage secrets, certificates, and keys"
+          ]
+        },
+        {
+          "id": "Design governance",
+          "title": "Design governance",
+          "sub_objectives": [
+            "Recommend a structure for management groups, subscriptions, and resource groups, and a strategy for resource tagging",
+            "Recommend a solution for managing compliance",
+            "Recommend a solution for identity governance"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "Design data storage solutions",
       "name": "Design data storage solutions",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 22.5,
+      "objectives": [
+        {
+          "id": "Design data storage solutions for relational data",
+          "title": "Design data storage solutions for relational data",
+          "sub_objectives": [
+            "Recommend a solution for storing relational data",
+            "Recommend a database service tier and compute tier",
+            "Recommend a solution for database scalability",
+            "Recommend a solution for data protection"
+          ]
+        },
+        {
+          "id": "Design data storage solutions for semi-structured and unstructured data",
+          "title": "Design data storage solutions for semi-structured and unstructured data",
+          "sub_objectives": [
+            "Recommend a solution for storing semi-structured data",
+            "Recommend a solution for storing unstructured data",
+            "Recommend a data storage solution to balance features, performance, and costs",
+            "Recommend a data solution for protection and durability"
+          ]
+        },
+        {
+          "id": "Design data integration",
+          "title": "Design data integration",
+          "sub_objectives": [
+            "Recommend a solution for data integration",
+            "Recommend a solution for data analysis"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Design business continuity solutions",
       "name": "Design business continuity solutions",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "Design solutions for backup and disaster recovery",
+          "title": "Design solutions for backup and disaster recovery",
+          "sub_objectives": [
+            "Recommend a recovery solution for Azure and hybrid workloads that meets recovery objectives",
+            "Recommend a backup and recovery solution for compute",
+            "Recommend a backup and recovery solution for databases",
+            "Recommend a backup and recovery solution for unstructured data"
+          ]
+        },
+        {
+          "id": "Design for high availability",
+          "title": "Design for high availability",
+          "sub_objectives": [
+            "Recommend a high availability solution for compute",
+            "Recommend a high availability solution for relational data",
+            "Recommend a high availability solution for semi-structured and unstructured data"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "Design infrastructure solutions",
       "name": "Design infrastructure solutions",
-      "weight_percent": 40.0,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [
+        {
+          "id": "Design compute solutions",
+          "title": "Design compute solutions",
+          "sub_objectives": [
+            "Specify components of a compute solution based on workload requirements",
+            "Recommend a virtual machine-based solution",
+            "Recommend a container-based solution",
+            "Recommend a serverless-based solution",
+            "Recommend a compute solution for batch processing"
+          ]
+        },
+        {
+          "id": "Design an application architecture",
+          "title": "Design an application architecture",
+          "sub_objectives": [
+            "Recommend a messaging architecture",
+            "Recommend an event-driven architecture",
+            "Recommend a solution for API integration",
+            "Recommend a caching solution for applications",
+            "Recommend an application configuration management solution",
+            "Recommend an automated deployment solution for applications"
+          ]
+        },
+        {
+          "id": "Design migrations",
+          "title": "Design migrations",
+          "sub_objectives": [
+            "Evaluate a migration solution that leverages the Microsoft Cloud Adoption Framework for Azure",
+            "Evaluate on-premises servers, data, and applications for migration",
+            "Recommend a solution for migrating workloads to infrastructure as a service (IaaS) and platform as a service (PaaS)",
+            "Recommend a solution for migrating databases",
+            "Recommend a solution for migrating unstructured data"
+          ]
+        },
+        {
+          "id": "Design network solutions",
+          "title": "Design network solutions",
+          "sub_objectives": [
+            "Recommend a connectivity solution that connects Azure resources to the internet",
+            "Recommend a connectivity solution that connects Azure resources to on-premises networks",
+            "Recommend a solution to optimize network performance",
+            "Recommend a solution to optimize network security",
+            "Recommend a load-balancing and routing solution"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

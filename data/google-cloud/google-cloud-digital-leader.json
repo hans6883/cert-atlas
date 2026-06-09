@@ -46,7 +46,44 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Digital Transformation with Google Cloud",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Exploring Data Transformation with Google Cloud",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Innovating with Google Cloud Artificial Intelligence",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Modernize Infrastructure and Applications with Google Cloud",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Trust and Security with Google Cloud",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Scaling with Google Cloud Operations",
+      "weight_percent": 17.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

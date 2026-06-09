@@ -4,8 +4,8 @@
   "exam_code": "MB-920",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-fundamentals-finance-and-operations-apps-erp/",
+  "version": "as of December 23, 2024",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-920",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Aspiring to understand how Finance and Supply Chain Management can be used to support the core financial model of an organization and its associated processes, support the business operations of an organization, including warehousing and manufacturing, unify different business processes into one software solution, manage multiple legal entities within one business application, and integrate with other applications within the Microsoft ecosystem",
+  "recommended_experience": "Use this exam to prepare for role-based or specialty certifications, but it’s not a prerequisite for any of them",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Aspiring to understand how Finance and Supply Chain Management can be used to support the core financial model of an organization and its associated processes, support the business operations of an organization, including warehousing and manufacturing, unify different business processes into one software solution, manage multiple legal entities within one business application, and integrate with other applications within the Microsoft ecosystem",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,40 +74,115 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Describe Dynamics 365 Supply Chain Management",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe Supply Chain Management core capabilities",
+          "sub_objectives": [
+            "Describe use cases of Supply Chain Management",
+            "Describe products and released products",
+            "Describe product master records, product variants, and product dimensions",
+            "Describe pricing and discounts in relation to trade agreements",
+            "Describe intercompany capabilities"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Describe the manufacturing process",
+          "sub_objectives": [
+            "Describe lean, discrete, and process manufacturing",
+            "Describe manufacturing strategies",
+            "Describe bills of materials (BOMs), formulas, routes, and operations as they relate to production orders",
+            "Identify the production lifecycle stages",
+            "Describe shop floor management",
+            "Describe master planning and planning optimization",
+            "Describe inventory and warehousing capabilities",
+            "Describe costing methods",
+            "Describe on-hand inventory capabilities",
+            "Identify types of inventory journals",
+            "Describe quality management capabilities",
+            "Describe use cases for Warehouse Management Systems (WMS)",
+            "Describe use cases for Transportation Management Systems (TMS)",
+            "Describe use cases for landed cost",
+            "Describe the sales and procurement processes",
+            "Describe the order-to-cash process",
+            "Describe the sales order creation process",
+            "Describe the fulfillment process, including inventory reservations and picking and packing",
+            "Describe the procure-to-pay process",
+            "Describe purchase requisitions",
+            "Describe the purchase order creation process",
+            "Describe purchase order receipts"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Describe Dynamics Finance",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Describe Dynamics 365 Finance",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Describe Finance core capabilities",
+          "sub_objectives": [
+            "Describe use cases of Finance",
+            "Describe organization and legal entities",
+            "Describe reporting currency and accounting currency",
+            "Describe tax capabilities",
+            "Describe cost accounting concepts",
+            "Describe general ledgers",
+            "Describe charts of accounts, including main accounts",
+            "Describe the concept of a fiscal calendar",
+            "Describe financial dimensions and dimension sets concepts",
+            "Describe the accounting structure",
+            "Describe financial journal concepts",
+            "Describe periodic financial processes",
+            "Describe accounts payables and accounts receivables",
+            "Describe core accounts payable components, including vendors, purchase orders, and vendor invoices",
+            "Describe vendor payments and settlements, including three-way matching concepts",
+            "Describe core accounts receivable components, including customers, customer invoices, and free text invoices",
+            "Describe credit management processes",
+            "Describe the collection process",
+            "Describe the concept of subscription billing",
+            "Describe expense management, fixed asset management, and budgeting",
+            "Describe cash and bank management concepts",
+            "Describe expense management capabilities",
+            "Describe fixed asset management capabilities",
+            "Describe budgeting capabilities"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Describe Dynamics 365 Commerce",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Describe Dynamics 365 Human Resources",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Describe Project Operations",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Describe shared features",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Describe the core capabilities of the finance and operations apps",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Describe the finance and operations apps",
+          "sub_objectives": [
+            "Describe enterprise resource planning (ERP)",
+            "Describe the business value of Commerce",
+            "Describe the business value of Human Resources",
+            "Describe the business value of Project Operations",
+            "Describe finance and operations apps use cases",
+            "Explore the finance and operations user interface",
+            "Describe reporting and integration capabilities",
+            "Describe built-in reporting capabilities, including workspaces",
+            "Describe options for analyzing data by using Power BI",
+            "Describe Microsoft Office 365 integration capabilities, including Microsoft Excel, SharePoint, and Teams",
+            "Describe Microsoft Power Platform integration options",
+            "Describe common features",
+            "Describe security capabilities",
+            "Describe workflow capabilities",
+            "Describe the concept of batch jobs"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

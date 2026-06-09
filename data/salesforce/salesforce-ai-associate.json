@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified AI Associate",
   "exam_code": "AI Associate",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/aiassociate",
+  "certification_name": "Salesforce AI Associate",
+  "version": "Spring '24 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-AI-Associate-Exam-Guide",
   "passing_score": 65,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals from all backgrounds, including business leaders and professionals who may have knowledge of AI, whether they are beginners or individuals with more experience.",
+  "recommended_experience": "Foundational knowledge of Salesforce's core capabilities and the ability to navigate Salesforce.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,28 +52,52 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "AI Fundamentals",
       "name": "AI Fundamentals",
       "weight_percent": 17.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "AI Fundamentals",
+          "title": "Explain the basic principles and applications of AI within Salesforce. Differentiate between the types of AI and their capabilities.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "AI Capabilities in Salesforce",
-      "weight_percent": 33.0,
-      "objectives": []
+      "id": "AI Capabilities in CRM",
+      "name": "AI Capabilities in CRM",
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "AI Capabilities in CRM",
+          "title": "Identify CRM AI capabilities. Describe the benefits of AI as they apply to CRM.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Ethical Considerations of AI",
       "name": "Ethical Considerations of AI",
       "weight_percent": 39.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "Ethical Considerations of AI",
+          "title": "Describe the ethical challenges of AI (for example, human bias in machine learning, lack of transparency, etc.). Apply Salesforce's Trusted AI Principles to given scenarios.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "Data for AI",
       "name": "Data for AI",
-      "weight_percent": 11.0,
-      "objectives": []
+      "weight_percent": 36.0,
+      "objectives": [
+        {
+          "id": "Data for AI",
+          "title": "Describe the importance of data quality. Describe the elements/components of data quality.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

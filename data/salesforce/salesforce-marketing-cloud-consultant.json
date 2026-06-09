@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Marketing Cloud Consultant",
   "exam_code": "Marketing Cloud Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/marketingcloudconsultant",
+  "certification_name": "Salesforce Certified Marketing Cloud Engagement Consultant",
+  "version": "Exam questions align to the Spring '24 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Engagement-Consultant-Exam-Guide",
   "passing_score": 65,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Salesforce consultant or partner who has mastered the implementation of Marketing Cloud by demonstrating design best practices, executing deployment of campaigns, and finalizing custom solutions for customers.",
+  "recommended_experience": "6 or more months of implementation experience and/or at least five implementation projects with hands-on experience as a Salesforce Marketing Cloud Solutions Architect or similar expertise implementing Marketing Cloud and associated tools.",
   "prerequisites": [
     {
       "prerequisite_type": "required_certification",
@@ -58,40 +58,131 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Discovery and Architecture",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 16.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Provided with a set of business requirements, determine what additional information is needed to design the recommended solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Demonstrate how to gather requirements in order to put together a data and segmentation strategy for the customer.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given a customer skill set, make recommendations on appropriate solutions for long term ease of use and maintenance.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Integration",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a customer use case, demonstrate knowledge of features, viability, and troubleshooting of Marketing Cloud Connect.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Articulate how data model will support personalized and relevant messaging and content.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a customer use case, recommend which extension product(s) addresses the requirement.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Account Configuration",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a customer scenario, determine the appropriate account hierarchy.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, solution issues regarding Reply Mail Management.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Analyze the impact of applying Sender Authentication Package (SAP) to a business unit.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a scenario, demonstrate knowledge of features and troubleshooting of Mobile Studio.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Automation",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a customer scenario, provide the appropriate automation type and activities that should be utilized.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a customer scenario, design complex automations using Journey Builder and Automation Studio.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Analytical Tools",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Marketing Automation",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
+      "id": "5.0",
       "name": "Data Modeling and Management",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": 21.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a customer scenario, demonstrate the ability to differentiate when to use standard reports, data views, and tracking extracts.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Explain the various data objects in Marketing Cloud.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Evaluate implications on data model when choosing contact identity.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Messaging",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Given a customer scenario, describe various ways to individualize message content.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Given a customer scenario, determine the appropriate messaging option.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

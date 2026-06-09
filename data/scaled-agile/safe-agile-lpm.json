@@ -52,52 +52,34 @@
   },
   "domains": [
     {
-      "id": "1.0",
-      "name": "Aligning Strategy with Execution",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Learn how to connect portfolio initiatives directly to business strategy and keep investments focused on the most important outcomes.",
-          "sub_objectives": []
-        }
-      ]
+      "id": "1",
+      "name": "Portfolio Strategy and Investment Funding",
+      "weight_percent": 25.0,
+      "objectives": []
     },
     {
-      "id": "2.0",
-      "name": "Lean Budgeting and Portfolio Flow",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "2.1",
-          "title": "Explore how to fund value streams, establish guardrails, and manage epics using portfolio kanban to support continuous, lean flow.",
-          "sub_objectives": []
-        }
-      ]
+      "id": "2",
+      "name": "Agile Portfolio Operations",
+      "weight_percent": 25.0,
+      "objectives": []
     },
     {
-      "id": "3.0",
-      "name": "Running Agile Portfolio Operations",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "3.1",
-          "title": "Gain practical tools for coordinating across value streams, managing change, and supporting excellence through agile PMOs and communities of practice.",
-          "sub_objectives": []
-        }
-      ]
+      "id": "3",
+      "name": "Lean Governance",
+      "weight_percent": 20.0,
+      "objectives": []
     },
     {
-      "id": "4.0",
-      "name": "Designing a Plan for LPM Adoption",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "4.1",
-          "title": "Capture your current state, define your portfolio vision, and build a step-by-step plan to bring Lean Portfolio Management to life in your organization.",
-          "sub_objectives": []
-        }
-      ]
+      "id": "4",
+      "name": "Connecting Portfolio to Enterprise Strategy",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Continuous Value Flow",
+      "weight_percent": 15.0,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

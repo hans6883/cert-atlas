@@ -47,14 +47,18 @@
     {
       "id": "1",
       "name": "Reading and Writing",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 50.0,
+      "objectives": [],
+      "weight_min": 50.0,
+      "weight_max": 50.0
     },
     {
       "id": "2",
       "name": "Math",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 50.0,
+      "objectives": [],
+      "weight_min": 50.0,
+      "weight_max": 50.0
     }
   ],
   "official_objectives_url": null,

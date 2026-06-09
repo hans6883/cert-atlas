@@ -49,26 +49,34 @@
     {
       "id": "1",
       "name": "Mean-Variance Portfolio Theory",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
       "id": "2",
       "name": "Asset Pricing Models",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 7.5,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 10.0
     },
     {
       "id": "3",
       "name": "Market Efficiency and Behavioral Finance",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 7.5,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 10.0
     },
     {
       "id": "4",
       "name": "Investment Risk and Project Analysis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
       "id": "5",

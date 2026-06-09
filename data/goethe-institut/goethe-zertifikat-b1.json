@@ -62,50 +62,58 @@
     {
       "id": "1.0",
       "name": "Listening",
-      "weight_percent": null,
+      "weight_percent": 11.5,
       "objectives": [
         {
           "id": "1.1",
           "title": "Understand the main information if clear standard language is spoken and the conversation is about everyday topics like work, school or leisure",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min": 11.54,
+      "weight_max": 11.54
     },
     {
       "id": "2.0",
       "name": "Reading",
-      "weight_percent": null,
+      "weight_percent": 11.5,
       "objectives": [
         {
           "id": "2.1",
           "title": "Understand uncomplicated non-fiction texts about their interests and their own field",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min": 11.54,
+      "weight_max": 11.54
     },
     {
       "id": "3.0",
       "name": "Writing",
-      "weight_percent": null,
+      "weight_percent": 38.5,
       "objectives": [
         {
           "id": "3.1",
           "title": "Express themselves in a simple, structured and addressee-specific way about known topics, personal interests and experiences, dreams and goals, as well as give reasons and explanations",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min": 38.46,
+      "weight_max": 38.46
     },
     {
       "id": "4.0",
       "name": "Speaking",
-      "weight_percent": null,
+      "weight_percent": 38.5,
       "objectives": [
         {
           "id": "4.1",
           "title": "Express themselves in a simple, structured and addressee-specific way about known topics, personal interests and experiences, dreams and goals, as well as give reasons and explanations",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min": 38.46,
+      "weight_max": 38.46
     }
   ],
   "official_objectives_url": null,

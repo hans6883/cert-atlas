@@ -55,26 +55,34 @@
     {
       "id": "1",
       "name": "Hydraulic systems",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 42.2,
+      "objectives": [],
+      "weight_min": 42.2,
+      "weight_max": 42.2
     },
     {
       "id": "2",
       "name": "Drum brakes",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 11.1,
+      "objectives": [],
+      "weight_min": 11.1,
+      "weight_max": 11.1
     },
     {
       "id": "3",
       "name": "Disc brakes",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 24.4,
+      "objectives": [],
+      "weight_min": 24.4,
+      "weight_max": 24.4
     },
     {
       "id": "4",
       "name": "ABS",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 22.2,
+      "objectives": [],
+      "weight_min": 22.2,
+      "weight_max": 22.2
     }
   ],
   "official_objectives_url": null,

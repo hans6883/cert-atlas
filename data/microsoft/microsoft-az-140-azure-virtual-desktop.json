@@ -5,7 +5,7 @@
   "certifying_body": "Microsoft",
   "certification_name": null,
   "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-virtual-desktop-specialty/",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-140",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Server or desktop administrator with subject matter expertise in designing, implementing, managing, and maintaining Microsoft Azure Virtual Desktop experiences and remote apps for any device.",
+  "recommended_experience": "Experience with Azure technologies, including compute, networking, identity, storage, and resiliency. Ability to manage end-user desktop environments, including delivering applications and configuring user settings. Use of the Azure portal, templates, scripting, and command-line tools to manage an Azure Virtual Desktop deployment.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience with Azure technologies, including compute, networking, identity, storage, and resiliency. Ability to manage end-user desktop environments, including delivering applications and configuring user settings. Use of the Azure portal, templates, scripting, and command-line tools to manage an Azure Virtual Desktop deployment.",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,34 +74,219 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Plan an Azure Virtual Desktop architecture",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Plan and implement an Azure Virtual Desktop infrastructure",
+      "weight_percent": 40.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Plan and implement networking for Azure Virtual Desktop",
+          "sub_objectives": [
+            "Assess network capacity and speed requirements for Azure Virtual Desktop",
+            "Design network configuration for session hosts to meet requirements for Azure Virtual Desktop",
+            "Plan and implement Remote Desktop Protocol (RDP) Shortpath, RDP Multipath, and quality of service (QoS) policies",
+            "Plan and implement an Azure Private Link solution for Azure Virtual Desktop"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Plan and implement storage for Azure Virtual Desktop user data",
+          "sub_objectives": [
+            "Plan storage for Azure Virtual Desktop user data",
+            "Implement storage for FSLogix components",
+            "Implement storage accounts for Azure Virtual Desktop",
+            "Implement file shares for Azure Virtual Desktop",
+            "Implement Azure NetApp Files for Azure Virtual Desktop"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Plan host pools and session hosts",
+          "sub_objectives": [
+            "Recommend resource groups, subscriptions, and management groups for Azure Virtual Desktop resources",
+            "Recommend an operating system (OS) for Azure Virtual Desktop session hosts",
+            "Recommend an appropriate licensing model for Azure Virtual Desktop based on requirements",
+            "Plan a host pool architecture",
+            "Design an Azure Virtual Desktop configuration for performance requirements",
+            "Design an Azure Virtual Desktop configuration for Azure Virtual Machines capacity requirements"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Implement host pools and session hosts",
+          "sub_objectives": [
+            "Create host pools and session hosts by using the Azure portal",
+            "Automate creation of Azure Virtual Desktop hosts and host pools by using PowerShell, Azure CLI, Azure Resource Manager templates (ARM templates), and Bicep files",
+            "Configure host pool and session host settings",
+            "Configure licensing for session hosts, including user eligibility for Windows client access and RDS Client Access License (CAL) requirements for Windows Server",
+            "Create and manage session host images",
+            "Create an image manually",
+            "Create an image by using Azure VM Image Builder",
+            "Modify an image",
+            "Plan and implement lifecycle management for images",
+            "Apply OS and application updates to an image",
+            "Create a session host by using a custom image",
+            "Plan and implement image storage, including Azure Compute Gallery"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Implement an Azure Virtual Desktop infrastructure",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Plan and implement identity and security",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Plan and implement identity integration",
+          "sub_objectives": [
+            "Select an identity scenario for Azure Virtual Desktop, including Active Directory Domain Services (AD DS), Microsoft Entra ID, and Microsoft Entra Domain Services",
+            "Specify requirements to configure the Azure Virtual Desktop session host for an identity scenario"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Plan and implement Azure role-based access control (Azure RBAC) for Azure Virtual Desktop",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Plan and implement Microsoft Entra Conditional Access policies for connections to Azure Virtual Desktop",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Plan and implement authentication options in Azure Virtual Desktop, including passwordless, smart card, and multifactor authentication",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Manage roles, groups, and rights assignments on Azure Virtual Desktop session hosts",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Configure single sign-on",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Plan and implement security",
+          "sub_objectives": [
+            "Plan, implement, and manage security for Azure Virtual Desktop session hosts by using Microsoft Defender for Cloud",
+            "Configure session host protection by using Microsoft Defender Antivirus",
+            "Configure session host protection by using Microsoft Defender for Endpoint, including onboarding and scanning options",
+            "Implement and manage network security for connections to Azure Virtual Desktop, including user defined routes (UDRs), network security groups (NSGs), and Azure Firewall",
+            "Configure Azure Bastion or just-in-time (JIT) VM access for administrative access to session hosts",
+            "Plan for and implement Windows threat protection features on Azure Virtual Desktop session hosts, including Windows Defender Application Control and Controlled Folder Access",
+            "Plan for and implement Azure confidential VMs and Trusted Launch security features for Azure Virtual Desktop session hosts"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Manage access and security",
-      "weight_percent": 10.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Manage user environments and apps",
+      "id": "3.0",
+      "name": "Plan and implement user environments and apps",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Plan and implement FSLogix",
+          "sub_objectives": [
+            "Recommend FSLogix configuration",
+            "Configure FSLogix Profile Containers",
+            "Configure FSLogix Office Profile Containers (ODFC)",
+            "Configure FSLogix Cloud Cache",
+            "Implement FSLogix application masking"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Plan and implement user experience and client settings",
+          "sub_objectives": [
+            "Choose an Azure Virtual Desktop client",
+            "Choose a deployment method for the client",
+            "Deploy and troubleshoot Azure Virtual Desktop clients",
+            "Configure device redirection",
+            "Configure multimedia redirection",
+            "Configure printing and Universal Print",
+            "Configure user settings through Microsoft Intune policies or Group Policy",
+            "Configure Remote Desktop Protocol (RDP) properties on a host pool",
+            "Configure session timeout properties",
+            "Implement the Start Virtual Machine on Connect feature"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Assign and unassign personal desktops to users",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Install and configure apps on a session host",
+          "sub_objectives": [
+            "Choose a method for deploying an app to Azure Virtual Desktop",
+            "Create and configure an application group",
+            "Assign users to application groups",
+            "Publish an application as a RemoteApp"
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Implement and manage Microsoft 365 apps on Azure Virtual Desktop session hosts",
+          "sub_objectives": [
+            "Implement and manage OneDrive, including multisession environments",
+            "Implement and manage Microsoft Teams, including the Remote Desktop WebRTC Redirector Service",
+            "Implement and manage browsers for Azure Virtual Desktop sessions"
+          ]
+        },
+        {
+          "id": "3.6",
+          "title": "Configure dynamic application delivery by using app attach",
+          "sub_objectives": [
+            "Create an application package for app attach"
+          ]
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "4.0",
       "name": "Monitor and maintain an Azure Virtual Desktop infrastructure",
-      "weight_percent": 30.0,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Monitor and manage Azure Virtual Desktop services",
+          "sub_objectives": [
+            "Configure log collection and analysis for Azure Virtual Desktop session hosts",
+            "Monitor Azure Virtual Desktop by using Azure Monitor",
+            "Customize Azure Monitor workbooks for Azure Virtual Desktop Insights"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Optimize session host capacity and performance",
+          "sub_objectives": [
+            "Implement autoscaling in host pools"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Monitor and manage active sessions and application groups",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Plan and implement updates, backups, and disaster recovery",
+          "sub_objectives": [
+            "Recommend an update strategy for session hosts",
+            "Plan and implement a disaster recovery plan for Azure Virtual Desktop",
+            "Plan for multi-region implementation",
+            "Design and implement a backup strategy for Azure Virtual Desktop",
+            "Configure backup and restore for FSLogix user profiles, personal desktops, and images"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

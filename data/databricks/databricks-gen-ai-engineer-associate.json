@@ -3,7 +3,7 @@
   "exam_name": "Databricks Certified Generative AI Engineer Associate",
   "exam_code": "Gen AI Engineer Associate",
   "certifying_body": "Databricks",
-  "certification_name": null,
+  "certification_name": "Databricks Certified Generative AI Engineer Associate",
   "version": null,
   "source_url": "https://www.databricks.com/learn/certification/genai-engineer-associate",
   "passing_score": 70,
@@ -36,8 +36,8 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who build and deploy performant RAG applications and LLM chains using Databricks",
+  "recommended_experience": "6+ months of hands-on experience performing the generative AI solutions tasks outlined in the exam guide",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -47,37 +47,43 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "Design Applications",
       "name": "Design Applications",
-      "weight_percent": 20.0,
+      "weight_percent": 14.0,
       "objectives": []
     },
     {
-      "id": "2",
+      "id": "Data Preparation",
       "name": "Data Preparation",
-      "weight_percent": 20.0,
+      "weight_percent": 14.0,
       "objectives": []
     },
     {
-      "id": "3",
+      "id": "Application Development",
       "name": "Application Development",
       "weight_percent": 30.0,
       "objectives": []
     },
     {
-      "id": "4",
-      "name": "Assembling and Deploying Applications",
-      "weight_percent": 20.0,
+      "id": "Assembling and Deploying Apps",
+      "name": "Assembling and Deploying Apps",
+      "weight_percent": 22.0,
       "objectives": []
     },
     {
-      "id": "5",
-      "name": "Monitoring Applications",
-      "weight_percent": 10.0,
+      "id": "Governance",
+      "name": "Governance",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "Evaluation and Monitoring",
+      "name": "Evaluation and Monitoring",
+      "weight_percent": 12.0,
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.databricks.com/exam-delivery-platform",
   "official_study_resources": [
     {
       "resource_type": "online_course",

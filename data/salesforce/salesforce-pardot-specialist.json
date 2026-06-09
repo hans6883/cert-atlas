@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Pardot Specialist",
   "exam_code": "Pardot Specialist",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/pardotspecialist",
+  "certification_name": "Salesforce Certified Marketing Cloud Account Engagement Specialist",
+  "version": "Summer '23 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Account-Engagement-Specialist-Exam-Guide",
   "passing_score": 65,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who have experience using the capabilities of the Account Engagement platform, including practical application of the skills and concepts noted in the exam objectives",
+  "recommended_experience": "6-12 months of experience building and executing marketing end-to-end workflows with the Account Engagement platform",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,40 +52,143 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Prospect and Data Management",
-      "weight_percent": 17.0,
-      "objectives": []
+      "id": "Visitors and Prospects",
+      "name": "Visitors and Prospects",
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe the relationship between visitors and prospects.",
+          "sub_objectives": [
+            "Given a scenario, apply the appropriate plan of action using Prospect Audits."
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Email Marketing",
-      "weight_percent": 14.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Lead Management",
-      "weight_percent": 17.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Personalizing the Prospect Experience",
+      "id": "Administration",
+      "name": "Administration",
       "weight_percent": 11.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Illustrate how to create, edit, and map fields.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Explain the relationship between Account Engagement and Salesforce.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Describe the capabilities of the Account Engagement Recycle Bin.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Pardot Administration",
-      "weight_percent": 21.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Pardot Tools",
+      "id": "Account Engagement Forms, Form Handlers and Landing Pages",
+      "name": "Account Engagement Forms, Form Handlers and Landing Pages",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, identify the capabilities, use cases and interpret metrics of Account Engagement forms.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Identify the capabilities, use cases and interpret reporting metrics for landing pages.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Lead Management",
+      "name": "Lead Management",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Explain the components and use cases of an automation rule.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Distinguish between the capabilities of, use cases for, and how to create different types of lists.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Define the capabilities of a completion action.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Define the capabilities of a segmentation rule.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Define the capabilities of page actions.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Explain what a Score measures and how scoring is managed.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Explain what a Grade measures and how grading is managed.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Identify the capabilities and use cases of custom redirects.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Email Marketing",
+      "name": "Email Marketing",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Distinguish between an Email and an Email Template.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a scenario, identify the capabilities and use cases for email.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Distinguish between the metrics collected in Account Engagement email reporting.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Engagement Studio",
+      "name": "Engagement Studio",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Distinguish between the components of an engagement program.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Explain the process of updating an engagement program including its assets.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

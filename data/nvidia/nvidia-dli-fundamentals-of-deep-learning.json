@@ -36,9 +36,15 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
+  "target_audience": "Professionals looking to enhance their skills and knowledge in the field of AI, accelerated computing, data science, advanced networking, graphics, simulation, and more.",
   "recommended_experience": null,
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "No specific prerequisites are mentioned, but the course is designed for professionals looking to enhance their skills and knowledge in the field of AI, accelerated computing, data science, advanced networking, graphics, simulation, and more.",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 14,
     "max_attempts_per_year": null,
@@ -72,7 +78,17 @@
     }
   ],
   "official_objectives_url": null,
-  "official_study_resources": [],
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "Fundamentals of Deep Learning",
+      "url": null,
+      "provider": "NVIDIA Deep Learning Institute",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "This course provides faculty with a great opportunity to get up-to-date training on deep learning."
+    }
+  ],
   "aliases": [
     "dli-fdl",
     "nvidia deep learning institute fundamentals of deep learning",

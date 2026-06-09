@@ -55,20 +55,26 @@
     {
       "id": "1",
       "name": "Financing decisions",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "2",
       "name": "Capital structure",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 25.0,
+      "objectives": [],
+      "weight_min": 25.0,
+      "weight_max": 25.0
     },
     {
       "id": "3",
       "name": "Business valuation",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 40.0,
+      "objectives": [],
+      "weight_min": 40.0,
+      "weight_max": 40.0
     }
   ],
   "official_objectives_url": null,

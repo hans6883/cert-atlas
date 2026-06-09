@@ -57,20 +57,26 @@
     {
       "id": "1",
       "name": "General Medical Assisting",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 31.0,
+      "objectives": [],
+      "weight_min": 31.0,
+      "weight_max": 31.0
     },
     {
       "id": "2",
       "name": "Administrative Medical Assisting",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 14.0,
+      "objectives": [],
+      "weight_min": 14.0,
+      "weight_max": 14.0
     },
     {
       "id": "3",
       "name": "Clinical Medical Assisting",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 55.0,
+      "objectives": [],
+      "weight_min": 55.0,
+      "weight_max": 55.0
     }
   ],
   "official_objectives_url": null,

@@ -3,9 +3,9 @@
   "exam_name": "Microsoft Power BI Data Analyst",
   "exam_code": "PL-300",
   "certifying_body": "Microsoft",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst-associate/",
+  "certification_name": "Microsoft Power BI Data Analyst",
+  "version": "as of April 20, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-300",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "As a Power BI data analyst, you work closely with business stakeholders to identify business requirements. You collaborate with analytics engineers and data engineers to identify and acquire data.",
+  "recommended_experience": "Proficient at using Power Query and Data Analysis Expressions (DAX).",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Provide meaningful business value through easy-to-comprehend data visualizations. Enable others to perform self-service analytics.",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,28 +74,156 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Prepare the data",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Get or connect to data",
+          "sub_objectives": [
+            "Identify and connect to data sources or a shared semantic model",
+            "Change data source settings, including credentials and privacy levels",
+            "Choose between DirectLake, DirectQuery, and Import",
+            "Create and modify parameters"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Profile and clean the data",
+          "sub_objectives": [
+            "Evaluate data, including data statistics and column properties",
+            "Resolve inconsistencies, unexpected or null values, and data quality issues",
+            "Resolve data import errors"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Transform and load the data",
+          "sub_objectives": [
+            "Select appropriate column data types",
+            "Create and transform columns",
+            "Group and aggregate rows",
+            "Pivot, unpivot, and transpose data",
+            "Convert semi-structured data to a table",
+            "Create fact tables and dimension tables",
+            "Identify when to use reference or duplicate queries and the resulting impact",
+            "Merge and append queries",
+            "Identify and create appropriate keys for relationships",
+            "Configure data loading for queries"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Model the data",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Design and implement a data model",
+          "sub_objectives": [
+            "Configure table and column properties",
+            "Implement role-playing dimensions",
+            "Define a relationship's cardinality and cross-filter direction",
+            "Create a common date table",
+            "Identify use cases for calculated columns and calculated tables",
+            "Create model calculations by using DAX",
+            "Create single aggregation measures",
+            "Use the CALCULATE function",
+            "Implement time intelligence measures",
+            "Use basic statistical functions",
+            "Create semi-additive measures",
+            "Create a measure by using quick measures",
+            "Create calculated tables or columns",
+            "Create calculation groups",
+            "Optimize model performance",
+            "Improve performance by identifying and removing unnecessary rows and columns",
+            "Identify poorly performing measures, relationships, and visuals by using Performance Analyzer and DAX query view",
+            "Improve performance by reducing granularity"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Visualize and analyze the data",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Create reports",
+          "sub_objectives": [
+            "Select an appropriate visual",
+            "Format and configure visuals",
+            "Create a narrative visual with Copilot",
+            "Apply and customize a theme",
+            "Apply conditional formatting",
+            "Apply slicing and filtering",
+            "Use Copilot to create a new report page",
+            "Use Copilot to suggest content for a new report page",
+            "Configure the report page",
+            "Choose when to use a paginated report",
+            "Create visual calculations by using DAX",
+            "Enhance reports for usability and storytelling",
+            "Configure bookmarks",
+            "Create custom tooltips",
+            "Edit and configure interactions between visuals",
+            "Configure navigation for a report",
+            "Apply sorting to visuals",
+            "Configure sync slicers",
+            "Group and layer visuals by using the Selection pane",
+            "Configure drillthrough navigation, including pages, filters, and buttons",
+            "Configure export settings",
+            "Design reports for mobile devices",
+            "Enable personalization in a report, including personalized visuals",
+            "Design and configure Power BI reports for accessibility",
+            "Configure automatic page refresh",
+            "Identify patterns and trends",
+            "Use the Analyze feature in Power BI",
+            "Use grouping, binning, and clustering",
+            "Use AI visuals",
+            "Use reference lines, error bars, and forecasting",
+            "Detect outliers and anomalies",
+            "Use Copilot to summarize the underlying semantic model"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Deploy and maintain assets",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Manage and secure Power BI",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Create and manage workspaces and assets",
+          "sub_objectives": [
+            "Create and configure a workspace",
+            "Configure and update an app",
+            "Publish, import, or update items in a workspace",
+            "Create dashboards",
+            "Choose a distribution method",
+            "Configure subscriptions and data alerts",
+            "Promote or certify Power BI content",
+            "Identify when a gateway is required",
+            "Configure a semantic model scheduled refresh"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Secure and govern Power BI items",
+          "sub_objectives": [
+            "Assign workspace roles",
+            "Configure item-level access",
+            "Configure access to semantic models",
+            "Implement row-level security roles",
+            "Configure row-level security group membership",
+            "Apply sensitivity labels"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
