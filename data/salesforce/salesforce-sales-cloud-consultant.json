@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified Sales Cloud Consultant",
   "exam_code": "Sales Cloud Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/salescloudconsultant",
+  "certification_name": "Salesforce Certified Sales Cloud Consultant",
+  "version": "Exam questions align to the Summer '25 Release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Sales-Cloud-Consultant-Exam-Guide",
   "passing_score": 68,
-  "passing_score_scale": null,
+  "passing_score_scale": "English version 73%; Japanese version 69%",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Consultants who have experience implementing Sales Cloud solutions in a customer-facing role.",
+  "recommended_experience": "1+ years of experience using Salesforce, working with sales processes, and developing business solutions.",
   "prerequisites": [
     {
       "prerequisite_type": "required_certification",
@@ -58,52 +58,139 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Industry Knowledge",
+      "id": "1.0",
+      "name": "Sales Lifecycle",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given business requirements, metrics, key performance indicators (KPIs), or business challenges, determine the optimal solution in Sales Cloud.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Given a scenario, discuss common sales and marketing processes and anticipate key implementation considerations.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Identify when to use Sales Cloud features and related products such as Sales Engagement, Salesforce Inbox, Enterprise Territory Management, Opportunity Forecasting, Sales Cloud Einstein, and generative/predictive AI.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Identify ways to transform business outcomes and sales KPIs into reports and dashboards.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Consulting and Implementation Strategies",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Prior to an implementation, assess user experience, the communication plan, training, and change management, and establish metrics that measure success.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "During an implementation, outline and apply appropriate deployment considerations.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Post implementation, determine how to respond to low adoption, changing business requirements, and user access, and plan for continuous improvement.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Leverage the project management lifecycle to deliver a successful solution on time and within scope.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Conduct discovery workshops, analyze business requirements, define solutions, and prioritize use cases.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Practical Application of Sales Cloud Expertise",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a set of requirements, construct an end-to-end sales process within Salesforce that supports the business from Lead to Opportunity to Quote to Close.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, determine when it’s appropriate to extend declarative development with custom development, third-party applications, Salesforce products, or productivity tools (email integrations, Slack, Salesforce Mobile).",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a set of business requirements, identify the appropriate security model (sharing rules, role hierarchy, Account Teams, Opportunity Teams, permission sets, permission set groups).",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Outline the capabilities, use cases, and design considerations when implementing Opportunity Products, Products, Price Books, Quotes, and the impact of multi-currency.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Given a set of requirements, determine how to support different business and sales process scenarios for Campaigns, Leads, and Opportunities.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Data Management",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Explain the use cases and considerations for data migrations and integrations.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a scenario, outline the scalability implications of a solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Discuss approaches for managing sales data quality in Salesforce.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Predictive and Generative AI",
       "weight_percent": 13.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Implementation Strategies",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Sales Cloud Solution Design",
-      "weight_percent": 22.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Marketing and Leads",
-      "weight_percent": 13.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Account and Contact Management",
-      "weight_percent": 13.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Opportunity Management",
-      "weight_percent": 9.0,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Sales Productivity and Integration",
-      "weight_percent": 9.0,
-      "objectives": []
-    },
-    {
-      "id": "8",
-      "name": "Analytics, Reports, and Dashboards",
-      "weight_percent": 9.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Understand what generative AI tools are available in Agentforce for Sales.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Understand what predictive AI tools are available in Sales Cloud.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Identify ethical challenges of AI and apply Salesforce’s Trusted AI Principles to sales scenarios.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

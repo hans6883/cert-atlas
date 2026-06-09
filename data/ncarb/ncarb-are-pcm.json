@@ -55,8 +55,10 @@
     {
       "id": "1",
       "name": "Business Operations",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 23.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 26.0
     },
     {
       "id": "2",

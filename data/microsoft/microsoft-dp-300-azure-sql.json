@@ -4,8 +4,8 @@
   "exam_code": "DP-300",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/",
+  "version": "as of April 24, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -21,7 +21,7 @@
   "exam_format": "Linear",
   "duration_minutes": 100,
   "exam_price_usd": 165.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Price not specified in the document.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
   "testing_centers": [
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Database administrator who manages cloud and on-premises databases built with Azure SQL services and SQL Server.",
+  "recommended_experience": "Experience with Azure SQL Database, Azure SQL Managed Instance, SQL Server on Azure Virtual Machines (Windows and Linux), and SQL Server on-premises.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience with building database solutions that support multiple workloads built with Azure SQL services and SQL Server.",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,34 +74,203 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Plan and implement data platform resources",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Plan and deploy Azure SQL solutions",
+          "sub_objectives": [
+            "Recommend a database offering based on specific requirements",
+            "Choose an automated deployment method",
+            "Identify use cases for Azure Arc-enabled SQL services",
+            "Identify use cases for Azure SQL Database in Microsoft Fabric",
+            "Plan for table partitioning",
+            "Recommend a database sharding solution",
+            "Deploy database offerings on selected platforms",
+            "Deploy hybrid SQL Server solutions",
+            "Apply patches and updates for hybrid and infrastructure as a service (IaaS) deployment",
+            "Configure resources for scale and performance",
+            "Configure Azure SQL Database for scale and performance",
+            "Configure Azure SQL Managed Instance for scale and performance",
+            "Configure SQL Server on Azure Virtual Machines for scale and performance",
+            "Configure table partitioning",
+            "Configure data compression"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Plan and implement a migration strategy",
+          "sub_objectives": [
+            "Evaluate requirements for a migration",
+            "Evaluate offline or online migration strategies",
+            "Implement an online migration strategy",
+            "Implement an offline migration strategy",
+            "Implement a migration to Azure",
+            "Implement a migration between Azure SQL services",
+            "Implement Azure SQL Managed Instance database copy and move",
+            "Troubleshoot a migration"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Implement a secure environment",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 22.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Configure database authentication and authorization",
+          "sub_objectives": [
+            "Configure Microsoft Entra ID authentication for Azure SQL Database, Azure SQL Managed Instance, and SQL Server",
+            "Configure authentication for SQL on Azure VMs and Azure SQL Managed Instance",
+            "Configure security principals",
+            "Create users from Microsoft Entra identities",
+            "Configure database and object-level permissions using graphical tools",
+            "Apply the principle of least privilege for all securables",
+            "Troubleshoot authentication and authorization issues",
+            "Manage authentication and authorization by using T-SQL"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Implement security for data at rest and data in transit",
+          "sub_objectives": [
+            "Implement transparent data encryption (TDE)",
+            "Implement object-level encryption",
+            "Configure server- and database-level firewall rules",
+            "Implement Always Encrypted",
+            "Implement Always Encrypted with VBS enclaves",
+            "Configure private links and service endpoints",
+            "Implement compliance controls for sensitive data",
+            "Apply a data classification strategy",
+            "Configure server and database audits",
+            "Implement change data tracking",
+            "Implement dynamic data masking",
+            "Implement ledger in Azure SQL",
+            "Implement row-level security"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Monitor, configure, and optimize database resources",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 22.5,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Monitor resource activity and performance",
+          "sub_objectives": [
+            "Prepare an operational performance baseline",
+            "Determine sources for performance metrics",
+            "Interpret performance metrics",
+            "Configure and monitor activity and performance",
+            "Monitor by using database watcher",
+            "Monitor by using Extended Events",
+            "Monitor and optimize query performance",
+            "Configure Query Store",
+            "Monitor by using Query Store",
+            "Identify and resolve session blocking",
+            "Identify performance issues using dynamic management views (DMVs)",
+            "Identify and implement index changes for queries",
+            "Recommend query construct modifications based on resource usage",
+            "Review execution plans",
+            "Monitor by using Intelligent Insights"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Configure database solutions for optimal performance",
+          "sub_objectives": [
+            "Implement index maintenance tasks",
+            "Implement statistics maintenance tasks",
+            "Implement database integrity checks",
+            "Configure database automatic tuning",
+            "Configure server settings for performance",
+            "Configure Resource Governor for performance",
+            "Implement database-scoped configuration",
+            "Configure compute and storage resources for scaling",
+            "Identify use cases for intelligent query processing (IQP) features"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Configure and manage automation of tasks",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Create and manage SQL Server Agent jobs",
+          "sub_objectives": [
+            "Manage schedules for regular maintenance jobs",
+            "Configure job alerts and notifications",
+            "Troubleshoot SQL Server Agent jobs"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Automate deployment of database resources",
+          "sub_objectives": [
+            "Automate deployment by using Azure Resource Manager (ARM) and Bicep templates",
+            "Automate deployment by using Azure PowerShell",
+            "Automate deployment by using Azure CLI",
+            "Monitor and troubleshoot deployments"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Create and manage database tasks in Azure",
+          "sub_objectives": [
+            "Create and configure elastic jobs",
+            "Create and configure database tasks by using automation",
+            "Configure alerts and notifications on database tasks",
+            "Troubleshoot automated database tasks"
+          ]
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Plan and configure a high availability and disaster recovery solution",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "5.0",
+      "name": "Plan and configure a high availability and disaster recovery (HA/DR) environment",
+      "weight_percent": 22.5,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Plan an HA/DR strategy for database solutions",
+          "sub_objectives": [
+            "Recommend HA/DR strategy based on Recovery Point Objective/Recovery Time Objective (RPO/RTO) requirements",
+            "Evaluate HA/DR for hybrid deployments",
+            "Evaluate Azure-specific HA/DR solutions",
+            "Plan a testing procedure for an HA/DR solution",
+            "Plan and perform backup and restore of a database",
+            "Recommend a database backup and restore strategy",
+            "Perform a database backup by using native tools",
+            "Perform a database restore by using native tools",
+            "Perform a database restore to a point in time",
+            "Configure long-term backup retention",
+            "Backup and restore a database by using T-SQL",
+            "Backup to and restore from cloud storage"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Configure HA/DR for database solutions",
+          "sub_objectives": [
+            "Configure active geo-replication",
+            "Configure Always On availability groups on SQL Managed Instance and Azure virtual machines",
+            "Configure failover groups",
+            "Configure Always On Failover Cluster Instances on Azure virtual machines",
+            "Configure log shipping",
+            "Monitor an HA/DR solution",
+            "Troubleshoot an HA/DR solution"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

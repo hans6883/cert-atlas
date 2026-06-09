@@ -47,20 +47,26 @@
     {
       "id": "1",
       "name": "Short Fiction",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 45.5,
+      "objectives": [],
+      "weight_min": 42.0,
+      "weight_max": 49.0
     },
     {
       "id": "2",
       "name": "Poetry",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 40.5,
+      "objectives": [],
+      "weight_min": 36.0,
+      "weight_max": 45.0
     },
     {
       "id": "3",
       "name": "Longer Fiction or Drama",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.5,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 18.0
     },
     {
       "id": "4",

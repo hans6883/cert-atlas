@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified CPQ Specialist",
   "exam_code": "CPQ Specialist",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/cpqspecialist",
+  "certification_name": "Salesforce Certified CPQ Administrator",
+  "version": "Exam questions align to the Summer '24 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-CPQ-Administrator-Exam-Guide",
   "passing_score": 65,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Salesforce customers, partners, and employees who want to demonstrate their skills and knowledge in designing, building, and implementing quoting flows through the Salesforce CPQ platform.",
+  "recommended_experience": "1 year of experience in a CPQ Administrator role.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,46 +52,160 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "CPQ Platform",
-      "weight_percent": 14.0,
-      "objectives": []
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Design, configure, and troubleshoot Price Rules using lookup objects and formula fields to meet business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Apply understanding of quote calculation sequence and Quote Line pricing fields to meet pricing and business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Utilize out-of-the-box and custom permissions, record types, field sets, and page layouts to ensure users can fulfill their job requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Given a business process, demonstrate knowledge of CPQ data flow (for example, twin fields) across CPQ objects.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Demonstrate knowledge about the CPQ object data model as it relates to data migration.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Set up CPQ for localization and multi-currency for international customers and users.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Given a scenario, determine the necessary CPQ package-level settings.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Determine how the CPQ managed package fits within a Salesforce org.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Bundle Configurations",
-      "weight_percent": 16.0,
-      "objectives": []
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a scenario, set up a bundle structure to meet business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a scenario, set up Product Rules to meet business requirements.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Pricing",
-      "weight_percent": 24.0,
-      "objectives": []
+      "weight_percent": 16.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, identify the appropriate pricing strategy (Discount Schedules, Block Prices, Contracted Prices, subscription pricing, percent-of-total).",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, determine expected pricing outcomes.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Proposals and Contracts",
-      "weight_percent": 18.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Quote Templates",
+      "weight_percent": 7.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a scenario, set up a Quote Template to meet business requirements.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Orders and Renewals",
-      "weight_percent": 12.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Approvals",
-      "weight_percent": 8.0,
-      "objectives": []
-    },
-    {
-      "id": "7",
+      "id": "5.0",
       "name": "Product Selection",
-      "weight_percent": 8.0,
-      "objectives": []
+      "weight_percent": 7.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a scenario, use Search Filters, field sets, and Custom Actions to enable product selection and configuration.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Orders, Contracts, Amendments, and Renewals",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Demonstrate understanding of the data required to generate Orders and Contracts.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Demonstrate understanding of how to generate renewal and amendment Quotes to meet business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Given a scenario, recommend when to use Orders, Contracts, Subscriptions, and Assets to meet business requirements.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Products",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Demonstrate how to set up Products, Price Books, and Price Book Entries.",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Demonstrate how product catalog setup impacts overall CPQ data flow.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Approvals",
+      "weight_percent": 4.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Select and set up native or Advanced Approvals to meet business requirements.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

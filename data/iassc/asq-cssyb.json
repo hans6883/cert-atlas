@@ -52,32 +52,42 @@
     {
       "id": "1",
       "name": "Overview of Six Sigma and the Organization",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 25.0,
+      "objectives": [],
+      "weight_min": 25.0,
+      "weight_max": 25.0
     },
     {
       "id": "2",
       "name": "Define Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [],
+      "weight_min": 17.5,
+      "weight_max": 17.5
     },
     {
       "id": "3",
       "name": "Measure Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 18.8,
+      "objectives": [],
+      "weight_min": 18.75,
+      "weight_max": 18.75
     },
     {
       "id": "4",
       "name": "Analyze Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 21.2,
+      "objectives": [],
+      "weight_min": 21.25,
+      "weight_max": 21.25
     },
     {
       "id": "5",
       "name": "Improve and Control Phases",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [],
+      "weight_min": 17.5,
+      "weight_max": 17.5
     }
   ],
   "official_objectives_url": null,

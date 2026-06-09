@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Pardot Consultant",
   "exam_code": "Pardot Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/pardotconsultant",
+  "certification_name": "Salesforce Certified Marketing Cloud Account Engagement Consultant",
+  "version": "Exam questions align to the Summer '23 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Account-Engagement-Consultant-Exam-Guide",
   "passing_score": 62,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who have experience implementing the Account Engagement application and can explain Salesforce administration concepts that relate to Account Engagement features",
+  "recommended_experience": "12 months or more of hands-on experience implementing and administering the Account Engagement Lightning App and Salesforce Platform",
   "prerequisites": [
     {
       "prerequisite_type": "required_certification",
@@ -58,46 +58,150 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "Evaluation",
       "name": "Evaluation",
-      "weight_percent": 9.0,
-      "objectives": []
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given a scenario that includes an assessment of a customer's current Salesforce and Account Engagement landscape as well as business objectives, analyze and make recommendations on a path forward.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Design a strategy to identify customer business needs based on marketing trends using currently available tools and methods.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "Account Configuration",
       "name": "Account Configuration",
-      "weight_percent": 19.0,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Articulate the implications and importance of technical setup.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Develop a plan to maintain data integrity during data migration.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a usage governance plan, develop and recommend a strategy that addresses organization and authorization (or access).",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Automating Business Processes",
       "name": "Automating Business Processes",
-      "weight_percent": 19.0,
-      "objectives": []
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, recommend the best automation tool(s) (automation rule, segmentation rule, dynamic list, completion action).",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, design a sequence of events in Account Engagement to complete a marketing initiative (assets, automation, notifications, etc.).",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a scenario, develop and implement a lead nurturing strategy.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Email Marketing and Assets",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "Email Marketing",
+      "name": "Email Marketing",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Apply email marketing standards and best practices to customer business needs.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "Lead Management",
       "name": "Lead Management",
-      "weight_percent": 23.0,
-      "objectives": []
+      "weight_percent": 14.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a customer scenario, develop and recommend a lead generation strategy including Account Engagement assets.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a lead qualification threshold, classify prospects appropriately.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Given a scenario, recommend a model to route qualified and unqualified leads across the business.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
+      "id": "Personalizing the Prospect Experience",
       "name": "Personalizing the Prospect Experience",
-      "weight_percent": 9.0,
-      "objectives": []
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Recommend ways to personalize the prospect experience.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Design a strategy to meet a company's consent management requirements.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
-      "name": "Reporting, Metrics, and Analytics",
-      "weight_percent": 8.0,
-      "objectives": []
+      "id": "Reporting, Metrics and Analytics",
+      "name": "Reporting, Metrics and Analytics",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Recommend the technical setup requirements for reporting and analytics.",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Identify reporting methods to solve a given scenario.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Sales Emails and Alerts",
+      "name": "Sales Emails and Alerts",
+      "weight_percent": 3.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Configure Sales Emails and Alerts for sales use.",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Summarize the benefits of Sales Emails and Alerts.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

@@ -55,26 +55,34 @@
     {
       "id": "1",
       "name": "Ignition system",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.0,
+      "objectives": [],
+      "weight_min": 16.0,
+      "weight_max": 16.0
     },
     {
       "id": "2",
       "name": "Fuel and air induction",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 18.0,
+      "objectives": [],
+      "weight_min": 18.0,
+      "weight_max": 18.0
     },
     {
       "id": "3",
       "name": "Emissions",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.0,
+      "objectives": [],
+      "weight_min": 16.0,
+      "weight_max": 16.0
     },
     {
       "id": "4",
       "name": "Engine diagnosis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 24.0,
+      "objectives": [],
+      "weight_min": 24.0,
+      "weight_max": 24.0
     }
   ],
   "official_objectives_url": null,

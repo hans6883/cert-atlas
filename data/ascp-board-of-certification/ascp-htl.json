@@ -60,20 +60,26 @@
     {
       "id": "2",
       "name": "Microtomy and Slide Preparation",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 25.0
     },
     {
       "id": "3",
       "name": "Histochemical Staining Techniques",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 40.0
     },
     {
       "id": "4",
       "name": "Quality Control and Safety",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
       "id": "5",

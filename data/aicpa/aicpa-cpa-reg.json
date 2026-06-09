@@ -55,32 +55,42 @@
     {
       "id": "1",
       "name": "Ethics, Professional Responsibilities, and Tax Procedures",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 20.0
     },
     {
       "id": "2",
       "name": "Business Law",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 25.0
     },
     {
       "id": "3",
       "name": "Federal Taxation of Property Transactions",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 15.0
     },
     {
       "id": "4",
       "name": "Federal Taxation of Individuals",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 27.0,
+      "objectives": [],
+      "weight_min": 22.0,
+      "weight_max": 32.0
     },
     {
       "id": "5",
       "name": "Federal Taxation of Entities",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 28.0,
+      "objectives": [],
+      "weight_min": 23.0,
+      "weight_max": 33.0
     }
   ],
   "official_objectives_url": null,

@@ -5,7 +5,7 @@
   "certifying_body": "Microsoft",
   "certification_name": null,
   "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -21,7 +21,7 @@
   "exam_format": "Linear",
   "duration_minutes": 100,
   "exam_price_usd": 165.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Price not specified in the provided content",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
   "testing_centers": [
@@ -57,9 +57,20 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Candidates should have subject matter expertise in implementing, managing, and monitoring an organization’s Microsoft Azure environment, including virtual networks, storage, compute, identity, security, and governance",
+  "recommended_experience": "Experience with PowerShell, Azure CLI, Azure portal, Azure Resource Manager templates or Bicep files, Microsoft Entra ID",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Operating systems, Networking, Servers, Virtualization",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "PowerShell, Azure CLI, Azure portal, Azure Resource Manager templates or Bicep files, Microsoft Entra ID",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,34 +79,210 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Manage Azure identities and governance",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Manage Microsoft Entra users and groups",
+          "sub_objectives": [
+            "Create users and groups",
+            "Manage user and group properties",
+            "Manage licenses in Microsoft Entra ID",
+            "Manage external users",
+            "Configure self-service password reset (SSPR)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Manage access to Azure resources",
+          "sub_objectives": [
+            "Manage built-in Azure roles",
+            "Assign roles at different scopes",
+            "Interpret access assignments"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Manage Azure subscriptions and governance",
+          "sub_objectives": [
+            "Implement and manage Azure Policy",
+            "Configure resource locks",
+            "Apply and manage tags on resources",
+            "Manage resource groups",
+            "Manage subscriptions",
+            "Manage costs by using alerts, budgets, and Azure Advisor recommendations",
+            "Configure management groups"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Implement and manage storage",
       "weight_percent": 15.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Configure access to storage",
+          "sub_objectives": [
+            "Configure Azure Storage firewalls and virtual networks",
+            "Create and use shared access signature (SAS) tokens",
+            "Configure stored access policies",
+            "Manage access keys",
+            "Configure identity-based access for Azure Files"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Configure and manage storage accounts",
+          "sub_objectives": [
+            "Create and configure storage accounts",
+            "Configure Azure Storage redundancy",
+            "Configure object replication",
+            "Configure storage account encryption"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Manage data by using Azure Storage Explorer and AzCopy",
+          "sub_objectives": [
+            "Configure Azure Files and Azure Blob Storage",
+            "Create and configure a file share in Azure Files",
+            "Create and configure a container in Azure Blob Storage",
+            "Configure storage tiers",
+            "Configure soft delete for blobs and containers",
+            "Configure snapshots and soft delete for Azure Files",
+            "Configure blob lifecycle management",
+            "Configure blob versioning"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Deploy and manage Azure compute resources",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Automate deployment of resources by using Azure Resource Manager (ARM) templates or Bicep files",
+          "sub_objectives": [
+            "Interpret an Azure Resource Manager template or a Bicep file",
+            "Modify an existing Azure Resource Manager template",
+            "Modify an existing Bicep file",
+            "Deploy resources by using an Azure Resource Manager template or a Bicep file",
+            "Export a deployment as an Azure Resource Manager template or convert an Azure Resource Manager template to a Bicep file"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Create and configure virtual machines",
+          "sub_objectives": [
+            "Create a virtual machine",
+            "Configure encryption at host for Azure virtual machines",
+            "Move a virtual machine to another resource group, subscription, or region",
+            "Manage virtual machine sizes",
+            "Manage virtual machine disks",
+            "Deploy virtual machines to availability zones and availability sets"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Deploy and configure an Azure Virtual Machine Scale Sets",
+          "sub_objectives": [
+            "Provision and manage containers in the Azure portal",
+            "Create and manage an Azure Container Registry",
+            "Provision a container by using Azure Container Instances",
+            "Provision a container by using Azure Container Apps",
+            "Manage sizing and scaling for containers, including Azure Container Instances and Azure Container Apps"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Create and configure Azure App Service",
+          "sub_objectives": [
+            "Provision an App Service plan",
+            "Configure scaling for an App Service plan",
+            "Create an App Service",
+            "Configure certificates and Transport Layer Security (TLS) for an App Service",
+            "Map an existing custom DNS name to an App Service",
+            "Configure backup for an App Service",
+            "Configure networking settings for an App Service",
+            "Configure deployment slots for an App Service"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Implement and manage virtual networking",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Configure and manage virtual networks in Azure",
+          "sub_objectives": [
+            "Create and configure virtual networks and subnets",
+            "Create and configure virtual network peering",
+            "Configure public IP addresses",
+            "Configure user-defined routes",
+            "Troubleshoot network connectivity"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Configure secure access to virtual networks",
+          "sub_objectives": [
+            "Create and configure network security groups (NSGs) and application security groups",
+            "Evaluate effective security rules in NSGs",
+            "Implement Azure Bastion",
+            "Configure service endpoints for Azure platform as a service (PaaS)",
+            "Configure private endpoints for Azure PaaS"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Configure name resolution and load balancing",
+          "sub_objectives": [
+            "Configure Azure DNS",
+            "Configure an internal or public load balancer",
+            "Troubleshoot load balancing"
+          ]
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "Monitor and maintain Azure resources",
       "weight_percent": 10.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Monitor resources in Azure",
+          "sub_objectives": [
+            "Interpret metrics in Azure Monitor",
+            "Configure log settings in Azure Monitor",
+            "Query and analyze logs in Azure Monitor",
+            "Set up alert rules, action groups, and alert processing rules in Azure Monitor",
+            "Configure and interpret monitoring of virtual machines, storage accounts, and networks by using Azure Monitor Insights"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Implement backup and recovery",
+          "sub_objectives": [
+            "Create a Recovery Services vault",
+            "Create an Azure Backup vault",
+            "Create and configure a backup policy",
+            "Perform backup and restore operations by using Azure Backup",
+            "Configure Azure Site Recovery for Azure resources",
+            "Perform a failover to a secondary region by using Site Recovery",
+            "Configure and interpret reports and alerts for backups"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

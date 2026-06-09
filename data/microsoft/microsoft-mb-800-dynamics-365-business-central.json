@@ -5,7 +5,7 @@
   "certifying_body": "Microsoft",
   "certification_name": null,
   "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-business-central-functional-consultant-associate/",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-800",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,7 +57,7 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
+  "target_audience": "Candidates implement Dynamics 365 Business Central. Candidates configure the core application, create companies, migrate data and collaborate with implementation teams to ensure usability and effective business management. Candidates implement and configure Business Central modules, including: Financial management, Sales, Purchasing, Inventory, Fixed Assets. Candidates have applied experience meeting business requirements and may specialize in one or more Business Central feature areas. They configure role centers, including insights, cues, action tiles, reports and charts, and expand functionality by using extensions. Candidates configure and use Copilot capabilities in Business Central, including built-in agents. They understand how to integrate Business Central with other technologies, including Microsoft 365, Microsoft Power Platform, Microsoft Dynamics 365.",
   "recommended_experience": null,
   "prerequisites": [],
   "retake_policy": {
@@ -68,28 +68,268 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "Set up Business Central",
       "name": "Set up Business Central",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "Create and configure a company",
+          "title": "Create and configure a company",
+          "sub_objectives": [
+            "Create a company by using Assisted Setup",
+            "Create a configuration worksheet",
+            "Create and use a configuration package"
+          ]
+        },
+        {
+          "id": "Migrate data to and within Business Central",
+          "title": "Migrate data to and within Business Central",
+          "sub_objectives": []
+        },
+        {
+          "id": "Manage security",
+          "title": "Manage security",
+          "sub_objectives": [
+            "Create and assign user profiles",
+            "Set up a new user",
+            "Create permissions and permission sets",
+            "Apply security filters",
+            "Assign user permissions by using security groups and permission sets",
+            "Configure and use security auditing in Business Central"
+          ]
+        },
+        {
+          "id": "Set up core functionality",
+          "title": "Set up core functionality",
+          "sub_objectives": [
+            "Set up reports and configure report layouts",
+            "Set up and use job queues",
+            "Set up number series",
+            "Enable Copilot and agent capabilities",
+            "Set up dimensions",
+            "Set up dimensions and dimension values",
+            "Set up global dimensions and shortcut dimensions",
+            "Set up default dimensions for master data",
+            "Set up blocking combinations of dimensions and dimension values",
+            "Set up default dimensions for account types",
+            "Set up default dimension priorities",
+            "Manage approvals by using workflows",
+            "Set up native workflows",
+            "Set up a notification system",
+            "Set up users for approval and workflow user groups"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "Configure financials",
       "name": "Configure financials",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "Set up financial management",
+          "title": "Set up financial management",
+          "sub_objectives": [
+            "Configure general ledger setup",
+            "Configure accounting periods",
+            "Set up payment terms",
+            "Set up deferrals",
+            "Configure currencies including exchange rates",
+            "Set up payment methods",
+            "Manage the chart of accounts",
+            "Set up general ledger accounts",
+            "Create account categories and subcategories",
+            "Prepare financial reporting with financial data and account categories",
+            "Set up general ledger allocations",
+            "Set up posting groups",
+            "Create specific posting groups",
+            "Create general posting groups",
+            "Configure the general posting setup",
+            "Configure inventory posting setup",
+            "Allow multiple posting groups"
+          ]
+        },
+        {
+          "id": "Set up journals and bank accounts",
+          "title": "Set up journals and bank accounts",
+          "sub_objectives": [
+            "Set up bank accounts",
+            "Create journal templates, including number series",
+            "Create batches",
+            "Create templates for recurring journals"
+          ]
+        },
+        {
+          "id": "Set up accounts payables",
+          "title": "Set up accounts payables",
+          "sub_objectives": [
+            "Create vendor accounts, including payment terms, vendor bank accounts, and related records",
+            "Configure Purchases & Payables Setup",
+            "Set up payment journals",
+            "Assess the relationship between vendors, vendor ledger entries, detailed vendor ledger entries, and general ledger entries"
+          ]
+        },
+        {
+          "id": "Set up accounts receivables",
+          "title": "Set up accounts receivables",
+          "sub_objectives": [
+            "Create customer accounts, including payment terms, payment methods, customer bank accounts, and related records",
+            "Configure Sales & Receivables Setup",
+            "Set up cash receipt journals",
+            "Set up payment registration",
+            "Assess the relationship between customers, customer ledger entries, detailed customer ledger entries, and general ledger entries"
+          ]
+        },
+        {
+          "id": "Configure fixed assets",
+          "title": "Configure fixed assets",
+          "sub_objectives": [
+            "Configure fixed asset settings, including depreciation books and fixed asset classes and subclasses",
+            "Create and modify fixed assets, main assets, and components",
+            "Differentiate between different depreciation methods"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Configure sales and purchasing",
       "name": "Configure sales and purchasing",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "Set up inventory",
+          "title": "Set up inventory",
+          "sub_objectives": [
+            "Configure inventory setup",
+            "Configure core item settings, including item categories, item attributes, units of measure, and item variants",
+            "Create locations",
+            "Assess the relationship between items, item ledger entries, value entries, and general ledger entries",
+            "Differentiate between costing methods",
+            "Configure stockkeeping units"
+          ]
+        },
+        {
+          "id": "Configure master data for sales and purchasing",
+          "title": "Configure master data for sales and purchasing",
+          "sub_objectives": [
+            "Configure core customer settings including shipping agents, locations, and shipping addresses",
+            "Configure core vendor settings including order address, lead time, and locations"
+          ]
+        },
+        {
+          "id": "Manage pricing and discounts",
+          "title": "Manage pricing and discounts",
+          "sub_objectives": [
+            "Manage vendor purchase prices",
+            "Manage purchase line and invoice discounts",
+            "Manage customer sales prices",
+            "Manage sales line and invoice discounts"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "Perform Business Central operations",
       "name": "Perform Business Central operations",
-      "weight_percent": 35.0,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "Perform basic tasks in Business Central",
+          "title": "Perform basic tasks in Business Central",
+          "sub_objectives": [
+            "Differentiate between designing, customizing, and personalizing pages",
+            "Customize pages",
+            "Apply and save filters",
+            "Find documents and related entries",
+            "Inspect pages",
+            "Perform data updates by using the Edit in Excel feature",
+            "Configure and use data analysis mode",
+            "Personalize pages"
+          ]
+        },
+        {
+          "id": "Process purchases",
+          "title": "Process purchases",
+          "sub_objectives": [
+            "Manage quotes",
+            "Create a purchase order",
+            "Receive items for a purchase order",
+            "Receive more items than ordered",
+            "Reverse a receipt",
+            "Create a posted invoice from a purchase order",
+            "Configure recurring purchase lines",
+            "Manage blanket purchase orders",
+            "Use deferrals with purchasing documents"
+          ]
+        },
+        {
+          "id": "Process sales",
+          "title": "Process sales",
+          "sub_objectives": [
+            "Manage quotes",
+            "Convert a sales quote into a sales order or sales invoice",
+            "Analyze item availability",
+            "Ship items for a sales order",
+            "Reverse a shipment",
+            "Create a sales invoice from a sales order",
+            "Configure recurring sales lines",
+            "Manage blanket sales orders",
+            "Use deferrals with sales documents"
+          ]
+        },
+        {
+          "id": "Process financial documents",
+          "title": "Process financial documents",
+          "sub_objectives": [
+            "Process purchase invoices",
+            "Process purchase credit memos",
+            "Process sales invoices",
+            "Process sales credit memos",
+            "Combine sales shipments into a single sales invoice",
+            "Combine purchase receipts into a single purchase invoice",
+            "Correct a posted purchase invoice",
+            "Correct a posted sales invoice",
+            "Release and reopen documents",
+            "Process prepayment invoices for purchases and sales"
+          ]
+        },
+        {
+          "id": "Process journals and payments",
+          "title": "Process journals and payments",
+          "sub_objectives": [
+            "Process payments by using payment journals",
+            "Process receipts by using the cash receipt journal",
+            "Process payment registrations",
+            "Apply ledger entries and undo applied entries",
+            "Reverse posted journals",
+            "Perform bank account reconciliation",
+            "Process recurring transactions by using the recurring journals",
+            "Use general ledger allocations",
+            "Adjust currency exchange rates"
+          ]
+        },
+        {
+          "id": "Process fixed asset transactions",
+          "title": "Process fixed asset transactions",
+          "sub_objectives": [
+            "Process fixed asset acquisitions",
+            "Process fixed asset depreciations",
+            "Process fixed asset disposals"
+          ]
+        },
+        {
+          "id": "Process inventory transactions",
+          "title": "Process inventory transactions",
+          "sub_objectives": [
+            "Process inventory receipts",
+            "Process inventory shipments",
+            "Transfer items between locations",
+            "Adjust item cost",
+            "Count inventory",
+            "Reclassify inventory"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

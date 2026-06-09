@@ -48,26 +48,34 @@
     {
       "id": "1",
       "name": "Preliminary Work and Taxpayer Data",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.5,
+      "objectives": [],
+      "weight_min": 16.47,
+      "weight_max": 16.47
     },
     {
       "id": "2",
       "name": "Income and Assets",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "3",
       "name": "Deductions and Credits",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "4",
       "name": "Taxation and Filing Requirements",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 17.6,
+      "objectives": [],
+      "weight_min": 17.65,
+      "weight_max": 17.65
     },
     {
       "id": "5",

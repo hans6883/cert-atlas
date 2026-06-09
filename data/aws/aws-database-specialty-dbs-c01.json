@@ -5,7 +5,7 @@
   "certifying_body": "AWS",
   "certification_name": null,
   "version": null,
-  "source_url": "https://aws.amazon.com/certification/certified-database-specialty/",
+  "source_url": "https://d1.awsstatic.com/training-and-certification/docs-database-specialty/AWS-Certified-Database-Specialty_Exam-Guide.pdf",
   "passing_score": 750,
   "passing_score_scale": "100-1000",
   "total_questions": 65,
@@ -55,7 +55,38 @@
     "max_attempts_total": null,
     "notes": "After first failed attempt: 14-day waiting period. After each subsequent failed attempt: additional 14-day waiting period. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Workload-Specific Database Design",
+      "weight_percent": 26.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Deployment and Migration",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Management and Operations",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Monitoring and Troubleshooting",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Database Security",
+      "weight_percent": 18.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://d1.awsstatic.com/training-and-certification/docs-database-specialty/AWS-Certified-Database-Specialty_Exam-Guide.pdf",
   "official_study_resources": [
     {

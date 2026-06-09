@@ -4,8 +4,8 @@
   "exam_code": "MB-210",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-sales/",
+  "version": "as of April 19, 2024",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-210",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Microsoft Dynamics 365 functional consultant with sales expertise",
+  "recommended_experience": "Strong business knowledge of sales processes for business-to-customer and business-to-business scenarios. Proficient in configuring Microsoft Power Platform, primarily model-driven apps. Knowledge of Microsoft 365 services and their interactions with Microsoft Dataverse.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,150 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "Configure Dynamics 365 Sales",
       "name": "Configure Dynamics 365 Sales",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [
+        {
+          "id": "1",
+          "title": "Configure user interfaces",
+          "sub_objectives": [
+            "Configure model-driven apps",
+            "Create and configure forms",
+            "Create and configure views",
+            "Create email, Excel, and Word templates",
+            "Configure the timeline control",
+            "Describe Microsoft Dataverse security concepts",
+            "Configure column mappings on table relationships",
+            "Configure sales settings",
+            "Configure sales territories and hierarchical sales territories",
+            "Configure auto number settings for quotes, orders, and invoices",
+            "Configure currencies and fiscal years",
+            "Describe sales security roles",
+            "Manage sales literature",
+            "Configure hierarchy security",
+            "Configure and utilize the assistant",
+            "Configure the business card scanner control",
+            "Enable the Kanban control",
+            "Describe goal management",
+            "Configure processes",
+            "Configure duplicate detection rules",
+            "Configure sales business process flows",
+            "Import data by using the Data Import wizard and export data to Excel",
+            "Configure sales visualizations",
+            "Implement Power BI apps for Sales",
+            "Configure sales dashboards",
+            "Describe options for sales reports",
+            "Configure the opportunity pipeline view",
+            "Configure sales engagement",
+            "Configure and utilize the Sales accelerator",
+            "Configure the workspace",
+            "Create and manage sequences",
+            "Create and manage segments",
+            "Configure lead and opportunity assignment rules for routing",
+            "Configure the Up Next widget",
+            "Evaluate Sales licensing",
+            "Compare and contrast Sales Professional and Enterprise configuration",
+            "Describe use cases for Team member licensing",
+            "Describe the upgrade pathway from Sales Professional to Enterprise"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Manage core sales tables",
+      "id": "Manage core sales features",
+      "name": "Manage core sales features",
       "weight_percent": 30.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2",
+          "title": "Create and manage accounts and contacts",
+          "sub_objectives": [
+            "Create and manage accounts",
+            "Create and manage contacts",
+            "Describe use cases for auto capture",
+            "Describe use cases for email engagement",
+            "Describe relationship intelligence",
+            "Describe use cases for notes analysis",
+            "Describe SMS message engagement with customers"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Create and manage leads and opportunities",
+          "sub_objectives": [
+            "Create and manage leads",
+            "Perform lead qualification and disqualification",
+            "Configure lead qualification",
+            "Manage opportunities",
+            "Track stakeholders, sales team members, and competitors",
+            "Manage product line items on opportunities",
+            "Customize the Opportunity Close form",
+            "Configure and utilize predictive lead and opportunity scoring",
+            "Manage the sales pipeline by using the work list",
+            "Configure duplicate lead detection"
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Create and manage quotes, orders, and invoices",
+          "sub_objectives": [
+            "Add quotes to opportunities",
+            "Edit quotes in various stages",
+            "Send quotes and invoices to customers",
+            "Convert quotes to orders",
+            "Manage orders and invoices"
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Create and manage the product catalog",
+          "sub_objectives": [
+            "Create and manage products, product bundles, and product families",
+            "Describe the product lifecycle",
+            "Create and manage price lists",
+            "Create and manage unit groups",
+            "Create and manage forecasts",
+            "Configure and utilize forecasts",
+            "Describe the forecast templates",
+            "Configure and utilize premium forecasting"
+          ]
+        },
+        {
+          "id": "6",
+          "title": "Manage in-app campaigns",
+          "sub_objectives": [
+            "Create and manage marketing lists",
+            "Create quick campaigns"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Configure additional tools and services",
       "name": "Configure additional tools and services",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Manage leads and opportunities",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "7",
+          "title": "Integrate sales applications",
+          "sub_objectives": [
+            "Integrate with LinkedIn Sales Navigator and Insights",
+            "Describe Dynamics 365 Sales mobile app capabilities",
+            "Create push notifications for the Dynamics 365 Sales mobile app",
+            "Integrate with Microsoft 365 services",
+            "Configure mailboxes",
+            "Describe Server-Side Synchronization",
+            "Configure document management",
+            "Deploy the Dynamics 365 App for Outlook",
+            "Configure the Dynamics 365 App for Outlook",
+            "Configure auto capture and email engagement",
+            "Configure SharePoint integration",
+            "Describe Microsoft Teams calling and conversation intelligence",
+            "Describe Microsoft Teams collaboration"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

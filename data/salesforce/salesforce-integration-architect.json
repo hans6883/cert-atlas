@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Integration Architect",
   "exam_code": "Integration Architect",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/integrationarchitect",
+  "certification_name": "Salesforce Certified Platform Integration Architect",
+  "version": "Exam questions align to the Summer '23 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Integration-Architect-Exam-Guide",
   "passing_score": 63,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -29,7 +29,7 @@
   "online_proctoring_available": true,
   "id_requirements": "One valid, government-issued photo ID. Name must match Webassessor registration exactly.",
   "exam_rules": "Closed-book. No notes or reference materials. No access to Salesforce org. Proctor monitors via webcam.",
-  "certification_validity_years": null,
+  "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "Salesforce releases three major updates per year. For each release, certified professionals must complete a free maintenance module on Trailhead to retain their certification. No cost for maintenance.",
   "continuing_education_units": null,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Architects, analysts, and application managers who want to design secure, scalable integrations with the Lightning Platform",
+  "recommended_experience": "1–2 years of Salesforce Platform Integration Architecture experience, 2–3 years of hands-on Salesforce administration and/or developer experience, 1 year minimum of experience in supporting or implementing data-centric enterprise integration solutions",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,28 +52,171 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Evaluate Integration Architecture and Patterns",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "1. Evaluate the Current System Landscape",
+      "name": "Evaluate the Current System Landscape",
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given a set of business requirements, identify the current system landscape and determine what standards, limitations, boundaries, and protocols exist.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Given an existing system landscape, analyze for constraints and/or pain-points to satisfy a business requirement(s).",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given a set of requirements, evaluate the authentication and authorization needs based on the system landscape.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Solution Architecture",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2. Evaluate Business Needs",
+      "name": "Evaluate Business Needs",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a use case, identify functional and non-functional requirements needed for integration.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Based on a given integration requirement, identify and classify data into Confidential/Secure/Public.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a use case, identify key factors for CRM success that should be included as integration requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Given a use case, identify the business growth and regulatory factors that can impact choice of integration solutions.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3. Translate Needs to Integration Requirements",
+      "name": "Translate Needs to Integration Requirements",
+      "weight_percent": 22.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given an existing system landscape diagram, create an inventory of the systems and integration patterns.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a use case and business process, evaluate system and process constraints.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a use case, identify integration security/authentication/authorization requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a use case, identify performance needs (volumes, response times, latency) and propose appropriate integration solutions that will meet business requirements.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4. Design Integration Solutions",
       "name": "Design Integration Solutions",
-      "weight_percent": 35.0,
-      "objectives": []
+      "weight_percent": 28.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a use case, identify the integration pattern that meets business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a use case, define the components which create a solution that meets business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Given a use case, identify the trade-offs, limitations, and constraints that meet the proposed solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Given a use case that includes technical requirements, constraints, or drivers, specify the appropriate Salesforce application programming interface(s) (API) for the proposed solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Given a use case that includes technical requirements, constraints, or drivers, determine the standards, components, techniques, and security mechanism that should be used.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Justify the Solution",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "5. Build Solution",
+      "name": "Build Solution",
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a use case that includes technical requirements, constraints, or drivers, identify the considerations when designing and implementing an API(s), both Salesforce as an API provider and Salesforce as an API consumer.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a use case, identify the considerations when choosing the right option in making an outbound call to an external system.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Given a use case, describe what should be considered when building a scalable solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Given a use case, determine error handling for different integration options.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Given a use case, create a security solution for inbound or outbound integrations.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Given a use case, identify the factors needed to build resilience in an integration solution for system updates.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6. Maintain Integration",
+      "name": "Maintain Integration",
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Given an integration maintenance use case, identify performance monitoring needs for integration requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Given a use case, identify the appropriate error handling, escalation, and recovery procedures for a failed integration.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Given a use case, identify reporting needs for integration monitoring.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

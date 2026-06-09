@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07",
-  "total_vendors": 222,
+  "generated": "2026-06-09",
+  "total_vendors": 223,
   "vendors": [
     {
       "vendor_id": "dmv",
@@ -73,6 +73,14 @@
       "certification_page": "https://www.finra.org/registration-exams-ce/qualification-exams",
       "exam_count": 26,
       "slug": "finra"
+    },
+    {
+      "vendor_id": "iicrc",
+      "display_name": "IICRC",
+      "website": "https://iicrc.org",
+      "certification_page": "https://iicrc.org/iicrccertifications/",
+      "exam_count": 25,
+      "slug": "iicrc"
     },
     {
       "vendor_id": "aapc",
@@ -507,6 +515,14 @@
       "slug": "istqb"
     },
     {
+      "vendor_id": "nha",
+      "display_name": "NHA",
+      "website": "https://www.nhanow.com",
+      "certification_page": "https://www.nhanow.com/certifications",
+      "exam_count": 7,
+      "slug": "nha"
+    },
+    {
       "vendor_id": "nna",
       "display_name": "NNA / Notary",
       "website": "https://www.nationalnotary.org",
@@ -737,14 +753,6 @@
       "certification_page": "https://www.ncarb.org/pass-the-are/about",
       "exam_count": 6,
       "slug": "ncarb"
-    },
-    {
-      "vendor_id": "nha",
-      "display_name": "NHA",
-      "website": "https://www.nhanow.com",
-      "certification_page": "https://www.nhanow.com/certifications",
-      "exam_count": 6,
-      "slug": "nha"
     },
     {
       "vendor_id": "oposiciones_spain",

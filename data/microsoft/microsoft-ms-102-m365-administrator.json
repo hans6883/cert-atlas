@@ -3,9 +3,9 @@
   "exam_name": "Microsoft 365 Administrator",
   "exam_code": "MS-102",
   "certifying_body": "Microsoft",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/m365-administrator-expert/",
+  "certification_name": "Microsoft 365 Certified: Administrator Expert",
+  "version": "as of April 28, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-102",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -39,7 +39,7 @@
   "online_proctoring_available": true,
   "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
   "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
-  "certification_validity_years": null,
+  "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
   "continuing_education_units": null,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Microsoft 365 administrators who deploy and manage Microsoft 365 and perform Microsoft 365 tenant-level implementation and administration of cloud and hybrid environments.",
+  "recommended_experience": "Functional experience with all Microsoft 365 workloads and Microsoft Entra ID, and administered at least one of these. Working knowledge of Networking, Active Directory Domain Services, DNS, PowerShell.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Microsoft 365 Certified: Endpoint Administrator Associate, Microsoft 365 Certified: Teams Administrator Associate, or Microsoft 365 Certified: Identity and Access Administrator Associate certification.",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,28 +74,149 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Deploy and manage a Microsoft 365 tenant",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Implement and manage Microsoft Entra identity and access",
+          "sub_objectives": [
+            "Create a tenant",
+            "Implement and manage domains",
+            "Configure org settings, including Security & privacy and Organization profile",
+            "Monitor the health of Microsoft 365 services by using Service Health, including configuration of notifications",
+            "Configure and review Network connectivity insights",
+            "Configure and monitor software updates by using the Microsoft 365 admin center",
+            "Monitor Microsoft 365 adoption and usage",
+            "Configure and manage Microsoft 365 Backup"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Manage users and groups",
+          "sub_objectives": [
+            "Create and manage users in Microsoft Entra ID, including external users",
+            "Create and manage contacts in the Microsoft 365 admin center",
+            "Create and manage groups, including Microsoft 365 Groups and manage shared mailboxes",
+            "Manage and monitor Microsoft 365 licenses, including group-based licensing",
+            "Perform bulk user management, including Microsoft Graph PowerShell and Microsoft Entra PowerShell",
+            "Manage roles and role groups"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Implement and manage identity and access in Microsoft Entra ID",
+      "id": "2.0",
+      "name": "Implement and manage Microsoft Entra identity and access",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Implement and manage identity synchronization with Microsoft Entra tenant",
+          "sub_objectives": [
+            "Prepare for identity synchronization, including IdFix",
+            "Implement and manage directory synchronization by using Microsoft Entra Connect Sync or Microsoft Entra Cloud Sync",
+            "Monitor synchronization by using Microsoft Entra Connect Health",
+            "Troubleshoot synchronization, including Microsoft Entra Connect Sync and Microsoft Entra Cloud Sync"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Implement and manage authentication",
+          "sub_objectives": [
+            "Implement and manage authentication methods",
+            "Implement and manage self-service password reset (SSPR)",
+            "Implement and manage Microsoft Entra Password Protection",
+            "Investigate and resolve authentication issues"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Implement and manage secure access",
+          "sub_objectives": [
+            "Plan for identity protection",
+            "Implement and manage Microsoft Entra Identity Protection",
+            "Plan Conditional Access policies",
+            "Implement and manage Conditional Access policies",
+            "Implement and manage multifactor authentication (MFA) by using Conditional Access policies"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Manage security and threats by using Microsoft 365 Defender",
+      "id": "3.0",
+      "name": "Manage security and threats by using Microsoft Defender XDR",
       "weight_percent": 30.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Review and respond to security reports and alerts generated by Microsoft Defender XDR",
+          "sub_objectives": [
+            "Review and respond to threats by using Microsoft Security Exposure Management, including the Microsoft Secure Score",
+            "Review and respond to incidents and alerts generated by Microsoft Defender XDR, including advanced hunting",
+            "Review and respond to issues identified in Microsoft Defender XDR reports",
+            "Review and respond to threats identified by Microsoft Defender Threat Intelligence"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Implement and manage email and collaboration protection by using Microsoft Defender for Office 365",
+          "sub_objectives": [
+            "Implement threat policies and rules in Microsoft Defender for Office 365",
+            "Configure alert policies in Microsoft Defender for Office 365",
+            "Investigate and respond to email and collaboration threats by using Microsoft Defender for Office 365",
+            "Manage attack simulations, including training campaigns",
+            "Manage restricted entities, including blocked users"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Implement and manage endpoint protection by using Microsoft Defender for Endpoint",
+          "sub_objectives": [
+            "Onboard devices to Microsoft Defender for Endpoint",
+            "Configure endpoint settings",
+            "Review and respond to vulnerabilities identified in the Microsoft Defender Vulnerability Management dashboard"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Implement and manage Microsoft Defender for Cloud Apps",
+          "sub_objectives": [
+            "Configure the app connector for Microsoft 365",
+            "Configure Microsoft Defender for Cloud Apps policies, including triggering alerts",
+            "Interpret activity log",
+            "Configure Cloud App Discovery",
+            "Review and respond to issues identified in Cloud App Discovery"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Manage compliance by using Microsoft Purview",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Implement Microsoft Purview information protection and data lifecycle management",
+          "sub_objectives": [
+            "Implement and manage sensitive information types by using keywords, keyword lists, or regular expressions",
+            "Implement retention labels, retention label policies, and retention policies",
+            "Implement sensitivity labels and sensitivity label policies",
+            "Monitor label usage by using Content explorer, Activity explorer, and label reports"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Implement Microsoft Purview data loss prevention (DLP)",
+          "sub_objectives": [
+            "Configure DLP policies for Microsoft 365 workloads, including Exchange Online, SharePoint Online, OneDrive, Teams, Power BI, and Microsoft 365 Copilot",
+            "Configure Endpoint DLP",
+            "Review and respond to DLP alerts, events, and reports"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -115,6 +242,7 @@
   ],
   "aliases": [
     "microsoft 365 administrator",
+    "microsoft 365 certified administrator expert",
     "microsoft-ms-102-m365-administrator",
     "ms-102"
   ],

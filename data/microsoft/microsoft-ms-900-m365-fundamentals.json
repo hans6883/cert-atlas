@@ -4,8 +4,8 @@
   "exam_code": "MS-900",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-365-fundamentals/",
+  "version": "as of April 30, 2025",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-900",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals looking to demonstrate foundational-level knowledge of cloud-based solutions to facilitate productivity and collaboration among on-site, remote, and hybrid workers",
+  "recommended_experience": "Knowledge of cloud-based solutions, familiarity with Microsoft 365",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,174 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Describe cloud concepts",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe the different types of cloud services available",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Describe Microsoft software as a service (SaaS), infrastructure as a service (IaaS), and platform as a service (PaaS) concepts and use cases",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Describe differences between Office 365 and Microsoft 365",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Describe the benefits of and considerations for using cloud, hybrid, or on-premises services",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Describe public, private, and hybrid cloud models",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Compare costs and advantages of cloud, hybrid, and on-premises services",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Describe the concept of hybrid work and flexible work",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Describe Microsoft 365 apps and services",
       "weight_percent": 45.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Describe productivity solutions of Microsoft 365",
+          "sub_objectives": [
+            "Describe the productivity and content creation capabilities of the core Microsoft 365 Apps including Microsoft Word, Excel, PowerPoint, and OneNote",
+            "Describe the productivity benefits and capabilities of Microsoft 365 Copilot and Microsoft 365 Copilot Chat"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Describe project management capabilities of Microsoft 365 including Microsoft Project, Planner, Bookings, Forms, Lists, To Do, and Loop",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Describe collaboration solutions of Microsoft 365",
+          "sub_objectives": [
+            "Describe the collaboration and content sharing capabilities of Microsoft SharePoint, OneDrive, and Stream",
+            "Describe the email and calendaring capabilities of Microsoft Exchange and Outlook",
+            "Describe the collaboration and communication capabilities of Microsoft Teams and Teams Phone",
+            "Describe the collaboration benefits and capabilities of Microsoft 365 Copilot and Microsoft 365 Copilot Chat"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Describe the employee experience capabilities of the Microsoft Viva apps",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Describe the ways that you can extend Microsoft Teams by using collaborative apps such as Whiteboard, Microsoft Planner, Microsoft Power Apps, and Power Automate",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Describe device and cloud endpoint management concepts and deployment options in Microsoft 365",
+          "sub_objectives": [
+            "Describe the endpoint management capabilities of Microsoft 365 including Microsoft Intune, co-management with Configuration Manager, Endpoint Analytics, Windows Autopilot, and Windows Autopatch",
+            "Compare the differences between Windows 365 and Azure Virtual Desktop",
+            "Identify deployment and update channels for Microsoft 365 Apps"
+          ]
+        },
+        {
+          "id": "2.7",
+          "title": "Describe Microsoft 365 administration capabilities",
+          "sub_objectives": [
+            "Describe the capabilities of the Microsoft 365 Admin center and the reports available",
+            "Describe the capabilities of the Microsoft 365 user portal",
+            "Describe the reports available in other admin centers such as SharePoint, Teams, and Exchange",
+            "Describe the capabilities of the Microsoft Copilot dashboard"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Describe security, compliance, privacy, and trust in Microsoft 365",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Describe identity and access management solutions of Microsoft 365",
+          "sub_objectives": [
+            "Describe the identity and access management capabilities of Microsoft Entra ID",
+            "Describe cloud identity, on-premises identity, and hybrid identity concepts",
+            "Describe how Microsoft uses methods such as multi-factor authentication (MFA), self-service password reset (SSPR), and conditional access, to keep identities, access, and data secure"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Describe threat protection solutions of Microsoft 365",
+          "sub_objectives": [
+            "Describe Microsoft Defender XDR, Defender for Endpoint, Defender for Office 365, Defender for Identity, Defender for Cloud Apps, and the Microsoft Defender Portal",
+            "Describe Microsoft Secure Score benefits and capabilities",
+            "Describe how Microsoft 365 addresses the most common types of threats against endpoints, applications, and identities"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Describe trust, privacy, risk, and compliance solutions of Microsoft 365",
+          "sub_objectives": [
+            "Describe the Zero Trust Model",
+            "Describe Microsoft Purview compliance solutions such as insider risk, auditing, and eDiscovery",
+            "Describe Microsoft Purview Information Protection features such as sensitivity labels and data loss prevention",
+            "Describe how Microsoft supports data residency to ensure regulatory compliance",
+            "Describe the capabilities and benefits of Microsoft Priva"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Describe Microsoft 365 pricing, licensing, and support",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Identify Microsoft 365 pricing and billing management options",
+          "sub_objectives": [
+            "Describe the pricing model for Microsoft cloud services including enterprise agreements, cloud solution providers, and direct billing",
+            "Describe available billing and bill management options including billing frequency and methods of payment"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Identify licensing options available in Microsoft 365",
+          "sub_objectives": [
+            "Describe license management",
+            "Describe the differences between base licensing and add-on licensing"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Identify support options for Microsoft 365 services",
+          "sub_objectives": [
+            "Describe how to create a support request for Microsoft 365 services",
+            "Describe support options for Microsoft 365 services",
+            "Describe service-level agreements (SLAs) including service credits",
+            "Determine service health status by using the Microsoft 365 admin center or the Microsoft Entra admin center"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

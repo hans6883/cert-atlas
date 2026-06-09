@@ -4,8 +4,8 @@
   "exam_code": "DP-900",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/",
+  "version": "as of November 1, 2024",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Candidates beginning to work with data in the cloud",
+  "recommended_experience": "Familiarity with Exam DP-900’s self-paced or instructor-led learning material",
+  "prerequisites": [
+    {
+      "prerequisite_type": "training",
+      "description": "Familiarity with Exam DP-900’s self-paced or instructor-led learning material",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,28 +74,232 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Describe core data concepts",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 27.5,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe ways to represent data",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Describe features of structured data",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Describe features of semi-structured data",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Describe features of unstructured data",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Identify options for data storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Describe common formats for data files",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Describe types of databases",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Describe common data workloads",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Describe features of transactional workloads",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Describe features of analytical workloads",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Identify roles and responsibilities for data workloads",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.12",
+          "title": "Describe responsibilities for database administrators",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.13",
+          "title": "Describe responsibilities for data engineers",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.14",
+          "title": "Describe responsibilities for data analysts",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Identify considerations for relational data on Azure",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 22.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Describe relational concepts",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Identify features of relational data",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Describe normalization and why it is used",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Identify common structured query language (SQL) statements",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Identify common database objects",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Describe relational Azure data services",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Describe the Azure SQL family of products including Azure SQL Database, Azure SQL Managed Instance, and SQL Server on Azure Virtual Machines",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Identify Azure database services for open-source database systems",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Describe considerations for working with non-relational data on Azure",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Describe capabilities of Azure storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Describe Azure Blob storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Describe Azure File storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Describe Azure Table storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Describe capabilities and features of Azure Cosmos DB",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Identify use cases for Azure Cosmos DB",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Describe Azure Cosmos DB APIs",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Describe an analytics workload on Azure",
-      "weight_percent": 30.0,
-      "objectives": []
+      "weight_percent": 32.5,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Describe common elements of large-scale analytics",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Describe considerations for data ingestion and processing",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Describe options for analytical data stores",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Describe Microsoft cloud services for large-scale analytics, including Azure Databricks and Microsoft Fabric",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Describe consideration for real-time data analytics",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Describe the difference between batch and streaming data",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Identify Microsoft cloud services for real-time analytics",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Describe data visualization in Microsoft Power BI",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.9",
+          "title": "Identify capabilities of Power BI",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.10",
+          "title": "Describe features of data models in Power BI",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.11",
+          "title": "Identify appropriate visualizations for data",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

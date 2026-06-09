@@ -3,8 +3,8 @@
   "exam_name": "AWS Certified SysOps Administrator – Associate",
   "exam_code": "SOA-C02",
   "certifying_body": "AWS",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "AWS Certified SysOps Administrator - Associate",
+  "version": "2.3",
   "source_url": "https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf",
   "passing_score": 720,
   "passing_score_scale": "100-1000",
@@ -46,9 +46,60 @@
     "Italian",
     "Portuguese"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "System administrators in a cloud operations role",
+  "recommended_experience": "1 year of experience with deployment, management, networking, and security on AWS",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "1–2 years of experience as a system administrator in an operations role",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience in monitoring, logging, and troubleshooting",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Knowledge of networking concepts (for example, DNS, TCP/IP, firewalls)",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Ability to implement architectural requirements (for example, high availability, performance, capacity)",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Minimum of 1 year of hands-on experience with AWS technology",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience in deploying, managing, and operating workloads on AWS",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Understanding of the AWS Well-Architected Framework",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Hands-on experience with the AWS Management Console and the AWS CLI",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Understanding of AWS networking and security services",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Hands-on experience in implementing security controls and compliance requirements",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 14,
     "max_attempts_per_year": null,
@@ -60,13 +111,41 @@
       "id": "1",
       "name": "Monitoring, Logging, and Remediation",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Implement metrics, alarms, and filters by using AWS monitoring and logging services",
+          "sub_objectives": [
+            "Identify, collect, analyze, and export logs (for example, Amazon CloudWatch Logs, CloudWatch Logs Insights, AWS CloudTrail logs)",
+            "Collect metrics and logs by using the CloudWatch agent",
+            "Create CloudWatch alarms",
+            "Create metric filters",
+            "Create CloudWatch dashboards",
+            "Configure notifications (for example, Amazon Simple Notification Service [Amazon SNS], Service Quotas, CloudWatch alarms, AWS Health events)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Remediate issues based on monitoring and availability metrics",
+          "sub_objectives": [
+            "Troubleshoot or take corrective actions based on notifications and alarms",
+            "Configure Amazon EventBridge rules to invoke actions",
+            "Use AWS Systems Manager Automation runbooks to take action based on AWS Config rules"
+          ]
+        }
+      ]
     },
     {
       "id": "2",
       "name": "Reliability and Business Continuity",
       "weight_percent": 16.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Implement scalability and elasticity",
+          "sub_objectives": []
+        }
+      ]
     },
     {
       "id": "3",

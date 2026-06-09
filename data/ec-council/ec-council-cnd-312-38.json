@@ -3,11 +3,11 @@
   "exam_name": "Certified Network Defender (CND)",
   "exam_code": "312-38",
   "certifying_body": "EC-Council",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Certified Network Defender",
+  "version": "v3",
   "source_url": "https://www.eccouncil.org/train-certify/certified-network-defender-cnd/",
   "passing_score": 70,
-  "passing_score_scale": null,
+  "passing_score_scale": "100-900",
   "total_questions": 100,
   "question_types": [
     "Multiple Choice"
@@ -15,7 +15,7 @@
   "exam_format": "Linear",
   "duration_minutes": 240,
   "exam_price_usd": 450.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Prices vary based on training mode (On-Demand, Live Online, etc.)",
   "voucher_url": null,
   "exam_registration_url": "https://eccexam.com/",
   "testing_centers": [
@@ -36,12 +36,12 @@
   "certification_validity_years": 3,
   "renewal_required": true,
   "renewal_options": "Earn 120 ECE (EC-Council Continuing Education) credits over 3-year cycle. ECE credits earned through courses, conferences, publications, or EC-Council activities.",
-  "continuing_education_units": null,
+  "continuing_education_units": 120,
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "IT and systems administrators, network defenders, cybersecurity professionals",
+  "recommended_experience": "Fundamental knowledge of networking concepts",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -51,127 +51,347 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Network Attacks and Defense Strategies",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand attack techniques and hacking methodologies",
+          "sub_objectives": [
+            "Understand attack, threat, and vulnerability concepts",
+            "Understand network attacks, application attacks, and social engineering attacks",
+            "Understand attack surface analysis and threat intelligence"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Administrative Network Security",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Implement security policies and compliance efforts",
+          "sub_objectives": [
+            "Understand compliance and regulatory frameworks",
+            "Implement security policies and asset management"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Technical Network Security",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Implement access control and identity management",
+          "sub_objectives": [
+            "Understand access control, authentication, and authorization",
+            "Implement cryptographic security techniques"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Network Perimeter Security",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Configure network perimeter devices",
+          "sub_objectives": [
+            "Understand firewalls, IDS/IPS, and router/switch security",
+            "Implement perimeter protection using firewalls and IDS/IPS"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "5",
-      "name": "Endpoint Security - Windows Systems",
-      "weight_percent": null,
-      "objectives": []
+      "id": "5.0",
+      "name": "Endpoint Security – Windows Systems",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Secure Windows systems",
+          "sub_objectives": [
+            "Understand Windows security risks and components",
+            "Implement Windows security baseline configurations and patch management"
+          ]
+        }
+      ],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
-      "id": "6",
-      "name": "Endpoint Security - Linux Systems",
-      "weight_percent": null,
-      "objectives": []
+      "id": "6.0",
+      "name": "Endpoint Security – Linux Systems",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Secure Linux systems",
+          "sub_objectives": [
+            "Understand Linux security risks and hardening techniques",
+            "Implement Linux security policies and file integrity monitoring"
+          ]
+        }
+      ],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
-      "id": "7",
-      "name": "Endpoint Security - Mobile Devices",
-      "weight_percent": null,
-      "objectives": []
+      "id": "7.0",
+      "name": "Endpoint Security – Mobile Devices",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Secure mobile devices",
+          "sub_objectives": [
+            "Implement mobile device management (MDM) and mobile threat defense (MTD)",
+            "Understand BYOD, COPE, and mobile application security"
+          ]
+        }
+      ],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
-      "id": "8",
-      "name": "Endpoint Security - IoT Devices",
-      "weight_percent": null,
-      "objectives": []
+      "id": "8.0",
+      "name": "Endpoint Security – IoT Devices",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Secure IoT devices",
+          "sub_objectives": [
+            "Understand IoT security risks and best practices",
+            "Implement IoT communication security and device hardening"
+          ]
+        }
+      ],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
-      "id": "9",
+      "id": "9.0",
       "name": "Administrative Application Security",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Secure applications",
+          "sub_objectives": [
+            "Implement application whitelisting, sandboxing, and patch management",
+            "Implement web application firewalls (WAFs)"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "10",
+      "id": "10.0",
       "name": "Data Security",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Secure data",
+          "sub_objectives": [
+            "Implement data encryption, data masking, and data loss prevention (DLP)",
+            "Understand data backup, retention, and integrity"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "11",
+      "id": "11.0",
       "name": "Enterprise Virtual Network Security",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Secure virtual networks",
+          "sub_objectives": [
+            "Understand network virtualization, software-defined networks (SDN), and container security"
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
-      "id": "12",
-      "name": "Enterprise Cloud Network Security",
-      "weight_percent": null,
-      "objectives": []
+      "id": "12.0",
+      "name": "Enterprise Cloud Security",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Secure enterprise cloud platforms",
+          "sub_objectives": [
+            "Implement cloud security for AWS, Azure, and GCP",
+            "Understand shared responsibility models and cloud security tools"
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
-      "id": "13",
+      "id": "13.0",
       "name": "Enterprise Wireless Network Security",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Secure wireless networks",
+          "sub_objectives": [
+            "Implement wireless network encryption, authentication, and security measures",
+            "Understand Wi-Fi security tools and standards"
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
-      "id": "14",
+      "id": "14.0",
       "name": "Network Traffic Monitoring and Analysis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Monitor and analyze network traffic",
+          "sub_objectives": [
+            "Use tools like Wireshark, tcpdump, and PRTG for traffic monitoring and analysis",
+            "Detect threats and anomalies in network traffic"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "15",
+      "id": "15.0",
       "name": "Network Logs Monitoring and Analysis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "Monitor and analyze network logs",
+          "sub_objectives": [
+            "Analyze logs from Windows, Linux, Mac, and network devices",
+            "Implement centralized log management"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "16",
-      "name": "Incident Response and Forensic Investigation",
-      "weight_percent": null,
-      "objectives": []
+      "id": "16.0",
+      "name": "Incident Response and Forensics Investigation",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "16.1",
+          "title": "Respond to security incidents and conduct forensics",
+          "sub_objectives": [
+            "Implement incident response processes",
+            "Conduct forensics investigation and threat hunting"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "17",
+      "id": "17.0",
       "name": "Business Continuity and Disaster Recovery",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "17.1",
+          "title": "Implement business continuity and disaster recovery",
+          "sub_objectives": [
+            "Understand business continuity management (BCM) and disaster recovery (DR)",
+            "Implement business continuity and disaster recovery scenarios"
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
-      "id": "18",
+      "id": "18.0",
       "name": "Risk Anticipation with Risk Management",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "18.1",
+          "title": "Implement risk management",
+          "sub_objectives": [
+            "Conduct risk identification, assessment, and treatment",
+            "Implement vulnerability management and privacy impact assessments (PIA)"
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
-      "id": "19",
+      "id": "19.0",
       "name": "Threat Assessment with Attack Surface Analysis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "19.1",
+          "title": "Conduct attack surface analysis",
+          "sub_objectives": [
+            "Analyze system, network, and software attack surfaces",
+            "Implement attack surface reduction and monitoring"
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
-      "id": "20",
+      "id": "20.0",
       "name": "Threat Prediction with Cyber Threat Intelligence",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "20.1",
+          "title": "Implement threat intelligence",
+          "sub_objectives": [
+            "Integrate threat intelligence feeds",
+            "Conduct threat hunting and analysis"
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.eccouncil.org/certifications/cnd/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -186,6 +406,8 @@
   "aliases": [
     "312-38",
     "certified network defender",
+    "certified network defender cnd",
+    "cnd",
     "ec-council-cnd-312-38"
   ],
   "practice_url": "https://quizforge.ai/?q=Certified%20Network%20Defender%20%28CND%29"

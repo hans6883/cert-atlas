@@ -38,8 +38,10 @@
   "renewal_required": false,
   "renewal_options": null,
   "continuing_education_units": null,
-  "available_languages": [],
-  "target_audience": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "military applicants, high school and post-secondary students",
   "recommended_experience": null,
   "prerequisites": [],
   "retake_policy": {
@@ -53,60 +55,80 @@
       "id": "1",
       "name": "General Science (GS)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2",
       "name": "Arithmetic Reasoning (AR)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Word Knowledge (WK)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4",
       "name": "Paragraph Comprehension (PC)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "5",
       "name": "Mathematics Knowledge (MK)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "6",
       "name": "Electronics Information (EI)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "7",
       "name": "Auto & Shop Information (AS)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "8",
       "name": "Mechanical Comprehension (MC)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "9",
       "name": "Assembling Objects (AO)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "10",
       "name": "Verbal Expression (VE — composite of WK+PC)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     }
   ],

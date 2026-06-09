@@ -46,7 +46,38 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Configuring access",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Securing communications and establishing boundary protection",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Ensuring data protection",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Managing operations",
+      "weight_percent": 19.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Supporting compliance requirements",
+      "weight_percent": 11.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

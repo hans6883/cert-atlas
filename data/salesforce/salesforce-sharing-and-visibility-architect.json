@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Sharing and Visibility Architect",
   "exam_code": "Sharing and Visibility Architect",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/sharingandvisibilityarchitect",
+  "certification_name": "Salesforce Certified Platform Sharing and Visibility Architect",
+  "version": "Winter '23",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Sharing-and-Visibility-Architect-Exam-Guide",
   "passing_score": 67,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -29,7 +29,7 @@
   "online_proctoring_available": true,
   "id_requirements": "One valid, government-issued photo ID. Name must match Webassessor registration exactly.",
   "exam_rules": "Closed-book. No notes or reference materials. No access to Salesforce org. Proctor monitors via webcam.",
-  "certification_validity_years": null,
+  "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "Salesforce releases three major updates per year. For each release, certified professionals must complete a free maintenance module on Trailhead to retain their certification. No cost for maintenance.",
   "continuing_education_units": null,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Architects, analysts, and administrators who want to demonstrate their knowledge, skills, and capabilities to design secure, scalable security models on the Salesforce Platform",
+  "recommended_experience": "2–3 years of Salesforce experience, 4–5 years of experience with implementing complex security models in Salesforce, Understanding of security methods and data policies to support the handling of sensitive data",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,46 +52,122 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Foundational Concepts",
+      "id": "1.0",
+      "name": "Permissions to Standard Objects, Custom Objects, and Fields",
+      "weight_percent": 27.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given a scenario, recommend the right level of object permissions needed to provide the appropriate access to a set of users",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Given a scenario, recommend the correct level of field permissions needed to provide the appropriate access to a set of users",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given a scenario, recommend the appropriate mechanism to hide data at the user interface level",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Given a scenario, determine the appropriate access controls to protect sensitive data (for example, PCI, PII, or HIPAA)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Given a scenario, recommend the appropriate programmatic solution to ensure security settings are enforced",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Access to Records",
+      "weight_percent": 39.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a set of conditions, recommend the appropriate organization-wide defaults to restrict access to records",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a set of conditions, recommend a solution that leverages the role hierarchy to support the record access requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a set of conditions, determine how sharing rules can be implemented to support the record access requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Given a set of conditions, determine how groups can support the record access requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Given a set of conditions, determine how teams can support the record access requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Given a set of conditions, determine the correct object relationships that support record access sharing requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Given a set of conditions, determine how programmatic sharing supports the record access requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Given a set of conditions, determine what sharing mechanism is appropriate to share records with External Users",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Given a set of conditions, determine how record access overrides support the record access requirements",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Access to Other Data",
       "weight_percent": 16.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, determine the appropriate access control needed to grant access to data that is not standard or custom objects",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Organization-Wide Defaults",
-      "weight_percent": 7.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Role Hierarchy",
-      "weight_percent": 16.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Teams",
-      "weight_percent": 7.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Manual Sharing and Apex Managed Sharing",
+      "id": "4.0",
+      "name": "Implications of Security Model Choice",
       "weight_percent": 18.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Record Ownership and Territory Management",
-      "weight_percent": 18.0,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Designing for Large Data Volume",
-      "weight_percent": 18.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a scenario, determine the scalability implications of the sharing solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a set of conditions, determine the license limitations that will impact the intended sharing solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Given a set of conditions, determine how to test the sharing model",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

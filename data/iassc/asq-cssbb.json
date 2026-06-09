@@ -52,56 +52,74 @@
     {
       "id": "1",
       "name": "Enterprise-Wide Deployment",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 8.0,
+      "objectives": [],
+      "weight_min": 8.0,
+      "weight_max": 8.0
     },
     {
       "id": "2",
       "name": "Organizational Process Management and Measures",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 8.0,
+      "objectives": [],
+      "weight_min": 8.0,
+      "weight_max": 8.0
     },
     {
       "id": "3",
       "name": "Team Management",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
       "id": "4",
       "name": "Define Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.3,
+      "objectives": [],
+      "weight_min": 13.33,
+      "weight_max": 13.33
     },
     {
       "id": "5",
       "name": "Measure Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.7,
+      "objectives": [],
+      "weight_min": 16.67,
+      "weight_max": 16.67
     },
     {
       "id": "6",
       "name": "Analyze Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 14.7,
+      "objectives": [],
+      "weight_min": 14.67,
+      "weight_max": 14.67
     },
     {
       "id": "7",
       "name": "Improve Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 14.0,
+      "objectives": [],
+      "weight_min": 14.0,
+      "weight_max": 14.0
     },
     {
       "id": "8",
       "name": "Control Phase",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 11.3,
+      "objectives": [],
+      "weight_min": 11.33,
+      "weight_max": 11.33
     },
     {
       "id": "9",
       "name": "Design for Six Sigma (DFSS) Frameworks and Methodologies",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 4.0,
+      "objectives": [],
+      "weight_min": 4.0,
+      "weight_max": 4.0
     }
   ],
   "official_objectives_url": null,

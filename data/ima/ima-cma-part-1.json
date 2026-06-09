@@ -62,38 +62,50 @@
     {
       "id": "1",
       "name": "External Financial Reporting Decisions",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "2",
       "name": "Planning, Budgeting, and Forecasting",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "3",
       "name": "Performance Management",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "4",
       "name": "Cost Management",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "5",
       "name": "Internal Controls",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "6",
       "name": "Technology and Analytics",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     }
   ],
   "official_objectives_url": null,

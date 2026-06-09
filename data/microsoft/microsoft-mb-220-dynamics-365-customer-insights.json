@@ -3,9 +3,9 @@
   "exam_name": "Microsoft Dynamics 365 Customer Insights - Journeys Functional Consultant",
   "exam_code": "MB-220",
   "certifying_body": "Microsoft",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-customer-insights-journeys/",
+  "certification_name": "Microsoft Dynamics 365 Customer Insights - Journeys Functional Consultant",
+  "version": "as of March 20, 2024",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-220",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -21,7 +21,7 @@
   "exam_format": "Linear",
   "duration_minutes": 100,
   "exam_price_usd": 165.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Exam pricing may vary by region and is not specified in the provided text.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
   "testing_centers": [
@@ -39,7 +39,7 @@
   "online_proctoring_available": true,
   "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
   "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
-  "certification_validity_years": null,
+  "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
   "continuing_education_units": null,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Microsoft Dynamics 365 Customer Insights - Journeys functional consultants",
+  "recommended_experience": "Some knowledge of marketing principles and the Dynamics 365 Customer Insights - Journeys application's role within the Dynamics 365 suite of applications, including interoperability with Dynamics 365 Customer Insights - Data, Microsoft Power Platform, Dynamics 365 Customer Voice, Dynamics 365 Sales, and Microsoft Teams.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Implementing solutions that engage with and convert leads, orchestrate marketing experiences, personalize marketing messaging, and deliver marketing insights.",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,28 +74,196 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Configure Dynamics 365 Customer Insights",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "Configure Dynamics 365 Customer Insights – Journeys",
+      "name": "Configure Dynamics 365 Customer Insights – Journeys",
+      "weight_percent": 10.5,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Configure the Customer Insights - Journeys app",
+          "sub_objectives": [
+            "Configure forms, including adding columns to forms and changing form layouts",
+            "Configure views, including adding columns to views",
+            "Configure the model-driven app",
+            "Create and configure columns in tables",
+            "Configure organization settings",
+            "Configure domain authentication",
+            "Configure SMS providers, including Microsoft Azure Communication Services",
+            "Configure marketing settings",
+            "Configure form matching strategies",
+            "Configure compliance profiles",
+            "Configure brand profiles",
+            "Configure UTM tracking",
+            "Configure audiences",
+            "Configure frequency capping"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Manage customer data",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "Manage segments and preferences",
+      "name": "Manage segments and preferences",
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Create and manage segments",
+          "sub_objectives": [
+            "Create segments by using Copilot Query Assist",
+            "Combine segments by using union, exclude, or intersect logic",
+            "Create a segment within a customer journey",
+            "Describe table relationships",
+            "Describe Customer Insights - Data tables"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Manage preference centers",
+          "sub_objectives": [
+            "Create and manage preference centers",
+            "Describe how consent is managed and enforced for email and text messages",
+            "Configure opt-in and double opt-in",
+            "Describe consent purposes and topics",
+            "Import consent records",
+            "Describe multi-brand preference centers"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Implement and manage segments and subscription lists",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "Manage leads, contacts, and accounts",
+      "name": "Manage leads, contacts, and accounts",
+      "weight_percent": 3.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Manage leads",
+          "sub_objectives": [
+            "Create leads",
+            "Manage the leads lifecycle",
+            "Create and manage lead scoring models"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Create and manage accounts and contacts",
+          "sub_objectives": [
+            "Create and manage accounts",
+            "Create and manage contacts",
+            "Create and manage activities and activity templates"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Create journeys and messages",
-      "weight_percent": null,
-      "objectives": []
+      "id": "Manage marketing channels",
+      "name": "Manage marketing channels",
+      "weight_percent": 27.5,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Create marketing emails",
+          "sub_objectives": [
+            "Create a marketing email",
+            "Describe the HTML editor feature in a marketing email",
+            "Create and use reusable content blocks",
+            "Define mandatory fields for email",
+            "Add dynamic content to email",
+            "Add conditional content to email",
+            "Validate email content for compliance by using the Accessibility Checker",
+            "Check spam scores for email content by using Spam checker",
+            "Personalize email content",
+            "Describe the content ideas copilot",
+            "Use specialized links",
+            "Include iCalendar files and documents from the asset library"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Distribute marketing emails",
+          "sub_objectives": [
+            "Define message requirements",
+            "Validate and publish email messages",
+            "Send emails without building a journey",
+            "Prevent duplicate sends"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Create and manage other channels",
+          "sub_objectives": [
+            "Create outbound text messages",
+            "Add SMS keywords to a text message",
+            "Personalize text messages",
+            "Manage SMS keywords",
+            "Configure push notifications",
+            "Include Customer Voice surveys in messages",
+            "Create and manage forms",
+            "Manage form templates",
+            "Create and manage forms",
+            "Embed forms in external websites",
+            "Implement form capture for externally managed forms",
+            "Review form submissions",
+            "Describe form hosting options",
+            "Describe use cases for extending forms by using JavaScript",
+            "Configure form validation rules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Manage journeys",
+      "name": "Manage journeys",
+      "weight_percent": 22.5,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Configure journey orchestration",
+          "sub_objectives": [
+            "Create a journey by using a segment",
+            "Configure a journey by using a trigger",
+            "Configure A/B testing and review test results",
+            "Configure a business goal and measure progress",
+            "Add journey reminders",
+            "Define journey exit conditions",
+            "Add channel optimization to a journey",
+            "Manage journey triggers",
+            "Describe trigger types",
+            "Describe custom triggers",
+            "Create a trigger for a Dataverse record change",
+            "Use a custom trigger to run a Power Automate flow",
+            "Use conditions in triggers",
+            "Move custom triggers between environments",
+            "Explore insights and analytics",
+            "Analyze marketing outcomes",
+            "Track campaigns by using UTM codes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Manage events and webinars",
+      "name": "Manage events and webinars",
+      "weight_percent": 12.5,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Create and configure events and webinars",
+          "sub_objectives": [
+            "Create an event",
+            "Configure an event as a Microsoft Teams webinar",
+            "Configure an event as a Microsoft Teams Live event",
+            "Configure event agenda, including sessions and tracks",
+            "Manage speakers and event team members",
+            "Create and manage event forms",
+            "Manage events",
+            "Manage event registrations, including attendee check-in and cancellations",
+            "Manage registration, waitlists, and attendees",
+            "Configure event capacity and passes",
+            "Describe the event management dashboard and event analytics"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

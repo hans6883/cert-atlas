@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Experience Cloud Consultant",
   "exam_code": "Experience Cloud Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/experiencecloudconsultant",
+  "certification_name": "Salesforce Certified Experience Cloud Consultant",
+  "version": "Winter '23 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Experience-Cloud-Consultant-Exam-Guide",
   "passing_score": 65,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Consultants who have experience implementing and consulting on the Salesforce Experience applications in a customer-facing role",
+  "recommended_experience": "6 months of hands-on experience administering or developing on the Salesforce Experience Cloud platform",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,52 +52,235 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Experience Cloud Basics",
       "weight_percent": 8.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Illustrate the reasons for creating or utilizing an Experience for a specific use case",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Identify most common personas for Experience Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Assess the common types of external accounts and how they are used in an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Apply features and functions of Workspaces for building an Experience",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Sharing, Visibility, and Licensing",
       "weight_percent": 17.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a scenario, set the correct user visibility in an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a scenario, set the correct object visibility in an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Recommend the Declarative Sharing options that could be leveraged for an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Given a scenario, implement external account relationships for an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Given a set of requirements, evaluate which external license type(s) to use",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Given a scenario, determine a security model based on an Experience use case",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Describe roles for external users",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Branding, Personalization, and Content",
       "weight_percent": 15.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Modify an experience within the Experience Builder",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Explain the capabilities of Search within an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Implement Salesforce CMS content into an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a scenario, make articles visible or accessible in an Experience",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Templates, Themes, and Components",
+      "id": "4.0",
+      "name": "Templates and Themes",
       "weight_percent": 10.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a scenario, select the appropriate theme for an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a scenario, identify the right Template for the Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Apply packaging, exporting, and importing a template",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Assess the use of lightning bolts in Experiences",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "User Creation and Authentication",
       "weight_percent": 13.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Describe the different ways users can be created, such as manual, Data Loader, Self-Registration, and Just-in-Time (JIT) provisioning",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a scenario, determine how to properly set up a user for an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Describe options for Single Sign-On",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Apply the steps for enabling partner and customer users for Experiences",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Identify how to grant users access to an Experience",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
+      "id": "6.0",
       "name": "Adoption and Analytics",
-      "weight_percent": 8.0,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Apply the steps to set up Experience dashboards and insights",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Analyze and apply Experience Moderation features",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Given a scenario, employ fundamental best practices for adoption and engagement",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
-      "name": "Cases",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "7.0",
+      "name": "Administration, Setup, and Configuration",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Apply the steps for implementing Channel Sales Partner Relationship Management (PRM)",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Describe the capabilities of different Experience deployments and migrations",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Describe how to enable and activate an Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "Given a scenario, recommend and implement Delegated External User administration",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.5",
+          "title": "Determine the steps to build a public Experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.6",
+          "title": "Determine steps to configure and set up Topics",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.7",
+          "title": "Apply ticketing and Service Cloud capabilities for Experience Cloud",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
-      "name": "Customization, Integration, and Administration",
-      "weight_percent": 16.0,
-      "objectives": []
+      "id": "8.0",
+      "name": "Customization Considerations and Limitations",
+      "weight_percent": 7.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Explain limitations across all Experiences",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

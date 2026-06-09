@@ -64,14 +64,18 @@
     {
       "id": "1",
       "name": "Clinical Judgment",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 80.0,
+      "objectives": [],
+      "weight_min": 80.0,
+      "weight_max": 80.0
     },
     {
       "id": "2",
       "name": "Professional Caring and Ethical Practice",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     }
   ],
   "official_objectives_url": null,

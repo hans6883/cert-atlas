@@ -49,26 +49,34 @@
     {
       "id": "1",
       "name": "Tax Compliance and Planning for Individuals and Personal Financial Planning",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 40.0
     },
     {
       "id": "2",
       "name": "Entity Tax Compliance",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 40.0
     },
     {
       "id": "3",
       "name": "Entity Tax Planning",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 20.0
     },
     {
       "id": "4",
       "name": "Property Transactions",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 20.0
     }
   ],
   "official_objectives_url": null,

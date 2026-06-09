@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Platform App Builder",
   "exam_code": "App Builder",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/platformappbuilder",
+  "certification_name": "Salesforce Certified Platform App Builder",
+  "version": "Spring '24 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-App-Builder-Exam-Guide",
   "passing_score": 63,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who would like to demonstrate their skills and knowledge in designing, building, and deploying custom applications using the declarative customization capabilities of the Lightning Platform",
+  "recommended_experience": "6 months to 1 year of experience building applications on the Lightning Platform and/or on a similar technology platform",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,34 +52,169 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Salesforce Fundamentals",
       "weight_percent": 23.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given a scenario, identify the boundaries of declarative customization and the use cases for programmatic customization.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Identify common scenarios for extending an org using the AppExchange.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Apply features and capabilities available to restrict and extend object, record, and field access.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Given a set of business requirements, determine the appropriate sharing solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Identify the features and capabilities available when creating reports, report types, and dashboards.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Given a set of requirements, determine the appropriate global, object-specific actions and layouts to optimize the Salesforce mobile user experience.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Describe the customizations and use cases for Chatter.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Data Modeling and Management",
       "weight_percent": 22.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a scenario, determine the appropriate data model.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a scenario, explain the capabilities of the various relationship types and the implications of each on record access, user interface, and reporting.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a scenario, determine the considerations when selecting or changing a field data type.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Explain the capabilities and considerations of the Schema Builder.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Given a scenario, determine the options and considerations when importing and exporting data, including the capabilities of external data sources.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Business Logic and Process Automation",
       "weight_percent": 28.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, demonstrate the use of formula fields to meet stated business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, determine the capabilities, use cases, and implications of roll-up summary fields.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a scenario, demonstrate the use of validation rules to meet stated business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a scenario, determine the capabilities and use cases for approval processes.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Given a scenario, determine the tool or action needed to meet business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Given a set of business requirements, recommend a solution to automate business processes while avoiding errors in automation.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "User Interface",
       "weight_percent": 17.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Describe the user interface customization options.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Demonstrate the capabilities and use cases for custom buttons, links, and actions.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Given a scenario, determine the declarative options available for incorporating Lightning components in an application.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Describe the programmatic customizations available for incorporating custom Lightning components in an application.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "App Deployment",
       "weight_percent": 10.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a set of business requirements, recommend a solution for key milestones and considerations when managing the application lifecycle and various types of sandboxes.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a use case, demonstrate knowledge, viability, and troubleshooting when using change sets.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Describe the use cases and considerations when using unmanaged and managed packages.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Given a scenario, determine the appropriate deployment plan.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

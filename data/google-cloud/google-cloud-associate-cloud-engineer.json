@@ -46,7 +46,32 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Setting up a cloud solution environment",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Planning and implementing a cloud solution",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Ensuring successful operation of a cloud solution",
+      "weight_percent": 27.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Configuring access and security",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -69,6 +94,8 @@
     }
   ],
   "aliases": [
+    "ace",
+    "associate cloud engineer",
     "google-cloud-associate-cloud-engineer"
   ],
   "practice_url": "https://quizforge.ai/?q=Associate%20Cloud%20Engineer"

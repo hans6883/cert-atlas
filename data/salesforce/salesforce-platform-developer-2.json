@@ -3,12 +3,12 @@
   "exam_name": "Salesforce Certified Platform Developer II (PD2)",
   "exam_code": "PD2",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/platformdeveloperII",
+  "certification_name": "Salesforce Certified Platform Developer II",
+  "version": "Winter '24 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Platform-Developer-II-Exam-Guide",
   "passing_score": 63,
   "passing_score_scale": null,
-  "total_questions": null,
+  "total_questions": 65,
   "question_types": [
     "Multiple Choice",
     "Multiple Select"
@@ -29,7 +29,7 @@
   "online_proctoring_available": true,
   "id_requirements": "One valid, government-issued photo ID. Name must match Webassessor registration exactly.",
   "exam_rules": "Closed-book. No notes or reference materials. No access to Salesforce org. Proctor monitors via webcam.",
-  "certification_validity_years": null,
+  "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "Salesforce releases three major updates per year. For each release, certified professionals must complete a free maintenance module on Trailhead to retain their certification. No cost for maintenance.",
   "continuing_education_units": null,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who would like to demonstrate their skills and knowledge in advanced programmatic capabilities of the Lightning Platform and data modeling to develop complex business logic and interfaces.",
+  "recommended_experience": "2-4 years of experience as a developer, including at least 1 year of design, implementation, and deployment experience on the Lightning Platform.",
   "prerequisites": [
     {
       "prerequisite_type": "required_certification",
@@ -58,34 +58,179 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Salesforce Data Management and Integration",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Performance",
+      "id": "1.0",
+      "name": "Advanced Developer Fundamentals",
       "weight_percent": 15.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Demonstrate knowledge of localization and multi-currency features and capabilities and how they affect coding.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Given a scenario, justify using sharing objects and Apex managed sharing.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given a scenario, identify best practices for various types of custom metadata and custom settings, and how to implement required solutions.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Advanced Apex Programming",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Process Automation, Logic, and Integration",
+      "weight_percent": 27.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a scenario, identify the considerations of interactions between multiple processes, both declarative and programmatic.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a scenario, propose and justify the optimal programmatic or declarative solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Demonstrate knowledge of the best practices for writing Apex triggers.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Describe the Apex features available for error handling and maintaining transactional integrity.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Demonstrate how and where to use advanced keywords in a SOQL query structure.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Analyze a set of requirements and determine the benefits of using asynchronous Apex coding.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Given a scenario and requirements, identify the appropriate dynamic Apex feature to use in the solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Given a scenario, identify the appropriate publish / subscribe logic for platform events.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Given a scenario, apply programmatic integration techniques and platform features for inbound and outbound communication.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Debug and Deployment Best Practices",
+      "id": "3.0",
+      "name": "User Interface",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given requirements and code snippets for a Lightning web component or Aura component and its Apex controller class, analyze and determine necessary changes to the Apex class.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Identify the techniques for using Visualforce to perform actions, partial page refreshes, and asynchronous operations.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a scenario, identify best practices for displaying errors in the user interface.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a set of requirements, select the appropriate Lightning web component, Aura component, or Visualforce solution and describe its benefits.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Given a scenario, describe the aspects of Lightning web components or Aura components that can be used to cause elements in a component's markup to display in a responsive manner based on a device's form factor.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Given a scenario, implement the correct method to communicate events through Lightning web components or Aura components.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Describe the purpose and benefit of static resources in Visualforce, Lightning web components, and Aura components.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Lightning Components",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Testing, Debugging, and Deployment",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Apply advanced techniques and tools for testing Apex classes and triggers, such as mocks and stubs.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Apply techniques and tools for testing and debugging Lightning web components, Aura components, and Visualforce controllers, Visualforce controller extensions, and JavaScript.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Given a scenario, Apex code, Apex trigger, or Apex test that is not executing as expected, apply techniques and tools to isolate and identify the root cause.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Given a scenario, formulate the deployment process, supporting tools, and mechanisms for source-driven development.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Performance",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Identify the common performance issues for user interfaces and demonstrate knowledge of techniques and tools to mitigate them.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a scenario, choose the appropriate logic and query structure to maximize application performance and handle large data volumes.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Analyze a given scenario and determine performance improvements that can be achieved with an asynchronous callout.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Select scenarios where code reuse is applicable and how the reuse should be implemented.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Given sample code, identify inefficiencies and demonstrate the ability to resolve them.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -112,6 +257,7 @@
   "aliases": [
     "pd2",
     "platform developer ii",
+    "salesforce certified platform developer ii",
     "salesforce certified platform developer ii pd2",
     "salesforce-platform-developer-2"
   ],

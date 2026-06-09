@@ -55,32 +55,42 @@
     {
       "id": "1",
       "name": "Environmental Conditions and Context",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 16.0
     },
     {
       "id": "2",
       "name": "Codes and Regulations",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 19.0,
+      "objectives": [],
+      "weight_min": 16.0,
+      "weight_max": 22.0
     },
     {
       "id": "3",
       "name": "Building Systems, Materials, and Assemblies",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 22.0,
+      "objectives": [],
+      "weight_min": 19.0,
+      "weight_max": 25.0
     },
     {
       "id": "4",
       "name": "Project Integration of Program and Systems",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [],
+      "weight_min": 32.0,
+      "weight_max": 38.0
     },
     {
       "id": "5",
       "name": "Project Costs and Budgeting",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 11.0,
+      "objectives": [],
+      "weight_min": 8.0,
+      "weight_max": 14.0
     }
   ],
   "official_objectives_url": null,
