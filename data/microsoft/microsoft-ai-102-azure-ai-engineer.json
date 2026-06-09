@@ -4,8 +4,8 @@
   "exam_code": "AI-102",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/",
+  "version": "as of December 23, 2025",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -21,7 +21,7 @@
   "exam_format": "Linear",
   "duration_minutes": 100,
   "exam_price_usd": 165.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Some exams are localized into other languages, and those are updated approximately eight weeks after the English version is updated. If the exam isn't available in your preferred language, you can request an additional 30 minutes to complete the exam.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
   "testing_centers": [
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Microsoft Azure AI engineer",
+  "recommended_experience": "Experience developing solutions that use languages such as Python, C#. Ability to use REST APIs and SDKs to build secure image processing, video processing, natural language processing, knowledge mining, and generative AI solutions on Azure.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience developing solutions that use languages such as Python, C#",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,40 +74,626 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Plan and manage an Azure AI solution",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Select the appropriate Microsoft Foundry Services",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Select the appropriate service for a generative AI solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Select the appropriate service for a computer vision solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Select the appropriate service for a natural language processing solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Select the appropriate service for a speech solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Select the appropriate service for an information extraction solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Select the appropriate service for a knowledge mining solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Plan, create and deploy a Microsoft Foundry Service",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Plan for a solution that meets Responsible AI principles",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Create an Azure AI resource",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Choose the appropriate AI models for your solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.12",
+          "title": "Deploy AI models using the appropriate deployment options",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.13",
+          "title": "Install and utilize the appropriate SDKs and APIs",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.14",
+          "title": "Determine a default endpoint for a service",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.15",
+          "title": "Integrate Microsoft Foundry Services into a continuous integration and continuous delivery (CI/CD) pipeline",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.16",
+          "title": "Plan and implement a container deployment",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.17",
+          "title": "Manage, monitor, and secure a Microsoft Foundry Service",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.18",
+          "title": "Monitor an Azure AI resource",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.19",
+          "title": "Manage costs for Microsoft Foundry Services",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.20",
+          "title": "Manage and protect account keys",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.21",
+          "title": "Manage authentication for a Microsoft Foundry Service resource",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Implement decision support solutions",
-      "weight_percent": 10.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Implement computer vision solutions",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Implement natural language processing solutions",
-      "weight_percent": 30.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Implement knowledge mining and document intelligence solutions",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
+      "id": "2.0",
       "name": "Implement generative AI solutions",
       "weight_percent": 15.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Build generative AI solutions with Microsoft Foundry",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Plan and prepare for a generative AI solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Deploy a hub, project, and necessary resources with Microsoft Foundry",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Deploy the appropriate generative AI model for your use case",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Implement a prompt flow solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Implement a RAG pattern by grounding a model in your data",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Evaluate models and flows",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Integrate your project into an application with Microsoft Foundry SDK",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Utilize prompt templates in your generative AI solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.10",
+          "title": "Use Azure OpenAI in Foundry Models to generate content",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.11",
+          "title": "Provision an Azure OpenAI in Foundry Models resource",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.12",
+          "title": "Select and deploy an Azure OpenAI model",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.13",
+          "title": "Submit prompts to generate code and natural language responses",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.14",
+          "title": "Use the DALL-E model to generate images",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.15",
+          "title": "Integrate Azure OpenAI into your own application",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.16",
+          "title": "Use large multimodal models in Azure OpenAI",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.17",
+          "title": "Optimize and operationalize a generative AI solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.18",
+          "title": "Configure parameters to control generative behavior",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.19",
+          "title": "Configure model monitoring and diagnostic settings, including performance and resource consumption",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.20",
+          "title": "Optimize and manage resources for deployment, including scalability and foundational model updates",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.21",
+          "title": "Enable tracing and collect feedback",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.22",
+          "title": "Implement model reflection",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.23",
+          "title": "Deploy containers for use on local and edge devices",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.24",
+          "title": "Implement orchestration of multiple generative AI models",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.25",
+          "title": "Apply prompt engineering techniques to improve responses",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.26",
+          "title": "Fine-tune a generative model",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Implement an agentic solution",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Create custom agents",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Understand the role and use cases of an agent",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Configure the necessary resources to build an agent",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Create an agent with the Microsoft Foundry Agent Service",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Implement complex agents with Microsoft Agent Framework",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Implement complex workflows including orchestration for a multi-agent solution, multiple users, and autonomous capabilities",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Test, optimize and deploy an agent",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Implement computer vision solutions",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Analyze images",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Select visual features to meet image processing requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Detect objects in images and generate image tags",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Include image analysis features in an image processing request",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Interpret image processing responses",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Extract text from images using Azure Vision in Foundry Tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Convert handwritten text using Azure Vision in Foundry Tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Implement custom vision models",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.9",
+          "title": "Choose between image classification and object detection models",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.10",
+          "title": "Label images",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.11",
+          "title": "Train a custom image model, including image classification and object detection",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.12",
+          "title": "Evaluate custom vision model metrics",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.13",
+          "title": "Publish a custom vision model",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.14",
+          "title": "Consume a custom vision model",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.15",
+          "title": "Build a custom vision model code first",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.16",
+          "title": "Analyze videos",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.17",
+          "title": "Use Azure AI Video Indexer to extract insights from a video or live stream",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.18",
+          "title": "Use Azure Vision in Foundry Tools Spatial Analysis to detect presence and movement of people in video",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Implement natural language processing solutions",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Analyze and translate text",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Extract key phrases and entities",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Determine sentiment of text",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Detect the language used in text",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Detect personally identifiable information (PII) in text",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Translate text and documents by using the Azure Translator in Foundry Tools service",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.7",
+          "title": "Process and translate speech",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.8",
+          "title": "Integrate generative AI speaking capabilities in an application",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.9",
+          "title": "Implement text-to-speech and speech-to-text using Azure Speech in Foundry Tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.10",
+          "title": "Improve text-to-speech by using Speech Synthesis Markup Language (SSML)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.11",
+          "title": "Implement custom speech solutions with Azure Speech in Foundry Tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.12",
+          "title": "Implement intent and keyword recognition with Azure Speech in Foundry Tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.13",
+          "title": "Translate speech-to-speech and speech-to-text by using the Azure Speech in Foundry Tools service",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.14",
+          "title": "Implement custom language models",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.15",
+          "title": "Create intents, entities, and add utterances",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.16",
+          "title": "Train, evaluate, deploy, and test a language understanding model",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.17",
+          "title": "Optimize, backup, and recover language understanding model",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.18",
+          "title": "Consume a language model from a client application",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.19",
+          "title": "Create a custom question answering project",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.20",
+          "title": "Add question-and-answer pairs and import sources for question answering",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.21",
+          "title": "Train, test, and publish a knowledge base",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.22",
+          "title": "Create a multi-turn conversation",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.23",
+          "title": "Add alternate phrasing and chit-chat to a knowledge base",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.24",
+          "title": "Export a knowledge base",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.25",
+          "title": "Create a multi-language question answering solution",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Implement knowledge mining and information extraction solutions",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Implement an Azure AI Search solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Provision an Azure AI Search resource, create an index, and define a skillset",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Create data sources and indexers",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Implement custom skills and include them in a skillset",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Create and run an indexer",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.6",
+          "title": "Query an index, including syntax, sorting, filtering, and wildcards",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.7",
+          "title": "Manage Knowledge Store projections, including file, object, and table projections",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.8",
+          "title": "Implement semantic and vector store solutions",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.9",
+          "title": "Implement an Azure Document Intelligence in Foundry Tools solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.10",
+          "title": "Provision a Document Intelligence resource",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.11",
+          "title": "Use prebuilt models to extract data from documents",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.12",
+          "title": "Implement a custom document intelligence model",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.13",
+          "title": "Train, test, and publish a custom document intelligence model",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.14",
+          "title": "Create a composed document intelligence model",
+          "sub_objectives": []
+        },
+        {
+          "id": "6点15",
+          "title": "Extract information with Azure Content Understanding in Foundry Tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.16",
+          "title": "Create an OCR pipeline to extract text from images and documents",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.17",
+          "title": "Summarize, classify, and detect attributes of documents",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.18",
+          "title": "Extract entities, tables, and images from documents",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.19",
+          "title": "Process and ingest documents, images, videos, and audio with Azure Content Understanding in Foundry Tools",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

@@ -5,7 +5,7 @@
   "certifying_body": "Microsoft",
   "certification_name": null,
   "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Technology professionals who want to demonstrate foundational knowledge of cloud concepts in general and Microsoft Azure in particular",
+  "recommended_experience": "Skills and experience working with an area of IT, such as: Infrastructure management, Database management, Software development",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Skills and experience working with an area of IT, such as: Infrastructure management, Database management, Software development",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,22 +74,129 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Describe cloud concepts",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 27.5,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe cloud computing",
+          "sub_objectives": [
+            "Define cloud computing",
+            "Describe the shared responsibility model",
+            "Define cloud models, including public, private, and hybrid",
+            "Identify appropriate use cases for each cloud model",
+            "Describe the consumption-based model",
+            "Compare cloud pricing models",
+            "Describe serverless",
+            "Describe the benefits of using cloud services",
+            "Describe the benefits of high availability and scalability in the cloud",
+            "Describe the benefits of reliability and predictability in the cloud",
+            "Describe the benefits of security and governance in the cloud",
+            "Describe the benefits of manageability in the cloud",
+            "Describe cloud service types",
+            "Describe infrastructure as a service (IaaS)",
+            "Describe platform as a service (PaaS)",
+            "Describe software as a service (SaaS)",
+            "Identify appropriate use cases for each cloud service type (IaaS, PaaS, and SaaS)"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Describe Azure architecture and services",
-      "weight_percent": 35.0,
-      "objectives": []
+      "weight_percent": 37.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Describe the core architectural components of Azure",
+          "sub_objectives": [
+            "Describe Azure regions, region pairs, and sovereign regions",
+            "Describe availability zones",
+            "Describe Azure datacenters",
+            "Describe Azure resources and resource groups",
+            "Describe subscriptions",
+            "Describe management groups",
+            "Describe the hierarchy of resource groups, subscriptions, and management groups",
+            "Describe Azure compute and networking services",
+            "Compare compute types, including containers, virtual machines, and functions",
+            "Describe virtual machine options, including Azure virtual machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop",
+            "Describe the resources required for virtual machines",
+            "Describe application hosting options, including web apps, containers, and virtual machines",
+            "Describe virtual networking, including the purpose of Azure virtual networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and ExpressRoute",
+            "Define public and private endpoints",
+            "Describe Azure storage services",
+            "Compare Azure Storage services",
+            "Describe storage tiers",
+            "Describe redundancy options",
+            "Describe storage account options and storage types",
+            "Identify options for moving files, including AzCopy, Azure Storage Explorer, and Azure File Sync",
+            "Describe migration options, including Azure Migrate and Azure Data Box"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
+      "name": "Describe Azure identity, access, and security",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Describe directory services in Azure",
+          "sub_objectives": [
+            "Describe Microsoft Entra ID and Microsoft Entra Domain Services",
+            "Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication (MFA), and passwordless",
+            "Describe external identities in Azure",
+            "Describe Microsoft Entra Conditional Access",
+            "Describe Azure role-based access control (RBAC)",
+            "Describe the concept of Zero Trust",
+            "Describe the purpose of the defense-in-depth model",
+            "Describe the purpose of Microsoft Defender for Cloud"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
       "name": "Describe Azure management and governance",
-      "weight_percent": 30.0,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Describe cost management in Azure",
+          "sub_objectives": [
+            "Describe factors that can affect costs in Azure",
+            "Explore the pricing calculator",
+            "Describe cost management capabilities in Azure"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Describe features and tools in Azure for governance and compliance",
+          "sub_objectives": [
+            "Describe the purpose of Microsoft Purview in Azure",
+            "Describe the purpose of Azure Policy",
+            "Describe the purpose of resource locks"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Describe features and tools for managing and deploying Azure resources",
+          "sub_objectives": [
+            "Describe the Azure portal",
+            "Describe Azure Cloud Shell, including Azure Command-Line Interface (CLI) and Azure PowerShell",
+            "Describe the purpose of Azure Arc",
+            "Describe infrastructure as code (IaC)",
+            "Describe Azure Resource Manager (ARM) and ARM templates",
+            "Describe monitoring tools in Azure",
+            "Describe the purpose of Azure Advisor",
+            "Describe Azure Service Health",
+            "Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

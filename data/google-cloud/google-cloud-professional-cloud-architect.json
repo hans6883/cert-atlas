@@ -46,7 +46,44 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Designing and planning a cloud solution architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Managing and provisioning a cloud solution infrastructure",
+      "weight_percent": 17.5,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Designing for security and compliance",
+      "weight_percent": 17.5,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Analyzing and optimizing technical and business processes",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Managing implementation",
+      "weight_percent": 12.5,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Ensuring solution and operations excellence",
+      "weight_percent": 12.5,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -70,7 +107,8 @@
   ],
   "aliases": [
     "google-cloud-professional-cloud-architect",
-    "pca"
+    "pca",
+    "professional cloud architect"
   ],
   "practice_url": "https://quizforge.ai/?q=Professional%20Cloud%20Architect"
 }

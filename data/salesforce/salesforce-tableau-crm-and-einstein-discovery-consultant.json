@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Tableau CRM and Einstein Discovery Consultant",
   "exam_code": "Tableau CRM & Einstein Discovery Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/tableaucrmandeinsteinDiscoveryconsultant",
+  "certification_name": "Salesforce Certified CRM Analytics and Einstein Discovery Consultant",
+  "version": "Spring '24",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-CRM-Analytics-and-Einstein-Discovery-Consultant-Exam-Guide",
   "passing_score": 62,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -29,7 +29,7 @@
   "online_proctoring_available": true,
   "id_requirements": "One valid, government-issued photo ID. Name must match Webassessor registration exactly.",
   "exam_rules": "Closed-book. No notes or reference materials. No access to Salesforce org. Proctor monitors via webcam.",
-  "certification_validity_years": null,
+  "certification_validity_years": 1,
   "renewal_required": true,
   "renewal_options": "Salesforce releases three major updates per year. For each release, certified professionals must complete a free maintenance module on Trailhead to retain their certification. No cost for maintenance.",
   "continuing_education_units": null,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who have broad knowledge of the CRM Analytics and Einstein Discovery platform and its capabilities, including: dataset management, permissions and security implementations, advanced Salesforce Analytics Query Language (SAQL) coding to support querying, and JSON to support dashboard creation on both desktop and mobile devices.",
+  "recommended_experience": "The Salesforce Certified CRM Analytics and Einstein Discovery Consultant generally has a minimum of 1 year of experience and skills across the CRM Analytics and Einstein Discovery domains.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,40 +52,176 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Data Layer",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Security and Sharing",
-      "weight_percent": 13.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Tableau CRM Platform and Features",
-      "weight_percent": 16.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Building Datasets",
+      "id": "Admin/Configuration",
+      "name": "Admin/Configuration",
       "weight_percent": 17.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "Admin/Configuration.1",
+          "title": "Given business and access requirements, enable CRM Analytics along with its features, encompassing permission sets and licenses.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Admin/Configuration.2",
+          "title": "Given a scenario, use CRM Analytics to design a solution that accommodates data sync/dataflows/recipes limits.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Admin/Configuration.3",
+          "title": "Given a situation, demonstrate knowledge of what can be accomplished with the CRM Analytics API.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Admin/Configuration.4",
+          "title": "Given business requirements, migrate between different environments for deployment.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Building Lenses",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "Data Layer",
+      "name": "Data Layer",
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "Data Layer.1",
+          "title": "Given data sources, use Data Manager to extract and load the data into the CRM Analytics application to create datasets.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Data Layer.2",
+          "title": "Given business needs and consolidated data, implement refreshes for data syncs and dataflows/recipes while keeping limits and considerations in mind.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Data Layer.3",
+          "title": "Given business/user requirements, perform data transformations in dataflows/recipes.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Data Layer.4",
+          "title": "Given user requirements or ease of use strategies, manage dataset extended metadata (XMD) by editing labels, values, and colors.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Data Layer.5",
+          "title": "Implement delivery management strategies in dataflows/recipes including versioning and conversion.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
-      "name": "Building Dashboards",
+      "id": "Security",
+      "name": "Security",
       "weight_percent": 16.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "Security.1",
+          "title": "Given governance and CRM Analytics asset security requirements, implement necessary security settings for users, groups, and profiles.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Security.2",
+          "title": "Given row-based security requirements, implement the appropriate dataset security settings by using sharing inheritance and security predicates.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Security.3",
+          "title": "Implement app sharing based on user and group requirements.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Analytics Dashboard Design",
+      "name": "Analytics Dashboard Design",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "Analytics Dashboard Design.1",
+          "title": "Given business requirements, scope, validate, and prioritize dashboard design requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Analytics Dashboard Design.2",
+          "title": "Create appropriate dashboards to meet business requirements following CRM Analytics best practices and UX design principles.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Analytics Dashboard Design.3",
+          "title": "Identify the appropriate use and configuration of a standard CRM Analytics templated app to meet business requirements.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Analytics Dashboard Implementation",
+      "name": "Analytics Dashboard Implementation",
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "Analytics Dashboard Implementation.1",
+          "title": "Given business requirements, configure dashboards using accurate query types and widget level parameters.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Analytics Dashboard Implementation.2",
+          "title": "Given business requirements, develop selection/result interactions with different types of queries.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Analytics Dashboard Implementation.3",
+          "title": "Given business requirements, use advanced functionality such as windowing and time series analysis within compare tables.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Analytics Dashboard Implementation.4",
+          "title": "Given business requirements, make dashboards actionable and accessible in Lightning pages.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Analytics Dashboard Implementation.5",
+          "title": "Given a scenario, monitor and optimize query performance using Dashboard Inspector.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Analytics Dashboard Implementation.6",
+          "title": "Implement delivery management strategies using versioning and/or Dashboard Publisher.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Einstein Discovery",
+      "name": "Einstein Discovery",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "Einstein Discovery.1",
+          "title": "Build a model by assessing data and selecting one of the three types of predictions (numeric, binary, multi-classification).",
+          "sub_objectives": []
+        },
+        {
+          "id": "Einstein Discovery.2",
+          "title": "Given business requirements, analyze the model results and propose data improvements to the customer.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Einstein Discovery.3",
+          "title": "Given derived results and insights from the model, adjust data parameters and add/remove data or columns to improve the model.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Einstein Discovery.4",
+          "title": "Enable prediction features on Lightning record pages across Salesforce and CRM Analytics.",
+          "sub_objectives": []
+        },
+        {
+          "id": "Einstein Discovery.5",
+          "title": "Monitor and interpret a Model Card to improve or maintain model performance.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -111,6 +247,7 @@
   ],
   "aliases": [
     "einstein discovery consultant",
+    "salesforce certified crm analytics and einstein discovery consultant",
     "salesforce certified tableau crm and einstein discovery consultant",
     "salesforce-tableau-crm-and-einstein-discovery-consultant",
     "tableau crm and einstein discovery consultant",

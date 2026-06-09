@@ -3,7 +3,7 @@
   "exam_name": "Databricks Certified Associate Developer for Apache Spark (Python)",
   "exam_code": "Spark Developer Associate",
   "certifying_body": "Databricks",
-  "certification_name": null,
+  "certification_name": "Databricks Certified Associate Developer for Apache Spark",
   "version": null,
   "source_url": "https://www.databricks.com/learn/certification/apache-spark-developer-associate",
   "passing_score": 70,
@@ -37,7 +37,7 @@
     "English"
   ],
   "target_audience": null,
-  "recommended_experience": null,
+  "recommended_experience": "6+ months of hands-on experience performing the tasks outlined in the exam guide",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -47,28 +47,88 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Apache Spark Architecture",
-      "weight_percent": 17.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Apache Spark Architecture and Components",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understanding of the Apache Spark Architecture and Components",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Apache Spark DataFrame API",
-      "weight_percent": 50.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Using Spark SQL",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Using Spark SQL",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Apache Spark Structured Streaming",
-      "weight_percent": 17.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Developing Apache Spark™ DataFrame/DataSet API Applications",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Developing Apache Spark™ DataFrame/DataSet API Applications",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Testing",
-      "weight_percent": 16.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Troubleshooting and Tuning Apache Spark DataFrame API Applications",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Troubleshooting and Tuning Apache Spark DataFrame API Applications",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Structured Streaming",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Structured Streaming",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Using Spark Connect to deploy applications",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Using Spark Connect to deploy applications",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Using Pandas API on Apache Spark",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Using Pandas API on Apache Spark",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

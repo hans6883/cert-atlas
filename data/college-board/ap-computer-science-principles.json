@@ -47,32 +47,42 @@
     {
       "id": "1",
       "name": "Creative Development",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 11.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 13.0
     },
     {
       "id": "2",
       "name": "Data",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 19.5,
+      "objectives": [],
+      "weight_min": 17.0,
+      "weight_max": 22.0
     },
     {
       "id": "3",
       "name": "Algorithms and Programming",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 32.5,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 35.0
     },
     {
       "id": "4",
       "name": "Computer Systems and Networks",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.0,
+      "objectives": [],
+      "weight_min": 11.0,
+      "weight_max": 15.0
     },
     {
       "id": "5",
       "name": "Impact of Computing",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 23.5,
+      "objectives": [],
+      "weight_min": 21.0,
+      "weight_max": 26.0
     }
   ],
   "official_objectives_url": null,

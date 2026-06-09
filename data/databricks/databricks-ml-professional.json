@@ -3,7 +3,7 @@
   "exam_name": "Databricks Certified Machine Learning Professional",
   "exam_code": "ML Professional",
   "certifying_body": "Databricks",
-  "certification_name": null,
+  "certification_name": "Databricks Certified Machine Learning Professional",
   "version": null,
   "source_url": "https://www.databricks.com/learn/certification/machine-learning-professional",
   "passing_score": 70,
@@ -37,7 +37,7 @@
     "English"
   ],
   "target_audience": null,
-  "recommended_experience": null,
+  "recommended_experience": "1+ years of hands-on experience performing the machine learning tasks outlined in the exam guide",
   "prerequisites": [
     {
       "prerequisite_type": "recommended_certification",
@@ -53,31 +53,58 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Experimentation",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "Model Development",
+      "name": "Model Development",
+      "weight_percent": 44.0,
+      "objectives": [
+        {
+          "id": "Model Development",
+          "title": "Model Development",
+          "sub_objectives": [
+            "Proficiency in building scalable ML pipelines with SparkML",
+            "Implementing distributed training and hyperparameter tuning",
+            "Leveraging advanced MLflow features",
+            "Utilizing Feature Store concepts for automated feature pipelines"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Model Lifecycle Management",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "ML Ops",
+      "name": "ML Ops",
+      "weight_percent": 44.0,
+      "objectives": [
+        {
+          "id": "ML Ops",
+          "title": "ML Ops",
+          "sub_objectives": [
+            "Expertise in MLOps practices",
+            "Testing strategies",
+            "Environment management with Databricks Asset Bundles",
+            "Automated retraining workflows",
+            "Monitoring using Lakehouse Monitoring for drift detection"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Model Deployment",
       "name": "Model Deployment",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Solution and Data Monitoring",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "Model Deployment",
+          "title": "Model Deployment",
+          "sub_objectives": [
+            "Implementing deployment strategies",
+            "Custom model serving",
+            "Model rollout management"
+          ]
+        }
+      ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.databricks.com/training/certification-exam-guide/machine-learning-professional-exam-guide",
   "official_study_resources": [
     {
       "resource_type": "online_course",

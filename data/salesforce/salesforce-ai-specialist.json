@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified AI Specialist",
   "exam_code": "AI Specialist",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/aispecialist",
+  "certification_name": "Salesforce Certified Agentforce Specialist",
+  "version": "Spring ’26",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Agentforce-Specialist-Exam-Guide",
   "passing_score": 65,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Administrators, Developers, and Architects who configure Prompt Builder for grounding, leverage Data 360 for retrieval, and manage the Development Lifecycle of agents from testing to production.",
+  "recommended_experience": "1 year of experience with Salesforce platform configuration and standard objects, including Data 360. Hands-on experience building agents in Agentforce Agent Builder and creating prompt templates in Prompt Builder.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,34 +52,176 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Salesforce AI Features",
-      "weight_percent": 30.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Einstein Trust Layer",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Generative AI in CRM Applications",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Prompt Builder",
+      "id": "1.0",
+      "name": "Prompt Engineering",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given business requirements, identify when it's appropriate to use Prompt Builder.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Identify access controls governing prompt templates.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Identify the considerations for using a prompt template type such as field generation and flex types.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Given a scenario, identify the appropriate grounding technique.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Explain the process for creating, activating, and executing prompt templates.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Explain how to implement best practices for writing effective prompts.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Identify the security and privacy features of the Trust Layer.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Explain how to manage and prevent specific models from being accessed.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Model Builder",
+      "id": "2.0",
+      "name": "Data 360 Fundamentals",
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Explain the considerations of Agentforce Data Library and its concepts.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Explain foundational concepts of Data 360 such as chunking, indexing, and retrievers.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "AI Agents",
+      "weight_percent": 35.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Explain how an agent works and its basic building blocks of agent script.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Explain the components and benefits of hybrid reasoning, including how Agent Script functions in Canvas and Script View.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a use case, manage deterministic behavior for the agent using mechanisms like filters, variables, and template expressions.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a scenario, select and configure standard topics, custom topics, standard Agent actions, and custom Agent actions.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Explain the process for connecting agents to various channels such as digital experience, email, voice, and Slack.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Explain the security context in which the agent is actually running, and how it impacts agent action execution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Given a scenario, identify when to use an Employee or Service agent.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Given a scenario, identify when it's appropriate to use Agent API.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Testing, Deployment, & Maintenance",
       "weight_percent": 10.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a scenario, test an agent using Testing Center.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Explain how Testing Center evaluations work.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Identify the considerations for deploying an agent from sandbox to production.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Identify the considerations for deploying a template from sandbox to production.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Governance & Observability",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Explain the process for managing and monitoring agents.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Explain agent analytics and agent optimization",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Multi-Agent Orchestration",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Given a scenario, determine whether a Single-Agent (SOMA) architecture is appropriate for scalability and control.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Explain the purpose of existing open standard multi-agent protocols such as MCP and A2A.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

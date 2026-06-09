@@ -55,19 +55,25 @@
     {
       "id": "1",
       "name": "Financial Reporting",
-      "weight_percent": null,
+      "weight_percent": 35.0,
+      "weight_min": 30.0,
+      "weight_max": 40.0,
       "objectives": []
     },
     {
       "id": "2",
       "name": "Select Balance Sheet Accounts",
-      "weight_percent": null,
+      "weight_percent": 35.0,
+      "weight_min": 30.0,
+      "weight_max": 40.0,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Select Transactions",
-      "weight_percent": null,
+      "weight_percent": 30.0,
+      "weight_min": 25.0,
+      "weight_max": 35.0,
       "objectives": []
     }
   ],

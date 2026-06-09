@@ -46,7 +46,38 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period after first failed attempt. 60-day waiting period after second failed attempt. 1-year waiting period after third failed attempt within 12 months."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Designing data processing systems",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Ingesting and processing the data",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Storing the data",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Preparing and using data for analysis",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Maintaining and automating data workloads",
+      "weight_percent": 18.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

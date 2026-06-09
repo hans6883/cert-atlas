@@ -4,8 +4,8 @@
   "exam_code": "DP-203",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/",
+  "version": "as of October 24, 2024",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Azure data engineers who integrate, transform, and consolidate data from various structured, unstructured, and streaming data systems into a suitable schema for building analytics solutions",
+  "recommended_experience": "Solid knowledge of data processing languages, including SQL, Python, and Scala. Understanding of parallel processing and data architecture patterns. Proficiency in using Azure Data Factory, Azure Synapse Analytics, Azure Stream Analytics, Azure Event Hubs, Azure Data Lake Storage, and Azure Databricks",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,183 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "Design and implement data storage",
       "name": "Design and implement data storage",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "Implement a partition strategy",
+          "title": "Implement a partition strategy",
+          "sub_objectives": [
+            "Implement a partition strategy for files",
+            "Implement a partition strategy for analytical workloads",
+            "Implement a partition strategy for streaming workloads",
+            "Implement a partition strategy for Azure Synapse Analytics",
+            "Identify when partitioning is needed in Azure Data Lake Storage Gen2"
+          ]
+        },
+        {
+          "id": "Design and implement the data exploration layer",
+          "title": "Design and implement the data exploration layer",
+          "sub_objectives": [
+            "Create and execute queries by using a compute solution that leverages SQL serverless and Spark clusters",
+            "Recommend and implement Azure Synapse Analytics database templates",
+            "Push new or updated data lineage to Microsoft Purview",
+            "Browse and search metadata in Microsoft Purview Data Catalog"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "Develop data processing",
       "name": "Develop data processing",
-      "weight_percent": 40.0,
-      "objectives": []
+      "weight_percent": 42.5,
+      "objectives": [
+        {
+          "id": "Ingest and transform data",
+          "title": "Ingest and transform data",
+          "sub_objectives": [
+            "Design and implement incremental data loads",
+            "Transform data by using Apache Spark",
+            "Transform data by using Transact-SQL (T-SQL) in Azure Synapse Analytics",
+            "Ingest and transform data by using Azure Synapse Pipelines or Azure Data Factory",
+            "Transform data by using Azure Stream Analytics"
+          ]
+        },
+        {
+          "id": "Cleanse data",
+          "title": "Cleanse data",
+          "sub_objectives": [
+            "Handle duplicate data",
+            "Avoiding duplicate data by using Azure Stream Analytics Exactly Once Delivery",
+            "Handle missing data",
+            "Handle late-arriving data",
+            "Split data",
+            "Shred JSON",
+            "Encode and decode data",
+            "Configure error handling for a transformation",
+            "Normalize and denormalize data"
+          ]
+        },
+        {
+          "id": "Perform data exploratory analysis",
+          "title": "Perform data exploratory analysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "Develop a batch processing solution",
+          "title": "Develop a batch processing solution",
+          "sub_objectives": [
+            "Develop batch processing solutions by using Azure Data Lake Storage Gen2, Azure Databricks, Azure Synapse Analytics, and Azure Data Factory",
+            "Use PolyBase to load data to a SQL pool",
+            "Implement Azure Synapse Link and query the replicated data"
+          ]
+        },
+        {
+          "id": "Create data pipelines",
+          "title": "Create data pipelines",
+          "sub_objectives": [
+            "Scale resources",
+            "Configure the batch size",
+            "Create tests for data pipelines",
+            "Integrate Jupyter or Python notebooks into a data pipeline",
+            "Upsert batch data",
+            "Revert data to a previous state",
+            "Configure exception handling",
+            "Configure batch retention",
+            "Read from and write to a delta lake"
+          ]
+        },
+        {
+          "id": "Develop a stream processing solution",
+          "title": "Develop a stream processing solution",
+          "sub_objectives": [
+            "Create a stream processing solution by using Stream Analytics and Azure Event Hubs",
+            "Process data by using Spark structured streaming",
+            "Create windowed aggregates",
+            "Handle schema drift",
+            "Process time series data",
+            "Process data across partitions",
+            "Process within one partition",
+            "Configure checkpoints and watermarking during processing",
+            "Scale resources",
+            "Create tests for data pipelines",
+            "Optimize pipelines for analytical or transactional purposes",
+            "Handle interruptions",
+            "Configure exception handling",
+            "Upsert stream data",
+            "Replay archived stream data",
+            "Read from and write to a delta lake"
+          ]
+        },
+        {
+          "id": "Manage batches and pipelines",
+          "title": "Manage batches and pipelines",
+          "sub_objectives": [
+            "Trigger batches",
+            "Handle failed batch loads",
+            "Validate batch loads",
+            "Manage data pipelines in Azure Data Factory or Azure Synapse Pipelines",
+            "Schedule data pipelines in Data Factory or Azure Synapse Pipelines",
+            "Implement version control for pipeline artifacts",
+            "Manage Spark jobs in a pipeline"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "Secure, monitor, and optimize data storage and data processing",
       "name": "Secure, monitor, and optimize data storage and data processing",
-      "weight_percent": 30.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Design and implement a Lambda architecture",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [
+        {
+          "id": "Implement data security",
+          "title": "Implement data security",
+          "sub_objectives": [
+            "Implement data masking",
+            "Encrypt data at rest and in motion",
+            "Implement row-level and column-level security",
+            "Implement Azure role-based access control (RBAC)",
+            "Implement POSIX-like access control lists (ACLs) for Data Lake Storage Gen2",
+            "Implement a data retention policy",
+            "Implement secure endpoints (private and public)",
+            "Implement resource tokens in Azure Databricks",
+            "Load a DataFrame with sensitive information",
+            "Write encrypted data to tables or Parquet files",
+            "Manage sensitive information"
+          ]
+        },
+        {
+          "id": "Monitor data storage and data processing",
+          "title": "Monitor data storage and data processing",
+          "sub_objectives": [
+            "Implement logging used by Azure Monitor",
+            "Configure monitoring services",
+            "Monitor stream processing",
+            "Measure performance of data movement",
+            "Monitor and update statistics about data across a system",
+            "Monitor data pipeline performance",
+            "Measure query performance",
+            "Schedule and monitor pipeline tests",
+            "Interpret Azure Monitor metrics and logs",
+            "Implement a pipeline alert strategy"
+          ]
+        },
+        {
+          "id": "Optimize and troubleshoot data storage and data processing",
+          "title": "Optimize and troubleshoot data storage and data processing",
+          "sub_objectives": [
+            "Compact small files",
+            "Handle skew in data",
+            "Handle data spill",
+            "Optimize resource management",
+            "Tune queries by using indexers",
+            "Tune queries by using cache",
+            "Troubleshoot a failed Spark job",
+            "Troubleshoot a failed pipeline run, including activities executed in external services"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

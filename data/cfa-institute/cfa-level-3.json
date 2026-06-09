@@ -60,8 +60,10 @@
     {
       "id": "1",
       "name": "Ethical and Professional Standards",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
       "id": "2",
@@ -78,14 +80,18 @@
     {
       "id": "4",
       "name": "Asset Allocation",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 20.0
     },
     {
       "id": "5",
       "name": "Derivatives and Risk Management",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
       "id": "6",

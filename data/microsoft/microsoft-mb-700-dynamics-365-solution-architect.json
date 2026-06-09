@@ -4,8 +4,8 @@
   "exam_code": "MB-700",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-finance-and-operations-apps-solution-architect-expert/",
+  "version": "as of October 9, 2025",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-700",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Microsoft Dynamics 365 Finance, Supply Chain Management, and Commerce professionals who advise stakeholders and translate business requirements into secure, scalable, and reliable solutions",
+  "recommended_experience": "Knowledge of the Dynamics 365 ecosystem and Microsoft Power Platform. Deep understanding of finance and operations apps, and Copilot and AI agents used in the finance and operations apps. Extensive domain knowledge in one or more industry verticals",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,138 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "Architect solutions",
       "name": "Architect solutions",
-      "weight_percent": 40.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Define requirements",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Create solution designs",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "Gather requirements",
+          "title": "Gather requirements",
+          "sub_objectives": [
+            "Identify operational and organizational challenges that may affect a business",
+            "Identify existing business processes and opportunities to optimize business processes",
+            "Gather data migration requirements and expected data migration volumes",
+            "Categorize business requirements and perform gap fit analyses",
+            "Review and validate business requirements throughout the solution lifecycle"
+          ]
+        },
+        {
+          "id": "Define the solution architecture",
+          "title": "Define the solution architecture",
+          "sub_objectives": [
+            "Map business requirements to functional components and business process catalog",
+            "Evaluate whether to build versus buy for gap business requirements",
+            "Identify solution components including other Microsoft and independent software vendor (ISV) technologies based on customer requirements",
+            "Describe the Success by Design framework",
+            "Create overall solution architecture diagrams",
+            "Describe and document the solution blueprint",
+            "Review an organization including company information, locations, and organizational hierarchy in finance and operations apps",
+            "Document the implementation timeline including roll-out strategies",
+            "Define the business process catalog and document solution gaps",
+            "Define instances, environments, and solution components",
+            "Identify required security strategy"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Implement solutions",
+      "id": "Define solution strategies",
+      "name": "Define solution strategies",
+      "weight_percent": 45.0,
+      "objectives": [
+        {
+          "id": "Select a deployment strategy",
+          "title": "Select a deployment strategy",
+          "sub_objectives": [
+            "Review a process to manage solution code and deployment",
+            "Select a deployment model and identify instances and environments required for the selected deployment model",
+            "Plan the One Version strategy and release process for service updates",
+            "Segment solution development and delivery into logical phases",
+            "Provide alternative methodologies and approaches for deploying modifications",
+            "Determine solution maintenance cadence and timelines",
+            "Identify upgrade scenarios and select appropriate tools",
+            "Define an application lifecycle management (ALM) strategy",
+            "Define a code management and data flow strategy",
+            "Define a Microsoft Power Platform solution management strategy",
+            "Determine which build automation capabilities to implement",
+            "Define a roll-back strategy for solution code and data",
+            "Determine a data management strategy",
+            "Differentiate between transactional, historical, and master data",
+            "Define data quality and data validation process",
+            "Define data cleansing and transformation strategies",
+            "Define data dependencies",
+            "Develop a data migration strategy for master, transactional, reference, parameter, and document data entities",
+            "Develop data cut-over, verification and data retention plans",
+            "Define the security architecture",
+            "Differentiate between Azure, finance and operations apps, and infrastructure security",
+            "Describe Azure and infrastructure security-related elements",
+            "Review security design and performance implications of record-level security in Dynamics 365",
+            "Review security design and license implications of custom and standard role-based security in Dynamics 365",
+            "Identify use cases for segregation of duties",
+            "Define the integration architecture",
+            "Select an integration pattern including OData, Microsoft Power Platform, Batch Data API, custom services, external web services, office integrations, business events, Azure Synapse Link, and dual-write with Microsoft Dynamics 365 apps",
+            "Identify required integration and interface details",
+            "Design integrations",
+            "Define an integration testing strategy",
+            "Define error handling and troubleshooting strategy for integrations",
+            "Define use cases for integration requirements with Microsoft Power Platform and finance and operations apps",
+            "Define the business intelligence and reporting architecture",
+            "Define data sources required to meet business intelligence and reporting requirements",
+            "Select appropriate business intelligence and reporting tools including Power BI, organizational workspaces, financial reports, SQL Server Reporting Services (SSRS), and the Electronic Reporting tool",
+            "Define printing requirements including, Document Routing Agent (DRA), modern report design layout templates, check printing, and label printing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Manage implementations",
+      "name": "Manage implementations",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "Manage interactions with FastTrack",
+          "title": "Manage interactions with FastTrack",
+          "sub_objectives": [
+            "Identify the requirements for FastTrack eligibility",
+            "Identify FastTrack engagement types and personnel roles",
+            "Describe typical types of FastTrack workshops and the inputs for each workshop across the phases",
+            "Describe go-live checklist elements",
+            "Utilize Dynamics 365 Implementation Portal",
+            "Determine support options",
+            "Develop a support plan and strategy",
+            "Define post-go-live support plans including response times and service-level agreements (SLAs)",
+            "Describe use cases and capabilities for the Power Platform Admin Center Support tool",
+            "Determine licensing requirements",
+            "Determine the types of licenses required",
+            "Estimate the number of licenses required by using the License Sizing estimator",
+            "Describe the process for estimating ongoing software licensing costs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Manage testing",
+      "name": "Manage testing",
       "weight_percent": 15.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "Define a testing strategy",
+          "title": "Define a testing strategy",
+          "sub_objectives": [
+            "Define a testing strategy that includes all required types of testing",
+            "Define a regression testing strategy",
+            "Identify opportunities for automated testing",
+            "Review use cases and test coverage for business scenarios",
+            "Determine when to use RSAT, SysTest, Postman, ATL, Azure DevOps Test Plans, Leapworks, and other tools",
+            "Define a performance testing strategy",
+            "Define performance goals and requirements",
+            "Identify performance monitoring and testing tools",
+            "Define performance benchmarks and success criteria",
+            "Design a performance and load testing strategy",
+            "Troubleshoot performance issues"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

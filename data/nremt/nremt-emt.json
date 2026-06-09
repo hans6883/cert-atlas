@@ -3,7 +3,7 @@
   "exam_name": "NREMT Emergency Medical Technician (EMT)",
   "exam_code": "EMT",
   "certifying_body": "NREMT",
-  "certification_name": null,
+  "certification_name": "Emergency Medical Technician (EMT)",
   "version": null,
   "source_url": "https://www.nremt.org/rwd/public/document/emt",
   "passing_score": null,
@@ -33,9 +33,25 @@
   "renewal_options": "All NREMT certifications are valid for 2 years. Renewal requires 24 hours of continuing education (CE) or completion of a refresher course. CE must be submitted through the NREMT online portal. Paramedics must include specific topic hours as defined by NREMT requirements.",
   "continuing_education_units": 24,
   "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Emergency Medical Technicians",
+  "recommended_experience": "Provide out of hospital emergency medical care and transportation for critical and emergent patients who access the emergency medical services (EMS) system. EMTs have the basic knowledge and skills necessary to stabilize and safely transport patients ranging from non-emergency and routine medical transports to life threatening emergencies. Emergency Medical Technicians function as part of a comprehensive EMS response system, under medical oversight. Emergency Medical Technicians perform interventions with the basic equipment typically found on an ambulance. Emergency Medical Technicians are a critical link between the scene of an emergency and the health care system.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Full Education Program",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "State Licensed",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Re-entry",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 15,
     "max_attempts_per_year": null,
@@ -88,6 +104,7 @@
   ],
   "aliases": [
     "emergency medical technician",
+    "emergency medical technician emt",
     "emt",
     "emt-basic",
     "nremt emergency medical technician emt",

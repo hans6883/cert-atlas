@@ -49,20 +49,26 @@
     {
       "id": "1",
       "name": "Ethics",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 30.0
     },
     {
       "id": "2",
       "name": "Corporate governance",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 45.0,
+      "objectives": [],
+      "weight_min": 45.0,
+      "weight_max": 45.0
     },
     {
       "id": "3",
       "name": "Business law basics",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     }
   ],
   "official_objectives_url": null,

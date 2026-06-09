@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified Service Cloud Consultant",
   "exam_code": "Service Cloud Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/servicecloudconsultant",
+  "certification_name": "Salesforce Certified Service Cloud Consultant",
+  "version": "Exam questions align to the Summer '25 Release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Service-Cloud-Consultant-Exam-Guide",
   "passing_score": 67,
-  "passing_score_scale": null,
+  "passing_score_scale": "English version 78%; Japanese version 67%",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Professionals who have experience implementing Salesforce Service Cloud solutions",
+  "recommended_experience": "2 to 5 years of professional experience",
   "prerequisites": [
     {
       "prerequisite_type": "required_certification",
@@ -58,52 +58,165 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Industry Knowledge",
-      "weight_percent": 11.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Implementation Strategies",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Service Cloud Solution Design",
-      "weight_percent": 17.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Case Management",
-      "weight_percent": 17.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Contact Center Analytics",
-      "weight_percent": 8.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Integration and Data Management",
-      "weight_percent": 9.0,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Service Console",
       "weight_percent": 12.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Explain the factors that influence key Contact Center metrics and key performance indicators (KPIs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Determine the risks, benefits, and business challenges of meeting a client's desired outcome",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
-      "name": "Communities and Self-Service",
-      "weight_percent": 8.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Implementation Strategies",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a scenario, determine how to participate in a successful consulting engagement",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a scenario, recommend appropriate Service Cloud deployment and training strategies",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Explain the considerations and implications for data migration, data quality, data governance, and large data volumes",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Service Cloud Solution Design",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a scenario, analyze customer requirements to determine an appropriate solution design considering capabilities, limitations, and design trade-offs for the service rep experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, analyze customer requirements to determine an appropriate solution design considering capabilities, limitations, and design trade-offs for the customer experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a set of customer data security and compliance requirements, determine a successful design to secure the data",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Knowledge Management",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Explain the Knowledge article lifecycle, Knowledge Centered Service (KCS), and Salesforce Knowledge Management configuration",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a set of requirements, determine how to configure Knowledge to deliver service support and self-service processes",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Intake and Interaction Channels",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given business process requirements, recommend the appropriate approach to intake channels and their design",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a set of business goals, discuss the use cases and functionality for proposed interaction channels",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Assess the design considerations and best practices when configuring an interaction channel solution",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Given a set of business requirements, recommend an appropriate use for AI agents in the customer service process",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Explain agentic service capabilities, use cases, and configuration processes",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Case Management",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Given a set of requirements or KPIs, design a case management solution from creation to closure",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Given a set of requirements, explain how case deflection strategies are delivered in Experience Cloud sites, Agentforce, and Knowledge",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Explain the capabilities, use cases, and how to configure service entitlements, milestones, assets, business hours, and service-level agreements (SLAs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Differentiate the use cases and capabilities of Service Cloud automation",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Contact Center Analytics",
+      "weight_percent": 13.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Given a scenario, develop reports and dashboards in Salesforce to provide relevant information to different stakeholders",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Integrations",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Explain the use cases and considerations for core Service Cloud integrations, including third-party solutions and connections to external sources of data",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

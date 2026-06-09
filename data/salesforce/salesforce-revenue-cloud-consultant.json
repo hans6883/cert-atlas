@@ -3,9 +3,9 @@
   "exam_name": "Salesforce Certified Revenue Cloud Consultant",
   "exam_code": "Revenue Cloud Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/revenuecloudconsultant",
+  "certification_name": "Salesforce Certified Revenue Cloud Consultant",
+  "version": "Exam questions align to the Summer ’25 Release.",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Revenue-Cloud-Consultant-Exam-Guide",
   "passing_score": 60,
   "passing_score_scale": null,
   "total_questions": 60,
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Individuals who have broad knowledge of the Product-to-Cash lifecycle and hands-on experience using the Revenue Cloud platform on core. Candidates should generally have 2–3 years of Product-to-Cash domain experience.",
+  "recommended_experience": "2–3 years of Product-to-Cash domain experience",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,40 +52,148 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Configuring Products and Pricing",
-      "weight_percent": 23.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Revenue Cloud Platform Concepts",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Explain how to configure foundational Salesforce features for Revenue Cloud, including flows, Lightning page components, permission set licenses, and permission sets.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Identify and describe Revenue Cloud features, such as Context Service, OmniStudio, Business Rules Engine (BRE), and application programming interfaces (APIs).",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Design context-aware dashboards and key performance indicators (KPIs) using native Salesforce reporting tools.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Describe core Revenue Cloud fields, objects, and relationships between objects.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Managing Opportunities",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Implementation Readiness",
+      "weight_percent": 14.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Plan implementation readiness, including required licenses, permission sets, and prerequisite feature toggles.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Assign roles and responsibilities to stakeholders for cross-cloud project execution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Develop a Revenue Cloud scope of work and project plan.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Drive implementation through build, test, deployment, and adoption.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Working with Quotes",
-      "weight_percent": 21.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Catalog Management",
+      "weight_percent": 16.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Explain Catalog Management core concepts and capabilities.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, implement a solution using the appropriate out-of-the-box Catalog Management functionality.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Working with Orders",
-      "weight_percent": 17.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Configure, Price, Quote",
+      "weight_percent": 18.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Use the Product Configurator tool to customize the components and attributes of a product and validate the configuration.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Configure and apply pricing procedures to customer-specific business cases.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Given a set of customer requirements, including using Agentforce, configure and generate an accurate pricing quote.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Billing and Revenue Lifecycle",
-      "weight_percent": 19.0,
-      "objectives": []
+      "id": "5.0",
+      "name": "Contracts and Orders",
+      "weight_percent": 11.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a scenario, configure Salesforce Contracts to meet business requirements.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a scenario, configure Order Management to meet business requirements.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
-      "name": "Configuring Advanced Approvals",
-      "weight_percent": 8.0,
-      "objectives": []
+      "id": "6.0",
+      "name": "Asset Management",
+      "weight_percent": 16.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Explain Asset Management core concepts and capabilities.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Given a scenario, implement a solution using the appropriate out-of-the-box Asset Management functionality.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Invoice Management",
+      "weight_percent": 7.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Explain Invoice Management core concepts and capabilities.",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Given a scenario, implement a solution using the appropriate out-of-the-box Invoice Management functionality.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

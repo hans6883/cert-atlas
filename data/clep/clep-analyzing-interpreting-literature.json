@@ -33,20 +33,26 @@
     {
       "id": "1",
       "name": "Prose Fiction Analysis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 40.0,
+      "objectives": [],
+      "weight_min": 35,
+      "weight_max": 45
     },
     {
       "id": "2",
       "name": "Poetry Analysis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 40.0,
+      "objectives": [],
+      "weight_min": 35,
+      "weight_max": 45
     },
     {
       "id": "3",
       "name": "Drama and Literary Nonfiction",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [],
+      "weight_min": 15,
+      "weight_max": 20
     }
   ],
   "official_objectives_url": null,

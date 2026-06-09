@@ -46,14 +46,18 @@
     {
       "id": "1",
       "name": "UAS Regulations (Part 107)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 25.0
     },
     {
       "id": "2",
       "name": "Airspace Classification and Operations",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 25.0
     },
     {
       "id": "3",
@@ -76,8 +80,10 @@
     {
       "id": "6",
       "name": "Weather Effects on UAS",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.5,
+      "objectives": [],
+      "weight_min": 11.0,
+      "weight_max": 16.0
     },
     {
       "id": "7",

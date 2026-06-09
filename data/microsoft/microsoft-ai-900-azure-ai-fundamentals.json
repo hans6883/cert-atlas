@@ -3,9 +3,9 @@
   "exam_name": "Microsoft Azure AI Fundamentals",
   "exam_code": "AI-900",
   "certifying_body": "Microsoft",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+  "certification_name": "Microsoft Azure AI Fundamentals",
+  "version": "as of May 2, 2025",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "This exam is an opportunity for you to demonstrate knowledge of machine learning and AI concepts and related Microsoft Azure services. As a candidate for this exam, you should have familiarity with Exam AI-900’s self-paced or instructor-led learning material.",
+  "recommended_experience": "Basic cloud concepts, Client-server applications",
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended",
+      "description": "Basic cloud concepts, Client-server applications",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,34 +74,147 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Describe Artificial Intelligence workloads and considerations",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Identify features of common AI workloads",
+          "sub_objectives": [
+            "Identify computer vision workloads",
+            "Identify natural language processing workloads",
+            "Identify document processing workloads",
+            "Identify features of generative AI workloads"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Identify guiding principles for responsible AI",
+          "sub_objectives": [
+            "Describe considerations for fairness in an AI solution",
+            "Describe considerations for reliability and safety in an AI solution",
+            "Describe considerations for privacy and security in an AI solution",
+            "Describe considerations for inclusiveness in an AI solution",
+            "Describe considerations for transparency in an AI solution",
+            "Describe considerations for accountability in an AI solution"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Describe fundamental principles of machine learning on Azure",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Identify common machine learning techniques",
+          "sub_objectives": [
+            "Identify regression machine learning scenarios",
+            "Identify classification machine learning scenarios",
+            "Identify clustering machine learning scenarios",
+            "Identify features of deep learning techniques",
+            "Identify features of the Transformer architecture"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Describe core machine learning concepts",
+          "sub_objectives": [
+            "Identify features and labels in a dataset for machine learning",
+            "Describe how training and validation datasets are used in machine learning",
+            "Describe Azure Machine Learning capabilities",
+            "Describe capabilities of automated machine learning",
+            "Describe data and compute services for data science and machine learning",
+            "Describe model management and deployment capabilities in Azure Machine Learning"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Describe features of computer vision workloads on Azure",
       "weight_percent": 15.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Identify common types of computer vision solution",
+          "sub_objectives": [
+            "Identify features of image classification solutions",
+            "Identify features of object detection solutions",
+            "Identify features of optical character recognition solutions",
+            "Identify features of facial detection and facial analysis solutions"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Identify Azure tools and services for computer vision tasks",
+          "sub_objectives": [
+            "Describe capabilities of the Azure AI Vision service",
+            "Describe capabilities of the Azure AI Face detection service"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Describe features of Natural Language Processing workloads on Azure",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Describe features of Natural Language Processing (NLP) workloads on Azure",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Identify features of common NLP Workload Scenarios",
+          "sub_objectives": [
+            "Identify features and uses for key phrase extraction",
+            "Identify features and uses for entity recognition",
+            "Identify features and uses for sentiment analysis",
+            "Identify features and uses for language modeling",
+            "Identify features and uses for speech recognition and synthesis",
+            "Identify features and uses for translation"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Identify Azure tools and services for NLP workloads",
+          "sub_objectives": [
+            "Describe capabilities of the Azure AI Language service",
+            "Describe capabilities of the Azure AI Speech service"
+          ]
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "Describe features of generative AI workloads on Azure",
       "weight_percent": 20.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Identify features of generative AI solutions",
+          "sub_objectives": [
+            "Identify features of generative AI models",
+            "Identify common scenarios for generative AI",
+            "Identify responsible AI considerations for generative AI",
+            "Identify generative AI services and capabilities in Microsoft Azure"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Describe features and capabilities of Azure AI Foundry",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Describe features and capabilities of Azure OpenAI service",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Describe features and capabilities of Azure AI Foundry model catalog",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

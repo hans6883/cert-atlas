@@ -55,8 +55,10 @@
     {
       "id": "1",
       "name": "Biochemistry and Molecular Biology",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 5.0,
+      "weight_max": 15.0
     },
     {
       "id": "2",
@@ -67,32 +69,42 @@
     {
       "id": "3",
       "name": "Pathology",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 50.0,
+      "objectives": [],
+      "weight_min": 45.0,
+      "weight_max": 55.0
     },
     {
       "id": "4",
       "name": "Pharmacology",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 20.0
     },
     {
       "id": "5",
       "name": "Physiology",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 35.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 40.0
     },
     {
       "id": "6",
       "name": "Behavioral Sciences",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
       "id": "7",
       "name": "Anatomy",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 20.0
     }
   ],
   "official_objectives_url": null,

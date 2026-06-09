@@ -3,11 +3,11 @@
   "exam_name": "Certified Ethical Hacker (CEH)",
   "exam_code": "312-50",
   "certifying_body": "EC-Council",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Certified Ethical Hacker (CEH)",
+  "version": "v13",
   "source_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
   "passing_score": 70,
-  "passing_score_scale": null,
+  "passing_score_scale": "60% to 85%",
   "total_questions": 125,
   "question_types": [
     "Multiple Choice"
@@ -15,7 +15,7 @@
   "exam_format": "Linear",
   "duration_minutes": 240,
   "exam_price_usd": 550.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Single On-Demand Certification Course starting at $1,699",
   "voucher_url": null,
   "exam_registration_url": "https://eccexam.com/",
   "testing_centers": [
@@ -36,12 +36,12 @@
   "certification_validity_years": 3,
   "renewal_required": true,
   "renewal_options": "Earn 120 ECE (EC-Council Continuing Education) credits over 3-year cycle. ECE credits earned through courses, conferences, publications, or EC-Council activities.",
-  "continuing_education_units": null,
+  "continuing_education_units": 120,
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Cybersecurity professionals, IT security professionals, and individuals interested in ethical hacking.",
+  "recommended_experience": "Minimum of 2 years of IT security experience.",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
@@ -57,43 +57,383 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Background",
+      "id": "1.0",
+      "name": "Introduction to Ethical Hacking",
       "weight_percent": 6.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand the fundamentals of ethical hacking, information security controls, and relevant laws and procedures.",
+          "sub_objectives": [
+            "Understand the elements of information security.",
+            "Classify attacks and hacker classes.",
+            "Understand the ethical hacking framework and AI-driven ethical hacking.",
+            "Understand the Cyber Kill Chain Methodology and MITRE ATT&CK Framework."
+          ]
+        }
+      ],
+      "weight_min": 6.0,
+      "weight_max": 6.0
     },
     {
-      "id": "2",
-      "name": "Analysis / Assessment",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Footprinting and Reconnaissance",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Perform footprinting and reconnaissance using various tools and techniques.",
+          "sub_objectives": [
+            "Perform footprinting using search engines, internet research services, and social networking sites.",
+            "Perform whois, DNS, network, and email footprinting.",
+            "Perform footprinting using AI."
+          ]
+        }
+      ],
+      "weight_min": 17.0,
+      "weight_max": 17.0
     },
     {
-      "id": "3",
-      "name": "Security",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Scanning Networks",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Perform network scanning techniques and countermeasures.",
+          "sub_objectives": [
+            "Perform host, port, service, and OS discovery on the target network.",
+            "Perform scanning on the target network beyond IDS and Firewall.",
+            "Perform scanning using AI."
+          ]
+        }
+      ],
+      "weight_min": 17.0,
+      "weight_max": 17.0
     },
     {
-      "id": "4",
-      "name": "Tools / Systems / Programs",
-      "weight_percent": 32.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Enumeration",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Perform enumeration techniques using various tools and countermeasures.",
+          "sub_objectives": [
+            "Perform NetBIOS, SNMP, LDAP, NFS, DNS, SMTP, RPC, SMB, and FTP Enumeration.",
+            "Perform enumeration using AI.",
+            "Understand enumeration countermeasures."
+          ]
+        }
+      ],
+      "weight_min": 17.0,
+      "weight_max": 17.0
     },
     {
-      "id": "5",
-      "name": "Procedures / Methodology",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "5.0",
+      "name": "Vulnerability Analysis",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Identify security loopholes in a target organization’s network, communication infrastructure, and end systems.",
+          "sub_objectives": [
+            "Perform vulnerability research using vulnerability scoring systems and databases.",
+            "Perform vulnerability assessment using various tools.",
+            "Perform vulnerability analysis using AI."
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
-      "id": "6",
-      "name": "Regulation / Policy / Ethics",
-      "weight_percent": 4.0,
-      "objectives": []
+      "id": "6.0",
+      "name": "System Hacking",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Perform system hacking methodologies to discover system and network vulnerabilities.",
+          "sub_objectives": [
+            "Perform active online attacks to crack system passwords.",
+            "Perform buffer overflow attacks to gain access to a remote system.",
+            "Escalate privileges using privilege escalation tools.",
+            "Use steganography to hide data.",
+            "Clear logs using various utilities.",
+            "Perform system hacking using AI."
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
+    },
+    {
+      "id": "7.0",
+      "name": "Malware Threats",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Understand different types of malware, malware analysis procedures, and countermeasures.",
+          "sub_objectives": [
+            "Gain control over a victim machine using a Trojan.",
+            "Infect a target system using a virus.",
+            "Perform static and dynamic malware analysis.",
+            "Understand AI-based malware and countermeasures."
+          ]
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 15.0
+    },
+    {
+      "id": "8.0",
+      "name": "Sniffing",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Perform packet-sniffing techniques and countermeasures.",
+          "sub_objectives": [
+            "Perform MAC flooding, ARP poisoning, and MITM attacks.",
+            "Spoof a MAC address of a Linux machine.",
+            "Perform network sniffing using various sniffing tools.",
+            "Detect ARP poisoning in a switch-based network."
+          ]
+        }
+      ],
+      "weight_min": 24.0,
+      "weight_max": 24.0
+    },
+    {
+      "id": "9.0",
+      "name": "Social Engineering",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Understand social engineering concepts and countermeasures.",
+          "sub_objectives": [
+            "Perform social engineering using various techniques.",
+            "Detect phishing attacks.",
+            "Use AI for social engineering.",
+            "Understand social engineering countermeasures."
+          ]
+        }
+      ],
+      "weight_min": 24.0,
+      "weight_max": 24.0
+    },
+    {
+      "id": "10.0",
+      "name": "Denial-of-Service",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Understand different Denial of Service (DoS) and Distributed DoS (DDoS) attack techniques and countermeasures.",
+          "sub_objectives": [
+            "Perform a DoS and DDoS attack on a target host.",
+            "Detect and protect against DoS and DDoS attacks."
+          ]
+        }
+      ],
+      "weight_min": 24.0,
+      "weight_max": 24.0
+    },
+    {
+      "id": "11.0",
+      "name": "Session Hijacking",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Understand session hijacking techniques and countermeasures.",
+          "sub_objectives": [
+            "Perform session hijacking using various tools.",
+            "Detect session hijacking.",
+            "Understand session hijacking detection methods."
+          ]
+        }
+      ],
+      "weight_min": 24.0,
+      "weight_max": 24.0
+    },
+    {
+      "id": "12.0",
+      "name": "Evading IDS, Firewalls, and Honeypots",
+      "weight_percent": 24.0,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Understand firewall, intrusion detection system (IDS), and honeypot evasion techniques and countermeasures.",
+          "sub_objectives": [
+            "Perform intrusion detection using various tools.",
+            "Deploy honeypot to detect malicious network traffic.",
+            "Bypass firewall rules using tunneling.",
+            "Bypass antivirus."
+          ]
+        }
+      ],
+      "weight_min": 24.0,
+      "weight_max": 24.0
+    },
+    {
+      "id": "13.0",
+      "name": "Hacking Web Servers",
+      "weight_percent": 14.0,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Perform web server attacks and countermeasures.",
+          "sub_objectives": [
+            "Perform web server reconnaissance using various tools.",
+            "Enumerate web server information.",
+            "Perform a web server attack.",
+            "Perform web server hacking using AI."
+          ]
+        }
+      ],
+      "weight_min": 14.0,
+      "weight_max": 14.0
+    },
+    {
+      "id": "14.0",
+      "name": "Hacking Web Applications",
+      "weight_percent": 14.0,
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Perform web application attacks and countermeasures.",
+          "sub_objectives": [
+            "Perform web application reconnaissance using various tools.",
+            "Perform web spidering.",
+            "Perform web application vulnerability scanning.",
+            "Perform web application attacks.",
+            "Detect web application vulnerabilities using various tools.",
+            "Perform web application hacking using AI."
+          ]
+        }
+      ],
+      "weight_min": 14.0,
+      "weight_max": 14.0
+    },
+    {
+      "id": "15.0",
+      "name": "SQL Injection",
+      "weight_percent": 14.0,
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "Understand SQL injection attack techniques, evasion techniques, and countermeasures.",
+          "sub_objectives": [
+            "Perform an SQL injection attack against MSSQL to extract databases.",
+            "Detect SQL injection vulnerabilities using various tools.",
+            "Perform SQL injection using AI."
+          ]
+        }
+      ],
+      "weight_min": 14.0,
+      "weight_max": 14.0
+    },
+    {
+      "id": "16.0",
+      "name": "Hacking Wireless Networks",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "16.1",
+          "title": "Understand wireless network hacking methodologies, tools, and countermeasures.",
+          "sub_objectives": [
+            "Footprint a wireless network.",
+            "Perform wireless traffic analysis.",
+            "Crack a WPA2 network.",
+            "Create a rogue access point."
+          ]
+        }
+      ],
+      "weight_min": 5.0,
+      "weight_max": 5.0
+    },
+    {
+      "id": "17.0",
+      "name": "Hacking Mobile Platforms",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "17.1",
+          "title": "Understand mobile platform attack vectors, security guidelines, and tools.",
+          "sub_objectives": [
+            "Hack an Android device by creating binary payloads.",
+            "Exploit the Android platform through ADB.",
+            "Hack an Android device by creating APK file.",
+            "Secure Android devices using various Android security tools."
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
+    },
+    {
+      "id": "18.0",
+      "name": "IoT and OT Hacking",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "18.1",
+          "title": "Understand IoT and OT hacking methodologies, tools, and countermeasures.",
+          "sub_objectives": [
+            "Gather information using online footprinting tools.",
+            "Capture and analyze IoT device traffic.",
+            "Perform IoT attacks."
+          ]
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 10.0
+    },
+    {
+      "id": "19.0",
+      "name": "Cloud Computing",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "19.1",
+          "title": "Understand cloud computing threats, attacks, methodologies, and security tools.",
+          "sub_objectives": [
+            "Perform S3 bucket enumeration using various tools.",
+            "Exploit open S3 buckets.",
+            "Escalate IAM user privileges by exploiting misconfigured user policy.",
+            "Perform vulnerability assessment on Docker images."
+          ]
+        }
+      ],
+      "weight_min": 5.0,
+      "weight_max": 5.0
+    },
+    {
+      "id": "20.0",
+      "name": "Cryptography",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "20.1",
+          "title": "Understand encryption algorithms, cryptography tools, and cryptanalysis techniques.",
+          "sub_objectives": [
+            "Encrypt information using various cryptography tools.",
+            "Create and use self-signed certificates.",
+            "Perform email and disk encryption.",
+            "Perform cryptanalysis using various tools.",
+            "Perform cryptography using AI."
+          ]
+        }
+      ],
+      "weight_min": 5.0,
+      "weight_max": 5.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.eccouncil.org/ceh-v13-certified-ethical-hacker/",
   "official_study_resources": [
     {
       "resource_type": "online_course",

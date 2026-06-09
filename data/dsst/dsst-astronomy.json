@@ -39,26 +39,34 @@
     {
       "id": "2",
       "name": "Solar System",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 20.0
     },
     {
       "id": "3",
       "name": "Stars",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "4",
       "name": "Galaxies",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
       "id": "5",
       "name": "Cosmology",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 10.0,
+      "objectives": [],
+      "weight_min": 10.0,
+      "weight_max": 10.0
     },
     {
       "id": "6",

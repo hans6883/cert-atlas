@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified JavaScript Developer I",
   "exam_code": "JavaScript Developer I",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/javascriptdeveloperI",
+  "certification_name": "Salesforce Certified JavaScript Developer",
+  "version": "Exam questions align to the Summer '22 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-JavaScript-Developer-Exam-Guide",
   "passing_score": 65,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Salesforce partners, customers, and employees who work with JavaScript. Typical job roles include JavaScript programmer, Salesforce Developer, Full stack developer, Web application developer, Front end developer, Software/backend developer, Support engineer, Technical product/project manager, UI/UX engineer.",
+  "recommended_experience": "1-2 years of knowledge, skills, and experience developing front-end and/or back-end JavaScript applications for the web stack.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,46 +52,178 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Browser and Events",
+      "id": "1.0",
+      "name": "Variables, Types, and Collections",
       "weight_percent": 23.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Given a scenario, write code to create variables and initialize them correctly.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Given a business requirement, utilize strings, numbers, and dates effectively.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given a scenario or example, demonstrate awareness of type coercion and its effects.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Given a specific scenario, distinguish truthy or falsey evaluations.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Given a list of data, demonstrate data manipulation with arrays.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Given a JSON response, demonstrate how to operate the JSON object.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "JavaScript and TypeScript",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Objects, Functions, and Classes",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Given a business requirement, locate the best function implementation.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a business requirement, apply fundamentals of object implementation to solve the business requirement.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Given a business requirement, apply fundamentals of class implementation to solve the business requirement.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Given a JavaScript module, give examples of how to use the module.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Given a JavaScript decorator, give examples of how to use the decorator.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Given a block of code, analyze the variable scope and the execution flow.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Data Communication and APIs",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Browser and Events",
+      "weight_percent": 17.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Given a business requirement, utilize Events, event handlers, and propagation.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a business requirement, evaluate and manipulate the DOM.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a scenario, utilize the Browser Dev Tools to investigate code behavior.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Given a scenario and requirements, utilize browser specific APIs.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Debugging and Error Handling",
       "weight_percent": 7.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Given a scenario, handle errors properly.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given code to be debugged, use the console and breakpoints.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Performance and Security",
+      "id": "5.0",
+      "name": "Asynchronous Programming",
       "weight_percent": 13.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given a scenario, apply asynchronous programming concepts.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given a scenario, use event loop and event monitor or determine loop outcomes.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
+      "id": "6.0",
+      "name": "Server Side JavaScript",
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Given a scenario and requirements, infer which Node.js implementation is a good solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Given a scenario and requirements, infer which Node.js CLI command is a good solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Know the core Node.js modules and given requirements, infer which Node.js library/framework is a good solution.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Given a scenario and requirements, distinguish which Node.Js Package Management solution is the most fitting.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
       "name": "Testing",
-      "weight_percent": 10.0,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "LWC and Aura Basics",
       "weight_percent": 7.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "With a block of code and the associated Unit Test, determine where the test is ineffective and modify it to make it more effective.",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -117,6 +249,7 @@
   ],
   "aliases": [
     "javascript developer i",
+    "salesforce certified javascript developer",
     "salesforce certified javascript developer i",
     "salesforce js developer",
     "salesforce-javascript-developer-1"

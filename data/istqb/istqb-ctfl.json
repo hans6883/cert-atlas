@@ -3,8 +3,8 @@
   "exam_name": "Certified Tester Foundation Level (CTFL)",
   "exam_code": "CTFL",
   "certifying_body": "ISTQB",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "ISTQB® Foundation Level Agile Tester",
+  "version": "v1.0",
   "source_url": "https://www.istqb.org/certifications/certified-tester-foundation-level",
   "passing_score": 65,
   "passing_score_scale": "Percentage; 65% required to pass",
@@ -49,8 +49,8 @@
     "Italian",
     "Dutch"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Professionals working within Agile environments or planning to implement Agile methods in the near future.",
+  "recommended_experience": "Holders of the Certified Tester Foundation Level certificate (Version 4 or earlier).",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": null,
@@ -60,43 +60,69 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Fundamentals of Testing",
-      "weight_percent": 26.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Testing Throughout the Software Development Lifecycle",
-      "weight_percent": 17.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Static Testing",
-      "weight_percent": 11.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Test Analysis and Design",
-      "weight_percent": 21.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Managing the Test Activities",
-      "weight_percent": 17.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Test Tools",
-      "weight_percent": 8.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Agile Software Development",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "The Fundamentals of Agile Software Development",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Aspect of Agile Approaches",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Fundamental Agile Testing Principles, Practices, and Processes",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "The Differences between Testing in Traditional and Agile Approaches",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Status of Testing in Agile Project",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Role and Skills of a Tester in an Agile Team",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Agile Testing Methods, Techniques and Tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Agile Testing Methods",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Assessing Quality Risk and Estimating Test Effort",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Techniques in Agile Projects",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Tools in Agile Projects",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.istqb.org/download-materials.html",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -121,7 +147,9 @@
     "certified tester foundation level agile tester ctfl-at",
     "certified tester foundation level ctfl",
     "ctfl",
+    "foundation level",
     "istqb foundation",
+    "istqb foundation level agile tester",
     "istqb-ctfl"
   ],
   "practice_url": "https://quizforge.ai/tests/istqb-certified-tester-foundation-level-ctfl"

@@ -4,8 +4,8 @@
   "exam_code": "MB-230",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-customer-service/",
+  "version": "as of March 11, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-230",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "As a candidate for this exam, you’re a functional consultant with customer service expertise. You’re responsible for implementing solutions that focus upon: Customer service, Quality, Reliability, Efficiency, Customer satisfaction",
+  "recommended_experience": "You design and implement service management processes and automation in collaboration with solution architects and developers. You coordinate with customer engagement administrators to implement and upgrade customer service components including: Case management, Dynamics 365 Copilot in Service, Collaboration, Knowledge management, Customer feedback",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,34 +68,325 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Configure Dynamics 365 Customer Service",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Manage cases in Customer Service",
+      "weight_percent": 53.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Define and configure foundational Customer Service components",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Implement and monitor record creation and update rules",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Configure and modify the case resolution experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Configure and manage security roles",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Configure the timeline control, including records, card forms, and highlights",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Create and administer knowledge management",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Configure internal knowledge search capabilities",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Configure tables for knowledge management",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Manage translated knowledge articles",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Integrate and search external knowledge sources",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Configure AI suggestions and Copilot-led knowledge article creation",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.12",
+          "title": "Manage collaboration",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.13",
+          "title": "Configure Microsoft Teams chat",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.14",
+          "title": "Configure Join a Teams call for specific users",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.15",
+          "title": "Configure suggested contacts in Microsoft Teams, including by using AI and rules-based suggestions",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.16",
+          "title": "Configure Teams collaboration experience",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.17",
+          "title": "Manage agents and Copilot in Service features",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.18",
+          "title": "Configure Ask a Question, including filtering content",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.19",
+          "title": "Configure case, timeline, and conversation summaries",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.20",
+          "title": "Configure Draft a Response",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.21",
+          "title": "Configure the Case Management Agent",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.22",
+          "title": "Integrate agents with Customer Service, including plug-ins and knowledge sources",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.23",
+          "title": "Create and manage SLAs for cases",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.24",
+          "title": "Configure SLA settings",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.25",
+          "title": "Implement actions by using Power Automate",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.26",
+          "title": "Apply SLAs",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.27",
+          "title": "Create and manage SLA items including key performance indicators (KPIs), warning actions, success actions, and applicability",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.28",
+          "title": "Configure a timer control on a form",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.29",
+          "title": "Create SLA KPIs",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Manage cases and the knowledge base",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Configure representative experience and routing",
+      "weight_percent": 27.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Configure routing",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Configure workstreams",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Configure user settings",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Manage capacity profiles",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Configure work classification and assignments, including rules",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Configure basic routing rulesets",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Configure skills-based routing and skill finder models",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Configure queues",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Configure routing for records",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.10",
+          "title": "Configure productivity tools",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.11",
+          "title": "Configure scripts, including slugs",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.12",
+          "title": "Create macros",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.13",
+          "title": "Configure the Copilot Service workspace",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.14",
+          "title": "Configure session templates",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.15",
+          "title": "Create experience profiles",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.16",
+          "title": "Configure the Inbox, including creating custom views",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.17",
+          "title": "Configure application tab templates",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Manage queues, entitlements, and SLAs",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Implement scheduling",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Implement multi-session experiences",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Extend Customer Service",
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Configure the data model and UI components",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Create and configure forms",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Create and configure views",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Configure model-driven app components",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Create and configure columns",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Configure alerts and in-app notifications",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Create or modify a table",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Configure relationships",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.9",
+          "title": "Configure Dataverse search",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.10",
+          "title": "Create and manage email templates",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.11",
+          "title": "Capture customer feedback by using Customer Voice",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.12",
+          "title": "Trigger distribution of a survey",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.13",
+          "title": "Personalize a survey",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.14",
+          "title": "Populate survey results against cases and conversations",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

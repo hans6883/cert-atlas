@@ -4,8 +4,8 @@
   "exam_code": "AZ-801",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/",
+  "version": "as of October 6, 2025",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-801",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Administering Windows Server as a workload in both on-premises and hybrid environments",
+  "recommended_experience": "Several years of experience with Windows Server operating systems",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,34 +68,245 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Secure Windows Server on-premises and hybrid infrastructures",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 27.5,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Secure Windows Server operating system",
+          "sub_objectives": [
+            "Configure and manage Exploit Protection",
+            "Configure and manage Windows Defender Application Control",
+            "Configure and manage Windows Defender Credential Guard",
+            "Configure SmartScreen",
+            "Implement operating system security by using Group Policies",
+            "Manage Windows Server security baseline by using OSConfig",
+            "Implement Windows Local Administrator Password Solution (Windows LAPS)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Secure a hybrid Active Directory infrastructure",
+          "sub_objectives": [
+            "Configure password policies",
+            "Implement Microsoft Entra Password Protection for AD DS",
+            "Manage protected users",
+            "Manage account security on a Read-Only Domain controller (RODC)",
+            "Harden domain controllers",
+            "Configure authentication policy silos",
+            "Restrict access to domain controllers",
+            "Configure security options for user accounts",
+            "Configure security options for built-in administrative groups",
+            "Manage AD delegation",
+            "Implement and manage Microsoft Defender for Identity",
+            "Audit usage of and disable NTLM",
+            "Identify and remediate Windows Server security issues by using Azure services"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Secure Windows Server networking",
+          "sub_objectives": [
+            "Manage Windows Defender Firewall",
+            "Implement domain isolation",
+            "Implement connection security rules",
+            "Create and configure network security groups (NSGs) for Windows Server virtual machines on Azure"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Secure Windows Server storage",
+          "sub_objectives": [
+            "Manage Windows BitLocker Drive Encryption",
+            "Enable storage encryption by using Azure Disk Encryption",
+            "Manage and recover encrypted volumes",
+            "Manage disk encryption keys for IaaS virtual machines"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Implement and manage Windows Server high availability",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Implement a Windows Server failover cluster",
+          "sub_objectives": [
+            "Implement a failover cluster on-premises, hybrid, or cloud-only",
+            "Create a Windows failover cluster, including workgroup clusters",
+            "Implement a stretch cluster across datacenters or Azure regions, including Storage Spaces Direct (S2D) campus clusters",
+            "Configure storage for failover clustering",
+            "Modify quorum options",
+            "Configure network adapters for failover clustering",
+            "Deploy host networking with Network ATC",
+            "Configure cluster workload options",
+            "Configure Scale-Out File servers",
+            "Configure an Azure witness",
+            "Configure a floating IP address for the cluster"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Manage failover clustering",
+          "sub_objectives": [
+            "Implement cluster-aware updating",
+            "Recover a failed cluster node",
+            "Upgrade failover cluster nodes",
+            "Failover workloads between nodes",
+            "Install Windows updates on cluster nodes",
+            "Manage failover clusters using Windows Admin Center"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Implement and manage Storage Spaces Direct",
+          "sub_objectives": [
+            "Upgrade an S2D node",
+            "Implement networking for S2D",
+            "Configure S2D"
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Implement disaster recovery",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Manage backup and recovery for Windows Server",
+          "sub_objectives": [
+            "Back up and restore files and folders to Azure Recovery Services Vault",
+            "Deploy and manage Azure Backup Server",
+            "Back up and recover using Azure Backup Server",
+            "Manage backups in Azure Recovery Services Vault",
+            "Create an Azure Recovery Services vault backup policy",
+            "Configure backup for Azure VM using the built-in backup agent",
+            "Recover a VM using instant recovery snapshots",
+            "Recover VMs to new Azure VMs",
+            "Restore a VM, including encrypted VMs"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Implement disaster recovery by using Azure Site Recovery",
+          "sub_objectives": [
+            "Configure Azure Site Recovery network mapping",
+            "Configure Site Recovery for on-premises servers",
+            "Configure a recovery plan in Azure Site Recovery",
+            "Configure Site Recovery for Azure VMs",
+            "Implement VM replication to secondary datacenter or Azure region",
+            "Configure Azure Site Recovery replication policies",
+            "Protect virtual machines by using Hyper-V replicas",
+            "Configure Hyper-V hosts for replication",
+            "Manage Hyper-V replica servers",
+            "Configure VM replication",
+            "Perform a failover"
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Migrate servers and workloads",
-      "weight_percent": 20.0,
-      "objectives": []
+      "weight_percent": 22.5,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Migrate on-premises storage to on-premises servers or Azure",
+          "sub_objectives": [
+            "Transfer files, file shares, and security configurations by using Storage Migration Service (SMS)",
+            "Cut over to a new server by using Storage Migration Service (SMS)",
+            "Use Storage Migration Service to migrate to Azure VMs",
+            "Migrate to Azure file shares"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Migrate on-premises servers by using Azure Migrate",
+          "sub_objectives": [
+            "Deploy and configure Azure Migrate appliance",
+            "Migrate VM workloads to Azure VMs",
+            "Migrate physical servers to Azure VMs",
+            "Migrate workloads from previous Windows Server versions to the most current version",
+            "Choose an appropriate migration method",
+            "Migrate IIS workloads and configurations",
+            "Migrate Hyper-V hosts",
+            "Migrate Remote Desktop Services (RDS) host servers",
+            "Migrate Dynamic Host Configuration Protocol (DHCP) servers",
+            "Migrate print servers",
+            "Migrate by using an in-place upgrade"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Migrate IIS workloads to Azure",
+          "sub_objectives": [
+            "Assess IIS workloads by using Azure Migrate",
+            "Migrate IIS workloads to Azure Web Apps",
+            "Migrate IIS workloads to containers"
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Migrate an on-premises AD forest to Windows Server 2025",
+          "sub_objectives": [
+            "Choose an appropriate migration method",
+            "Implement a forest restructure",
+            "Migrate AD DS objects, including users, groups and Group Policies using AD Migration Tool",
+            "Migrate to a new Active Directory forest",
+            "Upgrade an existing forest, including setting functional levels"
+          ]
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "Monitor and troubleshoot Windows Server environments",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Monitor Windows Server by using Windows Server tools and Azure services",
+          "sub_objectives": [
+            "Monitor Windows Server by using Performance Monitor",
+            "Create and configure Data Collector Sets",
+            "Monitor servers and configure alerts by using Windows Admin Center",
+            "Analyze Windows Server system data by using System Insights",
+            "Manage event logs",
+            "Configure data collection rules for Azure Monitor",
+            "Create alerts",
+            "Monitor Azure VM performance by using VM Insights"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Troubleshoot Windows Server issues",
+          "sub_objectives": [
+            "Troubleshoot connectivity",
+            "Troubleshoot name resolution",
+            "Troubleshoot Windows Update",
+            "Troubleshoot Time Service",
+            "Troubleshoot deployment failures",
+            "Troubleshoot booting failures",
+            "Troubleshoot performance issues",
+            "Troubleshoot VM and Azure Arc extension issues",
+            "Troubleshoot disk encryption issues",
+            "Troubleshoot storage",
+            "Troubleshoot Active Directory",
+            "Restore objects from AD recycle bin",
+            "Recover Active Directory database using Directory Services Restore mode",
+            "Recover system volume (SYSVOL)",
+            "Troubleshoot Active Directory replication",
+            "Troubleshoot hybrid authentication and synchronization issues",
+            "Troubleshoot on-premises Active Directory"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

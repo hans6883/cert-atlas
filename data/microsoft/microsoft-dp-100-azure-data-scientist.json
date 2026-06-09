@@ -4,8 +4,8 @@
   "exam_code": "DP-100",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/",
+  "version": "as of April 11, 2025",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-100",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,9 +57,15 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "As a candidate for this exam, you should have subject matter expertise in applying data science and machine learning to implement and run machine learning workloads on Azure. Additionally, you should have knowledge of optimizing language models for AI applications using Azure AI.",
+  "recommended_experience": "Knowledge and experience in data science by using: Azure Machine Learning, MLflow, Azure AI services, including Azure AI Search, Azure AI Foundry",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Knowledge and experience in data science by using: Azure Machine Learning, MLflow, Azure AI services, including Azure AI Search, Azure AI Foundry",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 0,
     "max_attempts_per_year": 5,
@@ -68,28 +74,189 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Design and prepare a machine learning solution",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Explore data and train models",
-      "weight_percent": 35.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Prepare a model for deployment",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Deploy and retrain a model",
       "weight_percent": 25.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Design a machine learning solution",
+          "sub_objectives": [
+            "Identify the structure and format for datasets",
+            "Determine the compute specifications for machine learning workload",
+            "Select the development approach to train a model",
+            "Create and manage resources in an Azure Machine Learning workspace"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Create and manage a workspace",
+          "sub_objectives": [
+            "Create and manage datastores",
+            "Create and manage compute targets",
+            "Set up Git integration for source control",
+            "Create and manage assets in an Azure Machine Learning workspace"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Create and manage data assets",
+          "sub_objectives": [
+            "Create and manage environments",
+            "Share assets across workspaces by using registries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Explore data, and run experiments",
+      "weight_percent": 25.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Use automated machine learning to explore optimal models",
+          "sub_objectives": [
+            "Use automated machine learning for tabular data",
+            "Use automated machine learning for computer vision",
+            "Use automated machine learning for natural language processing"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Select and understand training options",
+          "sub_objectives": [
+            "Select and understand training options, including preprocessing and algorithms",
+            "Evaluate an automated machine learning run, including responsible AI guidelines"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Use notebooks for custom model training",
+          "sub_objectives": [
+            "Use the terminal to configure a compute instance",
+            "Access and wrangle data in notebooks",
+            "Wrangle data interactively with attached Synapse Spark pools and serverless Spark compute",
+            "Retrieve features from a feature store to train a model"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Track model training by using MLflow",
+          "sub_objectives": [
+            "Evaluate a model, including responsible AI guidelines",
+            "Automate hyperparameter tuning",
+            "Select a sampling method",
+            "Define the search space",
+            "Define the primary metric",
+            "Define early termination options"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Train and deploy models",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Run model training scripts",
+          "sub_objectives": [
+            "Consume data in a job",
+            "Configure compute for a job run",
+            "Configure an environment for a job run",
+            "Track model training with MLflow in a job run",
+            "Define parameters for a job",
+            "Run a script as a job"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Use logs to troubleshoot job run errors",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Implement training pipelines",
+          "sub_objectives": [
+            "Create custom components",
+            "Create a pipeline",
+            "Pass data between steps in a pipeline",
+            "Run and schedule a pipeline",
+            "Monitor and troubleshoot pipeline runs"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Manage models",
+          "sub_objectives": [
+            "Define the signature in the MLmodel file",
+            "Package a feature retrieval specification with the model artifact",
+            "Register an MLflow model",
+            "Assess a model by using responsible AI principles"
+          ]
+        },
+        {
+          "id": "3.5",
+          "title": "Deploy a model",
+          "sub_objectives": [
+            "Configure settings for online deployment",
+            "Deploy a model to an online endpoint",
+            "Test an online deployed service",
+            "Configure compute for a batch deployment",
+            "Deploy a model to a batch endpoint",
+            "Invoke the batch endpoint to start a batch scoring job"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Optimize language models for AI applications",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Prepare for model optimization",
+          "sub_objectives": [
+            "Select and deploy a language model from the model catalog",
+            "Compare language models using benchmarks",
+            "Test a deployed language model in the playground"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Optimize through prompt engineering and prompt flow",
+          "sub_objectives": [
+            "Test prompts with manual evaluation",
+            "Define and track prompt variants",
+            "Create prompt templates",
+            "Define chaining logic with the prompt flow SDK",
+            "Use tracing to evaluate your flow"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Optimize through Retrieval Augmented Generation (RAG)",
+          "sub_objectives": [
+            "Prepare data for RAG, including cleaning, chunking, and embedding",
+            "Configure a vector store",
+            "Configure an Azure AI Search-based index store",
+            "Evaluate your RAG solution"
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Optimize through fine-tuning",
+          "sub_objectives": [
+            "Prepare data for fine-tuning",
+            "Select an appropriate base model",
+            "Run a fine-tuning job",
+            "Evaluate your fine-tuned model"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

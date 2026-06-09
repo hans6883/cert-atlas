@@ -49,32 +49,42 @@
     {
       "id": "1",
       "name": "Severity Models",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [],
+      "weight_min": 2.5,
+      "weight_max": 7.5
     },
     {
       "id": "2",
       "name": "Frequency Models",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [],
+      "weight_min": 2.5,
+      "weight_max": 7.5
     },
     {
       "id": "3",
       "name": "Aggregate Loss Models",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [],
+      "weight_min": 2.5,
+      "weight_max": 7.5
     },
     {
       "id": "4",
       "name": "Coverage Modifications",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [],
+      "weight_min": 2.5,
+      "weight_max": 7.5
     },
     {
       "id": "5",
       "name": "Risk Measures",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 5.0,
+      "objectives": [],
+      "weight_min": 2.5,
+      "weight_max": 7.5
     },
     {
       "id": "6",
@@ -85,8 +95,10 @@
     {
       "id": "7",
       "name": "Credibility",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 22.5,
+      "objectives": [],
+      "weight_min": 20.0,
+      "weight_max": 25.0
     },
     {
       "id": "8",

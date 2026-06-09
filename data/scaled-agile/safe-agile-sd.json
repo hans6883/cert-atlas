@@ -35,7 +35,7 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": "team members across the value stream, including Software Engineers, Development Managers, Release Managers, QA Leads, Infrastructure Architects, Scrum Masters, Product Owners",
+  "target_audience": "team members across the value stream involved in building, testing, releasing, or supporting software-driven products",
   "recommended_experience": "Familiar with engineering and systems architect infrastructure.",
   "prerequisites": [
     {
@@ -52,34 +52,60 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "DevOps Culture and Principles",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "CALMR DevOps Approach",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand culture, automation, lean flow, measurement, and recovery in practice",
+          "sub_objectives": [
+            "Apply the CALMR approach to support sustainable delivery at scale."
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Continuous Delivery Pipeline",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Value Stream Mapping",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Execute value stream mapping and measure flow",
+          "sub_objectives": [
+            "Identify bottlenecks in the delivery pipeline."
+          ]
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Test Automation and Quality",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Continuous Exploration and Integration",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Integrate continuous exploration, integration, and deployment securely",
+          "sub_objectives": [
+            "Release value to end users on demand."
+          ]
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Release on Demand",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "CALMR Approach",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Creating a Transformation Plan",
+      "weight_percent": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Assess current state and design an actionable DevOps transformation plan",
+          "sub_objectives": [
+            "Tailor the plan to the organization."
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,
@@ -107,6 +133,7 @@
     "safe devops",
     "safe devops practitioner",
     "safe devops practitioner sdp",
+    "safe devops sdp",
     "safe-agile-sd",
     "sdp"
   ],

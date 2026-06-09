@@ -3,7 +3,7 @@
   "exam_name": "NREMT Advanced EMT (AEMT)",
   "exam_code": "AEMT",
   "certifying_body": "NREMT",
-  "certification_name": null,
+  "certification_name": "Advanced Emergency Medical Technician (AEMT)",
   "version": null,
   "source_url": "https://www.nremt.org/rwd/public/document/aemt",
   "passing_score": null,
@@ -33,8 +33,8 @@
   "renewal_options": "All NREMT certifications are valid for 2 years. Renewal requires 24 hours of continuing education (CE) or completion of a refresher course. CE must be submitted through the NREMT online portal. Paramedics must include specific topic hours as defined by NREMT requirements.",
   "continuing_education_units": 24,
   "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Advanced Emergency Medical Technicians (AEMTs)",
+  "recommended_experience": "EMT or equivalent experience",
   "prerequisites": [
     {
       "prerequisite_type": "recommended",
@@ -52,32 +52,42 @@
     {
       "id": "1",
       "name": "Airway, Respiration, and Ventilation",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 11.0,
+      "objectives": [],
+      "weight_min": 9.0,
+      "weight_max": 13.0
     },
     {
       "id": "2",
       "name": "Cardiology and Resuscitation",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.0,
+      "objectives": [],
+      "weight_min": 11.0,
+      "weight_max": 15.0
     },
     {
       "id": "3",
       "name": "Trauma",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 9.0,
+      "objectives": [],
+      "weight_min": 7.0,
+      "weight_max": 11.0
     },
     {
       "id": "4",
       "name": "Medical/Obstetrics/Gynecology",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 27.0,
+      "objectives": [],
+      "weight_min": 25.0,
+      "weight_max": 29.0
     },
     {
       "id": "5",
       "name": "EMS Operations",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 8.0,
+      "objectives": [],
+      "weight_min": 6.0,
+      "weight_max": 10.0
     }
   ],
   "official_objectives_url": null,
@@ -93,6 +103,7 @@
     }
   ],
   "aliases": [
+    "advanced emergency medical technician aemt",
     "advanced emt",
     "aemt",
     "nremt advanced emt aemt",

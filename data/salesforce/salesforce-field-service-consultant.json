@@ -3,11 +3,11 @@
   "exam_name": "Salesforce Certified Field Service Consultant",
   "exam_code": "Field Service Consultant",
   "certifying_body": "Salesforce",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://trailhead.salesforce.com/credentials/fieldserviceconsultant",
+  "certification_name": "Salesforce Certified Field Service Consultant",
+  "version": "Spring '23 release",
+  "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Field-Service-Consultant-Exam-Guide",
   "passing_score": 63,
-  "passing_score_scale": null,
+  "passing_score_scale": "Percentage",
   "total_questions": 60,
   "question_types": [
     "Multiple Choice",
@@ -41,8 +41,8 @@
     "French",
     "German"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Consultants who have experience implementing Salesforce Service Cloud and Salesforce Field Service",
+  "recommended_experience": "1-2 years as a business analyst, 1+ years in the field services industry, 2+ years of services and support experience",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 1,
@@ -52,52 +52,250 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Managing Resources",
       "weight_percent": 16.0,
-      "objectives": []
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Set up and manage crews",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Determine how and when to set up different resource types",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Given a scenario, recommend the appropriate Service Territories and their Members",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Explain the relationships between time sheets, time sheet entries, service resources, and Work Orders",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Demonstrate how to use skills, skill levels, and time-based skills",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Show how to use operating hours for service resources, accounts, Work Orders, and booking appointments",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Distinguish between Field Service license types and when to deploy them",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Managing Work Orders",
-      "weight_percent": 16.0,
-      "objectives": []
+      "weight_percent": 23.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Configure Work Order processes, parameters, and Work Types",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Given a scenario, choose the appropriate Resource Preferences",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Apply Products Required to a Work Order",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Analyze how and when to use Work Order Line Items",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Illustrate how to configure Work Order Milestones",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Given a scenario, recommend the appropriate relationship between Service Appointments, Work Orders, and Work Order Line Items",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Configuring Mobility",
-      "weight_percent": 9.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Utilizing Inventory Management",
-      "weight_percent": 11.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Defining Service Territories and Locations",
-      "weight_percent": 9.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
+      "id": "3.0",
       "name": "Managing Scheduling and Optimization",
-      "weight_percent": 15.0,
-      "objectives": []
+      "weight_percent": 28.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Understand different field service settings for SFS Administrator",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Given a scenario, choose the appropriate action to manage a Service Appointment",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Given a scenario, apply the appropriate lifecycle of a Service Appointment required to execute a Work Order",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Decide on the appropriate Schedule Policy to achieve the business requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Given a scenario, determine the appropriate option to execute Complex Work in SFS",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Explain the difference between a multi-day Service Appointment and a standard Service Appointment",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Outline the differences between aerial versus street-level routing",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Given a scenario, determine the appropriate dispatch strategy for an organization",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.9",
+          "title": "Compare different filtering options for the Dispatcher Console",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.10",
+          "title": "Explain how to set up optimization",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.11",
+          "title": "Given a scenario, decide the appropriate type of scheduling service to use",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.12",
+          "title": "Given a scenario, decide the appropriate type of optimization service to use",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.13",
+          "title": "Understand the usage of Salesforce Field Service for DateTime tracking fields",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
-      "name": "Configuring Dispatcher Console",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Configuring Mobility",
+      "weight_percent": 10.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Assess the requirements and tools needed to execute a customer sign-off process",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Given a scenario, configure the Field Service app to support key business processes",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Distinguish between Field Service Mobile and Salesforce Mobile app capabilities",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Understand the available SFS Mobile settings",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
-      "name": "Managing the Field Service Workflow",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "5.0",
+      "name": "Managing Inventory",
+      "weight_percent": 8.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Given business requirements, distinguish the appropriate price book model for products consumed",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Given business requirements, justify which define the applicable inventory model",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Explain the Return Order object model and process",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Managing Assets",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Apply procedural concepts to maintain and update assets and asset relationships",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Configuring Maintenance Plans",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Given a scenario, recommend the appropriate maintenance plan",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Permissions and Sharing",
+      "weight_percent": 5.0,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Understand use cases for different types of SFS permission sets",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Explain how scheduled Service Appointments are shared with service resources",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Understand the differences between user territories and service territories",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

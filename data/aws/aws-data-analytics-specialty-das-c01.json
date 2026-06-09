@@ -5,7 +5,7 @@
   "certifying_body": "AWS",
   "certification_name": null,
   "version": null,
-  "source_url": "https://aws.amazon.com/certification/certified-data-analytics-specialty/",
+  "source_url": "https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Exam-Guide.pdf",
   "passing_score": 750,
   "passing_score_scale": "100-1000",
   "total_questions": 65,
@@ -55,7 +55,38 @@
     "max_attempts_total": null,
     "notes": "After first failed attempt: 14-day waiting period. After each subsequent failed attempt: additional 14-day waiting period. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Collection",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Storage and Data Management",
+      "weight_percent": 22.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Processing",
+      "weight_percent": 24.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Analysis and Visualization",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security",
+      "weight_percent": 18.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Exam-Guide.pdf",
   "official_study_resources": [
     {

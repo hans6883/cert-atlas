@@ -3,7 +3,7 @@
   "exam_name": "Databricks Certified Machine Learning Associate",
   "exam_code": "ML Associate",
   "certifying_body": "Databricks",
-  "certification_name": null,
+  "certification_name": "Databricks Certified Machine Learning Associate",
   "version": null,
   "source_url": "https://www.databricks.com/learn/certification/machine-learning-associate",
   "passing_score": 70,
@@ -37,7 +37,7 @@
     "English"
   ],
   "target_audience": null,
-  "recommended_experience": null,
+  "recommended_experience": "6+ months of hands-on experience performing the machine learning tasks outlined in the exam guide",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -47,31 +47,55 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Databricks ML",
-      "weight_percent": 29.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Databricks Machine Learning",
+      "weight_percent": 38.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand and use Databricks and its machine learning capabilities like AutoML, Unity Catalog and select features of MLflow",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "ML Workflows",
-      "weight_percent": 29.0,
-      "objectives": []
+      "weight_percent": 19.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Explore data and perform feature engineering",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Feature Engineering",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Model Development",
+      "weight_percent": 31.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Model building through training, tuning and evaluation and selection",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Model Lifecycle Management",
-      "weight_percent": 22.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Model Deployment",
+      "weight_percent": 12.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Deploy machine learning models",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://Machine Learning Associate Exam Guide",
   "official_study_resources": [
     {
       "resource_type": "online_course",

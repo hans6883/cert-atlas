@@ -49,14 +49,18 @@
     {
       "id": "1",
       "name": "Business Analysis",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 45.0,
+      "objectives": [],
+      "weight_min": 40.0,
+      "weight_max": 50.0
     },
     {
       "id": "2",
       "name": "Technical Accounting and Reporting",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 40.0,
+      "objectives": [],
+      "weight_min": 35.0,
+      "weight_max": 45.0
     }
   ],
   "official_objectives_url": null,

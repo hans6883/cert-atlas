@@ -4,8 +4,8 @@
   "exam_code": "AZ-500",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
+  "version": "as of January 22, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Azure security engineer",
+  "recommended_experience": "Practical experience in administration of Microsoft Azure and hybrid environments. Strong familiarity with Microsoft Entra ID, as well as compute, network, and storage in Azure.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,487 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Manage identity and access",
-      "weight_percent": 30.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Secure identity and access",
+      "weight_percent": 15.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Manage security controls for identity and access",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Manage Azure built-in role assignments",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Manage custom roles, including Azure roles and Microsoft Entra roles",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Plan and manage Azure resources in Microsoft Entra Privileged Identity Management, including settings and assignments",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Implement multi-factor authentication (MFA) for access to Azure resources",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Implement Conditional Access policies for cloud resources in Azure",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Manage Microsoft Entra application access and managed identities",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Manage access to enterprise applications in Microsoft Entra ID, including OAuth permission grants",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Manage Microsoft Entra app registrations",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Configure app registration permission scopes",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Manage app registration permission consent",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.12",
+          "title": "Manage and use service principals",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.13",
+          "title": "Manage managed identities",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Secure networking",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Plan and implement security for virtual networks",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Plan and implement Network Security Groups (NSGs) and Application Security Groups (ASGs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Manage virtual networks by using Azure Virtual Network Manager",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Plan and implement user-defined routes (UDRs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Plan and implement Virtual Network peering or VPN gateway",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Plan and implement Virtual WAN, including secured virtual hub",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Secure VPN connectivity, including point-to-site and site-to-site",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Implement encryption over ExpressRoute",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Configure firewall settings on Azure resources",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.10",
+          "title": "Monitor network security by using Network Watcher",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.11",
+          "title": "Plan and implement security for private access to Azure resources",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.12",
+          "title": "Plan and implement virtual network Service Endpoints",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.13",
+          "title": "Plan and implement Private Endpoints",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.14",
+          "title": "Plan and implement Private Link services",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.15",
+          "title": "Plan and implement network integration for Azure App Service and Azure Functions",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.16",
+          "title": "Plan and implement network security configurations for an App Service Environment (ASE)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.17",
+          "title": "Plan and implement network security configurations for an Azure SQL Managed Instance",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.18",
+          "title": "Plan and implement security for public access to Azure resources",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.19",
+          "title": "Plan and implement Transport Layer Security (TLS) to applications, including Azure App Service and API Management",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.20",
+          "title": "Plan, implement, and manage an Azure Firewall, including Azure Firewall Manager and firewall policies",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.21",
+          "title": "Plan and implement an Azure Application Gateway",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.22",
+          "title": "Plan and implement an Azure Front Door, including Content Delivery Network (CDN)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.23",
+          "title": "Plan and implement a Web Application Firewall (WAF)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.24",
+          "title": "Recommend when to use Azure DDoS Protection Standard",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Secure compute, storage, and databases",
-      "weight_percent": 25.0,
-      "objectives": []
+      "weight_percent": 20.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Plan and implement advanced security for compute",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Plan and implement remote access to virtual machines, including Azure Bastion and just-in-time (JIT) VM access",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Configure network isolation for Azure Kubernetes Service (AKS)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Secure and monitor AKS",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Configure authentication for AKS",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Configure security monitoring for Azure Container Instances (ACIs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Configure security monitoring for Azure Container Apps (ACAs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Manage access to Azure Container Registry (ACR)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.9",
+          "title": "Configure disk encryption, including Azure Disk Encryption (ADE), encryption at host, and confidential disk encryption",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.10",
+          "title": "Recommend security configurations for Azure API Management",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.11",
+          "title": "Plan and implement security for storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.12",
+          "title": "Configure access control for storage accounts",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.13",
+          "title": "Manage storage account access keys",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.14",
+          "title": "Select and configure an appropriate method for access to Azure Files",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.15",
+          "title": "Select and configure an appropriate method for access to Azure Blob Storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.16",
+          "title": "Select and configure appropriate methods for protecting against data security threats, including soft delete, backups, versioning, and immutable storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.17",
+          "title": "Configure Bring your own key (BYOK)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.18",
+          "title": "Enable double encryption at the Azure Storage infrastructure level",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.19",
+          "title": "Plan and implement security for Azure SQL Database and Azure SQL Managed Instance",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.20",
+          "title": "Enable Microsoft Entra database authentication",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.21",
+          "title": "Enable database auditing",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.22",
+          "title": "Plan and implement dynamic masking",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.23",
+          "title": "Implement Transparent Data Encryption (TDE)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.24",
+          "title": "Recommend when to use Azure SQL Database Always Encrypted",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Manage security operations",
-      "weight_percent": 25.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel",
+      "weight_percent": 30.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Implement and manage enforcement of cloud governance policies",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Create, assign, and interpret policies and initiatives in Azure Policy",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Configure Azure Key Vault network settings",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Configure access to Key Vault, including vault access policies and Azure Role Based Access Control",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Manage certificates, secrets, and keys",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Configure key rotation",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Perform backup and recovery of certificates, secrets, and keys",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Implement security controls to protect backups",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.9",
+          "title": "Implement security controls for asset management",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.10",
+          "title": "Manage security posture by using Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.11",
+          "title": "Identify and remediate security risks by using the Microsoft Defender for Cloud Secure Score and Inventory",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.12",
+          "title": "Assess compliance against security frameworks by using Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.13",
+          "title": "Manage compliance standards in Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.14",
+          "title": "Add custom standards to Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.15",
+          "title": "Connect hybrid cloud and multi-cloud environments to Microsoft Defender for Cloud, including Amazon Web Services (AWS) and Google Cloud Platform (GCP)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.16",
+          "title": "Implement and use Microsoft Defender External Attack Surface Management (EASM)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.17",
+          "title": "Configure and manage threat protection by using Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.18",
+          "title": "Enable cloud workload protection plans in Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.19",
+          "title": "Configure Microsoft Defender for Servers, Microsoft Defender for Databases, and Microsoft Defender for Storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.20",
+          "title": "Implement and manage agentless scanning for virtual machines in Microsoft Defender for Servers",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.21",
+          "title": "Implement and manage Microsoft Defender Vulnerability Management for Azure virtual machines",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.22",
+          "title": "Connect to and configure settings in Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.23",
+          "title": "Devops Security, including GitHub, Azure DevOps, and GitLab",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.24",
+          "title": "Configure and manage security monitoring and automation solutions",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.25",
+          "title": "Manage and respond to security alerts in Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.26",
+          "title": "Configure workflow automation by using Microsoft Defender for Cloud",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.27",
+          "title": "Monitor network security events and performance data by configuring data collection rules (DCRs) in Azure Monitor",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.28",
+          "title": "Configure data connectors in Microsoft Sentinel",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.29",
+          "title": "Enable analytics rules in Microsoft Sentinel",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.30",
+          "title": "Configure automation in Microsoft Sentinel",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

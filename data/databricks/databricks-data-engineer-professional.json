@@ -3,7 +3,7 @@
   "exam_name": "Databricks Certified Data Engineer Professional",
   "exam_code": "Data Engineer Professional",
   "certifying_body": "Databricks",
-  "certification_name": null,
+  "certification_name": "Databricks Certified Data Engineer Professional",
   "version": null,
   "source_url": "https://www.databricks.com/learn/certification/data-engineer-professional",
   "passing_score": 70,
@@ -37,7 +37,7 @@
     "English"
   ],
   "target_audience": null,
-  "recommended_experience": null,
+  "recommended_experience": "hands-on experience performing the data engineering tasks outlined in the exam guide.",
   "prerequisites": [
     {
       "prerequisite_type": "recommended_certification",
@@ -53,43 +53,67 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Databricks Tooling",
-      "weight_percent": 20.0,
+      "id": "1.0",
+      "name": "Developing Code for Data Processing using Python and SQL",
+      "weight_percent": 22.0,
       "objectives": []
     },
     {
-      "id": "2",
-      "name": "Data Processing",
-      "weight_percent": 30.0,
+      "id": "2.0",
+      "name": "Data Ingestion & Acquisition",
+      "weight_percent": 7.0,
       "objectives": []
     },
     {
-      "id": "3",
-      "name": "Data Modeling",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Security and Governance",
+      "id": "3.0",
+      "name": "Data Transformation, Cleansing, and Quality",
       "weight_percent": 10.0,
       "objectives": []
     },
     {
-      "id": "5",
-      "name": "Monitoring and Logging",
+      "id": "4.0",
+      "name": "Data Sharing and Federation",
+      "weight_percent": 5.0,
+      "objectives": []
+    },
+    {
+      "id": "5.0",
+      "name": "Monitoring and Alerting",
       "weight_percent": 10.0,
       "objectives": []
     },
     {
-      "id": "6",
-      "name": "Testing and Deployment",
+      "id": "6.0",
+      "name": "Cost & Performance Optimisation",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "7.0",
+      "name": "Ensuring Data Security and Compliance",
       "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "8.0",
+      "name": "Data Governance",
+      "weight_percent": 7.0,
+      "objectives": []
+    },
+    {
+      "id": "9.0",
+      "name": "Debugging and Deploying",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "10.0",
+      "name": "Data Modelling",
+      "weight_percent": 6.0,
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.databricks.com/exam-delivery-platform",
   "official_study_resources": [
     {
       "resource_type": "online_course",

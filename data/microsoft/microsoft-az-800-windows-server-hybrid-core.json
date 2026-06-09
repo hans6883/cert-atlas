@@ -5,7 +5,7 @@
   "certifying_body": "Microsoft",
   "certification_name": null,
   "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-800",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
   "total_questions": 40,
@@ -57,8 +57,8 @@
     "Arabic",
     "Indonesian"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "As a candidate for this exam, you’re responsible for administering Windows Server as a workload in both on-premises and hybrid environments.",
+  "recommended_experience": "As a candidate for this exam, you should have several years of experience with Windows Server operating systems.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -68,28 +68,629 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Deploy and manage Windows Server IaaS VMs",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Deploy and manage Active Directory Domain Services (AD DS) in on-premises and cloud environments (30–35%)",
+      "weight_percent": 32.5,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Deploy and manage domain controllers on-premises",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Deploy and manage domain controllers in Azure",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Deploy read-only domain controllers (RODCs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Manage and troubleshoot flexible single master operation (FSMO) roles",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Configure and manage multi-site, multi-domain, and multi-forest environments",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Configure and manage forest and domain trusts",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Configure and manage AD DS sites",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Configure and manage AD DS replication",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Create and manage AD DS security principals",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Create and manage AD DS users and groups",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Manage users and groups in multi-domain and multi-forest scenarios",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.12",
+          "title": "Choose a service account type",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.13",
+          "title": "Implement service accounts",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.14",
+          "title": "Join Windows Servers to AD DS, Microsoft Entra Domain Services, and Microsoft Entra",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.15",
+          "title": "Implement and manage hybrid identities",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.16",
+          "title": "Integrate Microsoft Entra ID, AD DS and Microsoft Entra Domain Services",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.17",
+          "title": "Implement and manage Microsoft Entra Connect Sync",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.18",
+          "title": "Implement and manage Microsoft Entra Cloud Sync",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.19",
+          "title": "Implement and manage Microsoft Entra Domain Services",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.20",
+          "title": "Implement and manage Microsoft Entra Connect Health",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.21",
+          "title": "Manage authentication in on-premises and hybrid environments",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.22",
+          "title": "Enable staged rollout features",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.23",
+          "title": "Manage Windows Server by using domain-based Group Policies",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.24",
+          "title": "Implement Group Policy in AD DS",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.25",
+          "title": "Implement Group Policy Preferences in AD DS",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.26",
+          "title": "Implement Group Policy in Microsoft Entra Domain Services",
+          "sub_objectives": []
+        }
+      ],
+      "weight_min": 30.0,
+      "weight_max": 35.0
     },
     {
-      "id": "2",
-      "name": "Implement and manage on-premises and hybrid networking infrastructure",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Manage Windows Servers and workloads in a hybrid environment (10–15%)",
+      "weight_percent": 12.5,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Configure remote management for Windows Servers in a hybrid environment",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Implement Windows Admin Center on premises and in Azure",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Configure PowerShell remoting, including second hop",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Configure Just Enough Administration (JEA) for PowerShell remoting",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Configure and manage remote SSH access",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Configure and manage Remote Desktop Protocol (RDP) access",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Manage Windows Servers and workloads by using Azure services",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Install the Azure Connected Machine Agent to support Azure Arc",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Implement Azure Machine Configuration",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.10",
+          "title": "Deploy Azure services using VM extensions on Azure Arc-enabled servers",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.11",
+          "title": "Manage updates by using Azure Update Manager",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.12",
+          "title": "Implement Azure Automation for hybrid workloads",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.13",
+          "title": "Create Azure Automation runbooks",
+          "sub_objectives": []
+        }
+      ],
+      "weight_min": 10.0,
+      "weight_max": 15.0
     },
     {
-      "id": "3",
-      "name": "Manage Windows Server and workloads in a hybrid environment",
-      "weight_percent": 40.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Manage virtual machines and containers (15–20%)",
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Manage Hyper-V and guest virtual machines",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Enable Enhanced session mode",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Manage VMs using PowerShell remoting, PowerShell Direct and Secure Shell (SSH) Direct for Linux VMs",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Enable nested virtualization",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Configure VM memory",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Configure integration services",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Configure Discrete Device Assignment",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Configure GPU partitioning",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.9",
+          "title": "Configure VM resource groups, CPU groups, and hypervisor scheduling types",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.10",
+          "title": "Manage VM checkpoints",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.11",
+          "title": "Implement high availability for Hyper-V virtual machines",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.12",
+          "title": "Manage Hyper-V virtual hard disks",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.13",
+          "title": "Configure Hyper-V Network Adapter",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.14",
+          "title": "Configure network interface card (NIC) Teaming on the Hyper-V host and virtual machine",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.15",
+          "title": "Configure Hyper-V Switch",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.16",
+          "title": "Configure a guarded fabric and shielded VMs",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.17",
+          "title": "Move secure virtual machines between Hyper-V hosts",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.18",
+          "title": "Create and manage containers",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.19",
+          "title": "Prepare Windows Server as a container host",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.20",
+          "title": "Configure Windows subsystem for Linux to support containers for running Linux",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.21",
+          "title": "Create Windows Server container images",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.22",
+          "title": "Manage Windows Server container images",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.23",
+          "title": "Configure container networking",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.24",
+          "title": "Manage container instances",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.25",
+          "title": "Configure Azure Kubernetes Service (AKS) on Windows Server",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.26",
+          "title": "Manage Windows Server virtual machines on Azure",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.27",
+          "title": "Manage storage for Windows Server virtual machines on Azure",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.28",
+          "title": "Manage capacity, including resizing and VM scale sets",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.29",
+          "title": "Manage availability sets and availability zones",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.30",
+          "title": "Configure and manage Just in Time (JIT) VM access and Azure Bastion",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.31",
+          "title": "Manage Azure VM network configuration",
+          "sub_objectives": []
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 20.0
     },
     {
-      "id": "4",
-      "name": "Manage virtual machines and containers",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Implement and manage an on-premises and hybrid networking infrastructure (15–20%)",
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Implement on-premises and hybrid name resolution",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Integrate DNS with AD DS",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Create and manage DNS zones and records",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Configure DNS forwarding and conditional forwarding",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Integrate Windows Server DNS with Azure Public DNS, Azure Private DNS, and Azure DNS Private Resolver",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Implement Windows Server DNS policies",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Implement Domain Name System Security Extensions (DNSSEC)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Manage IP addressing in on-premises and hybrid scenarios",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.9",
+          "title": "Implement and manage IP Address Management (IPAM)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.10",
+          "title": "Implement and configure the Dynamic Host Configuration protocol (DHCP) server role",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.11",
+          "title": "Resolve IP address issues in hybrid environments",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.12",
+          "title": "Create and manage DHCP scopes",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.13",
+          "title": "Create and manage IP reservations",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.14",
+          "title": "Implement DHCP high availability",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.15",
+          "title": "Implement on-premises and hybrid network connectivity",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.16",
+          "title": "Implement and manage the Remote Access role",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.17",
+          "title": "Implement and manage Azure Network Adapter",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.18",
+          "title": "Implement and manage Azure extended network",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.19",
+          "title": "Implement and manage the Network Policy and Access Services role",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.20",
+          "title": "Implement Web Application Proxy",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.21",
+          "title": "Implement site-to-site VPN",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.22",
+          "title": "Implement Azure Relay",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.23",
+          "title": "Implement Microsoft Entra Private Access",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.24",
+          "title": "Implement Microsoft Entra Application Proxy",
+          "sub_objectives": []
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 20.0
+    },
+    {
+      "id": "5.0",
+      "name": "Manage storage and file services (15–20%)",
+      "weight_percent": 17.5,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Configure and manage Azure Files",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Create and manage Azure File Shares",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Manage permissions for Azure File Shares",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Configure and manage Azure File Sync",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Monitor File Sync",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Migrate Distributed File System (DFS) to Azure File Sync",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.7",
+          "title": "Configure and manage Windows Server file shares",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.8",
+          "title": "Configure Windows Server file share access",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.9",
+          "title": "Configure file server resource manager (FSRM)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.10",
+          "title": "Configure BranchCache",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.11",
+          "title": "Implement and configure Distributed File System (DFS)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.12",
+          "title": "Configure and manage Server Message Block (SMB) over QUIC",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.13",
+          "title": "Configure and manage Server Message Block (SMB) options",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.14",
+          "title": "Configure Windows Server storage",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.15",
+          "title": "Configure disks and volumes",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.16",
+          "title": "Configure and manage Storage Spaces",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.17",
+          "title": "Configure and manage Storage Replica",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.18",
+          "title": "Configure Data Deduplication",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.19",
+          "title": "Configure Server Message Block (SMB) direct",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.20",
+          "title": "Configure Storage QoS",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.21",
+          "title": "Configure file systems",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.22",
+          "title": "Configure and manage iSCSI",
+          "sub_objectives": []
+        }
+      ],
+      "weight_min": 15.0,
+      "weight_max": 20.0
     }
   ],
   "official_objectives_url": null,

@@ -55,26 +55,34 @@
     {
       "id": "1",
       "name": "Steering systems",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 30.0
     },
     {
       "id": "2",
       "name": "Suspension systems",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 30.0
     },
     {
       "id": "3",
       "name": "Wheel alignment",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 27.5,
+      "objectives": [],
+      "weight_min": 27.5,
+      "weight_max": 27.5
     },
     {
       "id": "4",
       "name": "Wheels and tires",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 12.5,
+      "objectives": [],
+      "weight_min": 12.5,
+      "weight_max": 12.5
     }
   ],
   "official_objectives_url": null,

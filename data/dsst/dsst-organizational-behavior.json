@@ -33,20 +33,26 @@
     {
       "id": "1",
       "name": "Individual Behavior",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 30.0
     },
     {
       "id": "2",
       "name": "Group Dynamics",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 30.0,
+      "objectives": [],
+      "weight_min": 30.0,
+      "weight_max": 30.0
     },
     {
       "id": "3",
       "name": "Organizational Structure",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 15.0,
+      "objectives": [],
+      "weight_min": 15.0,
+      "weight_max": 15.0
     },
     {
       "id": "4",

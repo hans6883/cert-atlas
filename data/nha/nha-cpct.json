@@ -3,45 +3,55 @@
   "exam_name": "Certified Patient Care Technician/Assistant (CPCT/A)",
   "exam_code": "CPCT/A",
   "certifying_body": "NHA",
-  "certification_name": null,
+  "certification_name": "Certified Patient Care Technician/Assistant",
   "version": null,
   "source_url": "https://www.nhanow.com/certifications/patient-care-technician",
   "passing_score": 390,
-  "passing_score_scale": "390/500 scaled score",
+  "passing_score_scale": null,
   "total_questions": 150,
   "question_types": [
     "Multiple Choice (single best answer)"
   ],
-  "exam_format": "Linear fixed-form computer-based test (CBT)",
+  "exam_format": "Computer-based testing (CBT), fixed-form. 100-150 questions depending on exam. Scaled scoring (390 passing out of 500).",
   "duration_minutes": 165,
   "exam_price_usd": 155.0,
-  "exam_price_notes": "$155 exam fee.",
+  "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": "https://www.nhanow.com/certifications",
+  "exam_registration_url": null,
   "testing_centers": [
     {
-      "provider": "PSI Testing Centers",
+      "provider": "PSI or NHA-approved test centers / online proctoring",
       "scheduling_url": "https://www.nhanow.com/certifications",
-      "notes": "PSI testing centers nationwide; online remote proctoring also available"
+      "notes": "Most exams are computer-based (linear fixed-form). Some available via live remote proctoring. NCCA accredited. Results often immediate or within days."
     }
   ],
   "online_proctoring_available": true,
-  "id_requirements": "Government-issued photo ID required. Name must match NHA registration exactly. Secondary ID may be requested at test center.",
-  "exam_rules": "Closed-book computer-based test. On-screen calculator provided where applicable. No personal items permitted in testing room. Score scale 200–500; passing score is 390.",
+  "id_requirements": "Government-issued photo ID required at check-in. Must match name on registration exactly.",
+  "exam_rules": "Closed book. No notes, phones, or reference materials. Calculators provided on-screen if needed. Follow all test center or remote proctoring rules.",
   "certification_validity_years": 2,
   "renewal_required": true,
-  "renewal_options": "2-year certification validity. Renewal requires 10 CE credits per 2-year cycle. CE can be completed through NHA online platform or approved providers. Renewal application submitted through NHA candidate portal.",
-  "continuing_education_units": null,
+  "renewal_options": "Every 2 years via online portal. Requires 10 continuing education (CE) credits per cycle. CE can be earned through NHA courses or approved providers. Renewal fee applies.",
+  "continuing_education_units": 10,
   "available_languages": [
     "English",
-    "Spanish"
+    "Spanish (select exams)"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Patient care technicians and assistants",
+  "recommended_experience": "Possess a high school diploma or GED/high school equivalency; or are scheduled to earn a high school diploma or GED/high school equivalency in the next 12 months. Completed a patient care technician training or education program within the last 5 years OR possess a high school diploma or GED/high school equivalency with 1 year of supervised work experience in a patient care technician field within the last 3 years OR 2 years of supervised work experience in a patient care technician field within the last 5 years.",
   "prerequisites": [
     {
+      "prerequisite_type": "experience",
+      "description": "1 year of supervised work experience in a patient care technician field within the last 3 years OR 2 years of supervised work experience in a patient care technician field within the last 5 years",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "training",
+      "description": "Completed a patient care technician training or education program within the last 5 years",
+      "is_required": true
+    },
+    {
       "prerequisite_type": "education",
-      "description": "Completion of an NHA-recognized patient care technician program or 1 year of recent work experience as a patient care technician or assistant",
+      "description": "Possess a high school diploma or GED/high school equivalency; or are scheduled to earn a high school diploma or GED/high school equivalency in the next 12 months",
       "is_required": true
     }
   ],
@@ -49,62 +59,81 @@
     "waiting_period_days": 30,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
-    "notes": "Candidates must wait 30 days before retaking an NHA exam. Full exam fee required for each retake attempt."
+    "notes": "Full exam fee charged for each retake. No limit specified beyond waiting period."
   },
   "domains": [
     {
       "id": "1",
-      "name": "Patient Care and Hygiene",
-      "weight_percent": null,
+      "name": "Patient Care and Safety",
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Vital Signs Monitoring",
-      "weight_percent": null,
+      "name": "Vital Signs and Patient Monitoring",
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Patient Communication and Safety",
-      "weight_percent": null,
+      "name": "Phlebotomy and Specimen Collection",
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Patient Mobility Assistance",
-      "weight_percent": null,
+      "name": "EKG and Cardiac Monitoring",
+      "weight_percent": 15.0,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Infection Control and Professionalism",
-      "weight_percent": null,
+      "name": "Infection Control and Professional Responsibilities",
+      "weight_percent": 25.0,
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nhanow.com/certifications/patient-care-technician",
   "official_study_resources": [
     {
-      "resource_type": "pdf",
-      "title": "NHA Exam Content Outline",
-      "url": "https://www.nhanow.com/certifications",
-      "provider": "NHA",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free content outlines per certification available on NHA website"
-    },
-    {
-      "resource_type": "practice_exam",
-      "title": "NHA Practice Tests",
-      "url": "https://www.nhanow.com/study-materials",
+      "resource_type": "official_study_guide",
+      "title": "CPCT/A Online Study Guide",
+      "url": null,
       "provider": "NHA",
       "is_official": true,
       "price_usd": null,
-      "notes": "Official NHA study materials and practice tests available for purchase"
+      "notes": "This engaging online study guide provides contemporary learning tools such as interactive games, quizzes, flashcards, and professionalism tips from experts in the field."
+    },
+    {
+      "resource_type": "practice_exam",
+      "title": "CPCT/A Practice Tests",
+      "url": null,
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Prepare for your patient care technician certification exam with a set of two different online practice tests. Each practice test allows up to two attempts each."
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CPCT/A Preparation Package",
+      "url": null,
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "This special package includes robust interactive study materials and a patient care technician certification study guide, along with the practice test. (Best value!)"
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "CPCT/A Test Plan",
+      "url": null,
+      "provider": "NHA",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "This free study aide maps out key concepts you will see on the CPCT/A exam."
     }
   ],
   "aliases": [
+    "certified patient care technician assistant",
     "certified patient care technician assistant cpct a",
     "cpct a",
     "cpct exam",

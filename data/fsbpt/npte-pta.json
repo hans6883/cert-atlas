@@ -53,38 +53,50 @@
     {
       "id": "1",
       "name": "Musculoskeletal",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 25.4,
+      "objectives": [],
+      "weight_min": 22.1,
+      "weight_max": 28.6
     },
     {
       "id": "2",
       "name": "Neuromuscular and Nervous System",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 22.1,
+      "objectives": [],
+      "weight_min": 19.3,
+      "weight_max": 25.0
     },
     {
       "id": "3",
       "name": "Cardiovascular and Pulmonary",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 16.8,
+      "objectives": [],
+      "weight_min": 14.3,
+      "weight_max": 19.3
     },
     {
       "id": "4",
       "name": "Non-Systems (safety, equipment, professional development)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 19.3,
+      "objectives": [],
+      "weight_min": 15.7,
+      "weight_max": 22.9
     },
     {
       "id": "5",
       "name": "Integumentary (skin/wound)",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 3.9,
+      "objectives": [],
+      "weight_min": 2.1,
+      "weight_max": 5.7
     },
     {
       "id": "6",
       "name": "Other Systems",
-      "weight_percent": null,
-      "objectives": []
+      "weight_percent": 13.6,
+      "objectives": [],
+      "weight_min": 7.9,
+      "weight_max": 19.3
     }
   ],
   "official_objectives_url": null,

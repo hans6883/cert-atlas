@@ -3,7 +3,7 @@
   "exam_name": "Hugging Face AI Agents Course",
   "exam_code": "HF-AGENTS",
   "certifying_body": "Hugging Face",
-  "certification_name": "AI Agents Course Certificate of Completion",
+  "certification_name": "AI Agents Course Certification",
   "version": null,
   "source_url": "https://huggingface.co/learn/agents-course",
   "passing_score": null,
@@ -17,7 +17,7 @@
   "exam_format": "Self-paced online courses with interactive notebooks and final challenges",
   "duration_minutes": null,
   "exam_price_usd": null,
-  "exam_price_notes": "The certification process is completely free.",
+  "exam_price_notes": null,
   "voucher_url": null,
   "exam_registration_url": null,
   "testing_centers": [
@@ -37,12 +37,12 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": "Students and professionals interested in AI agents.",
-  "recommended_experience": "Basic knowledge of Python and LLMs.",
+  "target_audience": "Students and professionals interested in AI agents",
+  "recommended_experience": "Basic knowledge of Python and LLMs",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
-      "description": "Basic knowledge of Python and LLMs.",
+      "description": "Basic knowledge of Python and LLMs",
       "is_required": true
     }
   ],
@@ -54,59 +54,59 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Agent Fundamentals",
       "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
-          "title": "Explain Tools, Thoughts, Actions, Observations, and their formats.",
+          "title": "Explain Tools, Thoughts, Actions, Observations, and their formats",
           "sub_objectives": []
         },
         {
           "id": "1.2",
-          "title": "Explain LLMs, messages, special tokens and chat templates.",
+          "title": "Explain LLMs, messages, special tokens and chat templates",
           "sub_objectives": []
         },
         {
           "id": "1.3",
-          "title": "Show a simple use case using python functions as tools.",
+          "title": "Show a simple use case using python functions as tools",
           "sub_objectives": []
         }
       ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Frameworks",
       "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
-          "title": "Understand how the fundamentals are implemented in popular libraries: smolagents, LangGraph, LLamaIndex.",
+          "title": "Understand how the fundamentals are implemented in popular libraries: smolagents, LangGraph, LLamaIndex",
           "sub_objectives": []
         }
       ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Use Cases",
       "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
-          "title": "Build real-life use cases using AI agent libraries.",
+          "title": "Build real-life use cases",
           "sub_objectives": []
         }
       ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Final Assignment",
       "weight_percent": null,
       "objectives": [
         {
           "id": "4.1",
-          "title": "Build an agent for a selected benchmark and prove your understanding of Agents on the student leaderboard.",
+          "title": "Build an agent for a selected benchmark and prove your understanding of Agents on the student leaderboard",
           "sub_objectives": []
         }
       ]
@@ -116,16 +116,18 @@
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
-      "title": "Hugging Face AI Agents Course Documentation",
-      "url": "https://huggingface.co/learn/ai-agents-course",
+      "title": "AI Agents Course Documentation",
+      "url": "https://huggingface.co/ai-agents-course",
       "provider": "Hugging Face",
       "is_official": true,
-      "price_usd": null,
-      "notes": "Free course documentation with hands-on examples and assignments."
+      "price_usd": 0.0,
+      "notes": "The course is free to access."
     }
   ],
   "aliases": [
+    "ai agents course certificate",
     "ai agents course certificate of completion",
+    "ai agents course certification",
     "hf-agents",
     "hugging face ai agents course",
     "hugging face ai agents course certificate of completion",
