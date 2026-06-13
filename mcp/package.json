@@ -1,6 +1,6 @@
 {
   "name": "cert-atlas-mcp",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "MCP server for Cert Atlas — the open index of 1,580 certification exam blueprints (domains, weights, passing scores, prerequisites, renewal) across 222 certifying bodies. Lets AI agents search exams, pull full blueprints, and compare certifications.",
   "mcpName": "io.github.hans6883/cert-atlas",
   "type": "module",
@@ -50,7 +50,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
