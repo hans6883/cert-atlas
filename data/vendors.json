@@ -1,7 +1,15 @@
 {
-  "generated": "2026-06-09",
+  "generated": "2026-06-18",
   "total_vendors": 223,
   "vendors": [
+    {
+      "vendor_id": "servicenow",
+      "display_name": "ServiceNow",
+      "website": "https://www.servicenow.com",
+      "certification_page": "https://www.servicenow.com/services/training-and-certification.html",
+      "exam_count": 94,
+      "slug": "servicenow"
+    },
     {
       "vendor_id": "dmv",
       "display_name": "DMV / State Driver Licensing",
@@ -57,14 +65,6 @@
       "certification_page": "https://ncees.org/exams/",
       "exam_count": 29,
       "slug": "ncees"
-    },
-    {
-      "vendor_id": "servicenow",
-      "display_name": "ServiceNow",
-      "website": "https://www.servicenow.com",
-      "certification_page": "https://www.servicenow.com/services/training-and-certification.html",
-      "exam_count": 27,
-      "slug": "servicenow"
     },
     {
       "vendor_id": "finra",

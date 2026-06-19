@@ -54,36 +54,48 @@
       "id": "1.0",
       "name": "Network Fundamentals",
       "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2.0",
       "name": "Network Access",
       "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3.0",
       "name": "IP Connectivity",
       "weight_percent": 25.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4.0",
       "name": "IP Services",
       "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "5.0",
       "name": "Security Fundamentals",
       "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "6.0",
       "name": "Automation and Programmability",
       "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     }
   ],
@@ -109,6 +121,7 @@
     }
   ],
   "aliases": [
+    "200-301",
     "ccna",
     "cisco certified network associate ccna",
     "cisco-ccna-200-301"

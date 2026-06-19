@@ -3,7 +3,7 @@
   "exam_name": "Kubernetes and Cloud Native Associate (KCNA)",
   "exam_code": "KCNA",
   "certifying_body": "Linux Foundation",
-  "certification_name": null,
+  "certification_name": "Kubernetes and Cloud Native Associate (KCNA)",
   "version": null,
   "source_url": "https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/",
   "passing_score": 75,
@@ -15,7 +15,7 @@
   "exam_format": "Performance-Based / Practical",
   "duration_minutes": 90,
   "exam_price_usd": 250.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Includes 12-month exam eligibility and one retake",
   "voucher_url": null,
   "exam_registration_url": "https://training.linuxfoundation.org/certification/",
   "testing_centers": [
@@ -35,7 +35,7 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
+  "target_audience": "Beginner",
   "recommended_experience": null,
   "prerequisites": [],
   "retake_policy": {
@@ -44,7 +44,77 @@
     "max_attempts_total": 2,
     "notes": "One free retake included with exam registration. No waiting period between attempts. After 2 attempts, full repurchase required."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "Kubernetes Fundamentals",
+      "name": "Kubernetes Fundamentals",
+      "weight_percent": 44.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Kubernetes Core Concepts",
+          "title": "Kubernetes Core Concepts",
+          "sub_objectives": [
+            "Administration",
+            "Scheduling",
+            "Containerization",
+            "Container Orchestration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Networking",
+      "name": "Networking",
+      "weight_percent": 28.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Security",
+          "title": "Security",
+          "sub_objectives": [
+            "Troubleshooting",
+            "Storage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cloud Native Application Delivery",
+      "name": "Cloud Native Application Delivery",
+      "weight_percent": 16.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Application Delivery",
+          "title": "Application Delivery",
+          "sub_objectives": [
+            "Debugging",
+            "Cloud Native Architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Observability",
+      "name": "Observability",
+      "weight_percent": 12.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Cloud Native Ecosystem and Principles",
+          "title": "Cloud Native Ecosystem and Principles",
+          "sub_objectives": [
+            "Cloud Native Community and Collaboration"
+          ]
+        }
+      ]
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

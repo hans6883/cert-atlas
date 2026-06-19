@@ -3,7 +3,7 @@
   "exam_name": "OffSec Certified Professional (OSCP)",
   "exam_code": "OSCP",
   "certifying_body": "OffSec",
-  "certification_name": null,
+  "certification_name": "OSCP+",
   "version": null,
   "source_url": "https://www.offsec.com/courses/pen-200/",
   "passing_score": 70,
@@ -15,7 +15,7 @@
   "exam_format": "Practical / Penetration Test Lab",
   "duration_minutes": 1440,
   "exam_price_usd": 1499.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "OSCP+ Standalone Exam",
   "voucher_url": null,
   "exam_registration_url": "https://www.offsec.com/courses/pen-200/",
   "testing_centers": [
@@ -28,15 +28,15 @@
   "online_proctoring_available": true,
   "id_requirements": "Valid government-issued photo ID shown to proctor via webcam at exam start.",
   "exam_rules": "Fully open-book/open-internet exam — research is allowed and expected. Automated tools like Metasploit are restricted (limited use for OSCP). Must write a professional penetration test report submitted within 24 hours after exam. AI-assisted answer generation is prohibited. Proctor monitors via webcam throughout.",
-  "certification_validity_years": null,
+  "certification_validity_years": 3,
   "renewal_required": false,
   "renewal_options": "OffSec certifications do not expire.",
   "continuing_education_units": null,
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Infosec professionals transitioning into penetration testing, ethical hackers, pen testers, and security professionals.",
+  "recommended_experience": "Solid understanding of TCP/IP networking, reasonable Windows and Linux administration experience, familiarity with basic Bash and/or Python scripting.",
   "prerequisites": [
     {
       "prerequisite_type": "recommended",

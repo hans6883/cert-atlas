@@ -1,0 +1,136 @@
+{
+  "exam_id": "servicenow-cis-tprm",
+  "exam_name": "ServiceNow Certified Implementation Specialist – Third-Party Risk Management (CIS-TPRM)",
+  "exam_code": "CIS-TPRM",
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated January 2026",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": null,
+  "exam_price_notes": "Registration is payment; learning credits or credit card accepted. Instructor-led training completion includes one free exam attempt.",
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/servicenow",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/servicenow",
+      "notes": "In-person and online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match exactly as registered.",
+  "exam_rules": "Closed-book, proctored exam. No notes, books, or external resources. ServiceNow platform access is not provided during the exam.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "Maintain via annual maintenance (delta) exams after each major ServiceNow release and the yearly Certification Maintenance Program (CMP) fee.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "ServiceNow Certified System Administrator (CSA) recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "A waiting period applies between attempts; the full exam fee is required for each retake. See the Credentialing Program Guide for details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Third-party Risk Management Fundamentals and Third-party Risk Management Review",
+      "weight_percent": 23,
+      "objectives": [
+        "About Third-party Risk Management",
+        "Third-party Risk Management Process",
+        "Technical Details"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Core Configuration",
+      "weight_percent": 14,
+      "objectives": [
+        "Third-party Portfolio Configuration",
+        "Third-party Contacts Configuration",
+        "Third-party Risk Intelligence Scoring Configuration"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Assessment Configuration",
+      "weight_percent": 33,
+      "objectives": [
+        "Assessment Basics/Due Diligence Requests",
+        "Third-party IRQ (Tiering) and Due Diligence Configuration",
+        "Risk Assessment Configuration",
+        "Risk Assessment Generation",
+        "Risk Assessment Calculations",
+        "Assessment Lifecycle"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Third-party Portal",
+      "weight_percent": 12,
+      "objectives": [
+        "Third-party Portal Configuration"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Third-party Supporting Processes",
+      "weight_percent": 12,
+      "objectives": [
+        "IRQ Approval",
+        "Third-party Risk Issues Approval",
+        "Third-party Risk Process Workflows"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Other Application Relationships",
+      "weight_percent": 6,
+      "objectives": [
+        "ServiceNow GRC Overview",
+        "Monitor Risk and Control Compliance",
+        "Other Application Relationships"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=7d4d343d472db6d09844c1c4f16d438e",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "certified implementation specialist – third-party risk management (cis-tprm)",
+    "cis-tprm",
+    "servicenow certified implementation specialist   third party risk management  cis tprm",
+    "servicenow certified implementation specialist third party risk management cis tprm",
+    "servicenow-cis-tprm"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Certified%20Implementation%20Specialist%20%E2%80%93%20Third-Party%20Risk%20Management%20%28CIS-TPRM%29"
+}

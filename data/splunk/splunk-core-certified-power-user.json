@@ -43,7 +43,88 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between failed attempts. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.1",
+      "name": "Use the chart command",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2.1",
+      "name": "The eval command",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3.1",
+      "name": "Identify transactions",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4.1",
+      "name": "Perform regex field extractions using the Field Extractor (FX)",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5.1",
+      "name": "Describe, create, and use field aliases",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "6.1",
+      "name": "Create and use tags",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "7.1",
+      "name": "Describe macros",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "8.1",
+      "name": "Describe the function of GET, POST, and Search workflow actions",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "9.1",
+      "name": "Describe the relationship between data models and pivot",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "10.1",
+      "name": "Describe the Splunk CIM",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [],
   "aliases": [

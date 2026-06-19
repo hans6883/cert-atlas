@@ -3,7 +3,7 @@
   "exam_name": "Oracle Certified Professional: Java SE 17 Developer (1Z0-829)",
   "exam_code": "1Z0-829",
   "certifying_body": "Oracle",
-  "certification_name": null,
+  "certification_name": "Oracle Certified Professional: Java SE 17 Developer",
   "version": null,
   "source_url": "https://education.oracle.com/oracle-certified-professional-java-se-17-developer/pexam_1Z0-829",
   "passing_score": 68,
@@ -41,8 +41,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Java developers",
+  "recommended_experience": "Experience with Java programming language and utilization of new features incorporated into Java SE 17",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -52,58 +52,228 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Working with Java Data Types",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Handling date, time, text, numeric and boolean values",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Use primitives and wrapper classes including Math API, parentheses, type promotion, and casting to evaluate arithmetic and boolean expressions",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Manipulate text, including text blocks, using String and StringBuilder classes",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Manipulate date, time, duration, period, instant and time-zone objects using Date-Time API",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Controlling Program Flow",
-      "weight_percent": 8.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Create program flow control constructs including if/else, switch statements and expressions, loops, and break and continue statements",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Java Object-Oriented Approach",
-      "weight_percent": 22.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Utilizing Java Object-Oriented Approach",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Declare and instantiate Java objects including nested class objects, and explain the object life-cycle including creation, reassigning references, and garbage collection",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Create classes and records, and define and use instance and static fields and methods, constructors, and instance and static initializers",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Implement overloading, including var-arg methods",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Understand variable scopes, use local variable type inference, apply encapsulation, and make objects immutable",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Implement inheritance, including abstract and sealed classes. Override methods, including that of Object class. Implement polymorphism and differentiate object type versus reference type. Perform type casting, identify object types using instanceof operator and pattern matching",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Create and use interfaces, identify functional interfaces, and utilize private, static, and default interface methods",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Create and use enumerations with fields, methods and constructors",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Exception Handling",
-      "weight_percent": 8.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Handling Exceptions",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Handle exceptions using try/catch/finally, try-with-resources, and multi-catch blocks, including custom exceptions",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "Working with Arrays and Collections",
-      "weight_percent": 9.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Create Java arrays, List, Set, Map, and Deque collections, and add, remove, update, retrieve and sort their elements",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
-      "name": "Working with Streams and Lambda Expressions",
-      "weight_percent": 18.0,
-      "objectives": []
+      "id": "6.0",
+      "name": "Working with Streams and Lambda expressions",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Use Java object and primitive Streams, including lambda expressions implementing functional interfaces, to supply, filter, map, consume, and sort data",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Perform decomposition, concatenation and reduction, and grouping and partitioning on sequential and parallel streams",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
-      "name": "Java Platform Module System",
-      "weight_percent": 9.0,
-      "objectives": []
+      "id": "7.0",
+      "name": "Packaging and deploying Java code and use the Java Platform Module System",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Define modules and their dependencies, expose module content including for reflection. Define services, producers, and consumers",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Compile Java code, produce modular and non-modular jars, runtime images, and implement migration using unnamed and automatic modules",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
-      "name": "Concurrency",
-      "weight_percent": 7.0,
-      "objectives": []
+      "id": "8.0",
+      "name": "Managing concurrent code execution",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Create worker threads using Runnable and Callable, manage the thread lifecycle, including automations provided by different Executor services and concurrent API",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Develop thread-safe code, using different locking mechanisms and concurrent API",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Process Java collections concurrently including the use of parallel streams",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "9",
-      "name": "Java I/O API",
-      "weight_percent": 7.0,
-      "objectives": []
+      "id": "9.0",
+      "name": "Using Java I/O API",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Read and write console and file data using I/O Streams",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Serialize and de-serialize Java objects",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.3",
+          "title": "Create, traverse, read, and write Path objects and their properties using java.nio.file API",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Accessing databases using JDBC",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Create connections, create and execute basic, prepared and callable statements, process query results and control transactions using JDBC API",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Implementing Localization",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Implement localization using locales, resource bundles, parse and format messages, dates, times, and numbers including currency and percentage values",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

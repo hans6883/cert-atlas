@@ -3,19 +3,21 @@
   "exam_name": "GFACT (GIAC Foundational Cybersecurity Technologies)",
   "exam_code": "GFACT",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Foundational Cybersecurity Technologies",
   "version": null,
   "source_url": "https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/",
   "passing_score": 71,
   "passing_score_scale": "percentage",
   "total_questions": 75,
-  "question_types": [],
+  "question_types": [
+    "Multiple Choice"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 120,
   "exam_price_usd": 479.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Details on delivery will be provided along with your registration confirmation upon payment.",
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,152 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Anyone new to cybersecurity, career changers, online self-driven learners, college & university students, business professionals, new hires in IT/cybersecurity, participants in re-skilling programs.",
+  "recommended_experience": "None specified, as it is a foundational certification.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "No specific prerequisites are required for this certification.",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Computer Hardware & Virtualization",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand key hardware components and their functions as well as associated memory concepts and understand virtualization and containers, their uses and advantages/disadvantages.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Exploitation & Mitigation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Be familiar with common exploit anatomy and methodology, as well as have a basic awareness and understanding of the tools used by attackers to achieve and increase system access, as well as appropriate mitigation strategies and techniques.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Forensics & Post-Exploitation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Be familiar with tools used in forensics investigations as well as their function, understand the stages of incident response, and understand the objectives of different types of forensics investigations and associated key artifacts and evidence. Understand post-exploitation goals and methodology including persistence, lateral movement, and exfiltration.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Linux Foundations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Have a working knowledge of most commonly used Linux commands, understand permissions and access control, and understand the key elements of Linux as it relates to file systems, architecture, and networking.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Logic & Programming",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Be able to determine the result of basic logical operations, have a familiarity with programming syntax, constructs, and errors in popular languages, and understand how programs execute and the functions of memory allocations.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Networking & Servers",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Understand core networking concepts, protocols, and understand different server types and their uses.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Operating Systems, The Web, & Data Storage",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Understand the typical function and duties/task of the operating system, and be familiar with different file systems, web technology, and have some familiarity with cloud computing models and their advantages/disadvantages.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Security Concepts",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Understand the concepts and terminology associated with cryptography, be familiar with ethical and legal concerns that are associated with hacking, understand the stages of an attack, and be familiar with key defensive strategies and concepts.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Windows Foundations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Be familiar with key Windows CLI commands, understand permissions and access control, and understand the key elements of Windows as it relates to file systems, architecture, and networking.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/",
   "official_study_resources": [
     {

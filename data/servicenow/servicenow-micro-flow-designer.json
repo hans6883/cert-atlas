@@ -7,8 +7,8 @@
   "version": null,
   "source_url": "https://www.servicenow.com/services/training-and-certification/micro-certification-flow-designer.html",
   "passing_score": null,
-  "passing_score_scale": null,
-  "total_questions": 30,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 22,
   "question_types": [
     "Multiple Choice",
     "Multiple Select"
@@ -48,24 +48,44 @@
   "domains": [
     {
       "id": "1",
-      "name": "Flow Designer Basics",
-      "weight_percent": null,
-      "objectives": []
+      "name": "Flow Designer",
+      "weight_percent": 14,
+      "objectives": [
+        "Flow Designer benefits and features",
+        "Flow Designer development best practices"
+      ]
     },
     {
       "id": "2",
-      "name": "Actions and Subflows",
-      "weight_percent": null,
-      "objectives": []
+      "name": "Flows",
+      "weight_percent": 45,
+      "objectives": [
+        "Components of a flow",
+        "How to build and test flows",
+        "Flow execution"
+      ]
     },
     {
       "id": "3",
-      "name": "Integration Actions",
-      "weight_percent": null,
-      "objectives": []
+      "name": "Subflows",
+      "weight_percent": 18,
+      "objectives": [
+        "Components of a subflow",
+        "How to build subflows"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Actions",
+      "weight_percent": 23,
+      "objectives": [
+        "Action benefits and features",
+        "Components of an action",
+        "How to build and action"
+      ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=47530496c32d86941ac0f60f05013172",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -74,12 +94,15 @@
       "provider": "ServiceNow",
       "is_official": true,
       "price_usd": null,
-      "notes": "Official NowLearning platform with free and paid courses aligned to each cert"
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
     }
   ],
   "aliases": [
+    "micro-certification – flow designer",
     "micro-flowdesigner",
     "servicenow flow designer",
+    "servicenow micro certification   flow designer",
+    "servicenow micro certification flow designer",
     "servicenow micro-certification flow designer",
     "servicenow-micro-flow-designer"
   ],

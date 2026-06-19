@@ -1,0 +1,129 @@
+{
+  "exam_id": "servicenow-environmental-social-governance-management-esgm",
+  "exam_name": "ServiceNow Environmental, Social, Governance Management (ESGM)",
+  "exam_code": null,
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated May 2025",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 29,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Included with ServiceNow University access; see ServiceNow for current pricing.",
+  "voucher_url": null,
+  "exam_registration_url": "https://learning.servicenow.com",
+  "testing_centers": [
+    {
+      "provider": "ServiceNow University",
+      "scheduling_url": "https://learning.servicenow.com",
+      "notes": "Online, non-proctored assessment delivered in ServiceNow University"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Online assessment delivered through ServiceNow University.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "No annual maintenance exam required. Earn a Credly digital badge on completion.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Refer to ServiceNow University for retake details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "ESG with ServiceNow",
+      "weight_percent": 12,
+      "objectives": [
+        "Overview of ESG capabilities in ServiceNow"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "ESG Program Set-up",
+      "weight_percent": 20,
+      "objectives": [
+        "Setting up ESG material topics, goals, and targets"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ESG Entity Framework",
+      "weight_percent": 12,
+      "objectives": [
+        "Setting up entity types and entities to manage data collection"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "ESG Data Collection",
+      "weight_percent": 20,
+      "objectives": [
+        "GRC: Metrics application used for data collection",
+        "Metric definition types, calculated metric definition formulas, and aggregation methods"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Greenhouse Gas (GHG) Accounting",
+      "weight_percent": 12,
+      "objectives": [
+        "Greenhouse gas accounting capabilities",
+        "Scope 3 Dashboard"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Sustainable IT",
+      "weight_percent": 12,
+      "objectives": [
+        "Sustainable IT application and Sustainable IT dashboard",
+        "Activation of SustainableIT.org metric definitions"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "ESG Reporting and Disclosures",
+      "weight_percent": 12,
+      "objectives": [
+        "ESG regulatory reporting landscape",
+        "Reporting frameworks available within the ESG content accelerator",
+        "Integration with Microsoft 365 with ServiceNow to create and manage narrative disclosures"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=95368412870dee106838fd16dabb3553",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "environmental, social, governance management (esgm)",
+    "servicenow environmental  social  governance management  esgm",
+    "servicenow environmental social governance management esgm",
+    "servicenow-environmental-social-governance-management-esgm"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Environmental%2C%20Social%2C%20Governance%20Management%20%28ESGM%29"
+}

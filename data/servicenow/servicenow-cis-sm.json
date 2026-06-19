@@ -1,0 +1,134 @@
+{
+  "exam_id": "servicenow-cis-sm",
+  "exam_name": "ServiceNow Certified Implementation Specialist – Service Mapping (CIS-SM)",
+  "exam_code": "CIS-SM",
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated November 2025",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": null,
+  "exam_price_notes": "Registration is payment; learning credits or credit card accepted. Instructor-led training completion includes one free exam attempt.",
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/servicenow",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/servicenow",
+      "notes": "In-person and online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match exactly as registered.",
+  "exam_rules": "Closed-book, proctored exam. No notes, books, or external resources. ServiceNow platform access is not provided during the exam.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "Maintain via annual maintenance (delta) exams after each major ServiceNow release and the yearly Certification Maintenance Program (CMP) fee.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "ServiceNow Certified System Administrator (CSA) recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "A waiting period applies between attempts; the full exam fee is required for each retake. See the Credentialing Program Guide for details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Service Mapping Pattern Design",
+      "weight_percent": 30,
+      "objectives": [
+        "Pattern Designer (Debug, Steps, Temp variables, Command Line Console)",
+        "Operations (Match, Parse variable, Parse file, Parsing strategies)",
+        "Scripting (WMI, SSH, Regex, Command Line, SNMP)",
+        "Application Identification and Connection Sections (Patterns, Identification and Connection Sections, Troubleshooting)"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Service Mapping Configuration",
+      "weight_percent": 20,
+      "objectives": [
+        "Setup and Configuration (Configuration files, Tuning, Applications, IP ranges, MID Servers, Icons)",
+        "Service Configuration (Entry points, CI Types, Credentials, Service Maps, Schedules, Service Groups, Technical Services, Service creation)",
+        "Service Mapping Process Flow (Process flow, Troubleshooting, Discovery Log)"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Discovery Configuration",
+      "weight_percent": 15,
+      "objectives": [
+        "Discovery Setup and Config (Behaviors, Clusters, IP Services, Schedules, MID Servers)",
+        "Discovery Process Flow (PCIE Phases, ECC Queue, Status, Discovered Device)",
+        "Discovery Troubleshooting (Discovery Errors, Authentication Errors, Duplicates, Credentials)"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Machine Learning Service Mapping",
+      "weight_percent": 10,
+      "objectives": [
+        "Methods (Guidance on Service Mapping Methods)",
+        "ML Powered Mapping (Service Mapping Workspace, Implementation, Mapping Service Candidates)"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Configuration Management Database",
+      "weight_percent": 15,
+      "objectives": [
+        "CI Class Management (CMDB Health Dashboard, CI Class Manager, CMDB Tables, Reclassification, CMDB Relationships)",
+        "CMDB Identification and Reconciliation (Identification Rules, Reconciliation Rules, Datasource Precedence Rules, CMDB De-duplication Tasks)"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Service Mapping Engagement Readiness",
+      "weight_percent": 10,
+      "objectives": [
+        "Scoping (Service definition, Shared services, Licensing, Supported Applications)",
+        "Planning (Implementation Skill Sets, MID Server Requirements, Implementation Requirements, Security Requirements)",
+        "Operationalizing IT (Measurable KPI improvements, Service Mapping Benefits, Service Mapping Use Cases)"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=01f905368330ba100593bcffeeaad388",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "certified implementation specialist – service mapping (cis-sm)",
+    "cis-sm",
+    "servicenow certified implementation specialist   service mapping  cis sm",
+    "servicenow certified implementation specialist service mapping cis sm",
+    "servicenow-cis-sm"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Certified%20Implementation%20Specialist%20%E2%80%93%20Service%20Mapping%20%28CIS-SM%29"
+}

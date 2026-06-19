@@ -1,0 +1,140 @@
+{
+  "exam_id": "servicenow-certified-implementation-specialist-data-foundations-cmdb-and-csdm",
+  "exam_name": "ServiceNow Certified Implementation Specialist – Data Foundations (CMDB and CSDM)",
+  "exam_code": null,
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated November 2025",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 75,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": null,
+  "exam_price_notes": "Registration is payment; learning credits or credit card accepted. Instructor-led training completion includes one free exam attempt.",
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/servicenow",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/servicenow",
+      "notes": "In-person and online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match exactly as registered.",
+  "exam_rules": "Closed-book, proctored exam. No notes, books, or external resources. ServiceNow platform access is not provided during the exam.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "Maintain via annual maintenance (delta) exams after each major ServiceNow release and the yearly Certification Maintenance Program (CMP) fee.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "A waiting period applies between attempts; the full exam fee is required for each retake. See the Credentialing Program Guide for details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Configuration",
+      "weight_percent": 15,
+      "objectives": [
+        "Given a scenario: Identify how and when to use CI Class Manager (table, class attributes, hierarchy)",
+        "Identify when and how to use IRE",
+        "Identify when and how to configure CMDB 360/multisource CMDB"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Ingest",
+      "weight_percent": 19,
+      "objectives": [
+        "Identify how relationships are auto or manually populated",
+        "Identify the automation opportunities that are available to automate CMDB integration",
+        "Given a scenario: Identify which data ingestion method to use",
+        "Identify how to minimize the risk of technical debt and ensure upgradeability",
+        "Identify how to populate and maintain non-discoverable/manual CIs or non-discoverable attributes",
+        "Identify how to track security and regulatory compliance identifiers against CSDM objects",
+        "Identify how Asset and CI align"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Govern",
+      "weight_percent": 35,
+      "objectives": [
+        "Identify the characteristics of the six metrics that make up the CMDB health score",
+        "Identify the purpose and/or requirements of Data Manager",
+        "Identify the goals of good CMDB governance",
+        "Given a scenario: Identify what is needed to govern the CMDB",
+        "Identify the key roles involved in implementing and managing a CMDB",
+        "Identify how to configure and gain value from CMDB Health Dashboards to support Key Performance Indicators (KPI) and Critical Success Factors (CSF)",
+        "Identify how or why duplication records are created and how to remediate them",
+        "Identify when and how to remediate duplicate records using the deduplication wizard",
+        "Identify how to operationalize the CMDB",
+        "Identify when or why to use the CMDB workspace or what features are available",
+        "Identify how to define principal classes",
+        "Identify the policy feature in Data Manager that should be used to accomplish the goal of the scenario",
+        "Identify how to validate data quality and/or data compliance in the CMDB Health Dashboard",
+        "Identify how to configure Data Manager to manage the CMDB",
+        "Identify how to improve data quality using the CMDB Data Foundation Dashboard",
+        "Identify how to manage life cycle CI attributes between CIs"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Insight",
+      "weight_percent": 20,
+      "objectives": [
+        "Identify the business value of CMDB",
+        "Identify how to use Natural Language Query",
+        "Identify how to build custom reports using CMDB 360 data (CMDB Saved Queries)",
+        "Given a scenario: Identify how to build out complex relationships within a query and get a full set of results",
+        "Identify the components and usage of Unified Map or dependency view map",
+        "Identify the outcomes of using ServiceNow products leveraging CMDB data",
+        "Identify the benefits of CMDB Foundation Dashboards",
+        "Identify when to use the CMDB Foundation Dashboard Playbook or the benefits of using Playbook"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "CSDM Fundamentals",
+      "weight_percent": 11,
+      "objectives": [
+        "Given a scenario: Identify how to work with different stakeholders across industries to correctly map CIs with the correct CSDM domain",
+        "Identify the approach to abide by CSDM",
+        "Identify the benefits of implementing CSDM"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=fe1c1bf693844f10f2d9bc686cba1007",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "certified implementation specialist – data foundations (cmdb and csdm)",
+    "servicenow certified implementation specialist   data foundations  cmdb and csdm",
+    "servicenow certified implementation specialist data foundations cmdb and csdm",
+    "servicenow-certified-implementation-specialist-data-foundations-cmdb-and-csdm"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Certified%20Implementation%20Specialist%20%E2%80%93%20Data%20Foundations%20%28CMDB%20and%20CSDM%29"
+}

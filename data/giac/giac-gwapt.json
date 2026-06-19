@@ -3,19 +3,21 @@
   "exam_name": "GWAPT (GIAC Web Application Penetration Tester)",
   "exam_code": "GWAPT",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Web Application Penetration Tester",
   "version": null,
   "source_url": "https://www.giac.org/certifications/web-application-penetration-tester-gwapt/",
   "passing_score": 71,
   "passing_score_scale": "percentage",
   "total_questions": 115,
-  "question_types": [],
+  "question_types": [
+    "performance-based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 180,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,8 +37,10 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Security practitioners, Penetration testers, Ethical hackers, Web application developers, Website designers and architects",
   "recommended_experience": null,
   "prerequisites": [],
   "retake_policy": {
@@ -45,7 +49,120 @@
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Cross Site Request Forgery, Cross Site Scripting and Client Injection Attack",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Demonstrate an understanding of Cross Site Request Forgery, Cross Site Scripting and Client Injection attacks and the tools and techniques used to discover and exploit vulnerabilities.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Reconnaissance and Mapping",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Demonstrate an understanding of the techniques used to conduct discovery, exploration and investigation of a web site and web application features such as port scanning, identifying services and configurations, spidering, application flow charting and session analysis.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Web Application Authentication Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Demonstrate a familiarity with the process and mechanisms used to secure web applications by authentication, how to enumerate users and how to bypass and exploit weak authentication.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Web Application Configuration Testing",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Demonstrate a familiarity with the tools and techniques used to audit and identify flaws in the design or implementation in the configuration of a web site.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Web Application Overview",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Demonstrate an understanding of the technologies, programming languages and structures that are involved in the construction and implementation of a web site such as HTTP, HTTPS and AJAX within the context of security, vulnerabilities and basic operation.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Web Application Session Management",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Demonstrate an understanding of how a web application manages client sessions, tracks user activity and uses SSL/TLS in modern web communications as well as the attacks that can be leveraged against flaws in session state.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Web Application SQL Injection Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Demonstrate a familiarity with the techniques used to audit and test the security of web applications using SQL injection attacks and how to identify SQL injection vulnerabilities in applications.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Web Application Testing Tools",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Demonstrate an understanding of the tools and techniques required to perform web application security testing on modern web-based languages such as JavaScript with AJAX including the use of proxies, fuzzing, scripting, and attacking application logic.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/web-application-penetration-tester-gwapt/",
   "official_study_resources": [
     {

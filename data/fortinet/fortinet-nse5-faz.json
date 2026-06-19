@@ -36,9 +36,25 @@
   "renewal_options": "NSE 4 through NSE 8 certifications are valid for 3 years. Renewal requires earning CE credits through Fortinet's continuing education program or retaking the current exam version. NSE 1-3 are valid for 2 years and renewed by retaking the free assessments.",
   "continuing_education_units": null,
   "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Fortinet employees or candidates sponsored by an ATC",
+  "recommended_experience": "Five years of relevant experience in network security and cybersecurity; five years of experience in training delivery in IT security; certification in the required NSE training courses",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Five years of relevant experience in network security and cybersecurity",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Five years of experience in training delivery in IT security",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "certification",
+      "description": "Certification in the required NSE training courses",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 30,
     "max_attempts_per_year": null,
@@ -50,30 +66,40 @@
       "id": "1",
       "name": "Deployment and Configuration",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2",
       "name": "Log Management and Storage",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3",
       "name": "FortiView and Event Management",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4",
       "name": "Reports and Analytics",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "5",
       "name": "High Availability",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     }
   ],

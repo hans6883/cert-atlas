@@ -3,7 +3,7 @@
   "exam_name": "Splunk Enterprise Security Certified Admin",
   "exam_code": "SPLK-2002",
   "certifying_body": "Splunk",
-  "certification_name": null,
+  "certification_name": "Splunk Enterprise Security Certified Admin",
   "version": null,
   "source_url": "https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html",
   "passing_score": 70,
@@ -36,16 +36,291 @@
   "available_languages": [],
   "target_audience": null,
   "recommended_experience": null,
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "There are no prerequisite exams for this certification.",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 30,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "30-day waiting period between failed attempts. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "ES Introduction",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Overview of ES features and concepts",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Monitoring and Investigation",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Security posture",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Incident review",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Notable events management",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Investigations",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Security Intelligence",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Overview of security intel tools",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Forensics, Glass Tables, and Navigation Control",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Explore forensics dashboards",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Examine glass tables",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Configure navigation and dashboard permissions",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "ES Deployment",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Identify deployment topologies",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Examine the deployment checklist",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Understand indexing strategy for ES",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Understand ES Data Models",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Installation and Configuration",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Prepare a Splunk environment for installation",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Download and install ES on a search head",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Understand ES Splunk user accounts and roles",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Post-install configuration tasks",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Validating ES Data",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Plan ES inputs",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Configure technology add-ons",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Custom Add-ons",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Design a new add-on for custom data",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Use the Add-on Builder to build a new add-on",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Tuning Correlation Searches",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Configure correlation search scheduling and sensitivity",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Tune ES correlation searches",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Creating Correlation Searches",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Create a custom correlation search",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.2",
+          "title": "Configuring adaptive responses",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.3",
+          "title": "Search export/import",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Lookups and Identity Management",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Identify ES-specific lookups",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.2",
+          "title": "Understand and configure lookup lists",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "Threat Intelligence Framework",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Understand and configure threat intelligence",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.2",
+          "title": "Configure user activity analysis",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": null,
-  "official_study_resources": [],
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "Administering Splunk Enterprise Security",
+      "url": null,
+      "provider": "Splunk",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Part of the Enterprise Security Certified Admin Learning Path."
+    }
+  ],
   "aliases": [
     "splk-2002",
     "splunk enterprise security admin",

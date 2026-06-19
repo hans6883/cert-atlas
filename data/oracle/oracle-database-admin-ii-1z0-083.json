@@ -3,7 +3,7 @@
   "exam_name": "Oracle Database Administration II (1Z0-083)",
   "exam_code": "1Z0-083",
   "certifying_body": "Oracle",
-  "certification_name": null,
+  "certification_name": "Oracle Database Administration 2019 Certified Professional",
   "version": null,
   "source_url": "https://education.oracle.com/oracle-database-administration-ii/pexam_1Z0-083",
   "passing_score": 60,
@@ -41,8 +41,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Oracle Database administrators with proven theoretical understanding and practical skills in configuring and managing Oracle Databases up to and including Oracle 19c",
+  "recommended_experience": "Installation, upgrades, patching, SQL programming, database and network administration, backup and recovery, and advanced skills such as multi-tenant, SQL performance monitoring, and problem determination",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -52,52 +52,665 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Multitenant Architecture Overview",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Creating CDBs and Regular PDBs",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Configure and create a CDB",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Create a new PDB from the CDB seed",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Explore the structure of PDBs",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Container Database (CDB) Management",
-      "weight_percent": 14.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Manage CDBs and PDBs",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Manage PDB service names and connections",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Manage startup, shutdown and availability of CDBs and PDBs",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Change the different modes and settings of PDBs",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Evaluate the impact of parameter value changes",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Performance management in CDBs and PDBs",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Control CDB and PDB resource usage with the Oracle Resource Manager",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Pluggable Database (PDB) Management",
-      "weight_percent": 14.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Backup and Duplicate",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Perform Backup and Recover CDBs and PDBs",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Duplicate an active PDB",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Duplicate a Database",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Backup and Recovery Operations",
-      "weight_percent": 20.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Upgrading and Transporting CDBs and Regular PDBs",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Upgrade an Oracle Database",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Transport Data",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Advanced Performance Tuning",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "5.0",
+      "name": "Manage Application PDBs",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Explain the purpose of application root and application seed",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Define and create application PDBs",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Install, upgrade and Patch applications",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Create and administer Application PDBS",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Clone PDBs and Application containers",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Plug and unplug operations with PDBs and application containers",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
-      "name": "Oracle Data Guard",
-      "weight_percent": 14.0,
-      "objectives": []
+      "id": "6.0",
+      "name": "Comparing Local Undo Mode and Shared Undo Mode",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Manage Security in Multitenant databases",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Manage PDB lockdown profiles",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Audit Users in CDBs and PDBs",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Manage other types of policies in application containers",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
-      "name": "Oracle Resource Manager",
-      "weight_percent": 8.0,
-      "objectives": []
+      "id": "7.0",
+      "name": "Recovery and Flashback",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Restore and Recovering Databases with RMAN",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Perform CDB and PDB flashback",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
-      "name": "Advanced Security and Auditing",
-      "weight_percent": 6.0,
-      "objectives": []
+      "id": "8.0",
+      "name": "Backup Strategies and Terminology",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Perform Full and Incremental Backups and Recoveries",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Compress and Encrypt RMAN Backups",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Use a media manager",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.4",
+          "title": "Create multi-section backups of very large files",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.5",
+          "title": "Create duplexed backup sets",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.6",
+          "title": "Create archival backups",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.7",
+          "title": "Backup of recovery files",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.8",
+          "title": "Backup non database files",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.9",
+          "title": "Back up ASM meta data",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Restore and Recovery Concepts",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Employ the best Oracle Database recovery technology for your failure situation",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Describe and use Recovery technology for Crash, Complete, and Point-in-time recovery",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Using Flashback Technologies",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Configure your Database to support Flashback",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.2",
+          "title": "Perform flashback operations",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Duplicating a Database",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Duplicate Databases",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "Configuring and Using RMAN",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Configure RMAN and the Database for Recoverability",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.2",
+          "title": "Configure and Using an RMAN recovery catalog",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Diagnosing Failures",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Detect and repair database and database block corruption",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.2",
+          "title": "Diagnosing Database Issues",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "14.0",
+      "name": "Performing Recovery",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Restore and Recovering Databases with RMAN",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.2",
+          "title": "Perform Non RMAN database recovery",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "15.0",
+      "name": "Transporting Data",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "Transport Data",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "16.0",
+      "name": "RMAN Troubleshooting and Tuning",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "16.1",
+          "title": "Interpret the RMAN message output",
+          "sub_objectives": []
+        },
+        {
+          "id": "16.2",
+          "title": "Diagnose RMAN performance issues",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "17.0",
+      "name": "Install Grid Infrastructure and Oracle Database",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "17.1",
+          "title": "Install Grid Infrastructure for a Standalone server",
+          "sub_objectives": []
+        },
+        {
+          "id": "17.2",
+          "title": "Install Oracle Database software",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "18.0",
+      "name": "Patching Grid Infrastructure and Oracle Database",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "18.1",
+          "title": "Patch Grid Infrastructure and Oracle Database",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "19.0",
+      "name": "Upgrading to Oracle Grid Infrastructure",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "19.1",
+          "title": "Upgrade Oracle Grid Infrastructure",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "20.0",
+      "name": "Oracle Database 18c: New Features",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "20.1",
+          "title": "Image and RPM based Database Installation",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "21.0",
+      "name": "Creating an Oracle Database by using DBCA",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "21.1",
+          "title": "Create, Delete and Configure Databases using DBCA",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "22.0",
+      "name": "Oracle Restart",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "22.1",
+          "title": "Configure and use Oracle Restart to manage components",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "23.0",
+      "name": "Upgrade the Oracle Database",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "23.1",
+          "title": "Plan for Upgrading an Oracle Database",
+          "sub_objectives": []
+        },
+        {
+          "id": "23.2",
+          "title": "Upgrade an Oracle Database",
+          "sub_objectives": []
+        },
+        {
+          "id": "23.3",
+          "title": "Perform Post-Upgrade tasks",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "24.0",
+      "name": "Install Grid Infrastructure for a Standalone server",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "24.1",
+          "title": "Rapid Home Provisioning",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "25.0",
+      "name": "Using General Overall Database Enhancements",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "25.1",
+          "title": "Install Oracle Database software",
+          "sub_objectives": []
+        },
+        {
+          "id": "25.2",
+          "title": "Create, Delete and Configure Databases using DBCA",
+          "sub_objectives": []
+        },
+        {
+          "id": "25.3",
+          "title": "Creating CDBs and Regular PDBs",
+          "sub_objectives": []
+        },
+        {
+          "id": "25.4",
+          "title": "Use Miscellaneaous 19c New Features",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "26.0",
+      "name": "Using Availability Enhancements",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "26.1",
+          "title": "Use an RMAN recovery catalog",
+          "sub_objectives": []
+        },
+        {
+          "id": "26.2",
+          "title": "Use Flashback Database",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "27.0",
+      "name": "Using Diagnosibility Enhancements",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "27.1",
+          "title": "Use new Diagnoseability Features",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "28.0",
+      "name": "Monitoring and Tuning Database Performance",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "28.1",
+          "title": "Managing Memory Components",
+          "sub_objectives": []
+        },
+        {
+          "id": "28.2",
+          "title": "Understanding The Automatic Workload Repository (AWR)",
+          "sub_objectives": []
+        },
+        {
+          "id": "28.3",
+          "title": "Understanding The Advisory Framework",
+          "sub_objectives": []
+        },
+        {
+          "id": "28.4",
+          "title": "Monitoring Wait Events, Sessions, and Services",
+          "sub_objectives": []
+        },
+        {
+          "id": "28.5",
+          "title": "Managing Metric Thresholds and Alerts",
+          "sub_objectives": []
+        },
+        {
+          "id": "28.6",
+          "title": "Understanding and Using The Performance Tuning Methodology",
+          "sub_objectives": []
+        },
+        {
+          "id": "28.7",
+          "title": "Performing Performance Planning",
+          "sub_objectives": []
+        },
+        {
+          "id": "28.8",
+          "title": "Understanding The Automatic Database Diagnostic Monitor (ADDM)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "29.0",
+      "name": "Tuning SQL Statements",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "29.1",
+          "title": "Understanding The Oracle Optimizer",
+          "sub_objectives": []
+        },
+        {
+          "id": "29.2",
+          "title": "Using The SQL Tuning Advisor",
+          "sub_objectives": []
+        },
+        {
+          "id": "29.3",
+          "title": "Managing Optimizer Statistics",
+          "sub_objectives": []
+        },
+        {
+          "id": "29.4",
+          "title": "Using The SQL Access Advisor",
+          "sub_objectives": []
+        },
+        {
+          "id": "29.5",
+          "title": "Understanding The SQL Tuning Process",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

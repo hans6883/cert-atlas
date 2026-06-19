@@ -3,7 +3,7 @@
   "exam_name": "Splunk Cloud Certified Admin",
   "exam_code": "SPLK-1005",
   "certifying_body": "Splunk",
-  "certification_name": null,
+  "certification_name": "Splunk Cloud Certified Admin",
   "version": null,
   "source_url": "https://www.splunk.com/en_us/training/certification-track/splunk-cloud-certified-admin.html",
   "passing_score": 70,
@@ -36,16 +36,242 @@
   "available_languages": [],
   "target_audience": null,
   "recommended_experience": null,
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "Splunk Core Certified Power User",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 30,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "30-day waiting period between failed attempts. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.1",
+      "name": "Describe Cloud topology",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Describe Cloud topology",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.1",
+      "name": "Define a Splunk index",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Define a Splunk index",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.1",
+      "name": "Administer Splunk user roles",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Administer Splunk user roles",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.1",
+      "name": "Review Splunk configuration files and directories",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Review Splunk configuration files and directories",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.1",
+      "name": "List Splunk forwarder types",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "List Splunk forwarder types",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.1",
+      "name": "Describe Splunk Deployment Server",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Describe Splunk Deployment Server",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.1",
+      "name": "Describe the Splunk process for inputting data",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Describe the Splunk process for inputting data",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.1",
+      "name": "Create network (TCP and UDP) inputs",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Create network (TCP and UDP) inputs",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.1",
+      "name": "Describe the default processing that occurs during the input phase",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Describe the default processing that occurs during the input phase",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.1",
+      "name": "Describe the default processing that occurs during parsing",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Describe the default processing that occurs during parsing",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.1",
+      "name": "Explain how data transformations are defined and invoked",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Explain how data transformations are defined and invoked",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.1",
+      "name": "Review the process for installing apps",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Review the process for installing apps",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.1",
+      "name": "Isolate problems before contacting Splunk Cloud Support",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Isolate problems before contacting Splunk Cloud Support",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": null,
-  "official_study_resources": [],
+  "official_study_resources": [
+    {
+      "resource_type": "official_study_guide",
+      "title": "Splunk How-To YouTube Channel",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": null
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "Splunk Docs",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": null
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "Splunk Cloud Administration",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "for net-new Splunk Administrators"
+    },
+    {
+      "resource_type": "official_study_guide",
+      "title": "Transitioning to Splunk Cloud",
+      "url": null,
+      "provider": null,
+      "is_official": true,
+      "price_usd": null,
+      "notes": "for experienced Enterprise Administrators moving to Splunk Cloud"
+    }
+  ],
   "aliases": [
     "splk-1005",
     "splunk cloud admin",

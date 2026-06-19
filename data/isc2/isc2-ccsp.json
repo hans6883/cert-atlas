@@ -3,8 +3,8 @@
   "exam_name": "CCSP",
   "exam_code": "CCSP",
   "certifying_body": "ISC2",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Certified Cloud Security Professional",
+  "version": "Effective August 1, 2026, the CCSP exam will be based on a new exam outline.",
   "source_url": "https://www.isc2.org/certifications/ccsp",
   "passing_score": 700,
   "passing_score_scale": "0-1000",
@@ -40,8 +40,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "IT, cyber, information and software security leaders responsible for applying best practices to cloud security architecture, design, operations and service orchestration, including those in the following positions: Cloud Architect, Cloud Engineer, Cloud Consultant, Cloud Administrator, Cloud Security Analyst, Cloud Specialist, Auditor of Cloud Computing Services, Professional Cloud Developer",
+  "recommended_experience": "5 Years Required Work Experience",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
@@ -55,8 +55,57 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period after first failed attempt. 90-day waiting period after second failed attempt. Maximum 3 attempts in a 12-month period. Full exam fee required for each retake."
   },
-  "domains": [],
-  "official_objectives_url": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Cloud Concepts, Architecture and Design",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2.0",
+      "name": "Cloud Data Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3.0",
+      "name": "Cloud Platform & Infrastructure Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4.0",
+      "name": "Cloud Application Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5.0",
+      "name": "Cloud Security Operations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "6.0",
+      "name": "Legal, Risk and Compliance",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "CCSP Exam Outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",

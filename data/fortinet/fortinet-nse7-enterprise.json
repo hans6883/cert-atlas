@@ -3,7 +3,7 @@
   "exam_name": "NSE 7 Network Security Architect",
   "exam_code": "FCP_ZTP_AD-7.2",
   "certifying_body": "Fortinet",
-  "certification_name": null,
+  "certification_name": "Fortinet Certified Trainer (FCT)",
   "version": null,
   "source_url": "https://www.fortinet.com/training/certification/nse-7",
   "passing_score": 70,
@@ -36,8 +36,8 @@
   "renewal_options": "NSE 4 through NSE 8 certifications are valid for 3 years. Renewal requires earning CE credits through Fortinet's continuing education program or retaking the current exam version. NSE 1-3 are valid for 2 years and renewed by retaking the free assessments.",
   "continuing_education_units": null,
   "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Fortinet employees or candidates sponsored by an ATC",
+  "recommended_experience": "Five years of relevant experience in network security and cybersecurity and five years of experience in training delivery in IT security",
   "prerequisites": [
     {
       "prerequisite_type": "recommended",
@@ -56,30 +56,40 @@
       "id": "1",
       "name": "Zero Trust Network Access (ZTNA)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2",
       "name": "SD-WAN Configuration",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Secure Access Service Edge (SASE)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4",
       "name": "Security Fabric Integration",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "5",
       "name": "Troubleshooting and Monitoring",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     }
   ],
@@ -97,9 +107,9 @@
   ],
   "aliases": [
     "fcp_ztp_ad-7 2",
-    "fortinet certified trainer",
     "fortinet nse 7",
     "fortinet-nse7-enterprise",
+    "network security architect",
     "nse 7",
     "nse 7 network security architect",
     "nse7"

@@ -3,17 +3,19 @@
   "exam_name": "Kubernetes and Cloud Native Security Associate (KCSA)",
   "exam_code": "KCSA",
   "certifying_body": "CNCF",
-  "certification_name": null,
+  "certification_name": "Kubernetes and Cloud Native Security Associate (KCSA)",
   "version": null,
   "source_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate/",
   "passing_score": 75,
   "passing_score_scale": "percentage",
   "total_questions": 60,
-  "question_types": [],
+  "question_types": [
+    "multiple_choice"
+  ],
   "exam_format": "Performance-based (hands-on terminal)",
   "duration_minutes": 90,
   "exam_price_usd": 250.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Exam only",
   "voucher_url": null,
   "exam_registration_url": null,
   "testing_centers": [
@@ -30,17 +32,290 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 2 years. Renewal requires retaking and passing the exam before expiry. No CE credit option — exam retake is the only renewal path.",
   "continuing_education_units": null,
-  "available_languages": [],
-  "target_audience": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Beginner",
   "recommended_experience": null,
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "There are no prerequisites for this exam.",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "One free retake attempt is included with the exam purchase. A minimum 12-hour waiting period is required between attempts. The free retake must be used within 12 months of the original purchase."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Overview of Cloud Native Security",
+      "weight_percent": 14.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "The 4Cs of Cloud Native Security",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Cloud Provider and Infrastructure Security",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Controls and Frameworks",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Isolation Techniques",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Artifact Repository and Image Security",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Workload and Application Code Security",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Kubernetes Cluster Component Security",
+      "weight_percent": 22.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "API Server",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Controller Manager",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Scheduler",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Kubelet",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Container Runtime",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "KubeProxy",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Pod",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Etcd",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Container Networking",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.10",
+          "title": "Client Security",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.11",
+          "title": "Storage",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Kubernetes Security Fundamentals",
+      "weight_percent": 22.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Pod Security Standards",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Pod Security Admissions",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Authentication",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Authorization",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Secrets",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Isolation and Segmentation",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Audit Logging",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Network Policy",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Kubernetes Threat Model",
+      "weight_percent": 16.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Kubernetes Trust Boundaries and Data Flow",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Persistence",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Denial of Service",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Malicious Code Execution and Compromised Applications in Containers",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Attacker on the Network",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Access to Sensitive Data",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Privilege Escalation",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Platform Security",
+      "weight_percent": 16.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Supply Chain Security",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Image Repository",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Observability",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Service Mesh",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "PKI",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Connectivity",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.7",
+          "title": "Admission Control",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Compliance and Security Frameworks",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Compliance Frameworks",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Threat Modelling Frameworks",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Supply Chain Compliance",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate/",
   "official_study_resources": [
     {

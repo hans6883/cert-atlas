@@ -3,19 +3,21 @@
   "exam_name": "GPEN (GIAC Penetration Tester)",
   "exam_code": "GPEN",
   "certifying_body": "GIAC",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "GIAC Penetration Tester",
+  "version": "null",
   "source_url": "https://www.giac.org/certifications/penetration-tester-gpen/",
   "passing_score": 74,
   "passing_score_scale": "percentage",
   "total_questions": 115,
-  "question_types": [],
+  "question_types": [
+    "Performance-Based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 300,
   "exam_price_usd": 949.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Price not specified in the provided content",
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,237 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Security personnel responsible for assessing network and systems, Penetration testers, Ethical hackers, Red Team members, Blue Team members, Defenders, auditors, and forensic specialists who want to better understand offensive tactics",
+  "recommended_experience": "null",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Security personnel responsible for assessing network and systems, Penetration testers, Ethical hackers, Red Team members, Blue Team members, Defenders, auditors, and forensic specialists who want to better understand offensive tactics",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Comprehensive Pen Test Planning, Scoping, and Recon",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Penetration Test Planning",
+          "sub_objectives": [
+            "The candidate will be able to demonstrate the fundamental concepts associated with pen-testing, and utilize a process-oriented approach to penetration testing and reporting."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "In-Depth Scanning and Exploitation, Post-Exploitation, and Pivoting",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Scanning and Host Discovery",
+          "sub_objectives": [
+            "The candidate will be able to use the appropriate technique to scan a network for potential targets, and to conduct port, operating system and service version scans and analyze the results."
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Exploitation Fundamentals",
+          "sub_objectives": [
+            "The candidate will be able to demonstrate the fundamental concepts associated with the exploitation phase of a pentest."
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Escalation and Exploitation",
+          "sub_objectives": [
+            "The candidate will be able to demonstrate the fundamental concepts of exploitation, data exfiltration from compromised hosts and pivoting to exploit other hosts within a target network."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Azure Overview, Integration, and Attacks, and In-Depth Password Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Azure Overview, Attacks, and AD Integration",
+          "sub_objectives": [
+            "The candidate will demonstrate an understanding of Entra ID implementation fundamentals, common Entra ID attacks, and Azure authentication techniques."
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Azure Applications and Attack Strategies",
+          "sub_objectives": [
+            "The candidate will demonstrate an understanding of Azure applications and the attacks against them including federated and single sign-on environments and Azure AD authentication protocols."
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Password Attacks",
+          "sub_objectives": [
+            "The candidate will understand types of password attacks, formats, defenses, and the circumstances under which to use each password attack variation. The candidate will be able to conduct password guessing attacks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Reconnaissance",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Reconnaissance",
+          "sub_objectives": [
+            "The candidate will understand the fundamental concepts of reconnaissance and will understand how to obtain basic, high level information about the target organization and network, often considered information leakage, including but not limited to technical and non technical public contacts, IP address ranges, document formats, and supported systems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Vulnerability Scanning",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Vulnerability Scanning",
+          "sub_objectives": [
+            "The candidate will be able to conduct vulnerability scans and analyze the results."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Password Formats and Hashes",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Password Formats and Hashes",
+          "sub_objectives": [
+            "The candidate will demonstrate an understanding of common password hashes and formats for storing password data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Advanced Password Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Advanced Password Attacks",
+          "sub_objectives": [
+            "The candidate will be able to use additional methods to attack password hashes and authenticate."
+          ]
+        },
+        {
+          "id": "7.2",
+          "title": "Attacking Password Hashes",
+          "sub_objectives": [
+            "The candidate will be able to obtain and attack password hashes and other password representations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Command and Control (C2)",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Command and Control (C2)",
+          "sub_objectives": [
+            "The candidate will demonstrate an understanding of the design, application, and use of Command and Control (C2) and common C2 Frameworks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Domain Escalation and Persistence Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Domain Escalation and Persistence Attacks",
+          "sub_objectives": [
+            "The candidate will demonstrate an understanding of common Windows privilege escalation attacks and Kerberos attack techniques that are used to consolidate and persist administrative access to Active Directory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Kerberos Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Kerberos Attacks",
+          "sub_objectives": [
+            "The candidate will demonstrate an understanding of attacks against Active Directory including Kerberos attacks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Metasploit",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Metasploit",
+          "sub_objectives": [
+            "The candidate will be able to use and configure the Metasploit Framework at an intermediate level."
+          ]
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/penetration-tester-gpen/",
   "official_study_resources": [
     {

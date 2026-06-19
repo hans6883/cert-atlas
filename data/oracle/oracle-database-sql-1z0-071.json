@@ -3,7 +3,7 @@
   "exam_name": "Oracle Database SQL Certified Associate (1Z0-071)",
   "exam_code": "1Z0-071",
   "certifying_body": "Oracle",
-  "certification_name": null,
+  "certification_name": "Oracle Database SQL Certified Associate",
   "version": null,
   "source_url": "https://education.oracle.com/oracle-database-sql/pexam_1Z0-071",
   "passing_score": 63,
@@ -41,8 +41,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Qualified candidates have knowledge of general computing concepts, knowledge of command line interfaces and experience working in command line.",
+  "recommended_experience": "Experience working in command line.",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -52,70 +52,448 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "Relational Database Concepts",
-      "weight_percent": 9.0,
-      "objectives": []
+      "id": "1.0",
+      "name": "Relational Database concepts",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Explaining the theoretical and physical aspects of a relational database",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Relating clauses in SQL Select Statement to Components of an ERD",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Explaining the relationship between a database and SQL",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Retrieving Data Using the SQL SELECT Statement",
-      "weight_percent": 17.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Retrieving Data using the SQL SELECT Statement",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Using Column aliases",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Using The SQL SELECT statement",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Using concatenation operator, literal character strings, alternative quote operator, and the DISTINCT keyword",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Using Arithmetic expressions and NULL values in the SELECT statement",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Restricting and Sorting Data",
-      "weight_percent": 11.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Applying Rules of precedence for operators in an expression",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Limiting Rows Returned in a SQL Statement",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Using Substitution Variables",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Using the DEFINE and VERIFY commands",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Sorting Data",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "Using Single-Row Functions",
-      "weight_percent": 9.0,
-      "objectives": []
+      "id": "4.0",
+      "name": "Using Single-Row Functions to Customize Output",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Manipulating strings with character functions in SQL SELECT and WHERE clauses",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Performing arithmetic with date data",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Manipulating numbers with the ROUND, TRUNC and MOD functions",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Manipulating dates with the date function",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Using Conversion Functions and Conditional Expressions",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Applying the NVL, NULLIF, and COALESCE functions to data",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Understanding implicit and explicit data type conversion",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Using the TO_CHAR, TO_NUMBER, and TO_DATE conversion functions",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.9",
+          "title": "Nesting multiple functions",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Using Conversion Functions and Conditional Expressions",
-      "weight_percent": 9.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
+      "id": "5.0",
       "name": "Reporting Aggregated Data Using Group Functions",
-      "weight_percent": 8.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Restricting Group Results",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Creating Groups of Data",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Using Group Functions",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
+      "id": "6.0",
       "name": "Displaying Data from Multiple Tables",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Using Self-joins",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Using Various Types of Joins",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Using Non equijoins",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Using OUTER joins",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Understanding and Using Cartesian Products",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
-      "name": "Using Subqueries",
-      "weight_percent": 9.0,
-      "objectives": []
+      "id": "7.0",
+      "name": "Using Subqueries to Solve Queries",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Using Single Row Subqueries",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Using Multiple Row Subqueries",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Update and delete rows using correlated subqueries",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "9",
-      "name": "Using SET Operators",
-      "weight_percent": 5.0,
-      "objectives": []
+      "id": "8.0",
+      "name": "Using Set Operators",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Matching the SELECT statements",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Using the ORDER BY clause in set operations",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Using The INTERSECT operator",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.4",
+          "title": "Using The MINUS operator",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.5",
+          "title": "Using The UNION and UNION ALL operators",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "10",
-      "name": "Managing Tables Using DML Statements",
-      "weight_percent": 7.0,
-      "objectives": []
+      "id": "9.0",
+      "name": "Managing Tables using DML statements",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Managing Database Transactions",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Controlling transactions",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.3",
+          "title": "Perform Insert, Update and Delete operations",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.4",
+          "title": "Performing multi table Inserts",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.5",
+          "title": "Performing Merge statements",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "11",
-      "name": "Introduction to Data Definition Language",
-      "weight_percent": 6.0,
-      "objectives": []
+      "id": "10.0",
+      "name": "Managing Indexes Synonyms and Sequences",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Managing Indexes",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.2",
+          "title": "Managing Synonyms",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.3",
+          "title": "Managing Sequences",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Use DDL to manage tables and their relationships",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Describing and Working with Tables",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.2",
+          "title": "Describing and Working with Columns and Data Types",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.3",
+          "title": "Creating tables",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.4",
+          "title": "Dropping columns and setting column UNUSED",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.5",
+          "title": "Truncating tables",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.6",
+          "title": "Creating and using Temporary Tables",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.7",
+          "title": "Creating and using external tables",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "Managing Constraints",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Managing Constraints",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Managing Views",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Managing Views",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "14.0",
+      "name": "Controlling User Access",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Differentiating system privileges from object privileges",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.2",
+          "title": "Granting privileges on tables",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.3",
+          "title": "Distinguishing between granting privileges and roles",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "15.0",
+      "name": "Managing Objects with Data Dictionary Views",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "Using data dictionary views",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "16.0",
+      "name": "Managing Data in Different Time Zones",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "16.1",
+          "title": "Working with CURRENT_DATE, CURRENT_TIMESTAMP, and LOCALTIMESTAMP",
+          "sub_objectives": []
+        },
+        {
+          "id": "16.2",
+          "title": "Working with INTERVAL data types",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

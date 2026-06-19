@@ -43,7 +43,168 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between failed attempts. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.1",
+      "name": "Describe a deployment plan",
+      "weight_percent": 2.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2.1",
+      "name": "Identify critical information about environment, volume, users, and",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3.1",
+      "name": "Understand design and size indexes",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4.1",
+      "name": "List sizing considerations",
+      "weight_percent": 7.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5.1",
+      "name": "Identify non-smart store related storage and disk usage requirements",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "6.1",
+      "name": "Identify best practices for forwarder tier design",
+      "weight_percent": 6.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "7.1",
+      "name": "Use limits.conf to improve performance",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "8.1",
+      "name": "Splunk diagnostic resources and tools",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "9.1",
+      "name": "Identify Splunk’s internal log files",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "10.1",
+      "name": "License issues",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "11.1",
+      "name": "Input issues",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "12.1",
+      "name": "Search issues",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "13.1",
+      "name": "Forwarding issues",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "14.1",
+      "name": "Identify Splunk server roles in clusters",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "15.1",
+      "name": "Splunk single-site indexer cluster configuration",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "16.1",
+      "name": "Splunk multisite indexer cluster overview",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "17.1",
+      "name": "Indexer cluster storage utilization options",
+      "weight_percent": 7.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "18.1",
+      "name": "Splunk search head cluster overview",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "19.1",
+      "name": "Search head cluster deployer",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "20.1",
+      "name": "KV Store collection in Splunk clusters",
+      "weight_percent": 3.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [],
   "aliases": [

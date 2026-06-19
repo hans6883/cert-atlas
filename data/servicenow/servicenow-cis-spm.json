@@ -1,0 +1,195 @@
+{
+  "exam_id": "servicenow-cis-spm",
+  "exam_name": "ServiceNow Certified Implementation Specialist – Strategic Portfolio Management (CIS-SPM)",
+  "exam_code": "CIS-SPM",
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated January 2026",
+  "source_url": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-ppm.html",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 60,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 90,
+  "exam_price_usd": 150.0,
+  "exam_price_notes": null,
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/servicenow",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/servicenow",
+      "notes": "In-person and online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match exactly as registered.",
+  "exam_rules": "No notes, books, or external resources. Closed-book exam. ServiceNow platform access not provided during exam. Proctor monitors via webcam.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "Pass a delta maintenance exam after each major ServiceNow release (approximately twice per year). Delta exams are shorter and free for certified candidates.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "CSA certification recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": 7,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "7-day waiting period after first failed attempt. Full exam fee required for retake. Certifications must be maintained via delta exams after each major release."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "SPM Implementation Overview",
+      "weight_percent": 2,
+      "objectives": [
+        "SPM implementation preparation",
+        "General configurations",
+        "Now Create methodology"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "SPM Financials",
+      "weight_percent": 10,
+      "objectives": [
+        "Properties and tables",
+        "Financial planning",
+        "Cost types",
+        "Rate types",
+        "Expense lines",
+        "Rate model"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Resource Management",
+      "weight_percent": 23,
+      "objectives": [
+        "Personas, properties, and roles",
+        "Resource Management Workspace",
+        "Resource assignments",
+        "Planning attributes",
+        "Capacity planning",
+        "Schedules"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Idea and Demand",
+      "weight_percent": 18,
+      "objectives": [
+        "Roles and tables",
+        "Idea Portal",
+        "States",
+        "Innovation Management integration with Universal Request",
+        "Idea and demand conversion",
+        "Demand form",
+        "Demand Workbench",
+        "Defining stakeholders",
+        "Assessments"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Project Management",
+      "weight_percent": 30,
+      "objectives": [
+        "Properties, roles, and tables",
+        "Project Workspace",
+        "States",
+        "Subprojects",
+        "Tasks",
+        "Relationships (tasks and dependencies)",
+        "Project templates",
+        "Importing projects",
+        "RIDAC",
+        "Baselines",
+        "Status reports",
+        "Schedules",
+        "Diagnostics"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Timecard Management",
+      "weight_percent": 5,
+      "objectives": [
+        "Plugins, roles, and tables",
+        "Categories",
+        "Policies",
+        "Rate types"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Portfolio Planning Workspace",
+      "weight_percent": 8,
+      "objectives": [
+        "Plugins, roles, tables, and properties",
+        "Portfolio Planning Workspace",
+        "Lenses",
+        "Planning items",
+        "Display limits",
+        "Integrating Portfolio Planning with PPM",
+        "Scenario Planning"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "SPM Platform Analytics & Dashboards",
+      "weight_percent": 2,
+      "objectives": [
+        "Platform Analytics",
+        "Dashboards"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "SPM Better Together",
+      "weight_percent": 2,
+      "objectives": [
+        "ServiceNow applications that integrate with SPM"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=87599a4793d00750fb94b4886cba10f8",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "certified implementation specialist – strategic portfolio management (cis-spm)",
+    "cis-ppm",
+    "cis-spm",
+    "servicenow certified implementation specialist   strategic portfolio management  cis spm",
+    "servicenow certified implementation specialist project portfolio management cis-ppm",
+    "servicenow certified implementation specialist strategic portfolio management cis spm",
+    "servicenow cis-ppm",
+    "servicenow project portfolio management",
+    "servicenow-cis-ppm",
+    "servicenow-cis-spm"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Certified%20Implementation%20Specialist%20%E2%80%93%20Strategic%20Portfolio%20Management%20%28CIS-SPM%29"
+}

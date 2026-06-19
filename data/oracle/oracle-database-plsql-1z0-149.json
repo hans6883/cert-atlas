@@ -3,7 +3,7 @@
   "exam_name": "Oracle Database: Program with PL/SQL (1Z0-149)",
   "exam_code": "1Z0-149",
   "certifying_body": "Oracle",
-  "certification_name": null,
+  "certification_name": "Oracle Advanced PL/SQL Developer Certified Professional",
   "version": null,
   "source_url": "https://education.oracle.com/oracle-database-program-with-pl-sql/pexam_1Z0-149",
   "passing_score": 57,
@@ -41,8 +41,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Oracle Database: Program with PL/SQL",
+  "recommended_experience": "Experience with Oracle Database 10g, 11g and 12c",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -52,58 +52,476 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Declaring PL/SQL Variables",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Recognize valid and invalid identifiers",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "List the uses of variables, declare and initialize variables, use bind variables",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "List and describe various data types using the %TYPE and %ROWTYPE attributes",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": "2.0",
       "name": "Writing Executable Statements",
-      "weight_percent": 12.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Identify lexical units in a PL/SQL block",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Use built-in SQL functions in PL/SQL and sequences in PL/SQL expressions",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Describe when implicit conversions take place and when explicit conversions have to be dealt with",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Write nested blocks and qualify variables with labels",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Write readable code with appropriate indentation",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Interacting with the Oracle Database Server",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "3.0",
+      "name": "Writing SQL in PL/SQL",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Create PL/SQL executable blocks using DML and transaction control statements",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Make use of the INTO clause to hold the values returned by a SQL statement",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Writing Control Structures",
-      "weight_percent": 12.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Identify the uses and types of control structures (IF, CASE statements and expressions)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Construct and identify loop statements",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Use EXIT and CONTINUE statements inside loops",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "Working with Composite Data Types",
-      "weight_percent": 11.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Create user-defined PL/SQL records",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Create a record with the %ROWTYPE attribute",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Create an INDEX BY table and INDEX BY table of records",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Describe the differences among records, collections, and collections of records",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Initialize collections and records",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
+      "id": "6.0",
       "name": "Using Explicit Cursors",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Distinguish between implicit and explicit cursors and use SQL cursor attributes",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Declare and control explicit cursors, use simple loops and cursor FOR loops to fetch data",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Declare and use cursors with parameters",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Lock rows with the FOR UPDATE clause and reference the current row with the WHERE CURRENT OF clause",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
+      "id": "7.0",
       "name": "Handling Exceptions",
-      "weight_percent": 10.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Define PL/SQL exceptions",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Recognize unhandled exceptions",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Handle different types of exceptions (internally defined exceptions, predefined exceptions and user-defined exceptions)",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "Propagate exceptions",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
-      "name": "Creating Stored Procedures and Functions",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "8.0",
+      "name": "Using PL/SQL Subprograms",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Differentiate between anonymous blocks and subprograms",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Create a simple procedure and invoke it from an anonymous block",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Identify benefits of subprograms",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "9",
-      "name": "Creating and Using Packages",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "9.0",
+      "name": "Creating Procedures and Using Parameters",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Create a procedure with parameters",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Use named notation",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.3",
+          "title": "Work with procedures (create, invoke and remove procedures)",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.4",
+          "title": "Handle exceptions in procedures and display a procedure's information",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Creating Functions",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Differentiate between a procedure and a function",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.2",
+          "title": "Describe the uses of functions",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.3",
+          "title": "Work with functions (create, invoke and remove functions)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Creating Packages",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Identify the benefits and the components of packages",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.2",
+          "title": "Work with packages (create package specification and body, invoke package subprograms, remove a package and display package information)",
+          "sub_objectives": []
+        },
+        {
+          "id": "11.3",
+          "title": "Overload package subprograms and use forward declarations",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "Working with Packages",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Use package types and variables",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.2",
+          "title": "Use packaged constants and functions in SQL",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.3",
+          "title": "Use ACCESSIBLE BY to restrict access to package subprograms",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Using Dynamic SQL",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Describe the execution flow of SQL statements",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.2",
+          "title": "Use Native Dynamic SQL (NDS)",
+          "sub_objectives": []
+        },
+        {
+          "id": "13.3",
+          "title": "Bind PL/SQL types in SQL statements",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "14.0",
+      "name": "Design Considerations for PL/SQL Code",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Create standard constants and exceptions",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.2",
+          "title": "Write and call local subprograms",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.3",
+          "title": "Control the run-time privileges of a subprogram",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.4",
+          "title": "Perform autonomous transactions",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.5",
+          "title": "Use NOCOPY hint, PARALLEL ENABLE hint and DETERMINISTIC clause",
+          "sub_objectives": []
+        },
+        {
+          "id": "14.6",
+          "title": "Use bulk binding and the RETURNING clause with DML",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "15.0",
+      "name": "Creating Compound, DDL, and Event Database Triggers",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "Create triggers on DDL statements",
+          "sub_objectives": []
+        },
+        {
+          "id": "15.2",
+          "title": "Create triggers on system events",
+          "sub_objectives": []
+        },
+        {
+          "id": "15.3",
+          "title": "Describe different types of triggers and their uses",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "16.0",
+      "name": "Using the PL/SQL Compiler",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "16.1",
+          "title": "Describe the PL/SQL compiler and features",
+          "sub_objectives": []
+        },
+        {
+          "id": "16.2",
+          "title": "Use the PL/SQL compiler initialization parameters",
+          "sub_objectives": []
+        },
+        {
+          "id": "16.3",
+          "title": "Use the PL/SQL compile time warnings",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "17.0",
+      "name": "Managing PL/SQL Code",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "17.1",
+          "title": "Describe and use conditional compilation",
+          "sub_objectives": []
+        },
+        {
+          "id": "17.2",
+          "title": "Code-based access control: granting roles to program units",
+          "sub_objectives": []
+        },
+        {
+          "id": "17.3",
+          "title": "Whitelist code access with the ACCESSIBLE BY clause",
+          "sub_objectives": []
+        },
+        {
+          "id": "17.4",
+          "title": "Mark code as deprecated",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "18.0",
+      "name": "Managing Dependencies",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "18.1",
+          "title": "Track and manage procedural dependencies",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

@@ -1,0 +1,102 @@
+{
+  "exam_id": "servicenow-telecommunications-network-inventory",
+  "exam_name": "ServiceNow Telecommunications Network Inventory",
+  "exam_code": null,
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated September 2025",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 40,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Included with ServiceNow University access; see ServiceNow for current pricing.",
+  "voucher_url": null,
+  "exam_registration_url": "https://learning.servicenow.com",
+  "testing_centers": [
+    {
+      "provider": "ServiceNow University",
+      "scheduling_url": "https://learning.servicenow.com",
+      "notes": "Online, non-proctored assessment delivered in ServiceNow University"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Online assessment delivered through ServiceNow University.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "No annual maintenance exam required. Earn a Credly digital badge on completion.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Refer to ServiceNow University for retake details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "TNI Fundamentals and Architecture",
+      "weight_percent": 15,
+      "objectives": [
+        "Describe the purpose, benefits, and core components of the Telecommunications Network Inventory (TNI) application."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Data Modeling and Relationships",
+      "weight_percent": 25,
+      "objectives": [
+        "Interpret how network elements (e.g., nodes, links, services) are represented in the TNI data model.",
+        "Explain the relationships between physical, logical, and service layers in the inventory."
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Inventory Management Capabilities and Network Change Management",
+      "weight_percent": 40,
+      "objectives": [
+        "Explain how TNI manages network resource allocation and capacity management.",
+        "Describe how TNI enables network change management, number management, and workflow automation."
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Integration and Use Cases",
+      "weight_percent": 20,
+      "objectives": [
+        "Explain how TNI integrates with other ServiceNow modules (e.g., Order Management, FSM).",
+        "Describe common use cases for TNI in telecom operations (e.g., service assurance, capacity planning)."
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=9290afbc472c031076e07884f16d4383",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "servicenow telecommunications network inventory",
+    "servicenow-telecommunications-network-inventory",
+    "telecommunications network inventory"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Telecommunications%20Network%20Inventory"
+}

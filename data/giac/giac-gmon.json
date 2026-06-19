@@ -3,19 +3,21 @@
   "exam_name": "GMON (GIAC Continuous Monitoring Certification)",
   "exam_code": "GMON",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Continuous Monitoring Certification",
   "version": null,
   "source_url": "https://www.giac.org/certifications/continuous-monitoring-certification-gmon/",
   "passing_score": 67,
   "passing_score_scale": "percentage",
   "total_questions": 106,
-  "question_types": [],
+  "question_types": [
+    "performance-based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 240,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,50 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Individuals working to implement continuous diagnostics and mitigation, continuous security monitoring, or network security monitoring; Security architects; Senior security engineers; Technical security managers; SOC analysts, engineers, and managers; CND Analysts",
+  "recommended_experience": "Experience in implementing continuous diagnostics and mitigation, continuous security monitoring, or network security monitoring",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience in implementing continuous diagnostics and mitigation, continuous security monitoring, or network security monitoring",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Security architecture and security operations centers (SOCs)",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Network security architecture and monitoring",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Endpoint security architecture, automation, and continuous monitoring",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/continuous-monitoring-certification-gmon/",
   "official_study_resources": [
     {
