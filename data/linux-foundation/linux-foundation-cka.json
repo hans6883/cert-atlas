@@ -3,8 +3,8 @@
   "exam_name": "Certified Kubernetes Administrator (CKA)",
   "exam_code": "CKA",
   "certifying_body": "Linux Foundation",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Certified Kubernetes Administrator",
+  "version": "Kubernetes v1.34",
   "source_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
   "passing_score": 66,
   "passing_score_scale": null,
@@ -15,7 +15,7 @@
   "exam_format": "Performance-Based / Practical",
   "duration_minutes": 120,
   "exam_price_usd": 395.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Includes 12-months to schedule & take the exam, two exam simulation attempts, and two exam attempts.",
   "voucher_url": null,
   "exam_registration_url": "https://training.linuxfoundation.org/certification/",
   "testing_centers": [
@@ -35,8 +35,8 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Kubernetes administrators",
+  "recommended_experience": "Intermediate",
   "prerequisites": [
     {
       "prerequisite_type": "recommended",
@@ -50,7 +50,188 @@
     "max_attempts_total": 2,
     "notes": "One free retake included with exam registration. No waiting period between attempts. After 2 attempts, full repurchase required."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "Storage",
+      "name": "Storage",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Storage.1",
+          "title": "Implement storage classes and dynamic volume provisioning",
+          "sub_objectives": []
+        },
+        {
+          "id": "Storage.2",
+          "title": "Configure volume types, access modes and reclaim policies",
+          "sub_objectives": []
+        },
+        {
+          "id": "Storage.3",
+          "title": "Manage persistent volumes and persistent volume claims",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Troubleshooting",
+      "name": "Troubleshooting",
+      "weight_percent": 30.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Troubleshooting.1",
+          "title": "Troubleshoot clusters and nodes",
+          "sub_objectives": []
+        },
+        {
+          "id": "Troubleshooting.2",
+          "title": "Troubleshoot cluster components",
+          "sub_objectives": []
+        },
+        {
+          "id": "Troubleshooting.3",
+          "title": "Monitor cluster and application resource usage",
+          "sub_objectives": []
+        },
+        {
+          "id": "Troubleshooting.4",
+          "title": "Manage and evaluate container output streams",
+          "sub_objectives": []
+        },
+        {
+          "id": "Troubleshooting.5",
+          "title": "Troubleshoot services and networking",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Workloads & Scheduling",
+      "name": "Workloads & Scheduling",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Workloads & Scheduling.1",
+          "title": "Understand application deployments and how to perform rolling update and rollbacks",
+          "sub_objectives": []
+        },
+        {
+          "id": "Workloads & Scheduling.2",
+          "title": "Use ConfigMaps and Secrets to configure applications",
+          "sub_objectives": []
+        },
+        {
+          "id": "Workloads & Scheduling.3",
+          "title": "Configure workload autoscaling",
+          "sub_objectives": []
+        },
+        {
+          "id": "Workloads & Scheduling.4",
+          "title": "Understand the primitives used to create robust, self-healing, application deployments",
+          "sub_objectives": []
+        },
+        {
+          "id": "Workloads & Scheduling.5",
+          "title": "Configure Pod admission and scheduling (limits, node affinity, etc.)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Cluster Architecture, Installation & Configuration",
+      "name": "Cluster Architecture, Installation & Configuration",
+      "weight_percent": 25.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Cluster Architecture, Installation & Configuration.1",
+          "title": "Manage role based access control (RBAC)",
+          "sub_objectives": []
+        },
+        {
+          "id": "Cluster Architecture, Installation & Configuration.2",
+          "title": "Prepare underlying infrastructure for installing a Kubernetes cluster",
+          "sub_objectives": []
+        },
+        {
+          "id": "Cluster Architecture, Installation & Configuration.3",
+          "title": "Create and manage Kubernetes clusters using kubeadm",
+          "sub_objectives": []
+        },
+        {
+          "id": "Cluster Architecture, Installation & Configuration.4",
+          "title": "Manage the lifecycle of Kubernetes clusters",
+          "sub_objectives": []
+        },
+        {
+          "id": "Cluster Architecture, Installation & Configuration.5",
+          "title": "Implement and configure a highly-available control plane",
+          "sub_objectives": []
+        },
+        {
+          "id": "Cluster Architecture, Installation & Configuration.6",
+          "title": "Use Helm and Kustomize to install cluster components",
+          "sub_objectives": []
+        },
+        {
+          "id": "Cluster Architecture, Installation & Configuration.7",
+          "title": "Understand extension interfaces (CNI, CSI, CRI, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "Cluster Architecture, Installation & Configuration.8",
+          "title": "Understand CRDs, install and configure operators",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Services & Networking",
+      "name": "Services & Networking",
+      "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Services & Networking.1",
+          "title": "Understand connectivity between Pods",
+          "sub_objectives": []
+        },
+        {
+          "id": "Services & Networking.2",
+          "title": "Define and enforce Network Policies",
+          "sub_objectives": []
+        },
+        {
+          "id": "Services & Networking.3",
+          "title": "Use ClusterIP, NodePort, LoadBalancer service types and endpoints",
+          "sub_objectives": []
+        },
+        {
+          "id": "Services & Networking.4",
+          "title": "Use the Gateway API to manage Ingress traffic",
+          "sub_objectives": []
+        },
+        {
+          "id": "Services & Networking.5",
+          "title": "Know how to use Ingress controllers and Ingress resources",
+          "sub_objectives": []
+        },
+        {
+          "id": "Services & Networking.6",
+          "title": "Understand and use CoreDNS",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

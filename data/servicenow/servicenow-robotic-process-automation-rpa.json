@@ -1,0 +1,101 @@
+{
+  "exam_id": "servicenow-robotic-process-automation-rpa",
+  "exam_name": "ServiceNow Robotic Process Automation (RPA)",
+  "exam_code": null,
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated September 2025",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 35,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Included with ServiceNow University access; see ServiceNow for current pricing.",
+  "voucher_url": null,
+  "exam_registration_url": "https://learning.servicenow.com",
+  "testing_centers": [
+    {
+      "provider": "ServiceNow University",
+      "scheduling_url": "https://learning.servicenow.com",
+      "notes": "Online, non-proctored assessment delivered in ServiceNow University"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Online assessment delivered through ServiceNow University.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "No annual maintenance exam required. Earn a Credly digital badge on completion.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Refer to ServiceNow University for retake details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "RPA Fundamentals and Architecture",
+      "weight_percent": 25,
+      "objectives": [
+        "Describe the foundational principles, architecture, and installation of ServiceNow RPA and its role in enterprise automation."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bot Development Lifecycle",
+      "weight_percent": 40,
+      "objectives": [
+        "Explain the process of designing, configuring, and deploying RPA robots using ServiceNow tools.",
+        "Differentiate between attended and unattended bots in ServiceNow RPA."
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Bot Types and Execution",
+      "weight_percent": 20,
+      "objectives": [
+        "Describe the details of bot run executions."
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Integration and Error Handling",
+      "weight_percent": 15,
+      "objectives": [
+        "Explain how ServiceNow RPA integrates with platform components and manages exceptions in automated workflows."
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=3428457f47043adcc00af235126d43ae",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "robotic process automation (rpa)",
+    "servicenow robotic process automation  rpa",
+    "servicenow robotic process automation rpa",
+    "servicenow-robotic-process-automation-rpa"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Robotic%20Process%20Automation%20%28RPA%29"
+}

@@ -3,8 +3,8 @@
   "exam_name": "CC – Certified in Cybersecurity",
   "exam_code": "CC",
   "certifying_body": "ISC2",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Certified in Cybersecurity",
+  "version": "Effective September 1, 2026, the CC exam will be based on a new exam outline.",
   "source_url": "https://www.isc2.org/certifications/cc",
   "passing_score": 700,
   "passing_score_scale": "0-1000",
@@ -40,8 +40,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "IT professionals, career changers looking to transition into cybersecurity, college students or recent graduates",
+  "recommended_experience": "No work experience required",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 30,
@@ -49,8 +49,49 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period after first failed attempt. 90-day waiting period after second failed attempt. Maximum 3 attempts in a 12-month period. Full exam fee required for each retake."
   },
-  "domains": [],
-  "official_objectives_url": null,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Security Principles",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Access Controls Concepts",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Network Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security Operations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "CC Exam Outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -75,6 +116,7 @@
     "cc",
     "cc certified in cybersecurity",
     "certified in cybersecurity",
+    "certified in cybersecurity cc",
     "isc2-cc-certified-in-cybersecurity"
   ],
   "practice_url": "https://quizforge.ai/tests/cc-certified-in-cybersecurity-2f6d1a0e"

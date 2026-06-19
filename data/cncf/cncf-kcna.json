@@ -3,17 +3,19 @@
   "exam_name": "Kubernetes and Cloud Native Associate (KCNA)",
   "exam_code": "KCNA",
   "certifying_body": "CNCF",
-  "certification_name": null,
+  "certification_name": "認定Kubernetesクラウドネイティブアソシエイト (KCNA-JP)",
   "version": null,
   "source_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate/",
   "passing_score": 75,
   "passing_score_scale": "percentage",
   "total_questions": 60,
-  "question_types": [],
+  "question_types": [
+    "multiple_choice"
+  ],
   "exam_format": "Performance-based (hands-on terminal)",
   "duration_minutes": 90,
   "exam_price_usd": 250.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Includes 12-months to schedule & take the exam, two exam attempts, and exam preparation handbook.",
   "voucher_url": null,
   "exam_registration_url": null,
   "testing_centers": [
@@ -30,17 +32,95 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 2 years. Renewal requires retaking and passing the exam before expiry. No CE credit option — exam retake is the only renewal path.",
   "continuing_education_units": null,
-  "available_languages": [],
-  "target_audience": null,
+  "available_languages": [
+    "Japanese"
+  ],
+  "target_audience": "Beginner",
   "recommended_experience": null,
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "There are no pre-requisites for this exam.",
+      "is_required": false
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "One free retake attempt is included with the exam purchase. A minimum 12-hour waiting period is required between attempts. The free retake must be used within 12 months of the original purchase."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "Kubernetes Fundamentals",
+      "name": "Kubernetes Fundamentals",
+      "weight_percent": 44.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Kubernetes Core Concepts",
+          "title": "Kubernetes Core Concepts",
+          "sub_objectives": [
+            "Administration",
+            "Scheduling",
+            "Containerization",
+            "Container Orchestration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Networking",
+      "name": "Networking",
+      "weight_percent": 28.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Security",
+          "title": "Security",
+          "sub_objectives": [
+            "Troubleshooting",
+            "Storage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cloud Native Application Delivery",
+      "name": "Cloud Native Application Delivery",
+      "weight_percent": 16.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Application Delivery",
+          "title": "Application Delivery",
+          "sub_objectives": [
+            "Debugging"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cloud Native Architecture",
+      "name": "Cloud Native Architecture",
+      "weight_percent": 12.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "Observability",
+          "title": "Observability",
+          "sub_objectives": [
+            "Cloud Native Ecosystem and Principles",
+            "Cloud Native Community and Collaboration"
+          ]
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate/",
   "official_study_resources": [
     {

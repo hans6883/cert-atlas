@@ -1,0 +1,141 @@
+{
+  "exam_id": "servicenow-manufacturing-commercial-operations",
+  "exam_name": "ServiceNow Manufacturing Commercial Operations",
+  "exam_code": null,
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": null,
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 29,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Included with ServiceNow University access; see ServiceNow for current pricing.",
+  "voucher_url": null,
+  "exam_registration_url": "https://learning.servicenow.com",
+  "testing_centers": [
+    {
+      "provider": "ServiceNow University",
+      "scheduling_url": "https://learning.servicenow.com",
+      "notes": "Online, non-proctored assessment delivered in ServiceNow University"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Online assessment delivered through ServiceNow University.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "No annual maintenance exam required. Earn a Credly digital badge on completion.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Refer to ServiceNow University for retake details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "MCO Framework",
+      "weight_percent": 10,
+      "objectives": [
+        "Purpose-built solution for manufacturers",
+        "Manufacturing Data Model Foundation",
+        "Key capabilities (e.g., warranty claims, recall campaigns, sales promotions"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dealer Portal",
+      "weight_percent": 10,
+      "objectives": [
+        "Look by Serial number",
+        "My Lists",
+        "Catalogs",
+        "My information",
+        "Unified Dealer Experience"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Recall Campaigns and Claims Management",
+      "weight_percent": 25,
+      "objectives": [
+        "Creating recall campaigns",
+        "Recall phases and tasks",
+        "Impacted assets",
+        "Corrective actions and charges"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sales Promotion Campaigns and Claims Management",
+      "weight_percent": 15,
+      "objectives": [
+        "Campaign creation and publishing",
+        "Visibility criteria",
+        "Bulk claim uploads",
+        "Dealer and OEM collaboration"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Warranty Claims Management",
+      "weight_percent": 10,
+      "objectives": [
+        "Claim submission and tracking",
+        "Adjudication workflows (approve, reject, partially approve)",
+        "Collaboration between dealers and OEMs"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Service Exchange",
+      "weight_percent": 10,
+      "objectives": [
+        "Connecting multiple ServiceNow instances",
+        "Remote Catalogs",
+        "Transformation framework"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Order-to-Cash Operations",
+      "weight_percent": 20,
+      "objectives": [
+        "Case type and case lines",
+        "Invoice case data model",
+        "Order exceptions and invoice disputes"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=df4d80ee87cccbdccfa68519dabb351d",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "manufacturing commercial operations",
+    "servicenow manufacturing commercial operations",
+    "servicenow-manufacturing-commercial-operations"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Manufacturing%20Commercial%20Operations"
+}

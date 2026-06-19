@@ -3,7 +3,7 @@
   "exam_name": "OffSec Wireless Professional (OSWP)",
   "exam_code": "OSWP",
   "certifying_body": "OffSec",
-  "certification_name": null,
+  "certification_name": "OffSec Wireless Professional (OSWP)",
   "version": null,
   "source_url": "https://www.offsec.com/courses/pen-210/",
   "passing_score": null,
@@ -15,7 +15,7 @@
   "exam_format": "Practical / Penetration Test Lab",
   "duration_minutes": 240,
   "exam_price_usd": 749.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "yearly subscription auto-renews unless cancelled",
   "voucher_url": null,
   "exam_registration_url": "https://www.offsec.com/courses/pen-200/",
   "testing_centers": [
@@ -35,8 +35,8 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Penetration Testers and Security Professionals seeking to expand their skillset to include wireless security policies and assessments",
+  "recommended_experience": "Comfort using the Linux command line, solid understanding of TCP/IP networking, basic knowledge of wireless networking concepts (e.g., 802.11 protocols, encryption)",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -46,40 +46,55 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "IEEE 802.11 Protocol Analysis",
+      "id": "1.0",
+      "name": "Wireless Network Security Foundations",
       "weight_percent": null,
-      "objectives": []
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understanding wireless standards and encryption vulnerabilities",
+          "sub_objectives": [
+            "Analyzing encryption vulnerabilities",
+            "Understanding wireless standards"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Capturing and interpreting wireless traffic",
+          "sub_objectives": [
+            "Capturing and interpreting wireless traffic",
+            "Using Wireshark to analyze wireless traffic"
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "WEP Attacks",
+      "id": "2.0",
+      "name": "Wireless Reconnaissance and Exploitation",
       "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "WPA/WPA2 Personal Attacks",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "WPA/WPA2 Enterprise Attacks",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Attacking Captive Portals",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Rogue Access Points and Evil Twin Attacks",
-      "weight_percent": null,
-      "objectives": []
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Wireless reconnaissance techniques",
+          "sub_objectives": [
+            "Using Aircrack-ng for wireless security assessment",
+            "Utilizing mac80211 for wireless attacks"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Exploiting wireless vulnerabilities",
+          "sub_objectives": [
+            "Creating a rogue AP",
+            "Exploiting WPS vulnerabilities",
+            "Determining chipset and driver for a Wi-Fi adapter"
+          ]
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

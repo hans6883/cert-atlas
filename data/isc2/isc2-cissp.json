@@ -3,16 +3,16 @@
   "exam_name": "CISSP",
   "exam_code": "CISSP",
   "certifying_body": "ISC2",
-  "certification_name": null,
+  "certification_name": "CISSP",
   "version": null,
   "source_url": "https://www.isc2.org/certifications/cissp",
   "passing_score": 700,
   "passing_score_scale": "0-1000",
-  "total_questions": 100,
+  "total_questions": 150,
   "question_types": [
     "Multiple Choice"
   ],
-  "exam_format": null,
+  "exam_format": "Computer Adaptive Testing (CAT)",
   "duration_minutes": 240,
   "exam_price_usd": 749.0,
   "exam_price_notes": null,
@@ -40,8 +40,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "experienced security practitioners, managers and executives interested in proving their knowledge across a wide array of security practices and principles, including those in the following positions: Chief Information Security Officer, Chief Information Officer, Director of Security, IT Director/Manager, Security Systems Engineer, Security Analyst, Security Manager, Security Auditor, Security Architect, Security Consultant, Network Architect",
+  "recommended_experience": "5 Years Required Work Experience",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
@@ -55,7 +55,72 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period after first failed attempt. 90-day waiting period after second failed attempt. Maximum 3 attempts in a 12-month period. Full exam fee required for each retake."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Security and Risk Management",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2.0",
+      "name": "Asset Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3.0",
+      "name": "Security Architecture and Engineering",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4.0",
+      "name": "Communication and Network Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5.0",
+      "name": "Identity and Access Management (IAM)",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "6.0",
+      "name": "Security Assessment and Testing",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "7.0",
+      "name": "Security Operations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "8.0",
+      "name": "Software Development Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -78,6 +143,7 @@
     }
   ],
   "aliases": [
+    "cissp",
     "cissp - the world s premier cybersecurity certification",
     "isc2-cissp"
   ],

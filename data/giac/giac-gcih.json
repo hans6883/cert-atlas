@@ -3,19 +3,21 @@
   "exam_name": "GCIH (GIAC Certified Incident Handler)",
   "exam_code": "GCIH",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Certified Incident Handler",
   "version": null,
   "source_url": "https://www.giac.org/certifications/certified-incident-handler-gcih/",
   "passing_score": 73,
   "passing_score_scale": "percentage",
   "total_questions": 106,
-  "question_types": [],
+  "question_types": [
+    "performance-based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 240,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,236 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Incident handlers, incident handling team leads, system administrators, security practitioners, security architects, and any security personnel who are first responders",
+  "recommended_experience": "Practical work experience in incident handling and computer security",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Practical work experience in incident handling and computer security",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Attacking Passwords",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Demonstrate a detailed understanding of how to conduct password attacks",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Detecting Evasive and Post-Exploitation Techniques",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Identify and defend against an attacker already in an environment, discover methods used to establish persistence, hide their presence, and achieve actions on objectives",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Detecting Exploitation and Covert Communications Tools",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Demonstrate an understanding of how to identify and defend against the use of exploitation tools such as Metasploit and covert communications tools such as netcat",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Endpoint Attack and Pivoting",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Demonstrate an understanding of how to identify and defend against endpoint specific attacks and pivoting in an environment",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Exploiting Insecure Web Application References",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Demonstrate an understanding of common methods for exploiting insecure web application references",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Incident Response and Cyber Investigation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Demonstrate an understanding of the PICERL and DAIR incident handling processes and incident response challenges",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Integrating LLMs with Offensive Operations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Demonstrate an understanding of LLM prompt processing, risks, common attack methods, and defend against AI specific attacks in modern environments",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Malware and AI Assisted Investigations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Demonstrate an understanding of the steps necessary to perform basic malware analysis and understand how AI can be used to augment investigative efforts",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Network and Log Investigations",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Demonstrate an understanding of the steps necessary to perform effective investigations of network and log data",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Scanning and Mapping",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Demonstrate an understanding of how to discover and map networks and hosts, reveal services and vulnerabilities, and identify and defend against scanning",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Securing Credentials and Data in the Cloud",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Demonstrate an understanding of how to identify, defend against, and mitigate password attacks and insecure storage in cloud-based environments",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "SMB Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Demonstrate an understanding of SMB features, vulnerabilities, how to discover and access shares, and how to secure the service",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Understanding Passwords",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Identify password hashes, understand password weaknesses, and secure passwords",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "14.0",
+      "name": "Web Application API Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Demonstrate the basics of interacting with and abusing access to web APIs",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "15.0",
+      "name": "Web Application Injection Attacks",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "Demonstrate an understanding of common web application injection attacks",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/certified-incident-handler-gcih/",
   "official_study_resources": [
     {

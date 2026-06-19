@@ -3,19 +3,21 @@
   "exam_name": "GCFE (GIAC Certified Forensic Examiner)",
   "exam_code": "GCFE",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Certified Forensic Examiner",
   "version": null,
   "source_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
   "passing_score": 73,
   "passing_score_scale": "percentage",
   "total_questions": 115,
-  "question_types": [],
+  "question_types": [
+    "performance-based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 180,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,50 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Anyone with a background in information systems, information security, and computers, interested in a deep understanding of Windows forensics; Information security professionals; Incident response team members; Law enforcement officers, federal agents, and detectives; Media exploitation analysts",
   "recommended_experience": null,
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Background in information systems, information security, and computers",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "Windows forensics and data triage",
+      "name": "Windows forensics and data triage",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "Windows Registry forensics, USB devices, shell items, email forensics, and log analysis",
+      "name": "Windows Registry forensics, USB devices, shell items, email forensics, and log analysis",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "Advanced web browser forensics (Chrome, Edge, Firefox)",
+      "name": "Advanced web browser forensics (Chrome, Edge, Firefox)",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
   "official_study_resources": [
     {

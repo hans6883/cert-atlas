@@ -3,19 +3,21 @@
   "exam_name": "GCIA (GIAC Certified Intrusion Analyst)",
   "exam_code": "GCIA",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Certified Intrusion Analyst",
   "version": null,
   "source_url": "https://www.giac.org/certifications/certified-intrusion-analyst-gcia/",
   "passing_score": 67,
   "passing_score_scale": "percentage",
   "total_questions": 106,
-  "question_types": [],
+  "question_types": [
+    "performance-based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 240,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,241 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Practitioners responsible for intrusion detection, system analysts, security analysts, network engineers and administrators, hands-on security managers",
+  "recommended_experience": "Not specified in the provided content.",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Hands-on experience in intrusion detection, network monitoring, traffic analysis, and intrusion detection systems.",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Fundamentals of Traffic Analysis and Application Protocols",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Application Protocols",
+          "sub_objectives": [
+            "Demonstrate knowledge and skill relating to application layer protocol dissection and analysis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Open-Source Intrusion Detection Systems (IDS): Snort and Zeek",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "IDS Fundamentals and Network Architecture",
+          "sub_objectives": [
+            "Demonstrate knowledge of fundamental IDS concepts, such as network architecture options and benefits/weaknesses of common IDS systems."
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Intrusion Detection System Rules",
+          "sub_objectives": [
+            "Create effective IDS rules to detect varied types of malicious activity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Network Traffic Forensics and Monitoring",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Network Forensics and Traffic Analysis",
+          "sub_objectives": [
+            "Demonstrate competence in analyzing data from multiple sources (e.g., full packet capture, netflow, log files) to identify normal and malicious behaviors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Concepts of TCP/IP and the Link Layer",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Concepts of TCP/IP and the Link Layer",
+          "sub_objectives": [
+            "Demonstrate understanding of the TCP/IP communications model and link layer operations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Fragmentation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Fragmentation",
+          "sub_objectives": [
+            "Demonstrate understanding of how fragmentation works, and how to identify fragmentation and fragmentation-based attacks in packet captures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "IP Headers",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "IP Headers",
+          "sub_objectives": [
+            "Demonstrate the ability to dissect IP packet headers and analyze them for normal and anomalous values that may point to security issues."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "IPv6",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "IPv6",
+          "sub_objectives": [
+            "Demonstrate knowledge of IPv6 and how it differs from IPv4."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Packet Engineering",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Packet Engineering",
+          "sub_objectives": [
+            "Demonstrate knowledge relating to packet crafting and manipulation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "SiLK and Other Traffic Analysis Tools",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "SiLK and Other Traffic Analysis Tools",
+          "sub_objectives": [
+            "Demonstrate an understanding of SiLK and other tools to perform network traffic and flow analysis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "TCP",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "TCP",
+          "sub_objectives": [
+            "Demonstrate understanding of the TCP protocol and the ability to discern between typical and anomalous behavior."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Tcpdump Filters",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Tcpdump Filters",
+          "sub_objectives": [
+            "Demonstrate ability to craft tcpdump filters that match on given criteria."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "UDP and ICMP",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "UDP and ICMP",
+          "sub_objectives": [
+            "Demonstrate understanding of the UDP and ICMP protocols and the ability to discern between typical and anomalous behavior."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Wireshark Fundamentals",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Wireshark Fundamentals",
+          "sub_objectives": [
+            "Demonstrate ability to use Wireshark to analyze typical and malicious network traffic."
+          ]
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/certified-intrusion-analyst-gcia/",
   "official_study_resources": [
     {

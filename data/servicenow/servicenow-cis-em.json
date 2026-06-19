@@ -1,0 +1,146 @@
+{
+  "exam_id": "servicenow-cis-em",
+  "exam_name": "ServiceNow Certified Implementation Specialist – Event Management (CIS-EM)",
+  "exam_code": "CIS-EM",
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": "Updated Jan 2026",
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 30,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 60,
+  "exam_price_usd": null,
+  "exam_price_notes": "Registration is payment; learning credits or credit card accepted. Instructor-led training completion includes one free exam attempt.",
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/servicenow",
+  "testing_centers": [
+    {
+      "provider": "Pearson VUE",
+      "scheduling_url": "https://home.pearsonvue.com/servicenow",
+      "notes": "In-person and online proctored (OnVUE)"
+    }
+  ],
+  "online_proctoring_available": true,
+  "id_requirements": "One valid, government-issued photo ID with full name and photo. Name must match exactly as registered.",
+  "exam_rules": "Closed-book, proctored exam. No notes, books, or external resources. ServiceNow platform access is not provided during the exam.",
+  "certification_validity_years": 1,
+  "renewal_required": true,
+  "renewal_options": "Maintain via annual maintenance (delta) exams after each major ServiceNow release and the yearly Certification Maintenance Program (CMP) fee.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [
+    {
+      "prerequisite_type": "recommended_certification",
+      "description": "ServiceNow Certified System Administrator (CSA) recommended",
+      "is_required": false
+    }
+  ],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "A waiting period applies between attempts; the full exam fee is required for each retake. See the Credentialing Program Guide for details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Event Management Overview",
+      "weight_percent": 7,
+      "objectives": [
+        "IT Operations Management (ITOM) solution",
+        "Define customer challenges",
+        "Event Management key features and capabilities",
+        "Graphical user interfaces (operator workspace, alert intelligence, dependency maps)",
+        "Common Service Data Model (business, application, and technical services)"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Architecture and Discovery",
+      "weight_percent": 10,
+      "objectives": [
+        "Discovery and MID server architecture",
+        "Event Management architecture and CMDB",
+        "The monitoring process",
+        "Validate a MID server"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Event Configuration and Use",
+      "weight_percent": 27,
+      "objectives": [
+        "Event setup (event processing, event rules, event filter, event thresholds, operator workspace)",
+        "Event Management process flow (event table, message key, event processing jobs, event field mapping, CI binding, best practices)",
+        "Connectors (preconfigured, customized)",
+        "Scripting (Regex, JavaScript, PowerShell)"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Alerts and Tasks",
+      "weight_percent": 30,
+      "objectives": [
+        "Alert defined (alert record attributes, scheduled jobs",
+        "Alerts process flow (alert management rules, CI binding, priority scores, priority groups, incidents, best practices)",
+        "Alert grouping (correlation rules, alert aggregation)",
+        "Alert intelligence in Service Operations Workspace",
+        "Alert management rules",
+        "Alert impact profile (impact tree, impact rules, cluster example, SLAs)"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Event Sources",
+      "weight_percent": 16,
+      "objectives": [
+        "Identify event sources",
+        "Push vs. pull methods",
+        "Use inbound actions",
+        "Configure a monitoring connector",
+        "Use Agent Client Collector Monitoring"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Metric Intelligence",
+      "weight_percent": 10,
+      "objectives": [
+        "Review metric intelligence capabilities",
+        "Connect a metric source",
+        "Review the metric data pipeline",
+        "Identify anomaly bounds and thresholds",
+        "Use metric intelligence in Service Operations"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=55e2af5a83e532140593bcffeeaad36d",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "certified implementation specialist – event management (cis-em)",
+    "cis-em",
+    "servicenow certified implementation specialist   event management  cis em",
+    "servicenow certified implementation specialist event management cis em",
+    "servicenow-cis-em"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Certified%20Implementation%20Specialist%20%E2%80%93%20Event%20Management%20%28CIS-EM%29"
+}

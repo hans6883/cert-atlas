@@ -43,7 +43,136 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between failed attempts. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Introducing ITSI",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2.0",
+      "name": "Glass Tables",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3.0",
+      "name": "Managing Notable Events",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4.0",
+      "name": "Investigating Issues with Deep Dives",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5.0",
+      "name": "Installing and Configuring ITSI",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "6.0",
+      "name": "Designing Services",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "7.0",
+      "name": "Data Audit and Base Searches",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "8.0",
+      "name": "Implementing Services",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "9.0",
+      "name": "Thresholds and Time Policies",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "10.0",
+      "name": "Entities and Modules",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "11.0",
+      "name": "Templates and Dependencies",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "12.0",
+      "name": "Anomaly Detection",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "13.0",
+      "name": "Correlation and Multi KPI Searches",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "14.0",
+      "name": "Aggregation Policies",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "15.0",
+      "name": "Access Control",
+      "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "16.0",
+      "name": "Troubleshooting ITSI",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [],
   "aliases": [

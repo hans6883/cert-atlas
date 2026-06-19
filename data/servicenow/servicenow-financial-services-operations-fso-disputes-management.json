@@ -1,0 +1,116 @@
+{
+  "exam_id": "servicenow-financial-services-operations-fso-disputes-management",
+  "exam_name": "ServiceNow Financial Services Operations (FSO) Disputes Management",
+  "exam_code": null,
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": null,
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 24,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": 60,
+  "exam_price_usd": null,
+  "exam_price_notes": "Included with ServiceNow University access; see ServiceNow for current pricing.",
+  "voucher_url": null,
+  "exam_registration_url": "https://learning.servicenow.com",
+  "testing_centers": [
+    {
+      "provider": "ServiceNow University",
+      "scheduling_url": "https://learning.servicenow.com",
+      "notes": "Online, non-proctored assessment delivered in ServiceNow University"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Online assessment delivered through ServiceNow University.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "No annual maintenance exam required. Earn a Credly digital badge on completion.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Refer to ServiceNow University for retake details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Overview",
+      "weight_percent": 12,
+      "objectives": [
+        "General responsibilities of customer, merchant, and bank",
+        "Categorizing disputes"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Data Model and Architecture",
+      "weight_percent": 30,
+      "objectives": [
+        "Personas/Roles",
+        "Defining Advanced Work Assignments",
+        "Configuring/Defining Tables"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Card Operations",
+      "weight_percent": 30,
+      "objectives": [
+        "Disputes Management Playbook",
+        "OOTB Workflow",
+        "Configuring Workflow with Flow Designer",
+        "UI Navigation"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Integrations",
+      "weight_percent": 16,
+      "objectives": [
+        "Integrations with External Core Banking Systems, Visa, Verifi’s CDRN, Mastercard, Ethoca Consumer Clairity, and Tokenization"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Compliance",
+      "weight_percent": 12,
+      "objectives": [
+        "US Banking Regulations",
+        "Defined OOTB SLAs",
+        "Defining Internal Policies"
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=d667a10547d4cf9076e07884f16d43b6",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "financial services operations (fso) disputes management",
+    "servicenow financial services operations  fso  disputes management",
+    "servicenow financial services operations fso disputes management",
+    "servicenow-financial-services-operations-fso-disputes-management"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Financial%20Services%20Operations%20%28FSO%29%20Disputes%20Management"
+}

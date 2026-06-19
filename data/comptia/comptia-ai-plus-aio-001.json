@@ -17,7 +17,7 @@
   "exam_format": "Linear",
   "duration_minutes": 120,
   "exam_price_usd": 369.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Buy Now",
   "voucher_url": "https://store.comptia.org/",
   "exam_registration_url": "https://home.pearsonvue.com/comptia",
   "testing_centers": [
@@ -44,9 +44,9 @@
   "recommended_experience": "No prior experience is required",
   "prerequisites": [
     {
-      "prerequisite_type": "experience",
-      "description": "No prior experience is required—this course is designed for beginners who are new to using AI assistants in a professional context.",
-      "is_required": false
+      "prerequisite_type": "training",
+      "description": "CompTIA AI Essentials course",
+      "is_required": true
     }
   ],
   "retake_policy": {

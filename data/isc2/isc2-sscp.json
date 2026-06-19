@@ -3,7 +3,7 @@
   "exam_name": "SSCP",
   "exam_code": "SSCP",
   "certifying_body": "ISC2",
-  "certification_name": null,
+  "certification_name": "SSCP – Systems Security Certified Practitioner",
   "version": null,
   "source_url": "https://www.isc2.org/certifications/sscp",
   "passing_score": 700,
@@ -40,8 +40,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "IT administrators, managers, directors and network security professionals responsible for the hands-on operational security of their organization’s critical assets, including those in the following positions: Network Security Engineer, Systems Administrator, Security Analyst, Systems Engineer, Security Consultant/Specialist, Security Administrator, Systems/Network Analyst, Database Administrator, Health Information Manager, Practice Manager",
+  "recommended_experience": "1 Year Required Work Experience",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
@@ -55,7 +55,64 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period after first failed attempt. 90-day waiting period after second failed attempt. Maximum 3 attempts in a 12-month period. Full exam fee required for each retake."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Security Concepts and Practices",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "2.0",
+      "name": "Access Controls",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "3.0",
+      "name": "Risk Identification, Monitoring and Analysis",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4.0",
+      "name": "Incident Response and Recovery",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5.0",
+      "name": "Cryptography",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "6.0",
+      "name": "Network and Communications Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "7.0",
+      "name": "Systems and Application Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

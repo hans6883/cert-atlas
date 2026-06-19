@@ -3,7 +3,7 @@
   "exam_name": "Java SE 8 Programmer I – OCA (1Z0-808)",
   "exam_code": "1Z0-808",
   "certifying_body": "Oracle",
-  "certification_name": null,
+  "certification_name": "Oracle Certified Associate, Java SE 8 Programmer",
   "version": null,
   "source_url": "https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808",
   "passing_score": 65,
@@ -41,8 +41,8 @@
     "Korean",
     "Spanish"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Beginners and those new to Java development",
+  "recommended_experience": "Basic programming knowledge and some experience with Java",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 14,
@@ -52,58 +52,295 @@
   },
   "domains": [
     {
-      "id": "1",
+      "id": "1.0",
       "name": "Java Basics",
-      "weight_percent": 14.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Define the scope of variables",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Define the structure of a Java class",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Create executable Java applications with a main method; run a Java program from the command line; produce console output",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Import other Java packages to make them accessible in your code",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Compare and contrast the features and components of Java such as: platform independence, object orientation, encapsulation, etc.",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Working with Java Data Types",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "2.0",
+      "name": "Working With Java Data Types",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Declare and initialize variables (including casting of primitive data types)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Differentiate between object reference variables and primitive variables",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Know how to read or write to object fields",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Explain an Object's Lifecycle (creation, 'dereference by reassignment' and garbage collection)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Develop code that uses wrapper classes such as Boolean, Double, and Integer",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
+      "id": "3.0",
       "name": "Using Operators and Decision Constructs",
-      "weight_percent": 9.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Use Java operators; use parentheses to override operator precedence",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Test equality between Strings and other objects using == and equals ()",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Create if and if/else and ternary constructs",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Use a switch statement",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
+      "id": "4.0",
       "name": "Creating and Using Arrays",
-      "weight_percent": 7.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Declare, instantiate, initialize and use a one-dimensional array",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Declare, instantiate, initialize and use multi-dimensional arrays",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
+      "id": "5.0",
       "name": "Using Loop Constructs",
-      "weight_percent": 7.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Create and use while loops",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Create and use for loops including the enhanced for loop",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Create and use do/while loops",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Compare loop constructs",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Use break and continue",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
+      "id": "6.0",
       "name": "Working with Methods and Encapsulation",
-      "weight_percent": 14.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Create methods with arguments and return values; including overloaded methods",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Apply the static keyword to methods and fields",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Create and overload constructors; differentiate between default and user defined constructors",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Apply access modifiers",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Apply encapsulation principles to a class",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.6",
+          "title": "Determine the effect upon object references and primitive values when they are passed into methods that change the values",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
+      "id": "7.0",
       "name": "Working with Inheritance",
-      "weight_percent": 14.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Describe inheritance and its benefits",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Develop code that makes use of polymorphism; develop code that overrides methods; differentiate between the type of a reference and the type of an object",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Determine when casting is necessary",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "Use super and this to access objects and constructors",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.5",
+          "title": "Use abstract classes and interfaces",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "8",
+      "id": "8.0",
       "name": "Handling Exceptions",
-      "weight_percent": 8.0,
-      "objectives": []
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Differentiate among checked exceptions, unchecked exceptions, and Errors",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Create a try-catch block and determine how exceptions alter normal program flow",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Describe the advantages of Exception handling",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.4",
+          "title": "Create and invoke a method that throws an exception",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.5",
+          "title": "Recognize common exception classes (such as NullPointerException, ArithmeticException, ArrayIndexOutOfBoundsException, ClassCastException)",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "9",
-      "name": "Working with Selected Classes from the Java API",
-      "weight_percent": 14.0,
-      "objectives": []
+      "id": "9.0",
+      "name": "Working with Selected classes from the Java API",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Manipulate data using the StringBuilder class and its methods",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Create and manipulate Strings",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.3",
+          "title": "Create and manipulate calendar data using classes from java.time.LocalDateTime, java.time.LocalDate, java.time.LocalTime, java.time.format.DateTimeFormatter, java.time.Period",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.4",
+          "title": "Declare and use an ArrayList of a given type",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.5",
+          "title": "Write a simple Lambda expression that consumes a Lambda Predicate expression",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

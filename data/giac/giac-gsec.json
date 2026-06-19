@@ -3,19 +3,21 @@
   "exam_name": "GSEC (GIAC Security Essentials)",
   "exam_code": "GSEC",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Security Essentials",
   "version": null,
   "source_url": "https://www.giac.org/certifications/security-essentials-gsec/",
   "passing_score": 73,
   "passing_score_scale": "percentage",
   "total_questions": 180,
-  "question_types": [],
+  "question_types": [
+    "performance-based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 360,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,390 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "New InfoSec professionals with backgrounds in information systems and networking, Security professionals, managers, and administrators, Operations personnel, IT engineers and supervisors, Forensic analysts, Penetration testers, Auditors",
+  "recommended_experience": "Hands-on experience in information security tasks in IT systems",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Hands-on experience in information security tasks in IT systems",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Access Control & Password Management",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Understand the fundamental theory of access control and the role of passwords in access control management.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Container and MacOS Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Demonstrate an understanding of how to secure containers and understand security features provided in MacOS.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Cryptography",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Have a basic understanding of the concepts of cryptography, including the major types of cryptosystems, the mathematical concepts that contribute to cryptography and identify commonly used symmetric, asymmetric, and hashing cryptosystems.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Cryptography Application",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Have a high-level understanding of the use, functionality, and operation of VPNs, GPG, and PKI.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Data Loss Prevention and Mobile Device Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Understand the risks and impacts of data loss, how to prevent it, and the security considerations of mobile devices.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Defense in Depth",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Understand what defense in depth is, identify the key areas of security, and demonstrate the different strategies for implementing effective security within an organization.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Defensible Network Architecture",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Demonstrate how to architect a network to be monitored and controlled to resist intrusion.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Endpoint Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "Demonstrate a basic understanding of the function and uses of endpoint security devices, such as endpoint firewalls, HIDS, and HIPS.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Enforcing Windows Security Policy",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Have a high-level understanding of the features of Group Policy and working with INF security templates.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Incident Handling & Response",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Understand the concepts and processes associated with incident handling.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Linux Fundamentals",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "Demonstrate an understanding of the Linux operating system structure, vulnerabilities, and permissions.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "12.0",
+      "name": "Linux Security and Hardening",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "12.1",
+          "title": "Demonstrate an understanding of gaining visibility into a Linux system to be able to secure, audit, and harden the system.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "13.0",
+      "name": "Log Management & SIEM",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "13.1",
+          "title": "Demonstrate a high-level understanding of logging importance, configuration, and SIEM assisted analysis.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "14.0",
+      "name": "Malicious Code & Exploit Mitigation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "14.1",
+          "title": "Understand important attack methods and basic defensive strategies to mitigate malicious software threats and exploitations.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "15.0",
+      "name": "Network Security Devices",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "15.1",
+          "title": "Demonstrate a basic understanding of the function and uses of network security devices, such as firewalls, NIDS, and NIPS.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "16.0",
+      "name": "Networking & Protocols",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "16.1",
+          "title": "Demonstrate an understanding of the properties and functions of network protocols and network protocol stacks.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "17.0",
+      "name": "Security Frameworks and CIS Controls",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "17.1",
+          "title": "Understand the purpose, implementation, and background of the CIS Critical Controls, NIST Cybersecurity Framework, and the MITRE ATT&CK knowledge base.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "18.0",
+      "name": "Virtualization, Cloud Security, and AI Essentials",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "18.1",
+          "title": "Have a basic understanding of concepts of virtualization, cloud architectures, and AI fundamentals.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "19.0",
+      "name": "Vulnerability Scanning and Penetration Testing",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "19.1",
+          "title": "Demonstrate an understanding of the concepts and relationship behind reconnaissance, resource protection, risks, threats, and vulnerabilities including the creation of network maps and penetration testing techniques.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "20.0",
+      "name": "Web Communication Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "20.1",
+          "title": "Demonstrate an understanding of web application security and common vulnerabilities including cookies, SSL, and access control.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "21.0",
+      "name": "Windows Access Controls",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "21.1",
+          "title": "Understand how permissions are applied in the Windows NT File System, Shared Folders, Printers, Registry Keys, and Active Directory, and how Privileges are applied.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "22.0",
+      "name": "Windows as a Service",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "22.1",
+          "title": "Understand how to manage updates for a network of Windows hosts.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "23.0",
+      "name": "Windows Automation, Auditing, and Forensics",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "23.1",
+          "title": "Understand the techniques and technologies used to audit Windows hosts and simple PowerShell scripting.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "24.0",
+      "name": "Windows Security Infrastructure",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "24.1",
+          "title": "Identify the differences between types of Windows OSes and how Windows manages groups and accounts, locally and with Active Directory and Group Policy.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "25.0",
+      "name": "Windows Services and Microsoft Cloud",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "25.1",
+          "title": "Understand how to take basic measures in securing Windows network services such as IPsec, IIS, and Remote Desktop Services and Microsoft Azure security features.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "26.0",
+      "name": "Wireless Network Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "26.1",
+          "title": "Have a basic understanding of the configuration and risks of wireless networks and how to secure them.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/security-essentials-gsec/",
   "official_study_resources": [
     {

@@ -3,7 +3,7 @@
   "exam_name": "OffSec Web Expert (OSWE)",
   "exam_code": "OSWE",
   "certifying_body": "OffSec",
-  "certification_name": null,
+  "certification_name": "OffSec Web Expert (OSWE)",
   "version": null,
   "source_url": "https://www.offsec.com/courses/web-300/",
   "passing_score": 85,
@@ -15,7 +15,7 @@
   "exam_format": "Practical / Penetration Test Lab",
   "duration_minutes": 1440,
   "exam_price_usd": 1499.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Yearly subscription for Learn One plan; Course + Cert Bundle is $1,749",
   "voucher_url": null,
   "exam_registration_url": "https://www.offsec.com/courses/pen-200/",
   "testing_centers": [
@@ -35,8 +35,8 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Experienced penetration testers and security professionals seeking to master advanced web application attacks and exploitation techniques",
+  "recommended_experience": "Comfort reading and writing at least one coding language, familiarity with Linux, ability to write simple Python / Perl / PHP / Bash scripts, experience with web proxies, general understanding of web attack vectors, theory, and practice",
   "prerequisites": [
     {
       "prerequisite_type": "recommended",
@@ -55,48 +55,64 @@
       "id": "1",
       "name": "Source Code Review and Authentication Bypass",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2",
       "name": "SQL Injection via Source Code Analysis",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Server-Side Request Forgery (SSRF)",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4",
       "name": "OS Command Injection",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "5",
       "name": "XML External Entity (XXE) Injection",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "6",
       "name": "Deserialization Vulnerabilities",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "7",
       "name": "Cross-Site Scripting (XSS) and Prototype Pollution",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "8",
       "name": "Exploit Chaining and Report Writing",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     }
   ],

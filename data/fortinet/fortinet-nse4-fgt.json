@@ -3,7 +3,7 @@
   "exam_name": "NSE 4 Network Security Professional — FortiGate",
   "exam_code": "FCP_FGT_AD-7.4",
   "certifying_body": "Fortinet",
-  "certification_name": null,
+  "certification_name": "Fortinet Certified Trainer",
   "version": null,
   "source_url": "https://www.fortinet.com/training/certification/nse-4",
   "passing_score": 70,
@@ -36,9 +36,35 @@
   "renewal_options": "NSE 4 through NSE 8 certifications are valid for 3 years. Renewal requires earning CE credits through Fortinet's continuing education program or retaking the current exam version. NSE 1-3 are valid for 2 years and renewed by retaking the free assessments.",
   "continuing_education_units": null,
   "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "target_audience": "Fortinet employees or candidates sponsored by an ATC",
+  "recommended_experience": "Extensive technical knowledge and skills in network security and cybersecurity, five years of relevant experience in network security and cybersecurity, five years of experience in training delivery in IT security, certification in the required NSE training courses, and demonstrable training facilitation and delivery skills",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Extensive technical knowledge and skills in network security and cybersecurity",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Five years of relevant experience in network security and cybersecurity",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Five years of experience in training delivery in IT security",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "certification",
+      "description": "Certification in the required NSE training courses",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Demonstrable training facilitation and delivery skills",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": 30,
     "max_attempts_per_year": null,
@@ -50,72 +76,96 @@
       "id": "1",
       "name": "System and Network Settings",
       "weight_percent": 14.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2",
       "name": "Firewall Policies",
       "weight_percent": 17.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Routing",
       "weight_percent": 8.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4",
       "name": "Firewall Authentication",
       "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "5",
       "name": "Logging and Monitoring",
       "weight_percent": 9.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "6",
       "name": "Certificate Operations",
       "weight_percent": 6.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "7",
       "name": "Web Filtering",
       "weight_percent": 6.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "8",
       "name": "Application Control",
       "weight_percent": 6.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "9",
       "name": "Antivirus",
       "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "10",
       "name": "Intrusion Prevention and DoS",
       "weight_percent": 5.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "11",
       "name": "VPN (SSL and IPsec)",
       "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "12",
       "name": "High Availability",
       "weight_percent": 4.0,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     }
   ],
@@ -134,8 +184,10 @@
   "aliases": [
     "fcp_fgt_ad-7 4",
     "fortigate nse4",
+    "fortinet certified trainer",
     "fortinet nse 4",
     "fortinet-nse4-fgt",
+    "network security professional",
     "nse 4",
     "nse 4 network security professional fortigate",
     "nse4"

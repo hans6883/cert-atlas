@@ -3,7 +3,7 @@
   "exam_name": "MySQL 8.0 Database Administrator (1Z0-908)",
   "exam_code": "1Z0-908",
   "certifying_body": "Oracle",
-  "certification_name": null,
+  "certification_name": "Oracle Certified Professional, MySQL 8.0 Database Administrator",
   "version": null,
   "source_url": "https://education.oracle.com/mysql-8-0-database-administrator/pexam_1Z0-908",
   "passing_score": 58,
@@ -52,52 +52,302 @@
   },
   "domains": [
     {
-      "id": "1",
-      "name": "MySQL Architecture",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "Architecture",
+      "name": "Architecture",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Configure client connections to the server",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Understand how MySQL stores data",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Understand how InnoDB stores data and logs",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Configure buffers and caches",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Understand and use the Data Dictionary",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Installation and Configuration",
-      "weight_percent": 12.0,
-      "objectives": []
+      "id": "Server Installation and Configuration",
+      "name": "Server Installation and Configuration",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Install and use the MySQL server and client programs",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Identify the files and folders created during installation",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Start and stop MySQL",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Upgrade MySQL",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Configure MySQL by using options and option files",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Configure MySQL variables",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Launch multiple MySQL servers on the same host",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "MySQL Security",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "Security",
+      "name": "Security",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Create user accounts and roles",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Use authentication plug-ins",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Control user and role permissions",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Recognize common security risks",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Secure MySQL server connections",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Provide password and login security",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Secure the MySQL host environment",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.8",
+          "title": "Prevent SQL injection attacks",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.9",
+          "title": "Encrypt MySQL data",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.10",
+          "title": "Configure MySQL Enterprise Firewall",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "4",
-      "name": "MySQL Monitoring",
-      "weight_percent": 10.0,
-      "objectives": []
+      "id": "Monitoring and Maintenance",
+      "name": "Monitoring and Maintenance",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Configure and view MySQL log files",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Monitor MySQL processes and status",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Configure MySQL Enterprise Audit",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Use MySQL Enterprise Monitor to view activity in MySQL",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Monitor database growth and explain capacity planning",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Troubleshoot problems with locked resources",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "MySQL Backup and Recovery",
-      "weight_percent": 15.0,
-      "objectives": []
+      "id": "Query Optimization",
+      "name": "Query Optimization",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Examine how MySQL optimizes queries",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Analyze queries with MySQL Enterprise Monitor",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Create indexes to improve server performance",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Monitor and understand index statistics",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "6",
-      "name": "MySQL Replication",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "Backups and Recovery",
+      "name": "Backups and Recovery",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Distinguish between the different types of backup",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Implement a backup strategy",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Backup and restore data with MySQL Enterprise Backup",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Use mysqldump and mysqlpump to perform logical backups",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Explain when and how to use raw file backups",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.6",
+          "title": "Back up the binary log",
+          "sub_objectives": []
+        }
+      ]
     },
     {
-      "id": "7",
-      "name": "MySQL InnoDB Cluster and High Availability",
-      "weight_percent": 12.0,
-      "objectives": []
-    },
-    {
-      "id": "8",
-      "name": "MySQL Query Optimization and Tuning",
-      "weight_percent": 13.0,
-      "objectives": []
+      "id": "High Availability Techniques",
+      "name": "High Availability Techniques",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Explain how replication provides high availability and scalability",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Configure replication",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.3",
+          "title": "Explain the role of the binary log in replication",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "Configure multisource replication",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.5",
+          "title": "Explain the role of replication threads",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.6",
+          "title": "Monitor and troubleshoot replication",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.7",
+          "title": "Describe MySQL InnoDB cluster and Group Replication",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.8",
+          "title": "Configure a MySQL InnoDB cluster",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.9",
+          "title": "Perform an InnoDB cluster recovery",
+          "sub_objectives": []
+        }
+      ]
     }
   ],
   "official_objectives_url": null,

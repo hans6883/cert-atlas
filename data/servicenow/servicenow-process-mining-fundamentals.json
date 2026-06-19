@@ -1,0 +1,99 @@
+{
+  "exam_id": "servicenow-process-mining-fundamentals",
+  "exam_name": "ServiceNow Process Mining Fundamentals",
+  "exam_code": null,
+  "certifying_body": "ServiceNow",
+  "certification_name": null,
+  "version": null,
+  "passing_score": null,
+  "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
+  "total_questions": 25,
+  "question_types": [
+    "Multiple Choice",
+    "Multiple Select"
+  ],
+  "exam_format": "Linear",
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Included with ServiceNow University access; see ServiceNow for current pricing.",
+  "voucher_url": null,
+  "exam_registration_url": "https://learning.servicenow.com",
+  "testing_centers": [
+    {
+      "provider": "ServiceNow University",
+      "scheduling_url": "https://learning.servicenow.com",
+      "notes": "Online, non-proctored assessment delivered in ServiceNow University"
+    }
+  ],
+  "online_proctoring_available": false,
+  "id_requirements": null,
+  "exam_rules": "Online assessment delivered through ServiceNow University.",
+  "certification_validity_years": null,
+  "renewal_required": false,
+  "renewal_options": "No annual maintenance exam required. Earn a Credly digital badge on completion.",
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": {
+    "waiting_period_days": null,
+    "max_attempts_per_year": null,
+    "max_attempts_total": null,
+    "notes": "Refer to ServiceNow University for retake details."
+  },
+  "domains": [
+    {
+      "id": "1",
+      "name": "Basics of Process Mining",
+      "weight_percent": 10,
+      "objectives": [
+        "Data source, benefits, personas & roles, how to maximize"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Creating Process Mining project & key concepts",
+      "weight_percent": 30,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Features of Process Mining",
+      "weight_percent": 40,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Process Configuration Builder",
+      "weight_percent": 15,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Using ServiceNow Process Mining with its other products",
+      "weight_percent": 5,
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=99076321477f62149844c1c4f16d4362",
+  "official_study_resources": [
+    {
+      "resource_type": "online_course",
+      "title": "ServiceNow Training & Certification Portal",
+      "url": "https://nowlearning.servicenow.com/",
+      "provider": "ServiceNow",
+      "is_official": true,
+      "price_usd": null,
+      "notes": "Official ServiceNow University platform with courses aligned to each credential"
+    }
+  ],
+  "aliases": [
+    "process mining fundamentals",
+    "servicenow process mining fundamentals",
+    "servicenow-process-mining-fundamentals"
+  ],
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Process%20Mining%20Fundamentals"
+}

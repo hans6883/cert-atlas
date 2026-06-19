@@ -3,17 +3,19 @@
   "exam_name": "Certified Kubernetes Security Specialist (CKS)",
   "exam_code": "CKS",
   "certifying_body": "CNCF",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Certified Kubernetes Security Specialist (CKS)",
+  "version": "Kubernetes v1.34",
   "source_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
   "passing_score": 67,
   "passing_score_scale": "percentage",
   "total_questions": null,
-  "question_types": [],
+  "question_types": [
+    "performance_based"
+  ],
   "exam_format": "Performance-based (hands-on terminal)",
   "duration_minutes": 120,
   "exam_price_usd": 395.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Exam only: $445; Exam + THRIVE-ONE Annual Subscription: $625; Exam + Kubernetes Security Essentials (LFS260) course: $645",
   "voucher_url": null,
   "exam_registration_url": null,
   "testing_centers": [
@@ -30,9 +32,11 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 2 years. Renewal requires retaking and passing the exam before expiry. No CE credit option — exam retake is the only renewal path.",
   "continuing_education_units": null,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "DevOps, SRE, SysAdmin, and Cloud Professionals",
+  "recommended_experience": "Intermediate",
   "prerequisites": [
     {
       "prerequisite_type": "recommended",
@@ -46,7 +50,192 @@
     "max_attempts_total": null,
     "notes": "One free retake attempt is included with the exam purchase. A minimum 12-hour waiting period is required between attempts. The free retake must be used within 12 months of the original purchase."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "Cluster Setup",
+      "name": "Cluster Setup",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.0",
+          "title": "Use Network security policies to restrict cluster level access",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.1",
+          "title": "Use CIS benchmark to review the security configuration of Kubernetes components (etcd, kubelet, kubedns, kubeapi)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Properly set up Ingress with TLS",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Protect node metadata and endpoints",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Verify platform binaries before deploying",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Cluster Hardening",
+      "name": "Cluster Hardening",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.0",
+          "title": "Use Role Based Access Controls to minimize exposure",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.1",
+          "title": "Exercise caution in using service accounts e.g. disable defaults, minimize permissions on newly created ones",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Restrict access to Kubernetes API",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Upgrade Kubernetes to avoid vulnerabilities",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "System Hardening",
+      "name": "System Hardening",
+      "weight_percent": 10.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.0",
+          "title": "Minimize host OS footprint (reduce attack surface)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.1",
+          "title": "Using least-privilege identity and access management",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Minimize external access to the network",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Appropriately use kernel hardening tools such as AppArmor, seccomp",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Minimize Microservice Vulnerabilities",
+      "name": "Minimize Microservice Vulnerabilities",
+      "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.0",
+          "title": "Use appropriate pod security standards",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.1",
+          "title": "Manage Kubernetes secrets",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Understand and implement isolation techniques (multi-tenancy, sandboxed containers, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Implement Pod-to-Pod encryption (Cilium, Istio)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Supply Chain Security",
+      "name": "Supply Chain Security",
+      "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.0",
+          "title": "Minimize base image footprint",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.1",
+          "title": "Understand your supply chain (e.g. SBOM, CI/CD, artifact repositories)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Secure your supply chain (permitted registries, sign and validate artifacts, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Perform static analysis of user workloads and container images (e.g. Kubesec, KubeLinter)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "Monitoring, Logging and Runtime Security",
+      "name": "Monitoring, Logging and Runtime Security",
+      "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.0",
+          "title": "Perform behavioral analytics to detect malicious activities",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.1",
+          "title": "Detect threats within physical infrastructure, apps, networks, data, users and workloads",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Investigate and identify phases of attack and bad actors within the environment",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Ensure immutability of containers at runtime",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Use Kubernetes audit logs to monitor access",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
   "official_study_resources": [
     {

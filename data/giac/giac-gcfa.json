@@ -3,19 +3,21 @@
   "exam_name": "GCFA (GIAC Certified Forensic Analyst)",
   "exam_code": "GCFA",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Certified Forensic Analyst (GCFA)",
   "version": null,
   "source_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
   "passing_score": 71,
   "passing_score_scale": "percentage",
   "total_questions": 115,
-  "question_types": [],
+  "question_types": [
+    "Performance-Based"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 180,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,117 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Incident Response Team members, Threat hunters, SOC analysts, Experienced digital forensic analysts, Information security professionals, Federal agents and law enforcement professionals, Red Team members, penetration testers, and exploit developers",
+  "recommended_experience": "Not explicitly detailed in content",
+  "prerequisites": [
+    {
+      "prerequisite_type": "experience",
+      "description": "Experience in incident response, digital forensics, or related fields",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Advanced incident response and digital forensics",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Analyzing Volatile Malicious Event Artifacts",
+          "sub_objectives": [
+            "Understanding abnormal activity within the structure of Windows memory",
+            "Identifying artifacts such as malicious processes, suspicious drivers, and malware techniques such as code injection and rootkits"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Analyzing Volatile Windows Event Artifacts",
+          "sub_objectives": [
+            "Understanding normal activity within the structure of Windows memory",
+            "Identifying artifacts such as network connections, memory resident command line artifacts and processes, handles and threads"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Enterprise Environment Incident Response",
+          "sub_objectives": [
+            "Understanding the steps of the incident response process",
+            "Understanding attack progression and adversary fundamentals",
+            "Rapidly assessing and analyzing systems in an enterprise environment",
+            "Scaling tools to meet the demands of large investigations"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "File System Timeline Artifact Analysis",
+          "sub_objectives": [
+            "Understanding the Windows filesystem time structure",
+            "Understanding how these artifacts are modified by system and user activity"
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "Identification of Malicious System and User Activity",
+          "sub_objectives": [
+            "Identifying and documenting indicators of compromise on a system",
+            "Detecting malware and attacker tools",
+            "Attributing activity to events and accounts",
+            "Identifying and compensating for anti-forensic actions using memory and disk resident artifacts"
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "Identification of Normal System and User Activity",
+          "sub_objectives": [
+            "Identifying, documenting, and differentiating normal and abnormal system and user activity using memory and disk resident artifacts"
+          ]
+        },
+        {
+          "id": "1.7",
+          "title": "Introduction to File System Timeline Forensics",
+          "sub_objectives": [
+            "Understanding the methodology required to collect and process timeline data from a Windows system"
+          ]
+        },
+        {
+          "id": "1.8",
+          "title": "Introduction to Memory Forensics",
+          "sub_objectives": [
+            "Understanding how and when to collect volatile data from a system",
+            "Understanding how to document and preserve the integrity of volatile evidence"
+          ]
+        },
+        {
+          "id": "1.9",
+          "title": "NTFS Artifact Analysis",
+          "sub_objectives": [
+            "Understanding core structures of the Windows filesystems",
+            "Identifying, recovering, and analyzing evidence from any file system layer, including the data storage layer, metadata layer, and filename layer"
+          ]
+        },
+        {
+          "id": "1.10",
+          "title": "Windows Artifact Analysis",
+          "sub_objectives": [
+            "Understanding Windows system artifacts",
+            "Collecting and analyzing data such as system backup and restore data and evidence of application execution"
+          ]
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
   "official_study_resources": [
     {
@@ -72,6 +174,7 @@
     "gcfa",
     "gcfa giac certified forensic analyst",
     "giac certified forensic analyst",
+    "giac certified forensic analyst gcfa",
     "giac-gcfa"
   ],
   "practice_url": "https://quizforge.ai/tests/giac-gnfa-network-forensic-analyst"

@@ -3,8 +3,8 @@
   "exam_name": "Certified Kubernetes Application Developer (CKAD)",
   "exam_code": "CKAD",
   "certifying_body": "Linux Foundation",
-  "certification_name": null,
-  "version": null,
+  "certification_name": "Certified Kubernetes Application Developer",
+  "version": "Kubernetes v1.35",
   "source_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/",
   "passing_score": 66,
   "passing_score_scale": null,
@@ -15,7 +15,7 @@
   "exam_format": "Performance-Based / Practical",
   "duration_minutes": 120,
   "exam_price_usd": 395.0,
-  "exam_price_notes": null,
+  "exam_price_notes": "Exam only: $445; Exam + THRIVE-ONE Annual Subscription: $625; Exam + Kubernetes for Developers (LFD259) course: $645",
   "voucher_url": null,
   "exam_registration_url": "https://training.linuxfoundation.org/certification/",
   "testing_centers": [
@@ -35,8 +35,8 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": null,
-  "recommended_experience": null,
+  "target_audience": "Kubernetes Application Developers",
+  "recommended_experience": "Working knowledge of container runtimes and microservice architecture",
   "prerequisites": [],
   "retake_policy": {
     "waiting_period_days": 0,
@@ -44,7 +44,173 @@
     "max_attempts_total": 2,
     "notes": "One free retake included with exam registration. No waiting period between attempts. After 2 attempts, full repurchase required."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Application Design and Build",
+      "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Define, build and modify container images",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Choose and use the right workload resource (Deployment, DaemonSet, CronJob, etc.)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Understand multi-container Pod design patterns (e.g. sidecar, init and others)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Utilize persistent and ephemeral volumes",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Application Deployment",
+      "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Use Kubernetes primitives to implement common deployment strategies (e.g. blue/green or canary)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Understand Deployments and how to perform rolling updates",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Use the Helm package manager to deploy existing packages",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Kustomize",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Application Observability and Maintenance",
+      "weight_percent": 15.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Understand API deprecations",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Implement probes and health checks",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Use built-in CLI tools to monitor Kubernetes applications",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Utilize container logs",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Debugging in Kubernetes",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Application Environment, Configuration and Security",
+      "weight_percent": 25.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Discover and use resources that extend Kubernetes (CRD, Operators)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Understand authentication, authorization and admission control",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Understand requests, limits, quotas",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Understand ConfigMaps",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Define resource requirements",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Create & consume Secrets",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Understand ServiceAccounts",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Understand Application Security (SecurityContexts, Capabilities, etc.)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Services and Networking",
+      "weight_percent": 20.0,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Demonstrate basic understanding of NetworkPolicies",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Provide and troubleshoot access to applications via services",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Use Ingress rules to expose applications",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

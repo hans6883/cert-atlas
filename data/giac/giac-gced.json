@@ -3,19 +3,21 @@
   "exam_name": "GCED (GIAC Certified Enterprise Defender)",
   "exam_code": "GCED",
   "certifying_body": "GIAC",
-  "certification_name": null,
+  "certification_name": "GIAC Certified Enterprise Defender",
   "version": null,
   "source_url": "https://www.giac.org/certifications/certified-enterprise-defender-gced/",
   "passing_score": 70,
   "passing_score_scale": "percentage",
   "total_questions": 115,
-  "question_types": [],
+  "question_types": [
+    "Multiple Choice"
+  ],
   "exam_format": "Multiple Choice",
   "duration_minutes": 180,
   "exam_price_usd": 949.0,
   "exam_price_notes": null,
   "voucher_url": null,
-  "exam_registration_url": null,
+  "exam_registration_url": "https://exams.giac.org/pages/attempts",
   "testing_centers": [
     {
       "provider": "Pearson VUE",
@@ -35,17 +37,180 @@
   "renewal_required": true,
   "renewal_options": "Certifications are valid for 4 years. Renewal requires 36 CPE (Continuing Professional Education) credits earned over the 4-year period, plus a $429 renewal fee. Alternatively, candidates may retake the current exam to renew.",
   "continuing_education_units": 36,
-  "available_languages": [],
-  "target_audience": null,
-  "recommended_experience": null,
-  "prerequisites": [],
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "Incident responders and penetration testers, Security Operations Center engineers and analysts, Network security professionals, Anyone seeking technical in-depth knowledge about implementing comprehensive security solutions",
+  "recommended_experience": "Building on the security skills measured by the GIAC Security Essentials certification",
+  "prerequisites": [
+    {
+      "prerequisite_type": "required_certification",
+      "description": "GIAC Security Essentials certification",
+      "is_required": true
+    }
+  ],
   "retake_policy": {
     "waiting_period_days": null,
     "max_attempts_per_year": null,
     "max_attempts_total": null,
     "notes": "Two free practice tests are included with each exam registration. Candidates have a 4-month window to take the exam after registration. Retake fees apply after the first failed attempt. Contact GIAC for specific retake waiting periods."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Defending Network Protocols",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "The candidate will demonstrate an understanding of commonly-used network protocols and how to defend against protocol attacks. The candidate will demonstrate knowledge of audit techniques and the Center for Internet Security's benchmarks and Critical Security Controls.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Defensive Infrastructure and Tactics",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "The candidate will demonstrate basic knowledge of network and cloud-based infrastructure defensive measures, including common detective and preventive controls.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Digital Forensics Concepts and Application",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "The candidate will demonstrate an understanding of methods and practices of digital forensics. The candidate will demonstrate proficiency in identification of forensic artifacts.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Incident Response Concepts and Application",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "The candidate will demonstrate an understanding of continuous incident response processes, and their relationship to threat intelligence practices and the Cyber Kill Chain.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Interactive and Manual Malware Analyses",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "The candidate will demonstrate an understanding of interactive malware behavior analysis, knowledge of analysis tools, and ability to interpret the analysis results. The candidate will demonstrate an understanding of manual malware code reversal, disassembly and decompiling, and of code obfuscation techniques used by malware.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Intrusion Detection and Packet Analysis",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "The candidate will demonstrate an understanding of intrusion prevention systems, their placement in the enterprise, and their configuration and tuning. The candidate will demonstrate proficiency in taking action in response to alerts.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Malware Analysis Concepts and Basic Analysis Techniques",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "The candidate will demonstrate an understanding of the various types of malware, identify symptoms of infection, and methods to analyze malware safely. The candidate will demonstrate an understanding of the benefits and disadvantages of automated and static malware analysis techniques, and to interpret their results.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "Network Forensics, Logging, and Event Management",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "The candidate will demonstrate an understanding of using logs and flows in network forensics, the importance of logging and event management in security operations, and the usage of a SIEM and Security Analytics.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Network Security Monitoring Concepts and Application",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "The candidate will demonstrate knowledge of devices that are used in SOCs to monitor networks, their understanding of packet types, packet capture tools, the practice of continuous network monitoring, and advanced issues such as monitoring encrypted traffic.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Penetration Testing Application",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "The candidate will demonstrate familiarity and proficiency using penetration testing tactics and tools against typical types of penetration test targets.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "11.0",
+      "name": "Penetration Testing Concepts",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "11.1",
+          "title": "The candidate will demonstrate knowledge of penetration testing scoping, rules of engagement, the tools and tactics used in penetration tests, and reporting test results to the intended audience.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
   "official_objectives_url": "https://www.giac.org/certifications/certified-enterprise-defender-gced/",
   "official_study_resources": [
     {
