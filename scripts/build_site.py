@@ -93,13 +93,13 @@ header {
   z-index: 10;
 }
 header .container { display: flex; align-items: center; justify-content: space-between; }
-header h1 { font-size: 20px; font-weight: 700; }
-header h1 a { color: var(--text); }
+header .site-name { font-size: 20px; font-weight: 700; }
+header .site-name a { color: var(--text); }
 header nav a { margin-left: 24px; font-size: 14px; color: var(--text-muted); }
 header nav a:hover { color: var(--accent); text-decoration: none; }
 
 .hero { padding: 48px 0 32px; }
-.hero h2 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.hero h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
 .hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; }
 
 .stats-bar {
@@ -144,7 +144,7 @@ header nav a:hover { color: var(--accent); text-decoration: none; }
 .breadcrumb span { margin: 0 6px; }
 
 .exam-header { padding: 24px 0 16px; }
-.exam-header h2 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.exam-header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
 .exam-header .exam-code { color: var(--text-muted); font-size: 16px; }
 .exam-header .vendor-link { font-size: 14px; margin-top: 8px; }
 
@@ -228,7 +228,7 @@ footer a { color: var(--text-muted); }
 .source-link a { color: var(--text-muted); }
 
 @media (max-width: 640px) {
-  .hero h2 { font-size: 24px; }
+  .hero h1 { font-size: 24px; }
   .stats-bar { gap: 16px; flex-wrap: wrap; }
   .quick-facts { grid-template-columns: repeat(2, 1fr); }
   .info-row { flex-direction: column; gap: 2px; }
@@ -267,7 +267,7 @@ def page_shell(title, description, canonical, body, schema_json=None, breadcrumb
 <body>
 <header>
 <div class="container">
-<h1><a href="{SITE_URL}/">Cert Atlas</a></h1>
+<div class="site-name"><a href="{SITE_URL}/">Cert Atlas</a></div>
 <nav>
 <a href="{SITE_URL}/">Browse</a>
 <a href="https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json">Download</a>
@@ -300,7 +300,7 @@ def build_home(index, vendors, vendor_map):
     body = f"""
 <div class="container">
 <div class="hero">
-<h2>Cert Atlas</h2>
+<h1>Cert Atlas: Open Certification Exam Blueprint Index</h1>
 <p>The open index of certification exam blueprints. Browse domains, objectives, and requirements for {index["total_exams"]:,} exams across {index["total_vendors"]} certifying bodies.</p>
 <p style="margin-top:1rem"><strong>Download the dataset (free, MIT):</strong> <a href="https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json">master index (JSON)</a> &middot; <a href="https://github.com/hans6883/cert-atlas/archive/refs/heads/master.zip">full dataset (.zip)</a> &middot; <a href="https://github.com/hans6883/cert-atlas">browse on GitHub</a></p>
 </div>
@@ -362,7 +362,7 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
 {breadcrumb}
 <div class="container">
 <div class="exam-header">
-<h2>{h(name)}</h2>
+<h1>{h(name)} Certification Exams</h1>
 <p class="exam-code">{len(exams)} certification exam{"s" if len(exams) != 1 else ""}</p>
 {f'<p class="vendor-link"><a href="{h(vendor_info.get("certification_page", vendor_info.get("website", "")))}" rel="nofollow">Official certification page</a></p>' if vendor_info.get("certification_page") else ""}
 </div>
@@ -532,7 +532,7 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 {breadcrumb}
 <div class="container">
 <div class="exam-header">
-<h2>{h(name)}</h2>
+<h1>{h(name)}{f' ({h(code)})' if code else ''} Exam Blueprint</h1>
 {f'<p class="exam-code">{h(code)}</p>' if code else ""}
 <p class="vendor-link"><a href="{SITE_URL}/{h(vendor_slug)}/">{h(body_name)}</a></p>
 </div>
@@ -589,7 +589,7 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         desc += f'{len(domains)} domains with objectives and topic weights.'
 
     return page_shell(
-        f"{name}{f' ({code})' if code else ''} Exam Blueprint -- Cert Atlas",
+        f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas",
         desc[:160],
         f"{SITE_URL}/{vendor_slug}/{exam_id}",
         body,
