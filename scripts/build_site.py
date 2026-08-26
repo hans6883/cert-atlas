@@ -467,7 +467,9 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     }
 
     return page_shell(
-        f"{name} Certification Exams -- Cert Atlas",
+        (f"{name} Certification Exams -- Cert Atlas"
+         if len(f"{name} Certification Exams -- Cert Atlas") <= 70
+         else f"{name} Exams | Cert Atlas"),
         f"Browse exam blueprints for {len(exams)} {name} certification exams. Domains, objectives, passing scores, and study resources.",
         f"{SITE_URL}/{vendor_slug}/",
         body,
@@ -1019,7 +1021,24 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         if meta_description or overview:
             desc = meta_description or overview
 
-    page_title = f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas"
+    # Bing "Title too long" (>70 chars): never repeat a code the name already carries,
+    # and drop the body / brand segments before the exam name would be cut.
+    exam_label = name if (not code or f"({code})" in name) else f"{name} ({code})"
+    page_title = next(
+        (t for t in (
+            f"{exam_label} Exam Blueprint - {body_name} | Cert Atlas",
+            f"{exam_label} Exam Blueprint | Cert Atlas",
+            f"{name} Exam Blueprint | Cert Atlas",
+            f"{name} Exam Blueprint",
+        ) if len(t) <= 70),
+        None,
+    )
+    if page_title is None:
+        # Long name: cut it at a word boundary; the full name still lives in the h1.
+        cut = name[:55]
+        if " " in cut[20:]:
+            cut = cut[:cut.rfind(" ")]
+        page_title = f"{cut.rstrip(' -:,(–')} Exam Blueprint"
     if retired:
         replacement = lifecycle.get("replacement", {})
         if isinstance(replacement, dict) and replacement.get("exam_code"):
