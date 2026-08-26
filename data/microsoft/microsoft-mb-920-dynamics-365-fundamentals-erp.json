@@ -76,7 +76,7 @@
     {
       "id": "1.0",
       "name": "Describe Dynamics 365 Supply Chain Management",
-      "weight_percent": 35.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
@@ -117,12 +117,14 @@
             "Describe purchase order receipts"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 35,
+      "weight_max_percent": 40
     },
     {
       "id": "2.0",
       "name": "Describe Dynamics 365 Finance",
-      "weight_percent": 30.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
@@ -154,12 +156,14 @@
             "Describe budgeting capabilities"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 30,
+      "weight_max_percent": 35
     },
     {
       "id": "3.0",
       "name": "Describe the core capabilities of the finance and operations apps",
-      "weight_percent": 25.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
@@ -182,7 +186,9 @@
             "Describe the concept of batch jobs"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 25,
+      "weight_max_percent": 30
     }
   ],
   "official_objectives_url": null,
@@ -213,5 +219,110 @@
     "microsoft dynamics 365 fundamentals erp",
     "microsoft-mb-920-dynamics-365-fundamentals-erp"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-fundamentals-erp-mb-920-2dgmh3"
+  "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-fundamentals-erp-mb-920-2dgmh3",
+  "editorial": {
+    "meta_description": "MB-920 is retired. Review its source-verified domains, cutoff, study value, and truthful next steps without an invented replacement.",
+    "overview": "MB-920, Microsoft Dynamics 365 Fundamentals (ERP), retired on 2025-12-31. Its published domains cover Describe Dynamics 365 Supply Chain Management, Describe Dynamics 365 Finance, Describe the core capabilities of the finance and operations apps. The historical MB-920 scope is still useful as an enterprise-process map. It links products, procurement, inventory, warehousing, manufacturing, ledgers, payables, receivables, budgeting, legal entities, reporting, workflows, and integrations. That connected model is more durable than memorized navigation. Microsoft does not name a direct replacement in the reviewed official sources. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
+    "who_should_take": "The original audience was learners who used the fundamentals exam to understand Dynamics 365 Finance and Supply Chain Management processes before choosing a deeper functional role. This historical page is for prior learners, credential holders, training teams cleaning up old material, and practitioners mapping durable knowledge into a current role-based plan.",
+    "skills_summary": [
+      "Explain products, inventory, warehousing, manufacturing, and supply chain flows",
+      "Connect general ledger, payables, receivables, budgeting, and fixed assets",
+      "Recognize shared finance-and-operations concepts such as legal entities, workflows, and batch processing",
+      "Choose current role-based learning from the business process that needs deeper implementation skill"
+    ],
+    "preparation_strategy": "Build one order-to-cash and one procure-to-pay narrative and identify the master data, documents, inventory movements, financial postings, approvals, analytics, and cross-entity effects. Use that map to select a current Finance, Supply Chain, or business applications credential without presenting MB-920 as available. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Domain 1, Describe Dynamics 365 Supply Chain Management, organizes related decisions rather than isolated product facts. The historical outline includes Describe Supply Chain Management core capabilities; Describe the manufacturing process. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Dynamics 365 Supply Chain Management objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-920-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Domain 2, Describe Dynamics 365 Finance, organizes related decisions rather than isolated product facts. The historical outline includes Describe Finance core capabilities. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Dynamics 365 Finance objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-920-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Domain 3, Describe the core capabilities of the finance and operations apps, organizes related decisions rather than isolated product facts. The historical outline includes Describe the finance and operations apps. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe the core capabilities of the finance and operations apps objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-920-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "MB-920 cannot be booked after its 2025-12-31 retirement. Use the active Microsoft credential and exam pages for current delivery, pricing, language, accommodation, and scheduling information.",
+    "methodology": {
+      "summary": "Cert Atlas reviewed Microsoft's dated MB-920 study guide and official retirement list and checked those sources for an explicitly named replacement. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-mb-920-study-guide",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-mb-920-study-guide"
+    ]
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-12-31",
+    "summary": "Microsoft retired MB-920 on 2025-12-31. The exam is no longer schedulable. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
+    "migration_actions": [
+      "Remove MB-920 from current registration and practice calls to action because it retired on 2025-12-31.",
+      "Use Microsoft's active credential catalog to choose a current path by job role and required skills.",
+      "Do not treat a similarly named course, product, or credential as a replacement unless Microsoft explicitly says so.",
+      "Map reusable knowledge to the selected current guide, then rebuild labs and review around that guide's dated objectives."
+    ],
+    "source_ids": [
+      "microsoft-mb-920-study-guide",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-mb-920-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-920",
+      "title": "Study guide for Exam MB-920: Microsoft Dynamics 365 Fundamentals (ERP)",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:8d2817c497a99a38cb070e44aeb7647346b8e6c8b1804721e4b475f6d3a8d31d"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.98,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T06:15:00Z",
+    "reviewed_at": "2026-08-26T06:30:00Z"
+  }
 }

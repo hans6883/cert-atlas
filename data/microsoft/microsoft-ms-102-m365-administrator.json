@@ -76,7 +76,7 @@
     {
       "id": "1.0",
       "name": "Deploy and manage a Microsoft 365 tenant",
-      "weight_percent": 25.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
@@ -104,12 +104,14 @@
             "Manage roles and role groups"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 25,
+      "weight_max_percent": 30
     },
     {
       "id": "2.0",
       "name": "Implement and manage Microsoft Entra identity and access",
-      "weight_percent": 25.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
@@ -142,12 +144,14 @@
             "Implement and manage multifactor authentication (MFA) by using Conditional Access policies"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 25,
+      "weight_max_percent": 30
     },
     {
       "id": "3.0",
       "name": "Manage security and threats by using Microsoft Defender XDR",
-      "weight_percent": 30.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
@@ -190,12 +194,14 @@
             "Review and respond to issues identified in Cloud App Discovery"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 30,
+      "weight_max_percent": 35
     },
     {
       "id": "4.0",
       "name": "Manage compliance by using Microsoft Purview",
-      "weight_percent": 10.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "4.1",
@@ -216,7 +222,9 @@
             "Review and respond to DLP alerts, events, and reports"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 10,
+      "weight_max_percent": 15
     }
   ],
   "official_objectives_url": null,
@@ -246,5 +254,122 @@
     "microsoft-ms-102-m365-administrator",
     "ms-102"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20365%20Administrator"
+  "practice_url": "https://quizforge.ai/?q=Microsoft%20365%20Administrator",
+  "editorial": {
+    "meta_description": "MS-102 retires soon. Review its source-verified domains, cutoff, study value, and truthful next steps without an invented replacement.",
+    "overview": "MS-102, Microsoft 365 Administrator, remains available only until 2026-11-30. Its published domains cover Deploy and manage a Microsoft 365 tenant, Implement and manage Microsoft Entra identity and access, Manage security and threats by using Microsoft Defender XDR, Manage compliance by using Microsoft Purview. MS-102 describes the integrating-hub role rather than a single workload specialty. The strongest preparation follows a change across tenant configuration, identity synchronization, Conditional Access, Defender XDR, endpoint protection, and Purview so that security and compliance effects are visible end to end. Microsoft does not name a direct replacement in the reviewed official sources. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
+    "who_should_take": "The original audience was Microsoft 365 administrators who coordinate tenant, identity, security, endpoint, collaboration, and compliance work across cloud and hybrid environments. Current candidates should use the cutoff and active Microsoft catalog to decide whether MS-102 still fits; the absence of a named replacement is not evidence that a similarly named exam is equivalent.",
+    "skills_summary": [
+      "Deploy, license, monitor, and delegate administration in a Microsoft 365 tenant",
+      "Operate synchronized identity, authentication methods, Identity Protection, and Conditional Access",
+      "Investigate and respond across Defender XDR, Defender for Office 365, Endpoint, and Cloud Apps",
+      "Implement Purview information protection, retention, data loss prevention, and alert response"
+    ],
+    "preparation_strategy": "Use a test tenant to build operational runbooks for onboarding, role delegation, identity synchronization, secure access, threat investigation, endpoint response, and information protection. For each task, capture prerequisites, least-privilege roles, the correct admin surface, verification evidence, and a recovery path. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Domain 1, Deploy and manage a Microsoft 365 tenant, organizes related decisions rather than isolated product facts. The current outline includes Implement and manage Microsoft Entra identity and access; Manage users and groups. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Deploy and manage a Microsoft 365 tenant objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-102-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Domain 2, Implement and manage Microsoft Entra identity and access, organizes related decisions rather than isolated product facts. The current outline includes Implement and manage identity synchronization with Microsoft Entra tenant; Implement and manage authentication; Implement and manage secure access. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Implement and manage Microsoft Entra identity and access objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-102-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Domain 3, Manage security and threats by using Microsoft Defender XDR, organizes related decisions rather than isolated product facts. The current outline includes Review and respond to security reports and alerts generated by Microsoft Defender XDR; Implement and manage email and collaboration protection by using Microsoft Defender for Office 365; Implement and manage endpoint protection by using Microsoft Defender for Endpoint. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Manage security and threats by using Microsoft Defender XDR objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-102-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Domain 4, Manage compliance by using Microsoft Purview, organizes related decisions rather than isolated product facts. The current outline includes Implement Microsoft Purview information protection and data lifecycle management; Implement Microsoft Purview data loss prevention (DLP). Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Manage compliance by using Microsoft Purview objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-102-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Microsoft lists 2026-11-30 as the retirement date. Verify the official page immediately before booking, allow time for identity and accommodation requirements, and do not assume a retake can be scheduled after the cutoff.",
+    "methodology": {
+      "summary": "Cert Atlas reviewed Microsoft's dated MS-102 study guide and official retirement list and checked those sources for an explicitly named replacement. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-ms-102-study-guide",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-ms-102-study-guide"
+    ]
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-11-30",
+    "summary": "Microsoft will retire MS-102 on 2026-11-30. The exam remains schedulable before the cutoff. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
+    "migration_actions": [
+      "Complete and schedule MS-102 before 2026-11-30 only if the remaining window supports a sound preparation plan.",
+      "Use Microsoft's active credential catalog to choose a current path by job role and required skills.",
+      "Do not treat a similarly named course, product, or credential as a replacement unless Microsoft explicitly says so.",
+      "Map reusable knowledge to the selected current guide, then rebuild labs and review around that guide's dated objectives."
+    ],
+    "source_ids": [
+      "microsoft-ms-102-study-guide",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-ms-102-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-102",
+      "title": "Study guide for Exam MS-102: Microsoft 365 Administrator",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:b1b04d34659c931c1941a656ab7730e5a56c114476631455ce74bb70eb887901"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.98,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T06:15:00Z",
+    "reviewed_at": "2026-08-26T06:30:00Z"
+  }
 }

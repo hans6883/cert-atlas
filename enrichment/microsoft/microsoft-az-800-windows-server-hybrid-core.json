@@ -1,0 +1,182 @@
+{
+  "exam_id": "microsoft-az-800-windows-server-hybrid-core",
+  "editorial": {
+    "meta_description": "AZ-800 retires soon. Review its source-verified domains, cutoff, study value, and truthful next steps without an invented replacement.",
+    "overview": "AZ-800, Administering Windows Server Hybrid Core Infrastructure, remains available only until 2026-09-30. Its published domains cover Deploy and manage Active Directory Domain Services, Manage Windows Servers and workloads in a hybrid environment, Manage virtual machines and containers, Implement and manage an on-premises and hybrid networking infrastructure, Manage storage and file services. AZ-800 connects classic Windows Server administration with Azure control planes. Its value is the dependency chain: AD DS affects authentication, DNS affects service reachability, virtualization affects capacity, and storage and networking choices determine how safely workloads can move between locations. Microsoft does not name a direct replacement in the reviewed official sources. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
+    "who_should_take": "The original audience was experienced Windows Server administrators responsible for hybrid identity, server management, virtualization, networking, storage, and Azure integration. Current candidates should use the cutoff and active Microsoft catalog to decide whether AZ-800 still fits; the absence of a named replacement is not evidence that a similarly named exam is equivalent.",
+    "skills_summary": [
+      "Operate AD DS across on-premises and Azure-connected environments",
+      "Manage Windows Server consistently with PowerShell, Windows Admin Center, and Azure services",
+      "Administer Hyper-V, containers, hybrid networking, DNS, DHCP, IPAM, and remote access",
+      "Design file services, Azure Files integration, storage migration, and synchronization"
+    ],
+    "preparation_strategy": "Use a small hybrid lab with an AD DS forest, a managed server, DNS and DHCP, a Hyper-V workload, a file service, and Azure-connected management. Practice the same task through PowerShell and administrative tools, then verify the resulting identity, network, and storage state instead of memorizing interface locations. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Domain 1, Deploy and manage Active Directory Domain Services, organizes related decisions rather than isolated product facts. The current outline includes Deploy and manage domain controllers on-premises; Deploy and manage domain controllers in Azure; Deploy read-only domain controllers (RODCs). Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Deploy and manage Active Directory Domain Services objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Domain 2, Manage Windows Servers and workloads in a hybrid environment, organizes related decisions rather than isolated product facts. The current outline includes Configure remote management for Windows Servers in a hybrid environment; Implement Windows Admin Center on premises and in Azure; Configure PowerShell remoting, including second hop. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Manage Windows Servers and workloads in a hybrid environment objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Domain 3, Manage virtual machines and containers, organizes related decisions rather than isolated product facts. The current outline includes Manage Hyper-V and guest virtual machines; Enable Enhanced session mode; Manage VMs using PowerShell remoting, PowerShell Direct and Secure Shell (SSH) Direct for Linux VMs. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Manage virtual machines and containers objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Domain 4, Implement and manage an on-premises and hybrid networking infrastructure, organizes related decisions rather than isolated product facts. The current outline includes Implement on-premises and hybrid name resolution; Integrate DNS with AD DS; Create and manage DNS zones and records. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Implement and manage an on-premises and hybrid networking infrastructure objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "Domain 5, Manage storage and file services, organizes related decisions rather than isolated product facts. The current outline includes Configure and manage Azure Files; Create and manage Azure File Shares; Manage permissions for Azure File Shares. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Manage storage and file services objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Microsoft lists 2026-09-30 as the retirement date. Verify the official page immediately before booking, allow time for identity and accommodation requirements, and do not assume a retake can be scheduled after the cutoff.",
+    "methodology": {
+      "summary": "Cert Atlas reviewed Microsoft's dated AZ-800 study guide and official retirement list and checked those sources for an explicitly named replacement. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-az-800-study-guide",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-az-800-study-guide"
+    ]
+  },
+  "fact_overrides": {
+    "domains": [
+      {
+        "domain_id": "1.0",
+        "weight_min_percent": 30,
+        "weight_max_percent": 35,
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ],
+        "corrected_name": "Deploy and manage Active Directory Domain Services (AD DS) in on-premises and cloud environments"
+      },
+      {
+        "domain_id": "2.0",
+        "weight_min_percent": 10,
+        "weight_max_percent": 15,
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ],
+        "corrected_name": "Manage Windows Servers and workloads in a hybrid environment"
+      },
+      {
+        "domain_id": "3.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ],
+        "corrected_name": "Manage virtual machines and containers"
+      },
+      {
+        "domain_id": "4.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ],
+        "corrected_name": "Implement and manage an on-premises and hybrid networking infrastructure"
+      },
+      {
+        "domain_id": "5.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-az-800-study-guide"
+        ],
+        "corrected_name": "Manage storage and file services"
+      }
+    ]
+  },
+  "study_signals": null,
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-09-30",
+    "summary": "Microsoft will retire AZ-800 on 2026-09-30. The exam remains schedulable before the cutoff. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
+    "migration_actions": [
+      "Complete and schedule AZ-800 before 2026-09-30 only if the remaining window supports a sound preparation plan.",
+      "Use Microsoft's active credential catalog to choose a current path by job role and required skills.",
+      "Do not treat a similarly named course, product, or credential as a replacement unless Microsoft explicitly says so.",
+      "Map reusable knowledge to the selected current guide, then rebuild labs and review around that guide's dated objectives."
+    ],
+    "source_ids": [
+      "microsoft-az-800-study-guide",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-az-800-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-800",
+      "title": "Study guide for Exam AZ-800: Administering Windows Server Hybrid Core Infrastructure",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:5db787d3cbcf5e2aebc4be3caa58bf5281bbd89d9c1ca94434d21c11239b8c51"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.98,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T06:15:00Z",
+    "reviewed_at": "2026-08-26T06:30:00Z"
+  }
+}

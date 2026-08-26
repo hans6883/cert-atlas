@@ -70,7 +70,7 @@
     {
       "id": "1.0",
       "name": "Describe cloud concepts",
-      "weight_percent": 5.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
@@ -107,12 +107,14 @@
           "title": "Describe the concept of hybrid work and flexible work",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min_percent": 5,
+      "weight_max_percent": 10
     },
     {
       "id": "2.0",
       "name": "Describe Microsoft 365 apps and services",
-      "weight_percent": 45.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
@@ -166,12 +168,14 @@
             "Describe the capabilities of the Microsoft Copilot dashboard"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 45,
+      "weight_max_percent": 50
     },
     {
       "id": "3.0",
       "name": "Describe security, compliance, privacy, and trust in Microsoft 365",
-      "weight_percent": 25.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
@@ -202,12 +206,14 @@
             "Describe the capabilities and benefits of Microsoft Priva"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 25,
+      "weight_max_percent": 30
     },
     {
       "id": "4.0",
       "name": "Describe Microsoft 365 pricing, licensing, and support",
-      "weight_percent": 10.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "4.1",
@@ -235,7 +241,9 @@
             "Determine service health status by using the Microsoft 365 admin center or the Microsoft Entra admin center"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 10,
+      "weight_max_percent": 15
     }
   ],
   "official_objectives_url": null,
@@ -265,5 +273,122 @@
     "microsoft-ms-900-m365-fundamentals",
     "ms-900"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-365-fundamentals-2dywyt"
+  "practice_url": "https://quizforge.ai/tests/microsoft-365-fundamentals-2dywyt",
+  "editorial": {
+    "meta_description": "MS-900 is retired. Review its source-verified domains, cutoff, study value, and truthful next steps without an invented replacement.",
+    "overview": "MS-900, Microsoft 365 Fundamentals, retired on 2026-03-31. Its published domains cover Describe cloud concepts, Describe Microsoft 365 apps and services, Describe security, compliance, privacy, and trust in Microsoft 365, Describe Microsoft 365 pricing, licensing, and support. The historical MS-900 outline remains a useful vocabulary and architecture map for Microsoft 365. It separates service models from workload capabilities, then connects apps and administration to identity, threat protection, privacy, compliance, pricing, licensing, deployment assistance, and support. Microsoft does not name a direct replacement in the reviewed official sources. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
+    "who_should_take": "The original audience was learners who used Microsoft 365 Fundamentals to connect cloud concepts with productivity, collaboration, endpoint, security, compliance, licensing, and support. This historical page is for prior learners, credential holders, training teams cleaning up old material, and practitioners mapping durable knowledge into a current role-based plan.",
+    "skills_summary": [
+      "Distinguish cloud service and deployment models in Microsoft 365 scenarios",
+      "Map productivity, collaboration, endpoint, analytics, and administration capabilities to needs",
+      "Explain identity, threat protection, privacy, trust, and compliance at a foundational level",
+      "Recognize how licensing, billing, deployment help, and support affect solution choices"
+    ],
+    "preparation_strategy": "Use the old domains to locate knowledge gaps, not to simulate a retired test. For a business scenario, identify the Microsoft 365 service, administrative surface, data and identity boundary, security and compliance controls, and licensing dependency. Then move to a current fundamentals or role-based guide that matches the goal. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Domain 1, Describe cloud concepts, organizes related decisions rather than isolated product facts. The historical outline includes Describe the different types of cloud services available; Describe Microsoft software as a service (SaaS), infrastructure as a service (IaaS), and platform as a service (PaaS) concepts and use cases; Describe differences between Office 365 and Microsoft 365. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe cloud concepts objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Domain 2, Describe Microsoft 365 apps and services, organizes related decisions rather than isolated product facts. The historical outline includes Describe productivity solutions of Microsoft 365; Describe project management capabilities of Microsoft 365 including Microsoft Project, Planner, Bookings, Forms, Lists, To Do, and Loop; Describe collaboration solutions of Microsoft 365. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Microsoft 365 apps and services objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Domain 3, Describe security, compliance, privacy, and trust in Microsoft 365, organizes related decisions rather than isolated product facts. The historical outline includes Describe identity and access management solutions of Microsoft 365; Describe threat protection solutions of Microsoft 365; Describe trust, privacy, risk, and compliance solutions of Microsoft 365. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe security, compliance, privacy, and trust in Microsoft 365 objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Domain 4, Describe Microsoft 365 pricing, licensing, and support, organizes related decisions rather than isolated product facts. The historical outline includes Identify Microsoft 365 pricing and billing management options; Identify licensing options available in Microsoft 365; Identify support options for Microsoft 365 services. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Microsoft 365 pricing, licensing, and support objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-ms-900-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "MS-900 cannot be booked after its 2026-03-31 retirement. Use the active Microsoft credential and exam pages for current delivery, pricing, language, accommodation, and scheduling information.",
+    "methodology": {
+      "summary": "Cert Atlas reviewed Microsoft's dated MS-900 study guide and official retirement list and checked those sources for an explicitly named replacement. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-ms-900-study-guide",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-ms-900-study-guide"
+    ]
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-03-31",
+    "summary": "Microsoft retired MS-900 on 2026-03-31. The exam is no longer schedulable. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
+    "migration_actions": [
+      "Remove MS-900 from current registration and practice calls to action because it retired on 2026-03-31.",
+      "Use Microsoft's active credential catalog to choose a current path by job role and required skills.",
+      "Do not treat a similarly named course, product, or credential as a replacement unless Microsoft explicitly says so.",
+      "Map reusable knowledge to the selected current guide, then rebuild labs and review around that guide's dated objectives."
+    ],
+    "source_ids": [
+      "microsoft-ms-900-study-guide",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-ms-900-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-900",
+      "title": "Study guide for Exam MS-900: Microsoft 365 Fundamentals",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:60c6ab93640c7501af396403c742f53fc91a4e1b8acb42e89f6ffb01029202c0"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.98,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T06:15:00Z",
+    "reviewed_at": "2026-08-26T06:30:00Z"
+  }
 }

@@ -120,6 +120,7 @@ export interface IndexEntry {
   verified_at?: string | null;
   lifecycle_status?: string | null;
   retired_on?: string | null;
+  retires_on?: string | null;
   replacement_exam_code?: string | null;
   replacement_relationship?: "direct_replacement" | "collective_replacement" | "related_successor" | null;
   replacement_url?: string | null;
@@ -172,6 +173,7 @@ export interface EditorialContent {
 export interface ExamLifecycle {
   status: string;
   retired_on?: string | null;
+  retires_on?: string | null;
   summary?: string | null;
   replacement?: {
     exam_code?: string | null;

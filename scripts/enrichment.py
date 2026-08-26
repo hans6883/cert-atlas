@@ -263,6 +263,12 @@ def validate_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> Validatio
                 domain_id = str(item.get("domain_id") or "")
                 if domain_id not in exam_domain_ids:
                     result.errors.append(f"unknown domain_id: {domain_id}")
+                if "corrected_name" in item and _word_count(
+                    item.get("corrected_name")
+                ) < 1:
+                    result.errors.append(
+                        f"{prefix}.corrected_name must not be empty"
+                    )
                 minimum = item.get("weight_min_percent")
                 maximum = item.get("weight_max_percent")
                 if not isinstance(minimum, (int, float)) or not isinstance(maximum, (int, float)):
@@ -372,37 +378,44 @@ def validate_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> Validatio
             result.errors.append("lifecycle must be an object")
         else:
             status = lifecycle.get("status")
-            if status != "retired":
-                result.errors.append("lifecycle.status must be retired")
-            if not _valid_iso_date(lifecycle.get("retired_on")):
-                result.errors.append("lifecycle.retired_on must be an ISO date")
+            if status not in {"retired", "scheduled_retirement"}:
+                result.errors.append(
+                    "lifecycle.status must be retired or scheduled_retirement"
+                )
+            date_field = (
+                "retires_on" if status == "scheduled_retirement" else "retired_on"
+            )
+            if not _valid_iso_date(lifecycle.get(date_field)):
+                result.errors.append(f"lifecycle.{date_field} must be an ISO date")
             if _word_count(lifecycle.get("summary")) < 20:
                 result.errors.append("lifecycle.summary must contain at least 20 words")
 
             replacement = lifecycle.get("replacement")
-            if not isinstance(replacement, dict):
-                result.errors.append("lifecycle.replacement must be an object")
-                replacement = {}
-            for field_name in ("exam_code", "name"):
-                if not str(replacement.get(field_name) or "").strip():
+            has_replacement = replacement is not None
+            if has_replacement:
+                if not isinstance(replacement, dict):
+                    result.errors.append("lifecycle.replacement must be an object")
+                    replacement = {}
+                for field_name in ("exam_code", "name"):
+                    if not str(replacement.get(field_name) or "").strip():
+                        result.errors.append(
+                            f"lifecycle.replacement.{field_name} is required"
+                        )
+                for field_name in ("url", "study_guide_url"):
+                    if not _is_https_url(replacement.get(field_name)):
+                        result.errors.append(
+                            f"lifecycle.replacement.{field_name} must be an https URL"
+                        )
+                relationship = replacement.get("relationship", "direct_replacement")
+                if relationship not in {
+                    "direct_replacement",
+                    "collective_replacement",
+                    "related_successor",
+                }:
                     result.errors.append(
-                        f"lifecycle.replacement.{field_name} is required"
+                        "lifecycle.replacement.relationship must be direct_replacement, "
+                        "collective_replacement, or related_successor"
                     )
-            for field_name in ("url", "study_guide_url"):
-                if not _is_https_url(replacement.get(field_name)):
-                    result.errors.append(
-                        f"lifecycle.replacement.{field_name} must be an https URL"
-                    )
-            relationship = replacement.get("relationship", "direct_replacement")
-            if relationship not in {
-                "direct_replacement",
-                "collective_replacement",
-                "related_successor",
-            }:
-                result.errors.append(
-                    "lifecycle.replacement.relationship must be direct_replacement, "
-                    "collective_replacement, or related_successor"
-                )
 
             actions = lifecycle.get("migration_actions")
             if not isinstance(actions, list) or len(
@@ -413,10 +426,17 @@ def validate_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> Validatio
                 )
 
             comparisons = lifecycle.get("skill_comparison")
-            if not isinstance(comparisons, list) or not comparisons:
+            if has_replacement and (
+                not isinstance(comparisons, list) or not comparisons
+            ):
                 result.errors.append(
-                    "lifecycle.skill_comparison must contain at least one mapping"
+                    "lifecycle.skill_comparison must contain at least one mapping when a replacement is named"
                 )
+                comparisons = []
+            elif comparisons is None:
+                comparisons = []
+            elif not isinstance(comparisons, list):
+                result.errors.append("lifecycle.skill_comparison must be an array")
                 comparisons = []
             for index, item in enumerate(comparisons):
                 prefix = f"lifecycle.skill_comparison[{index}]"
@@ -497,6 +517,8 @@ def merge_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> dict[str, An
             domain["weight_percent"] = None
             domain["weight_min_percent"] = override["weight_min_percent"]
             domain["weight_max_percent"] = override["weight_max_percent"]
+            if override.get("corrected_name"):
+                domain["name"] = override["corrected_name"]
         objective_overrides = {
             (str(item.get("domain_id") or ""), str(item.get("objective_id") or "")): item
             for item in fact_overrides.get("objectives", [])

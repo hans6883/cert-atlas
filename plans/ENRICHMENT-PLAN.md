@@ -107,7 +107,7 @@ Phase 3 works through the 909 withheld registry exams, prioritizing records with
 
 Phase 4 continuously re-verifies sources by access date and content hash, queues changed exams for review, and publishes only reviewed deltas.
 
-The 2026-08-25 lifecycle expansion is documented in [LIFECYCLE-AUDIT-2026-08-25.md](LIFECYCLE-AUDIT-2026-08-25.md). It adds a full-registry candidate scan, an available-provider catalog comparison, and reviewed retirement overlays for AI-900, AI-102, DP-100, AZ-204, MB-240, MB-700, PL-500, and PL-600. Lifecycle relationships are explicitly typed as direct, collective, or related so neither the static site nor the MCP overstates equivalence. The accompanying live-catalog findings remain a review queue; discovery alone never passes the publication gate.
+The 2026-08-25 lifecycle expansion is documented in [LIFECYCLE-AUDIT-2026-08-25.md](LIFECYCLE-AUDIT-2026-08-25.md). It adds a full-registry candidate scan, an available-provider catalog comparison, and 15 reviewed Microsoft lifecycle overlays. The second batch adds scheduled-retirement support for AZ-500, AZ-800, AZ-801, and MS-102, plus no-invented-successor historical pages for MB-910, MB-920, and MS-900. Lifecycle relationships are explicitly typed as direct, collective, related, or absent so neither the static site nor the MCP overstates equivalence. The accompanying live-catalog findings remain a review queue; discovery alone never passes the publication gate. QuizForge follow-up is separately scoped in [QUIZFORGE-LIFECYCLE-ACTION-2026-08-26.md](QUIZFORGE-LIFECYCLE-ACTION-2026-08-26.md) so it can be executed in an isolated worktree after concurrent application work is merged.
 
 ## Current registry quality decision
 

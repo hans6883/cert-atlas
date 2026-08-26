@@ -70,7 +70,7 @@
     {
       "id": "1.0",
       "name": "Secure identity and access",
-      "weight_percent": 15.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
@@ -137,12 +137,14 @@
           "title": "Manage managed identities",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min_percent": 15,
+      "weight_max_percent": 20
     },
     {
       "id": "2.0",
       "name": "Secure networking",
-      "weight_percent": 20.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
@@ -264,12 +266,14 @@
           "title": "Recommend when to use Azure DDoS Protection Standard",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min_percent": 20,
+      "weight_max_percent": 25
     },
     {
       "id": "3.0",
       "name": "Secure compute, storage, and databases",
-      "weight_percent": 20.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
@@ -391,12 +395,14 @@
           "title": "Recommend when to use Azure SQL Database Always Encrypted",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min_percent": 20,
+      "weight_max_percent": 25
     },
     {
       "id": "4.0",
       "name": "Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel",
-      "weight_percent": 30.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "4.1",
@@ -548,7 +554,9 @@
           "title": "Configure automation in Microsoft Sentinel",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min_percent": 30,
+      "weight_max_percent": 35
     }
   ],
   "official_objectives_url": null,
@@ -577,5 +585,174 @@
     "microsoft azure security technologies",
     "microsoft-az-500-azure-security"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-azure-security-engineer-az-500"
+  "practice_url": "https://quizforge.ai/tests/microsoft-azure-security-engineer-az-500",
+  "editorial": {
+    "meta_description": "AZ-500 retires soon. Review its source-verified domains, cutoff, study value, and SC-500 transition.",
+    "overview": "AZ-500, Microsoft Azure Security Technologies, remains available only until 2026-08-31. Its published domains cover Secure identity and access, Secure networking, Secure compute, storage, and databases, Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel. The final AZ-500 outline is unusually useful as a boundary map between resource-level Azure hardening and broader security operations. It shows where identity, network paths, workload configuration, posture management, and incident signals must be reasoned about together. Microsoft names SC-500 as the direct replacement. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
+    "who_should_take": "The original audience was Azure security engineers who implement controls across identity, networking, compute, storage, databases, Defender for Cloud, and Sentinel. Current candidates should choose AZ-500 only when preparation, scheduling, and any credential requirements can be completed before 2026-08-31; otherwise use the verified replacement path.",
+    "skills_summary": [
+      "Trace effective access across Azure roles, Microsoft Entra controls, and privileged workflows",
+      "Design network and private-access controls around real workload dependencies",
+      "Harden compute, storage, databases, and secrets without breaking operability",
+      "Turn Defender for Cloud posture findings and Sentinel signals into corrective action"
+    ],
+    "preparation_strategy": "Build one representative Azure environment and trace a control from identity assignment through network isolation, workload protection, policy evaluation, Defender findings, and Sentinel response. Candidates with enough time to test before the cutoff can finish AZ-500; longer plans should start with SC-500. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Domain 1, Secure identity and access, organizes related decisions rather than isolated product facts. The current outline includes Manage security controls for identity and access; Manage Azure built-in role assignments; Manage custom roles, including Azure roles and Microsoft Entra roles. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Secure identity and access objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-500-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Domain 2, Secure networking, organizes related decisions rather than isolated product facts. The current outline includes Plan and implement security for virtual networks; Plan and implement Network Security Groups (NSGs) and Application Security Groups (ASGs); Manage virtual networks by using Azure Virtual Network Manager. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Secure networking objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-500-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Domain 3, Secure compute, storage, and databases, organizes related decisions rather than isolated product facts. The current outline includes Plan and implement advanced security for compute; Plan and implement remote access to virtual machines, including Azure Bastion and just-in-time (JIT) VM access; Configure network isolation for Azure Kubernetes Service (AKS). Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Secure compute, storage, and databases objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-500-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Domain 4, Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel, organizes related decisions rather than isolated product facts. The current outline includes Implement and manage enforcement of cloud governance policies; Create, assign, and interpret policies and initiatives in Azure Policy; Configure Azure Key Vault network settings. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-az-500-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Microsoft lists 2026-08-31 as the retirement date. Verify the official page immediately before booking, allow time for identity and accommodation requirements, and do not assume a retake can be scheduled after the cutoff.",
+    "methodology": {
+      "summary": "Cert Atlas reviewed Microsoft's dated AZ-500 study guide and official retirement list, then compared the current SC-500 guide and Microsoft's transition announcement. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-az-500-study-guide",
+        "microsoft-retirement-list",
+        "microsoft-sc-500-study-guide",
+        "microsoft-transition-announcement"
+      ]
+    },
+    "source_ids": [
+      "microsoft-az-500-study-guide"
+    ]
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-08-31",
+    "summary": "Microsoft will retire AZ-500 on 2026-08-31. The exam remains schedulable before the cutoff. Microsoft identifies SC-500 as its direct replacement, so candidates should choose the blueprint that matches their testing date and long-term role.",
+    "migration_actions": [
+      "Confirm that a complete AZ-500 study and booking plan fits before 2026-08-31.",
+      "If the plan extends past the cutoff, switch to SC-500 and use its current dated study guide.",
+      "Compare the two outlines objective by objective instead of renaming old notes or practice content.",
+      "Recheck the official retirement page before scheduling because Microsoft states that dates can change."
+    ],
+    "source_ids": [
+      "microsoft-az-500-study-guide",
+      "microsoft-retirement-list",
+      "microsoft-sc-500-study-guide",
+      "microsoft-transition-announcement"
+    ],
+    "replacement": {
+      "exam_code": "SC-500",
+      "name": "Implementing End-to-End Security Controls for Cloud and AI Workloads",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
+      "relationship": "direct_replacement"
+    },
+    "skill_comparison": [
+      {
+        "legacy_skill": "Secure identity and access",
+        "legacy_weight": "15-20%",
+        "replacement_skill": "Manage identity, access, and governance",
+        "replacement_weight": "20-25%",
+        "change": "SC-500 retains Entra, role, policy, and Key Vault work while making governance and overprivileged-access remediation more explicit."
+      },
+      {
+        "legacy_skill": "Secure networking; secure compute, storage, and databases",
+        "legacy_weight": "40-50% combined",
+        "replacement_skill": "Secure storage, databases, networking, and compute",
+        "replacement_weight": "45-55% combined",
+        "change": "Most infrastructure hardening transfers, but SC-500 reorganizes it by control surface and adds explicit AI, application platform, hybrid, and multicloud tasks."
+      },
+      {
+        "legacy_skill": "Defender for Cloud and Microsoft Sentinel",
+        "legacy_weight": "30-35%",
+        "replacement_skill": "Manage and monitor security posture",
+        "replacement_weight": "20-25%",
+        "change": "SC-500 preserves posture and collection work, adds Security Copilot, and places AI workload protection inside the end-to-end security role."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-az-500-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500",
+      "title": "Study guide for Exam AZ-500: Microsoft Azure Security Technologies",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:6d09520d21199114fc1700ce94efc9ab7125aaca0a01247c15e17b635e4e336e"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    },
+    {
+      "id": "microsoft-sc-500-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
+      "title": "Study guide for Exam SC-500: Implementing End-to-End Security Controls for Cloud and AI Workloads",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:3d744e43cc3c83700716a8eb1f40743e3ad388e5578d0e844379a13a1a3d6282"
+    },
+    {
+      "id": "microsoft-transition-announcement",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+      "title": "July 2026 certification transition announcement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:8f63befc471bde009f3f440da060227d1c751613097c102353fb09b209b204d0"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.98,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T06:15:00Z",
+    "reviewed_at": "2026-08-26T06:30:00Z"
+  }
 }
