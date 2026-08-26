@@ -288,6 +288,16 @@ class EnrichmentValidationTests(unittest.TestCase):
         self.assertFalse(result.publishable)
         self.assertTrue(any("retires_on" in error for error in result.errors))
 
+    def test_invalid_lifecycle_status_does_not_emit_a_secondary_date_error(self):
+        overlay = scheduled_retirement_overlay()
+        overlay["lifecycle"]["status"] = "retiring_someday"
+
+        result = validate_overlay(base_exam(), overlay)
+
+        self.assertFalse(result.publishable)
+        self.assertTrue(any("lifecycle.status" in error for error in result.errors))
+        self.assertFalse(any("retired_on" in error for error in result.errors))
+
     def test_retired_exam_can_truthfully_omit_unverified_replacement(self):
         result = validate_overlay(base_exam(), retired_without_replacement_overlay())
 
@@ -384,7 +394,7 @@ class EnrichmentValidationTests(unittest.TestCase):
 
     def test_source_backed_domain_name_correction_is_applied(self):
         exam = base_exam()
-        exam["domains"][0]["name"] = "Planning (35�45%)"
+        exam["domains"][0]["name"] = "Planning (35-45%)"
         overlay = rich_overlay()
         overlay["fact_overrides"]["domains"][0]["corrected_name"] = "Planning"
 

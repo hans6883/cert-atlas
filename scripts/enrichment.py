@@ -382,11 +382,16 @@ def validate_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> Validatio
                 result.errors.append(
                     "lifecycle.status must be retired or scheduled_retirement"
                 )
-            date_field = (
-                "retires_on" if status == "scheduled_retirement" else "retired_on"
-            )
-            if not _valid_iso_date(lifecycle.get(date_field)):
-                result.errors.append(f"lifecycle.{date_field} must be an ISO date")
+            else:
+                date_field = (
+                    "retires_on"
+                    if status == "scheduled_retirement"
+                    else "retired_on"
+                )
+                if not _valid_iso_date(lifecycle.get(date_field)):
+                    result.errors.append(
+                        f"lifecycle.{date_field} must be an ISO date"
+                    )
             if _word_count(lifecycle.get("summary")) < 20:
                 result.errors.append("lifecycle.summary must contain at least 20 words")
 
