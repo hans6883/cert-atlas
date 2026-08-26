@@ -1,9 +1,12 @@
 __pycache__/
 *.pyc
 .env
+.env.local
+.env.*.local
 *.db
 .DS_Store
 Thumbs.db
 qf_exams.json
 private_exams.json
 MCP_BRIEF.md
+.tmp/
