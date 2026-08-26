@@ -6,6 +6,7 @@
  * Active exams may carry a QuizForge practice link with UTM attribution
  * (utm_source=mcp, utm_campaign=<tool>). Retired exams suppress stale practice
  * and registration actions and point to the current replacement instead.
+ * Scheduled retirements retain current actions while clearly naming the cutoff.
  */
 import { McpServer, ResourceTemplate } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
@@ -31,6 +32,7 @@ const INSTRUCTIONS =
   "Use get_exam_blueprint for what's on an exam / domain weights / prerequisites / passing score / " +
   "duration; compare_exams for 'X vs Y / which is harder or cheaper'; list_certifying_bodies for " +
   "which providers are covered. Active results may include a free QuizForge practice-exam link. " +
+  "Scheduled retirements name the cutoff and verified transition while the exam remains available. " +
   "Retired results identify the verified current path, if any, and must not promote stale exam actions.";
 
 // --- practice-link helper ----------------------------------------------------
@@ -42,19 +44,33 @@ function practiceLink(e: IndexEntry, bp: Blueprint | null, tool: string): string
 export function indexLine(e: IndexEntry, tool: string): string {
   const code = e.exam_code ? `[${e.exam_code}] ` : "";
   const retired = e.lifecycle_status === "retired";
-  const relationshipLabel = {
+  const scheduled = e.lifecycle_status === "scheduled_retirement";
+  const retiredRelationshipLabel = {
     related_successor: "related current path",
     collective_replacement: "broader replacement path",
     direct_replacement: "replaced by",
+  }[e.replacement_relationship ?? "direct_replacement"];
+  const scheduledRelationshipLabel = {
+    related_successor: "related future path",
+    collective_replacement: "broader future path",
+    direct_replacement: "will be replaced by",
   }[e.replacement_relationship ?? "direct_replacement"];
   const parts = retired
     ? [
         `retired${e.retired_on ? ` ${e.retired_on}` : ""}`,
         e.replacement_exam_code
-          ? `${relationshipLabel} ${e.replacement_exam_code}`
+          ? `${retiredRelationshipLabel} ${e.replacement_exam_code}`
           : "no verified replacement",
       ]
-    : [`${e.domains} domains`];
+    : scheduled
+      ? [
+          `retires${e.retires_on ? ` ${e.retires_on}` : ""}`,
+          e.replacement_exam_code
+            ? `${scheduledRelationshipLabel} ${e.replacement_exam_code}`
+            : "no verified replacement named",
+          `${e.domains} domains`,
+        ]
+      : [`${e.domains} domains`];
   if (!retired && e.total_questions != null) parts.push(`${e.total_questions} Q`);
   if (!retired && e.duration_minutes != null) parts.push(`${e.duration_minutes} min`);
   const practice = retired ? null : practiceLink(e, null, tool);
@@ -81,20 +97,33 @@ function hasApprovedEnrichment(bp: Blueprint): boolean {
 export function blueprintText(e: IndexEntry, bp: Blueprint): string {
   const L: string[] = [];
   const retired = bp.lifecycle?.status === "retired" || e.lifecycle_status === "retired";
+  const scheduled =
+    bp.lifecycle?.status === "scheduled_retirement" ||
+    e.lifecycle_status === "scheduled_retirement";
+  const lifecycleNotice = retired || scheduled;
+  const lifecycleDate = scheduled
+    ? bp.lifecycle?.retires_on ?? e.retires_on
+    : bp.lifecycle?.retired_on ?? e.retired_on;
+  const headingSuffix = retired
+    ? " - Retired"
+    : scheduled && lifecycleDate
+      ? ` - Retires ${lifecycleDate}`
+      : scheduled
+        ? " - Scheduled retirement"
+        : "";
   L.push(
-    `# ${bp.exam_name}${bp.exam_code ? ` (${bp.exam_code})` : ""}${retired ? " - Retired" : ""}`,
+    `# ${bp.exam_name}${bp.exam_code ? ` (${bp.exam_code})` : ""}${headingSuffix}`,
   );
   L.push(`Certifying body: ${bp.certifying_body ?? e.certifying_body}`);
   if (bp.certification_name) L.push(`Certification: ${bp.certification_name}`);
 
-  if (retired) {
+  if (lifecycleNotice) {
     const lifecycle = bp.lifecycle;
     const replacement = lifecycle?.replacement;
     L.push("");
-    L.push("## Retirement and replacement");
+    L.push(retired ? "## Retirement and replacement" : "## Scheduled retirement and transition");
     if (lifecycle?.summary) L.push(lifecycle.summary);
-    const retiredOn = lifecycle?.retired_on ?? e.retired_on;
-    if (retiredOn) L.push(`Retired: ${retiredOn}`);
+    if (lifecycleDate) L.push(`${retired ? "Retired" : "Retires"}: ${lifecycleDate}`);
     const replacementCode = replacement?.exam_code ?? e.replacement_exam_code;
     const replacementUrl = replacement?.url ?? e.replacement_url;
     const replacementLabel = [replacementCode, replacement?.name].filter(Boolean).join(": ");
@@ -107,6 +136,8 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
       L.push(
         `${relationshipLabel}: ${replacementLabel || "current exam"}${replacementUrl ? ` - ${replacementUrl}` : ""}`,
       );
+    } else {
+      L.push("No verified replacement named in the reviewed official sources.");
     }
     if (replacement?.study_guide_url) {
       L.push(`Replacement study guide: ${replacement.study_guide_url}`);
@@ -155,8 +186,8 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
     L.push("");
     L.push(retired ? "## How to reuse prior preparation" : "## How to prepare");
     L.push(editorial.preparation_strategy);
-    if (retired && bp.lifecycle) {
-      const replacementCode = bp.lifecycle.replacement?.exam_code ?? "the replacement exam";
+    if (lifecycleNotice && bp.lifecycle) {
+      const replacementCode = bp.lifecycle.replacement?.exam_code ?? "the current credential catalog";
       const relationship = bp.lifecycle.replacement?.relationship ?? "direct_replacement";
       if (bp.lifecycle.skill_comparison?.length) {
         L.push("");
@@ -173,7 +204,7 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
       }
       if (bp.lifecycle.migration_actions?.length) {
         L.push("");
-        L.push("## Migration checklist");
+        L.push(retired ? "## Migration checklist" : "## Transition checklist");
         for (const action of bp.lifecycle.migration_actions) L.push(`- ${action}`);
       }
     }
