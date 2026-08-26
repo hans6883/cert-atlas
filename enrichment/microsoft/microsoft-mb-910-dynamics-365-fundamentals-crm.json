@@ -1,0 +1,177 @@
+{
+  "exam_id": "microsoft-mb-910-dynamics-365-fundamentals-crm",
+  "editorial": {
+    "meta_description": "MB-910 is retired. Review its source-verified domains, cutoff, study value, and truthful next steps without an invented replacement.",
+    "overview": "MB-910, Microsoft Dynamics 365 Fundamentals (CRM), retired on 2025-12-31. Its published domains cover Describe Dynamics 365 Customer Insights, Describe Dynamics 365 Sales, Describe Dynamics 365 Customer Service, Describe Dynamics 365 Field Service, Explore the core capabilities of customer engagement apps in Dynamics 365. The historical MB-910 blueprint remains a compact map of the customer lifecycle. Customer Insights forms and segments audiences, Sales advances opportunities, Customer Service resolves cases, and Field Service carries service into scheduled onsite work. The useful artifact is that process map, not the retired exam target. Microsoft does not name a direct replacement in the reviewed official sources. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
+    "who_should_take": "The original audience was learners who used the fundamentals exam to understand how Dynamics 365 customer engagement applications support marketing, sales, service, and field operations. This historical page is for prior learners, credential holders, training teams cleaning up old material, and practitioners mapping durable knowledge into a current role-based plan.",
+    "skills_summary": [
+      "Explain how Customer Insights supports profiles, segments, journeys, and engagement",
+      "Map Dynamics 365 Sales capabilities to the lead and opportunity lifecycle",
+      "Relate Customer Service cases and knowledge to agent and customer outcomes",
+      "Connect Field Service work orders, scheduling, assets, and mobile execution"
+    ],
+    "preparation_strategy": "Reuse the blueprint as product orientation. Trace one customer scenario through profiles and journeys, lead qualification, an opportunity, a service case, and a field work order. Then choose a current Microsoft credential from the active catalog based on the job role or application you actually need to operate. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
+    "domain_guidance": [
+      {
+        "domain_id": "Describe Dynamics 365 Customer Insights",
+        "summary": "Domain 1, Describe Dynamics 365 Customer Insights, organizes related decisions rather than isolated product facts. The historical outline includes Explore Customer Insights - Journeys; Describe Customer Insights - Data. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Dynamics 365 Customer Insights objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Describe Dynamics 365 Sales",
+        "summary": "Domain 2, Describe Dynamics 365 Sales, organizes related decisions rather than isolated product facts. The historical outline includes Explore Sales. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Dynamics 365 Sales objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Describe Dynamics 365 Customer Service",
+        "summary": "Domain 3, Describe Dynamics 365 Customer Service, organizes related decisions rather than isolated product facts. The historical outline includes Explore Customer Service. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Dynamics 365 Customer Service objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Describe Dynamics 365 Field Service",
+        "summary": "Domain 4, Describe Dynamics 365 Field Service, organizes related decisions rather than isolated product facts. The historical outline includes Explore Field Service. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Describe Dynamics 365 Field Service objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Explore the core capabilities of customer engagement apps in Dynamics 365",
+        "summary": "Domain 5, Explore the core capabilities of customer engagement apps in Dynamics 365, organizes related decisions rather than isolated product facts. The historical outline includes Describe the foundations of customer engagement apps. Practice by connecting the configuration or recommendation to prerequisites, downstream effects, evidence of success, and a safe correction when the expected result is not observed.",
+        "study_focus": [
+          "Turn every Explore the core capabilities of customer engagement apps in Dynamics 365 objective into a concrete task or decision you can explain",
+          "Record the prerequisite, implementation choice, verification signal, and failure mode",
+          "Mix this domain with adjacent domains so dependencies remain visible"
+        ],
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "MB-910 cannot be booked after its 2025-12-31 retirement. Use the active Microsoft credential and exam pages for current delivery, pricing, language, accommodation, and scheduling information.",
+    "methodology": {
+      "summary": "Cert Atlas reviewed Microsoft's dated MB-910 study guide and official retirement list and checked those sources for an explicitly named replacement. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-mb-910-study-guide",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-mb-910-study-guide"
+    ]
+  },
+  "fact_overrides": {
+    "domains": [
+      {
+        "domain_id": "Describe Dynamics 365 Customer Insights",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Describe Dynamics 365 Sales",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Describe Dynamics 365 Customer Service",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Describe Dynamics 365 Field Service",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      },
+      {
+        "domain_id": "Explore the core capabilities of customer engagement apps in Dynamics 365",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-mb-910-study-guide"
+        ]
+      }
+    ]
+  },
+  "study_signals": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-12-31",
+    "summary": "Microsoft retired MB-910 on 2025-12-31. The exam is no longer schedulable. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
+    "migration_actions": [
+      "Remove MB-910 from current registration and practice calls to action because it retired on 2025-12-31.",
+      "Use Microsoft's active credential catalog to choose a current path by job role and required skills.",
+      "Do not treat a similarly named course, product, or credential as a replacement unless Microsoft explicitly says so.",
+      "Map reusable knowledge to the selected current guide, then rebuild labs and review around that guide's dated objectives."
+    ],
+    "source_ids": [
+      "microsoft-mb-910-study-guide",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-mb-910-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-910",
+      "title": "Study guide for Exam MB-910: Microsoft Dynamics 365 Fundamentals (CRM)",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:9cb8c347665e59fa1c2c44777c69f447978183bf17a0edf9b0ce8be867c160a3"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-26",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.98,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T06:15:00Z",
+    "reviewed_at": "2026-08-26T06:30:00Z"
+  }
+}

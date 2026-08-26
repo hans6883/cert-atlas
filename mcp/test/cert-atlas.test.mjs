@@ -244,6 +244,109 @@ test("retired blueprint leads with replacement and suppresses stale exam actions
   assert.doesNotMatch(output, /Stale exam-day text/);
 });
 
+test("scheduled retirement names the cutoff and keeps current exam actions", () => {
+  const entry = {
+    exam_id: "microsoft-microsoft-az-500-azure-security-engineer",
+    exam_name: "Microsoft Azure Security Engineer Associate",
+    exam_code: "AZ-500",
+    certifying_body: "Microsoft",
+    vendor_slug: "microsoft",
+    domains: 4,
+    total_questions: 60,
+    duration_minutes: 100,
+    source_url: "https://learn.microsoft.com/credentials/certifications/exams/az-500/",
+    practice_url: "https://quizforge.ai/tests/az-500",
+    lifecycle_status: "scheduled_retirement",
+    retires_on: "2026-08-31",
+    replacement_exam_code: "SC-500",
+    replacement_relationship: "direct_replacement",
+    replacement_url: "https://learn.microsoft.com/credentials/certifications/exams/sc-500/",
+  };
+  const blueprint = {
+    ...entry,
+    exam_registration_url: "https://learn.microsoft.com/credentials/certifications/exams/az-500/",
+    domains: [{ id: "1.0", name: "Manage identity and access", weight_min_percent: 15, weight_max_percent: 20 }],
+    editorial: {
+      overview: "AZ-500 validates implementation of Azure security controls.",
+      who_should_take: "Azure security engineers finishing before the cutoff.",
+      skills_summary: ["Secure identity and networking"],
+      preparation_strategy: "Choose AZ-500 only when the remaining window supports a complete plan.",
+      domain_guidance: [],
+    },
+    lifecycle: {
+      status: "scheduled_retirement",
+      retires_on: "2026-08-31",
+      summary: "Microsoft will retire AZ-500 on August 31, 2026.",
+      replacement: {
+        exam_code: "SC-500",
+        name: "Microsoft Security Operations Analyst",
+        url: "https://learn.microsoft.com/credentials/certifications/exams/sc-500/",
+        relationship: "direct_replacement",
+      },
+      migration_actions: ["Finish AZ-500 before the cutoff or move to SC-500."],
+      skill_comparison: [{
+        legacy_skill: "Azure security",
+        replacement_skill: "Cloud security operations",
+        change: "The replacement broadens the operating context.",
+      }],
+    },
+    content_quality: { status: "reviewed", publishable: true, reviewed_at: "2026-08-26T04:00:00Z" },
+  };
+
+  const line = indexLine(entry, "search_exams");
+  assert.match(line, /retires 2026-08-31/);
+  assert.match(line, /will be replaced by SC-500/);
+  assert.match(line, /practice:/);
+
+  const output = blueprintText(entry, blueprint);
+  assert.match(output, /# Microsoft Azure Security Engineer Associate \(AZ-500\) - Retires 2026-08-31/);
+  assert.match(output, /## Scheduled retirement and transition/);
+  assert.match(output, /Replacement: SC-500/);
+  assert.match(output, /Format: 60 questions/);
+  assert.match(output, /Register:/);
+  assert.match(output, /Free practice exam/);
+  assert.match(output, /## Transition checklist/);
+});
+
+test("retired blueprint without a verified replacement says so explicitly", () => {
+  const entry = {
+    exam_id: "microsoft-microsoft-ms-900-microsoft-365-fundamentals",
+    exam_name: "Microsoft 365 Fundamentals",
+    exam_code: "MS-900",
+    certifying_body: "Microsoft",
+    vendor_slug: "microsoft",
+    domains: 4,
+    source_url: "https://learn.microsoft.com/credentials/certifications/exams/ms-900/",
+    practice_url: null,
+    lifecycle_status: "retired",
+    retired_on: "2026-03-31",
+  };
+  const blueprint = {
+    ...entry,
+    domains: [{ id: "1.0", name: "Cloud concepts", weight_min_percent: 10, weight_max_percent: 15 }],
+    editorial: {
+      overview: "The historical scope remains useful for understanding Microsoft 365 fundamentals.",
+      who_should_take: "Learners mapping prior preparation to current role-based credentials.",
+      skills_summary: ["Explain cloud concepts"],
+      preparation_strategy: "Choose a current credential by role rather than assuming a successor.",
+      domain_guidance: [],
+    },
+    lifecycle: {
+      status: "retired",
+      retired_on: "2026-03-31",
+      summary: "Microsoft retired MS-900 without naming a direct replacement in the reviewed sources.",
+      migration_actions: ["Use the current catalog to choose a role-based credential."],
+    },
+    content_quality: { status: "reviewed", publishable: true, reviewed_at: "2026-08-26T04:00:00Z" },
+  };
+
+  assert.match(indexLine(entry, "search_exams"), /no verified replacement/);
+  const output = blueprintText(entry, blueprint);
+  assert.match(output, /No verified replacement named/);
+  assert.doesNotMatch(output, /Replacement:/);
+  assert.doesNotMatch(output, /Free practice exam/);
+});
+
 test("published AI-102 data resolves as retired and points to AI-103", async () => {
   const entry = await resolveExam("AI-102");
   assert.ok(entry, "AI-102 should resolve");
@@ -277,4 +380,33 @@ test("published MB-240 data describes AB-250 as related rather than direct", asy
   assert.match(output, /How MB-240 skills compare with AB-250/);
   assert.doesNotMatch(output, /Replacement: AB-250/);
   assert.doesNotMatch(output, /What changed from MB-240 to AB-250/);
+});
+
+test("published AZ-500 is scheduled and keeps current actions", async () => {
+  const entry = await resolveExam("AZ-500");
+  assert.ok(entry, "AZ-500 should resolve");
+  assert.equal(entry.lifecycle_status, "scheduled_retirement");
+  assert.equal(entry.retires_on, "2026-08-31");
+  assert.equal(entry.replacement_exam_code, "SC-500");
+  assert.ok(entry.practice_url, "scheduled exam should retain its current practice link");
+
+  const output = blueprintText(entry, await getBlueprint(entry));
+  assert.match(output, /Retires 2026-08-31/);
+  assert.match(output, /Replacement: SC-500/);
+  assert.match(output, /Register:/);
+  assert.match(output, /Free practice exam/);
+});
+
+test("published MS-900 is historical without an invented replacement", async () => {
+  const entry = await resolveExam("MS-900");
+  assert.ok(entry, "MS-900 should resolve");
+  assert.equal(entry.lifecycle_status, "retired");
+  assert.equal(entry.replacement_exam_code, undefined);
+  assert.equal(entry.practice_url, null);
+
+  const output = blueprintText(entry, await getBlueprint(entry));
+  assert.match(output, /No verified replacement named/);
+  assert.doesNotMatch(output, /Replacement:/);
+  assert.doesNotMatch(output, /Register:/);
+  assert.doesNotMatch(output, /Free practice exam/);
 });

@@ -37,6 +37,16 @@ def h(text):
     return html_mod.escape(str(text))
 
 
+def format_iso_date(value):
+    text = str(value or "")
+    try:
+        return datetime.strptime(text, "%Y-%m-%d").strftime("%B %d, %Y").replace(
+            " 0", " "
+        )
+    except ValueError:
+        return text
+
+
 def load_data():
     with open(DATA_DIR / "index.json", encoding="utf-8") as f:
         index = json.load(f)
@@ -376,14 +386,9 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     exam_items = []
     for ex in sorted(exams, key=lambda e: e["exam_name"]):
         meta_parts = []
-        if ex.get("lifecycle_status") == "retired":
-            retired_on = str(ex.get("retired_on") or "")
-            try:
-                retired_label = datetime.strptime(retired_on, "%Y-%m-%d").strftime(
-                    "%B %d, %Y"
-                ).replace(" 0", " ")
-            except ValueError:
-                retired_label = retired_on
+        lifecycle_status = ex.get("lifecycle_status")
+        if lifecycle_status == "retired":
+            retired_label = format_iso_date(ex.get("retired_on"))
             meta_parts.append(f"Retired {retired_label}".strip())
             replacement_code = str(ex.get("replacement_exam_code") or "").strip()
             if replacement_code:
@@ -396,6 +401,26 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
                     "direct_replacement": "replaced by",
                 }.get(relationship, "current path")
                 meta_parts.append(f"{relationship_label} {replacement_code}")
+        elif lifecycle_status == "scheduled_retirement":
+            retirement_label = format_iso_date(ex.get("retires_on"))
+            meta_parts.append(f"Retires {retirement_label}".strip())
+            replacement_code = str(ex.get("replacement_exam_code") or "").strip()
+            if replacement_code:
+                relationship = ex.get(
+                    "replacement_relationship", "direct_replacement"
+                )
+                relationship_label = {
+                    "related_successor": "related future path",
+                    "collective_replacement": "broader future path",
+                    "direct_replacement": "will be replaced by",
+                }.get(relationship, "future path")
+                meta_parts.append(f"{relationship_label} {replacement_code}")
+            if ex.get("total_questions"):
+                meta_parts.append(f'{ex["total_questions"]} questions')
+            if ex.get("duration_minutes"):
+                meta_parts.append(f'{ex["duration_minutes"]} min')
+            if ex.get("domains"):
+                meta_parts.append(f'{ex["domains"]} domains')
         else:
             if ex.get("total_questions"):
                 meta_parts.append(f'{ex["total_questions"]} questions')
@@ -456,36 +481,64 @@ def build_enrichment_html(exam):
 
     editorial = exam.get("editorial", {})
     lifecycle = exam.get("lifecycle", {})
-    retired = lifecycle.get("status") == "retired"
+    lifecycle_status = lifecycle.get("status")
+    retired = lifecycle_status == "retired"
+    scheduled_retirement = lifecycle_status == "scheduled_retirement"
+    lifecycle_notice = retired or scheduled_retirement
     sections = ['<section class="editorial" aria-label="Exam guide">']
 
-    if retired:
-        replacement = lifecycle.get("replacement", {})
-        legacy_code = str(exam.get("exam_code") or exam.get("exam_name") or "This exam")
-        replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+    if lifecycle_notice:
+        replacement = lifecycle.get("replacement")
+        replacement = replacement if isinstance(replacement, dict) else {}
+        exam_code = str(exam.get("exam_code") or exam.get("exam_name") or "This exam")
+        replacement_code = str(replacement.get("exam_code") or "")
         relationship = str(replacement.get("relationship") or "direct_replacement")
         replacement_cta = {
             "related_successor": "Explore related current path",
             "collective_replacement": "Explore the broader replacement path",
         }.get(relationship, "Prepare for")
-        retired_on = str(lifecycle.get("retired_on") or "")
-        try:
-            retired_label = datetime.strptime(retired_on, "%Y-%m-%d").strftime("%B %d, %Y").replace(" 0", " ")
-        except ValueError:
-            retired_label = retired_on
-        replacement_url = h(replacement.get("url") or "")
+        lifecycle_date = format_iso_date(
+            lifecycle.get("retired_on" if retired else "retires_on")
+        )
         sections.extend(
             [
                 '<div class="retirement-alert" role="note">',
-                '<p class="retirement-label">Retired exam</p>',
-                f'<h2>{h(legacy_code)} was retired on {h(retired_label)}</h2>',
+                f'<p class="retirement-label">{"Retired exam" if retired else "Scheduled retirement"}</p>',
+                (
+                    f'<h2>{h(exam_code)} was retired on {h(lifecycle_date)}</h2>'
+                    if retired
+                    else f'<h2>{h(exam_code)} retires on {h(lifecycle_date)}</h2>'
+                ),
                 f'<p>{h(lifecycle.get("summary") or "")}</p>',
-                f'<a class="replacement-link" href="{replacement_url}" rel="nofollow">{h(replacement_cta)} {h(replacement_code)}: {h(replacement.get("name") or "current path")}</a>',
-                '</div>',
-                f'<h2>Historical {h(legacy_code)} Scope</h2><p>{h(editorial.get("overview", ""))}</p>',
-                f'<h2>Who {h(legacy_code)} Was For</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
             ]
         )
+        if replacement:
+            sections.append(
+                f'<a class="replacement-link" href="{h(replacement.get("url") or "")}" rel="nofollow">'
+                f'{h(replacement_cta)} {h(replacement_code)}: '
+                f'{h(replacement.get("name") or "current path")}</a>'
+            )
+        else:
+            sections.append(
+                '<p class="lifecycle-no-replacement">'
+                'No direct replacement is named in the reviewed official sources.</p>'
+            )
+        sections.append("</div>")
+
+        if retired:
+            sections.extend(
+                [
+                    f'<h2>Historical {h(exam_code)} Scope</h2><p>{h(editorial.get("overview", ""))}</p>',
+                    f'<h2>Who {h(exam_code)} Was For</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
+                ]
+            )
+        else:
+            sections.extend(
+                [
+                    f'<h2>What This Exam Validates</h2><p>{h(editorial.get("overview", ""))}</p>',
+                    f'<h2>Who Should Take This Exam</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
+                ]
+            )
     else:
         sections.extend(
             [
@@ -494,7 +547,11 @@ def build_enrichment_html(exam):
             ]
         )
 
-    skills = [str(item).strip() for item in editorial.get("skills_summary", []) if str(item).strip()]
+    skills = [
+        str(item).strip()
+        for item in editorial.get("skills_summary", [])
+        if str(item).strip()
+    ]
     if skills:
         sections.append(
             '<h2>Skills You Should Be Ready to Demonstrate</h2><ul>'
@@ -502,26 +559,37 @@ def build_enrichment_html(exam):
             + "</ul>"
         )
 
-    preparation_heading = "How to Reuse Your Preparation" if retired else "How to Prepare"
+    preparation_heading = (
+        "How to Reuse Your Preparation"
+        if retired
+        else "How to Prepare Before Retirement"
+        if scheduled_retirement
+        else "How to Prepare"
+    )
     sections.append(
         f'<h2>{preparation_heading}</h2><p>{h(editorial.get("preparation_strategy", ""))}</p>'
     )
 
-    if retired:
-        replacement = lifecycle.get("replacement", {})
-        legacy_code = str(exam.get("exam_code") or "the retired exam")
-        replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+    if lifecycle_notice:
+        replacement = lifecycle.get("replacement")
+        replacement = replacement if isinstance(replacement, dict) else {}
+        exam_code = str(exam.get("exam_code") or "the retiring exam")
+        replacement_code = str(replacement.get("exam_code") or "")
         relationship = str(replacement.get("relationship") or "direct_replacement")
         comparisons = [
-            item for item in lifecycle.get("skill_comparison", []) if isinstance(item, dict)
+            item
+            for item in lifecycle.get("skill_comparison", [])
+            if isinstance(item, dict)
         ]
-        comparison_heading = (
-            f"How {legacy_code} skills compare with {replacement_code}"
-            if relationship == "related_successor"
-            else f"What changed from {legacy_code} to {replacement_code}"
-        )
-        sections.append(f'<div class="migration-map"><h2>{h(comparison_heading)}</h2>')
-        if comparisons:
+        if comparisons and replacement_code:
+            comparison_heading = (
+                f"How {exam_code} skills compare with {replacement_code}"
+                if relationship == "related_successor"
+                else f"What changed from {exam_code} to {replacement_code}"
+            )
+            sections.append(
+                f'<div class="migration-map"><h2>{h(comparison_heading)}</h2>'
+            )
             rows = "".join(
                 "<tr>"
                 f'<td>{h(item.get("legacy_skill"))}<br><strong>{h(item.get("legacy_weight"))}</strong></td>'
@@ -532,9 +600,11 @@ def build_enrichment_html(exam):
             )
             sections.append(
                 '<div class="comparison-wrap"><table class="comparison-table">'
-                f'<thead><tr><th>Historical {h(legacy_code)}</th><th>Current {h(replacement_code)}</th><th>Practical impact</th></tr></thead>'
-                f'<tbody>{rows}</tbody></table></div>'
+                f'<thead><tr><th>{"Historical" if retired else "Current"} {h(exam_code)}</th>'
+                f'<th>Current {h(replacement_code)}</th><th>Practical impact</th></tr></thead>'
+                f'<tbody>{rows}</tbody></table></div></div>'
             )
+
         actions = [
             str(item).strip()
             for item in lifecycle.get("migration_actions", [])
@@ -542,16 +612,18 @@ def build_enrichment_html(exam):
         ]
         if actions:
             sections.append(
-                "<h3>Migration checklist</h3><ol>"
+                '<div class="migration-map">'
+                f'<h3>{"Migration" if retired else "Transition"} checklist</h3><ol>'
                 + "".join(f"<li>{h(item)}</li>" for item in actions)
-                + "</ol>"
+                + "</ol></div>"
             )
+
         study_guide_url = h(replacement.get("study_guide_url") or "")
         if study_guide_url:
             sections.append(
-                f'<p><a href="{study_guide_url}" rel="nofollow">Open the official {h(replacement_code)} study guide</a></p>'
+                f'<p><a href="{study_guide_url}" rel="nofollow">'
+                f'Open the official {h(replacement_code)} study guide</a></p>'
             )
-        sections.append("</div>")
 
     domain_names = {
         str(domain.get("id")): str(domain.get("name") or "")
@@ -561,7 +633,9 @@ def build_enrichment_html(exam):
     guidance = editorial.get("domain_guidance", [])
     if guidance:
         sections.append(
-            "<h2>Historical Domain Guide</h2>" if retired else "<h2>Domain Study Guidance</h2>"
+            "<h2>Historical Domain Guide</h2>"
+            if retired
+            else "<h2>Domain Study Guidance</h2>"
         )
         for item in guidance:
             if not isinstance(item, dict):
@@ -571,9 +645,17 @@ def build_enrichment_html(exam):
             suffix = "Historical Scope" if retired else "Study Guidance"
             sections.append(f"<h3>{h(label)}: {suffix}</h3>")
             sections.append(f'<p>{h(item.get("summary", ""))}</p>')
-            focus = [str(value).strip() for value in item.get("study_focus", []) if str(value).strip()]
+            focus = [
+                str(value).strip()
+                for value in item.get("study_focus", [])
+                if str(value).strip()
+            ]
             if focus:
-                sections.append("<ul>" + "".join(f"<li>{h(value)}</li>" for value in focus) + "</ul>")
+                sections.append(
+                    "<ul>"
+                    + "".join(f"<li>{h(value)}</li>" for value in focus)
+                    + "</ul>"
+                )
 
     exam_day = str(editorial.get("exam_day_guidance") or "").strip()
     if exam_day and not retired:
@@ -591,16 +673,29 @@ def build_enrichment_html(exam):
                     details.append(f'{item["share_percent"]}% of practice metadata')
                 suffix = f' ({", ".join(details)})' if details else ""
                 signal_items.append(f'{item.get("topic")}{suffix}')
-        signal_items.extend(str(item) for item in signals.get("challenge_areas", []) if str(item).strip())
         signal_items.extend(
-            str(item) for item in signals.get("question_style_observations", []) if str(item).strip()
+            str(item)
+            for item in signals.get("challenge_areas", [])
+            if str(item).strip()
+        )
+        signal_items.extend(
+            str(item)
+            for item in signals.get("question_style_observations", [])
+            if str(item).strip()
         )
         if signal_items:
-            sections.append('<div class="study-signals"><h2>Preparation Signals</h2>')
             sections.append(
-                '<p class="signal-note">Derived from aggregate practice patterns. These are study aids, not official exam weights or predictions.</p>'
+                '<div class="study-signals"><h2>Preparation Signals</h2>'
             )
-            sections.append("<ul>" + "".join(f"<li>{h(item)}</li>" for item in signal_items) + "</ul></div>")
+            sections.append(
+                '<p class="signal-note">Derived from aggregate practice patterns. '
+                'These are study aids, not official exam weights or predictions.</p>'
+            )
+            sections.append(
+                "<ul>"
+                + "".join(f"<li>{h(item)}</li>" for item in signal_items)
+                + "</ul></div>"
+            )
 
     sources = exam.get("sources", [])
     quality = exam.get("content_quality", {})
@@ -608,7 +703,9 @@ def build_enrichment_html(exam):
         reviewed_at = str(quality.get("reviewed_at") or "")[:10]
         sections.append('<div class="verification"><h2>Sources and Verification</h2>')
         if reviewed_at:
-            sections.append(f'<p class="verification-date">Verified {h(reviewed_at)}</p>')
+            sections.append(
+                f'<p class="verification-date">Verified {h(reviewed_at)}</p>'
+            )
         source_items = []
         for source in sources:
             if not isinstance(source, dict):
@@ -618,11 +715,19 @@ def build_enrichment_html(exam):
             publisher = h(source.get("publisher") or "")
             link = f'<a href="{url}" rel="nofollow">{title}</a>' if url else title
             accessed = h(source.get("accessed") or "")
-            suffix = f' <span class="source-publisher">{publisher}</span>' if publisher else ""
+            suffix = (
+                f' <span class="source-publisher">{publisher}</span>'
+                if publisher
+                else ""
+            )
             if accessed:
-                suffix += f' <span class="source-accessed">accessed {accessed}</span>'
+                suffix += (
+                    f' <span class="source-accessed">accessed {accessed}</span>'
+                )
             source_items.append(f"<li>{link}{suffix}</li>")
-        sections.append('<ul class="source-list">' + "".join(source_items) + "</ul></div>")
+        sections.append(
+            '<ul class="source-list">' + "".join(source_items) + "</ul></div>"
+        )
 
     methodology = editorial.get("methodology")
     if isinstance(methodology, dict) and methodology.get("summary"):
@@ -634,7 +739,6 @@ def build_enrichment_html(exam):
     sections.append("</section>")
     return "".join(sections)
 
-
 def build_exam_page(vendor_slug, vendor_info, exam):
     name = exam.get("exam_name", "")
     code = exam.get("exam_code", "")
@@ -642,6 +746,7 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     exam_id = exam.get("exam_id", "")
     lifecycle = exam.get("lifecycle", {})
     retired = lifecycle.get("status") == "retired"
+    scheduled_retirement = lifecycle.get("status") == "scheduled_retirement"
 
     # Quick facts
     facts = []
@@ -811,11 +916,24 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         f'</div></div>'
     )
 
+    if retired and code:
+        replacement = lifecycle.get("replacement")
+        page_heading = (
+            f"{h(code)} Retired: What Replaced It and What Carries Over"
+            if isinstance(replacement, dict) and replacement.get("exam_code")
+            else f"{h(code)} Retired: Historical Blueprint and Next Steps"
+        )
+    elif scheduled_retirement and code:
+        retirement_date = format_iso_date(lifecycle.get("retires_on"))
+        page_heading = f"{h(code)} Retires {h(retirement_date)}: Transition Guide"
+    else:
+        page_heading = h(name) + (f' ({h(code)})' if code else '') + " Exam Blueprint"
+
     body = f"""
 {breadcrumb}
 <div class="container">
 <div class="exam-header">
-<h1>{h(code) + " Retired: What Replaced It and What Carries Over" if retired and code else h(name) + (f' ({h(code)})' if code else '') + " Exam Blueprint"}</h1>
+<h1>{page_heading}</h1>
 {f'<p class="exam-code">{h(code)}</p>' if code else ""}
 <p class="vendor-link"><a href="{SITE_URL}/{h(vendor_slug)}/">{h(body_name)}</a></p>
 </div>{pre_facts_content}
@@ -865,8 +983,9 @@ def build_exam_page(vendor_slug, vendor_info, exam):
                 "credentialCategory": "Retired certification exam",
                 "recognizedBy": {"@type": "Organization", "name": body_name},
             },
-            "significantLink": replacement.get("url"),
         }
+        if isinstance(replacement, dict) and replacement.get("url"):
+            course_schema["significantLink"] = replacement["url"]
 
     breadcrumb_schema = {
         "@context": "https://schema.org",
@@ -903,10 +1022,36 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     page_title = f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas"
     if retired:
         replacement = lifecycle.get("replacement", {})
-        replacement_code = replacement.get("exam_code") or "Current Path"
-        relationship = replacement.get("relationship") or "direct_replacement"
-        relation_label = "Related Path" if relationship == "related_successor" else "Replacement"
-        page_title = f"{code or name} Retired: {replacement_code} {relation_label} & Skill Map | Cert Atlas"
+        if isinstance(replacement, dict) and replacement.get("exam_code"):
+            replacement_code = replacement["exam_code"]
+            relationship = replacement.get("relationship") or "direct_replacement"
+            relation_label = "Related Path" if relationship == "related_successor" else "Replacement"
+            page_title = f"{code or name} Retired: {replacement_code} {relation_label} & Skill Map | Cert Atlas"
+        else:
+            page_title = f"{code or name} Retired: Blueprint & Next Steps | Cert Atlas"
+    elif scheduled_retirement:
+        retirement_value = str(lifecycle.get("retires_on") or "")
+        try:
+            retirement_short = datetime.strptime(
+                retirement_value, "%Y-%m-%d"
+            ).strftime("%b %d").replace(" 0", " ")
+        except ValueError:
+            retirement_short = retirement_value
+        replacement = lifecycle.get("replacement", {})
+        replacement_code = (
+            replacement.get("exam_code")
+            if isinstance(replacement, dict)
+            else None
+        )
+        transition_label = (
+            f"{replacement_code} Replacement"
+            if replacement_code
+            else "Transition Guide"
+        )
+        page_title = (
+            f"{code or name} Retires {retirement_short}: "
+            f"{transition_label} | Cert Atlas"
+        )
     elif has_public_enrichment(exam):
         page_title = f"{code or name} Exam Guide, Domains & Skills | Cert Atlas"
 

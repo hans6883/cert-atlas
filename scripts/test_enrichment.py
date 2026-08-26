@@ -171,6 +171,39 @@ def retired_overlay():
     return overlay
 
 
+def scheduled_retirement_overlay():
+    overlay = retired_overlay()
+    overlay["lifecycle"]["status"] = "scheduled_retirement"
+    overlay["lifecycle"]["retires_on"] = "2026-08-31"
+    overlay["lifecycle"].pop("retired_on")
+    overlay["lifecycle"]["summary"] = (
+        "Example Vendor will retire EX-100 on August 31, 2026. Candidates can "
+        "still take the current exam before the cutoff, while new long-term "
+        "study plans should use the EX-101 blueprint and current official guide."
+    )
+    overlay["lifecycle"]["migration_actions"] = [
+        "Decide whether the remaining time is sufficient to complete EX-100 preparation.",
+        "Use EX-101 for a study plan that extends beyond the retirement date.",
+        "Recheck the official retirement list before scheduling because dates can change.",
+    ]
+    return overlay
+
+
+def retired_without_replacement_overlay():
+    overlay = retired_overlay()
+    overlay["lifecycle"].pop("replacement")
+    overlay["lifecycle"].pop("skill_comparison")
+    overlay["lifecycle"]["summary"] = (
+        "Example Vendor retired EX-100 on June 30, 2026. The reviewed official "
+        "sources do not name a direct replacement, so this historical blueprint "
+        "is preserved without inferring a successor or current registration path."
+    )
+    overlay["lifecycle"]["source_ids"] = ["official-guide"]
+    overlay["editorial"]["methodology"]["source_ids"] = ["official-guide"]
+    overlay["sources"] = [overlay["sources"][0]]
+    return overlay
+
+
 def base_exam():
     return {
         "exam_id": "vendor-example-100",
@@ -240,6 +273,25 @@ class EnrichmentValidationTests(unittest.TestCase):
 
         self.assertFalse(result.publishable)
         self.assertTrue(any("relationship" in error for error in result.errors))
+
+    def test_scheduled_retirement_is_source_backed_and_publishable(self):
+        result = validate_overlay(base_exam(), scheduled_retirement_overlay())
+
+        self.assertTrue(result.publishable, result.errors)
+
+    def test_scheduled_retirement_requires_retires_on(self):
+        overlay = scheduled_retirement_overlay()
+        overlay["lifecycle"].pop("retires_on")
+
+        result = validate_overlay(base_exam(), overlay)
+
+        self.assertFalse(result.publishable)
+        self.assertTrue(any("retires_on" in error for error in result.errors))
+
+    def test_retired_exam_can_truthfully_omit_unverified_replacement(self):
+        result = validate_overlay(base_exam(), retired_without_replacement_overlay())
+
+        self.assertTrue(result.publishable, result.errors)
 
     def test_raw_exam_bank_shape_is_rejected(self):
         overlay = rich_overlay()
@@ -329,6 +381,19 @@ class EnrichmentValidationTests(unittest.TestCase):
             validate_overlay(merged, overlay).publishable,
             "source-backed corrections must be idempotent after the first apply",
         )
+
+    def test_source_backed_domain_name_correction_is_applied(self):
+        exam = base_exam()
+        exam["domains"][0]["name"] = "Planning (35�45%)"
+        overlay = rich_overlay()
+        overlay["fact_overrides"]["domains"][0]["corrected_name"] = "Planning"
+
+        result = validate_overlay(exam, overlay)
+        merged = merge_overlay(exam, overlay)
+
+        self.assertTrue(result.publishable, result.errors)
+        self.assertEqual(merged["domains"][0]["name"], "Planning")
+        self.assertTrue(validate_overlay(merged, overlay).publishable)
 
     def test_draft_overlay_cannot_merge_into_public_data(self):
         exam = base_exam()
@@ -427,6 +492,30 @@ class EnrichedPageTests(unittest.TestCase):
         self.assertIn("Explore related current path EX-101", html)
         self.assertNotIn("Prepare for EX-101", html)
 
+    def test_scheduled_retirement_page_warns_without_disabling_current_exam(self):
+        exam = merge_overlay(base_exam(), scheduled_retirement_overlay())
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn("EX-100 retires on August 31, 2026", html)
+        self.assertIn("Scheduled retirement", html)
+        self.assertIn("Prepare for EX-101", html)
+        self.assertIn("What This Exam Validates", html)
+        self.assertIn("Practice Example Professional on QuizForge", html)
+        self.assertIn("EX-100 Retires Aug 31: EX-101 Replacement", html)
+        self.assertNotIn("Retired exam", html)
+        self.assertNotIn("Historical EX-100 Scope", html)
+
+    def test_retired_page_without_replacement_has_no_empty_successor_link(self):
+        exam = merge_overlay(base_exam(), retired_without_replacement_overlay())
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn("No direct replacement is named", html)
+        self.assertIn("Retired: Blueprint &amp; Next Steps", html)
+        self.assertNotIn('<a class="replacement-link"', html)
+        self.assertNotIn("Practice Example Professional on QuizForge", html)
+
     def test_page_renders_string_objectives_from_official_sources(self):
         exam = base_exam()
         exam["domains"][0]["objectives"] = [
@@ -480,6 +569,26 @@ class EnrichedPageTests(unittest.TestCase):
 
         self.assertIn("related current path EX-101", html)
         self.assertNotIn("replaced by EX-101", html)
+
+    def test_vendor_page_labels_scheduled_retirement(self):
+        entry = {
+            "exam_id": "vendor-example-100",
+            "exam_name": "Example Professional",
+            "exam_code": "EX-100",
+            "domains": 1,
+            "lifecycle_status": "scheduled_retirement",
+            "retires_on": "2026-08-31",
+            "replacement_exam_code": "EX-101",
+            "replacement_relationship": "direct_replacement",
+        }
+
+        html = build_vendor_page(
+            "example-vendor", {"display_name": "Example Vendor"}, [entry]
+        )
+
+        self.assertIn("Retires August 31, 2026", html)
+        self.assertIn("will be replaced by EX-101", html)
+        self.assertNotIn("Retired August", html)
 
 
 class ApplyEnrichmentTests(unittest.TestCase):
@@ -599,6 +708,46 @@ class ApplyEnrichmentTests(unittest.TestCase):
                 "https://vendor.example/exams/example-101",
             )
             self.assertIsNone(entry["practice_url"])
+
+    def test_scheduled_retirement_propagates_and_preserves_practice_link(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            data_root = root / "data"
+            enrichment_root = root / "enrichment"
+            exam_path = data_root / "example-vendor" / "vendor-example-100.json"
+            overlay_path = enrichment_root / "example-vendor" / "vendor-example-100.json"
+            exam_path.parent.mkdir(parents=True)
+            overlay_path.parent.mkdir(parents=True)
+            exam_path.write_text(json.dumps(base_exam()), encoding="utf-8")
+            overlay_path.write_text(
+                json.dumps(scheduled_retirement_overlay()), encoding="utf-8"
+            )
+            practice_url = "https://quizforge.ai/tests/example"
+            (data_root / "index.json").write_text(
+                json.dumps(
+                    {
+                        "total_exams": 1,
+                        "exams": [
+                            {
+                                "exam_id": "vendor-example-100",
+                                "vendor_slug": "example-vendor",
+                                "practice_url": practice_url,
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            report = apply_enrichments(data_root, enrichment_root, write=True)
+            index = json.loads((data_root / "index.json").read_text(encoding="utf-8"))
+            entry = index["exams"][0]
+
+            self.assertEqual(report["applied"], 1)
+            self.assertEqual(entry["lifecycle_status"], "scheduled_retirement")
+            self.assertEqual(entry["retires_on"], "2026-08-31")
+            self.assertEqual(entry["replacement_exam_code"], "EX-101")
+            self.assertEqual(entry["practice_url"], practice_url)
 
 
 class EvidencePackTests(unittest.TestCase):

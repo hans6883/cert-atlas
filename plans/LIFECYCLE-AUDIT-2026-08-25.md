@@ -52,19 +52,25 @@ The lifecycle schema now distinguishes `direct_replacement`, `collective_replace
 
 ## Confirmed transitions still requiring publication work
 
-The full scan also found current Cert Atlas pages that still present obsolete logistics or current-exam calls to action. They are not silently relabeled because an official direct successor was not established during this pass.
+The second reviewed publication batch completed seven of the original follow-up records. The lifecycle schema now supports `scheduled_retirement`, plus retired records with no replacement object. Scheduled pages retain valid current registration and practice actions until the cutoff; retired pages suppress them. An absent official replacement is stated directly and never filled with a model inference.
+
+| Exam | Published state | Public behavior |
+| --- | --- | --- |
+| AZ-500 | Retires 2026-08-31; SC-500 direct replacement | Shows cutoff and a source-backed SC-500 skill map while AZ-500 remains available |
+| AZ-800 and AZ-801 | Retire 2026-09-30; no verified replacement named | Shows cutoff, preserves current mechanics, and does not infer an exam from the AZ-802 course name |
+| MS-102 | Retires 2026-11-30; no verified replacement named | Shows cutoff and role-specific preparation without inventing a successor |
+| MB-910 and MB-920 | Retired 2025-12-31; no verified replacement named | Historical process maps with no registration, price, or practice action |
+| MS-900 | Retired 2026-03-31; no verified replacement named | Historical Microsoft 365 scope with current-path selection guidance |
+
+The following confirmed transitions still require publication work. PL-200 and MB-335 are not in the current public Cert Atlas inventory, so they require the new-record publication gate rather than a simple overlay.
 
 | Exam | Verified state | Required action |
 | --- | --- | --- |
-| AZ-500 | Retires 2026-08-31; SC-500 is the announced successor | Add a scheduled-retirement overlay now, then switch to retired after the date |
 | PL-200 | Retires 2026-08-31; AB-410 is the announced successor | Add a scheduled-retirement overlay now, then switch to retired after the date |
-| AZ-800 and AZ-801 | Retire 2026-09-30 | Verify Microsoft's replacement guidance before naming a successor; suppress stale booking after retirement |
-| MS-102 | Retires 2026-11-30 | Publish scheduled-retirement state; do not invent a replacement |
-| MB-910, MB-920, MS-900 | Retired | Convert to historical pages; official evidence did not support asserting a direct successor in this pass |
 | DP-203, MB-210, MB-220, SC-400 | Retired legacy pages | Verify the current path from a first-party announcement before publishing a relationship |
 | MB-335 | Retired 2026-06-30; part of the AB-100 consolidation | Add the collective-replacement overlay |
 
-The enrichment schema should next support a useful retired page with no replacement object. Retirement truth and stale-CTA suppression must not depend on finding a marketable successor.
+The next lifecycle run should automatically reclassify scheduled pages after their cutoff, but only after re-fetching Microsoft sources in case a date or transition changes.
 
 ## Other-provider retirement findings
 

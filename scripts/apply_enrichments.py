@@ -104,16 +104,30 @@ def apply_enrichments(
         entry["enriched"] = True
         entry["verified_at"] = _reviewed_at(overlay)
         lifecycle = overlay.get("lifecycle")
-        if isinstance(lifecycle, dict) and lifecycle.get("status") == "retired":
-            replacement = lifecycle.get("replacement") or {}
-            entry["lifecycle_status"] = "retired"
-            entry["retired_on"] = lifecycle.get("retired_on")
-            entry["replacement_exam_code"] = replacement.get("exam_code")
-            entry["replacement_relationship"] = replacement.get(
-                "relationship", "direct_replacement"
-            )
-            entry["replacement_url"] = replacement.get("url")
-            entry["practice_url"] = None
+        if isinstance(lifecycle, dict) and lifecycle.get("status") in {
+            "retired",
+            "scheduled_retirement",
+        }:
+            status = lifecycle["status"]
+            replacement = lifecycle.get("replacement")
+            entry["lifecycle_status"] = status
+            if status == "retired":
+                entry["retired_on"] = lifecycle.get("retired_on")
+                entry.pop("retires_on", None)
+                entry["practice_url"] = None
+            else:
+                entry["retires_on"] = lifecycle.get("retires_on")
+                entry.pop("retired_on", None)
+            if isinstance(replacement, dict):
+                entry["replacement_exam_code"] = replacement.get("exam_code")
+                entry["replacement_relationship"] = replacement.get(
+                    "relationship", "direct_replacement"
+                )
+                entry["replacement_url"] = replacement.get("url")
+            else:
+                entry.pop("replacement_exam_code", None)
+                entry.pop("replacement_relationship", None)
+                entry.pop("replacement_url", None)
         report["applied"] += 1
         index_changed = True
 

@@ -14253,8 +14253,10 @@
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-800",
       "practice_url": "https://quizforge.ai/tests/microsoft-windows-server-hybrid-administrator-az-800",
-      "enriched": false,
-      "verified_at": null
+      "enriched": true,
+      "verified_at": "2026-08-26T06:30:00Z",
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-09-30"
     },
     {
       "exam_id": "microsoft-ms-721-collaboration-communications",
@@ -14281,8 +14283,10 @@
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-801",
       "practice_url": "https://quizforge.ai/?q=Configuring%20Windows%20Server%20Hybrid%20Advanced%20Services",
-      "enriched": false,
-      "verified_at": null
+      "enriched": true,
+      "verified_at": "2026-08-26T06:30:00Z",
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-09-30"
     },
     {
       "exam_id": "microsoft-az-140-azure-virtual-desktop",
@@ -14464,8 +14468,10 @@
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-102",
       "practice_url": "https://quizforge.ai/?q=Microsoft%20365%20Administrator",
-      "enriched": false,
-      "verified_at": null
+      "enriched": true,
+      "verified_at": "2026-08-26T06:30:00Z",
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-11-30"
     },
     {
       "exam_id": "microsoft-md-102-endpoint-administrator",
@@ -14491,9 +14497,11 @@
       "total_questions": 40,
       "duration_minutes": 45,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-900",
-      "practice_url": "https://quizforge.ai/tests/microsoft-365-fundamentals-2dywyt",
-      "enriched": false,
-      "verified_at": null
+      "practice_url": null,
+      "enriched": true,
+      "verified_at": "2026-08-26T06:30:00Z",
+      "lifecycle_status": "retired",
+      "retired_on": "2026-03-31"
     },
     {
       "exam_id": "microsoft-ai-900-azure-ai-fundamentals",
@@ -14567,8 +14575,13 @@
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500",
       "practice_url": "https://quizforge.ai/tests/microsoft-azure-security-engineer-az-500",
-      "enriched": false,
-      "verified_at": null
+      "enriched": true,
+      "verified_at": "2026-08-26T06:30:00Z",
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-08-31",
+      "replacement_exam_code": "SC-500",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/"
     },
     {
       "exam_id": "microsoft-mb-800-dynamics-365-business-central",
@@ -14669,9 +14682,11 @@
       "total_questions": 40,
       "duration_minutes": 45,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-910",
-      "practice_url": "https://quizforge.ai/tests/microsoft-mb-910-dynamics-365-fundamentals-crm",
-      "enriched": false,
-      "verified_at": null
+      "practice_url": null,
+      "enriched": true,
+      "verified_at": "2026-08-26T06:30:00Z",
+      "lifecycle_status": "retired",
+      "retired_on": "2025-12-31"
     },
     {
       "exam_id": "microsoft-mb-920-dynamics-365-fundamentals-erp",
@@ -14683,9 +14698,11 @@
       "total_questions": 40,
       "duration_minutes": 45,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-920",
-      "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-fundamentals-erp-mb-920-2dgmh3",
-      "enriched": false,
-      "verified_at": null
+      "practice_url": null,
+      "enriched": true,
+      "verified_at": "2026-08-26T06:30:00Z",
+      "lifecycle_status": "retired",
+      "retired_on": "2025-12-31"
     },
     {
       "exam_id": "microsoft-mb-210-dynamics-365-sales",
