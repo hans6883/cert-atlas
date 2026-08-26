@@ -255,6 +255,17 @@ ENRICHMENT_CSS = """
 .source-list { list-style: none; margin-left: 0; }
 .source-list li { margin: 8px 0; }
 .source-publisher { color: var(--text-muted); font-size: 13px; }
+.retirement-alert { background: #fff7ed; border: 1px solid #fdba74; border-left: 5px solid #ea580c; border-radius: var(--radius); margin: 20px 0 28px; padding: 20px; }
+.retirement-alert h2 { margin: 0 0 8px; font-size: 22px; }
+.retirement-label { color: #9a3412; font-size: 12px; font-weight: 700; letter-spacing: .06em; margin-bottom: 6px; text-transform: uppercase; }
+.replacement-link { display: inline-block; font-weight: 700; margin-top: 6px; }
+.migration-map { margin: 30px 0; }
+.comparison-wrap { overflow-x: auto; }
+.comparison-table { border-collapse: collapse; font-size: 14px; margin: 12px 0 20px; min-width: 720px; width: 100%; }
+.comparison-table th, .comparison-table td { border: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
+.comparison-table th { background: var(--bg-alt); }
+.methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
+.source-accessed { color: var(--text-muted); font-size: 12px; }
 """
 
 
@@ -423,11 +434,39 @@ def build_enrichment_html(exam):
         return ""
 
     editorial = exam.get("editorial", {})
-    sections = [
-        '<section class="editorial" aria-label="Exam guide">',
-        f'<h2>What This Exam Validates</h2><p>{h(editorial.get("overview", ""))}</p>',
-        f'<h2>Who Should Take This Exam</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
-    ]
+    lifecycle = exam.get("lifecycle", {})
+    retired = lifecycle.get("status") == "retired"
+    sections = ['<section class="editorial" aria-label="Exam guide">']
+
+    if retired:
+        replacement = lifecycle.get("replacement", {})
+        legacy_code = str(exam.get("exam_code") or exam.get("exam_name") or "This exam")
+        replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+        retired_on = str(lifecycle.get("retired_on") or "")
+        try:
+            retired_label = datetime.strptime(retired_on, "%Y-%m-%d").strftime("%B %d, %Y").replace(" 0", " ")
+        except ValueError:
+            retired_label = retired_on
+        replacement_url = h(replacement.get("url") or "")
+        sections.extend(
+            [
+                '<div class="retirement-alert" role="note">',
+                '<p class="retirement-label">Retired exam</p>',
+                f'<h2>{h(legacy_code)} was retired on {h(retired_label)}</h2>',
+                f'<p>{h(lifecycle.get("summary") or "")}</p>',
+                f'<a class="replacement-link" href="{replacement_url}" rel="nofollow">Prepare for {h(replacement_code)}: {h(replacement.get("name") or "current replacement")}</a>',
+                '</div>',
+                f'<h2>Historical {h(legacy_code)} Scope</h2><p>{h(editorial.get("overview", ""))}</p>',
+                f'<h2>Who {h(legacy_code)} Was For</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
+            ]
+        )
+    else:
+        sections.extend(
+            [
+                f'<h2>What This Exam Validates</h2><p>{h(editorial.get("overview", ""))}</p>',
+                f'<h2>Who Should Take This Exam</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
+            ]
+        )
 
     skills = [str(item).strip() for item in editorial.get("skills_summary", []) if str(item).strip()]
     if skills:
@@ -437,9 +476,52 @@ def build_enrichment_html(exam):
             + "</ul>"
         )
 
+    preparation_heading = "How to Reuse Your Preparation" if retired else "How to Prepare"
     sections.append(
-        f'<h2>How to Prepare</h2><p>{h(editorial.get("preparation_strategy", ""))}</p>'
+        f'<h2>{preparation_heading}</h2><p>{h(editorial.get("preparation_strategy", ""))}</p>'
     )
+
+    if retired:
+        replacement = lifecycle.get("replacement", {})
+        legacy_code = str(exam.get("exam_code") or "the retired exam")
+        replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+        comparisons = [
+            item for item in lifecycle.get("skill_comparison", []) if isinstance(item, dict)
+        ]
+        sections.append(
+            f'<div class="migration-map"><h2>What changed from {h(legacy_code)} to {h(replacement_code)}</h2>'
+        )
+        if comparisons:
+            rows = "".join(
+                "<tr>"
+                f'<td>{h(item.get("legacy_skill"))}<br><strong>{h(item.get("legacy_weight"))}</strong></td>'
+                f'<td>{h(item.get("replacement_skill"))}<br><strong>{h(item.get("replacement_weight"))}</strong></td>'
+                f'<td>{h(item.get("change"))}</td>'
+                "</tr>"
+                for item in comparisons
+            )
+            sections.append(
+                '<div class="comparison-wrap"><table class="comparison-table">'
+                f'<thead><tr><th>Historical {h(legacy_code)}</th><th>Current {h(replacement_code)}</th><th>Practical impact</th></tr></thead>'
+                f'<tbody>{rows}</tbody></table></div>'
+            )
+        actions = [
+            str(item).strip()
+            for item in lifecycle.get("migration_actions", [])
+            if str(item).strip()
+        ]
+        if actions:
+            sections.append(
+                "<h3>Migration checklist</h3><ol>"
+                + "".join(f"<li>{h(item)}</li>" for item in actions)
+                + "</ol>"
+            )
+        study_guide_url = h(replacement.get("study_guide_url") or "")
+        if study_guide_url:
+            sections.append(
+                f'<p><a href="{study_guide_url}" rel="nofollow">Open the official {h(replacement_code)} study guide</a></p>'
+            )
+        sections.append("</div>")
 
     domain_names = {
         str(domain.get("id")): str(domain.get("name") or "")
@@ -448,24 +530,27 @@ def build_enrichment_html(exam):
     }
     guidance = editorial.get("domain_guidance", [])
     if guidance:
-        sections.append("<h2>Domain Study Guidance</h2>")
+        sections.append(
+            "<h2>Historical Domain Guide</h2>" if retired else "<h2>Domain Study Guidance</h2>"
+        )
         for item in guidance:
             if not isinstance(item, dict):
                 continue
             domain_id = str(item.get("domain_id") or "")
             label = domain_names.get(domain_id) or f"Domain {domain_id}"
-            sections.append(f"<h3>{h(label)}: Study Guidance</h3>")
+            suffix = "Historical Scope" if retired else "Study Guidance"
+            sections.append(f"<h3>{h(label)}: {suffix}</h3>")
             sections.append(f'<p>{h(item.get("summary", ""))}</p>')
             focus = [str(value).strip() for value in item.get("study_focus", []) if str(value).strip()]
             if focus:
                 sections.append("<ul>" + "".join(f"<li>{h(value)}</li>" for value in focus) + "</ul>")
 
     exam_day = str(editorial.get("exam_day_guidance") or "").strip()
-    if exam_day:
+    if exam_day and not retired:
         sections.append(f"<h2>Exam-Day Guidance</h2><p>{h(exam_day)}</p>")
 
     signals = exam.get("study_signals")
-    if isinstance(signals, dict):
+    if isinstance(signals, dict) and not retired:
         signal_items = []
         for item in signals.get("topic_emphasis", []):
             if isinstance(item, dict) and item.get("topic"):
@@ -502,9 +587,19 @@ def build_enrichment_html(exam):
             url = h(source.get("url") or "")
             publisher = h(source.get("publisher") or "")
             link = f'<a href="{url}" rel="nofollow">{title}</a>' if url else title
+            accessed = h(source.get("accessed") or "")
             suffix = f' <span class="source-publisher">{publisher}</span>' if publisher else ""
+            if accessed:
+                suffix += f' <span class="source-accessed">accessed {accessed}</span>'
             source_items.append(f"<li>{link}{suffix}</li>")
         sections.append('<ul class="source-list">' + "".join(source_items) + "</ul></div>")
+
+    methodology = editorial.get("methodology")
+    if isinstance(methodology, dict) and methodology.get("summary"):
+        sections.append(
+            '<div class="methodology"><h2>How this page was made</h2>'
+            f'<p>{h(methodology.get("summary"))}</p></div>'
+        )
 
     sections.append("</section>")
     return "".join(sections)
@@ -515,6 +610,8 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     code = exam.get("exam_code", "")
     body_name = exam.get("certifying_body", vendor_info.get("display_name", ""))
     exam_id = exam.get("exam_id", "")
+    lifecycle = exam.get("lifecycle", {})
+    retired = lifecycle.get("status") == "retired"
 
     # Quick facts
     facts = []
@@ -531,6 +628,8 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         facts.append(("Valid For", f'{exam["certification_validity_years"]} years'))
     if exam.get("available_languages"):
         facts.append(("Languages", str(len(exam["available_languages"]))))
+    if retired:
+        facts = []
 
     facts_html = "".join(
         f'<div class="fact"><span class="fact-value">{h(v)}</span><span class="fact-label">{h(l)}</span></div>'
@@ -597,7 +696,8 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 {objectives_html}
 </div>""")
 
-        domains_html = f'<section class="domains"><h3>Exam Domains</h3>{"".join(domain_blocks)}</section>'
+        domains_heading = f'Historical {h(code)} Domains' if retired and code else "Exam Domains"
+        domains_html = f'<section class="domains"><h3>{domains_heading}</h3>{"".join(domain_blocks)}</section>'
 
     # Info section
     info_rows = []
@@ -628,17 +728,18 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         info_rows.append(("Languages", ", ".join(exam["available_languages"])))
 
     info_html = ""
-    if info_rows:
+    if info_rows and not retired:
         rows = "".join(
             f'<div class="info-row"><span class="info-label">{h(l)}</span><span class="info-value">{h(v)}</span></div>'
             for l, v in info_rows
         )
-        info_html = f'<section class="info"><h3>Exam Details</h3><div class="info-grid">{rows}</div></section>'
+        info_heading = "Historical Exam Details" if retired else "Exam Details"
+        info_html = f'<section class="info"><h3>{info_heading}</h3><div class="info-grid">{rows}</div></section>'
 
     # Resources
     resources_html = ""
     resources = exam.get("official_study_resources", [])
-    if resources:
+    if resources and not retired:
         items = []
         for r in resources:
             rtype = r.get("resource_type", "").replace("_", " ")
@@ -652,7 +753,7 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     # Registration links
     reg_html = ""
     reg_parts = []
-    if exam.get("exam_registration_url"):
+    if exam.get("exam_registration_url") and not retired:
         reg_parts.append(f'<a href="{h(exam["exam_registration_url"])}" rel="nofollow">Register for this exam</a>')
     if exam.get("official_objectives_url"):
         reg_parts.append(f'<a href="{h(exam["official_objectives_url"])}" rel="nofollow">Official exam guide</a>')
@@ -663,9 +764,14 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 
     # Practice CTA
     practice_url = exam.get("practice_url", f"{QUIZFORGE_URL}/tests/{exam_id}")
-    practice_html = f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
+    practice_html = "" if retired else f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
     enrichment_html = build_enrichment_html(exam)
     enrichment_line = f"\n{enrichment_html}" if enrichment_html else ""
+    pre_facts_content = enrichment_line if retired else ""
+    post_facts_content = "" if retired else f"{practice_html}{enrichment_line}"
+    facts_heading = f'<h2>Historical {h(code)} Exam Facts</h2>' if retired and facts_html else ""
+    if facts_heading:
+        pre_facts_content += f"\n{facts_heading}"
 
     breadcrumb = (
         f'<div class="breadcrumb"><div class="container">'
@@ -679,19 +785,19 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 {breadcrumb}
 <div class="container">
 <div class="exam-header">
-<h1>{h(name)}{f' ({h(code)})' if code else ''} Exam Blueprint</h1>
+<h1>{h(code) + " Retired: What Replaced It and What Carries Over" if retired and code else h(name) + (f' ({h(code)})' if code else '') + " Exam Blueprint"}</h1>
 {f'<p class="exam-code">{h(code)}</p>' if code else ""}
 <p class="vendor-link"><a href="{SITE_URL}/{h(vendor_slug)}/">{h(body_name)}</a></p>
-</div>
+</div>{pre_facts_content}
 <div class="quick-facts">{facts_html}</div>
-{practice_html}{enrichment_line}
+{post_facts_content}
 {domains_html}
 {info_html}
 {resources_html}
 {reg_html}
 </div>"""
 
-    # Course schema
+    # Structured data
     course_schema = {
         "@context": "https://schema.org",
         "@type": "Course",
@@ -715,6 +821,22 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         reviewed_at = str(exam.get("content_quality", {}).get("reviewed_at") or "")[:10]
         if reviewed_at:
             course_schema["dateModified"] = reviewed_at
+    if retired:
+        replacement = lifecycle.get("replacement", {})
+        course_schema = {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": f"{code} retired exam migration guide",
+            "description": str(lifecycle.get("summary") or ""),
+            "dateModified": str(exam.get("content_quality", {}).get("reviewed_at") or "")[:10],
+            "about": {
+                "@type": "EducationalOccupationalCredential",
+                "name": name,
+                "credentialCategory": "Retired certification exam",
+                "recognizedBy": {"@type": "Organization", "name": body_name},
+            },
+            "significantLink": replacement.get("url"),
+        }
 
     breadcrumb_schema = {
         "@context": "https://schema.org",
@@ -749,7 +871,10 @@ def build_exam_page(vendor_slug, vendor_info, exam):
             desc = meta_description or overview
 
     page_title = f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas"
-    if has_public_enrichment(exam):
+    if retired:
+        replacement_code = lifecycle.get("replacement", {}).get("exam_code") or "Replacement"
+        page_title = f"{code or name} Retired: {replacement_code} Replacement & Skill Map | Cert Atlas"
+    elif has_public_enrichment(exam):
         page_title = f"{code or name} Exam Guide, Domains & Skills | Cert Atlas"
 
     return page_shell(

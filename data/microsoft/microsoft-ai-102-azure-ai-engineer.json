@@ -737,18 +737,18 @@
   ],
   "practice_url": "https://quizforge.ai/tests/microsoft-ai-102-designing-implementing-ai-solutions",
   "editorial": {
-    "meta_description": "Explore the AI-102 exam scope, official domain weight ranges, practical Azure AI skills, preparation strategy, and source-verified objectives.",
-    "overview": "AI-102 validates the applied skills used to design, build, integrate, deploy, and operate AI solutions on Microsoft Azure. The current study guide spans the full solution lifecycle: choosing appropriate services, securing and monitoring resources, implementing generative and agentic systems, and building computer vision, language, speech, search, and information-extraction solutions. Candidates should be prepared to connect architecture decisions with implementation details rather than study each Azure AI service in isolation. Microsoft states that the English exam is updated first and that preview features may be assessed when they are commonly used, so the dated skills outline should be treated as the controlling scope.",
-    "who_should_take": "This exam is aimed at Azure AI engineers who participate in requirements definition, design, development, deployment, integration, maintenance, performance tuning, and monitoring. The official profile expects development experience with languages such as Python or C#, plus the ability to use REST APIs and SDKs. It is especially relevant to practitioners who collaborate with solution architects, data specialists, infrastructure administrators, and application developers to deliver secure end-to-end AI capabilities.",
+    "meta_description": "AI-102 retired June 30, 2026. Compare its historical blueprint with AI-103, identify transferable Azure AI skills, and rebuild your study plan.",
+    "overview": "AI-102 was Microsoft's Azure AI Engineer Associate exam until its retirement on June 30, 2026. Its final blueprint covered service planning, generative AI, agents, computer vision, natural language processing, speech, knowledge mining, and information extraction. The historical outline remains useful for understanding the predecessor credential and for identifying transferable skills, but it is no longer a schedulable exam or the correct blueprint for new candidates.",
+    "who_should_take": "Nobody should begin a new certification plan around AI-102. This historical page is for people who previously studied or earned the retired credential, training teams updating older material, and candidates deciding how much prior Azure AI preparation transfers to AI-103.",
     "skills_summary": [
-      "Select and plan appropriate Microsoft Foundry and Azure AI services for a solution",
-      "Create secure, monitored, and cost-aware Azure AI resources and deployments",
-      "Implement generative AI applications using models, prompts, retrieval, and responsible AI controls",
-      "Build and evaluate agentic solutions with tools, knowledge, orchestration, and observability",
-      "Implement computer vision, language, speech, and translation workloads",
-      "Build knowledge-mining and information-extraction solutions with Azure AI Search and related services"
+      "Carry forward Foundry service-selection, deployment, security, and monitoring skills",
+      "Reuse generative AI, retrieval-augmented generation, evaluation, and orchestration experience",
+      "Reframe agent skills around tools, memory, safeguards, observability, and multi-agent workflows",
+      "Update vision preparation for generation, editing, multimodal understanding, and visual safety",
+      "Map language and speech experience to AI-103 text-analysis and agent-modality objectives",
+      "Map Azure AI Search and extraction experience to current retrieval and grounding pipelines"
     ],
-    "preparation_strategy": "Start with the dated Microsoft study guide and turn every published objective into something you can either implement or explain. Build a small end-to-end solution that requires service selection, authentication, deployment, monitoring, and error handling so the planning domain is practiced alongside the implementation domains. Use focused labs for generative AI, agents, vision, language, speech, Azure AI Search, Document Intelligence, and Content Understanding. For each lab, record why a service, index design, model, or safety control was appropriate and what operational tradeoff it introduced. Finish with mixed scenarios that require selecting between plausible services or configurations. Recheck the official guide shortly before the appointment because Microsoft updates role-based exams periodically and localized versions can lag the English outline.",
+    "preparation_strategy": "Do not continue an AI-102 checklist unchanged. First mark every completed AI-102 objective as transferable, changed, or absent after comparing it with the dated AI-103 guide. Keep hands-on work in Foundry, generative AI, agents, vision, language, search, and information extraction, but rebuild the plan around AI-103's heavier combined generative-and-agentic domain, explicit Python expectation, multimodal generation and editing, agent governance, and retrieval pipelines. Retest only against the current AI-103 blueprint.",
     "domain_guidance": [
       {
         "domain_id": "1.0",
@@ -823,7 +823,16 @@
         ]
       }
     ],
-    "exam_day_guidance": "Use Microsoft's exam sandbox before the appointment so the interface and item interactions are familiar. Confirm the current schedule, language, accommodation, and delivery details on the official exam page. During the exam, identify the workload and operational constraints before choosing a service or design; several Azure AI capabilities can appear plausible until requirements such as grounding, security, observability, modality, or deployment method are applied.",
+    "exam_day_guidance": "AI-102 can no longer be scheduled. Candidates should use the current AI-103 certification page for exam duration, languages, registration, accommodations, and delivery details, and should verify those details again immediately before booking because Microsoft can update credential requirements.",
+    "methodology": {
+      "summary": "Cert Atlas compared Microsoft's final AI-102 study guide with the current AI-103 study guide at the domain and objective level, then checked Microsoft's retirement and replacement announcement and the active AI-103 certification page. OpenAI Codex assisted with extraction, normalization, comparison, and drafting. Claims on this page were reviewed against those linked official sources; no exam questions, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-ai-102-study-guide",
+        "microsoft-ai-103-study-guide",
+        "microsoft-retirement-announcement",
+        "microsoft-ai-103-certification"
+      ]
+    },
     "source_ids": [
       "microsoft-ai-102-study-guide"
     ]
@@ -836,7 +845,34 @@
       "publisher": "Microsoft",
       "source_type": "official_exam_guide",
       "accessed": "2026-08-25",
-      "content_hash": "sha256:7966ce8ee83d2e39cf4dcc9f4693c24fed2eda57200abc0b2370c8a895116c5f"
+      "content_hash": "sha256:ecaa0769cfc41f47c7f6f4a2d8fc744db02983e38cf30db3aa71e71bb6775b65"
+    },
+    {
+      "id": "microsoft-ai-103-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+      "title": "Study guide for Exam AI-103: Developing AI Apps and Agents on Azure",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:94dc5093d4ffacb9ab7017e34d7cd56d56c70d849a2fb8a5440d1d673956c1cd"
+    },
+    {
+      "id": "microsoft-retirement-announcement",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+      "title": "June 2026 announcements: certification retirement and replacement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:e5499a09502aecc2c5bfb2ee701c7e5046b2ed868732009a1a231b7bf0944144"
+    },
+    {
+      "id": "microsoft-ai-103-certification",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+      "title": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+      "publisher": "Microsoft",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:fe4170689f480ed05988baae494cbb911d2cd00d93d2d67cc70179e634aa9b87"
     }
   ],
   "content_quality": {
@@ -845,45 +881,68 @@
     "evidence_coverage": 0.98,
     "factual_confidence": 0.96,
     "generated_by": "openai:codex",
-    "generated_at": "2026-08-25T23:00:00Z",
-    "reviewed_at": "2026-08-25T23:30:00Z"
+    "generated_at": "2026-08-26T04:00:00Z",
+    "reviewed_at": "2026-08-26T04:11:07Z"
   },
-  "study_signals": {
-    "topic_emphasis": [
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "summary": "Microsoft retired AI-102 and the Azure AI Engineer Associate certification on June 30, 2026. Microsoft identifies AI-103 and the Azure AI Apps and Agents Developer Associate certification as the replacement path for new candidates.",
+    "replacement": {
+      "exam_code": "AI-103",
+      "name": "Developing AI Apps and Agents on Azure",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103"
+    },
+    "migration_actions": [
+      "Stop using AI-102 as a schedulable target; use the active AI-103 certification page for booking and current exam details.",
+      "Retain hands-on Foundry, RAG, agent, vision, speech, search, and extraction work, but remap it to the AI-103 objectives.",
+      "Prioritize the combined generative AI and agentic domain, which carries 30-35% of AI-103.",
+      "Add AI-103-specific practice in Python, multimodal generation and editing, agent governance, observability, and retrieval pipelines.",
+      "Recheck the dated AI-103 study guide before booking because Microsoft updates role-based exams periodically."
+    ],
+    "skill_comparison": [
       {
-        "topic": "Knowledge Mining and Document Intelligence Solutions",
-        "level": "medium",
-        "share_percent": 13.3
+        "legacy_skill": "Plan and manage an Azure AI solution",
+        "legacy_weight": "20-25%",
+        "replacement_skill": "Plan and manage an Azure AI solution",
+        "replacement_weight": "25-30%",
+        "change": "The current blueprint adds explicit infrastructure design, quotas, drift, grounding quality, private networking, keyless credentials, audit provenance, and agent oversight."
       },
       {
-        "topic": "Implement Computer Vision Solutions",
-        "level": "medium",
-        "share_percent": 10.8
+        "legacy_skill": "Generative AI plus agentic solutions",
+        "legacy_weight": "20-30% combined",
+        "replacement_skill": "Generative AI and agentic solutions",
+        "replacement_weight": "30-35%",
+        "change": "AI-103 combines and increases this area, emphasizing tool schemas, memory, guarded autonomy, multi-agent orchestration, error analysis, token analytics, and hybrid model-and-rules systems."
       },
       {
-        "topic": "Implement Generative AI Solutions",
-        "level": "medium",
-        "share_percent": 10.0
+        "legacy_skill": "Computer vision solutions",
+        "legacy_weight": "10-15%",
+        "replacement_skill": "Computer vision solutions",
+        "replacement_weight": "10-15%",
+        "change": "The weight is unchanged, but the focus moves toward image and video generation, editing, multimodal understanding, accessibility output, and visual safety controls."
+      },
+      {
+        "legacy_skill": "Natural language processing solutions",
+        "legacy_weight": "15-20%",
+        "replacement_skill": "Text analysis solutions",
+        "replacement_weight": "10-15%",
+        "change": "Text and speech remain, while AI-103 frames them through generative prompting, structured output, agent modalities, sensitive-content handling, and domain-specific extraction."
+      },
+      {
+        "legacy_skill": "Knowledge mining and information extraction",
+        "legacy_weight": "15-20%",
+        "replacement_skill": "Information extraction solutions",
+        "replacement_weight": "10-15%",
+        "change": "AI-103 centers this area on multimodal ingestion, semantic and vector grounding, RAG pipelines, Content Understanding, and clean representations for agents."
       }
     ],
-    "challenge_areas": [
-      "Higher-difficulty practice coverage includes Knowledge Mining and Document Intelligence Solutions.",
-      "Higher-difficulty practice coverage includes Implement Computer Vision Solutions.",
-      "Higher-difficulty practice coverage includes Implement Generative AI Solutions."
-    ],
-    "question_style_observations": [
-      "Multiple-choice items represent approximately 50% of the available practice metadata.",
-      "Multiple-response items represent approximately 25% of the available practice metadata.",
-      "Scenario items represent approximately 15% of the available practice metadata."
-    ],
-    "difficulty_distribution": {
-      "easy": 34,
-      "hard": 36,
-      "medium": 50
-    },
-    "input_record_count": 120,
-    "input_dataset_hash": "sha256:bf14c26191f55ba517d20145d5a28b7c3572ec5881158d51d1103e553d7c589d",
-    "derivation": "aggregate_metadata_only",
-    "official_weighting": false
+    "source_ids": [
+      "microsoft-ai-102-study-guide",
+      "microsoft-ai-103-study-guide",
+      "microsoft-retirement-announcement",
+      "microsoft-ai-103-certification"
+    ]
   }
 }

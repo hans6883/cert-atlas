@@ -115,6 +115,61 @@ def rich_overlay(status="reviewed", publishable=True):
     }
 
 
+def retired_overlay():
+    overlay = rich_overlay()
+    overlay["study_signals"] = None
+    overlay["lifecycle"] = {
+        "status": "retired",
+        "retired_on": "2026-06-30",
+        "summary": (
+            "Example Vendor retired EX-100 on June 30, 2026. New candidates should "
+            "prepare for EX-101 instead; the historical blueprint remains here only "
+            "to help prior learners understand which skills still transfer."
+        ),
+        "replacement": {
+            "exam_code": "EX-101",
+            "name": "Example Next Professional",
+            "url": "https://vendor.example/exams/example-101",
+            "study_guide_url": "https://vendor.example/exams/example-101/guide",
+        },
+        "migration_actions": [
+            "Stop scheduling or purchasing EX-100 preparation products.",
+            "Compare the historical EX-100 domains with the current EX-101 blueprint.",
+            "Rebuild the study plan around the current exam before taking practice tests.",
+        ],
+        "skill_comparison": [
+            {
+                "legacy_skill": "Planning",
+                "legacy_weight": "35-45%",
+                "replacement_skill": "Plan and operate",
+                "replacement_weight": "40-50%",
+                "change": "The replacement adds explicit operating and monitoring work.",
+            }
+        ],
+        "source_ids": ["official-guide", "official-replacement"],
+    }
+    overlay["editorial"]["methodology"] = {
+        "summary": (
+            "Cert Atlas compared the dated official EX-100 and EX-101 guides at the "
+            "domain and objective level. AI assisted with drafting and normalization; "
+            "the published claims were checked against the linked vendor sources."
+        ),
+        "source_ids": ["official-guide", "official-replacement"],
+    }
+    overlay["sources"].append(
+        {
+            "id": "official-replacement",
+            "url": "https://vendor.example/exams/example-101/guide",
+            "title": "Example 101 Official Exam Guide",
+            "publisher": "Example Vendor",
+            "source_type": "official_exam_guide",
+            "accessed": "2026-08-25",
+            "content_hash": "sha256:" + "c" * 64,
+        }
+    )
+    return overlay
+
+
 def base_exam():
     return {
         "exam_id": "vendor-example-100",
@@ -148,6 +203,33 @@ class EnrichmentValidationTests(unittest.TestCase):
         self.assertIsNone(merged["domains"][0]["weight_percent"])
         self.assertEqual(merged["domains"][0]["weight_min_percent"], 35)
         self.assertEqual(merged["domains"][0]["weight_max_percent"], 45)
+
+    def test_retired_exam_lifecycle_is_source_backed_and_merges(self):
+        exam = base_exam()
+        exam["study_signals"] = {"legacy": True}
+        overlay = retired_overlay()
+
+        result = validate_overlay(exam, overlay)
+        merged = merge_overlay(exam, overlay)
+
+        self.assertTrue(result.publishable, result.errors)
+        self.assertEqual(merged["lifecycle"]["status"], "retired")
+        self.assertEqual(merged["lifecycle"]["replacement"]["exam_code"], "EX-101")
+        self.assertNotIn("study_signals", merged)
+
+    def test_retired_exam_requires_valid_date_replacement_and_sources(self):
+        exam = base_exam()
+        overlay = retired_overlay()
+        overlay["lifecycle"]["retired_on"] = "June 2026"
+        overlay["lifecycle"]["replacement"]["url"] = "http://vendor.example/ex-101"
+        overlay["lifecycle"]["source_ids"] = ["missing-source"]
+
+        result = validate_overlay(exam, overlay)
+
+        self.assertFalse(result.publishable)
+        self.assertTrue(any("retired_on" in error for error in result.errors))
+        self.assertTrue(any("replacement.url" in error for error in result.errors))
+        self.assertTrue(any("missing-source" in error for error in result.errors))
 
     def test_raw_exam_bank_shape_is_rejected(self):
         overlay = rich_overlay()
@@ -303,6 +385,27 @@ class EnrichedPageTests(unittest.TestCase):
         self.assertNotIn("What This Exam Validates", html)
         self.assertNotIn("Sources and Verification", html)
         self.assertNotIn(".editorial {", html)
+
+    def test_retired_page_prioritizes_replacement_and_suppresses_stale_actions(self):
+        exam = merge_overlay(base_exam(), retired_overlay())
+        exam["exam_price_usd"] = 165
+        exam["online_proctoring_available"] = True
+        exam["question_types"] = ["Multiple Choice"]
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn("EX-100 was retired on June 30, 2026", html)
+        self.assertIn("EX-101", html)
+        self.assertIn("What changed from EX-100 to EX-101", html)
+        self.assertIn("How this page was made", html)
+        self.assertIn("Historical EX-100 Domains", html)
+        self.assertIn("EX-100 Retired: EX-101 Replacement &amp; Skill Map | Cert Atlas", html)
+        self.assertIn('"@type": "WebPage"', html)
+        self.assertNotIn('"@type": "Course"', html)
+        self.assertNotIn("Register for this exam", html)
+        self.assertNotIn("Practice Example Professional on QuizForge", html)
+        self.assertNotIn("$165", html)
+        self.assertNotIn("Online Proctoring", html)
+        self.assertNotIn("Multiple Choice", html)
 
     def test_page_renders_string_objectives_from_official_sources(self):
         exam = base_exam()

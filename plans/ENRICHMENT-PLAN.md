@@ -72,6 +72,21 @@ Every enriched page must retain one indexable canonical URL, one page-specific H
 
 The content should answer, without a practice-test click: what the credential validates, who it is for, what skills matter, how the domains relate, how to prepare, and where the facts came from. It must avoid keyword stuffing, generic filler, difficulty claims, pass-rate claims, salary claims, and predictions about unpublished questions.
 
+## Defensible first-party value
+
+The durable differentiator is structured analysis that combines current official sources with safe QuizForge metadata, not additional generic prose. Each enriched page should add the most useful applicable artifacts from this list:
+
+- a lifecycle banner that distinguishes active, retiring, and retired exams and suppresses stale registration or practice calls to action;
+- a source-backed predecessor-to-replacement skill map, including changed weights and a migration checklist;
+- a blueprint-change ledger generated from dated source hashes, with changed records queued for review before publication;
+- normalized practice-corpus coverage by official domain, question format, and difficulty, clearly labeled as QuizForge coverage rather than official weighting;
+- an objective-to-official-learning-resource map using current vendor documentation, modules, labs, and practice assessments;
+- deterministic two-, four-, and six-week study plans built from official objectives and user-selected study time;
+- privacy-thresholded learner performance signals only after a page has enough completed attempts and distinct learners to prevent disclosure or misleading small-sample claims;
+- visible source access dates and a plain-language Who/How/Why disclosure describing AI assistance, factual review, and excluded inputs.
+
+Exam-dump text, answers, explanations, and recognizable derivatives remain excluded even when locally available. A feature is not valuable enough to publish merely because it can be computed; it must also be lawful, current, explainable, and useful without requiring a QuizForge conversion.
+
 ## MCP parity
 
 The MCP is a second rendering of the same canonical public JSON, not a separate content store. It must:
@@ -84,7 +99,7 @@ The MCP is a second rendering of the same canonical public JSON, not a separate 
 
 ## Rollout
 
-Phase 1 is one representative, evidence-rich pilot: Microsoft AI-102. It proves source extraction, validation, exact range correction, corrupted-objective correction, HTML rendering, MCP rendering, and fail-closed model handling.
+Phase 1 is one representative, evidence-rich pilot: Microsoft AI-102. Live source re-verification found that Microsoft retired AI-102 on June 30, 2026 and replaced it with AI-103. The pilot therefore proves lifecycle correction, stale-action suppression, source-backed replacement mapping, exact historical range correction, corrupted-objective correction, transparent AI methodology, HTML rendering, MCP rendering, and fail-closed model handling. It also demonstrates why source drift must be checked before prose generation.
 
 Phase 2 enriches a deliberately varied batch across technology, healthcare, finance, trades, and academic testing. Batch results must be reviewed for source coverage, repetition, content usefulness, factual correction rate, and generation abstentions.
 
@@ -101,7 +116,7 @@ Before a bulk registry refresh, the exporter needs a monotonic merge policy for 
 ## Acceptance criteria
 
 - No raw or recognizable private question content exists in tracked changes or rendered output.
-- The full 1,830-page static build passes canonical, indexability, H1, sitemap, and unique-title tests.
+- The full 1,897-page static build passes canonical, indexability, H1, sitemap, and unique-title tests.
 - The pilot has source-linked substantive content, corrected official ranges, and no known parser corruption.
 - Draft, invalid, unsupported, and low-confidence overlays cannot change public files.
 - Registry expansion does not expose any of the 909 thin records without approved content.

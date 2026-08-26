@@ -366,6 +366,91 @@ def validate_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> Validatio
                         f"study_signals.topic_emphasis[{index}].share_percent must be between 0 and 100"
                     )
 
+    lifecycle = overlay.get("lifecycle")
+    if lifecycle is not None:
+        if not isinstance(lifecycle, dict):
+            result.errors.append("lifecycle must be an object")
+        else:
+            status = lifecycle.get("status")
+            if status != "retired":
+                result.errors.append("lifecycle.status must be retired")
+            if not _valid_iso_date(lifecycle.get("retired_on")):
+                result.errors.append("lifecycle.retired_on must be an ISO date")
+            if _word_count(lifecycle.get("summary")) < 20:
+                result.errors.append("lifecycle.summary must contain at least 20 words")
+
+            replacement = lifecycle.get("replacement")
+            if not isinstance(replacement, dict):
+                result.errors.append("lifecycle.replacement must be an object")
+                replacement = {}
+            for field_name in ("exam_code", "name"):
+                if not str(replacement.get(field_name) or "").strip():
+                    result.errors.append(
+                        f"lifecycle.replacement.{field_name} is required"
+                    )
+            for field_name in ("url", "study_guide_url"):
+                if not _is_https_url(replacement.get(field_name)):
+                    result.errors.append(
+                        f"lifecycle.replacement.{field_name} must be an https URL"
+                    )
+
+            actions = lifecycle.get("migration_actions")
+            if not isinstance(actions, list) or len(
+                [item for item in actions if str(item).strip()]
+            ) < 2:
+                result.errors.append(
+                    "lifecycle.migration_actions must contain at least 2 items"
+                )
+
+            comparisons = lifecycle.get("skill_comparison")
+            if not isinstance(comparisons, list) or not comparisons:
+                result.errors.append(
+                    "lifecycle.skill_comparison must contain at least one mapping"
+                )
+                comparisons = []
+            for index, item in enumerate(comparisons):
+                prefix = f"lifecycle.skill_comparison[{index}]"
+                if not isinstance(item, dict):
+                    result.errors.append(f"{prefix} must be an object")
+                    continue
+                for field_name in (
+                    "legacy_skill",
+                    "legacy_weight",
+                    "replacement_skill",
+                    "replacement_weight",
+                    "change",
+                ):
+                    if not str(item.get(field_name) or "").strip():
+                        result.errors.append(f"{prefix}.{field_name} is required")
+
+            refs = lifecycle.get("source_ids")
+            if not isinstance(refs, list) or not refs:
+                result.errors.append("lifecycle.source_ids is required")
+            else:
+                for source_id in refs:
+                    if source_id not in source_ids:
+                        result.errors.append(f"unknown source reference: {source_id}")
+
+            methodology = editorial.get("methodology")
+            if not isinstance(methodology, dict):
+                result.errors.append(
+                    "editorial.methodology is required for retired migration pages"
+                )
+            else:
+                if _word_count(methodology.get("summary")) < 20:
+                    result.errors.append(
+                        "editorial.methodology.summary must contain at least 20 words"
+                    )
+                method_refs = methodology.get("source_ids")
+                if not isinstance(method_refs, list) or not method_refs:
+                    result.errors.append("editorial.methodology.source_ids is required")
+                else:
+                    for source_id in method_refs:
+                        if source_id not in source_ids:
+                            result.errors.append(
+                                f"unknown source reference: {source_id}"
+                            )
+
     return result
 
 
@@ -377,8 +462,13 @@ def merge_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> dict[str, An
 
     merged = copy.deepcopy(exam)
     merged["editorial"] = copy.deepcopy(overlay["editorial"])
-    if overlay.get("study_signals"):
-        merged["study_signals"] = copy.deepcopy(overlay["study_signals"])
+    if "study_signals" in overlay:
+        if isinstance(overlay.get("study_signals"), dict):
+            merged["study_signals"] = copy.deepcopy(overlay["study_signals"])
+        else:
+            merged.pop("study_signals", None)
+    if overlay.get("lifecycle"):
+        merged["lifecycle"] = copy.deepcopy(overlay["lifecycle"])
     merged["sources"] = copy.deepcopy(overlay["sources"])
     merged["content_quality"] = copy.deepcopy(overlay["quality"])
     fact_overrides = overlay.get("fact_overrides")
