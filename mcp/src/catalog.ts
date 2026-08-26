@@ -2,7 +2,7 @@
  * Cert Atlas data loader.
  *
  * Reads the published Cert Atlas dataset — the same JSON the website serves:
- *   - data/index.json                       (1,580-exam catalog)
+ *   - data/index.json                       (current exam catalog)
  *   - data/<vendor_slug>/<exam_id>.json      (full per-exam blueprint)
  *
  * Source resolution (in order):
@@ -22,7 +22,7 @@ const RAW_BASE =
   process.env.CERT_ATLAS_RAW_BASE?.replace(/\/+$/, "") ??
   "https://raw.githubusercontent.com/hans6883/cert-atlas/master";
 
-const UA = "cert-atlas-mcp/1.2 (+https://github.com/hans6883/cert-atlas)";
+const UA = "cert-atlas-mcp/1.3.0 (+https://github.com/hans6883/cert-atlas)";
 
 /**
  * Ordered list of local `data/` directories to try before the network:
@@ -116,6 +116,8 @@ export interface IndexEntry {
   duration_minutes: number | null;
   source_url: string | null;
   practice_url: string | null;
+  enriched?: boolean;
+  verified_at?: string | null;
 }
 
 interface IndexFile {
@@ -130,7 +132,63 @@ export interface Domain {
   id?: string;
   name: string;
   weight_percent?: number | null;
-  objectives?: Array<string | { id?: string; name?: string; description?: string }> | null;
+  weight_min_percent?: number | null;
+  weight_max_percent?: number | null;
+  objectives?: Array<
+    string | {
+      id?: string;
+      title?: string;
+      name?: string;
+      description?: string;
+      sub_objectives?: string[];
+    }
+  > | null;
+}
+
+export interface DomainGuidance {
+  domain_id: string;
+  summary: string;
+  study_focus?: string[];
+  source_ids?: string[];
+}
+
+export interface EditorialContent {
+  meta_description?: string;
+  overview: string;
+  who_should_take: string;
+  skills_summary: string[];
+  preparation_strategy: string;
+  domain_guidance?: DomainGuidance[];
+  exam_day_guidance?: string;
+  source_ids?: string[];
+}
+
+export interface EnrichmentSource {
+  id: string;
+  url: string;
+  title: string;
+  publisher: string;
+  source_type: string;
+  accessed: string;
+  content_hash?: string;
+}
+
+export interface ContentQuality {
+  status: string;
+  publishable: boolean;
+  evidence_coverage?: number;
+  factual_confidence?: number;
+  generated_by?: string;
+  generated_at?: string;
+  reviewed_at?: string;
+}
+
+export interface StudySignals {
+  topic_emphasis?: Array<{ topic: string; level?: string; share_percent?: number }>;
+  challenge_areas?: string[];
+  question_style_observations?: string[];
+  input_record_count?: number;
+  input_dataset_hash?: string;
 }
 
 export interface Blueprint {
@@ -160,6 +218,10 @@ export interface Blueprint {
   retake_policy?: string | null;
   domains?: Domain[] | null;
   official_objectives_url?: string | null;
+  editorial?: EditorialContent | null;
+  study_signals?: StudySignals | null;
+  sources?: EnrichmentSource[] | null;
+  content_quality?: ContentQuality | null;
   aliases?: string[] | null;
   practice_url?: string | null;
   [k: string]: unknown;

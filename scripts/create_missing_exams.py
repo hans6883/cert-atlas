@@ -7,9 +7,11 @@ tracks progress in exams_created.json.
 
 import json
 import os
-import subprocess
 import sys
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -17,10 +19,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 EXAMS_FILE = REPO_ROOT / "exams_to_create.json"
 PROGRESS_FILE = REPO_ROOT / "exams_created.json"
 DB_PATH = Path.home() / "source" / "repos" / "web-scraper-mcp" / "data" / "blueprint_registry.db"
-BASE_URL = "https://quizforge.ai"
+BASE_URL = os.environ.get("QUIZFORGE_BASE_URL", "https://quizforge.ai").rstrip("/")
 BATCH_SIZE = 5
-LOGIN_EMAIL = "[REMOVED_CREDENTIAL_EMAIL]"
-LOGIN_PASSWORD = "[REMOVED_CREDENTIAL_PASSWORD]"
+LOGIN_EMAIL = os.environ.get("QUIZFORGE_LOGIN_EMAIL")
+LOGIN_PASSWORD = os.environ.get("QUIZFORGE_LOGIN_PASSWORD")
+
+ALLOWED_QUIZFORGE_HOSTS = {"quizforge.ai", "qftest.sntrace.dev"}
 
 token = None
 token_expiry = 0
@@ -32,33 +36,59 @@ def log(msg):
     print(safe, flush=True)
 
 
+def validate_auth_config():
+    if not LOGIN_EMAIL or not LOGIN_PASSWORD:
+        log("Set QUIZFORGE_LOGIN_EMAIL and QUIZFORGE_LOGIN_PASSWORD before running")
+        sys.exit(1)
+
+    parsed = urllib.parse.urlparse(BASE_URL)
+    is_allowed_https = parsed.scheme == "https" and parsed.hostname in ALLOWED_QUIZFORGE_HOSTS
+    is_local_test = parsed.scheme == "http" and parsed.hostname in {"localhost", "127.0.0.1"}
+    if not (is_allowed_https or is_local_test) or parsed.username or parsed.password:
+        log("QUIZFORGE_BASE_URL must be QuizForge production, Test, or a local Test tunnel")
+        sys.exit(1)
+
+
 def curl_json(method, url, headers, body=None, timeout=60):
-    cmd = ["curl", "-s", "-X", method, url]
-    for h in headers:
-        cmd.extend(["-H", h])
-    if body:
-        cmd.extend(["-H", "Content-Type: application/json", "-d", body])
+    request_headers = {}
+    for header in headers:
+        name, separator, value = header.partition(":")
+        if separator:
+            request_headers[name.strip()] = value.strip()
+    data = body.encode("utf-8") if body else None
+    if data:
+        request_headers["Content-Type"] = "application/json"
+    request = urllib.request.Request(
+        url,
+        data=data,
+        headers=request_headers,
+        method=method,
+    )
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
-    except subprocess.TimeoutExpired:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            payload = response.read().decode("utf-8")
+    except urllib.error.HTTPError as error:
+        payload = error.read().decode("utf-8", errors="replace")
+    except (urllib.error.URLError, TimeoutError):
         return None
     try:
-        return json.loads(result.stdout)
+        return json.loads(payload)
     except (json.JSONDecodeError, ValueError):
         return None
 
 
 def login():
     global token, token_expiry
+    validate_auth_config()
     body = json.dumps({"email": LOGIN_EMAIL, "password": LOGIN_PASSWORD})
     data = curl_json("POST", f"{BASE_URL}/api/auth/login",
-                     ["Host: quizforge.ai"], body)
+                     [], body)
     if data and data.get("success"):
         token = data["token"]
         token_expiry = time.time() + 3500
         log("Login OK")
     else:
-        log(f"Login FAILED: {data}")
+        log("Login FAILED")
         sys.exit(1)
 
 
@@ -66,7 +96,7 @@ def api(method, path, body=None):
     global token, token_expiry
     if time.time() > token_expiry - 300:
         login()
-    headers = ["Host: quizforge.ai", f"Authorization: Bearer {token}"]
+    headers = [f"Authorization: Bearer {token}"]
     return curl_json(method, f"{BASE_URL}{path}", headers, body)
 
 

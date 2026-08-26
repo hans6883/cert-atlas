@@ -1,0 +1,187 @@
+{
+  "exam_id": "microsoft-ai-102-azure-ai-engineer",
+  "editorial": {
+    "meta_description": "Explore the AI-102 exam scope, official domain weight ranges, practical Azure AI skills, preparation strategy, and source-verified objectives.",
+    "overview": "AI-102 validates the applied skills used to design, build, integrate, deploy, and operate AI solutions on Microsoft Azure. The current study guide spans the full solution lifecycle: choosing appropriate services, securing and monitoring resources, implementing generative and agentic systems, and building computer vision, language, speech, search, and information-extraction solutions. Candidates should be prepared to connect architecture decisions with implementation details rather than study each Azure AI service in isolation. Microsoft states that the English exam is updated first and that preview features may be assessed when they are commonly used, so the dated skills outline should be treated as the controlling scope.",
+    "who_should_take": "This exam is aimed at Azure AI engineers who participate in requirements definition, design, development, deployment, integration, maintenance, performance tuning, and monitoring. The official profile expects development experience with languages such as Python or C#, plus the ability to use REST APIs and SDKs. It is especially relevant to practitioners who collaborate with solution architects, data specialists, infrastructure administrators, and application developers to deliver secure end-to-end AI capabilities.",
+    "skills_summary": [
+      "Select and plan appropriate Microsoft Foundry and Azure AI services for a solution",
+      "Create secure, monitored, and cost-aware Azure AI resources and deployments",
+      "Implement generative AI applications using models, prompts, retrieval, and responsible AI controls",
+      "Build and evaluate agentic solutions with tools, knowledge, orchestration, and observability",
+      "Implement computer vision, language, speech, and translation workloads",
+      "Build knowledge-mining and information-extraction solutions with Azure AI Search and related services"
+    ],
+    "preparation_strategy": "Start with the dated Microsoft study guide and turn every published objective into something you can either implement or explain. Build a small end-to-end solution that requires service selection, authentication, deployment, monitoring, and error handling so the planning domain is practiced alongside the implementation domains. Use focused labs for generative AI, agents, vision, language, speech, Azure AI Search, Document Intelligence, and Content Understanding. For each lab, record why a service, index design, model, or safety control was appropriate and what operational tradeoff it introduced. Finish with mixed scenarios that require selecting between plausible services or configurations. Recheck the official guide shortly before the appointment because Microsoft updates role-based exams periodically and localized versions can lag the English outline.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Planning and management provide the decision framework for every implementation domain. Study service selection, resource creation, authentication, responsible AI, cost management, monitoring, and deployment together. You should be able to move from a stated requirement to an appropriate service and an operable, secured solution design.",
+        "study_focus": [
+          "Compare Microsoft Foundry and Azure AI services by workload and operational requirement",
+          "Practice secure resource creation, authentication, monitoring, and cost control",
+          "Review responsible AI capabilities and the controls used throughout a solution lifecycle"
+        ],
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Generative AI preparation should cover more than calling a model endpoint. Work through model selection and deployment, prompt construction, retrieval-augmented generation, evaluation, content filtering, and application integration. Pay attention to how grounding, safety, latency, and cost requirements change the design.",
+        "study_focus": [
+          "Deploy and consume generative models through supported SDK and REST patterns",
+          "Build grounded solutions with prompts, data sources, and retrieval",
+          "Evaluate outputs and apply responsible AI and content-safety controls"
+        ],
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "The agentic-solutions domain focuses on systems that plan or coordinate work through instructions, knowledge, tools, and multi-step execution. Practice creating and testing agents, connecting approved tools and data, managing state, and observing behavior so failures can be diagnosed instead of hidden behind a conversational interface.",
+        "study_focus": [
+          "Configure agent instructions, knowledge, tools, and orchestration",
+          "Test agent behavior against expected tasks and safety boundaries",
+          "Monitor, troubleshoot, and improve an agentic solution"
+        ],
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Computer vision work includes choosing the appropriate image or video capability and integrating its results into an application. Prepare by implementing common analysis workflows, handling returned structures, and considering confidence, privacy, and responsible-use requirements rather than memorizing service names alone.",
+        "study_focus": [
+          "Select image and video services for the stated analysis requirement",
+          "Implement analysis through an SDK or REST API and interpret the response",
+          "Apply confidence, privacy, and responsible-use considerations to vision output"
+        ],
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "Natural language processing covers text analysis as well as speech and translation scenarios. Build small applications that submit content, process service responses, and handle language or audio constraints. Compare available capabilities so you can justify the service and configuration used for a particular workload.",
+        "study_focus": [
+          "Implement text analysis and language-understanding capabilities",
+          "Build speech recognition, synthesis, and translation workflows",
+          "Handle language, audio, and application-integration constraints"
+        ],
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "6.0",
+        "summary": "Knowledge mining and information extraction combine ingestion, enrichment, indexing, and retrieval. Practice designing an Azure AI Search solution, selecting enrichment and extraction capabilities, and validating what enters the index. Include document, image, audio, and video processing where the published objectives call for them.",
+        "study_focus": [
+          "Design indexes, indexers, skillsets, and retrieval behavior in Azure AI Search",
+          "Extract structured information with Document Intelligence and related services",
+          "Process and ingest multimodal content while checking extraction quality"
+        ],
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      }
+    ],
+    "exam_day_guidance": "Use Microsoft's exam sandbox before the appointment so the interface and item interactions are familiar. Confirm the current schedule, language, accommodation, and delivery details on the official exam page. During the exam, identify the workload and operational constraints before choosing a service or design; several Azure AI capabilities can appear plausible until requirements such as grounding, security, observability, modality, or deployment method are applied.",
+    "source_ids": ["microsoft-ai-102-study-guide"]
+  },
+  "fact_overrides": {
+    "domains": [
+      {
+        "domain_id": "1.0",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "2.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "3.0",
+        "weight_min_percent": 5,
+        "weight_max_percent": 10,
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "4.0",
+        "weight_min_percent": 10,
+        "weight_max_percent": 15,
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "5.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      },
+      {
+        "domain_id": "6.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      }
+    ],
+    "objectives": [
+      {
+        "domain_id": "6.0",
+        "objective_id": "6点15",
+        "corrected_id": "6.15",
+        "source_ids": ["microsoft-ai-102-study-guide"]
+      }
+    ]
+  },
+  "study_signals": {
+    "topic_emphasis": [
+      {
+        "topic": "Knowledge Mining and Document Intelligence Solutions",
+        "level": "medium",
+        "share_percent": 13.3
+      },
+      {
+        "topic": "Implement Computer Vision Solutions",
+        "level": "medium",
+        "share_percent": 10.8
+      },
+      {
+        "topic": "Implement Generative AI Solutions",
+        "level": "medium",
+        "share_percent": 10.0
+      }
+    ],
+    "challenge_areas": [
+      "Higher-difficulty practice coverage includes Knowledge Mining and Document Intelligence Solutions.",
+      "Higher-difficulty practice coverage includes Implement Computer Vision Solutions.",
+      "Higher-difficulty practice coverage includes Implement Generative AI Solutions."
+    ],
+    "question_style_observations": [
+      "Multiple-choice items represent approximately 50% of the available practice metadata.",
+      "Multiple-response items represent approximately 25% of the available practice metadata.",
+      "Scenario items represent approximately 15% of the available practice metadata."
+    ],
+    "difficulty_distribution": {
+      "easy": 34,
+      "hard": 36,
+      "medium": 50
+    },
+    "input_record_count": 120,
+    "input_dataset_hash": "sha256:bf14c26191f55ba517d20145d5a28b7c3572ec5881158d51d1103e553d7c589d",
+    "derivation": "aggregate_metadata_only",
+    "official_weighting": false
+  },
+  "sources": [
+    {
+      "id": "microsoft-ai-102-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102",
+      "title": "Study guide for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:7966ce8ee83d2e39cf4dcc9f4693c24fed2eda57200abc0b2370c8a895116c5f"
+    }
+  ],
+  "quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.96,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-25T23:00:00Z",
+    "reviewed_at": "2026-08-25T23:30:00Z"
+  }
+}

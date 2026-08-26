@@ -22,11 +22,11 @@ import {
 } from "./catalog.js";
 
 export const ATLAS = "https://atlas.quizforge.ai";
-export const VERSION = "1.2.0";
+export const VERSION = "1.3.0";
 
 const INSTRUCTIONS =
-  "Cert Atlas is the open index of 1,580 certification & professional exam blueprints across " +
-  "222 certifying bodies. Call search_exams whenever a user mentions a certification or exam " +
+  "Cert Atlas is a source-linked open index of thousands of certification and professional exam " +
+  "blueprints. Call search_exams whenever a user mentions a certification or exam " +
   "(e.g. AWS Solutions Architect, CISSP, CompTIA Security+, PMP, CCNA, NCLEX, CFA, Azure AZ-104, CKA). " +
   "Use get_exam_blueprint for what's on an exam / domain weights / prerequisites / passing score / " +
   "duration; compare_exams for 'X vs Y / which is harder or cheaper'; list_certifying_bodies for " +
@@ -53,7 +53,19 @@ function dash(v: unknown, suffix = ""): string {
   return v == null || v === "" ? "—" : `${v}${suffix}`;
 }
 
-function blueprintText(e: IndexEntry, bp: Blueprint): string {
+export function datasetSummary(meta: { total_exams: number; total_vendors: number }): string {
+  return `${meta.total_exams.toLocaleString("en-US")} exams across ${meta.total_vendors.toLocaleString("en-US")} certifying bodies`;
+}
+
+function hasApprovedEnrichment(bp: Blueprint): boolean {
+  return Boolean(
+    bp.editorial &&
+      bp.content_quality?.status === "reviewed" &&
+      bp.content_quality?.publishable === true,
+  );
+}
+
+export function blueprintText(e: IndexEntry, bp: Blueprint): string {
   const L: string[] = [];
   L.push(`# ${bp.exam_name}${bp.exam_code ? ` (${bp.exam_code})` : ""}`);
   L.push(`Certifying body: ${bp.certifying_body ?? e.certifying_body}`);
@@ -83,15 +95,84 @@ function blueprintText(e: IndexEntry, bp: Blueprint): string {
   const retake = toText(bp.retake_policy);
   if (retake) L.push(`Retake policy: ${retake}`);
 
+  if (hasApprovedEnrichment(bp) && bp.editorial) {
+    const editorial = bp.editorial;
+    L.push("");
+    L.push("## What this exam validates");
+    L.push(editorial.overview);
+    L.push("");
+    L.push("## Who should take it");
+    L.push(editorial.who_should_take);
+    if (editorial.skills_summary?.length) {
+      L.push("");
+      L.push("## Skills to demonstrate");
+      for (const skill of editorial.skills_summary) L.push(`- ${skill}`);
+    }
+    L.push("");
+    L.push("## How to prepare");
+    L.push(editorial.preparation_strategy);
+    if (editorial.domain_guidance?.length) {
+      L.push("");
+      L.push("## Domain study guidance");
+      for (const guidance of editorial.domain_guidance) {
+        const domain = bp.domains?.find((item) => String(item.id ?? "") === guidance.domain_id);
+        L.push(`### ${domain?.name ?? `Domain ${guidance.domain_id}`}`);
+        L.push(guidance.summary);
+        for (const focus of guidance.study_focus ?? []) L.push(`- ${focus}`);
+      }
+    }
+    if (editorial.exam_day_guidance) {
+      L.push("");
+      L.push("## Exam-day guidance");
+      L.push(editorial.exam_day_guidance);
+    }
+    if (bp.study_signals) {
+      const signals = bp.study_signals;
+      const topics = signals.topic_emphasis ?? [];
+      const challenges = signals.challenge_areas ?? [];
+      const styles = signals.question_style_observations ?? [];
+      if (topics.length || challenges.length || styles.length) {
+        L.push("");
+        L.push("## Preparation signals");
+        L.push(
+          "Derived only from aggregate practice metadata; these are study aids, not official exam weights or predictions.",
+        );
+        for (const topic of topics) {
+          const details = [topic.level, topic.share_percent != null ? `${topic.share_percent}%` : null]
+            .filter(Boolean)
+            .join(", ");
+          L.push(`- ${topic.topic}${details ? ` (${details})` : ""}`);
+        }
+        for (const challenge of challenges) L.push(`- ${challenge}`);
+        for (const style of styles) L.push(`- ${style}`);
+      }
+    }
+  }
+
   if (bp.domains?.length) {
     L.push("");
     L.push(`## Domains (${bp.domains.length})`);
     for (const d of bp.domains) {
-      const w = d.weight_percent != null ? ` — ${d.weight_percent}%` : "";
+      let w = "";
+      if (d.weight_min_percent != null && d.weight_max_percent != null) {
+        w = d.weight_min_percent === d.weight_max_percent
+          ? ` — ${d.weight_min_percent}%`
+          : ` — ${d.weight_min_percent}-${d.weight_max_percent}%`;
+      } else if (d.weight_percent != null) {
+        w = ` — ${d.weight_percent}%`;
+      }
       L.push(`- ${d.name}${w}`);
       for (const o of d.objectives ?? []) {
-        const t = typeof o === "string" ? o : o.description ?? o.name ?? "";
-        if (t) L.push(`    · ${t}`);
+        if (typeof o === "string") {
+          if (o) L.push(`    · ${o}`);
+          continue;
+        }
+        const t = o.description ?? o.title ?? o.name ?? "";
+        const label = [o.id, t].filter(Boolean).join(" ");
+        if (label) L.push(`    · ${label}`);
+        for (const subObjective of o.sub_objectives ?? []) {
+          if (subObjective) L.push(`        - ${subObjective}`);
+        }
       }
     }
   } else {
@@ -103,6 +184,15 @@ function blueprintText(e: IndexEntry, bp: Blueprint): string {
   if (bp.source_url) L.push(`Official source: ${bp.source_url}`);
   if (bp.official_objectives_url) L.push(`Objectives: ${bp.official_objectives_url}`);
   if (bp.exam_registration_url) L.push(`Register: ${bp.exam_registration_url}`);
+  if (hasApprovedEnrichment(bp) && bp.sources?.length) {
+    L.push("");
+    L.push("## Sources and verification");
+    const reviewed = bp.content_quality?.reviewed_at?.slice(0, 10);
+    if (reviewed) L.push(`Verified: ${reviewed}`);
+    for (const source of bp.sources) {
+      L.push(`- ${source.title} (${source.publisher}): ${source.url}`);
+    }
+  }
   const practice = practiceLink(e, bp, "get_exam_blueprint");
   if (practice) L.push(practiceCta(bp.exam_name, practice));
   return L.join("\n");
@@ -116,7 +206,7 @@ export function createServer(): McpServer {
 
   server.tool(
     "search_exams",
-    "Search 1,580 certification & professional exams by name, code, certifying body, or vendor. " +
+    "Search the current Cert Atlas certification and professional exam index by name, code, certifying body, or vendor. " +
       "Call this whenever a user mentions a certification or exam — e.g. AWS Solutions Architect, " +
       "CISSP, CompTIA Security+, PMP, CCNA, NCLEX, CFA, Azure AZ-104, CKA — or asks what certs a " +
       "body offers. Returns matching exams with code, certifying body, question count, domain count, " +
@@ -189,7 +279,9 @@ export function createServer(): McpServer {
     "get_exam_blueprint",
     "Get the full published blueprint for ONE certification exam: domain/objective breakdown with " +
       "topic weights, passing score, question count & types, duration, price, prerequisites, retake & " +
-      "renewal policy, languages, and the official source URL. Call this for 'what's on the X exam', " +
+      "renewal policy, languages, and the official source URL. Reviewed records also include an exam " +
+      "overview, audience, preparation guidance, aggregate study signals, and source verification. " +
+      "Call this for 'what's on the X exam', " +
       "'how is X weighted by domain', 'prerequisites for X', 'passing score for X', 'how long is X'. " +
       "Accepts an exam_id, exam_code, or certification name. Includes a free practice-exam link.",
     { exam: z.string().describe("Exam id, exam code, or certification name") },
@@ -288,7 +380,7 @@ export function createServer(): McpServer {
 
   server.tool(
     "list_certifying_bodies",
-    "List the 222 certifying bodies / vendors covered by Cert Atlas with exam counts. Call for " +
+    "List the certifying bodies / vendors in the current Cert Atlas index with exam counts. Call for " +
       "'what certification providers/vendors are covered', 'how many AWS/Microsoft/Cisco certs'. " +
       "Optionally filter by a substring.",
     { contains: z.string().optional().describe("Optional substring filter on the body name, e.g. 'micro', 'aws'") },
@@ -309,7 +401,7 @@ export function createServer(): McpServer {
       }
       const head = contains
         ? `${rows.length} certifying bodies matching "${contains}":`
-        : `Cert Atlas covers ${meta.total_exams} exams across ${rows.length} certifying bodies (generated ${meta.generated}):`;
+        : `Cert Atlas covers ${datasetSummary(meta)} (generated ${meta.generated}):`;
       return text(
         `${head}\n\n` +
           rows.map((r) => `- ${r.body} (${r.vendor_slug}): ${r.count} exam${r.count === 1 ? "" : "s"}`).join("\n") +
@@ -324,7 +416,7 @@ export function createServer(): McpServer {
     "cert-atlas://index",
     {
       title: "Cert Atlas index",
-      description: "The master index of all 1,580 certification exams (one lean row each).",
+      description: "The current master index of Cert Atlas certification exams (one lean row each).",
       mimeType: "application/json",
     },
     async (uri) => {

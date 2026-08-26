@@ -3,12 +3,12 @@
 **The open index of certification exam blueprints.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-![Exams](https://img.shields.io/badge/exams-1%2C562-2563eb.svg)
-![Certifying bodies](https://img.shields.io/badge/certifying%20bodies-217-3b82f6.svg)
+![Exams](https://img.shields.io/badge/exams-1%2C673-2563eb.svg)
+![Certifying bodies](https://img.shields.io/badge/certifying%20bodies-223-3b82f6.svg)
 ![Format](https://img.shields.io/badge/format-JSON-success.svg)
 [![Browse online](https://img.shields.io/badge/browse-atlas.quizforge.ai-1d4ed8.svg)](https://atlas.quizforge.ai)
 
-1,562 exams. 217 certifying bodies. Structured, machine-readable JSON sourced from official exam guides and certification pages.
+1,673 exams. 223 certifying bodies. Structured, machine-readable JSON sourced from official exam guides and certification pages.
 
 🔎 **Browse:** [atlas.quizforge.ai](https://atlas.quizforge.ai) &nbsp;·&nbsp; 📦 **Use:** [`data/index.json`](data/index.json) &nbsp;·&nbsp; 📋 **Data Package:** [`datapackage.json`](datapackage.json) &nbsp;·&nbsp; 🤖 **For LLMs:** [`llms.txt`](https://atlas.quizforge.ai/llms.txt)
 
@@ -24,8 +24,9 @@ Every exam file includes the structural blueprint published by the certifying bo
 - Prerequisites, retake policies, and renewal requirements
 - Available languages and proctoring options
 - Official study resources and objective URLs
+- Reviewed, source-linked editorial guidance where the enrichment quality gate has passed
 
-No proprietary questions. No scraped content. Just the publicly available exam structure, consolidated and normalized.
+No proprietary questions or answers. Aggregate topic, difficulty, and item-format metadata may inform reviewed preparation guidance, but question text and explanations never enter this repository.
 
 ## Quick start
 
@@ -52,7 +53,7 @@ Or use the master index:
 ```bash
 # All exams
 cat data/index.json | jq '.exams | length'
-# 1562
+# 1673
 
 # All AWS exams
 cat data/index.json | jq '[.exams[] | select(.certifying_body == "AWS")]'
@@ -65,6 +66,7 @@ cat data/index.json | jq '[.exams[] | select(.domains >= 4)]'
 
 | Certifying Body | Exams |
 |-----------------|-------|
+| ServiceNow | 94 |
 | DMV / State Driver Licensing | 51 |
 | Microsoft | 45 |
 | College Board | 44 |
@@ -72,27 +74,29 @@ cat data/index.json | jq '[.exams[] | select(.domains >= 4)]'
 | CLEP | 34 |
 | Salesforce | 32 |
 | NCEES | 29 |
-| ServiceNow | 27 |
 | FINRA | 26 |
+| IICRC | 25 |
 | SAP | 20 |
 | AAPC | 20 |
 | Oracle | 19 |
+| HVAC Licensing | 17 |
+| State Teacher Certification | 17 |
 | CompTIA | 16 |
 | Google Cloud | 16 |
+| ACCA | 15 |
 | AWS | 15 |
-| PeopleCert (AXELOS) | 15 |
-| *...and 201 more* | |
+| *...and 204 more* | |
 
 Full vendor directory: [`data/vendors.json`](data/vendors.json)
 
-**Data completeness across all 1,562 exams:**
+**Data completeness across all 1,673 exams:**
 
 | Field | Coverage |
 |-------|----------|
-| Domain breakdowns | 95% (1,477) |
-| Passing score | 73% (1,132) |
-| Duration | 82% (1,279) |
-| Pricing | 87% (1,357) |
+| Domain breakdowns | 97% (1,629) |
+| Passing score | 69% (1,150) |
+| Duration | 80% (1,342) |
+| Pricing | 84% (1,399) |
 | Sample questions | not included (see below) |
 
 ## Schema
@@ -170,10 +174,10 @@ Want agents to query Cert Atlas **directly**, in context? The [`mcp/`](mcp/) dir
 
 | Tool | What it does |
 |------|--------------|
-| `search_exams` | Keyword search across all 1,562 blueprints, optional body/vendor filter |
-| `get_exam_blueprint` | Full blueprint for one exam: domains + weights, scoring, prerequisites, renewal |
+| `search_exams` | Keyword search across all 1,673 blueprints, optional body/vendor filter |
+| `get_exam_blueprint` | Full blueprint for one exam: domains, weights, scoring, prerequisites, reviewed guidance, and sources |
 | `compare_exams` | Compare 2–8 exams side by side (questions, duration, passing score, price, validity) |
-| `list_certifying_bodies` | All 217 certifying bodies with exam counts |
+| `list_certifying_bodies` | All 223 certifying bodies with exam counts |
 
 ```bash
 cd mcp && npm install && npm run build
@@ -183,7 +187,7 @@ It reads the local `data/` JSON when run from this repo, or fetches the publishe
 
 ## How this data was collected
 
-Each blueprint was sourced from the certifying body's official exam guide, certification page, or published PDF. The `source_url` field in every exam file links to the original source. No third-party question banks or proprietary content were used.
+Each blueprint was sourced from the certifying body's official exam guide, certification page, or published PDF. The `source_url` field in every exam file links to the original source. Reviewed enrichment can use aggregate topic, difficulty, and format metadata from QuizForge practice records, but the pipeline never reads those records' stems, choices, answers, or explanations into public output.
 
 Data was collected and structured by [QuizForge](https://quizforge.ai), a certification exam prep platform.
 
@@ -197,6 +201,14 @@ Found an outdated exam or missing certification? Contributions welcome.
 
 Please include the official source URL for any additions or changes.
 
+## QuizForge automation credentials
+
+`scripts/create_missing_exams.py` requires a dedicated QuizForge automation account. Never place its email, password, or bearer token in source files, command-line arguments, logs, fixtures, or generated output.
+
+Set `QUIZFORGE_LOGIN_EMAIL` and `QUIZFORGE_LOGIN_PASSWORD` in the runtime environment. Production is the default API target. Set `QUIZFORGE_BASE_URL=https://qftest.sntrace.dev` for the gated Test replica or `QUIZFORGE_BASE_URL=http://localhost:5003` for the private Test tunnel. The script rejects other credential destinations.
+
+The GitHub repository stores distinct production and Test values as encrypted Actions secrets: `QUIZFORGE_LOGIN_EMAIL`, `QUIZFORGE_LOGIN_PASSWORD`, `QUIZFORGE_TEST_LOGIN_EMAIL`, and `QUIZFORGE_TEST_LOGIN_PASSWORD`.
+
 ## License
 
 This dataset is released under the [MIT License](LICENSE). The exam blueprints themselves are factual information published by their respective certifying bodies. This project consolidates and structures that information for programmatic use.
@@ -207,4 +219,4 @@ This dataset is released under the [MIT License](LICENSE). The exam blueprints t
 
 ## Acknowledgments
 
-Maintained by [QuizForge](https://quizforge.ai) -- free certification practice exams for 1,500+ exams.
+Maintained by [QuizForge](https://quizforge.ai) -- free certification practice exams.

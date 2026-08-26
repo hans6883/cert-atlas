@@ -17,6 +17,11 @@ import html as html_mod
 from pathlib import Path
 from datetime import datetime, timezone
 
+try:
+    from scripts.enrichment import has_public_enrichment
+except ImportError:
+    from enrichment import has_public_enrichment
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 DOCS_DIR = REPO_ROOT / "docs"
@@ -236,8 +241,32 @@ footer a { color: var(--text-muted); }
 }
 """
 
+ENRICHMENT_CSS = """
+.editorial { margin: 32px 0; }
+.editorial h2 { margin: 28px 0 10px; font-size: 23px; }
+.editorial h3 { margin: 22px 0 8px; font-size: 18px; }
+.editorial p { margin: 0 0 14px; }
+.editorial ul { margin: 8px 0 18px 22px; }
+.editorial li { margin: 5px 0; }
+.study-signals { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.signal-note { color: var(--text-muted); font-size: 13px; }
+.verification { border-top: 1px solid var(--border); padding-top: 20px; }
+.verification-date { color: var(--text-muted); font-size: 13px; margin-bottom: 10px; }
+.source-list { list-style: none; margin-left: 0; }
+.source-list li { margin: 8px 0; }
+.source-publisher { color: var(--text-muted); font-size: 13px; }
+"""
 
-def page_shell(title, description, canonical, body, schema_json=None, breadcrumb_schema=None):
+
+def page_shell(
+    title,
+    description,
+    canonical,
+    body,
+    schema_json=None,
+    breadcrumb_schema=None,
+    extra_css="",
+):
     schemas = ""
     if schema_json:
         schemas += f'<script type="application/ld+json">{json.dumps(schema_json, ensure_ascii=False)}</script>\n'
@@ -262,7 +291,7 @@ def page_shell(title, description, canonical, body, schema_json=None, breadcrumb
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{h(title)}">
 <meta name="twitter:description" content="{h(description)}">
-{schemas}<style>{CSS}</style>
+{schemas}<style>{CSS}{extra_css}</style>
 </head>
 <body>
 <header>
@@ -389,6 +418,98 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     )
 
 
+def build_enrichment_html(exam):
+    if not has_public_enrichment(exam):
+        return ""
+
+    editorial = exam.get("editorial", {})
+    sections = [
+        '<section class="editorial" aria-label="Exam guide">',
+        f'<h2>What This Exam Validates</h2><p>{h(editorial.get("overview", ""))}</p>',
+        f'<h2>Who Should Take This Exam</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
+    ]
+
+    skills = [str(item).strip() for item in editorial.get("skills_summary", []) if str(item).strip()]
+    if skills:
+        sections.append(
+            '<h2>Skills You Should Be Ready to Demonstrate</h2><ul>'
+            + "".join(f"<li>{h(item)}</li>" for item in skills)
+            + "</ul>"
+        )
+
+    sections.append(
+        f'<h2>How to Prepare</h2><p>{h(editorial.get("preparation_strategy", ""))}</p>'
+    )
+
+    domain_names = {
+        str(domain.get("id")): str(domain.get("name") or "")
+        for domain in exam.get("domains", [])
+        if isinstance(domain, dict)
+    }
+    guidance = editorial.get("domain_guidance", [])
+    if guidance:
+        sections.append("<h2>Domain Study Guidance</h2>")
+        for item in guidance:
+            if not isinstance(item, dict):
+                continue
+            domain_id = str(item.get("domain_id") or "")
+            label = domain_names.get(domain_id) or f"Domain {domain_id}"
+            sections.append(f"<h3>{h(label)}: Study Guidance</h3>")
+            sections.append(f'<p>{h(item.get("summary", ""))}</p>')
+            focus = [str(value).strip() for value in item.get("study_focus", []) if str(value).strip()]
+            if focus:
+                sections.append("<ul>" + "".join(f"<li>{h(value)}</li>" for value in focus) + "</ul>")
+
+    exam_day = str(editorial.get("exam_day_guidance") or "").strip()
+    if exam_day:
+        sections.append(f"<h2>Exam-Day Guidance</h2><p>{h(exam_day)}</p>")
+
+    signals = exam.get("study_signals")
+    if isinstance(signals, dict):
+        signal_items = []
+        for item in signals.get("topic_emphasis", []):
+            if isinstance(item, dict) and item.get("topic"):
+                details = []
+                if item.get("level"):
+                    details.append(str(item["level"]))
+                if item.get("share_percent") is not None:
+                    details.append(f'{item["share_percent"]}% of practice metadata')
+                suffix = f' ({", ".join(details)})' if details else ""
+                signal_items.append(f'{item.get("topic")}{suffix}')
+        signal_items.extend(str(item) for item in signals.get("challenge_areas", []) if str(item).strip())
+        signal_items.extend(
+            str(item) for item in signals.get("question_style_observations", []) if str(item).strip()
+        )
+        if signal_items:
+            sections.append('<div class="study-signals"><h2>Preparation Signals</h2>')
+            sections.append(
+                '<p class="signal-note">Derived from aggregate practice patterns. These are study aids, not official exam weights or predictions.</p>'
+            )
+            sections.append("<ul>" + "".join(f"<li>{h(item)}</li>" for item in signal_items) + "</ul></div>")
+
+    sources = exam.get("sources", [])
+    quality = exam.get("content_quality", {})
+    if sources:
+        reviewed_at = str(quality.get("reviewed_at") or "")[:10]
+        sections.append('<div class="verification"><h2>Sources and Verification</h2>')
+        if reviewed_at:
+            sections.append(f'<p class="verification-date">Verified {h(reviewed_at)}</p>')
+        source_items = []
+        for source in sources:
+            if not isinstance(source, dict):
+                continue
+            title = h(source.get("title") or "Official source")
+            url = h(source.get("url") or "")
+            publisher = h(source.get("publisher") or "")
+            link = f'<a href="{url}" rel="nofollow">{title}</a>' if url else title
+            suffix = f' <span class="source-publisher">{publisher}</span>' if publisher else ""
+            source_items.append(f"<li>{link}{suffix}</li>")
+        sections.append('<ul class="source-list">' + "".join(source_items) + "</ul></div>")
+
+    sections.append("</section>")
+    return "".join(sections)
+
+
 def build_exam_page(vendor_slug, vendor_info, exam):
     name = exam.get("exam_name", "")
     code = exam.get("exam_code", "")
@@ -423,19 +544,43 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         domain_blocks = []
         for dom in domains:
             weight = dom.get("weight_percent") or 0
+            weight_min = dom.get("weight_min_percent")
+            weight_max = dom.get("weight_max_percent")
             objectives_html = ""
             if dom.get("objectives"):
                 obj_items = []
                 for obj in dom["objectives"]:
+                    if isinstance(obj, str):
+                        obj_id = ""
+                        obj_title = obj
+                        sub_objectives = []
+                    elif isinstance(obj, dict):
+                        obj_id = obj.get("id", "")
+                        obj_title = obj.get("title", "")
+                        sub_objectives = obj.get("sub_objectives") or []
+                    else:
+                        continue
                     sub = ""
-                    if obj.get("sub_objectives"):
-                        sub = f'<div class="sub-objectives">{h("; ".join(obj["sub_objectives"]))}</div>'
+                    if sub_objectives:
+                        normalized_sub_objectives = [
+                            item.get("title", "") if isinstance(item, dict) else str(item)
+                            for item in sub_objectives
+                        ]
+                        sub = f'<div class="sub-objectives">{h("; ".join(normalized_sub_objectives))}</div>'
                     obj_items.append(
-                        f'<li><span class="obj-id">{h(obj.get("id", ""))}</span>{h(obj.get("title", ""))}{sub}</li>'
+                        f'<li><span class="obj-id">{h(obj_id)}</span>{h(obj_title)}{sub}</li>'
                     )
                 objectives_html = f'<ul class="objectives">{"".join(obj_items)}</ul>'
 
-            if weight > 0:
+            if weight_min is not None and weight_max is not None:
+                if float(weight_min) == float(weight_max):
+                    weight_label = f"{float(weight_min):.0f}%"
+                else:
+                    weight_label = f"{float(weight_min):.0f}-{float(weight_max):.0f}%"
+                weight_html = f'<span class="domain-weight">{weight_label}</span>'
+                bar_width = (float(weight_min) + float(weight_max)) / 2
+                bar_html = f'<div class="domain-bar"><div class="domain-bar-fill" style="width:{bar_width}%"></div></div>'
+            elif weight > 0:
                 weight_html = f'<span class="domain-weight">{weight:.0f}%</span>'
                 bar_html = f'<div class="domain-bar"><div class="domain-bar-fill" style="width:{weight}%"></div></div>'
             else:
@@ -519,6 +664,8 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     # Practice CTA
     practice_url = exam.get("practice_url", f"{QUIZFORGE_URL}/tests/{exam_id}")
     practice_html = f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
+    enrichment_html = build_enrichment_html(exam)
+    enrichment_line = f"\n{enrichment_html}" if enrichment_html else ""
 
     breadcrumb = (
         f'<div class="breadcrumb"><div class="container">'
@@ -537,7 +684,7 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 <p class="vendor-link"><a href="{SITE_URL}/{h(vendor_slug)}/">{h(body_name)}</a></p>
 </div>
 <div class="quick-facts">{facts_html}</div>
-{practice_html}
+{practice_html}{enrichment_line}
 {domains_html}
 {info_html}
 {resources_html}
@@ -561,6 +708,13 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     }
     if exam.get("available_languages"):
         course_schema["inLanguage"] = exam["available_languages"][0] if len(exam["available_languages"]) == 1 else exam["available_languages"]
+    if has_public_enrichment(exam):
+        overview = str(exam.get("editorial", {}).get("overview") or "").strip()
+        if overview:
+            course_schema["description"] = overview
+        reviewed_at = str(exam.get("content_quality", {}).get("reviewed_at") or "")[:10]
+        if reviewed_at:
+            course_schema["dateModified"] = reviewed_at
 
     breadcrumb_schema = {
         "@context": "https://schema.org",
@@ -587,14 +741,25 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         desc += ", ".join(desc_parts) + ". "
     if domains:
         desc += f'{len(domains)} domains with objectives and topic weights.'
+    if has_public_enrichment(exam):
+        editorial = exam.get("editorial", {})
+        meta_description = str(editorial.get("meta_description") or "").strip()
+        overview = str(editorial.get("overview") or "").strip()
+        if meta_description or overview:
+            desc = meta_description or overview
+
+    page_title = f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas"
+    if has_public_enrichment(exam):
+        page_title = f"{code or name} Exam Guide, Domains & Skills | Cert Atlas"
 
     return page_shell(
-        f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas",
+        page_title,
         desc[:160],
         f"{SITE_URL}/{vendor_slug}/{exam_id}",
         body,
         schema_json=course_schema,
         breadcrumb_schema=breadcrumb_schema,
+        extra_css=ENRICHMENT_CSS if has_public_enrichment(exam) else "",
     )
 
 
