@@ -376,12 +376,25 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     exam_items = []
     for ex in sorted(exams, key=lambda e: e["exam_name"]):
         meta_parts = []
-        if ex.get("total_questions"):
-            meta_parts.append(f'{ex["total_questions"]} questions')
-        if ex.get("duration_minutes"):
-            meta_parts.append(f'{ex["duration_minutes"]} min')
-        if ex.get("domains"):
-            meta_parts.append(f'{ex["domains"]} domains')
+        if ex.get("lifecycle_status") == "retired":
+            retired_on = str(ex.get("retired_on") or "")
+            try:
+                retired_label = datetime.strptime(retired_on, "%Y-%m-%d").strftime(
+                    "%B %d, %Y"
+                ).replace(" 0", " ")
+            except ValueError:
+                retired_label = retired_on
+            meta_parts.append(f"Retired {retired_label}".strip())
+            replacement_code = str(ex.get("replacement_exam_code") or "").strip()
+            if replacement_code:
+                meta_parts.append(f"replaced by {replacement_code}")
+        else:
+            if ex.get("total_questions"):
+                meta_parts.append(f'{ex["total_questions"]} questions')
+            if ex.get("duration_minutes"):
+                meta_parts.append(f'{ex["duration_minutes"]} min')
+            if ex.get("domains"):
+                meta_parts.append(f'{ex["domains"]} domains')
         meta = " | ".join(meta_parts)
 
         exam_items.append(

@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.build_site import build_exam_page
+from scripts.build_site import build_exam_page, build_vendor_page
 from scripts.enrichment import (
     load_and_merge_overlay,
     merge_overlay,
@@ -419,6 +419,29 @@ class EnrichedPageTests(unittest.TestCase):
         self.assertIn("Configure an accounts payable operation", html)
         self.assertIn("Review an exception", html)
 
+    def test_vendor_page_labels_retired_exam_and_replacement(self):
+        entry = {
+            "exam_id": "vendor-example-100",
+            "exam_name": "Example Professional",
+            "exam_code": "EX-100",
+            "domains": 1,
+            "total_questions": 60,
+            "duration_minutes": 90,
+            "lifecycle_status": "retired",
+            "retired_on": "2026-06-30",
+            "replacement_exam_code": "EX-101",
+            "replacement_url": "https://vendor.example/exams/example-101",
+        }
+
+        html = build_vendor_page(
+            "example-vendor", {"display_name": "Example Vendor"}, [entry]
+        )
+
+        self.assertIn("Retired June 30, 2026", html)
+        self.assertIn("replaced by EX-101", html)
+        self.assertNotIn("60 questions", html)
+        self.assertNotIn("90 min", html)
+
 
 class ApplyEnrichmentTests(unittest.TestCase):
     def test_applies_only_reviewed_overlay_and_updates_index_metadata(self):
@@ -493,6 +516,47 @@ class ApplyEnrichmentTests(unittest.TestCase):
             unchanged = json.loads(exam_path.read_text(encoding="utf-8"))
             self.assertEqual(report["rejected"], 1)
             self.assertNotIn("editorial", unchanged)
+
+    def test_retirement_state_propagates_to_index_and_suppresses_practice_link(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            data_root = root / "data"
+            enrichment_root = root / "enrichment"
+            exam_path = data_root / "example-vendor" / "vendor-example-100.json"
+            overlay_path = enrichment_root / "example-vendor" / "vendor-example-100.json"
+            exam_path.parent.mkdir(parents=True)
+            overlay_path.parent.mkdir(parents=True)
+            exam_path.write_text(json.dumps(base_exam()), encoding="utf-8")
+            overlay_path.write_text(json.dumps(retired_overlay()), encoding="utf-8")
+            (data_root / "index.json").write_text(
+                json.dumps(
+                    {
+                        "total_exams": 1,
+                        "exams": [
+                            {
+                                "exam_id": "vendor-example-100",
+                                "vendor_slug": "example-vendor",
+                                "practice_url": "https://quizforge.ai/tests/example",
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            report = apply_enrichments(data_root, enrichment_root, write=True)
+            index = json.loads((data_root / "index.json").read_text(encoding="utf-8"))
+            entry = index["exams"][0]
+
+            self.assertEqual(report["applied"], 1)
+            self.assertEqual(entry["lifecycle_status"], "retired")
+            self.assertEqual(entry["retired_on"], "2026-06-30")
+            self.assertEqual(entry["replacement_exam_code"], "EX-101")
+            self.assertEqual(
+                entry["replacement_url"],
+                "https://vendor.example/exams/example-101",
+            )
+            self.assertIsNone(entry["practice_url"])
 
 
 class EvidencePackTests(unittest.TestCase):

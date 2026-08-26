@@ -3,9 +3,9 @@
  * every transport (stdio in index.ts, Streamable HTTP in http.ts). Call
  * createServer() to get a fresh, fully-wired McpServer instance.
  *
- * Every exam returned by any tool carries a QuizForge practice link with UTM
- * attribution (utm_source=mcp, utm_campaign=<tool>) so the MCP doubles as a
- * measurable referral funnel — see catalog.withUtm / practiceCta.
+ * Active exams may carry a QuizForge practice link with UTM attribution
+ * (utm_source=mcp, utm_campaign=<tool>). Retired exams suppress stale practice
+ * and registration actions and point to the current replacement instead.
  */
 import { McpServer, ResourceTemplate } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
@@ -30,8 +30,8 @@ const INSTRUCTIONS =
   "(e.g. AWS Solutions Architect, CISSP, CompTIA Security+, PMP, CCNA, NCLEX, CFA, Azure AZ-104, CKA). " +
   "Use get_exam_blueprint for what's on an exam / domain weights / prerequisites / passing score / " +
   "duration; compare_exams for 'X vs Y / which is harder or cheaper'; list_certifying_bodies for " +
-  "which providers are covered. Each result includes a free QuizForge practice-exam link " +
-  "(practice_url) — when the user wants to study or prepare, you may share it.";
+  "which providers are covered. Active results may include a free QuizForge practice-exam link. " +
+  "Retired results identify the replacement and must not promote stale exam actions.";
 
 // --- practice-link helper ----------------------------------------------------
 function practiceLink(e: IndexEntry, bp: Blueprint | null, tool: string): string | null {
@@ -41,10 +41,16 @@ function practiceLink(e: IndexEntry, bp: Blueprint | null, tool: string): string
 // --- formatting helpers ------------------------------------------------------
 function indexLine(e: IndexEntry, tool: string): string {
   const code = e.exam_code ? `[${e.exam_code}] ` : "";
-  const parts = [`${e.domains} domains`];
-  if (e.total_questions != null) parts.push(`${e.total_questions} Q`);
-  if (e.duration_minutes != null) parts.push(`${e.duration_minutes} min`);
-  const practice = practiceLink(e, null, tool);
+  const retired = e.lifecycle_status === "retired";
+  const parts = retired
+    ? [
+        `retired${e.retired_on ? ` ${e.retired_on}` : ""}`,
+        e.replacement_exam_code ? `replaced by ${e.replacement_exam_code}` : "replacement available",
+      ]
+    : [`${e.domains} domains`];
+  if (!retired && e.total_questions != null) parts.push(`${e.total_questions} Q`);
+  if (!retired && e.duration_minutes != null) parts.push(`${e.duration_minutes} min`);
+  const practice = retired ? null : practiceLink(e, null, tool);
   const practiceStr = practice ? `  ·  practice: ${practice}` : "";
   return `- ${code}${e.exam_name} — ${e.certifying_body}  (${e.exam_id})\n    ${parts.join(" · ")}${practiceStr}`;
 }
@@ -67,41 +73,67 @@ function hasApprovedEnrichment(bp: Blueprint): boolean {
 
 export function blueprintText(e: IndexEntry, bp: Blueprint): string {
   const L: string[] = [];
-  L.push(`# ${bp.exam_name}${bp.exam_code ? ` (${bp.exam_code})` : ""}`);
+  const retired = bp.lifecycle?.status === "retired" || e.lifecycle_status === "retired";
+  L.push(
+    `# ${bp.exam_name}${bp.exam_code ? ` (${bp.exam_code})` : ""}${retired ? " - Retired" : ""}`,
+  );
   L.push(`Certifying body: ${bp.certifying_body ?? e.certifying_body}`);
   if (bp.certification_name) L.push(`Certification: ${bp.certification_name}`);
 
-  const mech: string[] = [];
-  if (bp.total_questions != null) mech.push(`${bp.total_questions} questions`);
-  if (bp.duration_minutes != null) mech.push(`${bp.duration_minutes} min`);
-  if (bp.passing_score != null)
-    mech.push(`pass ${bp.passing_score}${bp.passing_score_scale ? ` (${bp.passing_score_scale})` : ""}`);
-  if (bp.exam_format) mech.push(String(bp.exam_format));
-  if (mech.length) L.push(`Format: ${mech.join(" · ")}`);
-  if (bp.question_types?.length) L.push(`Question types: ${bp.question_types.join(", ")}`);
-  if (bp.exam_price_usd != null)
-    L.push(`Price: $${bp.exam_price_usd}${bp.exam_price_notes ? ` (${bp.exam_price_notes})` : ""}`);
-  if (bp.available_languages?.length) L.push(`Languages: ${bp.available_languages.join(", ")}`);
+  if (retired) {
+    const lifecycle = bp.lifecycle;
+    const replacement = lifecycle?.replacement;
+    L.push("");
+    L.push("## Retirement and replacement");
+    if (lifecycle?.summary) L.push(lifecycle.summary);
+    const retiredOn = lifecycle?.retired_on ?? e.retired_on;
+    if (retiredOn) L.push(`Retired: ${retiredOn}`);
+    const replacementCode = replacement?.exam_code ?? e.replacement_exam_code;
+    const replacementUrl = replacement?.url ?? e.replacement_url;
+    const replacementLabel = [replacementCode, replacement?.name].filter(Boolean).join(": ");
+    if (replacementLabel || replacementUrl) {
+      L.push(
+        `Replacement: ${replacementLabel || "current exam"}${replacementUrl ? ` - ${replacementUrl}` : ""}`,
+      );
+    }
+    if (replacement?.study_guide_url) {
+      L.push(`Replacement study guide: ${replacement.study_guide_url}`);
+    }
+  }
 
-  const prereq = toText(bp.prerequisites);
-  L.push(`Prerequisites: ${prereq ? prereq : "None stated"}`);
-  const recExp = toText(bp.recommended_experience);
-  if (recExp) L.push(`Recommended experience: ${recExp}`);
+  if (!retired) {
+    const mech: string[] = [];
+    if (bp.total_questions != null) mech.push(`${bp.total_questions} questions`);
+    if (bp.duration_minutes != null) mech.push(`${bp.duration_minutes} min`);
+    if (bp.passing_score != null)
+      mech.push(`pass ${bp.passing_score}${bp.passing_score_scale ? ` (${bp.passing_score_scale})` : ""}`);
+    if (bp.exam_format) mech.push(String(bp.exam_format));
+    if (mech.length) L.push(`Format: ${mech.join(" · ")}`);
+    if (bp.question_types?.length) L.push(`Question types: ${bp.question_types.join(", ")}`);
+    if (bp.exam_price_usd != null)
+      L.push(`Price: $${bp.exam_price_usd}${bp.exam_price_notes ? ` (${bp.exam_price_notes})` : ""}`);
+    if (bp.available_languages?.length) L.push(`Languages: ${bp.available_languages.join(", ")}`);
 
-  const ren: string[] = [];
-  if (bp.certification_validity_years != null) ren.push(`valid ${bp.certification_validity_years} yr`);
-  if (bp.renewal_required != null) ren.push(bp.renewal_required ? "renewal required" : "no renewal");
-  if (ren.length) L.push(`Validity: ${ren.join(" · ")}${bp.renewal_options ? ` — ${toText(bp.renewal_options)}` : ""}`);
-  const retake = toText(bp.retake_policy);
-  if (retake) L.push(`Retake policy: ${retake}`);
+    const prereq = toText(bp.prerequisites);
+    L.push(`Prerequisites: ${prereq ? prereq : "None stated"}`);
+    const recExp = toText(bp.recommended_experience);
+    if (recExp) L.push(`Recommended experience: ${recExp}`);
+
+    const ren: string[] = [];
+    if (bp.certification_validity_years != null) ren.push(`valid ${bp.certification_validity_years} yr`);
+    if (bp.renewal_required != null) ren.push(bp.renewal_required ? "renewal required" : "no renewal");
+    if (ren.length) L.push(`Validity: ${ren.join(" · ")}${bp.renewal_options ? ` — ${toText(bp.renewal_options)}` : ""}`);
+    const retake = toText(bp.retake_policy);
+    if (retake) L.push(`Retake policy: ${retake}`);
+  }
 
   if (hasApprovedEnrichment(bp) && bp.editorial) {
     const editorial = bp.editorial;
     L.push("");
-    L.push("## What this exam validates");
+    L.push(retired ? "## Historical scope" : "## What this exam validates");
     L.push(editorial.overview);
     L.push("");
-    L.push("## Who should take it");
+    L.push(retired ? "## Who this was for" : "## Who should take it");
     L.push(editorial.who_should_take);
     if (editorial.skills_summary?.length) {
       L.push("");
@@ -109,11 +141,28 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
       for (const skill of editorial.skills_summary) L.push(`- ${skill}`);
     }
     L.push("");
-    L.push("## How to prepare");
+    L.push(retired ? "## How to reuse prior preparation" : "## How to prepare");
     L.push(editorial.preparation_strategy);
+    if (retired && bp.lifecycle) {
+      const replacementCode = bp.lifecycle.replacement?.exam_code ?? "the replacement exam";
+      if (bp.lifecycle.skill_comparison?.length) {
+        L.push("");
+        L.push(`## What changed from ${bp.exam_code ?? "the retired exam"} to ${replacementCode}`);
+        for (const item of bp.lifecycle.skill_comparison) {
+          const legacy = `${item.legacy_skill ?? "Legacy skill"}${item.legacy_weight ? ` (${item.legacy_weight})` : ""}`;
+          const current = `${item.replacement_skill ?? "Replacement skill"}${item.replacement_weight ? ` (${item.replacement_weight})` : ""}`;
+          L.push(`- ${legacy} -> ${current}${item.change ? `: ${item.change}` : ""}`);
+        }
+      }
+      if (bp.lifecycle.migration_actions?.length) {
+        L.push("");
+        L.push("## Migration checklist");
+        for (const action of bp.lifecycle.migration_actions) L.push(`- ${action}`);
+      }
+    }
     if (editorial.domain_guidance?.length) {
       L.push("");
-      L.push("## Domain study guidance");
+      L.push(retired ? "## Historical domain guide" : "## Domain study guidance");
       for (const guidance of editorial.domain_guidance) {
         const domain = bp.domains?.find((item) => String(item.id ?? "") === guidance.domain_id);
         L.push(`### ${domain?.name ?? `Domain ${guidance.domain_id}`}`);
@@ -121,7 +170,7 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
         for (const focus of guidance.study_focus ?? []) L.push(`- ${focus}`);
       }
     }
-    if (editorial.exam_day_guidance) {
+    if (editorial.exam_day_guidance && !retired) {
       L.push("");
       L.push("## Exam-day guidance");
       L.push(editorial.exam_day_guidance);
@@ -151,7 +200,7 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
 
   if (bp.domains?.length) {
     L.push("");
-    L.push(`## Domains (${bp.domains.length})`);
+    L.push(retired ? "## Historical domains" : `## Domains (${bp.domains.length})`);
     for (const d of bp.domains) {
       let w = "";
       if (d.weight_min_percent != null && d.weight_max_percent != null) {
@@ -183,7 +232,7 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
   L.push("");
   if (bp.source_url) L.push(`Official source: ${bp.source_url}`);
   if (bp.official_objectives_url) L.push(`Objectives: ${bp.official_objectives_url}`);
-  if (bp.exam_registration_url) L.push(`Register: ${bp.exam_registration_url}`);
+  if (bp.exam_registration_url && !retired) L.push(`Register: ${bp.exam_registration_url}`);
   if (hasApprovedEnrichment(bp) && bp.sources?.length) {
     L.push("");
     L.push("## Sources and verification");
@@ -193,8 +242,13 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
       L.push(`- ${source.title} (${source.publisher}): ${source.url}`);
     }
   }
+  if (hasApprovedEnrichment(bp) && bp.editorial?.methodology?.summary) {
+    L.push("");
+    L.push("## How this record was made");
+    L.push(bp.editorial.methodology.summary);
+  }
   const practice = practiceLink(e, bp, "get_exam_blueprint");
-  if (practice) L.push(practiceCta(bp.exam_name, practice));
+  if (practice && !retired) L.push(practiceCta(bp.exam_name, practice));
   return L.join("\n");
 }
 

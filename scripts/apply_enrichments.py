@@ -103,6 +103,14 @@ def apply_enrichments(
         entry.pop("content_status", None)
         entry["enriched"] = True
         entry["verified_at"] = _reviewed_at(overlay)
+        lifecycle = overlay.get("lifecycle")
+        if isinstance(lifecycle, dict) and lifecycle.get("status") == "retired":
+            replacement = lifecycle.get("replacement") or {}
+            entry["lifecycle_status"] = "retired"
+            entry["retired_on"] = lifecycle.get("retired_on")
+            entry["replacement_exam_code"] = replacement.get("exam_code")
+            entry["replacement_url"] = replacement.get("url")
+            entry["practice_url"] = None
         report["applied"] += 1
         index_changed = True
 

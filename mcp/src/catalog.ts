@@ -118,6 +118,10 @@ export interface IndexEntry {
   practice_url: string | null;
   enriched?: boolean;
   verified_at?: string | null;
+  lifecycle_status?: string | null;
+  retired_on?: string | null;
+  replacement_exam_code?: string | null;
+  replacement_url?: string | null;
 }
 
 interface IndexFile {
@@ -160,7 +164,28 @@ export interface EditorialContent {
   preparation_strategy: string;
   domain_guidance?: DomainGuidance[];
   exam_day_guidance?: string;
+  methodology?: { summary?: string; source_ids?: string[] } | null;
   source_ids?: string[];
+}
+
+export interface ExamLifecycle {
+  status: string;
+  retired_on?: string | null;
+  summary?: string | null;
+  replacement?: {
+    exam_code?: string | null;
+    name?: string | null;
+    url?: string | null;
+    study_guide_url?: string | null;
+  } | null;
+  migration_actions?: string[] | null;
+  skill_comparison?: Array<{
+    legacy_skill?: string | null;
+    legacy_weight?: string | null;
+    replacement_skill?: string | null;
+    replacement_weight?: string | null;
+    change?: string | null;
+  }> | null;
 }
 
 export interface EnrichmentSource {
@@ -222,6 +247,7 @@ export interface Blueprint {
   study_signals?: StudySignals | null;
   sources?: EnrichmentSource[] | null;
   content_quality?: ContentQuality | null;
+  lifecycle?: ExamLifecycle | null;
   aliases?: string[] | null;
   practice_url?: string | null;
   [k: string]: unknown;
