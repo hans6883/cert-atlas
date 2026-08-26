@@ -131,6 +131,7 @@ def retired_overlay():
             "name": "Example Next Professional",
             "url": "https://vendor.example/exams/example-101",
             "study_guide_url": "https://vendor.example/exams/example-101/guide",
+            "relationship": "direct_replacement",
         },
         "migration_actions": [
             "Stop scheduling or purchasing EX-100 preparation products.",
@@ -230,6 +231,15 @@ class EnrichmentValidationTests(unittest.TestCase):
         self.assertTrue(any("retired_on" in error for error in result.errors))
         self.assertTrue(any("replacement.url" in error for error in result.errors))
         self.assertTrue(any("missing-source" in error for error in result.errors))
+
+    def test_retired_exam_rejects_unsupported_replacement_relationship(self):
+        overlay = retired_overlay()
+        overlay["lifecycle"]["replacement"]["relationship"] = "same_exam_renamed"
+
+        result = validate_overlay(base_exam(), overlay)
+
+        self.assertFalse(result.publishable)
+        self.assertTrue(any("relationship" in error for error in result.errors))
 
     def test_raw_exam_bank_shape_is_rejected(self):
         overlay = rich_overlay()
@@ -407,6 +417,16 @@ class EnrichedPageTests(unittest.TestCase):
         self.assertNotIn("Online Proctoring", html)
         self.assertNotIn("Multiple Choice", html)
 
+    def test_retired_page_labels_related_successor_without_calling_it_direct(self):
+        overlay = retired_overlay()
+        overlay["lifecycle"]["replacement"]["relationship"] = "related_successor"
+        exam = merge_overlay(base_exam(), overlay)
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn("Explore related current path EX-101", html)
+        self.assertNotIn("Prepare for EX-101", html)
+
     def test_page_renders_string_objectives_from_official_sources(self):
         exam = base_exam()
         exam["domains"][0]["objectives"] = [
@@ -441,6 +461,25 @@ class EnrichedPageTests(unittest.TestCase):
         self.assertIn("replaced by EX-101", html)
         self.assertNotIn("60 questions", html)
         self.assertNotIn("90 min", html)
+
+    def test_vendor_page_does_not_call_related_path_a_replacement(self):
+        entry = {
+            "exam_id": "vendor-example-100",
+            "exam_name": "Example Professional",
+            "exam_code": "EX-100",
+            "domains": 1,
+            "lifecycle_status": "retired",
+            "retired_on": "2026-06-30",
+            "replacement_exam_code": "EX-101",
+            "replacement_relationship": "related_successor",
+        }
+
+        html = build_vendor_page(
+            "example-vendor", {"display_name": "Example Vendor"}, [entry]
+        )
+
+        self.assertIn("related current path EX-101", html)
+        self.assertNotIn("replaced by EX-101", html)
 
 
 class ApplyEnrichmentTests(unittest.TestCase):
@@ -552,6 +591,9 @@ class ApplyEnrichmentTests(unittest.TestCase):
             self.assertEqual(entry["lifecycle_status"], "retired")
             self.assertEqual(entry["retired_on"], "2026-06-30")
             self.assertEqual(entry["replacement_exam_code"], "EX-101")
+            self.assertEqual(
+                entry["replacement_relationship"], "direct_replacement"
+            )
             self.assertEqual(
                 entry["replacement_url"],
                 "https://vendor.example/exams/example-101",

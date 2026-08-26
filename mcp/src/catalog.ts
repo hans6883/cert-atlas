@@ -121,6 +121,7 @@ export interface IndexEntry {
   lifecycle_status?: string | null;
   retired_on?: string | null;
   replacement_exam_code?: string | null;
+  replacement_relationship?: "direct_replacement" | "collective_replacement" | "related_successor" | null;
   replacement_url?: string | null;
 }
 
@@ -177,6 +178,7 @@ export interface ExamLifecycle {
     name?: string | null;
     url?: string | null;
     study_guide_url?: string | null;
+    relationship?: "direct_replacement" | "collective_replacement" | "related_successor" | null;
   } | null;
   migration_actions?: string[] | null;
   skill_comparison?: Array<{

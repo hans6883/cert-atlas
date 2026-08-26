@@ -387,7 +387,15 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
             meta_parts.append(f"Retired {retired_label}".strip())
             replacement_code = str(ex.get("replacement_exam_code") or "").strip()
             if replacement_code:
-                meta_parts.append(f"replaced by {replacement_code}")
+                relationship = ex.get(
+                    "replacement_relationship", "direct_replacement"
+                )
+                relationship_label = {
+                    "related_successor": "related current path",
+                    "collective_replacement": "broader replacement path",
+                    "direct_replacement": "replaced by",
+                }.get(relationship, "current path")
+                meta_parts.append(f"{relationship_label} {replacement_code}")
         else:
             if ex.get("total_questions"):
                 meta_parts.append(f'{ex["total_questions"]} questions')
@@ -455,6 +463,11 @@ def build_enrichment_html(exam):
         replacement = lifecycle.get("replacement", {})
         legacy_code = str(exam.get("exam_code") or exam.get("exam_name") or "This exam")
         replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+        relationship = str(replacement.get("relationship") or "direct_replacement")
+        replacement_cta = {
+            "related_successor": "Explore related current path",
+            "collective_replacement": "Explore the broader replacement path",
+        }.get(relationship, "Prepare for")
         retired_on = str(lifecycle.get("retired_on") or "")
         try:
             retired_label = datetime.strptime(retired_on, "%Y-%m-%d").strftime("%B %d, %Y").replace(" 0", " ")
@@ -467,7 +480,7 @@ def build_enrichment_html(exam):
                 '<p class="retirement-label">Retired exam</p>',
                 f'<h2>{h(legacy_code)} was retired on {h(retired_label)}</h2>',
                 f'<p>{h(lifecycle.get("summary") or "")}</p>',
-                f'<a class="replacement-link" href="{replacement_url}" rel="nofollow">Prepare for {h(replacement_code)}: {h(replacement.get("name") or "current replacement")}</a>',
+                f'<a class="replacement-link" href="{replacement_url}" rel="nofollow">{h(replacement_cta)} {h(replacement_code)}: {h(replacement.get("name") or "current path")}</a>',
                 '</div>',
                 f'<h2>Historical {h(legacy_code)} Scope</h2><p>{h(editorial.get("overview", ""))}</p>',
                 f'<h2>Who {h(legacy_code)} Was For</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
@@ -498,12 +511,16 @@ def build_enrichment_html(exam):
         replacement = lifecycle.get("replacement", {})
         legacy_code = str(exam.get("exam_code") or "the retired exam")
         replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+        relationship = str(replacement.get("relationship") or "direct_replacement")
         comparisons = [
             item for item in lifecycle.get("skill_comparison", []) if isinstance(item, dict)
         ]
-        sections.append(
-            f'<div class="migration-map"><h2>What changed from {h(legacy_code)} to {h(replacement_code)}</h2>'
+        comparison_heading = (
+            f"How {legacy_code} skills compare with {replacement_code}"
+            if relationship == "related_successor"
+            else f"What changed from {legacy_code} to {replacement_code}"
         )
+        sections.append(f'<div class="migration-map"><h2>{h(comparison_heading)}</h2>')
         if comparisons:
             rows = "".join(
                 "<tr>"
@@ -885,8 +902,11 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 
     page_title = f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas"
     if retired:
-        replacement_code = lifecycle.get("replacement", {}).get("exam_code") or "Replacement"
-        page_title = f"{code or name} Retired: {replacement_code} Replacement & Skill Map | Cert Atlas"
+        replacement = lifecycle.get("replacement", {})
+        replacement_code = replacement.get("exam_code") or "Current Path"
+        relationship = replacement.get("relationship") or "direct_replacement"
+        relation_label = "Related Path" if relationship == "related_successor" else "Replacement"
+        page_title = f"{code or name} Retired: {replacement_code} {relation_label} & Skill Map | Cert Atlas"
     elif has_public_enrichment(exam):
         page_title = f"{code or name} Exam Guide, Domains & Skills | Cert Atlas"
 

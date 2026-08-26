@@ -107,6 +107,8 @@ Phase 3 works through the 909 withheld registry exams, prioritizing records with
 
 Phase 4 continuously re-verifies sources by access date and content hash, queues changed exams for review, and publishes only reviewed deltas.
 
+The 2026-08-25 lifecycle expansion is documented in [LIFECYCLE-AUDIT-2026-08-25.md](LIFECYCLE-AUDIT-2026-08-25.md). It adds a full-registry candidate scan, an available-provider catalog comparison, and reviewed retirement overlays for AI-900, AI-102, DP-100, AZ-204, MB-240, MB-700, PL-500, and PL-600. Lifecycle relationships are explicitly typed as direct, collective, or related so neither the static site nor the MCP overstates equivalence. The accompanying live-catalog findings remain a review queue; discovery alone never passes the publication gate.
+
 ## Current registry quality decision
 
 The 2026-08-25 gated dry run compared all 1,673 existing public records with the 2,582-record local registry after rebasing the ServiceNow expansion. The newer registry would add domain data to 34 previously domainless records, increase domain counts for 69 records, and increase objective counts for one record. It is not yet safe as a wholesale replacement because 14 records would lose objectives and malformed legacy practice URLs still require an explicit repair or redirect decision. No passing-score or whole-domain breakdown losses remain in this comparison. Therefore the current implementation updates the MCP snapshot to the latest reviewed public dataset and promotes only the AI-102 pilot; it does not overwrite all existing exam JSON with the raw latest registry export.

@@ -1,302 +1,5 @@
 {
   "exam_id": "microsoft-mb-240-dynamics-365-field-service",
-  "exam_name": "Microsoft Dynamics 365 Field Service Functional Consultant",
-  "exam_code": "MB-240",
-  "certifying_body": "Microsoft",
-  "certification_name": null,
-  "version": null,
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-240",
-  "passing_score": 700,
-  "passing_score_scale": "1-1000",
-  "total_questions": 40,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Response",
-    "Drag and Drop",
-    "Case Study",
-    "Build List",
-    "Hot Area",
-    "Repeated Answer Choices"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 100,
-  "exam_price_usd": 165.0,
-  "exam_price_notes": null,
-  "voucher_url": null,
-  "exam_registration_url": "https://home.pearsonvue.com/microsoft",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/microsoft",
-      "notes": "In-person and online proctored (OnVUE)"
-    },
-    {
-      "provider": "Certiport",
-      "scheduling_url": "https://certiport.pearsonvue.com/",
-      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
-    }
-  ],
-  "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
-  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
-  "certification_validity_years": null,
-  "renewal_required": true,
-  "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
-  "continuing_education_units": null,
-  "available_languages": [
-    "English",
-    "Simplified Chinese",
-    "Traditional Chinese",
-    "French",
-    "German",
-    "Japanese",
-    "Korean",
-    "Portuguese",
-    "Russian",
-    "Spanish",
-    "Arabic",
-    "Indonesian"
-  ],
-  "target_audience": "Microsoft Dynamics 365 Field Service functional consultant",
-  "recommended_experience": "Basic understanding of field service principles and the role the Field Service app plays in relationship to the Dynamics 365 suite of applications, including integration of Microsoft Power Platform, Dynamics 365 Customer Service, Microsoft 365 apps, Dynamics 365 Remote Assist, and Dynamics 365 Guides.",
-  "prerequisites": [],
-  "retake_policy": {
-    "waiting_period_days": 0,
-    "max_attempts_per_year": 5,
-    "max_attempts_total": null,
-    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
-  },
-  "domains": [
-    {
-      "id": "1.0",
-      "name": "Configure field service applications",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Configure core Field Service components",
-          "sub_objectives": [
-            "Implement security for standard user groups",
-            "Configure territories, postal codes, and organizational units",
-            "Configure characteristics and proficiency models",
-            "Implement resource roles and categories",
-            "Configure Field Service settings",
-            "Configure trades and trade coverages",
-            "Configure not-to-exceed values",
-            "Configure Copilot summary",
-            "Configure product and service pricing",
-            "Create and configure required product and service types",
-            "Configure minimum charge amounts and durations",
-            "Determine how pricing rules affect the price that is applied to a product on a work order",
-            "Associate products and services with price lists",
-            "Configure bookable resources",
-            "Create and manage bookable resources, including frontline workers",
-            "Configure start and end locations for resources",
-            "Configure pay types and rates",
-            "Configure working hours and working hour templates",
-            "Manage time off requests",
-            "Enable technician time tracking",
-            "Configure facilities and equipment",
-            "Configure scheduling of multiple resources",
-            "Configure and apply Requirement group templates",
-            "Set up resource pools and crews",
-            "Schedule and visualize pools, crews, and Requirement groups on the schedule board",
-            "Integrate other tools with Field Service",
-            "Implement Dynamics 365 Remote Assist for use with Field Service",
-            "Set up and use Dynamics 365 Remote Assist one-time call",
-            "Use Dynamics 365 Guides with work orders",
-            "Set up the Field Service Portal"
-          ]
-        }
-      ],
-      "weight_min_percent": 20,
-      "weight_max_percent": 25
-    },
-    {
-      "id": "2.0",
-      "name": "Manage work orders and customer assets",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "2.1",
-          "title": "Configure the work order lifecycle",
-          "sub_objectives": [
-            "Configure work order types and work order resolutions",
-            "Configure booking status and work order sub-status values",
-            "Create and manage work orders",
-            "Create a work order",
-            "Add status and sub-status information to a work order",
-            "Organize work orders and resources by geography",
-            "Associate a work order with a price list, service-level agreement, and entitlement",
-            "Close a work order, including attaching a work order resolution",
-            "Create a work order by using Microsoft 365 Copilot in Outlook",
-            "Manage incidents",
-            "Configure incident types and suggestions",
-            "Assign requirement group templates to incident types",
-            "Add service tasks to incidents",
-            "Add products and services to incidents",
-            "Create and manage agreements",
-            "Configure agreements",
-            "Configure automatic generation of work orders",
-            "Configure agreement booking setup",
-            "Configure agreement invoicing",
-            "Create entitlements for agreements",
-            "Manage inspections",
-            "Create inspection templates",
-            "Associate inspections with work orders and customer assets",
-            "Create inspections without work orders",
-            "Configure customer assets",
-            "Create and manage customer assets",
-            "Configure products to enable automatic creation of customer assets",
-            "Create child assets",
-            "Configure 3D asset models",
-            "Create and manage functional locations",
-            "Configure properties and property templates"
-          ]
-        }
-      ],
-      "weight_min_percent": 25,
-      "weight_max_percent": 30
-    },
-    {
-      "id": "3.0",
-      "name": "Schedule and dispatch work orders",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "3.1",
-          "title": "Manage scheduling options",
-          "sub_objectives": [
-            "Schedule work orders by using the schedule board and schedule assistant",
-            "Configure fulfillment preferences",
-            "Configure quick scheduling (\"quick book\")",
-            "Configure resource requirements for multi-day scheduling",
-            "Include appointments in scheduling",
-            "Configure, customize, and manage schedule boards",
-            "Configure and manage schedule boards, including customizing views",
-            "Configure the Requirements panel",
-            "Configure schedule board settings",
-            "Customize a schedule board",
-            "Configure the schedule assistant",
-            "Configure schedule assistant settings",
-            "Apply filtering constraints",
-            "Troubleshoot the schedule assistant",
-            "Configure Universal Resource Scheduling",
-            "Enable scheduling for a table, including configuring the metadata",
-            "Configure geocoding for a custom table",
-            "Configure booking timestamps, booking journals, and actuals"
-          ]
-        }
-      ],
-      "weight_min_percent": 15,
-      "weight_max_percent": 20
-    },
-    {
-      "id": "4.0",
-      "name": "Manage the Field Service mobile app",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "4.1",
-          "title": "Deliver work orders by using the mobile app",
-          "sub_objectives": [
-            "Complete work orders, including tasks, booking statuses, follow-up work orders, signatures, images, and Field Service technician reports",
-            "Service and maintain customer assets, including IoT devices",
-            "Perform inspections, including adding ad hoc inspections",
-            "Manage working offline",
-            "Perform time entry",
-            "Launch related apps, including Dynamics 365 Remote Assist and Guides",
-            "Set up the mobile app",
-            "Configure security roles",
-            "Customize the mobile app including forms, views, pages, and navigation",
-            "Enable and configure location tracking and geofencing",
-            "Configure mobile offline profiles, online mode, and synchronization",
-            "Configure push notifications",
-            "Configure barcode features",
-            "Install the mobile app",
-            "Configure technician service reports"
-          ]
-        }
-      ],
-      "weight_min_percent": 5,
-      "weight_max_percent": 10
-    },
-    {
-      "id": "5.0",
-      "name": "Manage inventory and purchasing by using the built-in inventory management system",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "5.1",
-          "title": "Manage inventory and warehouses",
-          "sub_objectives": [
-            "Set up inventory and warehouses",
-            "View product inventory",
-            "Adjust inventory levels",
-            "Transfer inventory between warehouses",
-            "Manually update inventory by using inventory journals",
-            "Manage purchasing and product returns",
-            "Create purchase orders",
-            "Create a list of receivable products for a purchase order",
-            "Create return merchandise authorizations",
-            "Create return to vendor transactions",
-            "Finalize returns"
-          ]
-        }
-      ],
-      "weight_min_percent": 5,
-      "weight_max_percent": 10
-    },
-    {
-      "id": "6.0",
-      "name": "Implement Microsoft Power Platform",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "6.1",
-          "title": "Configure model-driven apps",
-          "sub_objectives": [
-            "Create and configure forms",
-            "Create and configure views",
-            "Configure navigation",
-            "Create custom apps and automations",
-            "Create task-specific canvas apps and custom pages",
-            "Embed apps in Field Service",
-            "Use Power Automate cloud flows to automate tasks and enhance Field Service"
-          ]
-        }
-      ],
-      "weight_min_percent": 5,
-      "weight_max_percent": 10
-    }
-  ],
-  "official_objectives_url": null,
-  "official_study_resources": [
-    {
-      "resource_type": "online_course",
-      "title": "Microsoft Learn (free self-paced training)",
-      "url": "https://learn.microsoft.com/en-us/training/",
-      "provider": "Microsoft",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official learning paths mapped to each exam"
-    },
-    {
-      "resource_type": "practice_exam",
-      "title": "Microsoft Official Practice Assessment",
-      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
-      "provider": "Microsoft",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official practice questions on Microsoft Learn"
-    }
-  ],
-  "aliases": [
-    "mb-240",
-    "microsoft dynamics 365 field service functional consultant",
-    "microsoft-mb-240-dynamics-365-field-service"
-  ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Field%20Service%20Functional%20Consultant",
   "editorial": {
     "meta_description": "MB-240 is retired. Compare its historical blueprint with AB-250, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "MB-240 was Microsoft's Microsoft Dynamics 365 Field Service Functional Consultant exam until its retirement on 2026-06-30. Its final published scope covered Configure field service applications, Manage work orders and customer assets, Schedule and dispatch work orders, Manage the Field Service mobile app, Manage inventory and purchasing by using the built-in inventory management system, Implement Microsoft Power Platform. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -398,6 +101,59 @@
       "microsoft-mb-240-study-guide"
     ]
   },
+  "fact_overrides": {
+    "domains": [
+      {
+        "domain_id": "1.0",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "weight_min_percent": 25,
+        "weight_max_percent": 30,
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "weight_min_percent": 5,
+        "weight_max_percent": 10,
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "weight_min_percent": 5,
+        "weight_max_percent": 10,
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "6.0",
+        "weight_min_percent": 5,
+        "weight_max_percent": 10,
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      }
+    ]
+  },
+  "study_signals": null,
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-06-30",
@@ -491,7 +247,7 @@
       "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
     }
   ],
-  "content_quality": {
+  "quality": {
     "status": "reviewed",
     "publishable": true,
     "evidence_coverage": 0.97,

@@ -393,6 +393,16 @@ def validate_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> Validatio
                     result.errors.append(
                         f"lifecycle.replacement.{field_name} must be an https URL"
                     )
+            relationship = replacement.get("relationship", "direct_replacement")
+            if relationship not in {
+                "direct_replacement",
+                "collective_replacement",
+                "related_successor",
+            }:
+                result.errors.append(
+                    "lifecycle.replacement.relationship must be direct_replacement, "
+                    "collective_replacement, or related_successor"
+                )
 
             actions = lifecycle.get("migration_actions")
             if not isinstance(actions, list) or len(

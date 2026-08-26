@@ -3,7 +3,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { withUtm, practiceCta, toText, getIndex, resolveExam, getBlueprint } from "../dist/catalog.js";
-import { blueprintText, datasetSummary } from "../dist/server.js";
+import { blueprintText, datasetSummary, indexLine } from "../dist/server.js";
 
 test("withUtm appends attribution and preserves existing query", () => {
   const u = new URL(withUtm("https://quizforge.ai/tests/cissp", "search_exams"));
@@ -258,4 +258,23 @@ test("published AI-102 data resolves as retired and points to AI-103", async () 
   assert.match(output, /What changed from AI-102 to AI-103/);
   assert.doesNotMatch(output, /Free practice exam/);
   assert.doesNotMatch(output, /Register:/);
+});
+
+test("published MB-240 data describes AB-250 as related rather than direct", async () => {
+  const entry = await resolveExam("MB-240");
+  assert.ok(entry, "MB-240 should resolve");
+  assert.equal(entry.lifecycle_status, "retired");
+  assert.equal(entry.replacement_exam_code, "AB-250");
+  assert.equal(entry.replacement_relationship, "related_successor");
+  assert.match(indexLine(entry, "search_exams"), /related current path AB-250/);
+  assert.doesNotMatch(indexLine(entry, "search_exams"), /replaced by AB-250/);
+
+  const blueprint = await getBlueprint(entry);
+  assert.equal(blueprint.lifecycle.replacement.relationship, "related_successor");
+
+  const output = blueprintText(entry, blueprint);
+  assert.match(output, /Related current path: AB-250/);
+  assert.match(output, /How MB-240 skills compare with AB-250/);
+  assert.doesNotMatch(output, /Replacement: AB-250/);
+  assert.doesNotMatch(output, /What changed from MB-240 to AB-250/);
 });

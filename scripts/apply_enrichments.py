@@ -109,6 +109,9 @@ def apply_enrichments(
             entry["lifecycle_status"] = "retired"
             entry["retired_on"] = lifecycle.get("retired_on")
             entry["replacement_exam_code"] = replacement.get("exam_code")
+            entry["replacement_relationship"] = replacement.get(
+                "relationship", "direct_replacement"
+            )
             entry["replacement_url"] = replacement.get("url")
             entry["practice_url"] = None
         report["applied"] += 1

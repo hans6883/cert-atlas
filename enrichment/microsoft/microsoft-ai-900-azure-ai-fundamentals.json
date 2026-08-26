@@ -1,259 +1,5 @@
 {
   "exam_id": "microsoft-ai-900-azure-ai-fundamentals",
-  "exam_name": "Microsoft Azure AI Fundamentals",
-  "exam_code": "AI-900",
-  "certifying_body": "Microsoft",
-  "certification_name": "Microsoft Azure AI Fundamentals",
-  "version": "as of May 2, 2025",
-  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900",
-  "passing_score": 700,
-  "passing_score_scale": "1-1000",
-  "total_questions": 40,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Response",
-    "Drag and Drop",
-    "Case Study",
-    "Build List",
-    "Hot Area",
-    "Repeated Answer Choices"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 45,
-  "exam_price_usd": 165.0,
-  "exam_price_notes": null,
-  "voucher_url": null,
-  "exam_registration_url": "https://home.pearsonvue.com/microsoft",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/microsoft",
-      "notes": "In-person and online proctored (OnVUE)"
-    },
-    {
-      "provider": "Certiport",
-      "scheduling_url": "https://certiport.pearsonvue.com/",
-      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
-    }
-  ],
-  "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
-  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
-  "certification_validity_years": null,
-  "renewal_required": true,
-  "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
-  "continuing_education_units": null,
-  "available_languages": [
-    "English",
-    "Simplified Chinese",
-    "Traditional Chinese",
-    "French",
-    "German",
-    "Japanese",
-    "Korean",
-    "Portuguese",
-    "Russian",
-    "Spanish",
-    "Arabic",
-    "Indonesian"
-  ],
-  "target_audience": "This exam is an opportunity for you to demonstrate knowledge of machine learning and AI concepts and related Microsoft Azure services. As a candidate for this exam, you should have familiarity with Exam AI-900’s self-paced or instructor-led learning material.",
-  "recommended_experience": "Basic cloud concepts, Client-server applications",
-  "prerequisites": [
-    {
-      "prerequisite_type": "recommended",
-      "description": "Basic cloud concepts, Client-server applications",
-      "is_required": false
-    }
-  ],
-  "retake_policy": {
-    "waiting_period_days": 0,
-    "max_attempts_per_year": 5,
-    "max_attempts_total": null,
-    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
-  },
-  "domains": [
-    {
-      "id": "1.0",
-      "name": "Describe Artificial Intelligence workloads and considerations",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Identify features of common AI workloads",
-          "sub_objectives": [
-            "Identify computer vision workloads",
-            "Identify natural language processing workloads",
-            "Identify document processing workloads",
-            "Identify features of generative AI workloads"
-          ]
-        },
-        {
-          "id": "1.2",
-          "title": "Identify guiding principles for responsible AI",
-          "sub_objectives": [
-            "Describe considerations for fairness in an AI solution",
-            "Describe considerations for reliability and safety in an AI solution",
-            "Describe considerations for privacy and security in an AI solution",
-            "Describe considerations for inclusiveness in an AI solution",
-            "Describe considerations for transparency in an AI solution",
-            "Describe considerations for accountability in an AI solution"
-          ]
-        }
-      ],
-      "weight_min_percent": 15,
-      "weight_max_percent": 20
-    },
-    {
-      "id": "2.0",
-      "name": "Describe fundamental principles of machine learning on Azure",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "2.1",
-          "title": "Identify common machine learning techniques",
-          "sub_objectives": [
-            "Identify regression machine learning scenarios",
-            "Identify classification machine learning scenarios",
-            "Identify clustering machine learning scenarios",
-            "Identify features of deep learning techniques",
-            "Identify features of the Transformer architecture"
-          ]
-        },
-        {
-          "id": "2.2",
-          "title": "Describe core machine learning concepts",
-          "sub_objectives": [
-            "Identify features and labels in a dataset for machine learning",
-            "Describe how training and validation datasets are used in machine learning",
-            "Describe Azure Machine Learning capabilities",
-            "Describe capabilities of automated machine learning",
-            "Describe data and compute services for data science and machine learning",
-            "Describe model management and deployment capabilities in Azure Machine Learning"
-          ]
-        }
-      ],
-      "weight_min_percent": 15,
-      "weight_max_percent": 20
-    },
-    {
-      "id": "3.0",
-      "name": "Describe features of computer vision workloads on Azure",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "3.1",
-          "title": "Identify common types of computer vision solution",
-          "sub_objectives": [
-            "Identify features of image classification solutions",
-            "Identify features of object detection solutions",
-            "Identify features of optical character recognition solutions",
-            "Identify features of facial detection and facial analysis solutions"
-          ]
-        },
-        {
-          "id": "3.2",
-          "title": "Identify Azure tools and services for computer vision tasks",
-          "sub_objectives": [
-            "Describe capabilities of the Azure AI Vision service",
-            "Describe capabilities of the Azure AI Face detection service"
-          ]
-        }
-      ],
-      "weight_min_percent": 15,
-      "weight_max_percent": 20
-    },
-    {
-      "id": "4.0",
-      "name": "Describe features of Natural Language Processing (NLP) workloads on Azure",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "4.1",
-          "title": "Identify features of common NLP Workload Scenarios",
-          "sub_objectives": [
-            "Identify features and uses for key phrase extraction",
-            "Identify features and uses for entity recognition",
-            "Identify features and uses for sentiment analysis",
-            "Identify features and uses for language modeling",
-            "Identify features and uses for speech recognition and synthesis",
-            "Identify features and uses for translation"
-          ]
-        },
-        {
-          "id": "4.2",
-          "title": "Identify Azure tools and services for NLP workloads",
-          "sub_objectives": [
-            "Describe capabilities of the Azure AI Language service",
-            "Describe capabilities of the Azure AI Speech service"
-          ]
-        }
-      ],
-      "weight_min_percent": 15,
-      "weight_max_percent": 20
-    },
-    {
-      "id": "5.0",
-      "name": "Describe features of generative AI workloads on Azure",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "5.1",
-          "title": "Identify features of generative AI solutions",
-          "sub_objectives": [
-            "Identify features of generative AI models",
-            "Identify common scenarios for generative AI",
-            "Identify responsible AI considerations for generative AI",
-            "Identify generative AI services and capabilities in Microsoft Azure"
-          ]
-        },
-        {
-          "id": "5.2",
-          "title": "Describe features and capabilities of Azure AI Foundry",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.3",
-          "title": "Describe features and capabilities of Azure OpenAI service",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.4",
-          "title": "Describe features and capabilities of Azure AI Foundry model catalog",
-          "sub_objectives": []
-        }
-      ],
-      "weight_min_percent": 20,
-      "weight_max_percent": 25
-    }
-  ],
-  "official_objectives_url": null,
-  "official_study_resources": [
-    {
-      "resource_type": "online_course",
-      "title": "Microsoft Learn (free self-paced training)",
-      "url": "https://learn.microsoft.com/en-us/training/",
-      "provider": "Microsoft",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official learning paths mapped to each exam"
-    },
-    {
-      "resource_type": "practice_exam",
-      "title": "Microsoft Official Practice Assessment",
-      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
-      "provider": "Microsoft",
-      "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official practice questions on Microsoft Learn"
-    }
-  ],
-  "aliases": [
-    "ai-900",
-    "microsoft azure ai fundamentals",
-    "microsoft-ai-900-azure-ai-fundamentals"
-  ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-ai-900-azure-ai-fundamentals",
   "editorial": {
     "meta_description": "AI-900 is retired. Compare its historical blueprint with AI-901, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "AI-900 was Microsoft's Microsoft Azure AI Fundamentals exam until its retirement on 2026-06-30. Its final published scope covered Describe Artificial Intelligence workloads and considerations, Describe fundamental principles of machine learning on Azure, Describe features of computer vision workloads on Azure, Describe features of Natural Language Processing (NLP) workloads on Azure, Describe features of generative AI workloads on Azure. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -342,6 +88,51 @@
       "microsoft-ai-900-study-guide"
     ]
   },
+  "fact_overrides": {
+    "domains": [
+      {
+        "domain_id": "1.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      }
+    ]
+  },
+  "study_signals": null,
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-06-30",
@@ -428,7 +219,7 @@
       "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
     }
   ],
-  "content_quality": {
+  "quality": {
     "status": "reviewed",
     "publishable": true,
     "evidence_coverage": 0.97,

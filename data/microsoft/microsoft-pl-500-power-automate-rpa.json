@@ -76,7 +76,7 @@
     {
       "id": "1.0",
       "name": "Design automations",
-      "weight_percent": 25.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
@@ -108,12 +108,14 @@
             "Design an automation that uses the document object model (DOM)"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 25,
+      "weight_max_percent": 30
     },
     {
       "id": "2.0",
       "name": "Develop automations",
-      "weight_percent": 45.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
@@ -186,12 +188,14 @@
             "Utilize debugging features in cloud and desktop flows"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 45,
+      "weight_max_percent": 50
     },
     {
       "id": "3.0",
       "name": "Deploy and manage automations",
-      "weight_percent": 25.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
@@ -224,7 +228,9 @@
             "Analyze cloud and desktop flow run history from the Power Automate portal"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 20,
+      "weight_max_percent": 25
     }
   ],
   "official_objectives_url": "https://learn.microsoft.com/en-us/learn/certifications/exams/pl-500",
@@ -253,5 +259,162 @@
     "microsoft-pl-500-power-automate-rpa",
     "pl-500"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-power-automate-rpa-developer-pl-500-2de6ob"
+  "practice_url": "https://quizforge.ai/tests/microsoft-power-automate-rpa-developer-pl-500-2de6ob",
+  "editorial": {
+    "meta_description": "PL-500 is retired. Compare its historical blueprint with AB-100, see what transfers, and rebuild your plan around the current Microsoft exam.",
+    "overview": "PL-500 was Microsoft's Microsoft Power Automate RPA Developer exam until its retirement on 2026-06-30. Its final published scope covered Design automations, Develop automations, Deploy and manage automations. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
+    "who_should_take": "Nobody should start a new certification plan around PL-500. This page serves former candidates, credential holders, training teams removing stale material, and practitioners deciding whether prior preparation is reusable for AB-100. New candidates should verify the active Microsoft page and current dated study guide before booking.",
+    "skills_summary": [
+      "Preserve practical experience from Design automations only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Develop automations only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Deploy and manage automations only where the current guide shows meaningful overlap"
+    ],
+    "preparation_strategy": "Do not rename an old PL-500 checklist or question bank as AB-100. Compare the two official guides objective by objective and classify each historical skill as transferable, changed, or absent. Use transferable experience as a diagnostic baseline, then rebuild labs and review around AB-100's current domain weights, products, role expectations, security controls, and operational tasks. Because Microsoft identifies AB-100 as the broader replacement path, review the skill map below before assuming equivalence.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Historically, Design automations required candidates to connect configuration choices with operational outcomes. The official outline included Design automations using Power Automate features and capabilities. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what design automations required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-pl-500-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Historically, Develop automations required candidates to connect configuration choices with operational outcomes. The official outline included Develop cloud flows; Develop desktop flows. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what develop automations required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-pl-500-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Historically, Deploy and manage automations required candidates to connect configuration choices with operational outcomes. The official outline included Perform target environment preparation; Implement access to RPA components. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what deploy and manage automations required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-pl-500-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "PL-500 can no longer be scheduled. Use the active AB-100 certification page for current duration, languages, price, delivery, accommodations, and registration details, and verify them again immediately before booking.",
+    "methodology": {
+      "summary": "Cert Atlas compared Microsoft's final PL-500 study guide with the current AB-100 guide at the domain and objective level, then checked Microsoft's retirement list and transition announcement. OpenAI Codex assisted with extraction, normalization, comparison, and drafting. Claims were reviewed against the linked official sources; no exam stems, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-pl-500-study-guide",
+        "microsoft-ab-100-study-guide",
+        "microsoft-transition-announcement",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-pl-500-study-guide"
+    ]
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "summary": "Microsoft retired PL-500 and the Power Automate RPA Developer Associate certification on June 30, 2026. Microsoft places AB-100 in the broader replacement set, but the successor is an expert architecture credential rather than a like-for-like RPA developer exam.",
+    "replacement": {
+      "exam_code": "AB-100",
+      "name": "Agentic AI Business Solutions Architect",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
+      "relationship": "collective_replacement"
+    },
+    "migration_actions": [
+      "Stop scheduling, selling, or presenting PL-500 as a current exam.",
+      "Compare completed PL-500 preparation with the current AB-100 guide; do not carry over obsolete weighting or mechanics.",
+      "Create a fresh AB-100 plan around its current domains and hands-on role expectations.",
+      "Remove or quarantine practice content that cannot be mapped to a current objective with source evidence.",
+      "Recheck Microsoft's dated AB-100 study guide before booking because role-based exams change over time."
+    ],
+    "skill_comparison": [
+      {
+        "legacy_skill": "Design automations",
+        "legacy_weight": "25-30%",
+        "replacement_skill": "Plan AI-powered business solutions",
+        "replacement_weight": "25-30%",
+        "change": "Process analysis transfers, while AB-100 broadens planning to AI readiness, value, responsible use, data, and organizational adoption."
+      },
+      {
+        "legacy_skill": "Develop automations",
+        "legacy_weight": "45-50%",
+        "replacement_skill": "Design AI-powered business solutions",
+        "replacement_weight": "25-30%",
+        "change": "Hands-on desktop and cloud flow building gives way to architecture across agents, copilots, models, integrations, and human oversight."
+      },
+      {
+        "legacy_skill": "Deploy and manage automations",
+        "legacy_weight": "20-25%",
+        "replacement_skill": "Deploy AI-powered business solutions",
+        "replacement_weight": "40-45%",
+        "change": "Operational discipline remains useful, but AB-100 adds evaluation, governance, security, monitoring, cost, and multi-agent lifecycle concerns."
+      }
+    ],
+    "source_ids": [
+      "microsoft-pl-500-study-guide",
+      "microsoft-ab-100-study-guide",
+      "microsoft-transition-announcement",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-pl-500-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-500",
+      "title": "Study guide for Exam PL-500: Microsoft Power Automate RPA Developer",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:2bdb5ce1003925c836d588cd258e556b5bbbdb4114dc2419eae6b6519166dde2"
+    },
+    {
+      "id": "microsoft-ab-100-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
+      "title": "Study guide for Exam AB-100: Agentic AI Business Solutions Architect",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:685f2f4bff0122a20773a65abd092c9e52f5604eca9fe844df3c3811d0a99c78"
+    },
+    {
+      "id": "microsoft-transition-announcement",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+      "title": "Microsoft certification retirement and replacement announcement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:526dcf68cc1d18f34549ac081528b815335c57821543e54009c9da8bd9c64469"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.97,
+    "factual_confidence": 0.97,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T05:00:00Z",
+    "reviewed_at": "2026-08-26T05:20:00Z"
+  }
 }

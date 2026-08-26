@@ -31,7 +31,7 @@ const INSTRUCTIONS =
   "Use get_exam_blueprint for what's on an exam / domain weights / prerequisites / passing score / " +
   "duration; compare_exams for 'X vs Y / which is harder or cheaper'; list_certifying_bodies for " +
   "which providers are covered. Active results may include a free QuizForge practice-exam link. " +
-  "Retired results identify the replacement and must not promote stale exam actions.";
+  "Retired results identify the verified current path, if any, and must not promote stale exam actions.";
 
 // --- practice-link helper ----------------------------------------------------
 function practiceLink(e: IndexEntry, bp: Blueprint | null, tool: string): string | null {
@@ -39,13 +39,20 @@ function practiceLink(e: IndexEntry, bp: Blueprint | null, tool: string): string
 }
 
 // --- formatting helpers ------------------------------------------------------
-function indexLine(e: IndexEntry, tool: string): string {
+export function indexLine(e: IndexEntry, tool: string): string {
   const code = e.exam_code ? `[${e.exam_code}] ` : "";
   const retired = e.lifecycle_status === "retired";
+  const relationshipLabel = {
+    related_successor: "related current path",
+    collective_replacement: "broader replacement path",
+    direct_replacement: "replaced by",
+  }[e.replacement_relationship ?? "direct_replacement"];
   const parts = retired
     ? [
         `retired${e.retired_on ? ` ${e.retired_on}` : ""}`,
-        e.replacement_exam_code ? `replaced by ${e.replacement_exam_code}` : "replacement available",
+        e.replacement_exam_code
+          ? `${relationshipLabel} ${e.replacement_exam_code}`
+          : "no verified replacement",
       ]
     : [`${e.domains} domains`];
   if (!retired && e.total_questions != null) parts.push(`${e.total_questions} Q`);
@@ -91,9 +98,14 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
     const replacementCode = replacement?.exam_code ?? e.replacement_exam_code;
     const replacementUrl = replacement?.url ?? e.replacement_url;
     const replacementLabel = [replacementCode, replacement?.name].filter(Boolean).join(": ");
+    const relationshipLabel = {
+      related_successor: "Related current path",
+      collective_replacement: "Broader replacement path",
+      direct_replacement: "Replacement",
+    }[replacement?.relationship ?? "direct_replacement"];
     if (replacementLabel || replacementUrl) {
       L.push(
-        `Replacement: ${replacementLabel || "current exam"}${replacementUrl ? ` - ${replacementUrl}` : ""}`,
+        `${relationshipLabel}: ${replacementLabel || "current exam"}${replacementUrl ? ` - ${replacementUrl}` : ""}`,
       );
     }
     if (replacement?.study_guide_url) {
@@ -145,9 +157,14 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
     L.push(editorial.preparation_strategy);
     if (retired && bp.lifecycle) {
       const replacementCode = bp.lifecycle.replacement?.exam_code ?? "the replacement exam";
+      const relationship = bp.lifecycle.replacement?.relationship ?? "direct_replacement";
       if (bp.lifecycle.skill_comparison?.length) {
         L.push("");
-        L.push(`## What changed from ${bp.exam_code ?? "the retired exam"} to ${replacementCode}`);
+        L.push(
+          relationship === "related_successor"
+            ? `## How ${bp.exam_code ?? "the retired exam"} skills compare with ${replacementCode}`
+            : `## What changed from ${bp.exam_code ?? "the retired exam"} to ${replacementCode}`,
+        );
         for (const item of bp.lifecycle.skill_comparison) {
           const legacy = `${item.legacy_skill ?? "Legacy skill"}${item.legacy_weight ? ` (${item.legacy_weight})` : ""}`;
           const current = `${item.replacement_skill ?? "Replacement skill"}${item.replacement_weight ? ` (${item.replacement_weight})` : ""}`;
