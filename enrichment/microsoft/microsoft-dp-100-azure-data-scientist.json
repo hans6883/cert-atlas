@@ -1,0 +1,210 @@
+{
+  "exam_id": "microsoft-dp-100-azure-data-scientist",
+  "editorial": {
+    "meta_description": "DP-100 is retired. Compare its historical blueprint with AI-300, see what transfers, and rebuild your plan around the current Microsoft exam.",
+    "overview": "DP-100 was Microsoft's Designing and Implementing a Data Science Solution on Azure exam until its retirement on 2026-06-01. Its final published scope covered Design and prepare a machine learning solution, Explore data, and run experiments, Train and deploy models, Optimize language models for AI applications. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
+    "who_should_take": "Nobody should start a new certification plan around DP-100. This page serves former candidates, credential holders, training teams removing stale material, and practitioners deciding whether prior preparation is reusable for AI-300. New candidates should verify the active Microsoft page and current dated study guide before booking.",
+    "skills_summary": [
+      "Preserve practical experience from Design and prepare a machine learning solution only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Explore data, and run experiments only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Train and deploy models only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Optimize language models for AI applications only where the current guide shows meaningful overlap"
+    ],
+    "preparation_strategy": "Do not rename an old DP-100 checklist or question bank as AI-300. Compare the two official guides objective by objective and classify each historical skill as transferable, changed, or absent. Use transferable experience as a diagnostic baseline, then rebuild labs and review around AI-300's current domain weights, products, role expectations, security controls, and operational tasks. Because Microsoft identifies AI-300 as the direct replacement, review the skill map below before assuming equivalence.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Historically, Design and prepare a machine learning solution required candidates to connect configuration choices with operational outcomes. The official outline included Design a machine learning solution; Create and manage a workspace. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what design and prepare a machine learning solution required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Historically, Explore data, and run experiments required candidates to connect configuration choices with operational outcomes. The official outline included Use automated machine learning to explore optimal models; Select and understand training options. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what explore data, and run experiments required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Historically, Train and deploy models required candidates to connect configuration choices with operational outcomes. The official outline included Run model training scripts; Use logs to troubleshoot job run errors. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what train and deploy models required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Historically, Optimize language models for AI applications required candidates to connect configuration choices with operational outcomes. The official outline included Prepare for model optimization; Optimize through prompt engineering and prompt flow. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what optimize language models for ai applications required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "DP-100 can no longer be scheduled. Use the active AI-300 certification page for current duration, languages, price, delivery, accommodations, and registration details, and verify them again immediately before booking.",
+    "methodology": {
+      "summary": "Cert Atlas compared Microsoft's final DP-100 study guide with the current AI-300 guide at the domain and objective level, then checked Microsoft's retirement list and transition announcement. OpenAI Codex assisted with extraction, normalization, comparison, and drafting. Claims were reviewed against the linked official sources; no exam stems, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-dp-100-study-guide",
+        "microsoft-ai-300-study-guide",
+        "microsoft-transition-announcement",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-dp-100-study-guide"
+    ]
+  },
+  "fact_overrides": {
+    "domains": [
+      {
+        "domain_id": "1.0",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "weight_min_percent": 25,
+        "weight_max_percent": 30,
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "weight_min_percent": 25,
+        "weight_max_percent": 30,
+        "source_ids": [
+          "microsoft-dp-100-study-guide"
+        ]
+      }
+    ]
+  },
+  "study_signals": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-06-01",
+    "summary": "Microsoft retired DP-100 and the Azure Data Scientist Associate certification on June 1, 2026. Microsoft identifies AI-300 and the Machine Learning Operations Engineer Associate certification as the replacement path.",
+    "replacement": {
+      "exam_code": "AI-300",
+      "name": "Operationalizing Machine Learning and Generative AI Solutions",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
+      "relationship": "direct_replacement"
+    },
+    "migration_actions": [
+      "Stop scheduling, selling, or presenting DP-100 as a current exam.",
+      "Compare completed DP-100 preparation with the current AI-300 guide; do not carry over obsolete weighting or mechanics.",
+      "Create a fresh AI-300 plan around its current domains and hands-on role expectations.",
+      "Remove or quarantine practice content that cannot be mapped to a current objective with source evidence.",
+      "Recheck Microsoft's dated AI-300 study guide before booking because role-based exams change over time."
+    ],
+    "skill_comparison": [
+      {
+        "legacy_skill": "Design and prepare a machine learning solution",
+        "legacy_weight": "20-25%",
+        "replacement_skill": "Design and implement an MLOps infrastructure",
+        "replacement_weight": "15-20%",
+        "change": "The successor shifts from project setup toward reproducible infrastructure, source control, pipelines, environments, security, and governance."
+      },
+      {
+        "legacy_skill": "Explore data and run experiments; train and deploy models",
+        "legacy_weight": "45-55% combined",
+        "replacement_skill": "Implement machine learning model lifecycle and operations",
+        "replacement_weight": "25-30%",
+        "change": "Experimentation remains useful, but AI-300 emphasizes registration, deployment, monitoring, retraining, lineage, and operational response."
+      },
+      {
+        "legacy_skill": "Optimize language models for AI applications",
+        "legacy_weight": "25-30%",
+        "replacement_skill": "GenAIOps infrastructure, quality assurance, observability, and optimization",
+        "replacement_weight": "40-55% combined",
+        "change": "The replacement expands model optimization into production evaluation, tracing, safety, performance, RAG quality, and agent operations."
+      }
+    ],
+    "source_ids": [
+      "microsoft-dp-100-study-guide",
+      "microsoft-ai-300-study-guide",
+      "microsoft-transition-announcement",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-dp-100-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-100",
+      "title": "Study guide for Exam DP-100: Designing and Implementing a Data Science Solution on Azure",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:0de38b5c1b27a42b7a3073f67f885ef0f594994e6ab4255fcec4b6df0ad171c8"
+    },
+    {
+      "id": "microsoft-ai-300-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
+      "title": "Study guide for Exam AI-300: Operationalizing Machine Learning and Generative AI Solutions",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:a403120afdc513030faa045304c71ba0b52d0ab88fdd7317bf5362678290db3c"
+    },
+    {
+      "id": "microsoft-transition-announcement",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+      "title": "Microsoft certification retirement and replacement announcement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:526dcf68cc1d18f34549ac081528b815335c57821543e54009c9da8bd9c64469"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.97,
+    "factual_confidence": 0.97,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T05:00:00Z",
+    "reviewed_at": "2026-08-26T05:20:00Z"
+  }
+}

@@ -70,7 +70,7 @@
     {
       "id": "1.0",
       "name": "Configure field service applications",
-      "weight_percent": 20.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
@@ -108,12 +108,14 @@
             "Set up the Field Service Portal"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 20,
+      "weight_max_percent": 25
     },
     {
       "id": "2.0",
       "name": "Manage work orders and customer assets",
-      "weight_percent": 25.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
@@ -152,12 +154,14 @@
             "Configure properties and property templates"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 25,
+      "weight_max_percent": 30
     },
     {
       "id": "3.0",
       "name": "Schedule and dispatch work orders",
-      "weight_percent": 15.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
@@ -183,12 +187,14 @@
             "Configure booking timestamps, booking journals, and actuals"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 15,
+      "weight_max_percent": 20
     },
     {
       "id": "4.0",
       "name": "Manage the Field Service mobile app",
-      "weight_percent": 5.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "4.1",
@@ -211,12 +217,14 @@
             "Configure technician service reports"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 5,
+      "weight_max_percent": 10
     },
     {
       "id": "5.0",
       "name": "Manage inventory and purchasing by using the built-in inventory management system",
-      "weight_percent": 5.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "5.1",
@@ -235,12 +243,14 @@
             "Finalize returns"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 5,
+      "weight_max_percent": 10
     },
     {
       "id": "6.0",
       "name": "Implement Microsoft Power Platform",
-      "weight_percent": 5.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "6.1",
@@ -255,7 +265,9 @@
             "Use Power Automate cloud flows to automate tasks and enhance Field Service"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 5,
+      "weight_max_percent": 10
     }
   ],
   "official_objectives_url": null,
@@ -284,5 +296,208 @@
     "microsoft dynamics 365 field service functional consultant",
     "microsoft-mb-240-dynamics-365-field-service"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Field%20Service%20Functional%20Consultant"
+  "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Field%20Service%20Functional%20Consultant",
+  "editorial": {
+    "meta_description": "MB-240 is retired. Compare its historical blueprint with AB-250, see what transfers, and rebuild your plan around the current Microsoft exam.",
+    "overview": "MB-240 was Microsoft's Microsoft Dynamics 365 Field Service Functional Consultant exam until its retirement on 2026-06-30. Its final published scope covered Configure field service applications, Manage work orders and customer assets, Schedule and dispatch work orders, Manage the Field Service mobile app, Manage inventory and purchasing by using the built-in inventory management system, Implement Microsoft Power Platform. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
+    "who_should_take": "Nobody should start a new certification plan around MB-240. This page serves former candidates, credential holders, training teams removing stale material, and practitioners deciding whether prior preparation is reusable for AB-250. New candidates should verify the active Microsoft page and current dated study guide before booking.",
+    "skills_summary": [
+      "Preserve practical experience from Configure field service applications only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Manage work orders and customer assets only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Schedule and dispatch work orders only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Manage the Field Service mobile app only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Manage inventory and purchasing by using the built-in inventory management system only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Implement Microsoft Power Platform only where the current guide shows meaningful overlap"
+    ],
+    "preparation_strategy": "Do not rename an old MB-240 checklist or question bank as AB-250. Compare the two official guides objective by objective and classify each historical skill as transferable, changed, or absent. Use transferable experience as a diagnostic baseline, then rebuild labs and review around AB-250's current domain weights, products, role expectations, security controls, and operational tasks. Because Microsoft identifies AB-250 as a related current path, not a direct replacement, review the skill map below before assuming equivalence.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Historically, Configure field service applications required candidates to connect configuration choices with operational outcomes. The official outline included Configure core Field Service components. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what configure field service applications required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Historically, Manage work orders and customer assets required candidates to connect configuration choices with operational outcomes. The official outline included Configure the work order lifecycle. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what manage work orders and customer assets required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Historically, Schedule and dispatch work orders required candidates to connect configuration choices with operational outcomes. The official outline included Manage scheduling options. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what schedule and dispatch work orders required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Historically, Manage the Field Service mobile app required candidates to connect configuration choices with operational outcomes. The official outline included Deliver work orders by using the mobile app. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what manage the field service mobile app required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "Historically, Manage inventory and purchasing by using the built-in inventory management system required candidates to connect configuration choices with operational outcomes. The official outline included Manage inventory and warehouses. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what manage inventory and purchasing by using the built-in inventory management system required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      },
+      {
+        "domain_id": "6.0",
+        "summary": "Historically, Implement Microsoft Power Platform required candidates to connect configuration choices with operational outcomes. The official outline included Configure model-driven apps. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what implement microsoft power platform required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-mb-240-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "MB-240 can no longer be scheduled. Use the active AB-250 certification page for current duration, languages, price, delivery, accommodations, and registration details, and verify them again immediately before booking.",
+    "methodology": {
+      "summary": "Cert Atlas compared Microsoft's final MB-240 study guide with the current AB-250 guide at the domain and objective level, then checked Microsoft's retirement list and transition announcement. OpenAI Codex assisted with extraction, normalization, comparison, and drafting. Claims were reviewed against the linked official sources; no exam stems, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-mb-240-study-guide",
+        "microsoft-ab-250-study-guide",
+        "microsoft-transition-announcement",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-mb-240-study-guide"
+    ]
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "summary": "Microsoft retired MB-240 and the Dynamics 365 Field Service Functional Consultant Associate certification on June 30, 2026. Microsoft explicitly says AB-250 is not a direct replacement, but adds it as the related current path used to account for the retirement.",
+    "replacement": {
+      "exam_code": "AB-250",
+      "name": "Transforming Contact Center Experiences with AI in Dynamics 365",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-250/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250",
+      "relationship": "related_successor"
+    },
+    "migration_actions": [
+      "Stop scheduling, selling, or presenting MB-240 as a current exam.",
+      "Compare completed MB-240 preparation with the current AB-250 guide; do not carry over obsolete weighting or mechanics.",
+      "Create a fresh AB-250 plan around its current domains and hands-on role expectations.",
+      "Remove or quarantine practice content that cannot be mapped to a current objective with source evidence.",
+      "Recheck Microsoft's dated AB-250 study guide before booking because role-based exams change over time."
+    ],
+    "skill_comparison": [
+      {
+        "legacy_skill": "Configure field service applications",
+        "legacy_weight": "20-25%",
+        "replacement_skill": "Deploy Dynamics 365 Contact Center",
+        "replacement_weight": "15-20%",
+        "change": "Both require governed Dynamics configuration, but AB-250 targets contact center deployment rather than field service operations."
+      },
+      {
+        "legacy_skill": "Manage work orders, assets, inventory, and purchasing",
+        "legacy_weight": "30-40% combined",
+        "replacement_skill": "Implement channels and configure the representative experience",
+        "replacement_weight": "45-55% combined",
+        "change": "The core business process changes from onsite service fulfillment to voice and digital customer engagement."
+      },
+      {
+        "legacy_skill": "Schedule and dispatch work orders",
+        "legacy_weight": "15-20%",
+        "replacement_skill": "Configure work distribution",
+        "replacement_weight": "10-15%",
+        "change": "Routing concepts transfer at a high level, but the objects, constraints, metrics, and operating workflows are different."
+      },
+      {
+        "legacy_skill": "Field Service mobile app and Power Platform",
+        "legacy_weight": "10-20% combined",
+        "replacement_skill": "Agents, AI capabilities, and contact center analytics",
+        "replacement_weight": "20-30% combined",
+        "change": "AB-250 adds explicit human-and-AI service operation, analytics, and optimization work."
+      }
+    ],
+    "source_ids": [
+      "microsoft-mb-240-study-guide",
+      "microsoft-ab-250-study-guide",
+      "microsoft-transition-announcement",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-mb-240-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-240",
+      "title": "Study guide for Exam MB-240: Microsoft Dynamics 365 Field Service Functional Consultant",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:df748e48761fb157b7cdaa51a56749150cd79bbc28eeb9772a73d5ae4ba6f218"
+    },
+    {
+      "id": "microsoft-ab-250-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250",
+      "title": "Study guide for Exam AB-250: Transforming Contact Center Experiences with AI in Dynamics 365",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:d1e6f1799b4853b1646c933120e7d89a7f13e07cfc9be2c30598e4a2cc28fc92"
+    },
+    {
+      "id": "microsoft-transition-announcement",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+      "title": "Microsoft certification retirement and replacement announcement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:8f63befc471bde009f3f440da060227d1c751613097c102353fb09b209b204d0"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.97,
+    "factual_confidence": 0.97,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T05:00:00Z",
+    "reviewed_at": "2026-08-26T05:20:00Z"
+  }
 }

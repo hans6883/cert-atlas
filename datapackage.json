@@ -1,10 +1,11 @@
 {
   "name": "cert-atlas",
   "title": "Cert Atlas — Open Index of Certification Exam Blueprints",
-  "description": "An open, machine-readable dataset of certification exam blueprints for 1,562 exams across 217 certifying bodies. Each record includes the official domain/objective breakdown with topic weights, passing score, question count and types, duration, price, prerequisites, retake and renewal policies, testing centers, available languages, and source URLs. Sourced from official exam guides — no proprietary or scraped questions.",
+  "description": "An open, machine-readable dataset of certification exam blueprints for 1,673 exams across 223 certifying bodies. Records include official domains and objectives, exam logistics, source URLs, and reviewed source-linked preparation guidance where the enrichment quality gate has passed. No proprietary question content is included.",
   "homepage": "https://atlas.quizforge.ai/",
-  "version": "2026.04",
+  "version": "2026.08",
   "created": "2026-04-05",
+  "lastModified": "2026-08-25",
   "keywords": [
     "certification",
     "exam blueprints",

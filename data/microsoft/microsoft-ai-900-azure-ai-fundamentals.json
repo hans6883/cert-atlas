@@ -76,7 +76,7 @@
     {
       "id": "1.0",
       "name": "Describe Artificial Intelligence workloads and considerations",
-      "weight_percent": 15.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "1.1",
@@ -100,12 +100,14 @@
             "Describe considerations for accountability in an AI solution"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 15,
+      "weight_max_percent": 20
     },
     {
       "id": "2.0",
       "name": "Describe fundamental principles of machine learning on Azure",
-      "weight_percent": 15.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "2.1",
@@ -130,12 +132,14 @@
             "Describe model management and deployment capabilities in Azure Machine Learning"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 15,
+      "weight_max_percent": 20
     },
     {
       "id": "3.0",
       "name": "Describe features of computer vision workloads on Azure",
-      "weight_percent": 15.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "3.1",
@@ -155,12 +159,14 @@
             "Describe capabilities of the Azure AI Face detection service"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 15,
+      "weight_max_percent": 20
     },
     {
       "id": "4.0",
       "name": "Describe features of Natural Language Processing (NLP) workloads on Azure",
-      "weight_percent": 15.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "4.1",
@@ -182,12 +188,14 @@
             "Describe capabilities of the Azure AI Speech service"
           ]
         }
-      ]
+      ],
+      "weight_min_percent": 15,
+      "weight_max_percent": 20
     },
     {
       "id": "5.0",
       "name": "Describe features of generative AI workloads on Azure",
-      "weight_percent": 20.0,
+      "weight_percent": null,
       "objectives": [
         {
           "id": "5.1",
@@ -214,7 +222,9 @@
           "title": "Describe features and capabilities of Azure AI Foundry model catalog",
           "sub_objectives": []
         }
-      ]
+      ],
+      "weight_min_percent": 20,
+      "weight_max_percent": 25
     }
   ],
   "official_objectives_url": null,
@@ -243,5 +253,188 @@
     "microsoft azure ai fundamentals",
     "microsoft-ai-900-azure-ai-fundamentals"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-ai-900-azure-ai-fundamentals"
+  "practice_url": "https://quizforge.ai/tests/microsoft-ai-900-azure-ai-fundamentals",
+  "editorial": {
+    "meta_description": "AI-900 is retired. Compare its historical blueprint with AI-901, see what transfers, and rebuild your plan around the current Microsoft exam.",
+    "overview": "AI-900 was Microsoft's Microsoft Azure AI Fundamentals exam until its retirement on 2026-06-30. Its final published scope covered Describe Artificial Intelligence workloads and considerations, Describe fundamental principles of machine learning on Azure, Describe features of computer vision workloads on Azure, Describe features of Natural Language Processing (NLP) workloads on Azure, Describe features of generative AI workloads on Azure. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
+    "who_should_take": "Nobody should start a new certification plan around AI-900. This page serves former candidates, credential holders, training teams removing stale material, and practitioners deciding whether prior preparation is reusable for AI-901. New candidates should verify the active Microsoft page and current dated study guide before booking.",
+    "skills_summary": [
+      "Preserve practical experience from Describe Artificial Intelligence workloads and considerations only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Describe fundamental principles of machine learning on Azure only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Describe features of computer vision workloads on Azure only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Describe features of Natural Language Processing (NLP) workloads on Azure only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Describe features of generative AI workloads on Azure only where the current guide shows meaningful overlap"
+    ],
+    "preparation_strategy": "Do not rename an old AI-900 checklist or question bank as AI-901. Compare the two official guides objective by objective and classify each historical skill as transferable, changed, or absent. Use transferable experience as a diagnostic baseline, then rebuild labs and review around AI-901's current domain weights, products, role expectations, security controls, and operational tasks. Because Microsoft identifies AI-901 as the direct replacement, review the skill map below before assuming equivalence.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Historically, Describe Artificial Intelligence workloads and considerations required candidates to connect configuration choices with operational outcomes. The official outline included Identify features of common AI workloads; Identify guiding principles for responsible AI. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what describe artificial intelligence workloads and considerations required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Historically, Describe fundamental principles of machine learning on Azure required candidates to connect configuration choices with operational outcomes. The official outline included Identify common machine learning techniques; Describe core machine learning concepts. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what describe fundamental principles of machine learning on azure required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Historically, Describe features of computer vision workloads on Azure required candidates to connect configuration choices with operational outcomes. The official outline included Identify common types of computer vision solution; Identify Azure tools and services for computer vision tasks. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what describe features of computer vision workloads on azure required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Historically, Describe features of Natural Language Processing (NLP) workloads on Azure required candidates to connect configuration choices with operational outcomes. The official outline included Identify features of common NLP Workload Scenarios; Identify Azure tools and services for NLP workloads. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what describe features of natural language processing (nlp) workloads on azure required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "Historically, Describe features of generative AI workloads on Azure required candidates to connect configuration choices with operational outcomes. The official outline included Identify features of generative AI solutions; Describe features and capabilities of Azure AI Foundry. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what describe features of generative ai workloads on azure required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-ai-900-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "AI-900 can no longer be scheduled. Use the active AI-901 certification page for current duration, languages, price, delivery, accommodations, and registration details, and verify them again immediately before booking.",
+    "methodology": {
+      "summary": "Cert Atlas compared Microsoft's final AI-900 study guide with the current AI-901 guide at the domain and objective level, then checked Microsoft's retirement list and transition announcement. OpenAI Codex assisted with extraction, normalization, comparison, and drafting. Claims were reviewed against the linked official sources; no exam stems, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-ai-900-study-guide",
+        "microsoft-ai-901-study-guide",
+        "microsoft-transition-announcement",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-ai-900-study-guide"
+    ]
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "summary": "Microsoft retired AI-900 on June 30, 2026 and replaced it with AI-901 as the qualifying exam for Microsoft Certified: Azure AI Fundamentals.",
+    "replacement": {
+      "exam_code": "AI-901",
+      "name": "Microsoft Azure AI Fundamentals",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901",
+      "relationship": "direct_replacement"
+    },
+    "migration_actions": [
+      "Stop scheduling, selling, or presenting AI-900 as a current exam.",
+      "Compare completed AI-900 preparation with the current AI-901 guide; do not carry over obsolete weighting or mechanics.",
+      "Create a fresh AI-901 plan around its current domains and hands-on role expectations.",
+      "Remove or quarantine practice content that cannot be mapped to a current objective with source evidence.",
+      "Recheck Microsoft's dated AI-901 study guide before booking because role-based exams change over time."
+    ],
+    "skill_comparison": [
+      {
+        "legacy_skill": "AI workloads and considerations",
+        "legacy_weight": "15-20%",
+        "replacement_skill": "Identify AI concepts and capabilities",
+        "replacement_weight": "40-45%",
+        "change": "AI-901 consolidates conceptual coverage and gives it substantially more weight, including responsible AI and choosing capabilities for a scenario."
+      },
+      {
+        "legacy_skill": "Machine learning, vision, and NLP fundamentals",
+        "legacy_weight": "45-60% combined",
+        "replacement_skill": "Identify AI concepts and capabilities",
+        "replacement_weight": "40-45%",
+        "change": "The foundational concepts still transfer, but they are organized as one integrated decision-oriented domain."
+      },
+      {
+        "legacy_skill": "Generative AI workloads",
+        "legacy_weight": "20-25%",
+        "replacement_skill": "Implement AI solutions by using Microsoft Foundry",
+        "replacement_weight": "55-60%",
+        "change": "AI-901 moves beyond description toward basic implementation using Foundry, Python syntax, Azure resources, APIs, SDKs, and command-line tools."
+      }
+    ],
+    "source_ids": [
+      "microsoft-ai-900-study-guide",
+      "microsoft-ai-901-study-guide",
+      "microsoft-transition-announcement",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-ai-900-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900",
+      "title": "Study guide for Exam AI-900: Microsoft Azure AI Fundamentals",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:bc47a4a3d26aa2842797ba1d8dac357f62035e525647ab50dcaf6bee23904b5a"
+    },
+    {
+      "id": "microsoft-ai-901-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901",
+      "title": "Study guide for Exam AI-901: Microsoft Azure AI Fundamentals",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:7f6115d3bc744b4d349ee47fcb9d080f2de645d1a42e9eb8b46fad31bcbac1e0"
+    },
+    {
+      "id": "microsoft-transition-announcement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-900/",
+      "title": "Microsoft certification retirement and replacement announcement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:ea913f3ccd9a562094af67a745e5ce65e4f0fd409605e1e674b9ff9ead7fb6f3"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.97,
+    "factual_confidence": 0.97,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T05:00:00Z",
+    "reviewed_at": "2026-08-26T05:20:00Z"
+  }
 }

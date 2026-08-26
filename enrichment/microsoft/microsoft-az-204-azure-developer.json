@@ -1,0 +1,238 @@
+{
+  "exam_id": "microsoft-az-204-azure-developer",
+  "editorial": {
+    "meta_description": "AZ-204 is retired. Compare its historical blueprint with AI-200, see what transfers, and rebuild your plan around the current Microsoft exam.",
+    "overview": "AZ-204 was Microsoft's Developing Solutions for Microsoft Azure exam until its retirement on 2026-07-31. Its final published scope covered Develop Azure compute solutions, Develop for Azure storage, Implement Azure security, Monitor, troubleshoot, and optimize Azure solutions, Connect to and consume Azure services and third-party services. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
+    "who_should_take": "Nobody should start a new certification plan around AZ-204. This page serves former candidates, credential holders, training teams removing stale material, and practitioners deciding whether prior preparation is reusable for AI-200. New candidates should verify the active Microsoft page and current dated study guide before booking.",
+    "skills_summary": [
+      "Preserve practical experience from Develop Azure compute solutions only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Develop for Azure storage only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Implement Azure security only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Monitor, troubleshoot, and optimize Azure solutions only where the current guide shows meaningful overlap",
+      "Preserve practical experience from Connect to and consume Azure services and third-party services only where the current guide shows meaningful overlap"
+    ],
+    "preparation_strategy": "Do not rename an old AZ-204 checklist or question bank as AI-200. Compare the two official guides objective by objective and classify each historical skill as transferable, changed, or absent. Use transferable experience as a diagnostic baseline, then rebuild labs and review around AI-200's current domain weights, products, role expectations, security controls, and operational tasks. Because Microsoft identifies AI-200 as the direct replacement, review the skill map below before assuming equivalence.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Historically, Develop Azure compute solutions required candidates to connect configuration choices with operational outcomes. The official outline included Implement containerized solutions; Implement Azure App Service Web Apps. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what develop azure compute solutions required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Historically, Develop for Azure storage required candidates to connect configuration choices with operational outcomes. The official outline included Develop solutions that use Azure Cosmos DB; Develop solutions that use Azure Blob Storage. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what develop for azure storage required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Historically, Implement Azure security required candidates to connect configuration choices with operational outcomes. The official outline included Implement user authentication and authorization; Implement secure Azure solutions. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what implement azure security required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Historically, Monitor, troubleshoot, and optimize Azure solutions required candidates to connect configuration choices with operational outcomes. The official outline included Monitor and troubleshoot Azure solutions. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what monitor, troubleshoot, and optimize azure solutions required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "Historically, Connect to and consume Azure services and third-party services required candidates to connect configuration choices with operational outcomes. The official outline included Implement Azure API Management; Develop event-based solutions. Preserve hands-on understanding of those tasks where the successor comparison shows overlap, but do not treat this retired weighting or terminology as a current exam blueprint.",
+        "study_focus": [
+          "Use the official historical objectives to document what connect to and consume azure services and third-party services required",
+          "Mark each prior skill as transferable, changed, or absent in the current replacement guide",
+          "Rebuild practical exercises around current services, interfaces, governance, and role expectations"
+        ],
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "AZ-204 can no longer be scheduled. Use the active AI-200 certification page for current duration, languages, price, delivery, accommodations, and registration details, and verify them again immediately before booking.",
+    "methodology": {
+      "summary": "Cert Atlas compared Microsoft's final AZ-204 study guide with the current AI-200 guide at the domain and objective level, then checked Microsoft's retirement list and transition announcement. OpenAI Codex assisted with extraction, normalization, comparison, and drafting. Claims were reviewed against the linked official sources; no exam stems, answers, choices, or explanations were used.",
+      "source_ids": [
+        "microsoft-az-204-study-guide",
+        "microsoft-ai-200-study-guide",
+        "microsoft-transition-announcement",
+        "microsoft-retirement-list"
+      ]
+    },
+    "source_ids": [
+      "microsoft-az-204-study-guide"
+    ]
+  },
+  "fact_overrides": {
+    "domains": [
+      {
+        "domain_id": "1.0",
+        "weight_min_percent": 25,
+        "weight_max_percent": 30,
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "weight_min_percent": 15,
+        "weight_max_percent": 20,
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "weight_min_percent": 5,
+        "weight_max_percent": 10,
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "weight_min_percent": 20,
+        "weight_max_percent": 25,
+        "source_ids": [
+          "microsoft-az-204-study-guide"
+        ]
+      }
+    ]
+  },
+  "study_signals": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-07-31",
+    "summary": "Microsoft retired AZ-204 and the Azure Developer Associate certification on July 31, 2026. Microsoft identifies AI-200 and the Azure AI Cloud Developer Associate certification as its replacement.",
+    "replacement": {
+      "exam_code": "AI-200",
+      "name": "Developing AI Cloud Solutions on Azure",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
+      "relationship": "direct_replacement"
+    },
+    "migration_actions": [
+      "Stop scheduling, selling, or presenting AZ-204 as a current exam.",
+      "Compare completed AZ-204 preparation with the current AI-200 guide; do not carry over obsolete weighting or mechanics.",
+      "Create a fresh AI-200 plan around its current domains and hands-on role expectations.",
+      "Remove or quarantine practice content that cannot be mapped to a current objective with source evidence.",
+      "Recheck Microsoft's dated AI-200 study guide before booking because role-based exams change over time."
+    ],
+    "skill_comparison": [
+      {
+        "legacy_skill": "Develop Azure compute solutions",
+        "legacy_weight": "25-30%",
+        "replacement_skill": "Develop containerized solutions on Azure",
+        "replacement_weight": "20-25%",
+        "change": "AI-200 narrows compute preparation around containerized, scalable cloud applications and their deployment behavior."
+      },
+      {
+        "legacy_skill": "Develop for Azure storage",
+        "legacy_weight": "15-20%",
+        "replacement_skill": "Develop AI solutions using Azure data management services",
+        "replacement_weight": "25-30%",
+        "change": "Storage skills transfer, but the replacement gives more weight to data flows and stores used by AI-enabled applications."
+      },
+      {
+        "legacy_skill": "Implement security; monitor and troubleshoot",
+        "legacy_weight": "20-30% combined",
+        "replacement_skill": "Secure, monitor, and troubleshoot Azure solutions",
+        "replacement_weight": "20-25%",
+        "change": "Security and operations remain central and are assessed as an integrated production discipline."
+      },
+      {
+        "legacy_skill": "Connect to and consume Azure and third-party services",
+        "legacy_weight": "20-25%",
+        "replacement_skill": "Connect to and consume Azure services",
+        "replacement_weight": "20-25%",
+        "change": "Service integration remains directly relevant, now in the context of responsive AI cloud solutions."
+      }
+    ],
+    "source_ids": [
+      "microsoft-az-204-study-guide",
+      "microsoft-ai-200-study-guide",
+      "microsoft-transition-announcement",
+      "microsoft-retirement-list"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-az-204-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204",
+      "title": "Study guide for Exam AZ-204: Developing Solutions for Microsoft Azure",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:aed4d1d0598b78544869f8f4c435325d2073b8fa16362151a19dcc15870a9328"
+    },
+    {
+      "id": "microsoft-ai-200-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
+      "title": "Study guide for Exam AI-200: Developing AI Cloud Solutions on Azure",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:8b9936ca6861b2ea610952a1bc39b63244dcadd5a1ba5b84cf4e164bba5b223a"
+    },
+    {
+      "id": "microsoft-transition-announcement",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+      "title": "Microsoft certification retirement and replacement announcement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:8f63befc471bde009f3f440da060227d1c751613097c102353fb09b209b204d0"
+    },
+    {
+      "id": "microsoft-retirement-list",
+      "url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+      "title": "Exam and assessment lab retirement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
+    }
+  ],
+  "quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.97,
+    "factual_confidence": 0.97,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T05:00:00Z",
+    "reviewed_at": "2026-08-26T05:20:00Z"
+  }
+}

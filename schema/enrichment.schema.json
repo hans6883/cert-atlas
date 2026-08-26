@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlas.quizforge.ai/schema/enrichment.schema.json",
+  "title": "Cert Atlas reviewed enrichment overlay",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["exam_id", "editorial", "sources", "quality"],
+  "properties": {
+    "exam_id": {"type": "string", "minLength": 3},
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "meta_description",
+        "overview",
+        "who_should_take",
+        "skills_summary",
+        "preparation_strategy",
+        "domain_guidance",
+        "exam_day_guidance",
+        "source_ids"
+      ],
+      "properties": {
+        "meta_description": {"type": "string", "minLength": 70, "maxLength": 160},
+        "overview": {"type": "string", "minLength": 200},
+        "who_should_take": {"type": "string", "minLength": 100},
+        "skills_summary": {
+          "type": "array",
+          "minItems": 3,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 12}
+        },
+        "preparation_strategy": {"type": "string", "minLength": 200},
+        "domain_guidance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["domain_id", "summary", "study_focus", "source_ids"],
+            "properties": {
+              "domain_id": {"type": "string", "minLength": 1},
+              "summary": {"type": "string", "minLength": 120},
+              "study_focus": {
+                "type": "array",
+                "minItems": 2,
+                "uniqueItems": true,
+                "items": {"type": "string", "minLength": 12}
+              },
+              "source_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {"type": "string"}
+              }
+            }
+          }
+        },
+        "exam_day_guidance": {"type": "string", "minLength": 100},
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "study_signals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "topic_emphasis",
+        "challenge_areas",
+        "question_style_observations",
+        "input_record_count",
+        "input_dataset_hash"
+      ],
+      "properties": {
+        "topic_emphasis": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["topic", "level"],
+            "properties": {
+              "topic": {"type": "string"},
+              "level": {"enum": ["high", "medium", "low"]},
+              "share_percent": {"type": "number", "minimum": 0, "maximum": 100}
+            }
+          }
+        },
+        "challenge_areas": {"type": "array", "items": {"type": "string"}},
+        "question_style_observations": {"type": "array", "items": {"type": "string"}},
+        "difficulty_distribution": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "input_record_count": {"type": "integer", "minimum": 0},
+        "input_dataset_hash": {"type": "string", "pattern": "^sha256:[0-9a-fA-F]{64}$"},
+        "derivation": {"const": "aggregate_metadata_only"},
+        "official_weighting": {"const": false}
+      }
+    },
+    "fact_overrides": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["domain_id", "weight_min_percent", "weight_max_percent", "source_ids"],
+            "properties": {
+              "domain_id": {"type": "string"},
+              "weight_min_percent": {"type": "number", "minimum": 0, "maximum": 100},
+              "weight_max_percent": {"type": "number", "minimum": 0, "maximum": 100},
+              "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+            }
+          }
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["domain_id", "objective_id", "corrected_id", "source_ids"],
+            "properties": {
+              "domain_id": {"type": "string"},
+              "objective_id": {"type": "string"},
+              "corrected_id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9]+(?:[.\\-][A-Za-z0-9]+)*$"
+              },
+              "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+            }
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "url", "title", "publisher", "source_type", "accessed", "content_hash"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "pattern": "^https://"},
+          "title": {"type": "string", "minLength": 3},
+          "publisher": {"type": "string", "minLength": 2},
+          "source_type": {
+            "enum": [
+              "official_exam_guide",
+              "official_objectives",
+              "official_certification_page",
+              "official_candidate_handbook",
+              "official_registration_page",
+              "official_renewal_guide",
+              "official_documentation"
+            ]
+          },
+          "accessed": {"type": "string", "format": "date"},
+          "content_hash": {"type": "string", "pattern": "^sha256:[0-9a-fA-F]{64}$"}
+        }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "publishable",
+        "evidence_coverage",
+        "factual_confidence",
+        "generated_by",
+        "generated_at",
+        "reviewed_at"
+      ],
+      "properties": {
+        "status": {"enum": ["draft", "reviewed", "rejected"]},
+        "publishable": {"type": "boolean"},
+        "evidence_coverage": {"type": "number", "minimum": 0, "maximum": 1},
+        "factual_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "generated_by": {"type": "string"},
+        "generated_at": {"type": "string", "format": "date-time"},
+        "reviewed_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    }
+  }
+}

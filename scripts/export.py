@@ -18,9 +18,20 @@ import sys
 from datetime import date
 from pathlib import Path
 
+try:
+    from scripts.enrichment import (
+        has_public_enrichment,
+        load_and_merge_overlay,
+        should_publish_exam,
+    )
+except ImportError:
+    from enrichment import has_public_enrichment, load_and_merge_overlay, should_publish_exam
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 GENERATED = os.environ.get("GENERATED_DATE", date.today().isoformat())
 DATA_DIR = REPO_ROOT / "data"
+ENRICHMENT_DIR = Path(os.environ.get("ENRICHMENT_DIR", REPO_ROOT / "enrichment"))
+OUTPUT_DATA_DIR = Path(os.environ.get("CERT_ATLAS_OUTPUT_DIR", DATA_DIR))
 DB_PATH = os.environ.get(
     "BLUEPRINT_DB",
     str(Path.home() / "source" / "repos" / "web-scraper-mcp" / "data" / "blueprint_registry.db"),
@@ -106,6 +117,23 @@ def export():
         print(f"Database not found: {DB_PATH}", file=sys.stderr)
         sys.exit(1)
 
+    existing_exam_ids = set()
+    existing_entries = {}
+    existing_records = {}
+    existing_index_path = DATA_DIR / "index.json"
+    if existing_index_path.exists():
+        with open(existing_index_path, encoding="utf-8") as f:
+            for entry in json.load(f).get("exams", []):
+                existing_id = str(entry.get("exam_id") or "")
+                if not existing_id:
+                    continue
+                existing_exam_ids.add(existing_id)
+                existing_entries[existing_id] = entry
+                existing_path = DATA_DIR / entry["vendor_slug"] / f"{existing_id}.json"
+                if existing_path.exists():
+                    with open(existing_path, encoding="utf-8") as existing_file:
+                        existing_records[existing_id] = json.load(existing_file)
+
     slug_map = load_slug_map()
     print(f"Loaded {len(slug_map)} verified QuizForge slug mappings")
 
@@ -132,18 +160,22 @@ def export():
     conn.close()
 
     # Clear and recreate data dir
-    if DATA_DIR.exists():
+    if OUTPUT_DATA_DIR.exists():
         import shutil
-        shutil.rmtree(DATA_DIR)
-    DATA_DIR.mkdir(parents=True)
+        shutil.rmtree(OUTPUT_DATA_DIR)
+    OUTPUT_DATA_DIR.mkdir(parents=True)
 
     index_entries = []
     vendor_exam_counts = {}
     total_with_domains = 0
     total_exams = 0
+    skipped_new = 0
+    rejected_overlays = 0
+    registry_exam_ids = set()
 
     for row in exams_raw:
         exam_id = row["exam_id"]
+        registry_exam_ids.add(exam_id)
         body_id = row["certifying_body_id"]
         blueprint = json.loads(row["blueprint_json"])
 
@@ -165,8 +197,25 @@ def export():
         vendor_info = vendor_map.get(body_id, {})
         vendor_slug = slugify(vendor_info.get("display_name", body_id))
 
+        exam_data, overlay_validation = load_and_merge_overlay(
+            exam_data, vendor_slug, ENRICHMENT_DIR
+        )
+        if overlay_validation is not None and not overlay_validation.publishable:
+            rejected_overlays += 1
+            print(
+                f"Rejected enrichment for {exam_id}: "
+                + "; ".join(overlay_validation.errors[:5]),
+                file=sys.stderr,
+            )
+
+        # Existing URLs remain stable. A registry-only exam cannot create a new public
+        # URL until its reviewed enrichment passes the public quality gate.
+        if not should_publish_exam(exam_data, existing_exam_ids):
+            skipped_new += 1
+            continue
+
         # Write per-exam file
-        vendor_dir = DATA_DIR / vendor_slug
+        vendor_dir = OUTPUT_DATA_DIR / vendor_slug
         vendor_dir.mkdir(parents=True, exist_ok=True)
         exam_path = vendor_dir / f"{exam_id}.json"
         with open(exam_path, "w", encoding="utf-8") as f:
@@ -192,13 +241,51 @@ def export():
             "duration_minutes": exam_data.get("duration_minutes"),
             "source_url": exam_data.get("source_url", ""),
             "practice_url": exam_data["practice_url"],
+            "enriched": has_public_enrichment(exam_data),
+            "verified_at": (
+                exam_data.get("content_quality", {}).get("reviewed_at")
+                if has_public_enrichment(exam_data)
+                else None
+            ),
         })
+
+    # Preserve an existing public URL when an ID disappears from a newer registry
+    # snapshot. Retirement or redirect requires an explicit reviewed decision.
+    preserved_missing = 0
+    for exam_id in sorted(existing_exam_ids - registry_exam_ids):
+        exam_data = existing_records.get(exam_id)
+        entry = existing_entries.get(exam_id)
+        if not exam_data or not entry:
+            continue
+        vendor_slug = entry["vendor_slug"]
+        exam_data["registry_sync_status"] = "missing_from_current_registry"
+        vendor_dir = OUTPUT_DATA_DIR / vendor_slug
+        vendor_dir.mkdir(parents=True, exist_ok=True)
+        with open(vendor_dir / f"{exam_id}.json", "w", encoding="utf-8") as f:
+            json.dump(exam_data, f, indent=2, ensure_ascii=False)
+        preserved_entry = dict(entry)
+        preserved_entry["registry_sync_status"] = "missing_from_current_registry"
+        index_entries.append(preserved_entry)
+        total_exams += 1
+        if exam_data.get("domains"):
+            total_with_domains += 1
+        matching_body_id = next(
+            (
+                body_id
+                for body_id, info in vendor_map.items()
+                if slugify(info.get("display_name", body_id)) == vendor_slug
+            ),
+            None,
+        )
+        if matching_body_id:
+            vendor_exam_counts[matching_body_id] = vendor_exam_counts.get(matching_body_id, 0) + 1
+        preserved_missing += 1
 
     # Sort index by vendor then exam name
     index_entries.sort(key=lambda e: (e["certifying_body"], e["exam_name"]))
 
     # Write master index
-    with open(DATA_DIR / "index.json", "w", encoding="utf-8") as f:
+    with open(OUTPUT_DATA_DIR / "index.json", "w", encoding="utf-8") as f:
         json.dump({
             "generated": GENERATED,
             "total_exams": total_exams,
@@ -223,7 +310,7 @@ def export():
         })
     vendors_out.sort(key=lambda v: -v["exam_count"])
 
-    with open(DATA_DIR / "vendors.json", "w", encoding="utf-8") as f:
+    with open(OUTPUT_DATA_DIR / "vendors.json", "w", encoding="utf-8") as f:
         json.dump({
             "generated": GENERATED,
             "total_vendors": len(vendors_out),
@@ -232,7 +319,10 @@ def export():
 
     print(f"Exported {total_exams} exams across {len(vendor_exam_counts)} vendors")
     print(f"  {total_with_domains} exams have domain breakdowns")
-    print(f"  Output: {DATA_DIR}")
+    print(f"  {skipped_new} new registry exams withheld pending reviewed enrichment")
+    print(f"  {rejected_overlays} enrichment overlays rejected by quality gates")
+    print(f"  {preserved_missing} existing exams preserved pending retirement review")
+    print(f"  Output: {OUTPUT_DATA_DIR}")
 
 
 if __name__ == "__main__":

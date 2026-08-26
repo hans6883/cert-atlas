@@ -17,6 +17,11 @@ import html as html_mod
 from pathlib import Path
 from datetime import datetime, timezone
 
+try:
+    from scripts.enrichment import has_public_enrichment
+except ImportError:
+    from enrichment import has_public_enrichment
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 DOCS_DIR = REPO_ROOT / "docs"
@@ -93,13 +98,13 @@ header {
   z-index: 10;
 }
 header .container { display: flex; align-items: center; justify-content: space-between; }
-header h1 { font-size: 20px; font-weight: 700; }
-header h1 a { color: var(--text); }
+header .site-name { font-size: 20px; font-weight: 700; }
+header .site-name a { color: var(--text); }
 header nav a { margin-left: 24px; font-size: 14px; color: var(--text-muted); }
 header nav a:hover { color: var(--accent); text-decoration: none; }
 
 .hero { padding: 48px 0 32px; }
-.hero h2 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.hero h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
 .hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; }
 
 .stats-bar {
@@ -144,7 +149,7 @@ header nav a:hover { color: var(--accent); text-decoration: none; }
 .breadcrumb span { margin: 0 6px; }
 
 .exam-header { padding: 24px 0 16px; }
-.exam-header h2 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.exam-header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
 .exam-header .exam-code { color: var(--text-muted); font-size: 16px; }
 .exam-header .vendor-link { font-size: 14px; margin-top: 8px; }
 
@@ -228,7 +233,7 @@ footer a { color: var(--text-muted); }
 .source-link a { color: var(--text-muted); }
 
 @media (max-width: 640px) {
-  .hero h2 { font-size: 24px; }
+  .hero h1 { font-size: 24px; }
   .stats-bar { gap: 16px; flex-wrap: wrap; }
   .quick-facts { grid-template-columns: repeat(2, 1fr); }
   .info-row { flex-direction: column; gap: 2px; }
@@ -236,8 +241,43 @@ footer a { color: var(--text-muted); }
 }
 """
 
+ENRICHMENT_CSS = """
+.editorial { margin: 32px 0; }
+.editorial h2 { margin: 28px 0 10px; font-size: 23px; }
+.editorial h3 { margin: 22px 0 8px; font-size: 18px; }
+.editorial p { margin: 0 0 14px; }
+.editorial ul { margin: 8px 0 18px 22px; }
+.editorial li { margin: 5px 0; }
+.study-signals { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.signal-note { color: var(--text-muted); font-size: 13px; }
+.verification { border-top: 1px solid var(--border); padding-top: 20px; }
+.verification-date { color: var(--text-muted); font-size: 13px; margin-bottom: 10px; }
+.source-list { list-style: none; margin-left: 0; }
+.source-list li { margin: 8px 0; }
+.source-publisher { color: var(--text-muted); font-size: 13px; }
+.retirement-alert { background: #fff7ed; border: 1px solid #fdba74; border-left: 5px solid #ea580c; border-radius: var(--radius); margin: 20px 0 28px; padding: 20px; }
+.retirement-alert h2 { margin: 0 0 8px; font-size: 22px; }
+.retirement-label { color: #9a3412; font-size: 12px; font-weight: 700; letter-spacing: .06em; margin-bottom: 6px; text-transform: uppercase; }
+.replacement-link { display: inline-block; font-weight: 700; margin-top: 6px; }
+.migration-map { margin: 30px 0; }
+.comparison-wrap { overflow-x: auto; }
+.comparison-table { border-collapse: collapse; font-size: 14px; margin: 12px 0 20px; min-width: 720px; width: 100%; }
+.comparison-table th, .comparison-table td { border: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
+.comparison-table th { background: var(--bg-alt); }
+.methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
+.source-accessed { color: var(--text-muted); font-size: 12px; }
+"""
 
-def page_shell(title, description, canonical, body, schema_json=None, breadcrumb_schema=None):
+
+def page_shell(
+    title,
+    description,
+    canonical,
+    body,
+    schema_json=None,
+    breadcrumb_schema=None,
+    extra_css="",
+):
     schemas = ""
     if schema_json:
         schemas += f'<script type="application/ld+json">{json.dumps(schema_json, ensure_ascii=False)}</script>\n'
@@ -262,12 +302,12 @@ def page_shell(title, description, canonical, body, schema_json=None, breadcrumb
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{h(title)}">
 <meta name="twitter:description" content="{h(description)}">
-{schemas}<style>{CSS}</style>
+{schemas}<style>{CSS}{extra_css}</style>
 </head>
 <body>
 <header>
 <div class="container">
-<h1><a href="{SITE_URL}/">Cert Atlas</a></h1>
+<div class="site-name"><a href="{SITE_URL}/">Cert Atlas</a></div>
 <nav>
 <a href="{SITE_URL}/">Browse</a>
 <a href="https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json">Download</a>
@@ -300,7 +340,7 @@ def build_home(index, vendors, vendor_map):
     body = f"""
 <div class="container">
 <div class="hero">
-<h2>Cert Atlas</h2>
+<h1>Cert Atlas: Open Certification Exam Blueprint Index</h1>
 <p>The open index of certification exam blueprints. Browse domains, objectives, and requirements for {index["total_exams"]:,} exams across {index["total_vendors"]} certifying bodies.</p>
 <p style="margin-top:1rem"><strong>Download the dataset (free, MIT):</strong> <a href="https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json">master index (JSON)</a> &middot; <a href="https://github.com/hans6883/cert-atlas/archive/refs/heads/master.zip">full dataset (.zip)</a> &middot; <a href="https://github.com/hans6883/cert-atlas">browse on GitHub</a></p>
 </div>
@@ -336,12 +376,33 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     exam_items = []
     for ex in sorted(exams, key=lambda e: e["exam_name"]):
         meta_parts = []
-        if ex.get("total_questions"):
-            meta_parts.append(f'{ex["total_questions"]} questions')
-        if ex.get("duration_minutes"):
-            meta_parts.append(f'{ex["duration_minutes"]} min')
-        if ex.get("domains"):
-            meta_parts.append(f'{ex["domains"]} domains')
+        if ex.get("lifecycle_status") == "retired":
+            retired_on = str(ex.get("retired_on") or "")
+            try:
+                retired_label = datetime.strptime(retired_on, "%Y-%m-%d").strftime(
+                    "%B %d, %Y"
+                ).replace(" 0", " ")
+            except ValueError:
+                retired_label = retired_on
+            meta_parts.append(f"Retired {retired_label}".strip())
+            replacement_code = str(ex.get("replacement_exam_code") or "").strip()
+            if replacement_code:
+                relationship = ex.get(
+                    "replacement_relationship", "direct_replacement"
+                )
+                relationship_label = {
+                    "related_successor": "related current path",
+                    "collective_replacement": "broader replacement path",
+                    "direct_replacement": "replaced by",
+                }.get(relationship, "current path")
+                meta_parts.append(f"{relationship_label} {replacement_code}")
+        else:
+            if ex.get("total_questions"):
+                meta_parts.append(f'{ex["total_questions"]} questions')
+            if ex.get("duration_minutes"):
+                meta_parts.append(f'{ex["duration_minutes"]} min')
+            if ex.get("domains"):
+                meta_parts.append(f'{ex["domains"]} domains')
         meta = " | ".join(meta_parts)
 
         exam_items.append(
@@ -362,7 +423,7 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
 {breadcrumb}
 <div class="container">
 <div class="exam-header">
-<h2>{h(name)}</h2>
+<h1>{h(name)} Certification Exams</h1>
 <p class="exam-code">{len(exams)} certification exam{"s" if len(exams) != 1 else ""}</p>
 {f'<p class="vendor-link"><a href="{h(vendor_info.get("certification_page", vendor_info.get("website", "")))}" rel="nofollow">Official certification page</a></p>' if vendor_info.get("certification_page") else ""}
 </div>
@@ -389,11 +450,198 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     )
 
 
+def build_enrichment_html(exam):
+    if not has_public_enrichment(exam):
+        return ""
+
+    editorial = exam.get("editorial", {})
+    lifecycle = exam.get("lifecycle", {})
+    retired = lifecycle.get("status") == "retired"
+    sections = ['<section class="editorial" aria-label="Exam guide">']
+
+    if retired:
+        replacement = lifecycle.get("replacement", {})
+        legacy_code = str(exam.get("exam_code") or exam.get("exam_name") or "This exam")
+        replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+        relationship = str(replacement.get("relationship") or "direct_replacement")
+        replacement_cta = {
+            "related_successor": "Explore related current path",
+            "collective_replacement": "Explore the broader replacement path",
+        }.get(relationship, "Prepare for")
+        retired_on = str(lifecycle.get("retired_on") or "")
+        try:
+            retired_label = datetime.strptime(retired_on, "%Y-%m-%d").strftime("%B %d, %Y").replace(" 0", " ")
+        except ValueError:
+            retired_label = retired_on
+        replacement_url = h(replacement.get("url") or "")
+        sections.extend(
+            [
+                '<div class="retirement-alert" role="note">',
+                '<p class="retirement-label">Retired exam</p>',
+                f'<h2>{h(legacy_code)} was retired on {h(retired_label)}</h2>',
+                f'<p>{h(lifecycle.get("summary") or "")}</p>',
+                f'<a class="replacement-link" href="{replacement_url}" rel="nofollow">{h(replacement_cta)} {h(replacement_code)}: {h(replacement.get("name") or "current path")}</a>',
+                '</div>',
+                f'<h2>Historical {h(legacy_code)} Scope</h2><p>{h(editorial.get("overview", ""))}</p>',
+                f'<h2>Who {h(legacy_code)} Was For</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
+            ]
+        )
+    else:
+        sections.extend(
+            [
+                f'<h2>What This Exam Validates</h2><p>{h(editorial.get("overview", ""))}</p>',
+                f'<h2>Who Should Take This Exam</h2><p>{h(editorial.get("who_should_take", ""))}</p>',
+            ]
+        )
+
+    skills = [str(item).strip() for item in editorial.get("skills_summary", []) if str(item).strip()]
+    if skills:
+        sections.append(
+            '<h2>Skills You Should Be Ready to Demonstrate</h2><ul>'
+            + "".join(f"<li>{h(item)}</li>" for item in skills)
+            + "</ul>"
+        )
+
+    preparation_heading = "How to Reuse Your Preparation" if retired else "How to Prepare"
+    sections.append(
+        f'<h2>{preparation_heading}</h2><p>{h(editorial.get("preparation_strategy", ""))}</p>'
+    )
+
+    if retired:
+        replacement = lifecycle.get("replacement", {})
+        legacy_code = str(exam.get("exam_code") or "the retired exam")
+        replacement_code = str(replacement.get("exam_code") or "the replacement exam")
+        relationship = str(replacement.get("relationship") or "direct_replacement")
+        comparisons = [
+            item for item in lifecycle.get("skill_comparison", []) if isinstance(item, dict)
+        ]
+        comparison_heading = (
+            f"How {legacy_code} skills compare with {replacement_code}"
+            if relationship == "related_successor"
+            else f"What changed from {legacy_code} to {replacement_code}"
+        )
+        sections.append(f'<div class="migration-map"><h2>{h(comparison_heading)}</h2>')
+        if comparisons:
+            rows = "".join(
+                "<tr>"
+                f'<td>{h(item.get("legacy_skill"))}<br><strong>{h(item.get("legacy_weight"))}</strong></td>'
+                f'<td>{h(item.get("replacement_skill"))}<br><strong>{h(item.get("replacement_weight"))}</strong></td>'
+                f'<td>{h(item.get("change"))}</td>'
+                "</tr>"
+                for item in comparisons
+            )
+            sections.append(
+                '<div class="comparison-wrap"><table class="comparison-table">'
+                f'<thead><tr><th>Historical {h(legacy_code)}</th><th>Current {h(replacement_code)}</th><th>Practical impact</th></tr></thead>'
+                f'<tbody>{rows}</tbody></table></div>'
+            )
+        actions = [
+            str(item).strip()
+            for item in lifecycle.get("migration_actions", [])
+            if str(item).strip()
+        ]
+        if actions:
+            sections.append(
+                "<h3>Migration checklist</h3><ol>"
+                + "".join(f"<li>{h(item)}</li>" for item in actions)
+                + "</ol>"
+            )
+        study_guide_url = h(replacement.get("study_guide_url") or "")
+        if study_guide_url:
+            sections.append(
+                f'<p><a href="{study_guide_url}" rel="nofollow">Open the official {h(replacement_code)} study guide</a></p>'
+            )
+        sections.append("</div>")
+
+    domain_names = {
+        str(domain.get("id")): str(domain.get("name") or "")
+        for domain in exam.get("domains", [])
+        if isinstance(domain, dict)
+    }
+    guidance = editorial.get("domain_guidance", [])
+    if guidance:
+        sections.append(
+            "<h2>Historical Domain Guide</h2>" if retired else "<h2>Domain Study Guidance</h2>"
+        )
+        for item in guidance:
+            if not isinstance(item, dict):
+                continue
+            domain_id = str(item.get("domain_id") or "")
+            label = domain_names.get(domain_id) or f"Domain {domain_id}"
+            suffix = "Historical Scope" if retired else "Study Guidance"
+            sections.append(f"<h3>{h(label)}: {suffix}</h3>")
+            sections.append(f'<p>{h(item.get("summary", ""))}</p>')
+            focus = [str(value).strip() for value in item.get("study_focus", []) if str(value).strip()]
+            if focus:
+                sections.append("<ul>" + "".join(f"<li>{h(value)}</li>" for value in focus) + "</ul>")
+
+    exam_day = str(editorial.get("exam_day_guidance") or "").strip()
+    if exam_day and not retired:
+        sections.append(f"<h2>Exam-Day Guidance</h2><p>{h(exam_day)}</p>")
+
+    signals = exam.get("study_signals")
+    if isinstance(signals, dict) and not retired:
+        signal_items = []
+        for item in signals.get("topic_emphasis", []):
+            if isinstance(item, dict) and item.get("topic"):
+                details = []
+                if item.get("level"):
+                    details.append(str(item["level"]))
+                if item.get("share_percent") is not None:
+                    details.append(f'{item["share_percent"]}% of practice metadata')
+                suffix = f' ({", ".join(details)})' if details else ""
+                signal_items.append(f'{item.get("topic")}{suffix}')
+        signal_items.extend(str(item) for item in signals.get("challenge_areas", []) if str(item).strip())
+        signal_items.extend(
+            str(item) for item in signals.get("question_style_observations", []) if str(item).strip()
+        )
+        if signal_items:
+            sections.append('<div class="study-signals"><h2>Preparation Signals</h2>')
+            sections.append(
+                '<p class="signal-note">Derived from aggregate practice patterns. These are study aids, not official exam weights or predictions.</p>'
+            )
+            sections.append("<ul>" + "".join(f"<li>{h(item)}</li>" for item in signal_items) + "</ul></div>")
+
+    sources = exam.get("sources", [])
+    quality = exam.get("content_quality", {})
+    if sources:
+        reviewed_at = str(quality.get("reviewed_at") or "")[:10]
+        sections.append('<div class="verification"><h2>Sources and Verification</h2>')
+        if reviewed_at:
+            sections.append(f'<p class="verification-date">Verified {h(reviewed_at)}</p>')
+        source_items = []
+        for source in sources:
+            if not isinstance(source, dict):
+                continue
+            title = h(source.get("title") or "Official source")
+            url = h(source.get("url") or "")
+            publisher = h(source.get("publisher") or "")
+            link = f'<a href="{url}" rel="nofollow">{title}</a>' if url else title
+            accessed = h(source.get("accessed") or "")
+            suffix = f' <span class="source-publisher">{publisher}</span>' if publisher else ""
+            if accessed:
+                suffix += f' <span class="source-accessed">accessed {accessed}</span>'
+            source_items.append(f"<li>{link}{suffix}</li>")
+        sections.append('<ul class="source-list">' + "".join(source_items) + "</ul></div>")
+
+    methodology = editorial.get("methodology")
+    if isinstance(methodology, dict) and methodology.get("summary"):
+        sections.append(
+            '<div class="methodology"><h2>How this page was made</h2>'
+            f'<p>{h(methodology.get("summary"))}</p></div>'
+        )
+
+    sections.append("</section>")
+    return "".join(sections)
+
+
 def build_exam_page(vendor_slug, vendor_info, exam):
     name = exam.get("exam_name", "")
     code = exam.get("exam_code", "")
     body_name = exam.get("certifying_body", vendor_info.get("display_name", ""))
     exam_id = exam.get("exam_id", "")
+    lifecycle = exam.get("lifecycle", {})
+    retired = lifecycle.get("status") == "retired"
 
     # Quick facts
     facts = []
@@ -410,6 +658,8 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         facts.append(("Valid For", f'{exam["certification_validity_years"]} years'))
     if exam.get("available_languages"):
         facts.append(("Languages", str(len(exam["available_languages"]))))
+    if retired:
+        facts = []
 
     facts_html = "".join(
         f'<div class="fact"><span class="fact-value">{h(v)}</span><span class="fact-label">{h(l)}</span></div>'
@@ -423,19 +673,43 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         domain_blocks = []
         for dom in domains:
             weight = dom.get("weight_percent") or 0
+            weight_min = dom.get("weight_min_percent")
+            weight_max = dom.get("weight_max_percent")
             objectives_html = ""
             if dom.get("objectives"):
                 obj_items = []
                 for obj in dom["objectives"]:
+                    if isinstance(obj, str):
+                        obj_id = ""
+                        obj_title = obj
+                        sub_objectives = []
+                    elif isinstance(obj, dict):
+                        obj_id = obj.get("id", "")
+                        obj_title = obj.get("title", "")
+                        sub_objectives = obj.get("sub_objectives") or []
+                    else:
+                        continue
                     sub = ""
-                    if obj.get("sub_objectives"):
-                        sub = f'<div class="sub-objectives">{h("; ".join(obj["sub_objectives"]))}</div>'
+                    if sub_objectives:
+                        normalized_sub_objectives = [
+                            item.get("title", "") if isinstance(item, dict) else str(item)
+                            for item in sub_objectives
+                        ]
+                        sub = f'<div class="sub-objectives">{h("; ".join(normalized_sub_objectives))}</div>'
                     obj_items.append(
-                        f'<li><span class="obj-id">{h(obj.get("id", ""))}</span>{h(obj.get("title", ""))}{sub}</li>'
+                        f'<li><span class="obj-id">{h(obj_id)}</span>{h(obj_title)}{sub}</li>'
                     )
                 objectives_html = f'<ul class="objectives">{"".join(obj_items)}</ul>'
 
-            if weight > 0:
+            if weight_min is not None and weight_max is not None:
+                if float(weight_min) == float(weight_max):
+                    weight_label = f"{float(weight_min):.0f}%"
+                else:
+                    weight_label = f"{float(weight_min):.0f}-{float(weight_max):.0f}%"
+                weight_html = f'<span class="domain-weight">{weight_label}</span>'
+                bar_width = (float(weight_min) + float(weight_max)) / 2
+                bar_html = f'<div class="domain-bar"><div class="domain-bar-fill" style="width:{bar_width}%"></div></div>'
+            elif weight > 0:
                 weight_html = f'<span class="domain-weight">{weight:.0f}%</span>'
                 bar_html = f'<div class="domain-bar"><div class="domain-bar-fill" style="width:{weight}%"></div></div>'
             else:
@@ -452,7 +726,8 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 {objectives_html}
 </div>""")
 
-        domains_html = f'<section class="domains"><h3>Exam Domains</h3>{"".join(domain_blocks)}</section>'
+        domains_heading = f'Historical {h(code)} Domains' if retired and code else "Exam Domains"
+        domains_html = f'<section class="domains"><h3>{domains_heading}</h3>{"".join(domain_blocks)}</section>'
 
     # Info section
     info_rows = []
@@ -483,17 +758,18 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         info_rows.append(("Languages", ", ".join(exam["available_languages"])))
 
     info_html = ""
-    if info_rows:
+    if info_rows and not retired:
         rows = "".join(
             f'<div class="info-row"><span class="info-label">{h(l)}</span><span class="info-value">{h(v)}</span></div>'
             for l, v in info_rows
         )
-        info_html = f'<section class="info"><h3>Exam Details</h3><div class="info-grid">{rows}</div></section>'
+        info_heading = "Historical Exam Details" if retired else "Exam Details"
+        info_html = f'<section class="info"><h3>{info_heading}</h3><div class="info-grid">{rows}</div></section>'
 
     # Resources
     resources_html = ""
     resources = exam.get("official_study_resources", [])
-    if resources:
+    if resources and not retired:
         items = []
         for r in resources:
             rtype = r.get("resource_type", "").replace("_", " ")
@@ -507,7 +783,7 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     # Registration links
     reg_html = ""
     reg_parts = []
-    if exam.get("exam_registration_url"):
+    if exam.get("exam_registration_url") and not retired:
         reg_parts.append(f'<a href="{h(exam["exam_registration_url"])}" rel="nofollow">Register for this exam</a>')
     if exam.get("official_objectives_url"):
         reg_parts.append(f'<a href="{h(exam["official_objectives_url"])}" rel="nofollow">Official exam guide</a>')
@@ -518,7 +794,14 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 
     # Practice CTA
     practice_url = exam.get("practice_url", f"{QUIZFORGE_URL}/tests/{exam_id}")
-    practice_html = f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
+    practice_html = "" if retired else f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
+    enrichment_html = build_enrichment_html(exam)
+    enrichment_line = f"\n{enrichment_html}" if enrichment_html else ""
+    pre_facts_content = enrichment_line if retired else ""
+    post_facts_content = "" if retired else f"{practice_html}{enrichment_line}"
+    facts_heading = f'<h2>Historical {h(code)} Exam Facts</h2>' if retired and facts_html else ""
+    if facts_heading:
+        pre_facts_content += f"\n{facts_heading}"
 
     breadcrumb = (
         f'<div class="breadcrumb"><div class="container">'
@@ -532,19 +815,19 @@ def build_exam_page(vendor_slug, vendor_info, exam):
 {breadcrumb}
 <div class="container">
 <div class="exam-header">
-<h2>{h(name)}</h2>
+<h1>{h(code) + " Retired: What Replaced It and What Carries Over" if retired and code else h(name) + (f' ({h(code)})' if code else '') + " Exam Blueprint"}</h1>
 {f'<p class="exam-code">{h(code)}</p>' if code else ""}
 <p class="vendor-link"><a href="{SITE_URL}/{h(vendor_slug)}/">{h(body_name)}</a></p>
-</div>
+</div>{pre_facts_content}
 <div class="quick-facts">{facts_html}</div>
-{practice_html}
+{post_facts_content}
 {domains_html}
 {info_html}
 {resources_html}
 {reg_html}
 </div>"""
 
-    # Course schema
+    # Structured data
     course_schema = {
         "@context": "https://schema.org",
         "@type": "Course",
@@ -561,6 +844,29 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     }
     if exam.get("available_languages"):
         course_schema["inLanguage"] = exam["available_languages"][0] if len(exam["available_languages"]) == 1 else exam["available_languages"]
+    if has_public_enrichment(exam):
+        overview = str(exam.get("editorial", {}).get("overview") or "").strip()
+        if overview:
+            course_schema["description"] = overview
+        reviewed_at = str(exam.get("content_quality", {}).get("reviewed_at") or "")[:10]
+        if reviewed_at:
+            course_schema["dateModified"] = reviewed_at
+    if retired:
+        replacement = lifecycle.get("replacement", {})
+        course_schema = {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": f"{code} retired exam migration guide",
+            "description": str(lifecycle.get("summary") or ""),
+            "dateModified": str(exam.get("content_quality", {}).get("reviewed_at") or "")[:10],
+            "about": {
+                "@type": "EducationalOccupationalCredential",
+                "name": name,
+                "credentialCategory": "Retired certification exam",
+                "recognizedBy": {"@type": "Organization", "name": body_name},
+            },
+            "significantLink": replacement.get("url"),
+        }
 
     breadcrumb_schema = {
         "@context": "https://schema.org",
@@ -587,14 +893,31 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         desc += ", ".join(desc_parts) + ". "
     if domains:
         desc += f'{len(domains)} domains with objectives and topic weights.'
+    if has_public_enrichment(exam):
+        editorial = exam.get("editorial", {})
+        meta_description = str(editorial.get("meta_description") or "").strip()
+        overview = str(editorial.get("overview") or "").strip()
+        if meta_description or overview:
+            desc = meta_description or overview
+
+    page_title = f"{name}{f' ({code})' if code else ''} Exam Blueprint - {body_name} | Cert Atlas"
+    if retired:
+        replacement = lifecycle.get("replacement", {})
+        replacement_code = replacement.get("exam_code") or "Current Path"
+        relationship = replacement.get("relationship") or "direct_replacement"
+        relation_label = "Related Path" if relationship == "related_successor" else "Replacement"
+        page_title = f"{code or name} Retired: {replacement_code} {relation_label} & Skill Map | Cert Atlas"
+    elif has_public_enrichment(exam):
+        page_title = f"{code or name} Exam Guide, Domains & Skills | Cert Atlas"
 
     return page_shell(
-        f"{name}{f' ({code})' if code else ''} Exam Blueprint -- Cert Atlas",
+        page_title,
         desc[:160],
         f"{SITE_URL}/{vendor_slug}/{exam_id}",
         body,
         schema_json=course_schema,
         breadcrumb_schema=breadcrumb_schema,
+        extra_css=ENRICHMENT_CSS if has_public_enrichment(exam) else "",
     )
 
 
