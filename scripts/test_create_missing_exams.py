@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-import create_missing_exams
+from scripts import create_missing_exams
 
 
 class AuthConfigTests(unittest.TestCase):
