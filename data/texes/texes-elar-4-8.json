@@ -77,5 +77,17 @@
     "texes-117",
     "texes-elar-4-8"
   ],
-  "practice_url": "https://quizforge.ai/tests/texes-elar-4-8"
+  "practice_url": "https://quizforge.ai/tests/texes-elar-4-8",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2021-12-31",
+    "replacement": {
+      "exam_code": "217",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "TExES retired TEXES-117 on 2021-12-31. 217 is the named replacement path.",
+    "evidence_url": "https://www.tx.nesinc.com/TestView.aspx?f=HTML_FRAG%2FTX117_TestPage.html",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

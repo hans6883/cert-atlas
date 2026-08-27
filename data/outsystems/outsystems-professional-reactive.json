@@ -100,5 +100,17 @@
     "outsystems-professional-reactive",
     "professional-rd"
   ],
-  "practice_url": "https://quizforge.ai/tests/outsystems-professional-reactive-developer-2ic806"
+  "practice_url": "https://quizforge.ai/tests/outsystems-professional-reactive-developer-2ic806",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-03-03",
+    "replacement": {
+      "exam_code": "Expert Developer",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "OutSystems retired PROFESSIONAL-RD on 2025-03-03. Expert Developer is the named replacement path.",
+    "evidence_url": "https://www.outsystems.com/forums/discussion/101830/introducing-the-expert-developer-certification/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

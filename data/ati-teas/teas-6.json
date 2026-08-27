@@ -129,5 +129,17 @@
     "teas6",
     "test of essential academic skills version 6"
   ],
-  "practice_url": "https://quizforge.ai/tests/teas-6"
+  "practice_url": "https://quizforge.ai/tests/teas-6",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2022-06-03",
+    "replacement": {
+      "exam_code": "TEAS7",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "ATI TEAS retired TEAS6 on 2022-06-03. TEAS7 is the named replacement path.",
+    "evidence_url": "https://www.atitesting.com/teas/register/ati-teas-version-7-exam",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

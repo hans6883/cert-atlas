@@ -120,5 +120,17 @@
     "juniper networks certified associate junos jncia-junos",
     "juniper-jncia-junos"
   ],
-  "practice_url": "https://quizforge.ai/tests/juniper-jncia-junos-associate"
+  "practice_url": "https://quizforge.ai/tests/juniper-jncia-junos-associate",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-04-05",
+    "replacement": {
+      "exam_code": "JN0-106",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Juniper Networks retired JN0-105 on 2026-04-05. JN0-106 is the named replacement path.",
+    "evidence_url": "https://www.juniper.net/us/en/training/news.html",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

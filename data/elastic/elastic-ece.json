@@ -107,5 +107,17 @@
     "elastic-ece",
     "elasticsearch engineer"
   ],
-  "practice_url": "https://quizforge.ai/tests/elastic-certified-engineer-ece"
+  "practice_url": "https://quizforge.ai/tests/elastic-certified-engineer-ece",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-09-01",
+    "replacement": {
+      "exam_code": "Elastic Certified Engineer 9.3",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Elastic retires ELASTIC-ECE on 2026-09-01. Elastic Certified Engineer 9.3 is the named replacement path.",
+    "evidence_url": "https://www.elastic.co/training/certification/faq",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

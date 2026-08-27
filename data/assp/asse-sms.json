@@ -109,5 +109,17 @@
     "smp",
     "sms"
   ],
-  "practice_url": "https://quizforge.ai/?q=Safety%20Management%20Specialist%20%28SMS%29"
+  "practice_url": "https://quizforge.ai/?q=Safety%20Management%20Specialist%20%28SMS%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-03-03",
+    "replacement": {
+      "exam_code": "SMP",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "ASSP retired SMS on 2025-03-03. SMP is the named replacement path.",
+    "evidence_url": "https://www.bcsp.org/bcsp-news/about/bcsp-news/sms-to-smp",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

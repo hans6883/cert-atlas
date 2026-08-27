@@ -105,5 +105,17 @@
     "ccrn-k critical care rn knowledge",
     "critical care rn knowledge"
   ],
-  "practice_url": "https://quizforge.ai/tests/ccrn-k-acute-care-certified-nurse-knowledge"
+  "practice_url": "https://quizforge.ai/tests/ccrn-k-acute-care-certified-nurse-knowledge",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2023-11-14",
+    "replacement": {
+      "exam_code": "CCRN",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "AACN retired CCRN-K on 2023-11-14. CCRN is the named replacement path.",
+    "evidence_url": "https://www.aacn.org/newsroom/ccrn-e-ccrn-k-and-pccn-k-transition-announcement",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

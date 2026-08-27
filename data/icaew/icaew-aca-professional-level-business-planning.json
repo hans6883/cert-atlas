@@ -100,5 +100,17 @@
     "bpt",
     "icaew-aca-professional-level-business-planning"
   ],
-  "practice_url": "https://quizforge.ai/?q=ACA%20Professional%20Level%3A%20Business%20Planning%3A%20Taxation"
+  "practice_url": "https://quizforge.ai/?q=ACA%20Professional%20Level%3A%20Business%20Planning%3A%20Taxation",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-09-30",
+    "replacement": {
+      "exam_code": "Fundamental Case Study",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "ICAEW retires BPT on 2026-09-30. Fundamental Case Study is the named replacement path.",
+    "evidence_url": "https://www.icaew.com/learning-and-development/aca/employers/support-hub/transitional-arrangements",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

@@ -101,5 +101,17 @@
     "f5 certified administrator big-ip 201",
     "f5-201"
   ],
-  "practice_url": "https://quizforge.ai/tests/f5-certified-administrator-â€”-big-ip-201-2l2zv5"
+  "practice_url": "https://quizforge.ai/tests/f5-certified-administrator-â€”-big-ip-201-2l2zv5",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-04-30",
+    "replacement": {
+      "exam_code": "F5CAB1",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "F5 Networks retires 201 on 2027-04-30. F5CAB1 is the named replacement path.",
+    "evidence_url": "https://education.f5.com/certification/tmos-administration-201",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

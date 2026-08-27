@@ -127,5 +127,17 @@
     "salesforce certified ai associate",
     "salesforce-ai-associate"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-ai-associate-36e4f3eb"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-ai-associate-36e4f3eb",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-02-02",
+    "replacement": {
+      "exam_code": "AI Specialist",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "Salesforce retired AI ASSOCIATE on 2026-02-02. AI Specialist is the named replacement path.",
+    "evidence_url": "https://help.salesforce.com/s/articleView?id=005298766&language=en_US&type=1",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

@@ -98,5 +98,17 @@
     "senior certified welding inspector",
     "senior welding inspector"
   ],
-  "practice_url": "https://quizforge.ai/tests/senior-certified-welding-inspector-scwi-2nismp"
+  "practice_url": "https://quizforge.ai/tests/senior-certified-welding-inspector-scwi-2nismp",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-04-01",
+    "replacement": {
+      "exam_code": "WPQ1,WPQ2,WCQA,NDEC",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "American Welding Society retired SCWI on 2025-04-01. WPQ1,WPQ2,WCQA,NDEC is the named replacement path.",
+    "evidence_url": "https://www.aws.org/certification-and-education/professional-certification/senior-certified-welding-inspector/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }
