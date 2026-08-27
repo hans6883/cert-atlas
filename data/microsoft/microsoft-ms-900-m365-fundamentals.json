@@ -348,8 +348,6 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-03-31",
     "summary": "Microsoft retired MS-900 on 2026-03-31. The exam is no longer schedulable. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
     "migration_actions": [
       "Remove MS-900 from current registration and practice calls to action because it retired on 2026-03-31.",
@@ -360,7 +358,11 @@
     "source_ids": [
       "microsoft-ms-900-study-guide",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-03-31",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

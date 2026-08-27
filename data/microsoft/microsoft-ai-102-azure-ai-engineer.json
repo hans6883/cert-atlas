@@ -885,16 +885,7 @@
     "reviewed_at": "2026-08-26T04:11:07Z"
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired AI-102 and the Azure AI Engineer Associate certification on June 30, 2026. Microsoft identifies AI-103 and the Azure AI Apps and Agents Developer Associate certification as the replacement path for new candidates.",
-    "replacement": {
-      "exam_code": "AI-103",
-      "name": "Developing AI Apps and Agents on Azure",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
-      "relationship": "direct_replacement"
-    },
     "migration_actions": [
       "Stop using AI-102 as a schedulable target; use the active AI-103 certification page for booking and current exam details.",
       "Retain hands-on Foundry, RAG, agent, vision, speech, search, and extraction work, but remap it to the AI-103 objectives.",
@@ -944,6 +935,15 @@
       "microsoft-ai-103-study-guide",
       "microsoft-retirement-announcement",
       "microsoft-ai-103-certification"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AI-103",
+      "relationship": "direct_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+    "verified_at": "2026-08-26T00:00:00Z"
   }
 }

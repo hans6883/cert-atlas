@@ -399,16 +399,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired MB-240 and the Dynamics 365 Field Service Functional Consultant Associate certification on June 30, 2026. Microsoft explicitly says AB-250 is not a direct replacement, but adds it as the related current path used to account for the retirement.",
-    "replacement": {
-      "exam_code": "AB-250",
-      "name": "Transforming Contact Center Experiences with AI in Dynamics 365",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-250/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250",
-      "relationship": "related_successor"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting MB-240 as a current exam.",
       "Compare completed MB-240 preparation with the current AB-250 guide; do not carry over obsolete weighting or mechanics.",
@@ -451,7 +442,16 @@
       "microsoft-ab-250-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AB-250",
+      "relationship": "related_successor",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-250/"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

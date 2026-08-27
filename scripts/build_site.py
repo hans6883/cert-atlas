@@ -477,6 +477,47 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     )
 
 
+def build_lifecycle_alert(exam):
+    """Retirement / scheduled-retirement notice. Rendered for every page whose lifecycle block
+    says so (registry-stamped), whether or not the page has a reviewed editorial overlay."""
+    lifecycle = exam.get("lifecycle", {})
+    retired = lifecycle.get("status") == "retired"
+    if not retired and lifecycle.get("status") != "scheduled_retirement":
+        return ""
+    replacement = lifecycle.get("replacement")
+    replacement = replacement if isinstance(replacement, dict) else {}
+    exam_code = str(exam.get("exam_code") or exam.get("exam_name") or "This exam")
+    replacement_code = str(replacement.get("exam_code") or "")
+    relationship = str(replacement.get("relationship") or "direct_replacement")
+    replacement_cta = {
+        "related_successor": "Explore related current path",
+        "collective_replacement": "Explore the broader replacement path",
+    }.get(relationship, "Prepare for")
+    lifecycle_date = format_iso_date(lifecycle.get("retired_on" if retired else "retires_on"))
+    if retired:
+        heading = (f'<h2>{h(exam_code)} was retired on {h(lifecycle_date)}</h2>'
+                   if lifecycle.get("retired_on") else f'<h2>{h(exam_code)} has been retired</h2>')
+    else:
+        heading = f'<h2>{h(exam_code)} retires on {h(lifecycle_date)}</h2>'
+    parts = [
+        '<div class="retirement-alert" role="note">',
+        f'<p class="retirement-label">{"Retired exam" if retired else "Scheduled retirement"}</p>',
+        heading,
+        f'<p>{h(lifecycle.get("summary") or "")}</p>',
+    ]
+    if replacement:
+        parts.append(
+            f'<a class="replacement-link" href="{h(replacement.get("url") or "")}" rel="nofollow">'
+            f'{h(replacement_cta)} {h(replacement_code)}: '
+            f'{h(replacement.get("name") or "current path")}</a>'
+        )
+    else:
+        parts.append('<p class="lifecycle-no-replacement">'
+                     'No direct replacement is named in the reviewed official sources.</p>')
+    parts.append("</div>")
+    return "\n".join(parts)
+
+
 def build_enrichment_html(exam):
     if not has_public_enrichment(exam):
         return ""
@@ -495,37 +536,7 @@ def build_enrichment_html(exam):
         exam_code = str(exam.get("exam_code") or exam.get("exam_name") or "This exam")
         replacement_code = str(replacement.get("exam_code") or "")
         relationship = str(replacement.get("relationship") or "direct_replacement")
-        replacement_cta = {
-            "related_successor": "Explore related current path",
-            "collective_replacement": "Explore the broader replacement path",
-        }.get(relationship, "Prepare for")
-        lifecycle_date = format_iso_date(
-            lifecycle.get("retired_on" if retired else "retires_on")
-        )
-        sections.extend(
-            [
-                '<div class="retirement-alert" role="note">',
-                f'<p class="retirement-label">{"Retired exam" if retired else "Scheduled retirement"}</p>',
-                (
-                    f'<h2>{h(exam_code)} was retired on {h(lifecycle_date)}</h2>'
-                    if retired
-                    else f'<h2>{h(exam_code)} retires on {h(lifecycle_date)}</h2>'
-                ),
-                f'<p>{h(lifecycle.get("summary") or "")}</p>',
-            ]
-        )
-        if replacement:
-            sections.append(
-                f'<a class="replacement-link" href="{h(replacement.get("url") or "")}" rel="nofollow">'
-                f'{h(replacement_cta)} {h(replacement_code)}: '
-                f'{h(replacement.get("name") or "current path")}</a>'
-            )
-        else:
-            sections.append(
-                '<p class="lifecycle-no-replacement">'
-                'No direct replacement is named in the reviewed official sources.</p>'
-            )
-        sections.append("</div>")
+        sections.append(build_lifecycle_alert(exam))
 
         if retired:
             sections.extend(
@@ -903,6 +914,8 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     practice_url = exam.get("practice_url", f"{QUIZFORGE_URL}/tests/{exam_id}")
     practice_html = "" if retired else f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
     enrichment_html = build_enrichment_html(exam)
+    if not enrichment_html and (retired or scheduled_retirement):
+        enrichment_html = build_lifecycle_alert(exam)
     enrichment_line = f"\n{enrichment_html}" if enrichment_html else ""
     pre_facts_content = enrichment_line if retired else ""
     post_facts_content = "" if retired else f"{practice_html}{enrichment_line}"

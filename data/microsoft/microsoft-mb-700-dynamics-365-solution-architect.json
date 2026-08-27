@@ -314,16 +314,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired MB-700 and the Finance and Operations Apps Solution Architect Expert certification on June 30, 2026. Microsoft lists AB-100 as a collective replacement for MB-700 and several other retired business application credentials.",
-    "replacement": {
-      "exam_code": "AB-100",
-      "name": "Agentic AI Business Solutions Architect",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
-      "relationship": "collective_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting MB-700 as a current exam.",
       "Compare completed MB-700 preparation with the current AB-100 guide; do not carry over obsolete weighting or mechanics.",
@@ -359,7 +350,16 @@
       "microsoft-ab-100-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AB-100",
+      "relationship": "collective_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

@@ -662,8 +662,6 @@
     ]
   },
   "lifecycle": {
-    "status": "scheduled_retirement",
-    "retires_on": "2026-08-31",
     "summary": "Microsoft will retire AZ-500 on 2026-08-31. The exam remains schedulable before the cutoff. Microsoft identifies SC-500 as its direct replacement, so candidates should choose the blueprint that matches their testing date and long-term role.",
     "migration_actions": [
       "Confirm that a complete AZ-500 study and booking plan fits before 2026-08-31.",
@@ -677,13 +675,6 @@
       "microsoft-sc-500-study-guide",
       "microsoft-transition-announcement"
     ],
-    "replacement": {
-      "exam_code": "SC-500",
-      "name": "Implementing End-to-End Security Controls for Cloud and AI Workloads",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
-      "relationship": "direct_replacement"
-    },
     "skill_comparison": [
       {
         "legacy_skill": "Secure identity and access",
@@ -706,7 +697,16 @@
         "replacement_weight": "20-25%",
         "change": "SC-500 preserves posture and collection work, adds Security Copilot, and places AI workload protection inside the end-to-end security role."
       }
-    ]
+    ],
+    "status": "scheduled_retirement",
+    "retires_on": "2026-08-31",
+    "replacement": {
+      "exam_code": "SC-500",
+      "relationship": "direct_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {
