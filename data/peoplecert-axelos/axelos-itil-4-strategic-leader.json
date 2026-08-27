@@ -89,5 +89,17 @@
     "itil 4 strategic leader",
     "itil 4 strategic leader sl"
   ],
-  "practice_url": "https://quizforge.ai/?q=ITIL%204%20Strategic%20Leader%20%28SL%29"
+  "practice_url": "https://quizforge.ai/?q=ITIL%204%20Strategic%20Leader%20%28SL%29",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-12-31",
+    "replacement": {
+      "exam_code": "ITIL Strategic Leader (Version 5)",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "PeopleCert (AXELOS) retires ITIL 4 SL on 2027-12-31. ITIL Strategic Leader (Version 5) is the named replacement path.",
+    "evidence_url": "https://www.peoplecert.org/help-and-support/faq-itil",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

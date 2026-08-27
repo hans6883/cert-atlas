@@ -121,5 +121,17 @@
     "aws-security-specialty-scs-c02",
     "scs-c02"
   ],
-  "practice_url": "https://quizforge.ai/tests/aws-certified-security-specialty-scs-c02"
+  "practice_url": "https://quizforge.ai/tests/aws-certified-security-specialty-scs-c02",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-12-01",
+    "replacement": {
+      "exam_code": "SCS-C03",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "AWS retired SCS-C02 on 2025-12-01. SCS-C03 is the named replacement path.",
+    "evidence_url": "https://docs.aws.amazon.com/aws-certification/latest/examguides/security-specialty-02-appendix-b.html",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

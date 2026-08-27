@@ -114,5 +114,17 @@
     "texes-core",
     "texes-core-subjects"
   ],
-  "practice_url": "https://quizforge.ai/tests/texes-core-subjects"
+  "practice_url": "https://quizforge.ai/tests/texes-core-subjects",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2021-12-31",
+    "replacement": {
+      "exam_code": "391",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "State Teacher Certification retired TEXES-CORE on 2021-12-31. 391 is the named replacement path.",
+    "evidence_url": "https://www.tx.nesinc.com/TestView.aspx?f=HTML_FRAG/TX291_TestPage.html",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

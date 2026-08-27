@@ -924,9 +924,11 @@
       "total_questions": 125,
       "duration_minutes": 135,
       "source_url": "https://www.acfe.com/cfe-credential/",
-      "practice_url": "https://quizforge.ai/tests/cfe-part-1-financial-transactions-and-fraud-schemes-2lrdut",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-06-02"
     },
     {
       "exam_id": "cfe-law",
@@ -938,9 +940,11 @@
       "total_questions": 125,
       "duration_minutes": 135,
       "source_url": "https://www.acfe.com/cfe-credential/",
-      "practice_url": "https://quizforge.ai/tests/cfe-part-2-law-2lslr6",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-06-02"
     },
     {
       "exam_id": "cfe-investigation",
@@ -952,9 +956,11 @@
       "total_questions": 125,
       "duration_minutes": 135,
       "source_url": "https://www.acfe.com/cfe-credential/",
-      "practice_url": "https://quizforge.ai/?q=CFE%20Part%203%3A%20Investigation",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-06-02"
     },
     {
       "exam_id": "cfe-fraud-prevention",
@@ -1288,9 +1294,14 @@
       "total_questions": 175,
       "duration_minutes": 210,
       "source_url": "https://www.nursingworld.org/certification/",
-      "practice_url": "https://quizforge.ai/?q=Adult-Gerontology%20Clinical%20Nurse%20Specialist%2C%20Board%20Certified%20%28ACNS-BC%29",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
+      "replacement_exam_code": "AGCNS-BC",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "ancc-agpcnp-bc",
@@ -2268,9 +2279,14 @@
       "total_questions": 65,
       "duration_minutes": 180,
       "source_url": "https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Exam-Guide.pdf",
-      "practice_url": "https://quizforge.ai/tests/aws-certified-data-analytics-â€“-specialty-2dwh62",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-04-08",
+      "replacement_exam_code": "DEA-C01",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "aws-data-engineer-associate-dea-c01",
@@ -2296,9 +2312,11 @@
       "total_questions": 65,
       "duration_minutes": 180,
       "source_url": "https://d1.awsstatic.com/training-and-certification/docs-database-specialty/AWS-Certified-Database-Specialty_Exam-Guide.pdf",
-      "practice_url": "https://quizforge.ai/tests/aws-database-specialty-dbs-c01",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-04-29"
     },
     {
       "exam_id": "aws-devops-engineer-professional-dop-c02",
@@ -2340,7 +2358,12 @@
       "source_url": "https://d1.awsstatic.com/training-and-certification/docs-machine-learning-engineer-associate/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf",
       "practice_url": "https://quizforge.ai/tests/aws-certified-machine-learning-engineer-associate-78aadeaa",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-09-28",
+      "replacement_exam_code": "MLA-C02",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "aws-machine-learning-specialty-mls-c01",
@@ -2352,9 +2375,14 @@
       "total_questions": 65,
       "duration_minutes": 180,
       "source_url": "https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf",
-      "practice_url": "https://quizforge.ai/tests/aws-certified-machine-learning-specialty-mls-c01",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-03-31",
+      "replacement_exam_code": "MLA-C01",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "aws-sap-on-aws-specialty-pas-c01",
@@ -2366,9 +2394,11 @@
       "total_questions": 65,
       "duration_minutes": 170,
       "source_url": "https://aws.amazon.com/certification/certified-sap-on-aws-specialty/",
-      "practice_url": "https://quizforge.ai/tests/aws-certified-sap-specialty-sap-c02",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-04-30"
     },
     {
       "exam_id": "aws-security-specialty-scs-c02",
@@ -2380,9 +2410,14 @@
       "total_questions": 65,
       "duration_minutes": 170,
       "source_url": "https://d1.awsstatic.com/training-and-certification/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide.pdf",
-      "practice_url": "https://quizforge.ai/tests/aws-certified-security-specialty-scs-c02",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-12-01",
+      "replacement_exam_code": "SCS-C03",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "aws-solutions-architect-associate-saa-c03",
@@ -2422,9 +2457,14 @@
       "total_questions": 65,
       "duration_minutes": 130,
       "source_url": "https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf",
-      "practice_url": "https://quizforge.ai/tests/aws-certified-sysops-administrator-soa-c02",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-09-29",
+      "replacement_exam_code": "SOA-C03",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "aws-cwi-recertification",
@@ -6104,9 +6144,11 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://satsuite.collegeboard.org/sat",
-      "practice_url": "https://quizforge.ai/tests/sat-with-essay-2j1tw7",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "comptia-a-plus-core1-220-1101",
@@ -7532,9 +7574,14 @@
       "total_questions": 100,
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
-      "practice_url": "https://quizforge.ai/tests/dsst-environment-and-humanity",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
+      "replacement_exam_code": "Environmental Science",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "dsst-ethics-in-america",
@@ -7658,9 +7705,14 @@
       "total_questions": 100,
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
-      "practice_url": "https://quizforge.ai/tests/dsst-introduction-to-computing",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
+      "replacement_exam_code": "COMIT",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "dsst-introduction-to-law-enforcement",
@@ -7840,9 +7892,11 @@
       "total_questions": 100,
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
-      "practice_url": "https://quizforge.ai/tests/dsst-principles-of-financial-accounting",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "dsst-principles-of-public-speaking",
@@ -8330,9 +8384,11 @@
       "total_questions": 190,
       "duration_minutes": 170,
       "source_url": "https://www.ets.org/gre/subject/about/",
-      "practice_url": "https://quizforge.ai/?q=GRE%20Subject%20Test%3A%20Biology",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2021-05-01"
     },
     {
       "exam_id": "gre-subject-chemistry",
@@ -15829,9 +15885,14 @@
       "total_questions": 95,
       "duration_minutes": 210,
       "source_url": "https://www.ncarb.org/pass-the-are/are-5/structural",
-      "practice_url": "https://quizforge.ai/tests/are-50-â€”-structural-sf-2gm14n",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2018-06-30",
+      "replacement_exam_code": "ARE-5",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "ncbe-mbe",
@@ -18603,7 +18664,12 @@
       "source_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-leader-digital-it-strategy-2924",
       "practice_url": "https://quizforge.ai/?q=ITIL%204%20Leader%3A%20Digital%20and%20IT%20Strategy%20%28DITS%29",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-12-31",
+      "replacement_exam_code": "ITIL Strategy (Version 5); ITIL Transformation (Version 5)",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "axelos-itil-4-managing-professional",
@@ -18631,7 +18697,12 @@
       "source_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-specialist-create-deliver-and-support-2693",
       "practice_url": "https://quizforge.ai/tests/itil4-specialist-create-deliver-support-cds",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-12-31",
+      "replacement_exam_code": "ITIL Product/Service/Experience (Version 5)",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "axelos-itil-4-specialist-dsv",
@@ -18659,7 +18730,12 @@
       "source_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-specialist-high-velocity-it-2814",
       "practice_url": "https://quizforge.ai/tests/itil-4-specialist-high-velocity-it-hvit-2e7g9i",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-12-31",
+      "replacement_exam_code": "ITIL (Version 5) modules",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "axelos-itil-4-specialist-moem",
@@ -18687,7 +18763,9 @@
       "source_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-specialist-sustainability-in-digital-and-it-3262",
       "practice_url": "https://quizforge.ai/tests/itil-4-specialist-sustainability-in-digital-and-it-2e8o5v",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-12-31"
     },
     {
       "exam_id": "axelos-itil-4-strategic-leader",
@@ -18701,7 +18779,12 @@
       "source_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-leader-digital-it-strategy-2924",
       "practice_url": "https://quizforge.ai/?q=ITIL%204%20Strategic%20Leader%20%28SL%29",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-12-31",
+      "replacement_exam_code": "ITIL Strategic Leader (Version 5)",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "axelos-msp-foundation",
@@ -20183,9 +20266,14 @@
       "total_questions": 45,
       "duration_minutes": 90,
       "source_url": "https://scaledagile.com/training/safe-advanced-scrum-master/",
-      "practice_url": "https://quizforge.ai/?q=SAFe%20Advanced%20Scrum%20Master%20%28SASM%29",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-06-30",
+      "replacement_exam_code": "SASM",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "safe-agile-sa",
@@ -20295,9 +20383,14 @@
       "total_questions": 45,
       "duration_minutes": 90,
       "source_url": "https://scaledagile.com/training/safe-scrum-master/",
-      "practice_url": "https://quizforge.ai/?q=SAFe%20Scrum%20Master%20%28SSM%29",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-06-30",
+      "replacement_exam_code": "SSM",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "safe-agile-sae",
@@ -20981,9 +21074,11 @@
       "total_questions": 30,
       "duration_minutes": 60,
       "source_url": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-apm.html",
-      "practice_url": "https://quizforge.ai/tests/servicenow-cis-apm",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-06-30"
     },
     {
       "exam_id": "servicenow-cis-csm",
@@ -22227,9 +22322,14 @@
       "total_questions": 30,
       "duration_minutes": 180,
       "source_url": "https://www.soa.org/education/exam-req/edu-exam-ifm-detail/",
-      "practice_url": "https://quizforge.ai/tests/soa-exam-ifm-investments-financial-markets",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2022-11-30",
+      "replacement_exam_code": "ATPA",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "soa-exam-ltam",
@@ -22241,9 +22341,14 @@
       "total_questions": null,
       "duration_minutes": 275,
       "source_url": "https://www.soa.org/education/exam-req/edu-exam-ltam-detail/",
-      "practice_url": "https://quizforge.ai/tests/soa-exam-ltam-long-term-actuarial-mathematics",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
+      "replacement_exam_code": "ALTAM",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "soa-exam-p",
@@ -22297,9 +22402,14 @@
       "total_questions": 35,
       "duration_minutes": 210,
       "source_url": "https://www.soa.org/education/exam-req/edu-exam-stam-detail/",
-      "practice_url": "https://quizforge.ai/tests/soa-exam-stam",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
+      "replacement_exam_code": "ASTAM",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "splunk-cloud-certified-admin",
@@ -22591,9 +22701,14 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.tx.nesinc.com/",
-      "practice_url": "https://quizforge.ai/tests/texes-core-subjects",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2021-12-31",
+      "replacement_exam_code": "391",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "texes-content-math",

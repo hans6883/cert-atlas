@@ -114,5 +114,12 @@
     "aws-database-specialty-dbs-c01",
     "dbs-c01"
   ],
-  "practice_url": "https://quizforge.ai/tests/aws-database-specialty-dbs-c01"
+  "practice_url": "https://quizforge.ai/tests/aws-database-specialty-dbs-c01",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-04-29",
+    "summary": "AWS retired DBS-C01 on 2024-04-29.",
+    "evidence_url": "https://aws.amazon.com/blogs/training-and-certification/aws-certification-retirements-and-launches/",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }
