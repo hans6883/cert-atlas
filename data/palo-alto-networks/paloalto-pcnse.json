@@ -104,5 +104,17 @@
     "paloalto-pcnse",
     "pcnse"
   ],
-  "practice_url": "https://quizforge.ai/tests/palo-alto-networks-certified-network-security-engineer-pcnse"
+  "practice_url": "https://quizforge.ai/tests/palo-alto-networks-certified-network-security-engineer-pcnse",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-07-31",
+    "replacement": {
+      "exam_code": "Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "Palo Alto Networks retired PCNSE on 2025-07-31. Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer is the named replacement path.",
+    "evidence_url": "https://live.paloaltonetworks.com/t5/news/what-is-replacing-the-pcnse/ta-p/1227937",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

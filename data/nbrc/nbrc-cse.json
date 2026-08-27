@@ -89,5 +89,17 @@
     "respiratory clinical simulation",
     "rrt exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/nbrc-clinical-simulation-examination-cse-2l6nka"
+  "practice_url": "https://quizforge.ai/tests/nbrc-clinical-simulation-examination-cse-2l6nka",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-12-31",
+    "replacement": {
+      "exam_code": "Respiratory Therapy Examination",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "NBRC retires CSE on 2027-12-31. Respiratory Therapy Examination is the named replacement path.",
+    "evidence_url": "https://www.nbrc.org/examinations/cse/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

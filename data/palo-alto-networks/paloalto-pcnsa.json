@@ -96,5 +96,17 @@
     "paloalto-pcnsa",
     "pcnsa"
   ],
-  "practice_url": "https://quizforge.ai/?q=Palo%20Alto%20Networks%20Certified%20Network%20Security%20Administrator%20%28PCNSA%29"
+  "practice_url": "https://quizforge.ai/?q=Palo%20Alto%20Networks%20Certified%20Network%20Security%20Administrator%20%28PCNSA%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-01-31",
+    "replacement": {
+      "exam_code": "Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "Palo Alto Networks retired PCNSA on 2025-01-31. Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer is the named replacement path.",
+    "evidence_url": "https://live.paloaltonetworks.com/t5/news/new-security-service-edge-engineer-certification-upcoming/ta-p/997555",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

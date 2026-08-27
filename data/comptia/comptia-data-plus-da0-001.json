@@ -118,5 +118,17 @@
     "data+",
     "data+ analyst"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-data-plus-da0-001"
+  "practice_url": "https://quizforge.ai/tests/comptia-data-plus-da0-001",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-07-16",
+    "replacement": {
+      "exam_code": "DA0-002",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "CompTIA retired DA0-001 on 2026-07-16. DA0-002 is the named replacement path.",
+    "evidence_url": "https://www.comptia.org/en-eu/certifications/data/v1/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

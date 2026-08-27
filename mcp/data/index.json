@@ -84,9 +84,14 @@
       "total_questions": 150,
       "duration_minutes": 180,
       "source_url": "https://www.aacn.org/certification/get-certified/ccrn-k",
-      "practice_url": "https://quizforge.ai/tests/ccrn-k-acute-care-certified-nurse-knowledge",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-11-14",
+      "replacement_exam_code": "CCRN",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "aacn-cfrn",
@@ -140,9 +145,11 @@
       "total_questions": 192,
       "duration_minutes": 240,
       "source_url": "https://www.pcatweb.info/taking-the-pcat/test-content/",
-      "practice_url": "https://quizforge.ai/tests/pcat-pharmacy-college-admission-test",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-01-10"
     },
     {
       "exam_id": "ccma-nha",
@@ -1425,9 +1432,14 @@
       "total_questions": 150,
       "duration_minutes": 210,
       "source_url": "https://www.ascm.org/certifications/cpim/",
-      "practice_url": "https://quizforge.ai/?q=CPIM%20Part%202%20%E2%80%94%20Strategic%20Management%20of%20Resources",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-02-01",
+      "replacement_exam_code": "CPIM",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "apics-cscp",
@@ -2055,9 +2067,14 @@
       "total_questions": 200,
       "duration_minutes": 360,
       "source_url": "https://www.bcsp.org/sms",
-      "practice_url": "https://quizforge.ai/?q=Safety%20Management%20Specialist%20%28SMS%29",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-03",
+      "replacement_exam_code": "SMP",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "asvab-cat",
@@ -2181,9 +2198,14 @@
       "total_questions": 170,
       "duration_minutes": 209,
       "source_url": "https://www.atitesting.com/teas",
-      "practice_url": "https://quizforge.ai/tests/teas-6",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2022-06-03",
+      "replacement_exam_code": "TEAS7",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "teas-7",
@@ -2574,9 +2596,14 @@
       "total_questions": 150,
       "duration_minutes": 120,
       "source_url": "https://www.aws.org/certification",
-      "practice_url": "https://quizforge.ai/tests/senior-certified-welding-inspector-scwi-2nismp",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-04-01",
+      "replacement_exam_code": "WPQ1,WPQ2,WCQA,NDEC",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "adobe-analytics-ae",
@@ -2714,9 +2741,11 @@
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/aca_bigdata",
-      "practice_url": "https://quizforge.ai/tests/aca-big-data-associate-2n7tj9",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-31"
     },
     {
       "exam_id": "alibaba-cloud-aca-cloud-computing",
@@ -2742,9 +2771,11 @@
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/aca_database",
-      "practice_url": "https://quizforge.ai/tests/aca-database-associate-2nbh8e",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-31"
     },
     {
       "exam_id": "alibaba-cloud-aca-devops",
@@ -2784,9 +2815,14 @@
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/aca_security",
-      "practice_url": "https://quizforge.ai/?q=ACA%20Security%20Associate",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-05-13",
+      "replacement_exam_code": "CSA-C01",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "alibaba-cloud-ace-cloud-computing",
@@ -2798,9 +2834,11 @@
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/ace_cloudcomputing",
-      "practice_url": "https://quizforge.ai/?q=ACE%20Cloud%20Computing%20Expert",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-05-13"
     },
     {
       "exam_id": "alibaba-cloud-acp-big-data",
@@ -2812,9 +2850,11 @@
       "total_questions": 70,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/acp_bigdata",
-      "practice_url": "https://quizforge.ai/tests/acp-big-data-professional-2n91fm",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-31"
     },
     {
       "exam_id": "alibaba-cloud-acp-cloud-computing",
@@ -2840,9 +2880,11 @@
       "total_questions": 70,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/acp_network",
-      "practice_url": "https://quizforge.ai/tests/acp-network-professional-2ncp4s",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-31"
     },
     {
       "exam_id": "alibaba-cloud-acp-security",
@@ -2854,9 +2896,11 @@
       "total_questions": 70,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/acp_security",
-      "practice_url": "https://quizforge.ai/tests/acp-security-professional-2na9c0",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-31"
     },
     {
       "exam_id": "appian-associate-analyst",
@@ -3008,9 +3052,14 @@
       "total_questions": 75,
       "duration_minutes": 120,
       "source_url": "https://www.atlassian.com/university/certification/certifications/jira-administrator-data-center-server",
-      "practice_url": "https://quizforge.ai/tests/atlassian-certified-jira-administrator-acp-100",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-09-11",
+      "replacement_exam_code": "ACP-120",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "atlassian-acp-420",
@@ -3036,9 +3085,14 @@
       "total_questions": 75,
       "duration_minutes": 120,
       "source_url": "https://www.atlassian.com/university/certification/certifications/project-administrator-jira-cloud",
-      "practice_url": "https://quizforge.ai/?q=Atlassian%20Certified%20Project%20Administrator%20for%20Jira%20Cloud",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-09-11",
+      "replacement_exam_code": "ACP-620",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "atlassian-acp-120",
@@ -3960,9 +4014,14 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.cipd.org/en/qualifications/organisational-design/advanced-diploma/",
-      "practice_url": "https://quizforge.ai/?q=CIPD%20Advanced%20Diploma%20in%20Organisational%20Design%20and%20Development%20%28Level%207%29",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-07-31",
+      "replacement_exam_code": "Advanced Diploma SPM L7",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "cipd-advanced-diploma-strategic-people-management",
@@ -4016,9 +4075,14 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.cipd.org/en/qualifications/",
-      "practice_url": "https://quizforge.ai/?q=CIPD%20Certificate%20in%20HR%20Practice",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-07-31",
+      "replacement_exam_code": "Foundation Certificate L3",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "cipd-foundation-certificate-people-practice",
@@ -4954,9 +5018,11 @@
       "total_questions": 80,
       "duration_minutes": 120,
       "source_url": "https://aicpcu.org/designations/cpcu/cpcu-exams/",
-      "practice_url": "https://quizforge.ai/?q=CPCU%20553%20%E2%80%94%20Personal%20Risk%20Management%20and%20Insurance",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-12-15"
     },
     {
       "exam_id": "cpcu-560",
@@ -6246,7 +6312,12 @@
       "source_url": "https://www.comptia.org/certifications/cybersecurity-analyst",
       "practice_url": "https://quizforge.ai/tests/comptia-cysa-plus-cs0-003",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-12-22",
+      "replacement_exam_code": "CS0-004",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "comptia-data-plus-da0-001",
@@ -6258,9 +6329,14 @@
       "total_questions": 90,
       "duration_minutes": 90,
       "source_url": "https://d2ds8yldqp7gxv.cloudfront.net/Comptia+Agendas/comptia-data-da0-001-Agenda.pdf",
-      "practice_url": "https://quizforge.ai/tests/comptia-data-plus-da0-001",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-07-16",
+      "replacement_exam_code": "DA0-002",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "comptia-datasys-plus-ds0-001",
@@ -6300,9 +6376,14 @@
       "total_questions": 90,
       "duration_minutes": 90,
       "source_url": "https://d2ds8yldqp7gxv.cloudfront.net/Comptia+Agendas/comptia-linux-xk0-005-Agenda.pdf",
-      "practice_url": "https://quizforge.ai/tests/comptia-linux-plus-xk0-005",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-01-13",
+      "replacement_exam_code": "XK0-006",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "comptia-network-plus-n10-009",
@@ -8230,9 +8311,14 @@
       "total_questions": 50,
       "duration_minutes": 90,
       "source_url": "https://www.dynatrace.com/services-support/university/certification/dynatrace-professional/",
-      "practice_url": "https://quizforge.ai/tests/dynatrace-professional-2hiyez",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-01-31",
+      "replacement_exam_code": "Dynatrace Administration Professional; Dynatrace Implementation Professional",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "ec-council-ceh-312-50",
@@ -8570,7 +8656,12 @@
       "source_url": "https://www.elastic.co/training/elastic-certified-engineer-exam",
       "practice_url": "https://quizforge.ai/tests/elastic-certified-engineer-ece",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-09-01",
+      "replacement_exam_code": "Elastic Certified Engineer 9.3",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "elastic-ecoe",
@@ -8780,7 +8871,12 @@
       "source_url": "https://www.f5.com/company/training/certifications/big-ip-administrator",
       "practice_url": "https://quizforge.ai/tests/f5-certified-administrator-â€”-big-ip-201-2l2zv5",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-04-30",
+      "replacement_exam_code": "F5CAB1",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "f5-101",
@@ -9506,9 +9602,14 @@
       "total_questions": null,
       "duration_minutes": 120,
       "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse2",
-      "practice_url": "https://quizforge.ai/?q=NSE%202%20Network%20Security%20Associate",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-07-15",
+      "replacement_exam_code": "NSE 2 – Introduction to the Next Generation Firewall",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "fortinet-nse3",
@@ -9548,9 +9649,14 @@
       "total_questions": 30,
       "duration_minutes": 70,
       "source_url": "https://www.fortinet.com/training/certification/nse-5",
-      "practice_url": "https://quizforge.ai/?q=NSE%205%20Network%20Security%20Analyst%20%E2%80%94%20FortiAnalyzer",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-10-14",
+      "replacement_exam_code": "NSE 6 - FortiAnalyzer 7.6 Administrator",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "fortinet-nse5-fmg",
@@ -10458,9 +10564,11 @@
       "total_questions": 30,
       "duration_minutes": 45,
       "source_url": "https://skillshop.docebosaas.com/learn/courses/waze-ads-fundamentals",
-      "practice_url": "https://quizforge.ai/tests/waze-ads-fundamentals-2ofpx0",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-08-31"
     },
     {
       "exam_id": "hesi-a2",
@@ -11494,9 +11602,14 @@
       "total_questions": 60,
       "duration_minutes": 75,
       "source_url": "https://academy.hubspot.com/courses/seo-training-course",
-      "practice_url": "https://quizforge.ai/tests/seo-certification-2oda49",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-06-23",
+      "replacement_exam_code": "AEO Fundamentals; Implementing AEO With HubSpot",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "hubspot-sales-enablement",
@@ -11874,7 +11987,12 @@
       "source_url": "https://www.icaew.com/qualifications/aca/professional-level/business-planning-taxation",
       "practice_url": "https://quizforge.ai/?q=ACA%20Professional%20Level%3A%20Business%20Planning%3A%20Taxation",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-09-30",
+      "replacement_exam_code": "Fundamental Case Study",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "icaew-aca-professional-level-corporate-reporting",
@@ -12320,9 +12438,14 @@
       "total_questions": 200,
       "duration_minutes": 480,
       "source_url": "https://www.icsi.edu/foundation-programme/",
-      "practice_url": "https://quizforge.ai/tests/cs-foundation-programme-2nzv81",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2020-02-03",
+      "replacement_exam_code": "CSEET",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "icsi-cs-professional",
@@ -12418,9 +12541,14 @@
       "total_questions": 115,
       "duration_minutes": 140,
       "source_url": "https://www.theiia.org/en/certifications/specialty-certifications/ccsa/",
-      "practice_url": "https://quizforge.ai/tests/ccsa",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2021-06-30",
+      "replacement_exam_code": "CRMA",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "cfsa",
@@ -12432,9 +12560,14 @@
       "total_questions": 115,
       "duration_minutes": 140,
       "source_url": "https://www.theiia.org/en/certifications/specialty-certifications/cfsa/",
-      "practice_url": "https://quizforge.ai/tests/iia-certified-financial-services-auditor-cfsa",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2021-06-30",
+      "replacement_exam_code": "CIA",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "cgap",
@@ -12446,9 +12579,14 @@
       "total_questions": 115,
       "duration_minutes": 140,
       "source_url": "https://www.theiia.org/en/certifications/specialty-certifications/cgap/",
-      "practice_url": "https://quizforge.ai/tests/cgap-certified-government-auditing-professional",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2021-06-30",
+      "replacement_exam_code": "CIA",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "cia-part-1",
@@ -13386,7 +13524,12 @@
       "source_url": "https://www.istqb.org/certifications/foundation-level-agile-tester",
       "practice_url": "https://quizforge.ai/?q=Foundation%20Level%20%E2%80%94%20Agile%20Tester%20%28CTFL-AT%29",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-05-06",
+      "replacement_exam_code": "CTFL",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "ccse",
@@ -13804,9 +13947,14 @@
       "total_questions": 65,
       "duration_minutes": 90,
       "source_url": "https://www.juniper.net/us/en/training/certification/tracks/cloud/jncia-cloud.html",
-      "practice_url": "https://quizforge.ai/tests/jncia-cloud-2f4djt",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2022-02-13",
+      "replacement_exam_code": "JN0-214",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "juniper-jncia-junos",
@@ -13818,9 +13966,14 @@
       "total_questions": 65,
       "duration_minutes": 90,
       "source_url": "https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html",
-      "practice_url": "https://quizforge.ai/tests/juniper-jncia-junos-associate",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-04-05",
+      "replacement_exam_code": "JN0-106",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "juniper-jncia-sec",
@@ -14806,9 +14959,11 @@
       "total_questions": 40,
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-300",
-      "practice_url": "https://quizforge.ai/tests/mb-300-microsoft-dynamics-365-finance-operations",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-02-29"
     },
     {
       "exam_id": "microsoft-mb-700-dynamics-365-solution-architect",
@@ -14961,9 +15116,11 @@
       "total_questions": 120,
       "duration_minutes": 60,
       "source_url": "https://www.milleranalogies.com/score-reports/",
-      "practice_url": "https://quizforge.ai/tests/mat-education-norms",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-11-15"
     },
     {
       "exam_id": "mat-psychology-percentile",
@@ -14975,9 +15132,11 @@
       "total_questions": 120,
       "duration_minutes": 60,
       "source_url": "https://www.milleranalogies.com/score-reports/",
-      "practice_url": "https://quizforge.ai/tests/mat-psychology-percentile",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-11-15"
     },
     {
       "exam_id": "mat-standard",
@@ -14989,9 +15148,11 @@
       "total_questions": 120,
       "duration_minutes": 60,
       "source_url": "https://www.milleranalogies.com/",
-      "practice_url": "https://quizforge.ai/tests/mat-standard",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-11-15"
     },
     {
       "exam_id": "mongodb-associate-atlas-administrator",
@@ -15675,9 +15836,14 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.nbome.org/exams/comlex-usa/comlex-usa-level-2/",
-      "practice_url": "https://quizforge.ai/?q=COMLEX-USA%20Level%202-PE%20%28Performance%20Evaluation%29",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2022-06-01",
+      "replacement_exam_code": "C3DO",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "comlex-level-3",
@@ -15789,7 +15955,12 @@
       "source_url": "https://www.nbrc.org/examinations/clinical-simulation-examination/",
       "practice_url": "https://quizforge.ai/tests/nbrc-clinical-simulation-examination-cse-2l6nka",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-12-31",
+      "replacement_exam_code": "Respiratory Therapy Examination",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "nbrc-tmce",
@@ -16716,9 +16887,14 @@
       "total_questions": null,
       "duration_minutes": 210,
       "source_url": "https://www.nebosh.org.uk/qualifications/national-diploma-occupational-health-and-safety/",
-      "practice_url": "https://quizforge.ai/?q=NEBOSH%20National%20Diploma%20in%20Occupational%20Health%20and%20Safety",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-02-25",
+      "replacement_exam_code": "Level 6 National Diploma for Occupational Health and Safety Management Professionals",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "nebosh-ngc",
@@ -17206,9 +17382,14 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://mortgage.nationwidelicensingsystem.org/slr/Pages/TestingandEducation.aspx",
-      "practice_url": "https://quizforge.ai/tests/safe-mlo-test-â€”-state-component-various-states-2loy21",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2013-04-01",
+      "replacement_exam_code": "National Test with UST",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "nna-notary-exam-ca",
@@ -17626,9 +17807,14 @@
       "total_questions": 65,
       "duration_minutes": 90,
       "source_url": "https://learn.newrelic.com/series/certifications",
-      "practice_url": "https://quizforge.ai/tests/new-relic-certified-observability-practitioner-2kzc60",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-12-11",
+      "replacement_exam_code": "NVF",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "new-relic-performance-engineer",
@@ -18158,9 +18344,14 @@
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-foundations-associate/pexam_1Z0-1085-23",
-      "practice_url": "https://quizforge.ai/tests/oracle-cloud-infrastructure-2023-foundations-associate-1z0-1085-23-2enayh",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2024-08-31",
+      "replacement_exam_code": "1Z0-1085-24",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "oracle-oci-generative-ai-1z0-1110",
@@ -18284,9 +18475,14 @@
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://www.outsystems.com/learn/certifications/associate-mobile-developer/",
-      "practice_url": "https://quizforge.ai/tests/outsystems-associate-mobile-developer-2idfwj",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2020-08-10",
+      "replacement_exam_code": "Mobile Developer Specialist (O11 and ODC)",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "outsystems-associate-reactive",
@@ -18312,9 +18508,14 @@
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://www.outsystems.com/learn/certifications/professional-reactive-developer/",
-      "practice_url": "https://quizforge.ai/tests/outsystems-professional-reactive-developer-2ic806",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-03",
+      "replacement_exam_code": "Expert Developer",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "outsystems-tech-lead",
@@ -18466,9 +18667,14 @@
       "total_questions": 75,
       "duration_minutes": 90,
       "source_url": "https://www.paloaltonetworks.com/services/education/certification/pccet",
-      "practice_url": "https://quizforge.ai/tests/palo-alto-networks-certified-cybersecurity-entry-level-technician-pccet-2f1xr2",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-01-31",
+      "replacement_exam_code": "Cybersecurity Apprentice / Cybersecurity Practitioner",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "paloalto-pcnsa",
@@ -18480,9 +18686,14 @@
       "total_questions": 75,
       "duration_minutes": 80,
       "source_url": "https://www.paloaltonetworks.com/services/education/certification/pcnsa",
-      "practice_url": "https://quizforge.ai/?q=Palo%20Alto%20Networks%20Certified%20Network%20Security%20Administrator%20%28PCNSA%29",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-01-31",
+      "replacement_exam_code": "Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "paloalto-pcnse",
@@ -18494,9 +18705,14 @@
       "total_questions": 75,
       "duration_minutes": 80,
       "source_url": "https://www.paloaltonetworks.com/services/education/certification/pcnse",
-      "practice_url": "https://quizforge.ai/tests/palo-alto-networks-certified-network-security-engineer-pcnse",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-07-31",
+      "replacement_exam_code": "Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer",
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "paloalto-pcsae",
@@ -18683,7 +18899,12 @@
       "source_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-strategist-direct-plan-and-improve-2695",
       "practice_url": "https://quizforge.ai/?q=ITIL%204%20Managing%20Professional%20%28MP%29%20Transition",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-12-31",
+      "replacement_exam_code": "ITIL Managing Professional Transition (Version 5)",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "axelos-itil-4-specialist-cds",
@@ -19818,9 +20039,14 @@
       "total_questions": 60,
       "duration_minutes": 105,
       "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-AI-Associate-Exam-Guide",
-      "practice_url": "https://quizforge.ai/tests/salesforce-certified-ai-associate-36e4f3eb",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-02-02",
+      "replacement_exam_code": "AI Specialist",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "salesforce-ai-specialist",
@@ -19890,7 +20116,9 @@
       "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-B2B-Solution-Architect-Exam-Guide",
       "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20B2B%20Solution%20Architect",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-02-01"
     },
     {
       "exam_id": "salesforce-b2c-commerce-developer",
@@ -19960,7 +20188,9 @@
       "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Education-Cloud-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-education-cloud-consultant-2eerns",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-02-01"
     },
     {
       "exam_id": "salesforce-experience-cloud-consultant",
@@ -20114,7 +20344,9 @@
       "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Account-Engagement-Consultant-Exam-Guide",
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-pardot-consultant-2eifcy",
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2027-02-01"
     },
     {
       "exam_id": "salesforce-pardot-specialist",
@@ -20430,9 +20662,14 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.scrumalliance.org/get-certified/teams-and-organizations/certified-enterprise-coach",
-      "practice_url": "https://quizforge.ai/tests/certified-enterprise-coach-cec-2hbn0p",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-01-06",
+      "replacement_exam_code": "CAC",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "scrum-alliance-csd",
@@ -21482,9 +21719,14 @@
       "total_questions": 47,
       "duration_minutes": 90,
       "source_url": "https://www.servicenow.com/services/training-and-certification/certified-technical-architect.html",
-      "practice_url": "https://quizforge.ai/tests/servicenow-cta",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-05-03",
+      "replacement_exam_code": "CTA",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "servicenow-clinical-device-management-accreditation",
@@ -22687,9 +22929,11 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.ets.org/ppat",
-      "practice_url": "https://quizforge.ai/?q=PPAT%20%28Principles%20of%20Learning%20and%20Teaching%20Assessment%29%20%E2%80%94%20ETS",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-12-31"
     },
     {
       "exam_id": "texes-core-subjects",
@@ -22776,9 +23020,14 @@
       "total_questions": 100,
       "duration_minutes": 150,
       "source_url": "https://www.tx.nesinc.com/TestView.aspx?f=HTML_FRAG/TX_117_TestPage.html",
-      "practice_url": "https://quizforge.ai/tests/texes-elar-4-8",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2021-12-31",
+      "replacement_exam_code": "217",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "texes-math-4-8",
@@ -23378,9 +23627,14 @@
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://www.veeam.com/certifications/veeam-certified-engineer.html",
-      "practice_url": "https://quizforge.ai/?q=Veeam%20Certified%20Engineer%20%28VMCE%29%20v12",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-03-31",
+      "replacement_exam_code": "VMCE+",
+      "replacement_relationship": "related_successor",
+      "replacement_url": null
     },
     {
       "exam_id": "veeam-vmsp",

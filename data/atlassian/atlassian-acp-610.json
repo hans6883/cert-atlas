@@ -97,5 +97,17 @@
     "jira cloud project admin",
     "jira project administrator cloud"
   ],
-  "practice_url": "https://quizforge.ai/?q=Atlassian%20Certified%20Project%20Administrator%20for%20Jira%20Cloud"
+  "practice_url": "https://quizforge.ai/?q=Atlassian%20Certified%20Project%20Administrator%20for%20Jira%20Cloud",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-09-11",
+    "replacement": {
+      "exam_code": "ACP-620",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "Atlassian retired ACP-610 on 2025-09-11. ACP-620 is the named replacement path.",
+    "evidence_url": "https://community.atlassian.com/forums/Training-Certification-articles/Data-Center-certifications-are-being-retired-in-the-coming/ba-p/2974579",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

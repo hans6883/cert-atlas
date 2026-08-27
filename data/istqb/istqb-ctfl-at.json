@@ -112,5 +112,17 @@
     "istqb agile tester",
     "istqb-ctfl-at"
   ],
-  "practice_url": "https://quizforge.ai/?q=Foundation%20Level%20%E2%80%94%20Agile%20Tester%20%28CTFL-AT%29"
+  "practice_url": "https://quizforge.ai/?q=Foundation%20Level%20%E2%80%94%20Agile%20Tester%20%28CTFL-AT%29",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-05-06",
+    "replacement": {
+      "exam_code": "CTFL",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "ISTQB retires CTFL-AT on 2027-05-06. CTFL is the named replacement path.",
+    "evidence_url": "https://istqb.org/certifications/certified-tester-foundation-level-agile-tester-ctfl-at/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

@@ -229,5 +229,17 @@
     "cysa+ v3",
     "v3"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-cysa-plus-cs0-003"
+  "practice_url": "https://quizforge.ai/tests/comptia-cysa-plus-cs0-003",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-12-22",
+    "replacement": {
+      "exam_code": "CS0-004",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "CompTIA retires CS0-003 on 2026-12-22. CS0-004 is the named replacement path.",
+    "evidence_url": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/v3/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

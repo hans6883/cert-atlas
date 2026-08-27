@@ -123,5 +123,17 @@
     "nse 5 network security analyst fortianalyzer",
     "nse5-faz"
   ],
-  "practice_url": "https://quizforge.ai/?q=NSE%205%20Network%20Security%20Analyst%20%E2%80%94%20FortiAnalyzer"
+  "practice_url": "https://quizforge.ai/?q=NSE%205%20Network%20Security%20Analyst%20%E2%80%94%20FortiAnalyzer",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-10-14",
+    "replacement": {
+      "exam_code": "NSE 6 - FortiAnalyzer 7.6 Administrator",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "Fortinet retired FCP_FAZ_AD-7.4 on 2025-10-14. NSE 6 - FortiAnalyzer 7.6 Administrator is the named replacement path.",
+    "evidence_url": "https://training.fortinet.com/local/staticpage/view.php?page=fcp_network_security",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

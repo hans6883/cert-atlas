@@ -112,5 +112,17 @@
     "linux+",
     "xk0-005"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-linux-plus-xk0-005"
+  "practice_url": "https://quizforge.ai/tests/comptia-linux-plus-xk0-005",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-01-13",
+    "replacement": {
+      "exam_code": "XK0-006",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "CompTIA retired XK0-005 on 2026-01-13. XK0-006 is the named replacement path.",
+    "evidence_url": "https://www.comptia.org/en-em/certifications/linux/v7/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }

@@ -108,5 +108,17 @@
     "vmce v12",
     "vmce-v12"
   ],
-  "practice_url": "https://quizforge.ai/?q=Veeam%20Certified%20Engineer%20%28VMCE%29%20v12"
+  "practice_url": "https://quizforge.ai/?q=Veeam%20Certified%20Engineer%20%28VMCE%29%20v12",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-03-31",
+    "replacement": {
+      "exam_code": "VMCE+",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "Veeam retired VMCE-V12 on 2026-03-31. VMCE+ is the named replacement path.",
+    "evidence_url": "https://www.veeam.com/support/training/veeam-university-pro.html",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  }
 }
