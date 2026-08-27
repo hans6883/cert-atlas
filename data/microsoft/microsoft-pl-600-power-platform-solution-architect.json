@@ -537,16 +537,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired PL-600 and the Power Platform Solution Architect Expert certification on June 30, 2026. Microsoft describes AB-100 as a collective and partial replacement path that expands solution architecture into agentic AI business systems.",
-    "replacement": {
-      "exam_code": "AB-100",
-      "name": "Agentic AI Business Solutions Architect",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
-      "relationship": "collective_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting PL-600 as a current exam.",
       "Compare completed PL-600 preparation with the current AB-100 guide; do not carry over obsolete weighting or mechanics.",
@@ -582,7 +573,16 @@
       "microsoft-ab-100-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AB-100",
+      "relationship": "collective_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

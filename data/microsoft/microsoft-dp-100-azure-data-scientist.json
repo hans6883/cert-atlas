@@ -370,16 +370,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-01",
     "summary": "Microsoft retired DP-100 and the Azure Data Scientist Associate certification on June 1, 2026. Microsoft identifies AI-300 and the Machine Learning Operations Engineer Associate certification as the replacement path.",
-    "replacement": {
-      "exam_code": "AI-300",
-      "name": "Operationalizing Machine Learning and Generative AI Solutions",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
-      "relationship": "direct_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting DP-100 as a current exam.",
       "Compare completed DP-100 preparation with the current AI-300 guide; do not carry over obsolete weighting or mechanics.",
@@ -415,7 +406,16 @@
       "microsoft-ai-300-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-01",
+    "replacement": {
+      "exam_code": "AI-300",
+      "relationship": "direct_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

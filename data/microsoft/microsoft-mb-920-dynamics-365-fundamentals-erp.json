@@ -282,8 +282,6 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2025-12-31",
     "summary": "Microsoft retired MB-920 on 2025-12-31. The exam is no longer schedulable. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
     "migration_actions": [
       "Remove MB-920 from current registration and practice calls to action because it retired on 2025-12-31.",
@@ -294,7 +292,11 @@
     "source_ids": [
       "microsoft-mb-920-study-guide",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2025-12-31",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

@@ -14210,9 +14210,11 @@
       "total_questions": 40,
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-400",
-      "practice_url": "https://quizforge.ai/?q=Administering%20Information%20Protection%20and%20Compliance%20in%20Microsoft%20365",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "microsoft-sc-401-information-security-administrator",
@@ -14312,9 +14314,11 @@
       "total_questions": 40,
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203",
-      "practice_url": "https://quizforge.ai/tests/data-engineering-on-microsoft-azure-2e04v7",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "microsoft-az-305-azure-solutions-architect",
@@ -14388,8 +14392,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-06-01",
       "replacement_exam_code": "AI-300",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/",
-      "replacement_relationship": "direct_replacement"
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/"
     },
     {
       "exam_id": "microsoft-ai-102-azure-ai-engineer",
@@ -14407,8 +14411,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AI-103",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
-      "replacement_relationship": "direct_replacement"
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/"
     },
     {
       "exam_id": "microsoft-az-204-azure-developer",
@@ -14426,8 +14430,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-07-31",
       "replacement_exam_code": "AI-200",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
-      "replacement_relationship": "direct_replacement"
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/"
     },
     {
       "exam_id": "microsoft-dp-600-microsoft-fabric",
@@ -14519,8 +14523,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AI-901",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
-      "replacement_relationship": "direct_replacement"
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"
     },
     {
       "exam_id": "microsoft-az-104-azure-administrator",
@@ -14607,9 +14611,11 @@
       "total_questions": 40,
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-220",
-      "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Customer%20Insights%20-%20Journeys%20Functional%20Consultant",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "microsoft-mb-230-dynamics-365-customer-service",
@@ -14641,8 +14647,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-250",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-250/",
-      "replacement_relationship": "related_successor"
+      "replacement_relationship": "related_successor",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-250/"
     },
     {
       "exam_id": "microsoft-mb-310-dynamics-365-finance",
@@ -14714,9 +14720,11 @@
       "total_questions": 40,
       "duration_minutes": 100,
       "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-210",
-      "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-sales-functional-consultant-mb-210",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "microsoft-mb-330-dynamics-365-supply-chain",
@@ -14762,8 +14770,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-100",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
-      "replacement_relationship": "collective_replacement"
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/"
     },
     {
       "exam_id": "microsoft-sc-300-identity-access",
@@ -14795,8 +14803,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-100",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
-      "replacement_relationship": "collective_replacement"
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/"
     },
     {
       "exam_id": "microsoft-pl-300-power-bi-analyst",
@@ -14856,8 +14864,8 @@
       "lifecycle_status": "retired",
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-100",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
-      "replacement_relationship": "collective_replacement"
+      "replacement_relationship": "collective_replacement",
+      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/"
     },
     {
       "exam_id": "microsoft-sc-200-security-operations",

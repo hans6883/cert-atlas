@@ -350,16 +350,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-07-31",
     "summary": "Microsoft retired AZ-204 and the Azure Developer Associate certification on July 31, 2026. Microsoft identifies AI-200 and the Azure AI Cloud Developer Associate certification as its replacement.",
-    "replacement": {
-      "exam_code": "AI-200",
-      "name": "Developing AI Cloud Solutions on Azure",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
-      "relationship": "direct_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting AZ-204 as a current exam.",
       "Compare completed AZ-204 preparation with the current AI-200 guide; do not carry over obsolete weighting or mechanics.",
@@ -402,7 +393,16 @@
       "microsoft-ai-200-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-07-31",
+    "replacement": {
+      "exam_code": "AI-200",
+      "relationship": "direct_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {
