@@ -114,5 +114,17 @@
     "aws-data-analytics-specialty-das-c01",
     "das-c01"
   ],
-  "practice_url": "https://quizforge.ai/tests/aws-certified-data-analytics-â€“-specialty-2dwh62"
+  "practice_url": "https://quizforge.ai/tests/aws-certified-data-analytics-â€“-specialty-2dwh62",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-04-08",
+    "replacement": {
+      "exam_code": "DEA-C01",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "AWS retired DAS-C01 on 2024-04-08. DEA-C01 is the named replacement path.",
+    "evidence_url": "https://aws.amazon.com/blogs/training-and-certification/aws-certification-retirements-and-launches/",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

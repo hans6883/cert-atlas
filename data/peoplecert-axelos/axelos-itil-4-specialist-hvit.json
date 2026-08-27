@@ -105,5 +105,17 @@
     "itil 4 specialist hvit",
     "itil hvit"
   ],
-  "practice_url": "https://quizforge.ai/tests/itil-4-specialist-high-velocity-it-hvit-2e7g9i"
+  "practice_url": "https://quizforge.ai/tests/itil-4-specialist-high-velocity-it-hvit-2e7g9i",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-12-31",
+    "replacement": {
+      "exam_code": "ITIL (Version 5) modules",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "PeopleCert (AXELOS) retires ITIL 4 SPECIALIST HVIT on 2027-12-31. ITIL (Version 5) modules is the named replacement path.",
+    "evidence_url": "https://www.peoplecert.org/help-and-support/faq-itil",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

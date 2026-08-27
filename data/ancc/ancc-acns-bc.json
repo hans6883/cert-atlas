@@ -116,5 +116,17 @@
     "ancc-acns-bc",
     "clinical nurse specialist"
   ],
-  "practice_url": "https://quizforge.ai/?q=Adult-Gerontology%20Clinical%20Nurse%20Specialist%2C%20Board%20Certified%20%28ACNS-BC%29"
+  "practice_url": "https://quizforge.ai/?q=Adult-Gerontology%20Clinical%20Nurse%20Specialist%2C%20Board%20Certified%20%28ACNS-BC%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "AGCNS-BC",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "ANCC retired ACNS-BC. AGCNS-BC is the named replacement path.",
+    "evidence_url": "https://www.nursingworld.org/certification/certification-policies/certification-credentials/",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

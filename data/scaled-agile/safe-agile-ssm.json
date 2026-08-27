@@ -193,5 +193,17 @@
     "safe-agile-ssm",
     "ssm"
   ],
-  "practice_url": "https://quizforge.ai/?q=SAFe%20Scrum%20Master%20%28SSM%29"
+  "practice_url": "https://quizforge.ai/?q=SAFe%20Scrum%20Master%20%28SSM%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-06-30",
+    "replacement": {
+      "exam_code": "SSM",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Scaled Agile retired SSM on 2025-06-30. SSM is the named replacement path.",
+    "evidence_url": "https://support.scaledagile.com/en/articles/9824271-safe-5-end-of-life-faqs",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

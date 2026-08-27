@@ -110,5 +110,17 @@
     "machine learning engineer associate",
     "mla-c01"
   ],
-  "practice_url": "https://quizforge.ai/tests/aws-certified-machine-learning-engineer-associate-78aadeaa"
+  "practice_url": "https://quizforge.ai/tests/aws-certified-machine-learning-engineer-associate-78aadeaa",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-09-28",
+    "replacement": {
+      "exam_code": "MLA-C02",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "AWS retires MLA-C01 on 2026-09-28. MLA-C02 is the named replacement path.",
+    "evidence_url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

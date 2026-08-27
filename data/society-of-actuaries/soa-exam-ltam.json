@@ -121,5 +121,17 @@
     "soa ltam",
     "soa-exam-ltam"
   ],
-  "practice_url": "https://quizforge.ai/tests/soa-exam-ltam-long-term-actuarial-mathematics"
+  "practice_url": "https://quizforge.ai/tests/soa-exam-ltam-long-term-actuarial-mathematics",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "ALTAM",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "Society of Actuaries retired SOA-EXAM-LTAM. ALTAM is the named replacement path.",
+    "evidence_url": "https://www.soa.org/education/general-info/asa-changes-transition",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }

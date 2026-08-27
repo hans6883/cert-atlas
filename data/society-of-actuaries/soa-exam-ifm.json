@@ -117,5 +117,17 @@
     "soa ifm",
     "soa-exam-ifm"
   ],
-  "practice_url": "https://quizforge.ai/tests/soa-exam-ifm-investments-financial-markets"
+  "practice_url": "https://quizforge.ai/tests/soa-exam-ifm-investments-financial-markets",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2022-11-30",
+    "replacement": {
+      "exam_code": "ATPA",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "Society of Actuaries retired SOA-EXAM-IFM on 2022-11-30. ATPA is the named replacement path.",
+    "evidence_url": "https://www.soa.org/education/general-info/asa-changes-transition",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  }
 }
