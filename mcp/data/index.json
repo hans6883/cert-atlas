@@ -9635,9 +9635,14 @@
       "total_questions": 60,
       "duration_minutes": 105,
       "source_url": "https://www.fortinet.com/training/certification/nse-4",
-      "practice_url": "https://quizforge.ai/tests/fortinet-nse-4-fortigate-security",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-09-30",
+      "replacement_exam_code": "NSE 4 FortiOS 7.6 Administrator",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "fortinet-nse5-faz",
@@ -14069,9 +14074,11 @@
       "total_questions": 100,
       "duration_minutes": 120,
       "source_url": "https://www.loma.org/designations",
-      "practice_url": "https://quizforge.ai/tests/aapa-â€”-associate-accredited-pension-administrator-2fp3uc",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2015-12-31"
     },
     {
       "exam_id": "loma-alu-101",
@@ -23445,9 +23452,14 @@
       "total_questions": 55,
       "duration_minutes": 90,
       "source_url": "https://www.uipath.com/rpa/certification",
-      "practice_url": "https://quizforge.ai/?q=UiPath%20Automation%20Developer%20Advanced",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-10-13",
+      "replacement_exam_code": "UiPath-ADPv1",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "uipath-uiapro23",
