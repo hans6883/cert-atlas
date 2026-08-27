@@ -192,5 +192,17 @@
     "nse 4 network security professional fortigate",
     "nse4"
   ],
-  "practice_url": "https://quizforge.ai/tests/fortinet-nse-4-fortigate-security"
+  "practice_url": "https://quizforge.ai/tests/fortinet-nse-4-fortigate-security",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-09-30",
+    "replacement": {
+      "exam_code": "NSE 4 FortiOS 7.6 Administrator",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Fortinet retired FCP_FGT_AD-7.4 on 2025-09-30. NSE 4 FortiOS 7.6 Administrator is the named replacement path.",
+    "evidence_url": "https://training.fortinet.com/local/staticpage/view.php?page=fortios_administrator_exam",
+    "verified_at": "2026-08-27T23:17:33.828687+00:00"
+  }
 }

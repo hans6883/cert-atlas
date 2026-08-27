@@ -112,5 +112,17 @@
     "uipath developer advanced",
     "uipath-uiaadv"
   ],
-  "practice_url": "https://quizforge.ai/?q=UiPath%20Automation%20Developer%20Advanced"
+  "practice_url": "https://quizforge.ai/?q=UiPath%20Automation%20Developer%20Advanced",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2023-10-13",
+    "replacement": {
+      "exam_code": "UiPath-ADPv1",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "UiPath retired UIAAD on 2023-10-13. UiPath-ADPv1 is the named replacement path.",
+    "evidence_url": "https://www.uipath.com/learning/certification/faqs",
+    "verified_at": "2026-08-27T23:17:33.828687+00:00"
+  }
 }
