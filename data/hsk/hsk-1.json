@@ -5,7 +5,7 @@
   "certifying_body": "HSK",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.chinesetest.cn/gosyllabus.do",
+  "source_url": "https://www.chinesetest.cn/HSK/1?type=1",
   "passing_score": 120,
   "passing_score_scale": null,
   "total_questions": 40,
@@ -51,14 +51,14 @@
   "domains": [
     {
       "id": "1",
-      "name": "Listening Comprehension (听力)",
-      "weight_percent": 50.0,
+      "name": "Listening",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Reading Comprehension (阅读)",
-      "weight_percent": 50.0,
+      "name": "Reading",
+      "weight_percent": null,
       "objectives": []
     }
   ],

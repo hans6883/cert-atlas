@@ -4,10 +4,37 @@
   "exam_code": "Professional Cloud Database Engineer",
   "certifying_body": "Google",
   "certification_name": "Professional Cloud Database Engineer",
-  "source_url": "https://www.examprepper.co/exam/6",
+  "source_url": "https://services.google.com/fh/files/misc/professional_cloud_database_engineer_exam_guide_english.pdf",
   "total_questions": 119,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1: Design innovative, scalable, and highly available cloud database solutions",
+      "weight_percent": 32.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2: Manage a solution that can span multiple database technologies",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3: Migrate data solutions",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4: Deploy scalable and highly available databases in Google Cloud",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
   ],
   "aliases": [
     "professional cloud database engineer"

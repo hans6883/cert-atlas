@@ -5,10 +5,10 @@
   "certifying_body": "SSC (Staff Selection Commission)",
   "certification_name": null,
   "version": null,
-  "source_url": "https://ssc.gov.in/portal/examinations",
+  "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf",
   "passing_score": null,
   "passing_score_scale": null,
-  "total_questions": null,
+  "total_questions": 90,
   "question_types": [],
   "exam_format": null,
   "duration_minutes": 90,
@@ -47,14 +47,26 @@
   "domains": [
     {
       "id": "1",
-      "name": "Numeric & Mathematical Ability",
-      "weight_percent": 50.0,
+      "name": "Numerical and Mathematical Ability",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "English Language & Comprehension",
-      "weight_percent": 50.0,
+      "name": "Reasoning Ability and Problem Solving",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "General Awareness",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "English Language and Comprehension",
+      "weight_percent": null,
       "objectives": []
     }
   ],

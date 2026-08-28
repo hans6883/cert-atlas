@@ -5,7 +5,7 @@
   "certifying_body": "ISEE",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.erblearn.org/families/isee/primary/",
+  "source_url": "https://www.erblearn.org/families/isee-by-erb/",
   "passing_score": null,
   "passing_score_scale": null,
   "total_questions": null,
@@ -38,14 +38,20 @@
   "domains": [
     {
       "id": "1",
-      "name": "Reading",
-      "weight_percent": 50.0,
+      "name": "Auditory Comprehension",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Math",
-      "weight_percent": 50.0,
+      "name": "Reading",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Mathematics",
+      "weight_percent": null,
       "objectives": []
     }
   ],

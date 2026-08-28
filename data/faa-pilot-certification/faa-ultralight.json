@@ -5,7 +5,7 @@
   "certifying_body": "FAA Pilot Certification",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.faa.gov/training_testing/testing/test_questions/",
+  "source_url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-D/section-61.97",
   "passing_score": 70,
   "passing_score_scale": "Percentage (70% passing for all knowledge tests)",
   "total_questions": 50,
@@ -13,7 +13,7 @@
     "Multiple Choice"
   ],
   "exam_format": "Linear (computer-based at PSI/CATS testing centers)",
-  "duration_minutes": null,
+  "duration_minutes": 120,
   "exam_price_usd": 175.0,
   "exam_price_notes": null,
   "voucher_url": null,
@@ -42,7 +42,80 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period required after a failed attempt. No limit on total number of attempts. Instructor endorsement or authorized sign-off required before retaking."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Applicable Federal Aviation Regulations of this chapter that relate to recreational pilot privileges, limitations, and flight operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Accident reporting requirements of the National Transportation Safety Board",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Use of the applicable portions of the Aeronautical Information Manual and FAA advisory circulars",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Use of aeronautical charts for VFR navigation using pilotage with the aid of a magnetic compass",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Recognition of critical weather situations from the ground and in flight, windshear avoidance, and the procurement and use of aeronautical weather reports and forecasts",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Safe and efficient operation of aircraft, including collision avoidance, and recognition and avoidance of wake turbulence",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Effects of density altitude on takeoff and climb performance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Weight and balance computations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Principles of aerodynamics, powerplants, and aircraft systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Stall awareness, spin entry, spins, and spin recovery techniques, if applying for an airplane single-engine rating",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Aeronautical decision making and judgment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Preflight action",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

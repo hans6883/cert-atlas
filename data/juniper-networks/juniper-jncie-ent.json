@@ -46,7 +46,56 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period between retake attempts for Associate and Specialist exams. 30-day waiting period for Professional-level exams. JNCIE lab exam retake policies are determined by Juniper Networks directly."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Automation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Class of Service",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "EVPN",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "IGP",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "BGP",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "System Setup",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Layer 2 Switching and Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Protocol Independent Routing",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://www.juniper.net/us/en/training/certification/tracks/enterprise-routing-switching/jncie-ent.html",
   "official_study_resources": [
     {

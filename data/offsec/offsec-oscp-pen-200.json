@@ -5,7 +5,7 @@
   "certifying_body": "OffSec",
   "certification_name": "OSCP+",
   "version": null,
-  "source_url": "https://www.offsec.com/courses/pen-200/",
+  "source_url": "https://www.offsec.com/documentation/penetration-testing-with-kali.pdf",
   "passing_score": 70,
   "passing_score_scale": null,
   "total_questions": null,
@@ -50,7 +50,158 @@
     "max_attempts_total": null,
     "notes": "Retake attempts can be purchased separately. No mandatory waiting period. Retake pricing varies by course bundle."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Penetration Testing with Kali Linux : General Course Introduction",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Introduction to Cybersecurity",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Effective Learning Strategies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Report Writing for Penetration Testers",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Information Gathering",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Vulnerability Scanning",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Introduction to Web Applications",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Common Web Application Attacks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "SQL Injection Attacks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Client-Side Attacks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Locating Public Exploits",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Fixing Exploits",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Antivirus Evasion",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Password Attacks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "Windows Privilege Escalation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "16",
+      "name": "Linux Privilege Escalation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "17",
+      "name": "Port Redirection and SSH Tunneling",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "18",
+      "name": "Advanced Tunneling",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "19",
+      "name": "The Metasploit Framework",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "20",
+      "name": "Active Directory Introduction and Enumeration",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "21",
+      "name": "Attacking Active Directory Authentication",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "22",
+      "name": "Lateral Movement in Active Directory",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "23",
+      "name": "Assembling the Pieces",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "24",
+      "name": "Trying Harder: The Labs",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "25",
+      "name": "The OSCP Exam Information",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

@@ -5,7 +5,7 @@
   "certifying_body": "AACN",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.aacn.org/certification/get-certified/pccn-adult",
+  "source_url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/pccnexamhandbook.pdf",
   "passing_score": 70,
   "passing_score_scale": null,
   "total_questions": 125,
@@ -63,19 +63,75 @@
   "domains": [
     {
       "id": "1",
-      "name": "Clinical Judgment",
-      "weight_percent": 80.0,
-      "objectives": [],
-      "weight_min": 80.0,
-      "weight_max": 80.0
+      "name": "Cardiovascular",
+      "weight_percent": 20.0,
+      "objectives": []
     },
     {
       "id": "2",
-      "name": "Professional Caring and Ethical Practice",
-      "weight_percent": 20.0,
-      "objectives": [],
-      "weight_min": 20.0,
-      "weight_max": 20.0
+      "name": "Respiratory",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Endocrine",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Hematology/Immunology/Oncology",
+      "weight_percent": 3.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Neurology",
+      "weight_percent": 7.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Gastrointestinal",
+      "weight_percent": 7.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Renal",
+      "weight_percent": 4.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Musculoskeletal",
+      "weight_percent": 2.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Multisystem",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Behavioral / Psychosocial",
+      "weight_percent": 3.0,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Advocacy/Caring Practices/Response to Diversity/Facilitation of Learning",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Collaboration/Systems Thinking/Clinical Inquiry",
+      "weight_percent": 9.0,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

@@ -5,7 +5,7 @@
   "certifying_body": "GIAC",
   "certification_name": "GIAC Certified Forensic Analyst (GCFA)",
   "version": null,
-  "source_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
+  "source_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa",
   "passing_score": 71,
   "passing_score_scale": "percentage",
   "total_questions": 115,
@@ -57,95 +57,64 @@
   },
   "domains": [
     {
-      "id": "1.0",
-      "name": "Advanced incident response and digital forensics",
+      "id": "1",
+      "name": "Analyzing Volatile Malicious Event Artifacts",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Analyzing Volatile Malicious Event Artifacts",
-          "sub_objectives": [
-            "Understanding abnormal activity within the structure of Windows memory",
-            "Identifying artifacts such as malicious processes, suspicious drivers, and malware techniques such as code injection and rootkits"
-          ]
-        },
-        {
-          "id": "1.2",
-          "title": "Analyzing Volatile Windows Event Artifacts",
-          "sub_objectives": [
-            "Understanding normal activity within the structure of Windows memory",
-            "Identifying artifacts such as network connections, memory resident command line artifacts and processes, handles and threads"
-          ]
-        },
-        {
-          "id": "1.3",
-          "title": "Enterprise Environment Incident Response",
-          "sub_objectives": [
-            "Understanding the steps of the incident response process",
-            "Understanding attack progression and adversary fundamentals",
-            "Rapidly assessing and analyzing systems in an enterprise environment",
-            "Scaling tools to meet the demands of large investigations"
-          ]
-        },
-        {
-          "id": "1.4",
-          "title": "File System Timeline Artifact Analysis",
-          "sub_objectives": [
-            "Understanding the Windows filesystem time structure",
-            "Understanding how these artifacts are modified by system and user activity"
-          ]
-        },
-        {
-          "id": "1.5",
-          "title": "Identification of Malicious System and User Activity",
-          "sub_objectives": [
-            "Identifying and documenting indicators of compromise on a system",
-            "Detecting malware and attacker tools",
-            "Attributing activity to events and accounts",
-            "Identifying and compensating for anti-forensic actions using memory and disk resident artifacts"
-          ]
-        },
-        {
-          "id": "1.6",
-          "title": "Identification of Normal System and User Activity",
-          "sub_objectives": [
-            "Identifying, documenting, and differentiating normal and abnormal system and user activity using memory and disk resident artifacts"
-          ]
-        },
-        {
-          "id": "1.7",
-          "title": "Introduction to File System Timeline Forensics",
-          "sub_objectives": [
-            "Understanding the methodology required to collect and process timeline data from a Windows system"
-          ]
-        },
-        {
-          "id": "1.8",
-          "title": "Introduction to Memory Forensics",
-          "sub_objectives": [
-            "Understanding how and when to collect volatile data from a system",
-            "Understanding how to document and preserve the integrity of volatile evidence"
-          ]
-        },
-        {
-          "id": "1.9",
-          "title": "NTFS Artifact Analysis",
-          "sub_objectives": [
-            "Understanding core structures of the Windows filesystems",
-            "Identifying, recovering, and analyzing evidence from any file system layer, including the data storage layer, metadata layer, and filename layer"
-          ]
-        },
-        {
-          "id": "1.10",
-          "title": "Windows Artifact Analysis",
-          "sub_objectives": [
-            "Understanding Windows system artifacts",
-            "Collecting and analyzing data such as system backup and restore data and evidence of application execution"
-          ]
-        }
-      ]
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Analyzing Volatile Windows Event Artifacts",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Enterprise Environment Incident Response",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "File System Timeline Artifact Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Identification of Malicious System and User Activity",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Identification of Normal System and User Activity",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Introduction to File System Timeline Forensics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Introduction to Memory Forensics",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "NTFS Artifact Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Windows Artifact Analysis",
+      "weight_percent": null,
+      "objectives": []
     }
   ],
   "official_objectives_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",

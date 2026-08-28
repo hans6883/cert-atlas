@@ -5,7 +5,7 @@
   "certifying_body": "Fortinet",
   "certification_name": null,
   "version": null,
-  "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse3",
+  "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortinet-product-awareness",
   "passing_score": null,
   "passing_score_scale": "percentage",
   "total_questions": null,
@@ -45,7 +45,38 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between retake attempts for NSE 4 through NSE 7. NSE 1-3 may be retaken immediately. NSE 8 retake policies are scheduled separately through Fortinet."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Security Fabric Overview",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Security-Driven Networking",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Zero Trust Access",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Adaptive Cloud Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security Operations",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse3",
   "official_study_resources": [
     {

@@ -5,7 +5,7 @@
   "certifying_body": "FAA Pilot Certification",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.faa.gov/training_testing/testing/test_questions/",
+  "source_url": "https://www.faa.gov/training_testing/testing/acs/cfi_airplane_acs_25.pdf",
   "passing_score": 70,
   "passing_score_scale": "Percentage (70% passing for all knowledge tests)",
   "total_questions": 50,
@@ -13,7 +13,7 @@
     "Multiple Choice"
   ],
   "exam_format": "Linear (computer-based at PSI/CATS testing centers)",
-  "duration_minutes": null,
+  "duration_minutes": 240,
   "exam_price_usd": 175.0,
   "exam_price_notes": null,
   "voucher_url": null,
@@ -42,7 +42,92 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period required after a failed attempt. No limit on total number of attempts. Instructor endorsement or authorized sign-off required before retaking."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Fundamentals of Instructing",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Technical Subject Areas",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Preflight Preparation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Preflight Lesson on a Maneuver to be Performed in Flight",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Preflight Procedures",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Airport and Seaplane Base Operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Takeoffs, Landings, and Go-Arounds",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Fundamentals of Flight",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Performance and Ground Reference Maneuvers",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Slow flight, Stalls, and Spins",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Basic Instrument Maneuvers",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Emergency Operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Multiengine Operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Postflight Procedures",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

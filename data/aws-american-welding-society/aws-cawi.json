@@ -5,8 +5,8 @@
   "certifying_body": "AWS - American Welding Society",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.aws.org/certification",
-  "passing_score": null,
+  "source_url": "https://aws-p-001-delivery.sitecorecontenthub.cloud/api/public/content/CWI-Part-A-Fundamental-LanguageAssisted-Exam-Info",
+  "passing_score": "72%",
   "passing_score_scale": "Pass/fail; specific passing thresholds not publicly disclosed",
   "total_questions": 150,
   "question_types": [
@@ -54,14 +54,68 @@
   "domains": [
     {
       "id": "1",
-      "name": "Welding Inspection Fundamentals",
-      "weight_percent": 50.0,
+      "name": "Definition and Terminology",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Welding Processes and Safety",
-      "weight_percent": 50.0,
+      "name": "Welding Processes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Symbols - Welding and NDE",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Weld Examination",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Welding Performance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Test Methods- NDE",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Heat Control & Metallurgy (carbon and low-alloy steel)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Welding Related Calculations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Duties and Responsibilities",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Destructive Tests",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Cutting",
+      "weight_percent": null,
       "objectives": []
     }
   ],

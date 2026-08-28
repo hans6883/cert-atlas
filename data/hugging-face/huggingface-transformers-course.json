@@ -37,17 +37,12 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": "Individuals interested in large language models (LLMs) and natural language processing (NLP) using libraries from the Hugging Face ecosystem",
-  "recommended_experience": "Good knowledge of Python and an introductory deep learning course",
+  "target_audience": null,
+  "recommended_experience": "Requires a good knowledge of Python. It is better taken after an introductory deep learning course, such as fast.ai’s Practical Deep Learning for Coders or one of the programs developed by DeepLearning.AI.",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
-      "description": "Good knowledge of Python",
-      "is_required": true
-    },
-    {
-      "prerequisite_type": "experience",
-      "description": "An introductory deep learning course, such as fast.ai’s Practical Deep Learning for Coders or one of the programs developed by DeepLearning.AI",
+      "description": "Requires a good knowledge of Python. It is better taken after an introductory deep learning course, such as fast.ai’s Practical Deep Learning for Coders or one of the programs developed by DeepLearning.AI.",
       "is_required": true
     }
   ],
@@ -62,55 +57,45 @@
       "id": "1",
       "name": "Transformer Architecture and Attention",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2",
       "name": "Using the Transformers Library",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3",
       "name": "Fine-tuning and Transfer Learning",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4",
       "name": "Datasets, Tokenizers, and Evaluation",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": []
     }
   ],
   "official_objectives_url": "https://huggingface.co/learn/nlp-course",
   "official_study_resources": [
     {
-      "resource_type": "official_study_guide",
+      "resource_type": "online_course",
       "title": "The Hugging Face Course",
       "url": "https://huggingface.co/course",
       "provider": "Hugging Face",
       "is_official": true,
       "price_usd": null,
-      "notes": "Released under the permissive Apache 2 license"
-    },
-    {
-      "resource_type": "online_course",
-      "title": "Natural Language Processing Specialization",
-      "url": null,
-      "provider": "DeepLearning.AI",
-      "is_official": true,
-      "price_usd": null,
-      "notes": "Recommended after completing the Hugging Face Course"
-    },
-    {
-      "resource_type": "book",
-      "title": "Natural Language Processing with Transformers",
-      "url": null,
-      "provider": "O’Reilly",
-      "is_official": true,
-      "price_usd": null,
-      "notes": "Co-authored by Hugging Face team members"
+      "notes": "The course is released under the permissive Apache 2 license."
     }
   ],
   "aliases": [

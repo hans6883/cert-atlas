@@ -46,43 +46,16 @@
   },
   "domains": [
     {
-      "id": "Sections I and II: Listening",
-      "name": "Listening",
+      "id": "1",
+      "name": "Sections I and II: Listening",
       "weight_percent": 40.0,
-      "objectives": [
-        {
-          "id": "15% Rejoinders",
-          "title": "Ability to understand spoken language through short stimuli or everyday situations",
-          "sub_objectives": []
-        },
-        {
-          "id": "25% Dialogues and Narratives",
-          "title": "Ability to understand the language as spoken by native speakers in longer dialogues and narratives",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "Section III: Reading",
-      "name": "Reading",
+      "id": "2",
+      "name": "Section III: Reading",
       "weight_percent": 60.0,
-      "objectives": [
-        {
-          "id": "16% Part A. Discrete sentences",
-          "title": "Mastery of vocabulary and structure in the context of sentences",
-          "sub_objectives": []
-        },
-        {
-          "id": "20% Part B. Short cloze passages",
-          "title": "Mastery of vocabulary and structure in the context of paragraphs",
-          "sub_objectives": []
-        },
-        {
-          "id": "24% Part C. Reading comprehension",
-          "title": "Ability to read and understand texts representative of various styles and levels of difficulty (e.g., passages of about 200 words; shorter pieces such as advertisements, signs, etc.)",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

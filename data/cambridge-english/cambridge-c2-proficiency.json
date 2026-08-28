@@ -5,8 +5,8 @@
   "certifying_body": "Cambridge English",
   "certification_name": "C2 Proficiency (CPE)",
   "version": null,
-  "source_url": "https://www.cambridgeenglish.org/exams-and-tests/proficiency/",
-  "passing_score": null,
+  "source_url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/proficiency/format/",
+  "passing_score": "Grade A, B or C: Cambridge English Scale scores of 200-230",
   "passing_score_scale": "200–230",
   "total_questions": null,
   "question_types": [],
@@ -50,28 +50,28 @@
   },
   "domains": [
     {
-      "id": "1.0",
-      "name": "Study demanding subjects at the highest level, including postgraduate and PhD programmes",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Understand the main ideas of complex pieces of writing",
-          "sub_objectives": []
-        }
-      ]
+      "id": "1",
+      "name": "Reading and Use of English",
+      "weight_percent": 40.0,
+      "objectives": []
     },
     {
-      "id": "2.0",
-      "name": "Negotiate and persuade effectively at senior management level in international business settings",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "2.1",
-          "title": "Communicate with fluency and sophistication",
-          "sub_objectives": []
-        }
-      ]
+      "id": "2",
+      "name": "Writing",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Listening",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Speaking",
+      "weight_percent": 20.0,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

@@ -4,10 +4,56 @@
   "exam_code": "1V0-21.20",
   "certifying_body": "Vmware",
   "certification_name": "1V0-21.20",
-  "source_url": "https://www.examprepper.co/exam/234",
+  "source_url": "https://docs.broadcom.com/doc/vmw-vcta-dcv-exam-preparation-guide",
+  "passing_score": 300,
   "total_questions": 70,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 135,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1 – Architecture and Technologies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2 – VMware Products and Solutions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3 – Planning and Designing",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4 – Installing, Configuring, and Setting Up",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Section 5 – Performance-tuning, Optimization, Upgrades",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Section 6 – Troubleshooting and Repairing",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Section 7 – Administrative and Operational Tasks",
+      "weight_percent": null,
+      "objectives": []
+    }
   ],
   "aliases": [
     "1v0-21.20"

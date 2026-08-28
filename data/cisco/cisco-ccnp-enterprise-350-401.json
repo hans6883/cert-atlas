@@ -5,7 +5,7 @@
   "certifying_body": "Cisco",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/encor-350-401.html",
+  "source_url": "https://learningcontent.cisco.com/documents/marketing/exam-topics/350-401-ENCORE-v1.2.pdf",
   "passing_score": null,
   "passing_score_scale": null,
   "total_questions": 100,
@@ -49,7 +49,44 @@
     "max_attempts_total": null,
     "notes": "5-day waiting period before retaking the same exam. After 3 failed attempts, 180-day waiting period. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Architecture",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Virtualization",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Infrastructure",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Network Assurance",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Automation and Artificial Intelligence",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://www.cisco.com/c/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/350-401-ENCOR.pdf",
   "official_study_resources": [
     {

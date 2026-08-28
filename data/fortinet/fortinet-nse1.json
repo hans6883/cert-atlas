@@ -5,7 +5,7 @@
   "certifying_body": "Fortinet",
   "certification_name": null,
   "version": null,
-  "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse1",
+  "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=library_introduction-to-the-threat-landscape",
   "passing_score": null,
   "passing_score_scale": "percentage",
   "total_questions": null,
@@ -45,7 +45,32 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between retake attempts for NSE 4 through NSE 7. NSE 1-3 may be retaken immediately. NSE 8 retake policies are scheduled separately through Fortinet."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Introduction to Cybersecurity",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "The Threat Landscape",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Social Engineering",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Malware",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse1",
   "official_study_resources": [
     {

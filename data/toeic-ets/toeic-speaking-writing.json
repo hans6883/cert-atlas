@@ -5,10 +5,10 @@
   "certifying_body": "TOEIC (ETS)",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.ets.org/toeic/test-takers/sw/about.html",
-  "passing_score": null,
+  "source_url": "https://www.etsglobal.org/mq/en/test-type-family/toeic-speaking-and-writing-tests",
+  "passing_score": "No pass/fail score published",
   "passing_score_scale": null,
-  "total_questions": null,
+  "total_questions": 19,
   "question_types": [],
   "exam_format": "Computer-based at authorized test centres; L&R is paper-based in some countries",
   "duration_minutes": 80,
@@ -32,14 +32,14 @@
   "domains": [
     {
       "id": "1",
-      "name": "Speaking (Tasks 1-11)",
-      "weight_percent": 50.0,
+      "name": "Speaking test",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Writing (Tasks 1-8)",
-      "weight_percent": 50.0,
+      "name": "Writing test",
+      "weight_percent": null,
       "objectives": []
     }
   ],

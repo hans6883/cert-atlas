@@ -5,10 +5,10 @@
   "certifying_body": "EC-Council",
   "certification_name": "Certified Penetration Testing Professional",
   "version": null,
-  "source_url": "https://www.eccouncil.org/train-certify/certified-penetration-tester-cpent/",
+  "source_url": "https://cert.eccouncil.org/images/doc/CPENTv2-Exam-Blueprint.pdf",
   "passing_score": 70,
   "passing_score_scale": null,
-  "total_questions": null,
+  "total_questions": 50,
   "question_types": [
     "Multiple Choice"
   ],
@@ -55,7 +55,56 @@
     "max_attempts_total": null,
     "notes": "No official waiting period specified between retakes. Full exam fee required for each retake."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Penetration Testing Methodologies, Scoping, and Engagement",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Information Gathering and Attack Surface Mapping",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Web Application and API Penetration Testing",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Perimeter Defense Evasion Techniques",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Endpoint Exploitation, Privilege Escalation, and Lateral Movement",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Reverse Engineering and Binary Exploitation",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "IoT Penetration Testing",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Reporting and Post Testing Actions",
+      "weight_percent": 13.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

@@ -5,7 +5,7 @@
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
-  "source_url": "https://satsuite.collegeboard.org/sat",
+  "source_url": "https://satsuite.collegeboard.org/media/pdf/assessment-framework-for-digital-sat-suite.pdf",
   "passing_score": null,
   "passing_score_scale": "400–1600",
   "total_questions": 98,
@@ -46,19 +46,51 @@
   "domains": [
     {
       "id": "1",
-      "name": "Reading and Writing",
-      "weight_percent": 50.0,
-      "objectives": [],
-      "weight_min": 50.0,
-      "weight_max": 50.0
+      "name": "Information and Ideas",
+      "weight_percent": null,
+      "objectives": []
     },
     {
       "id": "2",
-      "name": "Math",
-      "weight_percent": 50.0,
-      "objectives": [],
-      "weight_min": 50.0,
-      "weight_max": 50.0
+      "name": "Craft and Structure",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Expression of Ideas",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Standard English Conventions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Algebra",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Advanced Math",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Problem-Solving and Data Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Geometry and Trigonometry",
+      "weight_percent": null,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

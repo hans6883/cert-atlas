@@ -5,7 +5,8 @@
   "certifying_body": "ServiceNow",
   "certification_name": null,
   "version": null,
-  "passing_score": null,
+  "source_url": "https://learning.servicenow.com/lxp/en/credentials/micro-certification-blueprint-citizen-developer-application?id=kb_article_view&sysparm_article=KB0011781",
+  "passing_score": "Pass / Fail",
   "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
   "total_questions": 13,
   "question_types": [
@@ -44,7 +45,26 @@
     "max_attempts_total": null,
     "notes": "Refer to ServiceNow University for retake details."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "App Engine Studio capabilities",
+      "weight_percent": 31.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "App Engine Studio development",
+      "weight_percent": 46.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Import of legacy data",
+      "weight_percent": 23.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=cf866eed4710169050593369126d4386",
   "official_study_resources": [
     {

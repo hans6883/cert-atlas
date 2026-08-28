@@ -5,7 +5,7 @@
   "certifying_body": "AACN",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.aacn.org/certification/get-certified/cfrn",
+  "source_url": "https://bcen.org/wp-content/uploads/2026/02/CFRN-Updated-Content-Outline-effective-08.31.2021.pdf",
   "passing_score": 87,
   "passing_score_scale": null,
   "total_questions": 150,
@@ -63,14 +63,32 @@
   "domains": [
     {
       "id": "1",
-      "name": "Clinical Judgment",
-      "weight_percent": 80.0,
+      "name": "General Principles of Flight Transport Nursing Practice",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Professional Caring and Ethical Practice",
-      "weight_percent": 20.0,
+      "name": "Resuscitation Principles",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Trauma",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Medical Emergencies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Special Populations",
+      "weight_percent": null,
       "objectives": []
     }
   ],

@@ -5,7 +5,7 @@
   "certifying_body": "State Teacher Certification",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.nystce.nesinc.com/",
+  "source_url": "https://www.nystce.nesinc.com/content/docs/NY202_OBJ_FINAL.pdf",
   "passing_score": null,
   "passing_score_scale": "Scaled score (scale varies by state and exam program)",
   "total_questions": 41,
@@ -16,7 +16,7 @@
     "Portfolio-Based Performance Assessment"
   ],
   "exam_format": "Computer-based testing at approved testing centers; online proctored options available for some exams",
-  "duration_minutes": null,
+  "duration_minutes": 210,
   "exam_price_usd": 124.0,
   "exam_price_notes": null,
   "voucher_url": null,
@@ -53,14 +53,14 @@
   "domains": [
     {
       "id": "1",
-      "name": "Reading Comprehension and Analysis",
-      "weight_percent": null,
+      "name": "Reading",
+      "weight_percent": 40.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "English Language Arts and Writing",
-      "weight_percent": null,
+      "name": "Writing to Sources",
+      "weight_percent": 60.0,
       "objectives": []
     }
   ],

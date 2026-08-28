@@ -837,53 +837,6 @@
       "microsoft-ai-102-study-guide"
     ]
   },
-  "sources": [
-    {
-      "id": "microsoft-ai-102-study-guide",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102",
-      "title": "Study guide for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
-      "publisher": "Microsoft",
-      "source_type": "official_exam_guide",
-      "accessed": "2026-08-25",
-      "content_hash": "sha256:ecaa0769cfc41f47c7f6f4a2d8fc744db02983e38cf30db3aa71e71bb6775b65"
-    },
-    {
-      "id": "microsoft-ai-103-study-guide",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
-      "title": "Study guide for Exam AI-103: Developing AI Apps and Agents on Azure",
-      "publisher": "Microsoft",
-      "source_type": "official_exam_guide",
-      "accessed": "2026-08-25",
-      "content_hash": "sha256:94dc5093d4ffacb9ab7017e34d7cd56d56c70d849a2fb8a5440d1d673956c1cd"
-    },
-    {
-      "id": "microsoft-retirement-announcement",
-      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
-      "title": "June 2026 announcements: certification retirement and replacement",
-      "publisher": "Microsoft",
-      "source_type": "official_documentation",
-      "accessed": "2026-08-25",
-      "content_hash": "sha256:e5499a09502aecc2c5bfb2ee701c7e5046b2ed868732009a1a231b7bf0944144"
-    },
-    {
-      "id": "microsoft-ai-103-certification",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
-      "title": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
-      "publisher": "Microsoft",
-      "source_type": "official_certification_page",
-      "accessed": "2026-08-25",
-      "content_hash": "sha256:fe4170689f480ed05988baae494cbb911d2cd00d93d2d67cc70179e634aa9b87"
-    }
-  ],
-  "content_quality": {
-    "status": "reviewed",
-    "publishable": true,
-    "evidence_coverage": 0.98,
-    "factual_confidence": 0.96,
-    "generated_by": "openai:codex",
-    "generated_at": "2026-08-26T04:00:00Z",
-    "reviewed_at": "2026-08-26T04:11:07Z"
-  },
   "lifecycle": {
     "summary": "Microsoft retired AI-102 and the Azure AI Engineer Associate certification on June 30, 2026. Microsoft identifies AI-103 and the Azure AI Apps and Agents Developer Associate certification as the replacement path for new candidates.",
     "migration_actions": [
@@ -945,5 +898,52 @@
     },
     "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
     "verified_at": "2026-08-26T00:00:00Z"
+  },
+  "sources": [
+    {
+      "id": "microsoft-ai-102-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102",
+      "title": "Study guide for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:ecaa0769cfc41f47c7f6f4a2d8fc744db02983e38cf30db3aa71e71bb6775b65"
+    },
+    {
+      "id": "microsoft-ai-103-study-guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+      "title": "Study guide for Exam AI-103: Developing AI Apps and Agents on Azure",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:94dc5093d4ffacb9ab7017e34d7cd56d56c70d849a2fb8a5440d1d673956c1cd"
+    },
+    {
+      "id": "microsoft-retirement-announcement",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+      "title": "June 2026 announcements: certification retirement and replacement",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:e5499a09502aecc2c5bfb2ee701c7e5046b2ed868732009a1a231b7bf0944144"
+    },
+    {
+      "id": "microsoft-ai-103-certification",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+      "title": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+      "publisher": "Microsoft",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-25",
+      "content_hash": "sha256:fe4170689f480ed05988baae494cbb911d2cd00d93d2d67cc70179e634aa9b87"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 0.98,
+    "factual_confidence": 0.96,
+    "generated_by": "openai:codex",
+    "generated_at": "2026-08-26T04:00:00Z",
+    "reviewed_at": "2026-08-26T04:11:07Z"
   }
 }

@@ -52,7 +52,74 @@
     "max_attempts_total": null,
     "notes": "No mandatory waiting period between attempts. Full exam fee required for retake."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Be able to perform all tasks expected of a Red Hat Certified System Administrator",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Understand core components of Ansible",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Configure Ansible",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Configure Ansible managed nodes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Run playbooks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Perform basic source control operations using Git",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Be familiar with Visual Studio Code (VS Code) and be able to perform the following tasks from within the editor:",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Create Ansible plays and playbooks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Use roles and Ansible Content Collections",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Automate standard RHCSA tasks using Ansible modules that work with:",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Manage content",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

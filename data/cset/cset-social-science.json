@@ -5,7 +5,7 @@
   "certifying_body": "CSET",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CSET114_TestPage.html",
+  "source_url": "https://www.ctcexams.nesinc.com/Content/StudyGuide/CA_SG_obj_114.htm",
   "passing_score": 220,
   "passing_score_scale": null,
   "total_questions": 52,
@@ -53,50 +53,16 @@
   },
   "domains": [
     {
-      "id": "1.0",
+      "id": "1",
       "name": "World History",
       "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Understanding of major historical events and developments",
-          "sub_objectives": [
-            "Analyzing the causes and effects of major historical events",
-            "Evaluating the impact of historical developments on societies"
-          ]
-        },
-        {
-          "id": "1.2",
-          "title": "Knowledge of significant historical figures and movements",
-          "sub_objectives": [
-            "Identifying key historical figures and their contributions",
-            "Analyzing the influence of historical movements on global history"
-          ]
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "2.0",
-      "name": "U.S. History",
+      "id": "2",
+      "name": "World Geography",
       "weight_percent": null,
-      "objectives": [
-        {
-          "id": "2.1",
-          "title": "Understanding of major events and developments in U.S. history",
-          "sub_objectives": [
-            "Analyzing the causes and effects of major events in U.S. history",
-            "Evaluating the impact of historical developments on American society"
-          ]
-        },
-        {
-          "id": "2.2",
-          "title": "Knowledge of significant historical figures and movements in U.S. history",
-          "sub_objectives": [
-            "Identifying key historical figures and their contributions",
-            "Analyzing the influence of historical movements on U.S. history"
-          ]
-        }
-      ]
+      "objectives": []
     }
   ],
   "official_objectives_url": "https://www.cset.nesinc.com/",

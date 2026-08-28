@@ -4,10 +4,43 @@
   "exam_code": "100-105",
   "certifying_body": "Cisco",
   "certification_name": "100-105",
-  "source_url": "https://www.examprepper.co/exam/292",
+  "source_url": "https://learningnetwork.cisco.com/s/article/100-105-icnd1-exam-topics",
   "total_questions": 74,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 90,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Network Fundamentals",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "LAN Switching Fundamentals",
+      "weight_percent": 26.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Routing Fundamentals",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Infrastructure Services",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Infrastructure Maintenance",
+      "weight_percent": 14.0,
+      "objectives": []
+    }
   ],
   "aliases": [
     "100-105"

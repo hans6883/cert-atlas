@@ -5,7 +5,7 @@
   "certifying_body": "Fortinet",
   "certification_name": null,
   "version": null,
-  "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse2",
+  "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=library_the-fortinet-security-fabric",
   "passing_score": null,
   "passing_score_scale": "percentage",
   "total_questions": null,
@@ -45,7 +45,98 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between retake attempts for NSE 4 through NSE 7. NSE 1-3 may be retaken immediately. NSE 8 retake policies are scheduled separately through Fortinet."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Cloud Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Endpoint Security",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Firewall",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Network Access Control",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Sandbox",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "SASE",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "SD-WAN",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Secure Email Gateway",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Security Information & Event Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "SOAR",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Threat Intelligence Services",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Web Application Firewall",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Web Filter",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Wi-Fi",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "ZTNA",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse2",
   "official_study_resources": [
     {

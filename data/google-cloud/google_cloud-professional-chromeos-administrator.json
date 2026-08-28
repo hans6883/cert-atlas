@@ -4,10 +4,36 @@
   "exam_code": "Professional ChromeOS Administrator",
   "certifying_body": "Google",
   "certification_name": "Professional ChromeOS Administrator",
-  "source_url": "https://www.examprepper.co/exam/4",
+  "source_url": "https://www.chromeoscertification.com/chromeos-administrator",
   "total_questions": 74,
   "question_types": [
     "multiple_choice"
+  ],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Perform actions from the Google Admin console",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Configure ChromeOS policies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Configure, manage, and maintain Identity Management processes and solutions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Understand ChromeOS tenets",
+      "weight_percent": null,
+      "objectives": []
+    }
   ],
   "aliases": [
     "professional chromeos administrator"

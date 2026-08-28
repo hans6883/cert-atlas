@@ -4,10 +4,43 @@
   "exam_code": "Professional Cloud DevOps Engineer",
   "certifying_body": "Google",
   "certification_name": "Professional Cloud DevOps Engineer",
-  "source_url": "https://www.examprepper.co/exam/7",
+  "source_url": "https://services.google.com/fh/files/misc/professional_cloud_devops_engineer_exam_guide_english.pdf",
   "total_questions": 49,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1: Bootstrapping and maintaining a Google Cloud organization",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2: Building and implementing CI/CD pipelines, including continuous testing, for application, infrastructure, and machine learning workloads",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3: Applying site reliability engineering practices",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4: Implementing observability practices and troubleshooting issues",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Section 5: Optimizing performance and cost",
+      "weight_percent": 12.0,
+      "objectives": []
+    }
   ],
   "aliases": [
     "professional cloud devops engineer"

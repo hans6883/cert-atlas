@@ -5,8 +5,8 @@
   "certifying_body": "Cambridge English",
   "certification_name": "B2 First for Schools and B2 First",
   "version": null,
-  "source_url": "https://www.cambridgeenglish.org/exams-and-tests/first/",
-  "passing_score": null,
+  "source_url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/first/format/",
+  "passing_score": "Grade A, B or C: Cambridge English Scale scores of 160-190",
   "passing_score_scale": "160–179",
   "total_questions": null,
   "question_types": [],
@@ -51,30 +51,27 @@
   "domains": [
     {
       "id": "1",
-      "name": "Communication Skills",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Communicate effectively face-to-face, expressing opinions and presenting arguments",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.2",
-          "title": "Follow the news",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.3",
-          "title": "Write clear, detailed English, expressing opinions and explaining the advantages and disadvantages of different points of view",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.4",
-          "title": "Write emails / letters, articles, reviews and other types of text",
-          "sub_objectives": []
-        }
-      ]
+      "name": "Reading and Use of English",
+      "weight_percent": 40.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Writing",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Listening",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Speaking",
+      "weight_percent": 20.0,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

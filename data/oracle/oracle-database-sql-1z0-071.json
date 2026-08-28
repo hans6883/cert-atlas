@@ -1,524 +1,477 @@
 {
   "exam_id": "oracle-database-sql-1z0-071",
-  "exam_name": "Oracle Database SQL Certified Associate (1Z0-071)",
+  "exam_name": "Oracle Database SQL",
   "exam_code": "1Z0-071",
   "certifying_body": "Oracle",
   "certification_name": "Oracle Database SQL Certified Associate",
-  "version": null,
-  "source_url": "https://education.oracle.com/oracle-database-sql/pexam_1Z0-071",
+  "version": "as of 2024-08-08",
+  "source_url": "https://www.oracle.com/jp/education/certification/certification-exam-list/db-sql-1z0-071-exam/",
   "passing_score": 63,
   "passing_score_scale": null,
-  "total_questions": 73,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Select"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 90,
-  "exam_price_usd": 245.0,
-  "exam_price_notes": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 120,
+  "exam_price_usd": null,
+  "exam_price_notes": "Retrieved 2026-08-27. English education.oracle.com trackp_457 and pexam_1Z0-071 pages HTTP 403 from this environment. First-party Oracle University Japan exam page (1Z0-071-JPN) publishes live exam: 120 minutes, 78 questions, 63% passing, multiple-choice; pageInfo.updatedDate 2024-08-08. Related cre",
   "voucher_url": null,
-  "exam_registration_url": "https://home.pearsonvue.com/oracle",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/oracle",
-      "notes": "Computer-based testing at Pearson VUE test centers or online proctored (OnVUE)"
-    }
-  ],
-  "online_proctoring_available": true,
-  "id_requirements": "One valid government-issued photo ID with full name. Name must match Pearson VUE registration exactly.",
-  "exam_rules": "Closed-book. No notes or reference materials. On-screen calculator for applicable exams. Proctor monitors throughout.",
+  "exam_registration_url": "https://www.oracle.com/jp/education/certification/certification-exam-list/db-sql-1z0-071-exam/",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
   "certification_validity_years": null,
-  "renewal_required": false,
-  "renewal_options": "Oracle certifications are version-specific. When Oracle releases a new database/platform version, a new exam version is typically released. Previous certifications remain valid as earned.",
+  "renewal_required": null,
+  "renewal_options": null,
   "continuing_education_units": null,
   "available_languages": [
-    "English",
-    "Brazilian Portuguese",
-    "Simplified Chinese",
-    "Japanese",
-    "Korean",
-    "Spanish"
+    "Japanese"
   ],
-  "target_audience": "Qualified candidates have knowledge of general computing concepts, knowledge of command line interfaces and experience working in command line.",
-  "recommended_experience": "Experience working in command line.",
+  "target_audience": null,
+  "recommended_experience": null,
   "prerequisites": [],
-  "retake_policy": {
-    "waiting_period_days": 14,
-    "max_attempts_per_year": 3,
-    "max_attempts_total": null,
-    "notes": "14-day waiting period after failed attempt. Maximum 3 attempts per exam in a 12-month period. Full exam fee required for each retake."
-  },
+  "retake_policy": null,
   "domains": [
     {
       "id": "1.0",
-      "name": "Relational Database concepts",
+      "name": "リレーショナル・データベースの概念",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "1.1",
-          "title": "Explaining the theoretical and physical aspects of a relational database",
+          "title": "リレーショナル・データベースの理論的および物理的な側面の説明",
           "sub_objectives": []
         },
         {
           "id": "1.2",
-          "title": "Relating clauses in SQL Select Statement to Components of an ERD",
+          "title": "ERDのコンポーネントへのSQL Select文内の句の関連付け",
           "sub_objectives": []
         },
         {
           "id": "1.3",
-          "title": "Explaining the relationship between a database and SQL",
+          "title": "データベースとSQLの関係の説明",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "2.0",
-      "name": "Retrieving Data using the SQL SELECT Statement",
+      "name": "SQL SELECT文を使用したデータの取得",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "2.1",
-          "title": "Using Column aliases",
+          "title": "列別名の使用",
           "sub_objectives": []
         },
         {
           "id": "2.2",
-          "title": "Using The SQL SELECT statement",
+          "title": "SQL SELECT文の使用",
           "sub_objectives": []
         },
         {
           "id": "2.3",
-          "title": "Using concatenation operator, literal character strings, alternative quote operator, and the DISTINCT keyword",
+          "title": "連結演算子、リテラル文字列、代替引用符演算子、DISTINCTキーワードの使用",
           "sub_objectives": []
         },
         {
           "id": "2.4",
-          "title": "Using Arithmetic expressions and NULL values in the SELECT statement",
+          "title": "SELECT文での算術式とNULL値の使用",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "3.0",
-      "name": "Restricting and Sorting Data",
+      "name": "データの制限とソート",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "3.1",
-          "title": "Applying Rules of precedence for operators in an expression",
+          "title": "式の演算子に対する優先順位規則の適用",
           "sub_objectives": []
         },
         {
           "id": "3.2",
-          "title": "Limiting Rows Returned in a SQL Statement",
+          "title": "SQL文で返される行の制限",
           "sub_objectives": []
         },
         {
           "id": "3.3",
-          "title": "Using Substitution Variables",
+          "title": "置換変数の使用",
           "sub_objectives": []
         },
         {
           "id": "3.4",
-          "title": "Using the DEFINE and VERIFY commands",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.5",
-          "title": "Sorting Data",
+          "title": "DEFINEおよびVERIFYコマンドの使用",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "4.0",
-      "name": "Using Single-Row Functions to Customize Output",
+      "name": "単一行関数を使用した出力のカスタマイズ",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "4.1",
-          "title": "Manipulating strings with character functions in SQL SELECT and WHERE clauses",
+          "title": "SQL SELECTおよびWHERE句での文字関数を使用した文字列の操作",
           "sub_objectives": []
         },
         {
           "id": "4.2",
-          "title": "Performing arithmetic with date data",
+          "title": "日付データを含む算術演算の実行",
           "sub_objectives": []
         },
         {
           "id": "4.3",
-          "title": "Manipulating numbers with the ROUND, TRUNC and MOD functions",
+          "title": "ROUND、TRUNCおよびMOD関数を使用した数値の操作",
           "sub_objectives": []
         },
         {
           "id": "4.4",
-          "title": "Manipulating dates with the date function",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.5",
-          "title": "Using Conversion Functions and Conditional Expressions",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.6",
-          "title": "Applying the NVL, NULLIF, and COALESCE functions to data",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.7",
-          "title": "Understanding implicit and explicit data type conversion",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.8",
-          "title": "Using the TO_CHAR, TO_NUMBER, and TO_DATE conversion functions",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.9",
-          "title": "Nesting multiple functions",
+          "title": "日付関数を使用した日付の操作",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "5.0",
-      "name": "Reporting Aggregated Data Using Group Functions",
+      "name": "変換関数と条件式の使用",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "5.1",
-          "title": "Restricting Group Results",
+          "title": "データへのNVL、NULLIFおよびCOALESCE関数の適用",
           "sub_objectives": []
         },
         {
           "id": "5.2",
-          "title": "Creating Groups of Data",
+          "title": "暗黙的および明示的なデータ型変換の理解",
           "sub_objectives": []
         },
         {
           "id": "5.3",
-          "title": "Using Group Functions",
+          "title": "TO_CHAR、TO_NUMBERおよびTO_DATE変換関数の使用",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "複数の関数のネスト",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "6.0",
-      "name": "Displaying Data from Multiple Tables",
+      "name": "グループ関数を使用した集計データのレポート",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "6.1",
-          "title": "Using Self-joins",
+          "title": "グループ結果の制限",
           "sub_objectives": []
         },
         {
           "id": "6.2",
-          "title": "Using Various Types of Joins",
+          "title": "データ・グループの作成",
           "sub_objectives": []
         },
         {
           "id": "6.3",
-          "title": "Using Non equijoins",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.4",
-          "title": "Using OUTER joins",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.5",
-          "title": "Understanding and Using Cartesian Products",
+          "title": "グループ関数の使用",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "7.0",
-      "name": "Using Subqueries to Solve Queries",
+      "name": "複数の表からのデータの表示",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "7.1",
-          "title": "Using Single Row Subqueries",
+          "title": "自己結合の使用",
           "sub_objectives": []
         },
         {
           "id": "7.2",
-          "title": "Using Multiple Row Subqueries",
+          "title": "様々なタイプの結合の使用",
           "sub_objectives": []
         },
         {
           "id": "7.3",
-          "title": "Update and delete rows using correlated subqueries",
+          "title": "非等価結合の使用",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.4",
+          "title": "外部結合の使用",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.5",
+          "title": "デカルト積の理解と使用",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "8.0",
-      "name": "Using Set Operators",
+      "name": "副問合せを使用した問合せの解決",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "8.1",
-          "title": "Matching the SELECT statements",
+          "title": "単一行の副問合せの使用",
           "sub_objectives": []
         },
         {
           "id": "8.2",
-          "title": "Using the ORDER BY clause in set operations",
+          "title": "複数行の副問合せの使用",
           "sub_objectives": []
         },
         {
           "id": "8.3",
-          "title": "Using The INTERSECT operator",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.4",
-          "title": "Using The MINUS operator",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.5",
-          "title": "Using The UNION and UNION ALL operators",
+          "title": "相関副問合せを使用した行の更新および削除",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "9.0",
-      "name": "Managing Tables using DML statements",
+      "name": "集合演算子の使用",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "9.1",
-          "title": "Managing Database Transactions",
+          "title": "SELECT文の照合",
           "sub_objectives": []
         },
         {
           "id": "9.2",
-          "title": "Controlling transactions",
+          "title": "集合演算でのORDER BY句の使用",
           "sub_objectives": []
         },
         {
           "id": "9.3",
-          "title": "Perform Insert, Update and Delete operations",
+          "title": "INTERSECT演算子の使用",
           "sub_objectives": []
         },
         {
           "id": "9.4",
-          "title": "Performing multi table Inserts",
+          "title": "MINUS演算子の使用",
           "sub_objectives": []
         },
         {
           "id": "9.5",
-          "title": "Performing Merge statements",
+          "title": "UNIONおよびUNION ALL演算子の使用",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "10.0",
-      "name": "Managing Indexes Synonyms and Sequences",
+      "name": "DML文を使用した表の管理",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "10.1",
-          "title": "Managing Indexes",
+          "title": "データベース・トランザクションの管理",
           "sub_objectives": []
         },
         {
           "id": "10.2",
-          "title": "Managing Synonyms",
+          "title": "トランザクションの制御",
           "sub_objectives": []
         },
         {
           "id": "10.3",
-          "title": "Managing Sequences",
+          "title": "挿入、更新および削除操作の実行",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.4",
+          "title": "複数の表の挿入",
+          "sub_objectives": []
+        },
+        {
+          "id": "10.5",
+          "title": "Merge文の実行",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "11.0",
-      "name": "Use DDL to manage tables and their relationships",
+      "name": "索引、シノニムおよびシーケンスの管理",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "11.1",
-          "title": "Describing and Working with Tables",
+          "title": "索引の管理",
           "sub_objectives": []
         },
         {
           "id": "11.2",
-          "title": "Describing and Working with Columns and Data Types",
+          "title": "シノニムの管理",
           "sub_objectives": []
         },
         {
           "id": "11.3",
-          "title": "Creating tables",
-          "sub_objectives": []
-        },
-        {
-          "id": "11.4",
-          "title": "Dropping columns and setting column UNUSED",
-          "sub_objectives": []
-        },
-        {
-          "id": "11.5",
-          "title": "Truncating tables",
-          "sub_objectives": []
-        },
-        {
-          "id": "11.6",
-          "title": "Creating and using Temporary Tables",
-          "sub_objectives": []
-        },
-        {
-          "id": "11.7",
-          "title": "Creating and using external tables",
+          "title": "シーケンスの管理",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "12.0",
-      "name": "Managing Constraints",
+      "name": "DDLによる表とその関係の管理",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "12.1",
-          "title": "Managing Constraints",
+          "title": "表の説明と操作",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.2",
+          "title": "列およびデータ型の説明と操作",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.3",
+          "title": "表の作成",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.4",
+          "title": "列の削除とUNUSED列の設定",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.5",
+          "title": "表の切り捨て",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.6",
+          "title": "一時表の作成と使用",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.7",
+          "title": "外部表の作成と使用",
+          "sub_objectives": []
+        },
+        {
+          "id": "12.8",
+          "title": "制約の管理",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "13.0",
-      "name": "Managing Views",
+      "name": "ビューの管理",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "13.1",
-          "title": "Managing Views",
+          "title": "ビューの管理",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "14.0",
-      "name": "Controlling User Access",
+      "name": "ユーザー・アクセスの制御",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "14.1",
-          "title": "Differentiating system privileges from object privileges",
+          "title": "システム権限とオブジェクト権限との差別化",
           "sub_objectives": []
         },
         {
           "id": "14.2",
-          "title": "Granting privileges on tables",
+          "title": "表に対する権限の付与",
           "sub_objectives": []
         },
         {
           "id": "14.3",
-          "title": "Distinguishing between granting privileges and roles",
+          "title": "権限の付与とロールの付与の区別",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "15.0",
-      "name": "Managing Objects with Data Dictionary Views",
+      "name": "データ・ディクショナリ・ビューを使用したオブジェクトの管理",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "15.1",
-          "title": "Using data dictionary views",
+          "title": "データ・ディクショナリ・ビューの使用",
           "sub_objectives": []
         }
       ]
     },
     {
       "id": "16.0",
-      "name": "Managing Data in Different Time Zones",
+      "name": "異なるタイム・ゾーンでのデータの管理",
       "weight_percent": null,
       "weight_min": null,
       "weight_max": null,
       "objectives": [
         {
           "id": "16.1",
-          "title": "Working with CURRENT_DATE, CURRENT_TIMESTAMP, and LOCALTIMESTAMP",
+          "title": "CURRENT_DATE、CURRENT_TIMESTAMPおよびLOCALTIMESTAMPの使用",
           "sub_objectives": []
         },
         {
           "id": "16.2",
-          "title": "Working with INTERVAL data types",
+          "title": "INTERVALのデータ型の使用",
           "sub_objectives": []
         }
       ]
     }
   ],
-  "official_objectives_url": null,
-  "official_study_resources": [
-    {
-      "resource_type": "online_course",
-      "title": "Oracle University",
-      "url": "https://education.oracle.com/",
-      "provider": "Oracle",
-      "is_official": true,
-      "price_usd": null,
-      "notes": "Official Oracle training courses and learning paths"
-    },
-    {
-      "resource_type": "practice_exam",
-      "title": "Oracle Exam Preparation Materials",
-      "url": "https://education.oracle.com/certification",
-      "provider": "Oracle",
-      "is_official": true,
-      "price_usd": null,
-      "notes": "Official practice tests available through Oracle University"
-    }
-  ],
+  "official_objectives_url": "https://www.oracle.com/jp/education/certification/certification-exam-list/db-sql-1z0-071-exam/",
+  "official_study_resources": [],
   "aliases": [
     "1z0-071",
+    "1z0-071 oracle database sql",
     "oracle database sql",
     "oracle database sql certified associate",
     "oracle database sql certified associate 1z0-071",

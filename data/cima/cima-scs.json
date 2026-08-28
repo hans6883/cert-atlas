@@ -5,8 +5,8 @@
   "certifying_body": "CIMA",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.cimaglobal.com/Our-locations/UK/Qualification-and-assessment/CIMA-Professional-Qualification/Strategic-Level/",
-  "passing_score": null,
+  "source_url": "https://assets.ctfassets.net/rb9cdnjh59cm/17VA2GRaWgchHu2V2MjC9q/efc6131dd072f55942016b1b1cd2bcc2/strategic-level-exam-blueprints-2026-2027.pdf",
+  "passing_score": "Scaled score: 0 to 150 with 80 and above being a pass",
   "passing_score_scale": null,
   "total_questions": null,
   "question_types": [
@@ -54,7 +54,31 @@
   "domains": [
     {
       "id": "1",
-      "name": "Applied Integration Across CIMA Subjects",
+      "name": "Develop business strategy",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Evaluate business ecosystem and business environment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Recommend financing strategies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Evaluate and mitigate risk",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Recommend and maintain a sound control environment",
       "weight_percent": null,
       "objectives": []
     }

@@ -5,7 +5,7 @@
   "certifying_body": "FAA Pilot Certification",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.faa.gov/training_testing/testing/test_questions/",
+  "source_url": "https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf",
   "passing_score": 70,
   "passing_score_scale": "Percentage (70% passing for all knowledge tests)",
   "total_questions": 100,
@@ -42,7 +42,74 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period required after a failed attempt. No limit on total number of attempts. Instructor endorsement or authorized sign-off required before retaking."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Preflight Preparation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Preflight Procedures",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Airport and Seaplane Base Operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Takeoffs, Landings, and Go-Arounds",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Performance and Ground Reference Maneuvers",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Navigation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Slow Flight and Stalls",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Basic Instrument Maneuvers",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Emergency Operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "High Altitude Operations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Postflight Procedures",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

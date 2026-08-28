@@ -5,7 +5,7 @@
   "certifying_body": "AACN",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.aacn.org/certification/get-certified/ccrn-pediatric",
+  "source_url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
   "passing_score": 87,
   "passing_score_scale": null,
   "total_questions": 150,
@@ -63,19 +63,39 @@
   "domains": [
     {
       "id": "1",
-      "name": "Clinical Judgment",
-      "weight_percent": 80.0,
-      "objectives": [],
-      "weight_min": 80.0,
-      "weight_max": 80.0
+      "name": "Cardiovascular",
+      "weight_percent": 11.0,
+      "objectives": []
     },
     {
       "id": "2",
-      "name": "Professional Caring and Ethical Practice",
+      "name": "Respiratory",
+      "weight_percent": 9.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Endocrine, Hematology/Immunology, GI, Renal/GU, Integumentary",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Musculoskeletal, Neurological, Behavioral/Psychosocial",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Multisystem",
       "weight_percent": 20.0,
-      "objectives": [],
-      "weight_min": 20.0,
-      "weight_max": 20.0
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "PROFESSIONAL CARING & ETHICAL PRACTICE",
+      "weight_percent": 20.0,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

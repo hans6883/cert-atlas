@@ -40,7 +40,50 @@
     "max_attempts_total": null,
     "notes": "14-day waiting period between retake attempts for Associate and Specialist exams. 30-day waiting period for Professional-level exams. JNCIE lab exam retake policies are determined by Juniper Networks directly."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Cloud Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Cloud Infrastructure (NFV and SDN)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Network Virtualization",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Cloud Virtualization",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Cloud Orchestration with OpenStack",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Cloud Orchestration with Kubernetes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Cloud Orchestration with OpenShift",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://www.juniper.net/us/en/training/certification/tracks/cloud/jncia-cloud.html",
   "official_study_resources": [
     {

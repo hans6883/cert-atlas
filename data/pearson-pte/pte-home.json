@@ -5,10 +5,10 @@
   "certifying_body": "Pearson PTE",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.pearsonpte.com/pte-home",
-  "passing_score": null,
+  "source_url": "https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/policy-and-help-center/documents/Specification-for-PTE-Home-June-2022-V6.pdf",
+  "passing_score": "Pass-fail",
   "passing_score_scale": null,
-  "total_questions": null,
+  "total_questions": 28,
   "question_types": [],
   "exam_format": "Computer-based; fully AI scored; results within 48 hours",
   "duration_minutes": 30,
@@ -43,14 +43,32 @@
   "domains": [
     {
       "id": "1",
-      "name": "Listening and Reading",
-      "weight_percent": 50.0,
+      "name": "Repeat sentence",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Speaking and Writing",
-      "weight_percent": 50.0,
+      "name": "Describe image",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Conversation - listen and answer",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Re-tell story",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Story - listen and answer",
+      "weight_percent": null,
       "objectives": []
     }
   ],
