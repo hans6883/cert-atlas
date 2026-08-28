@@ -18373,9 +18373,11 @@
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-architect-associate/pexam_1Z0-1072-23",
-      "practice_url": "https://quizforge.ai/tests/oracle-cloud-infrastructure-architect-associate",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2026-08-10"
     },
     {
       "exam_id": "oracle-oci-cloud-operations-1z0-1067",
@@ -18927,9 +18929,14 @@
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://academy.pega.com/certification/certified-pega-rpa-architect",
-      "practice_url": "https://quizforge.ai/tests/certified-pega-robotic-process-automation-architect-cprpa-2i3oph",
+      "practice_url": null,
       "enriched": false,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
+      "replacement_exam_code": "PEGACPRSAV25",
+      "replacement_relationship": "direct_replacement",
+      "replacement_url": null
     },
     {
       "exam_id": "pega-pcssa",
