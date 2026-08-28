@@ -97,5 +97,17 @@
     "strategic business leader",
     "strategic business leader sbl p1"
   ],
-  "practice_url": "https://quizforge.ai/tests/acca-strategic-business-leader-sbl"
+  "practice_url": "https://quizforge.ai/tests/acca-strategic-business-leader-sbl",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-06-30",
+    "replacement": {
+      "exam_code": "S2",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "ACCA retires ACCA-SBL on 2027-06-30. S2 is the named replacement path.",
+    "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }

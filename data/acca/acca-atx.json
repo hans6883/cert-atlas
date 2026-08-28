@@ -91,5 +91,17 @@
     "atx p6",
     "p6"
   ],
-  "practice_url": "https://quizforge.ai/tests/advanced-taxation-atx-p6-2fe4qw"
+  "practice_url": "https://quizforge.ai/tests/advanced-taxation-atx-p6-2fe4qw",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-06-30",
+    "replacement": {
+      "exam_code": "STA",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "ACCA retires ATX/P6 on 2027-06-30. STA is the named replacement path.",
+    "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }

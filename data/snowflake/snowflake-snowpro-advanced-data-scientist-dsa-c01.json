@@ -104,5 +104,17 @@
     "snowpro advanced data scientist dsa-c01",
     "snowpro data scientist"
   ],
-  "practice_url": "https://quizforge.ai/tests/snowpro-advanced-data-scientist-dsa-c01"
+  "practice_url": "https://quizforge.ai/tests/snowpro-advanced-data-scientist-dsa-c01",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "DSA-C03",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Snowflake retired DSA-C01. DSA-C03 is the named replacement path.",
+    "evidence_url": "https://learn.snowflake.com/en/certifications",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }

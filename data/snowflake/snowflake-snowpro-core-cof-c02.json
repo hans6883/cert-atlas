@@ -111,5 +111,17 @@
     "snowpro core certification",
     "snowpro core certification cof-c02"
   ],
-  "practice_url": "https://quizforge.ai/tests/snowpro-core-cof-c02"
+  "practice_url": "https://quizforge.ai/tests/snowpro-core-cof-c02",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-05-14",
+    "replacement": {
+      "exam_code": "COF-C03",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Snowflake retired COF-C02 on 2026-05-14. COF-C03 is the named replacement path.",
+    "evidence_url": "https://learn.snowflake.com/en/certifications",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }

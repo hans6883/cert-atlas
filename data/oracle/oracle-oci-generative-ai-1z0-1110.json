@@ -122,5 +122,17 @@
     "oracle genai",
     "oracle-oci-generative-ai-1z0-1110"
   ],
-  "practice_url": "https://quizforge.ai/?q=Oracle%20Cloud%20Infrastructure%202023%20Generative%20AI%20Professional%20%281Z0-1110-23%29"
+  "practice_url": "https://quizforge.ai/?q=Oracle%20Cloud%20Infrastructure%202023%20Generative%20AI%20Professional%20%281Z0-1110-23%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "1Z0-1110-26",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "Oracle retired 1Z0-1110-23. 1Z0-1110-26 is the named replacement path.",
+    "evidence_url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-data-science-professional/pexam_1Z0-1110-25",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }

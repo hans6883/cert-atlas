@@ -97,5 +97,17 @@
     "afm p4",
     "p4"
   ],
-  "practice_url": "https://quizforge.ai/?q=Advanced%20Financial%20Management%20%28AFM/P4%29"
+  "practice_url": "https://quizforge.ai/?q=Advanced%20Financial%20Management%20%28AFM/P4%29",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-06-30",
+    "replacement": {
+      "exam_code": "SCF",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "ACCA retires AFM/P4 on 2027-06-30. SCF is the named replacement path.",
+    "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }

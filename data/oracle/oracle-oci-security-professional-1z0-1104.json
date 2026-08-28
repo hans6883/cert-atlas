@@ -137,5 +137,17 @@
     "oracle cloud security",
     "oracle-oci-security-professional-1z0-1104"
   ],
-  "practice_url": "https://quizforge.ai/?q=Oracle%20Cloud%20Infrastructure%202023%20Security%20Professional%20%281Z0-1104-23%29"
+  "practice_url": "https://quizforge.ai/?q=Oracle%20Cloud%20Infrastructure%202023%20Security%20Professional%20%281Z0-1104-23%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-08-31",
+    "replacement": {
+      "exam_code": "1Z0-1104-24",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Oracle retired 1Z0-1104-23 on 2024-08-31. 1Z0-1104-24 is the named replacement path.",
+    "evidence_url": "https://www.oracle.com/jp/education/certification/discontinued-exams/",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }
