@@ -5,7 +5,7 @@
   "certifying_body": "OffSec",
   "certification_name": "OffSec Exploit Developer (OSED)",
   "version": null,
-  "source_url": "https://www.offsec.com/courses/exp-301/",
+  "source_url": "https://manage.offsec.com/app/uploads/2023/01/EXP-301-Syllabus-Google-Docs.pdf",
   "passing_score": 75,
   "passing_score_scale": null,
   "total_questions": null,
@@ -52,38 +52,82 @@
   },
   "domains": [
     {
-      "id": "1.0",
-      "name": "Understanding the mechanics of stack buffer overflows and learn how to exploit them to gain control of vulnerable programs",
+      "id": "1",
+      "name": "Windows User Mode Exploit Development: General Course Information",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Utilizing IDA Pro with a debugger during reverse engineering and more advanced exploit development",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.2",
-          "title": "Applying dynamic analysis to understand program behavior",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.3",
-          "title": "Developing the skills to write your own custom shellcode, enabling you to perform specific actions on compromised systems",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.4",
-          "title": "Mastering advanced techniques for exploiting stack overflows while bypassing modern security mitigations such as Data Execution Prevention (DEP) and Address Space Layout Randomization (ASLR)",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.5",
-          "title": "Completing extensive reverse engineering to find a way to leverage a format string vulnerability and develop a read primitive",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "WinDbg and x86 Architecture",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Exploiting Stack Overflows",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Exploiting SEH Overflows",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Introduction to IDA Pro",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Overcoming Space Restrictions: Egghunters",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Creating Custom Shellcode",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Reverse Engineering for Bugs",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Stack Overflows and DEP Bypass",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Stack Overflows and ASLR Bypass",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Format String Specifier Attack Part I",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Format String Specifier Attack Part II",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Trying Harder: The Labs",
+      "weight_percent": null,
+      "objectives": []
     }
   ],
   "official_objectives_url": "https://www.offensive-security.com/osed/",

@@ -5,8 +5,8 @@
   "certifying_body": "Zscaler",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.zscaler.com/zscaler-academy/ztca-zero-trust-certified-associate",
-  "passing_score": null,
+  "source_url": "https://www.zscaler.com/zscaler-cyber-academy/ztca-zero-trust-cyber-associate",
+  "passing_score": "Not published",
   "passing_score_scale": null,
   "total_questions": 75,
   "question_types": [
@@ -45,7 +45,38 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between failed attempts. Full exam fee required for each retake. Exam fees are non-refundable and non-transferable."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Recognize the importance of shifting from a legacy network and security architecture to a zero trust architecture for digital transformation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Identify the background and importance of the three sections needed to build a successful zero trust architecture",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Discover how connections are made to and from the Zscaler Zero Trust Exchange",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Determine the technology and architectural considerations needed when building a true zero trust architecture",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Explain how Zscaler Zero Trust Exchange achieves each of the seven elements of a true zero trust architecture",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://www.zscaler.com/zscaler-academy/ztca-zero-trust-certified-associate",
   "official_study_resources": [
     {

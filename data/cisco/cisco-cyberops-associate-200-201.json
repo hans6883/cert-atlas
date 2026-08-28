@@ -5,7 +5,7 @@
   "certifying_body": "Cisco",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccnacbr.html",
+  "source_url": "https://learningcontent.cisco.com/documents/marketing/exam-topics/200-201-CBROPS-v1.2_2024Oct01.pdf",
   "passing_score": null,
   "passing_score_scale": null,
   "total_questions": 95,
@@ -49,7 +49,38 @@
     "max_attempts_total": null,
     "notes": "5-day waiting period before retaking the same exam. After 3 failed attempts, 180-day waiting period. No limit on total attempts."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Security Concepts",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Security Monitoring",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Host-Based Analysis",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Network Intrusion Analysis",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security Policies and Procedures",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

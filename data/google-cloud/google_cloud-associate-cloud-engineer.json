@@ -4,10 +4,37 @@
   "exam_code": "Associate Cloud Engineer",
   "certifying_body": "Google",
   "certification_name": "Associate Cloud Engineer",
-  "source_url": "https://www.examprepper.co/exam/1",
+  "source_url": "https://services.google.com/fh/files/misc/associate_cloud_engineer_exam_guide_english.pdf",
   "total_questions": 256,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1: Setting up a cloud solution environment",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2: Planning and implementing a cloud solution",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3: Ensuring successful operation of a cloud solution",
+      "weight_percent": 27.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4: Configuring access and security",
+      "weight_percent": 20.0,
+      "objectives": []
+    }
   ],
   "practice_url": "https://quizforge.ai/tests/google-cloud-associate-cloud-engineer"
 }

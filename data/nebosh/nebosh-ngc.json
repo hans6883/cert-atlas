@@ -5,7 +5,7 @@
   "certifying_body": "NEBOSH",
   "certification_name": "NEBOSH National General Certificate in Occupational Health and Safety",
   "version": "2025 specification",
-  "source_url": "https://www.nebosh.org.uk/qualifications/national-general-certificate/",
+  "source_url": "https://www.nebosh.org.uk/documents/gnc-syllabus-guide-for-learners/gnc-learner-guide-v1.pdf",
   "passing_score": 45,
   "passing_score_scale": null,
   "total_questions": null,
@@ -52,21 +52,70 @@
   },
   "domains": [
     {
-      "id": "1.0",
-      "name": "Managing Health and Safety",
+      "id": "1",
+      "name": "Why we should manage workplace health and safety",
       "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Know and do effective health and safety",
-          "sub_objectives": [
-            "How to effectively manage health and safety",
-            "How to identify and control common workplace hazards",
-            "How to measure if you've been successful",
-            "The UK's key legal requirements"
-          ]
-        }
-      ]
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "How health and safety management systems work and what they look like",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Managing risk - understanding people and processes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Health and safety monitoring and measuring",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Physical and psychological health",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Musculoskeletal health",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Chemical and biological agents",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "General workplace issues",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Work equipment",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Fire",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Electricity",
+      "weight_percent": null,
+      "objectives": []
     }
   ],
   "official_objectives_url": "https://www.nebosh.org.uk/qualifications/ngc/syllabus-guide-for-learners-2025-specification/",

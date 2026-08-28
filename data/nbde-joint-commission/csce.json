@@ -5,10 +5,10 @@
   "certifying_body": "NBDE / Joint Commission",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.adha.org/nbdhe",
-  "passing_score": null,
+  "source_url": "https://adextesting.org/wp-content/uploads/2022/12/The-ADEX-CSCE-OSCE.pdf",
+  "passing_score": "A scaled score of 75 percent or higher",
   "passing_score_scale": "Scaled score 49–99; passing score 75",
-  "total_questions": null,
+  "total_questions": 100,
   "question_types": [
     "Multiple Choice",
     "Case-Based Multiple Choice"
@@ -49,7 +49,44 @@
     "max_attempts_total": null,
     "notes": "60-day waiting period between failed attempts. Maximum 3 attempts per calendar year for INBDE. Scores are generally valid for 5 years for most state licensure boards."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Medical/Dental Assessment",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Intra and Extra Oral Assessment and Charting",
+      "weight_percent": 27.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Radiology/Imaging",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Dental Hygiene Care Planning",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Patient Care",
+      "weight_percent": 19.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Dental Specialties and Pharmacology",
+      "weight_percent": 14.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

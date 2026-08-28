@@ -5,7 +5,7 @@
   "certifying_body": "TOPIK",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.topik.go.kr/usr/cmm/subLocation.do?menuSeq=2110101",
+  "source_url": "https://www.topik-hk.org/eng/detail.asp",
   "passing_score": 80,
   "passing_score_scale": null,
   "total_questions": 70,
@@ -51,14 +51,14 @@
   "domains": [
     {
       "id": "1",
-      "name": "Listening (듣기)",
-      "weight_percent": 50.0,
+      "name": "Listening",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Reading (읽기)",
-      "weight_percent": 50.0,
+      "name": "Reading",
+      "weight_percent": null,
       "objectives": []
     }
   ],

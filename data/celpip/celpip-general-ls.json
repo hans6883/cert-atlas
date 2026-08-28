@@ -5,10 +5,10 @@
   "certifying_body": "CELPIP",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.celpip.ca/take-celpip/celpip-general-ls/",
+  "source_url": "https://www.celpip.ca/take-celpip/test-format/",
   "passing_score": null,
   "passing_score_scale": null,
-  "total_questions": null,
+  "total_questions": 42,
   "question_types": [],
   "exam_format": "Computer-delivered; fully automated scoring; results in 4-8 business days",
   "duration_minutes": 90,
@@ -32,14 +32,86 @@
   "domains": [
     {
       "id": "1",
-      "name": "Listening",
-      "weight_percent": 50.0,
+      "name": "Part 1: Listening to Problem Solving",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Speaking",
-      "weight_percent": 50.0,
+      "name": "Part 2: Listening to a Daily Life Conversation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Part 3: Listening for Information",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Part 4: Listening to a News Item",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Part 5: Listening to a Discussion",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Part 6: Listening to Viewpoints",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Task 1: Giving Advice",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Task 2: Talking about a Personal Experience",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Task 3: Describing a Scene",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Task 4: Making Predictions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Task 5: Comparing and Persuading",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Task 6: Dealing with a Difficult Situation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Task 7: Expressing Opinions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Task 8: Describing an Unusual Situation",
+      "weight_percent": null,
       "objectives": []
     }
   ],

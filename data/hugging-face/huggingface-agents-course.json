@@ -3,7 +3,7 @@
   "exam_name": "Hugging Face AI Agents Course",
   "exam_code": "HF-AGENTS",
   "certifying_body": "Hugging Face",
-  "certification_name": "AI Agents Course Certification",
+  "certification_name": null,
   "version": null,
   "source_url": "https://huggingface.co/learn/agents-course",
   "passing_score": null,
@@ -37,12 +37,17 @@
   "available_languages": [
     "English"
   ],
-  "target_audience": "Students and professionals interested in AI agents",
+  "target_audience": "Beginners and experts in AI agents",
   "recommended_experience": "Basic knowledge of Python and LLMs",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
-      "description": "Basic knowledge of Python and LLMs",
+      "description": "Basic knowledge of Python",
+      "is_required": true
+    },
+    {
+      "prerequisite_type": "experience",
+      "description": "Basic knowledge of LLMs",
       "is_required": true
     }
   ],
@@ -54,9 +59,25 @@
   },
   "domains": [
     {
-      "id": "1.0",
+      "id": "0",
+      "name": "Onboarding",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "0.1",
+          "title": "Set you up with the tools and platforms that you will use",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "1",
       "name": "Agent Fundamentals",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": [
         {
           "id": "1.1",
@@ -76,9 +97,11 @@
       ]
     },
     {
-      "id": "2.0",
+      "id": "2",
       "name": "Frameworks",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": [
         {
           "id": "2.1",
@@ -88,21 +111,25 @@
       ]
     },
     {
-      "id": "3.0",
+      "id": "3",
       "name": "Use Cases",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": [
         {
           "id": "3.1",
-          "title": "Build real-life use cases",
+          "title": "Build some real life use cases (open to PRs from experienced Agent builders)",
           "sub_objectives": []
         }
       ]
     },
     {
-      "id": "4.0",
+      "id": "4",
       "name": "Final Assignment",
       "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
       "objectives": [
         {
           "id": "4.1",
@@ -115,13 +142,13 @@
   "official_objectives_url": "https://huggingface.co/learn/agents-course",
   "official_study_resources": [
     {
-      "resource_type": "official_study_guide",
-      "title": "AI Agents Course Documentation",
-      "url": "https://huggingface.co/ai-agents-course",
+      "resource_type": "online_course",
+      "title": "Hugging Face AI Agents Course",
+      "url": null,
       "provider": "Hugging Face",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "The course is free to access."
+      "price_usd": null,
+      "notes": "Free course with certification options."
     }
   ],
   "aliases": [

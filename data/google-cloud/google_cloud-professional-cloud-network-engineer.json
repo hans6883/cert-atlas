@@ -4,10 +4,49 @@
   "exam_code": "Professional Cloud Network Engineer",
   "certifying_body": "Google",
   "certification_name": "Professional Cloud Network Engineer",
-  "source_url": "https://www.examprepper.co/exam/9",
+  "source_url": "https://services.google.com/fh/files/misc/042426_professional_cloud_network_engineer_exam_guide_english.pdf",
   "total_questions": 5,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1: Designing and planning a Google Cloud VPC network",
+      "weight_percent": 21.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2: Implementing a VPC network",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3: Configuring managed network services",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4: Configuring and implementing hybrid and multicloud network interconnectivity",
+      "weight_percent": 16.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Section 5: Managing, monitoring, and troubleshooting network operations",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Section 6: Configuring, implementing and managing a cloud network security solution",
+      "weight_percent": 13.0,
+      "objectives": []
+    }
   ],
   "practice_url": "https://quizforge.ai/tests/google-cloud-professional-cloud-network-engineer"
 }

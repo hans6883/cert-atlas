@@ -4,10 +4,37 @@
   "exam_code": "Associate Data Practitioner",
   "certifying_body": "Google",
   "certification_name": "Associate Data Practitioner",
-  "source_url": "https://www.examprepper.co/exam/2",
+  "source_url": "https://services.google.com/fh/files/misc/associate_data_practitioner_exam_guide_english.pdf",
   "total_questions": 67,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1: Data Preparation and Ingestion",
+      "weight_percent": 30.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2: Data Analysis and Presentation",
+      "weight_percent": 27.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3: Data Pipeline Orchestration",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4: Data Management",
+      "weight_percent": 25.0,
+      "objectives": []
+    }
   ],
   "aliases": [
     "associate data practitioner"

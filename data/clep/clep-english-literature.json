@@ -46,77 +46,16 @@
   },
   "domains": [
     {
-      "id": "Knowledge of",
-      "name": "Knowledge of",
-      "weight_percent": 37.5,
-      "objectives": [
-        {
-          "id": "Literary background",
-          "title": "Literary background",
-          "sub_objectives": []
-        },
-        {
-          "id": "Identification of authors",
-          "title": "Identification of authors",
-          "sub_objectives": []
-        },
-        {
-          "id": "Metrical patterns",
-          "title": "Metrical patterns",
-          "sub_objectives": []
-        },
-        {
-          "id": "Literary references",
-          "title": "Literary references",
-          "sub_objectives": []
-        },
-        {
-          "id": "Literary terms",
-          "title": "Literary terms",
-          "sub_objectives": []
-        }
-      ],
-      "weight_min": 35.0,
-      "weight_max": 40.0
+      "id": "1",
+      "name": "Knowledge of:",
+      "weight_percent": null,
+      "objectives": []
     },
     {
-      "id": "Ability to",
-      "name": "Ability to",
-      "weight_percent": 62.5,
-      "objectives": [
-        {
-          "id": "Analyze the elements of form in a literary passage",
-          "title": "Analyze the elements of form in a literary passage",
-          "sub_objectives": []
-        },
-        {
-          "id": "Perceive meanings",
-          "title": "Perceive meanings",
-          "sub_objectives": []
-        },
-        {
-          "id": "Identify tone and mood",
-          "title": "Identify tone and mood",
-          "sub_objectives": []
-        },
-        {
-          "id": "Follow patterns of imagery",
-          "title": "Follow patterns of imagery",
-          "sub_objectives": []
-        },
-        {
-          "id": "Identify characteristics of style",
-          "title": "Identify characteristics of style",
-          "sub_objectives": []
-        },
-        {
-          "id": "Comprehend the reasoning in an excerpt of literary criticism",
-          "title": "Comprehend the reasoning in an excerpt of literary criticism",
-          "sub_objectives": []
-        }
-      ],
-      "weight_min": 60.0,
-      "weight_max": 65.0
+      "id": "2",
+      "name": "Ability to:",
+      "weight_percent": null,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

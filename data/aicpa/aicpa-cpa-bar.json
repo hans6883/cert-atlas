@@ -5,10 +5,10 @@
   "certifying_body": "AICPA",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.aicpa-cima.com/certifications/certified-public-accountant/cpa-exam/sections/business-analysis-and-reporting",
+  "source_url": "https://assets.ctfassets.net/rb9cdnjh59cm/71s84dkfo3KEsoLlz4vv6G/f4314469ec5368b5b4dd0d0184f00a71/CPA_Exam_Blueprints_2026.pdf",
   "passing_score": 75,
   "passing_score_scale": "0-99 scaled score; 75 required to pass",
-  "total_questions": null,
+  "total_questions": 57,
   "question_types": [
     "Multiple Choice (MCQ)",
     "Task-Based Simulations (TBS) — research, document review, journal entries, calculations"
@@ -49,18 +49,20 @@
     {
       "id": "1",
       "name": "Business Analysis",
-      "weight_percent": 45.0,
-      "objectives": [],
-      "weight_min": 40.0,
-      "weight_max": 50.0
+      "weight_percent": null,
+      "objectives": []
     },
     {
       "id": "2",
       "name": "Technical Accounting and Reporting",
-      "weight_percent": 40.0,
-      "objectives": [],
-      "weight_min": 35.0,
-      "weight_max": 45.0
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "State and Local Governments",
+      "weight_percent": null,
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

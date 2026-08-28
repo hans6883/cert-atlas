@@ -5,7 +5,7 @@
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.fmcsa.dot.gov/",
+  "source_url": "https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/2005%20CDL%20DRIVER%20MANUAL%20FINAL%20July%202010.pdf",
   "passing_score": 80,
   "passing_score_scale": "Percentage (80% passing for all CDL knowledge tests)",
   "total_questions": 20,
@@ -42,7 +42,50 @@
     "max_attempts_total": null,
     "notes": "Typical 14-day waiting period between failed attempts; exact policy varies by state. Some states impose additional fees for each retake attempt."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Danger Zones and Use of Mirrors",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Loading and Unloading",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Emergency Exit and Evacuation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Railroad-highway Crossings",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Student Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Antilock Braking Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Special Safety Considerations",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

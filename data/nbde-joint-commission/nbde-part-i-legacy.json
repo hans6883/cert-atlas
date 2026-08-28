@@ -5,16 +5,16 @@
   "certifying_body": "NBDE / Joint Commission",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.ada.org/education/nbde",
-  "passing_score": null,
+  "source_url": "https://jcnde.ada.org/-/media/project/ada-organization/ada/jcnde/files/nbde_technical_rpt.pdf",
+  "passing_score": "Pass/Fail",
   "passing_score_scale": "Scaled score 49–99; passing score 75",
-  "total_questions": null,
+  "total_questions": 400,
   "question_types": [
     "Multiple Choice",
     "Case-Based Multiple Choice"
   ],
   "exam_format": "Linear (computer-based at PSI testing centers)",
-  "duration_minutes": null,
+  "duration_minutes": 420,
   "exam_price_usd": 0.0,
   "exam_price_notes": null,
   "voucher_url": null,
@@ -43,7 +43,32 @@
     "max_attempts_total": null,
     "notes": "60-day waiting period between failed attempts. Maximum 3 attempts per calendar year for INBDE. Scores are generally valid for 5 years for most state licensure boards."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "anatomic sciences",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "biochemistry and physiology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "microbiology and pathology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "dental anatomy and occlusion",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

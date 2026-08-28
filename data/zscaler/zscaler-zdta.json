@@ -5,8 +5,8 @@
   "certifying_body": "Zscaler",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.zscaler.com/zscaler-cyber-academy/zscaler-certification",
-  "passing_score": null,
+  "source_url": "https://www.zscaler.com/resources/brochures/digital-transformation-admin-blueprint.pdf",
+  "passing_score": "Not published",
   "passing_score_scale": null,
   "total_questions": 60,
   "question_types": [
@@ -51,7 +51,44 @@
     "max_attempts_total": null,
     "notes": "30-day waiting period between failed attempts. Full exam fee required for each retake. Exam fees are non-refundable and non-transferable."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "User & Device Management",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Platform Management",
+      "weight_percent": 18.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Policy & Security Configuration",
+      "weight_percent": 29.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Monitoring, Reporting & Analytics",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Troubleshooting & Incident Response",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Integration & Optimization",
+      "weight_percent": 9.0,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": "https://www.zscaler.com/zscaler-cyber-academy/zscaler-certification",
   "official_study_resources": [
     {

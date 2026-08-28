@@ -46,68 +46,16 @@
   },
   "domains": [
     {
-      "id": "Biological Science",
+      "id": "1",
       "name": "Biological Science",
       "weight_percent": 50.0,
-      "objectives": [
-        {
-          "id": "10%",
-          "title": "Origin and evolution of life; classification of organisms",
-          "sub_objectives": []
-        },
-        {
-          "id": "10%",
-          "title": "Cell organization, cell division, chemical nature of the gene, bioenergetics, and biosynthesis",
-          "sub_objectives": []
-        },
-        {
-          "id": "20%",
-          "title": "Structure, function, and development in organisms; patterns of heredity",
-          "sub_objectives": []
-        },
-        {
-          "id": "10%",
-          "title": "Concepts of population biology with emphasis on ecology",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "Physical Science",
+      "id": "2",
       "name": "Physical Science",
       "weight_percent": 50.0,
-      "objectives": [
-        {
-          "id": "7%",
-          "title": "Atomic and nuclear structure and properties, elementary particles, and nuclear reactions",
-          "sub_objectives": []
-        },
-        {
-          "id": "10%",
-          "title": "Chemical elements, compounds and reactions, molecular structure and bonding",
-          "sub_objectives": []
-        },
-        {
-          "id": "12%",
-          "title": "Heat, thermodynamics, and states of matter; classical mechanics; relativity",
-          "sub_objectives": []
-        },
-        {
-          "id": "4%",
-          "title": "Electricity and magnetism, waves, light, and sound",
-          "sub_objectives": []
-        },
-        {
-          "id": "7%",
-          "title": "The universe: galaxies, stars, and the solar system",
-          "sub_objectives": []
-        },
-        {
-          "id": "10%",
-          "title": "The Earth: atmosphere, hydrosphere, structure features, geologic processes, and history",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

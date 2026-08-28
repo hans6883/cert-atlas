@@ -4,10 +4,48 @@
   "exam_code": "Cloud Digital Leader",
   "certifying_body": "Google",
   "certification_name": "Cloud Digital Leader",
-  "source_url": "https://www.examprepper.co/exam/3",
+  "source_url": "https://cloud.google.com/learn/certification/cloud-digital-leader",
   "total_questions": 258,
   "question_types": [
     "multiple_choice"
+  ],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Digital transformation with Google Cloud",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Exploring data transformation with Google Cloud",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Innovating with Google Cloud artificial intelligence",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Modernizing infrastructure and applications with Google Cloud",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Trust and security with Google Cloud",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Scaling with Google Cloud operations",
+      "weight_percent": null,
+      "objectives": []
+    }
   ],
   "aliases": [
     "google_cloud-cloud-digital-leader"

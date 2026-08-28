@@ -4,10 +4,37 @@
   "exam_code": "Professional Cloud Developer",
   "certifying_body": "Google",
   "certification_name": "Professional Cloud Developer",
-  "source_url": "https://www.examprepper.co/exam/8",
+  "source_url": "https://services.google.com/fh/files/misc/professional_cloud_developer_exam_guide_english.pdf",
   "total_questions": 10,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1: Designing highly scalable, secure, and reliable cloud-native applications",
+      "weight_percent": 32.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2: Building and testing applications",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3: Configuring cloud-native applications for deployment",
+      "weight_percent": 24.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4: Integrating applications with Google Cloud services",
+      "weight_percent": 21.0,
+      "objectives": []
+    }
   ],
   "practice_url": "https://quizforge.ai/tests/google-cloud-certified-professional-cloud-developer-b9d1314a"
 }

@@ -5,10 +5,10 @@
   "certifying_body": "AWS - American Welding Society",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.aws.org/certification/certifiedweldinginspector",
-  "passing_score": null,
+  "source_url": "https://aws-p-001-delivery.sitecorecontenthub.cloud/api/public/content/CWI-Part-B-Practical-Exam-Info-Guide",
+  "passing_score": "72%",
   "passing_score_scale": "Pass/fail; specific passing thresholds not publicly disclosed",
-  "total_questions": null,
+  "total_questions": 46,
   "question_types": [
     "Multiple Choice",
     "Open-book Multiple Choice (Codes section)"
@@ -54,14 +54,32 @@
   "domains": [
     {
       "id": "1",
-      "name": "Welding Inspection Practical Application",
-      "weight_percent": 50.0,
+      "name": "Welding Inspection and Flaws",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Codes and Standards",
-      "weight_percent": 50.0,
+      "name": "Procedure and Welder Qualifications",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Mechanical Test and Properties",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "NDE",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Utilization of Specification and Drawings",
+      "weight_percent": null,
       "objectives": []
     }
   ],

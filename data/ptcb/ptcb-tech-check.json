@@ -5,15 +5,15 @@
   "certifying_body": "PTCB",
   "certification_name": null,
   "version": null,
-  "source_url": "https://ptcb.org/credentials/",
-  "passing_score": null,
+  "source_url": "https://ptcb.org/credentials/certificate/technician-product-verification/",
+  "passing_score": "300",
   "passing_score_scale": "On-demand assessment; pass/fail varies by program",
-  "total_questions": null,
+  "total_questions": 120,
   "question_types": [
     "Multiple Choice (single best answer)"
   ],
   "exam_format": "Linear fixed-form computer-based test (CBT)",
-  "duration_minutes": null,
+  "duration_minutes": 120,
   "exam_price_usd": null,
   "exam_price_notes": "On-demand program; pricing varies by participating employer/institution.",
   "voucher_url": null,
@@ -53,7 +53,19 @@
   "domains": [
     {
       "id": "1",
-      "name": "Pharmacy Technician Skills Assessment",
+      "name": "Identifying the correct product name, strength, and dosage form",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Calculating the amount of product to dispense based on prescribed dosage and frequency",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Evaluating the integrity of product characteristics (e.g., intact packaging and expiration dates)",
       "weight_percent": null,
       "objectives": []
     }

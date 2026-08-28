@@ -5,7 +5,7 @@
   "certifying_body": "NHA",
   "certification_name": "Certified Electronic Health Records Specialist (CEHRS)",
   "version": null,
-  "source_url": "https://www.nhanow.com/certifications/electronic-health-records-specialist",
+  "source_url": "https://www.nhanow.com/docs/default-source/test-plans/nha_cehrs-test-plan.pdf?sfvrsn=ad996ae5_2",
   "passing_score": 390,
   "passing_score_scale": null,
   "total_questions": 110,
@@ -58,59 +58,34 @@
   },
   "domains": [
     {
-      "id": "1.0",
-      "name": "Electronic Health Records Specialist Certification (CEHRS)",
-      "weight_percent": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Auditing patient records for compliance",
-          "sub_objectives": [
-            "Ensure accuracy and completeness of patient data",
-            "Review compliance with healthcare regulations"
-          ]
-        },
-        {
-          "id": "1.2",
-          "title": "Abstracting clinical information for reports",
-          "sub_objectives": [
-            "Extract relevant clinical data from patient records",
-            "Prepare reports for internal or external use"
-          ]
-        },
-        {
-          "id": "1.3",
-          "title": "Performing basic coding for reimbursement claims",
-          "sub_objectives": [
-            "Apply appropriate coding standards",
-            "Submit accurate reimbursement claims"
-          ]
-        },
-        {
-          "id": "1.4",
-          "title": "Processing Release of Information (ROI) requests",
-          "sub_objectives": [
-            "Review ROI requests for compliance",
-            "Ensure proper authorization for release of information"
-          ]
-        },
-        {
-          "id": "1.5",
-          "title": "Reviewing patient demographic and insurance information",
-          "sub_objectives": [
-            "Verify accuracy of patient demographics",
-            "Ensure insurance information is up to date"
-          ]
-        },
-        {
-          "id": "1.6",
-          "title": "Discussing patient information with physicians and insurance professionals",
-          "sub_objectives": [
-            "Communicate effectively with healthcare professionals",
-            "Ensure accurate and appropriate sharing of information"
-          ]
-        }
-      ]
+      "id": "1",
+      "name": "Non-Clinical Operations",
+      "weight_percent": 28.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Clinical Operations",
+      "weight_percent": 32.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Revenue Cycle/Finance",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Regulatory Compliance",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Reporting",
+      "weight_percent": 10.0,
+      "objectives": []
     }
   ],
   "official_objectives_url": "https://www.nhanow.com/certifications/electronic-health-records-specialist",

@@ -5,10 +5,10 @@
   "certifying_body": "NBOME",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.nbome.org/exams/comlex-usa/comlex-usa-level-2/",
-  "passing_score": null,
+  "source_url": "https://www.nbome.org/assessments/retired-assessments/",
+  "passing_score": "Pass/Fail",
   "passing_score_scale": "9–999 scale; passing varies by level (400 for Levels 1 and 2-CE, 350 for Level 3)",
-  "total_questions": null,
+  "total_questions": 12,
   "question_types": [
     "Multiple Choice",
     "Single Best Answer",
@@ -50,7 +50,20 @@
     "max_attempts_total": 4,
     "notes": "60-day waiting period between failed attempts. Maximum 4 attempts per COMLEX-USA level. Candidates who exhaust attempts must petition NBOME for additional eligibility."
   },
-  "domains": [],
+  "domains": [
+    {
+      "id": "1",
+      "name": "Humanistic Domain",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Biomedical/Biomechanical Domain",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {

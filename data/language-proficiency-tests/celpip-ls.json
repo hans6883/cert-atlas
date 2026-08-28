@@ -5,10 +5,10 @@
   "certifying_body": "Language Proficiency Tests",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.celpip.ca/",
+  "source_url": "https://www.celpip.ca/take-celpip/test-format/",
   "passing_score": null,
   "passing_score_scale": "Varies by exam — band/scale scores rather than percentage pass marks",
-  "total_questions": null,
+  "total_questions": 46,
   "question_types": [
     "Multiple Choice",
     "Written Response",
@@ -16,7 +16,7 @@
     "Fill in the Blank"
   ],
   "exam_format": null,
-  "duration_minutes": null,
+  "duration_minutes": 70,
   "exam_price_usd": null,
   "exam_price_notes": "CAD $190; Listening and Speaking sections only",
   "voucher_url": null,
@@ -42,14 +42,14 @@
   "domains": [
     {
       "id": "1",
-      "name": "Listening Comprehension",
-      "weight_percent": 50.0,
+      "name": "Listening",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Speaking (recorded responses)",
-      "weight_percent": 50.0,
+      "name": "Speaking",
+      "weight_percent": null,
       "objectives": []
     }
   ],

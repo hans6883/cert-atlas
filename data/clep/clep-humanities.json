@@ -46,58 +46,16 @@
   },
   "domains": [
     {
-      "id": "Literature (50%)",
+      "id": "1",
       "name": "Literature",
       "weight_percent": 50.0,
-      "objectives": [
-        {
-          "id": "10% Drama",
-          "title": "Drama",
-          "sub_objectives": []
-        },
-        {
-          "id": "10%–15% Poetry",
-          "title": "Poetry",
-          "sub_objectives": []
-        },
-        {
-          "id": "15%–20% Fiction",
-          "title": "Fiction",
-          "sub_objectives": []
-        },
-        {
-          "id": "10% Nonfiction (including philosophy)",
-          "title": "Nonfiction",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "The Arts (50%)",
+      "id": "2",
       "name": "The Arts",
       "weight_percent": 50.0,
-      "objectives": [
-        {
-          "id": "20% Visual arts: painting, sculpture, etc.",
-          "title": "Visual arts: painting, sculpture, etc.",
-          "sub_objectives": []
-        },
-        {
-          "id": "5% Visual arts: architecture",
-          "title": "Visual arts: architecture",
-          "sub_objectives": []
-        },
-        {
-          "id": "15% Performing arts: music",
-          "title": "Performing arts: music",
-          "sub_objectives": []
-        },
-        {
-          "id": "10% Performing arts: film, dance, etc.",
-          "title": "Performing arts: film, dance, etc.",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

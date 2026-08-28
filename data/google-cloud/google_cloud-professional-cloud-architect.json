@@ -4,10 +4,49 @@
   "exam_code": "Professional Cloud Architect",
   "certifying_body": "Google",
   "certification_name": "Professional Cloud Architect",
-  "source_url": "https://www.examprepper.co/exam/5",
+  "source_url": "https://services.google.com/fh/files/misc/professional_cloud_architect_exam_guide_english.pdf",
   "total_questions": 210,
   "question_types": [
     "multiple_choice"
+  ],
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Section 1: Designing and planning a cloud solution architecture",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Section 2: Managing and provisioning a cloud solution infrastructure",
+      "weight_percent": 17.5,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Section 3: Designing for security and compliance",
+      "weight_percent": 17.5,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Section 4: Analyzing and optimizing technical and business processes",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Section 5: Managing implementation",
+      "weight_percent": 12.5,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Section 6: Ensuring solution and operations excellence",
+      "weight_percent": 12.5,
+      "objectives": []
+    }
   ],
   "practice_url": "https://quizforge.ai/tests/google-cloud-professional-cloud-architect"
 }
