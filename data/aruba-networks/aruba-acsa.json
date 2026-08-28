@@ -95,5 +95,17 @@
     "aruba-acsa",
     "hpe6-a72"
   ],
-  "practice_url": "https://quizforge.ai/tests/hpe-aruba-certified-switching-associate-acsa"
+  "practice_url": "https://quizforge.ai/tests/hpe-aruba-certified-switching-associate-acsa",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "HPE6-A86",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Aruba Networks retired HPE6-A72. HPE6-A86 is the named replacement path.",
+    "evidence_url": "https://certification-learning.hpe.com/tr/datasheet/certification/Aruba-ACSA?version=6",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }

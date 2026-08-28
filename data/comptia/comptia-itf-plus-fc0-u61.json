@@ -335,5 +335,17 @@
     "it fundamentals",
     "itf+"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-it-fundamentals-itf-plus-fc0-u61"
+  "practice_url": "https://quizforge.ai/tests/comptia-it-fundamentals-itf-plus-fc0-u61",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "FC0-U71",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "CompTIA retired FC0-U61. FC0-U71 is the named replacement path.",
+    "evidence_url": "https://www.comptia.org/en-us/blog/get-answers-to-your-comptia-tech-questions/",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  }
 }
