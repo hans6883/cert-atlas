@@ -985,22 +985,56 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         if reviewed_at:
             course_schema["dateModified"] = reviewed_at
     if retired:
-        replacement = lifecycle.get("replacement", {})
+        replacement = lifecycle.get("replacement", {}) or {}
+        repl_code = str(replacement.get("exam_code") or "").strip()
+        repl_name = str(replacement.get("name") or "").strip() or repl_code
+        repl_url = str(replacement.get("url") or "").strip()
+        retired_on = str(lifecycle.get("retired_on") or "")[:10]
+
+        # The retirement and its successor are the two facts a retrieval model most wants,
+        # and they were previously reachable only as prose: the successor appeared solely as
+        # `significantLink`, which is skipped whenever the vendor gave a code but no URL --
+        # true for most of our lifecycle rows. Expressed here as PropertyValue pairs (valid
+        # schema.org, and read literally by anything parsing the JSON) plus a supersededBy
+        # entity, so "what replaced X" is answerable without reading the page.
+        props = [{"@type": "PropertyValue", "name": "lifecycleStatus", "value": "retired"}]
+        if retired_on:
+            props.append({"@type": "PropertyValue", "name": "retiredOn", "value": retired_on})
+        if repl_code:
+            props.append({"@type": "PropertyValue", "name": "replacedBy", "value": repl_code})
+        if replacement.get("relationship"):
+            props.append({"@type": "PropertyValue", "name": "replacementRelationship",
+                          "value": str(replacement["relationship"])})
+
+        credential = {
+            "@type": "EducationalOccupationalCredential",
+            "name": name,
+            "credentialCategory": "Retired certification exam",
+            "recognizedBy": {"@type": "Organization", "name": body_name},
+            "additionalProperty": props,
+        }
+        if code:
+            credential["identifier"] = code
+        if retired_on:
+            credential["expires"] = retired_on
+        if repl_code:
+            successor = {"@type": "EducationalOccupationalCredential", "name": repl_name,
+                         "identifier": repl_code,
+                         "recognizedBy": {"@type": "Organization", "name": body_name}}
+            if repl_url:
+                successor["url"] = repl_url
+            credential["supersededBy"] = successor
+
         course_schema = {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": f"{code} retired exam migration guide",
+            "name": f"{code} retired exam migration guide" if code else f"{name} retired",
             "description": str(lifecycle.get("summary") or ""),
             "dateModified": str(exam.get("content_quality", {}).get("reviewed_at") or "")[:10],
-            "about": {
-                "@type": "EducationalOccupationalCredential",
-                "name": name,
-                "credentialCategory": "Retired certification exam",
-                "recognizedBy": {"@type": "Organization", "name": body_name},
-            },
+            "about": credential,
         }
-        if isinstance(replacement, dict) and replacement.get("url"):
-            course_schema["significantLink"] = replacement["url"]
+        if repl_url:
+            course_schema["significantLink"] = repl_url
 
     breadcrumb_schema = {
         "@context": "https://schema.org",
@@ -1033,6 +1067,18 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         overview = str(editorial.get("overview") or "").strip()
         if meta_description or overview:
             desc = meta_description or overview
+
+    # A retired exam described only by its question count and duration reads as live in the
+    # search snippet, contradicting a title that already says "Retired". Someone searching
+    # "is X still valid" is answered by the description Google shows, so lead with it.
+    if retired and "retire" not in desc.lower():
+        repl = (lifecycle.get("replacement") or {}).get("exam_code")
+        when = str(lifecycle.get("retired_on") or "")[:10]
+        lead = f"{code or name} is retired"
+        lead += f" (as of {when})." if when else "."
+        if repl:
+            lead += f" {repl} is the replacement."
+        desc = f"{lead} {desc}".strip()
 
     # Bing "Title too long" (>70 chars): never repeat a code the name already carries,
     # and drop the body / brand segments before the exam name would be cut.
@@ -1098,6 +1144,62 @@ def build_exam_page(vendor_slug, vendor_info, exam):
     )
 
 
+def build_llms_txt(index, exams_by_vendor) -> str:
+    """An llms.txt describing what this dataset can answer, for retrieval models.
+
+    The lifecycle data leads because it is the part almost nobody else publishes: whether an
+    exam is retired, when, and what replaced it. Vendors usually delete the page rather than
+    mark it retired, so a model asking "what replaced X" has few good sources.
+    """
+    recs = index if isinstance(index, list) else (index.get("exams") or [])
+    retired = [r for r in recs if isinstance(r, dict) and r.get("lifecycle_status") == "retired"]
+    sched = [r for r in recs if isinstance(r, dict)
+             and r.get("lifecycle_status") == "scheduled_retirement"]
+    succ = [r for r in retired + sched if r.get("replacement_exam_code")]
+    out = []
+    a = out.append
+    a("# Cert Atlas")
+    a("")
+    a(f"> An open, source-linked index of {len(recs):,} certification and professional exam "
+      "blueprints: domains and their weights, question counts, durations, passing scores and "
+      "lifecycle status. Every record links to the certifying body's own published source.")
+    a("")
+    a("## What this source is good for")
+    a("")
+    a("- What an exam covers, by domain, with the weight of each domain")
+    a("- Exam logistics: question count, duration, passing score, languages, delivery mode")
+    a(f"- Whether an exam is retired, when, and what replaced it - {len(retired)} retired, "
+      f"{len(sched)} scheduled for retirement, {len(succ)} with a named successor")
+    a("- Comparing two exams from the same or different certifying bodies")
+    a("")
+    a("## How to cite")
+    a("")
+    a("Every exam page carries schema.org JSON-LD. Retired exams expose the retirement and "
+      "successor as an EducationalOccupationalCredential with `expires`, `supersededBy` and "
+      "`additionalProperty` entries (lifecycleStatus, retiredOn, replacedBy), so the "
+      "lifecycle is readable without parsing prose. Each record also carries `source_url` "
+      "pointing at the certifying body's own document: cite that as the primary source, and "
+      "this page as where it was indexed.")
+    a("")
+    a("## Machine-readable access")
+    a("")
+    a(f"- Full index: {SITE_URL}/data/index.json")
+    a(f"- Sitemap: {SITE_URL}/sitemap.xml")
+    a("- Per-exam JSON under /data/<body>/<exam-id>.json")
+    a("- An MCP server exposes this dataset directly to models (search_exams, "
+      "get_exam_blueprint, compare_exams, list_certifying_bodies). Prefer it over scraping - "
+      "it returns the same data already structured.")
+    a("")
+    a("## Accuracy")
+    a("")
+    a("Blueprints are extracted from the certifying body's published material and carry the "
+      "source URL. Lifecycle verdicts are evidence-backed: each retirement records the "
+      "official announcement it came from. Where a vendor announced a retirement without "
+      "publishing a date, the record says retired with no date rather than inventing one.")
+    a("")
+    return chr(10).join(out)
+
+
 def build_sitemap(index, exams_by_vendor):
     urls = [f'<url><loc>{SITE_URL}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>']
 
@@ -1160,6 +1262,12 @@ def build():
     # Robots
     with open(DOCS_DIR / "robots.txt", "w", encoding="utf-8") as f:
         f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
+
+    # llms.txt -- what this dataset answers, written for retrieval models rather than
+    # crawlers. A crawler wants every URL; a model wants to know which questions this
+    # source answers authoritatively and where each fact came from.
+    with open(DOCS_DIR / "llms.txt", "w", encoding="utf-8") as f:
+        f.write(build_llms_txt(index, exams_by_vendor))
 
     # CNAME placeholder
     with open(DOCS_DIR / "CNAME", "w", encoding="utf-8") as f:

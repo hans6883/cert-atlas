@@ -1,32 +1,53 @@
 #!/bin/sh
 # cert-atlas is the ONLY public repo in the QuizForge set. Everything here is generated or
 # consumer-side. This hook refuses commits that would republish private surface: the private
-# repo's name, the operator's filesystem layout, the private registry, or its schema.
+# repo's name, the operator's filesystem layout, the private registry, its schema, or an
+# internal record id.
 #
 # It exists because producer scripts once lived here and published the private registry path
 # to a public MIT-licensed repo.
+#
+# Batched on purpose: the first version ran one grep per staged file, which took longer than
+# two minutes on a full 1,120-file site rebuild and made the guard something to work around.
+# A guard that is slow enough to bypass is not a guard.
 staged=$(git diff --cached --name-only --diff-filter=ACM)
 [ -z "$staged" ] && exit 0
 
 PRIV='qf_id|blueprint_registry|quizforge-exam-grounding|web-scraper-mcp|source_materials|Path\.home\(\)'
 SECRET='SERPER_API_KEY|OPENROUTER_API_KEY|NVIDIA_API_KEY|GEMINI_API_KEY|sk-[A-Za-z0-9]{20}|ghp_[A-Za-z0-9]{20}'
 bad=0
-for f in $staged; do
-  case "$f" in
-    *.db|*.sqlite|*.sqlite3|.env|.env.*) echo "BLOCKED: $f - private artefact"; bad=1; continue;;
-  esac
-  [ -f "$f" ] || continue
-  # the guard and the ignore-file must name the patterns to enforce them
-  case "$f" in .githooks/*|.gitignore) continue;; esac
-  if grep -nEI "$PRIV" "$f" >/dev/null 2>&1; then
-    echo "BLOCKED: $f - references private repo, schema, or local filesystem layout:"
-    grep -nEI "$PRIV" "$f" | head -3 | sed 's/^/    /'
+
+# 1. Private artefacts by filename, regardless of content.
+blocked_names=$(printf '%s\n' "$staged" | grep -E '\.(db|sqlite|sqlite3)$|(^|/)\.env')
+if [ -n "$blocked_names" ]; then
+  echo "BLOCKED - private artefact staged:"
+  printf '    %s\n' $blocked_names
+  bad=1
+fi
+
+# 2. Content scan: one grep over every staged file that still exists. The guard and the
+#    ignore-file must name the patterns to enforce them, so they are exempt from themselves.
+scan=$(printf '%s\n' "$staged" | grep -v -e '^\.githooks/' -e '^\.gitignore$' | while IFS= read -r f; do
+  [ -f "$f" ] && printf '%s\n' "$f"
+done)
+
+if [ -n "$scan" ]; then
+  hits=$(printf '%s\n' "$scan" | xargs -d '\n' grep -lIE "$PRIV" 2>/dev/null)
+  if [ -n "$hits" ]; then
+    echo "BLOCKED - references private repo, schema, internal id, or local filesystem layout:"
+    printf '%s\n' "$hits" | head -10 | while IFS= read -r f; do
+      echo "    $f"
+      grep -nIE "$PRIV" "$f" 2>/dev/null | head -2 | sed 's/^/        /'
+    done
     bad=1
   fi
-  if grep -nEI "$SECRET" "$f" >/dev/null 2>&1; then
-    echo "BLOCKED: $f - looks like a credential"; bad=1
+  creds=$(printf '%s\n' "$scan" | xargs -d '\n' grep -lIE "$SECRET" 2>/dev/null)
+  if [ -n "$creds" ]; then
+    echo "BLOCKED - looks like a credential:"
+    printf '%s\n' "$creds" | head -10 | sed 's/^/    /'
+    bad=1
   fi
-done
+fi
 
 if [ "$bad" = 1 ]; then
   echo ""
