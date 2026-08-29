@@ -124,6 +124,142 @@
     "nse5-faz"
   ],
   "practice_url": "https://quizforge.ai/?q=NSE%205%20Network%20Security%20Analyst%20%E2%80%94%20FortiAnalyzer",
+  "editorial": {
+    "meta_description": "FCP_FAZ_AD-7.4 is retired as of 2025-10-14. Review details for this Fortinet exam and its successor, NSE 6 - FortiAnalyzer 7.6 Administrator.",
+    "overview": "The NSE 5 Network Security Analyst — FortiAnalyzer examination, designated by code FCP_FAZ_AD-7.4 and certified by Fortinet, covered administrative tasks and management features for FortiAnalyzer deployments across multiple domains. Fortinet officially retired this examination on 2025-10-14. Candidates seeking certification paths now pursue the NSE 6 - FortiAnalyzer 7.6 Administrator instead.",
+    "who_should_take": "Network security professionals, enterprise system administrators, and technical support engineers who are directly responsible for configuring, managing, and monitoring complex FortiAnalyzer deployments within enterprise production environments.",
+    "skills_summary": [
+      "Deployment and Configuration",
+      "Log Management and Storage",
+      "FortiView and Event Management",
+      "Reports and Analytics",
+      "High Availability"
+    ],
+    "preparation_strategy": "Carefully review official Fortinet training and study documentation covering deployment procedures, log storage policies, event handlers, and high availability settings in detail. Perform practical laboratory exercises focused on administrative domains, log routing, and system monitoring to master each exam domain before taking any official assessment.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers fundamental deployment procedures and initial configuration tasks for FortiAnalyzer units, including setting up administrative access, managing licenses, and configuring system settings carefully for standard operational environments.",
+        "study_focus": [
+          "Connecting to the GUI",
+          "Initial setup procedures",
+          "Licensing and registration"
+        ],
+        "source_ids": [
+          "fortinet-nse5-faz-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Focuses on advanced log management, storage allocation, and data retention policies, detailing how logs are safely received, parsed, stored, and managed on the disk effectively across various enterprise architectures.",
+        "study_focus": [
+          "Log storage policies",
+          "Disk utilization and automatic deletion",
+          "Log receive monitoring"
+        ],
+        "source_ids": [
+          "fortinet-nse5-faz-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Examines FortiView dashboards, custom event handlers, and threat monitoring tools designed specifically to analyze network traffic, security events, and indicators of compromise broadly within diverse organizational infrastructure implementations.",
+        "study_focus": [
+          "FortiView dashboards",
+          "Predefined and custom event handlers",
+          "Indicators of Compromise"
+        ],
+        "source_ids": [
+          "fortinet-nse5-faz-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Covers report generation, custom chart creation, datasets, and analytics tools used to extract data from logs and produce scheduled administrative reports reliably for executive review and operational auditing.",
+        "study_focus": [
+          "Generating and scheduling reports",
+          "Custom datasets and SQL queries",
+          "Report templates and charts"
+        ],
+        "source_ids": [
+          "fortinet-nse5-faz-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This detailed domain explicitly addresses high availability configurations, log synchronization, configuration synchronization, and failover management required for reliable and stable FortiAnalyzer deployments across standard corporate networking infrastructure and enterprise production environments.",
+        "study_focus": [
+          "Configuring HA options",
+          "Log and configuration synchronization",
+          "Monitoring HA status"
+        ],
+        "source_ids": [
+          "fortinet-nse5-faz-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Because FCP_FAZ_AD-7.4 is retired, candidates cannot register for this specific test code. Instead, register for the successor NSE 6 - FortiAnalyzer 7.6 Administrator exam and review its testing policies.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The official examination contains a total of 30 multiple-choice questions designed specifically to assess administrative knowledge and practical configuration skills across all specified domains and objectives."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for the certification test is set precisely at 70 percentage points, which registered candidates must achieve in order to successfully pass the evaluation."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "During the formal testing session, registered candidates are given a total duration of exactly 70 minutes to complete all questions included without any exceptions whatsoever."
+      },
+      {
+        "question_title": "What is the replacement exam for the retired test?",
+        "answer_text": "Fortinet retired this examination and designated NSE 6 - FortiAnalyzer 7.6 Administrator as the official successor path for candidates pursuing professional certification in this domain."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built carefully using verified facts and official Fortinet study documentation and objectives to provide accurate details regarding the retired certification exam.",
+      "source_ids": [
+        "fortinet-nse5-faz-study",
+        "fortinet-nse5-faz-objectives"
+      ]
+    },
+    "source_ids": [
+      "fortinet-nse5-faz-study",
+      "fortinet-nse5-faz-objectives"
+    ]
+  },
+  "sources": [
+    {
+      "id": "fortinet-nse5-faz-study",
+      "url": "https://training.fortinet.com/",
+      "title": "Fortinet study documentation",
+      "publisher": "Fortinet",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c86a97f702e7122f9313ab3a272e02c260a5d2728cba533c78756c034ee755c3"
+    },
+    {
+      "id": "fortinet-nse5-faz-objectives",
+      "url": "https://www.fortinet.com/training/certification/nse-5",
+      "title": "Fortinet exam objectives",
+      "publisher": "Fortinet",
+      "source_type": "official_objectives",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:50d96843a4ef3c709552e93356cd148aab24a8ea8ef521f4ab1ab95425a61553"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T20:55:31+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:08+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:08+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-10-14",

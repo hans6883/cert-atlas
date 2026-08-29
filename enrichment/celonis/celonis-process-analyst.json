@@ -1,0 +1,153 @@
+{
+ "exam_id": "celonis-process-analyst",
+ "editorial": {
+  "meta_description": "Prepare for the Celonis Certified Process Analyst certification exam by reviewing detailed domains covering advanced process analysis, query language, process",
+  "overview": "The Celonis Certified Process Analyst certification, offered by Celonis, validates your technical knowledge and practical skills across five distinct domains. Candidates must answer a total of 60 questions within a timeframe of 90 minutes. The assessment covers advanced process analysis, Process Query Language queries, process conformance evaluation, business transformation cases, and data integration capabilities.",
+  "who_should_take": "This certification suits process analysts, data analysts, and technical professionals working with the Celonis platform who need to demonstrate proficiency in querying and transforming business processes.",
+  "preparation_strategy": "To prepare successfully for your scheduled test date, review the official Celonis documentation regarding advanced Process Query Language functions, data integration connectors, and process conformance rules. Practice building queries and analyzing workflow data models regularly to meet the required 72 percent passing score on your exam day.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses intensely on advanced process analysis methodologies within the Celonis platform to ensure that registered certification candidates can properly evaluate complex operational workflows during analytical work.",
+    "study_focus": [
+     "Advanced process evaluation",
+     "Analytical modeling techniques"
+    ],
+    "source_ids": [
+     "celonis-process-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This specific domain covers Process Query Language syntax, custom functions, and expression writing strategies utilized for data manipulation and custom metric creation within enterprise process mining projects across organizations.",
+    "study_focus": [
+     "PQL aggregations",
+     "Query syntax and functions"
+    ],
+    "source_ids": [
+     "celonis-process-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain carefully examines process conformance checking and detailed variant analysis to identify operational deviations, performance bottlenecks, and compliance issues within complex enterprise business processes and execution systems.",
+    "study_focus": [
+     "Conformance checking rules",
+     "Process variant identification"
+    ],
+    "source_ids": [
+     "celonis-process-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This particular domain addresses business transformation scenarios and real-world use cases utilizing process mining techniques to drive continuous operational improvement and measurable financial value across various enterprise organizations today.",
+    "study_focus": [
+     "Transformation case evaluation",
+     "Business scenario application"
+    ],
+    "source_ids": [
+     "celonis-process-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain covers data connectivity, source system integration, and data pool management to support seamless data ingestion into the Celonis environment for analysis and reporting during operational reviews.",
+    "study_focus": [
+     "Data connectivity setups",
+     "Integration configurations"
+    ],
+    "source_ids": [
+     "celonis-process-analyst-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The online proctored exam consists of 60 questions delivered in a linear format. Ensure your testing environment meets all requirements before starting the 90 minute timer.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The certification exam consists of 60 multiple choice and multiple select questions delivered in a linear online proctored format for registered candidates participating in the assessment program."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "Candidates must achieve a minimum passing score of 72 percent to successfully earn the Celonis Certified Process Analyst certification credential upon completing the test successfully."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "You are given a total duration of 90 minutes to complete all 60 questions presented on the linear online proctored certification exam without any exceptions permitted."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The standard exam registration fee is 150.0 dollars, and the obtained certification requires renewal after a period of 2 years to maintain an active status."
+   }
+  ],
+  "methodology": {
+   "summary": "This detailed overview was developed by synthesizing verified facts taken from official Celonis exam guides and supplementary documentation sources provided for certification candidates.",
+   "source_ids": [
+    "celonis-process-analyst-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "celonis-process-analyst-exam_guide",
+   "celonis-process-analyst-exam_guide-2",
+   "celonis-process-analyst-exam_guide-3",
+   "celonis-process-analyst-exam_guide-4"
+  ],
+  "skills_summary": [
+   "Advanced Process Analysis",
+   "Process Query Language (PQL)",
+   "Process Conformance and Variants",
+   "Business Transformation Cases",
+   "Data Connectivity and Integration"
+  ]
+ },
+ "sources": [
+  {
+   "id": "celonis-process-analyst-exam_guide",
+   "url": "https://academy.celonis.com/collections/data-analyst-associate-certification-exam",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:7220575e9a4bfddd6325f3cdf20799484af6c14846cd53590c00de7d13a2204b"
+  },
+  {
+   "id": "celonis-process-analyst-exam_guide-2",
+   "url": "https://academy.celonis.com/courses/customer-certification-preparation-and-guide",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:e66896d9f1b87a58db164c351bf2378d9abc0fdc6150ee755e9ff49629307aed"
+  },
+  {
+   "id": "celonis-process-analyst-exam_guide-3",
+   "url": "https://academy.celonis.com/learn/video/celonis-certification-program",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:8b72d4456fa8b64922b72ba59086deab38a9299a391ddbb8ee30891ad4931f4e"
+  },
+  {
+   "id": "celonis-process-analyst-exam_guide-4",
+   "url": "https://academy.celonis.com/pages/celonis-certifications",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:a3d12b653319924999d0b3400199cccadc1589b3afe41d252048e7a6d83b6295"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-29T21:38:21+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-29T22:58:07+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-29T22:58:07+00:00"
+ }
+}

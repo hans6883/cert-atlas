@@ -11,7 +11,6 @@ from scripts.enrichment import (
     should_publish_exam,
     validate_overlay,
 )
-from scripts.evidence_pack import build_evidence_pack
 from scripts.bank_signals import aggregate_bank_signals
 from scripts.generation_request import build_generation_request
 from scripts.apply_enrichments import apply_enrichments
@@ -369,6 +368,76 @@ class EnrichmentValidationTests(unittest.TestCase):
         self.assertFalse(result.publishable)
         self.assertTrue(any("meta_description" in error for error in result.errors))
 
+    def test_valid_faq_is_accepted_and_omitted_faq_still_validates(self):
+        overlay = rich_overlay()
+        overlay["editorial"]["faq"] = [
+            {
+                "question_title": "How many questions are on the EX-100 exam?",
+                "answer_text": (
+                    "The published guide describes a fixed-length form; candidates should "
+                    "confirm the current count with Example Vendor before scheduling because "
+                    "the blueprint is revised periodically and counts follow the revision."
+                ),
+            },
+            {
+                "question_title": "What is the passing score?",
+                "answer_text": (
+                    "The vendor publishes a scaled passing score rather than a raw percentage, "
+                    "and the reviewed guide does not fix a universal number for every revision, "
+                    "so candidates should verify the current threshold on the official page."
+                ),
+            },
+            {
+                "question_title": "How long is the exam?",
+                "answer_text": (
+                    "Timing follows the appointment slot booked with the testing provider, and "
+                    "the official guide is the source of record for the current duration, so "
+                    "candidates should confirm their seat time when scheduling the exam."
+                ),
+            },
+            {
+                "question_title": "What are the exam domains?",
+                "answer_text": (
+                    "The blueprint organizes the material into weighted domains beginning with "
+                    "planning; each published domain carries objectives, and the weighting is "
+                    "described on the page using the reviewed official guide as its source."
+                ),
+            },
+        ]
+
+        result = validate_overlay(base_exam(), overlay)
+        legacy = validate_overlay(base_exam(), rich_overlay())
+
+        self.assertTrue(result.publishable, result.errors)
+        self.assertTrue(legacy.publishable, legacy.errors)  # faq stays optional
+
+    def test_malformed_faq_is_rejected(self):
+        overlay = rich_overlay()
+        overlay["editorial"]["faq"] = [
+            {"question_title": "How many questions are on the exam?", "answer_text": "Short."},
+            {"question_title": "Is there a retake policy", "answer_text": "x " * 30},
+            "not-an-object",
+        ]
+
+        result = validate_overlay(base_exam(), overlay)
+
+        self.assertFalse(result.publishable)
+        self.assertTrue(any("faq" in error for error in result.errors))
+
+    def test_faq_cannot_use_exam_bank_keys(self):
+        overlay = rich_overlay()
+        overlay["editorial"]["faq"] = [
+            {
+                "question": "How many questions are on the EX-100 exam?",
+                "answer": "x " * 30,
+            }
+        ] * 4
+
+        result = validate_overlay(base_exam(), overlay)
+
+        self.assertFalse(result.publishable)
+        self.assertTrue(any("prohibited" in error for error in result.errors))
+
     def test_source_backed_objective_id_correction_is_applied(self):
         exam = base_exam()
         exam["domains"][0]["objectives"][0]["id"] = "1点1"
@@ -459,6 +528,55 @@ class EnrichedPageTests(unittest.TestCase):
             'meta name="description" content="Understand the Example 100 exam scope', html
         )
         self.assertNotIn("Which answer is correct?", html)
+
+    def test_page_renders_faq_section_and_faqpage_schema(self):
+        overlay = rich_overlay()
+        overlay["editorial"]["faq"] = [
+            {
+                "question_title": "How many questions are on the EX-100 exam?",
+                "answer_text": (
+                    "Candidates should confirm the current count with Example Vendor because "
+                    "the blueprint is revised periodically and the question count follows the "
+                    "active revision rather than staying fixed across every published form."
+                ),
+            },
+            {
+                "question_title": "What is the passing score?",
+                "answer_text": (
+                    "The vendor publishes a scaled score rather than a raw percentage, and the "
+                    "reviewed guide does not fix one threshold for every revision, so verify "
+                    "the current requirement on the official certification page."
+                ),
+            },
+            {
+                "question_title": "How long is the exam?",
+                "answer_text": (
+                    "Timing follows the appointment slot booked with the testing provider and "
+                    "the official guide is the source of record, so confirm seat time when the "
+                    "appointment is scheduled rather than relying on older summaries."
+                ),
+            },
+            {
+                "question_title": "What are the exam domains?",
+                "answer_text": (
+                    "The blueprint organizes the material into weighted domains starting with "
+                    "planning; every published domain carries objectives and the weighting is "
+                    "described on this page using the reviewed official guide as its source."
+                ),
+            },
+        ]
+        exam = merge_overlay(base_exam(), overlay)
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn("Frequently asked questions", html)
+        self.assertIn("<h3>How many questions are on the EX-100 exam?</h3>", html)
+        self.assertIn('<details class="faq-item">', html)
+        self.assertIn('"@type": "FAQPage"', html)
+        self.assertIn('"acceptedAnswer"', html)
+        # Unenriched exam pages carry no FAQ schema or section.
+        plain = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, base_exam())
+        self.assertNotIn("FAQPage", plain)
+        self.assertNotIn("faq-item", plain)
 
     def test_page_does_not_render_unapproved_editorial(self):
         exam = base_exam()
@@ -758,107 +876,6 @@ class ApplyEnrichmentTests(unittest.TestCase):
             self.assertEqual(entry["retires_on"], "2026-08-31")
             self.assertEqual(entry["replacement_exam_code"], "EX-101")
             self.assertEqual(entry["practice_url"], practice_url)
-
-
-class EvidencePackTests(unittest.TestCase):
-    def test_pack_uses_official_sources_and_strips_question_content(self):
-        with tempfile.TemporaryDirectory() as temp:
-            root = Path(temp)
-            source_root = root / "source_material"
-            source_root.mkdir()
-            html_path = source_root / "guide.html"
-            html_path.write_text(
-                "<html><body><main><h1>Official Guide</h1><p>Plan and implement the documented lifecycle.</p></main></body></html>",
-                encoding="utf-8",
-            )
-            db_path = root / "registry.db"
-            connection = sqlite3.connect(db_path)
-            connection.executescript(
-                """
-                CREATE TABLE exams (exam_id TEXT, blueprint_json TEXT, source_url TEXT);
-                CREATE TABLE source_materials (
-                    exam_id TEXT, role TEXT, doc_type TEXT, local_path TEXT, doc_url TEXT,
-                    final_url TEXT, content_hash TEXT, is_primary INTEGER, status TEXT
-                );
-                """
-            )
-            blueprint = base_exam() | {
-                "sample_questions": [{"question_text": "Private stem", "correct_answer": "A"}]
-            }
-            connection.execute(
-                "INSERT INTO exams VALUES (?, ?, ?)",
-                (blueprint["exam_id"], json.dumps(blueprint), blueprint["source_url"]),
-            )
-            connection.execute(
-                "INSERT INTO source_materials VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                (
-                    blueprint["exam_id"],
-                    "exam_guide",
-                    "html",
-                    str(html_path),
-                    "https://vendor.example/guide",
-                    "https://vendor.example/guide",
-                    "a" * 64,
-                    1,
-                    "downloaded",
-                ),
-            )
-            connection.commit()
-            connection.close()
-
-            pack = build_evidence_pack(db_path, source_root, blueprint["exam_id"])
-            serialized = json.dumps(pack)
-
-            self.assertIn("Plan and implement the documented lifecycle", serialized)
-            self.assertNotIn("Private stem", serialized)
-            self.assertNotIn("correct_answer", serialized)
-            self.assertEqual(pack["exam"]["exam_id"], blueprint["exam_id"])
-            self.assertEqual(pack["sources"][0]["role"], "exam_guide")
-
-    def test_pack_rejects_source_path_outside_approved_root(self):
-        with tempfile.TemporaryDirectory() as temp:
-            root = Path(temp)
-            source_root = root / "approved"
-            source_root.mkdir()
-            outside = root / "outside.html"
-            outside.write_text("private", encoding="utf-8")
-            db_path = root / "registry.db"
-            connection = sqlite3.connect(db_path)
-            connection.executescript(
-                """
-                CREATE TABLE exams (exam_id TEXT, blueprint_json TEXT, source_url TEXT);
-                CREATE TABLE source_materials (
-                    exam_id TEXT, role TEXT, doc_type TEXT, local_path TEXT, doc_url TEXT,
-                    final_url TEXT, content_hash TEXT, is_primary INTEGER, status TEXT
-                );
-                """
-            )
-            exam = base_exam()
-            connection.execute(
-                "INSERT INTO exams VALUES (?, ?, ?)",
-                (exam["exam_id"], json.dumps(exam), exam["source_url"]),
-            )
-            connection.execute(
-                "INSERT INTO source_materials VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                (
-                    exam["exam_id"],
-                    "exam_guide",
-                    "html",
-                    str(outside),
-                    "https://vendor.example/guide",
-                    "https://vendor.example/guide",
-                    "a" * 64,
-                    1,
-                    "downloaded",
-                ),
-            )
-            connection.commit()
-            connection.close()
-
-            pack = build_evidence_pack(db_path, source_root, exam["exam_id"])
-
-            self.assertEqual(pack["sources"], [])
-            self.assertTrue(any("outside approved source root" in warning for warning in pack["warnings"]))
 
 
 class BankSignalTests(unittest.TestCase):

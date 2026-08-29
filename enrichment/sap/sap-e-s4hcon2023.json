@@ -1,0 +1,133 @@
+{
+ "exam_id": "sap-e-s4hcon2023",
+ "editorial": {
+  "meta_description": "Prepare for the SAP Certified Specialist exam covering S/4HANA conversion and system upgrades. Review 40 detailed questions, domains, and preparation advice.",
+  "overview": "The SAP Certified Specialist — SAP S/4HANA Conversion and SAP System Upgrade examination, certified by SAP, tests technical proficiency in converting existing enterprise business suite systems to SAP S/4HANA. Candidates are evaluated across five domains, including conversion approaches, project planning, technical execution using the Software Update Manager, post-conversion activities, and troubleshooting to achieve professional certification.",
+  "who_should_take": "Technical consultants and system administrators who are responsible for planning, executing, and troubleshooting system conversions and upgrades to SAP S/4HANA should take this professional certification exam.",
+  "skills_summary": [
+   "SAP S/4HANA Conversion Approaches",
+   "Project Planning and Preparation",
+   "Technical Conversion Execution",
+   "Post-Conversion Activities",
+   "Troubleshooting and Optimization"
+  ],
+  "preparation_strategy": "Carefully and extensively review official study documentation and conversion guides provided by SAP. Utilize practical tools such as the Simplification Item Catalog, Maintenance Planner, and Software Update Manager documentation to understand system conversion requirements, runtime optimizations, and custom code migration steps before taking the test.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific domain covers methodologies and introductory strategies for successfully converting systems to SAP S/4HANA, focusing deeply on system architecture, database considerations, and preparation requirements for candidates attempting the test.",
+    "study_focus": [
+     "Conversion Approaches",
+     "System Architecture"
+    ],
+    "source_ids": [
+     "sap-e-s4hcon2023-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on the initial planning phases of your project, utilizing specific tools like the Maintenance Planner and SAP Readiness Check to prepare effectively for system conversion projects.",
+    "study_focus": [
+     "Project Planning",
+     "Maintenance Planner"
+    ],
+    "source_ids": [
+     "sap-e-s4hcon2023-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This particular domain explores the intricate technical execution of system conversions, featuring important procedures related to the Software Update Manager, complete data migration processes, and necessary custom code adaptation methods.",
+    "study_focus": [
+     "Technical Conversion Execution",
+     "Software Update Manager"
+    ],
+    "source_ids": [
+     "sap-e-s4hcon2023-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This operational domain addresses important activities required immediately after the technical conversion finishes, including detailed data cleanup, follow-on configuration tasks, and strict validation steps to ensure high stability.",
+    "study_focus": [
+     "Post-Conversion Activities",
+     "Data Validation"
+    ],
+    "source_ids": [
+     "sap-e-s4hcon2023-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This final domain centers closely on identifying and resolving unexpected technical issues during the conversion process, along with successfully applying advanced runtime optimizations to significantly reduce technical downtime during upgrades for all candidates.",
+    "study_focus": [
+     "Troubleshooting",
+     "Optimization"
+    ],
+    "source_ids": [
+     "sap-e-s4hcon2023-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Ensure you arrive or log in promptly for your scheduled exam session, review all exam requirements carefully, and follow all proctoring instructions provided by Pearson VUE.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The official examination consists of a total of 40 questions presented across multiple formats including Multiple Choice, Multiple Select, Drag and Drop, and Matching to evaluate candidates."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score required to successfully pass the examination is set at 61 out of the total available points provided on the test to ensure proper competency."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "Candidates are given a total duration of 90 minutes to complete all questions within the official examination session without any interruption from start to finish."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The standard exam registration price is set at 562.0 USD for candidates attempting to register for the official SAP certification test through authorized channels."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official SAP certification data, official source documentation, and conversion guides to provide structured, factual guidance for candidates.",
+   "source_ids": [
+    "sap-e-s4hcon2023-landing"
+   ]
+  },
+  "source_ids": [
+   "sap-e-s4hcon2023-landing",
+   "sap-e-s4hcon2023-study"
+  ]
+ },
+ "sources": [
+  {
+   "id": "sap-e-s4hcon2023-landing",
+   "url": "https://training.sap.com/certification/e_s4hcon2023",
+   "title": "SAP certification page",
+   "publisher": "SAP",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:a08403cd75811dc3fd918cbbeb97342cd4d197639005c96a1158a2df1c6d6f78"
+  },
+  {
+   "id": "sap-e-s4hcon2023-study",
+   "url": "https://training.sap.com/",
+   "title": "SAP study documentation",
+   "publisher": "SAP",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:be67587e580d96a689d550ce2b3b4e512c08f2f1a23297dfda80742044907691"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-29T21:31:54+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-29T22:58:11+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-29T22:58:11+00:00"
+ }
+}

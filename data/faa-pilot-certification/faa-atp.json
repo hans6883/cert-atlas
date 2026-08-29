@@ -120,16 +120,187 @@
     "faa-atp"
   ],
   "practice_url": "https://quizforge.ai/?q=FAA%20Airline%20Transport%20Pilot%20Knowledge%20Test%20%28ATP%29",
-  "lifecycle": {
-    "status": "retired",
-    "retired_on": null,
-    "replacement": {
-      "exam_code": "ATM",
-      "relationship": "collective_replacement",
-      "url": null
+  "editorial": {
+    "meta_description": "Prepare for the FAA Airline Transport Pilot Knowledge Test by reviewing official study guides, transport aircraft systems, and air carrier operations.",
+    "overview": "The FAA Airline Transport Pilot Knowledge Test is a computer-based examination administered at authorized PSI or CATS testing centers. Candidates must answer exactly 125 multiple choice questions during a linear test session. The assessment covers professional aviation operations, regulations, meteorology, and navigation systems for transport category aircraft, requiring a passing score of 70 percent.",
+    "who_should_take": "Experienced professional pilots seeking airline transport pilot certification under official federal aviation regulations and transport category aircraft operating rules within commercial aviation environments across the nation.",
+    "preparation_strategy": "Carefully review official pilot handbooks, federal aviation regulations, navigation principles, and high-altitude meteorology guides in absolute detail. Ensure you understand all core domains completely to achieve the minimum passing score required for pilot certification during your computer-based testing appointment, keeping the 180-minute duration limit firmly in mind.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers advanced aerodynamics and high-altitude operations principles, flight dynamics, and operational considerations specific to high-altitude operating environments and flight conditions encountered by professional pilots during daily transport category missions.",
+        "study_focus": [
+          "High-altitude aerodynamics",
+          "Flight dynamics"
+        ],
+        "source_ids": [
+          "faa-atp-exam_guide",
+          "faa-atp-exam_guide-2",
+          "faa-atp-exam_guide-3",
+          "faa-atp-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on transport category aircraft systems utilized in modern aviation operations, including standard operating procedures and specific equipment for various flight phases encountered by commercial flight crews during their daily missions.",
+        "study_focus": [
+          "Transport aircraft systems",
+          "Aircraft equipment"
+        ],
+        "source_ids": [
+          "faa-atp-exam_guide",
+          "faa-atp-exam_guide-2",
+          "faa-atp-exam_guide-3",
+          "faa-atp-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain examines air carrier operations and CRM, dispatch procedures, and crew resource management principles required for effective communication and coordination among flight crew members during commercial air carrier flights.",
+        "study_focus": [
+          "Air carrier operations",
+          "Crew resource management"
+        ],
+        "source_ids": [
+          "faa-atp-exam_guide",
+          "faa-atp-exam_guide-2",
+          "faa-atp-exam_guide-3",
+          "faa-atp-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain addresses high-altitude meteorology, hazardous meteorological conditions, high-altitude weather phenomena, jet stream characteristics, and forecasting reports typically encountered during long-range transport category flights and high-altitude operations across domestic airspace.",
+        "study_focus": [
+          "High-altitude weather",
+          "Meteorological conditions"
+        ],
+        "source_ids": [
+          "faa-atp-exam_guide",
+          "faa-atp-exam_guide-2",
+          "faa-atp-exam_guide-3",
+          "faa-atp-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain explores navigation systems and RNAV, advanced navigation infrastructure, radio aids, modern positioning systems, and area navigation procedures necessary for precise route execution in domestic and international airspace environments utilized by major airlines.",
+        "study_focus": [
+          "Navigation systems",
+          "RNAV procedures"
+        ],
+        "source_ids": [
+          "faa-atp-exam_guide",
+          "faa-atp-exam_guide-2",
+          "faa-atp-exam_guide-3",
+          "faa-atp-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain reviews FARs Part 121/135/61 established in federal regulations, emphasizing legal responsibilities, certification requirements, and operational limitations applicable to commercial pilots and air carriers operating under standard federal guidelines.",
+        "study_focus": [
+          "FAR Part 121",
+          "FAR Part 135 and 61"
+        ],
+        "source_ids": [
+          "faa-atp-exam_guide",
+          "faa-atp-exam_guide-2",
+          "faa-atp-exam_guide-3",
+          "faa-atp-exam_guide-4"
+        ]
+      }
+    ],
+    "skills_summary": [
+      "Advanced Aerodynamics and High-Altitude Operations",
+      "Transport Category Aircraft Systems",
+      "Air Carrier Operations and CRM",
+      "High-Altitude Meteorology",
+      "Navigation Systems and RNAV",
+      "FARs Part 121/135/61"
+    ],
+    "exam_day_guidance": "Arrive at your assigned PSI or CATS testing center early, ensuring you bring all required identification documents for your 180-minute computer-based exam session to ensure a smooth check-in process.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of exactly 125 multiple choice questions delivered in a linear computer-based format at authorized PSI or CATS testing centers across the country for all candidates."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score is 70, which aligns with the standard percentage passing requirement established for all pilot knowledge tests administered under FAA Pilot Certification guidelines and official standards."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam has a maximum duration of 180 minutes, giving you sufficient time to carefully complete all questions at an authorized computer-based testing center location without feeling rushed during your appointment."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The exam price is $175.0 for candidates registering and taking the computer-based knowledge test at approved PSI or CATS testing facilities across the nation under standard registration policies."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was compiled using official FAA exam guides and federal aviation regulations to provide accurate testing details, domains, and structural facts for professional aviation candidates.",
+      "source_ids": [
+        "faa-atp-exam_guide",
+        "faa-atp-exam_guide-2",
+        "faa-atp-exam_guide-3",
+        "faa-atp-exam_guide-4"
+      ]
     },
-    "summary": "FAA Pilot Certification retired FAA Airline Transport Pilot Written Knowledge Test Practice Test. ATM is the collective replacement path.",
-    "evidence_url": "https://www.faa.gov/training_testing/testing/testing_matrix",
-    "verified_at": "2026-08-29T05:37:22+00:00"
+    "source_ids": [
+      "faa-atp-exam_guide",
+      "faa-atp-exam_guide-2",
+      "faa-atp-exam_guide-3",
+      "faa-atp-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "faa-atp-exam_guide",
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/FAA-H-8083-16B.pdf",
+      "title": "FAA Pilot Certification exam guide",
+      "publisher": "FAA Pilot Certification",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:67bee284221e2748c426a99793c332fe9f57018b9858f77b911675c814a03e91"
+    },
+    {
+      "id": "faa-atp-exam_guide-2",
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/FAA-H-8083-16B_Chapter_1.pdf",
+      "title": "FAA Pilot Certification exam guide",
+      "publisher": "FAA Pilot Certification",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:aeba8aad74a16bdf8bdce04dd82606a314a4f274f3b112111cd500b3fa2dfd0e"
+    },
+    {
+      "id": "faa-atp-exam_guide-3",
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/FAA-H-8083-16B_Front_Cover.pdf",
+      "title": "FAA Pilot Certification exam guide",
+      "publisher": "FAA Pilot Certification",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:d390d5d39b37593929632a4243d8e0b51ceda7094dbbb65cb92dbd410d63627e"
+    },
+    {
+      "id": "faa-atp-exam_guide-4",
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/FAA-H-8083-16B_Front_Page.pdf",
+      "title": "FAA Pilot Certification exam guide",
+      "publisher": "FAA Pilot Certification",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:f13e89d7f34f6ff72e2bd7b1540ee5c22bf2f723e21b4f3ae31b0daf6f2d83e7"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T22:26:15+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:08+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:08+00:00"
   }
 }

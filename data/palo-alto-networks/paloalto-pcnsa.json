@@ -97,6 +97,126 @@
     "pcnsa"
   ],
   "practice_url": "https://quizforge.ai/?q=Palo%20Alto%20Networks%20Certified%20Network%20Security%20Administrator%20%28PCNSA%29",
+  "editorial": {
+    "meta_description": "The Palo Alto Networks Certified Network Security Administrator exam is retired. Review the successor Network Security Professional path instead.",
+    "overview": "The Palo Alto Networks Certified Network Security Administrator certification was administered by Palo Alto Networks to validate administrative knowledge of next-generation firewalls. This exam retired on 2025-01-31, and Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer is the named replacement. The program covered device management, object maintenance, policy evaluation, traffic security, and user identification.",
+    "who_should_take": "Network administrators, security engineers, and support personnel who configure, manage, and maintain Palo Alto Networks next-generation firewalls should pursue the Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer successor path.",
+    "skills_summary": [
+      "Device Management and Services",
+      "Managing Objects",
+      "Policy Evaluation and Management",
+      "Securing Traffic",
+      "Identifying Users and Devices"
+    ],
+    "preparation_strategy": "To properly and carefully prepare for the replacement path, candidates should study official PAN-OS administration guides, review best practices for securing administrative access, explore core security concepts, and practice configuring features such as App-ID, User-ID, and device settings using next-generation firewalls during their routine study sessions.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain specifically covers Device Management and Services, representing 21.0 percent of the evaluation, focusing heavily on initial configuration, administrative access settings, and maintenance tasks for next-generation firewalls deployed in enterprise network environments.",
+        "study_focus": [
+          "Device management tasks",
+          "Services configuration"
+        ],
+        "source_ids": [
+          "paloalto-pcnsa-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses explicitly on Managing Objects, accounting for 18.0 percent of the evaluation, centered around creating, organizing, and maintaining reusable network objects and security profiles required for standard operational firewall deployments.",
+        "study_focus": [
+          "Object creation",
+          "Object maintenance"
+        ],
+        "source_ids": [
+          "paloalto-pcnsa-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses Policy Evaluation and Management in detail, making up 24.0 percent of the evaluation, involving the structuring, ordering, and optimization of security rules within the next-generation firewall administrative rulebase.",
+        "study_focus": [
+          "Policy evaluation",
+          "Rule management"
+        ],
+        "source_ids": [
+          "paloalto-pcnsa-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain centers on Securing Traffic, representing 22.0 percent of the evaluation, involving traffic inspection, security profiles, and threat prevention settings deployed on the firewall to protect enterprise network assets.",
+        "study_focus": [
+          "Traffic security",
+          "Threat prevention"
+        ],
+        "source_ids": [
+          "paloalto-pcnsa-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain covers Identifying Users and Devices extensively, accounting for 15.0 percent of the evaluation, focusing on mapping network traffic to specific authenticated users and network endpoints across the entire infrastructure.",
+        "study_focus": [
+          "User identification",
+          "Device identification"
+        ],
+        "source_ids": [
+          "paloalto-pcnsa-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Because the PCNSA exam is retired and cannot be scheduled, candidates should register for the Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer exam and review all current scheduling policies before test day.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam contains 75 total questions delivered in a linear format. Question types consist of multiple choice and multiple select items based on PAN-OS administration concepts."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Candidates are given a duration of 80 minutes to complete all 75 questions on the exam. Managing time effectively across the domains is important during this period."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The exam registration fee is priced at 155.0 USD for all test takers. Candidates should verify current pricing directly with the test delivery provider before scheduling their replacement certification."
+      },
+      {
+        "question_title": "What is the replacement for this retired exam?",
+        "answer_text": "The verified successor is Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer. Every candidate looking for the path forward should register for this successor rather than the retired credential."
+      }
+    ],
+    "methodology": {
+      "summary": "This detailed and thorough overview page was built using official vendor documentation, historical exam blueprints, and lifecycle data provided directly by Palo Alto Networks.",
+      "source_ids": [
+        "paloalto-pcnsa-study"
+      ]
+    },
+    "source_ids": [
+      "paloalto-pcnsa-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "paloalto-pcnsa-study",
+      "url": "https://www.paloaltonetworks.com/services/education",
+      "title": "Palo Alto Networks study documentation",
+      "publisher": "Palo Alto Networks",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:ebecd0a15973dcbe0aebc8a062c31b77509b103a78f5d87d0f3ad67c34d1520a"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T20:41:38+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:11+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:11+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-01-31",

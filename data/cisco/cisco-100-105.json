@@ -46,16 +46,149 @@
     "100-105"
   ],
   "practice_url": "https://quizforge.ai/?q=100-105",
-  "lifecycle": {
-    "status": "retired",
-    "retired_on": "2020-02-23",
-    "replacement": {
-      "exam_code": "200-301",
-      "relationship": "direct_replacement",
-      "url": null
+  "editorial": {
+    "meta_description": "Prepare for the Cisco 100-105 certification exam covering network fundamentals, routing, switching, infrastructure services, and maintenance through official",
+    "overview": "The Cisco 100-105 certification exam covers five core networking domains, including Network Fundamentals, LAN Switching Fundamentals, Routing Fundamentals, Infrastructure Services, and Infrastructure Maintenance. Administered directly by Cisco, this examination presents a total of 74 multiple choice questions during a duration of 90 minutes to test candidate knowledge across all defined domains.",
+    "who_should_take": "Networking professionals and technicians seeking to validate their skills in network fundamentals, routing, and switching. Candidates should possess hands-on experience implementing core Cisco infrastructure services and maintenance procedures.",
+    "skills_summary": [
+      "Network Fundamentals",
+      "LAN Switching Fundamentals",
+      "Routing Fundamentals",
+      "Infrastructure Services",
+      "Infrastructure Maintenance"
+    ],
+    "preparation_strategy": "To prepare for your certification examination, carefully review official Cisco exam guides, practice multiple choice questions, and study packet transmission protocols, IP addressing classes, header formats, and routing mechanics. Consult official Cisco documentation regarding certification paths and specific exam requirements before registering for any test session.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain addresses Network Fundamentals with a weight of 20.0 percent, concentrating on core connectivity concepts, basic principles, and primary networking operations required for modern communication systems and everyday administrative tasks.",
+        "study_focus": [
+          "Network fundamentals and protocols",
+          "Basic connectivity principles",
+          "Core networking operations"
+        ],
+        "source_ids": [
+          "cisco-100-105-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers LAN Switching Fundamentals with a weight of 26.0 percent, addressing local area network switching operations, device configurations, and management practices within enterprise environments and varied network topologies.",
+        "study_focus": [
+          "LAN switching concepts",
+          "Switch operation principles",
+          "Device management practices"
+        ],
+        "source_ids": [
+          "cisco-100-105-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain encompasses Routing Fundamentals with a weight of 25.0 percent, emphasizing path selection strategies, gateway configurations, and routing mechanisms vital for data packet delivery across complex enterprise network infrastructures.",
+        "study_focus": [
+          "Routing operation and path selection",
+          "Gateway functions",
+          "Data packet delivery"
+        ],
+        "source_ids": [
+          "cisco-100-105-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain details Infrastructure Services with a weight of 15.0 percent, outlining supporting network protocols, service management techniques, and operational procedures necessary for maintaining reliable and secure enterprise network environments.",
+        "study_focus": [
+          "Infrastructure service implementation",
+          "Protocol operations",
+          "Service management"
+        ],
+        "source_ids": [
+          "cisco-100-105-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain focuses on Infrastructure Maintenance with a weight of 14.0 percent, reviewing regular upkeep, system troubleshooting workflows, and primary administrative tasks required to sustainably manage ongoing network operations.",
+        "study_focus": [
+          "Infrastructure maintenance practices",
+          "System troubleshooting",
+          "Administrative tasks"
+        ],
+        "source_ids": [
+          "cisco-100-105-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at the testing center early with valid identification and review all multiple choice format instructions before beginning your 90 minute session containing 74 questions.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of 74 questions in total. Candidates must complete these multiple choice items within the allocated time limit provided during the official testing session."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Cisco maintains specific score thresholds that are officially reported upon completion of the test. Candidates should review official Cisco publications for current score requirements and policies."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The official exam duration is 90 minutes. Candidates should carefully pace themselves across all 74 questions during this specified testing period to successfully cover the listed topics."
+      },
+      {
+        "question_title": "What question types are used?",
+        "answer_text": "The exam utilizes multiple choice question formats to test candidate knowledge across all five defined domains and objective areas outlined in the official Cisco documentation provided."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using official Cisco exam guides and detailed technical documentation covering the 100-105 certification requirements to ensure accuracy for candidates preparing for the test.",
+      "source_ids": [
+        "cisco-100-105-exam_guide"
+      ]
     },
-    "summary": "Cisco retired 100-105 ICND1 on 2020-02-23. 200-301 is the direct replacement path.",
-    "evidence_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/retired.html",
-    "verified_at": "2026-08-29T05:37:22+00:00"
+    "source_ids": [
+      "cisco-100-105-exam_guide",
+      "cisco-100-105-exam_guide-2",
+      "cisco-100-105-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "cisco-100-105-exam_guide",
+      "url": "https://learningnetwork.cisco.com/s/article/100-105-icnd1-exam-topics",
+      "title": "Cisco exam guide",
+      "publisher": "Cisco",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:b8c1fea4bc0f2aaa718caef18a18b76bab5a11e67a693c021467582669c08bd0"
+    },
+    {
+      "id": "cisco-100-105-exam_guide-2",
+      "url": "https://learningnetwork.cisco.com/s/question/0D53i00000Kt6iNCAR/how-to-prepare-for-icnd1-100105-",
+      "title": "Cisco exam guide",
+      "publisher": "Cisco",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:616db8e84b5ad2678402bd4d657501fbae68138f4e9d84c9c153dc69a281ead8"
+    },
+    {
+      "id": "cisco-100-105-exam_guide-3",
+      "url": "https://ptgmedia.pearsoncmg.com/images/9781587205804/samplepages/9781587205804.pdf",
+      "title": "Cisco exam guide (ptgmedia.pearsoncmg.com)",
+      "publisher": "pearsoncmg.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a3a9d65f177615ee02d12125a957a90581f3f8b7fbfcc964463ac9a7698c6583"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T20:23:37+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:08+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:08+00:00"
   }
 }

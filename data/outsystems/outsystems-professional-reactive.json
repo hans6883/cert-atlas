@@ -101,6 +101,161 @@
     "professional-rd"
   ],
   "practice_url": "https://quizforge.ai/?q=OutSystems%20Professional%20Reactive%20Developer",
+  "editorial": {
+    "meta_description": "The OutSystems Professional Reactive Developer exam is retired. Review details and the Expert Developer successor path.",
+    "overview": "The OutSystems Professional Reactive Developer certification, certified by OutSystems, evaluated technical knowledge across advanced application architecture, performance, scalability, integration patterns, security best practices, and DevOps. Please note that this certification is retired as of 2025-03-03. Its verified successor is Expert Developer (OutSystems Expert Developer Certification), which serves as the designated path forward.",
+    "who_should_take": "This retired exam was intended for experienced developers building reactive applications on the OutSystems platform who needed to validate their advanced technical skills across multiple domains.",
+    "skills_summary": [
+      "Advanced Application Architecture",
+      "Performance and Scalability",
+      "Advanced Integration Patterns",
+      "Security Best Practices",
+      "DevOps and Lifecycle Management"
+    ],
+    "preparation_strategy": "Because this professional level exam is permanently retired, candidates should instead focus their preparation entirely on the official successor path named Expert Developer by reviewing documentation covering architecture canvas, reactive web security, deployment plans, and standard REST integration patterns to successfully build required platform expertise during their studies.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This specific domain evaluates advanced application architecture concepts extensively, focusing on translating complex business requirements into structured modules and applying effective architecture patterns across the enterprise platform ecosystem correctly.",
+        "study_focus": [
+          "Architecture Canvas implementation",
+          "Service-oriented architectures",
+          "Application composition rules"
+        ],
+        "source_ids": [
+          "outsystems-professional-reactive-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This specific domain covers performance optimization and scalability strategies, examining closely how to handle distributed data caching, query performance tuning, and efficient application execution safely during platform operations.",
+        "study_focus": [
+          "Distributed caching usage",
+          "Query optimization techniques",
+          "Scalable multi-tenant design"
+        ],
+        "source_ids": [
+          "outsystems-professional-reactive-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This specific domain addresses advanced integration patterns, focusing heavily on consuming and exposing REST and SOAP web services, handling secure authentication flows, and managing custom extensions properly within applications.",
+        "study_focus": [
+          "REST API consumption and exposure",
+          "OAuth client-flow authorization",
+          "SOAP web service configuration"
+        ],
+        "source_ids": [
+          "outsystems-professional-reactive-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This specific domain carefully reviews security best practices, including role-based access control, encryption methods, application hardening techniques, and safeguarding sensitive user data across modern reactive web applications safely.",
+        "study_focus": [
+          "Reactive web security practices",
+          "Content Security Policy implementation",
+          "User roles and permissions"
+        ],
+        "source_ids": [
+          "outsystems-professional-reactive-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This specific domain focuses intensely on DevOps and complete application lifecycle management strategies, covering deployment plans, environment configurations, and deployment zones to ensure smooth transitions throughout all development phases.",
+        "study_focus": [
+          "Application deployment strategies",
+          "Deployment zones configuration",
+          "Application lifecycle management"
+        ],
+        "source_ids": [
+          "outsystems-professional-reactive-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Because the OutSystems Professional Reactive Developer exam is retired, it cannot be scheduled or taken. Candidates should instead register for and pursue the Expert Developer certification following the current official guidelines.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of exactly 60 total questions presented in a linear online proctored format. Question types include multiple choice and multiple select items to test candidate knowledge across all domains."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score required for the exam is established at 73 percent. Candidates must successfully achieve this score or higher across all questions to pass."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The official exam duration is precisely 90 minutes. Candidates must complete all required questions within this allocated time limit during their scheduled linear online proctored testing session."
+      },
+      {
+        "question_title": "What is the current status of the exam?",
+        "answer_text": "The exam is retired as of 2025-03-03. OutSystems has named Expert Developer as the verified successor path for candidates looking to advance their certification credentials."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using official OutSystems documentation, exam guides, and verified platform lifecycle data to provide accurate details regarding the retired Professional-RD exam and its successor path.",
+      "source_ids": [
+        "outsystems-professional-reactive-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "outsystems-professional-reactive-exam_guide",
+      "outsystems-professional-reactive-exam_guide-2",
+      "outsystems-professional-reactive-exam_guide-3",
+      "outsystems-professional-reactive-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "outsystems-professional-reactive-exam_guide",
+      "url": "https://www.outsystems.com/certifications/academy-certifications/?page=0",
+      "title": "OutSystems exam guide",
+      "publisher": "OutSystems",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:0437581d50a366be6508ad4589df270fbd547eac2473f6aa2f9db8a1205721d2"
+    },
+    {
+      "id": "outsystems-professional-reactive-exam_guide-2",
+      "url": "https://www.outsystems.com/evaluation-guide/getting-started-with-outsystems/training/",
+      "title": "OutSystems exam guide",
+      "publisher": "OutSystems",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:8e301bce4fab61a0a9a8cdef30e2da60a944e03836287527bdbe4381f67ba110"
+    },
+    {
+      "id": "outsystems-professional-reactive-exam_guide-3",
+      "url": "https://www.outsystems.com/forums/discussion/87531/next-step-after-associate-reactive-developer-certificate/",
+      "title": "OutSystems exam guide",
+      "publisher": "OutSystems",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:e9fa7c99dc31061fe3f6ae7bdb6a8d2bfbfa6d1a8e3d4abc93d13ab450a3cc2e"
+    },
+    {
+      "id": "outsystems-professional-reactive-exam_guide-4",
+      "url": "https://www.outsystems.com/cms_backoffice/assets/20161117134746/professional_developer_exam",
+      "title": "OutSystems exam guide",
+      "publisher": "OutSystems",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:b47c13df8cddc69aef04a8a8485730d143bec1aaaeab4ddea8d180bdbc3e0780"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T20:52:58+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:11+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:11+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-03-03",

@@ -112,6 +112,134 @@
     "xk0-005"
   ],
   "practice_url": "https://quizforge.ai/?q=CompTIA%20Linux%2B",
+  "editorial": {
+    "meta_description": "CompTIA Linux+ XK0-005 retired on 2026-01-13. Review exam details and transition to its replacement path, XK0-006.",
+    "overview": "The CompTIA Linux+ certification covers multiple topics associated with Linux systems. Retired as of 2026-01-13, the evaluation was structured around four distinct domains including System Management, Security, Scripting Containers and Automation, and Troubleshooting. CompTIA has designated XK0-006 as the replacement exam code for candidates seeking this certification path under current registry guidelines. The exam featured a total of 90 questions administered over a duration of 90 minutes to test candidate proficiency.",
+    "who_should_take": "This certification exam is intended for IT professionals working with Linux systems who need to demonstrate operational knowledge across management, security, scripting, and troubleshooting domains.",
+    "skills_summary": [
+      "System Management",
+      "Security",
+      "Scripting, Containers, and Automation",
+      "Troubleshooting"
+    ],
+    "preparation_strategy": "Candidates preparing for this assessment should review the published exam objectives carefully and study official documentation such as system manual pages and configuration guides. It is exceptionally useful to practice command-line operations, file permissions, and process management to ensure adequate preparation for all topics covered.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This specific evaluation domain accounts for exactly 32.0 percent of the total exam weight and covers the System Management subject area defined in the official certification objectives.",
+        "study_focus": [
+          "System administration operations",
+          "File and storage management"
+        ],
+        "source_ids": [
+          "comptia-linux-plus-xk0-005-objectives"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This specific domain constitutes exactly 21.0 percent of the entire certification exam and specifically addresses the broad Security subject area as outlined in the published exam objectives document for candidates.",
+        "study_focus": [
+          "Security protocols and permissions",
+          "Access control configuration"
+        ],
+        "source_ids": [
+          "comptia-linux-plus-xk0-005-objectives"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This particular examination domain represents precisely 19.0 percent of the overall evaluation scope and covers the Scripting, Containers, and Automation subject area listed within the official exam documentation provided by CompTIA.",
+        "study_focus": [
+          "Shell scripting",
+          "Containerized environments"
+        ],
+        "source_ids": [
+          "comptia-linux-plus-xk0-005-objectives"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This particular domain makes up exactly 28.0 percent of the certification exam and primarily focuses on the Troubleshooting subject area established by the certifying organization for this credential.",
+        "study_focus": [
+          "Troubleshooting system logs",
+          "Resolving operational errors"
+        ],
+        "source_ids": [
+          "comptia-linux-plus-xk0-005-objectives"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Because this exam is retired, testing is no longer active for this specific code. Candidates should instead prepare for and schedule the current replacement exam, XK0-006, following standard registration procedures.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of a total of 90 questions. The question formats include multiple choice with single answers, multiple choice with multiple answers, and performance-based items administered during the test."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for the exam is set at 720 on a scale of 100 to 900. Candidates must meet or exceed this score to pass the assessment successfully."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total test duration is exactly 90 minutes. Candidates must complete all exam questions within this allocated timeframe according to the published guidelines established by CompTIA."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The official exam price is established at USD 369.0. Please note that since the exam is retired, registration is no longer active for this specific code."
+      }
+    ],
+    "methodology": {
+      "summary": "This reference page was built using official CompTIA documentation, detailed exam objectives, and source materials to provide accurate historical and structural data.",
+      "source_ids": [
+        "comptia-linux-plus-xk0-005-objectives"
+      ]
+    },
+    "source_ids": [
+      "comptia-linux-plus-xk0-005-samples",
+      "comptia-linux-plus-xk0-005-study",
+      "comptia-linux-plus-xk0-005-objectives"
+    ]
+  },
+  "sources": [
+    {
+      "id": "comptia-linux-plus-xk0-005-samples",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "title": "CompTIA documentation",
+      "publisher": "CompTIA",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:d0ff75f23d46ccea6cbe10c70d36215a1abd71fb5a4a44d076706ca047271be9"
+    },
+    {
+      "id": "comptia-linux-plus-xk0-005-study",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "title": "CompTIA study documentation",
+      "publisher": "CompTIA",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a6d9f46e798eb0fbf83a5fd20407dfe79d7f83beeaa038f2f67dd4ba913a087d"
+    },
+    {
+      "id": "comptia-linux-plus-xk0-005-objectives",
+      "url": "https://d2ds8yldqp7gxv.cloudfront.net/Comptia+Agendas/comptia-linux-xk0-005-Agenda.pdf",
+      "title": "CompTIA exam objectives (d2ds8yldqp7gxv.cloudfront.net)",
+      "publisher": "cloudfront.net",
+      "source_type": "third_party_objectives",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:d18f533c9d00dc9c3a12d3edae8215f1cdacc5ff36b322a6649c38dc6fe663d0"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T20:27:08+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:08+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:08+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-01-13",

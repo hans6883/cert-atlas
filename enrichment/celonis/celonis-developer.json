@@ -1,0 +1,153 @@
+{
+ "exam_id": "celonis-developer",
+ "editorial": {
+  "meta_description": "Prepare for the Celonis Certified Developer exam by reviewing platform architecture, data connectivity, app development, advanced PQL, and action automation.",
+  "overview": "The Celonis Certified Developer exam, certified by Celonis, evaluates technical expertise across 5 distinct domains. Candidates face 60 questions within a 90 minute window. The assessment requires a passing score of 72 percent and tests core competencies in platform architecture, data extraction, app building, advanced PQL queries, and action automation workflows.",
+  "who_should_take": "Technical professionals and developers working with the Celonis platform who design data pipelines, build custom applications, construct advanced PQL expressions, and implement process automation solutions.",
+  "skills_summary": [
+   "Celonis Architecture and APIs",
+   "Data Connectivity and Extraction",
+   "App Development on Celonis",
+   "Advanced PQL",
+   "Action Automation and ML"
+  ],
+  "preparation_strategy": "Review all official Celonis documentation regarding data integration mechanisms, PQL functions, and Studio application creation workflows. Practice building data pools, setting up connections, writing complex query logic, and configuring action flows to ensure full preparation for the specific format and rigor of the certification exam.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific domain evaluates the Celonis Architecture and APIs section with an assigned weight of 20.0 percent, covering the listed core domain subjects completely for the assessment.",
+    "study_focus": [
+     "Reviewing core domain content",
+     "Studying official exam guides"
+    ],
+    "source_ids": [
+     "celonis-developer-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This specific domain evaluates the Data Connectivity and Extraction section with an assigned weight of 20.0 percent, covering the listed core domain subjects completely for the assessment.",
+    "study_focus": [
+     "Reviewing core domain content",
+     "Studying official exam guides"
+    ],
+    "source_ids": [
+     "celonis-developer-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This specific domain evaluates the App Development on Celonis section with an assigned weight of 25.0 percent, covering the listed core domain subjects completely for the assessment.",
+    "study_focus": [
+     "Reviewing core domain content",
+     "Studying official exam guides"
+    ],
+    "source_ids": [
+     "celonis-developer-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This specific domain evaluates the Advanced PQL section with an assigned weight of 20.0 percent, covering all the listed core domain subjects completely for the assessment process.",
+    "study_focus": [
+     "Reviewing core domain content",
+     "Studying official exam guides"
+    ],
+    "source_ids": [
+     "celonis-developer-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This specific domain evaluates the Action Automation and ML section with an assigned weight of 15.0 percent, covering the listed core domain subjects completely for the assessment.",
+    "study_focus": [
+     "Reviewing core domain content",
+     "Studying official exam guides"
+    ],
+    "source_ids": [
+     "celonis-developer-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Ensure your online proctored testing environment is quiet, well-lit, and cleared of unauthorized materials. Verify your system meets all requirements before starting the 90 minute linear exam.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The certification exam consists of a total of 60 questions presented in a linear online proctored format utilizing multiple choice and multiple select question types to test candidates comprehensively."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "Candidates must achieve a minimum passing score of 72 percent in order to successfully pass the certification exam and demonstrate technical competency across all domains assessed by Celonis."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "You are given a generous period of 90 minutes to complete all questions within the online proctored exam environment before the testing session officially comes to an end."
+   },
+   {
+    "question_title": "What is the cost of the exam?",
+    "answer_text": "The exam registration fee is priced at 150.0 US dollars. Please note that certification validity lasts for a period of 2 years, after which a formal renewal is required."
+   }
+  ],
+  "methodology": {
+   "summary": "This index page was compiled using official Celonis exam guides, platform documentation, and verified structural facts regarding domains, question counts, and scoring requirements.",
+   "source_ids": [
+    "celonis-developer-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "celonis-developer-exam_guide",
+   "celonis-developer-exam_guide-2",
+   "celonis-developer-exam_guide-3",
+   "celonis-developer-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "celonis-developer-exam_guide",
+   "url": "https://academy.celonis.com/collections/data-analyst-associate-certification-exam",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:3fd30a9235ccbad1073af61446639db55043e8056dbb9e8f9386374d0bbe34be"
+  },
+  {
+   "id": "celonis-developer-exam_guide-2",
+   "url": "https://academy.celonis.com/courses/customer-certification-preparation-and-guide",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:1f05ebb400e63843023ba70e1c584fdf1a7f8d945e38a59abd355647d3439ec2"
+  },
+  {
+   "id": "celonis-developer-exam_guide-3",
+   "url": "https://academy.celonis.com/collections/data-engineer-certification-exam",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:ecc0a8adffd662c7f36bc30976ddb5300fb14703d0d03a493c569c8d46cb538b"
+  },
+  {
+   "id": "celonis-developer-exam_guide-4",
+   "url": "https://academy.celonis.com/learn/video/celonis-certification-program",
+   "title": "Celonis exam guide",
+   "publisher": "Celonis",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:ca0cc577f93cd5599a1840f201c1023a04cdab0525c677978a9eacf7d2e5d807"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-29T21:35:15+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-29T22:58:07+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-29T22:58:07+00:00"
+ }
+}

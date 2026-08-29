@@ -95,6 +95,157 @@
     "outsystems-associate-mobile"
   ],
   "practice_url": "https://quizforge.ai/?q=OutSystems%20Associate%20Mobile%20Developer",
+  "editorial": {
+    "meta_description": "The OutSystems Associate Mobile Developer exam is retired as of 2020-08-10. Review exam details and the official successor, Mobile Developer Specialist.",
+    "overview": "The OutSystems Associate Mobile Developer certification, offered by OutSystems, covered mobile application development topics across five specific domains. This certification officially retired on 2020-08-10. It did not replace itself, and the verified successor path forward is Mobile Developer Specialist (O11 and ODC). Candidates previously tested on 60 questions within a duration of 90 minutes, requiring a passing score of 70 to certify successfully.",
+    "who_should_take": "Developers seeking credentials in OutSystems mobile application development can no longer register for this retired exam and should instead pursue Mobile Developer Specialist (O11 and ODC).",
+    "skills_summary": [
+      "Mobile App Architecture",
+      "Native Mobile UI Development",
+      "Client-Side Logic and Storage",
+      "Device Features and Plugins",
+      "Mobile App Distribution and Security"
+    ],
+    "preparation_strategy": "Because the OutSystems Associate Mobile Developer exam is officially retired, candidates should focus their study efforts on the curriculum for Mobile Developer Specialist (O11 and ODC). Review official documentation covering mobile application design, offline synchronization, responsive user interfaces, data modeling, and plugin integrations carefully before proceeding with any new credential path.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain evaluates mobile app architecture principles within OutSystems, focusing heavily on multi-team development patterns and structural best practices for building scalable mobile solutions designed for enterprise environments.",
+        "study_focus": [
+          "App architecture",
+          "Best practices for mobile architecture"
+        ],
+        "source_ids": [
+          "outsystems-associate-mobile-landing"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers native mobile UI development comprehensively, including reactive layouts, screen templates, styling with CSS, and implementing accessible user interface patterns that function smoothly across multiple device screens for users.",
+        "study_focus": [
+          "Reactive app layouts",
+          "UI patterns accessibility"
+        ],
+        "source_ids": [
+          "outsystems-associate-mobile-landing"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses client-side logic and data storage extensively, including offline data synchronization patterns, local data management, and data modeling best practices required for modern mobile applications within the platform.",
+        "study_focus": [
+          "Data Modeling",
+          "Offline Data Sync Patterns"
+        ],
+        "source_ids": [
+          "outsystems-associate-mobile-landing"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain focuses intently on device features and plugins, integrating native hardware capabilities such as cameras, files, barcodes, and location services directly into applications to enhance overall user experiences across devices.",
+        "study_focus": [
+          "Camera Plugin version 8",
+          "Location Plugin"
+        ],
+        "source_ids": [
+          "outsystems-associate-mobile-landing"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain covers mobile app distribution and security comprehensively, including packaging, app store publishing processes, role-based permissions, and security compliance measures necessary to protect sensitive user information safely.",
+        "study_focus": [
+          "Generate and Publish Your Mobile App to the Mobile App Stores",
+          "User management"
+        ],
+        "source_ids": [
+          "outsystems-associate-mobile-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The OutSystems Associate Mobile Developer exam cannot be scheduled because it is retired. Candidates must register for Mobile Developer Specialist (O11 and ODC) instead, observing the rules and format for that current exam.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The professional examination consists of exactly 60 total questions presented in a linear format using multiple choice and multiple select question types to test candidates on their technical knowledge."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Candidates must achieve a verified passing score of 70 to successfully complete the examination and earn the professional certification credential directly from the provider without exception."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The permitted duration of the examination is precisely 90 minutes, administered as a linear, online proctored test requiring careful time management from all registered participants during their testing session."
+      },
+      {
+        "question_title": "What is the successor to this retired exam?",
+        "answer_text": "The official verified successor is Mobile Developer Specialist (O11 and ODC). The Associate Mobile Developer exam did not replace itself upon reaching its designated official retirement date."
+      }
+    ],
+    "methodology": {
+      "summary": "This index page compiles verified historical facts, official exam domain breakdowns, and retirement timelines provided by OutSystems documentation to guide candidates toward the current successor path.",
+      "source_ids": [
+        "outsystems-associate-mobile-exam_guide",
+        "outsystems-associate-mobile-landing"
+      ]
+    },
+    "source_ids": [
+      "outsystems-associate-mobile-exam_guide",
+      "outsystems-associate-mobile-exam_guide-2",
+      "outsystems-associate-mobile-landing",
+      "outsystems-associate-mobile-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "outsystems-associate-mobile-exam_guide",
+      "url": "https://www.outsystems.com/certifications/academy-certifications/?page=0",
+      "title": "OutSystems exam guide",
+      "publisher": "OutSystems",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:7dcfd144dae12a48e37bbcb3e54e4e6e1b6f311e6c76339e8326df671ce06382"
+    },
+    {
+      "id": "outsystems-associate-mobile-exam_guide-2",
+      "url": "https://www.outsystems.com/forums/discussion/34526/sample-questions-in-associate-mobile-developer-certification-exam/",
+      "title": "OutSystems exam guide",
+      "publisher": "OutSystems",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:1c92a13c25af3f86ebe41197230056b442748d99eddfd76b6706b4cbf7a74813"
+    },
+    {
+      "id": "outsystems-associate-mobile-landing",
+      "url": "https://www.outsystems.com/learn/certifications/associate-mobile-developer/",
+      "title": "OutSystems certification page",
+      "publisher": "OutSystems",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9a569ec9556e813b545b10550dd8152204a90115b430050b7e91fac03703d3b7"
+    },
+    {
+      "id": "outsystems-associate-mobile-study",
+      "url": "https://www.outsystems.com/training/",
+      "title": "OutSystems study documentation",
+      "publisher": "OutSystems",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9a569ec9556e813b545b10550dd8152204a90115b430050b7e91fac03703d3b7"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T20:50:05+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:11+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:11+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2020-08-10",

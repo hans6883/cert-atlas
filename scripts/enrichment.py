@@ -246,6 +246,33 @@ def validate_overlay(exam: dict[str, Any], overlay: dict[str, Any]) -> Validatio
                 if source_id not in source_ids:
                     result.errors.append(f"unknown source reference: {source_id}")
 
+    faq = editorial.get("faq")
+    if faq is not None:
+        # Optional so legacy overlays without an FAQ block still validate. Entry keys are
+        # deliberately question_title/answer_text: the literal keys "question" and "answer"
+        # are prohibited exam-bank fields and are rejected by the scan above.
+        if not isinstance(faq, list) or not 4 <= len(faq) <= 8:
+            result.errors.append(
+                "editorial.faq must contain between 4 and 8 items when present"
+            )
+            faq = []
+        for index, item in enumerate(faq):
+            prefix = f"editorial.faq[{index}]"
+            if not isinstance(item, dict):
+                result.errors.append(f"{prefix} must be an object")
+                continue
+            question = str(item.get("question_title") or "").strip()
+            if not question:
+                result.errors.append(f"{prefix}.question_title is required")
+            elif not question.endswith("?"):
+                result.errors.append(
+                    f"{prefix}.question_title must end with a question mark"
+                )
+            if _word_count(item.get("answer_text")) < 25:
+                result.errors.append(
+                    f"{prefix}.answer_text must contain at least 25 words"
+                )
+
     fact_overrides = overlay.get("fact_overrides")
     if fact_overrides is not None:
         if not isinstance(fact_overrides, dict):

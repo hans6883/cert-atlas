@@ -1,0 +1,168 @@
+{
+ "exam_id": "netapp-ncda",
+ "editorial": {
+  "meta_description": "Prepare for the NetApp NCDA certification exam with 65 questions, 90 minutes limit, and official exam domains.",
+  "overview": "The NCDA — NetApp Certified Data Administrator (ONTAP) certification, administered by NetApp, validates the technical ability to successfully administer NetApp ONTAP storage systems. The exam covers six major domains including ONTAP Data Management, Storage Architecture and Design, SAN/NAS Configuration, Data Protection and SnapVault, Cloud Integration, and Performance and Troubleshooting across enterprise storage environments.",
+  "who_should_take": "This certification is intended for data administrators and storage professionals responsible for managing, configuring, and maintaining NetApp ONTAP environments. Candidates should have practical experience working with storage systems and data protection features.",
+  "preparation_strategy": "To successfully prepare for the examination, review official documentation and gain extensive practical experience using both the ONTAP CLI and ONTAP System Manager. Focus your daily study time on high-availability pairs, complex network architecture, and various client protocols, and use appropriate tools to practice identifying and resolving complex configuration issues.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific domain covers ONTAP Data Management concepts, focusing heavily on how storage systems organize and manage data resources efficiently within clustered environments using advanced administrative interfaces and tools.",
+    "study_focus": [
+     "Reviewing storage virtualization mechanics",
+     "Managing volumes, qtrees, files, and LUNs"
+    ],
+    "source_ids": [
+     "netapp-ncda-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain addresses Storage Architecture and Design principles, requiring candidates to fully understand complex cluster storage layouts, underlying hardware configurations, and reliable high-availability pair setups across the entire enterprise infrastructure.",
+    "study_focus": [
+     "Examining high-availability pairs",
+     "Configuring cluster storage and local tiers"
+    ],
+    "source_ids": [
+     "netapp-ncda-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain covers SAN and NAS Configuration, focusing closely on client protocols, advanced network architecture, efficient load balancing, and reliable path failover mechanisms operating within enterprise ONTAP clusters.",
+    "study_focus": [
+     "Setting up client protocols",
+     "Configuring network architecture and path failover"
+    ],
+    "source_ids": [
+     "netapp-ncda-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain specifically focuses on Data Protection and SnapVault, involving complex replication tasks, data protection features, and strategic planning for safeguarding vital cluster storage resources against unexpected data loss.",
+    "study_focus": [
+     "Configuring replication workflows",
+     "Managing SnapVault and data protection policies"
+    ],
+    "source_ids": [
+     "netapp-ncda-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain explores Cloud Integration across major platforms like AWS, Azure, and GCP, centering extensively on highly tiered storage solutions and object storage integration features designed for modern hybrid cloud architectures.",
+    "study_focus": [
+     "Implementing FabricPool for cloud tiering",
+     "Integrating object storage workflows"
+    ],
+    "source_ids": [
+     "netapp-ncda-study"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain covers Performance and Troubleshooting, instructing candidates on how to effectively use advanced management tools and diagnostics to constantly monitor storage capacity and rapidly resolve any underlying hardware problems.",
+    "study_focus": [
+     "Monitoring cluster, tier, and SVM capacity",
+     "Using AutoSupport and Digital Advisor for troubleshooting"
+    ],
+    "source_ids": [
+     "netapp-ncda-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Candidates take the exam through Pearson VUE. Ensure you arrive with valid identification, review all testing rules carefully before beginning your session, and manage your time effectively.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The certification assessment consists of 65 total questions presented in a linear format featuring multiple choice and multiple response question types to test your knowledge completely and effectively."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score uses a scaled score metric where a numeric score of 60 is required to pass, with approximately 70% passing being standard for most candidates."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a strict duration of 90 minutes to complete all questions, meaning that candidates must carefully manage their testing time throughout the entire assessment duration."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "The exam registration fee is priced at 250.0 USD, and candidates should check directly with NetApp for the current certification path and any applicable renewal requirements."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official NetApp study documentation and exam guides to provide factual details regarding exam domains, policies, and requirements.",
+   "source_ids": [
+    "netapp-ncda-study",
+    "netapp-ncda-exam_guide",
+    "netapp-ncda-exam_guide-3",
+    "netapp-ncda-exam_guide-4"
+   ]
+  },
+  "source_ids": [
+   "netapp-ncda-study",
+   "netapp-ncda-exam_guide",
+   "netapp-ncda-exam_guide-3",
+   "netapp-ncda-exam_guide-4"
+  ],
+  "skills_summary": [
+   "ONTAP Data Management",
+   "Storage Architecture and Design",
+   "SAN and NAS Configuration",
+   "Data Protection and SnapVault",
+   "Cloud Integration",
+   "Performance and Troubleshooting"
+  ]
+ },
+ "sources": [
+  {
+   "id": "netapp-ncda-study",
+   "url": "https://learningcenter.netapp.com/",
+   "title": "NetApp study documentation",
+   "publisher": "NetApp",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:8a0b027fb0805cb42f5b2b9b493c83729517098373a26aca455f858e5a69acc6"
+  },
+  {
+   "id": "netapp-ncda-exam_guide",
+   "url": "https://www.quickstart.com/blog/netapp/a-complete-netapp-certification-guide/",
+   "title": "NetApp exam guide (quickstart.com)",
+   "publisher": "quickstart.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:bd296b04c195cd75a344993275c6828a4175dce3956a507fbfbc47cec5115ded"
+  },
+  {
+   "id": "netapp-ncda-exam_guide-3",
+   "url": "https://www.nwexam.com/netapp/netapp-ns0-175-certification-exam-syllabus",
+   "title": "NetApp exam guide (nwexam.com)",
+   "publisher": "nwexam.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:356a5e60e36dd6ca527ef16cf56ee8278afe5891cf84970001295e65fe47d71e"
+  },
+  {
+   "id": "netapp-ncda-exam_guide-4",
+   "url": "https://www.fastlaneus.com/certification/ncda-cdot?srsltid=AfmBOorVwftFALJOVWt9COxxg7lQf7MaW-GQZmSud2K8ITy2dfWyA-fo",
+   "title": "NetApp exam guide (fastlaneus.com)",
+   "publisher": "fastlaneus.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:fef7266b290497d416bab63b41b4980956d375cea2a3640d5d77fa2acbe96f40"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-29T21:01:10+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-29T22:58:09+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-29T22:58:09+00:00"
+ }
+}

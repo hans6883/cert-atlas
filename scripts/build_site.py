@@ -286,6 +286,7 @@ def page_shell(
     body,
     schema_json=None,
     breadcrumb_schema=None,
+    faq_schema=None,
     extra_css="",
 ):
     schemas = ""
@@ -293,6 +294,8 @@ def page_shell(
         schemas += f'<script type="application/ld+json">{json.dumps(schema_json, ensure_ascii=False)}</script>\n'
     if breadcrumb_schema:
         schemas += f'<script type="application/ld+json">{json.dumps(breadcrumb_schema, ensure_ascii=False)}</script>\n'
+    if faq_schema:
+        schemas += f'<script type="application/ld+json">{json.dumps(faq_schema, ensure_ascii=False)}</script>\n'
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -467,9 +470,7 @@ def build_vendor_page(vendor_slug, vendor_info, exams):
     }
 
     return page_shell(
-        (f"{name} Certification Exams -- Cert Atlas"
-         if len(f"{name} Certification Exams -- Cert Atlas") <= 70
-         else f"{name} Exams | Cert Atlas"),
+        _vendor_page_title(vendor_info, len(exams)),
         f"Browse exam blueprints for {len(exams)} {name} certification exams. Domains, objectives, passing scores, and study resources.",
         f"{SITE_URL}/{vendor_slug}/",
         body,
@@ -674,6 +675,26 @@ def build_enrichment_html(exam):
     if exam_day and not retired:
         sections.append(f"<h2>Exam-Day Guidance</h2><p>{h(exam_day)}</p>")
 
+    faq_items = [
+        item
+        for item in editorial.get("faq", [])
+        if isinstance(item, dict)
+        and str(item.get("question_title") or "").strip()
+        and str(item.get("answer_text") or "").strip()
+    ]
+    if faq_items:
+        # Question phrasing mirrors real search queries, so the section doubles as the
+        # page's long-tail surface. <details> keeps the wall of text collapsible.
+        faq_html = "".join(
+            f'<details class="faq-item"><summary><h3>{h(item["question_title"])}</h3>'
+            f'</summary><p>{h(item["answer_text"])}</p></details>'
+            for item in faq_items
+        )
+        sections.append(
+            '<section class="faq" aria-label="Frequently asked questions">'
+            f"<h2>Frequently asked questions</h2>{faq_html}</section>"
+        )
+
     signals = exam.get("study_signals")
     if isinstance(signals, dict) and not retired:
         signal_items = []
@@ -752,7 +773,7 @@ def build_enrichment_html(exam):
     sections.append("</section>")
     return "".join(sections)
 
-def build_exam_page(vendor_slug, vendor_info, exam):
+def build_exam_page(vendor_slug, vendor_info, exam, title_override=None):
     name = exam.get("exam_name", "")
     code = exam.get("exam_code", "")
     body_name = exam.get("certifying_body", vendor_info.get("display_name", ""))
@@ -1080,6 +1101,56 @@ def build_exam_page(vendor_slug, vendor_info, exam):
             lead += f" {repl} is the replacement."
         desc = f"{lead} {desc}".strip()
 
+    page_title = title_override or _exam_page_title(exam)
+
+    faq_schema = None
+    if has_public_enrichment(exam):
+        faq_items = [
+            item
+            for item in exam.get("editorial", {}).get("faq", [])
+            if isinstance(item, dict)
+            and str(item.get("question_title") or "").strip()
+            and str(item.get("answer_text") or "").strip()
+        ]
+        if faq_items:
+            faq_schema = {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": str(item["question_title"]),
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": str(item["answer_text"]),
+                        },
+                    }
+                    for item in faq_items
+                ],
+            }
+
+    return page_shell(
+        page_title,
+        desc[:160],
+        f"{SITE_URL}/{vendor_slug}/{exam_id}",
+        body,
+        schema_json=course_schema,
+        breadcrumb_schema=breadcrumb_schema,
+        faq_schema=faq_schema,
+        extra_css=ENRICHMENT_CSS if has_public_enrichment(exam) else "",
+    )
+
+
+def _exam_page_title(exam):
+    """The exam page <title>, as a pure function of the exam record so build() can compute
+    every title up front and disambiguate collisions before any page is written."""
+    name = exam.get("exam_name", "")
+    code = exam.get("exam_code", "")
+    body_name = exam.get("certifying_body", "")
+    lifecycle = exam.get("lifecycle", {})
+    retired = lifecycle.get("status") == "retired"
+    scheduled_retirement = lifecycle.get("status") == "scheduled_retirement"
+
     # Bing "Title too long" (>70 chars): never repeat a code the name already carries,
     # and drop the body / brand segments before the exam name would be cut.
     exam_label = name if (not code or f"({code})" in name) else f"{name} ({code})"
@@ -1132,16 +1203,13 @@ def build_exam_page(vendor_slug, vendor_info, exam):
         )
     elif has_public_enrichment(exam):
         page_title = f"{code or name} Exam Guide, Domains & Skills | Cert Atlas"
+    return page_title
 
-    return page_shell(
-        page_title,
-        desc[:160],
-        f"{SITE_URL}/{vendor_slug}/{exam_id}",
-        body,
-        schema_json=course_schema,
-        breadcrumb_schema=breadcrumb_schema,
-        extra_css=ENRICHMENT_CSS if has_public_enrichment(exam) else "",
-    )
+
+def _vendor_page_title(vendor_info, exam_count):
+    name = vendor_info.get("display_name", "")
+    long_form = f"{name} Certification Exams -- Cert Atlas"
+    return long_form if len(long_form) <= 70 else f"{name} Exams | Cert Atlas"
 
 
 def build_llms_txt(index, exams_by_vendor) -> str:
@@ -1239,9 +1307,20 @@ def build():
         f.write(build_home(index, vendors, vendor_map))
 
     # Vendor pages + exam pages
+    # Two-pass for titles: search engines (and test_site_seo.py) treat duplicate <title>
+    # values across indexable pages as a soft duplicate-content signal, and genuinely
+    # different exams can collide — the same exam name published by two bodies (CNCF CKA
+    # vs Linux Foundation CKA), or one body's code reused by another. Pass one computes
+    # every title; only colliding ones get a disambiguating suffix, so every existing
+    # unique title is byte-for-byte unchanged.
     page_count = 1
+    reserved_titles = {
+        "Cert Atlas -- Open Index of Certification Exam Blueprints",
+    }
+    exam_records = []
     for vendor_slug, exams in exams_by_vendor.items():
         vendor_info = vendor_map.get(vendor_slug, {"display_name": vendor_slug, "website": "", "certification_page": ""})
+        reserved_titles.add(_vendor_page_title(vendor_info, len(exams)))
         vendor_dir = DOCS_DIR / vendor_slug
         vendor_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1251,9 +1330,39 @@ def build():
 
         for ex_entry in exams:
             exam_data = load_exam(vendor_slug, ex_entry["exam_id"])
-            with open(vendor_dir / f'{ex_entry["exam_id"]}.html', "w", encoding="utf-8") as f:
-                f.write(build_exam_page(vendor_slug, vendor_info, exam_data))
-            page_count += 1
+            exam_records.append((vendor_slug, vendor_info, exam_data))
+
+    titles_by_exam = {}
+    for _slug, _info, exam_data in exam_records:
+        titles_by_exam.setdefault(_exam_page_title(exam_data), []).append(exam_data)
+    final_titles = {}
+    for title, group in titles_by_exam.items():
+        if len(group) == 1:
+            final_titles[group[0]["exam_id"]] = title
+            continue
+        for exam in group:  # collision: append the certifying body
+            body_name = str(exam.get("certifying_body") or "").strip()
+            suffix = f" - {body_name}" if body_name else ""
+            final_titles[exam["exam_id"]] = f"{title}{suffix}" if suffix else title
+    # Still colliding (same body, same title) or shadowing a reserved page title: the
+    # exam id is unique by construction, so it settles any remainder.
+    seen: dict[str, str] = {}
+    for exam_id, title in final_titles.items():
+        clash = title in seen or title in reserved_titles
+        if clash and title not in seen:
+            seen[title] = exam_id  # first keeper stays; later ones get the id suffix
+        if clash:
+            final_titles[exam_id] = f"{title} [{exam_id}]"
+        seen[final_titles[exam_id]] = exam_id
+
+    for vendor_slug, vendor_info, exam_data in exam_records:
+        vendor_dir = DOCS_DIR / vendor_slug
+        with open(vendor_dir / f'{exam_data["exam_id"]}.html', "w", encoding="utf-8") as f:
+            f.write(build_exam_page(
+                vendor_slug, vendor_info, exam_data,
+                title_override=final_titles.get(exam_data["exam_id"]),
+            ))
+        page_count += 1
 
     # Sitemap
     with open(DOCS_DIR / "sitemap.xml", "w", encoding="utf-8") as f:

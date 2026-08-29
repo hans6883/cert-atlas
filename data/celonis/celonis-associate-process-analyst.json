@@ -96,16 +96,154 @@
     "celonis-associate-process-analyst"
   ],
   "practice_url": "https://quizforge.ai/?q=Celonis%20Certified%20Associate%20Process%20Analyst",
-  "lifecycle": {
-    "status": "retired",
-    "retired_on": "",
-    "replacement": {
-      "exam_code": "Celonis Certified Data Analyst",
-      "relationship": "related_successor",
-      "url": null
+  "editorial": {
+    "meta_description": "Prepare for the Celonis Certified Associate Process Analyst exam, covering process mining, platform navigation, data models, and KPI building.",
+    "overview": "The Celonis Certified Associate Process Analyst certification exam evaluates candidate competence across process mining fundamentals, Celonis platform navigation, data models, OLAP cubes, analysis, KPI building, action flows, and recommendations. Certified by Celonis, this online proctored exam consists of exactly 60 questions and requires candidates to demonstrate practical knowledge across five distinct certification domains.",
+    "who_should_take": "This certification suits data analysts, process analysts, and professionals working with process mining who need to validate their skills in navigating the Celonis platform and building analytics.",
+    "skills_summary": [
+      "Process Mining Fundamentals",
+      "Celonis Platform Navigation",
+      "Data Models and OLAP Cubes",
+      "Analysis and KPI Building",
+      "Action Flows and Recommendations"
+    ],
+    "preparation_strategy": "Review official Celonis documentation and academy guides in detail to understand process mining fundamentals, platform navigation, data models, OLAP cubes, analysis, KPI building, action flows, and recommendations. Practice building analyses, configuring data models, and studying all designated domain weights to prepare effectively for the test.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This starting domain covers process mining fundamentals with an assigned weight percent of 25.0, requiring candidates to understand event log structures and core concepts in great detail.",
+        "study_focus": [
+          "Process mining concepts",
+          "Event log structures"
+        ],
+        "source_ids": [
+          "celonis-associate-process-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This platform domain focuses entirely on Celonis platform navigation with a specified weight percent of 20.0, ensuring candidates can successfully operate the platform user interface and workspace environments.",
+        "study_focus": [
+          "Platform user interface",
+          "Workspace navigation"
+        ],
+        "source_ids": [
+          "celonis-associate-process-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This architectural domain covers data models and OLAP cubes with an exact weight percent of 20.0, focusing heavily on proper data model configuration and underlying OLAP cube structures.",
+        "study_focus": [
+          "Data model configuration",
+          "OLAP cube structures"
+        ],
+        "source_ids": [
+          "celonis-associate-process-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This analytical domain focuses on analysis and KPI building with a designated weight percent of 20.0, testing practical skills related to building advanced analyses in Studio and creating key performance indicators.",
+        "study_focus": [
+          "Building analyses in Studio",
+          "Creating KPIs"
+        ],
+        "source_ids": [
+          "celonis-associate-process-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This automation domain covers action flows and recommendations with a weight percent of 15.0, emphasizing effective Action Flow configuration alongside automated operational recommendations within the Celonis platform.",
+        "study_focus": [
+          "Action Flow configuration",
+          "Automation and recommendations"
+        ],
+        "source_ids": [
+          "celonis-associate-process-analyst-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The exam is a linear online proctored test lasting 90 minutes. Ensure your testing environment meets all online proctoring requirements before starting your official session.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam contains a total of 60 questions formatted as multiple choice and multiple select items, covering all five designated domains across the Celonis platform."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score required to pass the exam is 70. Candidates must successfully meet or exceed this established numerical score across all questions to earn the credential."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The duration of the online proctored exam is exactly 90 minutes. You must complete all multiple choice and multiple select questions within this strict time frame."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The exam price is USD 150.0. Certification validity is 2 years, after which renewal is required. Check with Celonis for any updates regarding the current certification path."
+      }
+    ],
+    "methodology": {
+      "summary": "This detailed page was constructed using verified facts sourced directly from official Celonis documentation, detailed exam guides, and structured domain weight publications.",
+      "source_ids": [
+        "celonis-associate-process-analyst-exam_guide"
+      ]
     },
-    "summary": "Celonis retired CCAPA. Celonis Certified Data Analyst is the related successor path.",
-    "evidence_url": "https://academy.celonis.com/collections/data-analyst-associate-certification-exam",
-    "verified_at": "2026-08-29T05:37:22+00:00"
+    "source_ids": [
+      "celonis-associate-process-analyst-exam_guide",
+      "celonis-associate-process-analyst-exam_guide-2",
+      "celonis-associate-process-analyst-exam_guide-3",
+      "celonis-associate-process-analyst-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "celonis-associate-process-analyst-exam_guide",
+      "url": "https://academy.celonis.com/collections/data-analyst-associate-certification-exam",
+      "title": "Celonis exam guide",
+      "publisher": "Celonis",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:7b1e296b375dd1be602d57b3d5fb3abc9770cc88151a912d5762e8ecb9587d95"
+    },
+    {
+      "id": "celonis-associate-process-analyst-exam_guide-2",
+      "url": "https://academy.celonis.com/courses/customer-certification-preparation-and-guide",
+      "title": "Celonis exam guide",
+      "publisher": "Celonis",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:0b480a4b8107cadd11523faaf43f857729b35284c3d3d5a088bacab06aa4feb6"
+    },
+    {
+      "id": "celonis-associate-process-analyst-exam_guide-3",
+      "url": "https://academy.celonis.com/learn/video/celonis-certification-program",
+      "title": "Celonis exam guide",
+      "publisher": "Celonis",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:24b6706aa90f4e97d55c5583412e3597bf9be4d1542778c2b839a8507cf89ea2"
+    },
+    {
+      "id": "celonis-associate-process-analyst-exam_guide-4",
+      "url": "https://academy.celonis.com/learn/video/navigate-the-celonis-platform",
+      "title": "Celonis exam guide",
+      "publisher": "Celonis",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c03180751b2d0cae0cd941dab55e3c8d7a2dc8c290a592b4035b7d7144e2196d"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T21:39:49+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-29T22:58:07+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-29T22:58:07+00:00"
   }
 }

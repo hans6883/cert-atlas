@@ -1,0 +1,123 @@
+{
+ "exam_id": "paloalto-pcnse",
+ "editorial": {
+  "meta_description": "The Palo Alto Networks Certified Network Security Engineer exam is retired. Prepare for the Network Security Professional successor instead.",
+  "overview": "The Palo Alto Networks Certified Network Security Engineer exam, certified by Palo Alto Networks, covered planning, deployment, configuration, troubleshooting, and core concepts across five domains. Palo Alto Networks retired PCNSE on 2025-07-31. Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer is the named replacement path for candidates seeking current credentials.",
+  "who_should_take": "Network security engineers, administrators, and professionals seeking validation of their product knowledge should pursue the replacement credential, Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer, as PCNSE is retired.",
+  "skills_summary": [
+   "Planning",
+   "Deployment",
+   "Configuration",
+   "Troubleshooting",
+   "Core Concepts"
+  ],
+  "preparation_strategy": "Review all official Palo Alto Networks documentation covering firewall administration, networking principles, high availability setups, user identification mechanisms, and advanced security policy management. Ensure complete familiarity with web interface configurations, command-line operations, and application programming interface usage to properly prepare for the active successor path.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific planning domain covers primary architectural principles, resource allocation strategies, and basic design considerations, accounting for exactly twenty-one percent of the total exam weight designated by Palo Alto Networks.",
+    "study_focus": [
+     "Network architecture planning",
+     "Resource allocation"
+    ],
+    "source_ids": [
+     "paloalto-pcnse-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This deployment domain addresses standard setup procedures, initial device provisioning, and hardware deployment methodologies, representing a substantial twenty-eight percent weight of the overall examination structure administered by Palo Alto Networks.",
+    "study_focus": [
+     "Initial setup",
+     "Hardware deployment"
+    ],
+    "source_ids": [
+     "paloalto-pcnse-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This configuration domain focuses heavily on policy rule creation, interface settings, and security profile implementations, making up a significant twenty-seven percent of the total exam weight defined in the study documentation.",
+    "study_focus": [
+     "Policy rule creation",
+     "Interface settings"
+    ],
+    "source_ids": [
+     "paloalto-pcnse-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This troubleshooting domain involves diagnostic procedures, log analysis techniques, and issue isolation practices, carrying an eighteen percent weight on the overall examination to ensure operational stability across deployed network environments.",
+    "study_focus": [
+     "Log analysis",
+     "Issue isolation"
+    ],
+    "source_ids": [
+     "paloalto-pcnse-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This core concepts domain centers on fundamental network security architecture and system basics, accounting for six percent of the exam weight to establish a baseline understanding for all candidates taking the assessment.",
+    "study_focus": [
+     "Fundamental architecture",
+     "System basics"
+    ],
+    "source_ids": [
+     "paloalto-pcnse-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Because PCNSE is retired, candidates must register for the successor path: Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer. Verify all registration requirements through official Palo Alto Networks channels before test day.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of 75 questions utilizing multiple choice and multiple select formats. Candidates have a duration of 80 minutes to complete the linear format test."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "The exam price is set at 175.0 USD. Candidates should verify current pricing and registration details directly through official Palo Alto Networks documentation channels before scheduling."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The test duration is strictly set to 80 minutes for all candidates taking the assessment. During this allocated period, you will answer exactly 75 linear format questions covering five distinct domains administered by Palo Alto Networks."
+   },
+   {
+    "question_title": "What replaced the retired exam?",
+    "answer_text": "Palo Alto Networks retired this credential on 2025-07-31. The verified successor path is Network Security Professional / Network Security Analyst / Next-Generation Firewall Engineer, which features a renewal required policy every 2 years."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official Palo Alto Networks documentation and verified facts regarding the retirement date, successor paths, and exam specifications.",
+   "source_ids": [
+    "paloalto-pcnse-study"
+   ]
+  },
+  "source_ids": [
+   "paloalto-pcnse-study"
+  ]
+ },
+ "sources": [
+  {
+   "id": "paloalto-pcnse-study",
+   "url": "https://www.paloaltonetworks.com/services/education",
+   "title": "Palo Alto Networks study documentation",
+   "publisher": "Palo Alto Networks",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:8cddd4ec23f0a68bcfd8429949e19e4f18a1cd42981048aa7b26f2ecad394db1"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-29T20:41:11+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-29T22:58:11+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-29T22:58:11+00:00"
+ }
+}
