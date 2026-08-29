@@ -10,3 +10,14 @@ qf_exams.json
 private_exams.json
 MCP_BRIEF.md
 .tmp/
+
+# private artefacts must never land in this public repo
+*.sqlite
+*.sqlite3
+blueprint_registry*
+source_material/
+corpus/
+
+# working artefacts and internal-id payloads
+*.backup.json
+*_created.json
