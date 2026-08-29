@@ -109,5 +109,17 @@
     "netapp-ncp-storagegrid",
     "ns0-700"
   ],
-  "practice_url": "https://quizforge.ai/tests/ncp-â€”-netapp-certified-professional-storagegrid-2mc45b"
+  "practice_url": "https://quizforge.ai/?q=NCP%20%E2%80%94%20NetApp%20Certified%20Professional%20StorageGRID",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "NS0-701",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "NetApp retired NS0-700. NS0-701 is the direct replacement path.",
+    "evidence_url": "https://www.netapp.com/insight/certification/",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }

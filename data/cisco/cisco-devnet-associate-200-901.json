@@ -126,5 +126,17 @@
     "cisco devnet associate",
     "cisco-devnet-associate-200-901"
   ],
-  "practice_url": "https://quizforge.ai/tests/cisco-devnet-associate-200-901-devasc"
+  "practice_url": "https://quizforge.ai/?q=Cisco%20DevNet%20Associate",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-02-02",
+    "replacement": {
+      "exam_code": "200-901 CCNAAUTO",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Cisco retired 200-901 on 2026-02-02. 200-901 CCNAAUTO is the direct replacement path.",
+    "evidence_url": "https://learningnetwork.cisco.com/s/a-new-era-for-cisco-certifications",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }

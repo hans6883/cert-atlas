@@ -119,5 +119,17 @@
     "faa atp test",
     "faa-atp"
   ],
-  "practice_url": "https://quizforge.ai/tests/faa-airline-transport-pilot-knowledge-test-atp-2lbj5t"
+  "practice_url": "https://quizforge.ai/?q=FAA%20Airline%20Transport%20Pilot%20Knowledge%20Test%20%28ATP%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "ATM",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "FAA Pilot Certification retired FAA Airline Transport Pilot Written Knowledge Test Practice Test. ATM is the collective replacement path.",
+    "evidence_url": "https://www.faa.gov/training_testing/testing/testing_matrix",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }

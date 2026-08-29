@@ -109,5 +109,17 @@
     "vault associate",
     "vault associate 002"
   ],
-  "practice_url": "https://quizforge.ai/tests/hashicorp-vault-associate-002"
+  "practice_url": "https://quizforge.ai/?q=HashiCorp%20Certified%3A%20Vault%20Associate%20%28002%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "Vault Associate (003)",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "HashiCorp retired Vault Associate 002. Vault Associate (003) is the direct replacement path.",
+    "evidence_url": "https://developer.hashicorp.com/certifications/security-automation",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }
