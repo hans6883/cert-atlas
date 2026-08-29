@@ -1,0 +1,38 @@
+#!/bin/sh
+# cert-atlas is the ONLY public repo in the QuizForge set. Everything here is generated or
+# consumer-side. This hook refuses commits that would republish private surface: the private
+# repo's name, the operator's filesystem layout, the private registry, or its schema.
+#
+# It exists because producer scripts once lived here and published the private registry path
+# to a public MIT-licensed repo.
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+[ -z "$staged" ] && exit 0
+
+PRIV='qf_id|blueprint_registry|quizforge-exam-grounding|web-scraper-mcp|source_materials|Path\.home\(\)'
+SECRET='SERPER_API_KEY|OPENROUTER_API_KEY|NVIDIA_API_KEY|GEMINI_API_KEY|sk-[A-Za-z0-9]{20}|ghp_[A-Za-z0-9]{20}'
+bad=0
+for f in $staged; do
+  case "$f" in
+    *.db|*.sqlite|*.sqlite3|.env|.env.*) echo "BLOCKED: $f - private artefact"; bad=1; continue;;
+  esac
+  [ -f "$f" ] || continue
+  # the guard and the ignore-file must name the patterns to enforce them
+  case "$f" in .githooks/*|.gitignore) continue;; esac
+  if grep -nEI "$PRIV" "$f" >/dev/null 2>&1; then
+    echo "BLOCKED: $f - references private repo, schema, or local filesystem layout:"
+    grep -nEI "$PRIV" "$f" | head -3 | sed 's/^/    /'
+    bad=1
+  fi
+  if grep -nEI "$SECRET" "$f" >/dev/null 2>&1; then
+    echo "BLOCKED: $f - looks like a credential"; bad=1
+  fi
+done
+
+if [ "$bad" = 1 ]; then
+  echo ""
+  echo "cert-atlas is PUBLIC. Producer code and private references belong in"
+  echo "quizforge-blueprints (private). If a hit is a false positive, fix the"
+  echo "pattern in .githooks/pre-commit rather than skipping the check."
+  exit 1
+fi
+exit 0
