@@ -106,5 +106,17 @@
     "veeam-vmce-ai",
     "vmca"
   ],
-  "practice_url": "https://quizforge.ai/tests/veeam-certified-architect-vmca-2ipmwd"
+  "practice_url": "https://quizforge.ai/?q=Veeam%20Certified%20Architect%20%28VMCA%29",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "VMCSE",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "Veeam retired VMCA. VMCSE is the related successor path.",
+    "evidence_url": "https://www.veeam.com/support/training/vmce-training-faq.html",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }

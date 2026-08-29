@@ -120,5 +120,17 @@
     "sap system upgrade specialist",
     "sap-e-s4hcon2023"
   ],
-  "practice_url": "https://quizforge.ai/?q=SAP%20Certified%20Specialist%20%E2%80%94%20SAP%20S/4HANA%20Conversion%20and%20SAP%20System%20Upgrade"
+  "practice_url": "https://quizforge.ai/?q=SAP%20Certified%20Specialist%20%E2%80%94%20SAP%20S/4HANA%20Conversion%20and%20SAP%20System%20Upgrade",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "E_S4CON",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "SAP retired E_S4HCON2023. E_S4CON is the direct replacement path.",
+    "evidence_url": "https://learning.sap.com/certifications/sap-certified-specialist-sap-s-4hana-conversion-and-sap-system-upgrade",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }
