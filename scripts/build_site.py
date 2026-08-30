@@ -507,11 +507,20 @@ def build_lifecycle_alert(exam):
         f'<p>{h(lifecycle.get("summary") or "")}</p>',
     ]
     if replacement:
-        parts.append(
-            f'<a class="replacement-link" href="{h(replacement.get("url") or "")}" rel="nofollow">'
+        link_text = (
             f'{h(replacement_cta)} {h(replacement_code)}: '
-            f'{h(replacement.get("name") or "current path")}</a>'
+            f'{h(replacement.get("name") or "current path")}'
         )
+        replacement_url = str(replacement.get("url") or "").strip()
+        if replacement_url:
+            parts.append(
+                f'<a class="replacement-link" href="{h(replacement_url)}" rel="nofollow">'
+                f"{link_text}</a>"
+            )
+        else:
+            # Defensive: a null/empty replacement URL (data-side defect) must never
+            # produce an anchor with href="" -- render the successor as plain text.
+            parts.append(f'<span class="replacement-link">{link_text}</span>')
     else:
         parts.append('<p class="lifecycle-no-replacement">'
                      'No direct replacement is named in the reviewed official sources.</p>')
@@ -1141,6 +1150,22 @@ def build_exam_page(vendor_slug, vendor_info, exam, title_override=None):
     )
 
 
+def _fit_retired_title(lead, tail, limit=70):
+    """Fit a retired-page title inside the same Bing "Title too long" (>70 chars)
+    limit the base titles above enforce. The tail (retirement status, replacement,
+    ' | Cert Atlas' suffix) carries the page's distinguishing facts, so it is kept
+    intact and the lead (exam code or name) is shortened at a word boundary,
+    mirroring the long-name handling of the non-retired path."""
+    room = limit - len(tail) - 1  # -1 for the joining space
+    lead = str(lead)
+    if len(lead) <= room:
+        return f"{lead} {tail}"
+    cut = lead[: max(room, 0)]
+    if " " in cut:
+        cut = cut[: cut.rfind(" ")]
+    return f"{cut.rstrip(' -:,(–')} {tail}"
+
+
 def _exam_page_title(exam):
     """The exam page <title>, as a pure function of the exam record so build() can compute
     every title up front and disambiguate collisions before any page is written."""
@@ -1175,9 +1200,14 @@ def _exam_page_title(exam):
             replacement_code = replacement["exam_code"]
             relationship = replacement.get("relationship") or "direct_replacement"
             relation_label = "Related Path" if relationship == "related_successor" else "Replacement"
-            page_title = f"{code or name} Retired: {replacement_code} {relation_label} & Skill Map | Cert Atlas"
+            page_title = _fit_retired_title(
+                code or name,
+                f"Retired: {replacement_code} {relation_label} & Skill Map | Cert Atlas",
+            )
         else:
-            page_title = f"{code or name} Retired: Blueprint & Next Steps | Cert Atlas"
+            page_title = _fit_retired_title(
+                code or name, "Retired: Blueprint & Next Steps | Cert Atlas"
+            )
     elif scheduled_retirement:
         retirement_value = str(lifecycle.get("retires_on") or "")
         try:
@@ -1197,12 +1227,14 @@ def _exam_page_title(exam):
             if replacement_code
             else "Transition Guide"
         )
-        page_title = (
-            f"{code or name} Retires {retirement_short}: "
-            f"{transition_label} | Cert Atlas"
+        page_title = _fit_retired_title(
+            code or name,
+            f"Retires {retirement_short}: {transition_label} | Cert Atlas",
         )
     elif has_public_enrichment(exam):
-        page_title = f"{code or name} Exam Guide, Domains & Skills | Cert Atlas"
+        page_title = _fit_retired_title(
+            code or name, "Exam Guide, Domains & Skills | Cert Atlas"
+        )
     return page_title
 
 

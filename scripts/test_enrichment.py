@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.build_site import build_exam_page, build_vendor_page
+from scripts.build_site import build_exam_page, build_vendor_page, _exam_page_title
 from scripts.enrichment import (
     load_and_merge_overlay,
     merge_overlay,
@@ -619,6 +619,42 @@ class EnrichedPageTests(unittest.TestCase):
 
         self.assertIn("Explore related current path EX-101", html)
         self.assertNotIn("Prepare for EX-101", html)
+
+    def test_retired_page_title_keeps_replacement_info_within_seventy_chars(self):
+        exam = merge_overlay(base_exam(), retired_overlay())
+        exam["exam_code"] = ""
+        exam["exam_name"] = "Microsoft Certified Azure Data Engineer Associate"
+
+        title = _exam_page_title(exam)
+
+        self.assertLessEqual(len(title), 70)
+        self.assertTrue(title.endswith(" | Cert Atlas"))
+        self.assertIn("Retired: EX-101", title)
+
+    def test_scheduled_retirement_title_stays_within_seventy_chars(self):
+        exam = merge_overlay(base_exam(), scheduled_retirement_overlay())
+        exam["exam_code"] = ""
+        exam["exam_name"] = "Microsoft Certified Azure Data Engineer Associate"
+
+        title = _exam_page_title(exam)
+
+        self.assertLessEqual(len(title), 70)
+        self.assertTrue(title.endswith(" | Cert Atlas"))
+        self.assertIn("Retires", title)
+
+    def test_retired_page_replacement_without_url_renders_text_not_empty_href(self):
+        # Null replacement urls exist in data/*.json (data-side defect; the overlay
+        # validator rejects them, so simulate the published data shape directly).
+        exam = merge_overlay(base_exam(), retired_overlay())
+        exam["lifecycle"]["replacement"]["url"] = None
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertNotIn('href=""', html)
+        self.assertIn(
+            '<span class="replacement-link">Prepare for EX-101: Example Next Professional</span>',
+            html,
+        )
 
     def test_scheduled_retirement_page_warns_without_disabling_current_exam(self):
         exam = merge_overlay(base_exam(), scheduled_retirement_overlay())

@@ -94,6 +94,10 @@ function hasApprovedEnrichment(bp: Blueprint): boolean {
   );
 }
 
+// editorial.faq is newer than the EditorialContent type in catalog.ts; declared
+// locally so this file alone surfaces it without touching the shared catalog types.
+type EditorialFaqItem = { question_title?: string | null; answer_text?: string | null };
+
 export function blueprintText(e: IndexEntry, bp: Blueprint): string {
   const L: string[] = [];
   const retired = bp.lifecycle?.status === "retired" || e.lifecycle_status === "retired";
@@ -222,6 +226,16 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
       L.push("");
       L.push("## Exam-day guidance");
       L.push(editorial.exam_day_guidance);
+    }
+    const faq = (editorial as { faq?: EditorialFaqItem[] | null }).faq;
+    if (faq?.length) {
+      L.push("");
+      L.push("## Frequently asked questions");
+      for (const item of faq) {
+        if (!item.question_title?.trim() || !item.answer_text?.trim()) continue;
+        L.push(`Q: ${item.question_title}`);
+        L.push(`A: ${item.answer_text}`);
+      }
     }
     if (bp.study_signals) {
       const signals = bp.study_signals;
