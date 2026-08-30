@@ -252,7 +252,7 @@
     "ai-900",
     "microsoft-ai-900-azure-ai-fundamentals"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Azure%20AI%20Fundamentals",
+  "practice_url": "https://quizforge.ai/tests/microsoft-ai-900-azure-ai-fundamentals",
   "editorial": {
     "meta_description": "AI-900 is retired. Compare its historical blueprint with AI-901, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "AI-900 was Microsoft's Microsoft Azure AI Fundamentals exam until its retirement on 2026-06-30. Its final published scope covered Describe Artificial Intelligence workloads and considerations, Describe fundamental principles of machine learning on Azure, Describe features of computer vision workloads on Azure, Describe features of Natural Language Processing (NLP) workloads on Azure, Describe features of generative AI workloads on Azure. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -384,7 +384,8 @@
     "replacement": {
       "exam_code": "AI-901",
       "relationship": "direct_replacement",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901",
+      "name": "Microsoft Azure AI Fundamentals"
     },
     "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
     "verified_at": "2026-08-26T00:00:00Z"

@@ -97,14 +97,15 @@
     "jira administrator data center",
     "jira server admin"
   ],
-  "practice_url": "https://quizforge.ai/?q=Atlassian%20Certified%20Jira%20Administrator%20for%20Data%20Center%20and%20Server",
+  "practice_url": "https://quizforge.ai/tests/atlassian-certified-jira-administrator-acp-100",
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-09-11",
     "replacement": {
       "exam_code": "ACP-120",
       "relationship": "related_successor",
-      "url": null
+      "url": "/atlassian/atlassian-acp-120",
+      "name": "Atlassian Certified in Confluence Administration for Data Center and Server"
     },
     "summary": "Atlassian retired ACP-100 on 2025-09-11. ACP-120 is the named replacement path.",
     "evidence_url": "https://community.atlassian.com/forums/Training-Certification-articles/Data-Center-certifications-are-being-retired-in-the-coming/ba-p/2974579",

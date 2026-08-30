@@ -110,14 +110,15 @@
     "machine learning specialty",
     "mls-c01"
   ],
-  "practice_url": "https://quizforge.ai/?q=AWS%20Certified%20Machine%20Learning%20%E2%80%93%20Specialty",
+  "practice_url": "https://quizforge.ai/tests/aws-certified-machine-learning-specialty-mls-c01",
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-03-31",
     "replacement": {
       "exam_code": "MLA-C01",
       "relationship": "related_successor",
-      "url": null
+      "url": "/aws/aws-ml-engineer-associate-mla-c01",
+      "name": "AWS Certified Machine Learning Engineer – Associate"
     },
     "summary": "AWS retired MLS-C01 on 2026-03-31. MLA-C01 is the named replacement path.",
     "evidence_url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",

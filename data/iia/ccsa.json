@@ -101,14 +101,15 @@
     "certification in control self-assessment",
     "control self-assessment"
   ],
-  "practice_url": "https://quizforge.ai/?q=CCSA%20%28Certification%20in%20Control%20Self-Assessment%29",
+  "practice_url": "https://quizforge.ai/tests/ccsa",
   "lifecycle": {
     "status": "retired",
     "retired_on": "2021-06-30",
     "replacement": {
       "exam_code": "CRMA",
       "relationship": "related_successor",
-      "url": null
+      "url": "/iia/crma",
+      "name": "CRMA (Certification in Risk Management Assurance)"
     },
     "summary": "IIA retired CCSA on 2021-06-30. CRMA is the named replacement path.",
     "evidence_url": "https://www.theiia.org/globalassets/documents/certifications/ccsa-cfsa-cgap-transition-faqs.pdf",

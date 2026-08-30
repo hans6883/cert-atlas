@@ -114,14 +114,15 @@
     "aws-data-analytics-specialty-das-c01",
     "das-c01"
   ],
-  "practice_url": "https://quizforge.ai/?q=AWS%20Certified%20Data%20Analytics%20%E2%80%93%20Specialty",
+  "practice_url": "https://quizforge.ai/tests/aws-certified-data-analytics-â€“-specialty-2dwh62",
   "lifecycle": {
     "status": "retired",
     "retired_on": "2024-04-08",
     "replacement": {
       "exam_code": "DEA-C01",
       "relationship": "related_successor",
-      "url": null
+      "url": "/snowflake/snowflake-snowpro-advanced-data-engineer-dea-c01",
+      "name": "SnowPro Advanced: Data Engineer (DEA-C01)"
     },
     "summary": "AWS retired DAS-C01 on 2024-04-08. DEA-C01 is the named replacement path.",
     "evidence_url": "https://aws.amazon.com/blogs/training-and-certification/aws-certification-retirements-and-launches/",
