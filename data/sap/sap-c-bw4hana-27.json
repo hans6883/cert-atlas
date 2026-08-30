@@ -277,5 +277,17 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-29T22:58:11+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "C_BW4H",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "SAP retired C_BW4HANA_27. C_BW4H is the direct replacement path.",
+    "evidence_url": "https://learning.sap.com/certifications/sap-certified-associate-reporting-modelling-and-data-acquisition-with-sap-bw-4hana",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

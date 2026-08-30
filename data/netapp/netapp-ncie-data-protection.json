@@ -277,5 +277,17 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-29T22:58:09+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "NS0-529",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "NetApp retired NS0-527. NS0-529 is the direct replacement path.",
+    "evidence_url": "https://www.netapp.com/insight/certification/",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

@@ -120,5 +120,17 @@
     "sap s 4hana service",
     "sap-c-s4cs-2302"
   ],
-  "practice_url": "https://quizforge.ai/?q=SAP%20Certified%20Application%20Associate%20%E2%80%94%20SAP%20S/4HANA%20Cloud%2C%20Private%20Edition%20%E2%80%94%20Service"
+  "practice_url": "https://quizforge.ai/?q=SAP%20Certified%20Application%20Associate%20%E2%80%94%20SAP%20S/4HANA%20Cloud%2C%20Private%20Edition%20%E2%80%94%20Service",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "C_S4CS",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "SAP retired C_S4CS_2302. C_S4CS is the direct replacement path.",
+    "evidence_url": "https://learning.sap.com/certifications/sap-certified-associate-implementation-consultant-sap-s-4hana-cloud-public-edition-sales-1",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }

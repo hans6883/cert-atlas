@@ -275,5 +275,17 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-29T22:58:10+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "NS0-005",
+      "relationship": "related_successor",
+      "url": null
+    },
+    "summary": "NetApp retired NS0-003. NS0-005 is the related successor path.",
+    "evidence_url": "https://community.netapp.com/t5/NetApp-Learning-Services-Discussions/About-NCTA-Exam/m-p/466173",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

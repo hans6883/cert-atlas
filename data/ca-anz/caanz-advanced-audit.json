@@ -222,5 +222,17 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-29T22:58:07+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2021-06",
+    "replacement": {
+      "exam_code": "CACC1505",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "CA ANZ retired CA-AdvAudit on 2021-06. CACC1505 is the collective replacement path.",
+    "evidence_url": "https://www.charteredaccountantsanz.com/become-a-member/course-descriptions/ca-program",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

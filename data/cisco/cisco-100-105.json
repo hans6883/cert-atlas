@@ -190,5 +190,17 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-29T22:58:08+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2020-02-23",
+    "replacement": {
+      "exam_code": "200-301",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Cisco retired 100-105 ICND1 on 2020-02-23. 200-301 is the direct replacement path.",
+    "evidence_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/retired.html",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

@@ -12,5 +12,17 @@
   "aliases": [
     "1z0-061"
   ],
-  "practice_url": "https://quizforge.ai/tests/1z0-061-2pnmas"
+  "practice_url": "https://quizforge.ai/tests/1z0-061-2pnmas",
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2019-11-30",
+    "replacement": {
+      "exam_code": "1Z0-071",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Oracle retired Oracle Database 12c: SQL Fundamentals on 2019-11-30. 1Z0-071 is the direct replacement path.",
+    "evidence_url": "https://education.oracle.com/exam_test",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }
