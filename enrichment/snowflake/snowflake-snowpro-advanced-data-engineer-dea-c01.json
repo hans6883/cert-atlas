@@ -1,0 +1,150 @@
+{
+ "exam_id": "snowflake-snowpro-advanced-data-engineer-dea-c01",
+ "editorial": {
+  "meta_description": "Prepare for the SnowPro Advanced: Data Engineer certification by reviewing its direct successor and core platform requirements.",
+  "overview": "The SnowPro Advanced: Data Engineer certification exam, administered by Snowflake, is now retired and no longer available for scheduling. Its verified successor is DEA-C02. The linear exam format historically featured 65 questions, a duration of 115 minutes, and a passing score of 65. Candidates evaluated data engineering concepts across 5 distinct domains.",
+  "who_should_take": "Data engineers and advanced Snowflake professionals seeking to validate technical proficiency. Candidates should focus study efforts on the successor DEA-C02, as the current program requires transition planning.",
+  "skills_summary": [
+   "Data Movement",
+   "Performance Optimization",
+   "Storage and Data Protection",
+   "Security",
+   "Data Governance and Privacy"
+  ],
+  "preparation_strategy": "Do not attempt to schedule or study for the retired exam code, as it is retired. Focus all preparation efforts entirely on DEA-C02. Transfer your knowledge of bulk loading, continuous loading with Snowpipe, virtual warehouse performance tuning, and access control directly to your studies for the successor exam today.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers standard data movement mechanisms in Snowflake, focusing heavily on bulk loading with COPY INTO, continuous loading using Snowpipe and Snowpipe Streaming, and integrating with external cloud storage stages securely.",
+    "study_focus": [
+     "Configuring internal and external stages",
+     "Implementing bulk and continuous loading strategies",
+     "Handling data ingestion via Kafka and streaming"
+    ],
+    "source_ids": [
+     "snowflake-snowpro-advanced-data-engineer-dea-c01-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses intensely on optimizing query execution and warehouse performance through resource sizing, memory management, query acceleration, and effectively managing virtual warehouse queues to ensure optimal enterprise computing efficiency.",
+    "study_focus": [
+     "Reducing warehouse query queues",
+     "Resolving memory spillage issues",
+     "Scaling virtual warehouse sizes"
+    ],
+    "source_ids": [
+     "snowflake-snowpro-advanced-data-engineer-dea-c01-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain deals extensively with storage management and data protection features built into Snowflake, including time travel, failsafe capabilities, and handling external tables for modern cloud-based data lakes effectively.",
+    "study_focus": [
+     "Managing storage metrics and usage",
+     "Configuring data protection features",
+     "Utilizing external tables for cloud storage"
+    ],
+    "source_ids": [
+     "snowflake-snowpro-advanced-data-engineer-dea-c01-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain addresses specific security principles within Snowflake, focusing deeply on access control hierarchies, user privileges, and object level security configurations required to protect sensitive corporate assets during standard operations.",
+    "study_focus": [
+     "Configuring security access control privileges",
+     "Managing table ownership and grants",
+     "Securing database objects"
+    ],
+    "source_ids": [
+     "snowflake-snowpro-advanced-data-engineer-dea-c01-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain covers broad data governance and privacy practices, ensuring proper handling of data objects and strict compliance with organizational requirements and regulatory standards within the platform ecosystem.",
+    "study_focus": [
+     "Implementing data governance policies",
+     "Managing privacy standards",
+     "Utilizing governance framework tools"
+    ],
+    "source_ids": [
+     "snowflake-snowpro-advanced-data-engineer-dea-c01-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Because the previous version is retired, it cannot be scheduled on exam day. Candidates must register for the successor exam, DEA-C02, which follows a linear format and requires meeting all current testing policies.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam traditionally consists of 65 questions presented in a linear format. Question types include multiple choice and multiple select options for candidates taking the test."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for the historical exam is 65. Candidates must achieve this specific score out of the total questions administered during the linear test session."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration of the exam is 115 minutes. Candidates must complete all required questions within this strictly allocated timeframe during their scheduled test session."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "The standard price for registering for the certification exam is $250. This mandatory fee applies to all registrations for the official certification program administered by Snowflake."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official Snowflake documentation, exam guides, and verified historical metadata regarding the retirement and succession of the certification program.",
+   "source_ids": [
+    "snowflake-snowpro-advanced-data-engineer-dea-c01-study",
+    "snowflake-snowpro-advanced-data-engineer-dea-c01-exam_guide",
+    "snowflake-snowpro-advanced-data-engineer-dea-c01-exam_guide-3"
+   ]
+  },
+  "source_ids": [
+   "snowflake-snowpro-advanced-data-engineer-dea-c01-study",
+   "snowflake-snowpro-advanced-data-engineer-dea-c01-exam_guide",
+   "snowflake-snowpro-advanced-data-engineer-dea-c01-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "snowflake-snowpro-advanced-data-engineer-dea-c01-study",
+   "url": "https://learn.snowflake.com/",
+   "title": "Snowflake study documentation",
+   "publisher": "Snowflake",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c67df9fbb548ec2d75426f7ba737012c4443a9700ff103e801c27668c25057f1"
+  },
+  {
+   "id": "snowflake-snowpro-advanced-data-engineer-dea-c01-exam_guide",
+   "url": "https://learn.snowflake.com/en/certifications/snowpro-practice-exams/",
+   "title": "Snowflake exam guide",
+   "publisher": "Snowflake",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6b65260fd64a14be4642618a71aa1aca51197b484665cbc7d0d0dc8066540499"
+  },
+  {
+   "id": "snowflake-snowpro-advanced-data-engineer-dea-c01-exam_guide-3",
+   "url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-dataengineer-C02/",
+   "title": "Snowflake exam guide",
+   "publisher": "Snowflake",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6f8db00892742ef131342b1731afc4fadf33ebc5cb3f10eaa183157b98e8267c"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T07:17:12+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T07:19:21+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T07:19:21+00:00"
+ }
+}
