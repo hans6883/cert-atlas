@@ -112,7 +112,138 @@
     "ncarb-are-structural",
     "sf"
   ],
-  "practice_url": "https://quizforge.ai/?q=ARE%205.0%20%E2%80%94%20Structural%20%28SF%29",
+  "practice_url": "https://quizforge.ai/tests/are-50-â€”-structural-sf-2gm14n",
+  "editorial": {
+    "meta_description": "The ARE SF exam was retired on 2018-06-30. Candidates should pursue the ARE-5 exam as the official successor path for structural certification.",
+    "overview": "The ARE SF exam, certified by NCARB, covered structural theory, load paths, material selection, and lateral systems. This exam is officially retired as of 2018-06-30. It has been replaced by the ARE-5 exam. Candidates seeking structural certification must now follow the current NCARB path, as the ARE SF exam is no longer available for testing or credit toward professional licensure. The transition ensures that all candidates meet modern standards for architectural practice and structural safety through the current successor program.",
+    "who_should_take": "Architects and design professionals pursuing licensure should focus on the current ARE-5 requirements. This retired exam is not for current candidates, who must instead meet the standards set by the successor program to demonstrate their professional competency and readiness for practice.",
+    "skills_summary": [
+      "Structural theory and analysis",
+      "Load path and force evaluation",
+      "Material properties and selection",
+      "Lateral and vertical load systems",
+      "Sustainability and resilience integration"
+    ],
+    "preparation_strategy": "Focus your efforts on the ARE-5 exam. While the core principles of structural mechanics remain relevant, you must align your study plan with the current objectives of the successor exam. Review the official NCARB guidelines to understand the updated structure and content requirements, as the retired ARE SF exam format is no longer applicable to your path toward professional licensure. Utilize the official NCARB study documentation to ensure your preparation aligns with current expectations.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the fundamental principles of structural theory and the analytical methods used to determine how various building structures behave under different environmental conditions and loads, ensuring that candidates understand the core mechanics required for safe and effective architectural design.",
+        "study_focus": [
+          "Static equilibrium",
+          "Structural mechanics"
+        ],
+        "source_ids": [
+          "ncarb-are-structural-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain addresses the identification of complex load paths and the calculation of forces acting upon structural elements within a building system, helping candidates master the evaluation of force resultants and support conditions necessary for maintaining overall structural integrity and stability.",
+        "study_focus": [
+          "Force resultants",
+          "Support conditions"
+        ],
+        "source_ids": [
+          "ncarb-are-structural-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain focuses on the physical characteristics of building materials and the specific criteria used to select them for various structural applications, ensuring that architects can make informed decisions regarding material properties and the performance of individual structural elements in practice.",
+        "study_focus": [
+          "Material properties",
+          "Structural elements"
+        ],
+        "source_ids": [
+          "ncarb-are-structural-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain examines the design and function of systems that manage lateral and vertical loads to ensure building stability, covering the analysis of determinate planar structures and statically indeterminate systems to maintain safety standards across diverse building types and configurations.",
+        "study_focus": [
+          "Determinate planar structures",
+          "Statically indeterminate systems"
+        ],
+        "source_ids": [
+          "ncarb-are-structural-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain covers the application of sustainability and resilience principles to structural design and building performance, focusing on elastic stability and approximate methods to ensure that modern structures are both environmentally responsible and capable of withstanding long-term operational stresses.",
+        "study_focus": [
+          "Elastic stability",
+          "Approximate methods"
+        ],
+        "source_ids": [
+          "ncarb-are-structural-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The ARE SF exam is retired and cannot be scheduled. Candidates must register for the ARE-5 exam through the NCARB portal. Ensure you review the current testing center policies for the successor exam to prepare for your appointment and understand the updated requirements.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The retired ARE SF exam consisted of 95 multiple-choice questions and 2 case studies. This structure was designed to test a candidate's ability to apply structural knowledge in both theoretical and practical scenarios during the testing process."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "NCARB does not publish specific passing scores for its exams. Candidates are evaluated based on their overall performance across the various domains, ensuring that they demonstrate the necessary competency required for professional licensure in the field of architecture."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The retired ARE SF exam had a total duration of 210 minutes. This time limit was established to allow candidates sufficient opportunity to complete the 95 multiple-choice questions and the associated case study sections within the testing environment."
+      },
+      {
+        "question_title": "What is the price of the exam?",
+        "answer_text": "The price for the retired ARE SF exam was $235. This fee covered the costs associated with the administration of the computer-based testing format, which included both the multiple-choice questions and the required case study components for all candidates."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed by synthesizing official NCARB documentation regarding the retirement of ARE SF and the transition to ARE-5, alongside technical course materials and verified historical exam data to ensure accuracy for all candidates.",
+      "source_ids": [
+        "ncarb-are-structural-exam_guide",
+        "ncarb-are-structural-study"
+      ]
+    },
+    "source_ids": [
+      "ncarb-are-structural-exam_guide",
+      "ncarb-are-structural-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ncarb-are-structural-exam_guide",
+      "url": "https://www.ncarb.org/sites/default/files/ARE-5-Guidelines.pdf",
+      "title": "NCARB exam guide",
+      "publisher": "NCARB",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:097844b0c9bfc1f397c8cdd9d262e22249e65e1f6dfeb70766b0381ffbdc0242"
+    },
+    {
+      "id": "ncarb-are-structural-study",
+      "url": "https://www.ncarb.org/pass-the-are/are-5",
+      "title": "NCARB study documentation",
+      "publisher": "NCARB",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:adaf147be048ab3c0b23d1834eb82be9da35a1d0d04afdcb383c10d85ffde0f0"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T01:15:10+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:03+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:03+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2018-06-30",

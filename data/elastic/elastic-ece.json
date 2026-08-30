@@ -107,15 +107,153 @@
     "elastic-ece",
     "elasticsearch engineer"
   ],
-  "practice_url": "https://quizforge.ai/?q=Elastic%20Certified%20Engineer%20%28ECE%29",
+  "practice_url": "https://quizforge.ai/tests/elastic-certified-engineer-ece",
+  "editorial": {
+    "meta_description": "The Elastic Certified Engineer exam is scheduled for retirement on 2026-09-01, so please pursue the Elastic Certified Engineer 9.3 certification instead.",
+    "overview": "The Elastic Certified Engineer exam, provided by Elastic, evaluates technical proficiency in managing Elasticsearch environments. It covers six domains, including installation, indexing, queries, aggregations, mappings, and cluster administration. This hands-on practical exam requires candidates to perform tasks within a live environment. As of 2026-09-01, this exam is retired, and candidates should transition to the Elastic Certified Engineer 9.3 certification path for their professional development and validation of skills. This certification remains valid for 3 years, requiring renewal to maintain your professional status.",
+    "who_should_take": "This exam is for engineers and administrators who manage Elasticsearch clusters. Candidates need practical experience with cluster configuration, data indexing, and query optimization. It is suitable for those who work directly with the Elastic Stack in production environments and require formal validation of their technical capabilities.",
+    "skills_summary": [
+      "Installing and configuring Elasticsearch",
+      "Indexing and managing data",
+      "Executing complex queries",
+      "Building data aggregations",
+      "Defining mappings and text analysis",
+      "Performing cluster administration"
+    ],
+    "preparation_strategy": "Review the official Elastic study documentation to understand the hands-on requirements. Practice performing tasks in a live Elasticsearch environment, as the exam format is entirely practical. Focus on the six domains, ensuring you can handle indexing, query DSL, and cluster management tasks under time constraints. The exam lasts 180 minutes and costs $400, so efficient, hands-on practice is necessary to succeed in the live environment. Ensure you are comfortable with the environment before your session.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the setup and configuration of Elasticsearch nodes and clusters. It focuses on the practical application of deployment settings and architecture requirements for a functional environment, ensuring that all nodes are correctly configured for production use.",
+        "study_focus": [
+          "Node role configuration",
+          "Cluster formation"
+        ],
+        "source_ids": [
+          "elastic-ece-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain involves the methods for bringing data into Elasticsearch. It covers the use of document APIs, connectors, and ingest tools to prepare data for search and analysis, ensuring that all incoming data is properly indexed and searchable.",
+        "study_focus": [
+          "Document indexing",
+          "Ingest pipeline usage"
+        ],
+        "source_ids": [
+          "elastic-ece-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses the use of Query DSL to retrieve and filter data. It requires understanding query and filter contexts to perform precise searches within the cluster, enabling users to extract relevant information from their indexed datasets efficiently.",
+        "study_focus": [
+          "Query DSL syntax",
+          "Query vs filter context"
+        ],
+        "source_ids": [
+          "elastic-ece-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain focuses on summarizing data using metric, bucket, and pipeline aggregations. It involves building complex analytics to gain insights from indexed documents, allowing administrators to visualize trends and patterns within their stored data structures effectively.",
+        "study_focus": [
+          "Metric aggregation types",
+          "Bucket aggregation logic"
+        ],
+        "source_ids": [
+          "elastic-ece-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain covers defining how documents and fields are stored. It includes explicit mapping, dynamic mapping, and the use of runtime fields to manage data structures, ensuring that data types are optimized for search and storage performance.",
+        "study_focus": [
+          "Explicit mapping definition",
+          "Field data types"
+        ],
+        "source_ids": [
+          "elastic-ece-study"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain involves managing cluster health, shard allocation, and node roles. It requires knowledge of maintaining high availability and performance in a distributed system, ensuring that the cluster remains stable and responsive under various operational conditions.",
+        "study_focus": [
+          "Shard allocation awareness",
+          "Cluster monitoring"
+        ],
+        "source_ids": [
+          "elastic-ece-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The exam is a hands-on practical assessment conducted in a remote proctored environment. You will interact with a live Elasticsearch environment to complete tasks. Ensure your workspace meets all technical requirements before starting the 180-minute session.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of hands-on practical tasks performed within a live Elasticsearch environment. It does not use traditional multiple-choice questions, focusing instead on your ability to execute specific administrative and analytical tasks in a real-world scenario."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Information regarding a specific numerical passing score is not provided. Candidates are evaluated based on their successful completion of the hands-on practical tasks within the live environment, ensuring they demonstrate the necessary technical skills required for the certification."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam duration is 180 minutes. During this time, you must complete the required hands-on practical tasks in a live Elasticsearch environment under remote proctoring, ensuring you manage your time effectively to address all the assigned technical challenges."
+      },
+      {
+        "question_title": "What is the cost of the exam?",
+        "answer_text": "The exam price is $400. This fee covers the remote proctored, hands-on practical assessment of your skills in managing and querying Elasticsearch, providing a formal validation of your technical expertise in the Elastic Stack."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed by synthesizing official Elastic certification documentation and exam domain specifications to provide a clear overview of the retired exam and its successor, ensuring accuracy and relevance for all candidates.",
+      "source_ids": [
+        "elastic-ece-study",
+        "elastic-ece-landing"
+      ]
+    },
+    "source_ids": [
+      "elastic-ece-study",
+      "elastic-ece-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "elastic-ece-study",
+      "url": "https://www.elastic.co/training/",
+      "title": "Elastic study documentation",
+      "publisher": "Elastic",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:7a81b34fbbb6b80a67a8c573fcfedfcac5d6b175dfe600b9a9ed96f7eaed3a87"
+    },
+    {
+      "id": "elastic-ece-landing",
+      "url": "https://www.elastic.co/training/elastic-certified-engineer-exam",
+      "title": "Elastic certification page",
+      "publisher": "Elastic",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:43df161c4ff5682bbba1311e24c615ec6eaa9aa53c951240ae9a3cd28ce2bf79"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T01:58:58+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:54+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:54+00:00"
+  },
   "lifecycle": {
     "status": "scheduled_retirement",
     "retires_on": "2026-09-01",
-    "replacement": {
-      "exam_code": "Elastic Certified Engineer 9.3",
-      "relationship": "direct_replacement",
-      "url": null
-    },
     "summary": "Elastic retires ELASTIC-ECE on 2026-09-01. Elastic Certified Engineer 9.3 is the named replacement path.",
     "evidence_url": "https://www.elastic.co/training/certification/faq",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"

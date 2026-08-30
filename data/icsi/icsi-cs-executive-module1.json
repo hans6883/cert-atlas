@@ -117,5 +117,146 @@
     "cs executive module i",
     "icsi-cs-executive-module1"
   ],
-  "practice_url": "https://quizforge.ai/?q=CS%20Executive%20Module%20I"
+  "practice_url": "https://quizforge.ai/?q=CS%20Executive%20Module%20I",
+  "editorial": {
+    "meta_description": "The CS Executive Module I exam from ICSI covers jurisprudence, company law, business entity setup, and tax laws for aspiring company secretaries.",
+    "overview": "The CS Executive Module I is a professional certification exam administered by the ICSI. It evaluates candidates across four distinct domains, each carrying a 25.0 percent weight. The curriculum spans legal interpretation, the Companies Act 2013, business entity formation, and taxation frameworks including Income Tax and GST. This module serves as a primary step for individuals pursuing a career as a company secretary, requiring a thorough understanding of the legal and regulatory environment governing corporate entities in India today.",
+    "who_should_take": "This exam is for students enrolled in the ICSI executive programme. It is intended for those seeking to demonstrate proficiency in corporate law, taxation, and business administration to advance toward professional company secretary status and career development.",
+    "skills_summary": [
+      "Legal interpretation and jurisprudence",
+      "Companies Act 2013 compliance",
+      "Business entity formation and closure",
+      "Income Tax and GST application",
+      "Insolvency and partnership regulations"
+    ],
+    "preparation_strategy": "Review the Companies Act 2013 and relevant legal statutes provided in the ICSI study documentation. Practice with past question papers to understand the exam format. Allocate study time across the four domains equally, as each represents 25.0 percent of the total weight. Ensure familiarity with the procedural aspects of business setup and tax compliance by utilizing official resources and reviewing case studies to master the required legal frameworks.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the fundamental principles of jurisprudence, legal interpretation, and general laws including the IPC, CPC, and the Evidence Act. Candidates must understand how these statutes apply to various legal scenarios encountered by company secretaries.",
+        "study_focus": [
+          "Legal interpretation techniques",
+          "IPC and CPC provisions",
+          "Evidence Act applications"
+        ],
+        "source_ids": [
+          "icsi-cs-executive-module1-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on the Companies Act 2013, covering the entire lifecycle of a company from its initial formation to its final winding up. It requires deep knowledge of corporate governance and management administration procedures.",
+        "study_focus": [
+          "Company incorporation procedures",
+          "Management and administration",
+          "Winding up processes"
+        ],
+        "source_ids": [
+          "icsi-cs-executive-module1-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses the setting up of various business entities, including LLPs, partnerships, and insolvency procedures. It provides thorough knowledge regarding the legal requirements for establishing and closing different types of business structures in the current market.",
+        "study_focus": [
+          "LLP and partnership formation",
+          "Insolvency and closure regulations"
+        ],
+        "source_ids": [
+          "icsi-cs-executive-module1-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers tax laws, specifically focusing on the application of Income Tax and GST frameworks. Candidates are expected to demonstrate proficiency in tax compliance, administration, and the practical application of these regulations within a corporate context.",
+        "study_focus": [
+          "Income Tax regulations",
+          "GST compliance and administration"
+        ],
+        "source_ids": [
+          "icsi-cs-executive-module1-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Candidates have a total duration of 720 minutes to complete the module. Ensure you are prepared for the full scope of the four domains. Check with ICSI for specific testing center requirements and identification protocols before arriving at the venue.",
+    "faq": [
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for the CS Executive Module I exam is 50. Candidates must achieve this minimum mark across the evaluated domains to successfully pass the module and progress in their professional certification journey."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total duration for the exam is 720 minutes. This time is allocated to ensure that candidates have sufficient opportunity to demonstrate their knowledge across all four domains covered in the official syllabus."
+      },
+      {
+        "question_title": "What is the exam fee?",
+        "answer_text": "The exam fee is ₹2,250 (~$27 USD) per module. This fee must be paid according to the official ICSI guidelines to confirm your registration and eligibility to sit for the upcoming certification examination."
+      },
+      {
+        "question_title": "Where can I find the current certification path?",
+        "answer_text": "For information regarding the long-term certification path or future requirements, please check with ICSI for the current certification path. They provide the most accurate and up-to-date documentation regarding the professional requirements for all company secretary candidates."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed by synthesizing official ICSI documentation, including the exam guide and study materials, to provide an accurate overview of the module requirements and ensure all information aligns with the latest syllabus updates provided by the institute.",
+      "source_ids": [
+        "icsi-cs-executive-module1-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "icsi-cs-executive-module1-exam_guide",
+      "icsi-cs-executive-module1-landing",
+      "icsi-cs-executive-module1-study",
+      "icsi-cs-executive-module1-study-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "icsi-cs-executive-module1-exam_guide",
+      "url": "https://www.icsi.edu/academic-portal/new-syllabus-2022/executive-programme/study-material-executive-programme-2024/",
+      "title": "ICSI exam guide",
+      "publisher": "ICSI",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c585cbc5914d73fe984ed44fe1ba55a16a961bdd7811c855a8b3cd648b3e745a"
+    },
+    {
+      "id": "icsi-cs-executive-module1-landing",
+      "url": "https://www.icsi.edu/executive-programme/",
+      "title": "ICSI certification page",
+      "publisher": "ICSI",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:067c8f099c960146e82a32700504f6e202aaf7a686289a0cbbccb0db44295795"
+    },
+    {
+      "id": "icsi-cs-executive-module1-study",
+      "url": "https://www.icsi.edu/student/study-material/",
+      "title": "ICSI study documentation",
+      "publisher": "ICSI",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:067c8f099c960146e82a32700504f6e202aaf7a686289a0cbbccb0db44295795"
+    },
+    {
+      "id": "icsi-cs-executive-module1-study-4",
+      "url": "https://www.icsi.edu/examinations/past-question-papers/",
+      "title": "ICSI study documentation",
+      "publisher": "ICSI",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:067c8f099c960146e82a32700504f6e202aaf7a686289a0cbbccb0db44295795"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T03:21:40+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:00+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:00+00:00"
+  }
 }

@@ -228,14 +228,147 @@
     "cysa+ v3",
     "v3"
   ],
-  "practice_url": "https://quizforge.ai/?q=CompTIA%20CySA%2B",
+  "practice_url": "https://quizforge.ai/tests/comptia-cysa-plus-cs0-003",
+  "editorial": {
+    "meta_description": "The CompTIA CySA+ CS0-003 exam is scheduled for retirement on 2026-12-22, and candidates should prepare for the successor, CS0-004.",
+    "overview": "CompTIA CySA+ is a professional certification covering security operations, vulnerability management, incident response, and reporting. It evaluates technical proficiency in identifying and managing security threats within an organizational environment. CompTIA administers this exam, which consists of 85 questions. The exam is scheduled for retirement on 2026-12-22, and candidates should transition their preparation to the successor, CS0-004 (CompTIA CySA+ (V4)), to ensure their skills remain current with the latest industry standards and professional requirements for cybersecurity analysts.",
+    "who_should_take": "This exam is intended for security analysts, incident responders, and threat hunters. It requires practical experience in monitoring network traffic, analyzing vulnerability scan results, and managing incident response life cycles within a professional organizational environment to successfully pass the assessment.",
+    "skills_summary": [
+      "System and network architecture analysis",
+      "Malicious activity detection",
+      "Vulnerability scanning and prioritization",
+      "Incident response management",
+      "Security reporting and communication"
+    ],
+    "preparation_strategy": "Review the four domains, which carry weights of 33%, 30%, 20%, and 17% respectively. Utilize official CompTIA study documentation and practice labs to gain hands-on experience with the 85 questions. Since this exam retires on 2026-12-22, focus your efforts on the objectives for the successor, CS0-004, to ensure your knowledge remains current with the latest certification standards and professional requirements for cybersecurity analysts.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This domain covers the technical aspects of security operations, focusing on how network architecture and security tools identify malicious activity indicators. It provides the knowledge of the systems and techniques required to maintain a secure environment.",
+        "study_focus": [
+          "System and network architecture",
+          "Malicious activity indicators",
+          "Tools and techniques"
+        ],
+        "source_ids": [
+          "comptia-cysa-plus-cs0-003-landing"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain addresses the identification and management of vulnerabilities through scanning, assessment, and prioritization techniques. It emphasizes the use of assessment tool output to effectively manage and mitigate security risks within the organizational network infrastructure.",
+        "study_focus": [
+          "Vulnerability scanning",
+          "Assessment tool output",
+          "Vulnerability prioritization"
+        ],
+        "source_ids": [
+          "comptia-cysa-plus-cs0-003-study"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain focuses on the incident response life cycle, including frameworks for managing and responding to security incidents. It covers the activities and methodologies required to handle security threats and maintain operational continuity during an active incident.",
+        "study_focus": [
+          "Attack methodology frameworks",
+          "Incident response activities",
+          "Incident management life cycle"
+        ],
+        "source_ids": [
+          "comptia-cysa-plus-cs0-003-study-3"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain covers the communication and reporting requirements for both vulnerability management and incident response activities. It ensures that security professionals can document and communicate findings to stakeholders to support informed decision-making and organizational security posture.",
+        "study_focus": [
+          "Vulnerability management reporting",
+          "Incident response reporting"
+        ],
+        "source_ids": [
+          "comptia-cysa-plus-cs0-003-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The exam uses a linear format with 85 questions, including multiple choice and performance-based items. You have 165 minutes to complete the assessment. Ensure you manage your time effectively across all four domains to reach the passing score of 750.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of 85 questions in a linear format. These questions include multiple choice (single), multiple choice (multiple), and performance-based items to test your skills during the allotted time."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for this exam is 750 on a scale of 100-900. Candidates must achieve this score to successfully earn the CompTIA CySA+ certification and demonstrate their professional proficiency."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total duration for the exam is 165 minutes. This time limit is designed to allow candidates to complete all 85 questions in the linear format provided by the testing center."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The exam price is $404. This fee covers the cost of the certification attempt and is payable through the official CompTIA website for all registered candidates seeking to earn this credential."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed by synthesizing verified exam facts provided by CompTIA and referencing official documentation regarding the retirement and successor path to ensure accuracy for all candidates preparing for certification.",
+      "source_ids": [
+        "comptia-cysa-plus-cs0-003-landing"
+      ]
+    },
+    "source_ids": [
+      "comptia-cysa-plus-cs0-003-landing",
+      "comptia-cysa-plus-cs0-003-study",
+      "comptia-cysa-plus-cs0-003-study-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "comptia-cysa-plus-cs0-003-landing",
+      "url": "https://www.comptia.org/certifications/cybersecurity-analyst",
+      "title": "CompTIA certification page",
+      "publisher": "CompTIA",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a96e7c4c612e4e2a72a797113ad442986833fa06b56a4a2c5ce7d7c75504631f"
+    },
+    {
+      "id": "comptia-cysa-plus-cs0-003-study",
+      "url": "https://www.comptia.org/training/certmaster-practice",
+      "title": "CompTIA study documentation",
+      "publisher": "CompTIA",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:d0ff75f23d46ccea6cbe10c70d36215a1abd71fb5a4a44d076706ca047271be9"
+    },
+    {
+      "id": "comptia-cysa-plus-cs0-003-study-3",
+      "url": "https://www.comptia.org/training/certmaster-labs",
+      "title": "CompTIA study documentation",
+      "publisher": "CompTIA",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a6d9f46e798eb0fbf83a5fd20407dfe79d7f83beeaa038f2f67dd4ba913a087d"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T01:27:35+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:52+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:52+00:00"
+  },
   "lifecycle": {
     "status": "scheduled_retirement",
     "retires_on": "2026-12-22",
     "replacement": {
       "exam_code": "CS0-004",
       "relationship": "direct_replacement",
-      "url": null
+      "url": "https://www.comptia.org/en/certifications/cybersecurity-analyst/v4/",
+      "name": "CompTIA CySA+ (V4)"
     },
     "summary": "CompTIA retires CS0-003 on 2026-12-22. CS0-004 is the named replacement path.",
     "evidence_url": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/v3/",

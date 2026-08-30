@@ -96,15 +96,148 @@
     "dynatrace professional certification",
     "dynatrace-professional"
   ],
-  "practice_url": "https://quizforge.ai/?q=Dynatrace%20Professional",
+  "practice_url": "https://quizforge.ai/tests/dynatrace-professional-2hiyez",
+  "editorial": {
+    "meta_description": "The Dynatrace Professional certification exam has officially retired. Review verified facts and prepare for the designated successor path today.",
+    "overview": "Dynatrace Professional is a retired certification administered by Dynatrace that covered 4 distinct domains across a total of 50 questions with a duration of 90 minutes. The exam officially retired on 2025-01-31 and has been replaced by Dynatrace Administration Professional; Dynatrace Implementation Professional, which serves as the official successor path for candidates seeking professional-level validation.",
+    "who_should_take": "Operations engineers, SREs, and system engineers with hands-on experience should bypass this retired exam and target Dynatrace Administration Professional; Dynatrace Implementation Professional to validate advanced monitoring, instrumentation, root cause analysis, and automation skills.",
+    "skills_summary": [
+      "Advanced monitoring and instrumentation",
+      "Root cause analysis and problem remediation",
+      "Automation and API integration",
+      "Performance optimization"
+    ],
+    "preparation_strategy": "Since this exam is retired, preparation efforts must target the successor, Dynatrace Administration Professional; Dynatrace Implementation Professional. Retain your core knowledge of advanced monitoring, root cause analysis, automation, and API integration, but align your study plans directly with the updated successor objectives rather than attempting to sit this retired test.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain focuses comprehensively on advanced monitoring techniques and instrumentation practices within complex Dynatrace environments, ensuring candidates understand how to properly set up telemetry collection and configure tracing mechanisms across various applications.",
+        "study_focus": [
+          "Advanced monitoring configurations",
+          "Instrumentation setups"
+        ],
+        "source_ids": [
+          "dynatrace-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers root cause analysis methods and problem remediation workflows using platform tools, allowing practitioners to systematically investigate performance degradation, isolate system failures, and execute appropriate resolution procedures effectively.",
+        "study_focus": [
+          "Problem triage",
+          "Remediation procedures"
+        ],
+        "source_ids": [
+          "dynatrace-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses automation capabilities and API integration strategies for operational tasks, empowering technical specialists to programmatically interact with platform services, streamline administrative duties, and build custom workflows.",
+        "study_focus": [
+          "API usage",
+          "Automation workflows"
+        ],
+        "source_ids": [
+          "dynatrace-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain is concentrated entirely on optimizing system and application performance using gathered metrics, ensuring that administrators can interpret analytical data to enhance resource efficiency and maintain optimal operational health.",
+        "study_focus": [
+          "Performance metrics",
+          "Optimization techniques"
+        ],
+        "source_ids": [
+          "dynatrace-professional-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Because the exam is retired, you cannot schedule or sit for it. Review the exam day requirements for the successor, Dynatrace Administration Professional; Dynatrace Implementation Professional, which is delivered as a linear online, self-administered test.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The retired examination consists of exactly 50 questions presented in multiple choice and multiple select formats to assess candidate knowledge across all operational domains completely."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score required to successfully pass the examination was established at exactly 65 points out of the total grading scale utilized by the provider."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Candidates taking the test were given a total duration of exactly 90 minutes to complete all questions within the designated testing window before the closure."
+      },
+      {
+        "question_title": "Is the exam still available?",
+        "answer_text": "No, the exam is retired as of 2025-01-31, and candidates should instead pursue Dynatrace Administration Professional; Dynatrace Implementation Professional for their professional certification needs going forward."
+      }
+    ],
+    "methodology": {
+      "summary": "This informational page was carefully compiled using official exam guides and documentation provided by Dynatrace, verifying retirement dates and designated successor pathways reliably.",
+      "source_ids": [
+        "dynatrace-professional-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "dynatrace-professional-exam_guide",
+      "dynatrace-professional-study",
+      "dynatrace-professional-exam_guide-3",
+      "dynatrace-professional-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "dynatrace-professional-exam_guide",
+      "url": "https://community.dynatrace.com/t5/Start-with-Dynatrace/Dynatrace-Certification-Professional-exam-guidelines/td-p/126803",
+      "title": "Dynatrace exam guide",
+      "publisher": "Dynatrace",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:7ff39af6cb39944c12dd88874e4f306c24b1095727a6c47278992ed36feb800a"
+    },
+    {
+      "id": "dynatrace-professional-study",
+      "url": "https://university.dynatrace.com/",
+      "title": "Dynatrace study documentation",
+      "publisher": "Dynatrace",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:3ed3520aa15352eb0f7de7061880348c047372eef74bfdfb71b167b29b1442c7"
+    },
+    {
+      "id": "dynatrace-professional-exam_guide-3",
+      "url": "https://university.dynatrace.com/learn/public/learning_plan/view/49/dynatrace-implementation-professional-certification-learning-plan",
+      "title": "Dynatrace exam guide",
+      "publisher": "Dynatrace",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:3ed3520aa15352eb0f7de7061880348c047372eef74bfdfb71b167b29b1442c7"
+    },
+    {
+      "id": "dynatrace-professional-exam_guide-4",
+      "url": "https://www.devopsschool.com/blog/dynatrace-implementation-professional-certification-master-guide/",
+      "title": "Dynatrace exam guide (devopsschool.com)",
+      "publisher": "devopsschool.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:286166b5e626d5420a107ef678ad4938fde2048bfecb8a1a4c7b4343160f5a42"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T00:43:13+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:54+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:54+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-01-31",
-    "replacement": {
-      "exam_code": "Dynatrace Administration Professional; Dynatrace Implementation Professional",
-      "relationship": "collective_replacement",
-      "url": null
-    },
     "summary": "Dynatrace retired DT-PROFESSIONAL on 2025-01-31. Dynatrace Administration Professional; Dynatrace Implementation Professional is the named replacement path.",
     "evidence_url": "https://community.dynatrace.com/t5/Community-Voices/Major-changes-to-the-Dynatrace-certification-scheme/bc-p/268489",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"

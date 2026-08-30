@@ -1,0 +1,144 @@
+{
+ "exam_id": "servicenow-robotic-process-automation-rpa",
+ "editorial": {
+  "meta_description": "Prepare for the ServiceNow Robotic Process Automation RPA exam featuring exactly 35 questions across four distinct domains.",
+  "overview": "The ServiceNow Robotic Process Automation RPA certification assessment evaluates your knowledge of designing, configuring, and deploying automated bots across the platform. This linear format certification exam consists of exactly 35 total questions, spanning four distinct domains covering foundational principles, bot development lifecycles, execution mechanics, platform integration, and exception handling mechanisms.",
+  "who_should_take": "ServiceNow developers and automation professionals configuring enterprise workflows will benefit from taking this exam. Experience with building bots and integrating automation components across platform systems is required.",
+  "skills_summary": [
+   "RPA Fundamentals and Architecture",
+   "Bot Development Lifecycle",
+   "Attended and Unattended Bots",
+   "Bot Run Executions",
+   "Platform Integration and Exception Handling"
+  ],
+  "preparation_strategy": "Carefully review official ServiceNow documentation, training courses, and learning paths before testing. Focus your study sessions extensively on bot development lifecycles, execution configuration, and error management strategies. Practice setting up robotic process automation components carefully and examine how they successfully integrate with existing platform elements and enterprise infrastructure.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This foundational domain covers the core principles, system architecture setups, and fundamental installation procedures required to properly deploy ServiceNow Robotic Process Automation for enterprise automation initiatives and workflows across organizations.",
+    "study_focus": [
+     "Foundational principles of ServiceNow RPA",
+     "System architecture setup",
+     "Installation procedures"
+    ],
+    "source_ids": [
+     "servicenow-robotic-process-automation-rpa-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This specific domain focuses on designing, configuring, and deploying robots using official platform tools while clearly distinguishing between attended and unattended bot categories for robotic process automation workflows.",
+    "study_focus": [
+     "Configuring and deploying RPA robots",
+     "Differentiating attended and unattended bots",
+     "Designing automated processes"
+    ],
+    "source_ids": [
+     "servicenow-robotic-process-automation-rpa-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain explores the operational details and mechanical intricacies involved in bot run executions across the platform infrastructure to ensure smooth and reliable automated process delivery within enterprise environments.",
+    "study_focus": [
+     "Bot run execution details",
+     "Execution monitoring"
+    ],
+    "source_ids": [
+     "servicenow-robotic-process-automation-rpa-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This final domain explains how ServiceNow Robotic Process Automation integrates with core platform components and expertly manages exceptions within complex automated enterprise workflows, ensuring maximum reliability across diverse system environments.",
+    "study_focus": [
+     "Platform component integration",
+     "Exception management in workflows"
+    ],
+    "source_ids": [
+     "servicenow-robotic-process-automation-rpa-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Read each multiple choice and multiple select question carefully. Manage your time across the 35 questions effectively, ensuring you verify your configuration choices before final submission.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of exactly 35 linear questions presented as multiple choice and multiple select items designed to test your knowledge across four distinct domains."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score uses a scaled score model where the exact cut score is not publicly disclosed by ServiceNow and is not always 70% for candidates taking this certification test."
+   },
+   {
+    "question_title": "What does the exam cost?",
+    "answer_text": "The exam pricing is included with ServiceNow University access. Check with ServiceNow directly for current pricing and enrollment details before registering for your test to ensure you have all updated information regarding fees."
+   },
+   {
+    "question_title": "Is a renewal required?",
+    "answer_text": "No renewal is required for this certification. If you need further details on long-term paths or updates, check with ServiceNow for the current certification path."
+   }
+  ],
+  "methodology": {
+   "summary": "This index page was compiled using official ServiceNow exam guides, platform documentation sources, and verified structural facts regarding the 35 total questions.",
+   "source_ids": [
+    "servicenow-robotic-process-automation-rpa-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "servicenow-robotic-process-automation-rpa-exam_guide",
+   "servicenow-robotic-process-automation-rpa-exam_guide-2",
+   "servicenow-robotic-process-automation-rpa-exam_guide-3",
+   "servicenow-robotic-process-automation-rpa-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "servicenow-robotic-process-automation-rpa-exam_guide",
+   "url": "https://www.servicenow.com/community/workflow-automation-articles/platform-robotic-process-automation-rpa-knowledge-amp/ta-p/2315822",
+   "title": "ServiceNow exam guide",
+   "publisher": "ServiceNow",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:df14f3461c800c4be6f8c5c17dbf8d1d224b35efe29681d069dfe212db69c88a"
+  },
+  {
+   "id": "servicenow-robotic-process-automation-rpa-exam_guide-2",
+   "url": "https://learning.servicenow.com/lxp/en/automation-engine/robotic-process-automation-rpa-introduction?id=learning_course_prev&course_id=fd219cc2933cf550fb94b4886cba1033",
+   "title": "ServiceNow exam guide",
+   "publisher": "ServiceNow",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:ab22d2a8c405b92dcd68ba07c90831cf78198405da07996d545edbc1a93ebb91"
+  },
+  {
+   "id": "servicenow-robotic-process-automation-rpa-exam_guide-3",
+   "url": "https://learning.servicenow.com/lxp/en/credentials/robotic-process-automation-exam-blueprint?id=kb_article_view&sysparm_article=KB0012274",
+   "title": "ServiceNow exam guide",
+   "publisher": "ServiceNow",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:1cd90a280ff0ee9623b10a3c63b95ba6b64d2bf3f861cbfc44fb578621aa9a31"
+  },
+  {
+   "id": "servicenow-robotic-process-automation-rpa-exam_guide-4",
+   "url": "https://www.servicenow.com/community/workflow-data-fabric-forum/robotic-process-automation-rpa-initial-setup/m-p/3373506",
+   "title": "ServiceNow exam guide",
+   "publisher": "ServiceNow",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6d6757240ae7ae31c2b88f0889928dfa680841282d6bd8b6f0f56f10dc13dbec"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:31:15+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:16+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:16+00:00"
+ }
+}

@@ -83,14 +83,15 @@
     "introduction to computing",
     "introduction to computing dsst"
   ],
-  "practice_url": "https://quizforge.ai/?q=Introduction%20to%20Computing",
+  "practice_url": "https://quizforge.ai/tests/dsst-introduction-to-computing",
   "lifecycle": {
     "status": "retired",
     "retired_on": null,
     "replacement": {
       "exam_code": "COMIT",
       "relationship": "direct_replacement",
-      "url": null
+      "url": "/dsst/dsst-computing-and-information-technology",
+      "name": "Computing and Information Technology"
     },
     "summary": "DSST retired INTRCOMP. COMIT is the named replacement path.",
     "evidence_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/TechnicalDataSheet.pdf",

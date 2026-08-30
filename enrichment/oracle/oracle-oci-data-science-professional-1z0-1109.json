@@ -1,0 +1,156 @@
+{
+ "exam_id": "oracle-oci-data-science-professional-1z0-1109",
+ "editorial": {
+  "meta_description": "The Oracle Cloud Infrastructure 2023 Data Science Professional 1Z0-1109-23 exam is retired.",
+  "overview": "The Oracle Cloud Infrastructure 2023 Data Science Professional 1Z0-1109-23 exam covered data science methodology and OCI service implementation. This certification, provided by Oracle, is now retired. Candidates seeking professional validation in this field should instead pursue the successor exam, 1Z0-1109-26, which serves as the current path for demonstrating proficiency in OCI data science workflows, model development, and MLOps practices. This transition ensures that professionals remain aligned with the latest cloud-based machine learning standards and OCI service capabilities provided by Oracle for modern data science projects.",
+  "who_should_take": "This certification was intended for data scientists and machine learning engineers working with OCI. Candidates needed experience in building, training, and deploying models using OCI services. Professionals should now focus their efforts on the 1Z0-1109-26 exam to validate these skills.",
+  "skills_summary": [
+   "Data science methodology",
+   "OCI Data Science service management",
+   "Machine learning model development",
+   "Model training and evaluation",
+   "Model deployment and MLOps",
+   "Data preparation and feature engineering"
+  ],
+  "preparation_strategy": "Focus your preparation on the 1Z0-1109-26 exam. Much of the technical knowledge regarding OCI Data Science services, such as notebook sessions, model catalog management, and pipeline orchestration, remains relevant. Prioritize learning the latest OCI service updates and best practices for MLOps. Use official Oracle documentation to master the end-to-end lifecycle of predictive models, as this knowledge transfers directly to the current certification requirements. Reviewing the updated service documentation will help you succeed on the new exam path.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the fundamental principles and methodologies required for data science projects within the OCI environment, focusing on the systematic approach to solving business problems using machine learning techniques and standard industry practices.",
+    "study_focus": [
+     "Data science lifecycle stages",
+     "Methodology application"
+    ],
+    "source_ids": [
+     "oracle-oci-data-science-professional-1z0-1109-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain addresses the OCI Data Science service architecture, including the use of collaborative workspaces, serverless infrastructure, and integration with other OCI services like Object Storage and Functions to manage complex data science workloads.",
+    "study_focus": [
+     "Service architecture",
+     "Resource management",
+     "Integration patterns"
+    ],
+    "source_ids": [
+     "oracle-oci-data-science-professional-1z0-1109-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain focuses on the development of machine learning models, utilizing Python-centric tools, libraries, and the Oracle Accelerated Data Science Library for building predictive models within the OCI Data Science service environment.",
+    "study_focus": [
+     "Model development workflows",
+     "ADS library usage"
+    ],
+    "source_ids": [
+     "oracle-oci-data-science-professional-1z0-1109-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain covers the training and evaluation of models, including the use of Oracle AutoML for training and Oracle MLX for model explanation and interpretation to ensure high performance and transparency in models.",
+    "study_focus": [
+     "AutoML implementation",
+     "Model evaluation techniques"
+    ],
+    "source_ids": [
+     "oracle-oci-data-science-professional-1z0-1109-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain focuses on deploying models as web applications using HTTP API endpoints and managing MLOps tasks to ensure repeatable and scalable model production within the OCI cloud infrastructure for enterprise-grade machine learning solutions.",
+    "study_focus": [
+     "Model deployment",
+     "MLOps automation"
+    ],
+    "source_ids": [
+     "oracle-oci-data-science-professional-1z0-1109-study"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain covers the tasks of data acquisition, profiling, preparation, and feature engineering required to ready datasets for machine learning model training, ensuring data quality and relevance for predictive modeling success.",
+    "study_focus": [
+     "Data preparation",
+     "Feature engineering"
+    ],
+    "source_ids": [
+     "oracle-oci-data-science-professional-1z0-1109-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The 1Z0-1109-23 exam is retired and cannot be scheduled. Candidates should register for the 1Z0-1109-26 exam. Ensure you are familiar with the OCI Console, CLI, and SDKs, as these are the primary interfaces for interacting with OCI Data Science services during the exam.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The retired 1Z0-1109-23 exam consisted of exactly 60 questions in total. Candidates were required to complete these within the allotted time to demonstrate their proficiency in OCI data science."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for the 1Z0-1109-23 exam was set at 65. Achieving this score was necessary to earn the certification and validate your skills in Oracle Cloud Infrastructure."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The 1Z0-1109-23 exam had a total duration of 90 minutes. This time limit was designed to test the candidate's ability to apply data science concepts within the OCI environment."
+   },
+   {
+    "question_title": "What was the cost of the exam?",
+    "answer_text": "The exam price for the 1Z0-1109-23 certification was $245. This fee covered the registration for the exam and was a standard requirement for all candidates seeking this professional credential."
+   }
+  ],
+  "methodology": {
+   "summary": "This index was compiled using official Oracle certification documentation and study guides to provide accurate information regarding the retired 1Z0-1109-23 exam and its successor, ensuring candidates have reliable data.",
+   "source_ids": [
+    "oracle-oci-data-science-professional-1z0-1109-study"
+   ]
+  },
+  "source_ids": [
+   "oracle-oci-data-science-professional-1z0-1109-study",
+   "oracle-oci-data-science-professional-1z0-1109-study-2",
+   "oracle-oci-data-science-professional-1z0-1109-landing"
+  ]
+ },
+ "sources": [
+  {
+   "id": "oracle-oci-data-science-professional-1z0-1109-study",
+   "url": "https://education.oracle.com/certification",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:0c490718b4f3a266d304ce5c8a8bfbe4c317d6cb377fa502139dec19d2b5941a"
+  },
+  {
+   "id": "oracle-oci-data-science-professional-1z0-1109-study-2",
+   "url": "https://education.oracle.com/",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:9ecb481ada90d0e5aec72c4a23ca7d8a0c498911592e00872607d624a38d8f8b"
+  },
+  {
+   "id": "oracle-oci-data-science-professional-1z0-1109-landing",
+   "url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-data-science-professional/pexam_1Z0-1109-23",
+   "title": "Oracle certification page",
+   "publisher": "Oracle",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:b5d189e75f4745834c82daba6dc80ea11bb32624e2a7367b62040b6e0756da6e"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T01:22:23+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:08+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:08+00:00"
+ }
+}

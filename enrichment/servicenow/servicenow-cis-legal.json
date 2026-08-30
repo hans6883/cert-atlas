@@ -1,0 +1,109 @@
+{
+ "exam_id": "servicenow-cis-legal",
+ "editorial": {
+  "meta_description": "Prepare for the ServiceNow Certified Implementation Specialist – Legal Service Delivery exam by reviewing legal intake, case management, and platform",
+  "overview": "The ServiceNow Certified Implementation Specialist – Legal Service Delivery exam validates your professional ability to configure and implement legal service applications within the platform. This assessment covers the setup of legal intake processes, matter management workflows, and service configuration. It ensures you can build unified experiences for employees requesting legal support while enabling legal teams to automate routine tasks and manage complex legal affairs effectively within the platform environment. Candidates demonstrate proficiency in deploying tools that streamline legal operations and improve cross-departmental collaboration through standardized workflows and automated request handling. This certification confirms your technical expertise in managing the full lifecycle of legal service delivery.",
+  "who_should_take": "This exam is intended for professionals who implement and configure Legal Service Delivery applications. You should have experience with ServiceNow platform administration, legal request workflows, and the Legal Counsel Center to manage legal matters and cross-departmental tasks effectively.",
+  "skills_summary": [
+   "Configuring legal service intake forms",
+   "Managing legal matters and workflows",
+   "Setting up practice area tables",
+   "Implementing Attorney-Client Privilege",
+   "Configuring Legal Counsel Center tools",
+   "Managing legal request visibility"
+  ],
+  "preparation_strategy": "Review the official ServiceNow study documentation to understand the configuration of legal practice applications. Practice setting up legal request management, defining matter templates, and configuring intake forms. Familiarize yourself with the Legal Counsel Center and the use of Performance Analytics dashboards. Ensure you understand how to manage privileged and confidential records within the platform to meet compliance requirements and organizational standards for legal service delivery. Candidates should focus on practical application of these features to ensure readiness for the assessment and mastery of the platform tools.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses on the configuration of legal service delivery applications, including the setup of practice areas, the installation of core legal practice components, and the management of service configurations for the platform.",
+    "study_focus": [
+     "Configuring practice area tables",
+     "Setting up legal catalog categories",
+     "Configuring response templates"
+    ],
+    "source_ids": [
+     "servicenow-cis-legal-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain covers the management of legal matters, including cross-departmental tasking, milestone tracking, and the use of record-level security for sensitive information to ensure proper handling of all legal affairs within the system.",
+    "study_focus": [
+     "Promoting requests to legal matters",
+     "Defining phases and tasks",
+     "Managing matter artifacts and milestones"
+    ],
+    "source_ids": [
+     "servicenow-cis-legal-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses the legal intake process, enabling employees to submit requests and interact with legal departments through various channels while ensuring that all intake forms are configured correctly for the end user.",
+    "study_focus": [
+     "Creating record producers for legal services",
+     "Configuring intake forms",
+     "Managing request visibility"
+    ],
+    "source_ids": [
+     "servicenow-cis-legal-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam consists of 60 questions in a linear format. You will have 90 minutes to complete the assessment. Manage your time effectively across the multiple choice and multiple select questions to ensure you reach the 70 passing score.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The certification exam contains exactly 60 questions in total, which are presented in a linear format to test your knowledge of the ServiceNow Legal Service Delivery application suite and its various configuration options."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To successfully earn your certification, you must achieve a minimum score of 70 on the exam. Ensure you are well-prepared to meet this specific requirement for passing the assessment on your first attempt."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration for this certification exam is 90 minutes. You should plan your time carefully during the assessment to ensure you can answer all required questions within the allotted time frame provided."
+   },
+   {
+    "question_title": "What is the cost of the exam?",
+    "answer_text": "The official price for taking this certification exam is 150 dollars. Please verify this cost through the official ServiceNow portal when you are ready to schedule your testing appointment for the certification."
+   },
+   {
+    "question_title": "Is renewal required?",
+    "answer_text": "Yes, this certification is valid for 1 year from the date of achievement. You must complete the required renewal process to maintain your active status as a certified professional within the ServiceNow ecosystem."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official ServiceNow documentation and verified exam facts to provide a clear, accurate overview of the certification requirements, domain focus, and exam logistics for all candidates.",
+   "source_ids": [
+    "servicenow-cis-legal-study"
+   ]
+  },
+  "source_ids": [
+   "servicenow-cis-legal-study"
+  ]
+ },
+ "sources": [
+  {
+   "id": "servicenow-cis-legal-study",
+   "url": "https://nowlearning.servicenow.com/",
+   "title": "ServiceNow study documentation",
+   "publisher": "ServiceNow",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6521b036fedc3a1d909367c60d222b672a065ad88845807f920dcecfa03d97c9"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T02:59:08+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:13+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:13+00:00"
+ }
+}

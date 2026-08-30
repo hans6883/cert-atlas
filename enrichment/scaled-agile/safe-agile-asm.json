@@ -1,0 +1,158 @@
+{
+ "exam_id": "safe-agile-asm",
+ "editorial": {
+  "meta_description": "The SAFe Advanced Scrum Master (SASM) exam was retired on 2025-06-30. The verified successor is the SAFe Advanced Scrum Master (SASM) certification program.",
+  "overview": "The SAFe Advanced Scrum Master (SASM) exam, certified by Scaled Agile, covered advanced team facilitation and flow optimization. This exam is retired as of 2025-06-30. The verified successor is SAFe Advanced Scrum Master (SASM). Candidates seeking certification must now pursue the successor exam, which maintains the focus on scaling Agile practices and improving team performance within the Scaled Agile Framework. This transition ensures that all practitioners are evaluated against the most current standards for leadership and team facilitation in complex environments.",
+  "who_should_take": "This certification is intended for experienced Scrum Masters and team coaches working within an Agile Release Train. Candidates should have practical experience facilitating team events and managing flow to improve delivery outcomes in a scaled environment.",
+  "skills_summary": [
+   "Evolving the Advanced Scrum Master role",
+   "Improving team flow and metrics",
+   "Building high-performing teams",
+   "Applying interest-based problem solving",
+   "Coaching the IP iteration",
+   "Driving Inspect and Adapt events"
+  ],
+  "preparation_strategy": "Focus your study on the objectives of the successor SASM. Review SAFe principles, flow metrics, and team coaching techniques. Since the original exam is retired, prioritize learning the current framework guidance provided by Scaled Agile. Transfer your knowledge of Scrum and Kanban to the context of the Agile Release Train, ensuring you understand how to facilitate team events and resolve complex conflicts effectively. Candidates should utilize official resources to ensure they meet the 77 passing score requirement.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain covers the evolution of the Advanced Scrum Master role, focusing on the servant leader responsibilities required to support Agile teams and ARTs while ensuring that all team members are aligned with the broader organizational goals and framework principles.",
+    "study_focus": [
+     "Understanding the Advanced Scrum Master Role",
+     "Servant leadership responsibilities"
+    ],
+    "source_ids": [
+     "safe-agile-asm-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain addresses the improvement of team flow through the selection of appropriate methods, visualization techniques, and the measurement of flow metrics to ensure that teams can deliver value consistently and effectively within the Scaled Agile Framework environment.",
+    "study_focus": [
+     "Selecting the team method",
+     "Visualizing team flow",
+     "Measuring and accelerating team flow"
+    ],
+    "source_ids": [
+     "safe-agile-asm-exam_guide-4"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain focuses on the characteristics of high-performing teams and the use of powerful questions to foster collaboration across multiple teams, ensuring that team members can communicate effectively and solve complex problems together in a highly collaborative and productive manner.",
+    "study_focus": [
+     "Characteristics of high-performing teams",
+     "Employing powerful questions",
+     "Promoting cross-team collaboration"
+    ],
+    "source_ids": [
+     "safe-agile-asm-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This domain covers conflict navigation, including identifying sources of interpersonal friction and applying interest-based problem-solving techniques to ensure that teams remain focused on their objectives while resolving disagreements in a constructive and professional way that supports long-term team health.",
+    "study_focus": [
+     "Identifying behaviors that improve conflict",
+     "Identifying sources of conflict",
+     "Apply interest-based problem solving"
+    ],
+    "source_ids": [
+     "safe-agile-asm-exam_guide-2"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This domain focuses on improving ART performance by driving outcome-based events, coaching the IP iteration, and facilitating Inspect and Adapt sessions to ensure that the entire Agile Release Train is continuously improving its processes and delivering high-quality results for the organization.",
+    "study_focus": [
+     "Driving outcome-based team events",
+     "Coaching the IP iteration",
+     "Driving improvement with Inspect and Adapt"
+    ],
+    "source_ids": [
+     "safe-agile-asm-landing"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The retired exam cannot be scheduled. For the successor SASM, the exam is a linear, online format included with training. Ensure you have a stable internet connection and a quiet environment for the 90-minute session to complete the 45 questions.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of 45 multiple-choice questions designed to test your knowledge of the Scaled Agile Framework and the responsibilities of an Advanced Scrum Master in a professional setting."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To pass the exam, you must achieve a score of 77. This requirement applies to the standard certification assessment provided by Scaled Agile for all candidates seeking the credential."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam is a 90-minute assessment. Candidates must complete all 45 questions within this duration to qualify for certification and demonstrate their proficiency in the Scaled Agile Framework."
+   },
+   {
+    "question_title": "What is the cost of the exam?",
+    "answer_text": "The exam price is $1095. This fee is typically included as part of the official training provided by Scaled Agile, covering the assessment and the certification process for participants."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built by aggregating official Scaled Agile exam documentation, certification guidelines, and framework articles to provide a factual overview of the retired exam and its successor for all interested candidates.",
+   "source_ids": [
+    "safe-agile-asm-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "safe-agile-asm-exam_guide",
+   "safe-agile-asm-exam_guide-2",
+   "safe-agile-asm-landing",
+   "safe-agile-asm-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "safe-agile-asm-exam_guide",
+   "url": "https://go.scaledagile.com/rs/983-XYR-522/images/SAI_SASM_SAFeProfessionalCertification%208.5x11.7.pdf?version=0",
+   "title": "Scaled Agile exam guide",
+   "publisher": "Scaled Agile",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c98320bbc3adbbef78f4089e3acb7db6c4b4c7892b334c9bdf144813aeba6ea8"
+  },
+  {
+   "id": "safe-agile-asm-exam_guide-2",
+   "url": "https://scaledagile.com/certification/advanced-scrum-master/#h-exam-guidelines",
+   "title": "Scaled Agile exam guide",
+   "publisher": "Scaled Agile",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:7c3bf52b76d39a7ce2df3b69547be721e238794027034af419da1189f56d4a72"
+  },
+  {
+   "id": "safe-agile-asm-landing",
+   "url": "https://scaledagile.com/training/safe-advanced-scrum-master/",
+   "title": "Scaled Agile certification page",
+   "publisher": "Scaled Agile",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:4eea4876b3f62453aa5a62005b11eebeb1b7e1bf40d79030b4687842de941a38"
+  },
+  {
+   "id": "safe-agile-asm-exam_guide-4",
+   "url": "https://framework.scaledagile.com/blog/from-blueprints-to-backlogs-what-construction-taught-me-about-agility#primary",
+   "title": "Scaled Agile exam guide",
+   "publisher": "Scaled Agile",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:4703393d5e633d6f7d46a659b4fb06d25c934164008cd02dd867503bd8592209"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T01:17:41+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:09+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:09+00:00"
+ }
+}

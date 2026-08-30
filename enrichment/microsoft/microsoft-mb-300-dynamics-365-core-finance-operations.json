@@ -1,0 +1,131 @@
+{
+ "exam_id": "microsoft-mb-300-dynamics-365-core-finance-operations",
+ "editorial": {
+  "meta_description": "Microsoft retired the MB-300 exam on 2024-02-29. This assessment had no successor.",
+  "overview": "Microsoft officially retired the MB-300 exam on 2024-02-29. This professional assessment was designed to evaluate a candidate's proficiency in core finance and operations functionality, security configuration, data management, and solution validation. The exam consisted of 40 questions in total. As there is no successor, candidates should consult Microsoft for current certification paths.",
+  "who_should_take": "This exam was intended for functional consultants, system administrators, and technical professionals who worked with Microsoft Dynamics 365 finance and operations applications and needed to validate their core configuration and implementation skills.",
+  "skills_summary": [
+   "Use common functionality",
+   "Configure security",
+   "Manage Finance data",
+   "Validate the solution"
+  ],
+  "preparation_strategy": "Because the MB-300 exam is retired, you cannot schedule or sit for it. Instead, focus your study on current Microsoft documentation and training resources covering Dynamics 365 core finance and operations features. Transfer your understanding of role-based security, data management, and system configuration to active credentials. Reviewing official Microsoft learning paths remains the best way to maintain your technical expertise in these specific business applications.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "Candidates were expected to master common functionality and implementation tools to set up and navigate finance and operations apps effectively, ensuring they could manage system settings and user interfaces according to standard organizational requirements.",
+    "study_focus": [
+     "Overall functionality of finance and operations apps",
+     "Navigation in finance and operations"
+    ],
+    "source_ids": [
+     "microsoft-mb-300-dynamics-365-core-finance-operations-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain required the ability to configure role-based security, business processes, and system options to control user access and align with organizational structure, ensuring that security roles were assigned correctly to meet specific business needs.",
+    "study_focus": [
+     "Role-based security elements",
+     "Assigning users to security roles"
+    ],
+    "source_ids": [
+     "microsoft-mb-300-dynamics-365-core-finance-operations-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "Candidates needed to handle Finance and Operations data, integration modes, and data management workspaces while maintaining security boundaries, ensuring that data entities were correctly utilized to support seamless integration across various business systems and environments.",
+    "study_focus": [
+     "Data entities and integration modes",
+     "Data management workspace"
+    ],
+    "source_ids": [
+     "microsoft-mb-300-dynamics-365-core-finance-operations-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain focused on the ability to validate and support the solution using testing tools, service updates, and maintenance guidelines for cloud or on-premises environments, ensuring that all system updates were managed without disrupting business operations.",
+    "study_focus": [
+     "Regression Suite Automation tool",
+     "Managing security objects after a service update"
+    ],
+    "source_ids": [
+     "microsoft-mb-300-dynamics-365-core-finance-operations-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Since Microsoft retired this exam on 2024-02-29, it cannot be scheduled or taken at any testing center. Please review current Microsoft certification options for active assessments that align with your professional development goals.",
+  "faq": [
+   {
+    "question_title": "How many questions were on the exam?",
+    "answer_text": "The exam contained 40 questions presented in a linear format using various question types such as multiple choice, multiple response, drag and drop, case study, build list, hot area, and repeated answer choices."
+   },
+   {
+    "question_title": "What was the passing score?",
+    "answer_text": "The passing score for this certification exam was 700 on a scale of 1-1000. Candidates were required to meet or exceed this threshold to demonstrate their proficiency in the core finance and operations subject matter."
+   },
+   {
+    "question_title": "How long was the exam?",
+    "answer_text": "The total duration of the exam was 100 minutes. This time limit was provided to allow candidates to complete all 40 questions, including complex case studies and various interactive question types found within the assessment."
+   },
+   {
+    "question_title": "What was the exam price?",
+    "answer_text": "The price of the exam was 165.0 USD. This fee covered the cost of the assessment at the time it was available for scheduling through the official Microsoft certification portal before the retirement date."
+   }
+  ],
+  "methodology": {
+   "summary": "This overview was compiled using official Microsoft certification pages and documentation to provide accurate historical details on the retired MB-300 exam, ensuring that all information reflects the official status and content of the assessment.",
+   "source_ids": [
+    "microsoft-mb-300-dynamics-365-core-finance-operations-landing"
+   ]
+  },
+  "source_ids": [
+   "microsoft-mb-300-dynamics-365-core-finance-operations-study",
+   "microsoft-mb-300-dynamics-365-core-finance-operations-study-2",
+   "microsoft-mb-300-dynamics-365-core-finance-operations-landing"
+  ]
+ },
+ "sources": [
+  {
+   "id": "microsoft-mb-300-dynamics-365-core-finance-operations-study",
+   "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+   "title": "Microsoft study documentation",
+   "publisher": "Microsoft",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:575d1ed2a392c598851e0a8917a685de84e767f64830b8b4a52220e8040f64c2"
+  },
+  {
+   "id": "microsoft-mb-300-dynamics-365-core-finance-operations-study-2",
+   "url": "https://learn.microsoft.com/en-us/training/",
+   "title": "Microsoft study documentation",
+   "publisher": "Microsoft",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c7bd9788fccd8a148a1e7582611c81bc616119520d77bd6eeecf574a60f5b380"
+  },
+  {
+   "id": "microsoft-mb-300-dynamics-365-core-finance-operations-landing",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-300",
+   "title": "Microsoft certification page",
+   "publisher": "Microsoft",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:955f0755a8fd9fd9e4804dcaf886574b68dffe4332fda47f2717061c8c90720e"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T02:34:50+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:03+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:03+00:00"
+ }
+}

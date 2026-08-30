@@ -89,15 +89,112 @@
     "respiratory clinical simulation",
     "rrt exam"
   ],
-  "practice_url": "https://quizforge.ai/?q=NBRC%20Clinical%20Simulation%20Examination%20%28CSE%29",
+  "practice_url": "https://quizforge.ai/tests/nbrc-clinical-simulation-examination-cse-2l6nka",
+  "editorial": {
+    "meta_description": "The NBRC Clinical Simulation Examination is scheduled for retirement on 2027-12-31, and candidates should prepare for the Respiratory Therapy Examination.",
+    "overview": "The NBRC Clinical Simulation Examination is a computer-based assessment administered by the NBRC at PSI testing centers. It evaluates clinical decision-making through 22 clinical simulation questions. This exam is scheduled for retirement on 2027-12-31, and the NBRC identifies the Respiratory Therapy Examination as the official successor path for candidates pursuing professional certification in the field of respiratory therapy. This assessment remains a standard for those currently seeking to demonstrate their expertise in the field.",
+    "who_should_take": "This exam is intended for respiratory therapy professionals seeking certification. Candidates must meet all eligibility requirements established by the NBRC. Following the retirement of this exam, the Respiratory Therapy Examination will serve as the primary path forward for those pursuing professional certification.",
+    "skills_summary": [
+      "Gathering patient information",
+      "Developing patient care plans",
+      "Implementing clinical recommendations",
+      "Managing emergency situations",
+      "Synthesizing clinical data",
+      "Executing respiratory interventions"
+    ],
+    "preparation_strategy": "Review clinical practice guidelines and patient-ventilator assessment protocols. Familiarize yourself with the computer-based format at PSI testing centers. Because this exam retires on 2027-12-31, focus your study efforts on the content areas required for the Respiratory Therapy Examination. Utilize official NBRC resources to understand the transition to the new examination format and ensure your knowledge aligns with current standards for professional practice.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the collection of patient data and the creation of clinical care plans. It focuses on the initial steps of patient management, information synthesis, and the assessment techniques required for effective respiratory therapy practice.",
+        "study_focus": [
+          "Data collection methods",
+          "Care plan development",
+          "Patient assessment protocols"
+        ],
+        "source_ids": [
+          "nbrc-cse-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain involves the execution of clinical recommendations. It addresses the practical application of care strategies for patients requiring respiratory support, ensuring that all interventions are performed according to established safety standards and clinical best practices.",
+        "study_focus": [
+          "Implementation of recommendations",
+          "Clinical intervention execution",
+          "Respiratory support strategies"
+        ],
+        "source_ids": [
+          "nbrc-cse-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses the management of acute respiratory emergencies. It covers the rapid response and stabilization techniques required in urgent clinical scenarios, emphasizing the skills needed to maintain patient safety during life-threatening respiratory events.",
+        "study_focus": [
+          "Emergency response protocols",
+          "Acute patient stabilization",
+          "Urgent intervention techniques"
+        ],
+        "source_ids": [
+          "nbrc-cse-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at your assigned PSI testing center prepared for a 240-minute session. Ensure you have all required identification documents. The exam consists of 22 clinical simulation questions. Manage your time effectively across the scenarios to complete the assessment.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The NBRC Clinical Simulation Examination consists of exactly 22 clinical simulation questions. Candidates should be prepared to navigate these scenarios within the allotted time to demonstrate their clinical decision-making skills effectively during the testing session."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The exam utilizes a pass/fail scoring system for the Clinical Simulation Examination component. Candidates must demonstrate sufficient clinical competency to meet the requirements for certification as established by the NBRC standards for this specific assessment."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam is a 240-minute session administered at PSI testing centers. This duration is designed to allow candidates sufficient time to work through the clinical simulation scenarios and provide appropriate responses for each patient case presented."
+      },
+      {
+        "question_title": "What is the cost of the exam?",
+        "answer_text": "The price for the exam is $200. Candidates should ensure they are prepared for the examination process and understand the associated costs before scheduling their appointment at an authorized PSI testing center location."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed using verified facts from the NBRC and official exam documentation regarding the retirement of the CSE and the transition to the Respiratory Therapy Examination, ensuring all information is accurate and current for candidates.",
+      "source_ids": [
+        "nbrc-cse-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "nbrc-cse-exam_guide"
+    ]
+  },
+  "sources": [
+    {
+      "id": "nbrc-cse-exam_guide",
+      "url": "https://www.nbrc.org/examinations/",
+      "title": "NBRC exam guide",
+      "publisher": "NBRC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:7442e188b5ed5db8a6a830caac51893d38c948fa69b4c043476ef380c4e017e5"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T01:33:15+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:03+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:03+00:00"
+  },
   "lifecycle": {
     "status": "scheduled_retirement",
     "retires_on": "2027-12-31",
-    "replacement": {
-      "exam_code": "Respiratory Therapy Examination",
-      "relationship": "collective_replacement",
-      "url": null
-    },
     "summary": "NBRC retires CSE on 2027-12-31. Respiratory Therapy Examination is the named replacement path.",
     "evidence_url": "https://www.nbrc.org/examinations/cse/",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"

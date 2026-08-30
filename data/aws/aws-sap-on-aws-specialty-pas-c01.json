@@ -115,7 +115,153 @@
     "pas-c01",
     "sap on aws specialty"
   ],
-  "practice_url": "https://quizforge.ai/?q=AWS%20Certified%20SAP%20on%20AWS%20%E2%80%93%20Specialty",
+  "practice_url": "https://quizforge.ai/tests/aws-certified-sap-specialty-sap-c02",
+  "editorial": {
+    "meta_description": "The AWS Certified SAP on AWS – Specialty exam is officially retired as of 2024-04-30, and there is no successor exam provided by AWS for this certification.",
+    "overview": "The AWS Certified SAP on AWS – Specialty exam, certified by AWS, covered the design, implementation, migration, and maintenance of SAP solutions on the AWS cloud. This exam officially retired on 2024-04-30. AWS has not designated a successor for this certification. Candidates interested in current SAP-related cloud certifications should consult the official AWS certification website for the most up-to-date information regarding available paths and professional credentials. This credential previously validated expertise in managing complex SAP environments within the AWS ecosystem.",
+    "who_should_take": "This retired exam targeted professionals with experience managing SAP workloads on AWS. It required technical knowledge of SAP HANA, NetWeaver, and cloud infrastructure to support complex enterprise environments and database migrations for organizations utilizing SAP software on AWS platforms.",
+    "skills_summary": [
+      "Designing SAP solutions on AWS",
+      "Implementing SAP infrastructure",
+      "Migrating SAP workloads",
+      "Operating SAP environments",
+      "Monitoring and troubleshooting",
+      "Database management"
+    ],
+    "preparation_strategy": "Since this exam is retired, do not prepare for it. Focus instead on current cloud architecture and SAP-specific technical documentation provided by AWS. Review the official AWS documentation for SAP, including guides on high availability, storage architecture, and EC2 instance types, to maintain your technical proficiency in managing SAP on AWS environments. Always verify current certification requirements through the official AWS portal to ensure your professional development aligns with active industry standards.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the architectural design of SAP solutions within the AWS environment, focusing on resource selection, infrastructure planning, and high-level strategy to meet specific workload requirements for enterprise SAP systems.",
+        "study_focus": [
+          "SAP solution architecture",
+          "Resource planning",
+          "Infrastructure design"
+        ],
+        "source_ids": [
+          "aws-sap-on-aws-specialty-pas-c01-landing"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain addresses the technical implementation of SAP systems on AWS, including the deployment of databases and application servers using certified instance types to ensure optimal performance and reliability for business operations.",
+        "study_focus": [
+          "SAP implementation",
+          "Deployment configuration",
+          "Instance selection"
+        ],
+        "source_ids": [
+          "aws-sap-on-aws-specialty-pas-c01-landing"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain focuses on the migration of existing SAP workloads to AWS, covering data transfer, system resizing, and the use of migration tools to ensure a seamless transition for complex enterprise databases.",
+        "study_focus": [
+          "Workload migration",
+          "Data transfer",
+          "System resizing"
+        ],
+        "source_ids": [
+          "aws-sap-on-aws-specialty-pas-c01-landing"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers the ongoing operation and maintenance of SAP solutions, including high availability setups, storage management, and system performance tuning to maintain stability and efficiency within the cloud-based SAP environment.",
+        "study_focus": [
+          "System maintenance",
+          "High availability",
+          "Storage management"
+        ],
+        "source_ids": [
+          "aws-sap-on-aws-specialty-pas-c01-landing"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain involves monitoring SAP system health and troubleshooting performance or connectivity issues within the AWS cloud infrastructure to ensure that all SAP applications remain responsive and available for the end users.",
+        "study_focus": [
+          "System monitoring",
+          "Troubleshooting",
+          "Performance tuning"
+        ],
+        "source_ids": [
+          "aws-sap-on-aws-specialty-pas-c01-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "As this exam is retired, it cannot be scheduled or taken. Candidates should monitor the AWS certification website for updates on current exam offerings and registration procedures for active certifications that may replace the previous SAP specialty path.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The exam consisted of 65 questions in a linear format. Candidates were required to navigate through these questions within the allotted time to demonstrate their technical proficiency in managing SAP workloads on the AWS cloud platform."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "The passing score for the exam was 750 on a scale of 100-1000. This score represented the minimum level of competency required to achieve the certification before the exam was officially retired by the AWS organization."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "The exam had a duration of 170 minutes. This time frame was designed to allow candidates sufficient opportunity to answer all 65 questions while carefully evaluating the complex technical scenarios presented during the testing session."
+      },
+      {
+        "question_title": "What was the exam price?",
+        "answer_text": "The cost of the exam was 300 dollars. This fee was standard for the certification level and covered the administrative and technical requirements associated with delivering the exam through authorized testing centers globally."
+      }
+    ],
+    "methodology": {
+      "summary": "This index was compiled using verified facts from AWS certification documentation and official exam guides, ensuring all data accurately reflects the retired status of the exam and provides historical context for professional certification seekers.",
+      "source_ids": [
+        "aws-sap-on-aws-specialty-pas-c01-landing"
+      ]
+    },
+    "source_ids": [
+      "aws-sap-on-aws-specialty-pas-c01-landing",
+      "aws-sap-on-aws-specialty-pas-c01-exam_guide",
+      "aws-sap-on-aws-specialty-pas-c01-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "aws-sap-on-aws-specialty-pas-c01-landing",
+      "url": "https://aws.amazon.com/certification/certified-sap-on-aws-specialty/",
+      "title": "AWS certification page",
+      "publisher": "AWS",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:552446a55a389a121530aa0f6eeddc1256afba3a7544072e2352d3e13d52c85e"
+    },
+    {
+      "id": "aws-sap-on-aws-specialty-pas-c01-exam_guide",
+      "url": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/pdfs/AWS_certification_paths.pdf",
+      "title": "AWS exam guide (d1.awsstatic.com)",
+      "publisher": "awsstatic.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:ed3d59906f93a6b53c512fe202b6e3f8cfcd3e1f68d228eac69420efc863661c"
+    },
+    {
+      "id": "aws-sap-on-aws-specialty-pas-c01-study",
+      "url": "https://explore.skillbuilder.aws/learn/catalog?ctldoc-catalog-0=se-official%20practice",
+      "title": "AWS study documentation (explore.skillbuilder.aws)",
+      "publisher": "skillbuilder.aws",
+      "source_type": "third_party_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:0c85abe5586ad157d8ede407d86ea10e1abcbe1d3dbe917c011c030a2123dcab"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:35:53+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:49+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:49+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2024-04-30",

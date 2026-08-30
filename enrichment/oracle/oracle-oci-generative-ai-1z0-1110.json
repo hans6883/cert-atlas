@@ -1,0 +1,143 @@
+{
+ "exam_id": "oracle-oci-generative-ai-1z0-1110",
+ "editorial": {
+  "meta_description": "The Oracle Cloud Infrastructure 2023 Generative AI Professional exam is retired. Candidates should prepare for the successor exam, 1Z0-1110-26, for their",
+  "overview": "The Oracle Cloud Infrastructure 2023 Generative AI Professional exam covered large language models and OCI Generative AI service implementation. This exam, certified by Oracle, is now retired. Candidates seeking professional certification in this field must now prepare for and sit for the successor exam, 1Z0-1110-26, which serves as the current path for demonstrating proficiency in Oracle generative AI technologies and cloud infrastructure implementations for all interested professionals.",
+  "who_should_take": "This certification path is intended for cloud architects, data scientists, and AI engineers. Candidates should possess practical experience building, deploying, and governing generative AI applications within the Oracle Cloud Infrastructure environment to succeed in the current 1Z0-1110-26 exam.",
+  "skills_summary": [
+   "Large language model fundamentals",
+   "OCI Generative AI service management",
+   "LLM application development",
+   "AI application evaluation",
+   "RAG application construction"
+  ],
+  "preparation_strategy": "Focus your preparation on the 1Z0-1110-26 exam objectives. Concepts regarding LLM architecture, OCI service integration, and RAG workflows remain relevant. Review the official OCI documentation for updates on agentic applications, vector stores, and enterprise governance controls. Use the OCI playground and CLI tools to gain hands-on experience, as these practical skills are required for the current certification path. Ensure you understand the core service features and documentation.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the core concepts, operational mechanics, and theoretical foundations of large language models, ensuring candidates understand the underlying principles required for effective deployment within the Oracle Cloud Infrastructure environment and broader enterprise AI systems.",
+    "study_focus": [
+     "LLM architecture",
+     "Text generation principles"
+    ],
+    "source_ids": [
+     "oracle-oci-generative-ai-1z0-1110-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on the specific features, configuration requirements, and management capabilities of the OCI Generative AI service, providing candidates with the knowledge necessary to deploy and maintain models effectively within the Oracle cloud ecosystem.",
+    "study_focus": [
+     "Service configuration",
+     "Model deployment"
+    ],
+    "source_ids": [
+     "oracle-oci-generative-ai-1z0-1110-study-2"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses the development of applications using OCI Generative AI capabilities, focusing on API integration and the practical steps required to build scalable solutions that leverage Oracle's advanced artificial intelligence and machine learning infrastructure.",
+    "study_focus": [
+     "API integration",
+     "Application building"
+    ],
+    "source_ids": [
+     "oracle-oci-generative-ai-1z0-1110-landing"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain covers the methods for assessing the performance, accuracy, and output quality of LLM applications, ensuring that candidates can implement testing and performance metrics to validate their AI solutions in production environments.",
+    "study_focus": [
+     "Application testing",
+     "Performance metrics"
+    ],
+    "source_ids": [
+     "oracle-oci-generative-ai-1z0-1110-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain focuses on building retrieval-augmented generation applications within OCI, covering the architecture and knowledge base integration necessary to create sophisticated AI systems that retrieve and process external data for improved model response accuracy.",
+    "study_focus": [
+     "RAG architecture",
+     "Knowledge base integration"
+    ],
+    "source_ids": [
+     "oracle-oci-generative-ai-1z0-1110-study-2"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The 1Z0-1110-23 exam is retired and cannot be scheduled. Candidates should register for the 1Z0-1110-26 exam. Ensure you have valid identification and follow all Oracle testing policies when arriving at your testing center or preparing for your online proctored session.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of 50 questions. These questions are presented in a linear format, requiring candidates to navigate through the content to demonstrate their knowledge across the five defined domains."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To achieve certification, candidates must reach a passing score of 65. This threshold applies to the assessment of the 50 questions provided during the testing session."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam duration is 90 minutes. Candidates must complete all questions within this timeframe, which is allocated for the linear format of the assessment provided by Oracle."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "The price for the exam is 245 dollars. This fee covers the cost of the assessment as established by the certifying body, Oracle, for all candidates registering for the test."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was constructed by synthesizing official Oracle certification documentation and exam metadata to provide accurate information regarding the retired status and the required successor path for all candidates.",
+   "source_ids": [
+    "oracle-oci-generative-ai-1z0-1110-landing"
+   ]
+  },
+  "source_ids": [
+   "oracle-oci-generative-ai-1z0-1110-study",
+   "oracle-oci-generative-ai-1z0-1110-study-2",
+   "oracle-oci-generative-ai-1z0-1110-landing"
+  ]
+ },
+ "sources": [
+  {
+   "id": "oracle-oci-generative-ai-1z0-1110-study",
+   "url": "https://education.oracle.com/certification",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:60168819ca907424e2d18c554a0cf4fe9b87b3b7e5276ea42e135cad8947ab1d"
+  },
+  {
+   "id": "oracle-oci-generative-ai-1z0-1110-study-2",
+   "url": "https://education.oracle.com/",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:143399488e88c5c7bb52946106adcde33aea174f43379e611a73ca3fc3636a3d"
+  },
+  {
+   "id": "oracle-oci-generative-ai-1z0-1110-landing",
+   "url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-generative-ai-professional/pexam_1Z0-1110-23",
+   "title": "Oracle certification page",
+   "publisher": "Oracle",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:363119a0e7d379a8f531a09e5f832a535fd814f932163d178f9a784b6711b979"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T01:15:50+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:08+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:08+00:00"
+ }
+}

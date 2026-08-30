@@ -1,0 +1,169 @@
+{
+ "exam_id": "garp-frm-part-2",
+ "editorial": {
+  "meta_description": "Prepare for the GARP Financial Risk Manager Part II exam. Master market, credit, operational, and liquidity risk management principles.",
+  "overview": "The Financial Risk Manager Part II exam is a professional certification assessment administered by GARP that evaluates advanced risk management principles across six distinct domains. Candidates must successfully pass Part I before they are permitted to register. The assessment features multiple choice questions administered in a linear format over a total duration of 240 minutes.",
+  "who_should_take": "Risk management professionals and financial analysts who have successfully passed Part I of the program. Candidates must apply advanced concepts in market, credit, operational, and liquidity risk to complex real-world banking and investment environments.",
+  "skills_summary": [
+   "Market Risk Measurement",
+   "Credit Risk Management",
+   "Operational Risk",
+   "Liquidity Risk",
+   "Investment Management",
+   "Current Financial Issues"
+  ],
+  "preparation_strategy": "Review official GARP study materials and learning objectives across all six domains to ensure complete understanding. Practice answering multiple choice questions under strict timed conditions to prepare effectively for the 240-minute duration and the total of 80 questions. Ensure you have successfully passed Part I before beginning your registration.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses directly on market risk measurement and management practices within financial institutions, ensuring candidates understand complex trading books, internal models, and standard approaches for regulatory compliance.",
+    "study_focus": [
+     "Trading book versus banking book boundary",
+     "Internal models approach",
+     "Standardised approach for market risk"
+    ],
+    "source_ids": [
+     "garp-frm-part-2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain covers advanced credit risk measurement and management frameworks used by modern banks, detailing internal ratings-based approaches, standardized rules, and vital counterparty credit risk definitions for effective institutional governance.",
+    "study_focus": [
+     "Standardised approach for credit risk",
+     "Internal ratings-based approach",
+     "Counterparty credit risk definitions"
+    ],
+    "source_ids": [
+     "garp-frm-part-2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses operational risk and resiliency standards for the global banking sector, covering standardized methodologies, operational risk definitions, and broad institutional resiliency frameworks designed to protect systemic financial stability.",
+    "study_focus": [
+     "Operational risk definitions",
+     "Standardised approach for operational risk",
+     "Resiliency frameworks"
+    ],
+    "source_ids": [
+     "garp-frm-part-2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain examines liquidity and treasury risk measurement and management tools, focusing heavily on regulatory metrics like the Liquidity Coverage Ratio, Net Stable Funding Ratio, and high-quality liquid assets.",
+    "study_focus": [
+     "Liquidity Coverage Ratio",
+     "Net Stable Funding Ratio",
+     "High-quality liquid assets"
+    ],
+    "source_ids": [
+     "garp-frm-part-2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain explores advanced risk management practices applied directly to investment management, providing candidates with practical portfolio management risk tools and reliable investment risk assessment techniques for professional portfolios.",
+    "study_focus": [
+     "Investment risk assessment",
+     "Portfolio management risk tools"
+    ],
+    "source_ids": [
+     "garp-frm-part-2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain reviews current issues in financial markets and recent regulatory changes, ensuring candidates stay informed about modern market developments and dynamic regulatory updates impacting the global financial industry today.",
+    "study_focus": [
+     "Current market developments",
+     "Recent regulatory updates"
+    ],
+    "source_ids": [
+     "garp-frm-part-2-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive at the test center fully prepared for a linear multiple choice examination. Manage your time carefully across all 80 questions within the 240-minute duration.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of exactly 80 multiple choice questions delivered in a linear format to test your advanced risk management knowledge during the testing session."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "Passing score criteria and specific grading details are determined directly by GARP; please check with GARP for official information regarding score requirements and results processing."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam provides a total duration of 240 minutes for all registered candidates to carefully complete every single one of the multiple choice questions within the designated testing window."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "Early registration costs approximately $600, while standard registration costs approximately $750. Please note that candidates must also successfully pass Part I first before registering for the exam."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official GARP exam guides, learning objectives, and regulatory standards documentation sourced directly from the authorized program providers.",
+   "source_ids": [
+    "garp-frm-part-2-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "garp-frm-part-2-exam_guide",
+   "garp-frm-part-2-exam_guide-2",
+   "garp-frm-part-2-exam_guide-3",
+   "garp-frm-part-2-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "garp-frm-part-2-exam_guide",
+   "url": "https://www.garp.org/frm/program-exams",
+   "title": "GARP exam guide",
+   "publisher": "GARP",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:5544543100218dad0b6af58db6d5b735a9ea77d5680d4fb1c2ad423ff7cec020"
+  },
+  {
+   "id": "garp-frm-part-2-exam_guide-2",
+   "url": "https://www.garp.org/frm/study-materials",
+   "title": "GARP exam guide",
+   "publisher": "GARP",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:16cd38f13919d0604ec190daf180d53dbfd8940bfbc69ff64043b430a2b3ac2e"
+  },
+  {
+   "id": "garp-frm-part-2-exam_guide-3",
+   "url": "https://www.garp.org/landing/frm-learning-objectives",
+   "title": "GARP exam guide",
+   "publisher": "GARP",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:0a72e97317a7757d223285aa5235c7a81e22276f3b8c08bfdee8af67409b0407"
+  },
+  {
+   "id": "garp-frm-part-2-exam_guide-4",
+   "url": "https://300hours.com/frm/",
+   "title": "GARP exam guide (300hours.com)",
+   "publisher": "300hours.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:0874c0295c3aef98ba902b232c2ccc96cf6f64475804017ea33f7746d4c79840"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:43:09+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:55+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:55+00:00"
+ }
+}

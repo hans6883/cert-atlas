@@ -111,14 +111,187 @@
     "juniper associate cloud",
     "juniper-jncia-cloud"
   ],
-  "practice_url": "https://quizforge.ai/?q=JNCIA-Cloud",
+  "practice_url": "https://quizforge.ai/tests/jncia-cloud-2f4djt",
+  "editorial": {
+    "meta_description": "The JN0-211 exam is retired. Candidates should pursue the JN0-214 Cloud, Associate (JNCIA-Cloud) certification for their cloud networking path.",
+    "overview": "The JNCIA-Cloud exam, formerly identified as JN0-211, was a Juniper Networks certification covering cloud fundamentals, virtualization, and orchestration. This exam is retired as of 2022-02-13. Juniper Networks now offers the JN0-214 exam as the direct successor for this certification track. Candidates seeking to validate their skills in cloud infrastructure and network virtualization should focus their efforts on the current JN0-214 exam requirements.",
+    "who_should_take": "This certification is for networking professionals who manage cloud environments. It targets individuals with experience in virtualized networks, container orchestration, and cloud infrastructure who want to demonstrate their technical proficiency in Juniper Networks cloud solutions.",
+    "skills_summary": [
+      "Cloud fundamentals and architecture",
+      "NFV and SDN infrastructure",
+      "Network and cloud virtualization",
+      "OpenStack orchestration",
+      "Kubernetes and OpenShift management"
+    ],
+    "preparation_strategy": "Prepare for the JN0-214 exam by reviewing current cloud-native networking documentation. While your knowledge of virtualization and SDN concepts remains relevant, you must update your study focus to align with the objectives of the successor exam. Use official Juniper Networks resources to master the latest orchestration tools and platform requirements, as the retired JN0-211 exam is no longer available for registration.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the established concepts, terminology, and core principles required to completely understand cloud networking environments and their fundamental role in modern network infrastructure architectures across enterprise implementations.",
+        "study_focus": [
+          "Cloud architecture basics",
+          "Service models"
+        ],
+        "source_ids": [
+          "juniper-jncia-cloud-objectives"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain specifically focuses on the integration and implementation of Network Functions Virtualization and Software-Defined Networking technologies within modern cloud deployments and enterprise infrastructure models without exception during the development phase.",
+        "study_focus": [
+          "NFV implementation",
+          "SDN control planes"
+        ],
+        "source_ids": [
+          "juniper-jncia-cloud-objectives"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain comprehensively addresses the various methods, protocols, and architectural patterns used to virtualize network resources in order to effectively support secure multi-tenant cloud computing environments across platforms.",
+        "study_focus": [
+          "Virtual routing",
+          "Overlay networks"
+        ],
+        "source_ids": [
+          "juniper-jncia-cloud-objectives"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers the complete virtualization of compute resources, exploring the primary interactions between virtual machines and the underlying physical or virtual network infrastructure components present during deployment.",
+        "study_focus": [
+          "VM networking",
+          "Resource isolation"
+        ],
+        "source_ids": [
+          "juniper-jncia-cloud-objectives"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain examines the practical use of OpenStack platforms to automate, configure, and manage cloud network services, virtual resources, and associated infrastructure components efficiently within operational data centers.",
+        "study_focus": [
+          "OpenStack components",
+          "Network orchestration"
+        ],
+        "source_ids": [
+          "juniper-jncia-cloud-objectives"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain covers the complex orchestration of containerized workloads, utilizing Kubernetes as an operational and scalable networking platform designed for modern cloud-native application deployments across numerous enterprise systems successfully today.",
+        "study_focus": [
+          "Kubernetes networking",
+          "Container management"
+        ],
+        "source_ids": [
+          "juniper-jncia-cloud-objectives"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This domain focuses heavily on the deployment, configuration, and ongoing management of enterprise network services within OpenShift containerized environments and enterprise application clusters maintained by organizations across different business sectors.",
+        "study_focus": [
+          "OpenShift integration",
+          "Container network interface"
+        ],
+        "source_ids": [
+          "juniper-jncia-cloud-objectives"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The JN0-211 exam is retired and cannot be scheduled. Candidates should register for the JN0-214 exam. Ensure you arrive at the testing center with valid identification and follow all current Juniper Networks exam policies for the successor certification.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "Candidates taking this certification exam will encounter a total of 65 questions designed to evaluate their technical knowledge and practical competencies across all published exam domains and operational guidelines."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "To successfully achieve certification, candidates must attain a minimum passing score of 70 percentage, which is evaluated systematically according to the established scoring policies defined by the certifying vendor."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The examination is administered under a strict time limit, allowing candidates exactly 90 minutes to complete all required questions and review their responses before final submission at the authorized testing center."
+      },
+      {
+        "question_title": "What is the cost of the exam?",
+        "answer_text": "The standard registration fee for attempting this professional certification exam is priced at $200 USD, payable directly through the designated test delivery partner during the scheduling process."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by aggregating official Juniper Networks exam objectives and documentation to provide accurate information regarding the retirement of JN0-211 and the transition to JN0-214.",
+      "source_ids": [
+        "juniper-jncia-cloud-objectives"
+      ]
+    },
+    "source_ids": [
+      "juniper-jncia-cloud-objectives",
+      "juniper-jncia-cloud-exam_guide",
+      "juniper-jncia-cloud-exam_guide-3",
+      "juniper-jncia-cloud-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "juniper-jncia-cloud-objectives",
+      "url": "https://www.juniper.net/us/en/training/certification/tracks/cloud/jncia-cloud.html",
+      "title": "Juniper Networks exam objectives",
+      "publisher": "Juniper Networks",
+      "source_type": "official_objectives",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:675955eea60ccd6e90da5d1d8741536092b6963207e001f41af7dc5a3e08122d"
+    },
+    {
+      "id": "juniper-jncia-cloud-exam_guide",
+      "url": "https://www.juniper.net/us/en/solutions/blueprint-for-ai-native-acceleration/juniper-validated-designs.html",
+      "title": "Juniper Networks exam guide",
+      "publisher": "Juniper Networks",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:7aa42ea73ce65ecc3e70ff399398b067183b3f0d305b20b250017e598739efd9"
+    },
+    {
+      "id": "juniper-jncia-cloud-exam_guide-3",
+      "url": "https://www.juniper.net/us/en/training.html",
+      "title": "Juniper Networks exam guide",
+      "publisher": "Juniper Networks",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:f0c70933fdb6c21fb2cff52513e66fc06e7bd2b3a9961f6cdfe883fa9e4cc1bc"
+    },
+    {
+      "id": "juniper-jncia-cloud-exam_guide-4",
+      "url": "https://www.juniper.net/us/en/solutions/blueprint-for-ai-native-acceleration/learning-and-certification.html",
+      "title": "Juniper Networks exam guide",
+      "publisher": "Juniper Networks",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:2760273b97b2ab582716c7aa9b3931583c0d4cc3dca46659f627d474289a5877"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T00:27:23+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:02+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:02+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2022-02-13",
     "replacement": {
       "exam_code": "JN0-214",
       "relationship": "direct_replacement",
-      "url": null
+      "url": "https://www.juniper.net/us/en/training/certification/tracks/cloud/jncia-cloud.html",
+      "name": "Cloud, Associate (JNCIA-Cloud)"
     },
     "summary": "Juniper Networks retired JN0-211 on 2022-02-13. JN0-214 is the named replacement path.",
     "evidence_url": "https://www.juniper.net/us/en/training/news.html",

@@ -1,0 +1,102 @@
+{
+ "exam_id": "ged-mathematical-reasoning",
+ "editorial": {
+  "meta_description": "The GED Mathematical Reasoning exam covers number sense, algebra, and geometry. Learn about the 46-question test format, passing requirements, and available",
+  "overview": "The GED Mathematical Reasoning exam is a computer-based assessment provided by the GED Testing Service. It evaluates proficiency in three primary domains: basic math, algebraic problem solving, and quantitative problem solving. Candidates must demonstrate skills in number operations, linear equations, functions, geometry, and statistics. This exam is a component of the broader GED testing program, which requires a specific passing score to earn certification. By mastering these mathematical concepts, candidates prove their readiness for higher education or professional career opportunities that demand high school-level quantitative reasoning and analytical skills.",
+  "who_should_take": "This exam is intended for individuals seeking to demonstrate high school-level mathematical proficiency. It is suitable for students and adults pursuing educational or career advancement who need to verify their knowledge through the official GED Testing Service certification path.",
+  "skills_summary": [
+   "Number sense",
+   "Mathematical operations",
+   "Linear equations",
+   "Functions",
+   "Geometry",
+   "Statistics"
+  ],
+  "preparation_strategy": "Review the three domains to allocate study time according to their weights: 25% for basic math, 55% for algebraic problem solving, and 20% for quantitative problem solving. Practice with multiple-choice, short answer, and extended response formats. Use official GED Testing Service resources to familiarize yourself with the computer-based interface and the 46-question structure before your scheduled test date. Consistent practice with these specific question types will help you manage your time effectively during the actual assessment.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses on basic math, specifically number sense and mathematical operations. It accounts for 25% of the exam and requires proficiency in performing calculations and understanding various numerical relationships to solve problems effectively during the test.",
+    "study_focus": [
+     "Number sense",
+     "Mathematical operations"
+    ],
+    "source_ids": [
+     "ged-mathematical-reasoning-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "Algebraic problem solving makes up 55% of the exam. It covers the application of linear equations and functions to solve complex mathematical problems, requiring a strong grasp of algebraic principles and their practical applications during the testing session.",
+    "study_focus": [
+     "Linear equations",
+     "Functions"
+    ],
+    "source_ids": [
+     "ged-mathematical-reasoning-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "Quantitative problem solving represents 20% of the exam. This area involves applying mathematical reasoning to geometry and statistics, requiring candidates to interpret data and solve problems using geometric and statistical methods during the official test session.",
+    "study_focus": [
+     "Geometry",
+     "Statistics"
+    ],
+    "source_ids": [
+     "ged-mathematical-reasoning-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive prepared for a 115-minute computer-based session. The exam includes 46 questions in multiple-choice, short answer, and extended response formats. Ensure you are familiar with the testing environment and manage your time effectively across the three domains to maximize your performance.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The GED Mathematical Reasoning exam consists of 46 questions in total. These questions are presented in multiple-choice, short answer, and extended response formats to test your skills and ensure you meet the required standards for certification."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To successfully pass the GED Mathematical Reasoning exam, you must achieve a minimum score of 145. This score confirms your proficiency in the required mathematical domains and concepts necessary to earn your high school-level certification."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a total duration of 115 minutes. You should manage your time carefully during the session to ensure you complete all questions within this allotted period and demonstrate your full range of mathematical abilities."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The price is $35 per subject test, or $140 for all 4 subject tests. Note that this cost may vary by state or jurisdiction, so check with GED Testing Service for the current certification path."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was constructed by synthesizing official GED Testing Service documentation and verified exam specifications to provide an accurate overview of the current certification requirements and testing standards for all candidates.",
+   "source_ids": [
+    "ged-mathematical-reasoning-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "ged-mathematical-reasoning-exam_guide"
+  ]
+ },
+ "sources": [
+  {
+   "id": "ged-mathematical-reasoning-exam_guide",
+   "url": "https://www.ged.com/content/dam/websites/ged/resources/en/assessment-guide-for-educators-math.pdf",
+   "title": "GED Testing Service exam guide",
+   "publisher": "GED Testing Service",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:77376fab155ca1b5fa6d34100a0e418500de9d4f7ab164307733daff66ca64d2"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:18:43+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:55+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:55+00:00"
+ }
+}

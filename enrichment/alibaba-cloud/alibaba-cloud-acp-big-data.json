@@ -1,0 +1,153 @@
+{
+ "exam_id": "alibaba-cloud-acp-big-data",
+ "editorial": {
+  "meta_description": "The ACP Big Data Professional exam is officially retired as of 2025-03-31, and there is no successor exam available for candidates to pursue at this time.",
+  "overview": "The ACP Big Data Professional certification, managed by Alibaba Cloud, covered advanced data processing, real-time analytics, and machine learning integration. This exam officially retired on 2025-03-31. As there is no designated successor, candidates seeking certification should consult the official Alibaba Cloud education portal for current training and credentialing opportunities that align with their professional goals in big data architecture and management. The certification program was designed to validate technical expertise in handling large-scale data environments using various cloud-based services and distributed computing frameworks provided by the Alibaba Cloud ecosystem.",
+  "who_should_take": "This retired certification was intended for data engineers and architects with significant experience in managing large-scale data environments. Candidates needed proficiency in distributed computing and cloud-based data services to handle the 70 questions presented during the 120-minute assessment.",
+  "skills_summary": [
+   "Advanced MaxCompute data processing",
+   "Flink real-time stream analytics",
+   "Data lake architecture management",
+   "Machine learning and AI integration",
+   "Data governance and compliance"
+  ],
+  "preparation_strategy": "Since this exam is retired and has no successor, do not prepare for it. Focus your efforts on current cloud data technologies. Review the official Alibaba Cloud documentation to identify relevant skills for your career path. Any knowledge of MaxCompute, Flink, or data lake management remains useful, but you should not attempt to sit for this specific, discontinued exam. Please explore the official Alibaba Cloud education portal to find active certifications that may better suit your current professional development requirements and technical career objectives.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focused on advanced operations within MaxCompute, which served as the primary data warehousing platform for the certification, requiring candidates to demonstrate deep knowledge of distributed data processing and complex query optimization techniques.",
+    "study_focus": [
+     "MaxCompute data processing",
+     "Distributed data warehousing"
+    ],
+    "source_ids": [
+     "alibaba-cloud-acp-big-data-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain covered real-time data processing techniques using Apache Flink, emphasizing the ability to manage streaming data pipelines, stateful stream processing, and the implementation of low-latency analytics within the Alibaba Cloud big data environment.",
+    "study_focus": [
+     "Flink stream processing",
+     "Stateful stream management"
+    ],
+    "source_ids": [
+     "alibaba-cloud-acp-big-data-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addressed the storage and management of data within a data lake environment, focusing on architectural best practices for organizing, securing, and scaling large volumes of unstructured and structured data for analytical purposes.",
+    "study_focus": [
+     "Data lake architecture",
+     "Storage management"
+    ],
+    "source_ids": [
+     "alibaba-cloud-acp-big-data-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain focused on integrating machine learning and AI capabilities into data workflows, requiring an understanding of how to deploy predictive models and automated data processing tasks within the broader Alibaba Cloud infrastructure.",
+    "study_focus": [
+     "AI integration",
+     "Machine learning workflows"
+    ],
+    "source_ids": [
+     "alibaba-cloud-acp-big-data-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain covered the principles and practices of data governance, including the implementation of security policies, compliance management, and the maintenance of data integrity across complex, multi-tenant cloud-based big data storage and processing systems.",
+    "study_focus": [
+     "Data governance policies",
+     "Compliance management"
+    ],
+    "source_ids": [
+     "alibaba-cloud-acp-big-data-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Because the ACP Big Data Professional exam is retired, it cannot be scheduled or taken. Candidates should visit the Alibaba Cloud certification website to explore currently available exams and registration procedures for active credentials that are currently supported by the platform.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consisted of 70 questions in total, which included both multiple choice and multiple response formats designed to test the candidate's technical knowledge of big data architecture and cloud services."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The exam used a pass/fail grading system. The specific passing threshold was not publicly disclosed by Alibaba Cloud, meaning candidates were evaluated based on their overall performance across all domains."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam was a 120-minute assessment delivered via computer-based testing, either online through Pearson VUE or at an authorized test center, providing candidates with sufficient time to complete the required questions."
+   },
+   {
+    "question_title": "Is the certification still valid?",
+    "answer_text": "The certification had a validity period of 3 years, after which renewal was required. However, as the exam is now retired, you should check the official Alibaba Cloud portal for current certification status."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was constructed by synthesizing official Alibaba Cloud certification documentation and exam guides to provide accurate information regarding the retirement of the ACP-BigData exam, ensuring that all provided details align with the official status of the credential.",
+   "source_ids": [
+    "alibaba-cloud-acp-big-data-study"
+   ]
+  },
+  "source_ids": [
+   "alibaba-cloud-acp-big-data-study",
+   "alibaba-cloud-acp-big-data-landing",
+   "alibaba-cloud-acp-big-data-exam_guide",
+   "alibaba-cloud-acp-big-data-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "alibaba-cloud-acp-big-data-study",
+   "url": "https://edu.alibabacloud.com/certification",
+   "title": "Alibaba Cloud study documentation",
+   "publisher": "Alibaba Cloud",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:516fe152e0bd8d79f53594192c6ce8f8c451e6782a7b4708053d822a7c6061b0"
+  },
+  {
+   "id": "alibaba-cloud-acp-big-data-landing",
+   "url": "https://edu.alibabacloud.com/certification/acp_bigdata",
+   "title": "Alibaba Cloud certification page",
+   "publisher": "Alibaba Cloud",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:4efb701f3b89b2750332579961e883c33edbb20f3802f0d3a192f4a776701c96"
+  },
+  {
+   "id": "alibaba-cloud-acp-big-data-exam_guide",
+   "url": "https://video-intl.alicdn.com/2024/Academy/April/Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf?spm=a3c0i.11597324.4363105600.34.55c747551sfV4u&file=Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf",
+   "title": "Alibaba Cloud exam guide (video-intl.alicdn.com)",
+   "publisher": "alicdn.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c45e5444d5b7a4ad801af71ff31fb8e8eac19b985d2941056e49bd5e2b418eb5"
+  },
+  {
+   "id": "alibaba-cloud-acp-big-data-exam_guide-4",
+   "url": "https://files.alicdn.com/tpsservice/ea8652a75c0a94e78474195d4597acdd.pdf",
+   "title": "Alibaba Cloud exam guide (files.alicdn.com)",
+   "publisher": "alicdn.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6f196a0b7988e88d4983f081a9acfb9cb45976937c301321a2cf9126282f61bb"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T02:16:47+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:49+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:49+00:00"
+ }
+}

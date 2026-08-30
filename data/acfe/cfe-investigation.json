@@ -114,6 +114,156 @@
     "cfe-investigation"
   ],
   "practice_url": "https://quizforge.ai/?q=CFE%20Part%203%3A%20Investigation",
+  "editorial": {
+    "meta_description": "The CFE Investigation exam is officially retired as of 2026-06-02, and there is no successor exam available for candidates to pursue for this credential.",
+    "overview": "The CFE Investigation exam, certified by the ACFE, covered principles of interviewing, information sources, document examination, cyber investigation, and digital forensics. This exam is officially retired as of 2026-06-02. No successor exam exists for this credential. Candidates seeking certification should consult the ACFE directly to determine the current requirements and available pathways for professional development in fraud examination. The exam was a linear, fixed-form assessment consisting of 125 multiple choice questions.",
+    "who_should_take": "This exam was intended for fraud examiners and professionals tasked with conducting investigations. It required knowledge of interviewing techniques, document analysis, and digital forensic methods to identify and extract relevant evidence during the course of an investigation.",
+    "skills_summary": [
+      "Interviewing principles",
+      "Information source identification",
+      "Document examination techniques",
+      "Cyber investigation methods",
+      "Digital forensics application"
+    ],
+    "preparation_strategy": "Since this exam is retired and has no successor, do not prepare for or attempt to sit for it. Focus your efforts on current ACFE certification requirements. Any knowledge of investigative principles or digital forensics remains useful, but you must verify the current ACFE curriculum to ensure your study aligns with their updated professional standards and certification criteria. Do not rely on outdated study materials for this retired exam.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the techniques and professional principles used when conducting interviews to gather information during an investigation. It focuses on the methodology required to effectively elicit truthful responses from subjects during the investigative process.",
+        "study_focus": [
+          "Interviewing principles",
+          "Communication techniques"
+        ],
+        "source_ids": [
+          "cfe-investigation-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on identifying and utilizing various sources of information to support investigative findings. It covers the systematic approach to gathering, verifying, and documenting evidence from diverse public and private records to build a case.",
+        "study_focus": [
+          "Information sources",
+          "Evidence verification"
+        ],
+        "source_ids": [
+          "cfe-investigation-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses the methods for examining documents to verify authenticity and extract evidence. It involves the technical analysis of physical and electronic records to detect alterations, forgeries, or other indicators of fraud within the documentation provided.",
+        "study_focus": [
+          "Document examination",
+          "Authenticity verification"
+        ],
+        "source_ids": [
+          "cfe-investigation-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers the procedures for conducting investigations within cyber environments. It details the specific challenges and legal considerations involved when tracking fraudulent activities that occur across digital networks and online platforms during a formal investigation.",
+        "study_focus": [
+          "Cyber investigation",
+          "Network analysis"
+        ],
+        "source_ids": [
+          "cfe-investigation-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain involves the application of digital forensic techniques to recover and analyze data from digital devices. It focuses on the preservation and examination of electronic evidence to ensure it remains admissible and reliable for legal proceedings.",
+        "study_focus": [
+          "Digital forensics",
+          "Data recovery"
+        ],
+        "source_ids": [
+          "cfe-investigation-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The CFE Investigation exam is retired and cannot be scheduled. Candidates should check the official ACFE website for information regarding current certification exams and their respective testing procedures, which may include online proctored options or Pearson VUE testing centers for active credentials.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The exam consisted of 125 multiple choice questions that candidates were required to complete within the allotted time frame to demonstrate their proficiency in fraud investigation and related technical subject areas."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "A passing score of 75% was required for this exam. Candidates needed to achieve this specific percentage to successfully demonstrate their competency in the tested subject areas during the assessment period."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "The duration of the exam was 135 minutes. This time limit was strictly enforced for all candidates taking the linear, fixed-form assessment at authorized testing centers or via online proctored delivery methods."
+      },
+      {
+        "question_title": "Is there a successor to this exam?",
+        "answer_text": "No, there is no successor to the CFE Investigation exam. The ACFE has retired this exam as of 2026-06-02 and has not named a replacement for it in their current certification program."
+      }
+    ],
+    "methodology": {
+      "summary": "This index was built using official ACFE exam documentation and verified facts regarding the retirement status of the CFE Investigation exam to ensure accuracy for all users seeking information about this credential.",
+      "source_ids": [
+        "cfe-investigation-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "cfe-investigation-exam_guide",
+      "cfe-investigation-landing",
+      "cfe-investigation-exam_guide-3",
+      "cfe-investigation-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "cfe-investigation-exam_guide",
+      "url": "https://www.acfe.com/-/media/files/acfe/pdfs/cfe-exam/cfe-exam-content-outline_2026.pdf",
+      "title": "ACFE exam guide",
+      "publisher": "ACFE",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:e3ed60d45d1f1cc4f2b99d2f45f4b61bcf2f15a9aaceda1f15d99b041107434d"
+    },
+    {
+      "id": "cfe-investigation-landing",
+      "url": "https://www.acfe.com/cfe-credential/",
+      "title": "ACFE certification page",
+      "publisher": "ACFE",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:f19232d0bd8dfe9bda1f3356311fc21452ca72c3f4a2f2b34a243afb539bf9cf"
+    },
+    {
+      "id": "cfe-investigation-exam_guide-3",
+      "url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam/exam-blueprint",
+      "title": "ACFE exam guide",
+      "publisher": "ACFE",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:ed073b62f9407dccc659e02ca3fa8d62abfcc7372bf847a66913aef544dbdef9"
+    },
+    {
+      "id": "cfe-investigation-exam_guide-4",
+      "url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam/exam-blueprint#wrapper",
+      "title": "ACFE exam guide",
+      "publisher": "ACFE",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:229bb626701a68d5bdf784d63d147c3dcaf6f77d32348da6bd161546fd3fd276"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:04:35+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:50+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:50+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-06-02",

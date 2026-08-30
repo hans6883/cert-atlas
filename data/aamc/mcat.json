@@ -120,5 +120,116 @@
     "medical school entrance exam",
     "pre-med exam"
   ],
-  "practice_url": "https://quizforge.ai/?q=MCAT%20%28Medical%20College%20Admission%20Test%29"
+  "practice_url": "https://quizforge.ai/tests/mcat-medical-college-admission-test",
+  "editorial": {
+    "meta_description": "The MCAT is a computer-based exam that evaluates candidates on the chemical, physical, biological, and psychological foundations of systems and reasoning.",
+    "overview": "The Medical College Admission Test (MCAT) is a computer-based exam that evaluates candidates across four distinct domains: chemical and physical foundations, critical analysis and reasoning, biological and biochemical foundations, and psychological, social, and biological foundations of behavior. Each of the four sections carries a weight of 25 percent, providing a balanced assessment of the knowledge and skills required for medical school. This evaluation ensures that all prospective students demonstrate the necessary proficiency in scientific inquiry and critical thinking before entering their medical education programs.",
+    "who_should_take": "This exam is intended for individuals applying to medical school. Candidates must be prepared for a 450-minute testing session that includes 230 questions. It is a fixed-form, computer-based assessment administered exclusively at Prometric test centers, requiring preparation to succeed in this academic environment.",
+    "skills_summary": [
+      "General chemistry and physics",
+      "Reading comprehension and inference",
+      "Biochemistry and organic chemistry",
+      "Psychology and sociology principles",
+      "Argument evaluation"
+    ],
+    "preparation_strategy": "Review the official AAMC exam objectives to understand the scope of the four sections. Practice with passage-based and discrete questions to build familiarity with the fixed-form, computer-based format. Manage your time effectively during the 450-minute exam. Utilize the fee assistance program if eligible to reduce the standard registration cost of $335 to $135. Consistent practice and a deep understanding of the core scientific principles are required for achieving a competitive score on this assessment.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This section covers the chemical and physical principles that govern biological systems. It requires knowledge of general chemistry, physics, biochemistry, and organic chemistry to solve problems related to biological functions and systems.",
+        "study_focus": [
+          "General chemistry principles",
+          "Physics applications",
+          "Biochemistry and organic chemistry"
+        ],
+        "source_ids": [
+          "mcat-objectives"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain tests your ability to comprehend, analyze, and evaluate complex passages. It focuses on reading comprehension, logical inference, and the evaluation of arguments presented in written text to determine your analytical capabilities.",
+        "study_focus": [
+          "Reading comprehension",
+          "Logical inference",
+          "Argument evaluation"
+        ],
+        "source_ids": [
+          "mcat-objectives"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This section examines biological and biochemical processes in living systems. It integrates concepts from biology, biochemistry, organic chemistry, and general chemistry to explain life at the molecular and cellular levels for medical students.",
+        "study_focus": [
+          "Biology and biochemistry",
+          "Organic and general chemistry"
+        ],
+        "source_ids": [
+          "mcat-objectives"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain addresses the psychological, social, and biological foundations of behavior. It covers concepts from psychology and sociology as they relate to human biology and behavior to assess your understanding of complex social systems.",
+        "study_focus": [
+          "Psychology and sociology",
+          "Biological foundations of behavior"
+        ],
+        "source_ids": [
+          "mcat-objectives"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at your assigned Prometric test center for the computer-based exam. The test consists of four fixed-order sections with optional scheduled breaks. You may choose to void your scores at the end of the session if you feel your performance was not representative.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of 230 questions distributed across four sections. Each section contributes equally to the total, with each domain representing 25 percent of the content to ensure a balanced and fair assessment of all candidates."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The AAMC does not define a specific passing score for the MCAT. Candidates should check with AAMC or their target medical schools for information regarding score requirements and the current certification path for their specific application goals."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total duration of the exam is 450 minutes. This includes the time for the four sections, the tutorial, the void option, and the optional scheduled breaks between sections to allow for rest and mental preparation during the day."
+      },
+      {
+        "question_title": "What is the cost to register for the exam?",
+        "answer_text": "Standard registration is $335, while late registration is $375. Eligible applicants may use the fee assistance program to reduce the cost to $135. Rescheduling and cancellation fees also apply, so please review the official policy carefully before finalizing your registration."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by synthesizing verified facts provided by the AAMC and official exam documentation to ensure accuracy regarding the current testing requirements, structure, and administrative policies for all prospective medical school applicants.",
+      "source_ids": [
+        "mcat-objectives"
+      ]
+    },
+    "source_ids": [
+      "mcat-objectives"
+    ]
+  },
+  "sources": [
+    {
+      "id": "mcat-objectives",
+      "url": "https://students-residents.aamc.org/media/9261/download",
+      "title": "AAMC exam objectives",
+      "publisher": "AAMC",
+      "source_type": "official_objectives",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:324858748d5e7396b4441f659fec94a4b5f590ea87d9de73b3f2f7c56848132d"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:53:25+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 0.875,
+    "scored_at": "2026-08-30T04:46:02+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:02+00:00"
+  }
 }

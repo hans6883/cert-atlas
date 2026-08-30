@@ -585,7 +585,7 @@
     "microsoft azure security technologies",
     "microsoft-az-500-azure-security"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Azure%20Security%20Technologies",
+  "practice_url": "https://quizforge.ai/tests/microsoft-azure-security-engineer-az-500",
   "editorial": {
     "meta_description": "AZ-500 retires soon. Review its source-verified domains, cutoff, study value, and SC-500 transition.",
     "overview": "AZ-500, Microsoft Azure Security Technologies, remains available only until 2026-08-31. Its published domains cover Secure identity and access, Secure networking, Secure compute, storage, and databases, Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel. The final AZ-500 outline is unusually useful as a boundary map between resource-level Azure hardening and broader security operations. It shows where identity, network paths, workload configuration, posture management, and incident signals must be reasoned about together. Microsoft names SC-500 as the direct replacement. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
@@ -703,7 +703,8 @@
     "replacement": {
       "exam_code": "SC-500",
       "relationship": "direct_replacement",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/"
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
+      "name": "Implementing End-to-End Security Controls for Cloud and AI Workloads"
     },
     "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
     "verified_at": "2026-08-26T00:00:00Z"

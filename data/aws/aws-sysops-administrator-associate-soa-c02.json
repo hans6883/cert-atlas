@@ -201,14 +201,15 @@
     "soa-c02",
     "sysops administrator"
   ],
-  "practice_url": "https://quizforge.ai/?q=AWS%20Certified%20SysOps%20Administrator%20%E2%80%93%20Associate",
+  "practice_url": "https://quizforge.ai/tests/aws-certified-sysops-administrator-soa-c02",
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-09-29",
     "replacement": {
       "exam_code": "SOA-C03",
       "relationship": "direct_replacement",
-      "url": null
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/sysops-administrator-associate-03/sysops-administrator-associate-03.html",
+      "name": "AWS Certified CloudOps Engineer - Associate (SOA-C03)"
     },
     "summary": "AWS retired SOA-C02 on 2025-09-29. SOA-C03 is the named replacement path.",
     "evidence_url": "https://aws.amazon.com/certification/coming-soon/",

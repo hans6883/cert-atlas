@@ -133,15 +133,208 @@
     "servicenow technical architect",
     "servicenow-cta"
   ],
-  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Certified%20Technical%20Architect%20%28CTA%29",
+  "practice_url": "https://quizforge.ai/tests/servicenow-cta",
+  "editorial": {
+    "meta_description": "The ServiceNow Certified Technical Architect (CTA) exam is officially retired as of 2026-05-03 and is no longer available for registration or completion.",
+    "overview": "The ServiceNow Certified Technical Architect (CTA) exam, certified by ServiceNow, covered architecture, governance, and data strategies. This exam is officially retired as of 2026-05-03. The ServiceNow Certified Technical Architect (CTA) is the direct successor to this credential. Candidates seeking certification should focus on the requirements and objectives established for the successor CTA, as the original exam is no longer available for registration or completion by any candidates. The exam consisted of 47 questions.",
+    "who_should_take": "This certification is intended for technical architects responsible for platform governance, data strategy, and integration design. Candidates should possess extensive experience in managing ServiceNow instances and implementing complex architectural solutions across the platform.",
+    "skills_summary": [
+      "CMDB and CSDM modeling",
+      "Technical governance frameworks",
+      "Leading testing practices",
+      "Go-live preparation strategies",
+      "Security architecture design",
+      "Platform data and integration management"
+    ],
+    "preparation_strategy": "Focus your preparation on the successor CTA. While the technical domains of CMDB, security, and integration remain relevant, you must align your study with the current CTA blueprint. Review the official ServiceNow documentation and learning paths to understand the updated expectations. Do not attempt to study for the retired exam; instead, prioritize mastering the current architectural standards and governance models required for the successor credential to ensure success. The exam was 90 minutes long.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the Common Service Data Model and Configuration Management Database structures, focusing on how these models support service delivery, platform reporting, and the overall health of the organizational data architecture within the system environment.",
+        "study_focus": [
+          "CMDB CI class models",
+          "CSDM to CMDB mapping"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain addresses the frameworks, committees, and policies required to maintain technical oversight and standards across the entire ServiceNow platform environment to ensure consistent performance and alignment with organizational goals and established industry best practices.",
+        "study_focus": [
+          "Governance committees",
+          "Change management policies"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain focuses on the methods and practices for validating platform configurations and ensuring quality through testing procedures, including the use of automated frameworks to maintain stability and reliability during the development lifecycle of the platform.",
+        "study_focus": [
+          "Automated test framework",
+          "Testing leading practices"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers the activities and planning necessary to transition platform configurations into a live production environment, ensuring that all deployment readiness criteria are met before the final release to the end users of the system.",
+        "study_focus": [
+          "Go-live preparation",
+          "Deployment readiness"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain involves the design and implementation of security controls to protect platform data and manage access effectively, ensuring that all security architecture components and access control lists are configured to meet specific organizational requirements.",
+        "study_focus": [
+          "Security architecture",
+          "Access control lists"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain focuses on the strategies for managing data lifecycles, quality, and the underlying architecture of organizational data, ensuring that all data quality checks are performed to maintain integrity across the entire platform ecosystem for users.",
+        "study_focus": [
+          "Data lifecycle processes",
+          "Data quality checks"
+        ],
+        "source_ids": [
+          "servicenow-cta-study"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This domain covers the assessment of existing platform architectures and the planning required to reach a target state, focusing on the transition from the current architecture to the desired future state for the organization and its needs.",
+        "study_focus": [
+          "Current architecture",
+          "To-be architecture"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This domain addresses the methods for integrating external data sources and managing platform-wide data flows, ensuring that all integrations are designed to support the platform data requirements and maintain consistent connectivity across the entire enterprise environment.",
+        "study_focus": [
+          "Platform data",
+          "Integrations"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "This domain focuses on the management of platform releases and the strategic planning of instance configurations, ensuring that all release management processes are aligned with the overall instance strategy for the organization's specific technical needs.",
+        "study_focus": [
+          "Release management",
+          "Instance strategy"
+        ],
+        "source_ids": [
+          "servicenow-cta-exam_guide-3"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The retired exam cannot be scheduled. For the successor CTA, ensure you are familiar with the current testing environment. Candidates should arrive prepared to demonstrate architectural knowledge through the updated linear exam format, which replaces the previous assessment structure.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The retired exam consisted of 47 questions. These questions were presented in a linear format, requiring candidates to demonstrate their knowledge across nine distinct domains during the testing session."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "The passing score for the exam was based on a scaled score. The specific cut score was not publicly disclosed and was not always 70% for all candidates."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "The exam was a 90-minute exam. Candidates were expected to complete the 47 questions within this duration, managing their time effectively across the various technical domains covered in the assessment."
+      },
+      {
+        "question_title": "How long is the certification valid for?",
+        "answer_text": "The certification validity was 2 years. After this period, renewal was required to maintain the credential status, ensuring that architects remained current with the latest platform standards and best practices."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by synthesizing official ServiceNow exam guides and documentation to provide a factual overview of the retired CTA exam and its successor, ensuring all information is accurate and reliable for candidates.",
+      "source_ids": [
+        "servicenow-cta-exam_guide",
+        "servicenow-cta-exam_guide-2",
+        "servicenow-cta-exam_guide-3",
+        "servicenow-cta-study"
+      ]
+    },
+    "source_ids": [
+      "servicenow-cta-exam_guide",
+      "servicenow-cta-exam_guide-2",
+      "servicenow-cta-exam_guide-3",
+      "servicenow-cta-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "servicenow-cta-exam_guide",
+      "url": "https://www.servicenow.com/community/architect-articles/how-i-passed-the-servicenow-cta-certified-technical-architect/ta-p/3444410",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:234d05293c00ddb2eb510c0a84075994f4656143b7f4d8c1042bce16e1c31e92"
+    },
+    {
+      "id": "servicenow-cta-exam_guide-2",
+      "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&summary_id=905942f11bfcf01002ed2f89bd4bcb65&achievement_id=c1e05fd41b6efc1cb53297d7b04bcb14",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a38f31e1867e7e9231624c4affaec2bb99ba25a306329c98e73083346ddea29d"
+    },
+    {
+      "id": "servicenow-cta-exam_guide-3",
+      "url": "https://learning.servicenow.com/lxp/en/credentials/certified-technical-architect-cta-exam-blueprint?id=kb_article_view&sysparm_article=KB0012670",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9f4f33fc8bacefebe2c8a56374a359237d4c72400bbe0741e49cc15bdbe82a2b"
+    },
+    {
+      "id": "servicenow-cta-study",
+      "url": "https://nowlearning.servicenow.com/",
+      "title": "ServiceNow study documentation",
+      "publisher": "ServiceNow",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:2dd6e9bfe778279c857429a101ab363f3329dc7b3b8ac3c6a762a8a3a1b0c4bf"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T01:20:15+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:14+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:14+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-05-03",
-    "replacement": {
-      "exam_code": "CTA",
-      "relationship": "direct_replacement",
-      "url": null
-    },
     "summary": "ServiceNow retired CTA on 2026-05-03. CTA is the named replacement path.",
     "evidence_url": "https://learning.servicenow.com/lxp?id=learning_content_prev&course_id=356ae3ca47f8b21019dfe23c326d4357",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"

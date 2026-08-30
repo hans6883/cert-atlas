@@ -308,6 +308,160 @@
     "sc-400"
   ],
   "practice_url": "https://quizforge.ai/?q=Administering%20Information%20Protection%20and%20Compliance%20in%20Microsoft%20365",
+  "editorial": {
+    "meta_description": "Exam SC-400 is officially retired with no successor exam available. This page serves as a reference for the final objectives of this Microsoft certification.",
+    "overview": "Administering Information Protection and Compliance in Microsoft 365 was a professional Microsoft certification exam. It covered areas including content classification, data loss prevention, and organizational risk management. This exam officially retired, and Microsoft has not named a successor for this specific certification. Candidates should consult the official Microsoft Learn portal for credential paths and requirements regarding information protection and compliance roles in the enterprise environment.",
+    "who_should_take": "This exam targeted information protection and compliance administrators. Candidates required experience with Microsoft 365 services, including Exchange Online, SharePoint, OneDrive, and Teams, alongside familiarity with PowerShell to translate organizational risk requirements into technical implementations for their respective business environments.",
+    "skills_summary": [
+      "Managing sensitive information types",
+      "Configuring sensitivity labels",
+      "Implementing data loss prevention policies",
+      "Managing data lifecycle and records",
+      "Monitoring compliance via Purview",
+      "Addressing insider and privacy risks"
+    ],
+    "preparation_strategy": "Since this exam is retired and has no successor, you should not prepare to sit for it. If you are seeking current certifications, review the latest Microsoft Learn documentation to identify active exams that align with your professional goals. Focus on mastering Microsoft Purview compliance tools and data governance principles, as these remain relevant to the information protection and compliance administrator role in the cloud-based security landscape.",
+    "domain_guidance": [
+      {
+        "domain_id": "Implement information protection",
+        "summary": "This domain covers the technical application of data classification and protection controls within the Microsoft 365 environment, focusing on the creation of sensitive info types, sensitivity labels, and the design of encryption for email messages.",
+        "study_focus": [
+          "Managing sensitive info types",
+          "Implementing sensitivity labels",
+          "Designing email encryption"
+        ],
+        "source_ids": [
+          "microsoft-sc-400-information-protection-landing"
+        ]
+      },
+      {
+        "domain_id": "Implement DLP",
+        "summary": "This domain focuses on the configuration and monitoring of policies to prevent unauthorized data sharing and loss, specifically requiring candidates to demonstrate proficiency in creating DLP policies and managing Endpoint DLP within the organization.",
+        "study_focus": [
+          "Creating DLP policies",
+          "Managing Endpoint DLP"
+        ],
+        "source_ids": [
+          "microsoft-sc-400-information-protection-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Implement data lifecycle and records management",
+        "summary": "This domain addresses the retention, deletion, and lifecycle management of organizational data using labels and policies, ensuring that administrators can effectively manage data deletion and retention requirements through the use of retention labels.",
+        "study_focus": [
+          "Retaining data",
+          "Using retention labels for data deletion"
+        ],
+        "source_ids": [
+          "microsoft-sc-400-information-protection-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Monitor and investigate data and activities by using Microsoft Purview",
+        "summary": "This domain involves using Microsoft Purview to manage regulatory compliance, eDiscovery, and audit logging, requiring skills in managing Compliance Manager, planning eDiscovery and Content search, and analyzing audit logs and reports within the platform.",
+        "study_focus": [
+          "Managing Compliance Manager",
+          "Planning eDiscovery",
+          "Analyzing audit logs"
+        ],
+        "source_ids": [
+          "microsoft-sc-400-information-protection-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Manage insider and privacy risk in Microsoft 365",
+        "summary": "This domain covers the implementation of tools to identify and mitigate internal risks and privacy concerns, focusing on the management of Communication Compliance, Insider Risk Management, and the implementation of Information Barriers within Microsoft 365.",
+        "study_focus": [
+          "Managing Communication Compliance",
+          "Managing Insider Risk Management",
+          "Implementing Information Barriers"
+        ],
+        "source_ids": [
+          "microsoft-sc-400-information-protection-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "As this exam is retired, it cannot be scheduled or taken by candidates. Please visit the official Microsoft Learn website to explore currently available certifications and their respective exam day requirements for your professional development.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The exam consisted of 40 questions in total. These questions were designed to test the candidate's knowledge across various domains of information protection and compliance within the Microsoft 365 ecosystem."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "A passing score of 700 was required to successfully pass the exam. This score was calculated on a scale of 1-1000, reflecting the depth of knowledge required for the certification."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "The exam had a total duration of 100 minutes. Candidates were expected to manage their time effectively across the various question types and case studies presented during the testing session."
+      },
+      {
+        "question_title": "What was the cost of the exam?",
+        "answer_text": "The exam price was set at 165 dollars. This fee covered the registration for the certification exam at authorized testing centers or through online proctored delivery methods before the retirement date."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed by synthesizing official Microsoft exam documentation, including study guides and skill measurement tables, to provide a factual summary of the retired SC-400 exam for reference purposes.",
+      "source_ids": [
+        "microsoft-sc-400-information-protection-landing"
+      ]
+    },
+    "source_ids": [
+      "microsoft-sc-400-information-protection-landing",
+      "microsoft-sc-400-information-protection-exam_guide",
+      "microsoft-sc-400-information-protection-exam_guide-3",
+      "microsoft-sc-400-information-protection-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-sc-400-information-protection-landing",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-400",
+      "title": "Study guide for Exam SC-400: Administering Information Protection and Compliance in Microsoft 365 | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:cd5b6d898cc03030d75eaa8136057b7259569796da3d8717bac0785c1cbefce6"
+    },
+    {
+      "id": "microsoft-sc-400-information-protection-exam_guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-400#skills-measured-as-of-august-22-2023",
+      "title": "Microsoft exam guide",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:cd5b6d898cc03030d75eaa8136057b7259569796da3d8717bac0785c1cbefce6"
+    },
+    {
+      "id": "microsoft-sc-400-information-protection-exam_guide-3",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-400#skills-measured-prior-to-august-22-2023",
+      "title": "Microsoft exam guide",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:cd5b6d898cc03030d75eaa8136057b7259569796da3d8717bac0785c1cbefce6"
+    },
+    {
+      "id": "microsoft-sc-400-information-protection-study",
+      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "title": "Microsoft study documentation",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:575d1ed2a392c598851e0a8917a685de84e767f64830b8b4a52220e8040f64c2"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:15:49+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:03+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:03+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": null,

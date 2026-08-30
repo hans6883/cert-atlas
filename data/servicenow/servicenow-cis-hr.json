@@ -116,5 +116,154 @@
     "servicenow hrsd",
     "servicenow-cis-hr"
   ],
-  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Certified%20Implementation%20Specialist%20%E2%80%93%20Human%20Resources%20%28CIS-HR%29"
+  "practice_url": "https://quizforge.ai/tests/servicenow-cis-human-resources-cis-hr-0000005e",
+  "editorial": {
+    "meta_description": "The ServiceNow Certified Implementation Specialist – Human Resources exam validates your technical ability to configure and implement HR applications within",
+    "overview": "The ServiceNow Certified Implementation Specialist – Human Resources exam, administered by ServiceNow, evaluates your technical proficiency in HR system architecture, core HR application configuration, and security. This certification confirms your ability to manage HR service delivery, lifecycle events, and employee center implementations within the ServiceNow platform. It is a current, industry-recognized credential for professionals working with HR service management solutions. Candidates must demonstrate a deep understanding of the platform to succeed in this professional certification assessment, which requires mastery of HR data management and system configuration to ensure organizational success.",
+    "who_should_take": "This exam is intended for professionals who implement and configure ServiceNow HR applications. Candidates should have experience with HR table structures, application scoping, and security configurations to manage HR data effectively within the ServiceNow environment.",
+    "skills_summary": [
+      "HR system architecture design",
+      "Core HR application configuration",
+      "Employee Center implementation",
+      "HR lifecycle event management",
+      "Platform and contextual security",
+      "Assignment rule configuration"
+    ],
+    "preparation_strategy": "Review the official ServiceNow exam guide to understand the four domains and their respective weights. Focus your study on the specific objectives provided for each domain, including HR table structures and security models. Utilize a personal developer instance to practice configuring HR services and lifecycle events. Ensure you are familiar with the platform security settings required to protect sensitive HR data. Candidates should dedicate sufficient time to mastering these core concepts to ensure readiness for the 60 questions included in the exam.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the technical foundation of the HR system. You will work with plugins, understand the HR table structure, and manage application scoping to ensure proper system organization and effective data management for all organizational users.",
+        "study_focus": [
+          "Plugins",
+          "HR Table Structure",
+          "Application Scoping"
+        ],
+        "source_ids": [
+          "servicenow-cis-hr-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on the implementation of core HR applications. You will configure users, groups, skills, and roles, while setting up assignment rules and HR catalog items to support organizational HR service delivery requirements and platform functionality.",
+        "study_focus": [
+          "Users, Groups, Skills, and Roles",
+          "Assignment Rules",
+          "HR Service, HR Catalog Items, and Record Producers"
+        ],
+        "source_ids": [
+          "servicenow-cis-hr-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses HR journeys and lifecycle events. You will learn to configure activity sets, trigger conditions, and audience mappings to support complex employee lifecycle processes and ensure seamless transitions for all organizational users within the platform.",
+        "study_focus": [
+          "Lifecycle Event structure",
+          "Activity sets and trigger conditions"
+        ],
+        "source_ids": [
+          "servicenow-cis-hr-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers security configurations within the platform. You will apply role-based and contextual security to protect HR data and understand the delegated developer role to maintain system integrity and secure sensitive employee information for the organization.",
+        "study_focus": [
+          "Platform, role, and contextual security",
+          "Delegated Developer role"
+        ],
+        "source_ids": [
+          "servicenow-cis-hr-exam_guide-4"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The exam consists of 60 questions in a linear format. You will have 90 minutes to complete the test. Manage your time effectively across the four domains, as each carries a specific weight toward your final result.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of 60 questions. These questions cover the four domains of HR system architecture, core HR applications, HR journeys, and platform security to test your knowledge of the platform."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score is based on a scaled score. The specific cut score is not publicly disclosed and is not always 70% for every candidate taking the test, so focus on mastery."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam is a 90-minute, linear test. You must complete all 60 questions within this duration, so please manage your time carefully during the testing session to ensure you finish every section."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The exam price is 150 dollars. Please check with ServiceNow for any additional information regarding registration, payment policies, or potential updates to the current certification pricing structure for this specific professional exam."
+      },
+      {
+        "question_title": "How long is the certification valid?",
+        "answer_text": "The certification is valid for 1 year from the date of passing the exam. You must complete the required delta exams or renewal processes through ServiceNow to maintain your active status."
+      }
+    ],
+    "methodology": {
+      "summary": "This index was compiled by analyzing official ServiceNow documentation and exam guides to provide a factual overview of the certification requirements and domain objectives for all prospective candidates seeking to validate their skills.",
+      "source_ids": [
+        "servicenow-cis-hr-exam_guide",
+        "servicenow-cis-hr-exam_guide-2",
+        "servicenow-cis-hr-exam_guide-3",
+        "servicenow-cis-hr-exam_guide-4"
+      ]
+    },
+    "source_ids": [
+      "servicenow-cis-hr-exam_guide",
+      "servicenow-cis-hr-exam_guide-2",
+      "servicenow-cis-hr-exam_guide-3",
+      "servicenow-cis-hr-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "servicenow-cis-hr-exam_guide",
+      "url": "https://www.servicenow.com/community/training-and-certifications/ebooks-to-clear-the-cis-hr-exam/m-p/3521891",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:e3d3bb76ece46dd5ae2fb2df74d12b4ec7e7c4767c065d36c75a0606b2119811"
+    },
+    {
+      "id": "servicenow-cis-hr-exam_guide-2",
+      "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=1c8e1d77dbc27f40de3cdb85ca96194b",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:91854114912dff57566e2d99bbceec2afe289b31c5bec14c1e1503812cc19303"
+    },
+    {
+      "id": "servicenow-cis-hr-exam_guide-3",
+      "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&summary_id=79d64e311bfcf01002ed2f89bd4bcb51&achievement_id=1c8e1d77dbc27f40de3cdb85ca96194b",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a678c45d47c358b915c70ac59bc8b4e6f4e473190e009b0fe39da4b38c4cd31f"
+    },
+    {
+      "id": "servicenow-cis-hr-exam_guide-4",
+      "url": "https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-human-resources-mainline?id=kb_article_view&sysparm_article=KB0011654",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:cb8deb4fd8a1c30c710ebf17d142db03dcda2bdfdfee8fc1984a7b22b1df826c"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:42:15+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:13+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:13+00:00"
+  }
 }

@@ -133,7 +133,7 @@
     "soa stam",
     "soa-exam-stam"
   ],
-  "practice_url": "https://quizforge.ai/?q=Exam%20STAM%20%28Short-Term%20Actuarial%20Mathematics%29",
+  "practice_url": "https://quizforge.ai/tests/soa-exam-stam",
   "editorial": {
     "meta_description": "Exam STAM is a retired certification from the Society of Actuaries. Candidates should now pursue the ASTAM exam as the verified successor path forward.",
     "overview": "Exam STAM (Short-Term Actuarial Mathematics) was a professional certification administered by the Society of Actuaries. This exam is now retired. The Society of Actuaries has established the Advanced Short-Term Actuarial Mathematics (ASTAM) Exam as the official successor. The curriculum for the retired exam focused on mathematical and statistical methods for short-term insurance coverages, including severity, frequency, and aggregate loss models.",
@@ -335,7 +335,8 @@
     "replacement": {
       "exam_code": "ASTAM",
       "relationship": "collective_replacement",
-      "url": null
+      "url": "https://www.soa.org/globalassets/assets/files/edu/2026/astam/2026-fall-exam-astam-syllabus.pdf",
+      "name": "Advanced Short-Term Actuarial Mathematics (ASTAM) Exam"
     },
     "summary": "Society of Actuaries retired EXAM-STAM. ASTAM is the named replacement path.",
     "evidence_url": "https://www.soa.org/education/general-info/edu-transition-resources/charts",

@@ -1,0 +1,165 @@
+{
+ "exam_id": "hcia-security",
+ "editorial": {
+  "meta_description": "Prepare for the Huawei HCIA-Security certification exam by reviewing network security fundamentals, firewalls, and VPN technologies today.",
+  "overview": "The HCIA-Security certification exam is offered by Huawei and validates fundamental knowledge across multiple important domains including network security fundamentals, firewall and intrusion prevention technologies, virtual private networks, identity and access management, security product configuration, and security operations and management for modern enterprise computing environments.",
+  "who_should_take": "This exam targets network security technicians, administrators, and engineers who handle security product configuration, infrastructure protection, and operational tasks. Candidates should understand basic networking and security principles before taking the test.",
+  "preparation_strategy": "Review the official Huawei study documentation and available exam guides. Focus extensively on the practical configuration of security products, firewall rules, and virtual private network technologies. Practice solving troubleshooting scenarios related to operational incidents to fully prepare for answering all 60 questions during your testing appointment.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "Master the core concepts of network security fundamentals, establishing the necessary technical groundwork for implementing protective controls across modern network infrastructures, communication layers, and distributed enterprise architectures while ensuring secure system integrity and confidentiality.",
+    "study_focus": [
+     "Network security principles",
+     "Communication layers"
+    ],
+    "source_ids": [
+     "hcia-security-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "Understand core firewall operations, packet filtering policies, and intrusion prevention mechanisms used to guard enterprise networks against unauthorized access, malicious threats, and sophisticated network attacks that target enterprise digital assets and communication pathways.",
+    "study_focus": [
+     "Firewall configuration",
+     "Intrusion prevention"
+    ],
+    "source_ids": [
+     "hcia-security-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "Examine virtual private network architectures, including gateway-to-gateway and remote access connections, alongside advanced IPsec and Internet Key Exchange configurations for secure enterprise communications across public networks and distributed corporate branch locations.",
+    "study_focus": [
+     "IPsec protocol",
+     "Internet Key Exchange"
+    ],
+    "source_ids": [
+     "hcia-security-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "Learn identity and access management principles, authentication models, and reliable user verification methods to successfully control resource access and user privileges within enterprise networks while maintaining strict adherence to organizational security policies.",
+    "study_focus": [
+     "Authentication models",
+     "Access control"
+    ],
+    "source_ids": [
+     "hcia-security-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "Practice Huawei security product configuration tasks, ensuring proper deployment, verification, and parameter adjustments on diverse hardware and software platforms across enterprise environments to maintain optimal security postures and network performance standards.",
+    "study_focus": [
+     "Product configuration",
+     "Deployment steps"
+    ],
+    "source_ids": [
+     "hcia-security-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "Explore security operations and management procedures, log analysis techniques, and systematic incident response steps required for maintaining safe and protected organizational computing environments through proactive monitoring and rapid remediation of active security events.",
+    "study_focus": [
+     "Incident response",
+     "Security O&M"
+    ],
+    "source_ids": [
+     "hcia-security-exam_guide"
+    ]
+   }
+  ],
+  "skills_summary": [
+   "Network Security Fundamentals",
+   "Firewall and Intrusion Prevention",
+   "VPN Technologies",
+   "Identity and Access Management",
+   "Huawei Security Product Configuration",
+   "Security O&M and Incident Response"
+  ],
+  "exam_day_guidance": "Manage your time across the 60 questions during the 90 minutes allowed. Read each question carefully and check all configuration parameters before submitting your answers.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The certification exam contains a total of 60 questions consisting of multiple choice, multiple response, and true/false formats administered during your scheduled testing session."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score requires achieving a scaled score of 600 out of a maximum 1000 points, which represents the standard 60 percent correct threshold required to pass."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total test duration is 90 minutes, providing all registered candidates with adequate time to complete all 60 test questions within the designated testing window."
+   },
+   {
+    "question_title": "What is the price of the exam?",
+    "answer_text": "The registration price for taking the exam is set at $200 USD. Candidates should check directly with Huawei for specific registration procedures and scheduling options."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official Huawei exam guides, certification pages, and detailed study documentation to provide accurate and reliable facts for all candidates.",
+   "source_ids": [
+    "hcia-security-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "hcia-security-exam_guide",
+   "hcia-security-landing",
+   "hcia-security-study",
+   "hcia-security-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "hcia-security-exam_guide",
+   "url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/2e95f85dc2d84ccab7d3d68f37622339/M1T1A669N723556651875254273/_202204_Huawei%20Career%20Certification%20Brochure%20in%202022.pdf",
+   "title": "Huawei exam guide",
+   "publisher": "Huawei",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6130e3db7339585cf99be8650cd15c66360b7fe930dae2fce96ea2793be43fb6"
+  },
+  {
+   "id": "hcia-security-landing",
+   "url": "https://e.huawei.com/en/talent/#/cert/product-list",
+   "title": "Huawei certification page",
+   "publisher": "Huawei",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:5f811f2a1df50043bd0424565ef213ecf7c46c17b318637a7cf90389dfb4f894"
+  },
+  {
+   "id": "hcia-security-study",
+   "url": "https://e.huawei.com/en/talent/#/ict/home",
+   "title": "Huawei study documentation",
+   "publisher": "Huawei",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:ed83f9ce23efd6ea9e15d6e6fd109d9af86ed388a858c0ed1a9321d903a0bc4b"
+  },
+  {
+   "id": "hcia-security-exam_guide-4",
+   "url": "https://www.certfun.com/huawei/huawei-hcia-security-exam-syllabus",
+   "title": "Huawei exam guide (certfun.com)",
+   "publisher": "certfun.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:160f7f1bea602be0f7c8a97a4cfd2404b1fb409e6a6ecde81782f8de94509da5"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T04:06:24+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:56+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:56+00:00"
+ }
+}

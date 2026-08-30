@@ -103,5 +103,135 @@
     "arkansas permit test",
     "dmv-ar"
   ],
-  "practice_url": "https://quizforge.ai/?q=Arkansas%20Driver%27s%20License%20Knowledge%20Test"
+  "practice_url": "https://quizforge.ai/?q=Arkansas%20Driver%27s%20License%20Knowledge%20Test",
+  "editorial": {
+    "meta_description": "Prepare for the Arkansas Driver's License Knowledge Test with official study materials covering 25 multiple-choice questions on traffic laws and safe driving.",
+    "overview": "The Arkansas Driver's License Knowledge Test is officially administered to evaluate an applicant's thorough understanding of state traffic laws, road signs, and safe operating procedures. It consists of 25 multiple-choice questions requiring an 80 percentage passing score and a $14 new driver's license fee during your official DMV office visit.",
+    "who_should_take": "This knowledge test is intended for new residents and teenage or adult applicants seeking to obtain an instruction permit, learner's license, or driver's license in the state of Arkansas.",
+    "skills_summary": [
+      "Traffic Laws and Regulations",
+      "Road Signs and Signals",
+      "Safe Driving Practices",
+      "Right-of-Way Rules",
+      "Speed Limits and Distances"
+    ],
+    "preparation_strategy": "Review the official driver license study guide with extreme care and diligence. Focus on reading all chapters covering rules of the road, road signs, traffic signals, and penalties to prepare effectively for the computer-based or paper test containing 25 questions with an 80 percentage passing score and a $14 fee.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers fundamental Arkansas traffic laws, regulations, and legal requirements for operating motor vehicles safely on all public roads and highways throughout the state system according to official safety guidelines.",
+        "study_focus": [
+          "Traffic statutes",
+          "Vehicle operation laws"
+        ],
+        "source_ids": [
+          "dmv-ar-samples"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on recognizing and understanding road signs, traffic control signals, and pavement markings encountered regularly on municipal streets and rural state highways during your everyday driving experiences across the local jurisdiction.",
+        "study_focus": [
+          "Road signs",
+          "Traffic signals"
+        ],
+        "source_ids": [
+          "dmv-ar-samples"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain explores safe driving practices and operational guidelines designed to help drivers maintain continuous vehicle control and successfully avoid various roadway hazards while navigating through different traffic densities and environments.",
+        "study_focus": [
+          "Safe driving habits",
+          "Vehicle handling"
+        ],
+        "source_ids": [
+          "dmv-ar-samples"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain outlines specific right-of-way rules governing interactions at intersections, multi-lane roundabouts, pedestrian crossings, and complex multi-lane roadways across the state to promote smooth traffic flow and prevent accidents.",
+        "study_focus": [
+          "Intersection right-of-way",
+          "Roundabout navigation"
+        ],
+        "source_ids": [
+          "dmv-ar-samples"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain details statutory speed limits, safe following distances, and methods for adjusting vehicle speed to changing road conditions and adverse weather patterns to ensure maximum safety for everyone traveling on public roads.",
+        "study_focus": [
+          "Speed limits",
+          "Following distance"
+        ],
+        "source_ids": [
+          "dmv-ar-samples"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at the DMV office prepared for a closed-book test consisting of 25 multiple-choice questions administered via computer or paper. Ensure all required identification documents are brought to the appointment.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The official Arkansas Driver's License Knowledge Test contains a total of 25 multiple-choice questions that must be answered correctly according to state standards during your visit."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for the knowledge test is established at 80 percentage, which requires correct answers on a sufficient number of the 25 questions to demonstrate competence."
+      },
+      {
+        "question_title": "How long is the certification valid?",
+        "answer_text": "The certification validity lasts for a duration of 4 years, and formal renewal is required by the state of Arkansas upon reaching the expiration date of your current credential."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The examination involves a standard $14 new driver's license fee along with any other applicable administrative charges required by state motor vehicle regulations during the application process."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using verified state driver licensing documentation, official study guides, and statutory information provided by DMV / State Driver Licensing.",
+      "source_ids": [
+        "dmv-ar-samples"
+      ]
+    },
+    "source_ids": [
+      "dmv-ar-samples",
+      "dmv-ar-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "dmv-ar-samples",
+      "url": "https://www.dmv.org/practice-tests/",
+      "title": "DMV / State Driver Licensing documentation",
+      "publisher": "DMV / State Driver Licensing",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:b2c128f2f657bff2e96c1312aa0f59f7d9e1e848c9c6edc9ec271355f19a7d8d"
+    },
+    {
+      "id": "dmv-ar-landing",
+      "url": "https://www.dfa.arkansas.gov/revenues/motor-vehicle/drivers-license/",
+      "title": "DMV / State Driver Licensing certification page (dfa.arkansas.gov)",
+      "publisher": "arkansas.gov",
+      "source_type": "third_party_overview",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:dc241f6323d2f4038c2bc494c2d26332a6ed43bd1d80d7cd9a9f7fc5ab7fb935"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T04:00:58+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:53+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:53+00:00"
+  }
 }

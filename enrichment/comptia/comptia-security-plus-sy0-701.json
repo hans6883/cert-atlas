@@ -1,0 +1,148 @@
+{
+ "exam_id": "comptia-security-plus-sy0-701",
+ "editorial": {
+  "meta_description": "Prepare for the CompTIA Security+ certification exam with detailed guidance covering five core domains, exactly 90 questions, and a 90-minute testing time.",
+  "overview": "The CompTIA Security+ certification exam validates standard technical skills across five core security domains to help professionals build practical expertise for daily infrastructure protection and risk response duties. The thorough assessment evaluates your understanding of general security concepts, threats and mitigations, security architecture, security operations, and security program management for modern enterprise environments.",
+  "who_should_take": "IT professionals, security administrators, and network engineers with hands-on technical experience preparing for a career in cybersecurity should take this exam. Candidates benefit from a background in administrative computing and infrastructure support.",
+  "skills_summary": [
+   "Security controls",
+   "Threat actors and motivations",
+   "Architecture models",
+   "Computing resources",
+   "Security governance"
+  ],
+  "preparation_strategy": "Review official exam objectives across all specified domains by utilizing study materials from CompTIA. Practice applying security principles to enterprise environments, and check with CompTIA for further updates to the certification path. Focus your study time heavily on operational controls, asset management, and structured risk management methodologies to ensure thorough preparation for test day.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "Covers basic security concepts, including the implementation of standard security controls, the management of organizational change, and the understanding of fundamental principles required for securing modern network environments and systems against potential failures.",
+    "study_focus": [
+     "Security controls",
+     "Fundamental concepts",
+     "Change management"
+    ],
+    "source_ids": [
+     "comptia-security-plus-sy0-701-objectives"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "Focuses extensively on identifying various threat actors, distinct threat vectors, expanding attack surfaces, and a wide assortment of different types of vulnerabilities that affect modern computing systems and organizational networks today.",
+    "study_focus": [
+     "Threat actors and motivations",
+     "Threat vectors and attack surfaces",
+     "Vulnerabilities"
+    ],
+    "source_ids": [
+     "comptia-security-plus-sy0-701-objectives"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "Explores complex architecture models, enterprise infrastructure configurations, and advanced data protection methods designed to secure information assets across distributed corporate networks and cloud environments effectively during daily operations.",
+    "study_focus": [
+     "Architecture models",
+     "Enterprise infrastructure",
+     "Data protection"
+    ],
+    "source_ids": [
+     "comptia-security-plus-sy0-701-objectives"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "Addresses computing resources management, asset tracking practices, and detailed vulnerability management procedures required to maintain operational stability and rapid incident response readiness within enterprise technology structures across all networks.",
+    "study_focus": [
+     "Computing resources",
+     "Asset management",
+     "Vulnerability management"
+    ],
+    "source_ids": [
+     "comptia-security-plus-sy0-701-objectives"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "Deals directly with security governance structures, structured risk management frameworks, compliance requirements, and specific third-party risk considerations necessary for maintaining organizational security posture and oversight across all connected business units.",
+    "study_focus": [
+     "Security governance",
+     "Risk management",
+     "Third-party risk"
+    ],
+    "source_ids": [
+     "comptia-security-plus-sy0-701-objectives"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Manage your time carefully across the 90 questions within the strict 90-minute limit. Answer straightforward multiple-choice items first, leaving sufficient time for complex performance-based questions.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of a total of exactly 90 questions, which include multiple-choice items with single or multiple selections as well as performance-based tasks administered during the testing session."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The required passing score is 750 on a scale of 100-900. Candidates must meet or exceed this specific target to successfully earn the official certification from CompTIA."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "Candidates are given a total duration of 90 minutes to complete the linear exam format without extra scheduled breaks during the testing session at the authorized testing center."
+   },
+   {
+    "question_title": "What is the cost of the exam?",
+    "answer_text": "The official exam price is set at $404.0 USD. Vouchers can be purchased directly through CompTIA or through authorized training partners globally for scheduling your test appointment."
+   }
+  ],
+  "methodology": {
+   "summary": "This informational page was carefully compiled using official exam documentation, precise domain weight breakdowns, and published objectives directly sourced from CompTIA publications.",
+   "source_ids": [
+    "comptia-security-plus-sy0-701-objectives"
+   ]
+  },
+  "source_ids": [
+   "comptia-security-plus-sy0-701-objectives",
+   "comptia-security-plus-sy0-701-study",
+   "comptia-security-plus-sy0-701-study-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "comptia-security-plus-sy0-701-objectives",
+   "url": "https://www.comptia.org/training/resources/exam-objectives/comptia-security-701-exam-objectives",
+   "title": "CompTIA exam objectives",
+   "publisher": "CompTIA",
+   "source_type": "official_objectives",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:e4d492ec954d5a5a262a21794039d99dba322e3f685cc835c0c57108a2fe1df1"
+  },
+  {
+   "id": "comptia-security-plus-sy0-701-study",
+   "url": "https://www.comptia.org/training/certmaster-practice",
+   "title": "CompTIA study documentation",
+   "publisher": "CompTIA",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:d0ff75f23d46ccea6cbe10c70d36215a1abd71fb5a4a44d076706ca047271be9"
+  },
+  {
+   "id": "comptia-security-plus-sy0-701-study-3",
+   "url": "https://www.comptia.org/training/certmaster-labs",
+   "title": "CompTIA study documentation",
+   "publisher": "CompTIA",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:a6d9f46e798eb0fbf83a5fd20407dfe79d7f83beeaa038f2f67dd4ba913a087d"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:41:59+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:52+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:52+00:00"
+ }
+}

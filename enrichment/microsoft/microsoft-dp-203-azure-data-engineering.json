@@ -1,0 +1,124 @@
+{
+ "exam_id": "microsoft-dp-203-azure-data-engineering",
+ "editorial": {
+  "meta_description": "Exam DP-203: Data Engineering on Microsoft Azure is officially retired. Microsoft provides no successor for this credential, so please check official resources.",
+  "overview": "Data Engineering on Microsoft Azure, known as DP-203, was a Microsoft certification exam covering data storage, processing, and security domains. This exam is now retired. Because Microsoft has not named a successor, candidates should check official Microsoft certification resources for the paths available for data engineers. This page serves as a reference for the final published objectives and structure of the retired exam, which consisted of 40 questions in total for all candidates.",
+  "who_should_take": "This exam was intended for data engineers who manage, monitor, and secure data solutions on Azure. Candidates needed experience with data processing, storage implementation, and optimization within the Azure ecosystem to perform the tasks covered in the exam objectives.",
+  "skills_summary": [
+   "Implementing data partition strategies",
+   "Designing data exploration layers",
+   "Ingesting and transforming data",
+   "Performing exploratory data analysis",
+   "Securing and monitoring data storage",
+   "Optimizing data processing workflows"
+  ],
+  "preparation_strategy": "Since DP-203 is retired and has no successor, do not prepare for this specific exam. Focus your learning on current Azure data engineering technologies and services. Review the official Microsoft documentation and training modules to build skills in data integration, storage, and processing. Consult the Microsoft certification website to identify active credentials that align with your professional goals in the Azure data engineering field. Always verify the latest requirements through official channels to ensure your study efforts remain relevant to current industry standards.",
+  "domain_guidance": [
+   {
+    "domain_id": "Design and implement data storage",
+    "summary": "This domain covers the creation and management of data storage solutions within the Azure environment. It focuses on how to organize data effectively and build layers for exploration, ensuring that storage architectures meet the specific requirements of data engineering projects.",
+    "study_focus": [
+     "Implement a partition strategy",
+     "Design and implement the data exploration layer"
+    ],
+    "source_ids": [
+     "microsoft-dp-203-azure-data-engineering-study"
+    ]
+   },
+   {
+    "domain_id": "Develop data processing",
+    "summary": "This domain addresses the movement and refinement of data through various pipelines. It involves technical tasks related to ingestion, cleansing, and analyzing data sets to ensure high quality and reliability for downstream consumption, which is required for successful data engineering workflows in the cloud.",
+    "study_focus": [
+     "Ingest and transform data",
+     "Cleanse data",
+     "Perform data exploratory analysis"
+    ],
+    "source_ids": [
+     "microsoft-dp-203-azure-data-engineering-landing"
+    ]
+   },
+   {
+    "domain_id": "Secure, monitor, and optimize data storage and data processing",
+    "summary": "This domain focuses on the maintenance and protection of data environments. It covers security protocols, monitoring performance, and troubleshooting storage and processing systems to ensure that data solutions remain secure, efficient, and highly available throughout their entire lifecycle within the Azure platform.",
+    "study_focus": [
+     "Implement data security",
+     "Monitor data storage and data processing",
+     "Optimize and troubleshoot data storage and data processing"
+    ],
+    "source_ids": [
+     "microsoft-dp-203-azure-data-engineering-study-3"
+    ]
+   }
+  ],
+  "exam_day_guidance": "As this exam is retired, it cannot be scheduled or taken. Please visit the official Microsoft certification website to determine if there are new or alternative exams that meet your current professional requirements. Do not attempt to register for this specific exam code as it is no longer available.",
+  "faq": [
+   {
+    "question_title": "How many questions were on the exam?",
+    "answer_text": "The exam consisted of 40 questions in total. Candidates were expected to navigate various question types, including multiple choice and case studies, within the time frame provided by the testing center during their scheduled appointment for the certification assessment."
+   },
+   {
+    "question_title": "What was the passing score?",
+    "answer_text": "The passing score for the exam was 700 on a scale of 1-1000. This score represented the minimum level of proficiency required to demonstrate competency in data engineering tasks on the Azure platform before the exam was officially retired by Microsoft."
+   },
+   {
+    "question_title": "How long was the exam?",
+    "answer_text": "The exam had a duration of 100 minutes. During this period, candidates were required to complete all sections and question types to be evaluated against the established performance standards for data engineers working within the Microsoft Azure cloud ecosystem."
+   },
+   {
+    "question_title": "What was the cost of the exam?",
+    "answer_text": "The exam price was 165 dollars. This fee covered the registration and administration of the certification test at authorized testing centers. Since the exam is now retired, this price is no longer applicable for any current or future certification attempts."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built by synthesizing verified facts and official Microsoft documentation regarding the retired DP-203 exam to provide a clear reference for its final objectives and structure for all interested candidates.",
+   "source_ids": [
+    "microsoft-dp-203-azure-data-engineering-study"
+   ]
+  },
+  "source_ids": [
+   "microsoft-dp-203-azure-data-engineering-study",
+   "microsoft-dp-203-azure-data-engineering-landing",
+   "microsoft-dp-203-azure-data-engineering-study-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "microsoft-dp-203-azure-data-engineering-study",
+   "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+   "title": "Microsoft study documentation",
+   "publisher": "Microsoft",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:575d1ed2a392c598851e0a8917a685de84e767f64830b8b4a52220e8040f64c2"
+  },
+  {
+   "id": "microsoft-dp-203-azure-data-engineering-landing",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203",
+   "title": "Study guide for Exam DP-203: Data Engineering on Microsoft Azure | Microsoft Learn",
+   "publisher": "Microsoft",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:dd786b821da4e183f1172bab0eb6837a5def35e5c05b05a875aa4c2fab97dd54"
+  },
+  {
+   "id": "microsoft-dp-203-azure-data-engineering-study-3",
+   "url": "https://learn.microsoft.com/en-us/training/",
+   "title": "Microsoft study documentation",
+   "publisher": "Microsoft",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c7bd9788fccd8a148a1e7582611c81bc616119520d77bd6eeecf574a60f5b380"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T02:24:44+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:03+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:03+00:00"
+ }
+}

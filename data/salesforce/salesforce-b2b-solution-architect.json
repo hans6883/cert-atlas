@@ -205,6 +205,151 @@
     "salesforce-b2b-solution-architect"
   ],
   "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20B2B%20Solution%20Architect",
+  "editorial": {
+    "meta_description": "The Salesforce Certified B2B Solution Architect exam is scheduled for retirement on 2027-02-01 with no official successor named by Salesforce.",
+    "overview": "The Salesforce Certified B2B Solution Architect credential is a professional certification designed for individuals who demonstrate expertise in discovery, customer success, data governance, integration, design, delivery, and operationalizing multi-cloud B2B solutions. Candidates must complete 60 questions within a 105-minute time limit. This exam validates the ability to align complex business requirements with technical implementations across the Salesforce ecosystem, ensuring that architects can successfully manage the entire lifecycle of a B2B solution from initial discovery through to long-term operational success and business adoption.",
+    "who_should_take": "This certification is intended for experienced architects and senior technical designers who possess a deep understanding of building enterprise-level multi-cloud Salesforce solutions, mapping complex data flows, and aligning diverse business requirements with technical implementations.",
+    "skills_summary": [
+      "Discovery and customer success",
+      "Data governance and integration",
+      "Multi-cloud B2B solution design",
+      "Delivery and stakeholder demos",
+      "Operationalizing solutions and adoption"
+    ],
+    "preparation_strategy": "To prepare for this exam, candidates should review official Salesforce documentation and study materials covering integration patterns, data modeling, security models, and solution delivery frameworks. It is important to gain familiarity with all five exam domains and their respective weight percentages. Practice applying these concepts to real-world scenarios to ensure you can effectively navigate the 60 questions presented during the test.",
+    "domain_guidance": [
+      {
+        "domain_id": "1. Discovery and Customer Success",
+        "summary": "This domain focuses on documenting business needs, articulating the vision of the customer to support outcomes, defining future blueprint architectures for multi-cloud solutions, and mapping out the incremental steps required to reach the desired end state.",
+        "study_focus": [
+          "Document and articulate business needs and vision",
+          "Define future blueprint architecture for product roadmaps",
+          "Define incremental steps to reach future end state"
+        ],
+        "source_ids": [
+          "salesforce-b2b-solution-architect-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2. Data Governance and Integration",
+        "summary": "This section covers defining data flows across systems, identifying methods to connect systems, designing strategies to migrate and synchronize data across a multi-cloud B2B solution, and mapping the sharing and visibility models for the organization.",
+        "study_focus": [
+          "Define data flows and system connection methods",
+          "Design data migration and synchronization strategies",
+          "Map sharing and visibility models"
+        ],
+        "source_ids": [
+          "salesforce-b2b-solution-architect-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3. Design",
+        "summary": "This domain addresses defining functional and technical solutions that align with Salesforce standards, recommending appropriate multi-cloud or AppExchange options, and identifying design options while assessing associated risks to meet specific functional and nonfunctional business requirements.",
+        "study_focus": [
+          "Define functional and technical solutions",
+          "Recommend multi-cloud or AppExchange solutions",
+          "Identify design options and associated risks"
+        ],
+        "source_ids": [
+          "salesforce-b2b-solution-architect-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4. Delivery",
+        "summary": "This domain encompasses defining strategies for balancing resources and effort, ensuring a clear understanding of business requirements through to the final configuration, and providing solution demos to stakeholders to demonstrate alignment with business outcomes.",
+        "study_focus": [
+          "Define strategies to balance delivery resources",
+          "Ensure alignment from requirements to configuration",
+          "Provide solution demos to stakeholders"
+        ],
+        "source_ids": [
+          "salesforce-b2b-solution-architect-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5. Operationalize the Solution",
+        "summary": "This domain deals with ensuring stakeholders are appropriately enabled to manage the solution, determining methods to continuously improve the solution to realize business benefits, and facilitating business adoption for the B2B multi-cloud solution.",
+        "study_focus": [
+          "Enable stakeholders to manage the solution",
+          "Determine methods to continuously improve the solution",
+          "Facilitate business adoption"
+        ],
+        "source_ids": [
+          "salesforce-b2b-solution-architect-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your 105 minutes carefully across the 60 questions provided. Read each multiple choice or multiple select question with great care before selecting your final answer to ensure accuracy and meet the requirements of the certification.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of exactly 60 linear questions in multiple choice and multiple select formats, which are designed to test your knowledge across five distinct domains of B2B solution architecture."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "To successfully pass the exam, you must achieve a score of at least 58 correct answers out of the total number of questions presented during your testing session."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total allotted duration for the exam is 105 minutes, during which time candidates are expected to complete all 60 questions provided in the linear test format."
+      },
+      {
+        "question_title": "What is the exam price and retake policy?",
+        "answer_text": "The exam costs 400 dollars to register for an initial attempt. Candidates who are unsuccessful and need to retake the test are subject to a separate retake fee of 100 dollars."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial content was constructed using official Salesforce exam guides, certification details, and integration documentation available as of the verified date of 2026-08-29 to ensure accuracy for all candidates.",
+      "source_ids": [
+        "salesforce-b2b-solution-architect-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "salesforce-b2b-solution-architect-exam_guide",
+      "salesforce-b2b-solution-architect-landing",
+      "salesforce-b2b-solution-architect-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "salesforce-b2b-solution-architect-exam_guide",
+      "url": "https://trailhead.salesforce.com/credentials",
+      "title": "Salesforce exam guide",
+      "publisher": "Salesforce",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:83a70ef9ced375ef5dc41a63e023b208c4211c37d3584f0f00af83f8c1ec606a"
+    },
+    {
+      "id": "salesforce-b2b-solution-architect-landing",
+      "url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-B2B-Solution-Architect-Exam-Guide",
+      "title": "Salesforce certification page",
+      "publisher": "Salesforce",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:fbc0b9cac778710e708afb98bdf82a8cdacae976fe1a5b748e13a9daf7739df2"
+    },
+    {
+      "id": "salesforce-b2b-solution-architect-study",
+      "url": "https://trailhead.salesforce.com/",
+      "title": "Salesforce study documentation",
+      "publisher": "Salesforce",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:992aae8f07b10f27e70f3d91eb3d647b8c35379ee1e937e641b0ba02ea45753f"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:19:12+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:09+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:09+00:00"
+  },
   "lifecycle": {
     "status": "scheduled_retirement",
     "retires_on": "2027-02-01",

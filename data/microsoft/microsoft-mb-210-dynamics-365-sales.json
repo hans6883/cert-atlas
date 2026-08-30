@@ -240,7 +240,136 @@
     "microsoft dynamics 365 sales functional consultant",
     "microsoft-mb-210-dynamics-365-sales"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Sales%20Functional%20Consultant",
+  "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-sales-functional-consultant-mb-210",
+  "editorial": {
+    "meta_description": "The Microsoft MB-210 Dynamics 365 Sales Functional Consultant exam is officially retired and no longer available for candidates to schedule or take for",
+    "overview": "The Microsoft Dynamics 365 Sales Functional Consultant exam, known as MB-210, was designed to evaluate a candidate's proficiency in configuring user interfaces, managing core sales features, and integrating various sales applications. This exam is now retired, and Microsoft has not named a successor. Candidates should check official Microsoft resources for current certification paths. This reference remains available for historical study of the final published objectives, which included 40 questions and a 100-minute duration for all test takers.",
+    "who_should_take": "This exam was intended for functional consultants responsible for configuring, customizing, and expanding Dynamics 365 Sales functionality. It required professional experience in automating and accelerating sales processes to create effective business solutions for diverse organizational needs.",
+    "skills_summary": [
+      "Configuring user interfaces",
+      "Creating and managing accounts and contacts",
+      "Creating and managing leads and opportunities",
+      "Creating and managing quotes, orders, and invoices",
+      "Integrating sales applications"
+    ],
+    "preparation_strategy": "Since this exam is retired with no successor, do not prepare to sit for it. Focus your efforts on current Microsoft Dynamics 365 certifications. Review the final published objectives to understand the core concepts of Dynamics 365 Sales configuration, as these principles remain relevant for general platform knowledge. Consult the official Microsoft certification website to identify active credentials that align with your professional goals and career trajectory.",
+    "domain_guidance": [
+      {
+        "domain_id": "Configure Dynamics 365 Sales",
+        "summary": "This domain focused on the technical setup and configuration of the user interface within the Dynamics 365 Sales environment to ensure that sales teams could effectively navigate and utilize the platform features for their daily operations.",
+        "study_focus": [
+          "Configuring user interface elements",
+          "Customizing system forms and views"
+        ],
+        "source_ids": [
+          "microsoft-mb-210-dynamics-365-sales-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Manage core sales features",
+        "summary": "This domain covered the management of primary sales entities and the full lifecycle of sales documentation, including the creation and maintenance of accounts, contacts, leads, opportunities, quotes, orders, and invoices for various business requirements.",
+        "study_focus": [
+          "Managing accounts and contacts",
+          "Managing leads and opportunities",
+          "Managing quotes, orders, and invoices"
+        ],
+        "source_ids": [
+          "microsoft-mb-210-dynamics-365-sales-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Configure additional tools and services",
+        "summary": "This domain addressed the integration of external sales applications and services with the Dynamics 365 platform to enhance functionality and provide a more cohesive experience for users managing complex sales workflows and data.",
+        "study_focus": [
+          "Integrating sales applications",
+          "Configuring external service connections"
+        ],
+        "source_ids": [
+          "microsoft-mb-210-dynamics-365-sales-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "As this exam is retired, it cannot be scheduled or taken. Please visit the official Microsoft certification website to explore currently available exams and follow their specific registration and testing procedures to advance your professional credentials.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The exam consisted of 40 questions in total. These questions were designed to test the functional consultant's ability to configure and manage the Dynamics 365 Sales environment effectively during the allotted testing time."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "The passing score for the exam was 700 on a scale of 1-1000. Candidates were required to demonstrate a high level of proficiency to meet this standard and earn the associated professional certification."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "The exam had a total duration of 100 minutes. This time limit was intended to allow candidates to complete all sections and review their answers before final submission at the authorized testing center."
+      },
+      {
+        "question_title": "What was the cost of the exam?",
+        "answer_text": "The price for the exam was 165 dollars. This fee covered the registration and administration of the test at authorized testing centers or through online proctoring services for all eligible candidates who registered."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by synthesizing official Microsoft exam guides, certification documentation, and verified facts regarding the retirement status of the MB-210 exam to provide an accurate historical reference for candidates.",
+      "source_ids": [
+        "microsoft-mb-210-dynamics-365-sales-landing"
+      ]
+    },
+    "source_ids": [
+      "microsoft-mb-210-dynamics-365-sales-landing",
+      "microsoft-mb-210-dynamics-365-sales-exam_guide",
+      "microsoft-mb-210-dynamics-365-sales-exam_guide-3",
+      "microsoft-mb-210-dynamics-365-sales-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-mb-210-dynamics-365-sales-landing",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-210",
+      "title": "Microsoft certification page",
+      "publisher": "Microsoft",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:03037f01a45b9dc199ab217afbd1b4afee54dbef80bde45102f5afece82162ec"
+    },
+    {
+      "id": "microsoft-mb-210-dynamics-365-sales-exam_guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-210#skills-measured-as-of-april-19-2024",
+      "title": "Microsoft exam guide",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:03037f01a45b9dc199ab217afbd1b4afee54dbef80bde45102f5afece82162ec"
+    },
+    {
+      "id": "microsoft-mb-210-dynamics-365-sales-exam_guide-3",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-210#skills-measured-prior-to-april-19-2024",
+      "title": "Microsoft exam guide",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:03037f01a45b9dc199ab217afbd1b4afee54dbef80bde45102f5afece82162ec"
+    },
+    {
+      "id": "microsoft-mb-210-dynamics-365-sales-study",
+      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "title": "Microsoft study documentation",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:575d1ed2a392c598851e0a8917a685de84e767f64830b8b4a52220e8040f64c2"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:40:21+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:03+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:03+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": null,

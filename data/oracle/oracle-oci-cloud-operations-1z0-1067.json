@@ -138,6 +138,170 @@
     "oracle-oci-cloud-operations-1z0-1067"
   ],
   "practice_url": "https://quizforge.ai/?q=Oracle%20Cloud%20Infrastructure%202023%20Cloud%20Operations%20Professional%20%281Z0-1067-23%29",
+  "editorial": {
+    "meta_description": "The Oracle Cloud Infrastructure 2023 Cloud Operations Professional exam is retired as of 2024-08-31. Prepare for successor 1Z0-1067-24 instead.",
+    "overview": "Certified by Oracle, the Oracle Cloud Infrastructure 2023 Cloud Operations Professional certification examination covered resource management, monitoring systems, logging configurations, and cost governance topics across multiple domains. This specific exam is retired as of 2024-08-31. Candidates should focus their attention on the verified successor, 1Z0-1067-24, for all current certification paths and career advancement objectives within the ecosystem.",
+    "who_should_take": "Cloud operators and administrators with experience managing Oracle Cloud Infrastructure environments. Candidates need practical knowledge of monitoring, logging, cost management, and security configurations to operate cloud resources effectively.",
+    "skills_summary": [
+      "Managing Cloud Resources",
+      "Monitoring and Alerting",
+      "Logging and Audit",
+      "Cost Management and Governance",
+      "Tagging and Automation",
+      "Backup and Disaster Recovery",
+      "Security and Compliance"
+    ],
+    "preparation_strategy": "Direct your preparation toward the successor 1Z0-1067-24 instead of this retired exam. Core operational concepts such as metrics, alarms, and resource management transfer directly to the current version. Learn any updated service features fresh for the current exam version to ensure complete readiness before attempting your official testing session successfully.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain focuses intensely on managing cloud resources efficiently within the infrastructure environment, ensuring that administrators understand resource administration principles, proper provisioning methods, and operational workflows needed for day-to-day cloud maintenance tasks.",
+        "study_focus": [
+          "Cloud resource administration",
+          "Operational workflows"
+        ],
+        "source_ids": [
+          "oracle-oci-cloud-operations-1z0-1067-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers monitoring and alerting mechanics using various metrics, metric alarms, and metric streams, ensuring that operators can successfully track system health, configure threshold notifications, and evaluate operational data streams continuously.",
+        "study_focus": [
+          "Configuring metric alarms",
+          "Evaluating metric streams"
+        ],
+        "source_ids": [
+          "oracle-oci-cloud-operations-1z0-1067-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain deals with logging and audit operations to track environment activities, ensuring candidates can configure logging services, examine audit logs, and maintain visibility over all administrative actions happening within the cloud ecosystem.",
+        "study_focus": [
+          "Audit log review",
+          "Logging service configuration"
+        ],
+        "source_ids": [
+          "oracle-oci-cloud-operations-1z0-1067-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain centers entirely on cost management and governance practices for cloud expenditures, allowing administrators to implement tracking mechanisms, enforce governance policies, and optimize financial resource consumption across all deployed enterprise workloads.",
+        "study_focus": [
+          "Cost tracking",
+          "Governance policies"
+        ],
+        "source_ids": [
+          "oracle-oci-cloud-operations-1z0-1067-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain addresses effective tagging strategies and automation tasks for operational organization, teaching candidates how to apply resource tags systematically and implement automation solutions that streamline cloud management workflows and asset tracking.",
+        "study_focus": [
+          "Resource tagging",
+          "Automation implementation"
+        ],
+        "source_ids": [
+          "oracle-oci-cloud-operations-1z0-1067-study"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain explores backup and disaster recovery procedures designed to protect cloud data against loss, ensuring that operators can build reliable backup configurations and execute structured recovery planning for enterprise continuity.",
+        "study_focus": [
+          "Backup configurations",
+          "Recovery planning"
+        ],
+        "source_ids": [
+          "oracle-oci-cloud-operations-1z0-1067-study"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This specific domain comprehensively encompasses security and compliance controls for key infrastructure assets, guiding candidates across hardening configurations, regulatory standards enforcement, and maintaining stable security postures across all cloud-hosted resources.",
+        "study_focus": [
+          "Security configurations",
+          "Compliance standards"
+        ],
+        "source_ids": [
+          "oracle-oci-cloud-operations-1z0-1067-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Because this exam is retired, it cannot be scheduled. For the successor 1Z0-1067-24, complete your check-in procedures promptly and manage your 90 minutes across all 60 questions carefully.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The examination consists of a total of exactly 60 questions delivered in a linear format using multiple choice and multiple select question types for candidates taking the test."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Candidates must achieve a minimum passing score of 65 out of the available points to successfully pass the examination and earn the official certification credential issued by the provider."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam has a time limit of 90 minutes for registered candidates to read, evaluate, and complete all questions presented during the official testing session."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The exam is priced at a standard cost of 245 USD for individual candidates registering for the official certification program and preparing for the evaluation."
+      }
+    ],
+    "methodology": {
+      "summary": "This overview carefully and precisely consolidates verified Oracle documentation, official exam metadata, and lifecycle dates to provide accurate retirement details and successor routing.",
+      "source_ids": [
+        "oracle-oci-cloud-operations-1z0-1067-landing"
+      ]
+    },
+    "source_ids": [
+      "oracle-oci-cloud-operations-1z0-1067-study",
+      "oracle-oci-cloud-operations-1z0-1067-study-2",
+      "oracle-oci-cloud-operations-1z0-1067-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "oracle-oci-cloud-operations-1z0-1067-study",
+      "url": "https://education.oracle.com/certification",
+      "title": "Oracle study documentation",
+      "publisher": "Oracle",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a8078e7e5e7408342a2273de3a09cf76903b304366384ce27b4c9303b04c5678"
+    },
+    {
+      "id": "oracle-oci-cloud-operations-1z0-1067-study-2",
+      "url": "https://education.oracle.com/",
+      "title": "Oracle study documentation",
+      "publisher": "Oracle",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:92f2a240c3754a346262e0c7b6c624b5a25670d70ba129c142bf74cf56afd727"
+    },
+    {
+      "id": "oracle-oci-cloud-operations-1z0-1067-landing",
+      "url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-cloud-operations-professional/pexam_1Z0-1067-23",
+      "title": "Oracle certification page",
+      "publisher": "Oracle",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9456182d74b6d41bf52e9faac589b22681bb59bc1756cc3e803fb23a064544a1"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T00:53:09+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:08+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:08+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2024-08-31",

@@ -191,7 +191,159 @@
     "salesforce eda consultant",
     "salesforce-education-cloud-consultant"
   ],
-  "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20Education%20Cloud%20Consultant",
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-education-cloud-consultant-2eerns",
+  "editorial": {
+    "meta_description": "Prepare for the Salesforce Certified Education Cloud Consultant exam, which is scheduled for retirement on 2027-02-01.",
+    "overview": "The Salesforce Certified Education Cloud Consultant exam, certified by Salesforce, covers domain expertise, configuration, implementation strategies, solution design, integration, data management, and analytics. Candidates face 60 questions during a 105-minute testing period. The exam costs $200.0 with a $100.0 retake fee, requires a passing score of 62, and is officially scheduled for retirement on 2027-02-01. This certification validates your ability to manage complex educational implementations effectively.",
+    "who_should_take": "Consultants and professionals with implementation experience across K-12 and higher education solutions, focusing specifically on marketing, engagement, recruitment, admissions, student experience, and advancement roles within educational institutions seeking to validate their professional expertise.",
+    "skills_summary": [
+      "Determine solution sets",
+      "Configure Education Cloud",
+      "Design scalable solutions",
+      "Manage data and integration",
+      "Evaluate analytics solutions"
+    ],
+    "preparation_strategy": "Review domain weights carefully to allocate study time effectively across all six domains found within the official guide. Focus heavily on configuration capabilities, data management considerations, and integration requirements. Practice applying implementation strategies and best practices for long-term solution success and optimal deployment results across all student lifecycle domains. Ensure you understand the relationship between account models and standard data structures to succeed on the exam.",
+    "domain_guidance": [
+      {
+        "domain_id": "Domain Expertise",
+        "summary": "This specific domain covers the determination of solution sets that satisfy customer requirements across marketing and engagement, recruitment and admissions, student experience, advancement and alumni relations, along with K-12 customer solutions for various educational institutions.",
+        "study_focus": [
+          "Determine solution sets for customer requirements",
+          "Explain Education Cloud solutions for K-12 customers"
+        ],
+        "source_ids": [
+          "salesforce-education-cloud-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Education Cloud Configuration",
+        "summary": "This domain focuses directly on capabilities and considerations of Education Cloud, including compatibility with other Salesforce products and features, and the detailed procedures for installing and configuring Salesforce for Education solutions for your clients.",
+        "study_focus": [
+          "Discuss capabilities and product compatibility",
+          "Install and configure Salesforce for Education solutions"
+        ],
+        "source_ids": [
+          "salesforce-education-cloud-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Implementation Strategies and Best Practices",
+        "summary": "This domain addresses planning, requirements gathering, design, build, test, documentation, deployment, optimization, governance, change management, staffing, implementation strategies, deployment considerations, adoption best practices, and community resources for long-term solution success within the Education Cloud ecosystem.",
+        "study_focus": [
+          "Facilitate successful implementations",
+          "Illustrate governance and change management best practices"
+        ],
+        "source_ids": [
+          "salesforce-education-cloud-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Solution Design",
+        "summary": "This domain involves evaluating account model considerations against standard account-contact data models, designing appropriate and scalable solutions for education customers, and locating community and open-source solutions and resources effectively for your specific project needs.",
+        "study_focus": [
+          "Evaluate account model considerations",
+          "Design scalable solutions for education customers",
+          "Locate community and open-source resources"
+        ],
+        "source_ids": [
+          "salesforce-education-cloud-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Integration and Data Management",
+        "summary": "This domain centers on integration considerations for connecting systems in an Education Cloud implementation, and explaining data management considerations including data usage, forecasting, large data volumes, and data migrations for various educational data sets.",
+        "study_focus": [
+          "Evaluate integration considerations",
+          "Explain data management and migration considerations"
+        ],
+        "source_ids": [
+          "salesforce-education-cloud-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Analytics",
+        "summary": "This domain examines reporting solutions within Education Cloud and determines when specific data analytics solutions are appropriate for educational institutions, organizations, and stakeholders during deployments to ensure that all reporting requirements are met successfully.",
+        "study_focus": [
+          "Distinguish between reporting solutions",
+          "Demonstrate when data analytics solutions apply"
+        ],
+        "source_ids": [
+          "salesforce-education-cloud-consultant-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time carefully across the 60 questions during the 105 minutes. Read each multiple choice and multiple select question carefully before selecting your answers to ensure accuracy and improve your chances of passing.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of a total of 60 multiple choice and multiple select questions delivered in a linear format to test your knowledge and consulting expertise regarding the platform."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Candidates must achieve a minimum passing score of 62 in order to successfully pass the Salesforce Certified Education Cloud Consultant certification exam and earn the professional credential."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The allotted duration for the exam is 105 minutes. Plan your time carefully during the test to complete all questions within this designated time period without rushing through sections."
+      },
+      {
+        "question_title": "What is the retirement status of this exam?",
+        "answer_text": "This exam is officially scheduled for retirement on 2027-02-01, with no named successor designated by Salesforce at this particular time in the official program guidelines for consultants."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using official Salesforce exam guides, landing pages, and study documentation to provide factual details and domain structures for all certification candidates.",
+      "source_ids": [
+        "salesforce-education-cloud-consultant-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "salesforce-education-cloud-consultant-exam_guide",
+      "salesforce-education-cloud-consultant-landing",
+      "salesforce-education-cloud-consultant-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "salesforce-education-cloud-consultant-exam_guide",
+      "url": "https://trailhead.salesforce.com/credentials",
+      "title": "Salesforce exam guide",
+      "publisher": "Salesforce",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:5e562eb95cfe41198e81ef285b32224fc4bc2e015b060f73f1366900cffe9f35"
+    },
+    {
+      "id": "salesforce-education-cloud-consultant-landing",
+      "url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Education-Cloud-Consultant-Exam-Guide",
+      "title": "Salesforce certification page",
+      "publisher": "Salesforce",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c96d8f5ddc1c4ad2cc9fc378f02d5155443f47a40b0aaea3b329dafc2c200ec4"
+    },
+    {
+      "id": "salesforce-education-cloud-consultant-study",
+      "url": "https://trailhead.salesforce.com/",
+      "title": "Salesforce study documentation",
+      "publisher": "Salesforce",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9eac8653ba168b7cb32ca52afa92734d1cb24320ad10027dba398cfdbc9235cf"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:23:24+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:09+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:09+00:00"
+  },
   "lifecycle": {
     "status": "scheduled_retirement",
     "retires_on": "2027-02-01",

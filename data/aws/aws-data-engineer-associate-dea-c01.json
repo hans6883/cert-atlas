@@ -108,14 +108,15 @@
     "aws data engineer associate",
     "aws-data-engineer-associate-dea-c01"
   ],
-  "practice_url": "https://quizforge.ai/?q=AWS%20Certified%20Data%20Engineer%20%E2%80%93%20Associate",
+  "practice_url": "https://quizforge.ai/tests/aws-data-engineer-associate-dea-c01",
   "lifecycle": {
     "status": "retired",
     "retired_on": null,
     "replacement": {
       "exam_code": "DEA-C02",
       "relationship": "direct_replacement",
-      "url": null
+      "url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-dataengineer-C02/",
+      "name": "SnowPro Advanced: Data Engineer"
     },
     "summary": "Snowflake retired DEA-C01. DEA-C02 is the named replacement path.",
     "evidence_url": "https://learn.snowflake.com/en/certifications",

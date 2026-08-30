@@ -1,0 +1,133 @@
+{
+ "exam_id": "dmv-ca",
+ "editorial": {
+  "meta_description": "Prepare for the California driver licensing knowledge test covering vital traffic laws, road signs, and safe driving principles.",
+  "overview": "The California Driver's License Knowledge Test evaluates your understanding of traffic regulations, road signs, and operating principles administered by DMV / State Driver Licensing. This certification exam requires a passing score of 83 on a percentage scale to obtain a new driver's license with a fee of 41 dollars during your visit.",
+  "who_should_take": "First-time driver's license applicants and seasoned drivers updating their knowledge of traffic rules must take this assessment to demonstrate safe driving competency and legal compliance.",
+  "preparation_strategy": "Carefully review the official handbook and all provided study materials to completely master the fundamental rules of the road, regulatory signs, and warning indicators before your examination date. Practice answering multiple choice questions under closed-book conditions to properly prepare for the computer-based or paper test administered directly at a local DMV office.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses comprehensively on state traffic laws and regulations that all vehicle operators must follow to maintain order and legality on roadways during everyday transit situations and normal driving conditions.",
+    "study_focus": [
+     "Rules of the road",
+     "Legal compliance"
+    ],
+    "source_ids": [
+     "dmv-ca-samples"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain covers road signs, signals, and markers used extensively to communicate vital instructions and safety warnings to drivers and pedestrians navigating the public transportation system network across the state.",
+    "study_focus": [
+     "Sign shapes and colors",
+     "Regulatory and warning signs"
+    ],
+    "source_ids": [
+     "dmv-ca-samples"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses safe driving practices, emphasizing the vital avoidance of distractions and personal impairments while operating a motor vehicle across various weather conditions and heavy traffic environments.",
+    "study_focus": [
+     "Defensive driving",
+     "Distraction prevention"
+    ],
+    "source_ids": [
+     "dmv-ca-samples"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain details right-of-way rules at intersections, roundabouts, and pedestrian crossings to ensure orderly traffic flow and prevent collisions between multiple intersecting vehicles, cyclists, and pedestrians on the road.",
+    "study_focus": [
+     "Intersection control",
+     "Pedestrian yield rules"
+    ],
+    "source_ids": [
+     "dmv-ca-samples"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain instructs on speed limits, speed limit plaques, and appropriate following distances required for various road conditions to maintain safe stopping capabilities at all times during your daily travels.",
+    "study_focus": [
+     "Speed limit signs",
+     "Vehicle spacing"
+    ],
+    "source_ids": [
+     "dmv-ca-samples"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive at the DMV office prepared for a computer-based or paper test administered in a closed-book format. Bring required application materials and payment for the $41 fee.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The official exam consists of a total of 46 multiple choice questions presented in a closed-book format either via computer or paper at a designated DMV office location."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The required passing score for the knowledge test is 83 on a percentage scale, which means candidates must answer a significant majority of the 46 questions correctly."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "Check with DMV / State Driver Licensing for specific testing duration details, as the evaluation is administered directly at local offices without a fixed uniform time limit."
+   },
+   {
+    "question_title": "What is the fee for the exam?",
+    "answer_text": "The new driver's license fee is set at $41, which covers the application processing and the evaluation procedure administered by the licensing body during your visit."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official documentation from DMV / State Driver Licensing and state driver handbooks to provide accurate test details and information.",
+   "source_ids": [
+    "dmv-ca-samples"
+   ]
+  },
+  "source_ids": [
+   "dmv-ca-samples",
+   "dmv-ca-landing"
+  ],
+  "skills_summary": [
+   "Traffic Law Compliance",
+   "Road Sign Recognition",
+   "Defensive Driving",
+   "Right-of-Way Rules",
+   "Speed Regulation"
+  ]
+ },
+ "sources": [
+  {
+   "id": "dmv-ca-samples",
+   "url": "https://www.dmv.org/practice-tests/",
+   "title": "DMV / State Driver Licensing documentation",
+   "publisher": "DMV / State Driver Licensing",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:a595dedef523734863aaabd2695bc05ed1c63aaf53e53644d238a343856294cf"
+  },
+  {
+   "id": "dmv-ca-landing",
+   "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-online-app-edl/",
+   "title": "DMV / State Driver Licensing certification page (dmv.ca.gov)",
+   "publisher": "ca.gov",
+   "source_type": "third_party_overview",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:4dc3752a9ddc5288d5601b4d571c2f548e9122b4cc9cfab99bbe07396100ef48"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T04:14:07+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:54+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:54+00:00"
+ }
+}

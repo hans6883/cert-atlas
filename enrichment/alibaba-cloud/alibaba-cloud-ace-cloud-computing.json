@@ -1,0 +1,153 @@
+{
+ "exam_id": "alibaba-cloud-ace-cloud-computing",
+ "editorial": {
+  "meta_description": "The ACE Cloud Computing Expert certification is retired as of 2025-05-13. There is no successor exam available for this credential in the Alibaba Cloud program.",
+  "overview": "The ACE Cloud Computing Expert certification from Alibaba Cloud covered enterprise architecture, multi-cloud strategy, networking, security, and cost optimization. This exam is retired as of 2025-05-13. Because no successor exists, candidates should consult the official Alibaba Cloud education portal to identify current professional development opportunities. The certification previously required a 500 USD investment for a 120-minute multiple-choice exam and a 4-hour hands-on scenario assessment. This program was designed to validate expertise in managing cloud environments.",
+  "who_should_take": "This retired certification was intended for experienced cloud architects and engineers. It required technical knowledge of large-scale infrastructure, networking, and security compliance within the Alibaba Cloud ecosystem to manage enterprise-level cloud environments and ensure operational excellence.",
+  "skills_summary": [
+   "Enterprise architecture design",
+   "Multi-cloud strategy implementation",
+   "Advanced network configuration",
+   "Security and compliance management",
+   "Cloud cost optimization"
+  ],
+  "preparation_strategy": "Since this exam is retired and lacks a successor, do not prepare for it. Focus instead on current Alibaba Cloud documentation and whitepapers to maintain technical proficiency. Reviewing the core concepts of cloud architecture, security, and cost management remains relevant for general professional growth, but no specific exam preparation path is available for this credential. Please refer to the official Alibaba Cloud education portal for the most current information regarding available professional certifications and training resources.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focused on the design and management of enterprise-level cloud architectures, emphasizing scalability, reliability, and high availability for large-scale deployments within the Alibaba Cloud ecosystem to support business operations and infrastructure requirements.",
+    "study_focus": [
+     "Enterprise architecture design",
+     "Scalability planning"
+    ],
+    "source_ids": [
+     "alibaba-cloud-ace-cloud-computing-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain covered the integration and management of multi-cloud environments, focusing on strategy, interoperability, and data migration between different cloud service providers to ensure connectivity and consistent performance across heterogeneous cloud infrastructures and hybrid deployment models.",
+    "study_focus": [
+     "Multi-cloud strategy",
+     "Hybrid cloud integration"
+    ],
+    "source_ids": [
+     "alibaba-cloud-ace-cloud-computing-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addressed advanced networking configurations, including connectivity, routing, traffic management, and load balancing within the Alibaba Cloud infrastructure to optimize data flow and ensure communication between various cloud services and on-premises data centers.",
+    "study_focus": [
+     "Advanced networking",
+     "Traffic management"
+    ],
+    "source_ids": [
+     "alibaba-cloud-ace-cloud-computing-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain focused on security protocols, regulatory compliance, and protecting cloud resources against unauthorized access by implementing identity management, encryption, and monitoring solutions to maintain a secure and compliant cloud environment for all enterprise users.",
+    "study_focus": [
+     "Security and compliance",
+     "Identity management"
+    ],
+    "source_ids": [
+     "alibaba-cloud-ace-cloud-computing-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain covered cost management and optimization techniques to ensure efficient resource utilization and budget control within cloud environments by monitoring usage patterns and implementing strategies to reduce unnecessary expenditure while maintaining performance standards for operations.",
+    "study_focus": [
+     "Cost optimization",
+     "Budget control"
+    ],
+    "source_ids": [
+     "alibaba-cloud-ace-cloud-computing-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The ACE Cloud Computing Expert exam is retired and cannot be scheduled. Candidates should check the official Alibaba Cloud certification website for information regarding currently available exams and testing procedures to continue their professional development journey.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consisted of 60 questions in total, presented in a linear format. It included both multiple-choice and multiple-response question types, along with scenario-based questions to test practical application of cloud knowledge."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The exam was graded on a pass/fail basis. The specific passing threshold was not publicly disclosed by Alibaba Cloud, meaning candidates were required to demonstrate mastery of the subject matter to achieve certification."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The multiple-choice portion of the exam was 120 minutes long. Additionally, the certification process included a separate 4-hour hands-on scenario exam, requiring a significant time commitment from candidates to complete both assessment components successfully."
+   },
+   {
+    "question_title": "What was the cost of the exam?",
+    "answer_text": "The total price for the certification was 500 USD. This fee covered both the 120-minute multiple-choice exam and the 4-hour hands-on scenario assessment, providing an evaluation of the candidate's theoretical and practical cloud computing skills."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built by aggregating official Alibaba Cloud certification documentation and exam guides to provide a factual summary of the retired ACE-Cloud program for historical reference and professional guidance.",
+   "source_ids": [
+    "alibaba-cloud-ace-cloud-computing-study"
+   ]
+  },
+  "source_ids": [
+   "alibaba-cloud-ace-cloud-computing-study",
+   "alibaba-cloud-ace-cloud-computing-landing",
+   "alibaba-cloud-ace-cloud-computing-exam_guide",
+   "alibaba-cloud-ace-cloud-computing-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "alibaba-cloud-ace-cloud-computing-study",
+   "url": "https://edu.alibabacloud.com/certification",
+   "title": "Alibaba Cloud study documentation",
+   "publisher": "Alibaba Cloud",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c5d923e8ef7c582c62fd8b210cd4bdec2a97263d4642c0b5b302d9d522d21d5a"
+  },
+  {
+   "id": "alibaba-cloud-ace-cloud-computing-landing",
+   "url": "https://edu.alibabacloud.com/certification/ace_cloudcomputing",
+   "title": "Alibaba Cloud certification page",
+   "publisher": "Alibaba Cloud",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:b65bd5d55c5c19de459d86394b5b8fefec53ed5d62711c56c0d321f9ff4788ff"
+  },
+  {
+   "id": "alibaba-cloud-ace-cloud-computing-exam_guide",
+   "url": "https://video-intl.alicdn.com/2024/Academy/April/Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf?spm=a3c0i.11597324.4363105600.34.55c747551sfV4u&file=Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf",
+   "title": "Alibaba Cloud exam guide (video-intl.alicdn.com)",
+   "publisher": "alicdn.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c45e5444d5b7a4ad801af71ff31fb8e8eac19b985d2941056e49bd5e2b418eb5"
+  },
+  {
+   "id": "alibaba-cloud-ace-cloud-computing-exam_guide-4",
+   "url": "https://files.alicdn.com/tpsservice/ea8652a75c0a94e78474195d4597acdd.pdf",
+   "title": "Alibaba Cloud exam guide (files.alicdn.com)",
+   "publisher": "alicdn.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6f196a0b7988e88d4983f081a9acfb9cb45976937c301321a2cf9126282f61bb"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T02:12:21+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:49+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:49+00:00"
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "exam_id": "servicenow-cis-procurement",
+ "editorial": {
+  "meta_description": "The ServiceNow Certified Implementation Specialist Procurement exam validates technical proficiency in configuring procurement workflows with 60 questions.",
+  "overview": "The ServiceNow Certified Implementation Specialist – Procurement Service Management (CIS-Procurement) exam evaluates your technical proficiency in configuring procurement workflows and managing vendor relationships. Administered by ServiceNow, this certification confirms your ability to implement procurement solutions effectively. The exam consists of 60 multiple choice and multiple select questions, requiring a passing score of 70 to earn the credential. Candidates must demonstrate deep knowledge of the platform to succeed.",
+  "who_should_take": "This exam is intended for implementation specialists and technical consultants who configure procurement and sourcing applications. Candidates should have practical experience with ServiceNow procurement workflows, vendor management, and requisition processes to successfully navigate the 90-minute linear exam format.",
+  "skills_summary": [
+   "Procurement configuration",
+   "Requisition management",
+   "Purchase order processing",
+   "Vendor management",
+   "Supplier data handling"
+  ],
+  "preparation_strategy": "Review the official ServiceNow exam guides and study documentation available on Now Learning. Focus on the configuration of procurement workflows and the integration of sourcing and supplier management tools. Practice using the Source-to-Pay Workspace to gain hands-on experience with the specific tasks and roles covered in the exam. Ensure you understand the end-to-end purchasing and sourcing processes to prepare for the 60 questions.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the technical configuration of procurement applications within the ServiceNow platform. It focuses on setting up the environment to support efficient purchasing and sourcing operations for internal and external teams while ensuring all system requirements are met.",
+    "study_focus": [
+     "Application plugin installation",
+     "Workspace configuration",
+     "System property settings"
+    ],
+    "source_ids": [
+     "servicenow-cis-procurement-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain addresses the management of requisitions and purchase orders. It involves understanding the end-to-end purchasing workflow, from initial request and approval to fulfillment and receipt confirmation, ensuring that all procurement activities align with organizational standards and operational needs.",
+    "study_focus": [
+     "Purchase requisition creation",
+     "Purchase order fulfillment",
+     "Approval workflow design"
+    ],
+    "source_ids": [
+     "servicenow-cis-procurement-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain focuses on vendor management processes, including supplier onboarding, qualification, and ongoing collaboration. It covers the tools required to manage supplier data and resolve issues that impact business operations, ensuring solid vendor relationships throughout the entire procurement lifecycle.",
+    "study_focus": [
+     "Supplier onboarding playbooks",
+     "Supplier risk assessment",
+     "Vendor performance tracking"
+    ],
+    "source_ids": [
+     "servicenow-cis-procurement-exam_guide-3"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam is a 90-minute linear test. Manage your time carefully across the 60 questions. Read each multiple choice or multiple select question with care before selecting your answer. Ensure you are prepared for the $150 cost and the requirement to renew your certification every 1 year.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The CIS-Procurement exam consists of exactly 60 questions in a linear format. You must answer these questions within the allotted time to successfully earn your professional certification from ServiceNow."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To pass the CIS-Procurement exam, you must achieve a minimum score of 70. This requirement ensures that all certified specialists possess the necessary technical knowledge to manage procurement workflows effectively."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration for the CIS-Procurement exam is 90 minutes. Candidates should manage their time efficiently during the test to ensure they have enough time to review all 60 questions."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The standard price for the CIS-Procurement exam is $150. Please verify this cost through the official ServiceNow portal before you register for your scheduled exam session to ensure accurate payment."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was constructed using official ServiceNow exam guides and documentation to provide accurate information regarding the CIS-Procurement certification requirements, domain structure, and the specific technical skills needed for successful completion.",
+   "source_ids": [
+    "servicenow-cis-procurement-exam_guide-3"
+   ]
+  },
+  "source_ids": [
+   "servicenow-cis-procurement-exam_guide",
+   "servicenow-cis-procurement-exam_guide-2",
+   "servicenow-cis-procurement-exam_guide-3",
+   "servicenow-cis-procurement-study"
+  ]
+ },
+ "sources": [
+  {
+   "id": "servicenow-cis-procurement-exam_guide",
+   "url": "https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-customer-service-management?id=kb_article_view&sysparm_article=KB0011529",
+   "title": "ServiceNow exam guide",
+   "publisher": "ServiceNow",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6c4c77e137f68c1bb6705a2c59deb69ad1d7270b210d45613aa0978ed1962c42"
+  },
+  {
+   "id": "servicenow-cis-procurement-exam_guide-2",
+   "url": "https://learning.servicenow.com/lxp/en/certified-implementation-specialist-it-service-management-mainline?id=kb_article_view&sysparm_article=KB0011560",
+   "title": "ServiceNow exam guide",
+   "publisher": "ServiceNow",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:4c884051dee0d6362e516e90ec57b38682b752b904453585cdeb8251c5331d0d"
+  },
+  {
+   "id": "servicenow-cis-procurement-exam_guide-3",
+   "url": "https://learning.servicenow.com/lxp/en/credentials/sourcing-procurement-operations-exam-blueprint?id=kb_article_view&sysparm_article=KB0012275",
+   "title": "ServiceNow exam guide",
+   "publisher": "ServiceNow",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:6662a671b1899d6e602f797c8623b549916d9c74c3b5bfcd7e647e14edf60fcd"
+  },
+  {
+   "id": "servicenow-cis-procurement-study",
+   "url": "https://nowlearning.servicenow.com/",
+   "title": "ServiceNow study documentation",
+   "publisher": "ServiceNow",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c7721f71069b44bcf5468b5cee631804a23eda6d120af81af1a583d4fa9ed977"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:27:26+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:14+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:14+00:00"
+ }
+}

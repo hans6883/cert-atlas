@@ -1,0 +1,128 @@
+{
+ "exam_id": "sat-with-essay",
+ "editorial": {
+  "meta_description": "The SAT with Essay is a retired assessment from the College Board that is no longer offered to students as of 2021 for college admissions purposes.",
+  "overview": "The SAT with Essay was a College Board assessment covering Reading and Writing, Math, and an Essay section. This exam is discontinued as of 2021 and is no longer offered to any candidates. Because the College Board has retired this exam and named no successor, candidates should consult the official College Board website for current testing requirements and available programs. The exam utilized a composite score scale of 400–1600 to measure student performance across its various sections, while the Essay section provided subscores on a scale of 6–24.",
+  "who_should_take": "This exam is retired and no longer available for registration. It was previously intended for students preparing for college admissions. Candidates seeking current assessment options should contact the College Board directly to determine the appropriate path for their specific educational goals.",
+  "skills_summary": [
+   "Reading and Writing analysis",
+   "Mathematical problem solving",
+   "Essay composition",
+   "Textual evidence evaluation",
+   "Quantitative data interpretation"
+  ],
+  "preparation_strategy": "As the SAT with Essay is retired, there is no current preparation path for this specific exam. Candidates should not attempt to prepare for or sit for this discontinued test. Instead, focus on identifying current requirements through the College Board. Any previous study materials for this exam are obsolete, and students must look for updated information regarding current testing standards. Do not attempt to register for this exam as it is no longer available for any student.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers reading comprehension and writing proficiency. It requires candidates to analyze texts and demonstrate standard English conventions through various question types, including multiple choice, to evaluate their overall mastery of the subject matter during the testing process.",
+    "study_focus": [
+     "Reading comprehension",
+     "Writing conventions",
+     "Textual analysis"
+    ],
+    "source_ids": [
+     "sat-with-essay-study-3"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on mathematical concepts. It utilizes multiple choice and student-produced response questions to evaluate a candidate's ability to solve problems, ensuring they can navigate the multistage adaptive testing format that was required for this specific assessment.",
+    "study_focus": [
+     "Multiple choice math",
+     "Student-produced response",
+     "Quantitative reasoning"
+    ],
+    "source_ids": [
+     "sat-with-essay-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain evaluated reading, analysis, and writing skills specifically within the essay format. It utilized a subscore scale of 6–24 to measure performance, requiring students to synthesize information and provide a structured written response to complex prompts.",
+    "study_focus": [
+     "Reading analysis",
+     "Essay writing",
+     "Synthesis of information"
+    ],
+    "source_ids": [
+     "sat-with-essay-landing"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The SAT with Essay cannot be scheduled as it is a retired exam. Candidates should not expect to sit for this test. Please visit the official College Board website to find information on current testing options and procedures for your educational needs.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam format consisted of two primary sections: Reading and Writing, and Math. It utilized multiple choice and student-produced response question types. As the exam is retired, these specific counts are no longer applicable to current testing or available for student registration."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The composite score scale for the exam was 400–1600. Additionally, the Essay section utilized a subscore scale of 6–24, covering Reading, Analysis, and Writing. This exam is now discontinued, meaning these scores are no longer issued or recognized by the College Board."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam was a digital, multistage adaptive test delivered via the Bluebook app. Specific duration details are no longer relevant as the exam is retired and no longer offered by the College Board. Please check the official website for current testing information."
+   },
+   {
+    "question_title": "Is there a replacement for the SAT with Essay?",
+    "answer_text": "The College Board has retired the SAT with Essay and has not named a successor. Candidates should consult the official College Board website for information regarding current testing requirements and available programs that may better suit their specific academic goals and needs."
+   },
+   {
+    "question_title": "What was the testing format?",
+    "answer_text": "The exam was a digital, multistage adaptive test. Performance on the first module determined the difficulty of the second module. As the exam is retired, these technical details are provided for historical reference only and do not apply to current testing programs."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was constructed by reviewing official College Board documentation and third-party study resources to verify the retired status of the exam and its lack of a successor, ensuring all provided information remains accurate and current for users.",
+   "source_ids": [
+    "sat-with-essay-landing"
+   ]
+  },
+  "source_ids": [
+   "sat-with-essay-landing",
+   "sat-with-essay-study",
+   "sat-with-essay-study-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "sat-with-essay-landing",
+   "url": "https://satsuite.collegeboard.org/sat",
+   "title": "College Board certification page",
+   "publisher": "College Board",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:3dd64e073c557f4ebb0b95804e33f8174e52d902f601bd398c3d476313a67745"
+  },
+  {
+   "id": "sat-with-essay-study",
+   "url": "https://bluebook.collegeboard.org/",
+   "title": "College Board study documentation",
+   "publisher": "College Board",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:4d7ba4ae8a3708f777414943f068473ac6de72c250a0fbcb259076cce8838277"
+  },
+  {
+   "id": "sat-with-essay-study-3",
+   "url": "https://www.khanacademy.org/sat",
+   "title": "College Board study documentation (khanacademy.org)",
+   "publisher": "khanacademy.org",
+   "source_type": "third_party_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:8cfa48d692defcd5e00e4ac1376c56fec4851f62599b3177c245fee08dfd9f0c"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T02:05:01+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:09+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:09+00:00"
+ }
+}

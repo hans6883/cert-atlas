@@ -1,0 +1,132 @@
+{
+ "exam_id": "axelos-itil-4-specialist-cds",
+ "editorial": {
+  "meta_description": "The ITIL 4 Specialist CDS exam is scheduled for retirement on 2027-12-31, with ITIL Product/Service/Experience (Version 5) serving as the official successor.",
+  "overview": "The ITIL 4 Specialist: Create, Deliver and Support (CDS) exam, certified by PeopleCert (AXELOS), focuses on the integration of service value chain activities. It covers planning and managing resources, utilizing information and technology, and coordinating work across value streams. This exam evaluates your ability to apply these practices within the ITIL 4 framework to support service delivery and creation. Candidates must demonstrate an understanding of how these components interact to provide value to the organization and its customers, ensuring that all service management practices are aligned with the broader strategic goals of the enterprise while maintaining operational excellence throughout the entire service lifecycle.",
+  "who_should_take": "This certification is intended for IT professionals involved in service management, product delivery, and support roles. It is ideal for individuals managing service value streams who need to demonstrate proficiency in resource planning and technology integration within the ITIL 4 framework.",
+  "skills_summary": [
+   "Service value chain execution",
+   "Resource planning and management",
+   "Information and technology utilization",
+   "Value stream coordination",
+   "Service delivery optimization"
+  ],
+  "preparation_strategy": "Review the official PeopleCert (AXELOS) study documentation to understand the four domains. Practice with the 40 multiple-choice questions to become familiar with the linear exam format. Ensure you meet the 70 percent passing score requirement by focusing on the practical application of service value chain activities. Budget 430 dollars for the exam fee and prepare for a 90-minute testing session to ensure you are ready for the assessment process.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the core activities within the service value chain, focusing on how different components interact to create and deliver value to customers through structured processes and effective service management practices for the organization.",
+    "study_focus": [
+     "Value chain activity mapping",
+     "Service value chain integration"
+    ],
+    "source_ids": [
+     "axelos-itil-4-specialist-cds-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain addresses the planning and management of organizational resources to ensure effective service delivery and operational efficiency, requiring candidates to understand how to allocate assets and personnel to meet specific service objectives and goals.",
+    "study_focus": [
+     "Resource allocation strategies",
+     "Management of service resources"
+    ],
+    "source_ids": [
+     "axelos-itil-4-specialist-cds-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain focuses on the use and management of information and technology to support service delivery and organizational objectives, emphasizing the role of digital tools in modern service management and achieving long-term operational success.",
+    "study_focus": [
+     "Technology integration",
+     "Information management practices"
+    ],
+    "source_ids": [
+     "axelos-itil-4-specialist-cds-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain examines the coordination and integration of work across various value streams to maintain consistent service performance, ensuring that cross-functional teams work together effectively to deliver high-quality outcomes for the business and its stakeholders.",
+    "study_focus": [
+     "Value stream coordination",
+     "Cross-functional integration"
+    ],
+    "source_ids": [
+     "axelos-itil-4-specialist-cds-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam consists of 40 multiple-choice questions. You have 90 minutes to complete the linear format. Ensure you arrive prepared to meet the 70 percent passing score to earn your certification, which remains valid for 3 years.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam contains exactly 40 multiple-choice questions that you must complete within the allotted time. You should manage your time carefully to ensure you address every question before the session concludes."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To pass the exam and earn your certification, you must achieve a score of 70 percent. This threshold ensures that all certified professionals possess the necessary knowledge to perform their duties effectively."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam is a 90-minute session, during which you will answer 40 questions. This duration is designed to provide sufficient time for you to demonstrate your mastery of the ITIL 4 framework."
+   },
+   {
+    "question_title": "What is the successor to this exam?",
+    "answer_text": "The verified successor to ITIL 4 Specialist CDS is ITIL Product/Service/Experience (Version 5). This transition is part of the official update path provided by PeopleCert to ensure your skills remain current."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built by synthesizing official PeopleCert (AXELOS) documentation and exam guides to provide accurate information regarding the exam structure, domains, and retirement status for all prospective candidates.",
+   "source_ids": [
+    "axelos-itil-4-specialist-cds-study"
+   ]
+  },
+  "source_ids": [
+   "axelos-itil-4-specialist-cds-study",
+   "axelos-itil-4-specialist-cds-landing",
+   "axelos-itil-4-specialist-cds-exam_guide"
+  ]
+ },
+ "sources": [
+  {
+   "id": "axelos-itil-4-specialist-cds-study",
+   "url": "https://www.axelos.com/store",
+   "title": "PeopleCert (AXELOS) study documentation",
+   "publisher": "PeopleCert (AXELOS)",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:05dbec325f9c7f3c6b3c311fa1b731fd444cf7faed448e2716ee9d55cae7c899"
+  },
+  {
+   "id": "axelos-itil-4-specialist-cds-landing",
+   "url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-specialist-create-deliver-and-support-2693",
+   "title": "PeopleCert (AXELOS) certification page (peoplecert.org)",
+   "publisher": "peoplecert.org",
+   "source_type": "third_party_overview",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:12cdb9adc440c36808e5437b860d581c54c80b04d0de29d75b711f38308aa91c"
+  },
+  {
+   "id": "axelos-itil-4-specialist-cds-exam_guide",
+   "url": "https://www.peoplecert.org/find-your-next-job/solutions-architect",
+   "title": "PeopleCert (AXELOS) exam guide (peoplecert.org)",
+   "publisher": "peoplecert.org",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:4d192a6326bc4d49595b8f8c8ce3318d93da0df4b50fe84562863c5079f7b82f"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T01:40:08+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:49+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:49+00:00"
+ }
+}

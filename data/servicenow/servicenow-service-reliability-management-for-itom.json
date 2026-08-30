@@ -93,5 +93,158 @@
     "servicenow service reliability management for itom",
     "servicenow-service-reliability-management-for-itom"
   ],
-  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Service%20Reliability%20Management%20for%20ITOM"
+  "practice_url": "https://quizforge.ai/?q=ServiceNow%20Service%20Reliability%20Management%20for%20ITOM",
+  "editorial": {
+    "meta_description": "Prepare for the ServiceNow Service Reliability Management for ITOM exam by reviewing all 31 questions across 5 specific domains covering reliability metrics.",
+    "overview": "The ServiceNow Service Reliability Management for ITOM exam certifies your professional knowledge in configuring and managing advanced IT Operations Management solutions on the platform. Certified directly by ServiceNow, this test covers specific service reliability metrics, powerful workspace tools, efficient alert handling mechanisms, and continuous improvement processes designed to ensure operational excellence across enterprise environments.",
+    "who_should_take": "IT operations professionals, system administrators, and technical engineers with hands-on experience managing service reliability and ITOM products on the ServiceNow platform should take this official certification exam.",
+    "skills_summary": [
+      "Service Reliability Metrics",
+      "Service Operations Workspace",
+      "Alert and Incident Management",
+      "On-Call and Escalation Management",
+      "Continuous Improvement"
+    ],
+    "preparation_strategy": "Review all official ServiceNow documentation, training materials, and detailed exam guides in detail before your test session. Focus your study efforts carefully across all five weighted domains, practicing administrative tasks within the platform workspace environments to successfully reinforce operational concepts before test day arrives for you.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain carefully covers the precise evaluation, configuration, and tracking of specific service reliability metrics within the ServiceNow platform environment to ensure optimal system performance and visibility during normal operations.",
+        "study_focus": [
+          "Metric definitions",
+          "Reliability tracking"
+        ],
+        "source_ids": [
+          "servicenow-service-reliability-management-for-itom-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses heavily on utilizing the advanced Service Operations Workspace for executing day-to-day operational tasks, managing system views, and streamlining incident response workflows within the platform user interface environment.",
+        "study_focus": [
+          "Workspace navigation",
+          "Operational views"
+        ],
+        "source_ids": [
+          "servicenow-service-reliability-management-for-itom-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses the standardized processes required for effectively handling incoming alerts, executing rapid triage procedures, and managing related incidents to minimize service disruption and downtime across your organization.",
+        "study_focus": [
+          "Alert triage",
+          "Incident workflows"
+        ],
+        "source_ids": [
+          "servicenow-service-reliability-management-for-itom-objectives"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain explores configuring complex on-call rosters, setting up schedules, and managing automated escalations to guarantee reliable support coverage and prompt response times across technical support teams operating within the platform.",
+        "study_focus": [
+          "On-call rosters",
+          "Escalation rules"
+        ],
+        "source_ids": [
+          "servicenow-service-reliability-management-for-itom-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain centers on proven methodologies for the ongoing improvement of ITOM services, tracking ongoing enhancements, and refining operational workflows to drive long-term business value and stability across your enterprise deployment.",
+        "study_focus": [
+          "Improvement tracking",
+          "Process refinement"
+        ],
+        "source_ids": [
+          "servicenow-service-reliability-management-for-itom-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Carefully read each of the 31 linear questions during your session, manage your testing time efficiently across the 5 domains, and verify all your answers before final submission.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of a total of 31 questions formatted as multiple choice and multiple select items designed to evaluate your operational knowledge and platform capabilities."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score uses a scaled score model where the exact cut score is not publicly disclosed by ServiceNow and may vary between test administrations."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The exam is included with your ServiceNow University access; you should check directly with ServiceNow for current pricing details, guidelines, and related administrative policies and instructions."
+      },
+      {
+        "question_title": "Is renewal required for this certification?",
+        "answer_text": "No renewal is required for this specific certification after you successfully pass the exam and earn your official credential status within the growing ServiceNow ecosystem."
+      }
+    ],
+    "methodology": {
+      "summary": "This detailed page was carefully built using official ServiceNow exam documentation, product guides, and official objective inventories to guarantee complete accuracy for candidates.",
+      "source_ids": [
+        "servicenow-service-reliability-management-for-itom-exam_guide",
+        "servicenow-service-reliability-management-for-itom-exam_guide-2",
+        "servicenow-service-reliability-management-for-itom-objectives",
+        "servicenow-service-reliability-management-for-itom-exam_guide-4"
+      ]
+    },
+    "source_ids": [
+      "servicenow-service-reliability-management-for-itom-exam_guide",
+      "servicenow-service-reliability-management-for-itom-exam_guide-2",
+      "servicenow-service-reliability-management-for-itom-objectives",
+      "servicenow-service-reliability-management-for-itom-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "servicenow-service-reliability-management-for-itom-exam_guide",
+      "url": "https://store.servicenow.com/store/app/b2d8e32e1be06a50a85b16db234bcb8e",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:1fc8c031babbf21936f0c02228d700f16c9a2e8e7566941fc090a5702837d8c8"
+    },
+    {
+      "id": "servicenow-service-reliability-management-for-itom-exam_guide-2",
+      "url": "https://www.servicenow.com/products/service-reliability-management.html",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:4ccf1706d29db24669af41b1ddc1fa02d330bb2bcaaaaa1acc1da36d030fc763"
+    },
+    {
+      "id": "servicenow-service-reliability-management-for-itom-objectives",
+      "url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=bf29f98e471b36dcb8d109b4f16d43c1",
+      "title": "ServiceNow exam objectives",
+      "publisher": "ServiceNow",
+      "source_type": "official_objectives",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:02e38f5e010d1a6b36a3352187bc15d801b4497adbf1d5f1779a486ea6c913ee"
+    },
+    {
+      "id": "servicenow-service-reliability-management-for-itom-exam_guide-4",
+      "url": "https://store.servicenow.com/service-level-objectives",
+      "title": "ServiceNow exam guide",
+      "publisher": "ServiceNow",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:a5ed9a99cfb5f7858b8c1c9ca6636ff5ac99e60958e1de19bac5e66b22c753ef"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T03:29:45+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:17+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:17+00:00"
+  }
 }

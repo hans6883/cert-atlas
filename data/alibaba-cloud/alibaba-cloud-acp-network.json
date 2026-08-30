@@ -97,7 +97,163 @@
     "alibaba network professional",
     "alibaba-cloud-acp-network"
   ],
-  "practice_url": "https://quizforge.ai/?q=ACP%20Network%20Professional",
+  "practice_url": "https://quizforge.ai/tests/acp-network-professional-2ncp4s",
+  "editorial": {
+    "meta_description": "The ACP Network Professional exam is retired as of 2025-03-31. There is no successor exam available for this specific Alibaba Cloud certification credential.",
+    "overview": "The ACP Network Professional certification, offered by Alibaba Cloud, covered advanced cloud networking concepts including VPCs, SD-WAN, and Express Connect. This exam is retired as of 2025-03-31. No successor exam has been named by the certifying body. Candidates interested in cloud networking should consult the official Alibaba Cloud education portal to identify current learning paths and certification options available to replace this retired credential. The program was designed to validate technical proficiency in managing complex network environments within the Alibaba Cloud ecosystem for various enterprise-level cloud infrastructure deployments.",
+    "who_should_take": "This retired exam was intended for cloud network engineers and architects with experience managing complex virtual private clouds, hybrid connectivity, and multi-region network architectures on the Alibaba Cloud platform. It required practical knowledge of network security and routing configurations.",
+    "skills_summary": [
+      "Advanced VPC architecture",
+      "SD-WAN implementation",
+      "Express Connect configuration",
+      "Advanced security group management",
+      "Multi-region network design"
+    ],
+    "preparation_strategy": "As this exam is retired with no successor, do not prepare for it. Focus on current Alibaba Cloud documentation for VPC, CEN, and Express Connect. Reviewing the provided product guides helps build relevant skills, but since no replacement exam exists, prioritize practical hands-on experience with Alibaba Cloud networking services to maintain professional competency in the field. Candidates should explore the official education portal for active certifications that align with their current professional development goals and technical networking interests.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covered the configuration, deployment, and management of advanced Virtual Private Cloud environments, focusing on internal network topology and reliable connectivity within the broader Alibaba Cloud infrastructure for enterprise users.",
+        "study_focus": [
+          "VPC architecture",
+          "Internal routing",
+          "Network topology"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-network-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain addressed the practical implementation of Software-Defined Wide Area Network solutions designed to connect geographically dispersed corporate sites, branch offices, and distributed cloud resources securely across the global network infrastructure.",
+        "study_focus": [
+          "SD-WAN deployment",
+          "Wide area connectivity",
+          "Global resource access"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-network-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain focused on the setup, configuration, and routine maintenance of Express Connect to establish private and high-speed data transmission links between corporate on-premises data centers and the Alibaba Cloud ecosystem.",
+        "study_focus": [
+          "Express Connect setup",
+          "Private connectivity",
+          "Data transmission"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-network-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covered the application, tuning, and oversight of advanced security group rules required to control both inbound and outbound network traffic flowing across cloud resources and various enterprise applications effectively.",
+        "study_focus": [
+          "Security group rules",
+          "Traffic filtering",
+          "Inbound traffic",
+          "Outbound traffic"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-network-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain involved planning, designing, and managing resilient network connectivity across multiple distinct geographic regions to guarantee seamless global resource accessibility and enterprise-grade fault tolerance for various cloud deployments and services.",
+        "study_focus": [
+          "Multi-region connectivity",
+          "Global network design",
+          "Fault tolerance"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-network-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The ACP Network Professional exam is retired and cannot be scheduled. Because there is no successor exam, there is no exam day procedure to follow for this specific certification. Consult the official Alibaba Cloud website for information regarding current active certifications.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The examination consisted of a total of 70 questions delivered through a structured, linear, and computer-based testing format administered by authorized testing providers for all candidates."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "The evaluation followed a standard pass or fail grading model, though the exact numerical passing threshold score was never publicly disclosed by Alibaba Cloud for candidates."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "Candidates were given a strict time limit of 120 minutes to complete the entire assessment session via online proctoring or at authorized physical test centers globally."
+      },
+      {
+        "question_title": "Was there a renewal requirement?",
+        "answer_text": "Yes, active credential holders were required to successfully complete a renewal process every 3 years in order to maintain the validity of their professional certification status."
+      }
+    ],
+    "methodology": {
+      "summary": "This index was compiled by synthesizing official Alibaba Cloud documentation, certification pages, and third-party exam guides to provide a factual overview of the retired exam for all users.",
+      "source_ids": [
+        "alibaba-cloud-acp-network-study"
+      ]
+    },
+    "source_ids": [
+      "alibaba-cloud-acp-network-study",
+      "alibaba-cloud-acp-network-landing",
+      "alibaba-cloud-acp-network-exam_guide",
+      "alibaba-cloud-acp-network-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "alibaba-cloud-acp-network-study",
+      "url": "https://edu.alibabacloud.com/certification",
+      "title": "Alibaba Cloud study documentation",
+      "publisher": "Alibaba Cloud",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:3894b5fae9c2e75fecb42d4aae831d91d24f60aa78baa80cb43b87e3dbaaa9c5"
+    },
+    {
+      "id": "alibaba-cloud-acp-network-landing",
+      "url": "https://edu.alibabacloud.com/certification/acp_network",
+      "title": "Alibaba Cloud certification page",
+      "publisher": "Alibaba Cloud",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:3124b3d95e2758e9bebef28235a7d56815b69b25f5728c407ea033b51932b1dd"
+    },
+    {
+      "id": "alibaba-cloud-acp-network-exam_guide",
+      "url": "https://video-intl.alicdn.com/2024/Academy/April/Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf?spm=a3c0i.11597324.4363105600.34.55c747551sfV4u&file=Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf",
+      "title": "Alibaba Cloud exam guide (video-intl.alicdn.com)",
+      "publisher": "alicdn.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c45e5444d5b7a4ad801af71ff31fb8e8eac19b985d2941056e49bd5e2b418eb5"
+    },
+    {
+      "id": "alibaba-cloud-acp-network-exam_guide-4",
+      "url": "https://files.alicdn.com/tpsservice/ea8652a75c0a94e78474195d4597acdd.pdf",
+      "title": "Alibaba Cloud exam guide (files.alicdn.com)",
+      "publisher": "alicdn.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:6f196a0b7988e88d4983f081a9acfb9cb45976937c301321a2cf9126282f61bb"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:13:57+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:49+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:49+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-03-31",

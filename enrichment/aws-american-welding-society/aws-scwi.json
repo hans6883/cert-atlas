@@ -1,0 +1,122 @@
+{
+ "exam_id": "aws-scwi",
+ "editorial": {
+  "meta_description": "The Senior Certified Welding Inspector exam is retired as of 2025-04-01. Review the successor path WPQ1,WPQ2,WCQA,NDEC for your certification journey today.",
+  "overview": "The Senior Certified Welding Inspector exam, certified by the American Welding Society, was officially retired on 2025-04-01. It previously covered advanced inspection methods, welding metallurgy, and advanced codes and standards. Every candidate looking to advance their professional credentials must now look toward the verified successor path consisting of WPQ1,WPQ2,WCQA,NDEC for their future certification journey.",
+  "who_should_take": "Active Certified Welding Inspectors and experienced inspection professionals holding extensive welding inspection experience, who are now preparing to progress through the verified successor credentials of WPQ1,WPQ2,WCQA,NDEC to maintain their professional standing.",
+  "skills_summary": [
+   "Advanced Inspection Methods",
+   "Welding Metallurgy",
+   "Advanced Codes and Standards",
+   "Inspection Coordination",
+   "Procedure Qualification",
+   "Welder Performance"
+  ],
+  "preparation_strategy": "Do not prepare to sit for this retired exam because the American Welding Society has officially discontinued it. Instead, build your preparation around the verified successor path WPQ1,WPQ2,WCQA,NDEC. Review technical reference materials and study guide documents to master procedure qualifications, welder performance, and NDE coordination as required by the new standards.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers advanced inspection techniques across 40.0 percent of the exam content, focusing heavily on inspection methodologies and joining methods for professional inspectors seeking to validate their technical expertise in the field.",
+    "study_focus": [
+     "Advanced inspection techniques",
+     "Methodologies and procedures"
+    ],
+    "source_ids": [
+     "aws-scwi-landing"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain addresses metallurgical principles and weld characteristics, accounting for 30.0 percent of the evaluation scope to ensure a thorough understanding of material behaviors and properties during the welding and inspection process for all candidates.",
+    "study_focus": [
+     "Welding metallurgy principles",
+     "Material characteristics"
+    ],
+    "source_ids": [
+     "aws-scwi-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain evaluates complex code requirements and standard specifications, representing 30.0 percent of the exam coverage for compliance and specification adherence, ensuring that inspectors maintain the highest levels of quality control and safety standards.",
+    "study_focus": [
+     "Advanced codes and standards",
+     "Specification compliance"
+    ],
+    "source_ids": [
+     "aws-scwi-study-3"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The retired exam cannot be scheduled. For the successor credentials, the American Welding Society conducts computer-based testing at approved sites and Pearson VUE test centers for all registered candidates.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The examination contains a total of 150 multiple choice and open-book multiple choice questions delivered across a linear computer-based testing format for all registered candidates seeking certification."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The examination uses a pass/fail grading scale, and specific passing thresholds are not publicly disclosed by the American Welding Society under any circumstances for any of their exams."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "Candidates are given a total duration of 120 minutes to complete the linear computer-based examination at approved test centers and designated testing facilities for their professional certification requirements."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "The exam price is set at $1,095 for active members and $1,395 for non-members. You should verify current fees directly at the official website before registration."
+   }
+  ],
+  "methodology": {
+   "summary": "This index page was built using verified facts and official documentation provided directly by the certifying body to ensure total accuracy for all users and candidates.",
+   "source_ids": [
+    "aws-scwi-landing"
+   ]
+  },
+  "source_ids": [
+   "aws-scwi-landing",
+   "aws-scwi-study",
+   "aws-scwi-study-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "aws-scwi-landing",
+   "url": "https://www.aws.org/certification",
+   "title": "AWS - American Welding Society certification page",
+   "publisher": "AWS - American Welding Society",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:fb75c034d7c5025e85d24f959c916783423f0fcbb371182c1202b5f62e0be1c2"
+  },
+  {
+   "id": "aws-scwi-study",
+   "url": "https://www.aws.org/standards",
+   "title": "AWS - American Welding Society study documentation",
+   "publisher": "AWS - American Welding Society",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:84b9118ae7f201568be057789e6e4bdd8c853ef0c16794fbfa474b4254b26894"
+  },
+  {
+   "id": "aws-scwi-study-3",
+   "url": "https://www.aws.org/certification/certifiedweldinginspector",
+   "title": "AWS - American Welding Society study documentation",
+   "publisher": "AWS - American Welding Society",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:579918ed833a7707d0a2d364431b990b5a35006cbcb62da986aae3440cd8b9d3"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T00:55:22+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:49+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:49+00:00"
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "exam_id": "oracle-database-sql-1z0-071",
+ "editorial": {
+  "meta_description": "The Oracle Database SQL 1Z0-071 exam validates your professional ability to manage relational databases, write complex SQL SELECT statements, and perform data",
+  "overview": "The Oracle Database SQL exam, certified by Oracle, evaluates your proficiency in SQL language fundamentals. It covers sixteen distinct domains, including relational database concepts, data retrieval, single-row functions, subqueries, and DDL/DML operations. This exam confirms your ability to manage database objects, control user access, and handle data across different time zones using standard SQL syntax and Oracle-specific functions to ensure data integrity and efficient query performance within the database environment.",
+  "who_should_take": "This exam is intended for database developers and administrators who work with Oracle Database environments. Candidates should have practical experience writing SQL queries, managing schema objects, and performing data manipulation tasks within a relational database system to support enterprise applications.",
+  "skills_summary": [
+   "Relational database concepts",
+   "Data retrieval using SELECT",
+   "Single-row function usage",
+   "Subquery resolution",
+   "DML and DDL operations",
+   "Database object management",
+   "User access control"
+  ],
+  "preparation_strategy": "Review the Oracle Database SQL Language Reference to understand syntax and built-in functions. Practice writing SQL statements for data retrieval, aggregation, and table management. Use the sample schemas to test your knowledge of joins, subqueries, and set operators. Ensure you understand implicit and explicit data conversion rules and how to manage transactions effectively to maintain database consistency throughout your daily operations.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain covers the theoretical and physical aspects of relational databases, the relationship between SQL and database structures, and how to associate ERD components with specific clauses within SQL Select statements.",
+    "study_focus": [
+     "Relational theory",
+     "ERD components",
+     "Database relationships"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This section focuses on retrieving data using SELECT statements, including the effective use of column aliases, literal strings, concatenation operators, and the DISTINCT keyword to refine your query output results.",
+    "study_focus": [
+     "SELECT statements",
+     "Column aliases",
+     "DISTINCT keyword"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain covers techniques for filtering and sorting query results, including the application of operator precedence rules, methods for limiting rows returned by a query, and the use of substitution variables.",
+    "study_focus": [
+     "Operator precedence",
+     "Row limiting",
+     "Substitution variables"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This domain addresses the use of single-row functions to manipulate character, numeric, and date data, including performing arithmetic operations on dates and using rounding or truncation functions for numeric data.",
+    "study_focus": [
+     "Character functions",
+     "Date arithmetic",
+     "Numeric functions"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This section explains data type conversion and the application of conditional expressions, including the use of NVL, NULLIF, and COALESCE functions to handle null values and perform explicit or implicit conversions.",
+    "study_focus": [
+     "NVL and COALESCE",
+     "Data conversion",
+     "Conditional expressions"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "6.0",
+    "summary": "This domain covers the use of group functions to aggregate data, report on specific data groups, create data groups, and apply constraints to limit the results returned by those group functions.",
+    "study_focus": [
+     "Group functions",
+     "Data grouping",
+     "Constraint application"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "7.0",
+    "summary": "This domain focuses on displaying data from multiple tables using various join types, including the implementation of self joins, standard equijoins, and non-equijoins to retrieve related information across different database tables.",
+    "study_focus": [
+     "Join types",
+     "Self joins",
+     "Non-equijoins"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "8.0",
+    "summary": "This domain addresses solving complex queries using single-row and multi-row subqueries, as well as utilizing correlated subqueries to perform specific row updates and deletions within your Oracle database management tasks.",
+    "study_focus": [
+     "Single-row subqueries",
+     "Multi-row subqueries",
+     "Correlated subqueries"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "9.0",
+    "summary": "This domain covers the use of set operators to combine multiple SELECT statements, including the use of the INTERSECT operator and the proper application of the ORDER BY clause within sets.",
+    "study_focus": [
+     "Set operators",
+     "INTERSECT",
+     "ORDER BY clause"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "10.0",
+    "summary": "This domain focuses on managing database transactions and performing DML operations like insert, update, and delete, ensuring that you can effectively control transaction states and maintain data integrity during updates.",
+    "study_focus": [
+     "Transaction control",
+     "DML operations",
+     "Data integrity"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "11.0",
+    "summary": "This domain covers the creation and maintenance of indexes, synonyms, and sequences, which are database objects for optimizing query performance and managing unique identifiers within your Oracle database schema.",
+    "study_focus": [
+     "Index management",
+     "Synonym management",
+     "Sequence management"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "12.0",
+    "summary": "This domain addresses the use of DDL to create and manage tables, including defining columns and data types, and performing operations to describe and modify table structures as requirements evolve.",
+    "study_focus": [
+     "Table creation",
+     "Column management",
+     "Data types"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "13.0",
+    "summary": "This domain focuses on the management of database views, which are virtual tables that simplify complex queries and provide a secure way to present data to users without exposing underlying tables.",
+    "study_focus": [
+     "View management",
+     "View creation"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "14.0",
+    "summary": "This domain covers controlling user access through system and object privileges, including the ability to grant permissions and distinguish between granting direct object access and assigning roles to users.",
+    "study_focus": [
+     "System privileges",
+     "Object privileges",
+     "Role assignment"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "15.0",
+    "summary": "This domain addresses the use of data dictionary views to manage database objects, allowing administrators to query metadata about the database structure, user permissions, and current system configuration settings efficiently.",
+    "study_focus": [
+     "Data dictionary views",
+     "Metadata management"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   },
+   {
+    "domain_id": "16.0",
+    "summary": "This domain focuses on managing data across different time zones using specific functions like CURRENT_DATE and CURRENT_TIMESTAMP, as well as utilizing interval data types to handle time-based calculations accurately.",
+    "study_focus": [
+     "Time zone functions",
+     "Interval data types"
+    ],
+    "source_ids": [
+     "oracle-database-sql-1z0-071-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam consists of 78 questions. Manage your time effectively across the 120 minutes provided. Read each question carefully to identify the specific SQL requirement, and use the process of elimination for multiple-choice options to ensure you select the most accurate answer.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The Oracle Database SQL 1Z0-071 exam is an assessment that contains exactly 78 questions. You should prepare to answer these within the allotted time to demonstrate your proficiency in SQL."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To successfully pass the Oracle Database SQL certification exam, you are required to achieve a minimum score of at least 63%. Ensure you review all domain objectives before your test date."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration for the Oracle Database SQL exam is 120 minutes. This time limit is designed to test your ability to write and interpret SQL statements under standard professional testing conditions."
+   },
+   {
+    "question_title": "Is this exam currently available?",
+    "answer_text": "Yes, this exam is currently available for candidates. For information regarding long-term certification paths or potential future updates to the exam requirements, please check with Oracle for the current certification path."
+   }
+  ],
+  "methodology": {
+   "summary": "This index was compiled using official Oracle documentation and certification pages to provide accurate, verified information regarding the 1Z0-071 exam objectives, structure, and requirements for all prospective certification candidates.",
+   "source_ids": [
+    "oracle-database-sql-1z0-071-landing"
+   ]
+  },
+  "source_ids": [
+   "oracle-database-sql-1z0-071-study",
+   "oracle-database-sql-1z0-071-study-2",
+   "oracle-database-sql-1z0-071-landing"
+  ]
+ },
+ "sources": [
+  {
+   "id": "oracle-database-sql-1z0-071-study",
+   "url": "https://education.oracle.com/certification",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:da24cbce8a1f3d1851c0d2ec57cbbebff051d14af0d3b51be81e7db3929ac710"
+  },
+  {
+   "id": "oracle-database-sql-1z0-071-study-2",
+   "url": "https://education.oracle.com/",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:a04b143f5904d2c6c8c3252bffb257ef792eef877d04e2d23762277e094558f9"
+  },
+  {
+   "id": "oracle-database-sql-1z0-071-landing",
+   "url": "https://education.oracle.com/oracle-database-sql/pexam_1Z0-071",
+   "title": "Oracle certification page",
+   "publisher": "Oracle",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:a8193cd2bcc9115380d8e2f28f06d7b2dcfade100d49be2d80bfc23a5ad5d032"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:11:38+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:08+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:08+00:00"
+ }
+}

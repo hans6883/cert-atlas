@@ -293,6 +293,169 @@
     "microsoft-mb-220-dynamics-365-customer-insights"
   ],
   "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Customer%20Insights%20-%20Journeys%20Functional%20Consultant",
+  "editorial": {
+    "meta_description": "Exam MB-220 for Microsoft Dynamics 365 Customer Insights - Journeys is officially retired and no longer available for candidates to schedule or complete.",
+    "overview": "This exam covered the configuration and management of Dynamics 365 Customer Insights - Journeys. Certified by Microsoft, it evaluated skills in segment management, marketing channels, and journey orchestration. This exam is retired, and Microsoft has named no successor. Candidates should review official Microsoft documentation for current certification paths and learning opportunities related to Dynamics 365 applications. The exam consisted of 40 questions and required a passing score of 700 to achieve certification, which remained valid for 1 year.",
+    "who_should_take": "This exam was intended for functional consultants responsible for configuring and managing customer journeys. It required experience in Dynamics 365 environments, specifically focusing on segment creation, marketing channel distribution, and event management to support business marketing goals.",
+    "skills_summary": [
+      "Configuring Customer Insights - Journeys",
+      "Managing segments and preference centers",
+      "Handling leads, contacts, and accounts",
+      "Executing email and multi-channel marketing",
+      "Orchestrating customer journeys",
+      "Planning events and webinars"
+    ],
+    "preparation_strategy": "Since this exam is retired, you should not prepare for it. Focus your efforts on current Microsoft learning paths for Dynamics 365. Review the official documentation to understand the latest features of Customer Insights - Journeys. Any technical knowledge regarding journey orchestration and segment management remains relevant for professional practice, even though the certification itself is no longer available. Please consult the official Microsoft website to identify active exams that align with your professional goals and current Dynamics 365 skill requirements.",
+    "domain_guidance": [
+      {
+        "domain_id": "Configure Dynamics 365 Customer Insights – Journeys",
+        "summary": "This domain focused on the initial setup and configuration of the application environment, ensuring that all system parameters were correctly aligned with organizational requirements for effective customer journey management and data integration tasks within the platform.",
+        "study_focus": [
+          "Configure the Customer Insights - Journeys app",
+          "Configure system parameters for data integration"
+        ],
+        "source_ids": [
+          "microsoft-mb-220-dynamics-365-customer-insights-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Manage segments and preferences",
+        "summary": "This domain covered the definition of target audiences and the management of user communication preferences, ensuring that marketing efforts were directed toward the correct segments while respecting individual user consent and subscription choices throughout the process.",
+        "study_focus": [
+          "Create and manage segments",
+          "Manage preference centers"
+        ],
+        "source_ids": [
+          "microsoft-mb-220-dynamics-365-customer-insights-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Manage leads, contacts, and accounts",
+        "summary": "This domain addressed the administration of core customer data entities within the system, focusing on the lifecycle management of leads, contacts, and accounts to maintain data integrity and support customer relationship management strategies for the business.",
+        "study_focus": [
+          "Manage leads",
+          "Create and manage accounts and contacts"
+        ],
+        "source_ids": [
+          "microsoft-mb-220-dynamics-365-customer-insights-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Manage marketing channels",
+        "summary": "This domain focused on the creation and distribution of marketing content across various communication channels, including email and other digital platforms, to ensure consistent messaging and engagement with the target audience throughout the entire marketing campaign lifecycle.",
+        "study_focus": [
+          "Create marketing emails",
+          "Distribute marketing emails",
+          "Create and manage other channels"
+        ],
+        "source_ids": [
+          "microsoft-mb-220-dynamics-365-customer-insights-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Manage journeys",
+        "summary": "This domain covered the orchestration of automated customer journeys based on specific triggers or segments, allowing organizations to deliver personalized experiences and timely interactions across the entire customer lifecycle through automated workflow configurations and defined journey goals.",
+        "study_focus": [
+          "Configure journey orchestration",
+          "Define journey goals and triggers"
+        ],
+        "source_ids": [
+          "microsoft-mb-220-dynamics-365-customer-insights-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Manage events and webinars",
+        "summary": "This domain focused on the configuration and management of event-based marketing activities, including the planning and execution of webinars to drive engagement and capture valuable lead information within the Dynamics 365 marketing ecosystem for the organization.",
+        "study_focus": [
+          "Create and configure events",
+          "Manage webinar execution and lead capture"
+        ],
+        "source_ids": [
+          "microsoft-mb-220-dynamics-365-customer-insights-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "As exam MB-220 is retired, it cannot be scheduled or taken. Please visit the Microsoft certification website to identify active exams that align with your professional goals and current Dynamics 365 skill requirements. Ensure you review all current documentation provided by Microsoft to stay updated on the latest platform changes.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The exam consisted of 40 questions in total, which were designed to test the candidate's knowledge of Dynamics 365 Customer Insights - Journeys configuration and management across various functional areas of the application during the active period of the certification."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "The passing score for this exam was 700 on a scale of 1-1000. Candidates were required to demonstrate proficiency across all domains to meet this threshold and successfully earn the certification before it was retired by Microsoft from the active catalog."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "The exam duration was 100 minutes, providing candidates with sufficient time to complete the various question types, including multiple choice, drag and drop, and case study scenarios that were presented during the testing session for this specific Dynamics 365 certification."
+      },
+      {
+        "question_title": "What was the price of the exam?",
+        "answer_text": "The exam price was 165 USD, though pricing could vary by region and was subject to change based on local currency and specific Microsoft policies in effect at the time the exam was available for registration and completion by interested professional candidates."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed by synthesizing official Microsoft exam guides and documentation to provide a factual summary of the retired MB-220 certification, ensuring all information aligns with the final published objectives and status of the exam.",
+      "source_ids": [
+        "microsoft-mb-220-dynamics-365-customer-insights-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "microsoft-mb-220-dynamics-365-customer-insights-landing",
+      "microsoft-mb-220-dynamics-365-customer-insights-exam_guide",
+      "microsoft-mb-220-dynamics-365-customer-insights-exam_guide-3",
+      "microsoft-mb-220-dynamics-365-customer-insights-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-mb-220-dynamics-365-customer-insights-landing",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-220",
+      "title": "Microsoft certification page",
+      "publisher": "Microsoft",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:59056b1ebc20fc483d3f88b175c6e2754288e7d96957e7a826c73f309ab7d422"
+    },
+    {
+      "id": "microsoft-mb-220-dynamics-365-customer-insights-exam_guide",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-220#skills-measured-as-of-march-20-2024",
+      "title": "Microsoft exam guide",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:59056b1ebc20fc483d3f88b175c6e2754288e7d96957e7a826c73f309ab7d422"
+    },
+    {
+      "id": "microsoft-mb-220-dynamics-365-customer-insights-exam_guide-3",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-220#skills-measured-prior-to-march-20-2024",
+      "title": "Microsoft exam guide",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:59056b1ebc20fc483d3f88b175c6e2754288e7d96957e7a826c73f309ab7d422"
+    },
+    {
+      "id": "microsoft-mb-220-dynamics-365-customer-insights-study",
+      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "title": "Microsoft study documentation",
+      "publisher": "Microsoft",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:575d1ed2a392c598851e0a8917a685de84e767f64830b8b4a52220e8040f64c2"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:35:18+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:03+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:03+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": null,

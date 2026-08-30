@@ -151,7 +151,188 @@
     "oracle cloud infrastructure 2023 architect associate 1z0-1072-23",
     "oracle-oci-architect-associate-1z0-1072"
   ],
-  "practice_url": "https://quizforge.ai/?q=Oracle%20Cloud%20Infrastructure%202023%20Architect%20Associate%20%281Z0-1072-23%29",
+  "practice_url": "https://quizforge.ai/tests/oracle-cloud-infrastructure-architect-associate",
+  "editorial": {
+    "meta_description": "The Oracle Cloud Infrastructure 2023 Architect Associate exam is officially retired and no longer available for registration or testing by candidates.",
+    "overview": "This Oracle certification covered OCI architecture, networking, compute, storage, database, identity, security, and monitoring services. It was a linear exam consisting of 60 questions. Oracle retired this exam on 2026-08-10. There is no designated successor exam. Candidates seeking current Oracle Cloud Infrastructure credentials should visit the official Oracle certification website to identify the appropriate active learning paths and exams that align with their career goals and technical requirements.",
+    "who_should_take": "This exam was intended for cloud architects and technical professionals with experience designing and managing infrastructure on Oracle Cloud. It required practical knowledge of OCI services and security configurations to ensure cloud deployments.",
+    "skills_summary": [
+      "Architecting OCI solutions",
+      "Managing virtual cloud networks",
+      "Configuring compute and storage services",
+      "Implementing database solutions",
+      "Managing identity and access",
+      "Applying security services",
+      "Monitoring and logging"
+    ],
+    "preparation_strategy": "Since this exam is retired, do not prepare for it. Focus your efforts on current Oracle Cloud Infrastructure documentation and active certification paths. Review the official Oracle study resources to understand the latest OCI service updates and best practices. Prioritize hands-on experience with OCI consoles and APIs to build the skills required for current industry standards and to maintain your competitive edge in the cloud computing market.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the fundamental principles of architecting solutions within the Oracle Cloud Infrastructure environment, focusing on high-level design, service integration, and the deployment of scalable cloud architectures for enterprise applications.",
+        "study_focus": [
+          "Reference architectures",
+          "Solution playbooks"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain addresses the configuration and management of virtual cloud networks, including connectivity options, network traffic routing, and the implementation of secure communication channels between various cloud resources and on-premises environments.",
+        "study_focus": [
+          "VCN subnets",
+          "Route tables",
+          "Gateways"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain focuses on provisioning and managing compute instances, including bare metal and virtual machine options, while ensuring that instance lifecycle management and flexible shapes are utilized to meet specific workload requirements.",
+        "study_focus": [
+          "Compute shapes",
+          "Instance lifecycle management",
+          "Flexible shapes"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers storage services, including block volumes, file storage, and object storage solutions for OCI instances, ensuring that data persistence and accessibility are maintained across various cloud-based storage architectures and configurations.",
+        "study_focus": [
+          "Block volume attachment",
+          "File storage systems",
+          "Object storage buckets"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain involves the management of database services within the cloud, including autonomous and managed database options, focusing on migration strategies and the operational maintenance of high-performance database environments for various applications.",
+        "study_focus": [
+          "Autonomous database services",
+          "Database migration"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain covers identity and access management, focusing on users, groups, compartments, and policy-based access control to ensure that resources are securely isolated and accessed only by authorized personnel within the organization.",
+        "study_focus": [
+          "IAM policy syntax",
+          "Compartment isolation",
+          "Identity domains"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This domain focuses on security services, including cloud guard, vault, and vulnerability scanning to protect OCI resources from potential threats while maintaining compliance with organizational security policies and industry-standard best practices for cloud.",
+        "study_focus": [
+          "Security zones",
+          "Secret management",
+          "Threat intelligence"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This domain covers monitoring, logging, and notification services to maintain visibility into OCI resource health and performance, ensuring that administrators receive timely alerts regarding system status and potential operational issues within infrastructure.",
+        "study_focus": [
+          "Monitoring metrics",
+          "Logging management",
+          "Notifications"
+        ],
+        "source_ids": [
+          "oracle-oci-architect-associate-1z0-1072-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "As this exam is retired, it cannot be scheduled. For current Oracle exams, ensure you have your identification ready and arrive at the testing center or log into the online proctoring system well before your scheduled time to avoid any potential technical delays.",
+    "faq": [
+      {
+        "question_title": "How many questions were on the exam?",
+        "answer_text": "The exam consisted of 60 questions in total. These questions were designed to test the candidate's knowledge of Oracle Cloud Infrastructure architecture, services, and best practices for managing cloud environments effectively."
+      },
+      {
+        "question_title": "What was the passing score?",
+        "answer_text": "The passing score for this exam was 65. Candidates were required to demonstrate a clear understanding of the various OCI domains to meet this threshold and successfully earn the certification credential."
+      },
+      {
+        "question_title": "How long was the exam?",
+        "answer_text": "The exam duration was 90 minutes. This timeframe was allocated to allow candidates sufficient time to read and answer all questions while ensuring they could evaluate the technical scenarios presented during the test."
+      },
+      {
+        "question_title": "What was the cost of the exam?",
+        "answer_text": "The exam price was $245. This fee covered the registration and administration of the certification assessment, which was available to professionals seeking to validate their expertise in Oracle Cloud Infrastructure design and management."
+      }
+    ],
+    "methodology": {
+      "summary": "This index was compiled using official Oracle certification documentation and exam source materials to provide a factual summary of the retired exam, ensuring that all information presented remains accurate and consistent with official records.",
+      "source_ids": [
+        "oracle-oci-architect-associate-1z0-1072-landing"
+      ]
+    },
+    "source_ids": [
+      "oracle-oci-architect-associate-1z0-1072-study",
+      "oracle-oci-architect-associate-1z0-1072-study-2",
+      "oracle-oci-architect-associate-1z0-1072-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "oracle-oci-architect-associate-1z0-1072-study",
+      "url": "https://education.oracle.com/certification",
+      "title": "Oracle study documentation",
+      "publisher": "Oracle",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:2111b15298c309b2d72657ce6c11fe00ab7077edf2a700296f7682db6ed3f4a6"
+    },
+    {
+      "id": "oracle-oci-architect-associate-1z0-1072-study-2",
+      "url": "https://education.oracle.com/",
+      "title": "Oracle study documentation",
+      "publisher": "Oracle",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:29a76584d34892d9129c0907f21ddbd0daecea3b969979105143261f0edc1a12"
+    },
+    {
+      "id": "oracle-oci-architect-associate-1z0-1072-landing",
+      "url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-architect-associate/pexam_1Z0-1072-23",
+      "title": "Oracle certification page",
+      "publisher": "Oracle",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:98080e7d6af13bb6b941c5d3f09ccc28e8e30be01e9db9f0f203c6db49332bb9"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:24:19+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:08+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:08+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-08-10",

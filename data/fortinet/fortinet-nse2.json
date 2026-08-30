@@ -158,14 +158,242 @@
     "nse2"
   ],
   "practice_url": "https://quizforge.ai/?q=NSE%202%20Network%20Security%20Associate",
+  "editorial": {
+    "meta_description": "The NSE 2 Network Security Associate exam is retired as of 2026-07-15. Prepare for NSE 2 – Introduction to the Next Generation Firewall.",
+    "overview": "The Fortinet NSE 2 Network Security Associate certification exam certified understanding of cyberthreats and network security products across multiple domains. Fortinet certified candidates who successfully demonstrated knowledge before the official retirement date. This examination officially retired on 2026-07-15, and its verified replacement path forward is NSE 2 – Introduction to the Next Generation Firewall.",
+    "who_should_take": "Individuals in technical roles requiring an in-depth understanding of cybersecurity fundamentals, or those pursuing a technical career in cybersecurity. All Fortinet employees and partners are required to obtain NSE 1, NSE 2, and NSE 3 certifications.",
+    "skills_summary": [
+      "Cloud Security",
+      "Endpoint Security",
+      "Firewall",
+      "Network Access Control",
+      "Sandbox",
+      "SASE",
+      "SD-WAN",
+      "ZTNA"
+    ],
+    "preparation_strategy": "Prepare for the successor NSE 2 – Introduction to the Next Generation Firewall. Core security concepts and product evolution knowledge transfer directly from this retired exam. New material regarding next-generation firewalls must be learned fresh. Do not study for or attempt to schedule this retired exam.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This specific learning domain covers cloud security mechanisms and protection strategies designed for virtualized environments and public or private cloud architectures to secure modern data deployments safely and effectively.",
+        "study_focus": [
+          "Cloud security fundamentals",
+          "Virtual environment protection"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses heavily on endpoint security solutions to protect individual devices, operating systems, and network endpoints against sophisticated malware attacks and unauthorized access attempts across the entire organization network infrastructure.",
+        "study_focus": [
+          "Endpoint protection concepts",
+          "Device security controls"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This particular educational domain addresses firewall technologies, packet inspection methods, and network boundary defense mechanisms utilized extensively to control incoming and outgoing traffic safely within enterprise networking environments today.",
+        "study_focus": [
+          "Firewall operation principles",
+          "Traffic filtering methods"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This subject domain explores network access control policies, device visibility features, and compliance checks required to properly secure all enterprise network entry points against unauthorized users and unverified connected devices.",
+        "study_focus": [
+          "Access control mechanisms",
+          "Network visibility policies"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This instructional domain examines isolated sandbox environments created for isolating and analyzing suspicious files and zero-day threats safely without risking the broader production network infrastructure or exposing sensitive corporate data assets.",
+        "study_focus": [
+          "Threat isolation techniques",
+          "Behavioral analysis"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This functional domain covers Secure Access Service Edge architecture principles, successfully combining advanced network and security services into scalable cloud-delivered solutions for modern enterprises seeking streamlined management capabilities and protection.",
+        "study_focus": [
+          "SASE architecture models",
+          "Cloud-delivered security"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This specific curriculum domain focuses on Software-Defined Wide Area Network solutions engineered to optimize branch connectivity, routing efficiency, and application performance across distributed business sites while maintaining steady security controls.",
+        "study_focus": [
+          "SD-WAN deployment scenarios",
+          "Path selection mechanisms"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This domain explores secure email gateway products specifically designed to detect and block sophisticated email-borne threats, targeted phishing campaigns, and unsolicited spam messages before they reach employee inboxes or endpoints.",
+        "study_focus": [
+          "Email threat filtering",
+          "Anti-phishing controls"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "This operational domain covers Security Information and Event Management systems utilized for log aggregation, data correlation, and continuous security event monitoring across the enterprise infrastructure to detect abnormal system behaviors.",
+        "study_focus": [
+          "Log analysis fundamentals",
+          "Event monitoring basics"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "This technical domain addresses Security Orchestration, Automation, and Response tools built to streamline incident handling processes and automate security workflows for rapid threat remediation and reduced manual overhead for teams.",
+        "study_focus": [
+          "Incident response workflows",
+          "Automation playbooks"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "11",
+        "summary": "This domain examines advanced threat intelligence services that provide real-time data feeds regarding emerging cyberthreats and crucial Indicators of Compromise for proactive defense and accelerated response posture across networks.",
+        "study_focus": [
+          "Threat feed integration",
+          "Indicator analysis"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "12",
+        "summary": "This specific domain focuses heavily on Web Application Firewalls to protect web applications from common vulnerabilities, SQL injection attacks, and complex layer 7 security threats effectively while ensuring continuous application availability.",
+        "study_focus": [
+          "Web application protection",
+          "Layer 7 security rules"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "13",
+        "summary": "This instructional domain covers advanced web filtering technologies deployed widely to restrict access to malicious, inappropriate, or corporate policy-violating websites across organizational user devices and browsing sessions daily.",
+        "study_focus": [
+          "URL categorization",
+          "Web traffic policies"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "14",
+        "summary": "This wireless networking domain explores Wi-Fi communication solutions, access point management procedures, and standard wireless security protocols designed carefully to protect enterprise airspace against unauthorized connections and interception attempts.",
+        "study_focus": [
+          "Wireless infrastructure security",
+          "Access point deployment"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      },
+      {
+        "domain_id": "15",
+        "summary": "This architecture domain addresses Zero Trust Network Access principles, continuously verifying user identity and device posture before granting secure application access across resources to maintain strict least-privilege enforcement.",
+        "study_focus": [
+          "ZTNA verification rules",
+          "Identity-based access"
+        ],
+        "source_ids": [
+          "fortinet-nse2-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Because this exam is retired as of 2026-07-15, it cannot be scheduled or taken. Candidates must register for the successor NSE 2 – Introduction to the Next Generation Firewall through the Fortinet Training Institute Portal.",
+    "faq": [
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam duration is 120 minutes. Candidates should complete all multiple choice questions within this allocated timeframe when taking applicable Fortinet examinations during their active certification journey."
+      },
+      {
+        "question_title": "What is the price of the exam?",
+        "answer_text": "The exam price is set at $0.0, making the baseline training and testing completely accessible for candidates pursuing various Fortinet credentials through the official portal."
+      },
+      {
+        "question_title": "How long is the certification valid?",
+        "answer_text": "The NSE 2 certification is valid for 2 years from the date of completion. Renewal is required and can be accomplished by taking the current course in the NSE Institute."
+      },
+      {
+        "question_title": "What is the successor to this retired exam?",
+        "answer_text": "Fortinet officially retired this exam on 2026-07-15. The verified successor and direct replacement path moving forward is NSE 2 – Introduction to the Next Generation Firewall."
+      }
+    ],
+    "methodology": {
+      "summary": "This index page was compiled directly from official Fortinet study documentation, course outlines, and lifecycle retirement notices to provide accurate guidelines for the retired certification and its successor.",
+      "source_ids": [
+        "fortinet-nse2-study"
+      ]
+    },
+    "source_ids": [
+      "fortinet-nse2-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "fortinet-nse2-study",
+      "url": "https://training.fortinet.com/",
+      "title": "Fortinet study documentation",
+      "publisher": "Fortinet",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c7a55ab6dfb7397caaaa733a9014a4d9efffe066216002803fab667c3171ef78"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-29T23:39:00+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:54+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:54+00:00"
+  },
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-07-15",
-    "replacement": {
-      "exam_code": "NSE 2 – Introduction to the Next Generation Firewall",
-      "relationship": "direct_replacement",
-      "url": null
-    },
     "summary": "Fortinet retired NSE2 on 2026-07-15. NSE 2 – Introduction to the Next Generation Firewall is the named replacement path.",
     "evidence_url": "https://helpdesk.training.fortinet.com/support/solutions/articles/73000665776-are-any-courses-or-exams-being-retired-on-july-15-2026-",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"

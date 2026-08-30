@@ -1,0 +1,133 @@
+{
+ "exam_id": "dmv-az",
+ "editorial": {
+  "meta_description": "Prepare for the Arizona Driver's License Knowledge Test with official study guidelines, passing scores, traffic law domains, and exam costs.",
+  "overview": "The Arizona Driver's License Knowledge Test evaluates your understanding of essential motor vehicle laws, road regulations, and safety practices required for new drivers. Administered by DMV / State Driver Licensing, this closed-book assessment contains exactly 30 multiple-choice questions to determine whether applicants are qualified to safely operate vehicles on state roadways during daily travel at a $10 fee.",
+  "who_should_take": "New drivers and individuals relocating to Arizona who need to obtain an instruction permit or driver license. This test is required for applicants seeking standard operator credentials through DMV / State Driver Licensing offices.",
+  "skills_summary": [
+   "Traffic Laws and Regulations",
+   "Road Signs and Signals",
+   "Safe Driving Practices",
+   "Right-of-Way Rules",
+   "Speed Limits and Distances"
+  ],
+  "preparation_strategy": "Review the official driver license manual and customer service guide in detail before your exam date. Study the specific sections covering traffic laws, road signs, and driving practices. Practice answering questions about road regulations and utilize available sample tests to prepare for the computer-based or paper test.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific domain covers Arizona traffic laws and regulations that govern vehicle operation on public roadways across the state jurisdiction to ensure full compliance by every single motor vehicle operator during travel.",
+    "study_focus": [
+     "State motor vehicle statutes",
+     "Driver licensing rules"
+    ],
+    "source_ids": [
+     "dmv-az-samples"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on roadway signs, signals, and pavement markings used to control traffic flow and guide drivers safely through complex intersections and highway systems during daily travel.",
+    "study_focus": [
+     "Traffic sign meanings",
+     "Signal light responses"
+    ],
+    "source_ids": [
+     "dmv-az-samples"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This particular domain explores safe driving practices designed to actively avoid crashes and handle roadway emergencies through defensive maneuvering and hazard awareness techniques taught in official driver manuals.",
+    "study_focus": [
+     "Defensive driving techniques",
+     "Emergency response procedures"
+    ],
+    "source_ids": [
+     "dmv-az-samples"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This specific domain outlines right-of-way rules at intersections, turns, and when sharing the road with other vehicles, pedestrians, and cyclists under standard traffic conditions across local roads and streets.",
+    "study_focus": [
+     "Intersection right-of-way",
+     "Sharing the road safely"
+    ],
+    "source_ids": [
+     "dmv-az-samples"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This regulatory domain details speed limits and following distances required for maintaining safe operation on highways, urban streets, and rural roads under varying environmental conditions and traffic patterns.",
+    "study_focus": [
+     "Speed limit regulations",
+     "Following distances"
+    ],
+    "source_ids": [
+     "dmv-az-samples"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive at the DMV office with required identification documents and proof of completed application steps. Switch off all electronic devices and follow the proctor's instructions for the closed-book test.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The Arizona Driver's License Knowledge Test consists of 30 multiple-choice questions administered at a DMV office either on a computer or on paper in a closed-book format."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for the examination is 80 percentage, meaning you must answer enough questions correctly to meet this threshold on the computer-based or paper test."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The exam is associated with a $10 new driver's license fee when applying for your credential through DMV / State Driver Licensing offices during the standard registration process."
+   },
+   {
+    "question_title": "What format is the exam?",
+    "answer_text": "The exam format consists of multiple-choice questions administered as a closed-book test, delivered either through a computer-based system or via a paper test at a DMV office."
+   }
+  ],
+  "methodology": {
+   "summary": "This detailed page was compiled using official DMV documentation, state driver manuals, and verified exam specifications provided by state licensing authorities for applicants.",
+   "source_ids": [
+    "dmv-az-samples"
+   ]
+  },
+  "source_ids": [
+   "dmv-az-samples",
+   "dmv-az-exam_guide"
+  ]
+ },
+ "sources": [
+  {
+   "id": "dmv-az-samples",
+   "url": "https://www.dmv.org/practice-tests/",
+   "title": "DMV / State Driver Licensing documentation",
+   "publisher": "DMV / State Driver Licensing",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:8cffa7db3d9b0d138f9a001dacc40af69c67ccbef23cf4fe9e0e06050f894c04"
+  },
+  {
+   "id": "dmv-az-exam_guide",
+   "url": "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
+   "title": "DMV / State Driver Licensing exam guide (apps.azdot.gov)",
+   "publisher": "azdot.gov",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:5c24a16e98abf67a060b3945d8cc2cb5ca7a09194bcba14c20429a4bf93359b7"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:59:06+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:53+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:53+00:00"
+ }
+}

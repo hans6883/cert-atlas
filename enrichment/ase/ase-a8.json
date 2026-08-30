@@ -1,0 +1,111 @@
+{
+ "exam_id": "ase-a8",
+ "editorial": {
+  "meta_description": "Prepare effectively for the ASE A8 Engine Performance certification exam by studying structured domains covering ignition systems, fuel systems, and emissions",
+  "overview": "The ASE A8 Engine Performance exam certifies professional automotive technicians on complex automotive engine systems and diagnostic procedures. Administered by ASE, it carefully evaluates candidate knowledge across four distinct domains, including ignition systems, fuel and air induction, emissions controls, and detailed engine diagnosis, ensuring technicians meet high industry standards during everyday operations.",
+  "who_should_take": "Automotive technicians seeking professional certification in engine performance repair, analysis, and vehicle diagnosis should take this exam. Candidates require relevant professional experience working with vehicle engines, advanced fuel systems, and emissions equipment.",
+  "skills_summary": [
+   "Ignition system testing",
+   "Fuel and air induction service",
+   "Emissions control inspection",
+   "Engine diagnosis and repair"
+  ],
+  "preparation_strategy": "Review vehicle emission standards, standard testing procedures, and advanced diagnostic strategies carefully and repeatedly across all designated subjects to ensure success. Practice using the process of elimination on multiple choice questions, study the official blueprint closely, and check with ASE for the current certification path.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain carefully covers the ignition system, accounting for 16.0 percent of the exam, focusing extensively on internal components, circuitry, and electrical testing methodologies used by automotive technicians daily.",
+    "study_focus": [
+     "Ignition system components",
+     "Spark delivery diagnosis"
+    ],
+    "source_ids": [
+     "ase-a8-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This specific section focuses deeply on the fuel and air induction domain, representing exactly 18.0 percent of the total test content and operational delivery systems handled during everyday vehicle servicing tasks.",
+    "study_focus": [
+     "Fuel delivery systems",
+     "Air induction operations"
+    ],
+    "source_ids": [
+     "ase-a8-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This area addresses important emissions controls, covering 16.0 percent of the exam content directly related to exhaust treatment, environmental regulations, and pollutant management practices required across modern automotive repair facilities.",
+    "study_focus": [
+     "Emission control devices",
+     "Exhaust pollutant reduction"
+    ],
+    "source_ids": [
+     "ase-a8-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This comprises the largest portion of the evaluation at 24.0 percent, examining overall engine diagnosis procedures, troubleshooting techniques, and performance fault isolation to ensure candidates can successfully resolve complex mechanical problems.",
+    "study_focus": [
+     "Diagnostic routines",
+     "Engine performance faults"
+    ],
+    "source_ids": [
+     "ase-a8-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive early for the linear computer-based test session. Efficiently manage your time across all 60 questions to ensure complete coverage within the established 75-minute limit.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "There are exactly 60 questions on the exam, which are delivered in a linear computer-based format. The test includes traditional multiple choice questions alongside complex composite vehicle scenarios."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "You should check directly with ASE for specific passing score details and official registration requirements for the certification process and subsequent recertification timelines required for maintaining active credentials."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The maximum duration of the exam is 75 minutes. Test takers must carefully complete all questions within this allocated and monitored timeframe to ensure proper completion."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The test fee is approximately $50 plus an additional ASE registration fee of about $36, though exact fees may vary depending on the chosen testing window."
+   }
+  ],
+  "methodology": {
+   "summary": "This informational page was meticulously built using official ASE exam guides and verified regulatory facts to assist candidates preparing for certification successfully.",
+   "source_ids": [
+    "ase-a8-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "ase-a8-exam_guide"
+  ]
+ },
+ "sources": [
+  {
+   "id": "ase-a8-exam_guide",
+   "url": "https://www.ase.com/dist/docs/Auto_Test_Specs_Individual-8_2022.pdf",
+   "title": "ASE exam guide",
+   "publisher": "ASE",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:f39db7e5d11396fb2e42fca8778afc4d5a48febdf6ef9563ad9ac96fdd8618d4"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T04:00:24+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:49+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:49+00:00"
+ }
+}

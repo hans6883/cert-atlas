@@ -232,7 +232,186 @@
     "salesforce certified pardot consultant",
     "salesforce-pardot-consultant"
   ],
-  "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20Pardot%20Consultant",
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-pardot-consultant-2eifcy",
+  "editorial": {
+    "meta_description": "The Salesforce Certified Pardot Consultant exam is scheduled for retirement on 2027-02-01.",
+    "overview": "The Salesforce Certified Pardot Consultant exam, certified by Salesforce, covers the implementation and management of Account Engagement solutions. It evaluates your ability to configure accounts, automate business processes, manage leads, and personalize prospect experiences. The exam also tests your knowledge of email marketing standards, reporting metrics, and sales alerts. It is a linear exam consisting of 60 questions that assess your technical and strategic proficiency in the platform, ensuring you can effectively align marketing initiatives with business objectives.",
+    "who_should_take": "This exam is designed for consultants who design and implement Account Engagement strategies. Candidates should have experience with Salesforce and Account Engagement landscapes, including data migration, lead qualification, and automation tools, and be responsible for aligning marketing initiatives with business objectives.",
+    "skills_summary": [
+      "Analyzing Salesforce and Account Engagement landscapes",
+      "Developing data migration and integrity plans",
+      "Designing lead nurturing and qualification strategies",
+      "Configuring automation rules and segmentation",
+      "Implementing email marketing and consent management",
+      "Setting up reporting and analytics"
+    ],
+    "preparation_strategy": "Review the official Salesforce exam guide and study documentation to understand the eight domains. Focus on the technical setup of Account Engagement, including API usage and business unit configuration. Practice designing sequences for marketing initiatives and lead routing models. Since the exam is a linear format with 60 questions, prioritize understanding the weight of each domain to manage your study time effectively before the 2027-02-01 retirement date. Ensure you are comfortable with all technical aspects of the platform.",
+    "domain_guidance": [
+      {
+        "domain_id": "Evaluation",
+        "summary": "This domain covers analyzing customer Salesforce and Account Engagement landscapes to recommend paths forward. It focuses on identifying business needs based on marketing trends using available tools and methods to ensure successful project outcomes for clients.",
+        "study_focus": [
+          "Analyzing customer business objectives",
+          "Designing strategies for marketing trends"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Account Configuration",
+        "summary": "This domain addresses the technical setup and governance of Account Engagement. It requires developing plans for data migration, maintaining data integrity, and managing organization access and authorization to ensure secure and efficient platform operations for all users.",
+        "study_focus": [
+          "Technical setup implications",
+          "Data migration integrity",
+          "Usage governance and authorization"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Automating Business Processes",
+        "summary": "This domain involves recommending automation tools and designing sequences for marketing initiatives. It focuses on lead nurturing, the use of rules and lists, and implementing effective strategies to streamline marketing processes and improve overall campaign performance results.",
+        "study_focus": [
+          "Automation tool selection",
+          "Lead nurturing strategy",
+          "Marketing initiative sequences"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Email Marketing",
+        "summary": "This domain covers the application of email marketing standards and best practices to meet specific customer business requirements. It ensures that consultants can effectively manage email communications while adhering to industry standards and organizational goals for marketing.",
+        "study_focus": [
+          "Email marketing standards",
+          "Best practices application"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Lead Management",
+        "summary": "This domain focuses on lead generation strategies, qualification thresholds, and routing models for qualified and unqualified leads. It ensures consultants can effectively manage the prospect lifecycle from initial generation through to final qualification and sales team routing.",
+        "study_focus": [
+          "Lead generation strategy",
+          "Prospect classification",
+          "Lead routing models"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Personalizing the Prospect Experience",
+        "summary": "This domain addresses strategies for personalizing prospect interactions and meeting consent management requirements. It focuses on designing experiences that resonate with prospects while ensuring compliance with data privacy regulations and organizational consent policies throughout the engagement process.",
+        "study_focus": [
+          "Prospect personalization",
+          "Consent management design"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Reporting, Metrics and Analytics",
+        "summary": "This domain covers the technical setup requirements for reporting and identifying methods to solve business scenarios using analytics. It ensures consultants can provide actionable insights by configuring the right reporting tools and interpreting data for stakeholders.",
+        "study_focus": [
+          "Reporting technical setup",
+          "Analytics methods"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "Sales Emails and Alerts",
+        "summary": "This domain focuses on the configuration and benefits of Sales Emails and Alerts for sales team use. It ensures that consultants can enable sales teams to receive timely notifications and utilize email tools to improve conversion rates.",
+        "study_focus": [
+          "Sales Emails and Alerts configuration",
+          "Benefits summary"
+        ],
+        "source_ids": [
+          "salesforce-pardot-consultant-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive prepared for a 105-minute exam consisting of 60 multiple-choice and multiple-select questions. Manage your time across the eight domains, noting that Account Configuration carries the highest weight at 20.0%. Ensure you understand the requirements for each question type to succeed.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The Salesforce Certified Pardot Consultant exam consists of exactly 60 questions in a linear format. You must manage your time effectively across these questions to ensure you complete the entire assessment within the allotted time frame provided for the exam."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for this certification exam is 62. Candidates must achieve this score or higher to successfully earn the credential. It is important to prepare across all eight domains to ensure you meet this specific performance threshold on exam day."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam has a total duration of 105 minutes. This time limit is strictly enforced, so candidates should practice pacing themselves during their study sessions to ensure they can answer all 60 questions accurately before the timer expires during the actual testing session."
+      },
+      {
+        "question_title": "What is the cost of the exam?",
+        "answer_text": "The exam price is $200 for the initial attempt. If a candidate does not pass on their first try, there is a retake fee of $100. Please ensure you are prepared before scheduling your exam to manage these costs effectively."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by aggregating official Salesforce certification documentation, exam guides, and study resources to provide a factual overview of the exam requirements, domains, and administrative details for all prospective candidates.",
+      "source_ids": [
+        "salesforce-pardot-consultant-exam_guide",
+        "salesforce-pardot-consultant-landing",
+        "salesforce-pardot-consultant-study"
+      ]
+    },
+    "source_ids": [
+      "salesforce-pardot-consultant-exam_guide",
+      "salesforce-pardot-consultant-landing",
+      "salesforce-pardot-consultant-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "salesforce-pardot-consultant-exam_guide",
+      "url": "https://trailhead.salesforce.com/credentials",
+      "title": "Salesforce exam guide",
+      "publisher": "Salesforce",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:143f9899bf356737cc6197a4ac2928a45e94004e7e8348794272f3f4df09904f"
+    },
+    {
+      "id": "salesforce-pardot-consultant-landing",
+      "url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Marketing-Cloud-Account-Engagement-Consultant-Exam-Guide",
+      "title": "Salesforce certification page",
+      "publisher": "Salesforce",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9552ff115c71e6a477cf169e6a5453b2e94753812aa213a5cc914df2aaa57b86"
+    },
+    {
+      "id": "salesforce-pardot-consultant-study",
+      "url": "https://trailhead.salesforce.com/",
+      "title": "Salesforce study documentation",
+      "publisher": "Salesforce",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c0cfd5d61985635958a2777c23282c660790a413086752e54db4f12d0f76c026"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T02:14:57+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:09+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:09+00:00"
+  },
   "lifecycle": {
     "status": "scheduled_retirement",
     "retires_on": "2027-02-01",

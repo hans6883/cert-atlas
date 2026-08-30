@@ -111,5 +111,149 @@
     "cmat common management admission test",
     "nta-cmat"
   ],
-  "practice_url": "https://quizforge.ai/?q=CMAT%20%28Common%20Management%20Admission%20Test%29"
+  "practice_url": "https://quizforge.ai/tests/cmaa-certified-municipal-arena-director",
+  "editorial": {
+    "meta_description": "Prepare comprehensively for the CMAT exam administered by NTA. Review quantitative techniques, logical reasoning, language comprehension, and general awareness",
+    "overview": "The CMAT (Common Management Admission Test) is a premier national level entrance examination designed for entry into management programmes. Administered by NTA, this online test evaluates candidates across quantitative techniques, logical reasoning, language comprehension, and general awareness to help institutions select suitable graduate candidates for admission into various courses across the country.",
+    "who_should_take": "Graduate candidates seeking admission into AICTE-Approved Institutions, University Departments, Constituent Colleges, and Affiliated Colleges for professional management programs should take this specific test to advance their careers.",
+    "skills_summary": [
+      "Arithmetic and Algebra",
+      "Data Interpretation",
+      "Analytical Reasoning",
+      "Reading Comprehension",
+      "Grammar and Vocabulary",
+      "Current Affairs and Economy"
+    ],
+    "preparation_strategy": "Review arithmetic and algebra principles properly, practice logical reasoning problems consistently, build your vocabulary for reading comprehension exercises, and stay updated on business, economy, and general awareness topics. Work through practice sets covering all four domains to prepare adequately for the single-session computer-based test comprising a total of 100 questions.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This specific domain focuses primarily on quantitative techniques and data interpretation, covering arithmetic, algebra, and related mathematical problems to test your basic mathematical skills thoroughly for success.",
+        "study_focus": [
+          "Arithmetic problem solving",
+          "Algebraic equations",
+          "Data interpretation sets"
+        ],
+        "source_ids": [
+          "nta-cmat-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This section covers logical reasoning competencies completely, including analytical reasoning puzzles, statement-conclusion relationships, and complex blood relations to assess your reasoning abilities effectively during the evaluation process.",
+        "study_focus": [
+          "Analytical reasoning puzzles",
+          "Statement-conclusion logic",
+          "Blood relation problems"
+        ],
+        "source_ids": [
+          "nta-cmat-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This specific domain evaluates language comprehension through reading comprehension passages, standard vocabulary questions, and regular grammar exercises to measure your overall communication skills required for management education.",
+        "study_focus": [
+          "Reading comprehension practice",
+          "Vocabulary enhancement",
+          "Grammar rules"
+        ],
+        "source_ids": [
+          "nta-cmat-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This part examines general awareness regarding current affairs, business developments, the national economy, and static GK topics to ensure candidates possess a broad knowledge base for professional success.",
+        "study_focus": [
+          "Current affairs updates",
+          "Business and economy news",
+          "Static GK facts"
+        ],
+        "source_ids": [
+          "nta-cmat-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at your assigned test center fully prepared for a 180-minute computer-based online test administered in a single session. Manage your time across all 100 questions carefully.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of a total of 100 questions divided evenly across four distinct domains, covering quantitative techniques, logical reasoning, language comprehension, and general awareness."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Official passing score details and cutoff marks are set individually by the admitting institutions and NTA guidelines; please check with NTA directly for specific admission criteria."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The test has a strict duration of 180 minutes and is conducted in a single session as a computer-based online examination at designated test centers."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The exam price is ₹2,000 (~$24 USD) for general candidates and ₹1,000 for SC, ST, PwBD, and female candidates registering for the test."
+      }
+    ],
+    "methodology": {
+      "summary": "This complete overview was built using official NTA exam guides and documentation to outline the structure, domains, and administrative details of the test.",
+      "source_ids": [
+        "nta-cmat-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "nta-cmat-exam_guide",
+      "nta-cmat-exam_guide-2",
+      "nta-cmat-study",
+      "nta-cmat-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "nta-cmat-exam_guide",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618184532.pdf",
+      "title": "NTA exam guide",
+      "publisher": "NTA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:5f8063fe91fe6d0d4f09b513d469aaad377fe70c543ec5e45c9b829c972b813a"
+    },
+    {
+      "id": "nta-cmat-exam_guide-2",
+      "url": "https://nta.ac.in/Download/AboutTPC.pdf",
+      "title": "NTA exam guide",
+      "publisher": "NTA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:de036bc9f451720e00ccbb3134a60e00ad4ae95d0f1c84f7271b3b324911cb00"
+    },
+    {
+      "id": "nta-cmat-study",
+      "url": "https://nta.ac.in",
+      "title": "NTA study documentation",
+      "publisher": "NTA",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9545d2876e3fdda6ddc4907011b4f0a4f539cd0cc1022382491d48d7bff5e0ec"
+    },
+    {
+      "id": "nta-cmat-exam_guide-4",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260618113547.PDF",
+      "title": "NTA exam guide",
+      "publisher": "NTA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:fea147270f1524856c095267da77543adb8aeb12a8d0b61d74f4aa0079cc641b"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T03:39:29+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:46:05+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:46:05+00:00"
+  }
 }

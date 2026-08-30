@@ -1,0 +1,133 @@
+{
+ "exam_id": "acca-atx",
+ "editorial": {
+  "meta_description": "The Advanced Taxation (ATX/P6) exam is scheduled for retirement on 2027-06-30. Candidates should transition to the successor exam, STA, to continue their",
+  "overview": "Advanced Taxation (ATX/P6) is a professional certification provided by the ACCA. It evaluates knowledge of complex tax systems, including capital taxes, tax planning strategies, and international taxation frameworks. The exam is a linear assessment that requires candidates to demonstrate technical proficiency in applying tax rules to various business and individual scenarios. It is currently scheduled for retirement on 2027-06-30, with STA serving as the official successor path for all candidates seeking to maintain their professional standing within the global accounting community.",
+  "who_should_take": "This exam is for accounting professionals seeking to demonstrate advanced tax advisory capabilities. It is suitable for those managing tax compliance and planning for individuals or corporate entities, requiring a high level of technical knowledge and the ability to apply tax legislation to practical scenarios.",
+  "skills_summary": [
+   "Managing taxes on capital",
+   "Developing tax planning strategies",
+   "Navigating international taxation",
+   "Applying tax legislation"
+  ],
+  "preparation_strategy": "Focus on mastering the technical rules for capital gains, inheritance tax, and corporate tax. Practice answering constructed response questions by addressing each tax separately under clear subheadings. Use the provided tax tables within the computer-based exam software to improve efficiency. Review technical articles and topic explainers to understand how to apply tax knowledge to specific scenarios, ensuring you can identify relevant tax implications for individuals and businesses. Consistent practice with past papers is required for success.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the application of tax rules to capital assets, including the interaction between different types of capital taxes and the impact of disposals on an individual's tax position and overall liability within the current regulatory framework.",
+    "study_focus": [
+     "Capital gains tax rules",
+     "Inheritance tax implications"
+    ],
+    "source_ids": [
+     "acca-atx-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on the development of tax planning strategies for businesses and individuals, including the extraction of profits, the use of various business vehicles, and long-term financial planning considerations for clients in diverse commercial environments.",
+    "study_focus": [
+     "Corporate tax planning",
+     "Business vehicle selection"
+    ],
+    "source_ids": [
+     "acca-atx-exam_guide-2"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses the complexities of international taxation, including the impact of double tax relief, treaties, and the tax consequences for individuals moving between jurisdictions or conducting cross-border business operations and investments in global markets.",
+    "study_focus": [
+     "Double tax relief",
+     "Tax treaties"
+    ],
+    "source_ids": [
+     "acca-atx-exam_guide-3"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam is a 195-minute linear assessment. Manage your time effectively by reading questions carefully and addressing each tax requirement separately. Utilize the provided tax tables to support your answers and ensure all responses are structured clearly to maximize your potential score.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam format includes Objective Test Questions (OTQ) and constructed response questions. Candidates must demonstrate technical knowledge across these formats within the allotted time to succeed in the assessment."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for the Advanced Taxation (ATX/P6) exam is 50. Candidates must achieve this mark or higher to successfully pass the assessment and earn their professional certification."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam duration is 195 minutes. Candidates are expected to manage their time efficiently throughout this period to address all required tax scenarios and technical questions presented in the exam."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "The exam price is 222 dollars. This fee covers the assessment process and is required for all candidates registering for the Advanced Taxation (ATX/P6) professional certification exam."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was developed by synthesizing official ACCA exam documentation, technical articles, and verified lifecycle data regarding the retirement of the ATX/P6 exam and its successor, STA, to ensure accuracy and relevance for all candidates.",
+   "source_ids": [
+    "acca-atx-exam_guide",
+    "acca-atx-exam_guide-2",
+    "acca-atx-exam_guide-3",
+    "acca-atx-exam_guide-4"
+   ]
+  },
+  "source_ids": [
+   "acca-atx-exam_guide",
+   "acca-atx-exam_guide-2",
+   "acca-atx-exam_guide-3",
+   "acca-atx-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "acca-atx-exam_guide",
+   "url": "https://www.accaglobal.com/content/dam/ACCA_Global/Students/per/PER-Performance-objectives-achieve.pdf",
+   "title": "ACCA exam guide",
+   "publisher": "ACCA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:9b6847cbcbbe58ecec64422138d45ce23d9a40cb6557a0d26f8197658eeea5ab"
+  },
+  {
+   "id": "acca-atx-exam_guide-2",
+   "url": "https://www.accaglobal.com/gb/en/affiliates/choosing-the-right-objectives.html",
+   "title": "ACCA exam guide",
+   "publisher": "ACCA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:02fb047e759aec5e5f795c7f420f1eaaa6631e6d5f7970d12a1e82de029b2583"
+  },
+  {
+   "id": "acca-atx-exam_guide-3",
+   "url": "https://www.accaglobal.com/gb/en/affiliates/choosing-the-right-objectives/po-to-exams.html",
+   "title": "ACCA exam guide",
+   "publisher": "ACCA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c49c2ae26a547d52d0f3aea134591f2d68797b26d846a274a27f690b6566d5a3"
+  },
+  {
+   "id": "acca-atx-exam_guide-4",
+   "url": "https://www.accaglobal.com/gb/en/student/practical-experience-per/performance-objectives.html",
+   "title": "ACCA exam guide",
+   "publisher": "ACCA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:c9d71945cefbbeeddcea9382154a39686cd578a164c3f21b46d35da7af930daf"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T01:58:13+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:48+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:48+00:00"
+ }
+}

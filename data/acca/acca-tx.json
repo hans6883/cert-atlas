@@ -90,14 +90,153 @@
     "taxation tx f6",
     "tx f6"
   ],
-  "practice_url": "https://quizforge.ai/?q=Taxation%20%28TX/F6%29",
+  "practice_url": "https://quizforge.ai/tests/taxation-tx-f6-2fcwui",
+  "editorial": {
+    "meta_description": "The Taxation (TX/F6) exam is scheduled for retirement on 2027-06-30, so candidates should transition to the successor exam, E1 (Managing Finance in a Digital",
+    "overview": "Taxation (TX/F6) is an ACCA certification covering the principles of tax systems. It examines personal income tax, corporate tax, capital gains tax, and VAT. This linear exam uses objective test questions and constructed response tasks to assess technical knowledge. As this exam is scheduled for retirement on 2027-06-30, candidates are directed toward the successor, E1 (Managing Finance in a Digital World), for their professional development path. This assessment ensures that all candidates demonstrate the necessary proficiency in tax regulations required for modern accounting roles within the global financial sector.",
+    "who_should_take": "This exam is for accounting students and professionals seeking to demonstrate proficiency in tax regulations. It is suitable for those pursuing the ACCA qualification who need to master tax computations and compliance before the exam retires in 2027.",
+    "skills_summary": [
+      "Personal income tax calculation",
+      "Corporate tax assessment",
+      "Capital gains tax reporting",
+      "VAT compliance and administration"
+    ],
+    "preparation_strategy": "To prepare, use current revision kits from ACCA-approved publishers to practice objective test questions and constructed response tasks. Watch official lectures and review technical articles to understand tax changes. Since the exam is a 180-minute linear assessment, consistent practice with exam-standard questions is necessary to reach the 50 percent passing score. Ensure you are ready for the retirement date of 2027-06-30 by completing all required study modules well in advance of the final deadline.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the taxation of individuals, including income sources, allowances, and the calculation of personal tax liabilities. Candidates must demonstrate a clear understanding of how these specific tax rules apply to various personal financial scenarios and individual taxpayer obligations.",
+        "study_focus": [
+          "Income tax computations",
+          "Personal allowances"
+        ],
+        "source_ids": [
+          "acca-tx-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on the tax obligations of limited companies, including the calculation of taxable profits and corporate tax liabilities. Candidates are expected to master the technical requirements for reporting company profits and ensuring compliance with all relevant corporate tax regulations.",
+        "study_focus": [
+          "Corporate tax calculations",
+          "Company tax returns"
+        ],
+        "source_ids": [
+          "acca-tx-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses the taxation of gains arising from the disposal of assets by individuals and corporate entities. It requires candidates to accurately compute chargeable gains and understand the reporting requirements associated with the disposal of various types of business assets.",
+        "study_focus": [
+          "Chargeable gains",
+          "Asset disposals"
+        ],
+        "source_ids": [
+          "acca-tx-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers the administration and calculation of Value Added Tax, including registration requirements and return submissions. Candidates must be proficient in managing VAT compliance, calculating tax liabilities, and understanding the administrative processes involved in maintaining accurate VAT records for businesses.",
+        "study_focus": [
+          "VAT registration",
+          "VAT returns"
+        ],
+        "source_ids": [
+          "acca-tx-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive prepared for a 180-minute linear exam. Manage your time effectively across objective test questions and constructed response sections to ensure you meet the 50 percent passing score requirement for this professional certification, which remains valid until the retirement date.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam uses a mix of objective test questions and constructed response tasks. The specific count of questions is not provided, but candidates must be prepared for both formats within the 180-minute duration to ensure they complete the assessment successfully before the retirement date."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "To pass the Taxation (TX/F6) exam, candidates must achieve a score of 50 percent. This benchmark is strictly enforced to ensure that all certified professionals possess the required level of technical knowledge and competency in tax regulations for their future accounting career."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam duration is 180 minutes. Candidates should practice managing their time across the various sections to ensure they can answer all questions within this timeframe while maintaining the accuracy required to reach the passing score of 50 percent before the final retirement."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The price for the exam is 202 dollars. Candidates should verify this fee through official ACCA channels before scheduling their assessment to ensure they have the most current information regarding payment requirements and registration procedures for the Taxation (TX/F6) certification exam."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was constructed by synthesizing official ACCA exam documentation, retirement schedules, and verified exam specifications provided in the source materials to ensure accuracy for candidates preparing for their professional certification journey.",
+      "source_ids": [
+        "acca-tx-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "acca-tx-exam_guide",
+      "acca-tx-exam_guide-2",
+      "acca-tx-exam_guide-3",
+      "acca-tx-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "acca-tx-exam_guide",
+      "url": "https://www.accaglobal.com/content/dam/ACCA_Global/Students/per/PER-Performance-objectives-achieve.pdf",
+      "title": "ACCA exam guide",
+      "publisher": "ACCA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9b6847cbcbbe58ecec64422138d45ce23d9a40cb6557a0d26f8197658eeea5ab"
+    },
+    {
+      "id": "acca-tx-exam_guide-2",
+      "url": "https://www.accaglobal.com/gb/en/affiliates/choosing-the-right-objectives.html",
+      "title": "ACCA exam guide",
+      "publisher": "ACCA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:df989ef1f6bc44a066ab3f5f8c645f95f87fba818b582a18b2c08e6a4168bb63"
+    },
+    {
+      "id": "acca-tx-exam_guide-3",
+      "url": "https://www.accaglobal.com/gb/en/affiliates/choosing-the-right-objectives/po-to-exams.html",
+      "title": "ACCA exam guide",
+      "publisher": "ACCA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:4965f8f30d5fb59bf5b6d26ee78feb93cae17fcaadd5342f128f72205f772d9e"
+    },
+    {
+      "id": "acca-tx-exam_guide-4",
+      "url": "https://www.accaglobal.com/gb/en/student/practical-experience-per/performance-objectives.html",
+      "title": "ACCA exam guide",
+      "publisher": "ACCA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:708e626cce9fef0658555544ee435f27a7ebe483d3d686c3438ab6ae53cdaba3"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T01:49:08+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T04:45:48+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T04:45:48+00:00"
+  },
   "lifecycle": {
     "status": "scheduled_retirement",
     "retires_on": "2027-06-30",
     "replacement": {
       "exam_code": "E1",
       "relationship": "direct_replacement",
-      "url": null
+      "url": "/cima/cima-e1",
+      "name": "E1 (Managing Finance in a Digital World)"
     },
     "summary": "ACCA retires TX/F6 on 2027-06-30. E1 is the named replacement path.",
     "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",

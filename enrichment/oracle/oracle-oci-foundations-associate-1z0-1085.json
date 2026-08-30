@@ -1,0 +1,179 @@
+{
+ "exam_id": "oracle-oci-foundations-associate-1z0-1085",
+ "editorial": {
+  "meta_description": "The Oracle Cloud Infrastructure Foundations Associate exam is retired as of 2024-08-31.",
+  "overview": "Certified by Oracle, the retired Oracle Cloud Infrastructure Foundations Associate exam covered cloud concepts, core infrastructure services, database services, and security. The exam officially retired on 2024-08-31 and is replaced by 1Z0-1085-24, which serves as the path forward for candidates looking to validate their knowledge of the platform and achieve professional certification goals through the current testing standards.",
+  "who_should_take": "Candidates pursuing cloud knowledge, including system administrators, developers, and technical professionals aiming to understand Oracle Cloud Infrastructure services, core concepts, database offerings, and security principles before taking current certification exams to validate their professional technical skills.",
+  "skills_summary": [
+   "Cloud Concepts",
+   "Core Infrastructure Services",
+   "Database Services",
+   "Security and Compliance",
+   "Cloud Native Services",
+   "Data Management Services",
+   "Observability and Management"
+  ],
+  "preparation_strategy": "Direct your study efforts entirely toward the verified successor exam designated as 1Z0-1085-24, because the retired exam cannot be scheduled. Review core cloud concepts, infrastructure services, and database management principles, transferring your basic understanding directly to the active successor exam requirements without any operational interruption to your professional development or certification path.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers primary cloud concepts, various pricing models, and basic architectural principles that are relevant to deploying and managing multiple services across the Oracle Cloud Infrastructure ecosystem during your preparation for the certification.",
+    "study_focus": [
+     "Cloud deployment models",
+     "Basic architectural terminology"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on getting started with Oracle Cloud Infrastructure by exploring tenancy setup, geographical regions, availability domains, and access methods including the console and the command line interface during your daily administrative tasks.",
+    "study_focus": [
+     "Tenancy and compartment organization",
+     "Console and CLI access methods"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain examines core infrastructure services in depth, covering compute instances, virtual cloud networks, storage options, and block volume configurations for running your production workloads successfully across the entire cloud deployment ecosystem and infrastructure.",
+    "study_focus": [
+     "Compute instances and shapes",
+     "Virtual cloud networks and subnets"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain details database services available across the platform, including autonomous database options and various database management tools designed to streamline administrative overhead and operations for database administrators working within modern cloud environments.",
+    "study_focus": [
+     "Autonomous database deployment",
+     "Database management features"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain addresses security and compliance principles, focusing on identity and access management, data encryption standards, and shared security responsibilities across cloud deployments to ensure proper data protection and regulatory compliance standards for users.",
+    "study_focus": [
+     "Identity and access management policies",
+     "Data encryption and compliance"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain explores modern cloud native services, covering container engines, registry options, and unique application development tools built specifically for scalable architectures and modern software development practices deployed across various cloud environments and platforms.",
+    "study_focus": [
+     "Container Engine for Kubernetes",
+     "Application development tools"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   },
+   {
+    "domain_id": "7",
+    "summary": "This domain reviews vital data management services, examining data streaming, cataloging capabilities, and integration platforms operating within the broader cloud environment to facilitate seamless data processing operations and analytics workflows for your organization.",
+    "study_focus": [
+     "Data catalog and integration",
+     "Streaming services"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   },
+   {
+    "domain_id": "8",
+    "summary": "This domain covers necessary observability and management tools, including monitoring metrics, logging options, notifications, and application performance monitoring features for your deployments to maintain operational visibility and system health across the cloud infrastructure.",
+    "study_focus": [
+     "Cloud monitoring and logging",
+     "Notifications and alarms"
+    ],
+    "source_ids": [
+     "oracle-oci-foundations-associate-1z0-1085-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Because the original exam is retired, it cannot be scheduled. For the successor exam 1Z0-1085-24, arrive early at the testing center or set up your online proctored environment ahead of the 90-minute limit to ensure success.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of a total of 60 questions presented in a linear format using multiple choice and multiple select question types to test candidates on their knowledge of Oracle Cloud Infrastructure."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score required for the exam is set at 68 percent. Candidates must meet or exceed this percentage threshold successfully to pass the test and earn their certification credential."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a strict duration of exactly 90 minutes. Candidates must complete all of the assigned questions within this allocated timeframe to receive a valid score for their certification attempt."
+   },
+   {
+    "question_title": "What is the cost of the exam?",
+    "answer_text": "The exam costs exactly $95.0. This price applies directly to registration for the Oracle Cloud Infrastructure certification assessments and covers the complete testing process for all eligible candidates."
+   }
+  ],
+  "methodology": {
+   "summary": "This overview was compiled accurately using official Oracle certification documentation, verified curriculum domains, and published lifecycle retirement records to ensure complete reliability for all candidates seeking information about these specific exams.",
+   "source_ids": [
+    "oracle-oci-foundations-associate-1z0-1085-study",
+    "oracle-oci-foundations-associate-1z0-1085-landing"
+   ]
+  },
+  "source_ids": [
+   "oracle-oci-foundations-associate-1z0-1085-study",
+   "oracle-oci-foundations-associate-1z0-1085-study-2",
+   "oracle-oci-foundations-associate-1z0-1085-landing"
+  ]
+ },
+ "sources": [
+  {
+   "id": "oracle-oci-foundations-associate-1z0-1085-study",
+   "url": "https://education.oracle.com/certification",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:760f2b102ecc943084dc2c65773853c1966f4ee07e3669e9f3aab9a00f3649a5"
+  },
+  {
+   "id": "oracle-oci-foundations-associate-1z0-1085-study-2",
+   "url": "https://education.oracle.com/",
+   "title": "Oracle study documentation",
+   "publisher": "Oracle",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:2e6a4ed3000b2b35c8df4a50f322372998a6eb61b4159ca6fb368f57970f0461"
+  },
+  {
+   "id": "oracle-oci-foundations-associate-1z0-1085-landing",
+   "url": "https://education.oracle.com/oracle-cloud-infrastructure-2023-foundations-associate/pexam_1Z0-1085-23",
+   "title": "Oracle certification page",
+   "publisher": "Oracle",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:abd840b32b4608537852eb5bfeb3f50bfbc6a7f17bc46df0e32a6c4cccd5476c"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T00:38:32+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:08+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:08+00:00"
+ }
+}

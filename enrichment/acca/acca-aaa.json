@@ -1,0 +1,143 @@
+{
+ "exam_id": "acca-aaa",
+ "editorial": {
+  "meta_description": "The Advanced Audit and Assurance exam retires on 2027-06-30. Candidates should prepare for the transition to the SAA successor exam for future certification.",
+  "overview": "The Advanced Audit and Assurance exam, certified by the ACCA, evaluates professional competence in audit and assurance engagements. It covers the regulatory environment, professional ethics, quality management, and advanced audit procedures. This linear exam requires candidates to demonstrate technical knowledge and professional judgment across various audit scenarios. As the exam is scheduled for retirement on 2027-06-30, candidates are directed to the SAA successor for future certification paths. Note that renewal is required for this professional qualification to maintain active status.",
+  "who_should_take": "This exam is for accounting professionals pursuing advanced audit qualifications. Candidates should possess a strong understanding of audit principles and professional standards, as the assessment focuses on the application of these concepts in complex, real-world audit and assurance scenarios.",
+  "skills_summary": [
+   "Navigating regulatory environments",
+   "Applying professional ethics",
+   "Managing audit quality",
+   "Executing advanced audit procedures"
+  ],
+  "preparation_strategy": "Review the official ACCA exam guide and technical articles to master the syllabus. Practice with Objective Test Questions and Constructed Response tasks to build speed and accuracy. Given the 195-minute duration, focus on time management during mock exams. Ensure you understand the application of international standards and the specific requirements for the format before the retirement date. Consistent practice and thorough review of all technical documentation are necessary for success.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the regulatory environment and its impact on audit practice, including corporate governance principles and the responsibilities of management and auditors regarding laws and regulations within the professional field of accounting.",
+    "study_focus": [
+     "Corporate governance impact",
+     "Laws and regulations"
+    ],
+    "source_ids": [
+     "acca-aaa-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain addresses professional and ethical considerations, focusing on the application of ethical standards, auditor liability, and the identification of threats to independence in audit engagements for all professional accounting practitioners in the field.",
+    "study_focus": [
+     "Ethical standards application",
+     "Auditor liability"
+    ],
+    "source_ids": [
+     "acca-aaa-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain focuses on quality management, specifically the implementation of International Standards on Quality Management and the role of engagement quality reviews to ensure high standards of professional audit work performance for all practitioners.",
+    "study_focus": [
+     "ISQM 1 requirements",
+     "Engagement quality reviews",
+     "System of quality management"
+    ],
+    "source_ids": [
+     "acca-aaa-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain covers advanced audit techniques, including planning, risk assessment, group audits, and the use of computer-assisted audit tools to obtain reasonable assurance during complex audit engagements for various global clients and diverse business entities.",
+    "study_focus": [
+     "Audit risk assessment",
+     "Group audit procedures",
+     "Computer-based audit controls"
+    ],
+    "source_ids": [
+     "acca-aaa-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam is a 195-minute linear assessment. Manage your time effectively across Objective Test Questions and Constructed Response sections. Ensure you meet the 50 passing score requirement by addressing all components of the audit scenarios provided during the test.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam format includes Objective Test Questions and Constructed Response questions. The specific number of questions is not provided, but candidates must manage their time within the 195-minute duration to complete all required sections effectively and accurately."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To successfully pass the Advanced Audit and Assurance exam, candidates must achieve a minimum score of 50. This threshold is required to demonstrate professional competence in the subject matter and confirm your readiness for advanced audit work."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration of the Advanced Audit and Assurance exam is 195 minutes. Candidates should plan their time carefully to ensure they address all sections of the assessment within this period to complete the exam successfully."
+   },
+   {
+    "question_title": "What is the exam price?",
+    "answer_text": "The cost to sit for the Advanced Audit and Assurance exam is 222 dollars. This fee covers the registration and administration of the assessment for all eligible candidates who are pursuing this specific professional accounting qualification."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was constructed by synthesizing verified facts from the ACCA exam documentation and the provided exam source guide, ensuring all data points align with official requirements and professional standards for the certification process.",
+   "source_ids": [
+    "acca-aaa-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "acca-aaa-exam_guide",
+   "acca-aaa-exam_guide-2",
+   "acca-aaa-exam_guide-3",
+   "acca-aaa-study"
+  ]
+ },
+ "sources": [
+  {
+   "id": "acca-aaa-exam_guide",
+   "url": "https://www.accaglobal.com/gb/en/affiliates/choosing-the-right-objectives.html",
+   "title": "ACCA exam guide",
+   "publisher": "ACCA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:92f636c16577bbea5d7807813e7730458ef865ab214f00dc043d3487d800e637"
+  },
+  {
+   "id": "acca-aaa-exam_guide-2",
+   "url": "https://www.accaglobal.com/gb/en/affiliates/choosing-the-right-objectives/po-to-exams.html",
+   "title": "ACCA exam guide",
+   "publisher": "ACCA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:e796c3d451ddfaee5bf808b7d6f8ff26d295bd5e9872ec576e0b49ad0a34dd26"
+  },
+  {
+   "id": "acca-aaa-exam_guide-3",
+   "url": "https://www.accaglobal.com/gb/en/student/practical-experience-per/performance-objectives.html",
+   "title": "ACCA exam guide",
+   "publisher": "ACCA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:2f877522814a996659e24d6f18068093503f3dd62ac94b00258befbffb4f8d1e"
+  },
+  {
+   "id": "acca-aaa-study",
+   "url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f1.html",
+   "title": "ACCA study documentation",
+   "publisher": "ACCA",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:24c840ed5b808f55602ce490eec474efdb66f1437372da9cd157dbe65168074a"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T01:47:22+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:45:48+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:45:48+00:00"
+ }
+}

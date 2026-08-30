@@ -100,14 +100,15 @@
     "new-relic-observability-practitioner",
     "nr-op"
   ],
-  "practice_url": "https://quizforge.ai/?q=New%20Relic%20Certified%20Observability%20Practitioner",
+  "practice_url": "https://quizforge.ai/tests/new-relic-certified-observability-practitioner-2kzc60",
   "lifecycle": {
     "status": "retired",
     "retired_on": "2024-12-11",
     "replacement": {
       "exam_code": "NVF",
       "relationship": "related_successor",
-      "url": null
+      "url": "https://learn.newrelic.com/page/new-relic-verified-foundation-nvf",
+      "name": "New Relic Verified Foundation (NVF) Exam"
     },
     "summary": "New Relic retired NR-OP on 2024-12-11. NVF is the named replacement path.",
     "evidence_url": "https://learn.newrelic.com/full-stack-observability-exam-1",

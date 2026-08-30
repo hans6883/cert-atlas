@@ -1,0 +1,153 @@
+{
+ "exam_id": "isaca-cisa",
+ "editorial": {
+  "meta_description": "Prepare for the Certified Information Systems Auditor exam administered by ISACA. Review all five domains, 150 questions, and the 240-minute test duration.",
+  "overview": "The Certified Information Systems Auditor examination is administered by ISACA and evaluates your professional knowledge and practical competencies across five specific domains. Candidates answer a total of 150 multiple-choice questions during a linear test spanning a 240-minute duration, requiring a passing score of 450 to successfully earn the professional credential.",
+  "who_should_take": "Information systems professionals, auditors, and security practitioners with experience in auditing, control, and security should take this exam to validate their technical knowledge and professional competency.",
+  "preparation_strategy": "Review all five examination domains and focus on official ISACA guidance materials to ensure complete coverage of the syllabus. Practice multiple-choice questions repeatedly under timed conditions to prepare adequately for the 240-minute duration. Verify all registration details, policies, and exam pricing directly through official ISACA communication channels before scheduling your test date.",
+  "skills_summary": [
+   "Information systems auditing process",
+   "Governance and management of IT",
+   "IS acquisition, development, and implementation",
+   "IS operations and business resilience",
+   "Protection of information assets"
+  ],
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific domain covers the fundamental information systems auditing process, accounting for twenty-one percent of the overall exam weight and emphasizing practical evaluation practices for candidates preparing for the certification.",
+    "study_focus": [
+     "Audit standards and guidelines",
+     "Planning and executing audits"
+    ],
+    "source_ids": [
+     "isaca-cisa-landing"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses extensively on the governance and management of IT, successfully representing seventeen percent of the overall test content and addressing core organizational structures alongside strategic management frameworks.",
+    "study_focus": [
+     "IT governance structures",
+     "IT management practices"
+    ],
+    "source_ids": [
+     "isaca-cisa-landing"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses information systems acquisition, development, and implementation topics, making up twelve percent of the exam and highlighting lifecycle management and system deployment strategies within enterprise environments.",
+    "study_focus": [
+     "Acquisition practices",
+     "System development life cycle"
+    ],
+    "source_ids": [
+     "isaca-cisa-landing"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain explores information systems operations and business resilience in depth, carrying a significant weight of twenty-three percent and emphasizing continuity planning and operational recovery methods for essential systems.",
+    "study_focus": [
+     "Operational resilience",
+     "Disaster recovery planning"
+    ],
+    "source_ids": [
+     "isaca-cisa-landing"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain concentrates completely upon the protection of information assets, covering twenty-seven percent of the total exam weight and focusing upon asset security controls and data protection methods across modern technological infrastructures.",
+    "study_focus": [
+     "Asset security controls",
+     "Data protection methods"
+    ],
+    "source_ids": [
+     "isaca-cisa-landing"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive early for your linear format examination. Manage your 240-minute time allowance carefully across all 150 questions to ensure you complete every required section successfully.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The examination consists of a total of 150 multiple-choice questions that are delivered in a structured linear format for all registered candidates participating in the event."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The evaluation uses a scaled score ranging from 200 to 800 points. You must achieve a minimum passing score of 450 to successfully pass the examination."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The complete exam duration is exactly 240 minutes, providing you with ample time to carefully read and answer all questions within the designated professional testing environment without rushing."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The standard non-member price for the exam is $760, while qualifying ISACA members receive a discounted registration rate and pay $575 for taking the test."
+   }
+  ],
+  "methodology": {
+   "summary": "This informational page was thoroughly developed using verified official ISACA documentation and verified certification facts without external extrapolation or unverified assumptions.",
+   "source_ids": [
+    "isaca-cisa-landing"
+   ]
+  },
+  "source_ids": [
+   "isaca-cisa-exam_guide",
+   "isaca-cisa-exam_guide-2",
+   "isaca-cisa-exam_guide-3",
+   "isaca-cisa-landing"
+  ]
+ },
+ "sources": [
+  {
+   "id": "isaca-cisa-exam_guide",
+   "url": "https://www.isaca.org/-/media/files/isacadp/project/isaca/certification/general/exam-scheduling-guide_eng.pdf",
+   "title": "ISACA exam guide",
+   "publisher": "ISACA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:3da04fdc2bc7835edf27cceff945e15e63b38dbf9860e7bf634f3c9da3a0e4cd"
+  },
+  {
+   "id": "isaca-cisa-exam_guide-2",
+   "url": "https://www.isaca.org/-/media/files/isacadp/project/isaca/certification/cisa/cisa-cpe/cisa-cpe-policy.pdf",
+   "title": "ISACA exam guide",
+   "publisher": "ISACA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:157b9f073048f367d8b3de998f3f1e7763b63f64de44354137deb6e0243d839b"
+  },
+  {
+   "id": "isaca-cisa-exam_guide-3",
+   "url": "https://www.isaca.org/-/media/files/isacadp/project/isaca/certification/general/remote-proctoring-guide.pdf",
+   "title": "ISACA exam guide",
+   "publisher": "ISACA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:91e140051e11d0e0a5edcdb2e3645827b1894cc6b9d4f5108bbd876d2ad106c6"
+  },
+  {
+   "id": "isaca-cisa-landing",
+   "url": "https://www.isaca.org/credentialing/cisa",
+   "title": "ISACA certification page",
+   "publisher": "ISACA",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:fe064b644174491c7f6072bc72efbd1c3e375b00e00b5268892074838c7a6498"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T03:43:56+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T04:46:01+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T04:46:01+00:00"
+ }
+}
