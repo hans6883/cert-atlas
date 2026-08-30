@@ -104,5 +104,143 @@
     "nuclear medicine technology n",
     "rt n"
   ],
-  "practice_url": "https://quizforge.ai/tests/nmtcb-nuclear-medicine-technology"
+  "practice_url": "https://quizforge.ai/tests/nmtcb-nuclear-medicine-technology",
+  "editorial": {
+    "meta_description": "Prepare for the Nuclear Medicine Technology certification exam from ARRT. Review patient care, safety, radiation physics, instrumentation, and clinical.",
+    "overview": "The Nuclear Medicine Technology certification exam is an official professional assessment administered by ARRT to evaluate qualified practitioners seeking validation of their competencies. This extensive examination covers multiple core domains including patient care, safety protocols, radiation physics, instrumentation, and detailed clinical procedures to ensure professional readiness across modern healthcare environments and clinical facilities.",
+    "who_should_take": "This certification targets candidates seeking to prove their qualifications in nuclear medicine technology. It is built for practitioners preparing for professional practice through the ARRT certification path.",
+    "skills_summary": [
+      "Patient Care",
+      "Safety",
+      "Radiation Physics and Instrumentation",
+      "Clinical Procedures"
+    ],
+    "preparation_strategy": "Review domain weight percentages and focus your study on clinical procedures, which carry a heavy portion of the exam. Practice multiple-choice questions and study radiation physics and instrumentation concepts using helpful study materials and official guides to prepare completely and effectively for the test.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain focuses on patient care principles, including professional communication, detailed patient assessment, and ethical considerations during medical imaging examinations and nuclear medicine therapeutic procedures performed by certified staff.",
+        "study_focus": [
+          "Patient interaction",
+          "Ethical standards"
+        ],
+        "source_ids": [
+          "arrt-nm-landing"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers safety practices, radiation protection standards, biological effects of radiation exposure, and necessary safety precautions implemented to protect both patients and healthcare staff during operational medical procedures.",
+        "study_focus": [
+          "Radiation protection",
+          "Safety precautions"
+        ],
+        "source_ids": [
+          "arrt-nm-landing"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses radiation physics principles, detection equipment functionality, routine quality control protocols, and the operation of diagnostic imaging instruments like gamma cameras and PET scanners utilized in clinical facilities.",
+        "study_focus": [
+          "Equipment operation",
+          "Quality control"
+        ],
+        "source_ids": [
+          "arrt-nm-landing"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain encompasses extensive clinical procedures required for diagnostic imaging applications, radionuclide therapy delivery, radiopharmaceutical preparation techniques, and the precise execution of established departmental imaging protocols during daily practice.",
+        "study_focus": [
+          "Diagnostic imaging",
+          "Radionuclide therapy"
+        ],
+        "source_ids": [
+          "arrt-nm-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at the testing center with adequate time before the 225 minutes of testing time begins. Read each multiple-choice question carefully and manage your time across all 200 questions.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The examination consists of a total of 200 multiple-choice questions delivered via a linear fixed-form computer-based test format designed to evaluate your knowledge across all specified content domains."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The established passing score for this certification examination is 75, which is evaluated on an established scoring scale ranging from 1 to 99 for all candidates."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Candidates are given a total duration of 225 minutes to complete all questions and navigate through the computer-based testing interface at the designated testing center facility."
+      },
+      {
+        "question_title": "What is the exam fee?",
+        "answer_text": "The required standard exam fee to register for this professional certification assessment is set at $200, payable during the initial application process with ARRT to secure your testing appointment."
+      }
+    ],
+    "methodology": {
+      "summary": "This comprehensive page was developed using official ARRT source documentation and verified facts regarding test parameters, domains, weights, and administration policies.",
+      "source_ids": [
+        "arrt-nm-landing"
+      ]
+    },
+    "source_ids": [
+      "arrt-nm-landing",
+      "arrt-nm-exam_guide",
+      "arrt-nm-exam_guide-3",
+      "arrt-nm-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "arrt-nm-landing",
+      "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/nuclear-medicine-technology",
+      "title": "ARRT certification page",
+      "publisher": "ARRT",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:f16c68998617fcf274f89df2b8153b22a854de94e993407393c98982f31436b3"
+    },
+    {
+      "id": "arrt-nm-exam_guide",
+      "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography",
+      "title": "ARRT exam guide",
+      "publisher": "ARRT",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:9ce52c411f3e17b2cca435e4c7b471abe925533d343f9929b69f4b33cac2d1fa"
+    },
+    {
+      "id": "arrt-nm-exam_guide-3",
+      "url": "https://assets-us-01.kc-usercontent.com:443/406ac8c6-58e8-00b3-e3c1-0c312965deb2/1ac05a44-5df5-4d1b-9387-bfd59d28f6dc/Radiography_Didactic_and_Clinical_Competency_Requirements_2027.pdf",
+      "title": "ARRT exam guide (assets-us-01.kc-usercontent.com:443)",
+      "publisher": "kc-usercontent.com:443",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:620294c71ce7a4da19cb1c9e72f25033dbbe3db53987b9289877d1c9236d3635"
+    },
+    {
+      "id": "arrt-nm-exam_guide-4",
+      "url": "https://assets-us-01.kc-usercontent.com:443/406ac8c6-58e8-00b3-e3c1-0c312965deb2/c28cf141-f45c-44ef-acde-984929886e01/RAD_CS_2022.pdf",
+      "title": "ARRT exam guide (assets-us-01.kc-usercontent.com:443)",
+      "publisher": "kc-usercontent.com:443",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:2a616aa3f098d4d4de47b9e874c86972f48496dbc4c180ac8f4adfff4af7fffd"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T06:16:21+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T06:34:12+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T06:34:12+00:00"
+  }
 }

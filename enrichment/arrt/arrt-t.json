@@ -1,0 +1,158 @@
+{
+ "exam_id": "arrt-t",
+ "editorial": {
+  "meta_description": "Prepare for the ARRT Radiation Therapy certification exam. Review domains covering patient care, safety, medical imaging, planning, and delivery.",
+  "overview": "The Radiation Therapy certification exam is administered by ARRT and evaluates candidates across five distinct domains: Patient Care, Safety, Medical Imaging, Radiation Therapy Planning, and Radiation Therapy Delivery. The complete test consists of 200 questions presented as a linear fixed-form computer-based test that candidates complete in 210 minutes to prove professional competency.",
+  "who_should_take": "Candidates seeking ARRT certification in radiation therapy should take this exam. It is built for professionals aiming to demonstrate competency in radiation therapy planning, delivery, safety protocols, and patient care.",
+  "skills_summary": [
+   "Patient Care",
+   "Safety protocols",
+   "Medical Imaging",
+   "Radiation Therapy Planning",
+   "Radiation Therapy Delivery"
+  ],
+  "preparation_strategy": "Review the five exam domains in detail using official ARRT materials and reference texts. Focus heavily on Radiation Therapy Delivery and Radiation Therapy Planning, as these two domains carry the highest weight percentages on the test to ensure you are fully prepared for every question category.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers Patient Care principles, ensuring that candidates understand clinical interactions, ethical considerations, and physical assistance techniques necessary while treating individuals with cancer during their clinical engagements and daily therapeutic procedures.",
+    "study_focus": [
+     "Patient assessment",
+     "Ethical and legal aspects",
+     "Communication strategies"
+    ],
+    "source_ids": [
+     "arrt-t-landing"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain addresses Safety measures, including radiation protection standards, regulatory requirements, and emergency procedures designed to protect patients, staff, and the general public from unnecessary radiation exposure during all clinical procedures.",
+    "study_focus": [
+     "Radiation protection standards",
+     "Personnel monitoring",
+     "Safety regulations"
+    ],
+    "source_ids": [
+     "arrt-t-landing"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain focuses on Medical Imaging, evaluating how different imaging modalities are utilized effectively in localization, verification, and anatomical assessment during radiation therapy procedures to ensure accurate treatment execution.",
+    "study_focus": [
+     "Imaging modalities",
+     "Image quality",
+     "Anatomical verification"
+    ],
+    "source_ids": [
+     "arrt-t-landing"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain centers on Radiation Therapy Planning, requiring deep knowledge of dose calculations, beam characteristics, isodose distributions, and patient contouring techniques necessary for optimal treatment planning and therapeutic success.",
+    "study_focus": [
+     "Dose calculations",
+     "Isodose curves",
+     "Beam modifiers"
+    ],
+    "source_ids": [
+     "arrt-t-landing"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain covers Radiation Therapy Delivery, focusing heavily on the actual operation of treatment machines, patient positioning, verification procedures, and the precise administration of prescribed radiation doses to targeted areas.",
+    "study_focus": [
+     "Treatment execution",
+     "Patient positioning",
+     "Machine operation"
+    ],
+    "source_ids": [
+     "arrt-t-landing"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Please arrive at the testing center early with all required identification documents to ensure a smooth check-in process. Manage your time effectively across all 200 questions during the 210-minute duration.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of 200 multiple-choice questions, each featuring a single best answer. Candidates complete these questions during a linear fixed-form computer-based test session at an authorized testing center."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for the exam is 75 on a scale of 1–99. Candidates must achieve this score or higher to earn their certification from ARRT."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration for the exam is 210 minutes. Candidates should pace themselves appropriately to answer all 200 questions within this allocated timeframe without rushing."
+   },
+   {
+    "question_title": "What is the exam fee?",
+    "answer_text": "The official exam fee is set at $200 for candidates taking the test. Candidates should verify all payment guidelines, registration details, and scheduling instructions with ARRT before booking their test date."
+   }
+  ],
+  "methodology": {
+   "summary": "This overview was compiled using official ARRT certification guidelines and official source documentation detailing exam specifications, domain weights, and structural constraints for candidates.",
+   "source_ids": [
+    "arrt-t-landing"
+   ]
+  },
+  "source_ids": [
+   "arrt-t-landing",
+   "arrt-t-exam_guide",
+   "arrt-t-exam_guide-3",
+   "arrt-t-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "arrt-t-landing",
+   "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiation-therapy",
+   "title": "ARRT certification page",
+   "publisher": "ARRT",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:8822399d59adc76890e28cb10c624844c228e7b73437b64e27fdfa87e74f2293"
+  },
+  {
+   "id": "arrt-t-exam_guide",
+   "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography",
+   "title": "ARRT exam guide",
+   "publisher": "ARRT",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:9ce52c411f3e17b2cca435e4c7b471abe925533d343f9929b69f4b33cac2d1fa"
+  },
+  {
+   "id": "arrt-t-exam_guide-3",
+   "url": "https://assets-us-01.kc-usercontent.com:443/406ac8c6-58e8-00b3-e3c1-0c312965deb2/1ac05a44-5df5-4d1b-9387-bfd59d28f6dc/Radiography_Didactic_and_Clinical_Competency_Requirements_2027.pdf",
+   "title": "ARRT exam guide (assets-us-01.kc-usercontent.com:443)",
+   "publisher": "kc-usercontent.com:443",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:620294c71ce7a4da19cb1c9e72f25033dbbe3db53987b9289877d1c9236d3635"
+  },
+  {
+   "id": "arrt-t-exam_guide-4",
+   "url": "https://assets-us-01.kc-usercontent.com:443/406ac8c6-58e8-00b3-e3c1-0c312965deb2/c28cf141-f45c-44ef-acde-984929886e01/RAD_CS_2022.pdf",
+   "title": "ARRT exam guide (assets-us-01.kc-usercontent.com:443)",
+   "publisher": "kc-usercontent.com:443",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:2a616aa3f098d4d4de47b9e874c86972f48496dbc4c180ac8f4adfff4af7fffd"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T05:26:56+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T06:34:12+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T06:34:12+00:00"
+ }
+}

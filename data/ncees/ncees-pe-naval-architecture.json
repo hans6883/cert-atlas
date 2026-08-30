@@ -114,5 +114,145 @@
     "pe naval architecture",
     "principles and practice of engineering pe naval architecture and marine engineering"
   ],
-  "practice_url": "https://quizforge.ai/tests/pe-naval-architecture"
+  "practice_url": "https://quizforge.ai/tests/pe-naval-architecture",
+  "editorial": {
+    "meta_description": "Prepare for the NCEES PE Naval Architecture and Marine Engineering exam with official domain breakdowns, test details, and study strategies.",
+    "overview": "The Principles and Practice of Engineering PE Naval Architecture and Marine Engineering exam is administered by NCEES as a linear computer-based test containing a total of 80 multiple-choice questions delivered over a maximum appointment duration of 480 minutes. This professional licensure assessment evaluates engineering competency across hydrostatics, stability, hull structures, resistance, propulsion, maneuvering, motion, and machinery systems for marine vessels and offshore structures.",
+    "who_should_take": "Engineers with significant design experience in naval architecture and marine systems who are seeking professional engineering licensure should take this detailed and thorough certification examination to prove their qualifications.",
+    "skills_summary": [
+      "Hydrostatics and Stability",
+      "Hull Structure",
+      "Resistance and Propulsion",
+      "Maneuvering and Motion",
+      "Machinery"
+    ],
+    "preparation_strategy": "Review official NCEES specifications and exam guides carefully. Practice linear computer-based test formats, and thoroughly study all prescribed domain topics using standard reference manuals, textbooks, and engineering materials to ensure you are completely prepared for the 80 questions scheduled on exam day.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This first domain covers fundamental ship geometry, hydrostatic calculations, curves of form, as well as intact and damage stability assessments for evaluating floating vessel performance during routine marine operations.",
+        "study_focus": [
+          "Ship geometry and coefficients of form",
+          "Hydrostatics review and curves",
+          "Intact stability and righting arms",
+          "Damage stability assessments"
+        ],
+        "source_ids": [
+          "ncees-pe-naval-architecture-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This second domain focuses on structural analysis of ships, calculation of loads, shear forces, bending moments, framing mechanics, and elastic buckling behavior of structural members found in modern marine vessels.",
+        "study_focus": [
+          "Mechanics of beams and framing",
+          "Torsion of closed shafts",
+          "Elastic stability of columns",
+          "Midship section development"
+        ],
+        "source_ids": [
+          "ncees-pe-naval-architecture-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This third domain examines ship resistance components, model testing extrapolation, powering requirements, and propulsion efficiency characteristics for various types of marine vessels operating across diverse marine environments and operating conditions.",
+        "study_focus": [
+          "Resistance components",
+          "Model testing and extrapolation",
+          "Propulsion efficiency",
+          "Powering predictions"
+        ],
+        "source_ids": [
+          "ncees-pe-naval-architecture-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This fourth domain analyzes the dynamic behavior of floating structures in waves, including seakeeping characteristics, added mass, hydrodynamic damping, and drift loads impacting offshore operational safety during challenging offshore missions.",
+        "study_focus": [
+          "Radiation and diffraction problems",
+          "Equations of motion and RAOs",
+          "Drift and slowly-varying loads",
+          "Mooring dynamics and design"
+        ],
+        "source_ids": [
+          "ncees-pe-naval-architecture-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This fifth domain involves machinery systems, equipment integration, system controls, and operational mechanics utilized onboard marine vessels and complex offshore structures during everyday marine engineering tasks and shipboard operations.",
+        "study_focus": [
+          "Marine machinery integration",
+          "Mechanical equipment operations",
+          "System controls",
+          "Auxiliary systems"
+        ],
+        "source_ids": [
+          "ncees-pe-naval-architecture-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at the testing center early with valid identification for your computer-based appointment. Manage your time effectively across the 80 questions during the 480 minutes.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam contains a total of 80 multiple-choice questions delivered in a linear computer-based format during the 480 minutes of testing time allocated for this specific evaluation."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Passing score information is determined by NCEES and varies by administration. Please check with NCEES directly for current score reporting policies, passing standards, and administrative details."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total appointment duration is 480 minutes, which includes the time required to complete all 80 questions on the linear computer-based test session administered by NCEES."
+      },
+      {
+        "question_title": "What is the cost of the exam?",
+        "answer_text": "The exam price is $375.0 when registering through NCEES for the computer-based test administration covering all required naval architecture engineering domains and professional competency areas."
+      }
+    ],
+    "methodology": {
+      "summary": "This thorough overview is built directly from official NCEES exam guides, certification pages, and established naval architecture course references to assist candidates preparing for licensure.",
+      "source_ids": [
+        "ncees-pe-naval-architecture-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "ncees-pe-naval-architecture-exam_guide",
+      "ncees-pe-naval-architecture-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ncees-pe-naval-architecture-exam_guide",
+      "url": "https://ncees.org/wp-content/uploads/2025/02/NAME-specs_2025_two-levels.pdf",
+      "title": "NCEES exam guide",
+      "publisher": "NCEES",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:06ea2f83af7c0d3095538835a2f1c09da109a70c5a97f448b14c865bf2a4286d"
+    },
+    {
+      "id": "ncees-pe-naval-architecture-landing",
+      "url": "https://ncees.org/exams/pe-exam/naval-architecture-and-marine/",
+      "title": "NCEES certification page",
+      "publisher": "NCEES",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:973da7210e7db570220a5d602c0ba3c1fb8b3ba4cb544eb40720f79766928c43"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T05:41:57+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T06:34:40+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T06:34:40+00:00"
+  }
 }

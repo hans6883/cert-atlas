@@ -1,0 +1,139 @@
+{
+ "exam_id": "google-it-support",
+ "editorial": {
+  "meta_description": "Prepare for the Google IT Support Professional Certificate covering hardware, networking, operating systems, system administration, and IT security.",
+  "overview": "The Google IT Support Professional Certificate is offered by Google Career Certificates. This complete program covers five distinct domains spanning technical support fundamentals, computer networking, operating systems, system administration, and IT infrastructure services along with IT security, offering a structured curriculum designed for aspiring information technology professionals entering the modern workforce.",
+  "who_should_temp": "",
+  "who_should_take": "Individuals seeking to enter the information technology field and build practical troubleshooting, networking, operating system administration, and security skills for entry-level support roles across diverse organizations.",
+  "skills_summary": [
+   "Hardware and software troubleshooting",
+   "TCP/IP, DNS, DHCP, and VPN",
+   "Windows, Linux, ChromeOS, and command line",
+   "Cloud and directory services",
+   "Core principles, cryptography, and network security"
+  ],
+  "preparation_strategy": "Review each of the five domain areas in detail to ensure complete understanding of all required topics and concepts. Complete practical exercises involving hardware diagnostics, command line operations, and network configuration to build competence across all required subjects before program completion and final assessments are finished.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "Covers technical support fundamentals focusing specifically on hardware components, software installation, and troubleshooting methodologies required for diagnosing and resolving common computer and peripheral problems efficiently within a modern workplace environment.",
+    "study_focus": [
+     "Hardware components",
+     "Software installation",
+     "Troubleshooting steps"
+    ],
+    "source_ids": [
+     "google-it-support-landing"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "Focuses on the bits and bytes of computer networking including TCP/IP protocols, DNS and DHCP configuration, and VPN to provide learners with fundamental knowledge of how data travels across modern local and wide area networks.",
+    "study_focus": [
+     "TCP/IP protocols",
+     "DNS and DHCP configuration",
+     "Virtual private networks"
+    ],
+    "source_ids": [
+     "google-it-support-landing"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "Explores operating systems such as Windows, Linux, ChromeOS, and the command line interface to prepare candidates for managing multiple platforms, executing administrative tasks, and troubleshooting system-level errors effectively.",
+    "study_focus": [
+     "Windows and Linux administration",
+     "ChromeOS management",
+     "Command line usage"
+    ],
+    "source_ids": [
+     "google-it-support-landing"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "Deals with system administration and IT infrastructure services including cloud environments and directory services, teaching students how to manage user accounts, enterprise resources, and scalable cloud-based computing platforms.",
+    "study_focus": [
+     "Cloud services management",
+     "Directory services",
+     "IT infrastructure administration"
+    ],
+    "source_ids": [
+     "google-it-support-landing"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "Addresses IT security principles completely, including core implementation, cryptography basics, network security, and incident response procedures to help professionals safeguard organizational assets and respond appropriately to security breaches encountered in real-world scenarios.",
+    "study_focus": [
+     "Core security implementation",
+     "Cryptography basics",
+     "Incident response procedures"
+    ],
+    "source_ids": [
+     "google-it-support-landing"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Review all available study materials carefully and ensure complete familiarity with practical troubleshooting steps across hardware, networking, operating systems, and security concepts before starting your final assessments.",
+  "faq": [
+   {
+    "question_title": "How much does the certification cost?",
+    "answer_text": "The Coursera subscription is approximately $49 per month, totaling around $294 for 6 months. Financial aid is available, and there is no separate exam fee required for candidates."
+   },
+   {
+    "question_title": "Is renewal required?",
+    "answer_text": "No renewal is required for the Google IT Support Professional Certificate once you have successfully completed all of the required coursework and practical assignments on the platform."
+   },
+   {
+    "question_title": "Who certifies this program?",
+    "answer_text": "This certification program is officially offered by Google Career Certificates to help individuals gain valuable industry-recognized technical support and IT infrastructure skills for their careers."
+   },
+   {
+    "question_title": "What is the long-term certification path?",
+    "answer_text": "Check with Google Career Certificates for the current certification path and any future updates regarding program extensions, advanced credentials, or career development opportunities available to graduates."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was compiled using official Google Career Certificates documentation and landing page resources to detail the current IT support certification requirements, domain weight percentages (20.0%), pricing notes, and renewal policies.",
+   "source_ids": [
+    "google-it-support-landing"
+   ]
+  },
+  "source_ids": [
+   "google-it-support-landing",
+   "google-it-support-study"
+  ]
+ },
+ "sources": [
+  {
+   "id": "google-it-support-landing",
+   "url": "https://grow.google/certificates/it-support/",
+   "title": "Google Career Certificates certification page",
+   "publisher": "Google Career Certificates",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:b4f85a9357391ab48375cafc01e7a4baae5598ab5b79aaaea1b53b098622e1d2"
+  },
+  {
+   "id": "google-it-support-study",
+   "url": "https://grow.google/certificates/",
+   "title": "Google Career Certificates study documentation",
+   "publisher": "Google Career Certificates",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:54a01179f2b05e7a1a020dc85404774a0224671fe437bc25c5dd78b1636d6fbc"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T06:15:23+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T06:34:28+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T06:34:28+00:00"
+ }
+}

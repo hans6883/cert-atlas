@@ -108,5 +108,155 @@
     "cisco cyberops associate",
     "cisco-cyberops-associate-200-201"
   ],
-  "practice_url": "https://quizforge.ai/tests/cisco-cyberops-associate-200-201"
+  "practice_url": "https://quizforge.ai/tests/cisco-cyberops-associate-200-201",
+  "editorial": {
+    "meta_description": "Prepare for the Cisco CyberOps Associate 200-201 exam by mastering security concepts, intrusion analysis, host investigations, and policies across ninety-five.",
+    "overview": "The Cisco CyberOps Associate 200-201 exam evaluates your thorough knowledge of security concepts, security monitoring, host-based analysis, network intrusion analysis, and security policies and procedures. Certified by Cisco, this detailed assessment measures your proficiency in entry-level cybersecurity operations and incident handling practices across all domains.",
+    "who_should_take": "Designed for aspiring security analysts, technicians, and professionals entering a security operations center who need to build practical technical skills for handling incidents and analyzing threats.",
+    "skills_summary": [
+      "Security Concepts",
+      "Security Monitoring",
+      "Host-Based Analysis",
+      "Network Intrusion Analysis",
+      "Security Policies and Procedures"
+    ],
+    "preparation_strategy": "Review official Cisco study documentation and the exam guide in great detail. Focus your study efforts across the five test domains, paying close attention to security monitoring and network intrusion analysis. Practice identifying common attack vectors and managing incident response workflows effectively before test day.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers fundamental security concepts required to understand broader cyber operations, defensive controls, and the overall threat landscape encountered within modern enterprise environments and security operations centers.",
+        "study_focus": [
+          "Core security principles",
+          "Basic threat types"
+        ],
+        "source_ids": [
+          "cisco-cyberops-associate-200-201-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Focuses on security monitoring techniques and tools used to detect potential security events, review system logs, and evaluate alerts generated across enterprise networks and endpoint architectures during daily operations.",
+        "study_focus": [
+          "Event log review",
+          "Monitoring methodologies"
+        ],
+        "source_ids": [
+          "cisco-cyberops-associate-200-201-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Concentrates on host-based analysis techniques to examine individual endpoints, review operating system artifacts, and investigate host logs for signs of compromise and unauthorized system access within the organization infrastructure.",
+        "study_focus": [
+          "Endpoint artifact analysis",
+          "Host log investigation"
+        ],
+        "source_ids": [
+          "cisco-cyberops-associate-200-201-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Examines network intrusion analysis methods to identify malicious traffic patterns, inspect packet captures, and detect network-level attacks targeting enterprise infrastructure and connected client devices across various operational networks.",
+        "study_focus": [
+          "Packet analysis",
+          "Traffic anomaly detection"
+        ],
+        "source_ids": [
+          "cisco-cyberops-associate-200-201-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain addresses security policies, procedures, and organizational guidelines governing acceptable use, regulatory compliance requirements, and structured incident handling workflows for enterprise security teams tasked with defending systems.",
+        "study_focus": [
+          "Acceptable use policies",
+          "Incident response procedures"
+        ],
+        "source_ids": [
+          "cisco-cyberops-associate-200-201-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time effectively across the 95 questions during the 120 minutes allowed. Read each question carefully and utilize available time to verify your answers.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of a total of 95 questions featuring multiple choice, drag and drop, fill in the blank, and testlet formats for candidates to complete during the testing session."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Cisco does not publicly publish a fixed passing score for this certification exam, as scoring may vary based on dynamic question item weighting algorithms utilized during evaluation."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam has a strict total duration of 120 minutes for registered candidates to complete and answer all of the assigned questions during the official testing session."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The exam registration price is 330.0 USD, which is payable directly to Cisco or their authorized testing delivery partner when you schedule your test appointment."
+      }
+    ],
+    "methodology": {
+      "summary": "This detailed overview was compiled using official Cisco documentation, certification landing pages, and published exam guides to ensure factual accuracy for all candidates.",
+      "source_ids": [
+        "cisco-cyberops-associate-200-201-landing"
+      ]
+    },
+    "source_ids": [
+      "cisco-cyberops-associate-200-201-exam_guide",
+      "cisco-cyberops-associate-200-201-exam_guide-2",
+      "cisco-cyberops-associate-200-201-landing",
+      "cisco-cyberops-associate-200-201-study"
+    ]
+  },
+  "sources": [
+    {
+      "id": "cisco-cyberops-associate-200-201-exam_guide",
+      "url": "https://www.cisco.com/c/dam/en_us/about/supply-chain/cisco-modern-slavery-statement.pdf",
+      "title": "Cisco exam guide",
+      "publisher": "Cisco",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:88e1e51e2be577d2217cb8aaf7b048ad979593b4dd23e37c85ae38f217e808e6"
+    },
+    {
+      "id": "cisco-cyberops-associate-200-201-exam_guide-2",
+      "url": "https://learningnetwork.cisco.com/s/ccnacbr-exam-topics",
+      "title": "Cisco exam guide",
+      "publisher": "Cisco",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:c76b24dde443c301d6ffa895d95d197eef5daef1cf5376f28b66454ba96b18ea"
+    },
+    {
+      "id": "cisco-cyberops-associate-200-201-landing",
+      "url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccnacbr.html",
+      "title": "Cisco certification page",
+      "publisher": "Cisco",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:966b9bda849e652b8604ecb3975d0f1974a318aef8818dcfb9e885ba6c8948fc"
+    },
+    {
+      "id": "cisco-cyberops-associate-200-201-study",
+      "url": "https://u.cisco.com/",
+      "title": "Cisco study documentation",
+      "publisher": "Cisco",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:53eaa1b06ee2a781c7f00712c846081fb60fccd2d57a2fac07605dcf9afaf11c"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T05:43:12+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T06:34:19+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T06:34:19+00:00"
+  }
 }

@@ -359,5 +359,245 @@
     "oracle certified professional java se 11 developer",
     "oracle-java-se-11-developer-1z0-819"
   ],
-  "practice_url": "https://quizforge.ai/tests/oracle-java-se-11-1z0-819"
+  "practice_url": "https://quizforge.ai/tests/oracle-java-se-11-1z0-819",
+  "editorial": {
+    "meta_description": "Prepare for the Java SE 11 Developer 1Z0-819 exam with detailed domain breakdowns, pricing, passing score, and study guidance from Oracle.",
+    "overview": "The Java SE 11 Developer 1Z0-819 certification exam validates your core programming abilities, object-oriented design principles, modular applications, concurrency, database access, and secure coding practices. Certified by Oracle, this linear format test consists of 50 questions with a passing score of 68 and a total duration of 90 minutes for all candidates taking the examination.",
+    "who_should_take": "Java developers and professional software engineers with hands-on experience building applications on the Java platform who are seeking formal credentialing of their technical competence through Oracle examinations.",
+    "skills_summary": [
+      "Working with Java data types",
+      "Controlling program flow",
+      "Object-oriented programming",
+      "Exception handling",
+      "Arrays and collections",
+      "Streams and lambda expressions",
+      "Concurrency and I/O APIs",
+      "Database applications with JDBC"
+    ],
+    "preparation_strategy": "Review the official Java SE 11 documentation and study specifications. Practice writing code covering all thirteen domains, paying close attention to lambda expressions, modular applications, concurrency utilities, and secure coding practices to prepare for the 50 multiple choice and multiple select questions on the test.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This domain covers primitives, wrapper classes, operators, parentheses, type promotion, type casting, text handling with String and StringBuilder classes, and local variable type inference including usage as lambda parameters within Java SE applications.",
+        "study_focus": [
+          "Use primitives and wrapper classes",
+          "Handle text using String and StringBuilder",
+          "Use local variable type inference"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain focuses on controlling program execution using loops, if/else conditional structures, and switch statements to direct logical flow within Java SE applications according to official Oracle requirements.",
+        "study_focus": [
+          "Create and use loops",
+          "Implement if/else statements",
+          "Configure switch statements"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain explores object lifecycles, nested classes, instance members, static members, overloaded methods, instance initializers, static initializer statements, and object initialization constructors required for developing proper object-oriented Java SE applications.",
+        "study_focus": [
+          "Declare and instantiate Java objects",
+          "Define fields and methods",
+          "Initialize objects with initializers and constructors"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain deals with error management via try/catch/finally blocks, try-with-resource statements, multi-catch clauses, and custom exceptions to ensure reliable exception handling across enterprise Java SE software deployment projects.",
+        "study_focus": [
+          "Handle exceptions using try/catch/finally",
+          "Use try-with-resource and multi-catch",
+          "Create and use custom exceptions"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "This domain addresses generics, wildcards, Java arrays, List collections, Set collections, Map collections, Deque collections, convenience methods, and sorting data using Comparator and Comparable interfaces for efficient data structures.",
+        "study_focus": [
+          "Use generics including wildcards",
+          "Use arrays and collection interfaces",
+          "Sort collections and arrays"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "6.0",
+        "summary": "This domain involves functional interfaces, lambda expressions from the java.util.function package, data processing with Java Streams, filtering, transformation, decomposition, reduction, grouping, and partitioning on sequential and parallel streams.",
+        "study_focus": [
+          "Implement functional interfaces using lambdas",
+          "Use Java Streams to filter and process data",
+          "Perform decomposition and reduction"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "7.0",
+        "summary": "This domain covers the Java Platform Module System, automatic modules, declaring modules, using modules, exposing modules, service usage, and modular application deployment and execution for modern Java platform architectures.",
+        "study_focus": [
+          "Deploy and execute modular applications",
+          "Declare, use, and expose modules"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "8.0",
+        "summary": "This domain focuses on worker threads using Runnable and Callable, managing concurrency using ExecutorService and the java.util.concurrent API, and developing thread-safe code utilizing different locking mechanisms for high-performance applications.",
+        "study_focus": [
+          "Create worker threads using Runnable and Callable",
+          "Manage concurrency using ExecutorService",
+          "Develop thread-safe code using locking mechanisms"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "9.0",
+        "summary": "This domain addresses reading and writing console and file data using I/O Streams, implementing serialization and deserialization techniques on Java objects, and handling file system objects using the java.nio.file API.",
+        "study_focus": [
+          "Read and write console and file data",
+          "Implement serialization and deserialization",
+          "Handle file system objects using java.nio.file API"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "10.0",
+        "summary": "This domain covers mitigation of security threats like denial of service, code injection, input validation, data integrity assurance, secure resource access for filesystems, policy management, and execution of privileged code.",
+        "study_focus": [
+          "Develop code that mitigates security threats",
+          "Secure resource access and manage policies"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "11.0",
+        "summary": "This specific domain focuses heavily on connecting to databases, performing SQL operations, and processing query results using the JDBC API to build database-driven Java SE enterprise applications successfully without issues.",
+        "study_focus": [
+          "Connect to and perform database SQL operations",
+          "Process query results using JDBC API"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "12.0",
+        "summary": "This specific domain explores localization through Locale objects, resource bundles, and Java APIs designed carefully to parse and format messages, dates, and numbers for international software deployment across global markets.",
+        "study_focus": [
+          "Implement Localization using Locale and resource bundles",
+          "Parse and format messages, dates, and numbers"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      },
+      {
+        "domain_id": "13.0",
+        "summary": "This specific domain involves creating custom annotations, applying annotations within Java code structures, and processing annotations dynamically during application execution and compilation phases according to official language specifications.",
+        "study_focus": [
+          "Create custom annotations",
+          "Apply annotations within Java code",
+          "Process annotations during execution and compilation"
+        ],
+        "source_ids": [
+          "oracle-java-se-11-developer-1z0-819-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your 90-minute limit carefully across all 50 questions during the exam. Read multiple select prompts completely to ensure all correct options are selected before submitting.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The certification exam consists of exactly 50 multiple choice and multiple select questions administered in a linear format by official Oracle testing centers for candidates."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Candidates taking this certification test must achieve a minimum passing score of 68 in order to successfully earn the Java SE 11 Developer credential from Oracle."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total exam duration is 90 minutes, providing candidates with adequate time to read and answer all 50 questions included in the test format during their session."
+      },
+      {
+        "question_title": "What is the exam price?",
+        "answer_text": "The registration fee for taking this certification exam costs $245 USD. Always check with Oracle for any details regarding future certification paths or registration updates."
+      }
+    ],
+    "methodology": {
+      "summary": "This reference page aggregates official facts, domain breakdowns, and structural constraints gathered directly from official Oracle documentation sources and certification landing pages for developers.",
+      "source_ids": [
+        "oracle-java-se-11-developer-1z0-819-landing"
+      ]
+    },
+    "source_ids": [
+      "oracle-java-se-11-developer-1z0-819-study",
+      "oracle-java-se-11-developer-1z0-819-study-2",
+      "oracle-java-se-11-developer-1z0-819-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "oracle-java-se-11-developer-1z0-819-study",
+      "url": "https://education.oracle.com/certification",
+      "title": "Oracle study documentation",
+      "publisher": "Oracle",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:3dfc1265a2a108fd2fbca1e0b3b7e291d4fc8eaeabc18e4cb5762f4c62c30d97"
+    },
+    {
+      "id": "oracle-java-se-11-developer-1z0-819-study-2",
+      "url": "https://education.oracle.com/",
+      "title": "Oracle study documentation",
+      "publisher": "Oracle",
+      "source_type": "official_documentation",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:d2515ebb8f216f4491a37ca80e80eedd8092273eb61c9775f83ae2266d41a824"
+    },
+    {
+      "id": "oracle-java-se-11-developer-1z0-819-landing",
+      "url": "https://education.oracle.com/java-se-11-developer/pexam_1Z0-819",
+      "title": "Oracle certification page",
+      "publisher": "Oracle",
+      "source_type": "official_certification_page",
+      "accessed": "2026-08-29",
+      "content_hash": "sha256:2ef0f7608b4d9784780b5e34a2130f7dd1449cfe210312460678bc4ee67a0fc4"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:free-tier",
+    "generated_at": "2026-08-30T05:38:18+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-08-30T06:34:49+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-08-30T06:34:49+00:00"
+  }
 }

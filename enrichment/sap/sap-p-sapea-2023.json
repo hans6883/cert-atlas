@@ -1,0 +1,146 @@
+{
+ "exam_id": "sap-p-sapea-2023",
+ "editorial": {
+  "meta_description": "The P_SAPEA_2023 exam is officially retired. Review these verified details and focus your professional certification preparation on the direct successor.",
+  "overview": "The SAP Certified Professional — SAP Enterprise Architect certification evaluates enterprise architecture concepts and SAP frameworks. Certified by SAP, this historical exam is retired and has been directly replaced by P_SAPEA. Candidates must direct their certification efforts toward the active successor path to validate their skills and professional expertise effectively. This transition ensures that all certified professionals maintain alignment with the most current industry standards and methodologies required for modern enterprise architecture roles within the global SAP ecosystem today.",
+  "who_should_take": "Experienced enterprise architects, solution architects, and consultants with deep technical backgrounds who want to validate their expertise in enterprise architecture frameworks, business architecture, solution design, and integration methodologies within the SAP ecosystem.",
+  "skills_summary": [
+   "Enterprise Architecture Concepts",
+   "SAP Enterprise Architecture Framework",
+   "Business Architecture and Value",
+   "Solution Architecture Design",
+   "Technology and Integration Architecture",
+   "Security and Compliance Architecture"
+  ],
+  "preparation_strategy": "Prepare exclusively for the successor P_SAPEA by studying the required reference materials. Knowledge of enterprise architecture concepts, reference business architecture, and solution design transfers directly from past study materials. Master the official SAP framework methodologies without attempting to schedule or sit for this retired exam, as it is no longer available for registration or testing purposes.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This initial domain covers enterprise architecture concepts, governing principles, and core modeling structures that guide enterprise architecture work across organizations, ensuring all structures align with established standards and methodologies for effective business and technical alignment.",
+    "study_focus": [
+     "Enterprise architecture principles",
+     "Artifacts and metamodels"
+    ],
+    "source_ids": [
+     "sap-p-sapea-2023-study"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on the SAP Enterprise Architecture Framework, connecting methodology pillars, tools, and reference architecture content to support complex transformations and enterprise modeling initiatives across diverse business landscapes while maintaining consistency with global SAP standards.",
+    "study_focus": [
+     "SAP EA Framework pillars",
+     "Reference architecture content mapping"
+    ],
+    "source_ids": [
+     "sap-p-sapea-2023-study"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This section addresses business architecture and value mapping, connecting business capabilities and processes to create clear business outcomes while supporting organizational goals through detailed capability modeling and value flow diagrams for improved enterprise performance.",
+    "study_focus": [
+     "Reference business architecture",
+     "Business capability modeling"
+    ],
+    "source_ids": [
+     "sap-p-sapea-2023-study"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "Candidates examine solution architecture design here, addressing component diagrams, process flows, and concrete solution variants to build technical structures that satisfy business requirements and integration prerequisites within modern enterprise environments and complex system landscapes.",
+    "study_focus": [
+     "Solution component diagrams",
+     "Solution process flow diagrams"
+    ],
+    "source_ids": [
+     "sap-p-sapea-2023-study"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This area explores technology and integration architecture, detailing communication channels, data flows, and deployment units to ensure seamless connectivity and optimal performance across all distributed enterprise system landscapes and cloud deployments for global business operations.",
+    "study_focus": [
+     "Solution data flow diagrams",
+     "Integration architecture aspects"
+    ],
+    "source_ids": [
+     "sap-p-sapea-2023-study"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "The final domain covers security and compliance architecture aspects relevant to enterprise solutions and reference architectures, ensuring that data protection, regulatory standards, and security frameworks are embedded correctly throughout every project phase for secure enterprise systems.",
+    "study_focus": [
+     "Security practices",
+     "Compliance requirements in solution design"
+    ],
+    "source_ids": [
+     "sap-p-sapea-2023-study"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Because this exam is retired, it cannot be scheduled or taken. Candidates should register for the active successor P_SAPEA, noting its specific proctored delivery rules and testing conditions on exam day to ensure they meet all requirements for the current certification.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of exactly 80 questions presented in multiple choice, multiple select, drag and drop, and matching formats to evaluate candidate knowledge of architecture."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for the exam is set at 60 percent, requiring candidates to answer the necessary proportion of questions correctly to achieve their certification status."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a duration of 180 minutes, giving candidates three full hours to carefully read, analyze, and complete all questions presented during the testing session."
+   },
+   {
+    "question_title": "What is the price of the exam?",
+    "answer_text": "The cost of the exam is 562.0 USD when registered through official Pearson VUE channels or online proctoring options provided by the certification vendor for candidates."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial content was created using official SAP certification documentation, study guides, and verified retirement data records to ensure accuracy for all users seeking information about the retired certification exam and its successor.",
+   "source_ids": [
+    "sap-p-sapea-2023-landing",
+    "sap-p-sapea-2023-study"
+   ]
+  },
+  "source_ids": [
+   "sap-p-sapea-2023-landing",
+   "sap-p-sapea-2023-study"
+  ]
+ },
+ "sources": [
+  {
+   "id": "sap-p-sapea-2023-landing",
+   "url": "https://training.sap.com/certification/p_sapea_2023",
+   "title": "SAP certification page",
+   "publisher": "SAP",
+   "source_type": "official_certification_page",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:641fe498e037c3257bba2a428ab1cd3954e234dfc69467510731a8bcb1239cf4"
+  },
+  {
+   "id": "sap-p-sapea-2023-study",
+   "url": "https://training.sap.com/",
+   "title": "SAP study documentation",
+   "publisher": "SAP",
+   "source_type": "official_documentation",
+   "accessed": "2026-08-29",
+   "content_hash": "sha256:8623a0e597ae988bf7339a5a111a7b2dd58370ecb05315179f51190cddcf173c"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:free-tier",
+  "generated_at": "2026-08-30T06:33:08+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-08-30T06:34:52+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-08-30T06:34:52+00:00"
+ }
+}
