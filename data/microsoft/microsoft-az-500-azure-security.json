@@ -587,16 +587,16 @@
   ],
   "practice_url": "https://quizforge.ai/tests/microsoft-azure-security-engineer-az-500",
   "editorial": {
-    "meta_description": "AZ-500 retires soon. Review its source-verified domains, cutoff, study value, and SC-500 transition.",
-    "overview": "AZ-500, Microsoft Azure Security Technologies, remains available only until 2026-08-31. Its published domains cover Secure identity and access, Secure networking, Secure compute, storage, and databases, Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel. The final AZ-500 outline is unusually useful as a boundary map between resource-level Azure hardening and broader security operations. It shows where identity, network paths, workload configuration, posture management, and incident signals must be reasoned about together. Microsoft names SC-500 as the direct replacement. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
-    "who_should_take": "The original audience was Azure security engineers who implement controls across identity, networking, compute, storage, databases, Defender for Cloud, and Sentinel. Current candidates should choose AZ-500 only when preparation, scheduling, and any credential requirements can be completed before 2026-08-31; otherwise use the verified replacement path.",
+    "meta_description": "AZ-500 retires on August 31, 2026. Review its source-verified domains, cutoff, study value, and transition guidance.",
+    "overview": "AZ-500, Microsoft Azure Security Technologies, remains available only until 2026-08-31. Its published domains cover Secure identity and access, Secure networking, Secure compute, storage, and databases, Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel. The final AZ-500 outline is unusually useful as a boundary map between resource-level Azure hardening and broader security operations. It shows where identity, network paths, workload configuration, posture management, and incident signals must be reasoned about together. Microsoft has not announced a successor; check the official Azure Security Engineer certification page for updates. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
+    "who_should_take": "The original audience was Azure security engineers who implement controls across identity, networking, compute, storage, databases, Defender for Cloud, and Sentinel. Current candidates should choose AZ-500 only when preparation, scheduling, and any credential requirements can be completed before 2026-08-31; otherwise monitor Microsoft's official certification pages for post-retirement guidance.",
     "skills_summary": [
       "Trace effective access across Azure roles, Microsoft Entra controls, and privileged workflows",
       "Design network and private-access controls around real workload dependencies",
       "Harden compute, storage, databases, and secrets without breaking operability",
       "Turn Defender for Cloud posture findings and Sentinel signals into corrective action"
     ],
-    "preparation_strategy": "Build one representative Azure environment and trace a control from identity assignment through network isolation, workload protection, policy evaluation, Defender findings, and Sentinel response. Candidates with enough time to test before the cutoff can finish AZ-500; longer plans should start with SC-500. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
+    "preparation_strategy": "Build one representative Azure environment and trace a control from identity assignment through network isolation, workload protection, policy evaluation, Defender findings, and Sentinel response. Candidates with enough time to test before the cutoff can finish AZ-500; longer plans should wait for Microsoft to publish a successor path before committing. Start with the dated Microsoft guide, map each objective to a task, decision, observable result, and failure mode, and use domain ranges to balance coverage rather than predict question counts. Keep notes labeled with the guide date so future product or blueprint changes do not silently contaminate the plan.",
     "domain_guidance": [
       {
         "domain_id": "1.0",
@@ -649,12 +649,10 @@
     ],
     "exam_day_guidance": "Microsoft lists 2026-08-31 as the retirement date. Verify the official page immediately before booking, allow time for identity and accommodation requirements, and do not assume a retake can be scheduled after the cutoff.",
     "methodology": {
-      "summary": "Cert Atlas reviewed Microsoft's dated AZ-500 study guide and official retirement list, then compared the current SC-500 guide and Microsoft's transition announcement. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
+      "summary": "Cert Atlas reviewed Microsoft's dated AZ-500 study guide and official retirement list, then re-verified the retirement facts against the live Microsoft pages on the retirement date itself. OpenAI Codex assisted with extraction, normalization, and drafting. The lifecycle, weights, and editorial claims were checked against the linked official pages; no exam questions, answers, choices, or explanations were used.",
       "source_ids": [
         "microsoft-az-500-study-guide",
-        "microsoft-retirement-list",
-        "microsoft-sc-500-study-guide",
-        "microsoft-transition-announcement"
+        "microsoft-retirement-list"
       ]
     },
     "source_ids": [
@@ -662,50 +660,19 @@
     ]
   },
   "lifecycle": {
-    "summary": "Microsoft will retire AZ-500 on 2026-08-31. The exam remains schedulable before the cutoff. Microsoft identifies SC-500 as its direct replacement, so candidates should choose the blueprint that matches their testing date and long-term role.",
+    "summary": "Microsoft will retire AZ-500 on 2026-08-31. The exam remains schedulable before the cutoff. Microsoft has not announced a successor; check the official Azure Security Engineer page for updates.",
     "migration_actions": [
       "Confirm that a complete AZ-500 study and booking plan fits before 2026-08-31.",
-      "If the plan extends past the cutoff, switch to SC-500 and use its current dated study guide.",
-      "Compare the two outlines objective by objective instead of renaming old notes or practice content.",
+      "If the plan extends past the cutoff, monitor Microsoft's official certification pages for any successor announcement.",
+      "Keep dated AZ-500 notes clearly labeled so any future exam path gets its own current outline.",
       "Recheck the official retirement page before scheduling because Microsoft states that dates can change."
     ],
     "source_ids": [
       "microsoft-az-500-study-guide",
-      "microsoft-retirement-list",
-      "microsoft-sc-500-study-guide",
-      "microsoft-transition-announcement"
-    ],
-    "skill_comparison": [
-      {
-        "legacy_skill": "Secure identity and access",
-        "legacy_weight": "15-20%",
-        "replacement_skill": "Manage identity, access, and governance",
-        "replacement_weight": "20-25%",
-        "change": "SC-500 retains Entra, role, policy, and Key Vault work while making governance and overprivileged-access remediation more explicit."
-      },
-      {
-        "legacy_skill": "Secure networking; secure compute, storage, and databases",
-        "legacy_weight": "40-50% combined",
-        "replacement_skill": "Secure storage, databases, networking, and compute",
-        "replacement_weight": "45-55% combined",
-        "change": "Most infrastructure hardening transfers, but SC-500 reorganizes it by control surface and adds explicit AI, application platform, hybrid, and multicloud tasks."
-      },
-      {
-        "legacy_skill": "Defender for Cloud and Microsoft Sentinel",
-        "legacy_weight": "30-35%",
-        "replacement_skill": "Manage and monitor security posture",
-        "replacement_weight": "20-25%",
-        "change": "SC-500 preserves posture and collection work, adds Security Copilot, and places AI workload protection inside the end-to-end security role."
-      }
+      "microsoft-retirement-list"
     ],
     "status": "scheduled_retirement",
     "retires_on": "2026-08-31",
-    "replacement": {
-      "exam_code": "SC-500",
-      "relationship": "direct_replacement",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
-      "name": "Implementing End-to-End Security Controls for Cloud and AI Workloads"
-    },
     "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
     "verified_at": "2026-08-26T00:00:00Z"
   },
@@ -727,24 +694,6 @@
       "source_type": "official_documentation",
       "accessed": "2026-08-26",
       "content_hash": "sha256:40c0e24933b0d000afcef1a6ad6fb494da39a32aaa466fefa7af9e2e7d123124"
-    },
-    {
-      "id": "microsoft-sc-500-study-guide",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
-      "title": "Study guide for Exam SC-500: Implementing End-to-End Security Controls for Cloud and AI Workloads",
-      "publisher": "Microsoft",
-      "source_type": "official_exam_guide",
-      "accessed": "2026-08-26",
-      "content_hash": "sha256:3d744e43cc3c83700716a8eb1f40743e3ad388e5578d0e844379a13a1a3d6282"
-    },
-    {
-      "id": "microsoft-transition-announcement",
-      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
-      "title": "July 2026 certification transition announcement",
-      "publisher": "Microsoft",
-      "source_type": "official_documentation",
-      "accessed": "2026-08-26",
-      "content_hash": "sha256:8f63befc471bde009f3f440da060227d1c751613097c102353fb09b209b204d0"
     }
   ],
   "content_quality": {
