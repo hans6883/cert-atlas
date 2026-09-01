@@ -47,6 +47,22 @@ def format_iso_date(value):
         return text
 
 
+def format_passing_score(score, scale):
+    """Render the passing-score quick fact. The old `f'{score}/{scale}'` splice produced
+    "70/Percentage (70% passing)" on the stat card. Scales that say "percent..." mean the
+    number is a percentage, so collapse to "70%"; any other scale is appended in
+    parentheses ("700 (1-1000)") so the card stays a short, readable value."""
+    score = str(score or "").strip()
+    scale = str(scale or "").strip()
+    if not score:
+        return ""
+    if not scale:
+        return score
+    if scale.lower().startswith("percent") and score[-1].isdigit():
+        return f"{score}%"
+    return f"{score} ({scale})"
+
+
 def load_data():
     with open(DATA_DIR / "index.json", encoding="utf-8") as f:
         index = json.load(f)
@@ -276,6 +292,33 @@ ENRICHMENT_CSS = """
 .comparison-table th { background: var(--bg-alt); }
 .methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
 .source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
 """
 
 
@@ -798,8 +841,10 @@ def build_exam_page(vendor_slug, vendor_info, exam, title_override=None):
     if exam.get("duration_minutes"):
         facts.append(("Duration", f'{exam["duration_minutes"]} min'))
     if exam.get("passing_score"):
-        scale = f'/{exam["passing_score_scale"]}' if exam.get("passing_score_scale") else ""
-        facts.append(("Passing Score", f'{exam["passing_score"]}{scale}'))
+        facts.append((
+            "Passing Score",
+            format_passing_score(exam["passing_score"], exam.get("passing_score_scale")),
+        ))
     if exam.get("exam_price_usd"):
         facts.append(("Price", f'${exam["exam_price_usd"]:.0f}'))
     if exam.get("certification_validity_years"):
@@ -936,7 +981,9 @@ def build_exam_page(vendor_slug, vendor_info, exam, title_override=None):
     if exam.get("official_objectives_url"):
         reg_parts.append(f'<a href="{h(exam["official_objectives_url"])}" rel="nofollow">Official exam guide</a>')
     if exam.get("source_url") and exam["source_url"] != exam.get("official_objectives_url"):
-        reg_parts.append(f'<a href="{h(exam["source_url"])}" rel="nofollow">Source</a>')
+        # Labeled, never a bare "Source": as the only item in this row it read as an
+        # orphaned word floating above the footer.
+        reg_parts.append(f'<a href="{h(exam["source_url"])}" rel="nofollow">View data source</a>')
     if reg_parts:
         reg_html = f'<div class="source-link">{" | ".join(reg_parts)}</div>'
 

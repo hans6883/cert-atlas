@@ -4,7 +4,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.build_site import build_exam_page, build_vendor_page, _exam_page_title
+from scripts.build_site import (
+    build_exam_page,
+    build_vendor_page,
+    format_passing_score,
+    _exam_page_title,
+)
 from scripts.enrichment import (
     load_and_merge_overlay,
     merge_overlay,
@@ -577,6 +582,106 @@ class EnrichedPageTests(unittest.TestCase):
         plain = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, base_exam())
         self.assertNotIn("FAQPage", plain)
         self.assertNotIn("faq-item", plain)
+
+    def test_faq_summary_keeps_marker_and_question_on_one_line(self):
+        # Visual QA: the native disclosure triangle rendered on its own line above the
+        # question because the summary's <h3> is a block. The fix is CSS emitted with
+        # the page: a flex summary (marker + heading on one line) with the native
+        # markers suppressed and a rotating ::before arrow instead. <details> still
+        # toggles natively, so only styling is asserted.
+        overlay = rich_overlay()
+        # Validation gate: editorial.faq must hold 4-8 items, so pad the one
+        # question under test to the minimum publishable shape.
+        overlay["editorial"]["faq"] = [
+            {
+                "question_title": "What is the passing score?",
+                "answer_text": (
+                    "The vendor publishes a scaled score rather than a raw percentage, and "
+                    "the reviewed guide does not fix one threshold for every revision, so "
+                    "verify the current requirement on the official certification page "
+                    "before scheduling an appointment."
+                ),
+            }
+        ] + [
+            {
+                "question_title": f"Placeholder question {n}?",
+                "answer_text": (
+                    "Confirm the current detail directly with the official certification "
+                    "page because the reviewed guide is revised periodically and the "
+                    "published requirements follow the active revision rather than staying "
+                    "fixed across every exam form."
+                ),
+            }
+            for n in range(3)
+        ]
+        exam = merge_overlay(base_exam(), overlay)
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn('<details class="faq-item"><summary><h3>', html)
+        self.assertIn("details.faq-item summary {", html)
+        summary_rule = html.split("details.faq-item summary {", 1)[1].split("}", 1)[0]
+        self.assertIn("display: flex", summary_rule)
+        self.assertIn("align-items: center", summary_rule)
+        self.assertIn("gap:", summary_rule)
+        self.assertIn("list-style: none", summary_rule)
+        # Native markers suppressed (Chromium/Safari) and replaced by an inline arrow
+        # that rotates when open; without this the old native triangle came back.
+        self.assertIn("details.faq-item summary::-webkit-details-marker { display: none; }", html)
+        self.assertIn('details.faq-item summary::before {', html)
+        self.assertIn("details.faq-item[open] > summary::before", html)
+
+    def test_passing_score_fact_never_concatenates_scale_name(self):
+        # Visual QA: the quick-fact card rendered "70/Percentage (70% passing)" because
+        # the template spliced score + "/" + scale. Percentage scales must collapse to
+        # "70%", other scales append in parentheses, and no scale shows the bare score.
+        self.assertEqual(format_passing_score(70, "Percentage (70% passing)"), "70%")
+        self.assertEqual(format_passing_score(66, "percentage"), "66%")
+        self.assertEqual(
+            format_passing_score(65, "Percentage; 65% required to pass"), "65%"
+        )
+        self.assertEqual(format_passing_score(87, None), "87")
+        self.assertEqual(format_passing_score(700, "1-1000"), "700 (1-1000)")
+        self.assertEqual(
+            format_passing_score(75, "Percentage correct (pass/fail threshold varies)"),
+            "75%",
+        )
+
+        exam = base_exam()
+        exam["passing_score"] = 70
+        exam["passing_score_scale"] = "Percentage (70% passing)"
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn('<span class="fact-value">70%</span>', html)
+        self.assertNotIn("/Percentage", html)
+        self.assertNotIn("/percent", html)
+
+    def test_retired_page_replacement_with_url_renders_real_anchor(self):
+        # Visual QA inconsistency: pages whose replacement.url exists must always get
+        # a real link (the no-url case is covered by ..._renders_text_not_empty_href).
+        exam = merge_overlay(base_exam(), retired_overlay())
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn(
+            '<a class="replacement-link" href="https://vendor.example/exams/example-101" rel="nofollow">',
+            html,
+        )
+        self.assertIn("Prepare for EX-101: Example Next Professional</a>", html)
+
+    def test_source_link_has_visible_context_not_a_floating_source_word(self):
+        # Visual QA: when the registration row holds only the source link, a bare
+        # "Source" read as an orphaned word above the footer. It must label itself.
+        exam = base_exam()  # source_url set; no registration or objectives URLs
+
+        html = build_exam_page("example-vendor", {"display_name": "Example Vendor"}, exam)
+
+        self.assertIn(
+            '<a href="https://vendor.example/exams/example-100" rel="nofollow">View data source</a>',
+            html,
+        )
+        self.assertNotIn(">Source</a>", html)
 
     def test_page_does_not_render_unapproved_editorial(self):
         exam = base_exam()
