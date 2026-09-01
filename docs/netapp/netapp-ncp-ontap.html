@@ -225,6 +225,33 @@ footer a { color: var(--text-muted); }
 .comparison-table th { background: var(--bg-alt); }
 .methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
 .source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
 </style>
 </head>
 <body>
@@ -301,7 +328,7 @@ footer a { color: var(--text-muted); }
 </div></section>
 <section class="info"><h3>Exam Details</h3><div class="info-grid"><div class="info-row"><span class="info-label">Question Types</span><span class="info-value">Multiple Choice, Multiple Response</span></div><div class="info-row"><span class="info-label">Format</span><span class="info-value">Linear (fixed-form, Pearson VUE)</span></div><div class="info-row"><span class="info-label">Online Proctoring</span><span class="info-value">Available</span></div><div class="info-row"><span class="info-label">ID Requirements</span><span class="info-value">Government-issued photo ID required. Name on ID must match registration exactly.</span></div><div class="info-row"><span class="info-label">Renewal</span><span class="info-value">Required -- Certifications are valid for 2 years. Recertification requires passing the current version of the same exam or a higher-level exam in the same track before expiration. NetApp does not currently offer maintenance exams separate from the full exam.</span></div><div class="info-row"><span class="info-label">Retake Policy</span><span class="info-value">14-day waiting period between failed attempts. Full exam fee applies for each retake attempt. Candidates who pass may not retake the exam to improve their score.</span></div></div></section>
 <section class="info"><h3>Official Study Resources</h3><div class="resources"><div class="resource-item"><span class="resource-type">study guide</span><a href="https://www.netapp.com/services/education/certification/" rel="nofollow">NetApp Certification Exam Preparation</a> (free)</div><div class="resource-item"><span class="resource-type">training course</span><a href="https://learningcenter.netapp.com/" rel="nofollow">NetApp Learning Center</a></div></div></section>
-<div class="source-link"><a href="https://www.netapp.com/services/education/certification/ncp/" rel="nofollow">Source</a></div>
+<div class="source-link"><a href="https://www.netapp.com/services/education/certification/ncp/" rel="nofollow">View data source</a></div>
 </div>
 <footer>
 <div class="container">

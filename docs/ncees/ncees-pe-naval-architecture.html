@@ -225,6 +225,33 @@ footer a { color: var(--text-muted); }
 .comparison-table th { background: var(--bg-alt); }
 .methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
 .source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
 </style>
 </head>
 <body>
@@ -293,7 +320,7 @@ footer a { color: var(--text-muted); }
 </div></section>
 <section class="info"><h3>Exam Details</h3><div class="info-grid"><div class="info-row"><span class="info-label">Question Types</span><span class="info-value">Multiple Choice</span></div><div class="info-row"><span class="info-label">Format</span><span class="info-value">Linear (computer-based)</span></div><div class="info-row"><span class="info-label">Online Proctoring</span><span class="info-value">Not available</span></div><div class="info-row"><span class="info-label">ID Requirements</span><span class="info-value">One valid, unexpired government-issued photo ID. Name must match NCEES MyNCEES account exactly.</span></div><div class="info-row"><span class="info-label">Renewal</span><span class="info-value">Required -- PE and SE licenses must be renewed per state board requirements. Typically every 2 years with Continuing Professional Competency (CPC) requirements. Requirements vary by state.</span></div><div class="info-row"><span class="info-label">Prerequisites</span><span class="info-value">Must have passed FE exam and hold EIT/EI certification; 4 years of progressive engineering experience</span></div><div class="info-row"><span class="info-label">Retake Policy</span><span class="info-value">FE exams: can register immediately after receiving score report. PE exams: most states allow unlimited attempts; check your state board. Full exam fee required for each retake.</span></div><div class="info-row"><span class="info-label">Languages</span><span class="info-value">English</span></div></div></section>
 <section class="info"><h3>Official Study Resources</h3><div class="resources"><div class="resource-item"><span class="resource-type">pdf</span><a href="https://ncees.org/exams/fe-exam/" rel="nofollow">FE Reference Handbook</a> (free)</div><div class="resource-item"><span class="resource-type">practice exam</span><a href="https://ncees.org/store/" rel="nofollow">NCEES Practice Exams</a> ($30)</div></div></section>
-<div class="source-link"><a href="https://account.ncees.org/" rel="nofollow">Register for this exam</a> | <a href="https://ncees.org/exams/pe-exam/naval-architecture-and-marine/" rel="nofollow">Source</a></div>
+<div class="source-link"><a href="https://account.ncees.org/" rel="nofollow">Register for this exam</a> | <a href="https://ncees.org/exams/pe-exam/naval-architecture-and-marine/" rel="nofollow">View data source</a></div>
 </div>
 <footer>
 <div class="container">

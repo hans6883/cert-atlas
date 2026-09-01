@@ -225,6 +225,33 @@ footer a { color: var(--text-muted); }
 .comparison-table th { background: var(--bg-alt); }
 .methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
 .source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
 </style>
 </head>
 <body>
@@ -247,7 +274,7 @@ footer a { color: var(--text-muted); }
 <p class="exam-code">CTFL-AT</p>
 <p class="vendor-link"><a href="https://atlas.quizforge.ai/istqb/">ISTQB</a></p>
 </div>
-<div class="quick-facts"><div class="fact"><span class="fact-value">40</span><span class="fact-label">Questions</span></div><div class="fact"><span class="fact-value">60 min</span><span class="fact-label">Duration</span></div><div class="fact"><span class="fact-value">65/Percentage; 65% required to pass</span><span class="fact-label">Passing Score</span></div><div class="fact"><span class="fact-value">$250</span><span class="fact-label">Price</span></div><div class="fact"><span class="fact-value">10</span><span class="fact-label">Languages</span></div></div>
+<div class="quick-facts"><div class="fact"><span class="fact-value">40</span><span class="fact-label">Questions</span></div><div class="fact"><span class="fact-value">60 min</span><span class="fact-label">Duration</span></div><div class="fact"><span class="fact-value">65%</span><span class="fact-label">Passing Score</span></div><div class="fact"><span class="fact-value">$250</span><span class="fact-label">Price</span></div><div class="fact"><span class="fact-value">10</span><span class="fact-label">Languages</span></div></div>
 <a class="practice-cta" href="https://quizforge.ai/?q=Foundation%20Level%20%E2%80%94%20Agile%20Tester%20%28CTFL-AT%29">Practice Foundation Level — Agile Tester (CTFL-AT) on QuizForge</a>
 <section class="editorial" aria-label="Exam guide"><div class="retirement-alert" role="note">
 <p class="retirement-label">Scheduled retirement</p>
@@ -282,7 +309,7 @@ footer a { color: var(--text-muted); }
 </div></section>
 <section class="info"><h3>Exam Details</h3><div class="info-grid"><div class="info-row"><span class="info-label">Question Types</span><span class="info-value">Multiple Choice</span></div><div class="info-row"><span class="info-label">Format</span><span class="info-value">Linear</span></div><div class="info-row"><span class="info-label">Online Proctoring</span><span class="info-value">Available</span></div><div class="info-row"><span class="info-label">ID Requirements</span><span class="info-value">Government-issued photo ID required. Name must match registration exactly. Requirements may vary by national member board.</span></div><div class="info-row"><span class="info-label">Renewal</span><span class="info-value">Not required -- ISTQB certifications do not expire and do not require renewal.</span></div><div class="info-row"><span class="info-label">Prerequisites</span><span class="info-value">ISTQB Certified Tester Foundation Level (CTFL) required</span></div><div class="info-row"><span class="info-label">Retake Policy</span><span class="info-value">Retake policies are set by national member boards. Check with the relevant national board for waiting periods and fees.</span></div><div class="info-row"><span class="info-label">Languages</span><span class="info-value">English, German, French, Spanish, Japanese, Chinese, Korean, Portuguese, Italian, Dutch</span></div></div></section>
 <section class="info"><h3>Official Study Resources</h3><div class="resources"><div class="resource-item"><span class="resource-type">pdf</span><a href="https://www.istqb.org/certifications" rel="nofollow">ISTQB Syllabi (free download)</a> (free)</div><div class="resource-item"><span class="resource-type">practice exam</span><a href="https://www.istqb.org/certifications" rel="nofollow">ISTQB Sample Exam Questions</a> (free)</div></div></section>
-<div class="source-link"><a href="https://www.istqb.org/certifications" rel="nofollow">Register for this exam</a> | <a href="https://www.istqb.org/certifications/foundation-level-agile-tester" rel="nofollow">Source</a></div>
+<div class="source-link"><a href="https://www.istqb.org/certifications" rel="nofollow">Register for this exam</a> | <a href="https://www.istqb.org/certifications/foundation-level-agile-tester" rel="nofollow">View data source</a></div>
 </div>
 <footer>
 <div class="container">

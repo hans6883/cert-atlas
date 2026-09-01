@@ -225,6 +225,33 @@ footer a { color: var(--text-muted); }
 .comparison-table th { background: var(--bg-alt); }
 .methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
 .source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
 </style>
 </head>
 <body>
@@ -285,7 +312,7 @@ footer a { color: var(--text-muted); }
 </div></section>
 <section class="info"><h3>Exam Details</h3><div class="info-grid"><div class="info-row"><span class="info-label">Question Types</span><span class="info-value">Selected-Response (Multiple Choice), Constructed-Response, Essay, Portfolio-Based Performance Assessment</span></div><div class="info-row"><span class="info-label">Format</span><span class="info-value">Computer-based testing at approved testing centers; online proctored options available for some exams</span></div><div class="info-row"><span class="info-label">Online Proctoring</span><span class="info-value">Available</span></div><div class="info-row"><span class="info-label">ID Requirements</span><span class="info-value">Government-issued photo ID required. Name on ID must match registration exactly. Secondary ID may be required at some testing centers.</span></div><div class="info-row"><span class="info-label">Renewal</span><span class="info-value">Required -- Initial teaching credentials are typically valid for 5 years. Renewal requirements vary by state and typically involve continuing education or professional development credits. Contact the relevant state Department of Education for current renewal requirements.</span></div><div class="info-row"><span class="info-label">Retake Policy</span><span class="info-value">Standard 30-day waiting period between failed attempts for NES-administered exams. Some states impose additional restrictions — verify with the relevant state DOE. Performance assessment retake policies vary; contact the assessment provider.</span></div></div></section>
 <section class="info"><h3>Official Study Resources</h3><div class="resources"><div class="resource-item"><span class="resource-type">study guide</span><a href="https://www.nestest.com/" rel="nofollow">NES Exam Preparation Materials</a> (free)</div><div class="resource-item"><span class="resource-type">study guide</span><a href="https://gace.ets.org/prepare/" rel="nofollow">GACE Preparation Materials</a> (free)</div></div></section>
-<div class="source-link"><a href="https://www.ctcexams.nesinc.com/" rel="nofollow">Source</a></div>
+<div class="source-link"><a href="https://www.ctcexams.nesinc.com/" rel="nofollow">View data source</a></div>
 </div>
 <footer>
 <div class="container">
