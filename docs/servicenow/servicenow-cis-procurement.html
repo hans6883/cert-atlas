@@ -225,6 +225,33 @@ footer a { color: var(--text-muted); }
 .comparison-table th { background: var(--bg-alt); }
 .methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
 .source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
 </style>
 </head>
 <body>
@@ -277,7 +304,7 @@ footer a { color: var(--text-muted); }
 </div></section>
 <section class="info"><h3>Exam Details</h3><div class="info-grid"><div class="info-row"><span class="info-label">Question Types</span><span class="info-value">Multiple Choice, Multiple Select</span></div><div class="info-row"><span class="info-label">Format</span><span class="info-value">Linear</span></div><div class="info-row"><span class="info-label">Online Proctoring</span><span class="info-value">Available</span></div><div class="info-row"><span class="info-label">ID Requirements</span><span class="info-value">One valid, government-issued photo ID with full name and photo. Name must match exactly as registered.</span></div><div class="info-row"><span class="info-label">Renewal</span><span class="info-value">Required -- Pass a delta maintenance exam after each major ServiceNow release (approximately twice per year). Delta exams are shorter and free for certified candidates.</span></div><div class="info-row"><span class="info-label">Prerequisites</span><span class="info-value">CSA certification recommended (recommended)</span></div><div class="info-row"><span class="info-label">Retake Policy</span><span class="info-value">7-day waiting period after first failed attempt. Full exam fee required for retake. Certifications must be maintained via delta exams after each major release.</span></div><div class="info-row"><span class="info-label">Languages</span><span class="info-value">English</span></div></div></section>
 <section class="info"><h3>Official Study Resources</h3><div class="resources"><div class="resource-item"><span class="resource-type">online course</span><a href="https://nowlearning.servicenow.com/" rel="nofollow">ServiceNow Training &amp; Certification Portal</a></div></div></section>
-<div class="source-link"><a href="https://home.pearsonvue.com/servicenow" rel="nofollow">Register for this exam</a> | <a href="https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-procurement.html" rel="nofollow">Source</a></div>
+<div class="source-link"><a href="https://home.pearsonvue.com/servicenow" rel="nofollow">Register for this exam</a> | <a href="https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-procurement.html" rel="nofollow">View data source</a></div>
 </div>
 <footer>
 <div class="container">

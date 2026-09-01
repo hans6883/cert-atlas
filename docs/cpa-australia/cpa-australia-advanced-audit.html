@@ -225,6 +225,33 @@ footer a { color: var(--text-muted); }
 .comparison-table th { background: var(--bg-alt); }
 .methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
 .source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
 </style>
 </head>
 <body>
@@ -293,7 +320,7 @@ footer a { color: var(--text-muted); }
 </div></section>
 <section class="info"><h3>Exam Details</h3><div class="info-grid"><div class="info-row"><span class="info-label">Question Types</span><span class="info-value">Multiple Choice, Extended Response, Case Study Scenarios</span></div><div class="info-row"><span class="info-label">Format</span><span class="info-value">Online, open book, 3-hour computer-based exam with scenario-based questions</span></div><div class="info-row"><span class="info-label">Online Proctoring</span><span class="info-value">Available</span></div><div class="info-row"><span class="info-label">ID Requirements</span><span class="info-value">Valid government-issued photo ID required. Name must match CPA Australia membership registration.</span></div><div class="info-row"><span class="info-label">Renewal</span><span class="info-value">Required -- CPA designation requires 3 years of relevant work experience for conferral. Ongoing: CPA Australia members must complete 40 hours of CPD annually (20 hours verifiable) to maintain CPA designation. Annual membership renewal required.</span></div><div class="info-row"><span class="info-label">Prerequisites</span><span class="info-value">CPA Australia candidate enrolment and foundation requirements required.</span></div><div class="info-row"><span class="info-label">Retake Policy</span><span class="info-value">Candidates who fail may re-enrol in the segment and resit. Full segment fee applies for re-enrolment. No limit on the number of attempts per segment.</span></div><div class="info-row"><span class="info-label">Languages</span><span class="info-value">English</span></div></div></section>
 <section class="info"><h3>Official Study Resources</h3><div class="resources"><div class="resource-item"><span class="resource-type">official study guide</span><a href="https://www.cpaaustralia.com.au/cpa-program/study" rel="nofollow">CPA Program Learning Materials (online)</a></div></div></section>
-<div class="source-link"><a href="https://www.cpaaustralia.com.au/cpa-program/enrolment-and-exams" rel="nofollow">Register for this exam</a> | <a href="https://www.cpaaustralia.com.au/cpa-program/subjects/advanced-audit-and-assurance" rel="nofollow">Source</a></div>
+<div class="source-link"><a href="https://www.cpaaustralia.com.au/cpa-program/enrolment-and-exams" rel="nofollow">Register for this exam</a> | <a href="https://www.cpaaustralia.com.au/cpa-program/subjects/advanced-audit-and-assurance" rel="nofollow">View data source</a></div>
 </div>
 <footer>
 <div class="container">
