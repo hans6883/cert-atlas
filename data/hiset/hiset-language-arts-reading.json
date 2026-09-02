@@ -5,7 +5,7 @@
   "certifying_body": "HiSET",
   "certification_name": null,
   "version": null,
-  "source_url": "https://hiset.org/wp-content/uploads/2025/05/hiset-technical-manual.pdf",
+  "source_url": "https://hiset.org/s/pdf/HiSET_Test_at_a_Glance.pdf",
   "passing_score": 8,
   "passing_score_scale": null,
   "total_questions": 40,
@@ -43,14 +43,14 @@
   "domains": [
     {
       "id": "1",
-      "name": "Literary texts",
-      "weight_percent": 60.0,
+      "name": "Literary Texts",
+      "weight_percent": 40.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Informational texts",
-      "weight_percent": 40.0,
+      "name": "Informational Texts",
+      "weight_percent": 60.0,
       "objectives": []
     }
   ],
