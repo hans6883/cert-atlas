@@ -5,10 +5,10 @@
   "certifying_body": "NCCER",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.nccer.org/curriculum/electrical",
+  "source_url": "https://www.nccer.org/media/2024/03/Electrical_11e_L1_Level-Test.pdf",
   "passing_score": 70,
   "passing_score_scale": null,
-  "total_questions": null,
+  "total_questions": 103,
   "question_types": [],
   "exam_format": "Written knowledge test (multiple-choice) + hands-on performance verification by instructor",
   "duration_minutes": 60,
@@ -38,38 +38,74 @@
   "domains": [
     {
       "id": "1",
-      "name": "Orientation to the Electrical Trade",
-      "weight_percent": 10.0,
+      "name": "Occupational Overview: The Electrical Industry",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Electrical Theory",
-      "weight_percent": 25.0,
+      "name": "Safety For Electricians",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Introduction to the NEC",
-      "weight_percent": 20.0,
+      "name": "Introduction to Electrical Circuits",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Electrical Safety",
-      "weight_percent": 20.0,
+      "name": "Electrical Theory",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Introduction to Electrical Drawings",
-      "weight_percent": 15.0,
+      "name": "Introduction to the National Electrical Code®",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "6",
+      "name": "Outlet, Device, Pull, and Junction Boxes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Hand Bending",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Wireways, Raceways, and Fittings",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Conductors and Cables",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Basic Electrical Construction Documents",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
       "name": "Residential Wiring",
-      "weight_percent": 10.0,
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Electrical Test Equipment",
+      "weight_percent": null,
       "objectives": []
     }
   ],

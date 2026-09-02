@@ -5,7 +5,7 @@
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.prometric.com/dsst",
+  "source_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/PrinciplesOfPublicSpeaking.pdf",
   "passing_score": 400,
   "passing_score_scale": null,
   "total_questions": 100,
@@ -32,44 +32,50 @@
   "domains": [
     {
       "id": "1",
-      "name": "Foundations",
-      "weight_percent": null,
+      "name": "Ethical, Social, and Theoretical Considerations of Public Speaking",
+      "weight_percent": 9.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Audience Analysis",
-      "weight_percent": null,
+      "name": "Audience Analysis, Adaptation and Effect",
+      "weight_percent": 15.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Research",
-      "weight_percent": null,
+      "name": "Topics and Purposes of Speeches",
+      "weight_percent": 9.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Organization",
-      "weight_percent": null,
+      "name": "Structure/Organization",
+      "weight_percent": 17.0,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Delivery",
-      "weight_percent": null,
+      "name": "Content",
+      "weight_percent": 17.0,
       "objectives": []
     },
     {
       "id": "6",
-      "name": "Listening",
-      "weight_percent": null,
+      "name": "Research",
+      "weight_percent": 11.0,
       "objectives": []
     },
     {
       "id": "7",
-      "name": "Special Speeches",
-      "weight_percent": null,
+      "name": "Language and Style",
+      "weight_percent": 9.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Delivery",
+      "weight_percent": 13.0,
       "objectives": []
     }
   ],

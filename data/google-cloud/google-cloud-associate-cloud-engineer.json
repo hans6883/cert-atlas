@@ -5,7 +5,7 @@
   "certifying_body": "Google Cloud",
   "certification_name": null,
   "version": null,
-  "source_url": "https://cloud.google.com/learn/certification/cloud-engineer",
+  "source_url": "https://cloud.google.com/learn/certification/guides/cloud-engineer",
   "passing_score": null,
   "passing_score_scale": null,
   "total_questions": 50,
@@ -50,33 +50,31 @@
     {
       "id": "1",
       "name": "Setting up a cloud solution environment",
-      "weight_percent": 23.0,
-      "weight_min": null,
-      "weight_max": null,
+      "weight_percent": 20.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Planning and implementing a cloud solution",
-      "weight_percent": 30.0,
-      "weight_min": null,
-      "weight_max": null,
+      "name": "Planning and configuring a cloud solution",
+      "weight_percent": 17.5,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Ensuring successful operation of a cloud solution",
-      "weight_percent": 27.0,
-      "weight_min": null,
-      "weight_max": null,
+      "name": "Deploying and implementing a cloud solution",
+      "weight_percent": 25.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Configuring access and security",
+      "name": "Ensuring successful operation of a cloud solution",
       "weight_percent": 20.0,
-      "weight_min": null,
-      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Configuring access and security",
+      "weight_percent": 17.5,
       "objectives": []
     }
   ],

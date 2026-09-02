@@ -5,7 +5,7 @@
   "certifying_body": "NABP",
   "certification_name": null,
   "version": null,
-  "source_url": "https://nabp.pharmacy/programs/naplex/",
+  "source_url": "https://nabp.pharmacy/wp-content/uploads/NAPLEX-Content-Outline.pdf",
   "passing_score": 75,
   "passing_score_scale": "Scaled scores; NAPLEX scale 0–150 (passing 75), MPJE scale 0–100 (passing 75)",
   "total_questions": 250,
@@ -53,26 +53,32 @@
   "domains": [
     {
       "id": "1",
-      "name": "Pharmacotherapy and Patient Assessment",
-      "weight_percent": null,
+      "name": "Foundational Knowledge for Pharmacy Practice",
+      "weight_percent": 25.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Drug Information, Pharmacy Practice, and Patient Safety",
-      "weight_percent": null,
+      "name": "Medication Use Process (Prescribing, Transcribing and Documenting, Dispensing, Administering, and Monitoring)",
+      "weight_percent": 25.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Compounding, Dispensing, and Medication Management",
-      "weight_percent": null,
+      "name": "Person-Centered Assessment and Treatment Planning",
+      "weight_percent": 40.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Calculations and Pharmaceutical Sciences",
-      "weight_percent": null,
+      "name": "Professional Practice",
+      "weight_percent": 5.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Pharmacy Management and Leadership",
+      "weight_percent": 5.0,
       "objectives": []
     }
   ],

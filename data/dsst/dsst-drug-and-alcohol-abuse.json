@@ -5,7 +5,7 @@
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.prometric.com/dsst",
+  "source_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Substance-Abuse-Fact-Sheet-1.pdf",
   "passing_score": 400,
   "passing_score_scale": null,
   "total_questions": 100,
@@ -32,50 +32,86 @@
   "domains": [
     {
       "id": "1",
-      "name": "Pharmacology Basics",
-      "weight_percent": null,
+      "name": "Overview of Substance Abuse and Dependence",
+      "weight_percent": 13.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Alcohol",
-      "weight_percent": null,
+      "name": "Classification of Drugs",
+      "weight_percent": 4.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Stimulants",
-      "weight_percent": null,
+      "name": "Pharmacological and Neurophysiological Principles",
+      "weight_percent": 6.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Depressants",
-      "weight_percent": null,
+      "name": "Alcohol",
+      "weight_percent": 13.0,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Hallucinogens",
-      "weight_percent": null,
+      "name": "Anti-Anxiety, Sedative, and Hypnotics",
+      "weight_percent": 6.0,
       "objectives": []
     },
     {
       "id": "6",
-      "name": "Treatment",
-      "weight_percent": null,
+      "name": "Inhalants",
+      "weight_percent": 6.0,
       "objectives": []
     },
     {
       "id": "7",
-      "name": "Prevention",
-      "weight_percent": null,
+      "name": "Tobacco and Nicotine",
+      "weight_percent": 10.0,
       "objectives": []
     },
     {
       "id": "8",
-      "name": "Policy",
-      "weight_percent": null,
+      "name": "Psychomotor Stimulants",
+      "weight_percent": 6.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Opioids",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Cannabinoids",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Hallucinogens",
+      "weight_percent": 7.0,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Other Drugs of Abuse",
+      "weight_percent": 4.0,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Antipsychotic Drugs",
+      "weight_percent": 3.0,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Antidepressants and Mood Stabilizers",
+      "weight_percent": 4.0,
       "objectives": []
     }
   ],

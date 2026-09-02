@@ -5,7 +5,7 @@
   "certifying_body": "GIAC",
   "certification_name": "GIAC Certified Forensic Examiner",
   "version": null,
-  "source_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
+  "source_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe",
   "passing_score": 73,
   "passing_score_scale": "percentage",
   "total_questions": 115,
@@ -57,27 +57,63 @@
   },
   "domains": [
     {
-      "id": "Windows forensics and data triage",
-      "name": "Windows forensics and data triage",
+      "id": "1",
+      "name": "Browser Forensic Artifacts",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
       "objectives": []
     },
     {
-      "id": "Windows Registry forensics, USB devices, shell items, email forensics, and log analysis",
-      "name": "Windows Registry forensics, USB devices, shell items, email forensics, and log analysis",
+      "id": "2",
+      "name": "Browser Structure and Analysis",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
       "objectives": []
     },
     {
-      "id": "Advanced web browser forensics (Chrome, Edge, Firefox)",
-      "name": "Advanced web browser forensics (Chrome, Edge, Firefox)",
+      "id": "3",
+      "name": "Cloud Storage Analysis",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Digital Forensic Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Email Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Event Log Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "File and Program Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Forensic Artifact Techniques",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "System and Device Analysis",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "User Artifact Analysis",
+      "weight_percent": null,
       "objectives": []
     }
   ],

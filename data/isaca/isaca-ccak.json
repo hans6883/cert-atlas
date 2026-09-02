@@ -5,8 +5,8 @@
   "certifying_body": "ISACA",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.isaca.org/credentialing/ccak",
-  "passing_score": null,
+  "source_url": "https://www.isaca.org/credentialing/-/media/e3df044bfcf54e6d965901017a3bd8f3.ashx",
+  "passing_score": "70%",
   "passing_score_scale": "Scaled score",
   "total_questions": 76,
   "question_types": [
@@ -54,44 +54,56 @@
   "domains": [
     {
       "id": "1",
-      "name": "Cloud Concepts, Architecture, and Design",
-      "weight_percent": 15.0,
+      "name": "Cloud Governance",
+      "weight_percent": 18.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Cloud Data Security",
-      "weight_percent": 14.0,
+      "name": "Cloud Compliance Program",
+      "weight_percent": 21.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Cloud Platform and Infrastructure Security",
-      "weight_percent": 14.0,
+      "name": "CCM and CAIQ: Goals, Objectives, and Structure",
+      "weight_percent": 12.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Cloud Application Security",
-      "weight_percent": 9.0,
+      "name": "A Threat Analysis Methodology for Cloud Using CCM",
+      "weight_percent": 5.0,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Cloud Security Operations",
-      "weight_percent": 12.0,
+      "name": "Evaluating a Cloud Compliance Program",
+      "weight_percent": 9.0,
       "objectives": []
     },
     {
       "id": "6",
-      "name": "Legal, Risk, and Compliance",
-      "weight_percent": 12.0,
+      "name": "Cloud Auditing",
+      "weight_percent": 15.0,
       "objectives": []
     },
     {
       "id": "7",
-      "name": "Cloud Auditing Knowledge and Skills",
-      "weight_percent": 24.0,
+      "name": "CCM: Auditing Controls",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Continuous Assurance and Compliance",
+      "weight_percent": 7.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "STAR Program",
+      "weight_percent": 5.0,
       "objectives": []
     }
   ],

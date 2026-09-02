@@ -5,7 +5,7 @@
   "certifying_body": "FAA Pilot Certification",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.faa.gov/training_testing/testing/test_questions/",
+  "source_url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/acs/atp_acs.pdf",
   "passing_score": 70,
   "passing_score_scale": "Percentage (70% passing for all knowledge tests)",
   "total_questions": 125,
@@ -45,37 +45,91 @@
   "domains": [
     {
       "id": "1",
-      "name": "Advanced Aerodynamics and High-Altitude Operations",
+      "name": "Aerodynamics",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Transport Category Aircraft Systems",
+      "name": "Aeronautical Decision Making",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Air Carrier Operations and CRM",
+      "name": "Air Carrier Operations",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "High-Altitude Meteorology",
+      "name": "Air Traffic Control Procedures",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Navigation Systems and RNAV",
+      "name": "Aircraft Performance",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "6",
-      "name": "FARs Part 121/135/61",
+      "name": "Crew Resource Management (CRM)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Human Factors",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Leadership / Professional Development / Safety Culture",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Meteorology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "National Weather Service",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Navigation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Regulations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Weather / Weather Charts",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Weight and Balance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "Windshear / Turbulence",
       "weight_percent": null,
       "objectives": []
     }

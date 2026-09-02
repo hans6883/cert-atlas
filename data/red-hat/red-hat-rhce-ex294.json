@@ -79,42 +79,60 @@
     },
     {
       "id": "5",
-      "name": "Run playbooks",
+      "name": "Create and distribute SSH keys to managed nodes",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "6",
-      "name": "Perform basic source control operations using Git",
+      "name": "Configure privilege escalation on managed nodes",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "7",
-      "name": "Be familiar with Visual Studio Code (VS Code) and be able to perform the following tasks from within the editor:",
+      "name": "Deploy files to managed nodes",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "8",
-      "name": "Create Ansible plays and playbooks",
+      "name": "Run playbooks",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "9",
-      "name": "Use roles and Ansible Content Collections",
+      "name": "Perform basic source control operations using Git",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "10",
-      "name": "Automate standard RHCSA tasks using Ansible modules that work with:",
+      "name": "Be familiar with Visual Studio Code (VS Code) and be able to perform the following tasks from within the editor:",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "11",
+      "name": "Create Ansible plays and playbooks",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Use roles and Ansible Content Collections",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Automate standard RHCSA tasks using Ansible modules that work with:",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
       "name": "Manage content",
       "weight_percent": null,
       "objectives": []

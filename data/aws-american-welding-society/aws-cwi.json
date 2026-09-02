@@ -5,8 +5,8 @@
   "certifying_body": "AWS - American Welding Society",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.aws.org/certification/certifiedweldinginspector",
-  "passing_score": null,
+  "source_url": "https://pubs.aws.org/Download_PDFS/B5.1-2025-Final-Web_PV.pdf",
+  "passing_score": "72% on each exam part",
   "passing_score_scale": "Pass/fail; specific passing thresholds not publicly disclosed",
   "total_questions": null,
   "question_types": [
@@ -54,20 +54,140 @@
   "domains": [
     {
       "id": "1",
-      "name": "Welding Inspection Fundamentals",
-      "weight_percent": 33.0,
+      "name": "Fundamentals Examination",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Welding Processes and Metallurgy",
-      "weight_percent": 33.0,
+      "name": "Definitions and Terminology",
+      "weight_percent": null,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Codes and Standards",
-      "weight_percent": 34.0,
+      "name": "Joining and Cutting Processes",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Symbols—Welding and NDE",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Visual Examination",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Welding Application and Control",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "NDE Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Base Materials, Heat Treatments & Metallurgy (Ferrous Materials)",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Welding Related Calculations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Duties and Responsibilities",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Destructive Testing Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Practical Applications Examination",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Welding Inspection and Discontinuities",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Procedure and Performance Qualifications",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "Destructive Testing and Properties",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "16",
+      "name": "NDE Application",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "17",
+      "name": "Utilization of Specifications and Drawings",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "18",
+      "name": "Code Applications Examination",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "19",
+      "name": "Qualification",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "20",
+      "name": "Fabrication",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "21",
+      "name": "Inspection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "22",
+      "name": "Reports and Records",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "23",
+      "name": "Material and Design",
+      "weight_percent": null,
       "objectives": []
     }
   ],

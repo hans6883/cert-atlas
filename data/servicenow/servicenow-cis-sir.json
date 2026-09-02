@@ -5,7 +5,7 @@
   "certifying_body": "ServiceNow",
   "certification_name": null,
   "version": "Updated January 2026",
-  "source_url": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-secops.html",
+  "source_url": "https://www.servicenow.com/community/s/cgfwn76974/attachments/cgfwn76974/security-operations-forum/6118/1/blueprint-cis-sir-certification.pdf",
   "passing_score": null,
   "passing_score_scale": "Scaled score; the cut score is not publicly disclosed and is not always 70%.",
   "total_questions": 60,
@@ -48,66 +48,57 @@
   "domains": [
     {
       "id": "1",
-      "name": "Security Incident Response Overview and Data Visualization",
-      "weight_percent": 15,
-      "objectives": [
-        "Introducing Security Incident Response",
-        "Data Visualization",
-        "Security Incident Response - Components"
-      ]
+      "name": "Security Incident Response Overview",
+      "weight_percent": 10.0,
+      "objectives": []
     },
     {
       "id": "2",
-      "name": "Security Incident Creation and Threat Intelligence",
-      "weight_percent": 14,
-      "objectives": [
-        "Explore How to Create Security Incidents",
-        "Major Security Incident Management",
-        "Understanding Threat Intelligence",
-        "MITRE ATT&CK Framework"
-      ]
+      "name": "Create Security Incidents",
+      "weight_percent": 20.0,
+      "objectives": []
     },
     {
       "id": "3",
-      "name": "Security Incident and Threat Intelligence Integrations",
-      "weight_percent": 14,
-      "objectives": [
-        "ServiceNow Store and Share",
-        "Managing Pre-Built Integrations",
-        "Creating Custom Integrations",
-        "Threat Intelligence Service Center"
-      ]
+      "name": "Security Incident Response Management",
+      "weight_percent": 20.0,
+      "objectives": []
     },
     {
       "id": "4",
-      "name": "Security Incident Response Management",
-      "weight_percent": 15,
-      "objectives": [
-        "Security Incident Response Workspace",
-        "Standard Automated Assignment Options and Escalation Paths",
-        "Security Tags",
-        "Process Definitions and Selection"
-      ]
+      "name": "Post Incident Response",
+      "weight_percent": 20.0,
+      "objectives": []
     },
     {
       "id": "5",
-      "name": "Risk Calculations and Post Incident Response",
-      "weight_percent": 12,
-      "objectives": [
-        "Security Incident Calculator Groups and Risk Scores",
-        "Post Incident Reviews",
-        "Event Management"
-      ]
+      "name": "Security Incident Integrations",
+      "weight_percent": 15.0,
+      "objectives": []
     },
     {
       "id": "6",
       "name": "Automation and Standard Processes",
-      "weight_percent": 30,
-      "objectives": [
-        "Automate Security Incident Response Overview",
-        "Security Incident Process Automation Using Playbooks and Runbooks",
-        "User Reported Phishing"
-      ]
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Data Visualization",
+      "weight_percent": 5.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Madrid Security Incident Response DELTA",
+      "weight_percent": 0.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Capstone Project",
+      "weight_percent": 0.0,
+      "objectives": []
     }
   ],
   "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=3e804dd9977dfe90e7b47b70f053afb6",
