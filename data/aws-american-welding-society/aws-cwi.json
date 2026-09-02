@@ -218,5 +218,330 @@
     "certified welding inspector",
     "welding inspector"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-welding-inspector-cwi-2ndx16"
+  "practice_url": "https://quizforge.ai/tests/certified-welding-inspector-cwi-2ndx16",
+  "editorial": {
+    "meta_description": "Earn the AWS Certified Welding Inspector credential, covering fundamentals, terminology, welding processes, symbols, visual examination, application control.",
+    "overview": "The Certified Welding Inspector (CWI) exam, administered by the American Welding Society, validates expertise across a broad spectrum of welding knowledge. Candidates must demonstrate proficiency in fundamentals, processes, inspection techniques, nondestructive testing, metallurgy, calculations, qualifications, code applications, and reporting. The exam is delivered as a linear, computer‑based test at AWS‑approved or Pearson VUE centers.",
+    "who_should_take": "Professionals who perform or supervise welding inspections, such as welding engineers, quality‑control supervisors, fabricators, and safety officers with several years of hands‑on welding or inspection experience, should pursue the CWI certification.",
+    "skills_summary": [
+      "Welding fundamentals",
+      "Process terminology",
+      "Inspection symbols",
+      "Nondestructive testing",
+      "Metallurgy calculations",
+      "Qualification procedures",
+      "Code application",
+      "Reporting and records"
+    ],
+    "preparation_strategy": "Review AWS study guides and the latest welding codes, then practice with sample questions that mirror the multiple‑choice and open‑book sections. Build a reference sheet for code tables, rehearse visual examination techniques, and solve calculation problems daily. Schedule mock exams in the same linear format to manage time and become comfortable with the computer interface.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the basic principles of welding, including safety, equipment basics, and introductory concepts that form the foundation for all subsequent welding knowledge and practice within the industry.",
+        "study_focus": [
+          "Basic welding concepts",
+          "Safety principles"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Definitions and terminology focus on the standardized language used throughout the welding industry, ensuring candidates can accurately interpret specifications, codes, technical documents, and communication requirements across diverse projects and organizations.",
+        "study_focus": [
+          "Key terms",
+          "Code vocabulary"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Joining and cutting processes examine the various methods of fusing and separating metals, including arc welding, gas welding, and cutting techniques, while emphasizing appropriate selection, parameters, and safety considerations for each application.",
+        "study_focus": [
+          "Process selection",
+          "Operational parameters"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Symbols—Welding and NDE teaches the interpretation of welding symbols and nondestructive examination (NDE) symbols on drawings, providing essential knowledge for accurate fabrication and inspection across a range of projects.",
+        "study_focus": [
+          "Symbol identification",
+          "Drawing interpretation"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Visual examination addresses the techniques for inspecting welds with the naked eye or magnification, focusing on surface discontinuities, acceptance criteria, and systematic documentation to ensure consistent quality control.",
+        "study_focus": [
+          "Inspection methods",
+          "Acceptance criteria"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "Welding application and control explores how welding processes are applied in production, including parameter control, joint design, quality assurance measures, and the integration of procedural standards to achieve reliable outcomes.",
+        "study_focus": [
+          "Parameter control",
+          "Joint design"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "NDE fundamentals introduce the basic concepts of nondestructive testing methods such as radiography, ultrasonic, magnetic particle, and liquid penetrant testing, highlighting their principles, equipment, and appropriate use cases.",
+        "study_focus": [
+          "Method basics",
+          "Equipment use"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "Base Materials, Heat Treatments & Metallurgy (Ferrous Materials) covers the properties of ferrous metals, heat‑treatment effects, microstructural changes, and how these influence welding performance, defect susceptibility, and post‑weld treatment requirements.",
+        "study_focus": [
+          "Material properties",
+          "Heat‑treatment effects"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "Welding related calculations focus on the arithmetic needed for joint design, heat input, preheat and interpass temperatures, and other quantitative aspects such as filler metal sizing and stress analysis.",
+        "study_focus": [
+          "Heat‑input calculation",
+          "Preheat requirements"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "Duties and responsibilities outline the roles of a welding inspector, including planning, supervising, documenting, ensuring compliance with codes and specifications, training personnel, and maintaining quality assurance throughout projects.",
+        "study_focus": [
+          "Inspector duties",
+          "Documentation standards"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "11",
+        "summary": "Destructive testing fundamentals describe the purpose and execution of tests that permanently alter or damage specimens to evaluate mechanical properties, including tensile, bend, impact, and fatigue assessments.",
+        "study_focus": [
+          "Test types",
+          "Result interpretation"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "12",
+        "summary": "Practical applications examination assesses the ability to apply theoretical knowledge to real‑world welding scenarios, including problem solving, decision making, procedural selection, and effective implementation safely under production constraints.",
+        "study_focus": [
+          "Scenario analysis",
+          "Practical decision making"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "13",
+        "summary": "Welding inspection and discontinuities cover identification, classification, and evaluation of weld defects, as well as appropriate corrective actions, repair techniques, and documentation requirements throughout the quality assurance process.",
+        "study_focus": [
+          "Defect classification",
+          "Corrective measures"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "14",
+        "summary": "Procedure and performance qualifications detail the development, testing, and approval of welding procedures and the qualification of welders and operators, emphasizing record keeping, repeatability, and compliance with applicable codes.",
+        "study_focus": [
+          "Procedure development",
+          "Qualification testing"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "15",
+        "summary": "Destructive testing and properties examine how destructive tests reveal material properties such as tensile strength, hardness, impact resistance, and fatigue life, providing essential data for design and qualification decisions.",
+        "study_focus": [
+          "Property measurement",
+          "Test interpretation"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "16",
+        "summary": "NDE application focuses on selecting and applying appropriate nondestructive examination methods for specific welds and service conditions, considering material type, defect risk, and inspection accessibility throughout the inspection process.",
+        "study_focus": [
+          "Method selection",
+          "Application guidelines"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "17",
+        "summary": "Utilization of specifications and drawings teaches how to read and apply welding specifications, blueprints, and engineering drawings in inspection work, ensuring accurate interpretation and compliance with design intent.",
+        "study_focus": [
+          "Blueprint reading",
+          "Specification compliance"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "18",
+        "summary": "Code applications examination evaluates knowledge of major welding codes and standards, and how to apply them to real‑world projects, emphasizing code selection, interpretation, and documentation for compliance throughout the inspection process.",
+        "study_focus": [
+          "Code interpretation",
+          "Standard application"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "19",
+        "summary": "Qualification addresses the processes for achieving and maintaining CWI status, including documented experience requirements, examination eligibility, continuing education, and renewal obligations that ensure ongoing professional competence through the certification lifecycle.",
+        "study_focus": [
+          "Eligibility criteria",
+          "Renewal process"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "20",
+        "summary": "Fabrication covers the practical aspects of constructing welded assemblies, including fit‑up, sequencing, welding techniques, quality control during production, and coordination with design and inspection teams throughout the project.",
+        "study_focus": [
+          "Fit‑up techniques",
+          "Production sequencing"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "21",
+        "summary": "Inspection focuses on systematic approaches to examine welds, verify compliance, document findings, and communicate results, supporting continuous improvement and adherence to specifications throughout fabrication in the production process.",
+        "study_focus": [
+          "Inspection planning",
+          "Finding documentation"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "22",
+        "summary": "Reports and records detail the creation, maintenance, and archiving of inspection reports, test records, and certification documents, ensuring traceability, accessibility, and compliance with regulatory requirements for future audits.",
+        "study_focus": [
+          "Report writing",
+          "Record retention"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      },
+      {
+        "domain_id": "23",
+        "summary": "Material and design examines how material selection and design considerations affect weldability, performance, and inspection requirements, highlighting the impact of alloy composition, thickness, and joint geometry on final product quality.",
+        "study_focus": [
+          "Material selection",
+          "Design impact"
+        ],
+        "source_ids": [
+          "aws-cwi-study"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, bring two forms of ID and your AWS membership card if applicable. Confirm the testing station is set for the linear format, and keep any permitted reference material ready for the open‑book code section.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "AWS does not publish the exact number of questions. The Certified Welding Inspector exam is delivered as a linear, computer‑based test that includes multiple‑choice items and an open‑book code section."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "A candidate must achieve at least 72% on each part of the exam to pass. The precise scoring algorithm is not publicly disclosed beyond this percentage requirement."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The official exam duration is not specified by AWS, so candidates should allocate sufficient time to complete all sections of the linear, computer‑based format, including both multiple‑choice and open‑book code portions."
+      },
+      {
+        "question_title": "What does the exam cost?",
+        "answer_text": "The exam fee is $895 for AWS members and $1,195 for non‑members. Verify current fees on the AWS website before registering, and ensure you understand any applicable refund policy."
+      }
+    ],
+    "methodology": {
+      "summary": "Content was assembled by extracting verified facts, official AWS documentation, and OSHA safety standards, then organized into concise editorial sections following the required schema.",
+      "source_ids": [
+        "aws-cwi-study"
+      ]
+    },
+    "source_ids": [
+      "aws-cwi-study",
+      "aws-cwi-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "aws-cwi-study",
+      "url": "https://www.aws.org/standards",
+      "title": "AWS - American Welding Society study documentation",
+      "publisher": "AWS - American Welding Society",
+      "source_type": "official_documentation",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:84b9118ae7f201568be057789e6e4bdd8c853ef0c16794fbfa474b4254b26894"
+    },
+    {
+      "id": "aws-cwi-landing",
+      "url": "https://www.aws.org/certification/certifiedweldinginspector",
+      "title": "AWS - American Welding Society certification page",
+      "publisher": "AWS - American Welding Society",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:579918ed833a7707d0a2d364431b990b5a35006cbcb62da986aae3440cd8b9d3"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T21:45:00+00:00"
+  }
 }

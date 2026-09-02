@@ -114,5 +114,141 @@
     "nurse executive board certified",
     "nurse executive board certified ne-bc"
   ],
-  "practice_url": "https://quizforge.ai/?q=Nurse%20Executive%2C%20Board%20Certified%20%28NE-BC%29"
+  "practice_url": "https://quizforge.ai/tests/nurse-executive-board-certified-ne-bc-344be4",
+  "editorial": {
+    "meta_description": "The ANCC Nurse Executive, Board Certified (NE-BC) exam tests communication, health knowledge, leadership and skills with 175 questions in 210 minutes.",
+    "overview": "Administered by the American Nurses Credentialing Center, the Nurse Executive, Board Certified (NE-BC) credential validates senior nursing leaders’ expertise across four domains: Communication and Relationship Building, Knowledge of the Healthcare Environment, Leadership, and Business Skills. The linear, multiple-choice exam consists of 175 items completed in 210 minutes. A scaled score of 350 (out of 500) is required to earn the five-year certification.",
+    "who_should_take": "Current nurse executives, chief nursing officers, directors of nursing, and senior nurse managers who oversee clinical operations, strategic planning, and financial stewardship should pursue NE-BC to demonstrate executive competence within healthcare organizations.",
+    "skills_summary": [
+      "Effective communication",
+      "Healthcare policy insight",
+      "Strategic leadership",
+      "Financial management"
+    ],
+    "preparation_strategy": "Review the ANCC certification handbook and focus on each domain’s key concepts. Use practice questions to become comfortable with the linear, multiple-choice format. Allocate study time to cover communication strategies, regulatory environment, leadership models, and business finance. Join a study group or forum for peer discussion, and schedule a full-length mock exam to gauge pacing for the 210-minute window.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Focuses on establishing clear, respectful dialogue with staff, patients, and interdisciplinary teams, fostering trust, and using effective listening and feedback techniques to improve collaboration and patient outcomes across clinical settings.",
+        "study_focus": [
+          "active listening",
+          "conflict resolution",
+          "team communication strategies"
+        ],
+        "source_ids": [
+          "ancc-ne-bc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Encompasses understanding of health policy, regulatory standards, quality improvement, patient safety, and the broader organizational context that influences nursing practice and strategic decision‑making including reimbursement models, accreditation requirements, and emerging technology trends.",
+        "study_focus": [
+          "regulatory compliance",
+          "quality improvement frameworks",
+          "patient safety initiatives"
+        ],
+        "source_ids": [
+          "ancc-ne-bc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Addresses executive leadership functions such as vision setting, change management, ethical decision‑making, mentorship, and influencing organizational culture to achieve high‑quality patient care and staff engagement through strategic planning, resource allocation, and performance evaluation.",
+        "study_focus": [
+          "vision and strategy",
+          "change management",
+          "ethical governance"
+        ],
+        "source_ids": [
+          "ancc-ne-bc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Covers financial management, budgeting, data analytics, operations oversight, and business acumen needed for nurse executives to align resources with organizational goals and sustain fiscal responsibility including contract negotiation, risk management, and strategic investment planning.",
+        "study_focus": [
+          "budget development",
+          "financial reporting",
+          "risk management"
+        ],
+        "source_ids": [
+          "ancc-ne-bc-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, bring two forms of ID, and have a printed copy of the exam confirmation. Use the provided calculator if allowed, manage time to answer all 175 questions, and review flagged items before submitting.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The NE-BC exam contains 175 multiple-choice questions. All items must be completed within the allotted 210-minute testing window. The linear format presents each question sequentially, so you cannot return to earlier items."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The exam uses a scaled scoring system from 200 to 500. A score of 350 is required to pass and earn the five-year NE-BC certification."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Test takers have 210 minutes to answer all 175 questions. The exam is administered in a single linear session, and the clock runs continuously from start to finish."
+      },
+      {
+        "question_title": "What is the cost for non-members?",
+        "answer_text": "The non-member fee is $520. ANA members receive a reduced price of $395. Prices are listed on the ANCC certification page and must be paid before scheduling the exam."
+      }
+    ],
+    "methodology": {
+      "summary": "Content was compiled from the ANCC official exam guide, renewal requirements PDF, and certification landing page, extracting exam structure, domain list, pricing, duration, question count, and scoring details.",
+      "source_ids": [
+        "ancc-ne-bc-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "ancc-ne-bc-exam_guide",
+      "ancc-ne-bc-exam_guide-2",
+      "ancc-ne-bc-exam_guide-3",
+      "ancc-ne-bc-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ancc-ne-bc-exam_guide",
+      "url": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:9af5e1588f90bf03be5e769e9ee9ba5e56ed95db59669bd7d1c348f5fb6f09c9"
+    },
+    {
+      "id": "ancc-ne-bc-exam_guide-2",
+      "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:643bbfdb523d18846ce283855e473790e77d3da33bad4c01c812eff041f2be06"
+    },
+    {
+      "id": "ancc-ne-bc-exam_guide-3",
+      "url": "https://www.nursingworld.org/globalassets/organizational-programs/magnet/imr/interim-report-imr.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:fccb2ca44e656e1d5a95ae1f2d80e65d35f2df56b8765196b84a80421cb55455"
+    },
+    {
+      "id": "ancc-ne-bc-landing",
+      "url": "https://www.nursingworld.org/certification/",
+      "title": "ANCC certification page",
+      "publisher": "ANCC",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:55c3dea5c84dd8f9b8fdcdc00fb110460eb04519f8d643362fc71101ff505860"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T21:44:53+00:00"
+  }
 }
