@@ -69,5 +69,129 @@
     "esl writing skills",
     "esl-write"
   ],
-  "practice_url": "https://quizforge.ai/tests/accuplacer-esl-writing"
+  "practice_url": "https://quizforge.ai/tests/accuplacer-esl-writing",
+  "editorial": {
+    "meta_description": "ACCUPLACER ESL Writing (ESL-WRITE) is a 45-minute adaptive test of 25 multiple-choice items covering organization, word use, sentence use, and grammar.",
+    "overview": "ACCUPLACER ESL Writing (exam code ESL-WRITE) is a computer-based, adaptive multiple-choice assessment issued by ACCUPLACER. It contains 25 questions across four content domains and runs for 45 minutes, supporting placement of English language learners into appropriate writing coursework at participating colleges and universities, and helps institutions determine the most suitable instructional level for each learner.",
+    "who_should_take": "English language learners preparing for college placement who need to demonstrate written English conventions. It suits students entering ESL or developmental writing courses rather than working professionals seeking a credential.",
+    "skills_summary": [
+      "Organization and Development",
+      "Word Use",
+      "Sentence Use",
+      "Grammar"
+    ],
+    "preparation_strategy": "Practice timed, 45-minute sessions with 25 multiple-choice items to build pacing. Review each of the four domains separately, focusing on sentence-level grammar, word choice, sentence combining, and paragraph organization. Use official ACCUPLACER sample questions to become familiar with the adaptive format before test day, and improve confidence.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Organization and Development addresses how test takers structure ideas and develop them within a written response. It focuses on paragraph-level coherence and the logical flow of supporting details.",
+        "study_focus": [
+          "Paragraph structure",
+          "Idea development",
+          "Logical sequencing",
+          "Coherence across sentences"
+        ],
+        "source_ids": [
+          "accuplacer-esl-writing-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Word Use covers the selection of appropriate vocabulary and word forms in written English. It tests understanding of meaning, usage, and fit within sentence contexts, as well as collocation and register considerations.",
+        "study_focus": [
+          "Word choice in context",
+          "Vocabulary fit",
+          "Word form selection",
+          "Idiomatic usage"
+        ],
+        "source_ids": [
+          "accuplacer-esl-writing-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Sentence Use focuses on constructing clear, correct sentences and combining ideas effectively. It addresses sentence boundaries, combining, and structural variety, including clause integration, punctuation placement, and varied sentence types to enhance readability.",
+        "study_focus": [
+          "Sentence combining",
+          "Sentence boundaries",
+          "Structural variety",
+          "Clarity of expression"
+        ],
+        "source_ids": [
+          "accuplacer-esl-writing-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Grammar tests the application of standard written English conventions including agreement, verb forms, modifiers, and punctuation. It measures control of grammatical rules across sentence types, such as tense consistency, subject‑verb agreement, and proper use of articles.",
+        "study_focus": [
+          "Subject-verb agreement",
+          "Verb tenses and forms",
+          "Modifiers and comparatives",
+          "Punctuation conventions"
+        ],
+        "source_ids": [
+          "accuplacer-esl-writing-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, bring required identification, and expect a 45-minute computer-based session of 25 adaptive multiple-choice questions. Read each item carefully and manage time across all four domains.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The ACCUPLACER ESL Writing exam contains 25 questions. They are presented as adaptive multiple-choice items on a computer, distributed across the four content domains of the test."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "ACCUPLACER ESL Writing is a placement assessment rather than a pass/fail credential. Institutions use scores to place students into appropriate writing courses; check with ACCUPLACER or your institution for placement thresholds."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam runs for 45 minutes. Test takers should plan to complete all 25 multiple-choice items within this single sitting on the computer-based adaptive platform."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "Pricing is set by the administering institution and is typically free or between $10 and $25. Confirm the exact fee with the college or testing center where you will sit the exam."
+      },
+      {
+        "question_title": "What topics does the exam cover?",
+        "answer_text": "The exam covers four domains: Organization and Development, Word Use, Sentence Use, and Grammar. Together they measure written English conventions needed for college-level writing placement."
+      },
+      {
+        "question_title": "Is the exam computer-based?",
+        "answer_text": "Yes. ACCUPLACER ESL Writing is delivered as an adaptive, computer-based multiple-choice test. The format adjusts question difficulty based on the test taker's responses throughout the 45-minute session."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built from verified exam facts and the official ACCUPLACER ESL Tests documentation. Domain summaries were drawn directly from the four listed content domains.",
+      "source_ids": [
+        "accuplacer-esl-writing-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "accuplacer-esl-writing-exam_guide"
+    ]
+  },
+  "sources": [
+    {
+      "id": "accuplacer-esl-writing-exam_guide",
+      "url": "https://accuplacer.collegeboard.org/accuplacer/pdf/next-generation-test-specifications-manual.pdf",
+      "title": "ACCUPLACER exam guide",
+      "publisher": "ACCUPLACER",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:cee66fb1d4d8bc819664361182f2d96a166563596c011125f62709ad1cea0215"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-01T21:18:00+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 0.8,
+    "scored_at": "2026-09-02T00:53:29+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T00:53:29+00:00"
+  }
 }

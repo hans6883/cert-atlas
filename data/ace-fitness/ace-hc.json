@@ -93,7 +93,150 @@
     "ace health coach",
     "ace health coach ace-hc",
     "ace-hc",
+    "ace-health-coach-ace-hc-2gdhtz",
     "health coach"
   ],
-  "practice_url": "https://quizforge.ai/tests/ace-health-coach-ace-hc-2gdhtz"
+  "practice_url": "https://quizforge.ai/tests/ace-health-coach-ace-hc-2gdhtz",
+  "editorial": {
+    "meta_description": "ACE Health Coach exam assesses client interview techniques, coaching methodology, behavior change strategies, and safety practices for health coaches.",
+    "overview": "ACE Health Coach (ACE-HC) is a current certification offered by ACE Fitness. The exam evaluates knowledge across four domains: client interviews and assessments, health coaching methodology and techniques, behavior change and motivation, and professional conduct, safety, and risk management. It consists of 150 multiple‑choice questions delivered in a linear format, lasting 165 minutes, and requires a score of 500 to pass.",
+    "who_should_take": "Individuals who already work as personal trainers, group fitness instructors, or wellness specialists and want to add formal health‑coaching credentials should consider ACE‑HC. It also suits new graduates in exercise science or nutrition seeking a recognized coaching credential.",
+    "skills_summary": [
+      "Conduct client interviews and assessments",
+      "Apply health coaching techniques",
+      "Facilitate behavior change and motivation",
+      "Maintain professional safety and risk management"
+    ],
+    "preparation_strategy": "Start with ACE’s official study guide and review each domain outline. Use practice quizzes to become comfortable with the linear multiple‑choice format, aiming for strong accuracy. Schedule regular study blocks to cover interview skills, coaching models, behavior‑change theory, and safety protocols. Verify CPR/AED certification early, and take a timed mock exam to gauge pacing for the 165‑minute session.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Focuses on gathering detailed health histories, conducting effective client interviews, and selecting appropriate assessment tools to identify needs, goals, and risk factors. Mastery ensures accurate baseline data for personalized coaching plans.",
+        "study_focus": [
+          "Health history intake",
+          "Interview questioning techniques",
+          "Assessment selection"
+        ],
+        "source_ids": [
+          "ace-hc-landing"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Examines evidence‑based coaching models, goal‑setting frameworks, and communication strategies such as motivational interviewing. Candidates must demonstrate how to structure sessions, apply behavior‑change techniques, and adapt methods to diverse client populations.",
+        "study_focus": [
+          "Coaching models",
+          "Goal‑setting techniques",
+          "Motivational interviewing"
+        ],
+        "source_ids": [
+          "ace-hc-landing"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Addresses theories of motivation, stages of change, and strategies to foster intrinsic drive. Learners explore self‑determination theory, habit formation, and behavior techniques for sustaining client engagement throughout the coaching journey.",
+        "study_focus": [
+          "Motivation theories",
+          "Stages of change",
+          "Habit formation strategies"
+        ],
+        "source_ids": [
+          "ace-hc-landing"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Focuses on ethical standards, client confidentiality, emergency procedures, and risk mitigation. Candidates must know CPR/AED requirements, liability considerations, and how to create safe environments that protect both client and coach.",
+        "study_focus": [
+          "Ethical guidelines",
+          "CPR/AED certification",
+          "Risk mitigation strategies"
+        ],
+        "source_ids": [
+          "ace-hc-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, bring a valid ID and your CPR/AED certification proof. Use the provided calculator, read each question carefully, and flag items to review. Manage time to answer all 150 items within the 165‑minute window.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The ACE‑HC exam contains 150 multiple‑choice questions presented in a linear format. All items must be answered in sequence, and the total score is calculated on a scale where 500 points is the minimum passing mark."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The required passing score for ACE‑HC is 500 points on the exam’s scaled scoring system. Achieving this threshold demonstrates sufficient mastery of client interviewing, coaching methods, behavior‑change principles, and professional safety standards."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The ACE‑HC test lasts 165 minutes. You must complete all 150 questions within this time frame; the exam is administered in a single, uninterrupted session."
+      },
+      {
+        "question_title": "What is the cost of the ACE Health Coach exam?",
+        "answer_text": "The exam‑only fee for ACE‑HC is $249. If you purchase the study‑materials bundle, the total cost rises to $399. CPR/AED certification is required but is not included in the exam fee."
+      }
+    ],
+    "methodology": {
+      "summary": "Content was compiled from ACE Fitness official certification pages, study documentation, and third‑party exam guides. Information was cross‑checked against the provided source IDs and formatted into the required JSON structure.",
+      "source_ids": [
+        "ace-hc-landing"
+      ]
+    },
+    "source_ids": [
+      "ace-hc-landing",
+      "ace-hc-study",
+      "ace-hc-exam_guide",
+      "ace-hc-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ace-hc-landing",
+      "url": "https://www.acefitness.org/fitness-certifications/health-coach-certification/",
+      "title": "ACE Fitness certification page",
+      "publisher": "ACE Fitness",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:4159f258b110b04218c5782d400190230dc054f5880a8080f63a81d35d60fbb7"
+    },
+    {
+      "id": "ace-hc-study",
+      "url": "https://www.acefitness.org/fitness-certifications/",
+      "title": "ACE Fitness study documentation",
+      "publisher": "ACE Fitness",
+      "source_type": "official_documentation",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:d1a05a4aac7f6af2806e3f34fc111d99ba4d795ba86cf94777e952720a68136e"
+    },
+    {
+      "id": "ace-hc-exam_guide",
+      "url": "https://contentcdn.eacefitness.com/email/PDFs/HC/ACE_HealthCoach_Manual_Preview_Chapter6_With_Intro.pdf",
+      "title": "ACE Fitness exam guide (contentcdn.eacefitness.com)",
+      "publisher": "eacefitness.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:cf57905528501753f25ec9f80c117b2787c9083b5c4acfca3fa095b0652d70d5"
+    },
+    {
+      "id": "ace-hc-exam_guide-4",
+      "url": "https://contentcdn.eacefitness.com/MES%20Pre-Approval%20Form.pdf",
+      "title": "ACE Fitness exam guide (contentcdn.eacefitness.com)",
+      "publisher": "eacefitness.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:13ba22c67d0bf9bcdb8da418679681aaf7e3f1bae364da3f032749de4c23617e"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-01T21:44:17+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T00:53:29+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T00:53:29+00:00"
+  }
 }

@@ -102,5 +102,149 @@
     "crhc",
     "rural health coder"
   ],
-  "practice_url": "https://quizforge.ai/?q=Certified%20Rural%20Health%20Clinic%20Coder%20%28CRHC%29"
+  "practice_url": "https://quizforge.ai/?q=Certified%20Rural%20Health%20Clinic%20Coder%20%28CRHC%29",
+  "editorial": {
+    "meta_description": "Earn the Certified Rural Health Clinic Coder credential with AAPC. The CRHC exam tests billing, coding, diagnosis, and compliance knowledge for rural clinics.",
+    "overview": "The Certified Rural Health Clinic Coder (CRHC) exam, offered by AAPC, covers four domains: Rural Health Clinic Billing and Coding, Federally Qualified Health Center Coding, Diagnosis Coding for Rural Settings, and Compliance and Reimbursement. It consists of 100 multiple‑choice questions in a linear format, lasts 340 minutes, and requires a 70 percent passing score. The fee is $399 for non‑members.",
+    "who_should_take": "Billing specialists, health information technicians, and medical coders who work in rural health clinics or federally qualified health centers and need to demonstrate expertise in coding, billing, and compliance should consider the CRHC certification.",
+    "skills_summary": [
+      "Rural clinic billing",
+      "FQHC coding",
+      "Diagnosis coding for rural settings",
+      "Compliance and reimbursement",
+      "Medicare/Medicaid rules",
+      "Patient record management"
+    ],
+    "preparation_strategy": "Study AAPC’s official guide and online training, focus on 42 CFR Part 491 requirements, and complete practice exams to become familiar with the linear question flow. Schedule regular review sessions, use flashcards for code sets, and join AAPC webinars that address rural clinic compliance topics. Additionally, review the latest Medicare Rural Health Clinic guidelines and participate in peer study groups to reinforce your understanding of reimbursement policies.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain addresses the specific billing and coding processes used by rural health clinics, including Medicare and Medicaid reimbursement rules, HCPCS modifiers, and documentation standards required for claim submission.",
+        "study_focus": [
+          "Billing guidelines",
+          "HCPCS code selection",
+          "Medicare reimbursement rules"
+        ],
+        "source_ids": [
+          "aapc-crhc-study"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Focuses on coding practices unique to federally qualified health centers, covering encounter forms, CMS billing policies, and the integration of FQHC services into claim processing, and ensures accurate reimbursement under federal guidelines with proper documentation for each encounter.",
+        "study_focus": [
+          "FQHC billing rules",
+          "Encounter form coding",
+          "CMS policy integration"
+        ],
+        "source_ids": [
+          "aapc-crhc-study-3"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Covers diagnosis coding in rural environments, emphasizing accurate ICD‑10 selection, use of rural-specific modifiers, alignment with federal reporting requirements, and proper documentation of patient conditions to support reimbursement and quality reporting.",
+        "study_focus": [
+          "ICD‑10 selection",
+          "Rural diagnosis modifiers",
+          "Coding compliance"
+        ],
+        "source_ids": [
+          "aapc-crhc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Encompasses compliance, reimbursement, record retention, and emergency preparedness requirements for rural clinics and FQHCs, ensuring adherence to federal, state, and local regulations, as well as audit readiness and continuous quality improvement processes.",
+        "study_focus": [
+          "Regulatory compliance",
+          "Record retention policies",
+          "Emergency preparedness"
+        ],
+        "source_ids": [
+          "aapc-crhc-exam_guide-4"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early with a valid photo ID, bring only approved materials, and use the on‑screen timer to pace yourself. Mark questions you want to review, but remember the linear format prevents returning to earlier items.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The CRHC exam contains 100 multiple‑choice questions presented in a linear format, meaning you cannot revisit a question once you have answered it. All questions must be completed within the allotted time."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "A score of 70 percent or higher is required to pass the Certified Rural Health Clinic Coder exam. With 100 questions, you need at least 70 correct answers to achieve a passing result."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam lasts 340 minutes, which is a little over five and a half hours. The time is continuous, so plan your pacing to answer all 100 questions within the allotted period."
+      },
+      {
+        "question_title": "What is the cost of the CRHC exam?",
+        "answer_text": "The exam fee is $399 for non‑members of AAPC. Members receive a reduced price of $299. Fees are paid when you schedule the exam through the AAPC website."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was compiled from AAPC’s official exam guide, study documentation, and practice‑exam resources, cross‑referenced with the eCFR Part 491 regulations cited in the guide.",
+      "source_ids": [
+        "aapc-crhc-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "aapc-crhc-exam_guide",
+      "aapc-crhc-study",
+      "aapc-crhc-study-3",
+      "aapc-crhc-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "aapc-crhc-exam_guide",
+      "url": "https://cache.aapc.com/cache/pdf/2026_cvba_sg_core_sample.pdf",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:67cd176d099ed1a5f34a1b3e9671523bfdcaec0999c459968f7180c8dce7b4e3"
+    },
+    {
+      "id": "aapc-crhc-study",
+      "url": "https://www.aapc.com/training/",
+      "title": "AAPC study documentation",
+      "publisher": "AAPC",
+      "source_type": "official_documentation",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:3acf020e41edd522caafbc09e4ee70156302df9f6495e81969775ea8a27f52cc"
+    },
+    {
+      "id": "aapc-crhc-study-3",
+      "url": "https://www.aapc.com/certification/practice-exams.aspx",
+      "title": "AAPC study documentation",
+      "publisher": "AAPC",
+      "source_type": "official_documentation",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:b6ebd735d48e6b0bd8027e3220f4171ababe4ce4a7491ec5a1d8938a7b4791c5"
+    },
+    {
+      "id": "aapc-crhc-exam_guide-4",
+      "url": "https://www.aapc.com/shop2/study-guides/cpma-study-guide.aspx",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:c17c4d369f278792718a19b490b89a2f972505306212d7ddc3625b2387ec8f54"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-01T20:37:50+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T00:53:28+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T00:53:28+00:00"
+  }
 }

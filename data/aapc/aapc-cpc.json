@@ -144,5 +144,232 @@
     "certified professional coder cpc",
     "cpc"
   ],
-  "practice_url": "https://quizforge.ai/tests/cpc-certified-professional-coder-aapc"
+  "practice_url": "https://quizforge.ai/tests/cpc-certified-professional-coder-aapc",
+  "editorial": {
+    "meta_description": "AAPC Certified Professional Coder (CPC) exam covers CPT, ICD-10-CM, HCPCS Level II, E/M, anesthesia, surgery, radiology, pathology, and medicine across 100.",
+    "overview": "The Certified Professional Coder (CPC) exam is administered by AAPC and tests working knowledge of medical coding across physician-office settings. It spans 10 content domains including CPT, ICD-10-CM, and HCPCS Level II. Candidates answer 100 multiple-choice questions in a linear format, drawing on applied knowledge of procedure and diagnosis code sets used in outpatient and physician-based environments.",
+    "who_should_take": "Medical coders, billing specialists, and health information students preparing for outpatient and physician-based coding roles should take the CPC. It suits those with hands-on CPT, ICD-10-CM, and HCPCS Level II experience seeking AAPC credentialing.",
+    "skills_summary": [
+      "Apply ICD-10-CM diagnosis coding conventions and guidelines",
+      "Assign CPT procedure codes across surgery, radiology, and medicine",
+      "Use HCPCS Level II codes for supplies and services",
+      "Apply CPT modifiers correctly to procedure claims",
+      "Determine Evaluation and Management levels from documentation",
+      "Code anesthesia, pathology, and laboratory services accurately"
+    ],
+    "preparation_strategy": "Build a study plan that walks each of the 10 domains in order, using the current ICD-10-CM Official Guidelines as your anchor for diagnosis questions. Practice with timed 100-question sets to build pacing for the 340-minute window. Review CPT modifier rules and E/M documentation criteria separately, since these trip up even experienced coders.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the medical terminology and anatomy coders must recognize to interpret provider documentation. It underpins accurate code selection across every other domain on the CPC exam.",
+        "study_focus": [
+          "Anatomical directional terms and body systems",
+          "Common prefixes, suffixes, and root words",
+          "Clinical abbreviations used in physician notes"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Evaluation and Management focuses on selecting the correct office, hospital, and other E/M visit levels based on documentation. Coders must apply current MDM or time-based criteria to determine the appropriate code.",
+        "study_focus": [
+          "Office and outpatient E/M level selection",
+          "Inpatient and consultation visit codes",
+          "Documentation of history, exam, and medical decision making"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Anesthesia covers formula-based calculation of anesthesia time units, base units, modifiers, and qualifying circumstance codes. It tests familiarity with anesthesia terminology and physical status modifiers used on physician claims.",
+        "study_focus": [
+          "Anesthesia time and base unit calculation",
+          "Physical status modifiers P1 through P6",
+          "Qualifying circumstance add-on codes"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Surgery spans multiple CPT sections including integumentary, musculoskeletal, cardiovascular, and digestive systems. It is the largest procedural area on the CPC and demands section-specific code knowledge across many body systems.",
+        "study_focus": [
+          "Integumentary and musculoskeletal procedure codes",
+          "Cardiovascular and digestive system sections",
+          "Surgical package and global period rules"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Radiology covers diagnostic and therapeutic imaging codes across all modalities. Coders must distinguish professional versus technical components and apply contrast and supervision rules correctly on imaging claims accurately.",
+        "study_focus": [
+          "Diagnostic imaging code selection by modality",
+          "Professional and technical component modifiers 26 and TC",
+          "Radiation oncology and nuclear medicine codes"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "Pathology and Laboratory covers diagnostic studies, panels, and anatomic pathology services. It requires understanding of panel component rules and specimen-based coding for accurate claim submission in clinical settings.",
+        "study_focus": [
+          "Organ or disease-oriented panel codes",
+          "Surgical pathology and cytopathology coding",
+          "Molecular and genetic testing codes"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "Medicine covers non-surgical diagnostic and therapeutic services such as immunizations, dialysis, and cardiology procedures. It also includes HCPCS Level II drug administration codes for outpatient settings in primary care.",
+        "study_focus": [
+          "Immunization and vaccine administration codes",
+          "Dialysis and cardiology service coding",
+          "Hydration, infusion, and injection coding"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "HCPCS Level II covers codes for supplies, equipment, and services not included in CPT. Coders must apply correct modifiers and understand temporary Q, S, and K code categories.",
+        "study_focus": [
+          "Durable medical equipment and supply codes",
+          "HCPCS Level II modifier application",
+          "Temporary and quarterly updated HCPCS codes"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "ICD-10-CM Diagnosis Coding tests application of the current Official Guidelines for Coding and Reporting. Coders must sequence correctly and follow chapter-specific rules for accurate code assignment in clinical practice.",
+        "study_focus": [
+          "Alphabetic Index and Tabular List navigation",
+          "Chapter-specific coding guidelines",
+          "Principal diagnosis selection rules"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "CPT Modifiers tests correct two-digit modifier appendage to procedure and E/M codes. Misapplied modifiers are a common reason for claim denial and exam failure on the CPC.",
+        "study_focus": [
+          "Modifier 25, 59, and 22 usage",
+          "Bilateral, multiple procedure, and assistant surgeon modifiers",
+          "Modifier documentation requirements"
+        ],
+        "source_ids": [
+          "aapc-cpc-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early with two forms of ID and your AAPC membership card. Budget your 340 minutes across 100 questions, leaving time to review flagged items. Read each stem fully before selecting an answer.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the CPC exam?",
+        "answer_text": "The CPC exam contains 100 multiple-choice questions delivered in a linear format. Candidates must answer all 100 items within the allotted testing window to receive a score."
+      },
+      {
+        "question_title": "What is the passing score for the CPC exam?",
+        "answer_text": "The passing score for the CPC exam is 70 percent. AAPC scores the exam against this benchmark, and candidates must meet or exceed it to earn the credential."
+      },
+      {
+        "question_title": "How long is the CPC exam?",
+        "answer_text": "The CPC exam allows 340 minutes of testing time. Candidates should pace themselves across all 100 questions and reserve minutes at the end for review."
+      },
+      {
+        "question_title": "How much does the CPC exam cost?",
+        "answer_text": "The CPC exam costs $399 for non-members and $299 for AAPC members. Annual AAPC membership runs about $199, which members typically pair with exam registration directly."
+      },
+      {
+        "question_title": "How long is the CPC certification valid?",
+        "answer_text": "The CPC certification is valid for 2 years from the date of issuance. Renewal is required, and AAPC requires continuing education units to maintain active credential status."
+      },
+      {
+        "question_title": "What is the CPC exam format?",
+        "answer_text": "The CPC exam uses a linear format with 100 multiple-choice questions. Candidates progress through the questions sequentially without the ability to skip and return to earlier items."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built from AAPC official exam guides and the FY 2025 ICD-10-CM Official Guidelines for Coding and Reporting. Domain summaries were mapped directly to AAPC's published content areas.",
+      "source_ids": [
+        "aapc-cpc-exam_guide",
+        "aapc-cpc-exam_guide-2",
+        "aapc-cpc-landing",
+        "aapc-cpc-exam_guide-4"
+      ]
+    },
+    "source_ids": [
+      "aapc-cpc-exam_guide",
+      "aapc-cpc-exam_guide-2",
+      "aapc-cpc-landing",
+      "aapc-cpc-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "aapc-cpc-exam_guide",
+      "url": "https://cache.aapc.com/cache/pdf/2026_cvba_sg_core_sample.pdf",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:67cd176d099ed1a5f34a1b3e9671523bfdcaec0999c459968f7180c8dce7b4e3"
+    },
+    {
+      "id": "aapc-cpc-exam_guide-2",
+      "url": "https://www.aapc.com/certifications/cpc/taking-the-cpc-exam?srsltid=AfmBOoruLtvwSeAWDHPlmTsa8bQP5_HpFDRuggh2tGFsA5sVMDOWI-A-",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:88db78ba5bc7d1fc67127a3a27800c9c45a654551c3da1c49c77519bca6562b8"
+    },
+    {
+      "id": "aapc-cpc-landing",
+      "url": "https://www.aapc.com/certification/cpc/",
+      "title": "AAPC certification page",
+      "publisher": "AAPC",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:be3c8db406e48e381d5f25294ddadef87b4d0bd3a8c91c750801ccaeb8b51925"
+    },
+    {
+      "id": "aapc-cpc-exam_guide-4",
+      "url": "https://www.aapc.com/certifications/cpc?srsltid=AfmBOopsjtg1HLLeD8StJzbaQLm6n83auByIjd0l_zineJT2WKtVX4uY",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:be3c8db406e48e381d5f25294ddadef87b4d0bd3a8c91c750801ccaeb8b51925"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-01T20:00:56+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T00:53:26+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T00:53:26+00:00"
+  }
 }

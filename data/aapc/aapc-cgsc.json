@@ -102,5 +102,163 @@
     "cgsc",
     "general surgery coder"
   ],
-  "practice_url": "https://quizforge.ai/tests/abs-surgery-boards"
+  "practice_url": "https://quizforge.ai/tests/abs-surgery-boards",
+  "editorial": {
+    "meta_description": "AAPC Certified General Surgery Coder (CGSC) exam covers general surgery procedure coding, anesthesia, modifiers, diagnosis coding, and documentation compliance.",
+    "overview": "The Certified General Surgery Coder (CGSC) exam is administered by AAPC and tests coding knowledge specific to general surgery practice. It covers four domains: procedure coding, anesthesia and modifiers, surgical diagnosis coding, and documentation and compliance. Candidates answer 100 multiple-choice questions in a linear format within a 340-minute testing window.",
+    "who_should_take": "Medical coders working in or transitioning to general surgery settings should consider this credential. It suits professionals who already hold a coding foundation and want to validate specialty-specific skills in surgical procedure and diagnosis coding.",
+    "skills_summary": [
+      "General surgery procedure coding",
+      "Anesthesia coding and modifier application",
+      "Surgical diagnosis coding with ICD-10-CM",
+      "Documentation review and compliance practices",
+      "Application of NCCI edits and global surgery rules"
+    ],
+    "preparation_strategy": "Start by reviewing the ICD-10-CM Official Guidelines for Coding and Reporting, since diagnosis coding is one of the four tested domains. Pair that with AAPC's CGSC study materials and practice coding operative notes for general surgery cases. Drill modifier selection and NCCI edits separately, then take timed practice tests to build pacing for the 340-minute window.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers CPT procedure coding for general surgery, including the full range of operative cases a general surgeon performs. Candidates must apply correct codes from operative notes and supporting documentation.",
+        "study_focus": [
+          "CPT code selection for general surgery procedures",
+          "Reading operative notes to identify procedures",
+          "Global surgery package concepts"
+        ],
+        "source_ids": [
+          "aapc-cgsc-exam_guide",
+          "aapc-cgsc-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers anesthesia coding fundamentals and the correct use of CPT and HCPCS modifiers in surgical claims. Candidates apply modifiers to reflect circumstances such as multiple procedures, bilateral work, or distinct services.",
+        "study_focus": [
+          "Anesthesia coding basics",
+          "CPT modifier selection and sequencing",
+          "HCPCS Level II modifier usage"
+        ],
+        "source_ids": [
+          "aapc-cgsc-exam_guide",
+          "aapc-cgsc-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain covers ICD-10-CM diagnosis coding for surgical cases, applying the Official Guidelines for Coding and Reporting. Candidates sequence diagnoses correctly and follow chapter-specific rules for surgical encounters.",
+        "study_focus": [
+          "ICD-10-CM diagnosis selection for surgical encounters",
+          "Principal versus secondary diagnosis sequencing",
+          "Chapter-specific ICD-10-CM guidelines"
+        ],
+        "source_ids": [
+          "aapc-cgsc-exam_guide",
+          "aapc-cgsc-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain covers documentation requirements and compliance considerations that support accurate surgical coding. Candidates evaluate medical record content for completeness and apply NCCI and global surgery policy rules.",
+        "study_focus": [
+          "Medical record documentation standards",
+          "NCCI edits and Medicare policy manual rules",
+          "Global surgery booklet application"
+        ],
+        "source_ids": [
+          "aapc-cgsc-exam_guide",
+          "aapc-cgsc-exam_guide-2"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early with required ID and reference materials permitted by AAPC. Pace yourself across the 340-minute window, flagging uncertain items and returning during review. Read each question stem carefully before selecting.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the CGSC exam?",
+        "answer_text": "The CGSC exam contains 100 questions. All items are multiple choice, and the exam is delivered in a linear format, meaning candidates cannot return to earlier items after advancing through the test."
+      },
+      {
+        "question_title": "What is the passing score for the CGSC exam?",
+        "answer_text": "A score of 70 is required to pass the CGSC exam. The credential is valid for two years and must be renewed to remain active."
+      },
+      {
+        "question_title": "How long is the CGSC exam?",
+        "answer_text": "Candidates have 340 minutes to complete the CGSC exam. Time management across all 100 questions is important given the length of the testing window and the linear delivery format."
+      },
+      {
+        "question_title": "How much does the CGSC exam cost?",
+        "answer_text": "The CGSC exam costs $299 for AAPC members and $399 for non-members. Membership pricing applies only to current AAPC members at the time of registration."
+      },
+      {
+        "question_title": "How long is the CGSC certification valid?",
+        "answer_text": "The CGSC certification is valid for two years. Renewal is required, and coders should check with AAPC for the current renewal requirements and continuing education units needed."
+      },
+      {
+        "question_title": "Is the CGSC exam still current?",
+        "answer_text": "Yes, the CGSC exam is current and administered by AAPC. There is no retirement of this credential, and candidates seeking the long-term certification path should check with AAPC."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built from AAPC's official CGSC exam guides and study documentation, cross-referenced with CMS ICD-10-CM and NCCI policy materials used in exam preparation.",
+      "source_ids": [
+        "aapc-cgsc-exam_guide",
+        "aapc-cgsc-exam_guide-2",
+        "aapc-cgsc-study",
+        "aapc-cgsc-exam_guide-4"
+      ]
+    },
+    "source_ids": [
+      "aapc-cgsc-exam_guide",
+      "aapc-cgsc-exam_guide-2",
+      "aapc-cgsc-study",
+      "aapc-cgsc-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "aapc-cgsc-exam_guide",
+      "url": "https://cache.aapc.com/cache/pdf/2026_cvba_sg_core_sample.pdf",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:67cd176d099ed1a5f34a1b3e9671523bfdcaec0999c459968f7180c8dce7b4e3"
+    },
+    {
+      "id": "aapc-cgsc-exam_guide-2",
+      "url": "https://www.aapc.com/certifications/cgsc/taking-the-cgsc-exam?srsltid=AfmBOorrlh6S7pBE2ufHStCaZhYtbvoLVVi4NHZJeFjFp2UwZQow7_Zv",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:f165c9d420d092060d0b283d2b190c7a2277e04ab383417d32c81aaf45937607"
+    },
+    {
+      "id": "aapc-cgsc-study",
+      "url": "https://www.aapc.com/training/",
+      "title": "AAPC study documentation",
+      "publisher": "AAPC",
+      "source_type": "official_documentation",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:3acf020e41edd522caafbc09e4ee70156302df9f6495e81969775ea8a27f52cc"
+    },
+    {
+      "id": "aapc-cgsc-exam_guide-4",
+      "url": "https://www.aapc.com/certifications/cgsc?srsltid=AfmBOoqmnlWigx4XzTaF_38-YyzkPni_Fy3TN8vschE915cICuGN_7wt",
+      "title": "AAPC exam guide",
+      "publisher": "AAPC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:d563060c4526563241a7f47cf5cdeeb9aee7e0efb8393736c80d13704ad6f008"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-01T19:32:23+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T00:53:25+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T00:53:25+00:00"
+  }
 }

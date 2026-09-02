@@ -110,5 +110,163 @@
     "adobe-experience-manager-ae",
     "aem sites business practitioner"
   ],
-  "practice_url": "https://quizforge.ai/?q=Adobe%20Experience%20Manager%20Sites%20Business%20Practitioner"
+  "practice_url": "https://quizforge.ai/?q=Adobe%20Experience%20Manager%20Sites%20Business%20Practitioner",
+  "editorial": {
+    "meta_description": "AD0-E121 Adobe Experience Manager Sites Business Practitioner exam guide covering domains, $225 price, 50 questions, 100 minutes, and 68 passing score details.",
+    "overview": "The AD0-E121 Adobe Experience Manager Sites Business Practitioner exam is administered by Adobe and certifies knowledge of AEM Sites business practices. It spans four weighted domains and is delivered as a linear computer-based test through Pearson VUE. Candidates demonstrate practical understanding of AEM concepts, architecture, and product capabilities worldwide industry.",
+    "who_should_take": "Business analysts, consultants, and project managers working with Adobe Experience Manager Sites should consider this exam. It suits professionals who advise on AEM implementations, translate business needs into AEM solutions, and need formal recognition of their product fluency.",
+    "skills_summary": [
+      "AEM education and stakeholder enablement",
+      "AEM Sites architecture and repository structure",
+      "Technical understanding of Sling, JCR, and OSGi",
+      "Product knowledge of authoring, publishing, and workflows",
+      "Multi-Site Management and Dispatcher concepts",
+      "Component, template, and page modeling"
+    ],
+    "preparation_strategy": "Start with Adobe's official AEM Core Concepts and Authoring documentation to ground yourself in Sling request processing, JCR nodes, and the author-publish environment model. Build a small AEM project to practice creating pages, applying templates, and configuring components. Review each weighted domain against Adobe's exam guide and allocate study time proportional to the 38% Product Knowledge weight.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "The Education domain covers how candidates learn, teach, and communicate AEM concepts to stakeholders and project teams. It tests the ability to explain AEM value, terminology, and workflows to non-technical audiences. Weight is 22% of the exam.",
+        "study_focus": [
+          "Stakeholder communication",
+          "AEM terminology fluency",
+          "Training and enablement approaches",
+          "Documentation practices"
+        ],
+        "source_ids": [
+          "adobe-experience-manager-ae-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "The Architecture domain addresses AEM Sites architecture, including the repository structure, author-publish environments, Dispatcher caching, and Multi-Site Management. It carries 22% of the exam weight and tests system-level design knowledge.",
+        "study_focus": [
+          "Repository paths and structure",
+          "Author and publish environments",
+          "Dispatcher caching and load balancing",
+          "Multi-Site Manager rollouts"
+        ],
+        "source_ids": [
+          "adobe-experience-manager-ae-study"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "The Technical Understanding domain covers Sling request processing, JCR nodes and properties, OSGi bundles, and script resolution. At 18% weight, it tests how candidates connect URLs to scripts and resources within AEM.",
+        "study_focus": [
+          "Sling script resolution",
+          "JCR node and property model",
+          "OSGi modular architecture",
+          "URL decomposition and resource types"
+        ],
+        "source_ids": [
+          "adobe-experience-manager-ae-study"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "The Product Knowledge domain is the largest at 38% weight and covers AEM Sites features including components, templates, pages, dialogs, workflows, and authoring tasks. It tests practical familiarity with day-to-day AEM product capabilities.",
+        "study_focus": [
+          "Components, templates, and pages",
+          "Dialogs and widgets",
+          "Workflows and approvals",
+          "Authoring and publishing tasks"
+        ],
+        "source_ids": [
+          "adobe-experience-manager-ae-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early with valid identification for Pearson VUE check-in. The 100-minute linear format means you cannot return to earlier items, so pace yourself across all 50 questions. Read each scenario carefully before selecting an answer.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The AD0-E121 exam contains 50 questions delivered in a linear computer-based format. Question types include multiple choice and performance-based tasks for ACP candidates. You cannot skip and return to items."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for AD0-E121 is 68. Adobe does not publish the scoring scale, so this represents the minimum threshold you must reach across all weighted domains. Plan to score well above 68 to be safe."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Candidates have 100 minutes to complete the AD0-E121 exam. Time management matters because the linear format prevents revisiting earlier questions. Budget roughly two minutes per question."
+      },
+      {
+        "question_title": "How much does the AD0-E121 exam cost?",
+        "answer_text": "The standard price for AD0-E121 is $225 USD, scheduled through Pearson VUE. Pricing may vary by region or promotional period, so confirm the current fee on Adobe's certification page before registering."
+      },
+      {
+        "question_title": "How long is the certification valid?",
+        "answer_text": "The Adobe Experience Manager Sites Business Practitioner certification is valid for 2 years from the date you pass. Renewal is required to maintain active status, so check with Adobe for the current recertification path."
+      },
+      {
+        "question_title": "What domains does the exam cover?",
+        "answer_text": "AD0-E121 covers four domains: Education at 22%, Architecture at 22%, Technical Understanding at 18%, and Product Knowledge at 38%. Product Knowledge carries the heaviest weight, so allocate study time accordingly."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built from Adobe's official exam guide, certification landing page, and Experience League study documentation. Domain weights, pricing, and logistics were taken verbatim from the verified facts.",
+      "source_ids": [
+        "adobe-experience-manager-ae-exam_guide",
+        "adobe-experience-manager-ae-landing",
+        "adobe-experience-manager-ae-study"
+      ]
+    },
+    "source_ids": [
+      "adobe-experience-manager-ae-exam_guide",
+      "adobe-experience-manager-ae-study",
+      "adobe-experience-manager-ae-landing",
+      "adobe-experience-manager-ae-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "adobe-experience-manager-ae-exam_guide",
+      "url": "https://learning.adobe.com/certification.html",
+      "title": "Adobe exam guide",
+      "publisher": "Adobe",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:2ee5b63df8008fd9e7e4b6ecf8f8c6a714918889ee61fc16a6a8101a28cd1adb"
+    },
+    {
+      "id": "adobe-experience-manager-ae-study",
+      "url": "https://experienceleague.adobe.com/",
+      "title": "Adobe study documentation",
+      "publisher": "Adobe",
+      "source_type": "official_documentation",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:737cd706a78315f15152abf21095b65a72d13750236f6334cd72fbbedf6f8073"
+    },
+    {
+      "id": "adobe-experience-manager-ae-landing",
+      "url": "https://learning.adobe.com/certification/exams/AD0-E121-adobe-experience-manager.html",
+      "title": "Adobe certification page",
+      "publisher": "Adobe",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:4e021350017fc0a3cbb97bc9832534e92c771868e898bbf77242eec97d06c249"
+    },
+    {
+      "id": "adobe-experience-manager-ae-exam_guide-4",
+      "url": "https://training.adobeconnect.com/aem-assets/",
+      "title": "Adobe exam guide (training.adobeconnect.com)",
+      "publisher": "adobeconnect.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-01",
+      "content_hash": "sha256:af64f1fa837b867eb3792e43fcb4054d0ecaa4ad969ba62d96086eb2b36b6922"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-01T22:01:11+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T00:53:30+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T00:53:30+00:00"
+  }
 }
