@@ -47,14 +47,38 @@
   "domains": [
     {
       "id": "1",
-      "name": "Knowledge of:",
-      "weight_percent": null,
+      "name": "Middle Ages",
+      "weight_percent": 10.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Ability to:",
-      "weight_percent": null,
+      "name": "16th and early 17th Century",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Restoration and 18th Century",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Romantic",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Victorian",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "20th Century to the present",
+      "weight_percent": 25.0,
       "objectives": []
     }
   ],
