@@ -48,396 +48,64 @@
   },
   "domains": [
     {
-      "id": "1.0",
+      "id": "1",
       "name": "Understand and use essential tools",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Access a shell prompt and issue commands with correct syntax",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.2",
-          "title": "Use input-output redirection (>, >>, |, 2>, etc.)",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.3",
-          "title": "Use grep and regular expressions to analyze text",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.4",
-          "title": "Access remote systems using SSH",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.5",
-          "title": "Log in and switch users in multi-user targets",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.6",
-          "title": "Archive, compress, unpack, and uncompress files using tar, gzip, and bzip2",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.7",
-          "title": "Create and edit text files",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.8",
-          "title": "Create, delete, copy, and move files and directories",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.9",
-          "title": "Create hard and soft links",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.10",
-          "title": "List, set, and change standard ugo/rwx permissions",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.11",
-          "title": "Locate, read, and use system documentation including man, info, and files in /usr/share/doc",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "2.0",
+      "id": "2",
       "name": "Manage software",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "2.1",
-          "title": "Configure access to RPM repositories",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.2",
-          "title": "Install and remove RPM software packages",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.3",
-          "title": "Configure access to Flatpak repositories",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.4",
-          "title": "Install and remove Flatpak software packages",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.5",
-          "title": "Create simple shell scripts",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.6",
-          "title": "Conditionally execute code (use of: if, test, [], etc.)",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.7",
-          "title": "Use looping constructs (for, etc.) to process file, command line input",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.8",
-          "title": "Process script inputs ($1, $2, etc.)",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.9",
-          "title": "Processing output of shell commands within a script",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "3.0",
+      "id": "3",
+      "name": "Create simple shell scripts",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
       "name": "Operate running systems",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "3.1",
-          "title": "Boot, reboot, and shut down a system normally",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.2",
-          "title": "Boot systems into different targets manually",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.3",
-          "title": "Interrupt the boot process in order to gain access to a system",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.4",
-          "title": "Identify CPU/memory intensive processes and kill processes",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.5",
-          "title": "Adjust process scheduling",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.6",
-          "title": "Manage tuning profiles",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.7",
-          "title": "Locate and interpret system log files and journals",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.8",
-          "title": "Preserve system journals",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.9",
-          "title": "Start, stop, and check the status of network services",
-          "sub_objectives": []
-        },
-        {
-          "id": "3.10",
-          "title": "Securely transfer files between systems",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "4.0",
+      "id": "5",
       "name": "Configure local storage",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "4.1",
-          "title": "List, create, and delete partitions on GPT disks",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.2",
-          "title": "Create and remove physical volumes",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.3",
-          "title": "Assign physical volumes to volume groups",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.4",
-          "title": "Create and delete logical volumes",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.5",
-          "title": "Configure systems to mount file systems at boot by universally unique ID (UUID) or label",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.6",
-          "title": "Add new partitions and logical volumes, and swap to a system non-destructively",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.7",
-          "title": "Create and configure file systems",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.8",
-          "title": "Create, mount, unmount, and use VFAT, ext4, and XFS file systems",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.9",
-          "title": "Mount and unmount network file systems using NFS",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.10",
-          "title": "Configure autofs",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.11",
-          "title": "Extend existing logical volumes",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.12",
-          "title": "Diagnose and correct file permission problems",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "5.0",
+      "id": "6",
+      "name": "Create and configure file systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
       "name": "Deploy, configure, and maintain systems",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "5.1",
-          "title": "Schedule tasks using at, cron and systemd timer units",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.2",
-          "title": "Start and stop services and configure services to start automatically at boot",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.3",
-          "title": "Configure systems to boot into a specific target automatically",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.4",
-          "title": "Configure time service clients",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.5",
-          "title": "Install and update software packages from Red Hat Content Delivery Network, a remote repository, or from the local file system",
-          "sub_objectives": []
-        },
-        {
-          "id": "5.6",
-          "title": "Modify the system bootloader",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "6.0",
+      "id": "8",
       "name": "Manage basic networking",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "6.1",
-          "title": "Configure IPv4 and IPv6 addresses",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.2",
-          "title": "Configure hostname resolution",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.3",
-          "title": "Configure network services to start automatically at boot",
-          "sub_objectives": []
-        },
-        {
-          "id": "6.4",
-          "title": "Restrict network access using firewalld and firewall-cmd",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "7.0",
+      "id": "9",
       "name": "Manage users and groups",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "7.1",
-          "title": "Create, delete, and modify local user accounts",
-          "sub_objectives": []
-        },
-        {
-          "id": "7.2",
-          "title": "Change passwords and adjust password aging for local user accounts",
-          "sub_objectives": []
-        },
-        {
-          "id": "7.3",
-          "title": "Create, delete, and modify local groups and group memberships",
-          "sub_objectives": []
-        },
-        {
-          "id": "7.4",
-          "title": "Configure privileged access",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     },
     {
-      "id": "8.0",
+      "id": "10",
       "name": "Manage security",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "8.1",
-          "title": "Configure firewall settings using firewall-cmd/firewalld",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.2",
-          "title": "Manage default file permissions",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.3",
-          "title": "Configure key-based authentication for SSH",
-          "sub_objectives": []
-        },
-        {
-          "id": "8、4",
-          "title": "Set enforcing and permissive modes for SELinux",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.5",
-          "title": "List and identify SELinux file and process context",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.6",
-          "title": "Restore default file contexts",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.7",
-          "title": "Manage SELinux port labels",
-          "sub_objectives": []
-        },
-        {
-          "id": "8.8",
-          "title": "Use Boolean settings to modify system SELinux settings",
-          "sub_objectives": []
-        }
-      ]
+      "objectives": []
     }
   ],
   "official_objectives_url": null,

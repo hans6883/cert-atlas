@@ -5,7 +5,7 @@
   "certifying_body": "ICC",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.iccsafe.org/professional-development/certifications-and-testing/",
+  "source_url": "https://www.iccsafe.org/wp-content/uploads/p1_content.pdf",
   "passing_score": 75,
   "passing_score_scale": "Percentage (75% passing for all ICC exams)",
   "total_questions": 60,
@@ -50,32 +50,38 @@
   "domains": [
     {
       "id": "1",
-      "name": "International Plumbing Code (IPC)",
-      "weight_percent": null,
+      "name": "General Requirements",
+      "weight_percent": 14.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Plumbing System Inspection Procedures",
-      "weight_percent": null,
+      "name": "Fixtures",
+      "weight_percent": 8.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Water Supply and Distribution",
-      "weight_percent": null,
+      "name": "Water Heaters",
+      "weight_percent": 12.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Sanitary Drainage and Venting",
-      "weight_percent": null,
+      "name": "Water Supply and Distribution",
+      "weight_percent": 21.0,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Fixtures and Fittings Requirements",
-      "weight_percent": null,
+      "name": "Sanitary Drainage",
+      "weight_percent": 23.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Vents",
+      "weight_percent": 22.0,
       "objectives": []
     }
   ],

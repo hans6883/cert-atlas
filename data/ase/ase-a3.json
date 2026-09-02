@@ -5,7 +5,7 @@
   "certifying_body": "ASE",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.ase.com/tests-certifications/automobile-light-truck-certification/",
+  "source_url": "https://www.ase.com/uploads/ASE_Automobile_Study_Guide_2025.pdf",
   "passing_score": null,
   "passing_score_scale": null,
   "total_questions": 40,
@@ -54,26 +54,38 @@
   "domains": [
     {
       "id": "1",
-      "name": "Clutch",
-      "weight_percent": null,
+      "name": "Clutch Diagnosis and Repair",
+      "weight_percent": 16.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Manual transmission",
-      "weight_percent": null,
+      "name": "Transmission Diagnosis and Repair",
+      "weight_percent": 17.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Driveshaft",
-      "weight_percent": null,
+      "name": "Transaxle Diagnosis and Repair",
+      "weight_percent": 17.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Axles and differentials",
-      "weight_percent": null,
+      "name": "Drive Shaft/Half-Shaft and Universal Joint/Constant Velocity (CV) Joint Diagnosis and Repair (Front and Rear Wheel Drive)",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Drive Axle Diagnosis and Repair",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Four-Wheel Drive/All-Wheel Drive Component Diagnosis and Repair",
+      "weight_percent": 20.0,
       "objectives": []
     }
   ],

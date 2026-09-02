@@ -5,7 +5,7 @@
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
-  "source_url": "https://clep.collegeboard.org/clep-exams/information-systems-and-computer-applications",
+  "source_url": "https://clep.collegeboard.org/clep-exams/information-systems",
   "passing_score": 50,
   "passing_score_scale": null,
   "total_questions": 100,
@@ -32,42 +32,44 @@
   "domains": [
     {
       "id": "1",
-      "name": "Information Systems in Organizations",
+      "name": "Office and Technology Applications",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Hardware and Software",
+      "name": "Internet and World Wide Web",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Databases",
+      "name": "Security",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Telecommunications/Networks",
+      "name": "Hardware and Systems Technology",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Social and Ethical Issues",
+      "name": "Software Development",
       "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Data Management and Programming Concepts",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Social and Ethical Implications and Issues",
+      "weight_percent": null,
       "objectives": []
     }
   ],

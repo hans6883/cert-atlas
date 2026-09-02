@@ -5,7 +5,7 @@
   "certifying_body": "NCEES",
   "certification_name": null,
   "version": null,
-  "source_url": "https://ncees.org/exams/pe-exam/naval-architecture-and-marine/",
+  "source_url": "https://ncees.org/wp-content/uploads/2025/02/NAME-specs_2025_two-levels.pdf",
   "passing_score": null,
   "passing_score_scale": null,
   "total_questions": 80,
@@ -58,31 +58,79 @@
   "domains": [
     {
       "id": "1",
-      "name": "Hydrostatics and Stability",
+      "name": "Naval Architecture: Hydrostatics and Stability",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Hull Structure",
+      "name": "Naval Architecture: Hydrodynamics",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Resistance and Propulsion",
+      "name": "Naval Architecture: Ocean Engineering",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Maneuvering and Motion",
+      "name": "Naval Architecture: Structural Design",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Machinery",
+      "name": "Naval Architecture: General Arrangements",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Marine Engineering: Propulsion and Power Generation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Marine Engineering: Piping System Design",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Marine Engineering: Auxiliary Equipment Selection",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Marine Engineering: Electrical Systems",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Marine Engineering: Environmental Considerations",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Common: Hull Outfitting",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Common: Materials, Corrosion, Welds, and Connections",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Common: Rules and Regulations",
       "weight_percent": null,
       "objectives": []
     }

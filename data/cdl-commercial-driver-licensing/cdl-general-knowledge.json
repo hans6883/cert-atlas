@@ -5,7 +5,7 @@
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.fmcsa.dot.gov/",
+  "source_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-G/section-383.111",
   "passing_score": 80,
   "passing_score_scale": "Percentage (80% passing for all CDL knowledge tests)",
   "total_questions": 50,
@@ -51,49 +51,121 @@
   "domains": [
     {
       "id": "1",
-      "name": "Vehicle Inspection",
+      "name": "Safe operations regulations",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Shifting and Backing",
+      "name": "Safe vehicle control systems",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Coupling and Uncoupling",
+      "name": "CMV safety control systems",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Pre-Trip Inspection",
+      "name": "Basic control",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "5",
-      "name": "Transporting Cargo Safely",
+      "name": "Shifting",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "6",
-      "name": "Traffic Laws and Safe Driving",
+      "name": "Backing",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "7",
-      "name": "Hazardous Materials Awareness",
+      "name": "Visual search",
       "weight_percent": null,
       "objectives": []
     },
     {
       "id": "8",
-      "name": "Mountain Driving and Special Situations",
+      "name": "Communication",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Speed management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Space management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Night operation",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Extreme driving conditions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Hazard perceptions",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Emergency maneuvers",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "Skid control and recovery",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "16",
+      "name": "Relationship of cargo to vehicle control",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "17",
+      "name": "Vehicle inspections",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "18",
+      "name": "Hazardous materials",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "19",
+      "name": "Mountain driving",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "20",
+      "name": "Fatigue and awareness",
       "weight_percent": null,
       "objectives": []
     }

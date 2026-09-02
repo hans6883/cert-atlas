@@ -5,7 +5,7 @@
   "certifying_body": "NABP",
   "certification_name": null,
   "version": null,
-  "source_url": "https://nabp.pharmacy/programs/mpje/",
+  "source_url": "https://nabp.pharmacy/programs/examinations/mpje/competency-statements/",
   "passing_score": 75,
   "passing_score_scale": "Scaled scores; NAPLEX scale 0–150 (passing 75), MPJE scale 0–100 (passing 75)",
   "total_questions": 90,
@@ -53,20 +53,26 @@
   "domains": [
     {
       "id": "1",
-      "name": "Pharmacy Practice",
-      "weight_percent": null,
+      "name": "Area 1 — Licensure/Personnel",
+      "weight_percent": 22.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Federal Pharmacy Law",
-      "weight_percent": null,
+      "name": "Area 2 — Pharmacist Practice",
+      "weight_percent": 33.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "State Pharmacy Law and Regulations",
-      "weight_percent": null,
+      "name": "Area 3 — Dispensing Requirements",
+      "weight_percent": 24.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Area 4 — Pharmacy Operations",
+      "weight_percent": 21.0,
       "objectives": []
     }
   ],

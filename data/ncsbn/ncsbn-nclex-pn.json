@@ -5,7 +5,7 @@
   "certifying_body": "NCSBN",
   "certification_name": null,
   "version": null,
-  "source_url": "https://www.nclex.com/test-plans.page",
+  "source_url": "https://nclex.com/files/2026_PN_Test%20Plan-F.pdf",
   "passing_score": null,
   "passing_score_scale": "Pass/Fail via adaptive algorithm",
   "total_questions": 85,
@@ -60,26 +60,50 @@
   "domains": [
     {
       "id": "1",
-      "name": "Safe and Effective Care Environment (Coordination of Care, Safety/Infection Control)",
-      "weight_percent": null,
+      "name": "Coordinated Care",
+      "weight_percent": 21.0,
       "objectives": []
     },
     {
       "id": "2",
-      "name": "Health Promotion and Maintenance",
-      "weight_percent": null,
+      "name": "Safety and Infection Prevention and Control",
+      "weight_percent": 13.0,
       "objectives": []
     },
     {
       "id": "3",
-      "name": "Psychosocial Integrity",
-      "weight_percent": null,
+      "name": "Health Promotion and Maintenance",
+      "weight_percent": 9.0,
       "objectives": []
     },
     {
       "id": "4",
-      "name": "Physiological Integrity (Basic Care, Pharmacological, Reduction of Risk, Physiological Adaptation)",
-      "weight_percent": null,
+      "name": "Psychosocial Integrity",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Basic Care and Comfort",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Pharmacological Therapies",
+      "weight_percent": 13.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Reduction of Risk Potential",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Physiological Adaptation",
+      "weight_percent": 10.0,
       "objectives": []
     }
   ],
