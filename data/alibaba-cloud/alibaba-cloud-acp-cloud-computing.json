@@ -104,5 +104,173 @@
     "alibaba cloud acp",
     "alibaba-cloud-acp-cloud-computing"
   ],
-  "practice_url": "https://quizforge.ai/?q=ACP%20Cloud%20Computing%20Professional"
+  "practice_url": "https://quizforge.ai/tests/acp-cloud-computing-professional-2wj5wg",
+  "editorial": {
+    "meta_description": "The ACP Cloud Computing Professional exam validates expertise in Alibaba Cloud’s compute, storage, networking, security and DevOps services.",
+    "overview": "The ACP Cloud Computing Professional certification, offered by Alibaba Cloud, assesses knowledge across five weighted domains: Advanced Compute (25 % weight), Storage and CDN (20 %), Networking (20 %), Security Architecture (20 %), and Operations and DevOps (15 %). The exam is linear, computer‑based, delivered online via Pearson VUE OnVUE or at authorized test centers, and consists of 70 questions to be answered in 120 minutes for a fee of $200 USD.",
+    "who_should_take": "IT architects, cloud engineers, and DevOps specialists with hands‑on experience deploying Alibaba Cloud services will benefit. Candidates should already manage compute, storage, network, and security resources in production environments.",
+    "skills_summary": [
+      "Advanced Compute concepts",
+      "Storage and CDN strategies",
+      "Networking design and implementation",
+      "Security Architecture best practices",
+      "Operations and DevOps automation"
+    ],
+    "preparation_strategy": "Review official Alibaba Cloud documentation for each domain, focusing on ECS instance types, CDN configuration, VPC networking, security groups, and Auto Scaling. Practice with the console, CLI, and ROS templates. Use scenario‑based questions from the exam guide and schedule timed mock exams to match the 120‑minute window.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Advanced Compute covers Elastic Compute Service instance families, GPU and Bare Metal options, and scaling mechanisms. Candidates must understand instance lifecycle, performance monitoring, and cost‑optimization methods such as spot and reserved instances.",
+        "study_focus": [
+          "ECS instance types and families",
+          "Auto Scaling policies",
+          "Billing models (pay‑as‑you‑go, subscription, spot)",
+          "Performance monitoring tools"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-cloud-computing-study",
+          "alibaba-cloud-acp-cloud-computing-landing"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Storage and CDN evaluates Object Storage Service, Cloud NAS, and Content Delivery Network features. Learners need to know data durability, caching strategies, and how to integrate storage with compute workloads.",
+        "study_focus": [
+          "OSS durability and lifecycle",
+          "NAS and file storage options",
+          "CDN caching and edge configuration",
+          "Data transfer pricing"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-cloud-computing-study",
+          "alibaba-cloud-acp-cloud-computing-landing"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Networking tests knowledge of Virtual Private Cloud, subnets, routing, and load balancing. Emphasis is on designing multi‑zone architectures, security groups, and private link connectivity. Additionally, candidates should understand NAT gateways, VPC peering, and traffic encryption options.",
+        "study_focus": [
+          "VPC design and subnet planning",
+          "Server Load Balancer setup",
+          "Security group rules",
+          "PrivateLink and NAT Gateway"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-cloud-computing-study",
+          "alibaba-cloud-acp-cloud-computing-landing"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Security Architecture focuses on layered protection for compute and data. Topics include hardware encryption, Anti‑DDoS, vulnerability scanning, and key management services. It also includes best practices for security group policies, host‑level firewalls, and compliance reporting.",
+        "study_focus": [
+          "Anti‑DDoS Origin and Proxy",
+          "RAM policies and role‑based access",
+          "Key Management Service usage",
+          "Security Center tiers"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-cloud-computing-study",
+          "alibaba-cloud-acp-cloud-computing-landing"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Operations and DevOps examines automation, monitoring, and lifecycle management. Candidates should master CloudOps Orchestration Service, Terraform, ROS templates, and alerting mechanisms. Understanding CI/CD pipelines, log analytics, and resource tagging for cost control is also included.",
+        "study_focus": [
+          "CloudOps Orchestration Service (OOS)",
+          "Terraform provisioning on Alibaba Cloud",
+          "Resource Orchestration Service templates",
+          "Cloud Monitor and alerting"
+        ],
+        "source_ids": [
+          "alibaba-cloud-acp-cloud-computing-study",
+          "alibaba-cloud-acp-cloud-computing-landing"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early for the online proctored session, verify your ID, and ensure a stable internet connection. You will face 70 multiple‑choice or multiple‑response items in a linear format lasting 120 minutes.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The ACP Cloud Computing Professional exam contains 70 questions. They are presented as multiple‑choice or multiple‑response items in a linear, computer‑based format, and you must answer all within the allotted 120‑minute window."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The exam uses a pass/fail model, and Alibaba Cloud does not publicly disclose the exact passing threshold, so candidates should aim for a strong performance across all domains to ensure success."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Candidates have 120 minutes to complete the exam. It is administered online via Pearson VUE OnVUE or at authorized test centers, and the 70 questions must be answered within this time frame."
+      },
+      {
+        "question_title": "How often must I renew the certification?",
+        "answer_text": "The ACP Cloud Computing Professional credential is valid for three years. After that period, renewal is required to keep the certification active, typically involving a recertification exam or meeting continuing education requirements."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was assembled by extracting domain weights, exam format, pricing, duration, question count and validity from official Alibaba Cloud sources, then mapping each domain to concise study topics.",
+      "source_ids": [
+        "alibaba-cloud-acp-cloud-computing-study",
+        "alibaba-cloud-acp-cloud-computing-landing",
+        "alibaba-cloud-acp-cloud-computing-exam_guide",
+        "alibaba-cloud-acp-cloud-computing-exam_guide-4"
+      ]
+    },
+    "source_ids": [
+      "alibaba-cloud-acp-cloud-computing-study",
+      "alibaba-cloud-acp-cloud-computing-landing",
+      "alibaba-cloud-acp-cloud-computing-exam_guide",
+      "alibaba-cloud-acp-cloud-computing-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "alibaba-cloud-acp-cloud-computing-study",
+      "url": "https://edu.alibabacloud.com/certification",
+      "title": "Alibaba Cloud study documentation",
+      "publisher": "Alibaba Cloud",
+      "source_type": "official_documentation",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:e7fdd9f4c524a441d9808fba52119954a22f36b1d6fcccdf43a17b8ee781cd39"
+    },
+    {
+      "id": "alibaba-cloud-acp-cloud-computing-landing",
+      "url": "https://edu.alibabacloud.com/certification/acp_cloudcomputing",
+      "title": "Alibaba Cloud certification page",
+      "publisher": "Alibaba Cloud",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:76fe0c8ebc9eb39ec673abcc486f7283fec4ee08fb5582d98258280b12c8a3b0"
+    },
+    {
+      "id": "alibaba-cloud-acp-cloud-computing-exam_guide",
+      "url": "https://video-intl.alicdn.com/2024/Academy/April/Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf?spm=a3c0i.11597324.4363105600.34.55c747551sfV4u&file=Alibaba%20Cloud%20Academy%20Catalog%20SS24.pdf",
+      "title": "Alibaba Cloud exam guide (video-intl.alicdn.com)",
+      "publisher": "alicdn.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:c45e5444d5b7a4ad801af71ff31fb8e8eac19b985d2941056e49bd5e2b418eb5"
+    },
+    {
+      "id": "alibaba-cloud-acp-cloud-computing-exam_guide-4",
+      "url": "https://files.alicdn.com/tpsservice/ea8652a75c0a94e78474195d4597acdd.pdf",
+      "title": "Alibaba Cloud exam guide (files.alicdn.com)",
+      "publisher": "alicdn.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:6f196a0b7988e88d4983f081a9acfb9cb45976937c301321a2cf9126282f61bb"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-02T13:24:50+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T21:44:52+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T21:44:52+00:00"
+  }
 }

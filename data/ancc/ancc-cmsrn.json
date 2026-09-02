@@ -116,5 +116,161 @@
     "msncb",
     "msncb-certified-medical-surgical-registered-nurse-cmsrn"
   ],
-  "practice_url": "https://quizforge.ai/tests/msncb-certified-medical-surgical-registered-nurse-cmsrn"
+  "practice_url": "https://quizforge.ai/tests/msncb-certified-medical-surgical-registered-nurse-cmsrn",
+  "editorial": {
+    "meta_description": "The CMSRN exam validates expertise in medical‑surgical nursing, covering clinical care, pathophysiology, therapeutic interventions, patient safety, and complex.",
+    "overview": "The Certified Medical‑Surgical Registered Nurse (CMSRN) credential, offered by the ANCC, assesses competence across five domains: clinical nursing, pathophysiology, interventions, safety outcomes, and complex care management. The linear, 150‑question multiple‑choice test lasts 180 minutes and costs $349. Successful candidates earn a five‑year certification that requires renewal, and they must complete continuing education and practice requirements to maintain active status.",
+    "who_should_take": "Registered nurses who work primarily on adult medical‑surgical units, or who have substantial experience managing acute and chronic conditions in that setting, should consider the CMSRN to demonstrate advanced proficiency and readiness for leadership roles.",
+    "skills_summary": [
+      "Medical‑surgical clinical assessment",
+      "Pathophysiology analysis",
+      "Therapeutic nursing interventions",
+      "Patient safety and quality improvement",
+      "Complex care coordination"
+    ],
+    "preparation_strategy": "Allocate study time to each of the five domains, using ANCC’s exam guide and practice questions. Focus on core topics, review current guidelines, and complete timed mock exams to build stamina for the 180‑minute, 150‑question format. Reinforce learning with case studies and review the scaled passing standard set by MSNCB to ensure you meet the competency threshold.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Medical‑Surgical Clinical Nursing evaluates a nurse’s competence in detailed patient assessment, individualized care planning, implementation of evidence‑based interventions, and systematic evaluation of outcomes for adult patients experiencing a wide range of surgical and medical conditions.",
+        "study_focus": [
+          "patient assessment",
+          "care planning",
+          "implementation of interventions",
+          "evaluation of outcomes"
+        ],
+        "source_ids": [
+          "ancc-cmsrn-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Pathophysiology and Disease Processes tests the nurse’s understanding of underlying disease mechanisms, typical clinical manifestations, and how pathophysiologic alterations influence nursing assessments, prioritization, and therapeutic decision‑making across diverse medical‑surgical diagnoses.",
+        "study_focus": [
+          "disease mechanisms",
+          "clinical signs and symptoms",
+          "impact on nursing interventions"
+        ],
+        "source_ids": [
+          "ancc-cmsrn-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Nursing Interventions and Therapeutics focuses on selecting, adapting, and applying evidence‑based treatments, safe medication administration, and appropriate therapeutic procedures to address daily complex patient needs within the medical‑surgical setting.",
+        "study_focus": [
+          "evidence‑based interventions",
+          "medication administration",
+          "therapeutic procedures"
+        ],
+        "source_ids": [
+          "ancc-cmsrn-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Patient Safety and Quality Outcomes assesses knowledge of safety principles, error prevention strategies, risk assessment, and quality improvement methodologies that nurses employ to enhance patient outcomes and maintain high standards of care.",
+        "study_focus": [
+          "safety protocols",
+          "error prevention",
+          "quality improvement initiatives"
+        ],
+        "source_ids": [
+          "ancc-cmsrn-exam_guide-4"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Complex Care Management examines the coordination of multidisciplinary teams, integration of detailed care plans, and management of patients with multiple comorbidities or high‑acuity conditions to ensure seamless, patient‑centered delivery of services.",
+        "study_focus": [
+          "care coordination",
+          "multidisciplinary collaboration",
+          "management of comorbidities"
+        ],
+        "source_ids": [
+          "ancc-cmsrn-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, bring a valid ID, and ensure you have a quiet space for the linear, computer‑based test. Manage time wisely, answer every question, and stay calm throughout the 180‑minute session.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The CMSRN exam consists of 150 multiple‑choice questions presented in a linear format. All questions must be answered within the allotted 180 minutes during the testing session."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Passing is determined by a scaled score set by the Medical‑Surgical Nursing Certification Board (MSNCB). The exact numeric threshold is not disclosed, but the scaled score reflects competency across all domains."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The test duration is 180 minutes, which provides candidates with roughly one minute per question for the 150‑question multiple‑choice format, allowing sufficient time to read, analyze, and select the best answer for each item."
+      },
+      {
+        "question_title": "How often must I renew the CMSRN certification?",
+        "answer_text": "The CMSRN credential is valid for five years. Renewal is required after that period, and candidates must meet ANCC’s renewal requirements to maintain active status and demonstrate ongoing professional development."
+      }
+    ],
+    "methodology": {
+      "summary": "Content was compiled from ANCC’s official exam guide documents, cross‑checked against the verified fact set, and organized systematically to reflect each domain’s focus while ensuring alignment with the exam’s linear, multiple‑choice structure.",
+      "source_ids": [
+        "ancc-cmsrn-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "ancc-cmsrn-exam_guide",
+      "ancc-cmsrn-exam_guide-2",
+      "ancc-cmsrn-exam_guide-3",
+      "ancc-cmsrn-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ancc-cmsrn-exam_guide",
+      "url": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:9af5e1588f90bf03be5e769e9ee9ba5e56ed95db59669bd7d1c348f5fb6f09c9"
+    },
+    {
+      "id": "ancc-cmsrn-exam_guide-2",
+      "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:643bbfdb523d18846ce283855e473790e77d3da33bad4c01c812eff041f2be06"
+    },
+    {
+      "id": "ancc-cmsrn-exam_guide-3",
+      "url": "https://www.nursingworld.org/globalassets/organizational-programs/magnet/imr/interim-report-imr.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:fccb2ca44e656e1d5a95ae1f2d80e65d35f2df56b8765196b84a80421cb55455"
+    },
+    {
+      "id": "ancc-cmsrn-exam_guide-4",
+      "url": "https://www.nursingworld.org/our-certifications/",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:55c3dea5c84dd8f9b8fdcdc00fb110460eb04519f8d643362fc71101ff505860"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-02T13:40:34+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T21:44:52+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T21:44:52+00:00"
+  }
 }

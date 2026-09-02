@@ -121,5 +121,160 @@
     "fnp",
     "fnp-bc"
   ],
-  "practice_url": "https://quizforge.ai/tests/ancc-family-nurse-practitioner-board-certification-fnp-bc"
+  "practice_url": "https://quizforge.ai/tests/ancc-family-nurse-practitioner-board-certification-fnp-bc",
+  "editorial": {
+    "meta_description": "The ANCC FNP-BC exam tests assessment, care planning, evaluation, health promotion and professional role in a 175‑question, 210‑minute linear format.",
+    "overview": "The Family Nurse Practitioner, Board Certified (FNP-BC) exam, administered by the American Nurses Credentialing Center (ANCC), evaluates a practitioner’s ability to conduct patient assessments, develop and implement plans of care, evaluate outcomes, promote health and disease prevention, and fulfill the professional role of a family nurse practitioner. The linear, multiple‑choice test consists of 175 items, of which 150 are scored, and must be completed in 210 minutes.",
+    "who_should_take": "Registered nurses who have completed an accredited graduate program in family nursing and hold active RN licensure should pursue the FNP‑BC certification to demonstrate advanced clinical competence and qualify for expanded practice privileges.",
+    "skills_summary": [
+      "Assessment and Diagnosis",
+      "Plans of Care",
+      "Evaluation of Care",
+      "Health Promotion and Disease Prevention",
+      "Professional Role"
+    ],
+    "preparation_strategy": "Begin by reviewing each of the five ANCC domains, using the official exam handbook to identify key concepts. Complete multiple‑choice practice sets, timing yourself to stay within the 210‑minute limit. Prioritize the 150 scored items, but also answer the 25 unscored pretest questions. Join a study group, and schedule regular review sessions to reinforce assessment, planning, evaluation, prevention and professional‑role material.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Assessment and Diagnosis emphasizes systematic collection of patient history, physical findings, and diagnostic information, followed by analysis of results to develop precise clinical judgments that inform subsequent care planning and interventions.",
+        "study_focus": [
+          "history taking",
+          "physical examination",
+          "differential diagnosis"
+        ],
+        "source_ids": [
+          "ancc-apn-oc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Plans of Care requires translating evidence‑based guidelines into individualized treatment strategies, educating patients about their conditions, coordinating multidisciplinary resources, and documenting interventions to achieve measurable health objectives for each client.",
+        "study_focus": [
+          "evidence‑based interventions",
+          "patient education",
+          "care coordination"
+        ],
+        "source_ids": [
+          "ancc-apn-oc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Evaluation of Care focuses on systematic measurement of patient outcomes, reassessment of therapeutic effectiveness, identification of gaps, and application of quality‑improvement cycles to modify care plans and enhance future practice.",
+        "study_focus": [
+          "outcome measurement",
+          "reassessment criteria",
+          "quality improvement"
+        ],
+        "source_ids": [
+          "ancc-apn-oc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Health Promotion and Disease Prevention covers implementation of age‑appropriate screening protocols, administration of immunizations according to schedule, and delivery of lifestyle counseling aimed at reducing risk factors and supporting wellness across the lifespan.",
+        "study_focus": [
+          "preventive screening guidelines",
+          "immunization schedules",
+          "lifestyle counseling"
+        ],
+        "source_ids": [
+          "ancc-apn-oc-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Professional Role addresses ethical standards, legal obligations, and collaborative practice, requiring nurses to demonstrate leadership, advocacy, and accountability while navigating interprofessional teams and adhering to regulatory requirements in clinical settings.",
+        "study_focus": [
+          "ethical practice",
+          "interprofessional collaboration",
+          "legal responsibilities"
+        ],
+        "source_ids": [
+          "ancc-apn-oc-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, bring a valid photo ID and your registration confirmation. Use the provided calculator, read each multiple‑choice stem carefully, and pace yourself to answer roughly one question every 1.2 minutes. Mark uncertain items and revisit them if time permits.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam contains 175 questions total. Of these, 150 are scored toward your result and 25 are unscored pretest items that do not affect your passing status."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "A scaled score of 350 is required to pass; the exam uses a 200‑to‑500 scale, so achieving 350 or higher meets the certification threshold officially."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The test is a linear, multiple‑choice format lasting 210 minutes, giving you just over three and a half hours to complete all items successfully today."
+      },
+      {
+        "question_title": "What is the cost of the FNP‑BC exam?",
+        "answer_text": "The non‑member fee is $520, while ANA members pay $395. Both prices are listed in the ANCC exam guide and cover the full 175‑question test."
+      }
+    ],
+    "methodology": {
+      "summary": "Content was compiled by extracting domain names, exam structure and pricing from the ANCC official handbook and renewal guide, then organized into concise editorial sections following the prescribed template.",
+      "source_ids": [
+        "ancc-apn-oc-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "ancc-apn-oc-exam_guide",
+      "ancc-apn-oc-exam_guide-2",
+      "ancc-apn-oc-exam_guide-3",
+      "ancc-apn-oc-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ancc-apn-oc-exam_guide",
+      "url": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:9af5e1588f90bf03be5e769e9ee9ba5e56ed95db59669bd7d1c348f5fb6f09c9"
+    },
+    {
+      "id": "ancc-apn-oc-exam_guide-2",
+      "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:643bbfdb523d18846ce283855e473790e77d3da33bad4c01c812eff041f2be06"
+    },
+    {
+      "id": "ancc-apn-oc-exam_guide-3",
+      "url": "https://www.nursingworld.org/globalassets/organizational-programs/magnet/imr/interim-report-imr.pdf",
+      "title": "ANCC exam guide",
+      "publisher": "ANCC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:fccb2ca44e656e1d5a95ae1f2d80e65d35f2df56b8765196b84a80421cb55455"
+    },
+    {
+      "id": "ancc-apn-oc-landing",
+      "url": "https://www.nursingworld.org/certification/",
+      "title": "ANCC certification page",
+      "publisher": "ANCC",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:55c3dea5c84dd8f9b8fdcdc00fb110460eb04519f8d643362fc71101ff505860"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-02T13:33:41+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 0.833,
+    "scored_at": "2026-09-02T21:44:52+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T21:44:52+00:00"
+  }
 }

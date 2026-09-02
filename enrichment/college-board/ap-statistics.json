@@ -1,0 +1,229 @@
+{
+ "exam_id": "ap-statistics",
+ "editorial": {
+  "meta_description": "AP Statistics exam by College Board covers one- and two-variable data, probability, sampling distributions, and inference for proportions, means, chi-square.",
+  "overview": "AP Statistics is a College Board exam that tests how students collect, analyze, and draw conclusions from data. It spans nine content areas, from one-variable data through inference for categorical and quantitative data, including chi-square and regression slopes. The exam is paper-based with multiple choice and free response sections, administered at school in May.",
+  "who_should_take": "High school students completing an AP Statistics course who want college credit or placement. It also suits homeschoolers and independent candidates preparing for a quantitative, evidence-based college path in the sciences, social sciences, business, or data-related fields.",
+  "skills_summary": [
+   "Summarize and visualize one-variable data",
+   "Explore relationships in two-variable data",
+   "Apply sampling methods and study design",
+   "Compute probability and work with random variables",
+   "Use sampling distributions for inference",
+   "Run inference for proportions and means",
+   "Conduct chi-square tests",
+   "Perform inference on regression slopes"
+  ],
+  "preparation_strategy": "Work through released AP Statistics free-response questions and grade your answers against official rubrics to build the writing habits the free response section rewards. Practice by hand drawing distributions, normal calculations, and confidence interval setups so the mechanics become automatic. Review the differences between inference for proportions, means, chi-square, and slopes so you can pick the correct procedure quickly under time pressure.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This 19% weighted domain focuses on describing a single variable using graphical displays, numerical summaries, and the shape, center, and spread of distributions. Students interpret data in context and distinguish categorical from quantitative variables.",
+    "study_focus": [
+     "Dotplots, stemplots, histograms, boxplots",
+     "Mean, median, standard deviation, IQR",
+     "Shape, center, spread, and outliers",
+     "Comparing distributions"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "Weighing 6%, this domain covers analyzing two variables together through scatterplots, correlation, and least-squares regression. Students interpret slope, intercept, residuals, and the coefficient of determination r-squared in context.",
+    "study_focus": [
+     "Scatterplots and correlation",
+     "Least-squares regression line",
+     "Residuals and residual plots",
+     "Coefficient of determination r-squared"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "At 13.5% of the exam, this domain addresses how data are gathered, including sampling methods, observational studies versus experiments, and sources of bias. Students distinguish random assignment from random sampling and identify confounding.",
+    "study_focus": [
+     "Simple random, stratified, cluster, systematic sampling",
+     "Observational studies vs experiments",
+     "Random assignment vs random sampling",
+     "Sources of bias and confounding"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide-2"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "Carrying 15% of the weight, this domain introduces probability rules, random variables, and probability distributions including binomial and geometric. Students compute expected value and standard deviation for discrete random variables.",
+    "study_focus": [
+     "Addition and multiplication rules",
+     "Conditional probability and independence",
+     "Binomial and geometric distributions",
+     "Mean and standard deviation of a random variable"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "At 9.5% weight, this domain covers the sampling distributions of sample proportions and sample means. Students apply the Central Limit Theorem and use normal approximations when appropriate conditions are met.",
+    "study_focus": [
+     "Sampling distribution of a sample proportion",
+     "Sampling distribution of a sample mean",
+     "Central Limit Theorem conditions",
+     "Normal approximation guidelines"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "Weighing 13.5%, this domain covers confidence intervals and significance tests for a single proportion and for a difference between two proportions. Students check conditions, compute a z-statistic, and interpret p-values in context.",
+    "study_focus": [
+     "One-proportion z-interval and z-test",
+     "Two-proportion z-interval and z-test",
+     "Conditions: random, independent, large count",
+     "Type I and Type II errors, power"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "7",
+    "summary": "At 14% of the exam, this domain handles inference for one mean, for the difference between two mean, and for paired data using t-procedures. Students verify conditions and interpret t-intervals and t-tests in context.",
+    "study_focus": [
+     "One-sample t-interval and t-test",
+     "Two-sample t-interval and t-test",
+     "Matched-pairs t-procedures",
+     "Conditions for t-procedures"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide-4"
+    ]
+   },
+   {
+    "domain_id": "8",
+    "summary": "Carrying 3.5% of the weight, this domain covers chi-square goodness-of-fit tests and chi-square tests for homogeneity and independence. Students check expected count conditions and interpret the chi-square statistic in context.",
+    "study_focus": [
+     "Chi-square goodness-of-fit test",
+     "Test for independence and homogeneity",
+     "Expected counts condition",
+     "Degrees of freedom for chi-square"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "9",
+    "summary": "Weighing 3.5%, this domain covers inference for the slope of a least-squares regression line, including t-intervals and t-tests. Students verify conditions and interpret the slope in the original units of the variables.",
+    "study_focus": [
+     "t-interval and t-test for slope",
+     "Conditions: linear, independent, normal, equal spread",
+     "Standard error of the slope",
+     "Interpreting slope and p-value"
+    ],
+    "source_ids": [
+     "ap-statistics-exam_guide-4"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Bring a calculator approved by College Board, several sharpened No. 2 pencils, and a black or blue pen for the free response section. Pace yourself across both sections of the 195-minute exam and budget writing time for each free-response question.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "AP Statistics is a paper-based exam with two sections: multiple choice and free response. Each section contributes to the overall score on the 1–5 scale, and you should expect both item types when planning your pacing."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "AP Statistics is scored on a 1–5 scale. A score of 3 or higher is generally considered passing and is the level many colleges accept for credit or placement, though policies vary by institution."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The AP Statistics exam runs 195 minutes total, combining the multiple choice section and the free response section in one sitting. The exam is administered at school in May."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "AP Statistics costs $98 per exam, with a reduced fee of $55 for students who qualify for fee reductions. Students testing outside the United States and U.S. territories pay an additional $40 international surcharge."
+   },
+   {
+    "question_title": "Does the credential require renewal?",
+    "answer_text": "AP Statistics is a one-time subject exam; no renewal is required. Once you sit for the exam and receive a score, that result stays on your College Board record and does not expire."
+   },
+   {
+    "question_title": "How many content areas does the exam cover?",
+    "answer_text": "AP Statistics is organized into nine domains ranging from Exploring One-Variable Data at 19% to Inference for Categorical Data: Chi-Square and Inference for Quantitative Data: Slopes at 3.5% each, covering data exploration, probability, sampling distributions, and statistical inference."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was assembled from College Board official exam documentation, with cross-references to introductory statistics textbooks for study framing. Each domain summary is grounded in the published domain weights and objectives.",
+   "source_ids": [
+    "ap-statistics-exam_guide",
+    "ap-statistics-exam_guide-2",
+    "ap-statistics-exam_guide-3",
+    "ap-statistics-exam_guide-4"
+   ]
+  },
+  "source_ids": [
+   "ap-statistics-exam_guide",
+   "ap-statistics-exam_guide-2",
+   "ap-statistics-exam_guide-3",
+   "ap-statistics-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "ap-statistics-exam_guide",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description.pdf",
+   "title": "College Board exam guide",
+   "publisher": "College Board",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-02",
+   "content_hash": "sha256:818f4f74986ebc05e2ed7014e6f74389a5e139a4b227e18100b8dc21659e0fe4"
+  },
+  {
+   "id": "ap-statistics-exam_guide-2",
+   "url": "https://apstudents.collegeboard.org/courses/ap-statistics",
+   "title": "AP Statistics – AP Students | College Board",
+   "publisher": "College Board",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-02",
+   "content_hash": "sha256:3ffc5ee28b958e09b49245b0756ae0ff2b4ebdacc08cb94388bb46e2422c9ed7"
+  },
+  {
+   "id": "ap-statistics-exam_guide-3",
+   "url": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "title": "AP Statistics Course – AP Central | College Board",
+   "publisher": "College Board",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-02",
+   "content_hash": "sha256:dc0ace5f11efd44fbc1cbacb549c56a031cde95537106080b7945a9ded120322"
+  },
+  {
+   "id": "ap-statistics-exam_guide-4",
+   "url": "https://apcentral.collegeboard.org/courses/ap-statistics/exam",
+   "title": "AP Statistics Exam – AP Central | College Board",
+   "publisher": "College Board",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-02",
+   "content_hash": "sha256:7134a0acec707048849302c0df0511e310b31ebf594eccb3511c49d208757e36"
+  }
+ ],
+ "quality": {
+  "generated_by": "nvidia:minimaxai/minimax-m3",
+  "generated_at": "2026-09-02T16:49:25+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-02T21:44:55+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-02T21:44:55+00:00"
+ }
+}

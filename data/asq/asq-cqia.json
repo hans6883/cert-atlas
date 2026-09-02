@@ -89,5 +89,113 @@
     "cqia",
     "quality improvement associate"
   ],
-  "practice_url": "https://quizforge.ai/tests/asq-cqia-certified-quality-improvement-associate"
+  "practice_url": "https://quizforge.ai/tests/asq-cqia-certified-quality-improvement-associate",
+  "editorial": {
+    "meta_description": "ASQ Certified Quality Improvement Associate (CQIA) exam covers quality basics, team processes, continuous improvement, and customer‑supplier relations.",
+    "overview": "ASQ’s Certified Quality Improvement Associate (CQIA) validates knowledge in quality management. The exam tests four weighted domains—Quality Basics (30 %), Teams and Team Processes (25 %), Continuous Improvement (25 %), and Customer‑Supplier Relations (20 %). It consists of 70 multiple‑choice questions delivered in a linear format, lasting 135 minutes. A scaled score of 550 or higher is required to pass.",
+    "who_should_take": "Professionals who support quality initiatives—such as production supervisors, quality technicians, process engineers, or entry‑level auditors—benefit from CQIA. Candidates should have basic exposure to quality tools and teamwork concepts, typically 1‑2 years of related work.",
+    "skills_summary": [
+      "Quality fundamentals",
+      "Team collaboration",
+      "Process improvement methods",
+      "Customer‑supplier relationship management"
+    ],
+    "preparation_strategy": "Review ASQ’s CQIA exam guide and focus on each domain’s weight. Study the PDCA cycle, basic quality tools, and team‑process concepts. Use practice questions to gauge timing for the 70 items within 135 minutes. Reinforce learning with real‑world examples of continuous improvement projects and supplier interactions. Schedule short, daily study sessions and track progress against the domain percentages.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Focuses on fundamental quality concepts, terminology, and the role of quality in organizations. Emphasizes understanding of basic quality tools, the PDCA cycle, and the distinction between continuous and continual improvement.",
+        "study_focus": [
+          "Key quality terminology",
+          "Basic quality tools"
+        ],
+        "source_ids": [
+          "asq-cqia-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Addresses how teams are formed, roles and responsibilities, and effective team processes for quality improvement. Covers communication, decision‑making, conflict resolution, and the integration of cross‑functional collaboration within organizations.",
+        "study_focus": [
+          "Team formation and roles",
+          "Effective communication and decision‑making"
+        ],
+        "source_ids": [
+          "asq-cqia-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Focuses on systematic approaches to enhance processes, products, or services. Highlights the PDCA cycle, Six Sigma, lean principles, and methods for measuring performance, reducing variation, and achieving incremental or breakthrough gains.",
+        "study_focus": [
+          "PDCA cycle application",
+          "Lean and Six Sigma basics"
+        ],
+        "source_ids": [
+          "asq-cqia-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Examines the dynamics between an organization and its customers or suppliers. Covers requirements gathering, feedback loops, service quality, relationship management, and strategies to align supplier performance with customer expectations through continuous communication.",
+        "study_focus": [
+          "Requirements gathering",
+          "Feedback and relationship management"
+        ],
+        "source_ids": [
+          "asq-cqia-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, verify your testing environment, and have a valid ID ready. Manage time by allocating roughly two minutes per question. Keep a calm pace, review flagged items during the final minutes, and submit before the 135‑minute limit.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The CQIA exam contains 70 multiple‑choice questions presented in a linear format. You will have 135 minutes to answer all items, which translates to roughly two minutes per question. The exam is administered online through a computer‑based testing platform."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "A scaled score of 550 or higher is required to pass the Certified Quality Improvement Associate exam. Scores are calculated from your performance on the 70 questions, and the result determines whether you earn the CQIA credential."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The CQIA exam is a 135‑minute, computer‑based test. You must complete all 70 multiple‑choice items within this time frame. The exam is delivered in a single linear session, so pacing is required."
+      },
+      {
+        "question_title": "How often must I renew the CQIA certification?",
+        "answer_text": "CQIA certification is valid for three years. Renewal is required by completing continuing education or retaking the exam before the expiration date. Check ASQ’s renewal policies for approved activities and deadlines."
+      }
+    ],
+    "methodology": {
+      "summary": "Content was assembled from ASQ’s official CQIA exam guide and ASQ’s continuous improvement resources, extracting domain weights, exam format, and key concepts such as PDCA and basic quality tools.",
+      "source_ids": [
+        "asq-cqia-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "asq-cqia-exam_guide"
+    ]
+  },
+  "sources": [
+    {
+      "id": "asq-cqia-exam_guide",
+      "url": "https://www.asq.org/cert/resource/pdf/certification/2026-CBT-Exam-Application.pdf",
+      "title": "ASQ exam guide",
+      "publisher": "ASQ",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:f4559452159aba96562f370e9ee9c67fbbc5a68430b8fd360fe934e740327a42"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-02T19:20:19+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T21:44:58+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T21:44:58+00:00"
+  }
 }

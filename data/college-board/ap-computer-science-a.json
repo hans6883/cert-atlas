@@ -134,5 +134,236 @@
     "ap java",
     "ap-computer-science-a"
   ],
-  "practice_url": "https://quizforge.ai/?q=AP%20Computer%20Science%20A"
+  "practice_url": "https://quizforge.ai/tests/ap-computer-science-a-31pqiy",
+  "editorial": {
+    "meta_description": "AP Computer Science A is a current College Board exam that tests Java fundamentals: primitive types, objects, loops, classes, arrays and recursion.",
+    "overview": "The AP Computer Science A exam, administered by the College Board, evaluates students' ability to write Java programs that use primitive types, objects, control flow, loops, classes, arrays, ArrayLists, 2‑D arrays, inheritance and recursion. It is a paper‑based test with multiple‑choice and free‑response sections. The exam consists of 40 multiple‑choice questions and 4 free‑response problems, and scores are reported on a 1–5 scale.",
+    "who_should_take": "High‑school students who have completed first‑year algebra and are ready for an introductory college‑level computer‑science course should take this exam. It suits learners aiming for college credit or advanced placement in computer science programs.",
+    "skills_summary": [
+      "Primitive Types",
+      "Object Usage",
+      "Control Flow & Loops",
+      "Class Design",
+      "Array Manipulation",
+      "ArrayList Operations",
+      "2D Array Handling",
+      "Inheritance & Recursion"
+    ],
+    "preparation_strategy": "Review the official Java quick‑reference, then practice each domain with AP Classroom Progress Checks. Write code daily, focusing on syntax and problem‑solving patterns. Complete the required 20‑hour lab, review past free‑response questions, and time yourself for a full 180‑minute mock exam. Additionally, analyze released exam questions and annotate the exam guide to reinforce concepts.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Understand Java primitive data types, how to declare variables, use literals, and perform type casting. Master the range and precision of each type to avoid overflow and loss of data in calculations.",
+        "study_focus": [
+          "declare variables",
+          "use literals",
+          "apply casting",
+          "understand type ranges"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Learn to create and manipulate objects, call methods, and work with constructors. Recognize reference variables and how objects interact within a program to model real‑world entities effectively in Java.",
+        "study_focus": [
+          "instantiate classes",
+          "invoke methods",
+          "understand reference variables",
+          "apply object interaction"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Develop skill in forming boolean expressions, using relational operators, and controlling program flow with if, if‑else, and nested conditional statements. Evaluate complex logical conditions accurately for decision making in Java programs.",
+        "study_focus": [
+          "evaluate boolean expressions",
+          "write if‑else statements",
+          "combine conditions with && and ||",
+          "trace execution flow"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Master iteration constructs such as for, while, and do‑while loops. Control loop counters, prevent infinite loops, and apply loops to process collections and repeated calculations, especially in algorithm design and data processing tasks.",
+        "study_focus": [
+          "write for loops",
+          "use while loops",
+          "apply loop counters",
+          "avoid infinite loops"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Design and implement classes with appropriate fields, methods, and constructors. Apply access modifiers, encapsulation, and object‑oriented principles, including inheritance and interfaces, to build reusable code structures for scalable applications.",
+        "study_focus": [
+          "define class structure",
+          "implement constructors",
+          "declare fields and methods",
+          "apply encapsulation"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "Work with one‑dimensional arrays: declaration, initialization, indexing, and iteration. Perform common operations such as searching, sorting, and copying elements within an array, including binary search and merging, in practical scenarios.",
+        "study_focus": [
+          "declare arrays",
+          "access elements by index",
+          "traverse arrays",
+          "perform array operations"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "Utilize the java.util.ArrayList class for dynamic collections. Add, remove, retrieve, and iterate over elements, leveraging its methods to simplify list management for dynamic data handling across various program modules.",
+        "study_focus": [
+          "create ArrayList",
+          "add/remove elements",
+          "use get/set methods",
+          "iterate with for‑each"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Explore two‑dimensional arrays as matrices. Understand row‑column indexing and use nested loops to traverse and manipulate grid‑based data structures, including matrix arithmetic and image processing, using nested loops for efficient computation.",
+        "study_focus": [
+          "declare 2D arrays",
+          "access row/column",
+          "nested loop traversal",
+          "process matrix data"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "Apply inheritance to create subclass relationships, use the super keyword, and override methods. Recognize polymorphic behavior and how it enables code reuse and extensibility across class hierarchies, to enable flexible code.",
+        "study_focus": [
+          "extend classes",
+          "use super",
+          "override methods",
+          "apply polymorphism"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "Design recursive methods with clear base cases and recursive steps. Analyze call stacks and solve problems such as factorial, Fibonacci, and tree traversals using recursion for solving complex problems in computer science curricula.",
+        "study_focus": [
+          "write recursive methods",
+          "identify base case",
+          "trace recursion",
+          "solve problems like factorial"
+        ],
+        "source_ids": [
+          "ap-computer-science-a-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early, bring your admission ticket and photo ID, and have a #2 pencil ready. The paper‑based test lasts 180 minutes and includes both multiple‑choice and free‑response sections.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The AP Computer Science A exam consists of two sections administered on paper: a multiple‑choice portion and a free‑response portion. Both sections together assess the full range of Java programming concepts."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "A score of 3 on the 1–5 AP scale is considered passing. Scores of 3, 4, or 5 are commonly accepted for college credit or advanced placement."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam is a 180‑minute, paper‑based assessment. It is scheduled in May and includes both multiple‑choice and free‑response components within that time frame for students."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The standard fee is $98 per each exam. Students who qualify for fee reductions pay $55, and an additional $40 surcharge applies for international test‑takers."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by extracting verified facts and official exam guide excerpts, aligning each domain with concise study guidance, and drafting actionable preparation tips based on College Board resources.",
+      "source_ids": [
+        "ap-computer-science-a-exam_guide",
+        "ap-computer-science-a-exam_guide-2",
+        "ap-computer-science-a-exam_guide-3",
+        "ap-computer-science-a-landing"
+      ]
+    },
+    "source_ids": [
+      "ap-computer-science-a-exam_guide",
+      "ap-computer-science-a-exam_guide-2",
+      "ap-computer-science-a-exam_guide-3",
+      "ap-computer-science-a-landing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ap-computer-science-a-exam_guide",
+      "url": "https://apcentral.collegeboard.org/pdf/ap-computer-science-a-course-and-exam-description.pdf",
+      "title": "College Board exam guide",
+      "publisher": "College Board",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:c81501ad5a022c83f1ca51119cccd1907b1394e1416d8c2a01bd43a38ab16486"
+    },
+    {
+      "id": "ap-computer-science-a-exam_guide-2",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-java-quick-reference.pdf",
+      "title": "College Board exam guide",
+      "publisher": "College Board",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:4d3c0d4d23cc87322f3a0c9aed959a3bd6b3580558f12acbb763595e0c6a45bd"
+    },
+    {
+      "id": "ap-computer-science-a-exam_guide-3",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description-clarification.pdf",
+      "title": "College Board exam guide",
+      "publisher": "College Board",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:d39626653656bf0baa0127dc8c3fa50c5e7a41bc7b3747e43d997f69a2d18e56"
+    },
+    {
+      "id": "ap-computer-science-a-landing",
+      "url": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+      "title": "AP Computer Science A – AP Students | College Board",
+      "publisher": "College Board",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-02",
+      "content_hash": "sha256:744706978cb42816a0b89567255174c1c8ade39811ed12effde4e3854292a724"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "nvidia:minimaxai/minimax-m3",
+    "generated_at": "2026-09-02T14:46:25+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-02T21:44:53+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-02T21:44:53+00:00"
+  }
 }
