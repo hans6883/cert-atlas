@@ -959,6 +959,23 @@ def build_exam_page(vendor_slug, vendor_info, exam, title_override=None):
         info_heading = "Historical Exam Details" if retired else "Exam Details"
         info_html = f'<section class="info"><h3>{info_heading}</h3><div class="info-grid">{rows}</div></section>'
 
+    review_html = ""
+    review = exam.get("source_review") or {}
+    if review and not retired:
+        changes = "".join(f'<li>{h(change)}</li>' for change in review.get("changes", []))
+        actions = "".join(
+            f'<li><a href="{h(action.get("url"))}">{h(action.get("title"))}</a>: {h(action.get("detail"))}</li>'
+            for action in review.get("study_actions", [])
+        )
+        review_html = (
+            '<section class="info"><h2>Source review and study planning</h2>'
+            f'<p>Source checked {h(review.get("checked_at"))}. Objectives effective {h(review.get("effective_at"))}.</p>'
+            f'<p>{h(review.get("method"))}</p><ul>{changes}</ul>'
+            f'<p><a href="{h(review.get("source_url"))}">Official objectives</a> | '
+            f'<a href="{h(review.get("policy_url"))}">Official retake policy</a></p>'
+            f'<h3>Plan against this version</h3><ul>{actions}</ul></section>'
+        )
+
     # Resources
     resources_html = ""
     resources = exam.get("official_study_resources", [])
@@ -1033,7 +1050,7 @@ def build_exam_page(vendor_slug, vendor_info, exam, title_override=None):
 {post_facts_content}
 {domains_html}
 {info_html}
-{resources_html}
+{resources_html}{review_html}
 {reg_html}
 </div>"""
 
@@ -1353,7 +1370,16 @@ def build_sitemap(index, exams_by_vendor):
     for vendor_slug in sorted(exams_by_vendor.keys()):
         urls.append(f'<url><loc>{SITE_URL}/{vendor_slug}/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>')
         for ex in exams_by_vendor[vendor_slug]:
-            urls.append(f'<url><loc>{SITE_URL}/{vendor_slug}/{ex["exam_id"]}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>')
+            modified = ex.get("content_modified_at")
+            lastmod = ""
+            if modified:
+                # Only explicit substantive-content dates, never the build date.
+                try:
+                    datetime.strptime(modified, "%Y-%m-%d")
+                    lastmod = f"<lastmod>{h(modified)}</lastmod>"
+                except (ValueError, TypeError):
+                    raise ValueError(f"Invalid content modification date: {modified!r}")
+            urls.append(f'<url><loc>{SITE_URL}/{vendor_slug}/{ex["exam_id"]}</loc>{lastmod}<changefreq>monthly</changefreq><priority>0.9</priority></url>')
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

@@ -4,76 +4,46 @@
   "exam_code": "AZ-305",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": "as of April 17, 2026",
+  "version": "Skills measured 2026-04-17",
   "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
-  "total_questions": 40,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Response",
-    "Drag and Drop",
-    "Case Study",
-    "Build List",
-    "Hot Area",
-    "Repeated Answer Choices"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 100,
-  "exam_price_usd": 165.0,
-  "exam_price_notes": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Check the official booking page for the price in your country or region.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/microsoft",
-      "notes": "In-person and online proctored (OnVUE)"
-    },
-    {
-      "provider": "Certiport",
-      "scheduling_url": "https://certiport.pearsonvue.com/",
-      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
-    }
-  ],
+  "testing_centers": [],
   "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
-  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
+  "id_requirements": null,
+  "exam_rules": null,
   "certification_validity_years": null,
   "renewal_required": true,
   "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
   "continuing_education_units": null,
-  "available_languages": [
-    "English",
-    "Simplified Chinese",
-    "Traditional Chinese",
-    "French",
-    "German",
-    "Japanese",
-    "Korean",
-    "Portuguese",
-    "Russian",
-    "Spanish",
-    "Arabic",
-    "Indonesian"
-  ],
+  "available_languages": [],
   "target_audience": "Azure solutions architect",
   "recommended_experience": "Advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance",
   "prerequisites": [],
   "retake_policy": {
-    "waiting_period_days": 0,
+    "waiting_period_days": 1,
     "max_attempts_per_year": 5,
     "max_attempts_total": null,
-    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
+    "notes": "After the first failure, wait 24 hours. Wait 14 days between later attempts. At most five attempts in the 12 months starting with the first attempt; after five failures, wait until that period ends. Retake fees apply. See Microsoft's policy for exceptions."
   },
   "domains": [
     {
-      "id": "Design identity, governance, and monitoring solutions",
+      "id": "1.0",
       "name": "Design identity, governance, and monitoring solutions",
-      "weight_percent": 27.5,
+      "weight_percent": null,
+      "weight_min_percent": 25,
+      "weight_max_percent": 30,
       "objectives": [
         {
-          "id": "Design solutions for logging and monitoring",
+          "id": "1.1",
           "title": "Design solutions for logging and monitoring",
           "sub_objectives": [
             "Recommend a logging solution",
@@ -82,7 +52,7 @@
           ]
         },
         {
-          "id": "Design authentication and authorization solutions",
+          "id": "1.2",
           "title": "Design authentication and authorization solutions",
           "sub_objectives": [
             "Recommend an authentication solution",
@@ -93,10 +63,10 @@
           ]
         },
         {
-          "id": "Design governance",
+          "id": "1.3",
           "title": "Design governance",
           "sub_objectives": [
-            "Recommend a structure for management groups, subscriptions, and resource groups, and a strategy for resource tagging",
+            "Recommend a structure for management groups, subscriptions, and\nresource groups, and a strategy for resource tagging",
             "Recommend a solution for managing compliance",
             "Recommend a solution for identity governance"
           ]
@@ -104,12 +74,14 @@
       ]
     },
     {
-      "id": "Design data storage solutions",
+      "id": "2.0",
       "name": "Design data storage solutions",
-      "weight_percent": 22.5,
+      "weight_percent": null,
+      "weight_min_percent": 20,
+      "weight_max_percent": 25,
       "objectives": [
         {
-          "id": "Design data storage solutions for relational data",
+          "id": "2.1",
           "title": "Design data storage solutions for relational data",
           "sub_objectives": [
             "Recommend a solution for storing relational data",
@@ -119,17 +91,17 @@
           ]
         },
         {
-          "id": "Design data storage solutions for semi-structured and unstructured data",
+          "id": "2.2",
           "title": "Design data storage solutions for semi-structured and unstructured data",
           "sub_objectives": [
             "Recommend a solution for storing semi-structured data",
             "Recommend a solution for storing unstructured data",
-            "Recommend a data storage solution to balance features, performance, and costs",
+            "Recommend a data storage solution to balance features, performance,\nand costs",
             "Recommend a data solution for protection and durability"
           ]
         },
         {
-          "id": "Design data integration",
+          "id": "2.3",
           "title": "Design data integration",
           "sub_objectives": [
             "Recommend a solution for data integration",
@@ -139,41 +111,45 @@
       ]
     },
     {
-      "id": "Design business continuity solutions",
+      "id": "3.0",
       "name": "Design business continuity solutions",
-      "weight_percent": 17.5,
+      "weight_percent": null,
+      "weight_min_percent": 15,
+      "weight_max_percent": 20,
       "objectives": [
         {
-          "id": "Design solutions for backup and disaster recovery",
+          "id": "3.1",
           "title": "Design solutions for backup and disaster recovery",
           "sub_objectives": [
-            "Recommend a recovery solution for Azure and hybrid workloads that meets recovery objectives",
+            "Recommend a recovery solution for Azure and hybrid workloads that\nmeets recovery objectives",
             "Recommend a backup and recovery solution for compute",
             "Recommend a backup and recovery solution for databases",
             "Recommend a backup and recovery solution for unstructured data"
           ]
         },
         {
-          "id": "Design for high availability",
+          "id": "3.2",
           "title": "Design for high availability",
           "sub_objectives": [
             "Recommend a high availability solution for compute",
             "Recommend a high availability solution for relational data",
-            "Recommend a high availability solution for semi-structured and unstructured data"
+            "Recommend a high availability solution for semi-structured and\nunstructured data"
           ]
         }
       ]
     },
     {
-      "id": "Design infrastructure solutions",
+      "id": "4.0",
       "name": "Design infrastructure solutions",
-      "weight_percent": 35.0,
+      "weight_percent": null,
+      "weight_min_percent": 30,
+      "weight_max_percent": 35,
       "objectives": [
         {
-          "id": "Design compute solutions",
+          "id": "4.1",
           "title": "Design compute solutions",
           "sub_objectives": [
-            "Specify components of a compute solution based on workload requirements",
+            "Specify components of a compute solution based on workload\nrequirements",
             "Recommend a virtual machine-based solution",
             "Recommend a container-based solution",
             "Recommend a serverless-based solution",
@@ -181,7 +157,7 @@
           ]
         },
         {
-          "id": "Design an application architecture",
+          "id": "4.2",
           "title": "Design an application architecture",
           "sub_objectives": [
             "Recommend a messaging architecture",
@@ -193,22 +169,22 @@
           ]
         },
         {
-          "id": "Design migrations",
+          "id": "4.3",
           "title": "Design migrations",
           "sub_objectives": [
-            "Evaluate a migration solution that leverages the Microsoft Cloud Adoption Framework for Azure",
+            "Evaluate a migration solution that leverages the Microsoft Cloud\nAdoption Framework for Azure",
             "Evaluate on-premises servers, data, and applications for migration",
-            "Recommend a solution for migrating workloads to infrastructure as a service (IaaS) and platform as a service (PaaS)",
+            "Recommend a solution for migrating workloads to infrastructure as a\nservice (IaaS) and platform as a service (PaaS)",
             "Recommend a solution for migrating databases",
             "Recommend a solution for migrating unstructured data"
           ]
         },
         {
-          "id": "Design network solutions",
+          "id": "4.4",
           "title": "Design network solutions",
           "sub_objectives": [
-            "Recommend a connectivity solution that connects Azure resources to the internet",
-            "Recommend a connectivity solution that connects Azure resources to on-premises networks",
+            "Recommend a connectivity solution that connects Azure resources to the\ninternet",
+            "Recommend a connectivity solution that connects Azure resources to\non-premises networks",
             "Recommend a solution to optimize network performance",
             "Recommend a solution to optimize network security",
             "Recommend a load-balancing and routing solution"
@@ -217,25 +193,71 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305",
   "official_study_resources": [
     {
-      "resource_type": "online_course",
-      "title": "Microsoft Learn (free self-paced training)",
-      "url": "https://learn.microsoft.com/en-us/training/",
+      "resource_type": "official_documentation",
+      "title": "Choose from self-paced learning paths and modules or take an instructor-led course",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305#two-ways-to-prepare",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official learning paths mapped to each exam"
+      "price_usd": null
     },
     {
-      "resource_type": "practice_exam",
-      "title": "Microsoft Official Practice Assessment",
-      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "resource_type": "official_documentation",
+      "title": "Azure documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/?product=featured",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official practice questions on Microsoft Learn"
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Architect infrastructure operations in Azure",
+      "url": "https://learn.microsoft.com/en-us/training/paths/architect-infrastructure-operations/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Browse Azure Architectures",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/browse/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Q&A | Microsoft Docs",
+      "url": "https://learn.microsoft.com/en-us/answers/products/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Exam Readiness Zone",
+      "url": "https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=AZ-305",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Browse other Microsoft Learn shows",
+      "url": "https://learn.microsoft.com/en-us/shows/browse",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
     }
   ],
   "aliases": [
@@ -243,5 +265,36 @@
     "designing microsoft azure infrastructure solutions",
     "microsoft-az-305-azure-solutions-architect"
   ],
-  "practice_url": "https://quizforge.ai/tests/az-305-designing-azure-infrastructure"
+  "practice_url": "https://quizforge.ai/tests/az-305-designing-azure-infrastructure",
+  "source_review": {
+    "checked_at": "2026-09-04",
+    "effective_at": "2026-04-17",
+    "method": "Official-source reconciliation with automated hierarchy checks; not an endorsement by Microsoft.",
+    "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305",
+    "source_sha256": "18a2a109a1afdc63547abe8ead273fc20cf5dde52e2f96a54b9080f802bfabcf",
+    "policy_url": "https://learn.microsoft.com/en-us/credentials/support/retake-policy",
+    "policy_sha256": "a19c4af6decb39e56a7c87ac44aae32d78c1bfc36eb279191c39e1fe8182730c",
+    "changes": [
+      "Reconciled domain ranges and objective hierarchy against the dated official guide; local objective numbers are navigation aids.",
+      "Corrected first and subsequent retake waiting periods; removed the unsupported score threshold.",
+      "Removed unsupported fixed question count, duration, price, language list and testing rules. Consult the official exam page for booking details; the audience profile describes recommended experience, not mandatory prerequisites."
+    ],
+    "study_actions": [
+      {
+        "title": "Check the official revision history before planning study",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#change-log",
+        "detail": "Compare the effective date with your exam language and appointment. Use changed objectives to revisit earlier preparation."
+      },
+      {
+        "title": "Use the guide's learning and documentation map",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#study-resources",
+        "detail": "For each objective, record a task you can perform and the official reference used. Prioritize gaps; the published ranges are not predicted question counts."
+      },
+      {
+        "title": "Atlas study exercise: Write an architecture decision record",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#skills-at-a-glance",
+        "detail": "Choose a workload with availability and recovery requirements. List two candidate designs, explain their monitoring and identity implications, and justify the trade-off you would recommend. Map each decision to the design objectives before checking the official architecture references. This is a study aid, not an official exam question or a prediction of your result."
+      }
+    ]
+  }
 }
