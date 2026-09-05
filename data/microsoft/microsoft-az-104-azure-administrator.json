@@ -4,84 +4,54 @@
   "exam_code": "AZ-104",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
+  "version": "Skills measured 2026-04-17",
   "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
-  "total_questions": 40,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Response",
-    "Drag and Drop",
-    "Case Study",
-    "Build List",
-    "Hot Area",
-    "Repeated Answer Choices"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 100,
-  "exam_price_usd": 165.0,
-  "exam_price_notes": "Price not specified in the provided content",
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Check the official booking page for the price in your country or region.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/microsoft",
-      "notes": "In-person and online proctored (OnVUE)"
-    },
-    {
-      "provider": "Certiport",
-      "scheduling_url": "https://certiport.pearsonvue.com/",
-      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
-    }
-  ],
+  "testing_centers": [],
   "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
-  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
+  "id_requirements": null,
+  "exam_rules": null,
   "certification_validity_years": null,
   "renewal_required": true,
   "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
   "continuing_education_units": null,
-  "available_languages": [
-    "English",
-    "Simplified Chinese",
-    "Traditional Chinese",
-    "French",
-    "German",
-    "Japanese",
-    "Korean",
-    "Portuguese",
-    "Russian",
-    "Spanish",
-    "Arabic",
-    "Indonesian"
-  ],
+  "available_languages": [],
   "target_audience": "Candidates should have subject matter expertise in implementing, managing, and monitoring an organization’s Microsoft Azure environment, including virtual networks, storage, compute, identity, security, and governance",
   "recommended_experience": "Experience with PowerShell, Azure CLI, Azure portal, Azure Resource Manager templates or Bicep files, Microsoft Entra ID",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
       "description": "Operating systems, Networking, Servers, Virtualization",
-      "is_required": true
+      "is_required": false
     },
     {
       "prerequisite_type": "experience",
       "description": "PowerShell, Azure CLI, Azure portal, Azure Resource Manager templates or Bicep files, Microsoft Entra ID",
-      "is_required": true
+      "is_required": false
     }
   ],
   "retake_policy": {
-    "waiting_period_days": 0,
+    "waiting_period_days": 1,
     "max_attempts_per_year": 5,
     "max_attempts_total": null,
-    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
+    "notes": "After the first failure, wait 24 hours. Wait 14 days between later attempts. At most five attempts in the 12 months starting with the first attempt; after five failures, wait until that period ends. Retake fees apply. See Microsoft's policy for exceptions."
   },
   "domains": [
     {
       "id": "1.0",
       "name": "Manage Azure identities and governance",
-      "weight_percent": 20.0,
+      "weight_percent": null,
+      "weight_min_percent": 20,
+      "weight_max_percent": 25,
       "objectives": [
         {
           "id": "1.1",
@@ -112,7 +82,7 @@
             "Apply and manage tags on resources",
             "Manage resource groups",
             "Manage subscriptions",
-            "Manage costs by using alerts, budgets, and Azure Advisor recommendations",
+            "Manage costs by using alerts, budgets, and Azure Advisor\nrecommendations",
             "Configure management groups"
           ]
         }
@@ -121,7 +91,9 @@
     {
       "id": "2.0",
       "name": "Implement and manage storage",
-      "weight_percent": 15.0,
+      "weight_percent": null,
+      "weight_min_percent": 15,
+      "weight_max_percent": 20,
       "objectives": [
         {
           "id": "2.1",
@@ -141,14 +113,14 @@
             "Create and configure storage accounts",
             "Configure Azure Storage redundancy",
             "Configure object replication",
-            "Configure storage account encryption"
+            "Configure storage account encryption",
+            "Manage data by using Azure Storage Explorer and AzCopy"
           ]
         },
         {
           "id": "2.3",
-          "title": "Manage data by using Azure Storage Explorer and AzCopy",
+          "title": "Configure Azure Files and Azure Blob Storage",
           "sub_objectives": [
-            "Configure Azure Files and Azure Blob Storage",
             "Create and configure a file share in Azure Files",
             "Create and configure a container in Azure Blob Storage",
             "Configure storage tiers",
@@ -163,7 +135,9 @@
     {
       "id": "3.0",
       "name": "Deploy and manage Azure compute resources",
-      "weight_percent": 20.0,
+      "weight_percent": null,
+      "weight_min_percent": 20,
+      "weight_max_percent": 25,
       "objectives": [
         {
           "id": "3.1",
@@ -172,8 +146,8 @@
             "Interpret an Azure Resource Manager template or a Bicep file",
             "Modify an existing Azure Resource Manager template",
             "Modify an existing Bicep file",
-            "Deploy resources by using an Azure Resource Manager template or a Bicep file",
-            "Export a deployment as an Azure Resource Manager template or convert an Azure Resource Manager template to a Bicep file"
+            "Deploy resources by using an Azure Resource Manager template or a\nBicep file",
+            "Export a deployment as an Azure Resource Manager template or convert\nan Azure Resource Manager template to a Bicep file"
           ]
         },
         {
@@ -182,21 +156,21 @@
           "sub_objectives": [
             "Create a virtual machine",
             "Configure encryption at host for Azure virtual machines",
-            "Move a virtual machine to another resource group, subscription, or region",
+            "Move a virtual machine to another resource group, subscription, or\nregion",
             "Manage virtual machine sizes",
             "Manage virtual machine disks",
-            "Deploy virtual machines to availability zones and availability sets"
+            "Deploy virtual machines to availability zones and availability sets",
+            "Deploy and configure an Azure Virtual Machine Scale Sets"
           ]
         },
         {
           "id": "3.3",
-          "title": "Deploy and configure an Azure Virtual Machine Scale Sets",
+          "title": "Provision and manage containers in the Azure portal",
           "sub_objectives": [
-            "Provision and manage containers in the Azure portal",
             "Create and manage an Azure Container Registry",
             "Provision a container by using Azure Container Instances",
             "Provision a container by using Azure Container Apps",
-            "Manage sizing and scaling for containers, including Azure Container Instances and Azure Container Apps"
+            "Manage sizing and scaling for containers, including Azure Container\nInstances and Azure Container Apps"
           ]
         },
         {
@@ -206,7 +180,7 @@
             "Provision an App Service plan",
             "Configure scaling for an App Service plan",
             "Create an App Service",
-            "Configure certificates and Transport Layer Security (TLS) for an App Service",
+            "Configure certificates and Transport Layer Security (TLS) for an App\nService",
             "Map an existing custom DNS name to an App Service",
             "Configure backup for an App Service",
             "Configure networking settings for an App Service",
@@ -218,7 +192,9 @@
     {
       "id": "4.0",
       "name": "Implement and manage virtual networking",
-      "weight_percent": 15.0,
+      "weight_percent": null,
+      "weight_min_percent": 15,
+      "weight_max_percent": 20,
       "objectives": [
         {
           "id": "4.1",
@@ -235,7 +211,7 @@
           "id": "4.2",
           "title": "Configure secure access to virtual networks",
           "sub_objectives": [
-            "Create and configure network security groups (NSGs) and application security groups",
+            "Create and configure network security groups (NSGs) and application\nsecurity groups",
             "Evaluate effective security rules in NSGs",
             "Implement Azure Bastion",
             "Configure service endpoints for Azure platform as a service (PaaS)",
@@ -256,7 +232,9 @@
     {
       "id": "5.0",
       "name": "Monitor and maintain Azure resources",
-      "weight_percent": 10.0,
+      "weight_percent": null,
+      "weight_min_percent": 10,
+      "weight_max_percent": 15,
       "objectives": [
         {
           "id": "5.1",
@@ -265,8 +243,9 @@
             "Interpret metrics in Azure Monitor",
             "Configure log settings in Azure Monitor",
             "Query and analyze logs in Azure Monitor",
-            "Set up alert rules, action groups, and alert processing rules in Azure Monitor",
-            "Configure and interpret monitoring of virtual machines, storage accounts, and networks by using Azure Monitor Insights"
+            "Set up alert rules, action groups, and alert processing rules in Azure\nMonitor",
+            "Configure and interpret monitoring of virtual machines, storage\naccounts, and networks by using Azure Monitor Insights",
+            "Use Azure Network Watcher and Connection monitor"
           ]
         },
         {
@@ -285,25 +264,175 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
   "official_study_resources": [
     {
-      "resource_type": "online_course",
-      "title": "Microsoft Learn (free self-paced training)",
-      "url": "https://learn.microsoft.com/en-us/training/",
+      "resource_type": "official_documentation",
+      "title": "Choose from self-paced learning paths and modules or take an instructor-led course",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-104#two-ways-to-prepare",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official learning paths mapped to each exam"
+      "price_usd": null
     },
     {
-      "resource_type": "practice_exam",
-      "title": "Microsoft Official Practice Assessment",
-      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "resource_type": "official_documentation",
+      "title": "Azure documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/?product=featured",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official practice questions on Microsoft Learn"
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Entra ID",
+      "url": "https://learn.microsoft.com/en-us/azure/active-directory/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Policy",
+      "url": "https://learn.microsoft.com/en-us/azure/governance/policy/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Storage",
+      "url": "https://learn.microsoft.com/en-us/azure/storage/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Storage Explorer",
+      "url": "https://learn.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Blob Storage",
+      "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "ARM templates",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Container Instances",
+      "url": "https://learn.microsoft.com/en-us/azure/container-instances/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Container Apps",
+      "url": "https://learn.microsoft.com/en-us/azure/container-apps/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "App Service",
+      "url": "https://learn.microsoft.com/en-us/azure/app-service/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure DNS",
+      "url": "https://learn.microsoft.com/en-us/azure/dns/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Bastion",
+      "url": "https://learn.microsoft.com/en-us/azure/bastion/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Application Gateway",
+      "url": "https://learn.microsoft.com/en-us/azure/application-gateway/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Monitor",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Network Watcher",
+      "url": "https://learn.microsoft.com/en-us/azure/network-watcher/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Site Recovery",
+      "url": "https://learn.microsoft.com/en-us/azure/site-recovery/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure Backup service",
+      "url": "https://learn.microsoft.com/en-us/azure/backup/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Q&A | Microsoft Docs",
+      "url": "https://learn.microsoft.com/en-us/answers/products/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Exam Readiness Zone",
+      "url": "https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=az-104",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Browse other Microsoft Learn shows",
+      "url": "https://learn.microsoft.com/en-us/shows/browse",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
     }
   ],
   "aliases": [
@@ -312,5 +441,36 @@
     "microsoft certified azure administrator",
     "microsoft-az-104-azure-administrator"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-azure-administrator-az-104-0a5c6bb6"
+  "practice_url": "https://quizforge.ai/tests/microsoft-azure-administrator-az-104-0a5c6bb6",
+  "source_review": {
+    "checked_at": "2026-09-04",
+    "effective_at": "2026-04-17",
+    "method": "Official-source reconciliation with automated hierarchy checks; not an endorsement by Microsoft.",
+    "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
+    "source_sha256": "aa69bec9a432323043fe1fa8d1067d2c36fdc5bce2fb19558fc24cfcb007e46a",
+    "policy_url": "https://learn.microsoft.com/en-us/credentials/support/retake-policy",
+    "policy_sha256": "a19c4af6decb39e56a7c87ac44aae32d78c1bfc36eb279191c39e1fe8182730c",
+    "changes": [
+      "Reconciled domain ranges and objective hierarchy against the dated official guide; local objective numbers are navigation aids.",
+      "Corrected first and subsequent retake waiting periods; removed the unsupported score threshold.",
+      "Removed unsupported fixed question count, duration, price, language list and testing rules. Consult the official exam page for booking details; the audience profile describes recommended experience, not mandatory prerequisites."
+    ],
+    "study_actions": [
+      {
+        "title": "Check the official revision history before planning study",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104#change-log",
+        "detail": "Compare the effective date with your exam language and appointment. Use changed objectives to revisit earlier preparation."
+      },
+      {
+        "title": "Use the guide's learning and documentation map",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104#study-resources",
+        "detail": "For each objective, record a task you can perform and the official reference used. Prioritize gaps; the published ranges are not predicted question counts."
+      },
+      {
+        "title": "Atlas study exercise: Explain a storage access decision",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104#skills-at-a-glance",
+        "detail": "For a file-sharing scenario, compare an identity-based permission with a shared access signature. Record the scope, lifetime and revocation approach, then locate the corresponding storage objective. Separately explain where containers and virtual machine scale sets belong in the compute outline. This is a study aid, not an official exam question or a prediction of your result."
+      }
+    ]
+  }
 }

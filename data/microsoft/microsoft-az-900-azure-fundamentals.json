@@ -4,79 +4,49 @@
   "exam_code": "AZ-900",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": null,
+  "version": "Skills measured 2026-07-20",
   "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
-  "total_questions": 40,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Response",
-    "Drag and Drop",
-    "Case Study",
-    "Build List",
-    "Hot Area",
-    "Repeated Answer Choices"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 45,
-  "exam_price_usd": 165.0,
-  "exam_price_notes": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Check the official booking page for the price in your country or region.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/microsoft",
-      "notes": "In-person and online proctored (OnVUE)"
-    },
-    {
-      "provider": "Certiport",
-      "scheduling_url": "https://certiport.pearsonvue.com/",
-      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
-    }
-  ],
+  "testing_centers": [],
   "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
-  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
+  "id_requirements": null,
+  "exam_rules": null,
   "certification_validity_years": null,
-  "renewal_required": true,
-  "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
+  "renewal_required": false,
+  "renewal_options": "Microsoft Fundamentals certifications do not expire and do not require renewal.",
   "continuing_education_units": null,
-  "available_languages": [
-    "English",
-    "Simplified Chinese",
-    "Traditional Chinese",
-    "French",
-    "German",
-    "Japanese",
-    "Korean",
-    "Portuguese",
-    "Russian",
-    "Spanish",
-    "Arabic",
-    "Indonesian"
-  ],
+  "available_languages": [],
   "target_audience": "Technology professionals who want to demonstrate foundational knowledge of cloud concepts in general and Microsoft Azure in particular",
   "recommended_experience": "Skills and experience working with an area of IT, such as: Infrastructure management, Database management, Software development",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
       "description": "Skills and experience working with an area of IT, such as: Infrastructure management, Database management, Software development",
-      "is_required": true
+      "is_required": false
     }
   ],
   "retake_policy": {
-    "waiting_period_days": 0,
+    "waiting_period_days": 1,
     "max_attempts_per_year": 5,
     "max_attempts_total": null,
-    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
+    "notes": "After the first failure, wait 24 hours. Wait 14 days between later attempts. At most five attempts in the 12 months starting with the first attempt; after five failures, wait until that period ends. Retake fees apply. See Microsoft's policy for exceptions."
   },
   "domains": [
     {
       "id": "1.0",
       "name": "Describe cloud concepts",
-      "weight_percent": 27.5,
+      "weight_percent": null,
+      "weight_min_percent": 25,
+      "weight_max_percent": 30,
       "objectives": [
         {
           "id": "1.1",
@@ -88,17 +58,27 @@
             "Identify appropriate use cases for each cloud model",
             "Describe the consumption-based model",
             "Compare cloud pricing models",
-            "Describe serverless",
-            "Describe the benefits of using cloud services",
-            "Describe the benefits of high availability and scalability in the cloud",
+            "Describe serverless"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Describe the benefits of using cloud services",
+          "sub_objectives": [
+            "Describe the benefits of high availability and scalability in the\ncloud",
             "Describe the benefits of reliability and predictability in the cloud",
             "Describe the benefits of security and governance in the cloud",
-            "Describe the benefits of manageability in the cloud",
-            "Describe cloud service types",
+            "Describe the benefits of manageability in the cloud"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Describe cloud service types",
+          "sub_objectives": [
             "Describe infrastructure as a service (IaaS)",
             "Describe platform as a service (PaaS)",
             "Describe software as a service (SaaS)",
-            "Identify appropriate use cases for each cloud service type (IaaS, PaaS, and SaaS)"
+            "Identify appropriate use cases for each cloud service type (IaaS,\nPaaS, and SaaS)"
           ]
         }
       ]
@@ -106,7 +86,9 @@
     {
       "id": "2.0",
       "name": "Describe Azure architecture and services",
-      "weight_percent": 37.5,
+      "weight_percent": null,
+      "weight_min_percent": 35,
+      "weight_max_percent": 40,
       "objectives": [
         {
           "id": "2.1",
@@ -118,36 +100,39 @@
             "Describe Azure resources and resource groups",
             "Describe subscriptions",
             "Describe management groups",
-            "Describe the hierarchy of resource groups, subscriptions, and management groups",
-            "Describe Azure compute and networking services",
-            "Compare compute types, including containers, virtual machines, and functions",
-            "Describe virtual machine options, including Azure virtual machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop",
+            "Describe the hierarchy of resource groups, subscriptions, and\nmanagement groups"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Describe Azure compute and networking services",
+          "sub_objectives": [
+            "Compare compute types, including containers, virtual machines, and\nfunctions",
+            "Describe virtual machine options, including Azure virtual machines,\nAzure Virtual Machine Scale Sets, availability sets, and Azure Virtual\nDesktop",
             "Describe the resources required for virtual machines",
-            "Describe application hosting options, including web apps, containers, and virtual machines",
-            "Describe virtual networking, including the purpose of Azure virtual networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and ExpressRoute",
-            "Define public and private endpoints",
-            "Describe Azure storage services",
+            "Describe application hosting options, including web apps, containers,\nand virtual machines",
+            "Describe virtual networking, including the purpose of Azure virtual\nnetworks, subnets, peering, Azure DNS, Azure VPN Gateway, and\nExpressRoute",
+            "Define public and private endpoints"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Describe Azure storage services",
+          "sub_objectives": [
             "Compare Azure Storage services",
             "Describe storage tiers",
             "Describe redundancy options",
             "Describe storage account options and storage types",
-            "Identify options for moving files, including AzCopy, Azure Storage Explorer, and Azure File Sync",
+            "Identify options for moving files, including AzCopy, Azure Storage\nExplorer, and Azure File Sync",
             "Describe migration options, including Azure Migrate and Azure Data Box"
           ]
-        }
-      ]
-    },
-    {
-      "id": "3.0",
-      "name": "Describe Azure identity, access, and security",
-      "weight_percent": 25.0,
-      "objectives": [
+        },
         {
-          "id": "3.1",
-          "title": "Describe directory services in Azure",
+          "id": "2.4",
+          "title": "Describe Azure identity, access, and security",
           "sub_objectives": [
-            "Describe Microsoft Entra ID and Microsoft Entra Domain Services",
-            "Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication (MFA), and passwordless",
+            "Describe directory services in Azure, including Microsoft Entra ID and\nMicrosoft Entra Domain Services",
+            "Describe authentication methods in Azure, including single sign-on\n(SSO), multifactor authentication (MFA), and passwordless",
             "Describe external identities in Azure",
             "Describe Microsoft Entra Conditional Access",
             "Describe Azure role-based access control (RBAC)",
@@ -159,21 +144,24 @@
       ]
     },
     {
-      "id": "4.0",
+      "id": "3.0",
       "name": "Describe Azure management and governance",
-      "weight_percent": 10.0,
+      "weight_percent": null,
+      "weight_min_percent": 30,
+      "weight_max_percent": 35,
       "objectives": [
         {
-          "id": "4.1",
+          "id": "3.1",
           "title": "Describe cost management in Azure",
           "sub_objectives": [
             "Describe factors that can affect costs in Azure",
             "Explore the pricing calculator",
-            "Describe cost management capabilities in Azure"
+            "Describe cost management capabilities in Azure",
+            "Describe the purpose of tags"
           ]
         },
         {
-          "id": "4.2",
+          "id": "3.2",
           "title": "Describe features and tools in Azure for governance and compliance",
           "sub_objectives": [
             "Describe the purpose of Microsoft Purview in Azure",
@@ -182,42 +170,101 @@
           ]
         },
         {
-          "id": "4.3",
+          "id": "3.3",
           "title": "Describe features and tools for managing and deploying Azure resources",
           "sub_objectives": [
             "Describe the Azure portal",
-            "Describe Azure Cloud Shell, including Azure Command-Line Interface (CLI) and Azure PowerShell",
+            "Describe Azure Cloud Shell, Azure CLI, and Azure PowerShell",
             "Describe the purpose of Azure Arc",
             "Describe infrastructure as code (IaC)",
-            "Describe Azure Resource Manager (ARM) and ARM templates",
-            "Describe monitoring tools in Azure",
+            "Describe Azure Resource Manager (ARM) and ARM templates"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Describe monitoring tools in Azure",
+          "sub_objectives": [
             "Describe the purpose of Azure Advisor",
             "Describe Azure Service Health",
-            "Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights"
+            "Describe Azure Monitor, including Log Analytics, Azure Monitor alerts,\nand Azure Monitor Application Insights"
           ]
         }
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900",
   "official_study_resources": [
     {
-      "resource_type": "online_course",
-      "title": "Microsoft Learn (free self-paced training)",
-      "url": "https://learn.microsoft.com/en-us/training/",
+      "resource_type": "official_documentation",
+      "title": "Choose from self-paced learning paths and modules or take an instructor-led course",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900#two-ways-to-prepare",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official learning paths mapped to each exam"
+      "price_usd": null
     },
     {
-      "resource_type": "practice_exam",
-      "title": "Microsoft Official Practice Assessment",
-      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "resource_type": "official_documentation",
+      "title": "Azure on Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/azure/",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official practice questions on Microsoft Learn"
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/?product=featured",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Cloud Adoption Framework for Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Accelerate cloud adoption with the Microsoft Cloud Adoption Framework for Azure",
+      "url": "https://learn.microsoft.com/en-us/training/paths/cloud-adoption-framework/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Q&A | Microsoft Docs",
+      "url": "https://learn.microsoft.com/en-us/answers/products/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Exam Readiness Zone",
+      "url": "https://learn.microsoft.com/en-us/shows/exam-readiness-zone/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Browse other Microsoft Learn shows",
+      "url": "https://learn.microsoft.com/en-us/shows/browse",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_renewal_guide",
+      "title": "Certification renewal and the Fundamentals exception",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/renew-your-microsoft-certification",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
     }
   ],
   "aliases": [
@@ -227,5 +274,37 @@
     "microsoft-az-900-azure-fundamentals",
     "microsoft-azure-fundamentals-az-900-12a68fb6"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-azure-fundamentals-az-900"
+  "practice_url": "https://quizforge.ai/tests/microsoft-azure-fundamentals-az-900",
+  "source_review": {
+    "checked_at": "2026-09-04",
+    "effective_at": "2026-07-20",
+    "method": "Official-source reconciliation with automated hierarchy checks; not an endorsement by Microsoft.",
+    "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900",
+    "source_sha256": "bde37b75f9fe4f88bc9c14b08d3b1fcec203c7cdc26df015de207e97b80a2502",
+    "policy_url": "https://learn.microsoft.com/en-us/credentials/support/retake-policy",
+    "policy_sha256": "a19c4af6decb39e56a7c87ac44aae32d78c1bfc36eb279191c39e1fe8182730c",
+    "changes": [
+      "Reconciled domain ranges and objective hierarchy against the dated official guide; local objective numbers are navigation aids.",
+      "Corrected first and subsequent retake waiting periods; removed the unsupported score threshold.",
+      "Removed unsupported fixed question count, duration, price, language list and testing rules. Consult the official exam page for booking details; the audience profile describes recommended experience, not mandatory prerequisites.",
+      "Corrected Fundamentals renewal status: these certifications do not expire."
+    ],
+    "study_actions": [
+      {
+        "title": "Check the official revision history before planning study",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900#change-log",
+        "detail": "Compare the effective date with your exam language and appointment. Use changed objectives to revisit earlier preparation."
+      },
+      {
+        "title": "Use the guide's learning and documentation map",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900#study-resources",
+        "detail": "For each objective, record a task you can perform and the official reference used. Prioritize gaps; the published ranges are not predicted question counts."
+      },
+      {
+        "title": "Atlas study exercise: Compare responsibility across service models",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900#skills-at-a-glance",
+        "detail": "Pick a small web application and describe it using infrastructure, platform and software service models. For each, identify which responsibilities remain with the customer. Then connect your choice to the cloud concepts, Azure services and governance objectives. This is a study aid, not an official exam question or a prediction of your result."
+      }
+    ]
+  }
 }

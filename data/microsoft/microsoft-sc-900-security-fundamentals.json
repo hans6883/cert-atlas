@@ -4,73 +4,43 @@
   "exam_code": "SC-900",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": "as of November 7, 2025",
+  "version": "Skills measured 2026-07-28",
   "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
-  "total_questions": 40,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Response",
-    "Drag and Drop",
-    "Case Study",
-    "Build List",
-    "Hot Area",
-    "Repeated Answer Choices"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 45,
-  "exam_price_usd": 165.0,
-  "exam_price_notes": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Check the official booking page for the price in your country or region.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/microsoft",
-      "notes": "In-person and online proctored (OnVUE)"
-    },
-    {
-      "provider": "Certiport",
-      "scheduling_url": "https://certiport.pearsonvue.com/",
-      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
-    }
-  ],
+  "testing_centers": [],
   "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
-  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
+  "id_requirements": null,
+  "exam_rules": null,
   "certification_validity_years": null,
-  "renewal_required": true,
-  "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
+  "renewal_required": false,
+  "renewal_options": "Microsoft Fundamentals certifications do not expire and do not require renewal.",
   "continuing_education_units": null,
-  "available_languages": [
-    "English",
-    "Simplified Chinese",
-    "Traditional Chinese",
-    "French",
-    "German",
-    "Japanese",
-    "Korean",
-    "Portuguese",
-    "Russian",
-    "Spanish",
-    "Arabic",
-    "Indonesian"
-  ],
+  "available_languages": [],
   "target_audience": "Business stakeholder, New or existing IT professional, Student",
   "recommended_experience": "Familiar with Microsoft Azure and Microsoft 365 and want to understand how Microsoft SCI solutions can span across these solution areas to provide a holistic and end-to-end solution.",
   "prerequisites": [],
   "retake_policy": {
-    "waiting_period_days": 0,
+    "waiting_period_days": 1,
     "max_attempts_per_year": 5,
     "max_attempts_total": null,
-    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
+    "notes": "After the first failure, wait 24 hours. Wait 14 days between later attempts. At most five attempts in the 12 months starting with the first attempt; after five failures, wait until that period ends. Retake fees apply. See Microsoft's policy for exceptions."
   },
   "domains": [
     {
       "id": "1.0",
       "name": "Describe the concepts of security, compliance, and identity",
-      "weight_percent": 10.0,
+      "weight_percent": null,
+      "weight_min_percent": 10,
+      "weight_max_percent": 15,
       "objectives": [
         {
           "id": "1.1",
@@ -100,30 +70,21 @@
     {
       "id": "2.0",
       "name": "Describe the capabilities of Microsoft Entra",
-      "weight_percent": 25.0,
+      "weight_percent": null,
+      "weight_min_percent": 25,
+      "weight_max_percent": 30,
       "objectives": [
         {
           "id": "2.1",
           "title": "Describe function and identity types of Microsoft Entra ID",
-          "sub_objectives": []
+          "sub_objectives": [
+            "Describe Microsoft Entra ID",
+            "Describe types of identities, including agent ID",
+            "Describe hybrid identity"
+          ]
         },
         {
           "id": "2.2",
-          "title": "Describe Microsoft Entra ID",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.3",
-          "title": "Describe types of identities",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.4",
-          "title": "Describe hybrid identity",
-          "sub_objectives": []
-        },
-        {
-          "id": "2.5",
           "title": "Describe authentication capabilities of Microsoft Entra ID",
           "sub_objectives": [
             "Describe the authentication methods",
@@ -132,15 +93,20 @@
           ]
         },
         {
-          "id": "2.6",
+          "id": "2.3",
           "title": "Describe access management capabilities of Microsoft Entra ID",
           "sub_objectives": [
-            "Describe Conditional Access",
-            "Describe Microsoft Entra roles and role-based access control (RBAC)",
-            "Describe identity protection and governance capabilities of Microsoft Entra",
+            "Describe Microsoft Entra Conditional Access",
+            "Describe Microsoft Entra roles and role-based access control (RBAC)"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Describe identity protection and governance capabilities of Microsoft Entra",
+          "sub_objectives": [
             "Describe Microsoft Entra ID Governance",
             "Describe access reviews",
-            "Describe the capabilities of Microsoft Entra Privileged Identity Management",
+            "Describe the capabilities of Microsoft Entra Privileged Identity\nManagement",
             "Describe Microsoft Entra ID Protection"
           ]
         }
@@ -149,15 +115,17 @@
     {
       "id": "3.0",
       "name": "Describe the capabilities of Microsoft security solutions",
-      "weight_percent": 35.0,
+      "weight_percent": null,
+      "weight_min_percent": 35,
+      "weight_max_percent": 40,
       "objectives": [
         {
           "id": "3.1",
           "title": "Describe core infrastructure security services in Azure",
           "sub_objectives": [
-            "Describe Azure distributed denial-of-service (DDoS) Protection",
+            "Describe Azure DDoS Protection",
             "Describe Azure Firewall",
-            "Describe Web Application Firewall (WAF)",
+            "Describe Azure Web Application Firewall (WAF)",
             "Describe network segmentation with Azure virtual networks",
             "Describe network security groups (NSGs)",
             "Describe Azure Bastion",
@@ -170,17 +138,22 @@
           "sub_objectives": [
             "Describe Microsoft Defender for Cloud",
             "Describe Cloud Security Posture Management (CSPM)",
-            "Describe how security policies, standards, and recommendations improve the cloud security posture",
-            "Describe enhanced security features provided by cloud workload protection"
+            "Describe how security policies, standards, and recommendations improve\nthe cloud security posture",
+            "Describe enhanced security features provided by cloud workload\nprotection"
           ]
         },
         {
           "id": "3.3",
           "title": "Describe capabilities of Microsoft Sentinel",
           "sub_objectives": [
-            "Define the concepts of security information and event management (SIEM) and security orchestration automated response (SOAR)",
-            "Describe threat detection and mitigation capabilities in Microsoft Sentinel",
-            "Describe threat protection with Microsoft Defender XDR",
+            "Define the concepts of security information and event management\n(SIEM) and security orchestration automated response (SOAR)",
+            "Describe threat detection and mitigation capabilities in Microsoft\nSentinel"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Describe threat protection with Microsoft Defender XDR",
+          "sub_objectives": [
             "Describe Microsoft Defender XDR services",
             "Describe Microsoft Defender for Office 365",
             "Describe Microsoft Defender for Endpoint",
@@ -196,7 +169,9 @@
     {
       "id": "4.0",
       "name": "Describe the capabilities of Microsoft compliance solutions",
-      "weight_percent": 20.0,
+      "weight_percent": null,
+      "weight_min_percent": 20,
+      "weight_max_percent": 25,
       "objectives": [
         {
           "id": "4.1",
@@ -208,11 +183,6 @@
         },
         {
           "id": "4.2",
-          "title": "Describe Microsoft Priva",
-          "sub_objectives": []
-        },
-        {
-          "id": "4.3",
           "title": "Describe compliance management capabilities of Microsoft Purview",
           "sub_objectives": [
             "Describe the Microsoft Purview portal",
@@ -221,7 +191,7 @@
           ]
         },
         {
-          "id": "4.4",
+          "id": "4.3",
           "title": "Describe information protection, data lifecycle management, and data governance capabilities of Microsoft Purview",
           "sub_objectives": [
             "Describe the data classification capabilities",
@@ -229,11 +199,11 @@
             "Describe sensitivity labels and sensitivity label policies",
             "Describe data loss prevention (DLP)",
             "Describe records management",
-            "Describe retention policies, retention labels, and retention label policies"
+            "Describe retention policies, retention labels, and retention label\npolicies"
           ]
         },
         {
-          "id": "4.5",
+          "id": "4.4",
           "title": "Describe insider risk, eDiscovery, and audit capabilities in Microsoft Purview",
           "sub_objectives": [
             "Describe insider risk management",
@@ -244,25 +214,103 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900",
   "official_study_resources": [
     {
-      "resource_type": "online_course",
-      "title": "Microsoft Learn (free self-paced training)",
-      "url": "https://learn.microsoft.com/en-us/training/",
+      "resource_type": "official_documentation",
+      "title": "Choose from self-paced learning paths and modules or take an instructor-led course",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/SC-900#two-ways-to-prepare",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official learning paths mapped to each exam"
+      "price_usd": null
     },
     {
-      "resource_type": "practice_exam",
-      "title": "Microsoft Official Practice Assessment",
-      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "resource_type": "official_documentation",
+      "title": "Microsoft security documentation",
+      "url": "https://learn.microsoft.com/en-us/security/",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official practice questions on Microsoft Learn"
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure security documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/security/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Entra ID documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/active-directory/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Sentinel documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/sentinel/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft 365 Defender documentation",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/?view=o365-worldwide",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Purview",
+      "url": "https://learn.microsoft.com/en-us/purview/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Get started with the Microsoft Service Trust Portal",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/compliance/get-started-with-service-trust-portal?view=o365-worldwide",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Q&A | Microsoft Docs",
+      "url": "https://learn.microsoft.com/en-us/answers/products/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Exam Readiness Zone",
+      "url": "https://learn.microsoft.com/en-us/shows/exam-readiness-zone/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Learn Shows",
+      "url": "https://learn.microsoft.com/en-us/shows/browse",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_renewal_guide",
+      "title": "Certification renewal and the Fundamentals exception",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/renew-your-microsoft-certification",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
     }
   ],
   "aliases": [
@@ -270,5 +318,37 @@
     "microsoft-sc-900-security-fundamentals",
     "sc-900"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-security-compliance-identity-fundamentals-sc-900"
+  "practice_url": "https://quizforge.ai/tests/microsoft-security-compliance-identity-fundamentals-sc-900",
+  "source_review": {
+    "checked_at": "2026-09-04",
+    "effective_at": "2026-07-28",
+    "method": "Official-source reconciliation with automated hierarchy checks; not an endorsement by Microsoft.",
+    "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900",
+    "source_sha256": "1bff095cda16d0d137a84bd92b3fa6c3528b8c879cc191f318d7bfaf3e400e42",
+    "policy_url": "https://learn.microsoft.com/en-us/credentials/support/retake-policy",
+    "policy_sha256": "a19c4af6decb39e56a7c87ac44aae32d78c1bfc36eb279191c39e1fe8182730c",
+    "changes": [
+      "Reconciled domain ranges and objective hierarchy against the dated official guide; local objective numbers are navigation aids.",
+      "Corrected first and subsequent retake waiting periods; removed the unsupported score threshold.",
+      "Removed unsupported fixed question count, duration, price, language list and testing rules. Consult the official exam page for booking details; the audience profile describes recommended experience, not mandatory prerequisites.",
+      "Corrected Fundamentals renewal status: these certifications do not expire."
+    ],
+    "study_actions": [
+      {
+        "title": "Check the official revision history before planning study",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900#change-log",
+        "detail": "Compare the effective date with your exam language and appointment. Use changed objectives to revisit earlier preparation."
+      },
+      {
+        "title": "Use the guide's learning and documentation map",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900#study-resources",
+        "detail": "For each objective, record a task you can perform and the official reference used. Prioritize gaps; the published ranges are not predicted question counts."
+      },
+      {
+        "title": "Atlas study exercise: Separate identity and security functions",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900#skills-at-a-glance",
+        "detail": "For an organization adopting cloud services, distinguish authentication, authorization, security monitoring and compliance needs. Map each need to the relevant capability in the guide. Explain the responsibility being addressed before selecting a Microsoft product. This is a study aid, not an official exam question or a prediction of your result."
+      }
+    ]
+  }
 }

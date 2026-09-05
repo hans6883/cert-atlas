@@ -4,79 +4,49 @@
   "exam_code": "DP-300",
   "certifying_body": "Microsoft",
   "certification_name": null,
-  "version": "as of April 24, 2026",
+  "version": "Skills measured 2026-04-24",
   "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300",
   "passing_score": 700,
   "passing_score_scale": "1-1000",
-  "total_questions": 40,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Response",
-    "Drag and Drop",
-    "Case Study",
-    "Build List",
-    "Hot Area",
-    "Repeated Answer Choices"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 100,
-  "exam_price_usd": 165.0,
-  "exam_price_notes": "Price not specified in the document.",
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Check the official booking page for the price in your country or region.",
   "voucher_url": null,
   "exam_registration_url": "https://home.pearsonvue.com/microsoft",
-  "testing_centers": [
-    {
-      "provider": "Pearson VUE",
-      "scheduling_url": "https://home.pearsonvue.com/microsoft",
-      "notes": "In-person and online proctored (OnVUE)"
-    },
-    {
-      "provider": "Certiport",
-      "scheduling_url": "https://certiport.pearsonvue.com/",
-      "notes": "Available at Certiport Authorized Testing Centers (primarily academic)"
-    }
-  ],
+  "testing_centers": [],
   "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name on ID must match registration. For online: webcam required, room must be clear of people and materials.",
-  "exam_rules": "No notes, books, or study materials. No phones or smartwatches. Whiteboard or scratch paper may be provided by testing center. Online: no dual monitors, no virtual machines, no headphones, must be alone in a closed room.",
+  "id_requirements": null,
+  "exam_rules": null,
   "certification_validity_years": null,
   "renewal_required": true,
   "renewal_options": "Microsoft certifications (Associate/Expert/Specialty) are renewed annually for free via a short renewal assessment on Microsoft Learn. Renewal assessment available 6 months before expiry. Fundamentals certifications do not expire.",
   "continuing_education_units": null,
-  "available_languages": [
-    "English",
-    "Simplified Chinese",
-    "Traditional Chinese",
-    "French",
-    "German",
-    "Japanese",
-    "Korean",
-    "Portuguese",
-    "Russian",
-    "Spanish",
-    "Arabic",
-    "Indonesian"
-  ],
+  "available_languages": [],
   "target_audience": "Database administrator who manages cloud and on-premises databases built with Azure SQL services and SQL Server.",
   "recommended_experience": "Experience with Azure SQL Database, Azure SQL Managed Instance, SQL Server on Azure Virtual Machines (Windows and Linux), and SQL Server on-premises.",
   "prerequisites": [
     {
       "prerequisite_type": "experience",
       "description": "Experience with building database solutions that support multiple workloads built with Azure SQL services and SQL Server.",
-      "is_required": true
+      "is_required": false
     }
   ],
   "retake_policy": {
-    "waiting_period_days": 0,
+    "waiting_period_days": 1,
     "max_attempts_per_year": 5,
     "max_attempts_total": null,
-    "notes": "No waiting period for first retake if score >= 500 on failed attempt. If score < 500: 14-day waiting period before retake. Maximum 5 attempts per exam per year (365 days). Free retake voucher sometimes included in official instructor-led training."
+    "notes": "After the first failure, wait 24 hours. Wait 14 days between later attempts. At most five attempts in the 12 months starting with the first attempt; after five failures, wait until that period ends. Retake fees apply. See Microsoft's policy for exceptions."
   },
   "domains": [
     {
       "id": "1.0",
       "name": "Plan and implement data platform resources",
-      "weight_percent": 17.5,
+      "weight_percent": null,
+      "weight_min_percent": 15,
+      "weight_max_percent": 20,
       "objectives": [
         {
           "id": "1.1",
@@ -90,17 +60,22 @@
             "Recommend a database sharding solution",
             "Deploy database offerings on selected platforms",
             "Deploy hybrid SQL Server solutions",
-            "Apply patches and updates for hybrid and infrastructure as a service (IaaS) deployment",
-            "Configure resources for scale and performance",
+            "Apply patches and updates for hybrid and infrastructure as a service\n(IaaS) deployment"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Configure resources for scale and performance",
+          "sub_objectives": [
             "Configure Azure SQL Database for scale and performance",
             "Configure Azure SQL Managed Instance for scale and performance",
-            "Configure SQL Server on Azure Virtual Machines for scale and performance",
+            "Configure SQL Server on Azure Virtual Machines for scale and\nperformance",
             "Configure table partitioning",
             "Configure data compression"
           ]
         },
         {
-          "id": "1.2",
+          "id": "1.3",
           "title": "Plan and implement a migration strategy",
           "sub_objectives": [
             "Evaluate requirements for a migration",
@@ -118,14 +93,16 @@
     {
       "id": "2.0",
       "name": "Implement a secure environment",
-      "weight_percent": 22.5,
+      "weight_percent": null,
+      "weight_min_percent": 20,
+      "weight_max_percent": 25,
       "objectives": [
         {
           "id": "2.1",
           "title": "Configure database authentication and authorization",
           "sub_objectives": [
-            "Configure Microsoft Entra ID authentication for Azure SQL Database, Azure SQL Managed Instance, and SQL Server",
-            "Configure authentication for SQL on Azure VMs and Azure SQL Managed Instance",
+            "Configure Microsoft Entra ID authentication for Azure SQL Database,\nAzure SQL Managed Instance, and SQL Server",
+            "Configure authentication for SQL on Azure VMs and Azure SQL Managed\nInstance",
             "Configure security principals",
             "Create users from Microsoft Entra identities",
             "Configure database and object-level permissions using graphical tools",
@@ -143,8 +120,13 @@
             "Configure server- and database-level firewall rules",
             "Implement Always Encrypted",
             "Implement Always Encrypted with VBS enclaves",
-            "Configure private links and service endpoints",
-            "Implement compliance controls for sensitive data",
+            "Configure private links and service endpoints"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Implement compliance controls for sensitive data",
+          "sub_objectives": [
             "Apply a data classification strategy",
             "Configure server and database audits",
             "Implement change data tracking",
@@ -158,7 +140,9 @@
     {
       "id": "3.0",
       "name": "Monitor, configure, and optimize database resources",
-      "weight_percent": 22.5,
+      "weight_percent": null,
+      "weight_min_percent": 20,
+      "weight_max_percent": 25,
       "objectives": [
         {
           "id": "3.1",
@@ -169,8 +153,13 @@
             "Interpret performance metrics",
             "Configure and monitor activity and performance",
             "Monitor by using database watcher",
-            "Monitor by using Extended Events",
-            "Monitor and optimize query performance",
+            "Monitor by using Extended Events"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Monitor and optimize query performance",
+          "sub_objectives": [
             "Configure Query Store",
             "Monitor by using Query Store",
             "Identify and resolve session blocking",
@@ -182,7 +171,7 @@
           ]
         },
         {
-          "id": "3.2",
+          "id": "3.3",
           "title": "Configure database solutions for optimal performance",
           "sub_objectives": [
             "Implement index maintenance tasks",
@@ -201,7 +190,9 @@
     {
       "id": "4.0",
       "name": "Configure and manage automation of tasks",
-      "weight_percent": 17.5,
+      "weight_percent": null,
+      "weight_min_percent": 15,
+      "weight_max_percent": 20,
       "objectives": [
         {
           "id": "4.1",
@@ -216,7 +207,7 @@
           "id": "4.2",
           "title": "Automate deployment of database resources",
           "sub_objectives": [
-            "Automate deployment by using Azure Resource Manager (ARM) and Bicep templates",
+            "Automate deployment by using Azure Resource Manager (ARM) and Bicep\ntemplates",
             "Automate deployment by using Azure PowerShell",
             "Automate deployment by using Azure CLI",
             "Monitor and troubleshoot deployments"
@@ -237,17 +228,24 @@
     {
       "id": "5.0",
       "name": "Plan and configure a high availability and disaster recovery (HA/DR) environment",
-      "weight_percent": 22.5,
+      "weight_percent": null,
+      "weight_min_percent": 20,
+      "weight_max_percent": 25,
       "objectives": [
         {
           "id": "5.1",
           "title": "Plan an HA/DR strategy for database solutions",
           "sub_objectives": [
-            "Recommend HA/DR strategy based on Recovery Point Objective/Recovery Time Objective (RPO/RTO) requirements",
+            "Recommend HA/DR strategy based on Recovery Point Objective/Recovery\nTime Objective (RPO/RTO) requirements",
             "Evaluate HA/DR for hybrid deployments",
             "Evaluate Azure-specific HA/DR solutions",
-            "Plan a testing procedure for an HA/DR solution",
-            "Plan and perform backup and restore of a database",
+            "Plan a testing procedure for an HA/DR solution"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Plan and perform backup and restore of a database",
+          "sub_objectives": [
             "Recommend a database backup and restore strategy",
             "Perform a database backup by using native tools",
             "Perform a database restore by using native tools",
@@ -258,13 +256,13 @@
           ]
         },
         {
-          "id": "5.2",
+          "id": "5.3",
           "title": "Configure HA/DR for database solutions",
           "sub_objectives": [
             "Configure active geo-replication",
-            "Configure Always On availability groups on SQL Managed Instance and Azure virtual machines",
+            "Configure Always On availability groups on SQL Managed Instance and\nAzure virtual machines",
             "Configure failover groups",
-            "Configure Always On Failover Cluster Instances on Azure virtual machines",
+            "Configure Always On Failover Cluster Instances on Azure virtual\nmachines",
             "Configure log shipping",
             "Monitor an HA/DR solution",
             "Troubleshoot an HA/DR solution"
@@ -273,25 +271,71 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300",
   "official_study_resources": [
     {
-      "resource_type": "online_course",
-      "title": "Microsoft Learn (free self-paced training)",
-      "url": "https://learn.microsoft.com/en-us/training/",
+      "resource_type": "official_documentation",
+      "title": "Choose from self-paced learning paths and modules or take an instructor-led course",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-300#two-ways-to-prepare",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official learning paths mapped to each exam"
+      "price_usd": null
     },
     {
-      "resource_type": "practice_exam",
-      "title": "Microsoft Official Practice Assessment",
-      "url": "https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications",
+      "resource_type": "official_documentation",
+      "title": "Azure SQL documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql",
       "provider": "Microsoft",
       "is_official": true,
-      "price_usd": 0.0,
-      "notes": "Free official practice questions on Microsoft Learn"
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure SQL Database documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/?view=azuresql",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Azure documentation",
+      "url": "https://learn.microsoft.com/en-us/azure/?product=popular",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Microsoft Q&A | Microsoft Docs",
+      "url": "https://learn.microsoft.com/en-us/answers/products/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Exam Readiness Zone",
+      "url": "https://learn.microsoft.com/en-us/shows/exam-readiness-zone/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Data Exposed",
+      "url": "https://learn.microsoft.com/en-us/shows/data-exposed/",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
+    },
+    {
+      "resource_type": "official_documentation",
+      "title": "Browse other Microsoft Learn shows",
+      "url": "https://learn.microsoft.com/en-us/shows/browse",
+      "provider": "Microsoft",
+      "is_official": true,
+      "price_usd": null
     }
   ],
   "aliases": [
@@ -299,5 +343,36 @@
     "dp-300",
     "microsoft-dp-300-azure-sql"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-azure-database-administrator-dp-300"
+  "practice_url": "https://quizforge.ai/tests/microsoft-azure-database-administrator-dp-300",
+  "source_review": {
+    "checked_at": "2026-09-04",
+    "effective_at": "2026-04-24",
+    "method": "Official-source reconciliation with automated hierarchy checks; not an endorsement by Microsoft.",
+    "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300",
+    "source_sha256": "9288c23527950b21094b8975f57461b8c77f6396cb7d8a7ed7893e871d2b5028",
+    "policy_url": "https://learn.microsoft.com/en-us/credentials/support/retake-policy",
+    "policy_sha256": "a19c4af6decb39e56a7c87ac44aae32d78c1bfc36eb279191c39e1fe8182730c",
+    "changes": [
+      "Reconciled domain ranges and objective hierarchy against the dated official guide; local objective numbers are navigation aids.",
+      "Corrected first and subsequent retake waiting periods; removed the unsupported score threshold.",
+      "Removed unsupported fixed question count, duration, price, language list and testing rules. Consult the official exam page for booking details; the audience profile describes recommended experience, not mandatory prerequisites."
+    ],
+    "study_actions": [
+      {
+        "title": "Check the official revision history before planning study",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300#change-log",
+        "detail": "Compare the effective date with your exam language and appointment. Use changed objectives to revisit earlier preparation."
+      },
+      {
+        "title": "Use the guide's learning and documentation map",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300#study-resources",
+        "detail": "For each objective, record a task you can perform and the official reference used. Prioritize gaps; the published ranges are not predicted question counts."
+      },
+      {
+        "title": "Atlas study exercise: Plan a database recovery review",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300#skills-at-a-glance",
+        "detail": "Choose a database workload with a recovery requirement. Explain the backup and restore evidence you would check, then distinguish recovery planning from query-performance troubleshooting. Map your review to the availability, security and optimization objectives rather than memorizing isolated commands. This is a study aid, not an official exam question or a prediction of your result."
+      }
+    ]
+  }
 }
