@@ -1,0 +1,166 @@
+{
+  "exam_id": "ncees-fs-fundamentals-of-surveying",
+  "editorial": {
+    "meta_description": "Prepare for the NCEES Fundamentals of Surveying exam with official domain weights, question counts, and reference handbook guidance.",
+    "overview": "The Fundamentals of Surveying examination is the first step towards surveying licensure in the United States and is normally taken near the end of, or shortly after, an accredited surveying degree. It is a closed-book computer-based test of 110 questions in a six-hour appointment that includes the tutorial and an optional scheduled break, taken with an electronic reference handbook, and it uses both SI and US Customary units. The specification spans surveying and mapping methods, boundary law and real property principles, survey computations and computer applications, business concepts, and applied mathematics and statistics. Boundary law carries the single largest share, which surprises candidates who expect a purely technical paper: the FS tests legal reasoning about property alongside instrumentation and computation.",
+    "who_should_take": "The FS exam is designed for surveying students in their final year and recent graduates seeking the surveyor-intern credential, and for practising survey technicians beginning the path to professional licensure. No prior licence is required, and passing it is the prerequisite for the PS examination.",
+    "skills_summary": [
+      "GNSS, total station and levelling instrumentation and field procedure",
+      "Boundary law, PLSS, metes and bounds, and real property principles",
+      "Mapping, CAD, GIS and digital terrain modelling",
+      "Survey computations, adjustments and coordinate geometry",
+      "Applied mathematics, statistics and surveying business practice"
+    ],
+    "preparation_strategy": "Treat boundary law and real property principles as a first-class technical subject rather than as background reading, because it carries the largest single share of the paper and it is where technically strong candidates most often lose marks. Work every computation type from the FS Reference Handbook so that the formulas and tables on screen during the exam are already familiar, and practise in both SI and US Customary units since the paper uses both and unit conversion errors are unforgiving. Cover the business concepts and statistics areas deliberately: they are small individually but together they represent a meaningful block of accessible marks.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "NCEES allocates 16 to 24 questions to Surveying Processes and Methods, about 16 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Instrumentation, GNSS/GPS surveys, Control surveys, Cadastral. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Instrumentation (e.g., GNSS/GPS, levels, total stations, robotic total stations, scanners, UAS)",
+          "GNSS/GPS surveys (e.g., static, kinematic, OPUS, real-time networks)",
+          "Control surveys (e.g., horizontal, vertical, network design, accuracy standards)",
+          "Cadastral (e.g., Public Land Survey System [PLSS], boundary, metes and bounds, land title)",
+          "Topographic surveys"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "NCEES allocates 14 to 21 questions to Mapping Processes and Methods, about 14 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Basic mapping concepts, Types of maps, CAD, GIS. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Basic mapping concepts (e.g., scaling, symbols, features, legend, contours, cartography)",
+          "Types of maps (e.g., plan and profile, cross section, plat, record of survey,",
+          "CAD (e.g., 2-D, 3-D, building information modeling [BIM])",
+          "GIS (e.g., feature collection, map projections, coordinate systems, metadata, database design and management, spatial da",
+          "Digital terrain model (e.g., machine control, triangulated irregular network"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "NCEES allocates 19 to 29 questions to Boundary Law and Real Property Principles, about 19 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Public records and descriptions, Common law principles, Easements, Simultaneous and sequential conveyances. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Public records and descriptions (e.g., land descriptions, mineral rights, ownership rights, weighting evidence)",
+          "Common law principles (e.g., controlling elements, unwritten rights, adverse possession)",
+          "Easements (e.g., granted, implied/prescriptive)",
+          "Simultaneous and sequential conveyances",
+          "Metes and bounds"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "NCEES allocates 13 to 20 questions to Surveying Principles, about 13 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Basic surveying, Geodesy, Applied geodesy. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Basic surveying (e.g., horizontal surveys, vertical surveys, understanding of historical methods and instruments, route ",
+          "Geodesy (e.g., spherical trigonometry, geometric, physical, geodetic coordinates, orthometric corrections, convergence, ",
+          "Applied geodesy (e.g., datums and datum conversions, latitude/longitude, coordinate transformations, state plane coordin"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "NCEES allocates 17 to 26 questions to Survey Computations and Computer Applications, about 17 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Coordinate geometry, Traverse closure and adjustments, Leveling, Least squares adjustments. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Coordinate geometry",
+          "Traverse closure and adjustments",
+          "Leveling (e.g., differential, trigonometric, reciprocal, precise)",
+          "Least squares adjustments",
+          "Area"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "NCEES allocates 11 to 17 questions to Business Concepts, about 11 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Project planning, Safety, Liabilities, Contracts. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Project planning (e.g., resource management, scheduling, cost estimation, tracking)",
+          "Safety (e.g., signage, basic first aid, safety equipment)",
+          "Liabilities (e.g., negligence, employee behavior, errors and omissions)",
+          "Contracts (e.g., basic elements, scope of work, specifications)",
+          "Supervision (e.g., survey team leadership, personnel management)"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "NCEES allocates 10 to 15 questions to Applied Mathematics and Statistics, about 10 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include College mathematics, Probability and statistics, Measurement science, Quantitative reasoning. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "College mathematics (e.g., trigonometry, analytical geometry and calculus, linear algebra and matrix theory)",
+          "Probability and statistics (e.g., mean, median, mode, hypothesis testing, normal distribution, linear regression)",
+          "Measurement science (e.g., error analysis, error propagation, positional tolerance, positional accuracy, random/systemat",
+          "Quantitative reasoning (e.g., critical thinking, data analysis and validation, blunder detection, data quality, redundan"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The six-hour appointment includes the tutorial and one optional scheduled break, so the working time is less than six hours and should be budgeted accordingly. Bring the identification named in the NCEES Examinee Guide; the exam is closed book with the handbook supplied on screen.",
+    "faq": [
+      {
+        "question_title": "Is the exam open book?",
+        "answer_text": "No. Every NCEES computer-based exam is closed book. An electronic reference handbook is supplied on screen at the test centre, and it is the only reference you may use, which is why candidates are advised to study from that handbook rather than from a textbook."
+      },
+      {
+        "question_title": "Where do the domain percentages come from?",
+        "answer_text": "NCEES publishes a range of questions per domain rather than a percentage. The percentages shown here are the midpoints of those published ranges, normalised across the domains so they total one hundred percent. The published question range is shown alongside each domain so you can see the original figure NCEES actually states."
+      },
+      {
+        "question_title": "How do I get the reference handbook before the exam?",
+        "answer_text": "NCEES makes the current reference handbook available to download from your MyNCEES account, and a printed edition of some handbooks is sold separately. The handbook is licensed for your personal use and may not be redistributed, so obtain it from NCEES directly rather than from a third party."
+      },
+      {
+        "question_title": "What identification do I need at the test centre?",
+        "answer_text": "The NCEES Examinee Guide sets out the identification, arrival and test centre rules that apply to every NCEES exam, including what you may bring and what happens if a test centre closes. Read the current edition before your appointment, because the requirements are enforced strictly."
+      }
+    ],
+    "methodology": "Domain names, question ranges, question counts and appointment length are taken from the NCEES CBT specification for this exam. Percentages are derived from the published question ranges as described above; NCEES does not publish percentages.",
+    "source_ids": [
+      "ncees-spec",
+      "ncees-page"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ncees-spec",
+      "title": "FS CBT Exam Specifications",
+      "url": "https://ncees.org/wp-content/uploads/2026/08/FS-CBT-specs-2024.pdf",
+      "publisher": "NCEES",
+      "source_type": "official_objectives",
+      "accessed": "2026-09-05",
+      "content_hash": "sha256:033336ecd00fc37243a16d18174e69bcf690f8abb642689583cd900d2b5578f8"
+    },
+    {
+      "id": "ncees-page",
+      "title": "NCEES exam page",
+      "url": "https://ncees.org/exams/fs-exam/",
+      "publisher": "NCEES",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-05",
+      "content_hash": "sha256:934797af3ec3685f72f53b3dbb0caf4ba630ef274df8ed8893bbe6f62da6e9a5"
+    }
+  ],
+  "quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 1.0,
+    "factual_confidence": 0.95,
+    "generated_by": "claude-opus-5 from the NCEES CBT specification",
+    "generated_at": "2026-09-05T23:08:24+00:00",
+    "reviewed_at": "2026-09-05T23:08:24+00:00"
+  }
+}

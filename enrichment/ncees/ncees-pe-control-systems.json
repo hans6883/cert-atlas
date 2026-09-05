@@ -1,0 +1,141 @@
+{
+  "exam_id": "ncees-pe-control-systems",
+  "editorial": {
+    "meta_description": "Prepare for the NCEES PE Control Systems exam with official domain weights, measurement and safety coverage, and handbook guidance.",
+    "overview": "The NCEES Principles and Practice of Engineering examination in Control Systems licenses engineers who specify, tune and safeguard the instrumentation and control loops that run industrial process plants. It is a closed-book computer-based test delivered with an electronic reference handbook, and its specification runs from measurement of process variables through controller design, final control elements, signal transmission and networking, to safety instrumented systems. The balance of the paper reflects working practice: measurement and control theory carry the largest share, but final control elements and safety instrumented systems together account for a substantial minority, so a candidate strong in loop tuning alone will not pass. Questions require calculation and equipment selection rather than recall.",
+    "who_should_take": "This exam is intended for instrumentation and control engineers in process industries such as chemicals, oil and gas, power generation, pharmaceuticals and water treatment, who hold an EIT or EI certification and want the professional licence that lets them seal control system designs.",
+    "skills_summary": [
+      "Process measurement and instrument selection",
+      "Controller tuning, loop analysis and advanced control strategies",
+      "Final control element sizing including valves and actuators",
+      "Industrial signal transmission, fieldbus and network architecture",
+      "Safety instrumented systems and SIL determination"
+    ],
+    "preparation_strategy": "Build the study plan around the PE Control Systems Reference Handbook, since it is the only reference available during the exam and the tables for valve sizing and flow measurement are the ones that will be on screen. Give safety instrumented systems genuine time even though it is the smallest published block, because SIL verification questions are calculation-heavy and are frequently the difference between a marginal pass and a marginal fail. Practise measurement questions across every process variable rather than only the flow and pressure instruments encountered at work, and rehearse valve sizing until the handbook's tables can be navigated without hesitation.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "NCEES allocates 16 to 24 questions to Measurement, about 23 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Sensor technologies applicable to general measurement, Sensor technologies applicable to general analytical instrum, Sensor technologies applicable to fire and gas detectors, Sensor technologies applicable to machinery monitoring and p. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Sensor technologies applicable to general measurement (e.g., flow, pressure, level, temperature, counters, motion) inclu",
+          "Sensor technologies applicable to general analytical instruments and sampling systems (e.g., pH, ORP, density, O2, condu",
+          "Sensor technologies applicable to fire and gas detectors (e.g., cameras, IR, UV, open path) including principles, specif",
+          "Sensor technologies applicable to machinery monitoring and protection (e.g., vibration, temperatures, pressures, thrust,",
+          "Sensor characteristics (e.g., rangeability, accuracy and precision, temperature effects, response times, reliability, re"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "NCEES allocates 17 to 26 questions to Control Systems, about 24 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Engineering drawings, diagrams, symbology, and terminology, Control theory including process dynamics and response for a, Human factors including displays, alarm management, and equi, Logic implementation, configuration/programming, logic excep. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Engineering drawings, diagrams, symbology, and terminology (e.g., P&ID, process flow diagrams, control loop diagrams, lo",
+          "Control theory including process dynamics and response for analog, discrete, and sequential control methods for common p",
+          "Human factors including displays, alarm management, and equipment layout",
+          "Logic implementation, configuration/programming, logic exception handling, and diagnosis of unexpected behavior, includi",
+          "System design (architecture, hardware, interfaces, and security) to meet requirements, limitations, and costs, including"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "NCEES allocates 14 to 21 questions to Final Control Elements, about 20 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Valve type and material selection based on application and p, Valve trim selection, Valve calculations, Valve actuator type application and selection including fail. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Valve type and material selection based on application and process characteristics (e.g., erosion, corrosion, pressure, ",
+          "Valve trim selection (e.g., seat leakage class, noise reduction, characteristics)",
+          "Valve calculations (e.g., sizing, pressure drop, split range)",
+          "Valve actuator type application and selection including failure modes",
+          "Impacts of fluid dynamics (e.g., cavitation, flashing, choked flow, Joule-"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "NCEES allocates 11 to 17 questions to Signals, Transmission, and Networking, about 16 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Signal types and technologies, Signal conversion principles, Hazardous area classifications and installation techniques, Power, grounding, electrical segregation, electromagnetic in. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Signal types and technologies (e.g., analog, discrete, buses, topologies, limitations, protocols)",
+          "Signal conversion principles (e.g., analog/digital [A/D], digital/analog [D/A], current/pneumatic [I/P], current/current",
+          "Hazardous area classifications and installation techniques (e.g., intrinsically safe",
+          "Power, grounding, electrical segregation, electromagnetic interference (e.g., UPS, fusing, diode protection, calculation",
+          "Signal circuit design and calculations (e.g., two-wire, four-wire, isolated outputs, loop powered, buses, voltage, curre"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "NCEES allocates 12 to 18 questions to Safety Instrumented Systems, about 17 percent of the paper, making this one of the blocks that decides the result. The published knowledge areas include Functional safety life cycle structure and phases, Hazard and risk assessment. Allocation of safety functions t, Safety requirements specifications, Design and engineering of safety instrumented systems. Work these directly from the reference handbook supplied in the exam, because the tables and figures on screen are the ones you must be able to find quickly under time pressure.",
+        "study_focus": [
+          "Functional safety life cycle structure and phases (e.g., deliverables, requirements, purpose, and timing)",
+          "Hazard and risk assessment. Allocation of safety functions to protection layers identification of SIFs, purpose, and out",
+          "Safety requirements specifications (SRS) (e.g., documentation and requirements)",
+          "Design and engineering of safety instrumented systems (e.g., device selection,",
+          "Installation, commissioning, and validation including procedures and site acceptance testing (SAT)"
+        ],
+        "source_ids": [
+          "ncees-spec"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The appointment is closed book with the electronic handbook supplied on screen. Bring the identification required by the NCEES Examinee Guide, and treat the scheduled break as planned time rather than as spare working time.",
+    "faq": [
+      {
+        "question_title": "Is the exam open book?",
+        "answer_text": "No. Every NCEES computer-based exam is closed book. An electronic reference handbook is supplied on screen at the test centre, and it is the only reference you may use, which is why candidates are advised to study from that handbook rather than from a textbook."
+      },
+      {
+        "question_title": "Where do the domain percentages come from?",
+        "answer_text": "NCEES publishes a range of questions per domain rather than a percentage. The percentages shown here are the midpoints of those published ranges, normalised across the domains so they total one hundred percent. The published question range is shown alongside each domain so you can see the original figure NCEES actually states."
+      },
+      {
+        "question_title": "How do I get the reference handbook before the exam?",
+        "answer_text": "NCEES makes the current reference handbook available to download from your MyNCEES account, and a printed edition of some handbooks is sold separately. The handbook is licensed for your personal use and may not be redistributed, so obtain it from NCEES directly rather than from a third party."
+      },
+      {
+        "question_title": "What identification do I need at the test centre?",
+        "answer_text": "The NCEES Examinee Guide sets out the identification, arrival and test centre rules that apply to every NCEES exam, including what you may bring and what happens if a test centre closes. Read the current edition before your appointment, because the requirements are enforced strictly."
+      }
+    ],
+    "methodology": "Domain names, question ranges, question counts and appointment length are taken from the NCEES CBT specification for this exam. Percentages are derived from the published question ranges as described above; NCEES does not publish percentages.",
+    "source_ids": [
+      "ncees-spec",
+      "ncees-page"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ncees-spec",
+      "title": "PE Control Systems CBT Exam Specifications (2027)",
+      "url": "https://ncees.org/wp-content/uploads/2026/04/PE-Control-Systems-2027-Specs.pdf",
+      "publisher": "NCEES",
+      "source_type": "official_objectives",
+      "accessed": "2026-09-05",
+      "content_hash": "sha256:40e7dd4801ce923d503b365038ea39fa2037b030bcd43ae1c46daf9e44167819"
+    },
+    {
+      "id": "ncees-page",
+      "title": "NCEES exam page",
+      "url": "https://ncees.org/exams/pe-exam/control-systems/",
+      "publisher": "NCEES",
+      "source_type": "official_certification_page",
+      "accessed": "2026-09-05",
+      "content_hash": "sha256:d25bfdd327a6a78750c909fceb0f8cd561e64b2cccddf79956ce04e32091388c"
+    }
+  ],
+  "quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "evidence_coverage": 1.0,
+    "factual_confidence": 0.95,
+    "generated_by": "claude-opus-5 from the NCEES CBT specification",
+    "generated_at": "2026-09-05T23:08:24+00:00",
+    "reviewed_at": "2026-09-05T23:08:24+00:00"
+  }
+}

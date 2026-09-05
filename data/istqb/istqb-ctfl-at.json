@@ -213,18 +213,5 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:03+00:00"
-  },
-  "lifecycle": {
-    "status": "scheduled_retirement",
-    "retires_on": "2027-05-06",
-    "replacement": {
-      "exam_code": "CTFL",
-      "relationship": "related_successor",
-      "url": "/istqb/istqb-ctfl",
-      "name": "Certified Tester Foundation Level (CTFL)"
-    },
-    "summary": "ISTQB retires CTFL-AT on 2027-05-06. CTFL is the named replacement path.",
-    "evidence_url": "https://istqb.org/certifications/certified-tester-foundation-level-agile-tester-ctfl-at/",
-    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }
