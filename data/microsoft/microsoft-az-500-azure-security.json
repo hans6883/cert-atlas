@@ -660,6 +660,8 @@
     ]
   },
   "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-08-31",
     "summary": "Microsoft will retire AZ-500 on 2026-08-31. The exam remains schedulable before the cutoff. Microsoft has not announced a successor; check the official Azure Security Engineer page for updates.",
     "migration_actions": [
       "Confirm that a complete AZ-500 study and booking plan fits before 2026-08-31.",
@@ -670,11 +672,7 @@
     "source_ids": [
       "microsoft-az-500-study-guide",
       "microsoft-retirement-list"
-    ],
-    "status": "scheduled_retirement",
-    "retires_on": "2026-08-31",
-    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
-    "verified_at": "2026-08-26T00:00:00Z"
+    ]
   },
   "sources": [
     {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02",
+  "generated": "2026-09-05",
   "total_vendors": 223,
   "vendors": [
     {
@@ -51,20 +51,20 @@
       "slug": "clep"
     },
     {
+      "vendor_id": "ncees",
+      "display_name": "NCEES",
+      "website": "https://ncees.org",
+      "certification_page": "https://ncees.org/exams/",
+      "exam_count": 34,
+      "slug": "ncees"
+    },
+    {
       "vendor_id": "salesforce",
       "display_name": "Salesforce",
       "website": "https://trailhead.salesforce.com",
       "certification_page": "https://trailhead.salesforce.com/credentials/administratoroverview",
       "exam_count": 32,
       "slug": "salesforce"
-    },
-    {
-      "vendor_id": "ncees",
-      "display_name": "NCEES",
-      "website": "https://ncees.org",
-      "certification_page": "https://ncees.org/exams/",
-      "exam_count": 29,
-      "slug": "ncees"
     },
     {
       "vendor_id": "finra",
