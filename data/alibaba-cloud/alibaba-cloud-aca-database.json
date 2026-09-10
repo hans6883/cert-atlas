@@ -98,7 +98,7 @@
     "alibaba database associate",
     "alibaba-cloud-aca-database"
   ],
-  "practice_url": "https://quizforge.ai/tests/aca-database-associate-2nbh8e",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Alibaba Cloud ACA Database Associate certification exam is officially retired as of 2025-03-31 and currently has no successor available for candidates.",
     "overview": "The ACA Database Associate (ACA-DB) certification from Alibaba Cloud covered database fundamentals, ApsaraDB RDS, NoSQL, data migration, and high availability configurations. This exam is officially retired as of 2025-03-31. Alibaba Cloud has not named a successor for this credential. Candidates seeking current certification paths should consult the official Alibaba Cloud education portal for the latest available programs and professional guidance regarding their cloud database learning journey and technical development.",
@@ -242,5 +242,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:20+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-03-31",
+    "summary": "Alibaba Cloud retired ACA-DB on 2025-03-31.",
+    "evidence_url": "https://edu.alibabacloud.com/certification/aca_database",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

@@ -109,7 +109,7 @@
     "snowpro advanced data engineer dea-c01",
     "snowpro data engineer"
   ],
-  "practice_url": "https://quizforge.ai/tests/snowpro-advanced-data-engineer-dea-c01-2e68d4",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Prepare for the SnowPro Advanced: Data Engineer certification by reviewing its direct successor and core platform requirements.",
     "overview": "The SnowPro Advanced: Data Engineer certification exam, administered by Snowflake, is now retired and no longer available for scheduling. Its verified successor is DEA-C02. The linear exam format historically featured 65 questions, a duration of 115 minutes, and a passing score of 65. Candidates evaluated data engineering concepts across 5 distinct domains.",
@@ -250,5 +250,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:19:21+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "DEA-C02",
+      "relationship": "direct_replacement",
+      "url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-dataengineer-C02/",
+      "name": "SnowPro Advanced: Data Engineer"
+    },
+    "summary": "Snowflake retired Snowflake SnowPro Advanced: Data Engineer. DEA-C02 is the direct replacement path.",
+    "evidence_url": "https://learn.snowflake.com/en/certifications",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

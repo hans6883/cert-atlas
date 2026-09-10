@@ -115,7 +115,7 @@
     "netapp-ncie-data-protection",
     "ns0-527"
   ],
-  "practice_url": "https://quizforge.ai/tests/ncie-â€”-netapp-certified-implementation-engineer-data-protection-2maw8x",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Prepare for the NetApp NCIE Data Protection certification covering ONTAP data management and cloud integration across 65 exam questions at Pearson VUE.",
     "overview": "The NetApp NCIE Data Protection certification exam evaluates candidates on ONTAP Data Management, Storage Architecture and Design, SAN/NAS Configuration, Data Protection and SnapVault, Cloud Integration across AWS, Azure, and GCP, alongside Performance and Troubleshooting. Candidates must complete a total of 65 questions at authorized Pearson VUE testing centers to successfully earn this professional credential. This exam validates the technical proficiency required to manage complex storage environments effectively.",
@@ -271,5 +271,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:20+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "NS0-529",
+      "relationship": "direct_replacement",
+      "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/data-protection-specialist/",
+      "name": "NetApp Certified Implementation Engineer – Data Protection Specialist Exam (NS0-529)"
+    },
+    "summary": "NetApp retired NS0-527. NS0-529 is the direct replacement path.",
+    "evidence_url": "https://www.netapp.com/insight/certification/",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

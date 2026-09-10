@@ -271,9 +271,10 @@
   "aliases": [
     "data engineering on microsoft azure",
     "dp-203",
+    "microsoft-azure-data-engineer-dp-203",
     "microsoft-dp-203-azure-data-engineering"
   ],
-  "practice_url": "https://quizforge.ai/tests/data-engineering-on-microsoft-azure-2e04v7",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Exam DP-203: Data Engineering on Microsoft Azure is officially retired. Microsoft provides no successor for this credential, so please check official resources.",
     "overview": "Data Engineering on Microsoft Azure, known as DP-203, was a Microsoft certification exam covering data storage, processing, and security domains. This exam is now retired. Because Microsoft has not named a successor, candidates should check official Microsoft certification resources for the paths available for data engineers. This page serves as a reference for the final published objectives and structure of the retired exam, which consisted of 40 questions in total for all candidates.",
@@ -388,5 +389,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:08+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "Microsoft has retired exam DP-203 (Data Engineering on Microsoft Azure). This page is kept as a study reference for the final published objectives.",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   }
 }

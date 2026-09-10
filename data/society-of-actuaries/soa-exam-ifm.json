@@ -117,7 +117,7 @@
     "soa ifm",
     "soa-exam-ifm"
   ],
-  "practice_url": "https://quizforge.ai/tests/soa-exam-ifm-investments-financial-markets",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Society of Actuaries retired Exam IFM. Candidates should now pursue the Advanced Topics in Predictive Analytics (ATPA) Assessment for their actuarial path.",
     "overview": "Exam IFM (Investments and Financial Markets) was a Society of Actuaries certification covering portfolio theory, asset pricing, and derivatives. This exam is retired as of 2022-11-30. It has been replaced by the Advanced Topics in Predictive Analytics (ATPA) Assessment. Candidates seeking actuarial credentials should now pursue the ATPA path instead of this legacy exam. The exam featured 30 questions and a 180-minute duration, requiring a registration fee of 325.0 dollars for those who took it before the retirement date.",
@@ -285,5 +285,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:19:21+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2022-11-30",
+    "replacement": {
+      "exam_code": "ATPA",
+      "relationship": "related_successor",
+      "url": "https://www.soa.org/globalassets/assets/files/edu/2022/2022-01-atpa-learning-objectives.pdf",
+      "name": "Advanced Topics in Predictive Analytics (ATPA) Assessment"
+    },
+    "summary": "Society of Actuaries retired SOA-EXAM-IFM on 2022-11-30. ATPA is the named replacement path.",
+    "evidence_url": "https://www.soa.org/education/general-info/asa-changes-transition",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

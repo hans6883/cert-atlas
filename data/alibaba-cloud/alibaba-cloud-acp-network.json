@@ -97,7 +97,7 @@
     "alibaba network professional",
     "alibaba-cloud-acp-network"
   ],
-  "practice_url": "https://quizforge.ai/tests/acp-network-professional-2ncp4s",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The ACP Network Professional exam is retired as of 2025-03-31. There is no successor exam available for this specific Alibaba Cloud certification credential.",
     "overview": "The ACP Network Professional certification, offered by Alibaba Cloud, covered advanced cloud networking concepts including VPCs, SD-WAN, and Express Connect. This exam is retired as of 2025-03-31. No successor exam has been named by the certifying body. Candidates interested in cloud networking should consult the official Alibaba Cloud education portal to identify current learning paths and certification options available to replace this retired credential. The program was designed to validate technical proficiency in managing complex network environments within the Alibaba Cloud ecosystem for various enterprise-level cloud infrastructure deployments.",
@@ -247,5 +247,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:21+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-03-31",
+    "summary": "Alibaba Cloud retired ACP-NETWORK on 2025-03-31.",
+    "evidence_url": "https://edu.alibabacloud.com/certification/update-announcement",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

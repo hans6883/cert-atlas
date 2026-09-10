@@ -234,7 +234,7 @@
     "microsoft dynamics 365 fundamentals crm",
     "microsoft-mb-910-dynamics-365-fundamentals-crm"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-mb-910-dynamics-365-fundamentals-crm",
+  "practice_url": null,
   "editorial": {
     "meta_description": "MB-910 is retired. Review its source-verified domains, cutoff, study value, and truthful next steps without an invented replacement.",
     "overview": "MB-910, Microsoft Dynamics 365 Fundamentals (CRM), retired on 2025-12-31. Its published domains cover Describe Dynamics 365 Customer Insights, Describe Dynamics 365 Sales, Describe Dynamics 365 Customer Service, Describe Dynamics 365 Field Service, Explore the core capabilities of customer engagement apps in Dynamics 365. The historical MB-910 blueprint remains a compact map of the customer lifecycle. Customer Insights forms and segments audiences, Sales advances opportunities, Customer Service resolves cases, and Field Service carries service into scheduled onsite work. The useful artifact is that process map, not the retired exam target. Microsoft does not name a direct replacement in the reviewed official sources. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
@@ -321,8 +321,6 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2025-12-31",
     "summary": "Microsoft retired MB-910 on 2025-12-31. The exam is no longer schedulable. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
     "migration_actions": [
       "Remove MB-910 from current registration and practice calls to action because it retired on 2025-12-31.",
@@ -333,7 +331,11 @@
     "source_ids": [
       "microsoft-mb-910-study-guide",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2025-12-31",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

@@ -345,7 +345,7 @@
     "configuring windows server hybrid advanced services",
     "microsoft-az-801-windows-server-hybrid-advanced"
   ],
-  "practice_url": "https://quizforge.ai/?q=Configuring%20Windows%20Server%20Hybrid%20Advanced%20Services",
+  "practice_url": "https://quizforge.ai/tests/az-801-windows-hybrid",
   "editorial": {
     "meta_description": "AZ-801 retires soon. Review its source-verified domains, cutoff, study value, and truthful next steps without an invented replacement.",
     "overview": "AZ-801, Configuring Windows Server Hybrid Advanced Services, remains available only until 2026-09-30. Its published domains cover Secure Windows Server on-premises and hybrid infrastructures, Implement and manage Windows Server high availability, Implement disaster recovery, Migrate servers and workloads, Monitor and troubleshoot Windows Server environments. AZ-801 is the failure-mode half of the Windows Server Hybrid Administrator path. The outline is valuable because it ties hardening, high availability, recovery, migration, monitoring, and troubleshooting to the same workloads instead of treating those disciplines as separate product checklists. Microsoft does not name a direct replacement in the reviewed official sources. This page keeps the dated blueprint useful while separating verified lifecycle facts from recommendations.",
@@ -432,8 +432,6 @@
     ]
   },
   "lifecycle": {
-    "status": "scheduled_retirement",
-    "retires_on": "2026-09-30",
     "summary": "Microsoft will retire AZ-801 on 2026-09-30. The exam remains schedulable before the cutoff. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
     "migration_actions": [
       "Complete and schedule AZ-801 before 2026-09-30 only if the remaining window supports a sound preparation plan.",
@@ -444,7 +442,11 @@
     "source_ids": [
       "microsoft-az-801-study-guide",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "scheduled_retirement",
+    "retires_on": "2026-09-30",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

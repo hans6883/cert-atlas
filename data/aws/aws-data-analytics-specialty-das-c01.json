@@ -114,5 +114,18 @@
     "aws-data-analytics-specialty-das-c01",
     "das-c01"
   ],
-  "practice_url": "https://quizforge.ai/tests/aws-certified-data-analytics-â€“-specialty-2dwh62"
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-04-08",
+    "replacement": {
+      "exam_code": "DEA-C01",
+      "relationship": "related_successor",
+      "url": "/aws/aws-data-engineer-associate-dea-c01",
+      "name": "AWS Certified Data Engineer – Associate"
+    },
+    "summary": "AWS retired the Data Analytics - Specialty exam on 2024-04-08. In the same announcement AWS named the new AWS Certified Data Engineer - Associate (DEA-C01) as the direction for data skills; it is the AWS successor path.",
+    "evidence_url": "https://aws.amazon.com/blogs/training-and-certification/aws-certification-retirements-and-launches/",
+    "verified_at": "2026-09-10T19:12:52.121600+00:00"
+  }
 }

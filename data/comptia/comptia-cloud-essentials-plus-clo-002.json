@@ -112,7 +112,7 @@
     "comptia cloud essentials+",
     "comptia-cloud-essentials-plus-clo-002"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-cloud-essentials-plus-clo-002",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The CompTIA Cloud Essentials+ CLO-002 exam is officially retired by CompTIA, and there is no successor exam available for candidates to pursue at this time.",
     "overview": "CompTIA Cloud Essentials+ CLO-002 covered essential cloud concepts, business principles, management, and security. This exam, administered by CompTIA, is now retired. Because the registry names no successor, candidates should consult the official CompTIA website to identify current certification options that align with their professional goals. This retired exam previously served as a baseline for understanding cloud environments and their operational requirements, providing a core knowledge base for individuals entering the IT industry or seeking to understand the broader implications of cloud computing in a modern business environment.",
@@ -236,5 +236,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:32+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "CompTIA retired CLO-002.",
+    "evidence_url": "https://help.comptia.org/hc/en-us/articles/10830728209300-Which-CompTIA-Certifications-Have-Been-Retired",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
   }
 }

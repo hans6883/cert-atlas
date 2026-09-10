@@ -90,7 +90,7 @@
     "strategic business reporting",
     "strategic business reporting sbr p2"
   ],
-  "practice_url": "https://quizforge.ai/?q=Strategic%20Business%20Reporting%20%28SBR/P2%29",
+  "practice_url": "https://quizforge.ai/tests/strategic-business-reporting-sbr-p2-36iw9a",
   "editorial": {
     "meta_description": "The Strategic Business Reporting exam is scheduled for retirement on 2027-06-30. Candidates should transition to the successor exam, S1, to maintain their",
     "overview": "The Strategic Business Reporting exam, certified by the ACCA, evaluates proficiency in financial reporting frameworks, performance analysis, and accounting standards. This linear exam consists of Objective Test Questions and Constructed Response tasks. It is a professional-level assessment that requires candidates to demonstrate technical knowledge of reporting requirements and ethical principles. The exam is scheduled for retirement on 2027-06-30, with S1 serving as the official successor for all candidates.",
@@ -212,5 +212,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:18+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-06-30",
+    "replacement": {
+      "exam_code": "S1",
+      "relationship": "direct_replacement",
+      "url": "https://www.accaglobal.com/content/dam/accarelaunch/ila/exam-artefacts/strategic-professional/s1/syllabus/S1%20Business%20and%20Sustainability%20Reporting%20(INT)%20%20September%202027%20-%20June%202028%20Syllabus%20and%20Study%20Guide.pdf",
+      "name": "Business and Sustainability Reporting (S1)"
+    },
+    "summary": "ACCA retires SBR/P2 on 2027-06-30. S1 is the named replacement path.",
+    "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
   }
 }

@@ -97,7 +97,7 @@
     "alibaba security professional",
     "alibaba-cloud-acp-security"
   ],
-  "practice_url": "https://quizforge.ai/tests/acp-security-professional-2na9c0",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The ACP Security Professional exam was retired on 2025-03-31 and currently has no successor exam available for candidates to pursue through Alibaba Cloud.",
     "overview": "The ACP Security Professional certification, managed by Alibaba Cloud, focused on security architecture, threat detection, compliance, IAM, and security operations. This exam is retired as of 2025-03-31. There is no official successor exam provided by the certifying body. Candidates seeking to validate their cloud security expertise should monitor the official Alibaba Cloud certification portal for updates on current professional-level offerings and training paths to ensure they remain aligned with industry standards and requirements.",
@@ -241,5 +241,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:21+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-03-31",
+    "summary": "Alibaba Cloud retired ACP-SECURITY on 2025-03-31.",
+    "evidence_url": "https://edu.alibabacloud.com/certification/update-announcement",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

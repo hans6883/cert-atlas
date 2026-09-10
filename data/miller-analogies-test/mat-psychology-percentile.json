@@ -70,7 +70,7 @@
     "mat-psychology-percentile",
     "miller analogies psychology"
   ],
-  "practice_url": "https://quizforge.ai/tests/mat-psychology-percentile",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The MAT Psychology Norms exam is retired as of 2023-11-15. There is no successor exam.",
     "overview": "The MAT Psychology Norms exam, certified by Miller Analogies Test, assessed knowledge across humanities, social sciences, natural sciences, and general vocabulary. This exam is retired as of 2023-11-15. The registry names no successor for this assessment. Candidates seeking current certification paths should contact Miller Analogies Test directly for information regarding available testing options, as this specific exam is no longer available for registration or completion under any circumstances for any candidate.",
@@ -175,5 +175,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:05+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2023-11-15",
+    "summary": "Miller Analogies Test retired MAT-PSY on 2023-11-15.",
+    "evidence_url": "https://www.pearsonassessments.com/graduate-admissions/mat/about.html",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

@@ -137,7 +137,7 @@
     "oracle cloud infrastructure 2023 cloud operations professional 1z0-1067-23",
     "oracle-oci-cloud-operations-1z0-1067"
   ],
-  "practice_url": "https://quizforge.ai/?q=Oracle%20Cloud%20Infrastructure%202023%20Cloud%20Operations%20Professional%20%281Z0-1067-23%29",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Oracle Cloud Infrastructure 2023 Cloud Operations Professional exam is retired as of 2024-08-31. Prepare for successor 1Z0-1067-24 instead.",
     "overview": "Certified by Oracle, the Oracle Cloud Infrastructure 2023 Cloud Operations Professional certification examination covered resource management, monitoring systems, logging configurations, and cost governance topics across multiple domains. This specific exam is retired as of 2024-08-31. Candidates should focus their attention on the verified successor, 1Z0-1067-24, for all current certification paths and career advancement objectives within the ecosystem.",
@@ -295,5 +295,17 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:42+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-08-31",
+    "replacement": {
+      "exam_code": "1Z0-1067-24",
+      "relationship": "direct_replacement",
+      "url": null
+    },
+    "summary": "Oracle retired 1Z0-1067-23 on 2024-08-31. 1Z0-1067-24 is the named replacement path.",
+    "evidence_url": "https://www.oracle.com/jp/education/certification/discontinued-exams/",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
   }
 }

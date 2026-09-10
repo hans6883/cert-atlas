@@ -98,7 +98,7 @@
     "senior certified welding inspector",
     "senior welding inspector"
   ],
-  "practice_url": "https://quizforge.ai/tests/senior-certified-welding-inspector-scwi-2nismp",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Senior Certified Welding Inspector exam is retired as of 2025-04-01. Review the successor path WPQ1,WPQ2,WCQA,NDEC for your certification journey today.",
     "overview": "The Senior Certified Welding Inspector exam, certified by the American Welding Society, was officially retired on 2025-04-01. It previously covered advanced inspection methods, welding metallurgy, and advanced codes and standards. Every candidate looking to advance their professional credentials must now look toward the verified successor path consisting of WPQ1,WPQ2,WCQA,NDEC for their future certification journey.",
@@ -211,5 +211,17 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:24+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-04-01",
+    "replacement": {
+      "exam_code": "WPQ1,WPQ2,WCQA,NDEC",
+      "relationship": "collective_replacement",
+      "url": null
+    },
+    "summary": "American Welding Society retired SCWI on 2025-04-01. WPQ1,WPQ2,WCQA,NDEC is the named replacement path.",
+    "evidence_url": "https://www.aws.org/certification-and-education/professional-certification/senior-certified-welding-inspector/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

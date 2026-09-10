@@ -1,0 +1,225 @@
+{
+  "exam_id": "giac-gnfa-network-forensic-analyst",
+  "exam_name": "GIAC Network Forensic Analyst (GNFA)",
+  "exam_code": "GIAC-GNFA",
+  "certifying_body": "GIAC",
+  "version": null,
+  "source_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa",
+  "passing_score": "70%",
+  "total_questions": 66,
+  "duration_minutes": 180,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Common Network Protocols",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Encryption and Encoding",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "NetFlow Analysis and Attack Visualization",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Network Architecture",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Network Protocol Reverse Engineering",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Open Source Network Security Proxies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Security Event and Incident Logging",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Wireless Network Analysis",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "GIAC Network Forensic Analyst (GNFA)"
+  ],
+  "practice_url": "https://quizforge.ai/tests/giac-gnfa-network-forensic-analyst",
+  "editorial": {
+    "meta_description": "Prepare for the GIAC Network Forensic Analyst certification exam covering 8 domains with 66 questions, 180 minutes duration, and a 70% passing score.",
+    "overview": "The GIAC Network Forensic Analyst certification offered by GIAC validates your professional ability to perform network forensics, examine packet captures, and analyze various network traffic data streams. The certification exam features 66 questions and has a passing score of 70%. Candidates are given 180 minutes to complete the test successfully during their session.",
+    "who_should_take": "Information technology professionals, incident handlers, and security analysts aiming to validate their technical competence in network forensics, incident response methodologies, and data acquisition methods for corporate environments.",
+    "skills_summary": [
+      "Common Network Protocols",
+      "Encryption and Encoding",
+      "NetFlow Analysis and Attack Visualization",
+      "Network Architecture",
+      "Network Protocol Reverse Engineering",
+      "Open Source Network Security Proxies",
+      "Security Event and Incident Logging",
+      "Wireless Network Analysis"
+    ],
+    "preparation_strategy": "Review core network architecture principles, security event logging mechanisms, and advanced packet analysis techniques by carefully studying all official reference materials provided by GIAC. Practice identifying important security events of interest across multiple distinct data sources, and always check with GIAC for the current certification path.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain focuses on common network protocols used across various layers to understand communication patterns and protocols during forensic investigations, enabling analysts to evaluate data flows accurately and inspect packet details.",
+        "study_focus": [
+          "Protocol structures",
+          "Layer interactions"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers encryption and encoding techniques applied within network data streams to ensure analysts can properly decode hidden or obscured malicious traffic during security incident investigations and threat analysis activities.",
+        "study_focus": [
+          "Decoding data",
+          "Identifying encrypted traffic"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain explores NetFlow analysis methods and attack visualization tools for traffic patterns, enabling analysts to spot anomalies and malicious network behavior quickly across enterprise network infrastructures during active reviews.",
+        "study_focus": [
+          "Flow data interpretation",
+          "Visualization techniques"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain examines network architecture designs and structural components that affect data flow, helping investigators understand how traffic moves through enterprise environments and where security monitoring points reside.",
+        "study_focus": [
+          "Architecture layouts",
+          "Traffic routing points"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain deals with network protocol reverse engineering to decode proprietary or unfamiliar formats, empowering analysts to dissect custom network communications during active security incidents and detailed digital investigations.",
+        "study_focus": [
+          "Protocol analysis",
+          "Reverse engineering steps"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain addresses open source network security proxies used in monitoring and intercepting traffic, providing practical skills for real-time traffic inspection and packet capture analysis during security incidents.",
+        "study_focus": [
+          "Proxy deployment",
+          "Traffic inspection"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This domain presents security event and incident logging practices for audit trails and monitoring, ensuring that investigators can leverage log data effectively to reconstruct timelines of suspicious activities.",
+        "study_focus": [
+          "Log generation",
+          "Event review"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This domain covers wireless network analysis methods to examine wireless traffic and signals, preparing candidates to handle wireless security breaches and anomalies within modern corporate network deployment environments.",
+        "study_focus": [
+          "Wireless data collection",
+          "Signal inspection"
+        ],
+        "source_ids": [
+          "giac-gnfa-network-forensic-analyst-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time effectively across the 66 questions during the 180 minutes allowed. Read each question carefully to apply appropriate forensic methods and secure a passing score of 70%.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The certification exam consists of a total of 66 questions designed to evaluate your practical knowledge and technical skills across all the specified network forensics domains covered by GIAC."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Candidates must achieve a passing score of 70% in order to successfully pass the certification exam and demonstrate professional competence in network forensic analysis and incident response."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "You are given a total duration of 180 minutes to complete all of the questions presented on the certification exam without exceeding the allowed testing time limit."
+      },
+      {
+        "question_title": "Who certifies the GNFA exam?",
+        "answer_text": "The certification is administered and certified by GIAC, covering all listed network forensic domains, exam questions, and skill sets required for professional forensic analysts and responders."
+      }
+    ],
+    "methodology": {
+      "summary": "This index page was built using official GIAC documentation and official exam guides to provide precise facts for candidates preparing for the certification.",
+      "source_ids": [
+        "giac-gnfa-network-forensic-analyst-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "giac-gnfa-network-forensic-analyst-exam_guide",
+      "giac-gnfa-network-forensic-analyst-exam_guide-2"
+    ]
+  },
+  "sources": [
+    {
+      "id": "giac-gnfa-network-forensic-analyst-exam_guide",
+      "url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa",
+      "title": "GIAC Network Forensic Analyst (GNFA) | Cybersecurity Certification",
+      "publisher": "GIAC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-10",
+      "content_hash": "sha256:569a985bcf661a0185ea66a1f2cd4cdf549ab6e03f0e8a4d5fa1058cd0b17176"
+    },
+    {
+      "id": "giac-gnfa-network-forensic-analyst-exam_guide-2",
+      "url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa#objectives",
+      "title": "GIAC exam guide",
+      "publisher": "GIAC",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-10",
+      "content_hash": "sha256:de5b5f59abeac46a95b9a72fd1fb570349af79de43408248aaae2fc3bfe9ce65"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-10T18:36:57+00:00"
+  }
+}

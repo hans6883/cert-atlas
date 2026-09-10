@@ -63,5 +63,18 @@
     "ielts-ind",
     "ielts-indicator"
   ],
-  "practice_url": "https://quizforge.ai/tests/ielts-indicator"
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "IELTS-ONL",
+      "relationship": "related_successor",
+      "url": "/ielts/ielts-online",
+      "name": "IELTS Online"
+    },
+    "summary": "IELTS retired IELTS-IND. IELTS-ONL is the related successor path.",
+    "evidence_url": "https://ielts.org/news-and-insights/ielts-indicator",
+    "verified_at": "2026-08-29T05:37:22+00:00"
+  }
 }

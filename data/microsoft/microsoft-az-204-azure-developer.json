@@ -260,7 +260,7 @@
     "microsoft azure developer certification",
     "microsoft-az-204-azure-developer"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-azure-solutions-architect-az-305",
+  "practice_url": null,
   "editorial": {
     "meta_description": "AZ-204 is retired. Compare its historical blueprint with AI-200, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "AZ-204 was Microsoft's Developing Solutions for Microsoft Azure exam until its retirement on 2026-07-31. Its final published scope covered Develop Azure compute solutions, Develop for Azure storage, Implement Azure security, Monitor, troubleshoot, and optimize Azure solutions, Connect to and consume Azure services and third-party services. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -350,16 +350,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-07-31",
     "summary": "Microsoft retired AZ-204 and the Azure Developer Associate certification on July 31, 2026. Microsoft identifies AI-200 and the Azure AI Cloud Developer Associate certification as its replacement.",
-    "replacement": {
-      "exam_code": "AI-200",
-      "name": "Developing AI Cloud Solutions on Azure",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
-      "relationship": "direct_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting AZ-204 as a current exam.",
       "Compare completed AZ-204 preparation with the current AI-200 guide; do not carry over obsolete weighting or mechanics.",
@@ -402,7 +393,17 @@
       "microsoft-ai-200-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-07-31",
+    "replacement": {
+      "exam_code": "AI-200",
+      "relationship": "direct_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
+      "name": "Developing AI Cloud Solutions on Azure"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

@@ -71,7 +71,7 @@
     "pharmacy college admission test pcat",
     "pharmacy school exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/pcat-pharmacy-college-admission-test",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Pharmacy College Admission Test (PCAT) is retired as of 2024-01-10. There is no successor exam.",
     "overview": "The Pharmacy College Admission Test (PCAT) was a standardized assessment used by pharmacy schools to evaluate applicants. Administered by AACP (PCAT), the exam covered biological and chemical processes, reading, and quantitative reasoning. The PCAT was retired on 2024-01-10. No successor exam exists. Prospective pharmacy students should consult their target institutions or the AACP (PCAT) for current admission requirements and updated application procedures following the retirement of this test. The exam consisted of 192 questions and lasted 240 minutes.",
@@ -203,5 +203,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:46+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-01-10",
+    "summary": "PCATS retired PCAT on 2024-01-10.",
+    "evidence_url": "https://www.pearsonassessments.com/pcat",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

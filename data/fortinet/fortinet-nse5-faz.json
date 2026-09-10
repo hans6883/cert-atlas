@@ -123,7 +123,7 @@
     "nse 5 network security analyst fortianalyzer",
     "nse5-faz"
   ],
-  "practice_url": "https://quizforge.ai/?q=NSE%205%20Network%20Security%20Analyst%20%E2%80%94%20FortiAnalyzer",
+  "practice_url": null,
   "editorial": {
     "meta_description": "FCP_FAZ_AD-7.4 is retired as of 2025-10-14. Review details for this Fortinet exam and its successor, NSE 6 - FortiAnalyzer 7.6 Administrator.",
     "overview": "The NSE 5 Network Security Analyst — FortiAnalyzer examination, designated by code FCP_FAZ_AD-7.4 and certified by Fortinet, covered administrative tasks and management features for FortiAnalyzer deployments across multiple domains. Fortinet officially retired this examination on 2025-10-14. Candidates seeking certification paths now pursue the NSE 6 - FortiAnalyzer 7.6 Administrator instead.",
@@ -253,5 +253,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:39+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-10-14",
+    "summary": "Fortinet retired FCP_FAZ_AD-7.4 on 2025-10-14. NSE 6 - FortiAnalyzer 7.6 Administrator is the named replacement path.",
+    "evidence_url": "https://training.fortinet.com/local/staticpage/view.php?page=fcp_network_security",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

@@ -96,7 +96,7 @@
     "dynatrace professional certification",
     "dynatrace-professional"
   ],
-  "practice_url": "https://quizforge.ai/tests/dynatrace-professional-2hiyez",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Dynatrace Professional certification exam has officially retired. Review verified facts and prepare for the designated successor path today.",
     "overview": "Dynatrace Professional is a retired certification administered by Dynatrace that covered 4 distinct domains across a total of 50 questions with a duration of 90 minutes. The exam officially retired on 2025-01-31 and has been replaced by Dynatrace Administration Professional; Dynatrace Implementation Professional, which serves as the official successor path for candidates seeking professional-level validation.",
@@ -228,5 +228,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:38+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-01-31",
+    "summary": "Dynatrace retired DT-PROFESSIONAL on 2025-01-31. Dynatrace Administration Professional; Dynatrace Implementation Professional is the named replacement path.",
+    "evidence_url": "https://community.dynatrace.com/t5/Community-Voices/Major-changes-to-the-Dynatrace-certification-scheme/bc-p/268489",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

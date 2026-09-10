@@ -126,7 +126,7 @@
     "sap enterprise architect",
     "sap-p-sapea-2023"
   ],
-  "practice_url": "https://quizforge.ai/?q=SAP%20Certified%20Professional%20%E2%80%94%20SAP%20Enterprise%20Architect",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The P_SAPEA_2023 exam is officially retired. Review these verified details and focus your professional certification preparation on the direct successor.",
     "overview": "The SAP Certified Professional — SAP Enterprise Architect certification evaluates enterprise architecture concepts and SAP frameworks. Certified by SAP, this historical exam is retired and has been directly replaced by P_SAPEA. Candidates must direct their certification efforts toward the active successor path to validate their skills and professional expertise effectively. This transition ensures that all certified professionals maintain alignment with the most current industry standards and methodologies required for modern enterprise architecture roles within the global SAP ecosystem today.",
@@ -263,5 +263,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:55+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "P_SAPEA",
+      "relationship": "direct_replacement",
+      "url": "https://url.sap/f5oplb",
+      "name": "SAP Certified - SAP Enterprise Architect"
+    },
+    "summary": "SAP retired P_SAPEA_2023. P_SAPEA is the direct replacement path.",
+    "evidence_url": "https://learning.sap.com/certifications/sap-certified-professional-sap-enterprise-architect",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

@@ -112,7 +112,7 @@
     "uipath developer advanced",
     "uipath-uiaadv"
   ],
-  "practice_url": "https://quizforge.ai/?q=UiPath%20Automation%20Developer%20Advanced",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The UiPath Automation Developer Advanced exam is retired. Candidates should prepare for the UiPath-ADPv1 successor exam.",
     "overview": "The UiPath Automation Developer Advanced exam was a formal certification administered by UiPath. It covered advanced architecture, APIs, AI center, document understanding, performance, and governance across all enterprise workflows. This particular credential is retired as of 2023-10-13. Its verified replacement is UiPath-ADPv1, which all candidates must take instead to demonstrate their technical proficiency in modern automation development environments and enterprise-grade solutions.",
@@ -241,5 +241,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:19:24+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2023-10-13",
+    "summary": "UiPath retired UIAAD on 2023-10-13. UiPath-ADPv1 is the named replacement path.",
+    "evidence_url": "https://www.uipath.com/learning/certification/faqs",
+    "verified_at": "2026-08-27T23:17:33.828687+00:00"
   }
 }

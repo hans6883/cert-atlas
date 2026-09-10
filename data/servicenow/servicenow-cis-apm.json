@@ -137,7 +137,7 @@
     "servicenow certified implementation specialist application portfolio management cis-apm",
     "servicenow-cis-apm"
   ],
-  "practice_url": "https://quizforge.ai/tests/servicenow-cis-apm",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The ServiceNow Certified Implementation Specialist – Application Portfolio Management exam is officially retired and is no longer available for any new",
     "overview": "The ServiceNow Certified Implementation Specialist – Application Portfolio Management exam covered topics including application inventory, rationalization, and portfolio management. This certification was provided by ServiceNow to validate professional expertise. The exam officially retired on 2025-06-30. There is no successor exam for this credential. Candidates interested in current ServiceNow certifications should consult the official ServiceNow learning portal to identify relevant paths, as this specific exam is no longer available for registration, scheduling, or completion by any individuals.",
@@ -286,5 +286,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:59+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-06-30",
+    "summary": "ServiceNow retired CIS-APM on 2025-06-30.",
+    "evidence_url": "https://learning.servicenow.com/lxp/en/on-demand-training-and-content/retirement-of-cis-apm-and-cpg-certifications?id=kb_article_view&sysparm_article=KB0012640",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

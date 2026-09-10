@@ -204,7 +204,7 @@
     "salesforce certified b2b solution architect",
     "salesforce-b2b-solution-architect"
   ],
-  "practice_url": "https://quizforge.ai/?q=Salesforce%20Certified%20B2B%20Solution%20Architect",
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-b2b-solution-architect-38ttfa",
   "editorial": {
     "meta_description": "The Salesforce Certified B2B Solution Architect exam is scheduled for retirement on 2027-02-01 with no official successor named by Salesforce.",
     "overview": "The Salesforce Certified B2B Solution Architect credential is a professional certification designed for individuals who demonstrate expertise in discovery, customer success, data governance, integration, design, delivery, and operationalizing multi-cloud B2B solutions. Candidates must complete 60 questions within a 105-minute time limit. This exam validates the ability to align complex business requirements with technical implementations across the Salesforce ecosystem, ensuring that architects can successfully manage the entire lifecycle of a B2B solution from initial discovery through to long-term operational success and business adoption.",
@@ -343,5 +343,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:49+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-02-01",
+    "summary": "Salesforce retires B2B SOLUTION ARCHITECT on 2027-02-01.",
+    "evidence_url": "https://help.salesforce.com/s/articleView?id=005299472&language=en_US&type=1",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

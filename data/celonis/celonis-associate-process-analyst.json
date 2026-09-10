@@ -95,7 +95,7 @@
     "celonis certified associate process analyst",
     "celonis-associate-process-analyst"
   ],
-  "practice_url": "https://quizforge.ai/tests/celonis-certified-associate-process-analyst-2itali",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Prepare for the Celonis Certified Associate Process Analyst exam, covering process mining, platform navigation, data models, and KPI building.",
     "overview": "The Celonis Certified Associate Process Analyst certification exam evaluates candidate competence across process mining fundamentals, Celonis platform navigation, data models, OLAP cubes, analysis, KPI building, action flows, and recommendations. Certified by Celonis, this online proctored exam consists of exactly 60 questions and requires candidates to demonstrate practical knowledge across five distinct certification domains.",
@@ -239,5 +239,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:25+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "summary": "Celonis retired CCAPA. Celonis Certified Data Analyst is the related successor path.",
+    "evidence_url": "https://academy.celonis.com/collections/data-analyst-associate-certification-exam",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

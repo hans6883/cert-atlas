@@ -120,7 +120,7 @@
     "juniper networks certified associate junos jncia-junos",
     "juniper-jncia-junos"
   ],
-  "practice_url": "https://quizforge.ai/tests/juniper-jncia-junos-associate",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The JN0-105 exam is retired as of 2026-04-05. Candidates should pursue the JN0-106 (Junos, Associate (JNCIA-Junos)) certification for their professional",
     "overview": "The JNCIA-Junos exam, certified by Juniper Networks, covered Junos OS fundamentals, user interfaces, configuration, and routing. This exam is retired as of 2026-04-05. The official successor is JN0-106 (Junos, Associate (JNCIA-Junos)). All candidates seeking certification must now focus on the requirements for the JN0-106 exam, as the retired JN0-105 is no longer available for testing or certification purposes. This transition ensures that all certified professionals maintain current knowledge of Juniper networking technologies and standards.",
@@ -299,5 +299,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:04+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-04-05",
+    "replacement": {
+      "exam_code": "JN0-106",
+      "relationship": "direct_replacement",
+      "url": "https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html",
+      "name": "Junos, Associate (JNCIA-Junos)"
+    },
+    "summary": "Juniper Networks retired JN0-105 on 2026-04-05. JN0-106 is the named replacement path.",
+    "evidence_url": "https://www.juniper.net/us/en/training/news.html",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

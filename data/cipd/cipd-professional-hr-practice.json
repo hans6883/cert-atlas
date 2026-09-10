@@ -89,7 +89,7 @@
     "cipd certificate in hr practice",
     "cipd-professional-hr-practice"
   ],
-  "practice_url": "https://quizforge.ai/?q=CIPD%20Certificate%20in%20HR%20Practice",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The CIPD Certificate in HR Practice is officially retired. Review Foundation Certificate L3 replacement details, price notes, and syllabus weightings for your",
     "overview": "The CIPD Certificate in HR Practice (CHRP) was a professional credential covering four specific domains certified by the CIPD. It officially retired on 2023-07-31. Candidates seeking this credential must now pursue the Foundation Certificate L3, officially known as the CIPD Foundation Certificate in People Practice (Level 3), as the verified successor path for professional human resources development and career progression within the industry.",
@@ -191,5 +191,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:29+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2023-07-31",
+    "summary": "CIPD retired CHRP on 2023-07-31. Foundation Certificate L3 is the named replacement path.",
+    "evidence_url": "https://www.cipd.org/en/help/learning/qualifications/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

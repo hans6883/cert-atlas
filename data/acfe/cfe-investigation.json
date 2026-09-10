@@ -113,7 +113,7 @@
     "cfe-inv",
     "cfe-investigation"
   ],
-  "practice_url": "https://quizforge.ai/?q=CFE%20Part%203%3A%20Investigation",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The CFE Investigation exam is officially retired as of 2026-06-02, and there is no successor exam available for candidates to pursue for this credential.",
     "overview": "The CFE Investigation exam, certified by the ACFE, covered principles of interviewing, information sources, document examination, cyber investigation, and digital forensics. This exam is officially retired as of 2026-06-02. No successor exam exists for this credential. Candidates seeking certification should consult the ACFE directly to determine the current requirements and available pathways for professional development in fraud examination. The exam was a linear, fixed-form assessment consisting of 125 multiple choice questions.",
@@ -257,5 +257,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:26+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-06-02",
+    "summary": "ACFE retired CFE-INV on 2026-06-02.",
+    "evidence_url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam/2026-cfe-exam-update",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

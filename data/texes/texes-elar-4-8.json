@@ -77,7 +77,7 @@
     "texes-117",
     "texes-elar-4-8"
   ],
-  "practice_url": "https://quizforge.ai/tests/texes-elar-4-8",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The TExES English Language Arts and Reading 4–8 exam was retired on 2021-12-31 and replaced by the English Language Arts and Reading 4–8 (217) exam.",
     "overview": "The TExES English Language Arts and Reading 4–8 (117) was a professional certification exam administered by TExES. It covered five distinct domains, including oral language, reading development, and writing. This exam is officially retired as of 2021-12-31. The official successor is the English Language Arts and Reading 4–8 (217) exam. Candidates must now focus their professional efforts on the specific requirements and content of the 217 exam to achieve their state certification goals for teaching these subjects.",
@@ -225,5 +225,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:19:23+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2021-12-31",
+    "replacement": {
+      "exam_code": "217",
+      "relationship": "direct_replacement",
+      "url": "https://www.tx.nesinc.com/Content/StudyGuide/TX_SG_obj_217.htm",
+      "name": "English Language Arts and Reading 4–8 (217)"
+    },
+    "summary": "TExES retired TEXES-117 on 2021-12-31. 217 is the named replacement path.",
+    "evidence_url": "https://www.tx.nesinc.com/TestView.aspx?f=HTML_FRAG%2FTX117_TestPage.html",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }
