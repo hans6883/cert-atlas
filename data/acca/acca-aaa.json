@@ -95,7 +95,7 @@
     "advanced audit and assurance aaa p7",
     "p7"
   ],
-  "practice_url": "https://quizforge.ai/?q=Advanced%20Audit%20and%20Assurance%20%28AAA/P7%29",
+  "practice_url": "https://quizforge.ai/tests/advanced-audit-and-assurance-aaa-p7-36f8k5",
   "editorial": {
     "meta_description": "The Advanced Audit and Assurance exam retires on 2027-06-30. Candidates should prepare for the transition to the SAA successor exam for future certification.",
     "overview": "The Advanced Audit and Assurance exam, certified by the ACCA, evaluates professional competence in audit and assurance engagements. It covers the regulatory environment, professional ethics, quality management, and advanced audit procedures. This linear exam requires candidates to demonstrate technical knowledge and professional judgment across various audit scenarios. As the exam is scheduled for retirement on 2027-06-30, candidates are directed to the SAA successor for future certification paths. Note that renewal is required for this professional qualification to maintain active status.",
@@ -235,5 +235,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:17+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-06-30",
+    "replacement": {
+      "exam_code": "SAA",
+      "relationship": "direct_replacement",
+      "url": "https://www.accaglobal.com/content/dam/accarelaunch/ila/exam-artefacts/strategic-professional/saa/syllabus/SAA%20Audit%20and%20Assurance%20Professional%20(INT)%20%20September%202027%20-%20June%202028%20Syllabus%20and%20Study%20Guide.pdf",
+      "name": "Audit and Assurance Professional (SAA)"
+    },
+    "summary": "ACCA retires AAA/P7 on 2027-06-30. SAA is the named replacement path.",
+    "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
   }
 }

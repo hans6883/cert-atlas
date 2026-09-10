@@ -236,5 +236,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:24+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-12-31",
+    "summary": "PeopleCert (AXELOS) retires ITIL 4 SPECIALIST HVIT on 2027-12-31. ITIL (Version 5) modules is the named replacement path.",
+    "evidence_url": "https://www.peoplecert.org/help-and-support/faq-itil",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

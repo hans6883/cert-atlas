@@ -118,7 +118,7 @@
     "microsoft dynamics 365 core finance and operations",
     "microsoft-mb-300-dynamics-365-core-finance-operations"
   ],
-  "practice_url": "https://quizforge.ai/tests/mb-300-microsoft-dynamics-365-finance-operations",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Microsoft retired the MB-300 exam on 2024-02-29. This assessment had no successor.",
     "overview": "Microsoft officially retired the MB-300 exam on 2024-02-29. This professional assessment was designed to evaluate a candidate's proficiency in core finance and operations functionality, security configuration, data management, and solution validation. The exam consisted of 40 questions in total. As there is no successor, candidates should consult Microsoft for current certification paths.",
@@ -246,5 +246,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:09+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-02-29",
+    "summary": "Microsoft retired MB-300 on 2024-02-29.",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-300/",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

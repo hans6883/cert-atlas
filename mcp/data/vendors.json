@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27",
-  "total_vendors": 223,
+  "generated": "2026-09-10",
+  "total_vendors": 224,
   "vendors": [
     {
       "vendor_id": "servicenow",
@@ -51,20 +51,20 @@
       "slug": "clep"
     },
     {
+      "vendor_id": "ncees",
+      "display_name": "NCEES",
+      "website": "https://ncees.org",
+      "certification_page": "https://ncees.org/exams/",
+      "exam_count": 34,
+      "slug": "ncees"
+    },
+    {
       "vendor_id": "salesforce",
       "display_name": "Salesforce",
       "website": "https://trailhead.salesforce.com",
       "certification_page": "https://trailhead.salesforce.com/credentials/administratoroverview",
       "exam_count": 32,
       "slug": "salesforce"
-    },
-    {
-      "vendor_id": "ncees",
-      "display_name": "NCEES",
-      "website": "https://ncees.org",
-      "certification_page": "https://ncees.org/exams/",
-      "exam_count": 29,
-      "slug": "ncees"
     },
     {
       "vendor_id": "finra",
@@ -107,6 +107,14 @@
       "slug": "oracle"
     },
     {
+      "vendor_id": "google_cloud",
+      "display_name": "Google Cloud",
+      "website": "https://cloud.google.com",
+      "certification_page": "https://cloud.google.com/learn/certification",
+      "exam_count": 17,
+      "slug": "google-cloud"
+    },
+    {
       "vendor_id": "hvac_licensing",
       "display_name": "HVAC Licensing",
       "website": "https://www.psiexams.com",
@@ -137,14 +145,6 @@
       "certification_page": "https://www.comptia.org/certifications",
       "exam_count": 16,
       "slug": "comptia"
-    },
-    {
-      "vendor_id": "google_cloud",
-      "display_name": "Google Cloud",
-      "website": "https://cloud.google.com",
-      "certification_page": "https://cloud.google.com/learn/certification",
-      "exam_count": 16,
-      "slug": "google-cloud"
     },
     {
       "vendor_id": "acca",
@@ -227,6 +227,14 @@
       "slug": "ets"
     },
     {
+      "vendor_id": "giac",
+      "display_name": "GIAC",
+      "website": "https://www.giac.org",
+      "certification_page": "https://www.giac.org/certifications",
+      "exam_count": 12,
+      "slug": "giac"
+    },
+    {
       "vendor_id": "insurance_licensing",
       "display_name": "Insurance Licensing",
       "website": "https://www.nipr.com",
@@ -249,14 +257,6 @@
       "certification_page": "https://www.ase.com/tests-certifications",
       "exam_count": 10,
       "slug": "ase"
-    },
-    {
-      "vendor_id": "giac",
-      "display_name": "GIAC",
-      "website": "https://www.giac.org",
-      "certification_page": "https://www.giac.org/certifications",
-      "exam_count": 10,
-      "slug": "giac"
     },
     {
       "vendor_id": "hubspot_academy",
@@ -995,6 +995,14 @@
       "slug": "linux-foundation"
     },
     {
+      "vendor_id": "mongodb",
+      "display_name": "MongoDB",
+      "website": "https://learn.mongodb.com",
+      "certification_page": "https://learn.mongodb.com/pages/certification",
+      "exam_count": 5,
+      "slug": "mongodb"
+    },
+    {
       "vendor_id": "mulesoft",
       "display_name": "MuleSoft",
       "website": "https://training.salesforce.com",
@@ -1283,14 +1291,6 @@
       "slug": "mendix"
     },
     {
-      "vendor_id": "mongodb",
-      "display_name": "MongoDB",
-      "website": "https://learn.mongodb.com",
-      "certification_page": "https://learn.mongodb.com/pages/certification",
-      "exam_count": 4,
-      "slug": "mongodb"
-    },
-    {
       "vendor_id": "nabp",
       "display_name": "NABP",
       "website": "https://nabp.pharmacy",
@@ -1539,6 +1539,14 @@
       "slug": "nccpa"
     },
     {
+      "vendor_id": "ncsbn",
+      "display_name": "NCSBN",
+      "website": "https://www.ncsbn.org",
+      "certification_page": "https://www.ncsbn.org/nclex",
+      "exam_count": 3,
+      "slug": "ncsbn"
+    },
+    {
       "vendor_id": "nmls",
       "display_name": "NMLS",
       "website": "https://mortgage.nationwidelicensingsystem.org",
@@ -1675,14 +1683,6 @@
       "slug": "nbrc"
     },
     {
-      "vendor_id": "ncsbn",
-      "display_name": "NCSBN",
-      "website": "https://www.ncsbn.org",
-      "certification_page": "https://www.ncsbn.org/nclex",
-      "exam_count": 2,
-      "slug": "ncsbn"
-    },
-    {
       "vendor_id": "oet",
       "display_name": "OET",
       "website": "https://www.occupationalenglishtest.org",
@@ -1761,6 +1761,14 @@
       "certification_page": "https://www.cfp.net/get-certified/certification-process/pass-the-cfp-exam",
       "exam_count": 1,
       "slug": "cfp-board"
+    },
+    {
+      "vendor_id": "faa",
+      "display_name": "FAA",
+      "website": "https://faa.gov/",
+      "certification_page": "",
+      "exam_count": 1,
+      "slug": "faa"
     },
     {
       "vendor_id": "hspt",

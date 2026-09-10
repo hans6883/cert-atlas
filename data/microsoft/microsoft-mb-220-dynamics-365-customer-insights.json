@@ -292,7 +292,7 @@
     "microsoft dynamics 365 customer insights - journeys functional consultant",
     "microsoft-mb-220-dynamics-365-customer-insights"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Customer%20Insights%20-%20Journeys%20Functional%20Consultant",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Exam MB-220 for Microsoft Dynamics 365 Customer Insights - Journeys is officially retired and no longer available for candidates to schedule or complete.",
     "overview": "This exam covered the configuration and management of Dynamics 365 Customer Insights - Journeys. Certified by Microsoft, it evaluated skills in segment management, marketing channels, and journey orchestration. This exam is retired, and Microsoft has named no successor. Candidates should review official Microsoft documentation for current certification paths and learning opportunities related to Dynamics 365 applications. The exam consisted of 40 questions and required a passing score of 700 to achieve certification, which remained valid for 1 year.",
@@ -455,5 +455,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:09+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "Microsoft has retired exam MB-220 (Dynamics 365 Customer Insights). This page is kept as a study reference for the final published objectives.",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   }
 }

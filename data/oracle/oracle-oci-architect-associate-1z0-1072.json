@@ -149,9 +149,10 @@
     "oci architect",
     "oracle cloud architect",
     "oracle cloud infrastructure 2023 architect associate 1z0-1072-23",
+    "oracle-cloud-infrastructure-architect-associate",
     "oracle-oci-architect-associate-1z0-1072"
   ],
-  "practice_url": "https://quizforge.ai/tests/oracle-cloud-infrastructure-architect-associate",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Oracle Cloud Infrastructure 2023 Architect Associate exam is officially retired and no longer available for registration or testing by candidates.",
     "overview": "This Oracle certification covered OCI architecture, networking, compute, storage, database, identity, security, and monitoring services. It was a linear exam consisting of 60 questions. Oracle retired this exam on 2026-08-10. There is no designated successor exam. Candidates seeking current Oracle Cloud Infrastructure credentials should visit the official Oracle certification website to identify the appropriate active learning paths and exams that align with their career goals and technical requirements.",
@@ -332,5 +333,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:42+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-08-10",
+    "summary": "Oracle replaced 1Z0-1072 with  on 2026-08-10. OCI Architect Associate is the current exam.",
+    "evidence_url": "https://blogs.oracle.com/oracleuniversity/oci-certification-learning-paths-and-exams-2026-updates-now-available",
+    "verified_at": "2026-08-28T01:11:17.167343+00:00"
   }
 }

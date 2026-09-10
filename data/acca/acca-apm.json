@@ -91,7 +91,7 @@
     "apm p5",
     "p5"
   ],
-  "practice_url": "https://quizforge.ai/?q=Advanced%20Performance%20Management%20%28APM/P5%29",
+  "practice_url": "https://quizforge.ai/tests/advanced-performance-management-apm-p5-36gggi",
   "editorial": {
     "meta_description": "The ACCA Advanced Performance Management exam is scheduled for retirement on 2027-06-30. The official successor for this professional certification is SPI.",
     "overview": "Advanced Performance Management is a professional-level certification provided by the ACCA. It focuses on the application of strategic planning and control models to monitor organizational performance. The exam evaluates how candidates analyze external influences, measure performance, and apply management information systems. It serves as a final professional assessment, requiring candidates to demonstrate high-level analytical skills in complex business environments before the exam is retired in favor of SPI. This assessment ensures that students are prepared for the demands of modern financial leadership roles.",
@@ -218,5 +218,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:18+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-06-30",
+    "replacement": {
+      "exam_code": "SPI",
+      "relationship": "direct_replacement",
+      "url": "https://www.accaglobal.com/content/dam/accarelaunch/ila/exam-artefacts/strategic-professional/spi/SPI%20Performance%20and%20Insights%20Professional%20September%202027%20-%20June%202028%20Syllabus%20and%20Study%20Guide.pdf",
+      "name": "Performance and Insights Professional (SPI)"
+    },
+    "summary": "ACCA retires APM/P5 on 2027-06-30. SPI is the named replacement path.",
+    "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",
+    "verified_at": "2026-08-28T00:11:09.372202+00:00"
   }
 }

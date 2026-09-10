@@ -92,7 +92,7 @@
     "sat with essay",
     "sat-with-essay"
   ],
-  "practice_url": "https://quizforge.ai/tests/sat-with-essay-2j1tw7",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The SAT with Essay is a retired assessment from the College Board that is no longer offered to students as of 2021 for college admissions purposes.",
     "overview": "The SAT with Essay was a College Board assessment covering Reading and Writing, Math, and an Essay section. This exam is discontinued as of 2021 and is no longer offered to any candidates. Because the College Board has retired this exam and named no successor, candidates should consult the official College Board website for current testing requirements and available programs. The exam utilized a composite score scale of 400–1600 to measure student performance across its various sections, while the Essay section provided subscores on a scale of 6–24.",
@@ -217,5 +217,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:56+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "College Board retired SAT ESSAY.",
+    "evidence_url": "https://blog.collegeboard.org/what-sat-essay",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

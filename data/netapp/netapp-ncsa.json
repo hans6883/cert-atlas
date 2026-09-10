@@ -110,7 +110,7 @@
     "netapp-ncsa",
     "ns0-003"
   ],
-  "practice_url": "https://quizforge.ai/tests/ncsa-â€”-netapp-certified-storage-associate-2m8gg5",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Prepare for the NetApp Certified Storage Associate exam covering ONTAP data management, storage architecture, SAN, NAS, and cloud integration.",
     "overview": "The NCSA NetApp Certified Storage Associate exam, designated as NS0-003, is officially certified by NetApp. It validates professional knowledge in storage architecture and design, ONTAP data management, SAN and NAS configuration, data protection mechanisms such as SnapVault, cloud integration across platforms including Amazon Web Services, Microsoft Azure, and Google Cloud Platform, and performance troubleshooting.",
@@ -275,5 +275,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:25+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "NS0-005",
+      "relationship": "related_successor",
+      "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/certified-technology-solutions/",
+      "name": "NetApp Certified Technology Solutions Professional Exam (NS0-005)"
+    },
+    "summary": "NetApp retired NS0-003. NS0-005 is the related successor path.",
+    "evidence_url": "https://community.netapp.com/t5/NetApp-Learning-Services-Discussions/About-NCTA-Exam/m-p/466173",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

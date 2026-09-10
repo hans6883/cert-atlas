@@ -1005,8 +1005,14 @@ def build_exam_page(vendor_slug, vendor_info, exam, title_override=None):
         reg_html = f'<div class="source-link">{" | ".join(reg_parts)}</div>'
 
     # Practice CTA
-    practice_url = exam.get("practice_url", f"{QUIZFORGE_URL}/tests/{exam_id}")
-    practice_html = "" if retired else f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
+    # No fabricated fallback: a missing practice_url used to synthesise /tests/<exam_id>,
+    # which is a slug production has never heard of. No link beats a broken one.
+    practice_url = exam.get("practice_url")
+    practice_html = (
+        ""
+        if retired or not practice_url
+        else f'<a class="practice-cta" href="{h(practice_url)}">Practice {h(name)} on QuizForge</a>'
+    )
     enrichment_html = build_enrichment_html(exam)
     if not enrichment_html and (retired or scheduled_retirement):
         enrichment_html = build_lifecycle_alert(exam)

@@ -116,7 +116,7 @@
     "ancc-acns-bc",
     "clinical nurse specialist"
   ],
-  "practice_url": "https://quizforge.ai/?q=Adult-Gerontology%20Clinical%20Nurse%20Specialist%2C%20Board%20Certified%20%28ACNS-BC%29",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The ACNS-BC exam is retired. Review these verified details and prepare for the successor examination, the AGCNS-BC, which is certified by the ANCC.",
     "overview": "The Adult-Gerontology Clinical Nurse Specialist Board Certified (ACNS-BC) exam is a retired credential previously certified by the American Nurses Credentialing Center. This specific credential has been discontinued and replaced by the AGCNS-BC, which serves as the current, active pathway for all practitioners seeking professional certification in this clinical field. Candidates should note that the retired exam consisted of 175 multiple-choice questions and required a passing score of 350 to achieve the credential.",
@@ -270,5 +270,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:21+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "AGCNS-BC",
+      "relationship": "related_successor",
+      "url": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-63-agcns-tco-04-13-2022_for_webposting-05032022.pdf",
+      "name": "Adult-Gerontology Clinical Nurse Specialist Board Certification Examination"
+    },
+    "summary": "ANCC retired ACNS-BC. AGCNS-BC is the named replacement path.",
+    "evidence_url": "https://www.nursingworld.org/certification/certification-policies/certification-credentials/",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

@@ -237,7 +237,7 @@
     "microsoft dynamics 365 finance and operations apps solution architect",
     "microsoft-mb-700-dynamics-365-solution-architect"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%3A%20Finance%20and%20Operations%20Apps%20Solution%20Architect",
+  "practice_url": null,
   "editorial": {
     "meta_description": "MB-700 is retired. Compare its historical blueprint with AB-100, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "MB-700 was Microsoft's Microsoft Dynamics 365: Finance and Operations Apps Solution Architect exam until its retirement on 2026-06-30. Its final published scope covered Architect solutions, Define solution strategies, Manage implementations, Manage testing. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -314,16 +314,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired MB-700 and the Finance and Operations Apps Solution Architect Expert certification on June 30, 2026. Microsoft lists AB-100 as a collective replacement for MB-700 and several other retired business application credentials.",
-    "replacement": {
-      "exam_code": "AB-100",
-      "name": "Agentic AI Business Solutions Architect",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
-      "relationship": "collective_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting MB-700 as a current exam.",
       "Compare completed MB-700 preparation with the current AB-100 guide; do not carry over obsolete weighting or mechanics.",
@@ -359,7 +350,17 @@
       "microsoft-ab-100-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AB-100",
+      "relationship": "collective_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
+      "name": "Agentic AI Business Solutions Architect"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

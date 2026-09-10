@@ -1,0 +1,115 @@
+{
+ "exam_id": "google-associate-cloud-engineer",
+ "editorial": {
+  "meta_description": "Prepare for the Google Cloud Associate Cloud Engineer exam with 120 minutes of testing across four core cloud solution domains and requirements.",
+  "overview": "The Associate Cloud Engineer certification, offered by Google Cloud, tests your ability to successfully set up cloud solution environments, plan and implement various cloud solutions, ensure successful operations, and configure access and security controls within the platform architecture during the exact 120 minutes of testing allotted for all candidates taking the examination.",
+  "who_should_take": "IT professionals, cloud practitioners, and system administrators with hands-on technical experience deploying workloads, managing complex projects, and configuring vital resources within enterprise Google Cloud environments.",
+  "skills_summary": [
+   "Setting up a cloud solution environment",
+   "Planning and implementing a cloud solution",
+   "Ensuring successful operation of a cloud solution",
+   "Configuring access and security"
+  ],
+  "preparation_strategy": "Carefully review the official Google Cloud documentation for Identity and Access Management, Virtual Private Cloud networking, and Cloud Storage to comprehensively understand resource hierarchies, role grants, and storage configurations before taking the certification test and completing the formal evaluation process for the exam.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses intensely on setting up a cloud solution environment, accounting for 23.0 percent of the official exam content and covering all initial configuration tasks required by administrators.",
+    "study_focus": [
+     "Project and billing setup",
+     "IAM configuration",
+     "Console and CLI usage"
+    ],
+    "source_ids": [
+     "google-associate-cloud-engineer-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain covers planning and implementing a cloud solution, representing 30.0 percent of the overall evaluation by specifically addressing resource deployment, network design, and infrastructure tasks for successful platform execution.",
+    "study_focus": [
+     "Compute instance planning",
+     "VPC network creation",
+     "Storage bucket provisioning"
+    ],
+    "source_ids": [
+     "google-associate-cloud-engineer-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses ensuring successful operation of a cloud solution, making up 27.0 percent of the exam and focusing heavily on daily management, resource monitoring, logging configurations, and backup tasks.",
+    "study_focus": [
+     "Resource monitoring",
+     "Logging configuration",
+     "Backup and recovery tasks"
+    ],
+    "source_ids": [
+     "google-associate-cloud-engineer-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain concentrates completely on configuring access and security, carrying a 20.0 percent weight for managing Identity and Access Management policies, role assignments, service accounts, and network firewall rules.",
+    "study_focus": [
+     "Role and permission assignment",
+     "Service account management",
+     "Firewall rule configuration"
+    ],
+    "source_ids": [
+     "google-associate-cloud-engineer-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Manage your time across the four domains during the 120 minutes provided for the exam. Read each question carefully to identify specific resource and IAM requirements.",
+  "faq": [
+   {
+    "question_title": "How many domains are on the exam?",
+    "answer_text": "The certification exam features exactly 4 distinct domains covering setting up environments, planning solutions, ensuring successful operations, and configuring access and security controls for all candidates taking the test."
+   },
+   {
+    "question_title": "What is the duration of the exam?",
+    "answer_text": "Candidates are given a total duration of 120 minutes to complete all questions across all of the tested domains in the official examination provided by Google Cloud."
+   },
+   {
+    "question_title": "Is this exam currently available?",
+    "answer_text": "This certification page is about the Associate Cloud Engineer exam, which is available now. If you need long-term certification path details, check with Google Cloud."
+   },
+   {
+    "question_title": "What topics does domain two cover?",
+    "answer_text": "Domain two covers planning and implementing a cloud solution, which accounts for 30.0 percent of the total exam weight and involves resource deployment and network design."
+   }
+  ],
+  "methodology": {
+   "summary": "This preparation index was built using the official Google Cloud exam guide and primary product documentation covering IAM, VPC, and Cloud Storage.",
+   "source_ids": [
+    "google-associate-cloud-engineer-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "google-associate-cloud-engineer-exam_guide"
+  ]
+ },
+ "sources": [
+  {
+   "id": "google-associate-cloud-engineer-exam_guide",
+   "url": "https://services.google.com/fh/files/misc/associate_cloud_engineer_exam_guide_english.pdf",
+   "title": "Google Cloud exam guide",
+   "publisher": "Google Cloud",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-10",
+   "content_hash": "sha256:5afbc0fcf543d77aafa5b27ed8f823ae152801ec4a80edff0201b5e6fc4f7760"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-10T18:16:18+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-10T18:36:57+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-10T18:36:57+00:00"
+ }
+}

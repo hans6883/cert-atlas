@@ -817,8 +817,6 @@
     ]
   },
   "lifecycle": {
-    "status": "scheduled_retirement",
-    "retires_on": "2026-09-30",
     "summary": "Microsoft will retire AZ-800 on 2026-09-30. The exam remains schedulable before the cutoff. The reviewed official retirement list and exam guide do not name a direct replacement, so Cert Atlas does not infer one.",
     "migration_actions": [
       "Complete and schedule AZ-800 before 2026-09-30 only if the remaining window supports a sound preparation plan.",
@@ -829,7 +827,11 @@
     "source_ids": [
       "microsoft-az-800-study-guide",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "scheduled_retirement",
+    "retires_on": "2026-09-30",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

@@ -107,7 +107,7 @@
     "elastic-ece",
     "elasticsearch engineer"
   ],
-  "practice_url": "https://quizforge.ai/tests/elastic-certified-engineer-ece",
+  "practice_url": "https://quizforge.ai/?q=Elastic%20Certified%20Engineer%20%28ECE%29",
   "editorial": {
     "meta_description": "The Elastic Certified Engineer exam is scheduled for retirement on 2026-09-01, so please pursue the Elastic Certified Engineer 9.3 certification instead.",
     "overview": "The Elastic Certified Engineer exam, provided by Elastic, evaluates technical proficiency in managing Elasticsearch environments. It covers six domains, including installation, indexing, queries, aggregations, mappings, and cluster administration. This hands-on practical exam requires candidates to perform tasks within a live environment. As of 2026-09-01, this exam is retired, and candidates should transition to the Elastic Certified Engineer 9.3 certification path for their professional development and validation of skills. This certification remains valid for 3 years, requiring renewal to maintain your professional status.",
@@ -250,5 +250,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:38+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-09-01",
+    "summary": "Elastic retires ELASTIC-ECE on 2026-09-01. Elastic Certified Engineer 9.3 is the named replacement path.",
+    "evidence_url": "https://www.elastic.co/training/certification/faq",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

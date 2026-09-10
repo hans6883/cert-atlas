@@ -112,7 +112,7 @@
     "cfe part 2 law",
     "cfe-law"
   ],
-  "practice_url": "https://quizforge.ai/tests/cfe-part-2-law-2lslr6",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The CFE-Law exam was officially retired on 2026-06-02 and currently has no successor exam available for candidates seeking the Certified Fraud Examiner",
     "overview": "The CFE-Law exam, administered by the ACFE, covered legal elements of fraud, criminal and civil law, rights of suspects, evidence, and bankruptcy. This exam is officially retired as of 2026-06-02. The ACFE has not named a successor exam. Candidates seeking the CFE credential should consult the official ACFE website for the most current certification requirements and examination paths to ensure they are following the latest professional standards for the industry.",
@@ -265,5 +265,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:26+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-06-02",
+    "summary": "ACFE retired CFE-LAW on 2026-06-02.",
+    "evidence_url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam/2026-cfe-exam-update",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

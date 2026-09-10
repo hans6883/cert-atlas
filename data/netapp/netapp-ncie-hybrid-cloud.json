@@ -116,7 +116,7 @@
     "netapp-ncie-hybrid-cloud",
     "ns0-593"
   ],
-  "practice_url": "https://quizforge.ai/?q=NCIE%20%E2%80%94%20NetApp%20Certified%20Implementation%20Engineer%3A%20SAN/Hybrid%20Cloud",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Prepare for the NetApp NCIE SAN and Hybrid Cloud examination by reviewing format details, exactly 65 questions, passing score, and study guidance.",
     "overview": "The NCIE NetApp Certified Implementation Engineer: SAN/Hybrid Cloud examination evaluates technical skills across six core domains including ONTAP Data Management and enterprise storage architectures. Certified officially by NetApp, this current linear test consists of exactly 65 multiple choice and multiple response questions delivered securely through Pearson VUE test centers.",
@@ -254,5 +254,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:21+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "NS0-594",
+      "relationship": "direct_replacement",
+      "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/support-engineer/",
+      "name": "NetApp Certified Support Engineer ONTAP Specialist Exam (NS0-594)"
+    },
+    "summary": "NetApp retired NS0-593. NS0-594 is the direct replacement path.",
+    "evidence_url": "https://www.netapp.com/insight/certification/",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }

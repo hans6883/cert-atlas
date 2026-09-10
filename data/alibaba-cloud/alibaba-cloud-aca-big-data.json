@@ -97,7 +97,7 @@
     "alibaba big data associate",
     "alibaba-cloud-aca-big-data"
   ],
-  "practice_url": "https://quizforge.ai/tests/aca-big-data-associate-2n7tj9",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The ACA Big Data Associate exam is retired as of 2025-03-31. There is no successor exam available for this specific Alibaba Cloud certification program.",
     "overview": "The ACA Big Data Associate exam, certified by Alibaba Cloud, covered big data concepts, MaxCompute, DataWorks, real-time computing, and data visualization. This exam is retired as of 2025-03-31. No successor exam exists for this certification. Candidates seeking current cloud data certifications should contact Alibaba Cloud directly to identify available alternatives that align with their professional development goals and current cloud technology requirements. This credential was designed to validate skills in managing large-scale data environments within the Alibaba Cloud ecosystem, ensuring professionals could effectively utilize platform-specific tools for complex analytical tasks and data-driven decision-making processes.",
@@ -239,5 +239,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:20+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2025-03-31",
+    "summary": "Alibaba Cloud retired ACA-BIGDATA on 2025-03-31.",
+    "evidence_url": "https://edu.alibabacloud.com/certification/aca_bigdata",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

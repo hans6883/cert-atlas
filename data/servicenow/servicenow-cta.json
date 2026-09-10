@@ -133,7 +133,7 @@
     "servicenow technical architect",
     "servicenow-cta"
   ],
-  "practice_url": "https://quizforge.ai/tests/servicenow-cta",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The ServiceNow Certified Technical Architect (CTA) exam is officially retired as of 2026-05-03 and is no longer available for registration or completion.",
     "overview": "The ServiceNow Certified Technical Architect (CTA) exam, certified by ServiceNow, covered architecture, governance, and data strategies. This exam is officially retired as of 2026-05-03. The ServiceNow Certified Technical Architect (CTA) is the direct successor to this credential. Candidates seeking certification should focus on the requirements and objectives established for the successor CTA, as the original exam is no longer available for registration or completion by any candidates. The exam consisted of 47 questions.",
@@ -331,5 +331,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:19:07+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-05-03",
+    "summary": "ServiceNow retired CTA on 2026-05-03. CTA is the named replacement path.",
+    "evidence_url": "https://learning.servicenow.com/lxp?id=learning_content_prev&course_id=356ae3ca47f8b21019dfe23c326d4357",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

@@ -253,7 +253,7 @@
     "microsoft azure ai fundamentals",
     "microsoft-ai-900-azure-ai-fundamentals"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-ai-900-azure-ai-fundamentals",
+  "practice_url": null,
   "editorial": {
     "meta_description": "AI-900 is retired. Compare its historical blueprint with AI-901, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "AI-900 was Microsoft's Microsoft Azure AI Fundamentals exam until its retirement on 2026-06-30. Its final published scope covered Describe Artificial Intelligence workloads and considerations, Describe fundamental principles of machine learning on Azure, Describe features of computer vision workloads on Azure, Describe features of Natural Language Processing (NLP) workloads on Azure, Describe features of generative AI workloads on Azure. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -343,16 +343,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired AI-900 on June 30, 2026 and replaced it with AI-901 as the qualifying exam for Microsoft Certified: Azure AI Fundamentals.",
-    "replacement": {
-      "exam_code": "AI-901",
-      "name": "Microsoft Azure AI Fundamentals",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901",
-      "relationship": "direct_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting AI-900 as a current exam.",
       "Compare completed AI-900 preparation with the current AI-901 guide; do not carry over obsolete weighting or mechanics.",
@@ -388,7 +379,17 @@
       "microsoft-ai-901-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AI-901",
+      "relationship": "direct_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901",
+      "name": "Microsoft Azure AI Fundamentals"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

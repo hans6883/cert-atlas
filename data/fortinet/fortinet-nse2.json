@@ -157,7 +157,7 @@
     "nse 2 network security associate",
     "nse2"
   ],
-  "practice_url": "https://quizforge.ai/?q=NSE%202%20Network%20Security%20Associate",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The NSE 2 Network Security Associate exam is retired as of 2026-07-15. Prepare for NSE 2 – Introduction to the Next Generation Firewall.",
     "overview": "The Fortinet NSE 2 Network Security Associate certification exam certified understanding of cyberthreats and network security products across multiple domains. Fortinet certified candidates who successfully demonstrated knowledge before the official retirement date. This examination officially retired on 2026-07-15, and its verified replacement path forward is NSE 2 – Introduction to the Next Generation Firewall.",
@@ -390,5 +390,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:39+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2026-07-15",
+    "summary": "Fortinet retired NSE2 on 2026-07-15. NSE 2 – Introduction to the Next Generation Firewall is the named replacement path.",
+    "evidence_url": "https://helpdesk.training.fortinet.com/support/solutions/articles/73000665776-are-any-courses-or-exams-being-retired-on-july-15-2026-",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

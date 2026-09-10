@@ -411,5 +411,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:50+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-02-01",
+    "summary": "Salesforce retires PARDOT CONSULTANT on 2027-02-01.",
+    "evidence_url": "https://help.salesforce.com/s/articleView?id=005298951&language=en_US&type=1",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

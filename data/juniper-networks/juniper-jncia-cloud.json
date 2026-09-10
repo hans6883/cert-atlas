@@ -111,7 +111,7 @@
     "juniper associate cloud",
     "juniper-jncia-cloud"
   ],
-  "practice_url": "https://quizforge.ai/tests/jncia-cloud-2f4djt",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The JN0-211 exam is retired. Candidates should pursue the JN0-214 Cloud, Associate (JNCIA-Cloud) certification for their cloud networking path.",
     "overview": "The JNCIA-Cloud exam, formerly identified as JN0-211, was a Juniper Networks certification covering cloud fundamentals, virtualization, and orchestration. This exam is retired as of 2022-02-13. Juniper Networks now offers the JN0-214 exam as the direct successor for this certification track. Candidates seeking to validate their skills in cloud infrastructure and network virtualization should focus their efforts on the current JN0-214 exam requirements.",
@@ -283,5 +283,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:03+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2022-02-13",
+    "replacement": {
+      "exam_code": "JN0-214",
+      "relationship": "direct_replacement",
+      "url": "https://www.juniper.net/us/en/training/certification/tracks/cloud/jncia-cloud.html",
+      "name": "Cloud, Associate (JNCIA-Cloud)"
+    },
+    "summary": "Juniper Networks retired JN0-211 on 2022-02-13. JN0-214 is the named replacement path.",
+    "evidence_url": "https://www.juniper.net/us/en/training/news.html",
+    "verified_at": "2026-08-27T14:37:08.978449+00:00"
   }
 }

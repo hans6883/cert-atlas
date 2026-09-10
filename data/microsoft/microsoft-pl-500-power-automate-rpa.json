@@ -259,7 +259,7 @@
     "microsoft-pl-500-power-automate-rpa",
     "pl-500"
   ],
-  "practice_url": "https://quizforge.ai/tests/microsoft-power-automate-rpa-developer-pl-500-2de6ob",
+  "practice_url": null,
   "editorial": {
     "meta_description": "PL-500 is retired. Compare its historical blueprint with AB-100, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "PL-500 was Microsoft's Microsoft Power Automate RPA Developer exam until its retirement on 2026-06-30. Its final published scope covered Design automations, Develop automations, Deploy and manage automations. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -323,16 +323,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired PL-500 and the Power Automate RPA Developer Associate certification on June 30, 2026. Microsoft places AB-100 in the broader replacement set, but the successor is an expert architecture credential rather than a like-for-like RPA developer exam.",
-    "replacement": {
-      "exam_code": "AB-100",
-      "name": "Agentic AI Business Solutions Architect",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
-      "relationship": "collective_replacement"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting PL-500 as a current exam.",
       "Compare completed PL-500 preparation with the current AB-100 guide; do not carry over obsolete weighting or mechanics.",
@@ -368,7 +359,17 @@
       "microsoft-ab-100-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AB-100",
+      "relationship": "collective_replacement",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
+      "name": "Agentic AI Business Solutions Architect"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

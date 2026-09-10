@@ -115,7 +115,7 @@
     "pas-c01",
     "sap on aws specialty"
   ],
-  "practice_url": "https://quizforge.ai/tests/aws-certified-sap-specialty-sap-c02",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The AWS Certified SAP on AWS – Specialty exam is officially retired as of 2024-04-30, and there is no successor exam provided by AWS for this certification.",
     "overview": "The AWS Certified SAP on AWS – Specialty exam, certified by AWS, covered the design, implementation, migration, and maintenance of SAP solutions on the AWS cloud. This exam officially retired on 2024-04-30. AWS has not designated a successor for this certification. Candidates interested in current SAP-related cloud certifications should consult the official AWS certification website for the most up-to-date information regarding available paths and professional credentials. This credential previously validated expertise in managing complex SAP environments within the AWS ecosystem.",
@@ -261,5 +261,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:24+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-04-30",
+    "summary": "AWS retired PAS-C01 on 2024-04-30.",
+    "evidence_url": "https://aws.amazon.com/blogs/training-and-certification/announcing-new-certification-aws-certified-sap-on-aws-specialty/",
+    "verified_at": "2026-08-27T06:56:26.491969+00:00"
   }
 }

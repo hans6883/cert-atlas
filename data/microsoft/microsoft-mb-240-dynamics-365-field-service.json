@@ -296,7 +296,7 @@
     "microsoft dynamics 365 field service functional consultant",
     "microsoft-mb-240-dynamics-365-field-service"
   ],
-  "practice_url": "https://quizforge.ai/?q=Microsoft%20Dynamics%20365%20Field%20Service%20Functional%20Consultant",
+  "practice_url": null,
   "editorial": {
     "meta_description": "MB-240 is retired. Compare its historical blueprint with AB-250, see what transfers, and rebuild your plan around the current Microsoft exam.",
     "overview": "MB-240 was Microsoft's Microsoft Dynamics 365 Field Service Functional Consultant exam until its retirement on 2026-06-30. Its final published scope covered Configure field service applications, Manage work orders and customer assets, Schedule and dispatch work orders, Manage the Field Service mobile app, Manage inventory and purchasing by using the built-in inventory management system, Implement Microsoft Power Platform. This page preserves that dated outline for historical comparison and curriculum cleanup. It is not a schedulable exam, and its prices, delivery details, registration links, and practice calls to action must not be used for a new certification plan.",
@@ -399,16 +399,7 @@
     ]
   },
   "lifecycle": {
-    "status": "retired",
-    "retired_on": "2026-06-30",
     "summary": "Microsoft retired MB-240 and the Dynamics 365 Field Service Functional Consultant Associate certification on June 30, 2026. Microsoft explicitly says AB-250 is not a direct replacement, but adds it as the related current path used to account for the retirement.",
-    "replacement": {
-      "exam_code": "AB-250",
-      "name": "Transforming Contact Center Experiences with AI in Dynamics 365",
-      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-250/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250",
-      "relationship": "related_successor"
-    },
     "migration_actions": [
       "Stop scheduling, selling, or presenting MB-240 as a current exam.",
       "Compare completed MB-240 preparation with the current AB-250 guide; do not carry over obsolete weighting or mechanics.",
@@ -451,7 +442,17 @@
       "microsoft-ab-250-study-guide",
       "microsoft-transition-announcement",
       "microsoft-retirement-list"
-    ]
+    ],
+    "status": "retired",
+    "retired_on": "2026-06-30",
+    "replacement": {
+      "exam_code": "AB-250",
+      "relationship": "related_successor",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250",
+      "name": "Transforming Contact Center Experiences with AI in Dynamics 365"
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july",
+    "verified_at": "2026-08-26T00:00:00Z"
   },
   "sources": [
     {

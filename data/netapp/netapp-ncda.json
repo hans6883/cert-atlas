@@ -111,7 +111,7 @@
     "ns0-175",
     "ontap"
   ],
-  "practice_url": "https://quizforge.ai/tests/ncda-â€”-netapp-certified-data-administrator-ontap-2m9ocj",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Prepare for the NetApp NCDA certification exam with 65 questions, 90 minutes limit, and official exam domains.",
     "overview": "The NCDA — NetApp Certified Data Administrator (ONTAP) certification, administered by NetApp, validates the technical ability to successfully administer NetApp ONTAP storage systems. The exam covers six major domains including ONTAP Data Management, Storage Architecture and Design, SAN/NAS Configuration, Data Protection and SnapVault, Cloud Integration, and Performance and Troubleshooting across enterprise storage environments.",
@@ -276,5 +276,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:18+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "",
+    "replacement": {
+      "exam_code": "NS0-177",
+      "relationship": "direct_replacement",
+      "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/flexpod-design-specialist/",
+      "name": "Cisco and NetApp FlexPod Design Specialist Exam (NS0-177)"
+    },
+    "summary": "NetApp retired NS0-175. NS0-177 is the direct replacement path.",
+    "evidence_url": "https://www.netapp.com/insight/certification/",
+    "verified_at": "2026-08-29T05:37:22+00:00"
   }
 }
