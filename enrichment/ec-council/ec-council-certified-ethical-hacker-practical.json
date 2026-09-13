@@ -1,0 +1,205 @@
+{
+ "exam_id": "ec-council-certified-ethical-hacker-practical",
+ "editorial": {
+  "meta_description": "The Certified Ethical Hacker Practical exam from EC-Council evaluates your hands-on penetration testing skills across nine core security domains.",
+  "overview": "The Certified Ethical Hacker Practical is a performance-based assessment offered by EC-Council. It evaluates technical proficiency in nine domains, including network hacking, web application security, and reconnaissance. Candidates demonstrate their ability to apply ethical hacking techniques in a simulated environment, covering areas such as cloud computing, cryptography, and mobile platform security to prove their practical competence in identifying and mitigating security threats across enterprise systems.",
+  "who_should_take": "This exam is for security professionals, penetration testers, and ethical hackers who want to validate their hands-on skills. It is suitable for those with experience in system administration and network security who need to demonstrate real-world application of hacking methodologies.",
+  "skills_summary": [
+   "Network and perimeter hacking",
+   "Reconnaissance and scanning",
+   "Web application exploitation",
+   "System hacking phases",
+   "Mobile and IoT security",
+   "Cloud computing security",
+   "Cryptography implementation"
+  ],
+  "preparation_strategy": "Focus on practicing the nine domains in a lab environment. Use the exam blueprint to guide your study, ensuring you can perform tasks like network scanning, vulnerability analysis, and web application hacking. Familiarize yourself with common tools and systems. Since this is a practical exam, prioritize hands-on experience over theoretical study to ensure you can complete the tasks within the 360-minute time limit.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the fundamental concepts of information security and ethical hacking methodologies, providing candidates with a thorough understanding of security controls and frameworks required for proper assessments.",
+    "study_focus": [
+     "Information security controls",
+     "Hacking frameworks"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on gathering information about targets through various reconnaissance and scanning techniques, ensuring candidates master footprinting methodology, network scanning, and thorough target enumeration to locate potential system entry points.",
+    "study_focus": [
+     "Footprinting methodology",
+     "Network scanning",
+     "Enumeration"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses the main phases of system hacking, including vulnerability analysis, structured system hacking procedures, and the detailed evaluation and analysis of malicious software threats affecting modern target systems.",
+    "study_focus": [
+     "Vulnerability assessment",
+     "System hacking",
+     "Malware analysis"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain covers advanced techniques for hacking networks and perimeters, incorporating packet sniffing, social engineering tactics, denial-of-service attacks, and methods for evading standard security controls deployed across enterprise architectures.",
+    "study_focus": [
+     "Sniffing",
+     "Social engineering",
+     "Denial-of-service",
+     "Evading security controls"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain focuses on identifying and exploiting security vulnerabilities in web applications and web servers, with a strong emphasis on understanding and executing SQL injection attacks against vulnerable database systems.",
+    "study_focus": [
+     "Web server attacks",
+     "Web application hacking",
+     "SQL injection"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain covers the practical use of specific tools, systems, and software programs required for successfully identifying vulnerabilities and hacking modern wireless networks during simulated security assessments and penetration tests.",
+    "study_focus": [
+     "Wireless network hacking",
+     "Wireless security tools"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "7",
+    "summary": "This domain addresses complex security challenges and exploitation vectors related to mobile platforms, Internet of Things devices, and operational technology environments found in modern enterprise deployments and consumer technology sectors.",
+    "study_focus": [
+     "Mobile platform hacking",
+     "IoT hacking",
+     "OT hacking"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "8",
+    "summary": "This domain focuses heavily on the security aspects, architecture, and threat vectors associated with modern cloud computing environments and distributed technologies utilized by contemporary organizations for scaling their core operational services.",
+    "study_focus": [
+     "Cloud computing concepts",
+     "Cloud security"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "9",
+    "summary": "This domain covers fundamental cryptographic concepts, standard encryption algorithms, and their practical application in securing sensitive enterprise information against unauthorized disclosure across various storage media, system networks, and digital transmission channels.",
+    "study_focus": [
+     "Encryption algorithms",
+     "Cryptography tools"
+    ],
+    "source_ids": [
+     "ec-council-certified-ethical-hacker-practical-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Ensure your testing environment meets all technical requirements before starting. Manage your time effectively across the 20 questions to complete the tasks within the 360-minute duration. Stay focused on the practical objectives and maintain a clear record of your findings.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The Certified Ethical Hacker Practical exam consists of exactly 20 practical questions that evaluate your hands-on technical proficiency and ethical hacking skills across a simulated target network environment."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To successfully pass the Certified Ethical Hacker Practical certification exam and earn your official credential, candidates must achieve a minimum passing score of 70% across the exam objectives."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a total duration of 360 minutes, providing you with ample time to work through all of the required practical tasks and lab scenarios."
+   },
+   {
+    "question_title": "Is this exam currently available?",
+    "answer_text": "Yes, the Certified Ethical Hacker Practical exam is currently active. You can check directly with EC-Council for the most up-to-date information regarding the complete certification path and registration details."
+   }
+  ],
+  "methodology": {
+   "summary": "This index was compiled using official EC-Council exam guides and documentation to provide accurate, verified information regarding the exam structure, domains, and requirements.",
+   "source_ids": [
+    "ec-council-certified-ethical-hacker-practical-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "ec-council-certified-ethical-hacker-practical-exam_guide",
+   "ec-council-certified-ethical-hacker-practical-exam_guide-2",
+   "ec-council-certified-ethical-hacker-practical-exam_guide-3",
+   "ec-council-certified-ethical-hacker-practical-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "ec-council-certified-ethical-hacker-practical-exam_guide",
+   "url": "https://cdn.eccouncil.org/wp-content/uploads/2023/02/26065402/Cyber-Handbook-Enterprise.pdf",
+   "title": "EC-Council exam guide",
+   "publisher": "EC-Council",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:92afd2548c4bbb982052760f310f198cac263e8eca3bb8343f5b35f5440284ef"
+  },
+  {
+   "id": "ec-council-certified-ethical-hacker-practical-exam_guide-2",
+   "url": "https://cdn.eccouncil.org/wp-content/uploads/2025/07/26064137/CEH_HOF_Report_2025.pdf",
+   "title": "EC-Council exam guide",
+   "publisher": "EC-Council",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:57b7824f5bdbc3327bb96dae9f52040fb94082e2a4fb59767677c609425a796c"
+  },
+  {
+   "id": "ec-council-certified-ethical-hacker-practical-exam_guide-3",
+   "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+   "title": "EC-Council exam guide",
+   "publisher": "EC-Council",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:7e9594829fb7f8aa1107ac8eaba853e0b5a25787a53ade400e1b0f56ac73791e"
+  },
+  {
+   "id": "ec-council-certified-ethical-hacker-practical-exam_guide-4",
+   "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
+   "title": "EC-Council exam guide",
+   "publisher": "EC-Council",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:7b05c3d495f79797e80588b28a0268b03aed036eb23d526ef2f98d4d16c14c75"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-3.6-flash",
+  "generated_at": "2026-09-13T11:16:34+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T15:23:37+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T15:23:37+00:00"
+ }
+}

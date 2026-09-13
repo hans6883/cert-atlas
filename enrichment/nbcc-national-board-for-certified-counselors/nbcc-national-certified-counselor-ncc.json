@@ -1,0 +1,137 @@
+{
+ "exam_id": "nbcc-national-certified-counselor-ncc",
+ "editorial": {
+  "meta_description": "The National Certified Counselor certification exam evaluates knowledge across six distinct practice domains to ensure candidates meet professional standards.",
+  "overview": "The National Certified Counselor (NCC) certification is administered by the NBCC. This exam measures the knowledge and skills required for entry-level counseling practice. It covers six domains, including professional ethics, clinical assessment, and counseling interventions, ensuring candidates meet the standards necessary for providing effective counseling services in a variety of professional settings and diverse clinical environments. The exam consists of 200 questions that evaluate a candidate's readiness to provide professional services.",
+  "who_should_take": "This certification is for graduate-level counselors who have completed a counseling program accredited by CACREP or housed within an institutionally accredited college or university and wish to earn professional credentials.",
+  "skills_summary": [
+   "Professional practice and ethics",
+   "Intake, assessment, and diagnosis",
+   "Areas of clinical focus",
+   "Treatment planning",
+   "Counseling skills and interventions",
+   "Core counseling attributes"
+  ],
+  "preparation_strategy": "Review the content outline to understand the six domains. Use your Credentialing Gateway account to register and monitor your authorization window. Practice with sample questions to familiarize yourself with the 200-question format. Ensure you have a stable internet connection if testing via OnVUE or confirm your test center location for in-person administration to ensure you are ready for the exam.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers professional functioning, including the history of the field, organizational structures, ethical standards, and the requirements for professional credentialing, which are necessary for maintaining high standards of practice within the counseling profession.",
+    "study_focus": [
+     "Professional roles",
+     "Ethical standards"
+    ],
+    "source_ids": [
+     "nbcc-national-certified-counselor-ncc-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This area focuses on the processes involved in the initial intake of clients, the methods used for clinical assessment, and the procedures for establishing a formal diagnosis during the counseling process for various client populations.",
+    "study_focus": [
+     "Intake procedures",
+     "Diagnostic methods",
+     "Assessment techniques"
+    ],
+    "source_ids": [
+     "nbcc-national-certified-counselor-ncc-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses specific clinical focus areas that counselors encounter in practice, representing the largest portion of the examination content and requiring a deep understanding of various client needs and issues encountered in clinical settings.",
+    "study_focus": [
+     "Clinical focus areas",
+     "Client populations"
+    ],
+    "source_ids": [
+     "nbcc-national-certified-counselor-ncc-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This section covers the development of treatment plans, focusing on the strategies and goals necessary to guide the counseling process for individual clients to ensure effective and measurable therapeutic outcomes during the course of treatment.",
+    "study_focus": [
+     "Treatment planning",
+     "Goal setting"
+    ],
+    "source_ids": [
+     "nbcc-national-certified-counselor-ncc-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain examines the specific skills and interventions used during counseling sessions to facilitate client progress and change, ensuring that counselors can apply evidence-based techniques in a variety of settings to support their clients effectively.",
+    "study_focus": [
+     "Counseling interventions",
+     "Counseling skills",
+     "Therapeutic techniques"
+    ],
+    "source_ids": [
+     "nbcc-national-certified-counselor-ncc-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain identifies the core attributes and personal qualities that are necessary for a counselor to effectively engage in the helping relationship and maintain a professional connection with their clients throughout the therapeutic process.",
+    "study_focus": [
+     "Counselor attributes",
+     "Personal qualities"
+    ],
+    "source_ids": [
+     "nbcc-national-certified-counselor-ncc-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive at your test center or log into your testing portal well before your appointment. You have 225 minutes to complete the examination. Ensure you have valid identification ready for verification to proceed with your testing session.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The examination consists of 200 questions in total. These questions are designed to evaluate your knowledge across the six domains of counseling practice to ensure you meet the professional standards required for certification."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score is determined by whether a candidate surpasses the minimum criterion score for the specific form of the examination they are taking. Each question is evaluated to ensure the candidate meets the required professional standards."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total time allowed for the examination is 225 minutes. Candidates should manage their time effectively throughout the session to ensure they have sufficient opportunity to address all 200 questions provided in the exam."
+   },
+   {
+    "question_title": "Can I reschedule my exam appointment?",
+    "answer_text": "Candidates should check with NBCC for the current certification path and rescheduling policies. It is important to review all registration details and contact the appropriate testing administration services to manage your appointment effectively."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial was constructed by synthesizing the official NBCC candidate handbook and exam content outline to provide accurate information regarding exam structure, domains, and administrative policies for all prospective candidates seeking their professional certification credentials.",
+   "source_ids": [
+    "nbcc-national-certified-counselor-ncc-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "nbcc-national-certified-counselor-ncc-exam_guide"
+  ]
+ },
+ "sources": [
+  {
+   "id": "nbcc-national-certified-counselor-ncc-exam_guide",
+   "url": "https://nbcc.org/assets/exam/nce_content_outline_2019.pdf",
+   "title": "NBCC exam guide",
+   "publisher": "NBCC",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:ff7b0996747da9e97b54a36557d7d07f1ef42e49f1d7985dd07e6cd2364cfbcb"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-3.1-flash-lite",
+  "generated_at": "2026-09-13T13:30:55+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T15:23:39+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T15:23:39+00:00"
+ }
+}

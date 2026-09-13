@@ -1,0 +1,204 @@
+{
+  "exam_id": "cisco-ccnp-data-center-dccor-350-601",
+  "exam_name": "Cisco CCNP Data Center DCCOR 350-601",
+  "exam_code": "350-601",
+  "certifying_body": "Cisco",
+  "version": null,
+  "source_url": "https://learningcontent.cisco.com/documents/marketing/exam-topics/350-601-DCCOR-v1.1.pdf",
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Network",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Compute",
+      "weight_percent": 25.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Storage Network",
+      "weight_percent": 20.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Automation",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Security",
+      "weight_percent": 15.0,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "Cisco CCNP Data Center DCCOR 350-601",
+    "ccnp-data-center-dccor-350-601-core"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cisco-ccnp-data-center-dccor-350-601",
+  "editorial": {
+    "meta_description": "Prepare for the Cisco CCNP Data Center DCCOR 350-601 exam by studying network, compute, storage network, automation, and security domains.",
+    "overview": "The Cisco CCNP Data Center DCCOR 350-601 exam validates your knowledge of modern data center infrastructure. Certified by Cisco, this broad assessment spans five core domains covering network, compute, storage networks, automation, and security, carefully testing your professional ability to manage, implement, and configure modern enterprise data center environments successfully.",
+    "who_should_take": "Data center engineers and network administrators with hands-on technical experience in Cisco infrastructure who want to validate their professional skills and advance their careers effectively.",
+    "skills_summary": [
+      "Network infrastructure configuration",
+      "Compute management and deployment",
+      "Storage network administration",
+      "Data center automation",
+      "Security policy implementation"
+    ],
+    "preparation_strategy": "Review official Cisco documentation and examine the management information model in thorough detail. Practice configuring network policies, compute resources, and automated workflows using developer tools, application programming interfaces, and standard deployment procedures to ensure complete readiness before your scheduled testing appointment.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain focuses intensely on network infrastructure and architecture within the enterprise data center environment, representing exactly 25.0 percent of the total exam weight across multiple technical objectives.",
+        "study_focus": [
+          "Network topologies",
+          "Routing protocols",
+          "Switching configurations"
+        ],
+        "source_ids": [
+          "cisco-ccnp-data-center-dccor-350-601-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers necessary compute resources and system management procedures, accounting for exactly 25.0 percent of the evaluation across server and virtualization platforms to ensure proper infrastructure operations.",
+        "study_focus": [
+          "Compute hardware",
+          "Server configuration",
+          "Virtualization platforms"
+        ],
+        "source_ids": [
+          "cisco-ccnp-data-center-dccor-350-601-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This specific domain addresses storage network connectivity, protocols, and administrative management tasks, weighting exactly 20.0 percent of the topics evaluated during the certification testing process for enterprise storage environments.",
+        "study_focus": [
+          "Storage connectivity",
+          "Protocols",
+          "Access control"
+        ],
+        "source_ids": [
+          "cisco-ccnp-data-center-dccor-350-601-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain explores automation frameworks and software programmability, representing 15.0 percent of the assessment and covering integration workflows, developer tools, and operational tasks for modern data centers.",
+        "study_focus": [
+          "API integration",
+          "Scripting workflows",
+          "Automation tools"
+        ],
+        "source_ids": [
+          "cisco-ccnp-data-center-dccor-350-601-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain centers on specific security policies and access controls, accounting for 15.0 percent of the total domain weight to ensure secure data center operations and proper infrastructure protection.",
+        "study_focus": [
+          "Access control lists",
+          "Security policies",
+          "Authentication mechanisms"
+        ],
+        "source_ids": [
+          "cisco-ccnp-data-center-dccor-350-601-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "You have 120 minutes to complete the exam. Manage your time effectively across all five domains and read each question carefully before submitting your answers.",
+    "faq": [
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam duration is 120 minutes. Candidates should manage their time carefully across all five domains to ensure all questions are answered within this timeframe."
+      },
+      {
+        "question_title": "How many domains are covered in the exam?",
+        "answer_text": "The exam covers 5 distinct domains including Network, Compute, Storage Network, Automation, and Security, with weights distributed precisely across these technical areas during testing to validate knowledge."
+      },
+      {
+        "question_title": "Is this exam currently active?",
+        "answer_text": "Yes, this exam is current and active for candidates pursuing this certification path. Candidates should check with Cisco for any updates regarding the official requirements."
+      },
+      {
+        "question_title": "What topics are included in the automation domain?",
+        "answer_text": "The automation domain accounts for 15.0 percent of the exam and covers programmability, application programming interfaces, and tools used for managing data center infrastructure effectively."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using official Cisco exam documentation, technical guides, and verified facts from reliable sources to ensure accurate representation of exam objectives.",
+      "source_ids": [
+        "cisco-ccnp-data-center-dccor-350-601-exam_guide",
+        "cisco-ccnp-data-center-dccor-350-601-exam_guide-2",
+        "cisco-ccnp-data-center-dccor-350-601-exam_guide-3",
+        "cisco-ccnp-data-center-dccor-350-601-exam_guide-4"
+      ]
+    },
+    "source_ids": [
+      "cisco-ccnp-data-center-dccor-350-601-exam_guide",
+      "cisco-ccnp-data-center-dccor-350-601-exam_guide-2",
+      "cisco-ccnp-data-center-dccor-350-601-exam_guide-3",
+      "cisco-ccnp-data-center-dccor-350-601-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "cisco-ccnp-data-center-dccor-350-601-exam_guide",
+      "url": "https://learningnetwork.cisco.com/s/dccor-exam-topics",
+      "title": "Cisco exam guide",
+      "publisher": "Cisco",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:157e0334e8eb73adf1dd799ac93acb8551ceabf733228e3dd6dede9ff6e670c6"
+    },
+    {
+      "id": "cisco-ccnp-data-center-dccor-350-601-exam_guide-2",
+      "url": "https://cciedump.spoto.net/350-601-certificates.php",
+      "title": "Cisco exam guide (cciedump.spoto.net)",
+      "publisher": "spoto.net",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:17d070aa0b999b119f5ee7b091226de893fa749ab8aa9aec9070b989b4ed1f9f"
+    },
+    {
+      "id": "cisco-ccnp-data-center-dccor-350-601-exam_guide-3",
+      "url": "https://www.aguidetocloud.com/cert-tracker/cisco-dccor/",
+      "title": "Cisco exam guide (aguidetocloud.com)",
+      "publisher": "aguidetocloud.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:c5e42bcfb5d317eb8482dc4186f15d94e9db5cc3e765535017137efca8955988"
+    },
+    {
+      "id": "cisco-ccnp-data-center-dccor-350-601-exam_guide-4",
+      "url": "https://www.nwexam.com/cisco/cisco-350-601-certification-exam-syllabus",
+      "title": "Cisco exam guide (nwexam.com)",
+      "publisher": "nwexam.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:554d2d3bb491754d69139e21e1d483b5914a83d8dc1564bb0da10424fc020124"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T09:50:26+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T15:23:36+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T15:23:36+00:00"
+  }
+}

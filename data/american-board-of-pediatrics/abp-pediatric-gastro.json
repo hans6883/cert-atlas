@@ -1,0 +1,286 @@
+{
+  "exam_id": "abp-pediatric-gastro",
+  "exam_name": "ABP Pediatric Gastroenterology",
+  "exam_code": "",
+  "certifying_body": "American Board of Pediatrics",
+  "version": null,
+  "source_url": "https://www.abp.org/sites/public/files/pdf/content-outline-gastroenterology.pdf",
+  "passing_score": 180,
+  "duration_minutes": 270,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Gastrointestinal Motility",
+      "weight_percent": 4.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Nutrition",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Evaluation of Gastrointestinal Signs and Symptoms",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Gut-Brain Interaction Disorders",
+      "weight_percent": 9.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Mouth and Esophagus",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Stomach and Duodenum",
+      "weight_percent": 9.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Small and Large Intestine",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Liver, Bile Ducts, and Gall Bladder",
+      "weight_percent": 12.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Pancreas",
+      "weight_percent": 4.0,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Diagnostic and Therapeutic Procedures",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Psychosocial, Socioeconomic, and Ethical Considerations",
+      "weight_percent": 4.0,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Core Knowledge in Scholarly Activities",
+      "weight_percent": 4.0,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "ABP Pediatric Gastroenterology"
+  ],
+  "practice_url": "https://quizforge.ai/tests/abp-pediatric-gastro",
+  "editorial": {
+    "meta_description": "The American Board of Pediatrics Pediatric Gastroenterology exam evaluates clinical knowledge across 12 distinct domains, including nutrition and motility.",
+    "overview": "The American Board of Pediatrics administers the Pediatric Gastroenterology exam to assess professional competence. This assessment covers 12 distinct domains, ranging from gastrointestinal motility and nutrition to the evaluation of signs and symptoms, gut-brain interaction disorders, and core knowledge in scholarly activities. It also addresses diagnostic and therapeutic procedures, alongside psychosocial and ethical considerations, ensuring an evaluation of a candidate's expertise in pediatric gastrointestinal health and patient care management.",
+    "who_should_take": "This exam is intended for pediatricians seeking board certification in gastroenterology. Candidates should possess clinical experience in managing gastrointestinal, liver, and nutritional disorders in infants, children, and adolescents, as well as proficiency in relevant diagnostic and therapeutic procedures.",
+    "skills_summary": [
+      "Managing gastrointestinal motility",
+      "Applying nutritional therapy",
+      "Evaluating GI signs and symptoms",
+      "Addressing gut-brain disorders",
+      "Performing diagnostic procedures",
+      "Applying ethical considerations"
+    ],
+    "preparation_strategy": "Review the 12 domains outlined by the American Board of Pediatrics to identify focus areas. Prioritize the 14% weight assigned to the evaluation of signs and symptoms, and the 12% weight for both the small and large intestine and the liver, bile ducts, and gall bladder. Use clinical resources to practice diagnostic reasoning and therapeutic decision-making for common pediatric gastrointestinal conditions to ensure readiness for the 270 minute exam.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain focuses on the physiological movement of the gastrointestinal tract, requiring candidates to understand the mechanisms of motility and how various disorders impact the normal function of the digestive system in pediatric patients.",
+        "study_focus": [
+          "Motility disorders",
+          "Physiological regulation"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Candidates must demonstrate knowledge of nutritional requirements and therapeutic interventions for pediatric patients, including the management of diets and the delivery of nutritional support to children with chronic gastrointestinal or liver conditions.",
+        "study_focus": [
+          "Nutritional support",
+          "Metabolic requirements"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This section addresses the clinical assessment of common gastrointestinal presentations, requiring the ability to evaluate signs and symptoms effectively to reach an accurate differential diagnosis for a wide range of pediatric digestive health issues.",
+        "study_focus": [
+          "Symptom evaluation",
+          "Differential diagnosis"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain examines disorders involving the interaction between the gut and the brain, focusing on the diagnosis and management of functional gastrointestinal disorders that frequently affect the pediatric population in clinical practice settings.",
+        "study_focus": [
+          "Gut-brain axis",
+          "Functional disorders"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This area covers conditions affecting the upper digestive tract, specifically focusing on the mouth and esophagus, including the identification and treatment of structural, inflammatory, and infectious pathologies that impact pediatric swallowing and esophageal health.",
+        "study_focus": [
+          "Esophageal disorders",
+          "Swallowing dysfunction"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain focuses on the stomach and duodenum, requiring knowledge of gastric function, peptic ulcer disease, and other conditions that affect the upper gastrointestinal tract's ability to process food and maintain a healthy environment.",
+        "study_focus": [
+          "Peptic ulcer disease",
+          "Gastric function"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This section addresses diseases of the small and large intestine, including inflammatory bowel disease and other intestinal inflammation conditions, requiring an understanding of the pathophysiology and management strategies for these chronic pediatric digestive disorders.",
+        "study_focus": [
+          "Inflammatory bowel disease",
+          "Malabsorption syndromes"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This domain covers the hepatobiliary system, focusing on liver disease and bile duct disorders, requiring candidates to understand the management of pediatric patients with chronic liver conditions and gall bladder dysfunction in clinical practice.",
+        "study_focus": [
+          "Liver disease",
+          "Gall bladder pathology"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "This domain focuses on pancreatic health and disease, requiring knowledge of pancreatitis and exocrine function, ensuring that candidates can diagnose and manage pancreatic conditions that impact the digestive health of infants and children.",
+        "study_focus": [
+          "Pancreatitis",
+          "Pancreatic insufficiency"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "This section covers technical procedures used in gastroenterology, including endoscopy and various therapeutic interventions, requiring candidates to understand the indications, risks, and clinical applications of these diagnostic tools in pediatric patient care settings.",
+        "study_focus": [
+          "Endoscopy",
+          "Procedural safety"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "11",
+        "summary": "This domain addresses the social and ethical aspects of patient care, including ethical decision-making and the impact of socioeconomic factors on health outcomes, ensuring that pediatric gastroenterologists provide holistic and equitable care to all patients.",
+        "study_focus": [
+          "Ethical decision-making",
+          "Patient advocacy"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "12",
+        "summary": "This domain covers scholarly activities and research knowledge, requiring candidates to understand research methodology and evidence-based practice to contribute to the advancement of pediatric gastroenterology and improve clinical outcomes through scientific inquiry and study.",
+        "study_focus": [
+          "Research methodology",
+          "Scientific literature analysis"
+        ],
+        "source_ids": [
+          "abp-pediatric-gastro-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The exam lasts 270 minutes. Manage your time effectively across the 12 domains to ensure all sections are addressed. Read each clinical scenario carefully before selecting the most appropriate diagnostic or therapeutic approach to ensure accuracy in your responses.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The official documentation provided by the American Board of Pediatrics does not specify the total number of questions on the exam. Candidates should consult the board directly for specific details regarding the exam structure and question count."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score for the American Board of Pediatrics Pediatric Gastroenterology exam is 180. Candidates must achieve at least this score to successfully earn their certification in the field of pediatric gastroenterology and related digestive health."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam has a total duration of 270 minutes. Candidates are encouraged to manage their time efficiently across all 12 domains to ensure they have sufficient time to review and answer every clinical scenario presented during the test."
+      },
+      {
+        "question_title": "Where can I find the current certification path?",
+        "answer_text": "For information regarding the long-term certification path or updates to the exam requirements, please check with the American Board of Pediatrics. They provide the most current and accurate guidance for all candidates pursuing board certification in this specialty."
+      }
+    ],
+    "methodology": {
+      "summary": "This index was compiled using the official content outline provided by the American Board of Pediatrics and verified clinical documentation to ensure accuracy and relevance for all candidates preparing for their certification exam.",
+      "source_ids": [
+        "abp-pediatric-gastro-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "abp-pediatric-gastro-exam_guide"
+    ]
+  },
+  "sources": [
+    {
+      "id": "abp-pediatric-gastro-exam_guide",
+      "url": "https://www.abp.org/sites/public/files/pdf/content-outline-gastroenterology.pdf",
+      "title": "American Board of Pediatrics exam guide",
+      "publisher": "American Board of Pediatrics",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:8a90bacc0015b269d5a98fb93649295dac407da2dd86aa499e237fb2d453d407"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-3.1-flash-lite",
+    "generated_at": "2026-09-13T12:34:02+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T15:23:33+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T15:23:33+00:00"
+  }
+}

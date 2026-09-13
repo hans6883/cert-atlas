@@ -1,0 +1,132 @@
+{
+ "exam_id": "us-citizenship-civics-test",
+ "editorial": {
+  "meta_description": "Prepare for the US Citizenship Civics Test, which includes 20 questions across 3 domains, requiring a passing score of 12 correct answers to succeed.",
+  "overview": "The US Citizenship Civics Test is an oral examination administered by Citizenship and Civics Tests for candidates seeking naturalization. The test evaluates an applicant's understanding of United States history, government structures, and national symbols across 3 core test domains. During the examination process, candidates are asked a total of 20 questions by an officer. To successfully earn a passing result, candidates must achieve a passing score by answering at least 12 of 20 questions correctly. Demonstrating civics knowledge across domain 1, domain 2, and domain 3 ensures that prospective citizens possess the essential knowledge required for active civic participation.",
+  "who_should_take": "This examination is intended for lawful permanent residents applying for naturalization who are seeking to become United States citizens. Candidates must meet statutory eligibility criteria before completing this oral assessment during their naturalization interview session.",
+  "skills_summary": [
+   "Principles of American democracy",
+   "System of government structure",
+   "Rights and responsibilities of citizens",
+   "Colonial period and independence history",
+   "1800s and recent American history",
+   "Geography and national symbols"
+  ],
+  "preparation_strategy": "To prepare effectively, review official study materials covering all 3 test domains provided by Citizenship and Civics Tests. Practice answering questions aloud since the exam is given orally during your interview. Focus on understanding key historical events, government principles, and national symbols to prepare for answering 12 of 20 questions correctly. Consistent review of these materials helps ensure you are ready for the oral assessment.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers American government principles, federal structures, and civic rights. Candidates must understand constitutional foundations and systemic functions evaluated as domain 1 during the oral naturalization examination process for citizenship candidates.",
+    "study_focus": [
+     "Constitution and Bill of Rights",
+     "Branches of government"
+    ],
+    "source_ids": [
+     "us-citizenship-civics-test-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on American history, encompassing the colonial period, revolutionary era, 1800s, and key recent historical events. Applicants demonstrate knowledge of significant historical developments evaluated under domain 2 during naturalization interviews.",
+    "study_focus": [
+     "Declaration of Independence",
+     "Civil War and Emancipation"
+    ],
+    "source_ids": [
+     "us-citizenship-civics-test-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses geography, national symbols, and federal holidays. Candidates study key national landmarks, patriotic symbols, and significant national observances categorized under domain 3 to fulfill naturalization civics knowledge requirements successfully.",
+    "study_focus": [
+     "U.S. geography and borders",
+     "National flag and anthem"
+    ],
+    "source_ids": [
+     "us-citizenship-civics-test-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "During your naturalization interview, an officer will orally ask you up to 20 questions. Listen carefully to each spoken item and provide concise, accurate spoken responses to secure a passing score of 12 of 20. Ensure you are prepared to answer these questions clearly.",
+  "faq": [
+   {
+    "question_title": "How many total questions are asked during the exam?",
+    "answer_text": "During the oral naturalization interview, the officer will ask the candidate up to a total of 20 questions selected from the standard study material to test civics knowledge and ensure the applicant meets the requirements."
+   },
+   {
+    "question_title": "What is the passing score for the test?",
+    "answer_text": "To achieve a passing score on the civics assessment, candidates must answer at least 12 of 20 questions correctly during their naturalization interview with the officer to demonstrate their understanding of the nation."
+   },
+   {
+    "question_title": "How many domains are covered on the examination?",
+    "answer_text": "The civics exam covers knowledge spread across 3 major subjects, including American Government, American History, and Symbols and Holidays, to ensure well-rounded knowledge of the nation for all prospective citizens."
+   },
+   {
+    "question_title": "What is the format of the exam?",
+    "answer_text": "The civics test is administered as an oral examination during the candidate's naturalization interview. The officer speaks each question aloud, and the applicant must respond verbally to demonstrate their civics knowledge."
+   }
+  ],
+  "methodology": {
+   "summary": "This editorial content was compiled using official exam guides from Citizenship and Civics Tests to provide accurate details on test requirements, domain structures, and scoring criteria for naturalization candidates seeking citizenship.",
+   "source_ids": [
+    "us-citizenship-civics-test-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "us-citizenship-civics-test-exam_guide",
+   "us-citizenship-civics-test-exam_guide-2",
+   "us-citizenship-civics-test-exam_guide-3",
+   "us-citizenship-civics-test-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "us-citizenship-civics-test-exam_guide",
+   "url": "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
+   "title": "Citizenship and Civics Tests exam guide",
+   "publisher": "Citizenship and Civics Tests",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:f280608c0fb6dc1eba344b4746a7ba52d02fe411fba30cedd4371819f0abe11c"
+  },
+  {
+   "id": "us-citizenship-civics-test-exam_guide-2",
+   "url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test",
+   "title": "Study for the Test | USCIS",
+   "publisher": "Citizenship and Civics Tests",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:9d1f2b3b659788697e5fa323f2dea74750b89b82e26e5995dce5e3ddb935196b"
+  },
+  {
+   "id": "us-citizenship-civics-test-exam_guide-3",
+   "url": "https://play.google.com/store/apps/details?id=com.myuscismobileapp&hl=en_US",
+   "title": "Citizenship and Civics Tests exam guide (play.google.com)",
+   "publisher": "google.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:67f49b9d60142bca47a1ca12ea9778f20f8ead59187c63fd2691077131992aae"
+  },
+  {
+   "id": "us-citizenship-civics-test-exam_guide-4",
+   "url": "https://usahello.org/citizenship/prepare/citizenship-test-questions/",
+   "title": "Citizenship and Civics Tests exam guide (usahello.org)",
+   "publisher": "usahello.org",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:8f02b9eb2915933fd5d974808eaac3e9a46b807ea63fff4e916bb0821bb65f01"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-3.1-flash-lite",
+  "generated_at": "2026-09-13T10:09:47+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T15:23:45+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T15:23:45+00:00"
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "exam_id": "patent-bar-examination-uspto",
+ "editorial": {
+  "meta_description": "The USPTO Patent Bar Examination evaluates knowledge of patent laws, ethics, and the MPEP for those seeking to become registered patent practitioners in the.",
+  "overview": "The USPTO Patent Bar Examination is administered by the United States Patent and Trademark Office (USPTO). It assesses a candidate's proficiency in patent laws, rules, and procedures, including the Manual of Patent Examining Procedure (MPEP). The exam ensures that individuals practicing before the Office possess the knowledge to represent applicants effectively in patent matters. Candidates must demonstrate their ability to navigate complex legal frameworks and administrative requirements to qualify for professional practice as registered patent attorneys or agents.",
+  "who_should_take": "This exam is for individuals who intend to represent applicants before the USPTO as registered patent attorneys or agents. Candidates must meet specific requirements to demonstrate their qualifications for professional practice in patent law.",
+  "skills_summary": [
+   "Application of patent laws and procedures",
+   "Adherence to ethical conduct standards",
+   "Navigation of the MPEP",
+   "Compliance with USPTO policy materials"
+  ],
+  "preparation_strategy": "Review the Manual of Patent Examining Procedure (MPEP) as it serves as a primary reference. Familiarize yourself with the rules of practice in patent cases and ethical standards for practitioners. Utilize official USPTO resources to understand the scope of the 100 questions. Practice navigating the procedures to manage your time during the 360-minute testing period effectively. Consistent study of the MPEP is necessary to master the technical details required for success on this examination.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific domain covers the detailed statutes, official regulations, and procedural requirements governing the entire patent application process within the United States jurisdiction and administrative offices for all patent practitioners.",
+    "study_focus": [
+     "Patent application filing requirements",
+     "Examination procedures",
+     "Post-issuance actions"
+    ],
+    "source_ids": [
+     "patent-bar-examination-uspto-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on the mandatory rules of professional conduct and the specific ethical obligations required for all registered patent attorneys and agents practicing before the office in patent matters.",
+    "study_focus": [
+     "Professional responsibility standards",
+     "Practitioner conduct rules"
+    ],
+    "source_ids": [
+     "patent-bar-examination-uspto-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain requires knowledge and operational familiarity regarding the Manual of Patent Examining Procedure (MPEP) for guidance on patent examination and daily office practice for all registered patent practitioners.",
+    "study_focus": [
+     "MPEP procedural guidelines",
+     "Patent examination standards"
+    ],
+    "source_ids": [
+     "patent-bar-examination-uspto-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain involves understanding additional published USPTO policy and procedure reference materials that serve to supplement the core MPEP text and broader federal patent regulations for all exam candidates.",
+    "study_focus": [
+     "USPTO policy updates",
+     "Procedural reference materials"
+    ],
+    "source_ids": [
+     "patent-bar-examination-uspto-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam consists of 100 questions to be completed in 360 minutes. Manage your time carefully to ensure you address the 90 scored questions required to reach the passing score of 63.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "Candidates taking this certification assessment will encounter a total of 100 questions distributed across the various tested knowledge domains during their scheduled appointment at the testing center."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To achieve a passing grade on this professional evaluation, candidates must successfully attain a score of 63 out of 90 scored questions, which equals a total of 70%."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The officially allotted duration provided to all registered candidates to complete the examination requirements is a total time period of 360 minutes for the entire test session."
+   },
+   {
+    "question_title": "Where can I find the current certification path?",
+    "answer_text": "For accurate information regarding the current certification path and any subsequent updates, please check with the United States Patent and Trademark Office (USPTO) directly for official guidance."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was constructed by synthesizing official USPTO documentation, including the MPEP and registration exam guides, to provide a factual overview of the examination requirements for all candidates.",
+   "source_ids": [
+    "patent-bar-examination-uspto-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "patent-bar-examination-uspto-exam_guide",
+   "patent-bar-examination-uspto-exam_guide-2",
+   "patent-bar-examination-uspto-exam_guide-3",
+   "patent-bar-examination-uspto-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "patent-bar-examination-uspto-exam_guide",
+   "url": "https://www.uspto.gov/learning-and-resources/patent-and-trademark-practitioners/becoming-patent-practitioner/registration",
+   "title": "Registration examination | USPTO",
+   "publisher": "United States Patent and Trademark Office (USPTO)",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:7e3420186b9982960009ca852ce8088ec5843820466f255b46b277662e3cd459"
+  },
+  {
+   "id": "patent-bar-examination-uspto-exam_guide-2",
+   "url": "https://www.cypris.ai/insights/achieving-patent-bar-eligibility-a-guide-for-aspirants",
+   "title": "United States Patent and Trademark Office (USPTO) exam guide (cypris.ai)",
+   "publisher": "cypris.ai",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:8120b783139d87f83c663fcdf18db01f64d5e043213cbe0430e3183d462511ea"
+  },
+  {
+   "id": "patent-bar-examination-uspto-exam_guide-3",
+   "url": "https://ipwatchdog.com/2018/10/03/patent-bar-exam/",
+   "title": "United States Patent and Trademark Office (USPTO) exam guide (ipwatchdog.com)",
+   "publisher": "ipwatchdog.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:a6e500f2cd406913f53c5c0518a5eeba34ebb8a35bfc14cf3d35cb6a54d8c5a6"
+  },
+  {
+   "id": "patent-bar-examination-uspto-exam_guide-4",
+   "url": "https://www.patenteducationseries.com/exam/exam-details.html",
+   "title": "United States Patent and Trademark Office (USPTO) exam guide (patenteducationseries.com)",
+   "publisher": "patenteducationseries.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:8b4f994392b36c97a592ddc4d26034faa927da812bf5aafa49da0612811e90b5"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-3.1-flash-lite",
+  "generated_at": "2026-09-13T11:01:12+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T15:23:40+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T15:23:40+00:00"
+ }
+}

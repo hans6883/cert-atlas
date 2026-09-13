@@ -1,0 +1,233 @@
+{
+  "exam_id": "dbt-analytics-engineer-certification",
+  "exam_name": "dbt Analytics Engineer Certification",
+  "exam_code": "",
+  "certifying_body": "dbt Labs",
+  "version": null,
+  "source_url": "https://www.getdbt.com/certifications/analytics-engineer-certification-exam",
+  "passing_score": "65%",
+  "total_questions": 65,
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Developing and optimizing dbt models",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Managing dbt models governance",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Debugging data modeling errors",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Troubleshooting and optimizing dbt pipelines",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Implementing dbt tests",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Implementing and Maintaining External Dependencies",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Leveraging the dbt state",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "dbt Analytics Engineer Certification"
+  ],
+  "practice_url": "https://quizforge.ai/tests/dbt-analytics-engineer-certification",
+  "editorial": {
+    "meta_description": "Prepare for the dbt Analytics Engineer Certification from dbt Labs. Master models, governance, debugging, testing, and state management.",
+    "overview": "The dbt Analytics Engineer Certification is offered by dbt Labs to validate your professional expertise in developing and optimizing dbt models, managing governance, debugging errors, implementing tests, and leveraging state. The certification exam consists of exactly 65 questions, grants a total duration of 120 minutes, and requires a passing score of 65% to successfully earn the credential.",
+    "who_should_take": "Analytics engineers and data practitioners who build and maintain production pipelines using dbt and cloud platforms should take this exam. Experience with data modeling, testing, and modern data workflows is recommended.",
+    "skills_summary": [
+      "Developing and optimizing dbt models",
+      "Managing dbt models governance",
+      "Debugging data modeling errors",
+      "Troubleshooting dbt pipelines",
+      "Implementing dbt tests",
+      "Maintaining External Dependencies",
+      "Leveraging the dbt state"
+    ],
+    "preparation_strategy": "Review the official dbt Labs study materials and documentation carefully before taking the test. Practice building models, writing data tests, managing dependencies, and working with external sources via the command line or platform tools to prepare for the 65 questions effectively across all required domains.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain focuses on developing and optimizing dbt models for efficient data transformation processes throughout your analytics engineering projects, ensuring that all queries run effectively and adhere to modern best practices.",
+        "study_focus": [
+          "Building select statements and models",
+          "Optimizing model structures"
+        ],
+        "source_ids": [
+          "dbt-analytics-engineer-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers managing dbt models governance to maintain high data quality standards and control user access across complex organizational projects, protecting sensitive information while enabling smooth collaborative development.",
+        "study_focus": [
+          "Enforcing access controls",
+          "Organizing project structure"
+        ],
+        "source_ids": [
+          "dbt-analytics-engineer-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain centers entirely on debugging data modeling errors efficiently during the development lifecycle, allowing engineers to quickly identify syntax issues and resolve unexpected compilation failures before pushing code to production environments.",
+        "study_focus": [
+          "Identifying syntax issues",
+          "Resolving compilation failures"
+        ],
+        "source_ids": [
+          "dbt-analytics-engineer-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain addresses troubleshooting and optimizing dbt pipelines for better overall performance, helping practitioners manage complex pipeline runs and improve execution speed across their modern cloud data warehouses.",
+        "study_focus": [
+          "Managing pipeline runs",
+          "Improving execution speed"
+        ],
+        "source_ids": [
+          "dbt-analytics-engineer-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain deals with implementing dbt tests to ensure absolute data integrity and high accuracy, empowering teams to write data tests and validate source freshness continuously within their production transformation workflows.",
+        "study_focus": [
+          "Writing data tests",
+          "Validating source freshness"
+        ],
+        "source_ids": [
+          "dbt-analytics-engineer-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain involves implementing and maintaining external dependencies in projects successfully, giving developers the knowledge required for configuring reusable packages and managing external data sources effectively within their workspaces.",
+        "study_focus": [
+          "Configuring packages",
+          "Managing external sources"
+        ],
+        "source_ids": [
+          "dbt-analytics-engineer-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This domain explores leveraging the dbt state for advanced project workflows, enabling practitioners to use saved project state artifacts for efficient continuous integration jobs and precise impact analysis during code reviews.",
+        "study_focus": [
+          "Using state for CI jobs",
+          "Comparing project artifacts"
+        ],
+        "source_ids": [
+          "dbt-analytics-engineer-certification-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time effectively across the 65 questions during the 120 minutes allowed. Read each question carefully to address data modeling, testing, and debugging scenarios.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The certification exam contains exactly 65 questions covering a wide variety of topics including developing and optimizing dbt models, project governance, debugging errors, and implementing data tests for various use cases."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "To successfully pass the exam and earn your certification credential from dbt Labs, you must achieve a minimum passing score of 65% across all tested domains in the official test."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Test takers are given a total duration of 120 minutes to complete all questions and review their answers carefully before final submission of the certification assessment."
+      },
+      {
+        "question_title": "What is the certifying body for this exam?",
+        "answer_text": "This professional certification is officially developed, administered, and maintained by dbt Labs to validate professional data analytics engineering skills for practitioners working with modern cloud platforms."
+      }
+    ],
+    "methodology": {
+      "summary": "This overview was carefully built using official dbt Labs documentation and exam guides to outline domains, question counts, and scoring details accurately.",
+      "source_ids": [
+        "dbt-analytics-engineer-certification-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "dbt-analytics-engineer-certification-exam_guide",
+      "dbt-analytics-engineer-certification-exam_guide-2",
+      "dbt-analytics-engineer-certification-exam_guide-3",
+      "dbt-analytics-engineer-certification-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "dbt-analytics-engineer-certification-exam_guide",
+      "url": "https://www.getdbt.com/assets/uploads/dbt_certificate_study_guide.pdf",
+      "title": "dbt Labs exam guide",
+      "publisher": "dbt Labs",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:365aa83a32c2ffd7a6b0329c5ecd2dde4a19940e809a8cbfd80a3ef9fdd067ed"
+    },
+    {
+      "id": "dbt-analytics-engineer-certification-exam_guide-2",
+      "url": "https://www.getdbt.com/certifications/analytics-engineer-certification-exam",
+      "title": "dbt Analytics engineer certification exam | dbt Labs",
+      "publisher": "dbt Labs",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:b6271d48efe4dc703d4212fdbfb421cc058b0d137fe0067414e02dbb0ad8bd8d"
+    },
+    {
+      "id": "dbt-analytics-engineer-certification-exam_guide-3",
+      "url": "https://andrealeonel.substack.com/p/study-for-the-dbt-analytics-engineering",
+      "title": "dbt Labs exam guide (andrealeonel.substack.com)",
+      "publisher": "substack.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:5701e1a6ee689a88d84415aae9438b61ada9f5d5d77901549e9147ef70f1507e"
+    },
+    {
+      "id": "dbt-analytics-engineer-certification-exam_guide-4",
+      "url": "https://www.aimpointdigital.com/blog/guide-passing-dbt-analytics-engineering-certification",
+      "title": "dbt Labs exam guide (aimpointdigital.com)",
+      "publisher": "aimpointdigital.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:9985f5c1e69309007e5b6fba8903f289464f4ab9710972fe575005dd199d8117"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T15:12:08+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T15:23:37+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T15:23:37+00:00"
+  }
+}

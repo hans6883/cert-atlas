@@ -1,0 +1,156 @@
+{
+ "exam_id": "bcs-business-analyst",
+ "editorial": {
+  "meta_description": "The BCS Business Analysis Practice exam evaluates professional competency in strategic context, stakeholder management, and business case development.",
+  "overview": "The BCS Business Analysis Practice certification, offered by BCS, evaluates your ability to apply business analysis techniques within a defined framework. This exam covers key domains, including strategic context, stakeholder management, and business case development. It is a core module for the International Diploma in Business Analysis, focusing on practical skills for supporting business change and identifying solutions. Candidates will demonstrate their proficiency in analyzing organizational environments and defining effective business improvements through structured methodologies and professional analytical practices.",
+  "who_should_take": "This exam is designed for business analysts, project managers, and business change managers. Candidates should have practical experience in business analysis roles and a solid understanding of core business analysis concepts before attempting the certification to ensure success.",
+  "skills_summary": [
+   "Strategic environment analysis",
+   "Stakeholder engagement and management",
+   "Current state investigation",
+   "Target state modelling",
+   "Solution definition",
+   "Business case development"
+  ],
+  "preparation_strategy": "Candidates should dedicate time to study the official Business Analysis textbook. Review all chapters to prepare for the 40 questions included in the assessment. Utilize the official syllabus to guide your learning and practice with the specimen paper. You may choose to attend a training course or pursue self-study if you are already experienced in the field. Ensure you are familiar with all core concepts to pass the exam.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain covers the strategic context of business analysis, focusing on how an organization's vision, mission, and objectives inform strategy. It requires candidates to understand the external and internal factors that influence high-level business planning and organizational direction.",
+    "study_focus": [
+     "VMOST technique",
+     "PESTLE framework"
+    ],
+    "source_ids": [
+     "bcs-business-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain focuses on identifying and managing stakeholders, including analyzing their perspectives and power to influence project outcomes. Candidates must learn how to categorize stakeholders effectively and apply appropriate communication strategies to ensure project success and alignment.",
+    "study_focus": [
+     "Stakeholder wheel categories",
+     "Power/interest grid"
+    ],
+    "source_ids": [
+     "bcs-business-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain covers methods for researching the current business situation and recording findings using various investigation techniques. It emphasizes the importance of gathering accurate data to understand existing processes, identifying pain points, and documenting the current operational landscape.",
+    "study_focus": [
+     "Quantitative techniques",
+     "Qualitative techniques",
+     "Rich pictures"
+    ],
+    "source_ids": [
+     "bcs-business-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain focuses on establishing the target state through business activity models and target operating models. Candidates will learn how to design future processes that align with organizational goals while identifying the necessary gaps between the current and future states.",
+    "study_focus": [
+     "Business activity models",
+     "Gap analysis"
+    ],
+    "source_ids": [
+     "bcs-business-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain covers the design and definition of solutions, including feasibility and the application of design thinking. It explores how to evaluate potential options based on technical, financial, and organizational viability to ensure the selected solution meets business requirements.",
+    "study_focus": [
+     "Design thinking stages",
+     "Double Diamond model"
+    ],
+    "source_ids": [
+     "bcs-business-analyst-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain covers the purpose, content, and financial appraisal techniques required to develop a business case. Candidates will learn how to justify investments by calculating costs and benefits, ensuring that proposed changes provide clear value to the organization's stakeholders.",
+    "study_focus": [
+     "Business case contents",
+     "Net present value"
+    ],
+    "source_ids": [
+     "bcs-business-analyst-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam is a 60-minute, invigilated digital assessment. It consists of 40 multiple-choice and multiple-response questions. No materials are permitted in the examination room. Ensure you are prepared for the specific format confirmed by your training provider or BCS to perform your best.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The certification exam consists of exactly 40 multiple-choice and multiple-response questions that test your knowledge across the defined domains of business analysis practice as outlined in the official syllabus."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "To achieve certification, you must reach the passing score of 26/40, which represents 65% of the total questions. You should prepare to meet this specific requirement during your assessment."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration for the examination is 60 minutes. Candidates should manage their time effectively during the test to ensure they have sufficient opportunity to answer all questions within the allotted time frame."
+   },
+   {
+    "question_title": "What is the next step after passing?",
+    "answer_text": "After successfully passing this exam, you should check with BCS for the current certification path to determine which additional modules or requirements are necessary to complete your professional International Diploma in Business Analysis."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built by synthesizing the official BCS syllabus, exam guides, and verified hard facts regarding exam structure, scoring, and content domains to provide accurate information for candidates.",
+   "source_ids": [
+    "bcs-business-analyst-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "bcs-business-analyst-exam_guide",
+   "bcs-business-analyst-exam_guide-2",
+   "bcs-business-analyst-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "bcs-business-analyst-exam_guide",
+   "url": "https://www.bcs.org/qualifications-and-certifications/certifications-for-professionals/business-analysis/practitioner-certificate-in-business-analysis-practice/",
+   "title": "Practitioner Certificate in Business Analysis Practice | BCS",
+   "publisher": "BCS",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:706ca800815b70dab76314b23704bb555d580761c9ce8116bcadddf0372dbe4f"
+  },
+  {
+   "id": "bcs-business-analyst-exam_guide-2",
+   "url": "https://www.knowledgetrain.co/en/business-analysis/business-analyst-course/bcs-business-analysis-certification/bcs-business-analysis-practice",
+   "title": "BCS exam guide (knowledgetrain.co)",
+   "publisher": "knowledgetrain.co",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:2cd0f5cc9343c76f14c81f11722d718b5f6b03a0f14ee13bec60c13b376b4f00"
+  },
+  {
+   "id": "bcs-business-analyst-exam_guide-3",
+   "url": "https://bcsbusinessanalysisstudyguide.examzify.com/",
+   "title": "BCS exam guide (bcsbusinessanalysisstudyguide.examzify.com)",
+   "publisher": "examzify.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:d9caed15c4a05d85eb4f3d89c6c52d5df7f99ae0f45783439f6fc95b763209c6"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-3.1-flash-lite",
+  "generated_at": "2026-09-13T13:28:28+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T15:23:35+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T15:23:35+00:00"
+ }
+}

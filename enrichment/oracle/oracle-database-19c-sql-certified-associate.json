@@ -1,0 +1,278 @@
+{
+ "exam_id": "oracle-database-19c-sql-certified-associate",
+ "editorial": {
+  "meta_description": "Prepare for the Oracle Database 19c SQL Certified Associate exam by Oracle. Master 63 questions in 120 minutes with a 63% passing score.",
+  "overview": "The Oracle Database 19c: SQL Certified Associate certification, managed by Oracle, covers relational database concepts, SQL SELECT statements, restricting and sorting data, single-row functions, conversion functions, group functions, joins, subqueries, SET operators, DML statements, indexes, synonyms, sequences, DDL, views, user access control, data dictionary views, and time zones to ensure complete proficiency in database administration and querying tasks.",
+  "who_should_take": "Database administrators, SQL developers, and data analysts with experience in Oracle Database systems should take this certification to validate their querying and data manipulation skills.",
+  "skills_summary": [
+   "Relational Database concepts",
+   "Retrieving Data using SQL",
+   "Restricting and Sorting Data",
+   "Using Single-Row Functions",
+   "Reporting Aggregated Data",
+   "Displaying Data using Joins",
+   "Managing Tables using DML",
+   "Controlling User Access"
+  ],
+  "preparation_strategy": "Carefully review the official Oracle exam guide in complete detail before taking the test to ensure you understand every requirement. Practice writing and executing database queries using SQL SELECT statements, joins, subqueries, and DML statements to build confidence. Focus heavily on mastering single-row functions, group functions, and managing database objects through DDL commands to achieve a passing score.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This specific domain covers fundamental relational database concepts and architecture necessary for understanding how data storage and retrieval operations function within complex Oracle system environments during everyday tasks.",
+    "study_focus": [
+     "Database concepts",
+     "Architecture basics"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "Candidates learn how to successfully retrieve information from database tables using the basic SQL SELECT statement along with its various clauses and options for displaying accurate query results.",
+    "study_focus": [
+     "SELECT statement usage",
+     "Query syntax"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This section teaches learners how to effectively filter rows using specific search conditions and sort query output results in designated ascending or descending orders for much better data presentation.",
+    "study_focus": [
+     "Data restriction",
+     "Data sorting"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "Learners explore the utilization of single-row functions to modify character, number, and date data types in order to produce customized output displays tailored precisely to specific business reporting requirements.",
+    "study_focus": [
+     "Single-row functions",
+     "Data modification"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This important area covers implicit and explicit data type conversions alongside the implementation of various conditional expressions within SQL queries to handle complex logic during database operations and processing.",
+    "study_focus": [
+     "Conversion functions",
+     "Conditional expressions"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "Candidates study how to apply group functions to summarize database information and generate detailed aggregate reports derived directly from logically grouped table rows across the database schema during analytical sessions.",
+    "study_focus": [
+     "Group functions",
+     "Aggregate reporting"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "7",
+    "summary": "This topic details methods for displaying related data from multiple tables simultaneously by employing various types of joins such as inner joins, outer joins, and cross joins during relational queries.",
+    "study_focus": [
+     "Table joins",
+     "Multiple table queries"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "8",
+    "summary": "This domain focuses on writing subqueries to solve complex data retrieval problems where one or more queries are nested inside another parent query to isolate specific relational datasets effectively.",
+    "study_focus": [
+     "Subqueries",
+     "Nested queries"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "9",
+    "summary": "Teaches students how to combine multiple distinct query result sets into a single unified output by using set operators like UNION, UNION ALL, INTERSECT, and MINUS during complex database reporting tasks.",
+    "study_focus": [
+     "SET operators",
+     "Result combination"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "10",
+    "summary": "Covers managing table data through standard data manipulation language statements, allowing database administrators and developers to insert new records, update existing ones, and delete unwanted information safely within enterprise environments.",
+    "study_focus": [
+     "DML statements",
+     "Data maintenance"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "11",
+    "summary": "Explains how to create and manage database indexes, synonyms, and sequences to optimize query performance and streamline database operational efficiency across different enterprise deployment models while maintaining high data availability standards.",
+    "study_focus": [
+     "Indexes",
+     "Synonyms",
+     "Sequences"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "12",
+    "summary": "Focuses on using data definition language commands to manage tables, structural constraints, and their corresponding relationships within the database schema to maintain reliable data integrity across all operational tables.",
+    "study_focus": [
+     "DDL statements",
+     "Constraint management"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "13",
+    "summary": "Covers the creation, modification, and dropping of database views to present customized data perspectives while protecting underlying table structures from direct user access during routine database administration duties.",
+    "study_focus": [
+     "Managing Views",
+     "View creation"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "14",
+    "summary": "Teaches how to manage database security effectively by granting and revoking various system and object privileges for different database users and assigned operational roles across the secure enterprise infrastructure.",
+    "study_focus": [
+     "User access control",
+     "Privilege management"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "15",
+    "summary": "Explains how to query data dictionary views to inspect database object metadata, underlying configurations, and system catalog information during troubleshooting procedures and routine audits conducted by database administrators.",
+    "study_focus": [
+     "Data dictionary views",
+     "Metadata inspection"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "16",
+    "summary": "Covers handling datetime data types and managing timestamps accurately across different geographical time zones within Oracle enterprise databases to ensure proper chronological data recording and application synchronization standards.",
+    "study_focus": [
+     "Time zones",
+     "Datetime data"
+    ],
+    "source_ids": [
+     "oracle-database-19c-sql-certified-associate-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Manage your time carefully across the 63 questions during the 120 minutes allowed on exam day. Read every prompt completely before selecting your final answers.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The certification exam consists of a total of 63 questions covering various database concepts, SQL statements, data manipulation tasks, and object management topics to test your overall knowledge."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score required to successfully pass this certification exam is set at 63%, meaning candidates must answer enough questions correctly to meet this threshold."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "Candidates are given a total duration of exactly 120 minutes to complete all questions included in the test session without any additional extensions granted during the evaluation period."
+   },
+   {
+    "question_title": "What certification path comes after this?",
+    "answer_text": "This certification is current, and you should always check directly with Oracle for the official current certification path regarding any subsequent steps or advanced credentials available for professionals."
+   }
+  ],
+  "methodology": {
+   "summary": "This index page was compiled using official Oracle documentation, exam guides, and verified structural facts regarding question counts, durations, and objectives.",
+   "source_ids": [
+    "oracle-database-19c-sql-certified-associate-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "oracle-database-19c-sql-certified-associate-exam_guide",
+   "oracle-database-19c-sql-certified-associate-exam_guide-2",
+   "oracle-database-19c-sql-certified-associate-exam_guide-3",
+   "oracle-database-19c-sql-certified-associate-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "oracle-database-19c-sql-certified-associate-exam_guide",
+   "url": "https://asktom.oracle.com/ords/f?p=100:11:::::P11_QUESTION_ID:9548814700346468040",
+   "title": "Oracle exam guide",
+   "publisher": "Oracle",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:25d99aff6c37637b99445cf7410fc2d8c688b5f42a779a5b52edeefb84fb7907"
+  },
+  {
+   "id": "oracle-database-19c-sql-certified-associate-exam_guide-2",
+   "url": "https://www.certimaan.com/post/oca-java-se8-certification-sample-questions",
+   "title": "Oracle exam guide (certimaan.com)",
+   "publisher": "certimaan.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:d9a560210c861e56e94ed7110759193a4c4abb8d041ee74a28b1f2487f0f2be6"
+  },
+  {
+   "id": "oracle-database-19c-sql-certified-associate-exam_guide-3",
+   "url": "https://www.certimaan.com/post/oracle-database-sql-certified-associate-sample-questions",
+   "title": "Oracle exam guide (certimaan.com)",
+   "publisher": "certimaan.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:2adf493b6c4f14ca0433df8fe3cfbf6e893ef4fefaff79e2a90be36075c136ea"
+  },
+  {
+   "id": "oracle-database-19c-sql-certified-associate-exam_guide-4",
+   "url": "https://www.certimaan.com/post/java-se-11-certification-sample-questions",
+   "title": "Oracle exam guide (certimaan.com)",
+   "publisher": "certimaan.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:79372e0e02d84323705db860353d404de2f7736edf6a40752fb966d169cc2934"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T14:01:33+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T15:23:40+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T15:23:40+00:00"
+ }
+}
