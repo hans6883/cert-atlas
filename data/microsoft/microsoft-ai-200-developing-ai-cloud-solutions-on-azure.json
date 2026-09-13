@@ -1,0 +1,292 @@
+{
+  "exam_id": "microsoft-ai-200-developing-ai-cloud-solutions-on-azure",
+  "exam_name": "Developing AI Cloud Solutions on Azure",
+  "exam_code": "AI-200",
+  "certifying_body": "Microsoft",
+  "certification_name": "Developing AI Cloud Solutions on Azure",
+  "version": 1,
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
+  "passing_score": 700,
+  "passing_score_scale": "1-1000",
+  "exam_price_notes": "Price based on the country or region in which the exam is proctored (Microsoft does not publish a USD list price).",
+  "exam_registration_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
+  "online_proctoring_available": true,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "As a candidate for this Microsoft Certification, you’re responsible for contributing to all phases of implementing AI solutions on Azure, with an emphasis on back-end services and components. You’re also responsible for supporting all phases of the development lifecycle, including requirements gathe",
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Develop containerized solutions on Azure",
+      "weight_percent": 22.5,
+      "weight_range": [
+        20,
+        25
+      ],
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Build, store, version, and manage container images by using Azure Container Registry"
+        },
+        {
+          "id": "1.2",
+          "title": "Build and run images by using Azure Container Registry Tasks"
+        },
+        {
+          "id": "1.3",
+          "title": "Deploy containers to Azure App Service, including configuring App Service to supply environment variables and secrets"
+        },
+        {
+          "id": "1.4",
+          "title": "Deploy applications to Azure Container Apps, including environment configuration and revision management"
+        },
+        {
+          "id": "1.5",
+          "title": "Implement event-driven scaling by using Kubernetes Event‑driven Autoscaling (KEDA) in Container Apps"
+        },
+        {
+          "id": "1.6",
+          "title": "Deploy and manage applications to Azure Kubernetes Service (AKS) by using manifest files"
+        },
+        {
+          "id": "1.7",
+          "title": "Monitor and troubleshoot solutions on AKS and Container Apps by inspecting logs, events, and end-to-end connectivity"
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Develop AI solutions by using Azure data management services",
+      "weight_percent": 27.5,
+      "weight_range": [
+        25,
+        30
+      ],
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Connect to Azure Cosmos DB for NoSQL by using the SDK and run queries"
+        },
+        {
+          "id": "2.2",
+          "title": "Optimize query performance and Request Units (RUs) consumption by using indexing policies and consistency levels"
+        },
+        {
+          "id": "2.3",
+          "title": "Store and retrieve embeddings and execute vector similarity search for semantic retrieval"
+        },
+        {
+          "id": "2.4",
+          "title": "Implement a change feed processor to detect and handle new or updated items"
+        },
+        {
+          "id": "2.5",
+          "title": "Connect and query Azure Database for PostgreSQL by using SDKs"
+        },
+        {
+          "id": "2.6",
+          "title": "Model schemas and implement indexing strategies, including designing tables and choosing appropriate data types"
+        },
+        {
+          "id": "2.7",
+          "title": "Implement indexing strategies, including optimizing query latency and reducing pgvector compute overhead"
+        },
+        {
+          "id": "2.8",
+          "title": "Configure compute, memory, and storage resources to support vector workloads"
+        },
+        {
+          "id": "2.9",
+          "title": "Run vector similarity search, including storing embeddings, semantic retrieval, and implementing retrieval-augmented generation (RAG) patterns by using metadata filter"
+        },
+        {
+          "id": "2.10",
+          "title": "Implement connection optimization to improve throughput and minimize latency"
+        },
+        {
+          "id": "2.11",
+          "title": "Implement Azure Managed Redis data operations, including caching, expiration, and invalidation"
+        },
+        {
+          "id": "2.12",
+          "title": "Implement vector indexing to enable similarity search"
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Connect to and consume Azure services",
+      "weight_percent": 22.5,
+      "weight_range": [
+        20,
+        25
+      ],
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Queue and process back-end operations by using Azure Service Bus, including dead-letter queue handling, messages, topics, and subscriptions"
+        },
+        {
+          "id": "3.2",
+          "title": "Implement event-driven workflows by using Azure Event Grid, including filters, custom events, and retries"
+        },
+        {
+          "id": "3.3",
+          "title": "Build serverless APIs, including implementing triggers and bindings"
+        },
+        {
+          "id": "3.4",
+          "title": "Configure and deploy function apps"
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Secure, monitor, troubleshoot Azure solutions",
+      "weight_percent": 22.5,
+      "weight_range": [
+        20,
+        25
+      ],
+      "objectives": []
+    }
+  ],
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
+  "aliases": [
+    "AI-200",
+    "Developing AI Cloud Solutions on Azure",
+    "ai-200",
+    "ai-200 developing ai cloud solutions on azure",
+    "developing ai cloud solutions on azure",
+    "microsoft certified azure ai cloud developer associate",
+    "microsoft-ai-200-azure-ai-developer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/developing-ai-cloud-solutions-on-azure-ai-200-practice-test-3d74gn",
+  "editorial": {
+    "meta_description": "Prepare for the Microsoft Developing AI Cloud Solutions on Azure exam. Master containerized workloads, data management, and connected services.",
+    "overview": "The Developing AI Cloud Solutions on Azure exam evaluates your technical ability to build, manage, and deploy advanced artificial intelligence solutions using Microsoft Azure cloud services. Candidates are tested on their extensive knowledge of containerized workloads, distributed data management systems, backend messaging infrastructure, and secure cloud security architectures across multiple testing domains.",
+    "who_should_take": "Developers responsible for implementing AI solutions on Azure with back-end focus. Candidates must be proficient in Azure SDKs, data management, messaging, vector databases, Python, and containerized applications.",
+    "skills_summary": [
+      "Develop containerized solutions on Azure",
+      "Develop AI solutions using data management",
+      "Connect and consume Azure services",
+      "Secure, monitor, and troubleshoot solutions"
+    ],
+    "preparation_strategy": "To successfully prepare for this comprehensive certification assessment, candidates should dedicate sufficient time to gain extensive hands-on practical experience across all tested domains. Review official Microsoft documentation and study guide materials thoroughly. Practice building and managing container images, querying Azure Cosmos DB for NoSQL, handling backend messaging operations, and configuring security settings to ensure you are fully prepared for every objective.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Focuses on building, storing, versioning, and managing container images using Azure Container Registry, running registry tasks, and deploying containers to Azure App Service with environment variables and secrets.",
+        "study_focus": [
+          "Build and store images using Azure Container Registry",
+          "Run images with Azure Container Registry Tasks",
+          "Deploy containers to Azure App Service"
+        ],
+        "source_ids": [
+          "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide",
+          "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Covers connecting to Azure Cosmos DB for NoSQL via SDK, running queries, optimizing performance, request units consumption, indexing policies, consistency levels, and storing and retrieving embeddings for vector similarity search.",
+        "study_focus": [
+          "Connect and run queries on Azure Cosmos DB for NoSQL",
+          "Optimize query performance and Request Units consumption",
+          "Store, retrieve, and execute vector similarity search"
+        ],
+        "source_ids": [
+          "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Involves queuing and processing back-end operations with Azure Service Bus, handling dead-letter queues, messages, topics, subscriptions, event-driven workflows with Azure Event Grid, and building serverless APIs with functions.",
+        "study_focus": [
+          "Queue and process operations using Azure Service Bus",
+          "Implement event-driven workflows with Azure Event Grid",
+          "Build serverless APIs with triggers and bindings"
+        ],
+        "source_ids": [
+          "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain covers securing cloud solutions, monitoring application health, and troubleshooting infrastructure issues to ensure optimal performance and high availability across all deployed Azure resources during daily operations.",
+        "study_focus": [
+          "Secure Azure solutions",
+          "Monitor and troubleshoot Azure solutions"
+        ],
+        "source_ids": [
+          "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "You will manage your scheduled time across all assessment questions during your test session. Proctored exams may include interactive components, so review instructions carefully and pace yourself effectively across all tested domains.",
+    "faq": [
+      {
+        "question_title": "What is the passing score for the exam?",
+        "answer_text": "Candidates must achieve a minimum passing score of 700 or greater on the official scoring scale of 1-1000 in order to successfully pass this certification assessment."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "You will have a designated testing window provided by the proctoring platform during your scheduled exam session to complete this assessment and answer all questions presented."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The final pricing is determined entirely based on the specific country or region in which the exam is proctored since Microsoft does not publish a standard flat USD list price."
+      },
+      {
+        "question_title": "What languages are available for the exam?",
+        "answer_text": "The certification exam is offered in multiple languages including English, Arabic (Saudi Arabia), Chinese, French, German, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, and Spanish for global candidates."
+      }
+    ],
+    "methodology": {
+      "summary": "This thorough index page was compiled using official Microsoft exam guides, study documentation, and verified publishing standards to provide precise preparation details for candidate review.",
+      "source_ids": [
+        "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide",
+      "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide-2",
+      "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide",
+      "url": "https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-microsoft",
+      "title": "Configure Microsoft Entra Authentication - Azure App Service | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:f372ac2b763ccc5f669cd305c07e1d08d007eb29be498bc59e12bd327a8a835a"
+    },
+    {
+      "id": "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide-2",
+      "url": "https://learn.microsoft.com/en-us/azure/app-service/deploy-staging-slots",
+      "title": "Set Up Staging Environments - Azure App Service | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:230143051c3c3429f565779781b943e806f8e81345e278f6762335144178b928"
+    },
+    {
+      "id": "microsoft-ai-200-developing-ai-cloud-solutions-on-azure-exam_guide-3",
+      "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+      "title": "Storage Account Overview - Azure Storage | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:dc1ad52b026d0726973a98d8626473a108358cd2744103ed2547d4563da956b5"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:37+00:00"
+  }
+}

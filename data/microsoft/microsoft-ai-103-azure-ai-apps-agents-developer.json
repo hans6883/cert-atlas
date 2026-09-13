@@ -1,0 +1,386 @@
+{
+  "exam_id": "microsoft-ai-103-azure-ai-apps-agents-developer",
+  "exam_name": "Developing AI Apps and Agents on Azure",
+  "exam_code": "AI-103",
+  "certifying_body": "Microsoft",
+  "certification_name": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+  "version": "as of April 16, 2026",
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+  "passing_score": 700,
+  "passing_score_scale": "1-1000",
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Price based on the country or region in which the exam is proctored (Microsoft does not publish a USD list price).",
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/microsoft",
+  "testing_centers": [],
+  "online_proctoring_available": true,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Chinese (Simplified)",
+    "Chinese (Traditional)",
+    "French",
+    "German",
+    "Japanese",
+    "Korean",
+    "Italian",
+    "Portuguese (Brazil)",
+    "Spanish"
+  ],
+  "target_audience": "As a candidate for this Microsoft Certification, you’re an Azure AI engineer who builds, manages, and deploys agents and AI solutions that take advantage of Microsoft Foundry. For this exam, you should have experience developing apps by using Python, and you need to be familiar with the capabilities",
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Plan and manage an Azure AI solution",
+      "weight_percent": 27.5,
+      "weight_min": 25.0,
+      "weight_max": 30.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Choose the appropriate Foundry services for generative AI and agents",
+          "sub_objectives": [
+            "Choose an appropriate model for each task, including large language models (LLMs), small language models, multimodal models, and Foundry Tools",
+            "Choose the appropriate Foundry services for generative tasks, grounding, vector search, agent workflows, or multimodal processing",
+            "Choose an appropriate method for retrieval and indexing",
+            "Choose appropriate memory, tool, and knowledge integration services for agent solutions"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Set up AI solutions in Foundry",
+          "sub_objectives": [
+            "Design Azure infrastructure for AI apps and agent-based solutions",
+            "Choose appropriate deployment options",
+            "Configure model and agent deployments",
+            "Integrate Foundry projects with continuous integration and continuous deployment (CI/CD) pipelines"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Manage, monitor, and secure AI systems",
+          "sub_objectives": [
+            "Manage quotas, scaling, rate limits, and cost footprints for model and agent workloads",
+            "Monitor model performance, drift, safety events, and grounding quality",
+            "Monitor data ingestion quality, search index health, and relevance performance",
+            "Configure security, including managed identity, private networking, keyless credentials, and role policies"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Implement responsible AI across generative AI and agentic systems",
+          "sub_objectives": [
+            "Configure safety filters, guardrails, risk detection, and content moderation",
+            "Apply responsible AI instrumentation, including evaluators, safety evaluations, and explanation tooling",
+            "Implement auditing through trace logging, provenance metadata, and approval workflows",
+            "Govern agent behavior with oversight modes, constraints, and tool-access controls"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Implement generative AI and agentic solutions",
+      "weight_percent": 32.5,
+      "weight_min": 30.0,
+      "weight_max": 35.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Build generative applications by using Foundry",
+          "sub_objectives": [
+            "Deploy and consume LLMs, small models, code models, and multimodal models",
+            "Implement retrieval-augmented generation (RAG) in an application",
+            "Design workflows, tool-augmented flows, and multistep reasoning pipelines",
+            "Evaluate models and apps, including detecting fabrications, relevance, quality, and safety",
+            "Integrate generative workflows into applications by using Foundry SDKs and connectors",
+            "Configure an application to connect to a Foundry project"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Build agents by using Foundry",
+          "sub_objectives": [
+            "Define agent roles, goals, conversation-tracking approach, and tool schemas",
+            "Build agents that integrate retrieval, function-calling, and conversation memory",
+            "Integrate agent tools, including APIs, knowledge stores, search, content understanding, and custom functions",
+            "Implement orchestrated multi-agent solutions",
+            "Build autonomous or semiautonomous workflows with safeguards and approval flow controls",
+            "Integrate monitoring into deployed agents, evaluate agent behavior, and perform error analysis"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Optimize and operationalize generative AI systems",
+          "sub_objectives": [
+            "Tune generation behavior, such as prompt engineering and adjusting model parameters",
+            "Implement model reflection, chain-of-thought evaluations, and self-critique loops",
+            "Set up observability by implementing tracing, token analytics, safety signals, and latency breakdowns",
+            "Orchestrate multiple models, flows, or hybrid LLM and rules engines"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Implement computer vision solutions",
+      "weight_percent": 12.5,
+      "weight_min": 10.0,
+      "weight_max": 15.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Design and implement image- and video-generation solutions",
+          "sub_objectives": [
+            "Implement a solution that generates images from text prompts and reference media",
+            "Implement a solution that generates videos from text prompts and reference media",
+            "Configure image-editing workflows, including inpainting, mask-based edits, and prompt-driven modifications",
+            "Implement workflows to edit generated videos",
+            "Select and apply appropriate generation and editing controls provided by the platform"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Design and implement multimodal understanding workflows",
+          "sub_objectives": [
+            "Build a solution that analyzes visual context by using multimodal models",
+            "Configure apps to produce concise or detailed captions for single or multiple images",
+            "Implement a solution that enables question-answering grounded in visual evidence",
+            "Configure generation of alt-text and extended image descriptions aligned to accessibility guidelines",
+            "Implement visual understanding by configuring Azure Content Understanding in Foundry Tools to extract visual characteristics",
+            "Implement video analysis workflows to process and interpret video segments",
+            "Configure single-task and pro-mode Content Understanding pipelines",
+            "Implement solutions that identify objects, components, or regions within images or video"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Implement responsible AI for multimodal content",
+          "sub_objectives": [
+            "Implement filters to classify unsafe or disallowed visual content",
+            "Detect and mitigate indirect prompt injection by using embedded text in images",
+            "Enforce visual policy rules, such as applying watermarks, flagging prohibited symbols, upholding brand usage requirements, and detecting potentially inappropriate content"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Implement text analysis solutions",
+      "weight_percent": 12.5,
+      "weight_min": 10.0,
+      "weight_max": 15.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Apply language model text analysis",
+          "sub_objectives": [
+            "Implement solutions to extract entities, topics, summaries, and structured JSON outputs by using generative prompting and Foundry Tools",
+            "Configure detection of sentiment, tone, safety issues, and sensitive content",
+            "Build solutions that translate text by using Azure Translator in Foundry Tools or LLM-powered translation flows",
+            "Customize language model outputs for domain tasks, such as compliance summarization and domain extraction"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Implement speech solutions",
+          "sub_objectives": [
+            "Implement workflows to convert speech to text and text to speech for agentic interactions",
+            "Integrate speech as an agent modality, including custom speech models",
+            "Enable multimodal reasoning from audio inputs",
+            "Translate speech into other languages by using language models and Foundry Tools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Implement information extraction solutions",
+      "weight_percent": 12.5,
+      "weight_min": 10.0,
+      "weight_max": 15.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Build retrieval and grounding pipelines",
+          "sub_objectives": [
+            "Ingest and index content, such as documents, images, audio, and video",
+            "Configure semantic search, hybrid search, and vector search for grounding",
+            "Implement enrichment by using custom or built-in skills for text, images, and layout",
+            "Configure RAG ingestion flow, including documents and using optical character recognition (OCR)",
+            "Connect retrieval pipelines directly to workflows and agent tools"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Extract content from documents",
+          "sub_objectives": [
+            "Extract information by using multimodal pipelines that combine OCR, layout analysis, and field extraction",
+            "Produce clean, grounded representations to use with agents and RAG by using Content Understanding",
+            "Implement analyzers for generating structured or markdown outputs for downstream reasoning by using Content Understanding"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+  "official_study_resources": [],
+  "aliases": [
+    "Developing AI Apps and Agents on Azure",
+    "ai-103",
+    "ai-103 developing ai apps and agents on azure",
+    "developing ai apps and agents on azure",
+    "microsoft certified azure ai apps and agents developer associate",
+    "microsoft-ai-103-azure-ai-apps-agents-developer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/developing-ai-apps-and-agents-on-azure-ai-103-practice-test-3d4onv",
+  "editorial": {
+    "meta_description": "Prepare for the Developing AI Apps and Agents on Azure exam from Microsoft, covering Azure AI solutions, generative AI, and computer vision.",
+    "overview": "The Developing AI Apps and Agents on Azure certification exam validates your core technical expertise in building, managing, and deploying advanced artificial intelligence solutions by leveraging Microsoft Foundry services. Certified professionals demonstrate broad proficiency across five distinct domains encompassing generative AI applications, intelligent agents, computer vision, text analysis, and complex information extraction workflows.",
+    "who_should_take": "Designed for Azure AI engineers who develop apps using Python. You need familiarity with general AI, generative AI, and Azure services, collaborating with stakeholders to design and maintain AI solutions.",
+    "skills_summary": [
+      "Plan and manage an Azure AI solution",
+      "Implement generative AI and agentic solutions",
+      "Implement computer vision solutions",
+      "Implement text analysis solutions",
+      "Implement information extraction solutions"
+    ],
+    "preparation_strategy": "Review all official skills measured objectives completely and gain extensive hands-on practical experience utilizing Python programming alongside Microsoft Foundry services. Practice systematically setting up advanced artificial intelligence solutions, deploying modern models, carefully managing security policies, and building retrieval-augmented generation pipelines to prepare successfully for test day.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This domain covers planning and managing an Azure AI solution with a 27.5 percent exam weight, focusing specifically on Foundry service selection, infrastructure setup, and monitoring systems.",
+        "study_focus": [
+          "Choose the appropriate Foundry services for generative AI and agents",
+          "Set up AI solutions in Foundry",
+          "Manage, monitor, and secure AI systems"
+        ],
+        "source_ids": [
+          "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain focuses on implementing generative AI and agentic solutions with a 32.5 percent weight, addressing application building, autonomous agent construction, and modern system optimization strategies across multiple environments.",
+        "study_focus": [
+          "Build generative applications by using Foundry",
+          "Build agents by using Foundry",
+          "Optimize and operationalize generative AI systems"
+        ],
+        "source_ids": [
+          "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain covers implementing computer vision solutions with a 12.5 percent exam weight, centering heavily on image and video generation, multimodal understanding workflows, and responsible AI practices.",
+        "study_focus": [
+          "Design and implement image- and video-generation solutions",
+          "Design and implement multimodal understanding workflows",
+          "Implement responsible AI for multimodal content"
+        ],
+        "source_ids": [
+          "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain addresses implementing text analysis solutions representing 12.5 percent of the exam, applying advanced language model text analysis techniques alongside speech solutions to build fully functional applications.",
+        "study_focus": [
+          "Apply language model text analysis",
+          "Implement speech solutions"
+        ],
+        "source_ids": [
+          "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "This domain focuses on implementing information extraction solutions with a 12.5 percent weight, building retrieval grounding pipelines and accurately extracting content from documents to support downstream tasks.",
+        "study_focus": [
+          "Build retrieval and grounding pipelines",
+          "Extract content from documents"
+        ],
+        "source_ids": [
+          "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide-2"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Verify your proctoring environment and register with a personal MSA account to ensure records remain accessible. Manage your time across all five domains and use accommodations if requested.",
+    "faq": [
+      {
+        "question_title": "How many domains are on the exam?",
+        "answer_text": "The exam features 5 distinct domains covering topics such as planning Azure AI solutions, implementing generative AI and agentic solutions, computer vision, text analysis, and information extraction."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "A passing score of 700 or greater is required on the official examination scale ranging from 1 to 1000 in order to pass successfully and earn the certification."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "Pricing is determined entirely by the country or region in which the exam is proctored, because Microsoft does not publish a static USD list price for candidates."
+      },
+      {
+        "question_title": "What is the long-term certification path?",
+        "answer_text": "This exam is current and active. For complete long-term certification path details, check directly with Microsoft for the most up-to-date guidance and policy updates regarding your credentials."
+      }
+    ],
+    "methodology": {
+      "summary": "This detailed page was built using official Microsoft documentation and study guides specifically for the Developing AI Apps and Agents on Azure exam.",
+      "source_ids": [
+        "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide",
+      "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide-2",
+      "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning",
+      "title": "Customize a model with fine-tuning - Microsoft Foundry | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:09bd157a12f14e1b8c780d1d2471c126533fab9951bf716d8c7b28c01c7512eb"
+    },
+    {
+      "id": "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide-2",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/responses",
+      "title": "Use the Azure OpenAI Responses API - Microsoft Foundry | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:dc25003798f709d2ef43f1566131bc8239625b1522f2b33e5d7712417d739ef2"
+    },
+    {
+      "id": "microsoft-ai-103-azure-ai-apps-agents-developer-exam_guide-3",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+      "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:fdfb11e834d458dabab0affcb2fb67d97f0b36e5e03ab641194709bfc9b54514"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:37+00:00"
+  }
+}

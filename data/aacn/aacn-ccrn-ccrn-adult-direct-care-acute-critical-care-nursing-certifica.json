@@ -1,0 +1,577 @@
+{
+  "exam_id": "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica",
+  "exam_name": "CCRN (Adult) Direct Care — Acute/Critical Care Nursing Certification Exam",
+  "exam_code": "CCRN",
+  "certifying_body": "AACN",
+  "certification_name": "CCRN (Adult)",
+  "version": "as of 2026-07-01",
+  "source_url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 180,
+  "exam_price_usd": 375.0,
+  "exam_price_notes": "Retrieved 2026-08-27 from AACN CCRN Exam Handbook – Direct Care, July 2026. Adult test plan applies to exams taken on and after 2026-11-12. Clinical Judgment 80% / Professional Caring & Ethical Practice 20%. Numeric cut score unpublished (modified Angoff). Nonmember computer-based exam USD 375; AACN",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.aacn.org/certification/preparation-tools-and-handbooks/handbooks-and-documents",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "I. Clinical Judgment — Cardiovascular",
+      "weight_percent": 13.0,
+      "weight_min": 13.0,
+      "weight_max": 13.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Acute coronary syndrome",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Aortic aneurysm, dissection, rupture (i.e. thoracic, abdominal)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Cardiac infection and inflammatory diseases",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Cardiac surgery",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Cardiac tamponade",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Cardiac trauma",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Cardiac/vascular catheterization",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.8",
+          "title": "Cardiogenic shock",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.9",
+          "title": "Cardiomyopathy",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.10",
+          "title": "Dysrhythmias",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.11",
+          "title": "Heart failure",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.12",
+          "title": "Hypertensive crisis",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.13",
+          "title": "Myocardial conduction system defects (e.g., prolonged QT interval, Wolff-Parkinson-White)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.14",
+          "title": "Structural heart defects (acquired and congenital, including valvular disease)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.15",
+          "title": "Vascular disorders (e.g., arterial/venous stenosis)",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.16",
+          "title": "Vascular interventions (e.g., stents, fem-pop bypass, carotid endarterectomy)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "I. Clinical Judgment — Respiratory",
+      "weight_percent": 12.0,
+      "weight_min": 12.0,
+      "weight_max": 12.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Acute pulmonary edema",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Acute pulmonary embolus",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Acute respiratory distress syndrome (ARDS)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Acute respiratory failure",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Acute respiratory infection (e.g., pneumonia)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Chronic conditions (e.g., COPD, asthma, bronchitis, emphysema)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Mechanical ventilation complications",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Pleural space abnormalities (e.g., pneumothorax, hemothorax, empyema, pleural effusions)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.9",
+          "title": "Pulmonary hemorrhage",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.10",
+          "title": "Pulmonary hypertension",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.11",
+          "title": "Status asthmaticus",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.12",
+          "title": "Thoracic and airway trauma (e.g., fractured rib, lung contusion, tracheal perforation)",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.13",
+          "title": "Thoracic surgery",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "I. Clinical Judgment — Endocrine, Hematology/Immunology, GI, Renal/GU, Integumentary",
+      "weight_percent": 21.0,
+      "weight_min": 21.0,
+      "weight_max": 21.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Endocrine (adrenal insufficiency; DI; diabetes mellitus types 1 and 2; DKA; hyperglycemia; HHS; SIADH; thyroid disorders)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Hematology and Immunology (anemia; autoimmune disorders; coagulopathies; myelosuppression; oncologic complications; transfusion reactions)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Gastrointestinal (abdominal compartment syndrome; acute abdominal trauma; acute GI hemorrhage; bowel infarction/obstruction/perforation; GI surgeries; hepatic failure/coma; liver disease; malnutrition and malabsorption; pancreatitis; peritonitis)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Renal and Genitourinary (AKI/ATN; CKD; infections)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Integumentary (cellulitis; IV infiltration; necrotizing fasciitis; pressure injury; skin failure; wounds)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "I. Clinical Judgment — Musculoskeletal, Neurological, Behavioral/Psychosocial",
+      "weight_percent": 18.0,
+      "weight_min": 18.0,
+      "weight_max": 18.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Musculoskeletal (compartment syndrome; fractures; muscular deconditioning; musculoskeletal trauma)",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Neurological (acute spinal cord injury; brain death; encephalopathy; stroke; hydrocephalus; neurogenic shock; neurologic infectious disease; neurological storming; neuromuscular disorders; neurosurgery; neurovascular abnormalities; seizure disorders; space-occupying lesions; spinal surgeries; trauma",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Behavioral and Psychosocial (agitation; anti-social behaviors/aggression/violence; delirium; medical non-adherence; mood disorders; PICS; PTSD; self-harm; substance use disorder; suicidal ideation and/or behaviors)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "I. Clinical Judgment — Multisystem",
+      "weight_percent": 16.0,
+      "weight_min": 16.0,
+      "weight_max": 16.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Acid-base imbalance",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Anoxic injury",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Burns",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Comorbidity in patients with transplant history",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Palliative care",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "End-of-life",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.7",
+          "title": "Failure to thrive",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.8",
+          "title": "Fluid and electrolyte imbalances",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.9",
+          "title": "Healthcare-associated infections",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.10",
+          "title": "Infectious diseases",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.11",
+          "title": "Life-threatening maternal/fetal complications",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.12",
+          "title": "Multi-organ dysfunction syndrome (MODS)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.13",
+          "title": "Obesity related complications",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.14",
+          "title": "Pain",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.15",
+          "title": "Rhabdomyolysis",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.16",
+          "title": "Sepsis",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.17",
+          "title": "Shock states (e.g., distributive, obstructive)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.18",
+          "title": "Sleep disruption (including sensory overload)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.19",
+          "title": "Submersion injuries (near-drowning)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.20",
+          "title": "Systemic inflammatory response syndrome (SIRS)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.21",
+          "title": "Thermoregulation",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.22",
+          "title": "Toxic ingestion/inhalations/exposure",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "II. Professional Caring & Ethical Practice",
+      "weight_percent": 20.0,
+      "weight_min": 20.0,
+      "weight_max": 20.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Advocacy/Moral Agency",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Caring Practices",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Clinical Inquiry",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Collaboration",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Facilitation of Learning",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.6",
+          "title": "Response to Diversity",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.7",
+          "title": "Systems Thinking",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+  "official_study_resources": [],
+  "aliases": [
+    "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica",
+    "ccrn adult",
+    "ccrn adult direct care acute critical care nursing certification exam",
+    "ccrn ccrn adult direct care acute critical care nursing certification exam"
+  ],
+  "practice_url": "https://quizforge.ai/?q=CCRN%20%28Adult%29%20Direct%20Care%20%E2%80%94%20Acute/Critical%20Care%20Nursing%20Certification%20Exam",
+  "editorial": {
+    "meta_description": "Prepare for the American Association of Critical-Care Nurses adult direct care certification exam covering clinical judgment and professional practice domains.",
+    "overview": "The American Association of Critical-Care Nurses administers the adult direct care certification examination specifically for registered nurses providing direct care to acutely and critically ill adult patients. The test evaluates clinical judgment across multiple complex body systems and professional caring and ethical practice during a total duration of 180 minutes.",
+    "who_should_take": "Registered nurses and advanced practice registered nurses providing direct care to acutely and critically ill adult patients who meet specific clinical practice hour requirements established by the American Association of Critical-Care Nurses.",
+    "preparation_strategy": "Carefully review the official American Association of Critical-Care Nurses exam handbook and test plan to understand all requirements before your scheduled test date. Utilize the available online practice examination resources for a realistic test-taking experience and consult the detailed exam bibliography for all reference materials necessary for success.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This domain covers cardiovascular clinical judgment topics including acute coronary syndromes, thoracic and abdominal aortic aneurysms, dissections, ruptures, and various cardiac infection and inflammatory diseases managed by nurses providing care to adult patients.",
+        "study_focus": [
+          "Acute coronary syndrome",
+          "Aortic aneurysm, dissection, rupture",
+          "Cardiac infection and inflammatory diseases"
+        ],
+        "source_ids": [
+          "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain focuses on critical respiratory clinical judgment such as acute pulmonary edema, acute pulmonary embolus, and acute respiratory distress syndrome to ensure proper evaluation of patient respiratory status in acute care settings.",
+        "study_focus": [
+          "Acute pulmonary edema",
+          "Acute pulmonary embolus",
+          "Acute respiratory distress syndrome (ARDS)"
+        ],
+        "source_ids": [
+          "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain addresses complex endocrine, hematology, immunology, gastrointestinal, renal, and integumentary clinical judgment concepts required for managing severely ill adult patients in high-acuity healthcare environments based on the official test plan.",
+        "study_focus": [
+          "Endocrine disorders and diabetes",
+          "Hematology and transfusion reactions",
+          "Gastrointestinal surgeries and hepatic failure"
+        ],
+        "source_ids": [
+          "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain evaluates musculoskeletal, neurological, and behavioral or psychosocial clinical judgment, encompassing critical conditions like compartment syndrome, acute spinal cord injuries, stroke, delirium, and substance use disorders for adult patient populations.",
+        "study_focus": [
+          "Musculoskeletal trauma and compartment syndrome",
+          "Neurological injuries and stroke",
+          "Behavioral health and substance use disorder"
+        ],
+        "source_ids": [
+          "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "This domain covers vital multisystem clinical judgment including acid-base imbalances, anoxic brain injuries, and severe burn management strategies necessary for critical care nursing practice according to the published guidelines and test specifications.",
+        "study_focus": [
+          "Acid-base imbalance",
+          "Anoxic injury",
+          "Burns"
+        ],
+        "source_ids": [
+          "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6.0",
+        "summary": "This domain emphasizes professional caring and ethical practice, covering patient advocacy, moral agency, caring practices, and clinical inquiry principles for critical care nurses who manage complex adult patients throughout their hospital stays.",
+        "study_focus": [
+          "Advocacy/Moral Agency",
+          "Caring Practices",
+          "Clinical Inquiry"
+        ],
+        "source_ids": [
+          "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Always bring official photo identification that matches your legal name on the application. For computer-based testing, your official results will appear directly on-screen immediately upon completion.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of multiple-choice items, of which a portion are scored and others are used to gather statistical data on item performance for future exams."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing point is determined using a criterion-referenced standard setting process known as the modified Angoff, measured against a predetermined standard rather than a fixed percentage."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The computer-based certification exam has a total duration of 180 minutes, providing candidates with adequate time to complete all required multiple-choice questions during the test session."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The nonmember computer-based exam fee is 375 dollars, while American Association of Critical-Care Nurses members pay a reduced rate for their certification application and testing fees."
+      }
+    ],
+    "methodology": {
+      "summary": "This comprehensive informational page was meticulously built and verified using official American Association of Critical-Care Nurses certification documentation, test plans, and detailed examination handbooks.",
+      "source_ids": [
+        "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide",
+      "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide-2",
+      "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide-3"
+    ],
+    "skills_summary": [
+      "Clinical Judgment",
+      "Professional Caring and Ethical Practice",
+      "Multisystem Care Management",
+      "Patient Advocacy and Moral Agency"
+    ]
+  },
+  "sources": [
+    {
+      "id": "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide",
+      "url": "https://www.aacn.org/certification/preparation-tools-and-handbooks/~/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "title": "AACN exam guide",
+      "publisher": "AACN",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:ba76f0f7b2537f8dc02f5fa6c7f720aca0e757a6719c5914a24a50b3dca26a55"
+    },
+    {
+      "id": "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide-2",
+      "url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "title": "AACN exam guide",
+      "publisher": "AACN",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:ba76f0f7b2537f8dc02f5fa6c7f720aca0e757a6719c5914a24a50b3dca26a55"
+    },
+    {
+      "id": "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica-exam_guide-3",
+      "url": "https://www.aacn.org/certification/get-certified/ccrn-adult",
+      "title": "Get Your CCRN Certification - AACN",
+      "publisher": "AACN",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:c18df472a7a0f287d24b7edb8482298830008379de1bd7aaddcbc7e12901d1e1"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:35+00:00"
+  }
+}

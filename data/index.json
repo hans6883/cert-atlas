@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-12",
-  "total_exams": 1684,
+  "generated": "2026-09-13",
+  "total_exams": 1723,
   "total_vendors": 224,
-  "exams_with_domain_breakdowns": 1674,
+  "exams_with_domain_breakdowns": 1713,
   "exams": [
     {
       "exam_id": "aacn-accns-ag",
@@ -33,6 +33,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica",
+      "exam_name": "CCRN (Adult) Direct Care — Acute/Critical Care Nursing Certification Exam",
+      "exam_code": "CCRN",
+      "certifying_body": "AACN",
+      "vendor_slug": "aacn",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": 180,
+      "source_url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "practice_url": "https://quizforge.ai/?q=CCRN%20%28Adult%29%20Direct%20Care%20%E2%80%94%20Acute/Critical%20Care%20Nursing%20Certification%20Exam",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:35+00:00"
     },
     {
       "exam_id": "aacn-ccrn-adult",
@@ -97,7 +112,7 @@
       "retired_on": "2023-11-14",
       "replacement_exam_code": "CCRN",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf"
+      "replacement_url": "/aacn/aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica"
     },
     {
       "exam_id": "aacn-cfrn",
@@ -682,6 +697,21 @@
       "replacement_url": null
     },
     {
+      "exam_id": "acca-s1",
+      "exam_name": "Business and Sustainability Reporting (S1)",
+      "exam_code": "S1",
+      "certifying_body": "ACCA",
+      "vendor_slug": "acca",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 195,
+      "source_url": "https://www.accaglobal.com/content/dam/accarelaunch/ila/exam-artefacts/strategic-professional/s1/syllabus/S1%20Business%20and%20Sustainability%20Reporting%20(INT)%20%20September%202027%20-%20June%202028%20Syllabus%20and%20Study%20Guide.pdf",
+      "practice_url": "https://quizforge.ai/tests/business-and-sustainability-reporting-s1-practice-test-3eos1h",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:35+00:00"
+    },
+    {
       "exam_id": "acca-baa",
       "exam_name": "Business and Technology (BT/F1)",
       "exam_code": "BT/F1",
@@ -710,6 +740,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-02T00:53:28+00:00"
+    },
+    {
+      "exam_id": "acca-e4",
+      "exam_name": "Finance and Investment (E4)",
+      "exam_code": "E4",
+      "certifying_body": "ACCA",
+      "vendor_slug": "acca",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": 180,
+      "source_url": "https://www.accaglobal.com/content/dam/accarelaunch/ila/exam-artefacts/expertise/e4/E4%20Finance%20and%20Investment%20September%202027%20-%20June%202028%20Syllabus%20and%20Study%20Guide.pdf",
+      "practice_url": "https://quizforge.ai/tests/finance-and-investment-e4-practice-test-3emc8p",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:35+00:00"
     },
     {
       "exam_id": "acca-fa",
@@ -744,7 +789,7 @@
       "retires_on": "2027-06-30",
       "replacement_exam_code": "E4",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.accaglobal.com/content/dam/accarelaunch/ila/exam-artefacts/expertise/e4/E4%20Finance%20and%20Investment%20September%202027%20-%20June%202028%20Syllabus%20and%20Study%20Guide.pdf"
+      "replacement_url": "/acca/acca-e4"
     },
     {
       "exam_id": "acca-fr",
@@ -834,7 +879,7 @@
       "retires_on": "2027-06-30",
       "replacement_exam_code": "S1",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.accaglobal.com/content/dam/accarelaunch/ila/exam-artefacts/strategic-professional/s1/syllabus/S1%20Business%20and%20Sustainability%20Reporting%20(INT)%20%20September%202027%20-%20June%202028%20Syllabus%20and%20Study%20Guide.pdf"
+      "replacement_url": "/acca/acca-s1"
     },
     {
       "exam_id": "acca-tx",
@@ -1592,7 +1637,7 @@
       "retired_on": "2024-02-01",
       "replacement_exam_code": "CPIM",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://www.ascm.org/learning-development/certifications-credentials/exam-details/"
+      "replacement_url": "/apics-ascm/apics-cpim-certified-in-planning-and-inventory-management-cpim-version"
     },
     {
       "exam_id": "apics-cscp",
@@ -1623,6 +1668,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "apics-cpim-certified-in-planning-and-inventory-management-cpim-version",
+      "exam_name": "Certified in Planning and Inventory Management (CPIM) Version 9.0 Examination",
+      "exam_code": "CPIM",
+      "certifying_body": "APICS (ASCM)",
+      "vendor_slug": "apics-ascm",
+      "domains": 9,
+      "total_questions": null,
+      "duration_minutes": 210,
+      "source_url": "https://www.ascm.org/learning-development/certifications-credentials/exam-details/",
+      "practice_url": "https://quizforge.ai/?q=Certified%20in%20Planning%20and%20Inventory%20Management%20%28CPIM%29%20Version%209.0%20Examination",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:35+00:00"
     },
     {
       "exam_id": "apics-ctsc",
@@ -2505,6 +2565,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "aws-soa-c03-aws-certified-cloudops-engineer-associate-soa-c03",
+      "exam_name": "AWS Certified CloudOps Engineer - Associate (SOA-C03)",
+      "exam_code": "SOA-C03",
+      "certifying_body": "AWS",
+      "vendor_slug": "aws",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 130,
+      "source_url": "https://docs.aws.amazon.com/aws-certification/latest/sysops-administrator-associate-03/sysops-administrator-associate-03.html",
+      "practice_url": "https://quizforge.ai/?q=AWS%20Certified%20CloudOps%20Engineer%20-%20Associate%20%28SOA-C03%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
+    },
+    {
       "exam_id": "aws-data-analytics-specialty-das-c01",
       "exam_name": "AWS Certified Data Analytics – Specialty",
       "exam_code": "DAS-C01",
@@ -2644,6 +2719,21 @@
       "retired_on": "2024-04-30"
     },
     {
+      "exam_id": "aws-scs-c03-aws-certified-security-specialty-scs-c03",
+      "exam_name": "AWS Certified Security - Specialty (SCS-C03)",
+      "exam_code": "SCS-C03",
+      "certifying_body": "AWS",
+      "vendor_slug": "aws",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": 170,
+      "source_url": "https://docs.aws.amazon.com/aws-certification/latest/security-specialty-03/security-specialty-03.html",
+      "practice_url": "https://quizforge.ai/?q=AWS%20Certified%20Security%20-%20Specialty%20%28SCS-C03%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
+    },
+    {
       "exam_id": "aws-security-specialty-scs-c02",
       "exam_name": "AWS Certified Security – Specialty",
       "exam_code": "SCS-C02",
@@ -2661,7 +2751,7 @@
       "retired_on": "2025-12-01",
       "replacement_exam_code": "SCS-C03",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://docs.aws.amazon.com/aws-certification/latest/security-specialty-03/security-specialty-03.html"
+      "replacement_url": "/aws/aws-scs-c03-aws-certified-security-specialty-scs-c03"
     },
     {
       "exam_id": "aws-solutions-architect-associate-saa-c03",
@@ -2711,7 +2801,7 @@
       "retired_on": "2025-09-29",
       "replacement_exam_code": "SOA-C03",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://docs.aws.amazon.com/aws-certification/latest/sysops-administrator-associate-03/sysops-administrator-associate-03.html"
+      "replacement_url": "/aws/aws-soa-c03-aws-certified-cloudops-engineer-associate-soa-c03"
     },
     {
       "exam_id": "aws-cwi-recertification",
@@ -5737,6 +5827,21 @@
       "retired_on": ""
     },
     {
+      "exam_id": "celonis-data-engineer",
+      "exam_name": "Celonis Data Engineer Certification Exam",
+      "exam_code": "Celonis Certified Data Engineer",
+      "certifying_body": "Celonis",
+      "vendor_slug": "celonis",
+      "domains": 7,
+      "total_questions": 60,
+      "duration_minutes": 100,
+      "source_url": "https://academy.celonis.com/collections/data-engineer-certification-exam",
+      "practice_url": "https://quizforge.ai/?q=Celonis%20Data%20Engineer%20Certification%20Exam",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
+    },
+    {
       "exam_id": "certnexus-caip-aip-210",
       "exam_name": "Certified Artificial Intelligence Practitioner (CAIP)",
       "exam_code": "AIP-210",
@@ -6848,7 +6953,22 @@
       "retires_on": "2026-12-22",
       "replacement_exam_code": "CS0-004",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.comptia.org/en/certifications/cybersecurity-analyst/v4/"
+      "replacement_url": "/comptia/comptia-cs0-004-comptia-cysa-v4"
+    },
+    {
+      "exam_id": "comptia-cs0-004-comptia-cysa-v4",
+      "exam_name": "CompTIA CySA+ (V4)",
+      "exam_code": "CS0-004",
+      "certifying_body": "CompTIA",
+      "vendor_slug": "comptia",
+      "domains": 4,
+      "total_questions": null,
+      "duration_minutes": 165,
+      "source_url": "https://www.comptia.org/en/certifications/cybersecurity-analyst/v4/",
+      "practice_url": "https://quizforge.ai/?q=CompTIA%20CySA%2B%20%28V4%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
     },
     {
       "exam_id": "comptia-data-plus-da0-001",
@@ -6868,7 +6988,22 @@
       "retired_on": "2026-07-16",
       "replacement_exam_code": "DA0-002",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.comptia.org/en/certifications/data/v2/"
+      "replacement_url": "/comptia/comptia-da0-002-comptia-data-v2"
+    },
+    {
+      "exam_id": "comptia-da0-002-comptia-data-v2",
+      "exam_name": "CompTIA Data+ (V2)",
+      "exam_code": "DA0-002",
+      "certifying_body": "CompTIA",
+      "vendor_slug": "comptia",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 90,
+      "source_url": "https://www.comptia.org/en/certifications/data/v2/",
+      "practice_url": "https://quizforge.ai/?q=CompTIA%20Data%2B%20%28V2%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
     },
     {
       "exam_id": "comptia-datasys-plus-ds0-001",
@@ -6903,7 +7038,7 @@
       "retired_on": null,
       "replacement_exam_code": "FC0-U71",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.comptia.org/en/certifications/tech/"
+      "replacement_url": "/comptia/comptia-fc0-u71-comptia-tech-v6"
     },
     {
       "exam_id": "comptia-linux-plus-xk0-005",
@@ -6923,7 +7058,22 @@
       "retired_on": "2026-01-13",
       "replacement_exam_code": "XK0-006",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.comptia.org/en/certifications/linux/"
+      "replacement_url": "/comptia/comptia-xk0-006-comptia-linux-v8"
+    },
+    {
+      "exam_id": "comptia-xk0-006-comptia-linux-v8",
+      "exam_name": "CompTIA Linux+ (V8)",
+      "exam_code": "XK0-006",
+      "certifying_body": "CompTIA",
+      "vendor_slug": "comptia",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 90,
+      "source_url": "https://www.comptia.org/en/certifications/linux/",
+      "practice_url": "https://quizforge.ai/?q=CompTIA%20Linux%2B%20%28V8%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
     },
     {
       "exam_id": "comptia-network-plus-n10-009",
@@ -6999,6 +7149,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "comptia-fc0-u71-comptia-tech-v6",
+      "exam_name": "CompTIA Tech+ (V6)",
+      "exam_code": "FC0-U71",
+      "certifying_body": "CompTIA",
+      "vendor_slug": "comptia",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://www.comptia.org/en/certifications/tech/",
+      "practice_url": "https://quizforge.ai/tests/comptia-tech-plus",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
     },
     {
       "exam_id": "confluent-ccsk",
@@ -9345,6 +9510,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "elastic-ece-9-3-elastic-certified-engineer-9-3",
+      "exam_name": "Elastic Certified Engineer (9.3)",
+      "exam_code": "Elastic Certified Engineer 9.3",
+      "certifying_body": "Elastic",
+      "vendor_slug": "elastic",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.elastic.co/training/elastic-certified-engineer-exam",
+      "practice_url": "https://quizforge.ai/tests/elastic-certified-engineer-93-practice-test-3f3eu2",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
+    },
+    {
       "exam_id": "elastic-ece",
       "exam_name": "Elastic Certified Engineer (ECE)",
       "exam_code": "ECE",
@@ -9572,6 +9752,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "f5-networks-f5cab1-big-ip-administration-install-initial-configuration",
+      "exam_name": "BIG-IP Administration Install, Initial Configuration, and Upgrade (F5CAB1)",
+      "exam_code": "F5CAB1",
+      "certifying_body": "F5 Networks",
+      "vendor_slug": "f5-networks",
+      "domains": 1,
+      "total_questions": null,
+      "duration_minutes": 30,
+      "source_url": "https://support.education.f5.com/hc/en-us/articles/35052524386075-BIG-IP-Administration-Install-Initial-Configuration-and-Upgrade-F5CAB1-exam",
+      "practice_url": "https://quizforge.ai/tests/big-ip-administration-install-initial-configuration-and-upgrade-f5cab1-practice-test-3dz65f",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
+    },
+    {
       "exam_id": "f5-201",
       "exam_name": "F5 Certified Administrator — BIG-IP (201)",
       "exam_code": "201",
@@ -9589,7 +9784,7 @@
       "retires_on": "2027-04-30",
       "replacement_exam_code": "F5CAB1",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://support.education.f5.com/hc/en-us/articles/35052524386075-BIG-IP-Administration-Install-Initial-Configuration-and-Upgrade-F5CAB1-exam"
+      "replacement_url": "/f5-networks/f5-networks-f5cab1-big-ip-administration-install-initial-configuration"
     },
     {
       "exam_id": "f5-101",
@@ -9742,6 +9937,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "faa-pilot-atm-airline-transport-pilot-multiengine-airplane-atm-knowled",
+      "exam_name": "Airline Transport Pilot Multiengine Airplane (ATM) Knowledge Test",
+      "exam_code": "ATM",
+      "certifying_body": "FAA Pilot Certification",
+      "vendor_slug": "faa-pilot-certification",
+      "domains": 8,
+      "total_questions": null,
+      "duration_minutes": 210,
+      "source_url": "https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf",
+      "practice_url": "https://quizforge.ai/?q=Airline%20Transport%20Pilot%20Multiengine%20Airplane%20%28ATM%29%20Knowledge%20Test",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
+    },
+    {
       "exam_id": "faa-atp",
       "exam_name": "FAA Airline Transport Pilot Knowledge Test (ATP)",
       "exam_code": "ATP",
@@ -9759,7 +9969,7 @@
       "retired_on": null,
       "replacement_exam_code": "ATM",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf"
+      "replacement_url": "/faa-pilot-certification/faa-pilot-atm-airline-transport-pilot-multiengine-airplane-atm-knowled"
     },
     {
       "exam_id": "faa-commercial",
@@ -10375,6 +10585,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr",
+      "exam_name": "NSE 2 - Introduction to the Next Generation Firewall",
+      "exam_code": "NSE 2 – Introduction to the Next Generation Firewall",
+      "certifying_body": "Fortinet",
+      "vendor_slug": "fortinet",
+      "domains": 9,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://training.fortinet.com/local/staticpage/view.php?page=library_introduction-to-next-generation-firewall",
+      "practice_url": "https://quizforge.ai/?q=NSE%202%20-%20Introduction%20to%20the%20Next%20Generation%20Firewall",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
     },
     {
       "exam_id": "fortinet-nse2",
@@ -12097,6 +12322,21 @@
       "retired_on": ""
     },
     {
+      "exam_id": "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003",
+      "exam_name": "HashiCorp Certified: Vault Associate (003)",
+      "exam_code": "Vault Associate (003)",
+      "certifying_body": "HashiCorp",
+      "vendor_slug": "hashicorp",
+      "domains": 9,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://developer.hashicorp.com/vault/tutorials/associate-cert-003/associate-review-003",
+      "practice_url": "https://quizforge.ai/?q=HashiCorp%20Certified%3A%20Vault%20Associate%20%28003%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
+    },
+    {
       "exam_id": "hashicorp-vault-operations-professional-602",
       "exam_name": "HashiCorp Certified: Vault Operations Professional",
       "exam_code": "Vault Professional 602",
@@ -13603,7 +13843,7 @@
       "retired_on": "2021-06-30",
       "replacement_exam_code": "CIA",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://www.theiia.org/en/certifications/cia/exam-prep-resources/exam-syllabus/"
+      "replacement_url": "/iia/iia-cia-certified-internal-auditor-cia-examination"
     },
     {
       "exam_id": "cgap",
@@ -13623,7 +13863,7 @@
       "retired_on": "2021-06-30",
       "replacement_exam_code": "CIA",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://www.theiia.org/en/certifications/cia/exam-prep-resources/exam-syllabus/"
+      "replacement_url": "/iia/iia-cia-certified-internal-auditor-cia-examination"
     },
     {
       "exam_id": "cia-part-1",
@@ -13684,6 +13924,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "iia-cia-certified-internal-auditor-cia-examination",
+      "exam_name": "Certified Internal Auditor® (CIA®) Examination",
+      "exam_code": "CIA",
+      "certifying_body": "IIA",
+      "vendor_slug": "iia",
+      "domains": 11,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.theiia.org/en/certifications/cia/exam-prep-resources/exam-syllabus/",
+      "practice_url": "https://quizforge.ai/?q=Certified%20Internal%20Auditor%C2%AE%20%28CIA%C2%AE%29%20Examination",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:36+00:00"
     },
     {
       "exam_id": "iiba-aaoc",
@@ -15578,6 +15833,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "microsoft-ab-210-dynamics-365-customer-experience",
+      "exam_name": "Accelerating Sales Pipelines with AI in Dynamics 365",
+      "exam_code": "AB-210",
+      "certifying_body": "Microsoft",
+      "vendor_slug": "microsoft",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-210",
+      "practice_url": "https://quizforge.ai/tests/accelerating-sales-pipelines-with-ai-in-dynamics-365-ab-210-practice-test-3dc026",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
+    },
+    {
       "exam_id": "microsoft-sc-400-information-protection",
       "exam_name": "Administering Information Protection and Compliance in Microsoft 365",
       "exam_code": "SC-400",
@@ -15640,6 +15910,21 @@
       "verified_at": "2026-08-26T06:30:00Z",
       "lifecycle_status": "scheduled_retirement",
       "retires_on": "2026-09-30"
+    },
+    {
+      "exam_id": "microsoft-ab-100-agentic-ai-business-solutions-architect",
+      "exam_name": "Agentic AI Business Solutions Architect",
+      "exam_code": "AB-100",
+      "certifying_body": "Microsoft",
+      "vendor_slug": "microsoft",
+      "domains": 3,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100",
+      "practice_url": "https://quizforge.ai/tests/agentic-ai-business-solutions-architect-ab-100-practice-test-3d9k9e",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
     },
     {
       "exam_id": "microsoft-ms-721-collaboration-communications",
@@ -15783,7 +16068,7 @@
       "retired_on": "2026-06-01",
       "replacement_exam_code": "AI-300",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300"
+      "replacement_url": "/microsoft/microsoft-ai-300-operationalizing-machine-learning-and-generative"
     },
     {
       "exam_id": "microsoft-ai-102-azure-ai-engineer",
@@ -15803,7 +16088,37 @@
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AI-103",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103"
+      "replacement_url": "/microsoft/microsoft-ai-103-azure-ai-apps-agents-developer"
+    },
+    {
+      "exam_id": "microsoft-ai-103-azure-ai-apps-agents-developer",
+      "exam_name": "Developing AI Apps and Agents on Azure",
+      "exam_code": "AI-103",
+      "certifying_body": "Microsoft",
+      "vendor_slug": "microsoft",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+      "practice_url": "https://quizforge.ai/tests/developing-ai-apps-and-agents-on-azure-ai-103-practice-test-3d4onv",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
+    },
+    {
+      "exam_id": "microsoft-ai-200-developing-ai-cloud-solutions-on-azure",
+      "exam_name": "Developing AI Cloud Solutions on Azure",
+      "exam_code": "AI-200",
+      "certifying_body": "Microsoft",
+      "vendor_slug": "microsoft",
+      "domains": 4,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
+      "practice_url": "https://quizforge.ai/tests/developing-ai-cloud-solutions-on-azure-ai-200-practice-test-3d74gn",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
     },
     {
       "exam_id": "microsoft-az-204-azure-developer",
@@ -15823,7 +16138,7 @@
       "retired_on": "2026-07-31",
       "replacement_exam_code": "AI-200",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200"
+      "replacement_url": "/microsoft/microsoft-ai-200-developing-ai-cloud-solutions-on-azure"
     },
     {
       "exam_id": "microsoft-dp-600-microsoft-fabric",
@@ -15922,7 +16237,22 @@
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AI-901",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901"
+      "replacement_url": "/microsoft/microsoft-ai-901-microsoft-azure-ai-fundamentals"
+    },
+    {
+      "exam_id": "microsoft-ai-901-microsoft-azure-ai-fundamentals",
+      "exam_name": "Microsoft Azure AI Fundamentals",
+      "exam_code": "AI-901",
+      "certifying_body": "Microsoft",
+      "vendor_slug": "microsoft",
+      "domains": 2,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901",
+      "practice_url": "https://quizforge.ai/tests/microsoft-azure-ai-fundamentals-ai-901-practice-test-3d3grh",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
     },
     {
       "exam_id": "microsoft-az-104-azure-administrator",
@@ -16051,7 +16381,7 @@
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-250",
       "replacement_relationship": "related_successor",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250"
+      "replacement_url": "/microsoft/microsoft-ab-250-transforming-contact-center-experiences-with-ai"
     },
     {
       "exam_id": "microsoft-mb-310-dynamics-365-finance",
@@ -16184,7 +16514,7 @@
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-100",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100"
+      "replacement_url": "/microsoft/microsoft-ab-100-agentic-ai-business-solutions-architect"
     },
     {
       "exam_id": "microsoft-sc-300-identity-access",
@@ -16219,7 +16549,7 @@
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-100",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100"
+      "replacement_url": "/microsoft/microsoft-ab-100-agentic-ai-business-solutions-architect"
     },
     {
       "exam_id": "microsoft-pl-300-power-bi-analyst",
@@ -16284,7 +16614,7 @@
       "retired_on": "2026-06-30",
       "replacement_exam_code": "AB-100",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100"
+      "replacement_url": "/microsoft/microsoft-ab-100-agentic-ai-business-solutions-architect"
     },
     {
       "exam_id": "microsoft-sc-200-security-operations",
@@ -16315,6 +16645,36 @@
       "enriched": false,
       "content_modified_at": "2026-09-04",
       "verified_at": null
+    },
+    {
+      "exam_id": "microsoft-ai-300-operationalizing-machine-learning-and-generative",
+      "exam_name": "Operationalizing Machine Learning and Generative AI Solutions",
+      "exam_code": "AI-300",
+      "certifying_body": "Microsoft",
+      "vendor_slug": "microsoft",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
+      "practice_url": "https://quizforge.ai/tests/operationalizing-machine-learning-and-generative-ai-solutions-ai-300-practice-test-3d5wk9",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
+    },
+    {
+      "exam_id": "microsoft-ab-250-transforming-contact-center-experiences-with-ai",
+      "exam_name": "Transforming Contact Center Experiences with AI in Dynamics 365",
+      "exam_code": "AB-250",
+      "certifying_body": "Microsoft",
+      "vendor_slug": "microsoft",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250",
+      "practice_url": "https://quizforge.ai/tests/transforming-contact-center-experiences-with-ai-in-dynamics-365-ab-250-practice-test-3d8cd0",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
     },
     {
       "exam_id": "mat-education-norms",
@@ -17258,6 +17618,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "nbrc-respiratory-therapy-examination-respiratory-therapy-examination",
+      "exam_name": "Respiratory Therapy Examination",
+      "exam_code": "Respiratory Therapy Examination",
+      "certifying_body": "NBRC",
+      "vendor_slug": "nbrc",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 240,
+      "source_url": "https://www.nbrc.org/wp-content/uploads/2025/10/NBRC-RT-Detailed-Content-Outline-January-2027.pdf",
+      "practice_url": "https://quizforge.ai/tests/respiratory-therapy-examination-practice-test-3ebd59",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
     },
     {
       "exam_id": "ncarb-are-ce",
@@ -18812,6 +19187,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "nmls-national-test-with-ust-safe-mlo-national-test-with-uniform-state-",
+      "exam_name": "SAFE MLO National Test with Uniform State Test (UST)",
+      "exam_code": "National Test with UST",
+      "certifying_body": "NMLS",
+      "vendor_slug": "nmls",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 190,
+      "source_url": "https://mortgage.nationwidelicensingsystem.org/knowledge/products/nmls/pubs/testingHbk/education/mlo_testing/mlo_test_faq/mlo_testing_hbk_testOutline.html",
+      "practice_url": "https://quizforge.ai/?q=SAFE%20MLO%20National%20Test%20with%20Uniform%20State%20Test%20%28UST%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
+    },
+    {
       "exam_id": "safe-mlo",
       "exam_name": "SAFE MLO Test — National Component (UST)",
       "exam_code": "UST",
@@ -19216,7 +19606,7 @@
       "retired_on": "",
       "replacement_exam_code": "NS0-594",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/support-engineer/"
+      "replacement_url": "/netapp/netapp-ns0-594-netapp-certified-support-engineer-ontap-specialist-exam"
     },
     {
       "exam_id": "netapp-ncp-ontap",
@@ -19271,7 +19661,7 @@
       "retired_on": "",
       "replacement_exam_code": "NS0-005",
       "replacement_relationship": "related_successor",
-      "replacement_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/certified-technology-solutions/"
+      "replacement_url": "/netapp/netapp-ns0-005-netapp-certified-technology-solutions-professional-exam"
     },
     {
       "exam_id": "netapp-ncse",
@@ -19287,6 +19677,36 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "netapp-ns0-594-netapp-certified-support-engineer-ontap-specialist-exam",
+      "exam_name": "NetApp Certified Support Engineer ONTAP Specialist Exam (NS0-594)",
+      "exam_code": "NS0-594",
+      "certifying_body": "NetApp",
+      "vendor_slug": "netapp",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/support-engineer/",
+      "practice_url": "https://quizforge.ai/?q=NetApp%20Certified%20Support%20Engineer%20ONTAP%20Specialist%20Exam%20%28NS0-594%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
+    },
+    {
+      "exam_id": "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam",
+      "exam_name": "NetApp Certified Technology Solutions Professional Exam (NS0-005)",
+      "exam_code": "NS0-005",
+      "certifying_body": "NetApp",
+      "vendor_slug": "netapp",
+      "domains": 3,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/certified-technology-solutions/",
+      "practice_url": "https://quizforge.ai/?q=NetApp%20Certified%20Technology%20Solutions%20Professional%20Exam%20%28NS0-005%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
     },
     {
       "exam_id": "new-relic-apm",
@@ -19336,7 +19756,7 @@
       "retired_on": "2024-12-11",
       "replacement_exam_code": "NVF",
       "replacement_relationship": "related_successor",
-      "replacement_url": "https://learn.newrelic.com/page/new-relic-verified-foundation-nvf"
+      "replacement_url": "/new-relic/new-relic-nvf-new-relic-verified-foundation-nvf-exam"
     },
     {
       "exam_id": "new-relic-performance-engineer",
@@ -19352,6 +19772,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "new-relic-nvf-new-relic-verified-foundation-nvf-exam",
+      "exam_name": "New Relic Verified Foundation (NVF) Exam",
+      "exam_code": "NVF",
+      "certifying_body": "New Relic",
+      "vendor_slug": "new-relic",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 45,
+      "source_url": "https://learn.newrelic.com/page/new-relic-verified-foundation-nvf",
+      "practice_url": "https://quizforge.ai/tests/new-relic-verified-foundation-nvf-practice-exam-3e0e1t",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:37+00:00"
     },
     {
       "exam_id": "nutanix-nca",
@@ -20051,6 +20486,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "outsystems-mobile-developer-specialist-o11-and-odc-mobile-developer-sp",
+      "exam_name": "Mobile Developer Specialist (O11 and ODC)",
+      "exam_code": "Mobile Developer Specialist (O11 and ODC)",
+      "certifying_body": "OutSystems",
+      "vendor_slug": "outsystems",
+      "domains": 1,
+      "total_questions": null,
+      "duration_minutes": 60,
+      "source_url": "https://www.outsystems.com/training/classroom-training/mobile-for-outsystems-developers/",
+      "practice_url": "https://quizforge.ai/?q=Mobile%20Developer%20Specialist%20%28O11%20and%20ODC%29",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
+    },
+    {
       "exam_id": "outsystems-professional-architecture-specialist",
       "exam_name": "OutSystems Architecture Specialist",
       "exam_code": "Arch-Specialist",
@@ -20096,6 +20546,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "outsystems-expert-developer-outsystems-expert-developer-certification",
+      "exam_name": "OutSystems Expert Developer Certification",
+      "exam_code": "Expert Developer",
+      "certifying_body": "OutSystems",
+      "vendor_slug": "outsystems",
+      "domains": 1,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.outsystems.com/forums/discussion/101830/introducing-the-expert-developer-certification/",
+      "practice_url": "https://quizforge.ai/tests/outsystems-expert-developer-certification-practice-test-3e7pg4",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
     },
     {
       "exam_id": "outsystems-professional-reactive",
@@ -21143,6 +21608,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "sap-p-sapea-sap-certified-sap-enterprise-architect",
+      "exam_name": "SAP Certified - SAP Enterprise Architect",
+      "exam_code": "P_SAPEA",
+      "certifying_body": "SAP",
+      "vendor_slug": "sap",
+      "domains": 4,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://url.sap/f5oplb",
+      "practice_url": "https://quizforge.ai/?q=SAP%20Certified%20-%20SAP%20Enterprise%20Architect",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
+    },
+    {
       "exam_id": "sap-c-ts410-2022",
       "exam_name": "SAP Certified Application Associate — Business Process Integration with SAP S/4HANA 2022",
       "exam_code": "C_TS410_2022",
@@ -21427,7 +21907,7 @@
       "retired_on": "",
       "replacement_exam_code": "P_SAPEA",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://url.sap/f5oplb"
+      "replacement_url": "/sap/sap-p-sapea-sap-certified-sap-enterprise-architect"
     },
     {
       "exam_id": "sap-e-s4hcon2023",
@@ -24363,6 +24843,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "snowflake-dea-c02-snowpro-advanced-data-engineer",
+      "exam_name": "SnowPro Advanced: Data Engineer",
+      "exam_code": "DEA-C02",
+      "certifying_body": "Snowflake",
+      "vendor_slug": "snowflake",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-dataengineer-C02/",
+      "practice_url": "https://quizforge.ai/tests/snowpro-advanced-data-engineer-dea-c02-practice-test-3enk53",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
+    },
+    {
       "exam_id": "snowflake-snowpro-advanced-data-engineer-dea-c01",
       "exam_name": "SnowPro Advanced: Data Engineer (DEA-C01)",
       "exam_code": "DEA-C01",
@@ -24380,7 +24875,22 @@
       "retired_on": null,
       "replacement_exam_code": "DEA-C02",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-dataengineer-C02/"
+      "replacement_url": "/snowflake/snowflake-dea-c02-snowpro-advanced-data-engineer"
+    },
+    {
+      "exam_id": "snowflake-dsa-c03-snowpro-advanced-data-scientist",
+      "exam_name": "SnowPro Advanced: Data Scientist",
+      "exam_code": "DSA-C03",
+      "certifying_body": "Snowflake",
+      "vendor_slug": "snowflake",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-datascientistC03/",
+      "practice_url": "https://quizforge.ai/tests/snowpro-advanced-data-scientist-dsa-c03-practice-test-3epzxu",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
     },
     {
       "exam_id": "snowflake-snowpro-advanced-data-scientist-dsa-c01",
@@ -24400,7 +24910,22 @@
       "retired_on": null,
       "replacement_exam_code": "DSA-C03",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-datascientistC03/"
+      "replacement_url": "/snowflake/snowflake-dsa-c03-snowpro-advanced-data-scientist"
+    },
+    {
+      "exam_id": "snowflake-cof-c03-snowpro-core-certification",
+      "exam_name": "SnowPro Core Certification",
+      "exam_code": "COF-C03",
+      "certifying_body": "Snowflake",
+      "vendor_slug": "snowflake",
+      "domains": 7,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://learn.snowflake.com/en/certifications/snowpro-core-c03/",
+      "practice_url": "https://quizforge.ai/tests/snowpro-core-certification-cof-c03-practice-test-3el4cb",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
     },
     {
       "exam_id": "snowflake-snowpro-core-cof-c02",
@@ -24420,7 +24945,52 @@
       "retired_on": "2026-05-14",
       "replacement_exam_code": "COF-C03",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://learn.snowflake.com/en/certifications/snowpro-core-c03/"
+      "replacement_url": "/snowflake/snowflake-cof-c03-snowpro-core-certification"
+    },
+    {
+      "exam_id": "soa-altam-advanced-long-term-actuarial-mathematics-altam-exam",
+      "exam_name": "Advanced Long-Term Actuarial Mathematics (ALTAM) Exam",
+      "exam_code": "ALTAM",
+      "certifying_body": "Society of Actuaries",
+      "vendor_slug": "society-of-actuaries",
+      "domains": 7,
+      "total_questions": null,
+      "duration_minutes": 180,
+      "source_url": "https://www.soa.org/globalassets/assets/files/edu/2026/fall/syllabi/2026-10-altam-syllabus.pdf",
+      "practice_url": "https://quizforge.ai/?q=Advanced%20Long-Term%20Actuarial%20Mathematics%20%28ALTAM%29%20Exam",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
+    },
+    {
+      "exam_id": "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam",
+      "exam_name": "Advanced Short-Term Actuarial Mathematics (ASTAM) Exam",
+      "exam_code": "ASTAM",
+      "certifying_body": "Society of Actuaries",
+      "vendor_slug": "society-of-actuaries",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": 180,
+      "source_url": "https://www.soa.org/globalassets/assets/files/edu/2026/astam/2026-fall-exam-astam-syllabus.pdf",
+      "practice_url": "https://quizforge.ai/tests/advanced-short-term-actuarial-mathematics-astam-practice-exam-3dgvnp",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
+    },
+    {
+      "exam_id": "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment",
+      "exam_name": "Advanced Topics in Predictive Analytics (ATPA) Assessment",
+      "exam_code": "ATPA",
+      "certifying_body": "Society of Actuaries",
+      "vendor_slug": "society-of-actuaries",
+      "domains": 4,
+      "total_questions": null,
+      "duration_minutes": 5760,
+      "source_url": "https://www.soa.org/globalassets/assets/files/edu/2022/2022-01-atpa-learning-objectives.pdf",
+      "practice_url": "https://quizforge.ai/?q=Advanced%20Topics%20in%20Predictive%20Analytics%20%28ATPA%29%20Assessment",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
     },
     {
       "exam_id": "soa-exam-fm",
@@ -24455,7 +25025,7 @@
       "retired_on": "2022-11-30",
       "replacement_exam_code": "ATPA",
       "replacement_relationship": "related_successor",
-      "replacement_url": "https://www.soa.org/globalassets/assets/files/edu/2022/2022-01-atpa-learning-objectives.pdf"
+      "replacement_url": "/society-of-actuaries/soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment"
     },
     {
       "exam_id": "soa-exam-ltam",
@@ -24475,7 +25045,7 @@
       "retired_on": null,
       "replacement_exam_code": "ALTAM",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://www.soa.org/globalassets/assets/files/edu/2026/fall/syllabi/2026-10-altam-syllabus.pdf"
+      "replacement_url": "/society-of-actuaries/soa-altam-advanced-long-term-actuarial-mathematics-altam-exam"
     },
     {
       "exam_id": "soa-exam-p",
@@ -24540,7 +25110,7 @@
       "retired_on": null,
       "replacement_exam_code": "ASTAM",
       "replacement_relationship": "collective_replacement",
-      "replacement_url": "https://www.soa.org/globalassets/assets/files/edu/2026/astam/2026-fall-exam-astam-syllabus.pdf"
+      "replacement_url": "/society-of-actuaries/soa-astam-advanced-short-term-actuarial-mathematics-astam-exam"
     },
     {
       "exam_id": "splunk-cloud-certified-admin",
@@ -25414,6 +25984,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "uipath-uipath-adpv1-uipath-automation-developer-professional-exam",
+      "exam_name": "UiPath Automation Developer Professional Exam",
+      "exam_code": "UiPath-ADPv1",
+      "certifying_body": "UiPath",
+      "vendor_slug": "uipath",
+      "domains": 10,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://start.uipath.com/rs/995-XLT-886/images/UiPath%20Certified%20Professional%20-%20Automation%20Developer%20Professional%20Exam%20Description.pdf?version=4",
+      "practice_url": "https://quizforge.ai/tests/uipath-automation-developer-professional-exam-uipath-adpv1-practice-test-3eiojk",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T09:36:38+00:00"
     },
     {
       "exam_id": "uipath-uiarpa",

@@ -1,0 +1,377 @@
+{
+  "exam_id": "comptia-xk0-006-comptia-linux-v8",
+  "exam_name": "CompTIA Linux+ (V8)",
+  "exam_code": "XK0-006",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA Linux+",
+  "version": null,
+  "source_url": "https://www.comptia.org/en/certifications/linux/",
+  "passing_score": 720,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 90,
+  "exam_price_usd": null,
+  "exam_price_notes": "First-party CompTIA Linux+ V8 page (retrieval 2026-08-27). Launch date July 15, 2025. Multiple-choice and performance-based. Passing score 720 (scale 100-900). ISO accredited by ANAB. Objectives from official exam objectives summary on the cert page. USD voucher price not listed on the certification",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.comptia.org/en/certifications/linux/",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "System Management",
+      "weight_percent": 23.0,
+      "weight_min": 23.0,
+      "weight_max": 23.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Linux basics: Identify boot process steps, kernel, filesystems, and architectures.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Device management: Manage kernel modules, hardware components, and device utilities.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Storage management: Configure LVM, RAID, partitions, and mounted storage.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Network configuration: Set up hosts, DNS, interfaces, and network tools.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Shell operations: Use navigation, editing, redirection, and environment variables.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Backups and restores: Perform archiving, compression, and data recovery.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.7",
+          "title": "Virtualization: Deploy hypervisors, create VMs, and manage disk images.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Services and User Management",
+      "weight_percent": 20.0,
+      "weight_min": 20.0,
+      "weight_max": 20.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Files & directories: Control permissions, create links, and manage special files.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Account management: Add, remove, and modify users and groups.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Process control: Monitor states, adjust priorities, and schedule jobs.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Software management: Install, update, or remove packages and repositories.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Systems management: Start, stop, and review services, logs, and timers.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Containers: Operate container runtimes, manage images, and create networks.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Security",
+      "weight_percent": 18.0,
+      "weight_min": 18.0,
+      "weight_max": 18.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Auth & accounting: Configure PAM, LDAP, Kerberos, and enable auditing.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Firewalls: Set firewalls using iptables, nftables, UFW, and zone rules.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "OS hardening: Apply permissions, configure sudo, and secure remote access.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Account security: Enforce password policies, restrict shells, and enable MFA.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Cryptography: Encrypt files, use hashing, and manage certificates.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Compliance: Verify integrity, run scans, and maintain standards.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Automation, Orchestration, and Scripting",
+      "weight_percent": 17.0,
+      "weight_min": 17.0,
+      "weight_max": 17.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Automation: Automate tasks with Ansible, Puppet, and CI/CD tools.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Shell scripting: Write and troubleshoot variables, functions, and logic flows.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Python basics: Develop scripts using environments, packages, and data types.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Version control: Manage code with Git workflows and tagging.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "AI best practices: Apply code generation and prompt engineering responsibly.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Troubleshooting",
+      "weight_percent": 22.0,
+      "weight_min": 22.0,
+      "weight_max": 22.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "System monitoring: Monitor health, logs, and event alerts.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Hardware/storage: Diagnose boot, mount, and repair issues.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Networking: Resolve firewall, routing, DNS, and connectivity problems.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Security: Fix SELinux, permission, and vulnerability issues.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Performance: Analyze CPU, memory, I/O, and optimize response times.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/en/certifications/linux/",
+  "official_study_resources": [],
+  "aliases": [
+    "comptia linux+",
+    "comptia linux+ v8",
+    "comptia-xk0-006-comptia-linux-v8",
+    "v8",
+    "xk0-006",
+    "xk0-006 comptia linux+ v8"
+  ],
+  "practice_url": "https://quizforge.ai/?q=CompTIA%20Linux%2B%20%28V8%29",
+  "editorial": {
+    "meta_description": "Prepare for the CompTIA Linux+ V8 certification with official domains covering system management, security, automation, and troubleshooting in 90 minutes.",
+    "overview": "The CompTIA Linux+ (V8) certification, certified by CompTIA, covers full system management, network services, user management, security, automation, orchestration, scripting, and troubleshooting tasks. Launched on July 15, 2025, this ANAB ISO-accredited examination evaluates your technical competence and fundamental skills in supporting Linux platforms across diverse cloud and hybrid deployment environments.",
+    "who_should_take": "Linux systems administrators, systems engineers, and network engineers with hands-on experience managing and protecting Linux platforms in cloud and hybrid environments should take this exam to validate their skills.",
+    "skills_summary": [
+      "System Management",
+      "Storage Management",
+      "Account Management",
+      "OS Hardening",
+      "Shell Scripting",
+      "System Monitoring",
+      "Networking"
+    ],
+    "preparation_strategy": "Review the official exam objectives summary on the certification page to focus on key tested areas like LVM, RAID, firewall configuration, shell scripting, and Python basics. Practice monitoring system logs and diagnosing various hardware, storage, and networking issues to prepare for answering both multiple-choice and performance-based questions during the 90-minute testing window.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "Covers Linux basics, boot process steps, kernel management, filesystems, and architectures. Includes managing kernel modules, hardware components, device utilities, and configuring LVM, RAID, partitions, and mounted storage options across systems.",
+        "study_focus": [
+          "Boot process steps and kernel modules",
+          "LVM, RAID, and partitions"
+        ],
+        "source_ids": [
+          "comptia-xk0-006-comptia-linux-v8-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "Focuses on file and directory permissions, links, special files, and account management for users and groups. Addresses process control by monitoring states, adjusting priorities, and scheduling jobs reliably across operating systems.",
+        "study_focus": [
+          "File permissions and links",
+          "User and group administration",
+          "Process states and scheduling"
+        ],
+        "source_ids": [
+          "comptia-xk0-006-comptia-linux-v8-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "Deals with authentication, accounting via PAM, LDAP, and Kerberos, and enabling auditing. Involves setting up firewalls using iptables, nftables, UFW, and zone rules, alongside applying strict operating system hardening measures.",
+        "study_focus": [
+          "PAM, LDAP, and Kerberos configuration",
+          "iptables, nftables, and UFW firewalls",
+          "OS hardening and sudo configuration"
+        ],
+        "source_ids": [
+          "comptia-xk0-006-comptia-linux-v8-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "Centers on task automation with Ansible, Puppet, and CI/CD tools. Covers shell scripting variables, functions, and logic flows, plus Python script development using environments, packages, and data types for efficient administration.",
+        "study_focus": [
+          "Ansible and Puppet automation",
+          "Shell scripting logic flows",
+          "Python environments and packages"
+        ],
+        "source_ids": [
+          "comptia-xk0-006-comptia-linux-v8-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "Centers on system monitoring, health checks, log analysis, and event alerts. Involves diagnosing hardware and storage issues related to booting and mounting, and resolving firewall, routing, DNS, and connectivity problems effectively.",
+        "study_focus": [
+          "System health and log monitoring",
+          "Boot and mount diagnostics",
+          "Network and routing troubleshooting"
+        ],
+        "source_ids": [
+          "comptia-xk0-006-comptia-linux-v8-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time carefully across the 90-minute testing window. Address performance-based items and multiple-choice questions systematically, and check with CompTIA for any specific testing policies.",
+    "faq": [
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The required passing score for this certification examination is exactly 720 points, which is evaluated on a standardized numerical scale spanning from 100 to 900 total points for all candidates."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The total duration allocated for completing this certification exam is exactly 90 minutes from the very moment you begin your official testing session at the authorized testing center."
+      },
+      {
+        "question_title": "What question types appear on the exam?",
+        "answer_text": "The examination format consists of a combination of traditional multiple-choice questions and interactive performance-based questions designed comprehensively to test your practical systems administration skills in real-world scenarios."
+      },
+      {
+        "question_title": "When was the exam launched?",
+        "answer_text": "This certification exam was officially launched and made widely available to candidates globally on July 15, 2025, according to the official release records provided by CompTIA."
+      }
+    ],
+    "methodology": {
+      "summary": "This index page was compiled using official CompTIA Linux+ V8 exam guides, domain weight breakdowns, and verified certification metadata details to ensure complete accuracy.",
+      "source_ids": [
+        "comptia-xk0-006-comptia-linux-v8-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "comptia-xk0-006-comptia-linux-v8-exam_guide",
+      "comptia-xk0-006-comptia-linux-v8-exam_guide-2",
+      "comptia-xk0-006-comptia-linux-v8-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "comptia-xk0-006-comptia-linux-v8-exam_guide",
+      "url": "https://www.comptia.org/en/certifications/linux",
+      "title": "Linux+ Certification V8 | CompTIA Global",
+      "publisher": "CompTIA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:46a1f7f623f7322382a338c58d9e99f82d5dd4a0f1e00b9b9efceefdbce6fc5d"
+    },
+    {
+      "id": "comptia-xk0-006-comptia-linux-v8-exam_guide-2",
+      "url": "https://www.comptia.org/en-us/certifications/linux/",
+      "title": "Linux+ Certification V8 | CompTIA",
+      "publisher": "CompTIA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:f78774262e2c5e71134d90049f26964a72b90c0ae4b0352032173f9bed5b2a5b"
+    },
+    {
+      "id": "comptia-xk0-006-comptia-linux-v8-exam_guide-3",
+      "url": "https://www.comptia.org/en/certifications/linux/v8/practice-questions/",
+      "title": "Linux+ (V8) Practice Questions | CompTIA Certifications Global",
+      "publisher": "CompTIA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:e275386df168a8b23665105f6fa61b42295fdd7725d52edde43ecece4ca5fdcf"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:36+00:00"
+  }
+}

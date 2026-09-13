@@ -1,0 +1,399 @@
+{
+  "exam_id": "comptia-fc0-u71-comptia-tech-v6",
+  "exam_name": "CompTIA Tech+ (V6)",
+  "exam_code": "FC0-U71",
+  "certifying_body": "CompTIA",
+  "certification_name": "CompTIA Tech+",
+  "version": null,
+  "source_url": "https://www.comptia.org/en/certifications/tech/",
+  "passing_score": 650,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 60,
+  "exam_price_usd": null,
+  "exam_price_notes": "First-party CompTIA Tech+ V6 page. Exam series codes FC0-U71 (no expiration) and FC0-U71-CE (valid for 5 years). Launch date July 16, 2024. Multiple-choice only. Passing score 650 on a scale of 900. CompTIA documents Tech+ as the upgrade/replacement of ITF+ (FC0-U61). USD voucher price not listed on",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.comptia.org/en/certifications/tech/",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Tech concepts and terminology",
+      "weight_percent": 13.0,
+      "weight_min": 13.0,
+      "weight_max": 13.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Computing basics: input, processing, output, and storage fundamentals.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Notational systems: binary, hexadecimal, decimal, and octal systems.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Units of measure: storage (bit, byte, KB, GB, TB), speed (MHz, GHz), and throughput (bps, Mbps, Gbps).",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Troubleshooting methodology: identifying problems, testing theories, implementing solutions, and documenting findings.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Infrastructure",
+      "weight_percent": 24.0,
+      "weight_min": 24.0,
+      "weight_max": 24.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Computing devices: smartphones, tablets, laptops, servers, IoT devices, and gaming consoles.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Internal components: motherboard, CPU, RAM, storage (HDD, SSD, NVMe), NIC, and GPU.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Storage types: volatile vs. non-volatile, local, network, and cloud storage.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Peripheral setup: printers, scanners, monitors, and driver installation.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Device interfaces: USB, HDMI, Ethernet, Bluetooth, and NFC.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Virtualization and cloud: hypervisors, SaaS, PaaS, IaaS, hybrid, and on-premises models.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.7",
+          "title": "Networking basics: LAN vs. WAN, IP/MAC addresses, routers, switches, and firewalls.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.8",
+          "title": "Wireless networks: 802.11 standards, speed, and interference considerations.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Applications and software",
+      "weight_percent": 18.0,
+      "weight_min": 18.0,
+      "weight_max": 18.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Operating systems: mobile, desktop, server, embedded systems.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "OS components: file systems (NTFS, FAT32), interfaces (GUI, command line), utilities, and drivers.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Software types: productivity tools, collaboration apps, web browsers, and remote support.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Web browser features: private browsing, add-ons, password management, and cache clearing.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Artificial intelligence: chatbots, assistants, and generative AI for content and predictions.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Software development concepts",
+      "weight_percent": 13.0,
+      "weight_min": 13.0,
+      "weight_max": 13.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Programming languages: interpreted, compiled, scripting, markup, and assembly.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Data types: char, strings, numbers (integers, floats), and Boolean.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Programming concepts: variables, constants, arrays, functions, and objects.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Organizational techniques: pseudocode, flowcharts, object-oriented methods, branching, looping.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Data and database fundamentals",
+      "weight_percent": 13.0,
+      "weight_min": 13.0,
+      "weight_max": 13.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Value of data: data-driven decisions, reporting, and monetization.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Database concepts: relational vs. non-relational, tables, rows, fields, primary/foreign keys.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "Database use: queries, reports, scalability, cloud vs. local storage.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Backup concepts: file and system backups, local vs. cloud storage.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Security",
+      "weight_percent": 19.0,
+      "weight_min": 19.0,
+      "weight_max": 19.0,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Security concepts: confidentiality, integrity, availability, authentication, and authorization.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Device security: anti-malware, firewalls, patching, physical security, safe browsing.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "Password practices: length, complexity, privacy, reuse, and password managers.",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Encryption: data at rest, data in transit, HTTPS, VPNs, mobile devices.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.comptia.org/en/certifications/tech/",
+  "official_study_resources": [],
+  "aliases": [
+    "comptia tech+",
+    "comptia tech+ v6",
+    "comptia-fc0-u71-comptia-tech-v6",
+    "fc0-u71",
+    "fc0-u71 comptia tech+ v6",
+    "v6"
+  ],
+  "practice_url": "https://quizforge.ai/tests/comptia-tech-plus",
+  "editorial": {
+    "meta_description": "Prepare for the CompTIA Tech+ V6 exam by reviewing tech concepts, infrastructure, applications, software development, data, and security across all six domains.",
+    "overview": "The CompTIA Tech+ V6 certification is offered by CompTIA to comprehensively cover tech concepts and terminology, infrastructure, applications and software, software development concepts, data and database fundamentals, and security across a total of six specific domains for candidates seeking knowledge validation, core technical foundational skills mastery, and professional technology competency.",
+    "who_should_take": "Individuals seeking to validate basic technology knowledge should take this exam. It suits beginners, students, and support staff looking to demonstrate competency in hardware, software, data, and security principles.",
+    "skills_summary": [
+      "Computing basics and notational systems",
+      "Infrastructure and internal components",
+      "Operating systems and software types",
+      "Programming languages and data types",
+      "Database concepts and data value",
+      "Security concepts and device security"
+    ],
+    "preparation_strategy": "To prepare successfully for the 60-minute test, carefully review the exam objectives across all six domains in detail. Practice identifying internal components, understanding notational systems like binary and hexadecimal, working with basic programming data types, and learning core security and password practices to ensure complete readiness.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This domain covers computing basics such as input, processing, output, and storage. It also includes notational systems including binary, hexadecimal, decimal, and octal, alongside units of measure for storage, speed, and throughput.",
+        "study_focus": [
+          "Computing basics: input, processing, output, and storage fundamentals.",
+          "Notational systems: binary, hexadecimal, decimal, and octal systems.",
+          "Units of measure: storage, speed, and throughput."
+        ],
+        "source_ids": [
+          "comptia-fc0-u71-comptia-tech-v6-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain addresses computing devices like smartphones, tablets, laptops, servers, IoT devices, and gaming consoles. It details internal components such as motherboards, CPUs, RAM, storage types, NICs, and GPUs.",
+        "study_focus": [
+          "Computing devices: smartphones, tablets, laptops, servers, IoT devices, and gaming consoles.",
+          "Internal components: motherboard, CPU, RAM, storage, NIC, and GPU.",
+          "Storage types: volatile vs. non-volatile, local, network, and cloud storage."
+        ],
+        "source_ids": [
+          "comptia-fc0-u71-comptia-tech-v6-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain focuses on operating systems for mobile, desktop, server, and embedded systems. It includes OS components like file systems, interfaces, utilities, drivers, and various software types including productivity and web tools.",
+        "study_focus": [
+          "Operating systems: mobile, desktop, server, embedded systems.",
+          "OS components: file systems, interfaces, utilities, and drivers.",
+          "Software types: productivity tools, collaboration apps, web browsers, and remote support."
+        ],
+        "source_ids": [
+          "comptia-fc0-u71-comptia-tech-v6-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain reviews programming languages such as interpreted, compiled, scripting, markup, and assembly. It covers data types including char, strings, numbers, and Booleans, along with variables, constants, arrays, functions, and objects.",
+        "study_focus": [
+          "Programming languages: interpreted, compiled, scripting, markup, and assembly.",
+          "Data types: char, strings, numbers, and Boolean.",
+          "Programming concepts: variables, constants, arrays, functions, and objects."
+        ],
+        "source_ids": [
+          "comptia-fc0-u71-comptia-tech-v6-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "This domain explains the value of data through reporting and monetization. It examines database concepts, relational versus non-relational structures, tables, rows, fields, primary and foreign keys, queries, and scalability.",
+        "study_focus": [
+          "Value of data: data-driven decisions, reporting, and monetization.",
+          "Database concepts: relational vs. non-relational, tables, rows, fields, primary/foreign keys.",
+          "Database use: queries, reports, scalability, cloud vs. local storage."
+        ],
+        "source_ids": [
+          "comptia-fc0-u71-comptia-tech-v6-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6.0",
+        "summary": "This domain details security concepts such as confidentiality, integrity, availability, authentication, and authorization. It covers device security measures like anti-malware, firewalls, patching, physical security, safe browsing, and password practices.",
+        "study_focus": [
+          "Security concepts: confidentiality, integrity, availability, authentication, and authorization.",
+          "Device security: anti-malware, firewalls, patching, physical security, safe browsing.",
+          "Password practices: length, complexity, privacy, reuse, and password managers."
+        ],
+        "source_ids": [
+          "comptia-fc0-u71-comptia-tech-v6-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "You have 60 minutes to complete the exam. Ensure you meet the passing score of 650 on a scale of 900. Read each multiple-choice question carefully before selecting your answer.",
+    "faq": [
+      {
+        "question_title": "How many minutes is the exam?",
+        "answer_text": "The official exam duration is exactly 60 minutes long. All candidates must manage their time effectively to complete all questions within this designated testing period."
+      },
+      {
+        "question_title": "What is the passing score for the exam?",
+        "answer_text": "The required passing score is 650 on a total scale of 900. Test-takers must achieve this specific threshold or higher to successfully earn the certification."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The test lasts for 60 minutes and consists entirely of multiple-choice questions designed to evaluate your technology knowledge and skills across multiple domains during the testing session."
+      },
+      {
+        "question_title": "What information is available regarding updates?",
+        "answer_text": "Candidates should check directly with CompTIA for any official updates regarding their certification path, exam series codes, and associated continuing education policies before booking their test session."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using official CompTIA documentation, exam guides, and structured domain weights to provide accurate preparation details for the certification.",
+      "source_ids": [
+        "comptia-fc0-u71-comptia-tech-v6-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "comptia-fc0-u71-comptia-tech-v6-exam_guide",
+      "comptia-fc0-u71-comptia-tech-v6-exam_guide-2",
+      "comptia-fc0-u71-comptia-tech-v6-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "comptia-fc0-u71-comptia-tech-v6-exam_guide",
+      "url": "https://www.comptia.org/en/blog/how-do-i-get-my-comptia-tech-certification-/",
+      "title": "How Do I Get my CompTIA Tech+ Certification | CompTIA Blog Global",
+      "publisher": "CompTIA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:c4220b2595906a200611e1916a4b0457280e3532861786f8e330013667594be7"
+    },
+    {
+      "id": "comptia-fc0-u71-comptia-tech-v6-exam_guide-2",
+      "url": "https://www.comptia.org/en/certifications/tech",
+      "title": "Tech+ (Plus) Certification | CompTIA Global",
+      "publisher": "CompTIA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:a6c49c7ae0bd832e9d10443d3b4f75b8c9a24e9f7b21d90a7f020def96072fc5"
+    },
+    {
+      "id": "comptia-fc0-u71-comptia-tech-v6-exam_guide-3",
+      "url": "https://www.comptia.org/en/certifications/tech/",
+      "title": "Tech+ (Plus) Certification | CompTIA Global",
+      "publisher": "CompTIA",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:a6c49c7ae0bd832e9d10443d3b4f75b8c9a24e9f7b21d90a7f020def96072fc5"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:36+00:00"
+  }
+}
