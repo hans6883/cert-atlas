@@ -1,0 +1,195 @@
+{
+  "exam_id": "certified-reliability-engineer-cre",
+  "exam_name": "CRE: Certified Reliability Engineer",
+  "exam_code": "",
+  "certifying_body": "ASQ",
+  "version": null,
+  "source_url": "https://www.asq.org/cert/resource/pdf/certification/2025-CRE-BoK.pdf",
+  "total_questions": 165,
+  "duration_minutes": 258,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Reliability Fundamentals",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Risk Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Probability and Statistics for Reliability",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Reliability Planning, Testing, and Modeling",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Lifecycle Reliability",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "CRE: Certified Reliability Engineer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/certified-reliability-engineer-cre",
+  "editorial": {
+    "meta_description": "Prepare for the ASQ Certified Reliability Engineer exam by mastering reliability fundamentals, risk management, and statistics across 165 questions.",
+    "overview": "The ASQ Certified Reliability Engineer certification program covers principles of performance evaluation, prediction, and system optimization to improve safety, operational reliability, and long-term maintainability. Administered by ASQ, this program spans five distinct domains ranging from leadership concepts all the way to complex lifecycle reliability engineering across 165 questions and a total duration of 258 minutes.",
+    "who_should_take": "Experienced engineers, technical practitioners, and quality professionals with a strong background in performance evaluation, risk management, and reliability engineering principles who want to formally validate their skills through ASQ certification.",
+    "skills_summary": [
+      "Reliability Fundamentals",
+      "Risk Management",
+      "Probability and Statistics for Reliability",
+      "Reliability Planning, Testing, and Modeling",
+      "Lifecycle Reliability"
+    ],
+    "preparation_strategy": "Review the official ASQ Body of Knowledge to ensure complete coverage of all required topics. Focus heavily on mastering reliability terminology, failure mode and effects analysis, probability distributions, statistical process control, and advanced testing methods. Practice applying statistical concepts, data management techniques, and engineering models regularly to build strong problem-solving skills for every single domain on the test.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This core domain covers foundational reliability principles including leadership responsibilities, professional ethical considerations, basic terminology, corrective and preventive action frameworks, and modern methodologies for continuous organizational improvement across various technical environments.",
+        "study_focus": [
+          "Leadership Foundations",
+          "Reliability Foundations",
+          "Ethics in reliability engineering"
+        ],
+        "source_ids": [
+          "certified-reliability-engineer-cre-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses intensely on risk management techniques, types of operational risk, fault tree analysis, failure mode and effects analysis, structured risk matrices, and practical mitigation strategies designed to prevent failures.",
+        "study_focus": [
+          "Identification",
+          "Analysis",
+          "Mitigation"
+        ],
+        "source_ids": [
+          "certified-reliability-engineer-cre-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This specific domain explores probability and statistics concepts, diverse probability distributions, statistical process control charts, sampling plans, confidence intervals, and effective reliability data management practices for various engineering teams.",
+        "study_focus": [
+          "Basic Concepts",
+          "Data Management",
+          "Statistical process control"
+        ],
+        "source_ids": [
+          "certified-reliability-engineer-cre-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This specific domain addresses reliability planning, testing strategies, accelerated life tests, highly accelerated stress screening, reliability block diagrams, physics of failure models, and industry-standard reliability prediction methods for professional engineers.",
+        "study_focus": [
+          "Planning",
+          "Testing",
+          "Modeling"
+        ],
+        "source_ids": [
+          "certified-reliability-engineer-cre-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This final broad domain examines lifecycle reliability, advanced design techniques, stress-strength analysis, human factors engineering, parts and systems development processes, and detailed maintainability analysis to ensure sustained performance over time.",
+        "study_focus": [
+          "Reliability Design Techniques",
+          "Parts and Systems Development",
+          "Maintainability"
+        ],
+        "source_ids": [
+          "certified-reliability-engineer-cre-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time effectively across all 165 questions during the 258 minutes provided on test day. Read each question carefully and apply your knowledge of reliability principles systematically.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of a total of exactly 165 questions covering all five core reliability engineering domains outlined within the official ASQ Body of Knowledge guide."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "You should check directly with ASQ for specific and up-to-date information regarding the passing score threshold and official score reporting policies for this specific certification test."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "You are given a total duration of 258 minutes to complete the entire examination and answer all of the questions contained within the test booklet successfully."
+      },
+      {
+        "question_title": "What certifying body administers the exam?",
+        "answer_text": "The examination is officially administered and certified by ASQ, which provides the Body of Knowledge and all associated preparation resources for all participating candidates pursuing certification."
+      }
+    ],
+    "methodology": {
+      "summary": "This information page was built using official ASQ documentation, the published Body of Knowledge, and fully verified examination parameters to ensure accuracy.",
+      "source_ids": [
+        "certified-reliability-engineer-cre-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "certified-reliability-engineer-cre-exam_guide",
+      "certified-reliability-engineer-cre-exam_guide-2",
+      "certified-reliability-engineer-cre-exam_guide-3",
+      "certified-reliability-engineer-cre-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "certified-reliability-engineer-cre-exam_guide",
+      "url": "https://www.asq.org/cert/resource/pdf/certification/cre-cert-insert.pdf",
+      "title": "ASQ exam guide",
+      "publisher": "ASQ",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:98e13a09717d2ea8eaaef829da310f142891cf141d4d8b1c9df3d495bbf3a1d7"
+    },
+    {
+      "id": "certified-reliability-engineer-cre-exam_guide-2",
+      "url": "https://www.asq.org/cert/reliability-engineer?srsltid=AfmBOoryAKlGdnpzrnnsOOOXPbnCCBPRiFTr4gVwyab99iwKUuEogBs2",
+      "title": "ASQ exam guide",
+      "publisher": "ASQ",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:98b01162247a11b8fcb468c27b83a0db071b09201a55c92b0b705e27f2b3235e"
+    },
+    {
+      "id": "certified-reliability-engineer-cre-exam_guide-3",
+      "url": "https://www.ag5.com/wp-content/uploads/documents/AG5_General-Terms-and-Conditions_2025.pdf",
+      "title": "ASQ exam guide (ag5.com)",
+      "publisher": "ag5.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:d5ad80b8dc2c0480e58c689b6aea7b7ded9649fac2f50741bb98601265229e49"
+    },
+    {
+      "id": "certified-reliability-engineer-cre-exam_guide-4",
+      "url": "https://www.ag5.com/certifications/cre/",
+      "title": "ASQ exam guide (ag5.com)",
+      "publisher": "ag5.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:dbe5b3fc4204fe50cd3be313f7154ca1d7cc149ad01e7895b1f973fd2e3d5d5a"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T15:23:36+00:00"
+  }
+}

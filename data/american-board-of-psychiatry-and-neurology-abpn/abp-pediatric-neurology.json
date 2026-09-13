@@ -1,0 +1,382 @@
+{
+  "exam_id": "abp-pediatric-neurology",
+  "exam_name": "ABP Child Neurology",
+  "exam_code": "",
+  "certifying_body": "American Board of Psychiatry and Neurology (ABPN)",
+  "version": null,
+  "source_url": "https://abpn.org/wp-content/uploads/Child-Neurology-Certification-Content-Specifications.pdf",
+  "total_questions": 400,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Headache and pain disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Epilepsy and episodic disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Sleep disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Genetic and developmental disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Vascular neurology",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Neuromuscular diseases",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Movement disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Demyelinating diseases",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Neuroinfectious diseases",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Brain and spinal trauma and spinal diseases",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Neuro-ophthalmologic and neuro-otologic disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Metabolic diseases, nutritional deficiency states, and disorders due to toxins, drugs, and physical agents",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "Neuro-oncologic disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Behavioral neurology and neurocognitive disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "Psychiatric disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "16",
+      "name": "Autonomic nervous system disorders",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "17",
+      "name": "Questions not associated with a specific neurologic disorder",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "18",
+      "name": "Neuroimmunologic and paraneoplastic CNS disorders",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "ABP Child Neurology"
+  ],
+  "practice_url": "https://quizforge.ai/tests/abp-pediatric-neurology",
+  "editorial": {
+    "meta_description": "Prepare for the ABP Child Neurology certification exam featuring 400 questions across 18 neurologic and medical disorder domains administered by the American.",
+    "overview": "The ABP Child Neurology certification exam is administered by the American Board of Psychiatry and Neurology. It evaluates clinical knowledge across 18 distinct neurological domains, testing proficiency in diagnosing and managing various disorders through 400 total questions to ensure high standards of patient care and professional competence during daily medical practice.",
+    "who_should_take": "Pediatric neurology residents and licensed physicians seeking formal board certification through the American Board of Psychiatry and Neurology to validate their professional clinical competency in this field.",
+    "skills_summary": [
+      "Headache and pain disorders",
+      "Epilepsy and episodic disorders",
+      "Sleep disorders",
+      "Genetic and developmental disorders",
+      "Vascular neurology",
+      "Neuromuscular diseases",
+      "Movement disorders"
+    ],
+    "preparation_strategy": "Review core medical topics methodically across all 18 domains included in the curriculum. Focus heavily on diagnostic testing procedures like electroencephalograms and neuroimaging, as well as evidence-based treatment protocols for common neurological conditions such as strokes and seizures to prepare for the 400 questions on test day.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This thorough domain covers diagnostic evaluation strategies and medical management techniques for various headache types, migraine presentations, and chronic pain conditions affecting pediatric neurology patients during routine clinical practice.",
+        "study_focus": [
+          "Migraine identification and management",
+          "Secondary headache evaluation"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on recurrent seizures, complex epilepsy classifications, episodic events, and appropriate diagnostic testing like electroencephalograms to properly identify patient conditions and guide treatment plans during clinical evaluations.",
+        "study_focus": [
+          "Seizure classification and first aid",
+          "Epilepsy treatment options and surgeries"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This detailed domain examines physiological sleep patterns, diagnostic evaluations, and advanced medical treatments for various sleep-related disorders and nighttime disruptions experienced by individuals within clinical neurology environments today.",
+        "study_focus": [
+          "Sleep disorder identification",
+          "Management approaches"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain explores inherited medical conditions, developmental milestones, and specific genetic abnormalities that directly impact nervous system function and overall neurological health among pediatric patients across clinical settings.",
+        "study_focus": [
+          "Genetic mutation effects",
+          "Developmental delay assessment"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain addresses cerebrovascular events, primary risk factors, acute medical interventions, and rehabilitation strategies for ischemic and hemorrhagic strokes occurring in patients under professional neurological care during medical practice.",
+        "study_focus": [
+          "Stroke types and causes",
+          "Acute treatments and diagnostics"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This targeted domain evaluates complex disorders affecting peripheral nerves, neuromuscular junctions, and skeletal muscle tissues, requiring detailed understanding of electrodiagnostic testing and clinical muscle assessments during medical examinations.",
+        "study_focus": [
+          "Nerve conduction studies",
+          "Muscle weakness evaluation"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This important domain covers hypokinetic and hyperkinetic movement conditions, including tremors and dopamine pathway disruptions, requiring careful clinical observation and targeted pharmacologic or surgical interventions for affected individuals.",
+        "study_focus": [
+          "Movement disorder symptoms",
+          "Deep brain stimulation therapies"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This clinical domain focuses on inflammatory and demyelinating conditions affecting the central nervous system, emphasizing the interpretation of neuroimaging findings and clinical presentation patterns during patient diagnostics.",
+        "study_focus": [
+          "White matter disease presentation",
+          "Diagnostic imaging interpretation"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "This crucial domain addresses viral, bacterial, fungal, and parasitic infections affecting the brain, spinal cord, and meninges, requiring prompt identification and appropriate antimicrobial treatment strategies in clinical settings.",
+        "study_focus": [
+          "Infectious disease identification",
+          "Antimicrobial treatments"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "This domain examines physical injuries to the cranium, brain, and spinal column, alongside congenital or acquired spinal diseases that require careful neurological evaluation and broad management protocols during patient care.",
+        "study_focus": [
+          "Trauma assessment",
+          "Spinal pathology management"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "11",
+        "summary": "This domain covers visual pathway defects, cranial nerve neuropathies, and vestibular or auditory processing abnormalities, requiring physical examination techniques and diagnostic workups during patient evaluations in clinical practice.",
+        "study_focus": [
+          "Neuro-ophthalmologic examinations",
+          "Otologic disorder diagnostics"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "12",
+        "summary": "This domain focuses on inherited metabolic errors, vitamin deficiencies, and toxic exposures impacting neurological function, necessitating screening laboratory tests and clinical toxicology knowledge for accurate diagnosis during visits.",
+        "study_focus": [
+          "Metabolic screening",
+          "Toxicity identification"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "13",
+        "summary": "This focused domain addresses primary and secondary tumors of the central nervous system, including various neoplasms and paraneoplastic manifestations requiring multidisciplinary oncologic care approaches and specific clinical treatments.",
+        "study_focus": [
+          "Brain tumor classifications",
+          "Oncologic treatment modalities"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "14",
+        "summary": "This clinical domain evaluates cognitive decline, memory impairment, and behavioral changes resulting from organic brain disorders, utilizing standardized neurocognitive testing and patient management protocols in clinical practice environments.",
+        "study_focus": [
+          "Neurocognitive testing",
+          "Behavioral symptom management"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "15",
+        "summary": "This psychiatric domain covers psychiatric conditions that overlap with or mimic neurological diseases, requiring differential diagnosis procedures to separate primary psychiatric illnesses from organic etiologies during patient evaluations.",
+        "study_focus": [
+          "Mood disorder assessment",
+          "Psychiatric differential diagnosis"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "16",
+        "summary": "This autonomic domain focuses on dysfunctions of the sympathetic and parasympathetic nervous systems, exploring autonomic testing methods and blood pressure regulation disorder management within professional neurological care settings.",
+        "study_focus": [
+          "Autonomic testing",
+          "Blood pressure regulation disorders"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "17",
+        "summary": "This domain tests general medical knowledge, biostatistics, medical ethics, and patient safety principles that are relevant for medical practice but not tied to a single condition during examinations.",
+        "study_focus": [
+          "Medical ethics",
+          "General clinical principles"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "18",
+        "summary": "This advanced domain examines immune-mediated disorders affecting the central nervous system and antibody-mediated paraneoplastic phenomena, focusing on autoimmune encephalitis and modern immunotherapy protocols used in patient treatment across clinical environments.",
+        "study_focus": [
+          "Autoimmune encephalitis",
+          "Immunotherapy protocols"
+        ],
+        "source_ids": [
+          "abp-pediatric-neurology-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive early at the testing center with all required identification documents. Pace yourself carefully across the 400 total questions to ensure adequate time for review and completion.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The certification exam consists of exactly 400 total questions distributed across 18 distinct content domains covering various child neurology topics and clinical competencies for board candidates."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "You should check directly with the American Board of Psychiatry and Neurology for specific passing score details, scaled scoring methods, and evaluation criteria for certification."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Check with the American Board of Psychiatry and Neurology for the current certification path guidelines, testing appointment duration details, and scheduled breaks during the session."
+      },
+      {
+        "question_title": "Who administers the ABP Child Neurology certification?",
+        "answer_text": "The certification exam is officially administered by the American Board of Psychiatry and Neurology to evaluate candidates across 18 content domains and assess professional medical competency."
+      }
+    ],
+    "methodology": {
+      "summary": "This index page was built using official content specifications and curriculum guidelines provided directly from the American Board of Psychiatry and Neurology exam guide.",
+      "source_ids": [
+        "abp-pediatric-neurology-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "abp-pediatric-neurology-exam_guide"
+    ]
+  },
+  "sources": [
+    {
+      "id": "abp-pediatric-neurology-exam_guide",
+      "url": "https://abpn.org/wp-content/uploads/Child-Neurology-Certification-Content-Specifications.pdf",
+      "title": "American Board of Psychiatry and Neurology (ABPN) exam guide",
+      "publisher": "American Board of Psychiatry and Neurology (ABPN)",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:8fba825058132e8b36c933950aa8b1136216649be8795ff5bea3cdfb05d26e05"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T15:23:33+00:00"
+  }
+}
