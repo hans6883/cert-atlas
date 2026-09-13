@@ -1,0 +1,156 @@
+{
+ "exam_id": "gcp-professional-workspace-admin",
+ "editorial": {
+  "meta_description": "The Google Professional Workspace Administrator exam evaluates your technical proficiency in managing Google Workspace environments through account lifecycle.",
+  "overview": "Certified by Google Cloud, this exam evaluates your ability to transform business objectives into Google Workspace configurations. It covers managing users, content, and integrations while maintaining secure and efficient data access. Administrators demonstrate an engineering mindset by using tools, programming languages, and APIs to automate workflows, educate end users, and increase operational efficiency across the organization's infrastructure. Candidates must demonstrate mastery of the platform to ensure that all organizational data remains protected while facilitating seamless collaboration across various departments and global teams.",
+  "who_should_take": "This exam targets IT systems administrators, cloud solutions engineers, collaboration engineers, and systems engineers. Candidates should possess practical experience managing Google Workspace environments, including configuring services, managing security policies, and troubleshooting common technical issues within a professional or test environment.",
+  "skills_summary": [
+   "Managing user account lifecycles",
+   "Configuring Google Drive and shared drives",
+   "Managing calendar resources and Meet",
+   "Configuring Gmail routing and security",
+   "Implementing data loss prevention policies",
+   "Managing third-party application integrations",
+   "Using Vault for legal initiatives"
+  ],
+  "preparation_strategy": "Review the official exam guide to align your skills with the listed objectives. Utilize the Google Workspace Administrator learning path, including hands-on labs and online training. Practice troubleshooting common issues and managing security settings in a test environment. Familiarize yourself with the Admin console, GCDS, and API usage to ensure you can automate tasks and manage configurations effectively. Consistent practice with real-world scenarios will help you prepare for the 120 minute time limit and the specific technical requirements of the certification.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses on managing objects, including account lifecycles and service configurations for Drive, Calendar, and Groups. It accounts for 20.0 percent of the exam content and requires proficiency in provisioning and deprovisioning user accounts.",
+    "study_focus": [
+     "Provisioning and deprovisioning user accounts",
+     "Configuring shared drive permissions",
+     "Managing calendar resources and Meet conferences"
+    ],
+    "source_ids": [
+     "gcp-professional-workspace-admin-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain covers configuring Google Workspace services to align with corporate policies and security requirements. It represents 18.0 percent of the total exam weight and focuses on organizational units, inheritance, and Gmail routing configurations.",
+    "study_focus": [
+     "Managing organizational units and inheritance",
+     "Configuring Gmail routing and spam controls"
+    ],
+    "source_ids": [
+     "gcp-professional-workspace-admin-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain addresses troubleshooting mail delivery, security attacks, and general access or performance issues. It is a significant portion of the exam, representing 24.0 percent of the total weight, and requires deep analytical skills for resolution.",
+    "study_focus": [
+     "Analyzing mail flow and audit logs",
+     "Mitigating email attacks like phishing"
+    ],
+    "source_ids": [
+     "gcp-professional-workspace-admin-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain covers data access, device management, and authentication policies for the organization. It accounts for 24.0 percent of the exam and focuses on mobile device policies, data loss prevention, and third-party application access.",
+    "study_focus": [
+     "Configuring mobile and desktop device policies",
+     "Implementing Gmail DLP and data classification"
+    ],
+    "source_ids": [
+     "gcp-professional-workspace-admin-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain focuses on supporting business initiatives through data governance, reporting, and migration tasks. It represents 14.0 percent of the exam and requires knowledge of Vault for legal holds, exports, and user adoption reporting.",
+    "study_focus": [
+     "Using Vault for legal holds and exports",
+     "Generating user adoption and audit reports"
+    ],
+    "source_ids": [
+     "gcp-professional-workspace-admin-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Ensure you have a stable internet connection if taking the exam remotely. Arrive early at the testing center if testing on-site. Read each question carefully to identify the specific business requirement before selecting the best configuration or troubleshooting step. Manage your time effectively to complete all sections within the allotted duration.",
+  "faq": [
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a total duration of 120 minutes. Candidates should plan their time carefully to ensure they can address all questions across the five domains within this specific timeframe provided by the testing center."
+   },
+   {
+    "question_title": "What is the exam format?",
+    "answer_text": "The exam consists of multiple choice and multiple select questions. These formats are designed to test your practical knowledge and ability to apply administrative configurations in real-world scenarios encountered by Google Workspace administrators."
+   },
+   {
+    "question_title": "How many domains are covered?",
+    "answer_text": "The exam covers 5 distinct domains, ranging from managing objects and configuring services to troubleshooting and supporting business initiatives. Each domain carries a specific weight, such as the 24.0 percent allocated to troubleshooting and data access."
+   },
+   {
+    "question_title": "Where can I find the current certification path?",
+    "answer_text": "Please check with Google Cloud for the current certification path and any updates regarding professional-level exams. They provide the most accurate information regarding exam requirements, prerequisites, and any changes to the certification program structure."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built by synthesizing official Google Cloud exam documentation and verified third-party guides to provide a clear overview of the exam structure, domain weights, and technical objectives for all prospective certification candidates.",
+   "source_ids": [
+    "gcp-professional-workspace-admin-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "gcp-professional-workspace-admin-exam_guide",
+   "gcp-professional-workspace-admin-exam_guide-2",
+   "gcp-professional-workspace-admin-exam_guide-3",
+   "gcp-professional-workspace-admin-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "gcp-professional-workspace-admin-exam_guide",
+   "url": "https://cloud.google.com/learn/certification/google-workspace-administrator",
+   "title": "Associate Google Workspace Administrator | Learn | Google Cloud",
+   "publisher": "Google Cloud",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:619b480ae2d56f03859786108a23f21f46bf631eef4721aa50a103927a7aff22"
+  },
+  {
+   "id": "gcp-professional-workspace-admin-exam_guide-2",
+   "url": "https://discuss.google.dev/t/guide-to-preparing-for-the-professional-google-workspace-administrator-certification/89595",
+   "title": "Google Cloud exam guide (discuss.google.dev)",
+   "publisher": "google.dev",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:621a9dd5e035081719bc78ff3ae837107e245d5a6550d9018973dfff06f5c00f"
+  },
+  {
+   "id": "gcp-professional-workspace-admin-exam_guide-3",
+   "url": "https://www.cbtnuggets.com/blog/certifications/cloud/how-to-pass-the-professional-google-workspace-administrator-exam",
+   "title": "Google Cloud exam guide (cbtnuggets.com)",
+   "publisher": "cbtnuggets.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:cadc1e38c0b1f1d0590e1e67a8204b51f062db608c4b370d172dcf5fa1ff5c35"
+  },
+  {
+   "id": "gcp-professional-workspace-admin-exam_guide-4",
+   "url": "https://www.reco.ai/hub/google-workspace-administrator-certification",
+   "title": "Google Cloud exam guide (reco.ai)",
+   "publisher": "reco.ai",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:a13663f9b303751c1bcd10b0d0c0fa2694d27507d91ee6f9ec214c8f8ce693ac"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-3.1-flash-lite",
+  "generated_at": "2026-09-13T18:35:28+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T23:40:03+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T23:40:03+00:00"
+ }
+}

@@ -1,8 +1,8 @@
 {
   "generated": "2026-09-13",
-  "total_exams": 1808,
-  "total_vendors": 274,
-  "exams_with_domain_breakdowns": 1798,
+  "total_exams": 1890,
+  "total_vendors": 316,
+  "exams_with_domain_breakdowns": 1880,
   "exams": [
     {
       "exam_id": "aacn-accns-ag",
@@ -1082,6 +1082,21 @@
       "verified_at": "2026-09-02T00:53:29+00:00"
     },
     {
+      "exam_id": "cfcs-certified-financial-crimes-specialist",
+      "exam_name": "CFCS: Certified Financial Crimes Specialist",
+      "exam_code": "",
+      "certifying_body": "ACFCS",
+      "vendor_slug": "acfcs",
+      "domains": 13,
+      "total_questions": 135,
+      "duration_minutes": 240,
+      "source_url": "https://www.acfcs.org/content/CFCS%20English%20Study%20Manual%20%286th%20Edition%29.pdf",
+      "practice_url": "https://quizforge.ai/tests/cfcs-certified-financial-crimes-specialist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:00+00:00"
+    },
+    {
       "exam_id": "cfe-exam",
       "exam_name": "CFE Exam (Certified Fraud Examiner)",
       "exam_code": "CFE",
@@ -1165,6 +1180,21 @@
       "retired_on": "2026-06-02"
     },
     {
+      "exam_id": "acsm-certified-personal-trainer",
+      "exam_name": "ACSM Certified Personal Trainer",
+      "exam_code": "",
+      "certifying_body": "ACSM",
+      "vendor_slug": "acsm",
+      "domains": 4,
+      "total_questions": 135,
+      "duration_minutes": 150,
+      "source_url": "https://acsm.org/wp-content/uploads/2024/12/ACSM-Certified-Personal-Trainer-Exam-Content-Outline.pdf",
+      "practice_url": "https://quizforge.ai/tests/acsm-certified-personal-trainer",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:58+00:00"
+    },
+    {
       "exam_id": "act-standard",
       "exam_name": "ACT",
       "exam_code": "ACT",
@@ -1178,6 +1208,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "act-science-reasoning",
+      "exam_name": "ACT Science Reasoning",
+      "exam_code": "",
+      "certifying_body": "ACT",
+      "vendor_slug": "act",
+      "domains": 3,
+      "total_questions": 40,
+      "duration_minutes": 40,
+      "source_url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-science-test.html",
+      "practice_url": "https://quizforge.ai/tests/act-science-reasoning",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:58+00:00"
     },
     {
       "exam_id": "act-with-writing",
@@ -1240,6 +1285,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "dmcp-destination-management-certified-professional",
+      "exam_name": "DMCP Destination Management Certified Professional",
+      "exam_code": "",
+      "certifying_body": "ADMEI",
+      "vendor_slug": "admei",
+      "domains": 4,
+      "total_questions": 150,
+      "duration_minutes": 180,
+      "source_url": "https://www.admei.org/dmc-competencies",
+      "practice_url": "https://quizforge.ai/tests/dmcp-destination-management-certified-professional",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
+    },
+    {
       "exam_id": "afp-ctp-recertification",
       "exam_name": "CTP Recertification Exam",
       "exam_code": "CTP-Recert",
@@ -1283,6 +1343,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "chfm-certified-healthcare-facility-manager",
+      "exam_name": "Certified Healthcare Facility Manager",
+      "exam_code": "",
+      "certifying_body": "AHA",
+      "vendor_slug": "aha",
+      "domains": 5,
+      "total_questions": 110,
+      "duration_minutes": 120,
+      "source_url": "https://www.aha.org/system/files/media/file/2019/05/AHA_CC-CHFM-Handbook.pdf",
+      "practice_url": "https://quizforge.ai/tests/chfm-certified-healthcare-facility-manager",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:00+00:00"
     },
     {
       "exam_id": "ahima-ccs",
@@ -1713,6 +1788,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "ardms-sonography",
+      "exam_name": "ARDMS Diagnostic Medical Sonography",
+      "exam_code": "",
+      "certifying_body": "ARDMS (Inteleos)",
+      "vendor_slug": "ardms-inteleos",
+      "domains": 5,
+      "total_questions": 110,
+      "duration_minutes": 120,
+      "source_url": "https://www.ardms.org/wp-content/uploads/pdf/SPI-content-outline-2023-1.pdf",
+      "practice_url": "https://quizforge.ai/tests/ardms-sonography",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:58+00:00"
     },
     {
       "exam_id": "ardms-abdominal-sonography-specialty",
@@ -2528,6 +2618,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "lcsw-social-work",
+      "exam_name": "LCSW Licensed Clinical Social Work Exam",
+      "exam_code": "",
+      "certifying_body": "ASWB",
+      "vendor_slug": "aswb",
+      "domains": 4,
+      "total_questions": 170,
+      "duration_minutes": 240,
+      "source_url": "https://www.aswb.org/wp-content/uploads/2020/12/2018-Clinical.pdf",
+      "practice_url": "https://quizforge.ai/tests/lcsw-social-work",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
     },
     {
       "exam_id": "teas-6",
@@ -3396,6 +3501,36 @@
       "verified_at": "2026-09-13T15:23:32+00:00"
     },
     {
+      "exam_id": "abfas-podiatric-surgery-board",
+      "exam_name": "ABFAS American Board of Foot and Ankle Surgery Certification",
+      "exam_code": "",
+      "certifying_body": "American Board of Foot and Ankle Surgery (ABFAS)",
+      "vendor_slug": "american-board-of-foot-and-ankle-surgery-abfas",
+      "domains": 11,
+      "total_questions": 80,
+      "duration_minutes": null,
+      "source_url": "https://www.abfas.org/become-board-qualified/part-i-qualification-exam-overview/part-i-qualification-exam-subject-areas",
+      "practice_url": "https://quizforge.ai/tests/abfas-podiatric-surgery-board",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:56+00:00"
+    },
+    {
+      "exam_id": "abhp-health-physics-part-1-exam",
+      "exam_name": "ABHP Health Physics Part I Examination",
+      "exam_code": "",
+      "certifying_body": "American Board of Health Physics (ABHP)",
+      "vendor_slug": "american-board-of-health-physics-abhp",
+      "domains": 5,
+      "total_questions": 150,
+      "duration_minutes": 180,
+      "source_url": "https://www.aahp-abhp.org/certification/examination-prep-guide/",
+      "practice_url": "https://quizforge.ai/tests/abhp-health-physics-part-1-exam",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:57+00:00"
+    },
+    {
       "exam_id": "crp-certified-radiation-protection",
       "exam_name": "CHP Certified Health Physicist Examination",
       "exam_code": "",
@@ -3409,6 +3544,36 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:37+00:00"
+    },
+    {
+      "exam_id": "abim-endocrinology-boards",
+      "exam_name": "ABIM Endocrinology Diabetes and Metabolism Board Certification",
+      "exam_code": "",
+      "certifying_body": "American Board of Internal Medicine",
+      "vendor_slug": "american-board-of-internal-medicine",
+      "domains": 8,
+      "total_questions": 240,
+      "duration_minutes": null,
+      "source_url": "https://www.abim.org/media/1kwlvo2v/endocrinology-diabetes-metabolism.pdf",
+      "practice_url": "https://quizforge.ai/tests/abim-endocrinology-boards",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:57+00:00"
+    },
+    {
+      "exam_id": "abim-infectious-disease-boards",
+      "exam_name": "ABIM Infectious Disease Board Certification",
+      "exam_code": "",
+      "certifying_body": "American Board of Internal Medicine",
+      "vendor_slug": "american-board-of-internal-medicine",
+      "domains": 10,
+      "total_questions": 240,
+      "duration_minutes": 600,
+      "source_url": "https://www.abim.org/media/vikhznzl/infectious-disease-cert.pdf",
+      "practice_url": "https://quizforge.ai/tests/abim-infectious-disease-boards",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:57+00:00"
     },
     {
       "exam_id": "abim-internal-medicine-board-exam",
@@ -3441,6 +3606,21 @@
       "verified_at": "2026-09-13T15:23:32+00:00"
     },
     {
+      "exam_id": "abim-rheumatology-boards",
+      "exam_name": "ABIM Rheumatology Board Certification",
+      "exam_code": "",
+      "certifying_body": "American Board of Internal Medicine",
+      "vendor_slug": "american-board-of-internal-medicine",
+      "domains": 13,
+      "total_questions": 240,
+      "duration_minutes": 600,
+      "source_url": "https://www.abim.org/Media/khzogbsv/rheumatology.pdf",
+      "practice_url": "https://quizforge.ai/tests/abim-rheumatology-boards",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:57+00:00"
+    },
+    {
       "exam_id": "abim-sleep-medicine-im",
       "exam_name": "ABIM Sleep Medicine",
       "exam_code": "",
@@ -3469,6 +3649,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:32+00:00"
+    },
+    {
+      "exam_id": "abns-neurological-surgery-boards",
+      "exam_name": "ABNS Neurological Surgery Board Certification",
+      "exam_code": "",
+      "certifying_body": "American Board of Neurological Surgery (ABNS)",
+      "vendor_slug": "american-board-of-neurological-surgery-abns",
+      "domains": 8,
+      "total_questions": 375,
+      "duration_minutes": null,
+      "source_url": "https://www.abns.org/home/displayPDF/Final-2016-ABNS-Content-Outline.pdf/",
+      "practice_url": "https://quizforge.ai/tests/abns-neurological-surgery-boards",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:57+00:00"
     },
     {
       "exam_id": "abp-pediatric-cardiology",
@@ -3561,6 +3756,21 @@
       "verified_at": "2026-09-13T15:23:33+00:00"
     },
     {
+      "exam_id": "abr-radiology",
+      "exam_name": "ABR Diagnostic Radiology Core Exam",
+      "exam_code": "",
+      "certifying_body": "American Board of Radiology",
+      "vendor_slug": "american-board-of-radiology",
+      "domains": 17,
+      "total_questions": 615,
+      "duration_minutes": 944,
+      "source_url": "https://www.theabr.org/get-certified/diagnostic-radiology/",
+      "practice_url": "https://quizforge.ai/tests/abr-radiology",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:58+00:00"
+    },
+    {
       "exam_id": "abvs-vascular-surgery-boards",
       "exam_name": "ABVS Vascular Surgery Board Certification",
       "exam_code": "",
@@ -3576,6 +3786,21 @@
       "verified_at": "2026-09-13T15:23:34+00:00"
     },
     {
+      "exam_id": "abts-thoracic-surgery-boards",
+      "exam_name": "ABTS Thoracic Surgery Board Certification",
+      "exam_code": "",
+      "certifying_body": "American Board of Thoracic Surgery (ABTS)",
+      "vendor_slug": "american-board-of-thoracic-surgery-abts",
+      "domains": 11,
+      "total_questions": 250,
+      "duration_minutes": 330,
+      "source_url": "https://www.abts.org/ABTS/CertificationWebPages/Exam_Sequence/Written_Exam_Blueprint.aspx",
+      "practice_url": "https://quizforge.ai/tests/abts-thoracic-surgery-boards",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:58+00:00"
+    },
+    {
       "exam_id": "acvim-veterinary-oncology",
       "exam_name": "ACVIM Veterinary Oncology",
       "exam_code": "",
@@ -3589,6 +3814,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:34+00:00"
+    },
+    {
+      "exam_id": "acvo-veterinary-ophthalmology",
+      "exam_name": "ACVO Veterinary Ophthalmology",
+      "exam_code": "",
+      "certifying_body": "American College of Veterinary Ophthalmologists (ACVO)",
+      "vendor_slug": "american-college-of-veterinary-ophthalmologists-acvo",
+      "domains": 5,
+      "total_questions": 250,
+      "duration_minutes": null,
+      "source_url": "https://static1.squarespace.com/static/5eb9742dd2ae880e0ffa1abe/t/5ffc8f83abc9bd29e770d300/1742227172101/ACVO+blueprint+2020.pdf",
+      "practice_url": "https://quizforge.ai/tests/acvo-veterinary-ophthalmology",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:58+00:00"
     },
     {
       "exam_id": "acvs-large-animal",
@@ -3619,6 +3859,36 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:34+00:00"
+    },
+    {
+      "exam_id": "amcb-cm",
+      "exam_name": "AMCB Certified Midwife Exam Practice Test",
+      "exam_code": "",
+      "certifying_body": "American Midwifery Certification Board (AMCB)",
+      "vendor_slug": "american-midwifery-certification-board-amcb",
+      "domains": 6,
+      "total_questions": 175,
+      "duration_minutes": 240,
+      "source_url": "https://www.amcbmidwife.org/docs/default-source/default-document-library/candidate-handbook-jan-2-2026.pdf?sfvrsn=d1b2a5e2_0",
+      "practice_url": "https://quizforge.ai/tests/amcb-cm",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:58+00:00"
+    },
+    {
+      "exam_id": "cnm-certified-nurse-midwife-amcb",
+      "exam_name": "CNM: Certified Nurse-Midwife Examination",
+      "exam_code": "",
+      "certifying_body": "American Midwifery Certification Board (AMCB)",
+      "vendor_slug": "american-midwifery-certification-board-amcb",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.amcbmidwife.org/about-amcb/task-analysis",
+      "practice_url": "https://quizforge.ai/tests/cnm-certified-nurse-midwife-amcb",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:01+00:00"
     },
     {
       "exam_id": "appian-associate-analyst",
@@ -3900,6 +4170,51 @@
       "verified_at": "2026-09-13T15:23:35+00:00"
     },
     {
+      "exam_id": "bicsi-rtpm-registered-telecommunications-project-manager",
+      "exam_name": "BICSI RTPM: Registered Telecommunications Project Manager",
+      "exam_code": "",
+      "certifying_body": "BICSI",
+      "vendor_slug": "bicsi",
+      "domains": 8,
+      "total_questions": 100,
+      "duration_minutes": 120,
+      "source_url": "https://www.bicsi.org/docs/default-source/certification-section-files/RTPM-Cred-Handbook-2024_Final.pdf",
+      "practice_url": "https://quizforge.ai/tests/bicsi-rtpm-registered-telecommunications-project-manager",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
+    },
+    {
+      "exam_id": "bicsi-registered-communications-distribution-designer-rcdd",
+      "exam_name": "BICSI Registered Communications Distribution Designer (RCDD)",
+      "exam_code": "",
+      "certifying_body": "BICSI",
+      "vendor_slug": "bicsi",
+      "domains": 4,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.bicsi.org/docs/default-source/default-document-library/rcdd-cred-handbook-2024_final_version15.pdf?sfvrsn=72ad4065_1",
+      "practice_url": "https://quizforge.ai/tests/bicsi-registered-communications-distribution-designer-rcdd",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
+    },
+    {
+      "exam_id": "bmc-helix-itsm-professional",
+      "exam_name": "BMC Helix ITSM Professional",
+      "exam_code": "",
+      "certifying_body": "BMC Software",
+      "vendor_slug": "bmc-software",
+      "domains": 15,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://www.bmc.com/content/dam/bmc/education/Abstract_SPPT-CERT-ITSM2210-CP.pdf",
+      "practice_url": "https://quizforge.ai/tests/bmc-helix-itsm-professional",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
+    },
+    {
       "exam_id": "boc-at",
       "exam_name": "BOC Athletic Trainer Certification Examination",
       "exam_code": "BOC-AT",
@@ -3913,6 +4228,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "bce-biofeedback",
+      "exam_name": "BCE Board Certified in Biofeedback",
+      "exam_code": "",
+      "certifying_body": "Biofeedback Certification International Alliance (BCIA)",
+      "vendor_slug": "biofeedback-certification-international-alliance-bcia",
+      "domains": 9,
+      "total_questions": 100,
+      "duration_minutes": null,
+      "source_url": "https://bcia.memberclicks.net/assets/BFCommonDocs/2015BiofeedbackBlueprint.pdf",
+      "practice_url": "https://quizforge.ai/tests/bce-biofeedback",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
     },
     {
       "exam_id": "bloomberg-environmental-social-governance",
@@ -3958,6 +4288,51 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "ices-certified-laser-safety-officer",
+      "exam_name": "CLSO Certified Laser Safety Officer",
+      "exam_code": "",
+      "certifying_body": "Board of Laser Safety (BLS)",
+      "vendor_slug": "board-of-laser-safety-bls",
+      "domains": 9,
+      "total_questions": 100,
+      "duration_minutes": 180,
+      "source_url": "https://assets.lasersafety.org/s3fs-public/assets/pdf/CLSO/CLSO%20Exam%20Ref%2019.pdf",
+      "practice_url": "https://quizforge.ai/tests/ices-certified-laser-safety-officer",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
+    },
+    {
+      "exam_id": "bcccp-board-certified-critical-care-pharmacist",
+      "exam_name": "BCCCP Board Certified Critical Care Pharmacist",
+      "exam_code": "",
+      "certifying_body": "Board of Pharmacy Specialties",
+      "vendor_slug": "board-of-pharmacy-specialties",
+      "domains": 3,
+      "total_questions": 150,
+      "duration_minutes": 225,
+      "source_url": "https://bpsweb.org/wp-content/uploads/BCCCP-Examination-Specifications-2024.pdf",
+      "practice_url": "https://quizforge.ai/tests/bcccp-board-certified-critical-care-pharmacist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
+    },
+    {
+      "exam_id": "bcidp-infectious-disease-pharmacist",
+      "exam_name": "BCIDP Infectious Disease Pharmacist",
+      "exam_code": "",
+      "certifying_body": "Board of Pharmacy Specialties",
+      "vendor_slug": "board-of-pharmacy-specialties",
+      "domains": 3,
+      "total_questions": 150,
+      "duration_minutes": 225,
+      "source_url": "https://bpsweb.org/wp-content/uploads/BCIDP-2024-Examination-Specifications-OCT-2025.pdf",
+      "practice_url": "https://quizforge.ai/tests/bcidp-infectious-disease-pharmacist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
     },
     {
       "exam_id": "boomi-api-design-developer",
@@ -4613,6 +4988,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:36+00:00"
+    },
+    {
+      "exam_id": "cfre-international-certified-fund-raising-executive",
+      "exam_name": "Certified Fund Raising Executive (CFRE)",
+      "exam_code": "",
+      "certifying_body": "CFRE International",
+      "vendor_slug": "cfre-international",
+      "domains": 6,
+      "total_questions": 200,
+      "duration_minutes": 240,
+      "source_url": "https://www.cfre.org/certification/cfre-exam",
+      "practice_url": "https://quizforge.ai/tests/cfre-international-certified-fund-raising-executive",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:00+00:00"
     },
     {
       "exam_id": "ncidq-interior-design-professional-exam-idpx",
@@ -5564,6 +5954,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "cmaa-certified-construction-manager-ccm",
+      "exam_name": "CCM - Certified Construction Manager",
+      "exam_code": "",
+      "certifying_body": "CMAA",
+      "vendor_slug": "construction-management-association-of-america-cmaa",
+      "domains": 10,
+      "total_questions": 175,
+      "duration_minutes": 240,
+      "source_url": "https://www.cmaanet.org/sites/default/files/2022-01/CCM_Handbook_11222.pdf",
+      "practice_url": "https://quizforge.ai/tests/cmaa-certified-construction-manager-ccm",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:01+00:00"
+    },
+    {
       "exam_id": "cmt-level-1",
       "exam_name": "CMT Level I",
       "exam_code": "CMT-I",
@@ -5971,6 +6376,51 @@
       "verified_at": null
     },
     {
+      "exam_id": "cscmp-supply-chain",
+      "exam_name": "CSCMP SCPro Level 1",
+      "exam_code": "",
+      "certifying_body": "CSCMP (Council of Supply Chain Management Professionals)",
+      "vendor_slug": "cscmp-council-of-supply-chain-management-professionals",
+      "domains": 8,
+      "total_questions": 160,
+      "duration_minutes": 240,
+      "source_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx",
+      "practice_url": "https://quizforge.ai/tests/cscmp-supply-chain",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
+    },
+    {
+      "exam_id": "cscmp-scpro-level-1-supply-chain-management",
+      "exam_name": "CSCMP SCPro Level 1 Certification",
+      "exam_code": "",
+      "certifying_body": "CSCMP (Council of Supply Chain Management Professionals)",
+      "vendor_slug": "cscmp-council-of-supply-chain-management-professionals",
+      "domains": 8,
+      "total_questions": 160,
+      "duration_minutes": 240,
+      "source_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx",
+      "practice_url": "https://quizforge.ai/tests/cscmp-scpro-level-1-supply-chain-management",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
+    },
+    {
+      "exam_id": "cscmp-supply-chain-management-professional-scpro",
+      "exam_name": "CSCMP Supply Chain Management Professional (SCPro)",
+      "exam_code": "",
+      "certifying_body": "CSCMP (Council of Supply Chain Management Professionals)",
+      "vendor_slug": "cscmp-council-of-supply-chain-management-professionals",
+      "domains": 8,
+      "total_questions": 160,
+      "duration_minutes": 240,
+      "source_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx",
+      "practice_url": "https://quizforge.ai/tests/cscmp-supply-chain-management-professional-scpro",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
+    },
+    {
       "exam_id": "cset-english-1",
       "exam_name": "CSET English Subtests I-II (Reading Literature & Informational Texts; Language)",
       "exam_code": "CSET-ENG1",
@@ -6367,6 +6817,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "ncbde-certified-diabetes-care-education-specialist-cdces",
+      "exam_name": "NCBDE Certified Diabetes Care and Education Specialist (CDCES)",
+      "exam_code": "",
+      "certifying_body": "Certification Board for Diabetes Care and Education (CBDCE)",
+      "vendor_slug": "certification-board-for-diabetes-care-and-education-cbdce",
+      "domains": 3,
+      "total_questions": 175,
+      "duration_minutes": 240,
+      "source_url": "https://www.cbdce.org/certification_info/examination-handbook/",
+      "practice_url": "https://quizforge.ai/tests/ncbde-certified-diabetes-care-education-specialist-cdces",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
+    },
+    {
       "exam_id": "checkpoint-cccs",
       "exam_name": "CCCS (Check Point Certified Cloud Specialist)",
       "exam_code": "156-560",
@@ -6475,6 +6940,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "ccnp-collaboration-clcor-350-801-core",
+      "exam_name": "CCNP Collaboration (CLCOR 350-801) Core",
+      "exam_code": "",
+      "certifying_body": "Cisco",
+      "vendor_slug": "cisco",
+      "domains": 6,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://learningcontent.cisco.com/documents/marketing/exam-topics/350-801-CLCOR-v2.0.pdf",
+      "practice_url": "https://quizforge.ai/tests/ccnp-collaboration-clcor-350-801-core",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:00+00:00"
     },
     {
       "exam_id": "cisco-ccnp-enterprise-350-401",
@@ -7706,6 +8186,51 @@
       "verified_at": "2026-09-13T15:23:35+00:00"
     },
     {
+      "exam_id": "cbca-certified-business-analyst",
+      "exam_name": "CBCA Certified Business and Credit Analyst",
+      "exam_code": "",
+      "certifying_body": "Corporate Finance Institute",
+      "vendor_slug": "corporate-finance-institute",
+      "domains": 6,
+      "total_questions": 50,
+      "duration_minutes": 180,
+      "source_url": "https://corporatefinanceinstitute.com/certifications/commercial-banking-credit-analyst-certification-cbca/",
+      "practice_url": "https://quizforge.ai/tests/cbca-certified-business-analyst",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
+    },
+    {
+      "exam_id": "cfi-cmsa-capital-markets-securities",
+      "exam_name": "CMSA Capital Markets and Securities Analyst",
+      "exam_code": "",
+      "certifying_body": "Corporate Finance Institute",
+      "vendor_slug": "corporate-finance-institute",
+      "domains": 8,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://corporatefinanceinstitute.com/certifications/capital-markets-securities-analyst-cmsa/",
+      "practice_url": "https://quizforge.ai/tests/cfi-cmsa-capital-markets-securities",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:00+00:00"
+    },
+    {
+      "exam_id": "fim-financial-modeling-valuation-analyst",
+      "exam_name": "FMVA Financial Modeling and Valuation Analyst",
+      "exam_code": "",
+      "certifying_body": "Corporate Finance Institute",
+      "vendor_slug": "corporate-finance-institute",
+      "domains": 7,
+      "total_questions": 50,
+      "duration_minutes": 180,
+      "source_url": "https://help.corporatefinanceinstitute.com/article/293-fmva-final-exam",
+      "practice_url": "https://quizforge.ai/tests/fim-financial-modeling-valuation-analyst",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
+    },
+    {
       "exam_id": "crowdstrike-cccs",
       "exam_name": "CCCS (CrowdStrike Certified Cloud Specialist)",
       "exam_code": "CCCS",
@@ -8799,6 +9324,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "certified-business-continuity-professional-cbcp",
+      "exam_name": "CBCP: Certified Business Continuity Professional",
+      "exam_code": "",
+      "certifying_body": "DRI International",
+      "vendor_slug": "dri-international",
+      "domains": 10,
+      "total_questions": null,
+      "duration_minutes": 150,
+      "source_url": "https://drii.org/resources/professionalpractices/EN",
+      "practice_url": "https://quizforge.ai/tests/certified-business-continuity-professional-cbcp",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:00+00:00"
     },
     {
       "exam_id": "dsst-a-history-of-the-vietnam-war",
@@ -9975,6 +10515,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "praxis-core-academic-skills-mathematics",
+      "exam_name": "Praxis Core: Academic Skills for Educators - Mathematics",
+      "exam_code": "",
+      "certifying_body": "ETS",
+      "vendor_slug": "ets",
+      "domains": 3,
+      "total_questions": 56,
+      "duration_minutes": 90,
+      "source_url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5733.pdf",
+      "practice_url": "https://quizforge.ai/tests/praxis-core-academic-skills-mathematics",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:07+00:00"
+    },
+    {
       "exam_id": "praxis-plt",
       "exam_name": "Praxis PLT (Principles of Learning and Teaching)",
       "exam_code": "Praxis PLT",
@@ -9988,6 +10543,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "praxis-physics-content-knowledge-5265",
+      "exam_name": "Praxis Physics: Content Knowledge (5265)",
+      "exam_code": "",
+      "certifying_body": "ETS",
+      "vendor_slug": "ets",
+      "domains": 6,
+      "total_questions": 125,
+      "duration_minutes": 150,
+      "source_url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5265.pdf",
+      "practice_url": "https://quizforge.ai/tests/praxis-physics-content-knowledge-5265",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:07+00:00"
     },
     {
       "exam_id": "praxis-social-studies-content-knowledge-5081",
@@ -10322,6 +10892,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "cmp-meeting-planner",
+      "exam_name": "CMP Certified Meeting Professional",
+      "exam_code": "",
+      "certifying_body": "Events Industry Council",
+      "vendor_slug": "events-industry-council",
+      "domains": 12,
+      "total_questions": 165,
+      "duration_minutes": 210,
+      "source_url": "https://news.eventscouncil.org/wp-content/uploads/2025/01/CMP-International-Standards-2025.pdf",
+      "practice_url": "https://quizforge.ai/tests/cmp-meeting-planner",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:01+00:00"
+    },
+    {
       "exam_id": "exos-performance-specialist",
       "exam_name": "EXOS Performance Specialist",
       "exam_code": "",
@@ -10615,6 +11200,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "faa-private-pilot-airplane-written-knowledge-test",
+      "exam_name": "FAA Private Pilot Airplane Written Knowledge Test",
+      "exam_code": "",
+      "certifying_body": "FAA Pilot Certification",
+      "vendor_slug": "faa-pilot-certification",
+      "domains": 12,
+      "total_questions": 60,
+      "duration_minutes": 150,
+      "source_url": "https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf",
+      "practice_url": "https://quizforge.ai/tests/faa-private-pilot-airplane-written-knowledge-test",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
     },
     {
       "exam_id": "faa-ppl",
@@ -11311,6 +11911,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "frm-part-1-financial-risk-manager-00000056",
+      "exam_name": "FRM Part 1 - Financial Risk Manager",
+      "exam_code": "",
+      "certifying_body": "GARP",
+      "vendor_slug": "garp",
+      "domains": 4,
+      "total_questions": 100,
+      "duration_minutes": 240,
+      "source_url": "https://www.garp.org/landing/frm-learning-objectives",
+      "practice_url": "https://quizforge.ai/tests/frm-part-1-financial-risk-manager-00000056",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
     },
     {
       "exam_id": "garp-frm-part-1",
@@ -12108,6 +12723,51 @@
       "verified_at": null
     },
     {
+      "exam_id": "gcp-professional-devops",
+      "exam_name": "Google Professional Cloud DevOps Engineer",
+      "exam_code": "",
+      "certifying_body": "Google Cloud",
+      "vendor_slug": "google-cloud",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://services.google.com/fh/files/misc/professional_cloud_devops_engineer_exam_guide_english.pdf",
+      "practice_url": "https://quizforge.ai/tests/gcp-professional-devops",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
+    },
+    {
+      "exam_id": "gcp-professional-cloud-developer",
+      "exam_name": "Google Professional Cloud Developer",
+      "exam_code": "",
+      "certifying_body": "Google Cloud",
+      "vendor_slug": "google-cloud",
+      "domains": 4,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://services.google.com/fh/files/misc/042426_professional_cloud_developer_exam_guide_english.pdf",
+      "practice_url": "https://quizforge.ai/tests/gcp-professional-cloud-developer",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
+    },
+    {
+      "exam_id": "gcp-professional-workspace-admin",
+      "exam_name": "Google Professional Workspace Administrator",
+      "exam_code": "",
+      "certifying_body": "Google Cloud",
+      "vendor_slug": "google-cloud",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 120,
+      "source_url": "https://services.google.com/fh/files/misc/professional_google_workspace_administrator_exam_guide_english.pdf",
+      "practice_url": "https://quizforge.ai/tests/gcp-professional-workspace-admin",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
+    },
+    {
       "exam_id": "google-cloud-professional-cloud-architect",
       "exam_name": "Professional Cloud Architect",
       "exam_code": "PCA",
@@ -12318,6 +12978,21 @@
       "verified_at": "2026-08-30T20:17:44+00:00",
       "lifecycle_status": "retired",
       "retired_on": "2023-08-31"
+    },
+    {
+      "exam_id": "true-zero-waste-advisor",
+      "exam_name": "TRUE Zero Waste Advisor Certification",
+      "exam_code": "",
+      "certifying_body": "Green Business Certification Inc. (GBCI)",
+      "vendor_slug": "green-business-certification-inc-gbci",
+      "domains": 10,
+      "total_questions": 75,
+      "duration_minutes": 90,
+      "source_url": "https://true.gbci.org/true-advisor",
+      "practice_url": "https://quizforge.ai/tests/true-zero-waste-advisor",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:08+00:00"
     },
     {
       "exam_id": "hesi-a2",
@@ -12648,6 +13323,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "crme-revenue-management",
+      "exam_name": "CRME Certified Revenue Management Executive",
+      "exam_code": "",
+      "certifying_body": "HSMAI",
+      "vendor_slug": "hsmai",
+      "domains": 11,
+      "total_questions": 50,
+      "duration_minutes": 60,
+      "source_url": "https://academy.hsmai.org/certification-revenue-management-crme/",
+      "practice_url": "https://quizforge.ai/tests/crme-revenue-management",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
     },
     {
       "exam_id": "hspt",
@@ -13644,6 +14334,21 @@
       "verified_at": "2026-09-13T15:23:36+00:00"
     },
     {
+      "exam_id": "cipp-a-certified-information-privacy-professional-asia",
+      "exam_name": "Certified Information Privacy Professional/Asia (CIPP/A)",
+      "exam_code": "",
+      "certifying_body": "IAPP",
+      "vendor_slug": "iapp",
+      "domains": 5,
+      "total_questions": 90,
+      "duration_minutes": 150,
+      "source_url": "https://iapp.org/certify/cippa",
+      "practice_url": "https://quizforge.ai/tests/cipp-a-certified-information-privacy-professional-asia",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:01+00:00"
+    },
+    {
       "exam_id": "asq-cssbb",
       "exam_name": "ASQ Certified Six Sigma Black Belt (CSSBB)",
       "exam_code": "CSSBB",
@@ -13734,6 +14439,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "iata-dangerous-goods-certification",
+      "exam_name": "IATA Dangerous Goods Regulations (DGR) Certification",
+      "exam_code": "",
+      "certifying_body": "IATA",
+      "vendor_slug": "iata",
+      "domains": 4,
+      "total_questions": 30,
+      "duration_minutes": 75,
+      "source_url": "https://www.iata.org/en/training/courses/dgr-cargo-accepting/dgc002elen01/en/",
+      "practice_url": "https://quizforge.ai/tests/iata-dangerous-goods-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
+    },
+    {
       "exam_id": "certified-healthcare-emergency-professional-chep",
       "exam_name": "CHEP: Certified Healthcare Emergency Professional",
       "exam_code": "",
@@ -13747,6 +14467,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:36+00:00"
+    },
+    {
+      "exam_id": "ccds-cardiac-device-specialist",
+      "exam_name": "CCDS Certified Cardiac Device Specialist",
+      "exam_code": "",
+      "certifying_body": "IBHRE (International Board of Heart Rhythm Examiners)",
+      "vendor_slug": "ibhre-international-board-of-heart-rhythm-examiners",
+      "domains": 10,
+      "total_questions": 200,
+      "duration_minutes": 240,
+      "source_url": "https://ibhre.org/sites/default/files/2026-05/4.29.2026-CCDS-Exam-Outline.pdf",
+      "practice_url": "https://quizforge.ai/tests/ccds-cardiac-device-specialist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:39:59+00:00"
     },
     {
       "exam_id": "ibm-guardium-v12",
@@ -13792,6 +14527,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "ibm-qradar-siem-foundation",
+      "exam_name": "IBM QRadar SIEM Foundation",
+      "exam_code": "",
+      "certifying_body": "IBM",
+      "vendor_slug": "ibm",
+      "domains": 14,
+      "total_questions": 62,
+      "duration_minutes": 90,
+      "source_url": "https://www.ibm.com/training/credentials/getExam/C1000-175",
+      "practice_url": "https://quizforge.ai/tests/ibm-qradar-siem-foundation",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
     },
     {
       "exam_id": "ibps-clerk-prelims",
@@ -15231,6 +15981,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "cpm-property-mgmt",
+      "exam_name": "CPM - Certified Property Manager (IREM)",
+      "exam_code": "",
+      "certifying_body": "IREM (Institute of Real Estate Management)",
+      "vendor_slug": "irem-institute-of-real-estate-management",
+      "domains": 6,
+      "total_questions": 150,
+      "duration_minutes": 240,
+      "source_url": "https://www.irem.org/file%20library/globalnavigation/certifications/forindividuals/cpm/cpm-handbook-2025.pdf",
+      "practice_url": "https://quizforge.ai/tests/cpm-property-mgmt",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:01+00:00"
+    },
+    {
       "exam_id": "isaca-csx-p",
       "exam_name": "CSX-P Cybersecurity Practitioner Certification",
       "exam_code": "CSX-P",
@@ -15561,6 +16326,21 @@
       "verified_at": "2026-09-13T15:23:41+00:00"
     },
     {
+      "exam_id": "issp-sustainability-professional",
+      "exam_name": "ISSP Sustainability Associate Credential",
+      "exam_code": "",
+      "certifying_body": "ISSP",
+      "vendor_slug": "issp",
+      "domains": 5,
+      "total_questions": 75,
+      "duration_minutes": 120,
+      "source_url": "https://usgbc.gitbook.io/sustainability-excellence/sustainability-excellence-professional-candidate-handbook",
+      "practice_url": "https://quizforge.ai/tests/issp-sustainability-professional",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
+    },
+    {
       "exam_id": "istqb-ct-ai",
       "exam_name": "AI Testing (CT-AI)",
       "exam_code": "CT-AI",
@@ -15671,6 +16451,36 @@
       "replacement_url": "/istqb/istqb-ctfl"
     },
     {
+      "exam_id": "japan-it-passport-ipa-certification",
+      "exam_name": "Japan IT Passport Certification (IPA)",
+      "exam_code": "",
+      "certifying_body": "Information-technology Promotion Agency, Japan (IPA)",
+      "vendor_slug": "information-technology-promotion-agency-japan-ipa",
+      "domains": 3,
+      "total_questions": 100,
+      "duration_minutes": 120,
+      "source_url": "https://www.ipa.go.jp/en/it-examinations/nph2g600000007uh-att/000009648.pdf",
+      "practice_url": "https://quizforge.ai/tests/japan-it-passport-ipa-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
+    },
+    {
+      "exam_id": "crni-certified-registered-nurse-infusion",
+      "exam_name": "CRNI Certified Registered Nurse Infusion",
+      "exam_code": "",
+      "certifying_body": "Infusion Nurses Certification Corporation (INCC)",
+      "vendor_slug": "infusion-nurses-certification-corporation-incc",
+      "domains": 3,
+      "total_questions": 140,
+      "duration_minutes": 150,
+      "source_url": "https://www.ins1.org/wp-content/uploads/2025/11/2025-INCC-CRNI-Exam-Content-Outline.pdf",
+      "practice_url": "https://quizforge.ai/tests/crni-certified-registered-nurse-infusion",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
+    },
+    {
       "exam_id": "cprm-certified-professional-records-management",
       "exam_name": "CRM Certified Records Manager",
       "exam_code": "",
@@ -15684,6 +16494,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:36+00:00"
+    },
+    {
+      "exam_id": "cfs-food-scientist",
+      "exam_name": "CFS Certified Food Scientist",
+      "exam_code": "",
+      "certifying_body": "Institute of Food Technologists (IFT)",
+      "vendor_slug": "institute-of-food-technologists-ift",
+      "domains": 8,
+      "total_questions": 120,
+      "duration_minutes": 180,
+      "source_url": "https://www.ift.org/-/media/certification/pdf/cfs/2021cfsworkbookv3.ashx",
+      "practice_url": "https://quizforge.ai/tests/cfs-food-scientist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:00+00:00"
     },
     {
       "exam_id": "ccse",
@@ -16001,6 +16826,21 @@
       "verified_at": "2026-09-13T15:23:38+00:00"
     },
     {
+      "exam_id": "irs-enrolled-agent-exam-part-2-business-tax",
+      "exam_name": "IRS Enrolled Agent Part 2 Business Tax",
+      "exam_code": "",
+      "certifying_body": "Internal Revenue Service (IRS)",
+      "vendor_slug": "internal-revenue-service-irs",
+      "domains": 3,
+      "total_questions": 100,
+      "duration_minutes": 210,
+      "source_url": "https://content.psiexams.com/pdf/irs/IRS%20EA-SEE%20ECO%202.pdf",
+      "practice_url": "https://quizforge.ai/tests/irs-enrolled-agent-exam-part-2-business-tax",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:04+00:00"
+    },
+    {
       "exam_id": "ib-career-related",
       "exam_name": "IB Career-related Programme (IBCP)",
       "exam_code": "IBCP",
@@ -16059,6 +16899,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "icbo-building-plans-examiner",
+      "exam_name": "ICC Building Plans Examiner Certification",
+      "exam_code": "",
+      "certifying_body": "International Code Council",
+      "vendor_slug": "icc",
+      "domains": 7,
+      "total_questions": 80,
+      "duration_minutes": 210,
+      "source_url": "https://www.iccsafe.org/app/wp-content/uploads/DBPR_EIB.pdf",
+      "practice_url": "https://quizforge.ai/tests/icbo-building-plans-examiner",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
     },
     {
       "exam_id": "jlpt-n1",
@@ -17718,6 +18573,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "nabcep-pv-installation-professional",
+      "exam_name": "NABCEP PVIP",
+      "exam_code": "",
+      "certifying_body": "NABCEP",
+      "vendor_slug": "nabcep",
+      "domains": 4,
+      "total_questions": 70,
+      "duration_minutes": 240,
+      "source_url": "https://www.nabcep.org/wp-content/uploads/2018/12/NABCEP-PV-Installation-JTA-12-14-17.pdf",
+      "practice_url": "https://quizforge.ai/tests/nabcep-pv-installation-professional",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
+    },
+    {
       "exam_id": "excpt",
       "exam_name": "ExCPT (Exam for the Certification of Pharmacy Technicians)",
       "exam_code": "ExCPT",
@@ -17776,6 +18646,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "cva-certified-valuation-analyst",
+      "exam_name": "CVA Certified Valuation Analyst (NACVA)",
+      "exam_code": "",
+      "certifying_body": "NACVA",
+      "vendor_slug": "nacva",
+      "domains": 9,
+      "total_questions": 400,
+      "duration_minutes": 300,
+      "source_url": "https://web.nacva.com/TL-Website/PDF/Body_of_Knowledge.pdf",
+      "practice_url": "https://quizforge.ai/tests/cva-certified-valuation-analyst",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
     },
     {
       "exam_id": "naea-see-part1",
@@ -18106,6 +18991,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:39+00:00"
+    },
+    {
+      "exam_id": "nbce-part-2-chiropractic-clinical-sciences",
+      "exam_name": "NBCE Part II Clinical Sciences Chiropractic Board Examination",
+      "exam_code": "",
+      "certifying_body": "NBCE",
+      "vendor_slug": "national-board-of-chiropractic-examiners-nbce",
+      "domains": 6,
+      "total_questions": 255,
+      "duration_minutes": null,
+      "source_url": "https://www.nbce.org/wp-content/uploads/NBCE-FINAL-Test-Plan-Part-II.pdf",
+      "practice_url": "https://quizforge.ai/tests/nbce-part-2-chiropractic-clinical-sciences",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
     },
     {
       "exam_id": "nbcot-cota",
@@ -18473,6 +19373,21 @@
       "verified_at": "2026-08-30T20:18:12+00:00",
       "lifecycle_status": "scheduled_retirement",
       "retires_on": "2027-12-31"
+    },
+    {
+      "exam_id": "nbrc-rrt-accs",
+      "exam_name": "NBRC RRT-ACCS Adult Critical Care Specialist",
+      "exam_code": "",
+      "certifying_body": "NBRC",
+      "vendor_slug": "nbrc",
+      "domains": 2,
+      "total_questions": 150,
+      "duration_minutes": 240,
+      "source_url": "https://www.nbrc.org/wp-content/uploads/2026/02/NBRC-ACCS-DCO-August-2026.pdf",
+      "practice_url": "https://quizforge.ai/tests/nbrc-rrt-accs",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
     },
     {
       "exam_id": "nbrc-tmce",
@@ -19515,6 +20430,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "ncidq-interior-design-certification",
+      "exam_name": "NCIDQ Interior Design Certification",
+      "exam_code": "",
+      "certifying_body": "NCIDQ",
+      "vendor_slug": "ncidq",
+      "domains": 16,
+      "total_questions": 360,
+      "duration_minutes": 600,
+      "source_url": "https://www.cidq.org/wp-content/uploads/2026/01/NCIDQ-Candidate-Handbook-FINAL-1225.pdf",
+      "practice_url": "https://quizforge.ai/tests/ncidq-interior-design-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
+    },
+    {
       "exam_id": "ccm-contracts-manager",
       "exam_name": "NCMA Certified Contracts Manager Exam",
       "exam_code": "",
@@ -19695,6 +20625,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "haccp-certified-professional",
+      "exam_name": "HACCP Certified Professional (NEHA)",
+      "exam_code": "",
+      "certifying_body": "NEHA",
+      "vendor_slug": "neha",
+      "domains": 12,
+      "total_questions": 120,
+      "duration_minutes": 120,
+      "source_url": "https://www.neha.org/PDFs/CPFS%20Blueprint_2025.pdf",
+      "practice_url": "https://quizforge.ai/tests/haccp-certified-professional",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
     },
     {
       "exam_id": "nes-assessment-of-professional-knowledge",
@@ -20419,6 +21364,21 @@
       "verified_at": "2026-09-13T15:23:37+00:00"
     },
     {
+      "exam_id": "nsca-cscs-certified-strength-conditioning-specialist",
+      "exam_name": "NSCA CSCS",
+      "exam_code": "",
+      "certifying_body": "NSCA",
+      "vendor_slug": "nsca",
+      "domains": 7,
+      "total_questions": 220,
+      "duration_minutes": 240,
+      "source_url": "https://www.nsca.com/globalassets/certification/certification-pdfs/certified-strength-and-conditioning-specialist-job-task-analysis-summary-2025.pdf",
+      "practice_url": "https://quizforge.ai/tests/nsca-cscs-certified-strength-conditioning-specialist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:06+00:00"
+    },
+    {
       "exam_id": "nta-cmat",
       "exam_name": "CMAT (Common Management Admission Test)",
       "exam_code": "CMAT",
@@ -20554,6 +21514,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "whnp-bc-womens-health-nurse-practitioner",
+      "exam_name": "WHNP-BC: Women's Health NP Certification",
+      "exam_code": "",
+      "certifying_body": "National Certification Corporation (NCC)",
+      "vendor_slug": "national-certification-corporation-ncc",
+      "domains": 6,
+      "total_questions": 175,
+      "duration_minutes": 180,
+      "source_url": "https://www.nccwebsite.org/content/documents/cms/whnp-content-outline.pdf",
+      "practice_url": "https://quizforge.ai/tests/whnp-bc-womens-health-nurse-practitioner",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:08+00:00"
+    },
+    {
       "exam_id": "cprp-certified-park-recreation-professional",
       "exam_name": "CPRP Certified Park and Recreation Professional",
       "exam_code": "",
@@ -20567,6 +21542,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:36+00:00"
+    },
+    {
+      "exam_id": "haccp-manager-certification-ansi",
+      "exam_name": "HACCP Manager Certification",
+      "exam_code": "",
+      "certifying_body": "National Registry of Food Safety Professionals (NRFSP)",
+      "vendor_slug": "national-registry-of-food-safety-professionals-nrfsp",
+      "domains": 5,
+      "total_questions": 90,
+      "duration_minutes": 120,
+      "source_url": "https://www.nrfsp.com/wp-content/uploads/Documents/HACCP/Examination_Content_Outline-HACCP.pdf",
+      "practice_url": "https://quizforge.ai/tests/haccp-manager-certification-ansi",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:03+00:00"
     },
     {
       "exam_id": "nicsec-esthetics-theory-examination",
@@ -20837,6 +21827,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:36+00:00"
+    },
+    {
+      "exam_id": "nonprofit-leadership-alliance-cnp",
+      "exam_name": "Certified Nonprofit Professional (CNP)",
+      "exam_code": "",
+      "certifying_body": "Nonprofit Leadership Alliance",
+      "vendor_slug": "nonprofit-leadership-alliance",
+      "domains": 10,
+      "total_questions": 100,
+      "duration_minutes": null,
+      "source_url": "https://nla1.org/wp-content/uploads/2022/02/NLA-Competency-Listing.pdf",
+      "practice_url": "https://quizforge.ai/tests/nonprofit-leadership-alliance-cnp",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
     },
     {
       "exam_id": "nutanix-nca",
@@ -21720,6 +22725,96 @@
       "verified_at": null
     },
     {
+      "exam_id": "iso-22301-lead-auditor-business-continuity",
+      "exam_name": "ISO 22301 Lead Auditor Certification",
+      "exam_code": "",
+      "certifying_body": "PECB",
+      "vendor_slug": "pecb",
+      "domains": 7,
+      "total_questions": 80,
+      "duration_minutes": null,
+      "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-22301-lead-auditor-mc.pdf",
+      "practice_url": "https://quizforge.ai/tests/iso-22301-lead-auditor-business-continuity",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:04+00:00"
+    },
+    {
+      "exam_id": "iso-27001-lead-auditor-isms",
+      "exam_name": "ISO 27001 ISMS Lead Auditor Certification (PECB)",
+      "exam_code": "",
+      "certifying_body": "PECB",
+      "vendor_slug": "pecb",
+      "domains": 7,
+      "total_questions": 80,
+      "duration_minutes": null,
+      "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-27001-lead-auditor-mc.pdf",
+      "practice_url": "https://quizforge.ai/tests/iso-27001-lead-auditor-isms",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:04+00:00"
+    },
+    {
+      "exam_id": "iso-27001-lead-implementer-isms",
+      "exam_name": "ISO 27001 ISMS Lead Implementer Certification (PECB)",
+      "exam_code": "",
+      "certifying_body": "PECB",
+      "vendor_slug": "pecb",
+      "domains": 7,
+      "total_questions": 80,
+      "duration_minutes": null,
+      "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-27001-lead-implementer-mc.pdf",
+      "practice_url": "https://quizforge.ai/tests/iso-27001-lead-implementer-isms",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:04+00:00"
+    },
+    {
+      "exam_id": "iso-45001-lead-auditor-certification",
+      "exam_name": "ISO 45001 Lead Auditor Certification",
+      "exam_code": "",
+      "certifying_body": "PECB",
+      "vendor_slug": "pecb",
+      "domains": 7,
+      "total_questions": 80,
+      "duration_minutes": null,
+      "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-45001-lead-auditor-mc.pdf",
+      "practice_url": "https://quizforge.ai/tests/iso-45001-lead-auditor-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:04+00:00"
+    },
+    {
+      "exam_id": "iso-50001-lead-auditor-energy-management",
+      "exam_name": "ISO 50001 Lead Auditor Certification",
+      "exam_code": "",
+      "certifying_body": "PECB",
+      "vendor_slug": "pecb",
+      "domains": 7,
+      "total_questions": 12,
+      "duration_minutes": null,
+      "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-50001-lead-auditor.pdf",
+      "practice_url": "https://quizforge.ai/tests/iso-50001-lead-auditor-energy-management",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:04+00:00"
+    },
+    {
+      "exam_id": "iso-9001-lead-auditor-certification",
+      "exam_name": "ISO 9001 Lead Auditor Certification",
+      "exam_code": "",
+      "certifying_body": "PECB",
+      "vendor_slug": "pecb",
+      "domains": 7,
+      "total_questions": 80,
+      "duration_minutes": null,
+      "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-9001-lead-auditor-mc.pdf",
+      "practice_url": "https://quizforge.ai/tests/iso-9001-lead-auditor-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:04+00:00"
+    },
+    {
       "exam_id": "iso-27001-lead-auditor-certification",
       "exam_name": "ISO/IEC 27001 Lead Auditor Certification",
       "exam_code": "",
@@ -21808,6 +22903,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:41+00:00"
+    },
+    {
+      "exam_id": "pmi-professional-in-business-analysis-pmi-pba",
+      "exam_name": "PMI Professional in Business Analysis (PMI-PBA)",
+      "exam_code": "",
+      "certifying_body": "PMI",
+      "vendor_slug": "pmi",
+      "domains": 5,
+      "total_questions": 200,
+      "duration_minutes": 240,
+      "source_url": "https://www.pmi.org/certifications/business-analysis-pba",
+      "practice_url": "https://quizforge.ai/tests/pmi-professional-in-business-analysis-pmi-pba",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:06+00:00"
     },
     {
       "exam_id": "pmi-pgmp",
@@ -22026,6 +23136,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "pncb-certified-pediatric-nurse-cpn",
+      "exam_name": "PNCB Certified Pediatric Nurse (CPN)",
+      "exam_code": "",
+      "certifying_body": "Pediatric Nursing Certification Board (PNCB)",
+      "vendor_slug": "pediatric-nursing-certification-board-pncb",
+      "domains": 4,
+      "total_questions": 175,
+      "duration_minutes": 180,
+      "source_url": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf",
+      "practice_url": "https://quizforge.ai/tests/pncb-certified-pediatric-nurse-cpn",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:06+00:00"
+    },
+    {
       "exam_id": "pega-cpba",
       "exam_name": "Certified Pega Business Architect (CPBA)",
       "exam_code": "PEGACPBA23V1",
@@ -22119,6 +23244,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "dora-devops",
+      "exam_name": "DORA DevOps Foundation",
+      "exam_code": "",
+      "certifying_body": "PeopleCert",
+      "vendor_slug": "peoplecert",
+      "domains": 8,
+      "total_questions": 40,
+      "duration_minutes": 60,
+      "source_url": "https://www.peoplecert.org/browse-certifications/devops/DevOps-13/devops-foundation-2457",
+      "practice_url": "https://quizforge.ai/tests/dora-devops",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:02+00:00"
     },
     {
       "exam_id": "axelos-itil-4-foundation",
@@ -22356,6 +23496,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "ncea-certified-aesthetic-nurse-specialist",
+      "exam_name": "NCEA Certified Aesthetic Nurse Specialist",
+      "exam_code": "",
+      "certifying_body": "Plastic Surgical Nursing Certification Board (PSNCB)",
+      "vendor_slug": "plastic-surgical-nursing-certification-board-psncb",
+      "domains": 3,
+      "total_questions": 150,
+      "duration_minutes": 240,
+      "source_url": "https://psncb.org/multimedia/files/CANS/Application.pdf",
+      "practice_url": "https://quizforge.ai/tests/ncea-certified-aesthetic-nurse-specialist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:05+00:00"
     },
     {
       "exam_id": "plumb-backflow",
@@ -22793,6 +23948,36 @@
       "verified_at": null
     },
     {
+      "exam_id": "red-seal-electrician",
+      "exam_name": "Red Seal Electrician Exam",
+      "exam_code": "",
+      "certifying_body": "Red Seal (Interprovincial Standards Red Seal Program)",
+      "vendor_slug": "red-seal-interprovincial-standards-red-seal-program",
+      "domains": 5,
+      "total_questions": 100,
+      "duration_minutes": 240,
+      "source_url": "https://red-seal.ca/eng/trades/constelectric/exam-information.shtml",
+      "practice_url": "https://quizforge.ai/tests/red-seal-electrician",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:07+00:00"
+    },
+    {
+      "exam_id": "ribo-insurance",
+      "exam_name": "RIBO Registered Insurance Broker Ontario",
+      "exam_code": "",
+      "certifying_body": "Registered Insurance Brokers of Ontario (RIBO)",
+      "vendor_slug": "registered-insurance-brokers-of-ontario-ribo",
+      "domains": 5,
+      "total_questions": 100,
+      "duration_minutes": 180,
+      "source_url": "https://www.ribo.com/getting-a-license/individual-licenses/new-applicants/examinations/level-1-entry-level-broker-exam/",
+      "practice_url": "https://quizforge.ai/tests/ribo-insurance",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:07+00:00"
+    },
+    {
       "exam_id": "sap-p-sapea-sap-certified-sap-enterprise-architect",
       "exam_name": "SAP Certified - SAP Enterprise Architect",
       "exam_code": "P_SAPEA",
@@ -23145,6 +24330,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "sas-advanced",
+      "exam_name": "SAS Certified Advanced Programmer",
+      "exam_code": "",
+      "certifying_body": "SAS Institute",
+      "vendor_slug": "sas-institute",
+      "domains": 3,
+      "total_questions": 60,
+      "duration_minutes": 110,
+      "source_url": "https://www.sas.com/content/dam/sasdam/documents/20250124/advanced-programming-sas-94-exam-guide.pdf",
+      "practice_url": "https://quizforge.ai/tests/sas-advanced",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:08+00:00"
+    },
+    {
       "exam_id": "sas-a00-232",
       "exam_name": "SAS Certified Professional: Advanced Programming",
       "exam_code": "A00-232",
@@ -23263,6 +24463,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "sqf-practitioner-certification",
+      "exam_name": "SQF Practitioner Food Safety Certification",
+      "exam_code": "",
+      "certifying_body": "SQFI (Safe Quality Food Institute)",
+      "vendor_slug": "sqfi-safe-quality-food-institute",
+      "domains": 3,
+      "total_questions": 60,
+      "duration_minutes": 60,
+      "source_url": "https://www.sqfi.com/training-events/search-for-training/certified-sqf-practitioner-credential/7",
+      "practice_url": "https://quizforge.ai/tests/sqf-practitioner-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:08+00:00"
     },
     {
       "exam_id": "ssat-elementary",
@@ -27062,6 +28277,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "togaf-10-foundation",
+      "exam_name": "TOGAF 10 Foundation",
+      "exam_code": "",
+      "certifying_body": "The Open Group",
+      "vendor_slug": "the-open-group",
+      "domains": 6,
+      "total_questions": 40,
+      "duration_minutes": 60,
+      "source_url": "https://help.opengroup.org/hc/en-us/articles/32158230604050-What-Is-the-Exam-Plan-for-the-OGEA-101-TOGAF-Enterprise-Architecture-Part-1-Exam",
+      "practice_url": "https://quizforge.ai/tests/togaf-10-foundation",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-13T23:40:08+00:00"
     },
     {
       "exam_id": "open-group-togaf-certified",

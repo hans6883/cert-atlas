@@ -1,0 +1,164 @@
+{
+ "exam_id": "togaf-10-foundation",
+ "editorial": {
+  "meta_description": "Prepare for the TOGAF 10 Foundation certification by The Open Group. Master core architecture concepts, ADM techniques, and governance principles across 40.",
+  "overview": "The TOGAF 10 Foundation exam evaluates knowledge of core enterprise architecture concepts, the Architecture Development Method, and architecture governance. Certified by The Open Group, this complete certification validates an understanding of standard enterprise architecture terminology and structure to help professionals succeed in their careers by demonstrating baseline comprehension of standard methodologies.",
+  "who_should_take": "Enterprise architects, IT consultants, and project managers seeking to validate their understanding of standard enterprise architecture frameworks and methodology principles within organizational settings across various industries.",
+  "skills_summary": [
+   "Mastering core architecture concepts",
+   "Understanding ADM phases and cycle",
+   "Applying ADM techniques and guidelines",
+   "Implementing architecture governance structures",
+   "Managing architecture content and repositories"
+  ],
+  "preparation_strategy": "Review official source documentation and study the core components of the architecture development cycle in detail. Focus on understanding repository management, phase versions, scoping dimensions, and how enterprise architecture governance operates across different organizational structures to prepare for the test successfully.",
+  "domain_guidance": [
+   {
+    "domain_id": "1",
+    "summary": "This domain focuses heavily on the basic theories and standard terminology that underpin enterprise architecture practices within a modern organization, ensuring candidates understand the basic framework definitions and the enterprise continuum.",
+    "study_focus": [
+     "Core architecture definitions",
+     "Enterprise continuum frameworks"
+    ],
+    "source_ids": [
+     "togaf-10-foundation-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2",
+    "summary": "This domain explores the main phases and the iterative nature of the Architecture Development Method cycle, helping professionals learn how to structure architecture phases and develop an initial architecture vision properly.",
+    "study_focus": [
+     "ADM phase structure",
+     "Architecture vision development"
+    ],
+    "source_ids": [
+     "togaf-10-foundation-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3",
+    "summary": "This domain covers the supplementary techniques and guidelines utilized during architecture development activities, providing candidates with the knowledge needed to apply supporting templates and execute architecture work successfully.",
+    "study_focus": [
+     "Supporting guidelines and templates",
+     "Techniques for architecture work"
+    ],
+    "source_ids": [
+     "togaf-10-foundation-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4",
+    "summary": "This domain examines practical methods for tailoring and executing architecture development across various enterprise environments, enabling practitioners to adapt the ADM method and manage different scoping architecture dimensions effectively.",
+    "study_focus": [
+     "Adapting the ADM method",
+     "Scoping architecture dimensions"
+    ],
+    "source_ids": [
+     "togaf-10-foundation-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5",
+    "summary": "This domain details the specific processes and repositories needed to govern architecture artifacts and compliance successfully, ensuring that practitioners can maintain repository management standards and handle reference data efficiently.",
+    "study_focus": [
+     "Architecture governance processes",
+     "Repository management and reference data"
+    ],
+    "source_ids": [
+     "togaf-10-foundation-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6",
+    "summary": "This domain addresses the categorization and versioning of deliverables produced throughout the architecture lifecycle, teaching students how to manage architecture content deliverables and apply proper version numbering conventions.",
+    "study_focus": [
+     "Architecture content deliverables",
+     "Version numbering conventions"
+    ],
+    "source_ids": [
+     "togaf-10-foundation-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Manage your time carefully across the 40 questions during the 60-minute duration. Read each question carefully to identify specific framework details and achieve the passing score.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of a total of 40 questions designed to test your knowledge of enterprise architecture concepts, methods, and governance principles established by the governing organization."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score required to achieve certification is 60%. Candidates must meet or exceed this percentage threshold across the evaluation to successfully pass the examination."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "You are given 60 minutes to complete all questions on the exam. Proper time management during this period is vital for addressing every item on the test."
+   },
+   {
+    "question_title": "Who certifies the exam?",
+    "answer_text": "The exam is certified and administered by The Open Group, which sets the official curriculum standards, framework definitions, and evaluation metrics for all participating candidates."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using verified facts and official documentation provided by The Open Group to ensure accurate preparation guidelines and reliable information for all candidates.",
+   "source_ids": [
+    "togaf-10-foundation-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "togaf-10-foundation-exam_guide",
+   "togaf-10-foundation-exam_guide-2",
+   "togaf-10-foundation-exam_guide-3",
+   "togaf-10-foundation-exam_guide-4"
+  ]
+ },
+ "sources": [
+  {
+   "id": "togaf-10-foundation-exam_guide",
+   "url": "https://www.opengroup.org/certifications/togaf-portfolio-faq",
+   "title": "The Open Group exam guide",
+   "publisher": "The Open Group",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:e40985ff677714f61d81060bb11e0b7d0e8a97c1d340209c97211f8283982f84"
+  },
+  {
+   "id": "togaf-10-foundation-exam_guide-2",
+   "url": "https://www.pmtrainingschool.com/blog/togaf-10-pass-fail-scenarios/",
+   "title": "The Open Group exam guide (pmtrainingschool.com)",
+   "publisher": "pmtrainingschool.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:04fd5e6cc9bcde0a2ca16efbb9b4c546e6ef06ff239fbfe300d0dca3be07c222"
+  },
+  {
+   "id": "togaf-10-foundation-exam_guide-3",
+   "url": "https://certstud.com/certifications/togaf",
+   "title": "The Open Group exam guide (certstud.com)",
+   "publisher": "certstud.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:c003c9f736a2c647e242f03211150204a485131bde671c235b849372b13270e7"
+  },
+  {
+   "id": "togaf-10-foundation-exam_guide-4",
+   "url": "https://trustedinstitute.com/practice/togaf-10-foundation/",
+   "title": "The Open Group exam guide (trustedinstitute.com)",
+   "publisher": "trustedinstitute.com",
+   "source_type": "third_party_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:594e8d678b99251c2f836209a8468b168dab3255bf9ea27c696ea81f08f4cf65"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T19:46:40+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T23:40:08+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T23:40:08+00:00"
+ }
+}
