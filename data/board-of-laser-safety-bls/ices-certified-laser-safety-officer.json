@@ -1,0 +1,266 @@
+{
+  "exam_id": "ices-certified-laser-safety-officer",
+  "exam_name": "CLSO Certified Laser Safety Officer",
+  "exam_code": "",
+  "certifying_body": "Board of Laser Safety (BLS)",
+  "version": null,
+  "source_url": "https://assets.lasersafety.org/s3fs-public/assets/pdf/CLSO/CLSO%20Exam%20Ref%2019.pdf",
+  "total_questions": 100,
+  "duration_minutes": 180,
+  "domains": [
+    {
+      "id": "1",
+      "name": "Area of Practice I - Lasers & Optics Fundamentals",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Area of Practice II - Laser/Optical Radiation Bioeffects",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Area of Practice III - Non-beam Hazards Associated with Lasers",
+      "weight_percent": 8.0,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Area of Practice IV - Laser Control Measures",
+      "weight_percent": 17.0,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Area of Practice V - Regulations and Standards",
+      "weight_percent": 14.0,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Area of Practice VI - Hazard Evaluation & Classification",
+      "weight_percent": 15.0,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Area of Practice VII - Maximum Permissible Exposures (MPE)",
+      "weight_percent": 11.0,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "Area of Practice VIII - Laser Safety Program Administration",
+      "weight_percent": 10.0,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Area of Practice IX - Laser Measurements",
+      "weight_percent": 3.0,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "CLSO Certified Laser Safety Officer"
+  ],
+  "practice_url": "https://quizforge.ai/tests/ices-certified-laser-safety-officer",
+  "editorial": {
+    "meta_description": "Prepare for the CLSO Certified Laser Safety Officer exam administered by the Board of Laser Safety covering 9 distinct practice areas.",
+    "overview": "The CLSO Certified Laser Safety Officer exam is administered by the Board of Laser Safety (BLS) and covers nine distinct areas of practice related to laser safety, optical radiation bioeffects, regulations, and hazard evaluation. Candidates are evaluated on their operational understanding across 100 questions within an allotted testing duration of 180 minutes.",
+    "who_should_take": "Candidates seeking professional certification as a laser safety officer who actively manage or oversee extensive laser safety programs across medical, educational, industrial manufacturing, academic, or research laboratory settings.",
+    "skills_summary": [
+      "Lasers and optics fundamentals",
+      "Laser optical radiation bioeffects",
+      "Non-beam hazards associated with lasers",
+      "Laser control measures",
+      "Regulations and standards",
+      "Hazard evaluation and classification",
+      "Maximum Permissible Exposures",
+      "Laser safety program administration"
+    ],
+    "preparation_strategy": "Review the relevant standards and regulations, such as ANSI Z136.1-2014, while dedicating structured time to all nine areas of practice. Use flashcards and practice questions to familiarize yourself with the question formats, and prepare for calculations using an approved simple scientific, non-programmable calculator before testing.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "Covers lasers and optics fundamentals, accounting for 11.0 percent of the exam. Candidates must demonstrate knowledge of core optical radiation properties, physical laser characteristics, output parameters, and basic radiometric terminology necessary for evaluation.",
+        "study_focus": [
+          "Radiometric terms and units",
+          "Properties of laser radiation",
+          "Laser output parameters"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "Focuses on laser and optical radiation bioeffects, weighted at 11.0 percent of the test. The content reviews the biological interactions and damage mechanisms of laser energy on the human eye and skin across diverse spectral bands.",
+        "study_focus": [
+          "Effects on the human eye",
+          "Effects on the skin"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Addresses non-beam hazards associated with lasers, representing 8.0 percent of the overall examination. Topics encompass electrical, physical, chemical, and biological dangers that arise during laser operation, maintenance, service, and beam interaction with target materials.",
+        "study_focus": [
+          "Irradiance dependence of specific non-beam hazards",
+          "Physical hazards",
+          "Chemical and biological hazards"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Covers laser control measures and accounts for 17.0 percent of the examination weight. Candidates are evaluated on selecting, implementing, and monitoring engineering controls, administrative procedures, warning signs, labels, and personal protective equipment.",
+        "study_focus": [
+          "Engineering controls",
+          "Administrative and procedural controls",
+          "Signs and labels",
+          "Personal protective equipment"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Details regulations and standards, making up 14.0 percent of the total exam weight. Candidates must understand compliance requirements involving the ANSI Z136.1 Safe Use of Lasers standard, the Federal Laser Product Performance Standard, and OSHA regulations.",
+        "study_focus": [
+          "ANSI Z136.1 Safe Use of Lasers standard",
+          "Federal Laser Product Performance Standard",
+          "OSHA regulations"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "Covers hazard evaluation and classification with a 15.0 percent exam weight. The domain requires competence in classifying laser systems, analyzing viewing conditions, establishing nominal hazard zones, and applying quantitative assessment criteria correctly.",
+        "study_focus": [
+          "Laser hazard evaluation",
+          "Laser classification"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "Focuses on Maximum Permissible Exposures, accounting for 11.0 percent of the exam. This area tests the ability to perform MPE calculations and properly apply biological correction factors across various wavelengths and pulse durations.",
+        "study_focus": [
+          "MPE calculations",
+          "Selected MPEs and correction factors"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "Addresses laser safety program administration, weighted at 10.0 percent of the examination. Topics include establishing institutional policies, managing safety audits, conducting training programs, maintaining documentation, and executing designated laser safety officer responsibilities.",
+        "study_focus": [
+          "Program management",
+          "Safety administration tasks"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "Covers laser measurements, representing 3.0 percent of the examination content. The domain evaluates knowledge of optical measurement equipment, measurement procedures, calibration considerations, and practical techniques required for verifying operational laser hazard evaluations.",
+        "study_focus": [
+          "Optical measurements for hazard evaluations",
+          "Measurement equipment and techniques"
+        ],
+        "source_ids": [
+          "ices-certified-laser-safety-officer-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Read all questions and answer choices carefully before selecting the most correct answer. You may use a simple scientific, non-programmable calculator during the 180 minutes provided for the 100 questions.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The CLSO exam consists of 100 multiple-choice questions covering nine different areas of practice related to laser safety. Candidates should plan their time carefully across all sections of the test."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Candidates must check with Board of Laser Safety (BLS) for specific details regarding the passing score and scoring policies for the certification exam, as predetermined cut scores are established by the board."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "Test takers are given 180 minutes to complete the 100-question multiple-choice examination administered by the Board of Laser Safety. Managing your pacing evenly ensures adequate time for every question."
+      },
+      {
+        "question_title": "What materials are permitted during the exam?",
+        "answer_text": "Candidates may use a simple scientific, non-programmable calculator during the test session. Personal electronic devices, including mobile phone calculators, are strictly prohibited in the testing room during the examination."
+      }
+    ],
+    "methodology": {
+      "summary": "This content is structured using official Board of Laser Safety reference materials, exam guides, and published domain outlines to ensure accurate editorial representation.",
+      "source_ids": [
+        "ices-certified-laser-safety-officer-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "ices-certified-laser-safety-officer-exam_guide",
+      "ices-certified-laser-safety-officer-exam_guide-2",
+      "ices-certified-laser-safety-officer-exam_guide-3",
+      "ices-certified-laser-safety-officer-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "ices-certified-laser-safety-officer-exam_guide",
+      "url": "https://www.lasersafety.org/become-certified/studying",
+      "title": "Exam Structure & Studying | Board of Laser Safety",
+      "publisher": "Board of Laser Safety (BLS)",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:5c3ae8a3cf29b0b246594348d519c6fa36e5cef5665d75c5e4c182311f53b922"
+    },
+    {
+      "id": "ices-certified-laser-safety-officer-exam_guide-2",
+      "url": "https://de356l4tocdyu.cloudfront.net/pdf/CLSOP&PManual.pdf",
+      "title": "Board of Laser Safety (BLS) exam guide (de356l4tocdyu.cloudfront.net)",
+      "publisher": "cloudfront.net",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:f984c9a4462823bb300c1a9cac18e52c1d696a290a53c5ddb4f5d369c9673ccd"
+    },
+    {
+      "id": "ices-certified-laser-safety-officer-exam_guide-3",
+      "url": "https://lavidaai.com/how-to-become-a-certified-laser-safety-officer/",
+      "title": "Board of Laser Safety (BLS) exam guide (lavidaai.com)",
+      "publisher": "lavidaai.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:378b1087e32512cac620d2a87bba730aa1804a143ea7bcf06e6274440ef54819"
+    },
+    {
+      "id": "ices-certified-laser-safety-officer-exam_guide-4",
+      "url": "https://reliablelaser.com/medical-laser-safety-office-course",
+      "title": "Board of Laser Safety (BLS) exam guide (reliablelaser.com)",
+      "publisher": "reliablelaser.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:dee58a53edde57ed3ed3ca5c22e5d67e209096a4c817c02405d6a9115dd7c38f"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T23:40:03+00:00"
+  }
+}

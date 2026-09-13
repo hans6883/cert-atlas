@@ -1,0 +1,344 @@
+{
+  "exam_id": "bmc-helix-itsm-professional",
+  "exam_name": "BMC Helix ITSM Professional",
+  "exam_code": "",
+  "certifying_body": "BMC Software",
+  "version": null,
+  "source_url": "https://www.bmc.com/content/dam/bmc/education/Abstract_SPPT-CERT-ITSM2210-CP.pdf",
+  "duration_minutes": 120,
+  "domains": [
+    {
+      "id": "1",
+      "name": "BMC Helix Innovation Suite Architecture, ITSM architecture and components",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Configuration of foundation data",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Configuration of categorization, assignments, notifications, and templates",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "Configuration of Incident Management, Problem Management and Asset Management, Change and Release Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "Task Management System and Task Phase Management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "Application templates and task templates",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "Email engine rules",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "ITSM archiving process",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "Service Level Management, including components and roles",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "Notifications workflow and management",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "11",
+      "name": "Basics of BMC AR System including AR System access control and user base",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "12",
+      "name": "Centralized configuration settings and AR System Licensing",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "13",
+      "name": "AR System Administration Console and AR Server Group Console",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "14",
+      "name": "Managing users, groups, and roles in the AR System",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "15",
+      "name": "Understand Forms and Fields",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "BMC Helix ITSM Professional"
+  ],
+  "practice_url": "https://quizforge.ai/tests/bmc-helix-itsm-professional",
+  "editorial": {
+    "meta_description": "Prepare for the BMC Helix ITSM Professional exam by BMC Software covering 15 domains across AR System, foundation data, and ITSM modules in a 120-minute test.",
+    "overview": "BMC Software administers the BMC Helix ITSM Professional exam to evaluate technical skills across 15 domains. Candidates face topics including BMC Helix Innovation Suite architecture, foundation data configuration, categorization, templates, and task management systems. The test also assesses expertise in BMC AR System administration, server group consoles, user access control, centralized configuration settings, and archiving processes across a 120-minute examination window.",
+    "who_should_take": "IT service management administrators, system integrators, and technical consultants operating BMC Helix ITSM applications should take this exam. Candidates should have hands-on experience configuring AR System settings, foundation data, assignment rules, and application modules.",
+    "skills_summary": [
+      "BMC Helix Innovation Suite and ITSM architecture",
+      "Foundation data and categorization configuration",
+      "Incident, Problem, Asset, Change, and Release Management setup",
+      "Task Management System and template administration",
+      "BMC AR System user, group, and access control management",
+      "Service Level Management components and archiving workflow"
+    ],
+    "preparation_strategy": "Focus study efforts across all 15 domains outlined by BMC Software. Spend time configuring foundation data, assignment rules, and notifications within the Mid Tier interface and Application Administration Console. Practice working with BMC AR System licensing, centralized configuration parameters, and server group settings. Review Task Management System flows, email engine rules, and archiving processes to ensure technical knowledge across the complete 120-minute testing syllabus.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain addresses the structure of BMC Helix Innovation Suite alongside core ITSM architecture and underlying components. Administrators examine how architectural layers interact to support service management capabilities across deployed applications and system modules.",
+        "study_focus": [
+          "Innovation Suite architectural layers",
+          "ITSM component relationships"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers setting up organizational structure, site information, companies, and people records in BMC Helix ITSM. Practitioners manage foundation data dependencies required before establishing functional assignment rules, product catalog items, and application operational capabilities.",
+        "study_focus": [
+          "Company and site setup",
+          "People record management",
+          "Foundation data order of operations"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This section focuses on defining operational and product categorizations, assignment routing orders, notification triggers, and template structures. Practitioners configure rules that determine how records move between support organizations and assigned personnel.",
+        "study_focus": [
+          "Operational and product categorization",
+          "Support group assignment rules",
+          "System notification management"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Candidates address module-specific administrative settings for core service management processes. Topics include setting lifecycle rules, approval paths, phase transitions, and operational options across Incident, Problem, Asset, Change, and Release Management modules.",
+        "study_focus": [
+          "Incident and Problem Management setup",
+          "Asset Management configurations",
+          "Change and Release process rules"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain concentrates on managing task workflows, task assignments, and phase execution orders within ticketing applications. Administrative tasks include setting up task phases to sequence activities during record resolution.",
+        "study_focus": [
+          "Task Management System configuration",
+          "Task phase sequencing",
+          "Task assignment routing"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "Candidates review standard application templates and reusable task templates that streamline record creation. Topics emphasize defining predefined field values, linking task groups to change or incident templates, and maintaining consistent data input.",
+        "study_focus": [
+          "Application template design",
+          "Task group and template association",
+          "Field default configurations"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This section examines the setup and management of the BMC AR System Email Engine. Topics focus on configuring incoming email parse rules, automated ticket generation criteria, outgoing notifications, and system processing options.",
+        "study_focus": [
+          "Email Rule Engine configuration",
+          "Incoming mail parsing",
+          "Email-driven action rules"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This domain covers setting up and executing data archiving policies within BMC Helix ITSM. Topics center on maintaining database performance, defining criteria for archiving historical records, and configuring underlying archiving forms.",
+        "study_focus": [
+          "Data archiving policies",
+          "Historical record management",
+          "Archiving form settings"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "Candidates review BMC Service Level Management architecture, service level agreements, milestones, and target definitions. Topics highlight role responsibilities, SLA tracking mechanisms, and escalation notification workflows for service targets.",
+        "study_focus": [
+          "Service level target creation",
+          "SLM roles and responsibilities",
+          "SLA milestone and escalation rules"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "This domain focuses on configuring system notification mechanisms, active link triggers, and messaging defaults. System administrators manage Notification Engine parameters to deliver operational updates to internal staff and external requestors.",
+        "study_focus": [
+          "Notification Engine parameters",
+          "Message template customization",
+          "Alert trigger criteria"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "11",
+        "summary": "Candidates demonstrate core knowledge of BMC Remedy Action Request System architecture, user accounts, and security concepts. Emphasis is placed on access control lists, permission groups, explicit permissions, and functional roles.",
+        "study_focus": [
+          "AR System architecture fundamentals",
+          "Access control structures",
+          "Permission groups and explicit permissions"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "12",
+        "summary": "This domain covers managing centralized configuration components and applying application licenses. System administrators learn to modify global system parameters, manage server component settings, and allocate fixed, floating, or read license types.",
+        "study_focus": [
+          "Centralized configuration parameters",
+          "Server component settings",
+          "AR System license allocation"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "13",
+        "summary": "Candidates explore navigation and utility management within administrative consoles. Focus areas include operating the AR System Administration Console, monitoring cluster nodes from the AR Server Group Console, and executing server maintenance.",
+        "study_focus": [
+          "AR System Administration Console",
+          "AR Server Group Console operations",
+          "Cluster node monitoring"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "14",
+        "summary": "This domain emphasizes creating user records, mapping users to security groups, and defining application functional roles. Administrators manage role hierarchies and dynamic permissions to regulate access across system components.",
+        "study_focus": [
+          "User record creation",
+          "Group membership assignment",
+          "Functional role mapping"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "15",
+        "summary": "Candidates analyze form types, field properties, data structures, and database mappings within AR System applications. Study focuses on identifying core, regular, join, and vendor forms alongside field attributes and display properties.",
+        "study_focus": [
+          "Form types and data structures",
+          "Field attributes and properties",
+          "Database field mappings"
+        ],
+        "source_ids": [
+          "bmc-helix-itsm-professional-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Prepare your testing environment in advance and ensure stable network connectivity for the 120-minute examination. Have valid identification ready according to BMC Software testing policies, and log into the exam portal early to complete verification steps.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "BMC Software does not disclose the exact number of questions for the BMC Helix ITSM Professional exam in the official guide. Candidates should prepare to navigate all 15 domains within the 120-minute time limit."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score is not stated in the official exam documentation published by BMC Software. Candidates receive their scoring details upon completion of the test."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The BMC Helix ITSM Professional examination has an official time limit of 120 minutes. Candidates should pace themselves carefully to answer questions across all 15 domain areas."
+      },
+      {
+        "question_title": "What topics are covered in the BMC Helix ITSM Professional exam?",
+        "answer_text": "The test evaluates administrative skills across 15 domains, including BMC AR System basics, Innovation Suite architecture, foundation data, assignment engine rules, notification management, Task Management System configurations, and core ITSM modules."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial overlay was produced by summarizing official BMC Software documentation and exam specifications. Content reflects verified domains and administrative details current as of September 2026.",
+      "source_ids": [
+        "bmc-helix-itsm-professional-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "bmc-helix-itsm-professional-exam_guide"
+    ]
+  },
+  "sources": [
+    {
+      "id": "bmc-helix-itsm-professional-exam_guide",
+      "url": "https://www.bmc.com/content/dam/bmc/education/Abstract_SPPT-CERT-ITSM1902-CP.pdf",
+      "title": "BMC Software exam guide",
+      "publisher": "BMC Software",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:4a53f2619ea2968f6ab6c70580f503f88a0e9c295b27b0b62470b92cacca0a41"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T23:39:59+00:00"
+  }
+}
