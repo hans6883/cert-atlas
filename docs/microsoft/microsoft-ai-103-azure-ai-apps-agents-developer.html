@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-103 Exam Guide, Domains &amp; Skills | Cert Atlas</title>
+<link rel="icon" type="image/svg+xml" href="https://atlas.quizforge.ai/favicon.svg">
+<link rel="icon" type="image/x-icon" href="https://atlas.quizforge.ai/favicon.ico">
+<meta name="description" content="Prepare for the Developing AI Apps and Agents on Azure exam from Microsoft, covering Azure AI solutions, generative AI, and computer vision.">
+<link rel="canonical" href="https://atlas.quizforge.ai/microsoft/microsoft-ai-103-azure-ai-apps-agents-developer">
+<meta property="og:title" content="AI-103 Exam Guide, Domains &amp; Skills | Cert Atlas">
+<meta property="og:description" content="Prepare for the Developing AI Apps and Agents on Azure exam from Microsoft, covering Azure AI solutions, generative AI, and computer vision.">
+<meta property="og:url" content="https://atlas.quizforge.ai/microsoft/microsoft-ai-103-azure-ai-apps-agents-developer">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cert Atlas">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AI-103 Exam Guide, Domains &amp; Skills | Cert Atlas">
+<meta name="twitter:description" content="Prepare for the Developing AI Apps and Agents on Azure exam from Microsoft, covering Azure AI solutions, generative AI, and computer vision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Course", "name": "Developing AI Apps and Agents on Azure", "description": "The Developing AI Apps and Agents on Azure certification exam validates your core technical expertise in building, managing, and deploying advanced artificial intelligence solutions by leveraging Microsoft Foundry services. Certified professionals demonstrate broad proficiency across five distinct domains encompassing generative AI applications, intelligent agents, computer vision, text analysis, and complex information extraction workflows.", "provider": {"@type": "Organization", "name": "Microsoft"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "Online"}, "inLanguage": ["English", "Chinese (Simplified)", "Chinese (Traditional)", "French", "German", "Japanese", "Korean", "Italian", "Portuguese (Brazil)", "Spanish"], "dateModified": "2026-09-13"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlas.quizforge.ai/"}, {"@type": "ListItem", "position": 2, "name": "Microsoft", "item": "https://atlas.quizforge.ai/microsoft/"}, {"@type": "ListItem", "position": 3, "name": "Developing AI Apps and Agents on Azure", "item": "https://atlas.quizforge.ai/microsoft/microsoft-ai-103-azure-ai-apps-agents-developer"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many domains are on the exam?", "acceptedAnswer": {"@type": "Answer", "text": "The exam features 5 distinct domains covering topics such as planning Azure AI solutions, implementing generative AI and agentic solutions, computer vision, text analysis, and information extraction."}}, {"@type": "Question", "name": "What is the passing score?", "acceptedAnswer": {"@type": "Answer", "text": "A passing score of 700 or greater is required on the official examination scale ranging from 1 to 1000 in order to pass successfully and earn the certification."}}, {"@type": "Question", "name": "How much does the exam cost?", "acceptedAnswer": {"@type": "Answer", "text": "Pricing is determined entirely by the country or region in which the exam is proctored, because Microsoft does not publish a static USD list price for candidates."}}, {"@type": "Question", "name": "What is the long-term certification path?", "acceptedAnswer": {"@type": "Answer", "text": "This exam is current and active. For complete long-term certification path details, check directly with Microsoft for the most up-to-date guidance and policy updates regarding your credentials."}}]}</script>
+<style>
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1a2e;
+  --text-muted: #6c757d;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --border: #e2e8f0;
+  --bar: #3b82f6;
+  --bar-bg: #e2e8f0;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --radius: 8px;
+  --green: #059669;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header .container { display: flex; align-items: center; justify-content: space-between; }
+header .site-name { font-size: 20px; font-weight: 700; }
+header .site-name a { color: var(--text); }
+header nav a { margin-left: 24px; font-size: 14px; color: var(--text-muted); }
+header nav a:hover { color: var(--accent); text-decoration: none; }
+
+.hero { padding: 48px 0 32px; }
+.hero h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+.hero p { font-size: 18px; color: var(--text-muted); max-width: 600px; }
+
+.stats-bar {
+  display: flex; gap: 32px; padding: 16px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.stat { text-align: center; }
+.stat-num { font-size: 28px; font-weight: 700; color: var(--accent); display: block; }
+.stat-label { font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.search-box {
+  width: 100%; padding: 12px 16px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 16px; outline: none;
+  margin-bottom: 24px;
+}
+.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.vendor-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: box-shadow 0.15s;
+}
+.vendor-card:hover { box-shadow: var(--card-shadow); text-decoration: none; }
+.vendor-card h3 { font-size: 16px; margin-bottom: 4px; }
+.vendor-card .count { color: var(--text-muted); font-size: 14px; }
+
+.breadcrumb {
+  padding: 12px 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb span { margin: 0 6px; }
+
+.exam-header { padding: 24px 0 16px; }
+.exam-header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.exam-header .exam-code { color: var(--text-muted); font-size: 16px; }
+.exam-header .vendor-link { font-size: 14px; margin-top: 8px; }
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+.fact {
+  background: var(--bg-alt);
+  padding: 16px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.fact-value { font-size: 20px; font-weight: 700; display: block; }
+.fact-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+section.domains { margin: 32px 0; }
+section.domains h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+
+.domain {
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.domain-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.domain-name { font-weight: 600; font-size: 16px; }
+.domain-weight { font-weight: 700; color: var(--accent); font-size: 15px; white-space: nowrap; }
+.domain-weight.weight-na { font-weight: 400; color: var(--text-muted); font-size: 13px; font-style: italic; }
+.domain-bar { height: 6px; background: var(--bar-bg); border-radius: 3px; margin-bottom: 12px; }
+.domain-bar-fill { height: 100%; background: var(--bar); border-radius: 3px; }
+
+.objectives { list-style: none; padding-left: 0; }
+.objectives li { padding: 4px 0 4px 16px; font-size: 14px; border-left: 2px solid var(--border); margin-bottom: 4px; }
+.obj-id { color: var(--text-muted); font-weight: 600; margin-right: 6px; font-size: 13px; }
+.sub-objectives { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+section.info { margin: 32px 0; }
+section.info h3 { font-size: 20px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.info-grid { display: grid; gap: 12px; }
+.info-row { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.info-label { font-weight: 600; min-width: 180px; color: var(--text-muted); }
+.info-value { flex: 1; }
+
+.practice-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0;
+  transition: background 0.15s;
+}
+.practice-cta:hover { background: var(--accent-hover); color: #fff; text-decoration: none; }
+
+.resources { margin: 24px 0; }
+.resource-item { padding: 8px 0; border-bottom: 1px solid var(--bg-alt); font-size: 14px; }
+.resource-type { display: inline-block; background: var(--bg-alt); padding: 2px 8px; border-radius: 4px; font-size: 12px; color: var(--text-muted); margin-right: 8px; }
+
+.exam-list { list-style: none; }
+.exam-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.exam-list li:last-child { border-bottom: none; }
+.exam-list a { font-weight: 500; }
+.exam-list .meta { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  margin-top: 48px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+footer a { color: var(--text-muted); }
+
+.source-link { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+.source-link a { color: var(--text-muted); }
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 24px; }
+  .stats-bar { gap: 16px; flex-wrap: wrap; }
+  .quick-facts { grid-template-columns: repeat(2, 1fr); }
+  .info-row { flex-direction: column; gap: 2px; }
+  .info-label { min-width: auto; }
+}
+
+.editorial { margin: 32px 0; }
+.editorial h2 { margin: 28px 0 10px; font-size: 23px; }
+.editorial h3 { margin: 22px 0 8px; font-size: 18px; }
+.editorial p { margin: 0 0 14px; }
+.editorial ul { margin: 8px 0 18px 22px; }
+.editorial li { margin: 5px 0; }
+.study-signals { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.signal-note { color: var(--text-muted); font-size: 13px; }
+.verification { border-top: 1px solid var(--border); padding-top: 20px; }
+.verification-date { color: var(--text-muted); font-size: 13px; margin-bottom: 10px; }
+.source-list { list-style: none; margin-left: 0; }
+.source-list li { margin: 8px 0; }
+.source-publisher { color: var(--text-muted); font-size: 13px; }
+.retirement-alert { background: #fff7ed; border: 1px solid #fdba74; border-left: 5px solid #ea580c; border-radius: var(--radius); margin: 20px 0 28px; padding: 20px; }
+.retirement-alert h2 { margin: 0 0 8px; font-size: 22px; }
+.retirement-label { color: #9a3412; font-size: 12px; font-weight: 700; letter-spacing: .06em; margin-bottom: 6px; text-transform: uppercase; }
+.replacement-link { display: inline-block; font-weight: 700; margin-top: 6px; }
+.migration-map { margin: 30px 0; }
+.comparison-wrap { overflow-x: auto; }
+.comparison-table { border-collapse: collapse; font-size: 14px; margin: 12px 0 20px; min-width: 720px; width: 100%; }
+.comparison-table th, .comparison-table td { border: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
+.comparison-table th { background: var(--bg-alt); }
+.methodology { background: var(--bg-alt); border-radius: var(--radius); padding: 18px; }
+.source-accessed { color: var(--text-muted); font-size: 12px; }
+/* FAQ disclosure: the native triangle is a separate line box, and <summary><h3> made the
+   question a block, so the marker sat alone above the text. Flex the summary so the
+   marker (::before replaces the suppressed native one) and the question share one line;
+   <details> toggling is native and unaffected. */
+.faq { margin: 28px 0 6px; }
+details.faq-item { border-bottom: 1px solid var(--border); }
+details.faq-item:last-of-type { border-bottom: none; }
+details.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 0;
+}
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+details.faq-item[open] > summary::before { transform: rotate(90deg); }
+details.faq-item summary h3 { font-size: 17px; line-height: 1.4; margin: 0; }
+details.faq-item p { margin: 0 0 14px; }
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="site-name"><a href="https://atlas.quizforge.ai/">Cert Atlas</a></div>
+<nav>
+<a href="https://atlas.quizforge.ai/">Browse</a>
+<a href="https://raw.githubusercontent.com/hans6883/cert-atlas/master/data/index.json">Download</a>
+<a href="https://github.com/hans6883/cert-atlas">GitHub</a>
+<a href="https://quizforge.ai">QuizForge</a>
+</nav>
+</div>
+</header>
+
+<div class="breadcrumb"><div class="container"><a href="https://atlas.quizforge.ai/">Home</a><span>/</span><a href="https://atlas.quizforge.ai/microsoft/">Microsoft</a><span>/</span>Developing AI Apps and Agents on Azure</div></div>
+<div class="container">
+<div class="exam-header">
+<h1>Developing AI Apps and Agents on Azure (AI-103) Exam Blueprint</h1>
+<p class="exam-code">AI-103</p>
+<p class="vendor-link"><a href="https://atlas.quizforge.ai/microsoft/">Microsoft</a></p>
+</div>
+<div class="quick-facts"><div class="fact"><span class="fact-value">700 (1-1000)</span><span class="fact-label">Passing Score</span></div><div class="fact"><span class="fact-value">10</span><span class="fact-label">Languages</span></div></div>
+<a class="practice-cta" href="https://quizforge.ai/tests/developing-ai-apps-and-agents-on-azure-ai-103-practice-test-3d4onv">Practice Developing AI Apps and Agents on Azure on QuizForge</a>
+<section class="editorial" aria-label="Exam guide"><h2>What This Exam Validates</h2><p>The Developing AI Apps and Agents on Azure certification exam validates your core technical expertise in building, managing, and deploying advanced artificial intelligence solutions by leveraging Microsoft Foundry services. Certified professionals demonstrate broad proficiency across five distinct domains encompassing generative AI applications, intelligent agents, computer vision, text analysis, and complex information extraction workflows.</p><h2>Who Should Take This Exam</h2><p>Designed for Azure AI engineers who develop apps using Python. You need familiarity with general AI, generative AI, and Azure services, collaborating with stakeholders to design and maintain AI solutions.</p><h2>Skills You Should Be Ready to Demonstrate</h2><ul><li>Plan and manage an Azure AI solution</li><li>Implement generative AI and agentic solutions</li><li>Implement computer vision solutions</li><li>Implement text analysis solutions</li><li>Implement information extraction solutions</li></ul><h2>How to Prepare</h2><p>Review all official skills measured objectives completely and gain extensive hands-on practical experience utilizing Python programming alongside Microsoft Foundry services. Practice systematically setting up advanced artificial intelligence solutions, deploying modern models, carefully managing security policies, and building retrieval-augmented generation pipelines to prepare successfully for test day.</p><h2>Domain Study Guidance</h2><h3>Plan and manage an Azure AI solution: Study Guidance</h3><p>This domain covers planning and managing an Azure AI solution with a 27.5 percent exam weight, focusing specifically on Foundry service selection, infrastructure setup, and monitoring systems.</p><ul><li>Choose the appropriate Foundry services for generative AI and agents</li><li>Set up AI solutions in Foundry</li><li>Manage, monitor, and secure AI systems</li></ul><h3>Implement generative AI and agentic solutions: Study Guidance</h3><p>This domain focuses on implementing generative AI and agentic solutions with a 32.5 percent weight, addressing application building, autonomous agent construction, and modern system optimization strategies across multiple environments.</p><ul><li>Build generative applications by using Foundry</li><li>Build agents by using Foundry</li><li>Optimize and operationalize generative AI systems</li></ul><h3>Implement computer vision solutions: Study Guidance</h3><p>This domain covers implementing computer vision solutions with a 12.5 percent exam weight, centering heavily on image and video generation, multimodal understanding workflows, and responsible AI practices.</p><ul><li>Design and implement image- and video-generation solutions</li><li>Design and implement multimodal understanding workflows</li><li>Implement responsible AI for multimodal content</li></ul><h3>Implement text analysis solutions: Study Guidance</h3><p>This domain addresses implementing text analysis solutions representing 12.5 percent of the exam, applying advanced language model text analysis techniques alongside speech solutions to build fully functional applications.</p><ul><li>Apply language model text analysis</li><li>Implement speech solutions</li></ul><h3>Implement information extraction solutions: Study Guidance</h3><p>This domain focuses on implementing information extraction solutions with a 12.5 percent weight, building retrieval grounding pipelines and accurately extracting content from documents to support downstream tasks.</p><ul><li>Build retrieval and grounding pipelines</li><li>Extract content from documents</li></ul><h2>Exam-Day Guidance</h2><p>Verify your proctoring environment and register with a personal MSA account to ensure records remain accessible. Manage your time across all five domains and use accommodations if requested.</p><section class="faq" aria-label="Frequently asked questions"><h2>Frequently asked questions</h2><details class="faq-item"><summary><h3>How many domains are on the exam?</h3></summary><p>The exam features 5 distinct domains covering topics such as planning Azure AI solutions, implementing generative AI and agentic solutions, computer vision, text analysis, and information extraction.</p></details><details class="faq-item"><summary><h3>What is the passing score?</h3></summary><p>A passing score of 700 or greater is required on the official examination scale ranging from 1 to 1000 in order to pass successfully and earn the certification.</p></details><details class="faq-item"><summary><h3>How much does the exam cost?</h3></summary><p>Pricing is determined entirely by the country or region in which the exam is proctored, because Microsoft does not publish a static USD list price for candidates.</p></details><details class="faq-item"><summary><h3>What is the long-term certification path?</h3></summary><p>This exam is current and active. For complete long-term certification path details, check directly with Microsoft for the most up-to-date guidance and policy updates regarding your credentials.</p></details></section><div class="verification"><h2>Sources and Verification</h2><p class="verification-date">Verified 2026-09-13</p><ul class="source-list"><li><a href="https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning" rel="nofollow">Customize a model with fine-tuning - Microsoft Foundry | Microsoft Learn</a> <span class="source-publisher">Microsoft</span> <span class="source-accessed">accessed 2026-09-12</span></li><li><a href="https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/responses" rel="nofollow">Use the Azure OpenAI Responses API - Microsoft Foundry | Microsoft Learn</a> <span class="source-publisher">Microsoft</span> <span class="source-accessed">accessed 2026-09-12</span></li><li><a href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models" rel="nofollow">Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn</a> <span class="source-publisher">Microsoft</span> <span class="source-accessed">accessed 2026-09-12</span></li></ul></div><div class="methodology"><h2>How this page was made</h2><p>This detailed page was built using official Microsoft documentation and study guides specifically for the Developing AI Apps and Agents on Azure exam.</p></div></section>
+<section class="domains"><h3>Exam Domains</h3>
+<div class="domain">
+<div class="domain-header">
+<span class="domain-name">1.0 Plan and manage an Azure AI solution</span>
+<span class="domain-weight">28%</span>
+</div>
+<div class="domain-bar"><div class="domain-bar-fill" style="width:27.5%"></div></div>
+<ul class="objectives"><li><span class="obj-id">1.1</span>Choose the appropriate Foundry services for generative AI and agents<div class="sub-objectives">Choose an appropriate model for each task, including large language models (LLMs), small language models, multimodal models, and Foundry Tools; Choose the appropriate Foundry services for generative tasks, grounding, vector search, agent workflows, or multimodal processing; Choose an appropriate method for retrieval and indexing; Choose appropriate memory, tool, and knowledge integration services for agent solutions</div></li><li><span class="obj-id">1.2</span>Set up AI solutions in Foundry<div class="sub-objectives">Design Azure infrastructure for AI apps and agent-based solutions; Choose appropriate deployment options; Configure model and agent deployments; Integrate Foundry projects with continuous integration and continuous deployment (CI/CD) pipelines</div></li><li><span class="obj-id">1.3</span>Manage, monitor, and secure AI systems<div class="sub-objectives">Manage quotas, scaling, rate limits, and cost footprints for model and agent workloads; Monitor model performance, drift, safety events, and grounding quality; Monitor data ingestion quality, search index health, and relevance performance; Configure security, including managed identity, private networking, keyless credentials, and role policies</div></li><li><span class="obj-id">1.4</span>Implement responsible AI across generative AI and agentic systems<div class="sub-objectives">Configure safety filters, guardrails, risk detection, and content moderation; Apply responsible AI instrumentation, including evaluators, safety evaluations, and explanation tooling; Implement auditing through trace logging, provenance metadata, and approval workflows; Govern agent behavior with oversight modes, constraints, and tool-access controls</div></li></ul>
+</div>
+<div class="domain">
+<div class="domain-header">
+<span class="domain-name">2.0 Implement generative AI and agentic solutions</span>
+<span class="domain-weight">32%</span>
+</div>
+<div class="domain-bar"><div class="domain-bar-fill" style="width:32.5%"></div></div>
+<ul class="objectives"><li><span class="obj-id">2.1</span>Build generative applications by using Foundry<div class="sub-objectives">Deploy and consume LLMs, small models, code models, and multimodal models; Implement retrieval-augmented generation (RAG) in an application; Design workflows, tool-augmented flows, and multistep reasoning pipelines; Evaluate models and apps, including detecting fabrications, relevance, quality, and safety; Integrate generative workflows into applications by using Foundry SDKs and connectors; Configure an application to connect to a Foundry project</div></li><li><span class="obj-id">2.2</span>Build agents by using Foundry<div class="sub-objectives">Define agent roles, goals, conversation-tracking approach, and tool schemas; Build agents that integrate retrieval, function-calling, and conversation memory; Integrate agent tools, including APIs, knowledge stores, search, content understanding, and custom functions; Implement orchestrated multi-agent solutions; Build autonomous or semiautonomous workflows with safeguards and approval flow controls; Integrate monitoring into deployed agents, evaluate agent behavior, and perform error analysis</div></li><li><span class="obj-id">2.3</span>Optimize and operationalize generative AI systems<div class="sub-objectives">Tune generation behavior, such as prompt engineering and adjusting model parameters; Implement model reflection, chain-of-thought evaluations, and self-critique loops; Set up observability by implementing tracing, token analytics, safety signals, and latency breakdowns; Orchestrate multiple models, flows, or hybrid LLM and rules engines</div></li></ul>
+</div>
+<div class="domain">
+<div class="domain-header">
+<span class="domain-name">3.0 Implement computer vision solutions</span>
+<span class="domain-weight">12%</span>
+</div>
+<div class="domain-bar"><div class="domain-bar-fill" style="width:12.5%"></div></div>
+<ul class="objectives"><li><span class="obj-id">3.1</span>Design and implement image- and video-generation solutions<div class="sub-objectives">Implement a solution that generates images from text prompts and reference media; Implement a solution that generates videos from text prompts and reference media; Configure image-editing workflows, including inpainting, mask-based edits, and prompt-driven modifications; Implement workflows to edit generated videos; Select and apply appropriate generation and editing controls provided by the platform</div></li><li><span class="obj-id">3.2</span>Design and implement multimodal understanding workflows<div class="sub-objectives">Build a solution that analyzes visual context by using multimodal models; Configure apps to produce concise or detailed captions for single or multiple images; Implement a solution that enables question-answering grounded in visual evidence; Configure generation of alt-text and extended image descriptions aligned to accessibility guidelines; Implement visual understanding by configuring Azure Content Understanding in Foundry Tools to extract visual characteristics; Implement video analysis workflows to process and interpret video segments; Configure single-task and pro-mode Content Understanding pipelines; Implement solutions that identify objects, components, or regions within images or video</div></li><li><span class="obj-id">3.3</span>Implement responsible AI for multimodal content<div class="sub-objectives">Implement filters to classify unsafe or disallowed visual content; Detect and mitigate indirect prompt injection by using embedded text in images; Enforce visual policy rules, such as applying watermarks, flagging prohibited symbols, upholding brand usage requirements, and detecting potentially inappropriate content</div></li></ul>
+</div>
+<div class="domain">
+<div class="domain-header">
+<span class="domain-name">4.0 Implement text analysis solutions</span>
+<span class="domain-weight">12%</span>
+</div>
+<div class="domain-bar"><div class="domain-bar-fill" style="width:12.5%"></div></div>
+<ul class="objectives"><li><span class="obj-id">4.1</span>Apply language model text analysis<div class="sub-objectives">Implement solutions to extract entities, topics, summaries, and structured JSON outputs by using generative prompting and Foundry Tools; Configure detection of sentiment, tone, safety issues, and sensitive content; Build solutions that translate text by using Azure Translator in Foundry Tools or LLM-powered translation flows; Customize language model outputs for domain tasks, such as compliance summarization and domain extraction</div></li><li><span class="obj-id">4.2</span>Implement speech solutions<div class="sub-objectives">Implement workflows to convert speech to text and text to speech for agentic interactions; Integrate speech as an agent modality, including custom speech models; Enable multimodal reasoning from audio inputs; Translate speech into other languages by using language models and Foundry Tools</div></li></ul>
+</div>
+<div class="domain">
+<div class="domain-header">
+<span class="domain-name">5.0 Implement information extraction solutions</span>
+<span class="domain-weight">12%</span>
+</div>
+<div class="domain-bar"><div class="domain-bar-fill" style="width:12.5%"></div></div>
+<ul class="objectives"><li><span class="obj-id">5.1</span>Build retrieval and grounding pipelines<div class="sub-objectives">Ingest and index content, such as documents, images, audio, and video; Configure semantic search, hybrid search, and vector search for grounding; Implement enrichment by using custom or built-in skills for text, images, and layout; Configure RAG ingestion flow, including documents and using optical character recognition (OCR); Connect retrieval pipelines directly to workflows and agent tools</div></li><li><span class="obj-id">5.2</span>Extract content from documents<div class="sub-objectives">Extract information by using multimodal pipelines that combine OCR, layout analysis, and field extraction; Produce clean, grounded representations to use with agents and RAG by using Content Understanding; Implement analyzers for generating structured or markdown outputs for downstream reasoning by using Content Understanding</div></li></ul>
+</div></section>
+<section class="info"><h3>Exam Details</h3><div class="info-grid"><div class="info-row"><span class="info-label">Online Proctoring</span><span class="info-value">Available</span></div><div class="info-row"><span class="info-label">Languages</span><span class="info-value">English, Chinese (Simplified), Chinese (Traditional), French, German, Japanese, Korean, Italian, Portuguese (Brazil), Spanish</span></div></div></section>
+
+<div class="source-link"><a href="https://home.pearsonvue.com/microsoft" rel="nofollow">Register for this exam</a> | <a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103" rel="nofollow">Official exam guide</a></div>
+</div>
+<footer>
+<div class="container">
+Data sourced from official certifying body publications.
+Maintained by <a href="https://quizforge.ai">QuizForge</a> &mdash; free certification practice exams.
+</div>
+</footer>
+</body>
+</html>

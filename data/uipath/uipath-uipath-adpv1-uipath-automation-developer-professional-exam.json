@@ -1,0 +1,598 @@
+{
+  "exam_id": "uipath-uipath-adpv1-uipath-automation-developer-professional-exam",
+  "exam_name": "UiPath Automation Developer Professional Exam",
+  "exam_code": "UiPath-ADPv1",
+  "certifying_body": "UiPath",
+  "certification_name": "UiPath Certified Professional Automation Developer Professional",
+  "version": "as of 2026-01-01",
+  "source_url": "https://start.uipath.com/rs/995-XLT-886/images/UiPath%20Certified%20Professional%20-%20Automation%20Developer%20Professional%20Exam%20Description.pdf?version=4",
+  "passing_score": 70,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 120,
+  "exam_price_usd": 300.0,
+  "exam_price_notes": "Official UiPath Certified Professional Automation Developer Professional Exam Description PDF V1.1 January 2026 (exam number UiPath-ADPv1; products 2024.10+). 120 minutes, 70% passing, $300, valid 3 years. Question count and domain weights unpublished in V1.1. Exam sections list also includes Other ",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.uipath.com/learning/certification",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Advanced Data Manipulation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Use LINQ for Lists and DataTables.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Perform DateTime manipulation to parse dates, add, or substract time and convert to and from string type.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Use Invoke Method and Invoke Code in projects.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Data referencing in invokes: Dt, List, Dictionary",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "JSON object manipulation",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.6",
+          "title": "Coded workflow",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Debugging",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Perform remote Debugging when building automation projects.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Profile execution - debugging",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Advanced UI automation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Build an UI automation using Web Driver.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Remote runtime",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "UiTask/UiAct — AGENTIC (healing scenarios, testing, attended scenarios)",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "MacOS automations - UiAutomation for Native macOS Apps, Office Desktop automations, Scripting (e.g. Apple Script)",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "REFramework",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Explain the use of the REFramework and the Dispatcher and Performer / Producer and Consumer model.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Describe the mechanisms of the REFramework template.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Use Custom Log Fields in REFramework projects.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Build a REFramework project with Orchestrator queues.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Build a REFramework transactional project with tabular/collections data.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Adapt a REFramework project to a linear process.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.7",
+          "title": "Describe the components of State Machines and when they should be used in projects.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.8",
+          "title": "Build projects using State Machines.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.9",
+          "title": "Test a REFramework project with and without Orchestrator queues.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Orchestrator",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Use Tenant Entities (Webhooks, Alerts, Packages, etc) and Folder Entities (Triggers, Credential Stores, etc).",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.2",
+          "title": "Use features for unattended automations (use of folders and job priorities, separation between background and foreground processes, license allocation per machine).",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.3",
+          "title": "API Triggers",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.4",
+          "title": "Recording in Orchestrator (Queue tranx, jobs)",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.5",
+          "title": "Solutions Management",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.6",
+          "title": "Use Orchestrator monitoring features.",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.7",
+          "title": "Serverless and Cloud VM robots",
+          "sub_objectives": []
+        },
+        {
+          "id": "5.8",
+          "title": "Tags",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Attended Automation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Long-Running Workflows",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.2",
+          "title": "Trigger-based Automation",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.3",
+          "title": "UI automation Apps Native Events Triggers (Run local triggers, Stop local triggers)",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.4",
+          "title": "Event Inspection Tool",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.5",
+          "title": "Assistant (widgets, configuration, Marketplace, schedules)",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.6",
+          "title": "Picture in Picture",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.7",
+          "title": "ActionCenter",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.8",
+          "title": "Apps - Advanced widgets, Usecases (multiple automations apps), Action App & Schema, Invoking IS APIs",
+          "sub_objectives": []
+        },
+        {
+          "id": "6.9",
+          "title": "Callouts",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Autopilot",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Autopilot for Everyone",
+          "sub_objectives": []
+        },
+        {
+          "id": "7.2",
+          "title": "Autopilot for Developers",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "8.0",
+      "name": "API Automation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "8.1",
+          "title": "API Workflows",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.2",
+          "title": "Explain what the Integration Service Connector Builder is.",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.3",
+          "title": "Event Triggers",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.4",
+          "title": "GenAI Activities",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.5",
+          "title": "REST APIs and Orchestrator HTTP request",
+          "sub_objectives": []
+        },
+        {
+          "id": "8.6",
+          "title": "HTTP Request activities now available for Integration Service connectors",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "9.0",
+      "name": "Resource Management",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "9.1",
+          "title": "Solutions Management",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.2",
+          "title": "Data service (Creation/Consumption of Entities)",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.3",
+          "title": "Data Service platform connector",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.4",
+          "title": "Context grounding",
+          "sub_objectives": []
+        },
+        {
+          "id": "9.5",
+          "title": "Coded workflow - Input/Output Arguments, Orchestrator, UiAutomation, M365 API, Hybrid automations, Custom services, and Imported Libraries",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "10.0",
+      "name": "Generic Automation Development",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "10.1",
+          "title": "Tasks commonly used in automation that require a combination of the skills and knowledge listed above.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://start.uipath.com/rs/995-XLT-886/images/UiPath%20Certified%20Professional%20-%20Automation%20Developer%20Professional%20Exam%20Description.pdf?version=4",
+  "official_study_resources": [],
+  "aliases": [
+    "uipath automation developer professional exam",
+    "uipath-adpv1",
+    "uipath-adpv1 uipath automation developer professional exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/uipath-automation-developer-professional-exam-uipath-adpv1-practice-test-3eiojk",
+  "editorial": {
+    "meta_description": "Prepare for the UiPath Automation Developer Professional Exam with official guidelines, domain summaries, pricing details, and preparation strategies.",
+    "overview": "The UiPath Automation Developer Professional Exam is certified by UiPath and validates technical skills in advanced data manipulation, REFramework implementation, debugging, UI automation, Orchestrator management, attended automation, autopilot features, API automation, resource management, and generic automation development across modern enterprise environments during a complete 120 minutes testing session for qualified candidates.",
+    "who_should_take": "Automation developers, system integrators, and technical professionals who have hands-on experience building complex enterprise automation projects using UiPath Studio and Orchestrator platforms in their daily work.",
+    "skills_summary": [
+      "Advanced Data Manipulation",
+      "Advanced UI automation",
+      "REFramework implementation",
+      "Orchestrator management",
+      "Attended Automation",
+      "API Automation"
+    ],
+    "preparation_strategy": "Review official documentation on Studio and Orchestrator features in depth to ensure complete readiness. Practice building projects using LINQ queries, DataTables, and the REFramework template. Test remote debugging setups and API workflows directly to achieve success during the 120 minutes allowed.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This domain focuses on advanced data handling techniques, including utilizing LINQ queries for lists and DataTables, performing date and time parsing, executing formatting conversions, and running Invoke Method and Invoke Code activities within projects.",
+        "study_focus": [
+          "Use LINQ for Lists and DataTables.",
+          "Perform DateTime manipulation to parse dates, add, or substract time and convert to and from string type.",
+          "Use Invoke Method and Invoke Code in projects."
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain covers troubleshooting techniques and testing protocols, specifically including remote debugging configurations, troubleshooting live builds, and profiling execution performance during automation workflow development activities across your projects.",
+        "study_focus": [
+          "Perform remote Debugging when building automation projects.",
+          "Profile execution - debugging"
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain deals with complex web driver usage, remote runtimes, and advanced agentic user interface automation scenarios, incorporating healing scenarios, testing mechanisms, and interactive attended execution flows within your development scope.",
+        "study_focus": [
+          "Build an UI automation using Web Driver.",
+          "Remote runtime",
+          "UiTask/UiAct — AGENTIC (healing scenarios, testing, attended scenarios)"
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain examines the Robotic Enterprise Framework template in depth, exploring producer and consumer models, dispatcher and performer structures, core template mechanisms, and the configuration of custom log fields.",
+        "study_focus": [
+          "Explain the use of the REFramework and the Dispatcher and Performer / Producer and Consumer model.",
+          "Describe the mechanisms of the REFramework template.",
+          "Use Custom Log Fields in REFramework projects."
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "This domain involves managing tenant and folder entities in Orchestrator, configuring unattended automation features, handling job priorities, allocating licenses per machine, and setting up API triggers for your enterprise infrastructure.",
+        "study_focus": [
+          "Use Tenant Entities (Webhooks, Alerts, Packages, etc) and Folder Entities (Triggers, Credential Stores, etc).",
+          "Use features for unattended automations (use of folders and job priorities, separation between background and foreground processes, license allocation per machine).",
+          "API Triggers"
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6.0",
+        "summary": "This domain covers long-running workflows, trigger-based automations, and native application event triggers designed to handle local control events and interactive user processes effectively during daily production operations and tasks.",
+        "study_focus": [
+          "Long-Running Workflows",
+          "Trigger-based Automation",
+          "UI automation Apps Native Events Triggers (Run local triggers, Stop local triggers)"
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7.0",
+        "summary": "This specific domain focuses heavily on utilizing Autopilot features, understanding how artificial intelligence and advanced digital assistants are tailored specifically for general users as well as technical developers building enterprise solutions.",
+        "study_focus": [
+          "Autopilot for Everyone",
+          "Autopilot for Developers"
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8.0",
+        "summary": "This domain addresses API workflows, event triggers, and the application of the Integration Service Connector Builder to connect external systems and services together within your advanced deployment projects.",
+        "study_focus": [
+          "API Workflows",
+          "Explain what the Integration Service Connector Builder is.",
+          "Event Triggers"
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9.0",
+        "summary": "This domain focuses on enterprise solutions management, along with creating and consuming structured entities using Data Service and utilizing its platform connector successfully during your system architecture design phases.",
+        "study_focus": [
+          "Solutions Management",
+          "Data service (Creation/Consumption of Entities)",
+          "Data Service platform connector"
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "10.0",
+        "summary": "This domain tests practical tasks commonly used in automation that require combining multiple development skills, technical knowledge areas, and platform capabilities learned throughout your preparation for the exam.",
+        "study_focus": [
+          "Tasks commonly used in automation that require a combination of the skills and knowledge listed above.",
+          "Integrating multiple technical areas to solve complex enterprise scenarios."
+        ],
+        "source_ids": [
+          "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time carefully across the 120 minutes allowed. Read each scenario completely before answering, and rely on your hands-on practice with UiPath Studio and Orchestrator.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exact question count remains unpublished in the official documentation, so candidates should focus on mastering all listed domain objectives rather than worrying about specific totals."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "To successfully pass this certification exam and earn your credential, candidates are required to achieve a minimum passing score of 70 percent based on their overall performance."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The test provides candidates with a total duration of 120 minutes to complete all questions, manage their time effectively, and review their answers before final submission."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The official registration price required for taking this professional certification exam is set at precisely $300 USD, which is payable directly through the platform interface during your registration process."
+      }
+    ],
+    "methodology": {
+      "summary": "This information index page was structured using official UiPath documentation and exam description parameters, mapping verified domain objectives and administrative details for candidates.",
+      "source_ids": [
+        "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide",
+      "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide-2",
+      "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide",
+      "url": "https://docs.uipath.com/studio/standalone/2024.10/user-guide/governance",
+      "title": "Studio - Governance",
+      "publisher": "UiPath",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:bf7d79af82022d135762ea7132b5c377d8b725c9a9e99c8fafd51aba536e4c9e"
+    },
+    {
+      "id": "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide-2",
+      "url": "https://docs.uipath.com/studio/standalone/2024.10/user-guide/the-user-interface",
+      "title": "Studio - The User Interface",
+      "publisher": "UiPath",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:cce555798edd3f51bf46da36bcf90f93c2651431979d07923f1f7e92813c5b6d"
+    },
+    {
+      "id": "uipath-uipath-adpv1-uipath-automation-developer-professional-exam-exam_guide-3",
+      "url": "https://docs.uipath.com/studio/standalone/2024.10/user-guide/about-automation-projects",
+      "title": "Studio - About Automation Projects",
+      "publisher": "UiPath",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:79edb944fadaec487903274a95b8e36db43c5c52749e1718927b80cd7a289778"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T08:52:46+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T09:36:38+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:38+00:00"
+  }
+}

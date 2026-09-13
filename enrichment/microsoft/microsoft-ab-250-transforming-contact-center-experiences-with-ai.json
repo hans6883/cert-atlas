@@ -1,0 +1,161 @@
+{
+ "exam_id": "microsoft-ab-250-transforming-contact-center-experiences-with-ai",
+ "editorial": {
+  "meta_description": "Prepare for the Microsoft Transforming Contact Center Experiences with AI certification exam with structured domain guidelines.",
+  "overview": "This certification exam evaluates professionals on designing, deploying, and operating advanced AI-powered contact center solutions using modern platforms. Candidates must demonstrate technical proficiency across six distinct performance domains, ensuring they can successfully manage deployment processes, engagement channels, generative artificial intelligence capabilities, complex work distribution models, representative user interfaces, and supervisor analytics systems.",
+  "who_should_take": "Contact center engineers and solutions professionals responsible for designing, implementing, and supporting AI-powered contact center solutions using Microsoft Dynamics 365 Contact Center and service-oriented autonomous agents.",
+  "skills_summary": [
+   "Deploy Dynamics 365 Contact Center",
+   "Implement channels",
+   "Configure agents and AI capabilities",
+   "Configure work distribution",
+   "Configure representative experiences",
+   "Manage contact center analytics"
+  ],
+  "preparation_strategy": "To prepare for this assessment, candidates should gain extensive hands-on operational experience with Microsoft Copilot Studio, Power BI, and Dynamics 365 Contact Center. Dedicate significant study time to mastering channel provisioning processes, advanced workstream routing configurations, and autonomous agent setups across diverse voice and digital communication platforms to ensure complete readiness.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This specific introductory domain covers setting up the core platform features entirely, including configuring the Copilot Service workspace, extending system connectors, and successfully establishing embedded modes for daily contact center operations.",
+    "study_focus": [
+     "Configure the Copilot Service workspace",
+     "Configure and extend connectors for Dynamics 365 Contact Center",
+     "Configure embedded Dynamics 365 Contact Center mode"
+    ],
+    "source_ids": [
+     "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain focuses heavily on implementing and managing various customer engagement channels such as interactive chat systems, record-based communication pathways, and diverse digital channels to streamline communication effectively.",
+    "study_focus": [
+     "Configure the chat channel",
+     "Configure the record-based channel",
+     "Configure digital channels"
+    ],
+    "source_ids": [
+     "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "Candidates explore setting up advanced generative artificial intelligence features, automated question handling capabilities, and reliable knowledge sources to empower customer service operations and improve automated responses during engagements.",
+    "study_focus": [
+     "Configure Copilot summaries",
+     "Configure the Ask a question feature",
+     "Configure knowledge sources for Copilot in Dynamics 365 Customer Service"
+    ],
+    "source_ids": [
+     "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This section deals with effectively managing incoming work items, constructing efficient queue structures, establishing precise queue prioritization rules, and handling important overflow and fallback behaviors within the system architecture.",
+    "study_focus": [
+     "Create and manage queues",
+     "Configure queue prioritization",
+     "Configure overflow and fallback"
+    ],
+    "source_ids": [
+     "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This specific operational area focuses on building custom representative interfaces, designing experience profiles, configuring application tab templates, and optimizing the daily agent inbox experience through customized views and layouts.",
+    "study_focus": [
+     "Create experience profiles",
+     "Configure application tab templates",
+     "Configure the agent inbox, including creating custom views"
+    ],
+    "source_ids": [
+     "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6.0",
+    "summary": "This extensive part centers completely on supervisor oversight responsibilities, configuring quality evaluation agents, establishing proper supervisory settings, and providing secure access to detailed analytics and reporting dashboards for operational managers.",
+    "study_focus": [
+     "Configure supervisor settings",
+     "Configure the Quality Evaluation agent",
+     "Configure access to analytics and dashboards"
+    ],
+    "source_ids": [
+     "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "You will be given the exact assessment time needed to complete all sections. Review all instructions carefully and manage your time effectively across the 6 measured domains.",
+  "faq": [
+   {
+    "question_title": "What is the passing score for the exam?",
+    "answer_text": "A passing score of 700 or greater is required to successfully pass the examination on an established scoring scale ranging from 1 to 1000 for all candidates."
+   },
+   {
+    "question_title": "How long is the exam duration?",
+    "answer_text": "Candidates will be given adequate time to complete this professional assessment and answer all questions presented across the various performance domains during the testing session."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The price is based entirely on the specific country or region in which the examination is proctored, as Microsoft does not publish a standardized list price in USD."
+   },
+   {
+    "question_title": "What is the certification path status?",
+    "answer_text": "This certification exam is currently active for qualified professionals. If you need any further details regarding long-term certification paths, please check directly with Microsoft for the most up-to-date guidance."
+   }
+  ],
+  "methodology": {
+   "summary": "All review content and domain guidelines are carefully curated directly from official Microsoft exam documentation and verified study guides to ensure complete accuracy.",
+   "source_ids": [
+    "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide",
+   "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide-2",
+   "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/media/fundamentals-what-is-copilot-studio/home-page.png",
+   "title": "Microsoft exam guide",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:5ab33410d8343fda642ccc4456ccbc45e34e23025363c13a7dfa3cb29cc69b37"
+  },
+  {
+   "id": "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide-2",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/media/authoring-create-edit-topics/code-editor-conversation.png",
+   "title": "Microsoft exam guide",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:6b1f116b4072d5d95ef63e771dea90a8dfb9b7715721047e3f4aa37d00f41d47"
+  },
+  {
+   "id": "microsoft-ab-250-transforming-contact-center-experiences-with-ai-exam_guide-3",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/media/authoring-create-edit-topics/topics-details-triggers.png",
+   "title": "Microsoft exam guide",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:de0b86ed4b6211794b3f53ef8060f014db9c40d79dc918f2e5c69c9ee58f7447"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T07:52:54+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:37+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:37+00:00"
+ }
+}

@@ -1,0 +1,258 @@
+{
+  "exam_id": "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam",
+  "exam_name": "NetApp Certified Technology Solutions Professional Exam (NS0-005)",
+  "exam_code": "NS0-005",
+  "certifying_body": "NetApp",
+  "certification_name": "NetApp Certified Technology Solutions Professional (NCTSP)",
+  "version": null,
+  "source_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/certified-technology-solutions/",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Exam code NS0-005 confirmed on NetApp INSIGHT 2026 certification listing. Pearson VUE delivery. Exam duration/price/item count not published on the first-party program page. Retrieved 2026-08-27.",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/certified-technology-solutions/",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Domain 1. Infrastructure",
+      "weight_percent": 25.0,
+      "weight_min": 25.0,
+      "weight_max": 25.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Basic infrastructure concepts and components",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Data management concepts",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Virtualization concepts",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "AI concepts",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Domain 2. Data Storage Software",
+      "weight_percent": 37.0,
+      "weight_min": 37.0,
+      "weight_max": 37.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Components and/or concepts of NetApp SANtricity",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Components and/or concepts of NetApp ONTAP",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Components and/or concepts of NetApp StorageGRID",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Data management tools",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Domain 3. Intelligent Data Infrastructure",
+      "weight_percent": 38.0,
+      "weight_min": 38.0,
+      "weight_max": 38.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Cyber Resiliency Solutions",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "NetApp data mobility solutions",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "NetApp hybrid cloud data protection solutions",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "NetApp storage solutions",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Consumption models",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/certified-technology-solutions/",
+  "official_study_resources": [],
+  "aliases": [
+    "netapp certified technology solutions professional exam ns0-005",
+    "ns0-005",
+    "ns0-005 netapp certified technology solutions professional exam ns0-005"
+  ],
+  "practice_url": "https://quizforge.ai/?q=NetApp%20Certified%20Technology%20Solutions%20Professional%20Exam%20%28NS0-005%29",
+  "editorial": {
+    "meta_description": "Prepare for the NetApp Certified Technology Solutions Professional Exam covering infrastructure, data storage software, and intelligent data infrastructure.",
+    "overview": "The NetApp Certified Technology Solutions Professional Exam is officially certified by NetApp and evaluated through Pearson VUE. It assesses professional technical knowledge across three major domains: Infrastructure, Data Storage Software, and Intelligent Data Infrastructure. Candidates comprehensively demonstrate their competency in managing NetApp solutions, virtualization concepts, storage software like ONTAP, and hybrid cloud data protection solutions.",
+    "who_should_take": "This exam is intended for IT professionals and storage administrators with experience in NetApp technologies who design, deploy, and manage enterprise infrastructure, data storage software, and intelligent data solutions across on-premises and hybrid cloud environments.",
+    "skills_summary": [
+      "Basic infrastructure concepts",
+      "Data management concepts",
+      "Virtualization concepts",
+      "NetApp SANtricity",
+      "NetApp ONTAP",
+      "NetApp StorageGRID",
+      "Cyber Resiliency Solutions",
+      "NetApp hybrid cloud data protection"
+    ],
+    "preparation_strategy": "Review official NetApp documentation on storage software components like ONTAP and StorageGRID comprehensively before your test. Focus your study efforts on data mobility solutions, hybrid cloud data protection components, and virtualization concepts. Practice applying your technical knowledge to real-world infrastructure scenarios before taking the exam via Pearson VUE.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This specific portion covers exactly 25.0 percent of the total certification exam content, focusing heavily on fundamental infrastructure components, data management concepts, and modern virtualization technologies within professional enterprise environments.",
+        "study_focus": [
+          "Basic infrastructure concepts and components",
+          "Data management concepts",
+          "Virtualization concepts"
+        ],
+        "source_ids": [
+          "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This specific portion represents exactly 37.0 percent of the official exam requirements and centers directly on NetApp SANtricity, NetApp ONTAP, and NetApp StorageGRID components and concepts for enterprise architectures.",
+        "study_focus": [
+          "Components and/or concepts of NetApp SANtricity",
+          "Components and/or concepts of NetApp ONTAP",
+          "Components and/or concepts of NetApp StorageGRID"
+        ],
+        "source_ids": [
+          "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This specific portion accounts for exactly 38.0 percent of the certification exam requirements, emphasizing cyber resiliency solutions, advanced data mobility solutions, and enterprise hybrid cloud data protection solutions.",
+        "study_focus": [
+          "Cyber Resiliency Solutions",
+          "NetApp data mobility solutions",
+          "NetApp hybrid cloud data protection solutions"
+        ],
+        "source_ids": [
+          "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Verify all of your delivery and identification details with Pearson VUE prior to your official exam date. Ensure you arrive promptly and review your domain topics calmly before starting.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the NetApp exam?",
+        "answer_text": "The exact item count is not published on the first-party program page. Check with NetApp support for any additional details regarding the overall certification exam structure."
+      },
+      {
+        "question_title": "What is the passing score for the exam?",
+        "answer_text": "NetApp does not publish the specific passing score on the official program page. Reach out directly to NetApp for more information regarding their specific scoring criteria and policies."
+      },
+      {
+        "question_title": "How long is the exam duration?",
+        "answer_text": "The total exam duration is not published on the first-party program page. Candidates should consult NetApp or Pearson VUE directly for scheduling details and time allocations."
+      },
+      {
+        "question_title": "How is the exam delivered?",
+        "answer_text": "The exam is delivered exclusively through Pearson VUE. You can schedule and take your test through their delivery platform by following official NetApp certification guidelines."
+      }
+    ],
+    "methodology": {
+      "summary": "This index page was compiled using official NetApp certification listings, source documentation, and verified domain weighting details retrieved for candidates preparing for the 25.0 percent and other domain contents.",
+      "source_ids": [
+        "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide",
+      "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide-2",
+      "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide",
+      "url": "https://docs.netapp.com/us-en/netapp-solutions-ai/gen-ai/ai-wp-genai.html",
+      "title": "Generative AI and NetApp Value",
+      "publisher": "NetApp",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:63c143041929afe6c56c00adc520bb6e14bba9e363e1096eac5d0aeef6dca5a1"
+    },
+    {
+      "id": "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide-2",
+      "url": "https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html",
+      "title": "Learn about NetApp Console",
+      "publisher": "NetApp",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:54e5b9f9559c7c4a792103d5c995886350385494732d9bd3b746200020411345"
+    },
+    {
+      "id": "netapp-ns0-005-netapp-certified-technology-solutions-professional-exam-exam_guide-3",
+      "url": "https://docs.netapp.com/us-en/netapp-solutions-ai/data-analytics/dremio-lakehouse-solution.html",
+      "title": "Solution Overview",
+      "publisher": "NetApp",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:0d11c8ba4b7cc1c97b02b08f7450ac9e273876f9bc9071ea8e54a029ed3029f6"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T09:11:39+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T09:36:37+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:37+00:00"
+  }
+}

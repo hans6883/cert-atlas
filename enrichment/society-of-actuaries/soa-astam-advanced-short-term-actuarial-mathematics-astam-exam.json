@@ -1,0 +1,161 @@
+{
+ "exam_id": "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam",
+ "editorial": {
+  "meta_description": "Prepare for the Advanced Short-Term Actuarial Mathematics exam offered by the Society of Actuaries, covering severity, aggregate models, and credibility.",
+  "overview": "The Advanced Short-Term Actuarial Mathematics examination is administered by the Society of Actuaries. It evaluates candidates on fundamental actuarial methods useful in modeling, ratemaking, and reserving for short-term coverages. The registration fee is $500, and candidates are given a duration of 180 minutes to complete the assessment at a Prometric center.",
+  "who_should_take": "Actuarial candidates pursuing credentials with the Society of Actuaries who possess prior mathematical knowledge and need to demonstrate advanced short-term actuarial mathematics knowledge during their credentialing process.",
+  "skills_summary": [
+   "Severity models",
+   "Aggregate models",
+   "Coverage modifications",
+   "Parametric models",
+   "Credibility",
+   "Short-term reserving and pricing"
+  ],
+  "preparation_strategy": "Start your preparation by reviewing the applicable syllabus, study materials, past exam questions, and official model solutions. Study the required domains carefully to ensure you are fully prepared for all six questions worth a total of 60 points on test day using official resources.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain focuses heavily on severity distributions, parameter effects, and creating new distributions through advanced techniques like mixing, splicing, and exponentiation to understand severity characteristics completely without missing any important properties.",
+    "study_focus": [
+     "Describe parameter changes on distributions",
+     "Create new distributions",
+     "Interpret characteristics of severity distributions"
+    ],
+    "source_ids": [
+     "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain covers aggregate claims distributions, convolution, recursive formulas, discretized versions of continuous distributions, and compound Poisson models for extensive actuarial calculations and probabilistic modeling within the scope of the assessment syllabus.",
+    "study_focus": [
+     "Derive probability and distribution functions",
+     "Derive discretized versions of continuous distributions",
+     "Perform calculations for sums of compound Poisson models"
+    ],
+    "source_ids": [
+     "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain addresses the effects of deductibles, policy limits, maximum covered loss, coinsurance, stop loss reinsurance, inflation, and loss elimination ratios on coverage modifications required for professional actuarial practice and credentialing.",
+    "study_focus": [
+     "Evaluate coverage modifications",
+     "Calculate loss elimination ratios and increased limits factors",
+     "Evaluate effects of inflation on losses"
+    ],
+    "source_ids": [
+     "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This domain deals with estimating frequency and severity parameters using maximum likelihood estimation, estimating variance, and constructing proper confidence intervals for statistical models based on the official guidelines and curriculum requirements provided.",
+    "study_focus": [
+     "Estimate parameters by maximum likelihood",
+     "Construct normal and non-normal confidence intervals",
+     "Use the delta method for variance estimation"
+    ],
+    "source_ids": [
+     "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This domain explores Bayesian credibility, Bühlmann and Bühlmann-Straub models, and empirical Bayesian estimation methods in nonparametric and semiparametric cases for actuarial practice as outlined in the official examination syllabus documentation.",
+    "study_focus": [
+     "Apply Bayesian credibility",
+     "Apply Bühlmann and Bühlmann-Straub models",
+     "Apply empirical Bayesian estimation"
+    ],
+    "source_ids": [
+     "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6.0",
+    "summary": "This domain involves techniques and statistical models for estimating outstanding claims reserves, expected loss ratios, chain-ladder methods, and conducting complete trend analysis for short-term insurance coverages during the credentialing process.",
+    "study_focus": [
+     "Apply estimation techniques for outstanding claims",
+     "Apply statistical models like Mack and Poisson models",
+     "Calculate projected losses using trend analysis"
+    ],
+    "source_ids": [
+     "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Complete the exam within 180 minutes at a Prometric center. Answer five questions in the exam answer booklets and one question in an Excel workbook.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The exam consists of six questions worth a total of 60 points. One question is answered in an Excel workbook and five questions are answered in exam answer booklets."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for this exam is currently not published on the official retrieved page. You should check with the Society of Actuaries for current requirements."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a total duration of 180 minutes and is administered as a supervised Prometric examination according to the official Society of Actuaries guidelines."
+   },
+   {
+    "question_title": "What is the exam fee?",
+    "answer_text": "The official Society of Actuaries exam registration fee is priced at $500 as listed on the official exam home page and syllabus documentation for candidates."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was compiled using official Society of Actuaries exam guides, syllabus details, and documentation for the advanced short-term actuarial mathematics examination.",
+   "source_ids": [
+    "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide",
+   "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide-2",
+   "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide",
+   "url": "https://www.soa.org/globalassets/assets/files/edu/2024/spring/questions/february-2024-astam-questions.pdf",
+   "title": "Society of Actuaries exam guide",
+   "publisher": "Society of Actuaries",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:0294cf4e8717191cda2747e7a6bb49fbb5e2d08f2d281ec979e670621de74ab4"
+  },
+  {
+   "id": "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide-2",
+   "url": "https://www.soa.org/education/exam-req/syllabus-study-materials/edu-multiple-choice-exam/",
+   "title": "Past Exams and Solutions",
+   "publisher": "Society of Actuaries",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:a2c59767be824279ff30a7c341b02f4ccdb44f908a5cfe36af8871dbba437e3c"
+  },
+  {
+   "id": "soa-astam-advanced-short-term-actuarial-mathematics-astam-exam-exam_guide-3",
+   "url": "https://www.soa.org/education/exam-req/syllabus-study-materials/edu-multiple-choice-exam",
+   "title": "Past Exams and Solutions",
+   "publisher": "Society of Actuaries",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:97e17fbc4316a6d84db554ef5e7e8fc3d8f1decd559f7ffaf89edce781ccc412"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:04:46+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:38+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:38+00:00"
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "exam_id": "comptia-cs0-004-comptia-cysa-v4",
+ "editorial": {
+  "meta_description": "Prepare for the CompTIA CySA+ V4 examination by reviewing security operations, vulnerability management techniques, and incident response.",
+  "overview": "The CompTIA CySA+ V4 certification exam evaluates professional competency across various distinct security domains. Candidates must demonstrate deep knowledge in security operations, vulnerability management techniques, effective incident response and management processes, and precise reporting and communication strategies to successfully defend modern enterprise IT environments against advanced threats during their daily operational duties.",
+  "who_should_take": "Security professionals, analysts, and practitioners seeking to validate practical skills in threat detection, vulnerability analysis, and incident mitigation within complex enterprise environments and modern infrastructures.",
+  "skills_summary": [
+   "Security architecture",
+   "Malicious activity analysis",
+   "Vulnerability scanning",
+   "Attack methodology frameworks",
+   "Incident response processes",
+   "Security operations reporting"
+  ],
+  "preparation_strategy": "Review the official exam guide and domain weightings carefully before beginning your study routine. Focus your daily preparation efforts on security operations, vulnerability management techniques, incident response workflows, and reporting practices. Practice analyzing threats, scan outputs, and framework models in order to ensure complete readiness before taking the exam.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain covers security architecture concepts, logging practices, and identity components that support secure environments, while actively analyzing suspicious activity and utilizing advanced detection tools across systems and networks.",
+    "study_focus": [
+     "Explain system and network architecture concepts",
+     "Analyze indicators of potential malicious activity",
+     "Use SIEM, EDR, and packet analysis tools"
+    ],
+    "source_ids": [
+     "comptia-cs0-004-comptia-cysa-v4-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain focuses on implementing appropriate vulnerability scanning methods, analyzing assessment tool output in detail, and prioritizing risk-based mitigations across various systems, networks, and applications using scoring systems and threat intelligence.",
+    "study_focus": [
+     "Implement vulnerability scanning methods",
+     "Analyze output from vulnerability assessment tools",
+     "Prioritize and mitigate vulnerabilities using scoring systems"
+    ],
+    "source_ids": [
+     "comptia-cs0-004-comptia-cysa-v4-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain addresses complex attack methodology frameworks like MITRE ATT&CK, outlines all incident response process phases clearly, and implements specific triage, containment, and evidence handling techniques during security events.",
+    "study_focus": [
+     "Summarize concepts related to attack methodology frameworks",
+     "Outline the incident response process phases",
+     "Implement triage, evidence handling, and root cause identification"
+    ],
+    "source_ids": [
+     "comptia-cs0-004-comptia-cysa-v4-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This specific domain explores vulnerability management reporting, security operations communication, incident documentation, post-incident reviews, and operational metrics such as detection time, response time, and overall remediation effectiveness across enterprise scenarios.",
+    "study_focus": [
+     "Explain vulnerability management reporting and communication",
+     "Describe security operations and incident response reporting",
+     "Calculate metrics such as detection and response time"
+    ],
+    "source_ids": [
+     "comptia-cs0-004-comptia-cysa-v4-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive at the testing center or check in online early. Manage your time effectively across the 165-minute duration to address all questions and achieve a passing score of 750.",
+  "faq": [
+   {
+    "question_title": "How many domains are on the exam?",
+    "answer_text": "The exam features four distinct domains: Security Operations, Vulnerability Management, Incident Response and Management, and Reporting and Communication, weighted at 34%, 26%, 24%, and 16% respectively across the test."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The established passing score for the examination is 750 on a scaled scoring system that ranges from 100 to 900 for all test takers seeking certification."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The certification exam has a maximum duration of 165 minutes to complete all questions presented during your scheduled testing session at the official center or online."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The United States retail voucher price for taking this specific examination is $425 as listed directly on the official CompTIA blog and published guidance materials for candidates."
+   }
+  ],
+  "methodology": {
+   "summary": "This index page was built carefully using official CompTIA exam documentation, public release guidelines, and published domain objectives to ensure absolute accuracy for candidates.",
+   "source_ids": [
+    "comptia-cs0-004-comptia-cysa-v4-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "comptia-cs0-004-comptia-cysa-v4-exam_guide",
+   "comptia-cs0-004-comptia-cysa-v4-exam_guide-2",
+   "comptia-cs0-004-comptia-cysa-v4-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "comptia-cs0-004-comptia-cysa-v4-exam_guide",
+   "url": "https://www.comptia.org/en/blog/the-new-comptia-cybersecurity-analyst-cysa-your-questions-answered/",
+   "title": "CompTIA CySA+ V4 Exam: Your Questions Answered | CompTIA Blog Global",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:17a7d56d27d9557482c18555db23f0c8bd35869d1966f8ef02a662c647ab0c1b"
+  },
+  {
+   "id": "comptia-cs0-004-comptia-cysa-v4-exam_guide-2",
+   "url": "https://www.comptia.org/en/certifications/cybersecurity-analyst/v4/",
+   "title": "CySA+ Certification V4 (New Version) | CompTIA Global",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:43a9d4ed1bdcdea6aa5e352dee4749393999e61217a547657d50a70af9eef7c4"
+  },
+  {
+   "id": "comptia-cs0-004-comptia-cysa-v4-exam_guide-3",
+   "url": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/v4/",
+   "title": "CySA+ Certification V4 (New Version) | CompTIA",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:d1a2e07daf1e667ff186fc782d85777a431b009e854f1bc03c23fdc9001ba63c"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:13:55+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:36+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:36+00:00"
+ }
+}

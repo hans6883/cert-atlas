@@ -1,0 +1,324 @@
+{
+  "exam_id": "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment",
+  "exam_name": "Advanced Topics in Predictive Analytics (ATPA) Assessment",
+  "exam_code": "ATPA",
+  "certifying_body": "Society of Actuaries",
+  "certification_name": "Associate of the Society of Actuaries (ASA) pathway component — ATPA",
+  "version": "as of 2022-01-01",
+  "source_url": "https://www.soa.org/globalassets/assets/files/edu/2022/2022-01-atpa-learning-objectives.pdf",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 5760,
+  "exam_price_usd": 1255.0,
+  "exam_price_notes": "Official SOA ATPA page (fee $1,255*) and Components page (retrieval 2026-08-27): e-learning modules plus a take-home assessment. Submit before the earliest of 96 hours after downloading the assessment or the version submission deadline. Syllabus/Learning Objectives PDF linked from the ATPA page is t",
+  "voucher_url": null,
+  "exam_registration_url": "https://www.soa.org/education/exam-req/edu-exam-atpa/",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Ethical Foundations",
+      "weight_percent": 7.5,
+      "weight_min": 5.0,
+      "weight_max": 10.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Apply a general ethical framework for working with data and models.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Discuss and comply with relevant standards of practice.",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Discuss and comply with relevant regulations that apply to working with data and models.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Working with Data",
+      "weight_percent": 25.0,
+      "weight_min": 20.0,
+      "weight_max": 30.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Understand the basic structure of a data pipeline, including being able to: Evaluate the quality of appropriate data sources for a problem; Explain the difference between a database, data lake, and data warehouse; Describe how different data structures can be used in different analytical tasks.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.2",
+          "title": "Explain the basics concepts of database management, in particular, extract, transform, and load (ETL) operations.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.3",
+          "title": "Assess the accuracy and quality of data.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.4",
+          "title": "Explain the terminology and structure of relational databases and be able to use common keys between collections of data to merge information from multiple sources.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.5",
+          "title": "Clean and organize data by performing: Check for outliers, both univariate and multivariate; Handle missing data (including understanding the types of missing data) by selecting the appropriate action from deletion of the record, imputation, and adding a missing value flag.",
+          "sub_objectives": []
+        },
+        {
+          "id": "2.6",
+          "title": "Detect possible biases introduced when preparing data for a predictive model.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Advanced Predictive Analytics Models",
+      "weight_percent": 37.5,
+      "weight_min": 30.0,
+      "weight_max": 45.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Explain the importance of model accuracy.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.2",
+          "title": "Explain, fit, evaluate, and make predictions with each of the following models: Additive models; Linear mixed models; Neural networks.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.3",
+          "title": "Apply Bayesian techniques to predictive models.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.4",
+          "title": "Compare model results with those from linear and tree-based methods.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.5",
+          "title": "Explain the benefits of and demonstrate the combination of multiple models via stacking and blending.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.6",
+          "title": "Select and justify a modeling approach based on accuracy, explainability, stability, analytical effort, computational efficiency, and table importability, taking into account the business context of the problem.",
+          "sub_objectives": []
+        },
+        {
+          "id": "3.7",
+          "title": "Recognize and mitigate the effect of: Starting with too many variables; Repeated use of train/test/validate sets; Model bias, including fairness concepts and proxy discrimination.",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Model Explainability and Communication",
+      "weight_percent": 30.0,
+      "weight_min": 25.0,
+      "weight_max": 35.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Understand aspects of explainability, in particular: The connection between ethics and explainability; Suitability, decomposability, algorithmic transparency, and post-hoc interpretability; The difference between explainability and interpretability; When a lack of explainability may be acceptable.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.2",
+          "title": "Communicate and justify a recommended analytics solution, including use as appropriate of: Variable importance plots; Partial dependence plots; Individual conditional expectation plots; Shapley values; Lift and gain charts.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.3",
+          "title": "Explain why a model is predicting certain values for certain records.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.4",
+          "title": "Perform data and model governance and develop model documentation in an ethical context.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.5",
+          "title": "Communicate in a clear and straightforward manner using common language that is appropriate for the intended audience.",
+          "sub_objectives": []
+        },
+        {
+          "id": "4.6",
+          "title": "Structure a report in an effective manner while following standards of practice for actuarial communication.",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://www.soa.org/globalassets/assets/files/edu/2022/2022-01-atpa-learning-objectives.pdf",
+  "official_study_resources": [],
+  "aliases": [
+    "advanced topics in predictive analytics atpa assessment",
+    "atpa",
+    "atpa advanced topics in predictive analytics atpa assessment"
+  ],
+  "practice_url": "https://quizforge.ai/?q=Advanced%20Topics%20in%20Predictive%20Analytics%20%28ATPA%29%20Assessment",
+  "editorial": {
+    "meta_description": "Prepare for the Society of Actuaries Advanced Topics in Predictive Analytics assessment covering ethical foundations, data pipelines, and advanced predictive.",
+    "overview": "The Advanced Topics in Predictive Analytics assessment administered by the Society of Actuaries covers multiple core domains including ethical foundations, working with data, advanced predictive analytics models such as neural networks, and model explainability and communication techniques for thorough actuarial and analytical problem-solving contexts, ensuring candidates are well-prepared for modern predictive modeling challenges.",
+    "who_should_take": "Actuarial candidates and analytical professionals seeking to validate their knowledge of advanced predictive modeling techniques, data pipeline management, and ethical frameworks required for modern business practices.",
+    "skills_summary": [
+      "Ethical frameworks",
+      "Data pipelines",
+      "Advanced predictive models",
+      "Bayesian techniques",
+      "Model explainability",
+      "Analytics communication"
+    ],
+    "preparation_strategy": "Review all official study materials, documentation, and learning objectives provided by the Society of Actuaries to ensure thorough readiness. Practice applying predictive modeling techniques, understanding data pipeline structures, assessing model accuracy, and communicating analytical solutions clearly according to professional standards of practice for the $1,255 assessment.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This specific domain covers applying general ethical frameworks, discussing and complying with relevant standards of practice, and adhering strictly to regulations that apply when working with data and models during the professional credentialing process.",
+        "study_focus": [
+          "Apply a general ethical framework for working with data and models.",
+          "Discuss and comply with relevant standards of practice.",
+          "Discuss and comply with relevant regulations that apply to working with data and models."
+        ],
+        "source_ids": [
+          "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This core domain focuses on understanding data pipeline structures, evaluating data source quality, explaining database management concepts including extract, transform, and load operations, and assessing overall data accuracy for professional analytics tasks.",
+        "study_focus": [
+          "Understand the basic structure of a data pipeline, including evaluating data source quality.",
+          "Explain the basic concepts of database management, in particular extract, transform, and load operations.",
+          "Assess the accuracy and quality of data."
+        ],
+        "source_ids": [
+          "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain explores advanced predictive analytics models by explaining model accuracy, fitting and evaluating additive models, linear mixed models, neural networks, and applying Bayesian techniques to predictive models within actuarial practices.",
+        "study_focus": [
+          "Explain the importance of model accuracy.",
+          "Explain, fit, evaluate, and make predictions with additive models, linear mixed models, and neural networks.",
+          "Apply Bayesian techniques to predictive models."
+        ],
+        "source_ids": [
+          "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This specific domain addresses model explainability aspects, communicating recommended analytics solutions using various plots and Shapley values, and explaining why specific models predict certain values for certain records during evaluations.",
+        "study_focus": [
+          "Understand aspects of explainability including ethics, transparency, and interpretability.",
+          "Communicate and justify a recommended analytics solution using plots and Shapley values.",
+          "Explain why a model is predicting certain values for certain records."
+        ],
+        "source_ids": [
+          "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Candidates must carefully submit their completed take-home assessment before the earliest of 96 hours after downloading the assessment materials or the official version submission deadline.",
+    "faq": [
+      {
+        "question_title": "How much does the assessment cost?",
+        "answer_text": "The exam fee is $1,255, which includes the e-learning modules and the take-home assessment administered by the Society of Actuaries for candidates pursuing credentialing."
+      },
+      {
+        "question_title": "What is the duration of the assessment?",
+        "answer_text": "Candidates must submit their completed work before the earliest of 96 hours after downloading the assessment materials or the version submission deadline specified by the organization."
+      },
+      {
+        "question_title": "Is this assessment currently active?",
+        "answer_text": "Yes, this assessment is current and available through the Society of Actuaries education system. Check with the organization directly for any updates to the certification path."
+      },
+      {
+        "question_title": "What are the core domains covered in the syllabus?",
+        "answer_text": "The assessment covers four distinct domains, including ethical foundations, working with data, advanced predictive analytics models, and model explainability and communication for all actuarial candidates."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using official Society of Actuaries source documentation, syllabus materials, and fee schedules to provide factual and accurate exam details.",
+      "source_ids": [
+        "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide",
+        "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide-2",
+        "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide-3"
+      ]
+    },
+    "source_ids": [
+      "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide",
+      "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide-2",
+      "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide",
+      "url": "https://www.soa.org/education/exam-req/syllabus-study-materials/edu-multiple-choice-exam",
+      "title": "Past Exams and Solutions",
+      "publisher": "Society of Actuaries",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:f0546e068092fdfb312b34afe9dc6bd43e7501a6bc5068e87ea86ca2c312d826"
+    },
+    {
+      "id": "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide-2",
+      "url": "https://www.soa.org/globalassets/assets/files/edu/2026/fall/registration/2026-oct-dec-atpa-application.pdf",
+      "title": "Society of Actuaries exam guide",
+      "publisher": "Society of Actuaries",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:976948c43a37c6a818233b039bfd6a799924f1afff6b56e258b95d754df2b87c"
+    },
+    {
+      "id": "soa-atpa-advanced-topics-in-predictive-analytics-atpa-assessment-exam_guide-3",
+      "url": "https://www.soa.org/education/exam-req/syllabus-study-materials/exam-and-module-fees",
+      "title": "Exam and e-Learning Module Fees",
+      "publisher": "Society of Actuaries",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:2b14bed1ce77742006fafbe6c3841917ed8e293de2e7d0238769946a3075d545"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T08:06:31+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T09:36:38+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:38+00:00"
+  }
+}

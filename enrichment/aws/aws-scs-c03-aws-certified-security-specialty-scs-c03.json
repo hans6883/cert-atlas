@@ -1,0 +1,159 @@
+{
+ "exam_id": "aws-scs-c03-aws-certified-security-specialty-scs-c03",
+ "editorial": {
+  "meta_description": "Prepare for the AWS Certified Security Specialty certification exam. Review detection, incident response, infrastructure security, and data protection domains.",
+  "overview": "The AWS Certified Security Specialty certification exam validates advanced technical skills and targeted knowledge in security topics including data protection, identity and access management, infrastructure security, and incident response within complex cloud environments. Certified by AWS, this specialty certification assesses practical cloud security expertise across multiple multi-account cloud deployments while maintaining demanding standards over a duration of 170 minutes.",
+  "who_should_take": "Cloud security professionals, architects, and administrators with practical experience securing AWS workloads and data environments should take this specialty exam to validate their technical expertise.",
+  "skills_summary": [
+   "Detection",
+   "Incident Response",
+   "Infrastructure Security",
+   "Identity and Access Management",
+   "Data Protection",
+   "Security Foundations and Governance"
+  ],
+  "preparation_strategy": "Review the official exam guide domains and objectives carefully during your study period. Focus your preparation time on the practical implementation of security controls, monitoring solutions, incident response plans, and identity strategies across multiple cloud accounts to ensure adequate readiness for the 170-minute exam duration.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain focuses on designing and implementing monitoring, logging, and alerting solutions for AWS accounts and organizations while troubleshooting security observability setups to ensure complete network and resource visibility.",
+    "study_focus": [
+     "Design and implement monitoring and alerting solutions for an AWS account or organization",
+     "Design and implement logging solutions",
+     "Troubleshoot security monitoring, logging, and alerting solutions"
+    ],
+    "source_ids": [
+     "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain covers thorough incident response planning, test execution methodologies, and actual response management procedures during security events to maintain operational integrity and mitigate potential threats effectively across the cloud infrastructure.",
+    "study_focus": [
+     "Design and test an incident response plan",
+     "Respond to security events"
+    ],
+    "source_ids": [
+     "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This particular domain involves designing, implementing, and troubleshooting distinct security controls for compute workloads, network edge services, and overall network configurations to safeguard cloud architectures against external vulnerabilities and unauthorized access attempts.",
+    "study_focus": [
+     "Design, implement, and troubleshoot security controls for network edge services",
+     "Design, implement, and troubleshoot security controls for compute workloads",
+     "Design and troubleshoot network security controls"
+    ],
+    "source_ids": [
+     "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This specific domain addresses strong authentication and authorization strategies across numerous cloud services, covering the complete lifecycle of design, implementation, and troubleshooting to manage user access securely throughout the enterprise environment.",
+    "study_focus": [
+     "Design, implement, and troubleshoot authentication strategies",
+     "Design, implement, and troubleshoot authorization strategies"
+    ],
+    "source_ids": [
+     "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This domain encompasses important controls for data in transit, data at rest, and the thorough protection of confidential data, credentials, secrets, and cryptographic key materials across multiple cloud storage tiers and operational workloads.",
+    "study_focus": [
+     "Design and implement controls for data in transit",
+     "Design and implement controls for data at rest",
+     "Design and implement controls to protect confidential data, credentials, secrets, and cryptographic key materials"
+    ],
+    "source_ids": [
+     "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6.0",
+    "summary": "This domain focuses heavily on deploying and managing cloud accounts centrally, implementing secure cloud deployments consistently across the organization, and evaluating the compliance status of various cloud resources against established baselines.",
+    "study_focus": [
+     "Develop a strategy to centrally deploy and manage AWS accounts",
+     "Implement a secure and consistent deployment strategy for cloud resources",
+     "Evaluate the compliance of AWS resources"
+    ],
+    "source_ids": [
+     "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Manage your time effectively across the full 170-minute duration. Read each question carefully to identify the specific security requirements for AWS resources before selecting your final answer.",
+  "faq": [
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for this specialty certification exam is established at 750 on a scaled scoring range spanning from 100 to 1000 for all qualifying candidates."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total allocated duration for completing the entire certification examination from start to finish is exactly 170 minutes according to official AWS scheduling and testing policies."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The standard registration price for taking this specialty certification examination is 300 USD payable directly during the scheduling process on the official certification platform without exception."
+   },
+   {
+    "question_title": "What certifying body offers this exam?",
+    "answer_text": "This advanced specialty certification credential is officially offered, governed, and administered directly by AWS for qualified cloud professionals seeking formal validation of their security capabilities."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using official exam documentation and verified facts regarding the AWS Certified Security specialty certification and its associated domains.",
+   "source_ids": [
+    "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide",
+   "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide-2",
+   "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide",
+   "url": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
+   "title": "What is Amazon GuardDuty? - Amazon GuardDuty",
+   "publisher": "AWS",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:70fe369b3c18e23b55e1fbcebca965f6da18fac43a785e7df01bbd8756790ab2"
+  },
+  {
+   "id": "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide-2",
+   "url": "https://aws.amazon.com/certification/certified-security-specialty/",
+   "title": "AWS Certified Security - Specialty",
+   "publisher": "AWS",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:e84383779683cc6a09ea1b2365a9de042160d2f929d563b043322ae932ef9e57"
+  },
+  {
+   "id": "aws-scs-c03-aws-certified-security-specialty-scs-c03-exam_guide-3",
+   "url": "https://docs.aws.amazon.com/aws-certification/latest/security-specialty-03/security-specialty-03.html",
+   "title": "AWS Certified Security - Specialty (SCS-C03) - AWS Certified Security - Specialty",
+   "publisher": "AWS",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:08aebbad36e57df651f556d065c8655fc4cc460ae66b16ec7433f09b9b0c14e6"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:00:17+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:36+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:36+00:00"
+ }
+}

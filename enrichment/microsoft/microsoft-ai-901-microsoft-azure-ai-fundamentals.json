@@ -1,0 +1,113 @@
+{
+ "exam_id": "microsoft-ai-901-microsoft-azure-ai-fundamentals",
+ "editorial": {
+  "meta_description": "Prepare for the Microsoft Azure AI Fundamentals exam covering AI concepts, capabilities, and solutions using Microsoft Foundry.",
+  "overview": "The Microsoft Azure AI Fundamentals certification exam covers artificial intelligence concepts, capabilities, and the implementation of AI solutions by using Microsoft Foundry. Certified by Microsoft, this examination tests your fundamental understanding of fairness, reliability, safety, privacy, security, and prompt engineering principles across modern cloud workloads, requiring a passing score of 700 on a scale ranging from 1 to 1000.",
+  "who_should_take": "This exam is suited for individuals at the beginning of their career in AI solution development. Candidates need conceptual knowledge of AI solutions in Azure, along with familiarity with Python coding syntax, programming techniques, and Azure resources.",
+  "skills_summary": [
+   "Fairness considerations",
+   "Reliability and safety",
+   "Privacy and security",
+   "Prompt creation",
+   "Model deployment",
+   "Chat client application"
+  ],
+  "preparation_strategy": "Review the official study guide and practice assessments on AI Skills Navigator carefully. Gain extensive hands-on experience using the Foundry portal to deploy models, interact with prompts, and build lightweight chat client applications by utilizing the Foundry SDK successfully during your preparation process for the 700 score.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This specific domain evaluates your detailed knowledge of artificial intelligence concepts and capabilities, focusing explicitly on design considerations for fairness, reliability, safety, privacy, and security in modern AI solutions.",
+    "study_focus": [
+     "Describe considerations for fairness in an AI solution",
+     "Describe considerations for reliability and safety in an AI solution",
+     "Describe considerations for privacy and security in an AI solution"
+    ],
+    "source_ids": [
+     "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This practical domain tests your core implementation skills for building AI solutions by using Microsoft Foundry, covering system and user prompts, model deployment procedures, and custom chat client applications.",
+    "study_focus": [
+     "Create effective system and user prompts for generative AI models",
+     "Deploy a model and interact with it in the Foundry portal",
+     "Create a lightweight chat client application by using the Foundry SDK"
+    ],
+    "source_ids": [
+     "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Check with Microsoft for scheduling details through Pearson Vue or Certiport. Register using a personal account rather than an organizational account to ensure your records are preserved properly on exam day.",
+  "faq": [
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "A passing score of 700 or greater is strictly required to pass the exam on a scale ranging from 1 to 1000 for all candidates."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The exam price is based on the specific country or region in which the examination is proctored according to official guidelines established by Microsoft for all registered candidates."
+   },
+   {
+    "question_title": "Who certifies this exam?",
+    "answer_text": "This certification exam is officially offered and administered by Microsoft for individuals starting out in their professional artificial intelligence development career path today across global markets."
+   },
+   {
+    "question_title": "Where can I take a practice assessment?",
+    "answer_text": "You can easily take a free practice assessment by navigating directly to the AI Skills Navigator certification page while signed into your Microsoft account to prepare properly."
+   }
+  ],
+  "methodology": {
+   "summary": "This comprehensive reference page was thoroughly constructed using verified official Microsoft exam documentation, study guides, and content hashes to ensure accuracy.",
+   "source_ids": [
+    "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide",
+   "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide-2",
+   "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide",
+   "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/responses",
+   "title": "Use the Azure OpenAI Responses API - Microsoft Foundry | Microsoft Learn",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:dc25003798f709d2ef43f1566131bc8239625b1522f2b33e5d7712417d739ef2"
+  },
+  {
+   "id": "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide-2",
+   "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+   "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:fdfb11e834d458dabab0affcb2fb67d97f0b36e5e03ab641194709bfc9b54514"
+  },
+  {
+   "id": "microsoft-ai-901-microsoft-azure-ai-fundamentals-exam_guide-3",
+   "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/reasoning",
+   "title": "Azure OpenAI reasoning models - GPT-6 Astra and GPT-5 - Microsoft Foundry | Microsoft Learn",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:5a06e6c1493bdad7398056723fca84e6b10e45d0772788e86219591f86694822"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T07:44:46+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:37+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:37+00:00"
+ }
+}

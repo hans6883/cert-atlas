@@ -1,0 +1,155 @@
+{
+ "exam_id": "new-relic-nvf-new-relic-verified-foundation-nvf-exam",
+ "editorial": {
+  "meta_description": "Prepare for the New Relic Verified Foundation exam by New Relic. Master observability fundamentals, platform UI, data, and monitoring.",
+  "overview": "The New Relic Verified Foundation exam evaluates your knowledge of observability fundamentals, platform UI capabilities, data configuration, performance monitoring, and full stack practices. Certified by New Relic, this online unproctored multiple-choice exam is free to take and validates core telemetry and monitoring skills across various environments over a duration of 45 minutes.",
+  "who_should_take": "Engineers, developers, and administrators who use New Relic to monitor applications, infrastructure, and user experiences. Suitable for practitioners looking to validate their platform knowledge and telemetry configuration skills.",
+  "skills_summary": [
+   "Observability fundamentals",
+   "New Relic platform UI",
+   "Data configuration",
+   "Performance monitoring",
+   "Full stack observability"
+  ],
+  "preparation_strategy": "Review official New Relic documentation and tutorials covering telemetry data types, monitoring agents, and NRQL queries to prepare carefully. Practice installing monitoring agents, configuring dashboards, setting up alerts, and analyzing transaction traces directly in the platform UI before taking the assessment to ensure complete success.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "Covers modern web architecture trends and tools, differences between monitoring and observability, core telemetry data types, and monitoring agents in New Relic to build a strong operational base.",
+    "study_focus": [
+     "Understand modern web architecture trends",
+     "Distinguish monitoring and observability",
+     "Define core telemetry data types",
+     "Implement monitoring agents"
+    ],
+    "source_ids": [
+     "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "Focuses extensively on identifying reporting entities, viewing the overall environment status, and using diverse platform capabilities including APM, Browser, NRQL, alerts, logs, traces, hosts, and mobile to monitor system health effectively.",
+    "study_focus": [
+     "Identify reporting entities",
+     "View environment status",
+     "Use APM, Browser, and NRQL",
+     "Configure alerts and logs"
+    ],
+    "source_ids": [
+     "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain comprehensively covers instrumentation concepts, stack layer configuration, custom data and attributes, entity and workload management, tags, and synthetics configuration to ensure complete data collection across your entire system ecosystem.",
+    "study_focus": [
+     "Configure layers of the stack",
+     "Add custom data and attributes",
+     "Manage entities, tags, and workloads",
+     "Configure synthetics"
+    ],
+    "source_ids": [
+     "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "Explores data visualization using APM, errors, logs, NRQL, and Synthetics, transaction trace analysis, root cause analysis, and issue triage to help practitioners diagnose and resolve performance bottlenecks quickly.",
+    "study_focus": [
+     "Visualize data with APM and logs",
+     "Conduct transaction trace analysis",
+     "Perform root cause analysis",
+     "Triage and respond to issues"
+    ],
+    "source_ids": [
+     "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This domain addresses multi-service management using filtering and tagging, alert and workflow configuration, event type NRQL queries, and core alerting concepts to maintain dependable visibility across complex distributed system architectures.",
+    "study_focus": [
+     "Manage services with filtering and tagging",
+     "Configure alerts and workflows",
+     "Write NRQL queries",
+     "Understand alerting concepts"
+    ],
+    "source_ids": [
+     "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "You have 45 minutes to complete the online unproctored multiple-choice exam. Ensure your testing environment is quiet and free of interruptions before starting your session.",
+  "faq": [
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The New Relic Verified Foundation exam is entirely free to take. It is an online unproctored multiple-choice assessment hosted directly on learn.newrelic.com for registered users."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a strict duration of 45 minutes. You must complete all online unproctored multiple-choice questions within this allocated time limit to successfully finish the test."
+   },
+   {
+    "question_title": "How long is the certification valid?",
+    "answer_text": "The New Relic certification remains valid for 2 years per the official University Terms. Check with New Relic for the current certification path and renewal details."
+   },
+   {
+    "question_title": "What topics are covered on the exam?",
+    "answer_text": "The exam covers 5 distinct domains including observability fundamentals, platform UI capabilities, configuring data, performance monitoring, and full stack observability practices to test your knowledge."
+   }
+  ],
+  "methodology": {
+   "summary": "This overview was built using the official New Relic exam guides, documentation sources, and platform references to provide entirely factual guidance for candidates.",
+   "source_ids": [
+    "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide",
+    "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide-2",
+    "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide-3"
+   ]
+  },
+  "source_ids": [
+   "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide",
+   "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide-2",
+   "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide",
+   "url": "https://docs.newrelic.com/docs/nrql/nrql-syntax-clauses-functions",
+   "title": "NRQL reference | New Relic Documentation",
+   "publisher": "New Relic",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:2534e6eb2ed1d97f7926900d7632ed70f687a7881b4416896d760bcc4dc94b13"
+  },
+  {
+   "id": "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide-2",
+   "url": "https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/get-started/your-first-nrql-condition",
+   "title": "Alert conditions | New Relic Documentation",
+   "publisher": "New Relic",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:b0904bbf7b2e8511cb4b9ce4bc3296a403c0b021d076bfa4da6110c8cc4338ed"
+  },
+  {
+   "id": "new-relic-nvf-new-relic-verified-foundation-nvf-exam-exam_guide-3",
+   "url": "https://learn.newrelic.com/page/certifications",
+   "title": "Certifications",
+   "publisher": "New Relic",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:5965ab061896c19642ad74485a0caef4b9a8f48a70223f43cfa223ad820043dc"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:29:57+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:37+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:37+00:00"
+ }
+}

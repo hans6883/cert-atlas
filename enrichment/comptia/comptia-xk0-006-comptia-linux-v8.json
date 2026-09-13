@@ -1,0 +1,149 @@
+{
+ "exam_id": "comptia-xk0-006-comptia-linux-v8",
+ "editorial": {
+  "meta_description": "Prepare for the CompTIA Linux+ V8 certification with official domains covering system management, security, automation, and troubleshooting in 90 minutes.",
+  "overview": "The CompTIA Linux+ (V8) certification, certified by CompTIA, covers full system management, network services, user management, security, automation, orchestration, scripting, and troubleshooting tasks. Launched on July 15, 2025, this ANAB ISO-accredited examination evaluates your technical competence and fundamental skills in supporting Linux platforms across diverse cloud and hybrid deployment environments.",
+  "who_should_take": "Linux systems administrators, systems engineers, and network engineers with hands-on experience managing and protecting Linux platforms in cloud and hybrid environments should take this exam to validate their skills.",
+  "skills_summary": [
+   "System Management",
+   "Storage Management",
+   "Account Management",
+   "OS Hardening",
+   "Shell Scripting",
+   "System Monitoring",
+   "Networking"
+  ],
+  "preparation_strategy": "Review the official exam objectives summary on the certification page to focus on key tested areas like LVM, RAID, firewall configuration, shell scripting, and Python basics. Practice monitoring system logs and diagnosing various hardware, storage, and networking issues to prepare for answering both multiple-choice and performance-based questions during the 90-minute testing window.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "Covers Linux basics, boot process steps, kernel management, filesystems, and architectures. Includes managing kernel modules, hardware components, device utilities, and configuring LVM, RAID, partitions, and mounted storage options across systems.",
+    "study_focus": [
+     "Boot process steps and kernel modules",
+     "LVM, RAID, and partitions"
+    ],
+    "source_ids": [
+     "comptia-xk0-006-comptia-linux-v8-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "Focuses on file and directory permissions, links, special files, and account management for users and groups. Addresses process control by monitoring states, adjusting priorities, and scheduling jobs reliably across operating systems.",
+    "study_focus": [
+     "File permissions and links",
+     "User and group administration",
+     "Process states and scheduling"
+    ],
+    "source_ids": [
+     "comptia-xk0-006-comptia-linux-v8-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "Deals with authentication, accounting via PAM, LDAP, and Kerberos, and enabling auditing. Involves setting up firewalls using iptables, nftables, UFW, and zone rules, alongside applying strict operating system hardening measures.",
+    "study_focus": [
+     "PAM, LDAP, and Kerberos configuration",
+     "iptables, nftables, and UFW firewalls",
+     "OS hardening and sudo configuration"
+    ],
+    "source_ids": [
+     "comptia-xk0-006-comptia-linux-v8-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "Centers on task automation with Ansible, Puppet, and CI/CD tools. Covers shell scripting variables, functions, and logic flows, plus Python script development using environments, packages, and data types for efficient administration.",
+    "study_focus": [
+     "Ansible and Puppet automation",
+     "Shell scripting logic flows",
+     "Python environments and packages"
+    ],
+    "source_ids": [
+     "comptia-xk0-006-comptia-linux-v8-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "Centers on system monitoring, health checks, log analysis, and event alerts. Involves diagnosing hardware and storage issues related to booting and mounting, and resolving firewall, routing, DNS, and connectivity problems effectively.",
+    "study_focus": [
+     "System health and log monitoring",
+     "Boot and mount diagnostics",
+     "Network and routing troubleshooting"
+    ],
+    "source_ids": [
+     "comptia-xk0-006-comptia-linux-v8-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Manage your time carefully across the 90-minute testing window. Address performance-based items and multiple-choice questions systematically, and check with CompTIA for any specific testing policies.",
+  "faq": [
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The required passing score for this certification examination is exactly 720 points, which is evaluated on a standardized numerical scale spanning from 100 to 900 total points for all candidates."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The total duration allocated for completing this certification exam is exactly 90 minutes from the very moment you begin your official testing session at the authorized testing center."
+   },
+   {
+    "question_title": "What question types appear on the exam?",
+    "answer_text": "The examination format consists of a combination of traditional multiple-choice questions and interactive performance-based questions designed comprehensively to test your practical systems administration skills in real-world scenarios."
+   },
+   {
+    "question_title": "When was the exam launched?",
+    "answer_text": "This certification exam was officially launched and made widely available to candidates globally on July 15, 2025, according to the official release records provided by CompTIA."
+   }
+  ],
+  "methodology": {
+   "summary": "This index page was compiled using official CompTIA Linux+ V8 exam guides, domain weight breakdowns, and verified certification metadata details to ensure complete accuracy.",
+   "source_ids": [
+    "comptia-xk0-006-comptia-linux-v8-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "comptia-xk0-006-comptia-linux-v8-exam_guide",
+   "comptia-xk0-006-comptia-linux-v8-exam_guide-2",
+   "comptia-xk0-006-comptia-linux-v8-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "comptia-xk0-006-comptia-linux-v8-exam_guide",
+   "url": "https://www.comptia.org/en/certifications/linux",
+   "title": "Linux+ Certification V8 | CompTIA Global",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:46a1f7f623f7322382a338c58d9e99f82d5dd4a0f1e00b9b9efceefdbce6fc5d"
+  },
+  {
+   "id": "comptia-xk0-006-comptia-linux-v8-exam_guide-2",
+   "url": "https://www.comptia.org/en-us/certifications/linux/",
+   "title": "Linux+ Certification V8 | CompTIA",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:f78774262e2c5e71134d90049f26964a72b90c0ae4b0352032173f9bed5b2a5b"
+  },
+  {
+   "id": "comptia-xk0-006-comptia-linux-v8-exam_guide-3",
+   "url": "https://www.comptia.org/en/certifications/linux/v8/practice-questions/",
+   "title": "Linux+ (V8) Practice Questions | CompTIA Certifications Global",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:e275386df168a8b23665105f6fa61b42295fdd7725d52edde43ecece4ca5fdcf"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:14:59+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:36+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:36+00:00"
+ }
+}

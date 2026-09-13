@@ -1,0 +1,312 @@
+{
+  "exam_id": "snowflake-cof-c03-snowpro-core-certification",
+  "exam_name": "SnowPro Core Certification",
+  "exam_code": "COF-C03",
+  "certifying_body": "Snowflake",
+  "certification_name": "SnowPro Core Certification",
+  "version": null,
+  "source_url": "https://learn.snowflake.com/en/certifications/snowpro-core-c03/",
+  "passing_score": 750,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": 175.0,
+  "exam_price_notes": "Official SnowPro Core page is titled COF-C03. Catalog also lists localized COF-C03-JPN/KOR/FRA/ESP guides. SnowPro Program Policies: scaled 0-1000, passing scaled score 750 (program-wide). Duration, question count, and domain percentage weights are on an Exam Details tab/study guide that was not ful",
+  "voucher_url": null,
+  "exam_registration_url": "https://learn.snowflake.com/en/certifications/snowpro-core-c03/",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English",
+    "Japanese",
+    "Korean",
+    "French",
+    "Spanish"
+  ],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Snowflake AI Data Cloud architecture",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Use the Snowflake AI Data Cloud architecture",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Accounts and virtual warehouses",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Manage Snowflake accounts and virtual warehouses",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Data loading, unloading, and transformation",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Perform data loading, unloading, and transformation",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Structured, semi-structured, and unstructured data",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Use structured, semi-structured, and unstructured data",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Performance",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Monitor and optimize performance",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "6.0",
+      "name": "Data collaboration and protection",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "6.1",
+          "title": "Enable data collaboration and protection",
+          "sub_objectives": []
+        }
+      ]
+    },
+    {
+      "id": "7.0",
+      "name": "Connectivity",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "7.1",
+          "title": "Establish Snowflake connectivity",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learn.snowflake.com/en/certifications/snowpro-core-c03/",
+  "official_study_resources": [],
+  "aliases": [
+    "cof-c03",
+    "cof-c03 snowpro core certification",
+    "snowflake-cof-c03-snowpro-core-certification",
+    "snowpro core certification"
+  ],
+  "practice_url": "https://quizforge.ai/tests/snowpro-core-certification-cof-c03-practice-test-3el4cb",
+  "editorial": {
+    "meta_description": "Prepare for the official Snowflake SnowPro Core Certification exam. Review domain requirements, passing scores, and study strategies for your certification.",
+    "overview": "The SnowPro Core Certification examination evaluates knowledge of the Snowflake AI Data Cloud architecture, account management, data loading procedures, and performance optimization techniques. Certified by Snowflake, this professional exam covers core data operations, structured and semi-structured file handling, and connectivity options designed for modern cloud data professionals working within enterprise environments.",
+    "who_should_take": "Data professionals, administrators, and developers with hands-on experience using Snowflake who want to validate their technical skills in managing warehouses, loading data, and configuring security controls.",
+    "preparation_strategy": "Carefully review official Snowflake documentation regarding internal and external stages, SQL commands like COPY INTO, and DML error logging options. Practice configuring tables, managing authentication methods, and utilizing Snowsight for database tasks to ensure you are fully prepared for the certification examination and related topics.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This domain focuses in depth on the core architecture of the Snowflake AI Data Cloud, including account access, identifiers, and general setup configurations required for cloud database environments and administrative tasks.",
+        "study_focus": [
+          "Use the Snowflake AI Data Cloud architecture",
+          "Understand core account identifiers and basic setups"
+        ],
+        "source_ids": [
+          "snowflake-cof-c03-snowpro-core-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain covers standard account administration tasks and the management of virtual warehouses used for executing queries, running analytical operations, and loading large workloads efficiently across your organization database infrastructure.",
+        "study_focus": [
+          "Manage Snowflake accounts and virtual warehouses",
+          "Configure resource monitors and compute resources"
+        ],
+        "source_ids": [
+          "snowflake-cof-c03-snowpro-core-certification-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain addresses data loading, unloading, and transformation procedures using internal and external stages, bulk loading techniques, and continuous data movement mechanisms across multiple distinct environments and cloud storage providers.",
+        "study_focus": [
+          "Perform data loading, unloading, and transformation",
+          "Configure internal and external data stages"
+        ],
+        "source_ids": [
+          "snowflake-cof-c03-snowpro-core-certification-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain examines specific methods for storing, managing, and querying structured, semi-structured, and unstructured data types within Snowflake database tables for diverse analytical workloads and modern data lakehouse architectures.",
+        "study_focus": [
+          "Use structured, semi-structured, and unstructured data",
+          "Query variants and files effectively within tables"
+        ],
+        "source_ids": [
+          "snowflake-cof-c03-snowpro-core-certification-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "This domain explores query performance monitoring, advanced optimization techniques, and error logging configurations for base tables to ensure efficient execution times and optimal resource usage across all active virtual warehouses.",
+        "study_focus": [
+          "Monitor and optimize performance",
+          "Analyze query profiles and execution metrics"
+        ],
+        "source_ids": [
+          "snowflake-cof-c03-snowpro-core-certification-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "6.0",
+        "summary": "This domain pertains to securing sensitive data objects, establishing structured access control privileges, and enabling secure data sharing mechanisms across multiple accounts and external organizations while meeting strict governance mandates.",
+        "study_focus": [
+          "Enable data collaboration and protection",
+          "Manage role-based access control and shares"
+        ],
+        "source_ids": [
+          "snowflake-cof-c03-snowpro-core-certification-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "7.0",
+        "summary": "This domain deals with setting up reliable connectivity using Snowsight, native drivers, specific connectors, and various external client applications to interact smoothly and securely with your cloud databases and backend data services.",
+        "study_focus": [
+          "Establish Snowflake connectivity",
+          "Configure drivers, connectors, and client tools"
+        ],
+        "source_ids": [
+          "snowflake-cof-c03-snowpro-core-certification-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Ensure you understand authentication methods like MFA and SSO, manage your time carefully across all exam domains, and check with Snowflake for the current certification path.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "Duration, question count, and domain percentage weights are located on an Exam Details tab or study guide that was not fully specified in the primary catalog notes for candidates."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The SnowPro program policies utilize a scaled score ranging from 0 to 1000, with a program-wide passing scaled score of 750 required to successfully pass the examination."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exact duration details and time limits are located on the official Exam Details tab or study guide, which should be verified directly through your Snowflake catalog guide documentation."
+      },
+      {
+        "question_title": "How much does the exam cost?",
+        "answer_text": "The official exam price is set at 175 United States Dollars, as clearly listed in the catalog and official program policies for the certification process and associated testing fees."
+      }
+    ],
+    "methodology": {
+      "summary": "This detailed page was built using official Snowflake documentation and verified exam policies, outlining all core test domains, pricing details, and scoring guidelines clearly.",
+      "source_ids": [
+        "snowflake-cof-c03-snowpro-core-certification-exam_guide",
+        "snowflake-cof-c03-snowpro-core-certification-exam_guide-2",
+        "snowflake-cof-c03-snowpro-core-certification-exam_guide-3"
+      ]
+    },
+    "source_ids": [
+      "snowflake-cof-c03-snowpro-core-certification-exam_guide",
+      "snowflake-cof-c03-snowpro-core-certification-exam_guide-2",
+      "snowflake-cof-c03-snowpro-core-certification-exam_guide-3"
+    ],
+    "skills_summary": [
+      "Snowflake AI Data Cloud architecture management",
+      "Virtual warehouse configuration and resource monitors",
+      "Data loading, unloading, and transformation",
+      "Structured and semi-structured data querying",
+      "Database performance optimization and monitoring",
+      "Data security, access control, and sharing"
+    ]
+  },
+  "sources": [
+    {
+      "id": "snowflake-cof-c03-snowpro-core-certification-exam_guide",
+      "url": "https://docs.snowflake.com/en/sql-reference/data-types-datetime",
+      "title": "Date & time data types | Snowflake Documentation",
+      "publisher": "Snowflake",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:56325b2abd1fd7e3011e40553f4dc85612f5a661ffcbafaa6e0332a2c4cb90a5"
+    },
+    {
+      "id": "snowflake-cof-c03-snowpro-core-certification-exam_guide-2",
+      "url": "https://docs.snowflake.com/en/sql-reference/data-types-geospatial",
+      "title": "Geospatial data types | Snowflake Documentation",
+      "publisher": "Snowflake",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:aa4e9c8abe1b18c4f19c20b9d3e3734b14728e7782ccd216a7d7f8e7e693f7a8"
+    },
+    {
+      "id": "snowflake-cof-c03-snowpro-core-certification-exam_guide-3",
+      "url": "https://docs.snowflake.com/en/user-guide/tables-iceberg",
+      "title": "Apache Iceberg™ tables | Snowflake Documentation",
+      "publisher": "Snowflake",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:4f62ac6eb893c9a345abb4f8ad658e025c771b3f5ba634a5bc9506763a670ee3"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T08:55:23+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T09:36:38+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:38+00:00"
+  }
+}

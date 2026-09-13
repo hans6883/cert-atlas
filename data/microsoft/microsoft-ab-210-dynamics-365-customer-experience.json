@@ -1,0 +1,354 @@
+{
+  "exam_id": "microsoft-ab-210-dynamics-365-customer-experience",
+  "exam_name": "Accelerating Sales Pipelines with AI in Dynamics 365",
+  "exam_code": "AB-210",
+  "certifying_body": "Microsoft",
+  "certification_name": "Microsoft Certified: Dynamics 365 Sales AI Consultant Associate",
+  "version": null,
+  "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-210",
+  "passing_score": 700,
+  "passing_score_scale": "1-1000",
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": null,
+  "exam_price_usd": null,
+  "exam_price_notes": "Price based on the country or region in which the exam is proctored (Microsoft does not publish a USD list price).",
+  "voucher_url": null,
+  "exam_registration_url": "https://home.pearsonvue.com/microsoft",
+  "testing_centers": [],
+  "online_proctoring_available": true,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [
+    "English"
+  ],
+  "target_audience": "As a candidate for this Microsoft Certification, you design and configure AI-enhanced sales solutions by using Dynamics 365 Sales, Copilot in Dynamics 365 Sales, and agent capabilities to help sellers work more efficiently throughout the lead-to-cash process. You translate business requirements into",
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Configure Dynamics 365 Sales core features for AI",
+      "weight_percent": 17.5,
+      "weight_min": 15.0,
+      "weight_max": 20.0,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Configure Sales",
+          "sub_objectives": [
+            "Evaluate prerequisites for deploying Sales",
+            "Configure mailboxes",
+            "Set up and configure business process flows",
+            "Configure the timeline",
+            "Evaluate options for importing and exporting data",
+            "Examine the Sales security model",
+            "Configure Microsoft 365 functionality, including Microsoft Teams, SharePoint, Outlook, and OneDrive"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Create and manage the product catalog",
+          "sub_objectives": [
+            "Configure products and product families",
+            "Create and manage price lists, including currencies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.0",
+      "name": "Optimize AI-driven sales",
+      "weight_percent": 22.5,
+      "weight_min": 20.0,
+      "weight_max": 25.0,
+      "objectives": [
+        {
+          "id": "2.1",
+          "title": "Design an AI-first sales strategy",
+          "sub_objectives": [
+            "Augment seller workflows by using Copilot and agents",
+            "Design the sales data model in Dataverse",
+            "Evaluate options for reporting and visualization",
+            "Differentiate features in Sales plans"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Prepare to deploy agents",
+          "sub_objectives": [
+            "Configure prerequisites for deploying agents",
+            "Configure capacity, billing, and credits"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Configure AI-powered intelligence and insights features",
+          "sub_objectives": [
+            "Configure the Sales accelerator",
+            "Configure work assignment and distribution",
+            "Set up conversational intelligence",
+            "Configure predictive scoring",
+            "Set up relationship intelligence",
+            "Configure Copilot features, including record summarization",
+            "Configure and use forecasts to help improve sales performance",
+            "Set up goals and goal metrics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.0",
+      "name": "Qualify and prioritize leads by using AI",
+      "weight_percent": 17.5,
+      "weight_min": 15.0,
+      "weight_max": 20.0,
+      "objectives": [
+        {
+          "id": "3.1",
+          "title": "Generate and nurture leads",
+          "sub_objectives": [
+            "Configure the lead and opportunity experience",
+            "Fine-tune the predictive scoring model"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Automate lead qualification by using the Sales Qualification Agent",
+          "sub_objectives": [
+            "Evaluate use cases for Research-only mode configuration versus Research and engage mode configuration",
+            "Configure the Sales Qualification Agent",
+            "Interpret the actions of the Sales Qualification Agent",
+            "Monitor the Sales Qualification Agent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.0",
+      "name": "Develop deals by using intelligent opportunity research",
+      "weight_percent": 27.5,
+      "weight_min": 25.0,
+      "weight_max": 30.0,
+      "objectives": [
+        {
+          "id": "4.1",
+          "title": "Optimize opportunity management",
+          "sub_objectives": [
+            "Coordinate opportunity management with the Sales Close Agent",
+            "Add Opportunity Products, and configure pricing",
+            "Configure the opportunity pipeline view",
+            "Set up and configure the Sales Opportunity Agent"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Automate deal closing by using the Sales Close Agent",
+          "sub_objectives": [
+            "Set up and configure the Sales Close Agent",
+            "Interpret the actions of the Sales Close Agent",
+            "Monitor the Sales Close Agent",
+            "Collaborate with the Sales Close Agent"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Gather intelligence on sales deals by using the Sales Research Agent",
+          "sub_objectives": [
+            "Evaluate use cases for the Sales Research Agent",
+            "Configure the Sales Research Agent",
+            "Analyze sales performance by using research canvas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.0",
+      "name": "Extend and enhance Sales",
+      "weight_percent": 12.5,
+      "weight_min": 10.0,
+      "weight_max": 15.0,
+      "objectives": [
+        {
+          "id": "5.1",
+          "title": "Configure supporting apps and services",
+          "sub_objectives": [
+            "Deploy and configure the Sales mobile app",
+            "Set up Teams calling",
+            "Configure an SMS channel"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Expand the sales footprint by using Microsoft Power Platform",
+          "sub_objectives": [
+            "Create Power Automate flows",
+            "Embed Power Apps components and controls",
+            "Embed Power BI reports"
+          ]
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-210",
+  "official_study_resources": [],
+  "aliases": [
+    "ab-210",
+    "ab-210 accelerating sales pipelines with ai in dynamics 365",
+    "accelerating sales pipelines with ai in dynamics 365",
+    "microsoft certified dynamics 365 sales ai consultant associate",
+    "microsoft-ab-210-dynamics-365-customer-experience"
+  ],
+  "practice_url": "https://quizforge.ai/tests/accelerating-sales-pipelines-with-ai-in-dynamics-365-ab-210-practice-test-3dc026",
+  "editorial": {
+    "meta_description": "Prepare for the Microsoft Dynamics 365 customer experience certification exam. Master core sales features, AI-driven sales, lead qualification, and opportunity.",
+    "overview": "This thorough preparation guide is designed to help professionals successfully master the Microsoft Dynamics 365 customer experience certification exam by providing structured learning paths. The examination evaluates your ability to configure core sales features, deploy intelligent sales agents, qualify and prioritize leads, and manage deals using advanced opportunity research across the entire platform ecosystem.",
+    "who_should_take": "This exam targets professionals who design and configure AI-enhanced sales solutions using Dynamics 365 Sales, Copilot, and agent capabilities. Candidates should have practical experience translating business requirements into seller workflows.",
+    "skills_summary": [
+      "Configure Dynamics 365 Sales core features",
+      "Optimize AI-driven sales",
+      "Qualify and prioritize leads using AI",
+      "Develop deals with intelligent opportunity research",
+      "Extend and enhance Sales"
+    ],
+    "preparation_strategy": "Review the official study guide, documentation resources, and technical guides for Dynamics 365 Sales, Copilot, and artificial intelligence capabilities. Gain hands-on configuration experience working directly with the Microsoft Power Platform, model-driven applications, and automated cloud workflows to ensure complete readiness before taking the exam on test day.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This specific domain covers configuring Dynamics 365 Sales core features for advanced artificial intelligence readiness, including setting up product catalogs and managing application components required for daily business operations and administrative tasks.",
+        "study_focus": [
+          "Configure Sales",
+          "Create and manage the product catalog"
+        ],
+        "source_ids": [
+          "microsoft-ab-210-dynamics-365-customer-experience-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2.0",
+        "summary": "This domain focuses heavily on optimizing AI-driven sales strategies, preparing teams to deploy intelligent agents, and configuring advanced intelligence and actionable insights features within the platform environment to maximize overall business efficiency.",
+        "study_focus": [
+          "Design an AI-first sales strategy",
+          "Prepare to deploy agents",
+          "Configure AI-powered intelligence and insights features"
+        ],
+        "source_ids": [
+          "microsoft-ab-210-dynamics-365-customer-experience-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3.0",
+        "summary": "This domain involves generating and nurturing prospective leads while automating complex lead qualification processes efficiently by leveraging the capabilities of unique agents within the Dynamics 365 sales environment for modern organizations.",
+        "study_focus": [
+          "Generate and nurture leads",
+          "Automate lead qualification by using the Sales Qualification Agent"
+        ],
+        "source_ids": [
+          "microsoft-ab-210-dynamics-365-customer-experience-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4.0",
+        "summary": "This domain centers entirely on strategic opportunity management, automating deal closures through specific agents, and gathering deep deal intelligence reliably via research features to support sales professionals effectively.",
+        "study_focus": [
+          "Optimize opportunity management",
+          "Automate deal closing by using the Sales Close Agent",
+          "Gather intelligence on sales deals by using the Sales Research Agent"
+        ],
+        "source_ids": [
+          "microsoft-ab-210-dynamics-365-customer-experience-exam_guide",
+          "microsoft-ab-210-dynamics-365-customer-experience-exam_guide-3"
+        ]
+      },
+      {
+        "domain_id": "5.0",
+        "summary": "This domain covers expanding the overall enterprise sales footprint by configuring supporting applications and services, integrating necessary external components, and utilizing Microsoft Power Platform components to deliver complete solutions for customers.",
+        "study_focus": [
+          "Configure supporting apps and services",
+          "Expand the sales footprint by using Microsoft Power Platform"
+        ],
+        "source_ids": [
+          "microsoft-ab-210-dynamics-365-customer-experience-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Thoroughly review your scoring requirements, verify your testing setup, and ensure that your official candidate certification profile is securely connected to Microsoft Learn before your examination session officially begins today.",
+    "faq": [
+      {
+        "question_title": "What is the passing score for the exam?",
+        "answer_text": "A passing score of 700 or greater is required to successfully pass the examination, which is measured across a standardized scale ranging from 1 to 1000."
+      },
+      {
+        "question_title": "Who certifies this customer experience exam?",
+        "answer_text": "Microsoft officially certifies this examination for candidates who design and configure advanced artificial intelligence enhanced sales solutions using Dynamics 365 Sales and related platform tools."
+      },
+      {
+        "question_title": "How much does the certification exam cost?",
+        "answer_text": "The price is determined based on the specific country or region in which the examination is proctored, as Microsoft does not publish a standard United States dollar list price."
+      },
+      {
+        "question_title": "How many domains are covered on the exam?",
+        "answer_text": "The examination covers exactly 5 distinct domains, focusing extensively on core features, artificial intelligence optimization, lead qualification, opportunity research, and powerful platform extensions across the ecosystem."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built using official Microsoft exam guides, verified technical documentation sources, and structured certification requirements to help candidates prepare for their test successfully.",
+      "source_ids": [
+        "microsoft-ab-210-dynamics-365-customer-experience-exam_guide",
+        "microsoft-ab-210-dynamics-365-customer-experience-exam_guide-2",
+        "microsoft-ab-210-dynamics-365-customer-experience-exam_guide-3"
+      ]
+    },
+    "source_ids": [
+      "microsoft-ab-210-dynamics-365-customer-experience-exam_guide",
+      "microsoft-ab-210-dynamics-365-customer-experience-exam_guide-2",
+      "microsoft-ab-210-dynamics-365-customer-experience-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "microsoft-ab-210-dynamics-365-customer-experience-exam_guide",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/copilot/ai-get-started",
+      "title": "Agents, Copilot, and AI capabilities in Dynamics 365 apps - Dynamics 365 | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:d3f75bcb498b73f99eb9a71fa1981f65e6a60fbcb7b8debe6cdd1b84cf40e2d0"
+    },
+    {
+      "id": "microsoft-ab-210-dynamics-365-customer-experience-exam_guide-2",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/sales/overview",
+      "title": "Welcome to Dynamics 365 Sales | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:2e8d64409c5f4423cced726004cd95d257f4627db9aa46d544ebbf009cf6bebe"
+    },
+    {
+      "id": "microsoft-ab-210-dynamics-365-customer-experience-exam_guide-3",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/sales/use-opportunity-research-agent",
+      "title": "Work on opportunities handled by the Sales Opportunity Agent | Microsoft Learn",
+      "publisher": "Microsoft",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:154188843e63ef50c09e0c804c8d520f752608cf92089f983ea95f1a8ab056b0"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T07:57:40+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T09:36:37+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:37+00:00"
+  }
+}

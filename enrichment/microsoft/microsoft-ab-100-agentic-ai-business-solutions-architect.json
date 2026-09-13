@@ -1,0 +1,134 @@
+{
+ "exam_id": "microsoft-ab-100-agentic-ai-business-solutions-architect",
+ "editorial": {
+  "meta_description": "Prepare for the Microsoft certification exam by planning, designing, and deploying AI-powered business solutions using official resources.",
+  "overview": "The official certification program evaluates solution architects on planning, designing, and deploying AI-powered business solutions across modern enterprise platforms. Candidates prove thorough expertise in managing autonomous agents, enterprise copilots, advanced data grounding techniques, and cross-platform artificial intelligence workloads to support vital business operations and digital transformation objectives in modern environments.",
+  "who_such_take": "",
+  "who_should_take": "Accomplished solution architects, technical leaders, and senior consultants with extensive hands-on experience designing secure, scalable, and integrated AI-driven business solutions using advanced Microsoft services and tools.",
+  "skills_summary": [
+   "Plan AI-powered business solutions",
+   "Design AI-powered business solutions",
+   "Deploy AI-powered business solutions",
+   "Assess agents for task automation",
+   "Design customizations for Copilot",
+   "Analyze backlog and user feedback"
+  ],
+  "preparation_strategy": "Review the official exam guide and complete extensive hands-on practice sessions. Study grounding data requirements, multi-agent orchestration, agent monitoring tools, and application lifecycle management strategies in detail. Gain practical, working experience with Microsoft Copilot Studio and Azure AI Foundry tools before sitting for the examination.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain covers planning AI-powered business solutions by assessing agents in task automation and data analytics, reviewing data for grounding, and organizing business solution data for other artificial intelligence systems.",
+    "study_focus": [
+     "Assess agents in task automation, data analytics, and decision-making",
+     "Review data for grounding, including accuracy, relevance, timeliness, cleanliness, and availability",
+     "Organize business solution data to be available for other AI systems"
+    ],
+    "source_ids": [
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide",
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-2",
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain focuses heavily on designing AI-powered business solutions by establishing business terms for Copilot in Dynamics 365 apps, designing app customizations, and building effective connectors for Dynamics 365 Sales.",
+    "study_focus": [
+     "Design business terms for Copilot in Dynamics 365 apps for customer experience and service",
+     "Design customizations of Copilot in Dynamics 365 apps for customer experience and service",
+     "Design connectors for Copilot in Dynamics 365 Sales"
+    ],
+    "source_ids": [
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide",
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-2",
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain involves deploying AI-powered business solutions through recommending tools for monitoring agents, analyzing user feedback and backlogs, and applying artificial intelligence tools to identify issues and perform system tuning.",
+    "study_focus": [
+     "Recommend the process and tools required for monitoring agents",
+     "Analyze backlog and user feedback of AI and agent usage",
+     "Apply AI-based tools to analyze and identify issues and perform tuning"
+    ],
+    "source_ids": [
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide",
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-2",
+     "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-3"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive prepared to complete the proctored exam. Register using a personal account so exam records remain secure, and check with Microsoft for the exact price based on your region.",
+  "faq": [
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "Candidates must achieve a minimum score of 700 to successfully pass the examination on a scaling system ranging from 1 to 1000 for all test takers."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The exact pricing is determined directly by the specific country or region in which the exam is proctored, as Microsoft does not publish a standard global list price."
+   },
+   {
+    "question_title": "Is this exam currently active?",
+    "answer_text": "Yes, it is currently active. You should always check directly with Microsoft for the latest updates regarding certification paths and long-term requirements before scheduling your test."
+   },
+   {
+    "question_title": "What are the domain weights for the exam?",
+    "answer_text": "The exam features three domains: planning AI-powered business solutions weighted at 27.5 percent, designing them weighted at 27.5 percent, and deploying them weighted at 42.5 percent."
+   }
+  ],
+  "methodology": {
+   "summary": "This thorough information page was carefully built using official Microsoft exam guides, study guides, and technical course outlines to ensure accurate information.",
+   "source_ids": [
+    "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide",
+    "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-2",
+    "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-3"
+   ]
+  },
+  "source_ids": [
+   "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide",
+   "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-2",
+   "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/media/fundamentals-what-is-copilot-studio/home-page.png",
+   "title": "Microsoft exam guide",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:5ab33410d8343fda642ccc4456ccbc45e34e23025363c13a7dfa3cb29cc69b37"
+  },
+  {
+   "id": "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-2",
+   "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview",
+   "title": "Get started with Microsoft Foundry SDKs and endpoints - Microsoft Foundry | Microsoft Learn",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:b0222912c9a58bbb35e31a8bc22d0559bcfc80556cbcf10228ddc8f969ebd5dd"
+  },
+  {
+   "id": "microsoft-ab-100-agentic-ai-business-solutions-architect-exam_guide-3",
+   "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/quickstarts/quickstart-hosted-agent",
+   "title": "Quickstart: Deploy your first hosted agent - Microsoft Foundry | Microsoft Learn",
+   "publisher": "Microsoft",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:e83cac74645100162e205a32867ad448a5bb9d9711b5ecc9edaff3db1a9c792e"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T07:54:59+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:37+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:37+00:00"
+ }
+}

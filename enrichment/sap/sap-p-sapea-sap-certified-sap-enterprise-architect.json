@@ -1,0 +1,142 @@
+{
+ "exam_id": "sap-p-sapea-sap-certified-sap-enterprise-architect",
+ "editorial": {
+  "meta_description": "Prepare for the SAP Certified Professional - SAP Enterprise Architect exam with official study strategies, domain objectives, and assessment facts.",
+  "overview": "The SAP Certified Professional - SAP Enterprise Architect certification validates your professional-level expertise in enterprise architecture frameworks, business architecture, roadmap development, and technical solutions. Certified by SAP, this scenario-based assessment evaluates your ability to correctly interpret complex IT requirements and apply reference architectures effectively across modern enterprise systems during the 120-minute assessment.",
+  "who_should_take": "Enterprise architects, solution architects, and senior consultants with experience in SAP technologies should take this 120-minute professional-level assessment to demonstrate expertise in designing architectures and roadmaps.",
+  "preparation_strategy": "To adequately prepare for this professional-level assessment, review the official exam guide and study all related architecture framework documentation. Focus specifically on understanding how to map business capabilities, interpret IT requirements, and structure enterprise architecture models using the available reference content and frameworks provided by SAP.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This specific domain focuses heavily on analyzing business strategies, interpreting IT requirements accurately, and applying reference architecture content from SAP in order to align technical solutions successfully and efficiently across modern architectures.",
+    "study_focus": [
+     "Analyze, assess, and understand a company’s business strategies",
+     "Apply Reference Architecture Content from SAP",
+     "Interpret IT requirements"
+    ],
+    "source_ids": [
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-2",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain covers developing architecture visions and broad roadmaps, capturing existing and future business models, and defining target business and solution architecture roadmaps for complex enterprise environments and stakeholders.",
+    "study_focus": [
+     "Develop the architecture vision and roadmap for a company",
+     "Capture existing and future business models and capabilities",
+     "Define a target business/solution architecture roadmap"
+    ],
+    "source_ids": [
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-2",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain centers entirely on recommending business capability mappings and modeling end-to-end processes to support enterprise architecture designs effectively across various business units, functional areas, and technical domains.",
+    "study_focus": [
+     "Recommend a business capability mapping",
+     "Model end-to-end processes"
+    ],
+    "source_ids": [
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-2",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This domain explores data, application, and technology architecture, describing artifact usage, identifying key stakeholders, and applying best practices of reference architecture content provided by SAP to maintain high quality.",
+    "study_focus": [
+     "Describe/explain artifact content, usage, and stakeholders",
+     "Use artifacts",
+     "Apply best practices of Reference Architecture Content from SAP"
+    ],
+    "source_ids": [
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-2",
+     "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-3"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Manage your time carefully during the 120-minute duration. Read each professional-level scenario carefully before selecting your answers to ensure you meet the 60% passing score.",
+  "faq": [
+   {
+    "question_title": "How many domains are covered on the exam?",
+    "answer_text": "The certification exam covers a total of four distinct domains, which include the SAP Enterprise Architecture Framework and Toolset, Architecture Vision and Roadmap, Business Architecture, and Data, Application, and Technology Architecture."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score for the SAP Certified Professional - SAP Enterprise Architect assessment is set at precisely 60 percent to successfully demonstrate professional competency and architectural knowledge."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The exam has a total duration of 120 minutes, giving all candidates sufficient time to complete every professional-level scenario question presented during the evaluation process successfully."
+   },
+   {
+    "question_title": "Is this exam currently active?",
+    "answer_text": "Yes, this exam is current and active for professionals seeking certification. If you need any further information regarding long-term certification pathways and official updates, check with SAP directly."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was built using verified facts and official exam documentation from SAP, organizing domains, question parameters, and study guides for candidates.",
+   "source_ids": [
+    "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide",
+   "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-2",
+   "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-3"
+  ],
+  "skills_summary": [
+   "Enterprise Architecture Framework and Toolset",
+   "Architecture Vision and Roadmap",
+   "Business Architecture",
+   "Data, Application, and Technology Architecture"
+  ]
+ },
+ "sources": [
+  {
+   "id": "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide",
+   "url": "https://help.sap.com/doc/856bdc8acbaf46af9586bbd78440f591/1.0/en-US/SAP_Enterprise_Architecture_Methodology_Guide_1.pdf",
+   "title": "SAP exam guide",
+   "publisher": "SAP",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:d0049d442700d86f8be84f1f5bc8858047e7b2b755eabc6dc303bf2d578add72"
+  },
+  {
+   "id": "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-2",
+   "url": "https://help.sap.com/doc/1e322967d9ef4d788c4165c9aed88c78/Cloud/en-US/892cd77faccc4c959ca87aa600e40eac.pdf",
+   "title": "SAP exam guide",
+   "publisher": "SAP",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:729200a03b089c380b84cadbe98f21ce2efbd628d07457b47fad656e797750b7"
+  },
+  {
+   "id": "sap-p-sapea-sap-certified-sap-enterprise-architect-exam_guide-3",
+   "url": "https://learning.sap.com/certifications/sap-certified-professional-sap-enterprise-architect",
+   "title": "SAP Certified Professional - SAP Enterprise Architect | SAP Learning",
+   "publisher": "SAP",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:5f2d13760aa23a960183d7169258f8f08d0d2516fc8ac85ac2d6e6e2a9cc459f"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T09:35:38+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:38+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:38+00:00"
+ }
+}

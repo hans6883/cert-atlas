@@ -1,0 +1,173 @@
+{
+  "exam_id": "f5-networks-f5cab1-big-ip-administration-install-initial-configuration",
+  "exam_name": "BIG-IP Administration Install, Initial Configuration, and Upgrade (F5CAB1)",
+  "exam_code": "F5CAB1",
+  "certifying_body": "F5 Networks",
+  "certification_name": "F5 Certified Administrator, BIG-IP",
+  "version": null,
+  "source_url": "https://support.education.f5.com/hc/en-us/articles/35052524386075-BIG-IP-Administration-Install-Initial-Configuration-and-Upgrade-F5CAB1-exam",
+  "passing_score": null,
+  "passing_score_scale": null,
+  "total_questions": null,
+  "question_types": [],
+  "exam_format": null,
+  "duration_minutes": 30,
+  "exam_price_usd": 50.0,
+  "exam_price_notes": "One of five exams required for F5 Certified Administrator, BIG-IP. Official Education article: duration 30 minutes, 30 items, $50 USD. First-party: beginning 2025-05-01 the 101/201 track changed; 101 retired 2025-04-30; 201 remains only for candidates who passed 101 before 2025-04-30. Numbered F5CAB",
+  "voucher_url": null,
+  "exam_registration_url": "https://support.education.f5.com/hc/en-us/articles/35052524386075-BIG-IP-Administration-Install-Initial-Configuration-and-Upgrade-F5CAB1-exam",
+  "testing_centers": [],
+  "online_proctoring_available": null,
+  "id_requirements": null,
+  "exam_rules": null,
+  "certification_validity_years": null,
+  "renewal_required": null,
+  "renewal_options": null,
+  "continuing_education_units": null,
+  "available_languages": [],
+  "target_audience": null,
+  "recommended_experience": null,
+  "prerequisites": [],
+  "retake_policy": null,
+  "domains": [
+    {
+      "id": "1.0",
+      "name": "Install, Initial Configuration, and Upgrade",
+      "weight_percent": null,
+      "weight_min": null,
+      "weight_max": null,
+      "objectives": [
+        {
+          "id": "1.1",
+          "title": "Secure BIG-IP",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.2",
+          "title": "Identify management connectivity and configurations",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.3",
+          "title": "Explain licensing",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.4",
+          "title": "Manage software images",
+          "sub_objectives": []
+        },
+        {
+          "id": "1.5",
+          "title": "Identify which modules are licensed and/or provisioned",
+          "sub_objectives": []
+        }
+      ]
+    }
+  ],
+  "official_objectives_url": "https://support.education.f5.com/hc/en-us/articles/35052524386075-BIG-IP-Administration-Install-Initial-Configuration-and-Upgrade-F5CAB1-exam",
+  "official_study_resources": [],
+  "aliases": [
+    "big-ip administration install initial configuration and upgrade f5cab1",
+    "f5cab1",
+    "f5cab1 big-ip administration install initial configuration and upgrade f5cab1"
+  ],
+  "practice_url": "https://quizforge.ai/tests/big-ip-administration-install-initial-configuration-and-upgrade-f5cab1-practice-test-3dz65f",
+  "editorial": {
+    "meta_description": "Prepare for the BIG-IP Administration Install, Initial Configuration, and Upgrade exam from F5 Networks with official exam topics, objectives, format, and fees.",
+    "overview": "The BIG-IP Administration Install, Initial Configuration, and Upgrade certification exam is officially provided by F5 Networks. It thoroughly evaluates candidate knowledge and technical capabilities in installing, securely configuring, and upgrading BIG-IP systems, including management connectivity procedures and software licensing operations across supported hardware platforms for network professionals seeking credentials.",
+    "who_should_take": "Administrators and network professionals responsible for deploying, configuring, and upgrading F5 BIG-IP systems. Candidates should have practical experience with initial device setup, license activation, and security hardening.",
+    "skills_summary": [
+      "Secure BIG-IP",
+      "Identify management connectivity and configurations",
+      "Explain licensing",
+      "Perform system installations and upgrades"
+    ],
+    "preparation_strategy": "Review official F5 Networks documentation regarding initial setup procedures, automated and manual license activation methods, and rSeries configuration tasks. Practice configuring management IP addresses, DNS settings, NTP synchronization, and security parameters across your BIG-IP lab environment to ensure complete readiness before test day arrives for the certification program.",
+    "domain_guidance": [
+      {
+        "domain_id": "1.0",
+        "summary": "This essential domain covers initial system installation, system upgrades, software licensing procedures, management connectivity setup, and advanced security implementation for various supported BIG-IP platforms during administration deployment tasks.",
+        "study_focus": [
+          "Secure BIG-IP",
+          "Identify management connectivity and configurations",
+          "Explain licensing",
+          "Perform system installations and upgrades"
+        ],
+        "source_ids": [
+          "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Manage your time efficiently across the 30 items allocated for the 30 minutes duration. Review all questions carefully and ensure you meet all identification and setup requirements before starting.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The certification exam consists of exactly 30 items covering crucial installation, initial configuration, and system upgrade tasks designed to test your administrative expertise and technical skills."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "Passing score requirements and specific threshold metrics are determined directly by F5 Networks; check with F5 Networks for the current certification path details and passing standards."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam has a strict total duration of 30 minutes to complete all items and successfully answer every single question presented on the test without exception."
+      },
+      {
+        "question_title": "What is the price of the exam?",
+        "answer_text": "The standard exam price is $50 USD. It represents an important milestone as one of five exams required for the F5 Certified Administrator credential program."
+      }
+    ],
+    "methodology": {
+      "summary": "This comprehensive exam information guide was built carefully using verified facts derived directly from official F5 Networks documentation and certification resources.",
+      "source_ids": [
+        "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide",
+      "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide-2",
+      "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide",
+      "url": "https://techdocs.f5.com/kb/en-us/products/big-iq-cloud/manuals/product/bigiq-system-initial-setup-4-5-0/3.html",
+      "title": "Software Download Licensing and Initial Configuration",
+      "publisher": "F5 Networks",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:95da0e084bf38574658eef502c5c8d426266cba11da6adba17838c0b6dddb4c5"
+    },
+    {
+      "id": "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide-2",
+      "url": "https://techdocs.f5.com/kb/en-us/products/em/manuals/product/em-getting-started-3-1-1/2.html",
+      "title": "Initial Setup and Configuration",
+      "publisher": "F5 Networks",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:a11d45bd65854a1be1dd47c5437f4a19aff359ae578178aa86457eb42faf7e23"
+    },
+    {
+      "id": "f5-networks-f5cab1-big-ip-administration-install-initial-configuration-exam_guide-3",
+      "url": "https://techdocs.f5.com/en-us/f5os-a-1-8-0/f5-rseries-systems-administration-configuration/title-additional-system-tasks.html",
+      "title": "Additional System Tasks | BIG-IP Documentation",
+      "publisher": "F5 Networks",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:d5ef968064484e81bbd8ae06155bb78396b396fdf1c4d50f8fd20d895465f68b"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-flash-lite-latest",
+    "generated_at": "2026-09-13T08:28:21+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-13T09:36:36+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-13T09:36:36+00:00"
+  }
+}

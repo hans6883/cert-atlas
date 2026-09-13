@@ -1,0 +1,197 @@
+{
+ "exam_id": "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003",
+ "editorial": {
+  "meta_description": "Prepare for the HashiCorp Certified Vault Associate 003 exam. Review authentication methods, policies, tokens, leases, secrets engines, and deployment.",
+  "overview": "The HashiCorp Certified: Vault Associate (003) certification exam validates your practical knowledge and operational skills in managing secrets, implementing authentication methods, and performing security automation tasks. Certified by HashiCorp, this online proctored test comprehensively covers Vault 1.16 capabilities and core operational concepts for cloud engineers seeking professional validation of their technical expertise.",
+  "who_should_take": "Cloud engineers with Vault knowledge and skills should take this exam. You may work in security, development, or operations, and you will need basic terminal skills and an understanding of cloud architecture.",
+  "skills_summary": [
+   "Authentication methods",
+   "Vault policies",
+   "Vault tokens",
+   "Vault leases",
+   "Secrets engines",
+   "Encryption as a service",
+   "Vault architecture fundamentals",
+   "Access management architecture"
+  ],
+  "preparation_strategy": "Practice all exam objectives by setting up a personal demo environment to test various configurations. Review the official documentation on authentication methods, token management, and policy syntax carefully. Focus on setting up Vault Agent and working directly with diverse secrets engines using both the command-line interface and the user interface to ensure complete operational readiness before taking the test.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "Focus on the primary purpose of authentication methods and learn how to choose the right approach based on your specific use case, distinguishing clearly between human users and system authentication methods.",
+    "study_focus": [
+     "Define the purpose of authentication methods",
+     "Choose an authentication method based on use case",
+     "Explain the difference between human vs. system authentication methods"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "Study the overall value of Vault policies and master policy syntax in great detail, including specific paths and capabilities, in order to control access to sensitive resources effectively.",
+    "study_focus": [
+     "Explain the value of Vault policies",
+     "Describe Vault policy syntax: path",
+     "Describe Vault policy syntax: capabilities"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "Understand token management completely by choosing between service and batch tokens based on operational requirements, learning root token lifecycles, and explaining the specific purpose of token accessors carefully.",
+    "study_focus": [
+     "Choose between service and batch tokens based on use case",
+     "Describe root token uses and lifecycle",
+     "Explain the purpose of token accessors"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "Learn lease management mechanics in significant depth, including the core purpose of lease IDs and the exact procedures required for renewing and revoking active leases within the system.",
+    "study_focus": [
+     "Explain the purpose of a lease ID",
+     "Describe how to renew leases",
+     "Describe how to revoke leases"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "Explore secrets engines by selecting them appropriately for specific use cases, comparing static and dynamic secrets directly, and utilizing the transit secrets engine for advanced cryptographic operations safely.",
+    "study_focus": [
+     "Choose a secrets engine based on use case",
+     "Compare and contrast dynamic secrets vs. static secrets, and know their use cases",
+     "Describe the uses of transit secrets engine"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6.0",
+    "summary": "Master encryption as a service workflows by successfully performing encryption and decryption operations on sensitive data, and regularly rotating the encryption key as recommended by standard best practices.",
+    "study_focus": [
+     "Encrypt and decrypt secrets",
+     "Rotate the encryption key"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "7.0",
+    "summary": "Examine Vault architecture fundamentals in extensive detail, covering how Vault encrypts data internally, sealing and unsealing mechanisms for security, and proper environment variable configuration procedures for implementations during the version 1.16 lifecycle.",
+    "study_focus": [
+     "Describe how Vault encrypts data",
+     "Explain how to seal and unseal Vault",
+     "Configure environment variables"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "8.0",
+    "summary": "Review deployment architecture strategies for self-managed and HashiCorp-managed clusters, storage backends, and the application of Shamir secret sharing for secure unsealing operations across your various environments while testing version 1.16 features.",
+    "study_focus": [
+     "Explain cluster strategy for self-managed and HashiCorp-managed clusters",
+     "Explain the uses of storage backends",
+     "Explain the uses of Shamir secret sharing and unsealing"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "9.0",
+    "summary": "Understand access management architecture completely by reviewing the core functions of Vault Agent and the advanced operational capabilities of the Vault Secrets Operator in modern cloud native workflows.",
+    "study_focus": [
+     "Describe the Vault Agent",
+     "Describe the Vault Secrets Operator"
+    ],
+    "source_ids": [
+     "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide-2"
+    ]
+   }
+  ],
+  "exam_day_guidance": "The exam is an online proctored test lasting 1 hour. Ensure your testing environment is quiet, and manage your time effectively through the multiple-choice questions.",
+  "faq": [
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The exam price is set at $70.50 USD plus any locally applicable taxes and fees. Please note that free retakes are not included with this specific certification exam registration."
+   },
+   {
+    "question_title": "How long is the exam duration?",
+    "answer_text": "The test has a total duration of 1 hour and is delivered entirely in an online proctored format consisting of multiple-choice questions that evaluate your knowledge."
+   },
+   {
+    "question_title": "How long are the credentials valid?",
+    "answer_text": "The earned credential features an expiration period of 2 years. After this time elapses, you must recertify by passing the exam again or following current guidelines."
+   },
+   {
+    "question_title": "What product version does the exam test?",
+    "answer_text": "The exam specifically tests Vault 1.16. Candidates should be completely familiar with the features, capabilities, and configuration options available in this particular software version."
+   }
+  ],
+  "methodology": {
+   "summary": "This page was compiled using official HashiCorp exam guides and documentation for Vault version 1.16, verifying all objectives, prices, and test formats accurately for candidates.",
+   "source_ids": [
+    "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide-3"
+   ]
+  },
+  "source_ids": [
+   "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide",
+   "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide-2",
+   "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide",
+   "url": "https://developer.hashicorp.com/vault/docs/concepts/policies",
+   "title": "Policies | Vault | HashiCorp Developer",
+   "publisher": "HashiCorp",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:b15fde58c4ea3054e8ba6c315f342b60027dbac6e564c2e0872f6c6bc0ee5652"
+  },
+  {
+   "id": "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide-2",
+   "url": "https://developer.hashicorp.com/vault/docs/agent-and-proxy/agent",
+   "title": "What is Vault Agent? | Vault | HashiCorp Developer",
+   "publisher": "HashiCorp",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:ce54716e84cc2ad99a47923f4d96907d68615aa08fd93ddb51b39faa06e6ef05"
+  },
+  {
+   "id": "hashicorp-vault-associate-003-hashicorp-certified-vault-associate-003-exam_guide-3",
+   "url": "https://developer.hashicorp.com/certifications/security-automation",
+   "title": "Security Automation | HashiCorp Developer",
+   "publisher": "HashiCorp",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:5c6ded00f3928f9fb009bf672867d194f65e20052ae2937762f9157dfb24a78b"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T09:10:05+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:36+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:36+00:00"
+ }
+}

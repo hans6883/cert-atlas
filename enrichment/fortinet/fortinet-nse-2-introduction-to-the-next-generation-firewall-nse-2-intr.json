@@ -1,0 +1,190 @@
+{
+ "exam_id": "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr",
+ "editorial": {
+  "meta_description": "Prepare for the Fortinet NSE 2 - Introduction to the Next Generation Firewall exam covering 9 domains. Certification is active 2 years.",
+  "overview": "The NSE 2 - Introduction to the Next Generation Firewall exam is presented by Fortinet as part of the official training requirements. Candidates learn how a Next Generation Firewall protects corporate networks, important applications, and diverse services, and explore how modern secure network models enhance overall cybersecurity readiness across 9 extensive domains designed for security professionals.",
+  "who_should_take": "Network and security professionals looking to understand firewall policies, malware blocking, web filtering, and intrusion prevention. Candidates study the course materials and pass the online exam to earn certification active 2 years from course completion.",
+  "skills_summary": [
+   "Next Generation Firewall concepts",
+   "Firewall policies",
+   "User authentication",
+   "Malware blocking",
+   "Web filtering",
+   "Intrusion Prevention",
+   "Secure SD-WAN",
+   "SASE"
+  ],
+  "preparation_strategy": "Review the official course agenda covering the 9 domains entirely. Complete the online exam presented at the end of the course to earn certification active 2 years from course completion. Ensure you study all administration guides and documentation relating to FortiOS 7.6.6 releases.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain covers what a Next Generation Firewall is in detail and explains how it is utilized to protect networks, vital applications, and services from various emerging cyber threats.",
+    "study_focus": [
+     "Describe what a Next Generation Firewall is",
+     "Protect networks, applications, and services"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain explains how the main features of a Next Generation Firewall work in practice, detailing firewall policies and how traffic rules are enforced across the enterprise infrastructure.",
+    "study_focus": [
+     "Explain main NGFW features",
+     "Understand firewall policies and traffic handling"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain focuses heavily on user authentication mechanisms within NGFW environments, ensuring that network administrators can properly control access and verify user identities before granting network privileges to individuals.",
+    "study_focus": [
+     "User authentication mechanisms",
+     "Identity management and access control"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This domain addresses specific techniques for blocking malware using built-in security profiles, protecting organizational assets from malicious software infections, potential system disruptions, and unauthorized data compromises across all connected internal systems.",
+    "study_focus": [
+     "Malware blocking mechanisms",
+     "Security profiles and threat mitigation"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This domain covers controlling web access efficiently with web filtering profiles and categories, allowing organizations to enforce acceptable use policies and restrict visits to dangerous or unauthorized websites.",
+    "study_focus": [
+     "Web filtering implementation",
+     "Web filter profiles and category management"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "6.0",
+    "summary": "This domain examines Intrusion Prevention Systems and application control signatures, providing students with the knowledge required to detect and block malicious network traffic and unauthorized application usage effectively throughout the enterprise network.",
+    "study_focus": [
+     "IPS and application control",
+     "Signature detection and prevention techniques"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "7.0",
+    "summary": "This domain explores advanced methods for connecting multiple organizational locations securely, ensuring reliable data transmission and encrypted communication channels across distributed enterprise branch offices without compromising overall network performance or data privacy standards.",
+    "study_focus": [
+     "Multi-location secure connectivity",
+     "Branch office security and encryption"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "8.0",
+    "summary": "This domain explains how secure network models and technologies like SD-WAN and SASE enhance cybersecurity posture across modern distributed enterprise environments while maintaining high availability and seamless connectivity.",
+    "study_focus": [
+     "Secure network models",
+     "SD-WAN and SASE technologies"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "9.0",
+    "summary": "This final domain covers modern SASE architecture and cloud-delivered security services, illustrating how converged networking and security features protect mobile users and modern cloud applications across all operational deployment scenarios.",
+    "study_focus": [
+     "SASE framework",
+     "Cloud-delivered security services"
+    ],
+    "source_ids": [
+     "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Complete the online exam presented at the end of the course. Ensure you have carefully reviewed all 9 domains before starting the test session in order to successfully finish your evaluation.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The available official documentation and facts do not state the exact question count for this exam. Check directly with Fortinet support for specific testing details before your exam session."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The official documentation does not list a specific passing score percentage or mark for the online exam. Check with Fortinet for current grading criteria and evaluation standards."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "The official documentation does not specify a strict time limit for completing the online exam. Check with Fortinet training resources for detailed duration guidelines prior to testing."
+   },
+   {
+    "question_title": "How long is the certification active?",
+    "answer_text": "Certification is active 2 years from course completion. Candidates earn this credential by successfully passing the online exam presented at the end of the course."
+   }
+  ],
+  "methodology": {
+   "summary": "This informative index page was built using official Fortinet course documentation, administration guides, and certification requirements across 7.6.6 releases for learners.",
+   "source_ids": [
+    "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide",
+   "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide-2",
+   "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide",
+   "url": "https://docs.fortinet.com/document/fortigate/7.6.6/administration-guide/267887",
+   "title": "Configuring a web filter profile | FortiGate / FortiOS 7.6.6 | Fortinet Document Library",
+   "publisher": "Fortinet",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:3f4ca68d9e4dff8b947eaa43b774b8abbb5009e1127151e7d598de9e9e721a2c"
+  },
+  {
+   "id": "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide-2",
+   "url": "https://docs.fortinet.com/document/fortigate/7.6.6/administration-guide/155426",
+   "title": "Web filter introduction | FortiGate / FortiOS 7.6.6 | Fortinet Document Library",
+   "publisher": "Fortinet",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:1590d60a91b766cce3f5e90e73303fac8eb161513582ab0a632cecba164ddada"
+  },
+  {
+   "id": "fortinet-nse-2-introduction-to-the-next-generation-firewall-nse-2-intr-exam_guide-3",
+   "url": "https://helpdesk.training.fortinet.com/support/solutions/articles/73000665753-what-are-the-new-certification-requirements-",
+   "title": "What are the new certification requirements? : Training Institute Help Desk",
+   "publisher": "Fortinet",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:563611075a2358bc5c3f45b2a8be295b1532b11edfddd2ecd8bea490456d3583"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:49:20+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:36+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:36+00:00"
+ }
+}

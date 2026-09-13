@@ -1,0 +1,148 @@
+{
+ "exam_id": "comptia-da0-002-comptia-data-v2",
+ "editorial": {
+  "meta_description": "Prepare for the CompTIA Data+ V2 certification exam with detailed domain guidance, exam structure details, passing scores, and study strategies.",
+  "overview": "The CompTIA Data+ V2 certification, offered by CompTIA, evaluates core competencies in data concepts, acquisition, preparation, analysis, visualization, reporting, and governance. Candidates demonstrate their ability to work with various data structures, select appropriate statistical methods, create effective visual representations, and maintain data management standards over a 90-minute examination period across five domains.",
+  "who_should_take": "This exam suits practitioners and professionals working with data who need to demonstrate skills in data gathering, preparation, statistical analysis, and reporting. It targets those responsible for maintaining data integrity and governance within organizational environments.",
+  "skills_summary": [
+   "Database types and data structures",
+   "Data integration and queries",
+   "Statistical methods for analysis",
+   "Effective charts and dashboards",
+   "Data governance and compliance"
+  ],
+  "preparation_strategy": "Review each of the five exam domains in exhaustive detail to ensure complete understanding of all objectives. Practice data acquisition methods, data cleansing techniques, and basic statistical evaluations carefully. Focus on creating clear visualizations and understanding data management standards such as compliance and privacy strategies prior to testing.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain covers data concepts, database types, data structures, and file extensions. Candidates also learn to identify data sources and recognize infrastructure concepts including cloud and on-premise storage environments.",
+    "study_focus": [
+     "Database types and data structures",
+     "Data sources such as APIs and logs",
+     "Infrastructure concepts like cloud storage"
+    ],
+    "source_ids": [
+     "comptia-da0-002-comptia-data-v2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This section focuses on gathering and combining data through integration and queries. It includes exploring datasets for missing values, duplicates, or outliers, and applying cleansing, merging, and parsing transformations.",
+    "study_focus": [
+     "Data acquisition methods and queries",
+     "Finding missing values and outliers",
+     "Data cleansing and formatting"
+    ],
+    "source_ids": [
+     "comptia-da0-002-comptia-data-v2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "Candidates learn to communicate analysis results to different audiences and apply basic statistical techniques. The domain also covers troubleshooting analysis issues using available tools and resources to resolve technical problems effectively.",
+    "study_focus": [
+     "Communicating analysis results",
+     "Applying basic statistical methods",
+     "Troubleshooting analysis problems"
+    ],
+    "source_ids": [
+     "comptia-da0-002-comptia-data-v2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This domain involves creating effective visuals using charts, maps, tables, and design elements. It requires delivering reports via dashboards and validating reporting accuracy to resolve any reporting issues that arise.",
+    "study_focus": [
+     "Creating effective charts and maps",
+     "Delivering dashboards and summaries",
+     "Validating reporting accuracy"
+    ],
+    "source_ids": [
+     "comptia-da0-002-comptia-data-v2-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This section focuses on data management practices such as documentation, versioning, and lineage. It summarizes compliance requirements and compares privacy and protection strategies like access control, encryption, and data masking.",
+    "study_focus": [
+     "Documentation, versioning, and lineage",
+     "Compliance requirements and audits",
+     "Privacy and encryption strategies"
+    ],
+    "source_ids": [
+     "comptia-da0-002-comptia-data-v2-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Arrive at the testing center or set up your online proctored environment early. Manage your time carefully across the 90-minute exam to ensure you address all items.",
+  "faq": [
+   {
+    "question_title": "How many questions are on the exam?",
+    "answer_text": "The official documentation does not list the exact total question count, but the evaluation includes multiple-choice and performance-based question formats across the testing period for all candidates."
+   },
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The passing score required to successfully complete the CompTIA Data+ V2 certification examination is set at 675 on a grading scale ranging from 100 to 900."
+   },
+   {
+    "question_title": "How long is the exam?",
+    "answer_text": "Candidates taking this certification examination are allotted a total duration of 90 minutes to complete all questions and performance-based items contained within the test environment."
+   },
+   {
+    "question_title": "When was the exam released?",
+    "answer_text": "The official certification program is tracked under the exam series designation associated with the first-party CompTIA Data+ V2 documentation officially released on October 14, 2025."
+   }
+  ],
+  "methodology": {
+   "summary": "This detailed reference page was built using official CompTIA Data+ V2 documentation, exam objectives, and verified structural facts regarding the certification series.",
+   "source_ids": [
+    "comptia-da0-002-comptia-data-v2-exam_guide"
+   ]
+  },
+  "source_ids": [
+   "comptia-da0-002-comptia-data-v2-exam_guide",
+   "comptia-da0-002-comptia-data-v2-exam_guide-2",
+   "comptia-da0-002-comptia-data-v2-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "comptia-da0-002-comptia-data-v2-exam_guide",
+   "url": "https://www.comptia.org/en/certifications/data",
+   "title": "Data+ Certification | CompTIA Global",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:1ffea0e59e2de091785567697a37cc7501ea1348223d952603b8e995af5abe45"
+  },
+  {
+   "id": "comptia-da0-002-comptia-data-v2-exam_guide-2",
+   "url": "https://www.comptia.org/en-us/certifications/data/v2/",
+   "title": "Data+ Certification | CompTIA",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:319e4fb9f17e9f3bf88732f0b9b01179c76abcf313ba7d757c846e47dc3e0178"
+  },
+  {
+   "id": "comptia-da0-002-comptia-data-v2-exam_guide-3",
+   "url": "https://www.comptia.org/en/blog/what-is-comptia-data-what-you-need-to-know/",
+   "title": "What Is CompTIA Data+? | CompTIA Blog Global",
+   "publisher": "CompTIA",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:09849539a84c3681f626da9c64e5c2f396a26e84d8bfa2490f8b06c1f88461c6"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:12:30+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:36+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:36+00:00"
+ }
+}

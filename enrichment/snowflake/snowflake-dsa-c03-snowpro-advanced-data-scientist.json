@@ -1,0 +1,145 @@
+{
+ "exam_id": "snowflake-dsa-c03-snowpro-advanced-data-scientist",
+ "editorial": {
+  "meta_description": "Prepare for the Snowflake SnowPro Advanced: Data Scientist certification exam. Master data science concepts, feature engineering, and GenAI capabilities.",
+  "overview": "The official SnowPro Advanced: Data Scientist certification exam, certified and administered by Snowflake for data professionals, thoroughly covers many important data science concepts, essential Snowflake data science best practices, comprehensive data preparation and feature engineering, advanced machine learning models, and cutting-edge Generative AI and Large Language Model capabilities required for professional certification across modern enterprise data platforms today.",
+  "who_should_take": "This advanced certification exam is specifically intended for experienced data scientists and machine learning engineers with significant hands-on experience building workloads and utilizing features inside Snowflake.",
+  "skills_summary": [
+   "Outline data science concepts",
+   "Implement Snowflake data science best practices",
+   "Prepare data and feature engineering",
+   "Train and use machine learning models",
+   "Use GenAI and LLM capabilities"
+  ],
+  "preparation_strategy": "Carefully review official Snowflake documentation covering DataFrames in Snowpark Python, advanced classification functions, and the Snowflake Feature Store. Practice writing Python and SQL pipelines for feature transformations and model training to ensure complete readiness for all tested topics on the examination day without missing crucial requirements.",
+  "domain_guidance": [
+   {
+    "domain_id": "1.0",
+    "summary": "This domain focuses intensely on outlining core data science concepts relevant to processing complex workloads and large datasets efficiently within the Snowflake data platform ecosystem for practicing engineers seeking professional certification.",
+    "study_focus": [
+     "Outline data science concepts",
+     "Understand core data workflows"
+    ],
+    "source_ids": [
+     "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide"
+    ]
+   },
+   {
+    "domain_id": "2.0",
+    "summary": "This domain covers the implementation of Snowflake data science best practices required for properly managing and executing scalable machine learning workflows in production environments across the entire platform ecosystem for certified data professionals.",
+    "study_focus": [
+     "Implement Snowflake data science best practices",
+     "Manage production machine learning workflows"
+    ],
+    "source_ids": [
+     "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "3.0",
+    "summary": "This domain involves preparing data and utilizing advanced feature engineering in Snowflake, including feature store architectures, transformations, and managing feature tables effectively for building powerful analytical models and solid enterprise pipelines.",
+    "study_focus": [
+     "Prepare data for modeling",
+     "Use feature engineering in Snowflake"
+    ],
+    "source_ids": [
+     "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-3"
+    ]
+   },
+   {
+    "domain_id": "4.0",
+    "summary": "This domain addresses how to train and use machine learning models using native Snowflake capabilities and integrated Python libraries for predictive analytics while maintaining high performance standards across complex enterprise data architecture deployments.",
+    "study_focus": [
+     "Train machine learning models",
+     "Use classification and other ML functions"
+    ],
+    "source_ids": [
+     "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-2"
+    ]
+   },
+   {
+    "domain_id": "5.0",
+    "summary": "This domain explores the practical application of Generative AI and Large Language Model capabilities within the Snowflake platform to build intelligent applications and solve complex enterprise problems effectively using modern cloud features.",
+    "study_focus": [
+     "Use GenAI and LLM capabilities in Snowflake",
+     "Build intelligent generative applications"
+    ],
+    "source_ids": [
+     "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide"
+    ]
+   }
+  ],
+  "exam_day_guidance": "Ensure you understand how to carefully navigate Snowflake machine learning functions, feature store operations, and Snowpark DataFrame transformations before taking the 375 dollar certification exam.",
+  "faq": [
+   {
+    "question_title": "What is the passing score?",
+    "answer_text": "The official passing score required for the certification exam is set precisely at 750 points, as established strictly according to the guidelines published in the official SnowPro Program Policies."
+   },
+   {
+    "question_title": "How much does the exam cost?",
+    "answer_text": "The registration price for taking the data scientist certification exam is 375 dollars, which is clearly published and documented on the official Snowflake certification page for candidates."
+   },
+   {
+    "question_title": "What exam code is this page about?",
+    "answer_text": "This informational page is specifically about the certification exam referencing the advanced data scientist path, which remains current and active for all qualified candidates registering today."
+   },
+   {
+    "question_title": "Where can I find the current certification path?",
+    "answer_text": "You should check directly with Snowflake to confirm the current certification path details and any additional guidelines for the data scientist certification before scheduling your test date."
+   }
+  ],
+  "methodology": {
+   "summary": "This informational page was built using official Snowflake documentation, exam guides, and verified program policies to provide accurate preparation details for the certification.",
+   "source_ids": [
+    "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide",
+    "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-2",
+    "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-3"
+   ]
+  },
+  "source_ids": [
+   "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide",
+   "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-2",
+   "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-3"
+  ]
+ },
+ "sources": [
+  {
+   "id": "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide",
+   "url": "https://docs.snowflake.com/en/developer-guide/snowpark/python/working-with-dataframes",
+   "title": "Working with DataFrames in Snowpark Python | Snowflake Documentation",
+   "publisher": "Snowflake",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:eeddb25f93c3fc2ff47375d8c7646ab7fbdbf32255f2810144d12ac3214edfb8"
+  },
+  {
+   "id": "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-2",
+   "url": "https://docs.snowflake.com/en/user-guide/ml-functions/classification",
+   "title": "Classification (Snowflake ML Functions) | Snowflake Documentation",
+   "publisher": "Snowflake",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:3fede7ab83afeaa241c02a43b5a12374cc18bf49bacd14dd6ac3d251bbb650f1"
+  },
+  {
+   "id": "snowflake-dsa-c03-snowpro-advanced-data-scientist-exam_guide-3",
+   "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/feature-store/overview",
+   "title": "Snowflake Feature Store | Snowflake Documentation",
+   "publisher": "Snowflake",
+   "source_type": "official_exam_guide",
+   "accessed": "2026-09-12",
+   "content_hash": "sha256:8c39d2ac55d11d9bc6c76afabb977dfe0fdd3b23164ba0344260e83cfcb257d6"
+  }
+ ],
+ "quality": {
+  "generated_by": "gemini:gemini-flash-lite-latest",
+  "generated_at": "2026-09-13T08:56:18+00:00",
+  "evidence_coverage": 1.0,
+  "factual_confidence": 1.0,
+  "scored_at": "2026-09-13T09:36:38+00:00",
+  "scored_by": "pipeline/seo_score.py",
+  "status": "reviewed",
+  "publishable": true,
+  "reviewed_at": "2026-09-13T09:36:38+00:00"
+ }
+}
