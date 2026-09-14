@@ -71,5 +71,124 @@
     "physical geology",
     "physical geology dsst"
   ],
-  "practice_url": "https://quizforge.ai/?q=Physical%20Geology"
+  "practice_url": "https://quizforge.ai/?q=Physical%20Geology",
+  "editorial": {
+    "meta_description": "Prepare for the DSST Physical Geology exam covering minerals, rocks, internal processes, surface processes, geologic time, and plate tectonics.",
+    "overview": "The detailed DSST Physical Geology examination comprehensively evaluates your knowledge and understanding of fundamental Earth materials, complex internal dynamics, active surface processes, and historical geological timelines. Certified directly by DSST, this rigorous computer-based test consists of exactly 100 multiple-choice questions administered over a strict 120-minute duration to measure your proficiency across five distinct subject domains.",
+    "who_should_take": "Students seeking college credit for introductory geology coursework will benefit from taking this exam. It suits military personnel eligible via DANTES as well as civilian candidates aiming to demonstrate proficiency in Earth sciences.",
+    "skills_summary": [
+      "Minerals and rocks identification",
+      "Internal Earth processes analysis",
+      "Surface processes evaluation",
+      "Geologic time interpretation",
+      "Plate tectonics mechanics"
+    ],
+    "preparation_strategy": "Carefully review college-level introductory geology textbooks focusing extensively on mineralogy, rock formation processes, internal Earth mechanics, and plate boundaries. Study student learning objectives, review key concepts at chapter endings, and practice answering section questions to solidify your understanding of geological terminology before your scheduled test day.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain expertly covers mineral chemistry, standard mineral properties, complex crystal structures, and the classification of igneous, sedimentary, and metamorphic rock types found within Earth's crust for the examination.",
+        "study_focus": [
+          "Mineral identification and properties",
+          "Silicate and economic minerals",
+          "Rock classification"
+        ],
+        "source_ids": [
+          "dsst-physical-geology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This comprehensive section thoroughly examines powerful internal Earth forces, deep mantle dynamics, thermal plumes, and the mechanical processes driving catastrophic volcanic eruptions as well as seismic activities across various active fault zones.",
+        "study_focus": [
+          "Volcanic activity and hazards",
+          "Earthquake mechanics and faults",
+          "Mantle thermal plumes"
+        ],
+        "source_ids": [
+          "dsst-physical-geology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "Focuses primarily on surface modifications caused by continuous erosion, chemical and physical weathering, active streams, moving glaciers, and other surficial geological phenomena shaping the overall landscape evolution over time.",
+        "study_focus": [
+          "Glacial and stream erosion",
+          "Weathering processes",
+          "Landscape evolution"
+        ],
+        "source_ids": [
+          "dsst-physical-geology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "Addresses the precise measurement of geologic time, fundamental stratigraphic principles, and absolute versus relative dating methods utilized by scientists to determine the age of Earth materials and historical events.",
+        "study_focus": [
+          "Stratigraphic principles",
+          "Absolute and relative dating",
+          "Geologic history"
+        ],
+        "source_ids": [
+          "dsst-physical-geology-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "Explores the broad plate tectonics theory, historical continental drift evidence, seafloor spreading rates, and the distinct geological features and hazards found along divergent, convergent, and transform plate boundaries.",
+        "study_focus": [
+          "Plate boundaries and subduction",
+          "Seafloor spreading",
+          "Continental drift evidence"
+        ],
+        "source_ids": [
+          "dsst-physical-geology-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at the testing center prepared for a computer-based examination. Manage your 120-minute time limit carefully across all 100 multiple-choice questions without rushing through technical geological terms.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The examination contains a total of 100 multiple-choice questions delivered entirely in a computer-based format. Candidates are given a total duration of 120 minutes to successfully complete all questions."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The official passing score for this examination is established at 400. Candidates must meet or exceed this specific numerical score threshold to successfully earn their college credit."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The test duration is exactly 120 minutes from start to finish. Test-takers should pace themselves efficiently to answer all 100 multiple-choice questions within this strict time limit."
+      },
+      {
+        "question_title": "What does the exam cost?",
+        "answer_text": "The standard exam price is $85 for regular civilian candidates. However, the test is entirely free for eligible military personnel participating through DANTES. Check with DSST for further registration details."
+      }
+    ],
+    "methodology": {
+      "summary": "This detailed overview was successfully built using official DSST exam documentation and open educational resources covering physical geology, mineralogy, and plate tectonics principles.",
+      "source_ids": [
+        "dsst-physical-geology-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "dsst-physical-geology-exam_guide"
+    ]
+  },
+  "sources": [
+    {
+      "id": "dsst-physical-geology-exam_guide",
+      "url": "https://getcollegecredit.com/wp-content/uploads/2022/09/IntroductionToGeology.pdf",
+      "title": "DSST exam guide",
+      "publisher": "DSST",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-13",
+      "content_hash": "sha256:c4e77242bdfaa80d37cddaa3de0d1e2e5a15c75cdf0380115533ad2b62a78923"
+    }
+  ],
+  "content_quality": {
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-14T04:38:29+00:00"
+  }
 }
