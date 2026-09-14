@@ -1,8 +1,8 @@
 {
   "generated": "2026-09-13",
-  "total_exams": 1959,
-  "total_vendors": 354,
-  "exams_with_domain_breakdowns": 1949,
+  "total_exams": 1965,
+  "total_vendors": 357,
+  "exams_with_domain_breakdowns": 1955,
   "exams": [
     {
       "exam_id": "aacn-accns-ag",
@@ -6961,6 +6961,21 @@
       "verified_at": "2026-09-13T15:23:41+00:00"
     },
     {
+      "exam_id": "cas-exam-1-probability-actuarial",
+      "exam_name": "CAS Exam 1: Probability for Casualty Actuaries",
+      "exam_code": "",
+      "certifying_body": "Casualty Actuarial Society (CAS)",
+      "vendor_slug": "casualty-actuarial-society-cas",
+      "domains": 3,
+      "total_questions": 30,
+      "duration_minutes": 180,
+      "source_url": "https://www.soa.org/globalassets/assets/files/edu/2026/july/syllabi/2026-07-p-syllabus.pdf",
+      "practice_url": "https://quizforge.ai/tests/cas-exam-1-probability-actuarial",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T04:38:28+00:00"
+    },
+    {
       "exam_id": "cas-exam-5-basic-ratemaking-techniques",
       "exam_name": "CAS Exam 5 - Basic Techniques for Ratemaking",
       "exam_code": "",
@@ -9696,9 +9711,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-a-history-of-the-vietnam-war",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:28+00:00"
     },
     {
       "exam_id": "dsst-art-of-the-western-world",
@@ -9726,9 +9741,9 @@
       "duration_minutes": 120,
       "source_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/Astronomy.pdf",
       "practice_url": "https://quizforge.ai/tests/astronomy-2pf304",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:28+00:00"
     },
     {
       "exam_id": "dsst-business-ethics-and-society",
@@ -9741,9 +9756,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst/business-ethics-society",
       "practice_url": "https://quizforge.ai/tests/dsst-business-ethics-and-society",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:28+00:00"
     },
     {
       "exam_id": "dsst-business-mathematics",
@@ -9756,9 +9771,9 @@
       "duration_minutes": 120,
       "source_url": "https://prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-business-mathematics",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-computing-and-information-technology",
@@ -9821,6 +9836,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "naadac-certified-alcohol-drug-counselor-cadc",
+      "exam_name": "Drug and Alcohol Abuse",
+      "exam_code": "DRUG",
+      "certifying_body": "DSST",
+      "vendor_slug": "dsst",
+      "domains": 14,
+      "total_questions": 100,
+      "duration_minutes": 120,
+      "source_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Substance-Abuse-Fact-Sheet-1.pdf",
+      "practice_url": "https://quizforge.ai/tests/naadac-certified-alcohol-drug-counselor-cadc",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T04:38:30+00:00"
+    },
+    {
       "exam_id": "dsst-environment-and-humanity",
       "exam_name": "Environment and Humanity",
       "exam_code": "ENVHUM",
@@ -9831,9 +9861,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": null,
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null,
+      "verified_at": "2026-09-14T04:38:29+00:00",
       "lifecycle_status": "retired",
       "retired_on": null
     },
@@ -9848,9 +9878,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/ethics-in-america-2tzpfr",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-foundations-of-education",
@@ -9878,9 +9908,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-fundamentals-of-college-algebra",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-fundamentals-of-counseling",
@@ -9908,9 +9938,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-general-anthropology",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-heres-to-your-health",
@@ -9923,9 +9953,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": null,
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null,
+      "verified_at": "2026-09-14T04:38:29+00:00",
       "lifecycle_status": "retired",
       "retired_on": ""
     },
@@ -9940,9 +9970,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-human-resource-management",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-introduction-to-business",
@@ -9955,9 +9985,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-introduction-to-business",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-introduction-to-computing",
@@ -10050,9 +10080,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-money-and-banking",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-natural-science",
@@ -10082,9 +10112,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-organizational-behavior",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-personal-finance",
@@ -10112,9 +10142,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/?q=Physical%20Geology",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-physical-science",
@@ -10127,9 +10157,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": null,
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null,
+      "verified_at": "2026-09-14T04:38:29+00:00",
       "lifecycle_status": "retired",
       "retired_on": null
     },
@@ -10144,9 +10174,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-principles-of-advanced-english-composition",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-principles-of-finance",
@@ -10174,9 +10204,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": null,
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null,
+      "verified_at": "2026-09-14T04:38:29+00:00",
       "lifecycle_status": "retired",
       "retired_on": null
     },
@@ -10191,9 +10221,9 @@
       "duration_minutes": 120,
       "source_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/PrinciplesOfPublicSpeaking.pdf",
       "practice_url": "https://quizforge.ai/tests/principles-of-public-speaking-2tyhjd",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-principles-of-statistics",
@@ -10206,9 +10236,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-principles-of-statistics",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-principles-of-supervision",
@@ -10221,9 +10251,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-principles-of-supervision",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-rise-and-fall-of-the-soviet-union",
@@ -10251,9 +10281,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-technical-writing",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "dsst-the-civil-war-and-reconstruction",
@@ -10266,9 +10296,9 @@
       "duration_minutes": 120,
       "source_url": "https://www.prometric.com/dsst",
       "practice_url": "https://quizforge.ai/tests/dsst-the-civil-war-and-reconstruction",
-      "enriched": false,
+      "enriched": true,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": "2026-09-14T04:38:29+00:00"
     },
     {
       "exam_id": "databricks-spark-developer-associate-python",
@@ -12205,6 +12235,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:02+00:00"
+    },
+    {
+      "exam_id": "pcqi-preventive-controls-qualified-individual",
+      "exam_name": "PCQI: Preventive Controls Qualified Individual",
+      "exam_code": "",
+      "certifying_body": "Food Safety Preventive Controls Alliance (FSPCA)",
+      "vendor_slug": "food-safety-preventive-controls-alliance-fspca",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 1320,
+      "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-training",
+      "practice_url": "https://quizforge.ai/tests/pcqi-preventive-controls-qualified-individual",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T04:38:30+00:00"
     },
     {
       "exam_id": "fortinet-nse1",
@@ -22249,6 +22294,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "nahq-certified-professional-healthcare-quality-cphq",
+      "exam_name": "CPHQ - Certified Professional in Healthcare Quality",
+      "exam_code": "",
+      "certifying_body": "National Association for Healthcare Quality (NAHQ)",
+      "vendor_slug": "national-association-for-healthcare-quality-nahq",
+      "domains": 7,
+      "total_questions": 140,
+      "duration_minutes": null,
+      "source_url": "https://cdn.nahq.org/wp-content/uploads/2024/11/US-Handbook_V.2024.7.pdf",
+      "practice_url": "https://quizforge.ai/tests/nahq-certified-professional-healthcare-quality-cphq",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T04:38:30+00:00"
+    },
+    {
       "exam_id": "whnp-bc-womens-health-nurse-practitioner",
       "exam_name": "WHNP-BC: Women's Health NP Certification",
       "exam_code": "",
@@ -24129,6 +24189,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:02+00:00"
+    },
+    {
+      "exam_id": "p3o-foundation-portfolio-programme-project-offices",
+      "exam_name": "P3O Foundation - Portfolio Programme Project Offices",
+      "exam_code": "",
+      "certifying_body": "PeopleCert",
+      "vendor_slug": "peoplecert",
+      "domains": 8,
+      "total_questions": 70,
+      "duration_minutes": 60,
+      "source_url": "https://www.peoplecert.org/find-your-next-job/project-and-programme-management/project-coordinator",
+      "practice_url": "https://quizforge.ai/tests/p3o-foundation-portfolio-programme-project-offices",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T04:38:30+00:00"
     },
     {
       "exam_id": "axelos-itil-4-foundation",
@@ -29267,6 +29342,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "uscg-able-seaman-credential-exam",
+      "exam_name": "USCG Able Seaman Credential Examination",
+      "exam_code": "",
+      "certifying_body": "U.S. Coast Guard (National Maritime Center)",
+      "vendor_slug": "u-s-coast-guard-national-maritime-center",
+      "domains": 2,
+      "total_questions": 100,
+      "duration_minutes": null,
+      "source_url": "https://www.dco.uscg.mil/national_maritime_center/",
+      "practice_url": "https://quizforge.ai/tests/uscg-able-seaman-credential-exam",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T04:38:30+00:00"
     },
     {
       "exam_id": "leed-ap-homes",

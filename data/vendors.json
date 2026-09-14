@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-13",
-  "total_vendors": 354,
+  "total_vendors": 357,
   "vendors": [
     {
       "vendor_id": "servicenow",
@@ -37,9 +37,9 @@
     {
       "vendor_id": "dsst",
       "display_name": "DSST",
-      "website": "https://www.prometric.com/dsst",
+      "website": "https://getcollegecredit.com/",
       "certification_page": "https://www.prometric.com/dsst",
-      "exam_count": 38,
+      "exam_count": 39,
       "slug": "dsst"
     },
     {
@@ -1771,6 +1771,14 @@
       "slug": "cfre-international"
     },
     {
+      "vendor_id": "cas",
+      "display_name": "Casualty Actuarial Society (CAS)",
+      "website": "https://casact.org/",
+      "certification_page": "https://casact.org/",
+      "exam_count": 2,
+      "slug": "casualty-actuarial-society-cas"
+    },
+    {
       "vendor_id": "certnexus",
       "display_name": "CertNexus",
       "website": "https://certnexus.com",
@@ -1961,6 +1969,14 @@
       "certification_page": "https://www.occupationalenglishtest.org/test-takers/about-oet/test-format/",
       "exam_count": 2,
       "slug": "oet"
+    },
+    {
+      "vendor_id": "peoplecert",
+      "display_name": "PeopleCert",
+      "website": "https://peoplecert.org/",
+      "certification_page": "https://peoplecert.org/",
+      "exam_count": 2,
+      "slug": "peoplecert"
     },
     {
       "vendor_id": "shrm",
@@ -2323,14 +2339,6 @@
       "slug": "cardiovascular-credentialing-international-cci"
     },
     {
-      "vendor_id": "cas",
-      "display_name": "Casualty Actuarial Society (CAS)",
-      "website": "https://casact.org/",
-      "certification_page": "https://casact.org/",
-      "exam_count": 1,
-      "slug": "casualty-actuarial-society-cas"
-    },
-    {
       "vendor_id": "cce-global",
       "display_name": "Center for Credentialing & Education (CCE)",
       "website": "https://cce-global.org/",
@@ -2409,6 +2417,14 @@
       "certification_page": "https://fpra.org/",
       "exam_count": 1,
       "slug": "florida-public-relations-association-fpra"
+    },
+    {
+      "vendor_id": "fspca",
+      "display_name": "Food Safety Preventive Controls Alliance (FSPCA)",
+      "website": "https://fspca.net/",
+      "certification_page": "https://fspca.net/",
+      "exam_count": 1,
+      "slug": "food-safety-preventive-controls-alliance-fspca"
     },
     {
       "vendor_id": "gisci",
@@ -2659,6 +2675,14 @@
       "slug": "ncma"
     },
     {
+      "vendor_id": "nahq",
+      "display_name": "National Association for Healthcare Quality (NAHQ)",
+      "website": "https://nahq.org/",
+      "certification_page": "https://nahq.org/",
+      "exam_count": 1,
+      "slug": "national-association-for-healthcare-quality-nahq"
+    },
+    {
       "vendor_id": "nbce",
       "display_name": "National Board of Chiropractic Examiners (NBCE)",
       "website": "https://mynbce.org/",
@@ -2739,14 +2763,6 @@
       "slug": "pediatric-nursing-certification-board-pncb"
     },
     {
-      "vendor_id": "peoplecert",
-      "display_name": "PeopleCert",
-      "website": "https://peoplecert.org/",
-      "certification_page": "https://peoplecert.org/",
-      "exam_count": 1,
-      "slug": "peoplecert"
-    },
-    {
       "vendor_id": "psncb",
       "display_name": "Plastic Surgical Nursing Certification Board (PSNCB)",
       "website": "https://psncb.org/",
@@ -2793,6 +2809,14 @@
       "certification_page": "https://appraisalfoundation.org/",
       "exam_count": 1,
       "slug": "the-appraisal-foundation-aqb"
+    },
+    {
+      "vendor_id": "uscg",
+      "display_name": "U.S. Coast Guard (National Maritime Center)",
+      "website": "https://www.dco.uscg.mil/nmc/",
+      "certification_page": "https://www.dco.uscg.mil/nmc/examinations/",
+      "exam_count": 1,
+      "slug": "u-s-coast-guard-national-maritime-center"
     },
     {
       "vendor_id": "uspto",

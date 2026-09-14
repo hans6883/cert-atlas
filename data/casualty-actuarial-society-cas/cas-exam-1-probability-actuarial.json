@@ -1,0 +1,166 @@
+{
+  "exam_id": "cas-exam-1-probability-actuarial",
+  "exam_name": "CAS Exam 1: Probability for Casualty Actuaries",
+  "exam_code": "",
+  "certifying_body": "Casualty Actuarial Society (CAS)",
+  "version": null,
+  "source_url": "https://www.soa.org/globalassets/assets/files/edu/2026/july/syllabi/2026-07-p-syllabus.pdf",
+  "total_questions": 30,
+  "duration_minutes": 180,
+  "domains": [
+    {
+      "id": "1",
+      "name": "General Probability",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "Univariate Random Variables",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "Multivariate Random Variables",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "CAS Exam 1: Probability for Casualty Actuaries"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cas-exam-1-probability-actuarial",
+  "editorial": {
+    "meta_description": "CAS Exam 1: Probability for Casualty Actuaries evaluates probability tools and random variables for individuals pursuing a professional career as a casualty.",
+    "overview": "CAS Exam 1: Probability for Casualty Actuaries is a professional certification exam administered by the Casualty Actuarial Society (CAS). It evaluates a candidate's ability to apply probability tools to quantitatively assess risk in actuarial science. The exam covers general probability, univariate random variables, and multivariate random variables, requiring a strong command of calculus and knowledge of insurance and risk management concepts to succeed in this professional field.",
+    "who_should_take": "This exam is intended for individuals pursuing a professional career as a casualty actuary. Candidates should possess a strong background in calculus and an understanding of insurance and risk management principles to address the quantitative problems presented in the exam.",
+    "skills_summary": [
+      "General probability axioms",
+      "Combinatorics and set functions",
+      "Univariate random variable distributions",
+      "Expected value and moments",
+      "Multivariate discrete random variables",
+      "Linear combinations of variables"
+    ],
+    "preparation_strategy": "Review the learning objectives provided in the CAS syllabus. Practice with the official sample questions to gain familiarity with the depth and format of the 30 questions. Ensure you are comfortable with the supporting calculus and the application of probability tools to insurance-related problems. Use the provided study guides to practice calculations for different random variable distributions and ensure you are prepared for the exam environment.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers probability concepts, including set functions, Venn diagrams, and sample spaces. Candidates calculate probabilities using addition, multiplication, and Bayes Theorem to solve problems related to general probability axioms and set theory applications for actuarial practice.",
+        "study_focus": [
+          "Set functions and Venn diagrams",
+          "Conditional probability and independence",
+          "Combinatorics and Bayes Theorem"
+        ],
+        "source_ids": [
+          "cas-exam-1-probability-actuarial-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on discrete and continuous univariate random variables. Candidates apply these to insurance scenarios involving deductibles, coinsurance, and benefit limits, while mastering probability density functions, expected value, variance, and policy adjustment calculations required for actuarial practice.",
+        "study_focus": [
+          "Probability density functions",
+          "Expected value and variance",
+          "Policy adjustment calculations"
+        ],
+        "source_ids": [
+          "cas-exam-1-probability-actuarial-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses multivariate discrete random variables, order statistics, and linear combinations of independent random variables. Candidates must demonstrate proficiency in joint probability functions, covariance, correlation, and linear combinations of variables to solve complex actuarial science problems.",
+        "study_focus": [
+          "Joint probability functions",
+          "Covariance and correlation",
+          "Linear combinations of variables"
+        ],
+        "source_ids": [
+          "cas-exam-1-probability-actuarial-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The exam consists of 30 questions to be completed in 180 minutes. Manage your time effectively across the three domains. Choose the best answer from the provided options for each question, keeping in mind the required depth of understanding for all topics.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The exam consists of 30 questions in total. Candidates should be prepared to address these questions within the allotted time frame to ensure they cover all required material effectively during the testing session."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam is a 180-minute session. This duration is designed to allow candidates sufficient time to work through the quantitative problems and demonstrate their mastery of the probability concepts covered in the syllabus."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "The passing score is not specified in the provided documentation. Please check with the Casualty Actuarial Society (CAS) for current grading and accreditation information regarding the specific requirements for passing this professional certification exam."
+      },
+      {
+        "question_title": "How can I obtain credit for this exam?",
+        "answer_text": "The CAS grants credit for Exam 1 through successful completion of specific examinations from recognized organizations, such as the Society of Actuaries Exam P or equivalent actuarial statistics exams from other listed institutions. Please check with Casualty Actuarial Society (CAS) for the current certification path."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by synthesizing the official CAS syllabus, learning objectives, and exam guide documentation to provide a clear overview of the exam structure, content requirements, and preparation strategies for all candidates.",
+      "source_ids": [
+        "cas-exam-1-probability-actuarial-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "cas-exam-1-probability-actuarial-exam_guide",
+      "cas-exam-1-probability-actuarial-exam_guide-2",
+      "cas-exam-1-probability-actuarial-exam_guide-3",
+      "cas-exam-1-probability-actuarial-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "cas-exam-1-probability-actuarial-exam_guide",
+      "url": "https://www.casact.org/exam/exam-1-probability",
+      "title": "Casualty Actuarial Society (CAS) exam guide",
+      "publisher": "Casualty Actuarial Society (CAS)",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-13",
+      "content_hash": "sha256:b96f78cf9de8706e10b23f1ba1e2cdda03d15ba13b7e02e7ab16af950322cc13"
+    },
+    {
+      "id": "cas-exam-1-probability-actuarial-exam_guide-2",
+      "url": "https://www.soa.org/globalassets/assets/files/edu/2026/spring/questions-solutions/2026-05-exam-p-sample-questions.pdf",
+      "title": "Casualty Actuarial Society (CAS) exam guide (soa.org)",
+      "publisher": "soa.org",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-13",
+      "content_hash": "sha256:e47245963f7d2c1c4f8cc5ff1baf2090542d923ac47cbeb27d1f657ac51bf5f0"
+    },
+    {
+      "id": "cas-exam-1-probability-actuarial-exam_guide-3",
+      "url": "https://www.soa.org/education/exam-req/edu-exam-p-detail/study/",
+      "title": "Casualty Actuarial Society (CAS) exam guide (soa.org)",
+      "publisher": "soa.org",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-13",
+      "content_hash": "sha256:3e61ca98f124c7081593004748f4979a92a3d8783f9ff55d741406ad615b205e"
+    },
+    {
+      "id": "cas-exam-1-probability-actuarial-exam_guide-4",
+      "url": "https://www.soa.org/globalassets/assets/files/edu/edu-exam-p-sample-sol.pdf",
+      "title": "Casualty Actuarial Society (CAS) exam guide (soa.org)",
+      "publisher": "soa.org",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-13",
+      "content_hash": "sha256:9e8bf69721f38099044ebf6816a277e2ee711c891978cdd61498136df26d89b0"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-3.1-flash-lite",
+    "generated_at": "2026-09-14T03:29:19+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-14T04:38:28+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-14T04:38:28+00:00"
+  }
+}
