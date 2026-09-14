@@ -1,8 +1,8 @@
 {
   "generated": "2026-09-13",
-  "total_exams": 1890,
-  "total_vendors": 316,
-  "exams_with_domain_breakdowns": 1880,
+  "total_exams": 1901,
+  "total_vendors": 323,
+  "exams_with_domain_breakdowns": 1891,
   "exams": [
     {
       "exam_id": "aacn-accns-ag",
@@ -3891,6 +3891,36 @@
       "verified_at": "2026-09-13T23:40:01+00:00"
     },
     {
+      "exam_id": "aonl-certified-nurse-manager-leader-cnml",
+      "exam_name": "CNML - Certified Nurse Manager and Leader",
+      "exam_code": "",
+      "certifying_body": "American Organization for Nursing Leadership (AONL)",
+      "vendor_slug": "american-organization-for-nursing-leadership-aonl",
+      "domains": 5,
+      "total_questions": 115,
+      "duration_minutes": 120,
+      "source_url": "https://www.aonl.org/system/files/media/file/2024/01/CNML%20Handbook12.23.pdf",
+      "practice_url": "https://quizforge.ai/tests/aonl-certified-nurse-manager-leader-cnml",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:04+00:00"
+    },
+    {
+      "exam_id": "api-570-piping-inspection-code-certification",
+      "exam_name": "API 570: Piping Inspector Certification",
+      "exam_code": "",
+      "certifying_body": "American Petroleum Institute (API)",
+      "vendor_slug": "american-petroleum-institute-api",
+      "domains": 5,
+      "total_questions": 170,
+      "duration_minutes": 450,
+      "source_url": "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/570/2026%20Files/Feburary%202026_570_BOK_final.pdf",
+      "practice_url": "https://quizforge.ai/tests/api-570-piping-inspection-code-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:04+00:00"
+    },
+    {
       "exam_id": "appian-associate-analyst",
       "exam_name": "Appian Associate Analyst (ACA200)",
       "exam_code": "ACA200",
@@ -4036,6 +4066,21 @@
       "replacement_exam_code": "HPE6-A86",
       "replacement_relationship": "direct_replacement",
       "replacement_url": "https://certification-learning.hpe.com/tr/datasheet/exam/HPE6-A86?version=2"
+    },
+    {
+      "exam_id": "cwt-certified-water-technologist",
+      "exam_name": "AWT Certified Water Technologist (CWT)",
+      "exam_code": "",
+      "certifying_body": "Association of Water Technologies (AWT)",
+      "vendor_slug": "association-of-water-technologies-awt",
+      "domains": 5,
+      "total_questions": 200,
+      "duration_minutes": 240,
+      "source_url": "https://awt.org/wp-content/uploads/2025/07/AWT_CWT_Candidate_Hndbk_Final.2-11-21.pdf",
+      "practice_url": "https://quizforge.ai/tests/cwt-certified-water-technologist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:05+00:00"
     },
     {
       "exam_id": "atlassian-acp-900",
@@ -6014,6 +6059,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "argocd-gitops-certification-cncf",
+      "exam_name": "CNCF GitOps and ArgoCD Certification",
+      "exam_code": "",
+      "certifying_body": "CNCF",
+      "vendor_slug": "cncf",
+      "domains": 5,
+      "total_questions": null,
+      "duration_minutes": 90,
+      "source_url": "https://www.cncf.io/training/certification/cgoa/",
+      "practice_url": "https://quizforge.ai/tests/argocd-gitops-certification-cncf",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:05+00:00"
+    },
+    {
       "exam_id": "cncf-cka",
       "exam_name": "Certified Kubernetes Administrator (CKA)",
       "exam_code": "CKA",
@@ -6494,6 +6554,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "cwdp-certified-wireless-design-professional-cwdp-304",
+      "exam_name": "CWDP-304 - Certified Wireless Design Professional",
+      "exam_code": "",
+      "certifying_body": "CWNP",
+      "vendor_slug": "cwnp",
+      "domains": 4,
+      "total_questions": 60,
+      "duration_minutes": 90,
+      "source_url": "https://www.cwnp.com/uploads/cwdp-304-objectives-2021-final.pdf",
+      "practice_url": "https://quizforge.ai/tests/cwdp-certified-wireless-design-professional-cwdp-304",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:05+00:00"
     },
     {
       "exam_id": "cambridge-a2-key",
@@ -8409,6 +8484,21 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null
+    },
+    {
+      "exam_id": "danb-certified-orthodontic-assistant-coa",
+      "exam_name": "DANB Certified Orthodontic Assistant (COA)",
+      "exam_code": "",
+      "certifying_body": "DANB",
+      "vendor_slug": "danb",
+      "domains": 8,
+      "total_questions": 215,
+      "duration_minutes": 165,
+      "source_url": "https://www.danb.org/exams/exam/coa-exam",
+      "practice_url": "https://quizforge.ai/tests/danb-certified-orthodontic-assistant-coa",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:05+00:00"
     },
     {
       "exam_id": "danb-gchs",
@@ -21529,6 +21619,36 @@
       "verified_at": "2026-09-13T23:40:08+00:00"
     },
     {
+      "exam_id": "cwell-certified-well-water-specialist",
+      "exam_name": "NGWA Certified Well Driller Examination",
+      "exam_code": "",
+      "certifying_body": "National Ground Water Association (NGWA)",
+      "vendor_slug": "national-ground-water-association-ngwa",
+      "domains": 7,
+      "total_questions": null,
+      "duration_minutes": null,
+      "source_url": "https://www.ngwa.org/advance-your-career/certification/contractor-certification/certification-exams",
+      "practice_url": "https://quizforge.ai/tests/cwell-certified-well-water-specialist",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:05+00:00"
+    },
+    {
+      "exam_id": "nism-mutual-funds",
+      "exam_name": "NISM Series V-A Mutual Fund Distributor",
+      "exam_code": "",
+      "certifying_body": "National Institute of Securities Markets (NISM)",
+      "vendor_slug": "national-institute-of-securities-markets-nism",
+      "domains": 12,
+      "total_questions": 100,
+      "duration_minutes": 120,
+      "source_url": "https://www.nism.ac.in/test-objectives-mutual-fund-distributors/",
+      "practice_url": "https://quizforge.ai/tests/nism-mutual-funds",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:07+00:00"
+    },
+    {
       "exam_id": "cprp-certified-park-recreation-professional",
       "exam_name": "CPRP Certified Park and Recreation Professional",
       "exam_code": "",
@@ -22785,6 +22905,21 @@
       "verified_at": "2026-09-13T23:40:04+00:00"
     },
     {
+      "exam_id": "iso-45001-lead-auditor-ohsms",
+      "exam_name": "ISO 45001 OHSMS Lead Auditor Certification",
+      "exam_code": "",
+      "certifying_body": "PECB",
+      "vendor_slug": "pecb",
+      "domains": 7,
+      "total_questions": 80,
+      "duration_minutes": null,
+      "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-45001-lead-auditor-mc.pdf",
+      "practice_url": "https://quizforge.ai/tests/iso-45001-lead-auditor-ohsms",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:05+00:00"
+    },
+    {
       "exam_id": "iso-50001-lead-auditor-energy-management",
       "exam_name": "ISO 50001 Lead Auditor Certification",
       "exam_code": "",
@@ -23693,6 +23828,21 @@
       "verified_at": null
     },
     {
+      "exam_id": "qlik-sense-business-analyst-certification",
+      "exam_name": "Qlik Sense Business Analyst Certification",
+      "exam_code": "",
+      "certifying_body": "Qlik",
+      "vendor_slug": "qlik",
+      "domains": 4,
+      "total_questions": 50,
+      "duration_minutes": 120,
+      "source_url": "https://learning.qlik.com/student/page/2161175-qlik-sense-business-analyst-certification-exam-details",
+      "practice_url": "https://quizforge.ai/tests/qlik-sense-business-analyst-certification",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:07+00:00"
+    },
+    {
       "exam_id": "rics-apc-commercial-property",
       "exam_name": "APC — Commercial Property",
       "exam_code": "APC Commercial Property",
@@ -23961,6 +24111,21 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:07+00:00"
+    },
+    {
+      "exam_id": "red-seal-plumber",
+      "exam_name": "Red Seal Plumber Exam",
+      "exam_code": "",
+      "certifying_body": "Red Seal (Interprovincial Standards Red Seal Program)",
+      "vendor_slug": "red-seal-interprovincial-standards-red-seal-program",
+      "domains": 7,
+      "total_questions": 125,
+      "duration_minutes": 240,
+      "source_url": "https://red-seal.ca/eng/trades/plumbers/exam-information.shtml",
+      "practice_url": "https://quizforge.ai/tests/red-seal-plumber",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-14T00:14:07+00:00"
     },
     {
       "exam_id": "ribo-insurance",

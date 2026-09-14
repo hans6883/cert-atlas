@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-13",
-  "total_vendors": 316,
+  "total_vendors": 323,
   "vendors": [
     {
       "vendor_id": "servicenow",
@@ -379,6 +379,14 @@
       "slug": "okta"
     },
     {
+      "vendor_id": "pecb",
+      "display_name": "PECB",
+      "website": "https://pecb.com/",
+      "certification_page": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27701/iso-iec-27701-transition",
+      "exam_count": 9,
+      "slug": "pecb"
+    },
+    {
       "vendor_id": "ahima",
       "display_name": "AHIMA",
       "website": "https://www.ahima.org",
@@ -483,14 +491,6 @@
       "slug": "nebosh"
     },
     {
-      "vendor_id": "pecb",
-      "display_name": "PECB",
-      "website": "https://pecb.com/",
-      "certification_page": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27701/iso-iec-27701-transition",
-      "exam_count": 8,
-      "slug": "pecb"
-    },
-    {
       "vendor_id": "snowflake",
       "display_name": "Snowflake",
       "website": "https://learn.snowflake.com",
@@ -545,6 +545,14 @@
       "certification_page": "https://www.uscis.gov/citizenship",
       "exam_count": 7,
       "slug": "citizenship-and-civics-tests"
+    },
+    {
+      "vendor_id": "danb",
+      "display_name": "DANB",
+      "website": "https://www.danb.org",
+      "certification_page": "https://www.danb.org/Become-Certified",
+      "exam_count": 7,
+      "slug": "danb"
     },
     {
       "vendor_id": "hsk",
@@ -699,6 +707,14 @@
       "slug": "cips"
     },
     {
+      "vendor_id": "cncf",
+      "display_name": "CNCF",
+      "website": "https://www.cncf.io",
+      "certification_page": "https://www.cncf.io/certifications/",
+      "exam_count": 6,
+      "slug": "cncf"
+    },
+    {
       "vendor_id": "cpa_australia",
       "display_name": "CPA Australia",
       "website": "https://www.cpaaustralia.com.au",
@@ -721,14 +737,6 @@
       "certification_page": "https://www.crowdstrike.com/en-us/services/training/",
       "exam_count": 6,
       "slug": "crowdstrike"
-    },
-    {
-      "vendor_id": "danb",
-      "display_name": "DANB",
-      "website": "https://www.danb.org",
-      "certification_page": "https://www.danb.org/Become-Certified",
-      "exam_count": 6,
-      "slug": "danb"
     },
     {
       "vendor_id": "delf_dalf",
@@ -945,14 +953,6 @@
       "certification_page": "https://www.charteredaccountantsanz.com/become-a-member/pathways-to-membership/chartered-accountant",
       "exam_count": 5,
       "slug": "ca-anz"
-    },
-    {
-      "vendor_id": "cncf",
-      "display_name": "CNCF",
-      "website": "https://www.cncf.io",
-      "certification_page": "https://www.cncf.io/certifications/",
-      "exam_count": 5,
-      "slug": "cncf"
     },
     {
       "vendor_id": "cpa_canada",
@@ -1835,6 +1835,14 @@
       "slug": "oet"
     },
     {
+      "vendor_id": "red-seal",
+      "display_name": "Red Seal (Interprovincial Standards Red Seal Program)",
+      "website": "https://red-seal.ca/",
+      "certification_page": "https://red-seal.ca/",
+      "exam_count": 2,
+      "slug": "red-seal-interprovincial-standards-red-seal-program"
+    },
+    {
       "vendor_id": "shrm",
       "display_name": "SHRM",
       "website": "https://www.shrm.org",
@@ -2043,6 +2051,30 @@
       "slug": "american-culinary-federation-acf"
     },
     {
+      "vendor_id": "aonl",
+      "display_name": "American Organization for Nursing Leadership (AONL)",
+      "website": "https://aonl.org/",
+      "certification_page": "https://aonl.org/",
+      "exam_count": 1,
+      "slug": "american-organization-for-nursing-leadership-aonl"
+    },
+    {
+      "vendor_id": "api",
+      "display_name": "American Petroleum Institute (API)",
+      "website": "https://api.org/",
+      "certification_page": "https://api.org/",
+      "exam_count": 1,
+      "slug": "american-petroleum-institute-api"
+    },
+    {
+      "vendor_id": "awt",
+      "display_name": "Association of Water Technologies (AWT)",
+      "website": "https://awt.org/",
+      "certification_page": "https://awt.org/",
+      "exam_count": 1,
+      "slug": "association-of-water-technologies-awt"
+    },
+    {
       "vendor_id": "bcs",
       "display_name": "BCS",
       "website": "https://www.bcs.org/",
@@ -2097,6 +2129,14 @@
       "certification_page": "https://www.cfp.net/get-certified/certification-process/pass-the-cfp-exam",
       "exam_count": 1,
       "slug": "cfp-board"
+    },
+    {
+      "vendor_id": "cwnp",
+      "display_name": "CWNP",
+      "website": "https://www.cwnp.com/",
+      "certification_page": "https://www.cwnp.com/uploads/cwap-405-objectives-2025_001.pdf",
+      "exam_count": 1,
+      "slug": "cwnp"
     },
     {
       "vendor_id": "cci-cardiovascular",
@@ -2411,6 +2451,22 @@
       "slug": "national-certification-corporation-ncc"
     },
     {
+      "vendor_id": "ngwa",
+      "display_name": "National Ground Water Association (NGWA)",
+      "website": "https://ngwa.org/",
+      "certification_page": "https://ngwa.org/",
+      "exam_count": 1,
+      "slug": "national-ground-water-association-ngwa"
+    },
+    {
+      "vendor_id": "nism",
+      "display_name": "National Institute of Securities Markets (NISM)",
+      "website": "https://nism.ac.in/",
+      "certification_page": "https://nism.ac.in/",
+      "exam_count": 1,
+      "slug": "national-institute-of-securities-markets-nism"
+    },
+    {
       "vendor_id": "nrpa",
       "display_name": "National Recreation and Park Association (NRPA)",
       "website": "https://nrpa.org/",
@@ -2475,12 +2531,12 @@
       "slug": "plastic-surgical-nursing-certification-board-psncb"
     },
     {
-      "vendor_id": "red-seal",
-      "display_name": "Red Seal (Interprovincial Standards Red Seal Program)",
-      "website": "https://red-seal.ca/",
-      "certification_page": "https://red-seal.ca/",
+      "vendor_id": "qlik",
+      "display_name": "Qlik",
+      "website": "https://qlik.com/",
+      "certification_page": "https://qlik.com/",
       "exam_count": 1,
-      "slug": "red-seal-interprovincial-standards-red-seal-program"
+      "slug": "qlik"
     },
     {
       "vendor_id": "ribo",
