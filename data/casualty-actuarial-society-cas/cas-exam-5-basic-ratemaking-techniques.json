@@ -1,0 +1,147 @@
+{
+  "exam_id": "cas-exam-5-basic-ratemaking-techniques",
+  "exam_name": "CAS Exam 5 - Basic Techniques for Ratemaking",
+  "exam_code": "",
+  "certifying_body": "Casualty Actuarial Society (CAS)",
+  "version": null,
+  "source_url": "https://www.casact.org/sites/default/files/2025-05/Exam_5_ContentOutline_2025_F.pdf",
+  "duration_minutes": 240,
+  "domains": [
+    {
+      "id": "1",
+      "name": "A. Ratemaking",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "B. Estimating Claim Liabilities (Reserving)",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "CAS Exam 5 - Basic Techniques for Ratemaking"
+  ],
+  "practice_url": "https://quizforge.ai/tests/cas-exam-5-basic-ratemaking-techniques",
+  "editorial": {
+    "meta_description": "The Casualty Actuarial Society Exam 5 evaluates basic ratemaking techniques and estimating claim liabilities for property and casualty insurance professionals.",
+    "overview": "The Casualty Actuarial Society (CAS) Exam 5 focuses on basic ratemaking and estimating claim liabilities. This exam evaluates your ability to apply quantitative techniques to insurance data, including loss projections and reserve analysis. It covers 2 primary domains and is administered by the Casualty Actuarial Society (CAS) to test your technical proficiency in property and casualty insurance mathematics. Candidates must demonstrate mastery of these core actuarial concepts to pass this 240-minute assessment, which is designed to ensure that all practitioners possess the necessary skills for complex financial modeling and data analysis within the insurance industry. The exam consists of 2 distinct domains that require deep technical knowledge.",
+    "who_should_take": "Actuarial candidates pursuing professional certification who have mastered basic insurance concepts. You should have experience with data analysis and a strong grasp of loss development and ratemaking principles to succeed in this 240-minute assessment and advance your career in the insurance field.",
+    "skills_summary": [
+      "Exposure base selection",
+      "Ratemaking data aggregation",
+      "Loss and expense calculation",
+      "Rate level indication construction",
+      "Development triangle analysis",
+      "Unpaid loss estimation techniques"
+    ],
+    "preparation_strategy": "Review the official CAS content outline and study the referenced texts, including Werner & Modlin and Friedland. Practice applying credibility methods and development triangles to various scenarios. Use the provided appendices to work through illustrative examples for different lines of business. Ensure you are comfortable with spreadsheet functions, as these are used during the 240-minute exam to perform complex calculations and data analysis. Consistent practice with these quantitative methods is required for success on this professional certification exam.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain covers the process of developing insurance rates, including data organization, trend application, and the construction of overall rate level indications using pure premium and loss ratio methods for various insurance products and lines of business.",
+        "study_focus": [
+          "Exposure base selection",
+          "Rate level indication methods",
+          "Trend application"
+        ],
+        "source_ids": [
+          "cas-exam-5-basic-ratemaking-techniques-exam_guide-2"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain focuses on estimating unpaid claims and loss liabilities. It requires building development triangles and applying various estimation techniques to ensure reserve adequacy and reasonableness for complex property and casualty insurance portfolios and actuarial reporting.",
+        "study_focus": [
+          "Development triangle construction",
+          "Unpaid loss estimation techniques",
+          "Reserve adequacy analysis"
+        ],
+        "source_ids": [
+          "cas-exam-5-basic-ratemaking-techniques-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "The exam lasts 240 minutes. You will encounter various item types, including multiple choice, matching, and spreadsheet-based problems. Manage your time effectively across the 2 domains to ensure you address all tasks within the allotted appointment time and complete your work successfully.",
+    "faq": [
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The exam duration is 240 minutes. This time includes the exam itself, a scheduled break, and time for the tutorial, confidentiality agreement, and the end of exam survey to ensure a fair testing environment for all candidates taking this professional certification assessment."
+      },
+      {
+        "question_title": "What domains are covered on the exam?",
+        "answer_text": "The exam covers 2 domains: A. Ratemaking and B. Estimating Claim Liabilities (Reserving). Candidates must demonstrate proficiency in both core areas to pass the assessment and move forward in their professional actuarial certification journey within the property and casualty insurance industry."
+      },
+      {
+        "question_title": "What item types appear on the exam?",
+        "answer_text": "Candidates may see multiple choice, multiple selection, point and click, fill in the blank, matching, constructed response, and spreadsheet-type items during the exam to test their technical skills and ability to perform complex insurance calculations required for the 240-minute session."
+      },
+      {
+        "question_title": "Where can I find the current certification path?",
+        "answer_text": "For information regarding the long-term certification path and requirements, please check with the Casualty Actuarial Society (CAS) for the most current and accurate details regarding your professional journey and exam requirements for the 2 domains covered in the syllabus."
+      }
+    ],
+    "methodology": {
+      "summary": "This page was built by synthesizing the official CAS Exam 5 content outline and verified source documentation provided by the Casualty Actuarial Society to ensure accuracy for all candidates pursuing this professional certification.",
+      "source_ids": [
+        "cas-exam-5-basic-ratemaking-techniques-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "cas-exam-5-basic-ratemaking-techniques-exam_guide",
+      "cas-exam-5-basic-ratemaking-techniques-exam_guide-2",
+      "cas-exam-5-basic-ratemaking-techniques-exam_guide-3",
+      "cas-exam-5-basic-ratemaking-techniques-exam_guide-4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "cas-exam-5-basic-ratemaking-techniques-exam_guide",
+      "url": "https://www.casact.org/sites/default/files/database/studynotes_friedland_estimating.pdf",
+      "title": "Casualty Actuarial Society (CAS) exam guide",
+      "publisher": "Casualty Actuarial Society (CAS)",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:5e9830823346d2001d9bdcebecd0d0d399cac32a9a63d5cf021a6c7f03d50464"
+    },
+    {
+      "id": "cas-exam-5-basic-ratemaking-techniques-exam_guide-2",
+      "url": "https://www.casact.org/sites/default/files/old/studynotes_werner_modlin_ratemaking.pdf",
+      "title": "Casualty Actuarial Society (CAS) exam guide",
+      "publisher": "Casualty Actuarial Society (CAS)",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:6b214d4db52674df2e83343920c06781e491254bd77f27e32ba312faaff3782c"
+    },
+    {
+      "id": "cas-exam-5-basic-ratemaking-techniques-exam_guide-3",
+      "url": "https://www.casact.org/sites/default/files/2021-03/5_ASOP_43.pdf",
+      "title": "Casualty Actuarial Society (CAS) exam guide",
+      "publisher": "Casualty Actuarial Society (CAS)",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:776302c442cb8d3210fc41269d38caeec4c547da8159084b80fa2ac4ce949cce"
+    },
+    {
+      "id": "cas-exam-5-basic-ratemaking-techniques-exam_guide-4",
+      "url": "https://www.actexmadriver.com/Assets/ClientDocs/prod_preview/A105EP.pdf",
+      "title": "Casualty Actuarial Society (CAS) exam guide (actexmadriver.com)",
+      "publisher": "actexmadriver.com",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:b9a92174b988d15a235bf163b3eff205168c5cfb7c41b2b6f17f30b3eed50c07"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-3.1-flash-lite",
+    "generated_at": "2026-09-14T02:30:41+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-14T03:22:00+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-14T03:22:00+00:00"
+  }
+}

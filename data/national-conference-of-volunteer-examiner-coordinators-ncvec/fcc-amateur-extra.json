@@ -1,0 +1,273 @@
+{
+  "exam_id": "fcc-amateur-extra",
+  "exam_name": "FCC Amateur Extra Class License Exam",
+  "exam_code": "",
+  "certifying_body": "National Conference of Volunteer Examiner Coordinators (NCVEC)",
+  "version": null,
+  "source_url": "https://ncvec.org/downloads/2024-2028%20Extra%20Class%20Question%20Pool%20and%20Syllabus%20Public%20Release%20December%207%202023.pdf",
+  "passing_score": "37/50",
+  "total_questions": 50,
+  "domains": [
+    {
+      "id": "1",
+      "name": "SAFETY",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "2",
+      "name": "COMMISSION RULES",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "3",
+      "name": "OPERATING PROCEDURES",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "4",
+      "name": "RADIO WAVE PROPAGATION",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "5",
+      "name": "AMATEUR PRACTICES",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "6",
+      "name": "ELECTRICAL PRINCIPLES",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "7",
+      "name": "CIRCUIT COMPONENTS",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "8",
+      "name": "PRACTICAL CIRCUITS",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "9",
+      "name": "SIGNALS AND EMISSIONS",
+      "weight_percent": null,
+      "objectives": []
+    },
+    {
+      "id": "10",
+      "name": "ANTENNAS AND TRANSMISSION LINES",
+      "weight_percent": null,
+      "objectives": []
+    }
+  ],
+  "aliases": [
+    "FCC Amateur Extra Class License Exam"
+  ],
+  "practice_url": "https://quizforge.ai/tests/fcc-amateur-extra",
+  "editorial": {
+    "meta_description": "The FCC Amateur Extra Class License Exam, certified by the NCVEC, evaluates advanced radio theory, regulations, and operating practices for amateur radio.",
+    "overview": "The FCC Amateur Extra Class License Exam represents the highest level of amateur radio certification. Administered by the National Conference of Volunteer Examiner Coordinators (NCVEC), this exam evaluates an operator's knowledge of advanced radio theory, complex circuit design, and regulatory compliance across 10 subject domains. It ensures that licensees possess the technical expertise required to operate effectively across all amateur frequency bands and modes, maintaining the standards of the amateur radio service for all participants. This assessment confirms that candidates have mastered the advanced concepts necessary for full access to amateur radio privileges.",
+    "who_should_take": "This exam is intended for licensed amateur operators who have already earned lower-level credentials and wish to obtain the highest level of operating privileges. Candidates should have a strong background in electronics and radio communication practices to succeed.",
+    "skills_summary": [
+      "Safety protocols",
+      "Commission rules",
+      "Operating procedures",
+      "Radio wave propagation",
+      "Electrical principles",
+      "Circuit components",
+      "Antennas and transmission lines"
+    ],
+    "preparation_strategy": "Review the official NCVEC question pool to familiarize yourself with the 50 questions that appear on the exam. Focus on mastering the technical domains, including electrical principles and antenna theory. Use practice tests to identify areas where you need further study. Ensure you understand the specific regulatory requirements and operating standards outlined in the official syllabus to meet the passing score of 37 out of 50. Consistent study of these materials is required for success.",
+    "domain_guidance": [
+      {
+        "domain_id": "1",
+        "summary": "This domain evaluates RF exposure limits and electrical safety protocols for amateur radio stations. Candidates must demonstrate knowledge of safe operating practices to protect both the operator and the general public from hazardous electromagnetic radiation and high-voltage hazards.",
+        "study_focus": [
+          "RF exposure limits",
+          "Electrical safety"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "2",
+        "summary": "This domain covers the federal regulations and Commission rules governing the amateur radio service. Candidates must understand station licensing rules, control operator duties, permitted frequencies, and regulatory compliance standards across all authorized amateur spectrum bands for legal operation.",
+        "study_focus": [
+          "Station licensing",
+          "Control operator duties"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "3",
+        "summary": "This domain addresses standard amateur radio operating procedures, including proper station identification techniques and third-party communication rules. Candidates are tested on operating protocols across various modes, emergency communications, and standard operating activities required for effective station management.",
+        "study_focus": [
+          "Station identification",
+          "Third-party communications"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "4",
+        "summary": "This domain explains the principles of radio wave propagation through ionospheric and tropospheric environments. Candidates must understand solar indices, signal path behavior, skip distances, and frequency selection strategies for establishing reliable long-distance radio communications in various conditions.",
+        "study_focus": [
+          "Ionospheric conditions",
+          "Signal path analysis"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "5",
+        "summary": "This domain focuses on practical amateur station setups, test equipment usage, and operating techniques. Candidates learn how to measure signal quality, use oscilloscopes and spectrum analyzers, and apply noise suppression methods to maintain clear station operations during transmissions.",
+        "study_focus": [
+          "Station setup",
+          "Test equipment usage"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "6",
+        "summary": "This domain examines fundamental electrical principles, mathematical calculations, and circuit behavior in radio frequency applications. Candidates must master AC and DC circuit theory, reactance, impedance matching, resonance, and Ohm's law calculations for complex networks used in radio.",
+        "study_focus": [
+          "Ohm's Law",
+          "Power calculations"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "7",
+        "summary": "This domain focuses on the identification, characteristics, and operational functions of active and passive circuit components. Candidates are evaluated on components such as resistors, capacitors, inductors, diodes, transistors, integrated circuits, and various semiconductor devices used in radio.",
+        "study_focus": [
+          "Resistors and capacitors",
+          "Semiconductors"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "8",
+        "summary": "This domain covers the design, analysis, and operation of practical radio circuits used in transmitters, receivers, and power supplies. Candidates study operational amplifiers, active filters, oscillators, modulators, demodulators, and power supply regulation systems for radio equipment.",
+        "study_focus": [
+          "Amplifiers and filters",
+          "Oscillators and modulators"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "9",
+        "summary": "This domain explores the characteristics, bandwidth requirements, and modulation techniques associated with various signal emissions. Candidates must understand single sideband, frequency modulation, digital modes, pulse emissions, and methods for minimizing unwanted sidebands and spurious signals during radio transmissions.",
+        "study_focus": [
+          "Modulation types",
+          "Bandwidth requirements"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      },
+      {
+        "domain_id": "10",
+        "summary": "This domain covers antenna design principles, radiation patterns, transmission line characteristics, and impedance matching techniques. Candidates analyze dipole arrays, directional beam antennas, transmission line losses, standing wave ratio calculations, and antenna tuning units for optimal radio performance.",
+        "study_focus": [
+          "Antenna gain",
+          "SWR and impedance"
+        ],
+        "source_ids": [
+          "fcc-amateur-extra-exam_guide"
+        ]
+      }
+    ],
+    "exam_day_guidance": "Arrive at your testing location with all required identification and necessary materials. Ensure you are prepared to answer 50 questions across 10 subject domains. Maintain focus on technical questions to achieve the required passing score of 37 out of 50 to earn your certification.",
+    "faq": [
+      {
+        "question_title": "How many questions are on the exam?",
+        "answer_text": "The FCC Amateur Extra Class License Exam consists of exactly 50 multiple-choice questions selected from the official question pool. These questions are distributed across the 10 syllabus topics covering regulations, operating procedures, safety, and radio theory to ensure a thorough evaluation of your knowledge."
+      },
+      {
+        "question_title": "What is the passing score?",
+        "answer_text": "To pass the exam, candidates must achieve a score of at least 37 out of 50 questions correctly. Reviewing all 10 technical domains will help you reach this required score threshold during your scheduled testing session and successfully obtain your amateur radio license."
+      },
+      {
+        "question_title": "How long is the exam?",
+        "answer_text": "The provided source documentation does not specify a strict time limit for completing the exam session. Candidates should check with their local Volunteer Examiner Coordinator team or session organizer to confirm specific timing and scheduling details for their particular testing location."
+      },
+      {
+        "question_title": "Where can I find the current question pool?",
+        "answer_text": "The official question pool is maintained and published by the National Conference of Volunteer Examiner Coordinators. Candidates can access the complete public release document directly from the official NCVEC website or through authorized amateur radio training resources to prepare for the 50 questions."
+      }
+    ],
+    "methodology": {
+      "summary": "This editorial was generated by analyzing the official NCVEC question pool and syllabus documentation to provide a clear and accurate overview of the exam requirements, technical topics, and passing standards for all candidates seeking this certification.",
+      "source_ids": [
+        "fcc-amateur-extra-exam_guide"
+      ]
+    },
+    "source_ids": [
+      "fcc-amateur-extra-exam_guide",
+      "fcc-amateur-extra-exam_guide-2",
+      "fcc-amateur-extra-exam_guide-3"
+    ]
+  },
+  "sources": [
+    {
+      "id": "fcc-amateur-extra-exam_guide",
+      "url": "https://ncvec.org/downloads/2024-2028%20Extra%20Class%20Question%20Pool%20and%20Syllabus%20Public%20Release%20December%207%202023.pdf",
+      "title": "National Conference of Volunteer Examiner Coordinators (NCVEC) exam guide",
+      "publisher": "National Conference of Volunteer Examiner Coordinators (NCVEC)",
+      "source_type": "official_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:45326020dd2198fa6c79e2e011e70092a30dbd47ad948cd486822e586d15dde4"
+    },
+    {
+      "id": "fcc-amateur-extra-exam_guide-2",
+      "url": "https://ieee-risingstars.org/2026/fcc-license-exam/",
+      "title": "National Conference of Volunteer Examiner Coordinators (NCVEC) exam guide (ieee-risingstars.org)",
+      "publisher": "ieee-risingstars.org",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:7e149e7759876de72e3e68aff2a0e11f6c399b7bfe63e0e0ca80f26c2146f345"
+    },
+    {
+      "id": "fcc-amateur-extra-exam_guide-3",
+      "url": "https://blog.hamstudy.org/2015/01/hacking-the-general-and-extra-exams-from-n7smi/",
+      "title": "National Conference of Volunteer Examiner Coordinators (NCVEC) exam guide (blog.hamstudy.org)",
+      "publisher": "hamstudy.org",
+      "source_type": "third_party_exam_guide",
+      "accessed": "2026-09-12",
+      "content_hash": "sha256:3e7550106e798ed41fb80091ab83801fbaed0119a8e66c08ff73e5511bf0cbe2"
+    }
+  ],
+  "content_quality": {
+    "generated_by": "gemini:gemini-3.1-flash-lite",
+    "generated_at": "2026-09-14T02:29:30+00:00",
+    "evidence_coverage": 1.0,
+    "factual_confidence": 1.0,
+    "scored_at": "2026-09-14T03:22:01+00:00",
+    "scored_by": "pipeline/seo_score.py",
+    "status": "reviewed",
+    "publishable": true,
+    "reviewed_at": "2026-09-14T03:22:01+00:00"
+  }
+}
