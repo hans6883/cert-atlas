@@ -234,5 +234,17 @@
     "comptia a+ core 2",
     "comptia-a-plus-core2-220-1102"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-a-core-2-d8ef327e"
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "220-1202",
+      "relationship": "direct_replacement",
+      "url": "https://www.comptia.org/en-us/certifications/a/core-2-v15/"
+    },
+    "summary": "CompTIA's current A+ Core 2 exam is 220-1202 (exam version V15, launched March 25, 2025); the 220-1102 (V14) exam is no longer offered on comptia.org - the A+ pages and sitemap carry only V15, and the site prints no 220-1102 retirement date. Successor: 220-1202 (same exam, next version).",
+    "evidence_url": "https://www.comptia.org/en-us/certifications/a/core-2-v15/",
+    "verified_at": "2026-09-14T19:45:00Z"
+  }
 }

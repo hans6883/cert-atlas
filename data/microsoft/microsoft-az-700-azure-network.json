@@ -542,5 +542,11 @@
         "detail": "Draw a request from an on-premises client to an Azure service. Annotate DNS resolution, routing and network security decisions. Identify the evidence you would inspect when name resolution works but connectivity fails, using the guide's networking references. This is a study aid, not an official exam question or a prediction of your result."
       }
     ]
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-14: certification page: 'Exam AZ-700 study guide', 'Schedule exam'; no retirement banner.",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer-associate/",
+    "verified_at": "2026-09-14T19:45:00Z"
   }
 }

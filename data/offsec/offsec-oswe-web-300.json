@@ -133,5 +133,11 @@
     "offsec-oswe-web-300",
     "oswe"
   ],
-  "practice_url": "https://quizforge.ai/tests/offensive-security-oswe"
+  "practice_url": "https://quizforge.ai/tests/offensive-security-oswe",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-15: the WEB-300 / OSWE page is live.",
+    "evidence_url": "https://www.offsec.com/courses/web-300/",
+    "verified_at": "2026-09-15T22:30:00Z"
+  }
 }

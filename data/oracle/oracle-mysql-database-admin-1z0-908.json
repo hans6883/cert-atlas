@@ -380,5 +380,17 @@
     "oracle certified professional mysql 8 0 database administrator",
     "oracle-mysql-database-admin-1z0-908"
   ],
-  "practice_url": "https://quizforge.ai/tests/mysql-80-database-administrator-1z0-908-2eqynm"
+  "practice_url": "https://quizforge.ai/tests/mysql-80-database-administrator-1z0-908-2eqynm",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-11-16",
+    "replacement": {
+      "exam_code": "1Z0-918",
+      "relationship": "related_successor",
+      "url": "https://mylearn.oracle.com/ou/learning-path/become-a-mysql-database-administration-professional/164212"
+    },
+    "summary": "Oracle's 'Become a MySQL 8.0 Database Admin Professional' learning path prints 'The exam 1Z0-908: MySQL 8.0 Database Administrator will retire on 16-November-2026' and 'This learning path and its associated artifacts will be archived on Nov 15, 2026. You are encouraged to access the Become a MySQL Database Administration Professional learning path as the replacement'; that replacement path's certification exam is 'MySQL Database Administration Professional (1Z0-918)'.",
+    "evidence_url": "https://learn.oracle.com/ols/learning-path/become-a-mysql-80-database-admin-professional/88337/97589",
+    "verified_at": "2026-09-15T22:30:00Z"
+  }
 }

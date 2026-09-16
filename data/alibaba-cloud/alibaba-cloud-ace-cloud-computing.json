@@ -252,8 +252,14 @@
   "lifecycle": {
     "status": "retired",
     "retired_on": "2025-05-13",
-    "summary": "Alibaba Cloud retired ACE-CLOUD on 2025-05-13.",
-    "evidence_url": "https://edu.alibabacloud.com/certification/update-announcement",
-    "verified_at": "2026-08-27T14:37:08.978449+00:00"
+    "replacement": {
+      "exam_code": "SAE-C01",
+      "relationship": "direct_replacement",
+      "url": "https://files.alicdn.com/tpsservice/8e07eb2d72a1c00a425a595c090b8d12.pdf",
+      "name": "Alibaba Cloud Certified Expert: Solutions Architect"
+    },
+    "summary": "Alibaba Cloud Academy retired ACE Cloud Computing Expert on 2025-05-13 and replaced it with Solutions Architect (Expert) - 'Alibaba Cloud Certified Expert: Solutions Architect', exam code SAE-C01 (exam page: 'Being Replaced By Solutions Architect (Expert)').",
+    "evidence_url": "https://edu.alibabacloud.com/certification/ace_cloudcomputing",
+    "verified_at": "2026-09-14T18:30:00Z"
   }
 }

@@ -229,5 +229,17 @@
     "comptia a+ core 1",
     "comptia-a-plus-core1-220-1101"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-aplus-core-1-220-1101-e11a076b"
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "replacement": {
+      "exam_code": "220-1201",
+      "relationship": "direct_replacement",
+      "url": "https://www.comptia.org/en-us/certifications/a/core-1-v15/"
+    },
+    "summary": "CompTIA's current A+ Core 1 exam is 220-1201 (exam version V15, launched March 25, 2025); the 220-1101 (V14) exam is no longer offered on comptia.org - its certification, objectives and 'core-1-v14' URLs all redirect to the V15 page, and the site prints no 220-1101 retirement date. Successor: 220-1201 (same exam, next version).",
+    "evidence_url": "https://www.comptia.org/en-us/certifications/a/core-1-v15/",
+    "verified_at": "2026-09-14T19:30:00Z"
+  }
 }

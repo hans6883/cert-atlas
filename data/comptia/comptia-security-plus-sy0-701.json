@@ -468,5 +468,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:33+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2027-06-11",
+    "summary": "CompTIA prints a retirement date for Security+ SY0-701 on the certification page: 'Retirement: English - June 11, 2027; Japanese, Portuguese, Spanish, and Thai - August 13, 2027' (exam version V7, launched November 7, 2023). No successor exam code is named on the page.",
+    "evidence_url": "https://www.comptia.org/en-us/certifications/security/",
+    "verified_at": "2026-09-14T19:30:00Z"
   }
 }

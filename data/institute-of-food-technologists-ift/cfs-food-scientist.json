@@ -61,7 +61,7 @@
   "aliases": [
     "CFS Certified Food Scientist"
   ],
-  "practice_url": "https://quizforge.ai/tests/cfs-food-scientist",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Certified Food Scientist (CFS) exam from the Institute of Food Technologists (IFT) evaluates applied scientific knowledge across eight distinct food.",
     "overview": "The Certified Food Scientist (CFS) credential, offered by the Institute of Food Technologists (IFT), validates the applied scientific knowledge of food professionals. The exam covers eight domains, including product development, food safety, and regulatory compliance. This assessment ensures that candidates demonstrate the expertise to maintain standards within the food industry throughout their professional careers, confirming they possess the necessary skills to deliver safe and quality food products to consumers while adhering to industry benchmarks. The exam consists of 120 questions that evaluate your applied scientific knowledge across the eight domains defined by the Institute of Food Technologists.",
@@ -219,5 +219,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:00+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "IFT has sunset the Certified Food Scientist (CFS) program ('Looking for the Certified Food Scientist (CFS) program? This program has been sunset.'); questions go to the International Food Science Certification Commission (IFSCC). No retirement date is printed and no successor credential is named.",
+    "evidence_url": "https://www.ift.org/trends-and-learning/educational-resources/",
+    "verified_at": "2026-09-14T19:30:00Z"
   }
 }
