@@ -24,7 +24,7 @@ Every exam file includes the structural blueprint published by the certifying bo
 - Prerequisites, retake policies, and renewal requirements
 - Available languages and proctoring options
 - Official study resources and objective URLs
-- Reviewed, source-linked editorial guidance where the enrichment quality gate has passed
+- Reviewed, source-linked editorial guidance where an official source supports it
 
 No proprietary questions or answers. Aggregate topic, difficulty, and item-format metadata may inform reviewed preparation guidance, but question text and explanations never enter this repository.
 
@@ -200,14 +200,6 @@ Found an outdated exam or missing certification? Contributions welcome.
 - **Report an issue:** Open an issue with the exam name and what needs correcting.
 
 Please include the official source URL for any additions or changes.
-
-## QuizForge automation credentials
-
-`scripts/create_missing_exams.py` requires a dedicated QuizForge automation account. Never place its email, password, or bearer token in source files, command-line arguments, logs, fixtures, or generated output.
-
-Set `QUIZFORGE_LOGIN_EMAIL` and `QUIZFORGE_LOGIN_PASSWORD` in the runtime environment. Production is the default API target. Set `QUIZFORGE_BASE_URL=https://qftest.sntrace.dev` for the gated Test replica or `QUIZFORGE_BASE_URL=http://localhost:5003` for the private Test tunnel. The script rejects other credential destinations.
-
-The GitHub repository stores distinct production and Test values as encrypted Actions secrets: `QUIZFORGE_LOGIN_EMAIL`, `QUIZFORGE_LOGIN_PASSWORD`, `QUIZFORGE_TEST_LOGIN_EMAIL`, and `QUIZFORGE_TEST_LOGIN_PASSWORD`.
 
 ## License
 
