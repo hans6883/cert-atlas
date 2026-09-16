@@ -382,19 +382,21 @@ test("published MB-240 data describes AB-250 as related rather than direct", asy
   assert.doesNotMatch(output, /What changed from MB-240 to AB-250/);
 });
 
-test("published AZ-500 is scheduled and keeps current actions", async () => {
+test("published AZ-500 retired on 2026-08-31 without an invented replacement", async () => {
+  // AZ-500 passed its retirement date; the registry records it retired with no successor named
+  // by Microsoft, so the index must not carry a stale practice link or a made-up replacement.
   const entry = await resolveExam("AZ-500");
   assert.ok(entry, "AZ-500 should resolve");
-  assert.equal(entry.lifecycle_status, "scheduled_retirement");
-  assert.equal(entry.retires_on, "2026-08-31");
-  assert.equal(entry.replacement_exam_code, "SC-500");
-  assert.ok(entry.practice_url, "scheduled exam should retain its current practice link");
+  assert.equal(entry.lifecycle_status, "retired");
+  assert.equal(entry.retired_on, "2026-08-31");
+  assert.equal(entry.replacement_exam_code, undefined);
+  assert.equal(entry.practice_url, null);
 
   const output = blueprintText(entry, await getBlueprint(entry));
-  assert.match(output, /Retires 2026-08-31/);
-  assert.match(output, /Replacement: SC-500/);
-  assert.match(output, /Register:/);
-  assert.match(output, /Free practice exam/);
+  assert.match(output, /2026-08-31/);
+  assert.match(output, /No verified replacement named/);
+  assert.doesNotMatch(output, /Replacement:/);
+  assert.doesNotMatch(output, /Register:/);
 });
 
 test("published MS-900 is historical without an invented replacement", async () => {
