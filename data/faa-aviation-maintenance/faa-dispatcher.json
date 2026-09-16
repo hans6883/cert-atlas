@@ -134,5 +134,11 @@
     "faa-dispatcher",
     "part 121 dispatcher"
   ],
-  "practice_url": "https://quizforge.ai/tests/faa-aircraft-dispatcher-knowledge-test-adx-2xhb35"
+  "practice_url": "https://quizforge.ai/tests/faa-aircraft-dispatcher-knowledge-test-adx-2xhb35",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-16: the FAA Airman Knowledge Testing Matrix (revised 10/22/25) lists 'ADX Aircraft Dispatcher 80 21 3.5 70' (questions / min age / hours / passing score) with ADX-specific retest rules.",
+    "evidence_url": "https://www.faa.gov/training_testing/testing/testing_matrix",
+    "verified_at": "2026-09-16T12:00:00Z"
+  }
 }
