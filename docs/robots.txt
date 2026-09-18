@@ -1,3 +1,11 @@
+# Google-only crawl gating: the landing page stays crawlable for every crawler;
+# all other paths are blocked for Googlebot only. Bing and all other user agents
+# are governed by the * group below and keep full access.
+User-agent: Googlebot
+Disallow: /*
+Allow: /$
+
 User-agent: *
 Allow: /
+
 Sitemap: https://atlas.quizforge.ai/sitemap.xml
