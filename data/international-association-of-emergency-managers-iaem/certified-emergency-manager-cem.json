@@ -1,7 +1,7 @@
 {
   "exam_id": "certified-emergency-manager-cem",
   "exam_name": "CEM: Certified Emergency Manager",
-  "exam_code": "",
+  "exam_code": "CEM",
   "certifying_body": "International Association of Emergency Managers (IAEM)",
   "version": null,
   "source_url": "https://iaem.cloud/get-certified/IAEM-Exam-Blueprint.pdf",
@@ -241,5 +241,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T21:05:14Z",
+    "evidence_url": "https://iaem.cloud/get-certified/Certification-Brochure.pdf"
+  },
+  "official_objectives_url": "https://iaem.cloud/get-certified/IAEM-Exam-Blueprint.pdf"
 }

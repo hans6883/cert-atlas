@@ -1,7 +1,7 @@
 {
   "exam_id": "abpm-podiatric-medicine-board-certification",
   "exam_name": "ABPM American Board of Podiatric Medicine Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Podiatric Medicine (ABPM)",
   "version": null,
   "source_url": "https://my.podiatryboard.org/files/General%20Examination%20Information.pdf?v=1600196121",
@@ -278,5 +278,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:33+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:57:32Z",
+    "evidence_url": "https://podiatryboard.org/abpm-certification/"
   }
 }

@@ -264,5 +264,12 @@
     "cncf-cks",
     "kubernetes security"
   ],
-  "practice_url": "https://quizforge.ai/tests/cncf-cks"
+  "practice_url": "https://quizforge.ai/tests/cncf-cks",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:58:00Z",
+    "evidence_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/"
+  }
 }

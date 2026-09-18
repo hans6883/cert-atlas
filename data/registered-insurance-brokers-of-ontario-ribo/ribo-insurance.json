@@ -1,7 +1,7 @@
 {
   "exam_id": "ribo-insurance",
   "exam_name": "RIBO Registered Insurance Broker Ontario",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Registered Insurance Brokers of Ontario (RIBO)",
   "version": null,
   "source_url": "https://www.ribo.com/getting-a-license/individual-licenses/new-applicants/examinations/level-1-entry-level-broker-exam/",
@@ -177,5 +177,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:07+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T21:28:50Z",
+    "evidence_url": "https://www.ribo.com/getting-a-license/individual-licenses/new-applicants/examinations/level-1-entry-level-broker-exam/"
+  },
+  "official_objectives_url": "https://www.ribo.com/level-1-competency-profile-and-blueprint-effective-january-2025/"
 }

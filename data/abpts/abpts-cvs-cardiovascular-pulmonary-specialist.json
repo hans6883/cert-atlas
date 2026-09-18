@@ -1,7 +1,7 @@
 {
   "exam_id": "abpts-cvs-cardiovascular-pulmonary-specialist",
   "exam_name": "CCS Cardiovascular and Pulmonary Clinical Specialist (ABPTS)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "ABPTS",
   "version": null,
   "source_url": "https://specialization.apta.org/become-a-specialist/cardiovascular-pulmonary/exam-outline",
@@ -239,5 +239,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:34+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T20:10:08Z",
+    "evidence_url": "https://specialization.apta.org/become-a-specialist/cardiovascular-pulmonary"
+  },
+  "official_objectives_url": "https://specialization.apta.org/become-a-specialist/cardiovascular-pulmonary/exam-outline"
 }

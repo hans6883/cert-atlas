@@ -1,7 +1,7 @@
 {
   "exam_id": "archivist-certified-sam",
   "exam_name": "Certified Archivist Examination",
-  "exam_code": "",
+  "exam_code": "CA",
   "certifying_body": "Academy of Certified Archivists",
   "version": null,
   "source_url": "https://www.certifiedarchivists.org/25-Role-Delineation-Statement",
@@ -248,5 +248,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:35+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:58:02Z",
+    "evidence_url": "https://www.certifiedarchivists.org/get-certified"
+  },
+  "official_objectives_url": "https://www.certifiedarchivists.org/25-Role-Delineation-Statement"
 }

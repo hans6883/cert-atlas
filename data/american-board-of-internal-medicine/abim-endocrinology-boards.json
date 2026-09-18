@@ -1,7 +1,7 @@
 {
   "exam_id": "abim-endocrinology-boards",
   "exam_name": "ABIM Endocrinology Diabetes and Metabolism Board Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Internal Medicine",
   "version": null,
   "source_url": "https://www.abim.org/media/1kwlvo2v/endocrinology-diabetes-metabolism.pdf",
@@ -211,5 +211,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:57+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T21:49:50Z",
+    "evidence_url": "https://www.abim.org/media/1kwlvo2v/endocrinology-diabetes-metabolism.pdf"
+  },
+  "official_objectives_url": "https://www.abim.org/media/1kwlvo2v/endocrinology-diabetes-metabolism.pdf"
 }

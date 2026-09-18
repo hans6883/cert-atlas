@@ -1,7 +1,7 @@
 {
   "exam_id": "abp-pediatric-cardiology",
   "exam_name": "ABP Pediatric Cardiology",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Pediatrics",
   "version": null,
   "source_url": "https://www.abp.org/sites/public/files/pdf/content-outline-cardiology.pdf",
@@ -431,5 +431,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:33+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T20:09:54Z",
+    "evidence_url": "https://www.abp.org/content/pediatric-cardiology-certification"
+  },
+  "official_objectives_url": "https://www.abp.org/sites/public/files/pdf/content-outline-cardiology.pdf"
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ncea-certified-aesthetic-nurse-specialist",
   "exam_name": "NCEA Certified Aesthetic Nurse Specialist",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Plastic Surgical Nursing Certification Board (PSNCB)",
   "version": null,
   "source_url": "https://psncb.org/multimedia/files/CANS/Application.pdf",
@@ -123,5 +123,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:05+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T21:06:26Z",
+    "evidence_url": "https://psncb.org/CANS/"
   }
 }

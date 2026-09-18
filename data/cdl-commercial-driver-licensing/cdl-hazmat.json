@@ -1,7 +1,7 @@
 {
   "exam_id": "cdl-hazmat",
   "exam_name": "CDL Hazardous Materials (HazMat) Endorsement Test",
-  "exam_code": "CDL-H",
+  "exam_code": "H",
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -80,7 +80,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://tpr.fmcsa.dot.gov/content/Resources/ELDT-Curriculum-Summary_508.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -101,5 +101,12 @@
     "cdl-hazmat",
     "hazmat endorsement"
   ],
-  "practice_url": "https://quizforge.ai/tests/cdl-hazardous-materials-endorsement"
+  "practice_url": "https://quizforge.ai/tests/cdl-hazardous-materials-endorsement",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:57:28Z",
+    "evidence_url": "https://tpr.fmcsa.dot.gov/FAQ/Topics"
+  }
 }

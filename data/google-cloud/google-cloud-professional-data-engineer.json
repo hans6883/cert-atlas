@@ -1,7 +1,7 @@
 {
   "exam_id": "google-cloud-professional-data-engineer",
   "exam_name": "Professional Data Engineer",
-  "exam_code": "PDE",
+  "exam_code": null,
   "certifying_body": "Google Cloud",
   "certification_name": null,
   "version": null,
@@ -88,7 +88,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cloud.google.com/learn/certification/guides/data-engineer",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -114,5 +114,12 @@
     "pde",
     "professional data engineer"
   ],
-  "practice_url": "https://quizforge.ai/tests/google-cloud-professional-data-engineer"
+  "practice_url": "https://quizforge.ai/tests/google-cloud-professional-data-engineer",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T21:49:51Z",
+    "evidence_url": "https://cloud.google.com/learn/certification/data-engineer"
+  }
 }

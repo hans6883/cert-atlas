@@ -1,91 +1,13 @@
 {
   "exam_id": "haccp-certified-professional",
   "exam_name": "HACCP Certified Professional (NEHA)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "NEHA",
   "version": null,
   "source_url": "https://www.neha.org/PDFs/CPFS%20Blueprint_2025.pdf",
-  "passing_score": "650 scaled score",
-  "total_questions": 120,
-  "duration_minutes": 120,
-  "domains": [
-    {
-      "id": "1",
-      "name": "Causes and Prevention of Foodborne Illness",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Foodborne Pathogens and Non-pathogenic Microorganisms",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Potentially Hazardous Foods",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Contamination, Allergens and Food Defense",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Food Hazard Controls",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Personnel Training and Education",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Facilities and Equipment",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "8",
-      "name": "Cleaning and Sanitizing",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "9",
-      "name": "Pest Control",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "10",
-      "name": "Receiving, Storage, Cooking and Cooling",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "11",
-      "name": "Hazard Analysis Critical Control Point",
-      "weight_percent": 8.33,
-      "objectives": []
-    },
-    {
-      "id": "12",
-      "name": "Regulatory Requirements and Inspections",
-      "weight_percent": 8.33,
-      "objectives": []
-    }
-  ],
   "aliases": [
     "HACCP Certified Professional (NEHA)"
   ],
-  "practice_url": "https://quizforge.ai/tests/haccp-certified-professional",
   "editorial": {
     "meta_description": "Prepare for the HACCP Certified Professional exam from NEHA with 120 questions, 120 minutes, and a 650 scaled score passing requirement.",
     "overview": "The HACCP Certified Professional exam is a valuable credential for food safety practitioners. Administered by NEHA, the assessment consists of a total of 120 questions that must be answered within a strict duration of 120 minutes. Candidates must achieve a passing score of a 650 scaled score across all 12 domains of the curriculum.",
@@ -309,5 +231,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-18T20:21:30Z",
+    "evidence_url": "https://www.neha.org/haccp"
   }
 }

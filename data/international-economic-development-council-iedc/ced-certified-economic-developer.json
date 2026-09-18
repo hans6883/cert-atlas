@@ -1,7 +1,7 @@
 {
   "exam_id": "ced-certified-economic-developer",
   "exam_name": "CEcD Certified Economic Developer",
-  "exam_code": "",
+  "exam_code": "CEcD",
   "certifying_body": "International Economic Development Council (IEDC)",
   "version": null,
   "source_url": "https://www.iedconline.org/pages/steps-to-be-a-cecd/",
@@ -158,5 +158,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:00+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:57:35Z",
+    "evidence_url": "https://www.iedconline.org/pages/steps-to-be-a-cecd/"
   }
 }

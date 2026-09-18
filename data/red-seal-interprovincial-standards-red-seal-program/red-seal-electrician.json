@@ -1,7 +1,7 @@
 {
   "exam_id": "red-seal-electrician",
   "exam_name": "Red Seal Electrician Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Red Seal (Interprovincial Standards Red Seal Program)",
   "version": null,
   "source_url": "https://red-seal.ca/eng/trades/constelectric/exam-information.shtml",
@@ -177,5 +177,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:07+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T21:06:00Z",
+    "evidence_url": "https://www.red-seal.ca/eng/trades/constelectric/exam-information.shtml"
+  },
+  "official_objectives_url": "https://www.red-seal.ca/eng/trades/constelectric/exam-information.shtml"
 }

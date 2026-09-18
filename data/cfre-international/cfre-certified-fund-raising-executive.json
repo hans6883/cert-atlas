@@ -1,7 +1,7 @@
 {
   "exam_id": "cfre-certified-fund-raising-executive",
   "exam_name": "CFRE Certified Fund Raising Executive",
-  "exam_code": "",
+  "exam_code": "CFRE",
   "certifying_body": "CFRE International",
   "version": null,
   "source_url": "https://www.cfre.org/certification/cfre-exam",
@@ -205,5 +205,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:36+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:58:04Z",
+    "evidence_url": "https://www.cfre.org/certification/cfre-exam"
+  },
+  "official_objectives_url": "https://www.cfre.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=444e0058-0b6d-ed0f-feb8-6e06ffa86d1f&forceDialog=0"
 }

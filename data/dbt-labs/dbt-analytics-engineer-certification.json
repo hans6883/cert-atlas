@@ -1,7 +1,7 @@
 {
   "exam_id": "dbt-analytics-engineer-certification",
   "exam_name": "dbt Analytics Engineer Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "dbt Labs",
   "version": null,
   "source_url": "https://www.getdbt.com/certifications/analytics-engineer-certification-exam",
@@ -223,5 +223,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:37+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T20:10:11Z",
+    "evidence_url": "https://www.getdbt.com/certifications/analytics-engineer-certification-exam"
+  },
+  "official_objectives_url": "https://www.getdbt.com/certifications/analytics-engineer-certification-exam"
 }

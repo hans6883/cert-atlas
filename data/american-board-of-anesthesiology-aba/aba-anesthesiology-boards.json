@@ -1,7 +1,7 @@
 {
   "exam_id": "aba-anesthesiology-boards",
   "exam_name": "ABA Anesthesiology Board Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Anesthesiology (ABA)",
   "version": null,
   "source_url": "https://www.theaba.org/wp-content/uploads/2023/01/ADVANCED_Blueprint.pdf",
@@ -192,5 +192,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:21:58+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T20:20:53Z",
+    "evidence_url": "https://www.theaba.org/begin-certification/"
+  },
+  "official_objectives_url": "https://www.theaba.org/wp-content/uploads/2023/01/Initial_Certification_Content_Outline-4.pdf"
 }

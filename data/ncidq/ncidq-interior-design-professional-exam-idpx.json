@@ -1,7 +1,7 @@
 {
   "exam_id": "ncidq-interior-design-professional-exam-idpx",
   "exam_name": "NCIDQ IDPX - Interior Design Professional Exam",
-  "exam_code": "",
+  "exam_code": "IDPX",
   "certifying_body": "CIDQ (NCIDQ)",
   "version": null,
   "source_url": "https://www.cidq.org/wp-content/uploads/2025/12/CIDQ_IDPX_Blueprint.pdf",
@@ -167,5 +167,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:40+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:57:29Z",
+    "evidence_url": "https://www.cidq.org/for-exam-candidates/about-the-exams/"
+  },
+  "official_objectives_url": "https://www.cidq.org/wp-content/uploads/2025/12/CIDQ_IDPX_Blueprint.pdf"
 }

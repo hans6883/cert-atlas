@@ -1,7 +1,7 @@
 {
   "exam_id": "vts-emergency-critical-care-certification",
   "exam_name": "VTS Emergency and Critical Care Certification",
-  "exam_code": "",
+  "exam_code": "VTS(ECC)",
   "certifying_body": "Academy of Veterinary Emergency and Critical Care Technicians (AVECCT)",
   "version": null,
   "source_url": "https://www.avecct.org/examination-information2",
@@ -321,5 +321,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:45+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T20:10:10Z",
+    "evidence_url": "https://www.avecct.org/examination-information2"
+  },
+  "official_objectives_url": "https://www.avecct.org/examination-information2"
 }
