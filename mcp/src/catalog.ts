@@ -119,6 +119,8 @@ export interface IndexEntry {
   enriched?: boolean;
   verified_at?: string | null;
   lifecycle_status?: string | null;
+  credential_type?: string | null;
+  examination?: boolean | null;
   retired_on?: string | null;
   retires_on?: string | null;
   replacement_exam_code?: string | null;
@@ -252,9 +254,19 @@ export interface Blueprint {
   sources?: EnrichmentSource[] | null;
   content_quality?: ContentQuality | null;
   lifecycle?: ExamLifecycle | null;
+  credential?: ExamCredential | null;
   aliases?: string[] | null;
   practice_url?: string | null;
   [k: string]: unknown;
+}
+
+/** Issuer-verified identity of the credential: what it is and whether an examination exists. */
+export interface ExamCredential {
+  type: string;
+  label?: string | null;
+  examination: boolean;
+  verified_at?: string | null;
+  evidence_url?: string | null;
 }
 
 export interface Index {

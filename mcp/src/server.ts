@@ -70,7 +70,9 @@ export function indexLine(e: IndexEntry, tool: string): string {
             : "no verified replacement named",
           `${e.domains} domains`,
         ]
-      : [`${e.domains} domains`];
+      : e.examination === false
+        ? [`not an examination (${e.credential_type ?? "credential"})`]
+        : [`${e.domains} domains`];
   if (!retired && e.total_questions != null) parts.push(`${e.total_questions} Q`);
   if (!retired && e.duration_minutes != null) parts.push(`${e.duration_minutes} min`);
   const practice = retired ? null : practiceLink(e, null, tool);
@@ -120,6 +122,20 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
   );
   L.push(`Certifying body: ${bp.certifying_body ?? e.certifying_body}`);
   if (bp.certification_name) L.push(`Certification: ${bp.certification_name}`);
+  const cred = bp.credential;
+  if (cred) {
+    const verified = cred.verified_at ? ` (verified on the issuer's site ${String(cred.verified_at).slice(0, 10)})` : "";
+    L.push(`Credential type: ${cred.label ?? cred.type}${verified}`);
+    if (!cred.examination) {
+      L.push("");
+      L.push("## Not an examination");
+      L.push(
+        `The issuer does not offer an examination for this credential; it is a ${cred.label ?? cred.type}. ` +
+          "No exam blueprint, domain weights, exam code or practice test apply.",
+      );
+      if (cred.evidence_url) L.push(`Evidence: ${cred.evidence_url}`);
+    }
+  }
 
   if (lifecycleNotice) {
     const lifecycle = bp.lifecycle;
@@ -148,7 +164,8 @@ export function blueprintText(e: IndexEntry, bp: Blueprint): string {
     }
   }
 
-  if (!retired) {
+  const nonExamination = cred ? !cred.examination : false;
+  if (!retired && !nonExamination) {
     const mech: string[] = [];
     if (bp.total_questions != null) mech.push(`${bp.total_questions} questions`);
     if (bp.duration_minutes != null) mech.push(`${bp.duration_minutes} min`);
