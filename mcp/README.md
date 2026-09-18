@@ -71,6 +71,15 @@ The server reads the Cert Atlas dataset, preferring local files over the network
 
 The bundled snapshot is regenerated from `../data` on every `npm run build` (see `scripts/copy-data.mjs`).
 
+### What "verified" means
+
+Records carry a `credential` block when the credential's identity has been checked on the
+issuer's own site: whether the issuer offers an examination for it, the credential type, the exam
+code exactly as the issuer prints it (or none), and the official content outline. A credential the
+issuer offers no examination for (a nomination-only grade, a membership grade, a training programme)
+is reported as such -- no blueprint, domain weights or practice link are shown for it. Lifecycle
+facts (retirements, scheduled retirements, replacements) are checked the same way and dated.
+
 ### Environment variables (all optional)
 
 | Var | Default | Purpose |
