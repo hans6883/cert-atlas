@@ -75,7 +75,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://jcnde.ada.org/nbdhe",
   "official_study_resources": [
     {
       "resource_type": "candidate_guide",
@@ -104,5 +104,12 @@
     "nbdhe national board dental hygiene examination",
     "nbdhe-national-board-dental-hygiene"
   ],
-  "practice_url": "https://quizforge.ai/tests/nbdhe-national-board-dental-hygiene"
+  "practice_url": "https://quizforge.ai/tests/nbdhe-national-board-dental-hygiene",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:01:52Z",
+    "evidence_url": "https://jcnde.ada.org/nbdhe"
+  }
 }

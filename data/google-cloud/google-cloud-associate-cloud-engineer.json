@@ -1,7 +1,7 @@
 {
   "exam_id": "google-cloud-associate-cloud-engineer",
   "exam_name": "Associate Cloud Engineer",
-  "exam_code": "ACE",
+  "exam_code": null,
   "certifying_body": "Google Cloud",
   "certification_name": null,
   "version": null,
@@ -78,7 +78,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cloud.google.com/learn/certification/guides/cloud-engineer",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -104,5 +104,12 @@
     "associate cloud engineer",
     "google-cloud-associate-cloud-engineer"
   ],
-  "practice_url": "https://quizforge.ai/tests/google-cloud-associate-cloud-engineer"
+  "practice_url": "https://quizforge.ai/tests/google-cloud-associate-cloud-engineer",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:45:11Z",
+    "evidence_url": "https://cloud.google.com/learn/certification/guides/cloud-engineer"
+  }
 }

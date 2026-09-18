@@ -1,7 +1,7 @@
 {
   "exam_id": "nahq-certified-professional-healthcare-quality-cphq",
   "exam_name": "CPHQ - Certified Professional in Healthcare Quality",
-  "exam_code": "",
+  "exam_code": "CPHQ",
   "certifying_body": "National Association for Healthcare Quality (NAHQ)",
   "version": null,
   "source_url": "https://cdn.nahq.org/wp-content/uploads/2024/11/US-Handbook_V.2024.7.pdf",
@@ -229,5 +229,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:30+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:01:38Z",
+    "evidence_url": "https://nahq.org/credentials/cphq-certified-professional-in-healthcare-quality/"
+  },
+  "official_objectives_url": "https://nahq.org/wp-content/uploads/2022/01/2026-Intl-handbook_V.2026.7.pdf"
 }

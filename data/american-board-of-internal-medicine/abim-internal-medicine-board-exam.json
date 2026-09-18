@@ -1,7 +1,7 @@
 {
   "exam_id": "abim-internal-medicine-board-exam",
   "exam_name": "ABIM Internal Medicine Board Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Internal Medicine",
   "version": null,
   "source_url": "https://www.abim.org/media/wvwoy3wi/internal-medicine-cert.pdf",
@@ -396,5 +396,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:32+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:12:37Z",
+    "evidence_url": "https://www.abim.org/media/wvwoy3wi/internal-medicine-cert.pdf"
+  },
+  "official_objectives_url": "https://www.abim.org/media/wvwoy3wi/internal-medicine-cert.pdf"
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "abd-dermatology-board-certification",
   "exam_name": "ABD Dermatology Board Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Dermatology (ABD)",
   "version": null,
   "source_url": "https://www.abderm.org/residents-and-fellows/abd-certification-pathway/applied-exam-info/applied-exam",
@@ -168,5 +168,19 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:21:58+00:00"
-  }
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-18: \"The 8-hour APPLIED Exam is offered at Pearson Test Centers.\"",
+    "evidence_url": "https://www.abderm.org/residents-and-fellows/abd-certification-pathway/applied-exam-info/applied-exam",
+    "verified_at": "2026-09-18T18:58:45Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T18:49:59Z",
+    "evidence_url": "https://www.abderm.org/residents-and-fellows/abd-certification-pathway/applied-exam-info/applied-exam"
+  },
+  "official_objectives_url": "https://www.abderm.org/residents-and-fellows/abd-certification-pathway/applied-exam-info/applied-exam-content-overview"
 }

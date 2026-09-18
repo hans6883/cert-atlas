@@ -1,7 +1,7 @@
 {
   "exam_id": "asppb-eppp-examination-professional-practice-psychology",
   "exam_name": "EPPP - Examination for Professional Practice in Psychology",
-  "exam_code": "",
+  "exam_code": "EPPP",
   "certifying_body": "ASPPB",
   "version": null,
   "source_url": "https://asppb.net/exams/asppb-examination-for-professional-psychology-eppp/eppp-exam-topics/",
@@ -256,5 +256,13 @@
     "summary": "ASPPB is replacing the EPPP (Part 1-Knowledge) and EPPP (Part 2-Skills) with a single integrated EPPP: 'The current EPPP (Part 1-Knowledge) and EPPP (Part 2-Skills) will remain available to all approved candidates until the integrated EPPP takes effect in the fourth quarter of 2027. At that time, the EPPP (Part 1-Knowledge) and EPPP (Part 2 - Skills) will no longer be available to first-time candidates.' Retakes run through March 31, 2028; 'Effective on April 1, 2028, the integrated EPPP will be the only exam - the EPPP - accessible to all candidates.' The integrated EPPP is beta-tested Spring 2027 and operational from Fall 2027.",
     "evidence_url": "https://asppb.net/news/eppp-eligibility-updates-professional-practice-cost/",
     "verified_at": "2026-09-14T19:30:00Z"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:12:02Z",
+    "evidence_url": "https://asppb.net/exams/"
+  },
+  "official_objectives_url": "https://asppb.net/exams/asppb-examination-for-professional-psychology-eppp/eppp-exam-topics/"
 }

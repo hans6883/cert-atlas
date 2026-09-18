@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-physical-geology",
   "exam_name": "Physical Geology",
-  "exam_code": "GEOL",
+  "exam_code": "SQ303, SR303",
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "http://getcollegecredit.com/wp-content/uploads/2022/09/IntroductionToGeology.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes geology",
@@ -190,5 +190,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:29+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-18T18:49:27Z",
+    "evidence_url": "https://getcollegecredit.com/exam/introduction-to-geology/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "icai-ca-intermediate-group1",
   "exam_name": "CA Intermediate Group I",
-  "exam_code": "CA Inter Gr. I",
+  "exam_code": null,
   "certifying_body": "ICAI",
   "certification_name": null,
   "version": null,
@@ -110,5 +110,18 @@
     "ca intermediate group i",
     "icai-ca-intermediate-group1"
   ],
-  "practice_url": "https://quizforge.ai/?q=CA%20Intermediate%20Group%20I"
+  "practice_url": "https://quizforge.ai/?q=CA%20Intermediate%20Group%20I",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-18: \"GROUP I Paper-1: Advanced Accounting Paper-2: Corporate and Other Laws Paper-3: Taxation Section A: Income-tax Law Section B: Goods and Services Tax Model Test Papers Model Test Paper 3-A May 2026 Onwards\"",
+    "evidence_url": "https://www.icai.org/post/intermediate-nset",
+    "verified_at": "2026-09-18T18:58:45Z"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-18T18:49:58Z",
+    "evidence_url": "https://www.icai.org/post/prc-ca-result-may2026-intermediate"
+  }
 }

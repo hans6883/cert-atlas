@@ -68,7 +68,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.danb.org/exams/exam/cda-exam",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -97,5 +97,12 @@
     "danb-cda",
     "danb-certified-dental-assistant-cda"
   ],
-  "practice_url": "https://quizforge.ai/tests/danb-certified-dental-assistant-cda"
+  "practice_url": "https://quizforge.ai/tests/danb-certified-dental-assistant-cda",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:33:55Z",
+    "evidence_url": "https://www.danb.org/exams/exam/cda-exam"
+  }
 }

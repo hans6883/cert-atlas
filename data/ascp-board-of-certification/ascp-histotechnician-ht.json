@@ -1,7 +1,7 @@
 {
   "exam_id": "ascp-histotechnician-ht",
   "exam_name": "ASCP Histotechnician (HT) Board Certification",
-  "exam_code": "",
+  "exam_code": "HT",
   "certifying_body": "ASCP",
   "version": null,
   "source_url": "https://www.ascp.org/boc/docs/default-source/explore-credentials/content-guidelines/ascp_ascpi_ht_htl_content_guideline.pdf?sfvrsn=239cc0dd_1",
@@ -185,5 +185,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:35+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:01:36Z",
+    "evidence_url": "https://www.ascp.org/boc/explore-credentials/view-all-credentials/HT"
+  },
+  "official_objectives_url": "https://www.ascp.org/boc/explore-credentials/view-all-credentials/HT"
 }

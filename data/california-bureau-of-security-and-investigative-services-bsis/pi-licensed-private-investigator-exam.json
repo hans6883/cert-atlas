@@ -1,7 +1,7 @@
 {
   "exam_id": "pi-licensed-private-investigator-exam",
   "exam_name": "Licensed Private Investigator Examination",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "California Bureau of Security and Investigative Services (BSIS)",
   "version": null,
   "source_url": "https://www.bsis.ca.gov/occupational_analysis_piq.pdf",
@@ -177,5 +177,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:04+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:45:08Z",
+    "evidence_url": "https://www.bsis.ca.gov/forms_pubs/pi_fact.pdf"
+  },
+  "official_objectives_url": "https://www.bsis.ca.gov/exams/studyguide_pi.pdf"
 }

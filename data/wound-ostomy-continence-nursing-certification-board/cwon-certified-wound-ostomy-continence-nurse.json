@@ -1,7 +1,7 @@
 {
   "exam_id": "cwon-certified-wound-ostomy-continence-nurse",
   "exam_name": "CWON Certified Wound Ostomy Continence Nurse",
-  "exam_code": "",
+  "exam_code": "CWON",
   "certifying_body": "WOCNCB",
   "version": null,
   "source_url": "https://www.wocncb.org/certification/exam-preparation/exam-content-outlines",
@@ -274,5 +274,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:37+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:34:01Z",
+    "evidence_url": "https://www.wocncb.org/certification/wound-ostomy-continence"
+  },
+  "official_objectives_url": "https://www.wocncb.org/certification/exam-preparation/exam-content-outlines"
 }

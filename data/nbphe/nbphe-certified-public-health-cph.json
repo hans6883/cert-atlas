@@ -1,7 +1,7 @@
 {
   "exam_id": "nbphe-certified-public-health-cph",
   "exam_name": "Certified in Public Health (CPH)",
-  "exam_code": "",
+  "exam_code": "CPH",
   "certifying_body": "NBPHE",
   "version": null,
   "source_url": "https://www.nbphe.org/wp-content/uploads/2024/07/CPH_Domain_Content_Outline_2024_V2.pdf",
@@ -285,5 +285,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:45:32Z",
+    "evidence_url": "https://www.nbphe.org/certified-in-public-health/"
+  },
+  "official_objectives_url": "https://www.nbphe.org/wp-content/uploads/2024/07/CPH_Domain_Content_Outline_2024_V2.pdf"
 }

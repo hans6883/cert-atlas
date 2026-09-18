@@ -1,7 +1,7 @@
 {
   "exam_id": "abp-pediatric-gastro",
   "exam_name": "ABP Pediatric Gastroenterology",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Pediatrics",
   "version": null,
   "source_url": "https://www.abp.org/sites/public/files/pdf/content-outline-gastroenterology.pdf",
@@ -276,5 +276,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:33+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:44:32Z",
+    "evidence_url": "https://www.abp.org/sites/public/files/pdf/content-outline-gastroenterology.pdf"
+  },
+  "official_objectives_url": "https://www.abp.org/sites/public/files/pdf/content-outline-gastroenterology.pdf"
 }

@@ -117,7 +117,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
+  "official_objectives_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -151,5 +151,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Exam Format 1 proctored exam 3 hours 82 questions Minimum passing score: 70%'.",
     "evidence_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe",
     "verified_at": "2026-09-14T19:45:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:45:13Z",
+    "evidence_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe"
   }
 }

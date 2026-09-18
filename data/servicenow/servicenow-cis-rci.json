@@ -1,7 +1,7 @@
 {
   "exam_id": "servicenow-cis-rci",
   "exam_name": "ServiceNow Certified Implementation Specialist - Risk and Compliance (CIS-RCI)",
-  "exam_code": "",
+  "exam_code": "CIS-RC",
   "certifying_body": "ServiceNow",
   "version": null,
   "source_url": "https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-risk-and-compliance?id=kb_article_view&sysparm_article=KB0011655",
@@ -229,5 +229,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:42+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:45:31Z",
+    "evidence_url": "https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-risk-and-compliance?id=kb_article_view&sysparm_article=KB0011655"
+  },
+  "official_objectives_url": "https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-risk-and-compliance?id=kb_article_view&sysparm_article=KB0011655"
 }

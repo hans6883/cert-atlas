@@ -1,7 +1,7 @@
 {
   "exam_id": "ec-council-certified-ethical-hacker-practical",
   "exam_name": "Certified Ethical Hacker Practical (CEH Practical)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "EC-Council",
   "version": null,
   "source_url": "https://cert.eccouncil.org/images/doc/CEH-Practical-Exam-Blueprintv1.pdf",
@@ -269,5 +269,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"Proctored! CEH (Practical) Credential Holders Are Proven To Be Able To: Demonstrate the understanding of attack vectors Perform network scanning to identify live and vulnerable machines in a network.\"",
     "evidence_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
     "verified_at": "2026-09-18T17:38:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T18:48:40Z",
+    "evidence_url": "https://cert.eccouncil.org/certified-ethical-hacker-practical.html"
+  },
+  "official_objectives_url": "https://cert.eccouncil.org/images/doc/CEH-Practical-Exam-Blueprintv1.pdf"
 }

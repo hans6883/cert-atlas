@@ -1,7 +1,7 @@
 {
   "exam_id": "abfm-family-medicine-board-exam",
   "exam_name": "ABFM Family Medicine Board Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Family Medicine (ABFM)",
   "version": null,
   "source_url": "https://www.theabfm.org/family-medicine-exam-blueprint/",
@@ -186,5 +186,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:32+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:01:37Z",
+    "evidence_url": "https://www.theabfm.org/continue-certification/exam/one-day-exam/"
+  },
+  "official_objectives_url": "https://www.theabfm.org/continue-certification/exam/one-day-exam/"
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "nbcc-national-certified-counselor-ncc",
   "exam_name": "NCC - National Certified Counselor",
-  "exam_code": "",
+  "exam_code": "NCC",
   "certifying_body": "NBCC",
   "version": null,
   "source_url": "https://nbcc.org/assets/exam/nce_content_outline.pdf",
@@ -176,5 +176,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:39+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:12:51Z",
+    "evidence_url": "https://nbcc.org/certification/ncc"
+  },
+  "official_objectives_url": "https://nbcc.org/assets/exam/nce_content_outline.pdf"
 }

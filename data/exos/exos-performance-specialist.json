@@ -1,7 +1,7 @@
 {
   "exam_id": "exos-performance-specialist",
   "exam_name": "EXOS Performance Specialist",
-  "exam_code": "",
+  "exam_code": "XPS",
   "certifying_body": "Exos",
   "version": null,
   "source_url": "https://exoslearn.inspire360.com/exoslearn/exoslearn/exos-performance-specialist-exam",
@@ -429,5 +429,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:37+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:12:54Z",
+    "evidence_url": "https://exoslearn.inspire360.com/exoslearn/exoslearn/exos-performance-specialist-exam"
   }
 }

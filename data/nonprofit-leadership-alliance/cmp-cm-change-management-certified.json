@@ -1,7 +1,7 @@
 {
   "exam_id": "cmp-cm-change-management-certified",
   "exam_name": "ACNP Certified in Nonprofit Management",
-  "exam_code": "",
+  "exam_code": "ACNP",
   "certifying_body": "Nonprofit Leadership Alliance",
   "version": null,
   "source_url": "https://nla1.org/wp-content/uploads/2024/06/ACNP-Program-Outline-2.pdf",
@@ -205,5 +205,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:36+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:12:32Z",
+    "evidence_url": "https://nla1.org/wp-content/uploads/2024/06/ACNP-Program-Outline-2.pdf"
+  },
+  "official_objectives_url": "https://nla1.org/wp-content/uploads/2024/06/ACNP-Program-Outline-2.pdf"
 }

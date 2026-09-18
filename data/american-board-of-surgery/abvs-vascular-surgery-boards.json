@@ -1,7 +1,7 @@
 {
   "exam_id": "abvs-vascular-surgery-boards",
   "exam_name": "ABVS Vascular Surgery Board Certification",
-  "exam_code": "",
+  "exam_code": "VSQE",
   "certifying_body": "American Board of Surgery",
   "version": null,
   "source_url": "https://www.absurgery.org/resources/exam-content-outlines/vascular-surgery-qualifying-examination-qe-content-outline/",
@@ -447,5 +447,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:34+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:12:23Z",
+    "evidence_url": "https://www.absurgery.org/get-certified/vascular-surgery/"
+  },
+  "official_objectives_url": "https://www.absurgery.org/resources/exam-content-outlines/vascular-surgery-qualifying-examination-qe-content-outline/"
 }

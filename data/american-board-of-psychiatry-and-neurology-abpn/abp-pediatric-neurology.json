@@ -1,7 +1,7 @@
 {
   "exam_id": "abp-pediatric-neurology",
   "exam_name": "ABP Child Neurology",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Psychiatry and Neurology (ABPN)",
   "version": null,
   "source_url": "https://abpn.org/wp-content/uploads/Child-Neurology-Certification-Content-Specifications.pdf",
@@ -378,5 +378,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:33+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:34:23Z",
+    "evidence_url": "https://abpn.org/wp-content/uploads/Child-Neurology-Certification-Content-Specifications.pdf"
+  },
+  "official_objectives_url": "https://abpn.org/wp-content/uploads/Child-Neurology-Certification-Content-Specifications.pdf"
 }

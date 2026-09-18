@@ -1,7 +1,7 @@
 {
   "exam_id": "ems-nremt-paramedic-national-registry",
   "exam_name": "NREMT National Registry EMT-Paramedic Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "NREMT",
   "version": null,
   "source_url": "https://www.nremt.org/getmedia/0e883e26-17df-4f8c-8a3f-a7ad581cf714/Paramedic-Test-Plan_public_final",
@@ -206,5 +206,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:37+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:01:51Z",
+    "evidence_url": "https://www.nremt.org/Handbooks/Paramedic/About-The-Examination"
+  },
+  "official_objectives_url": "https://nremt.org/getmedia/1f27af23-e889-4edc-8041-55d1854d66ed/Paramedic-Test-Plan_1July2024"
 }

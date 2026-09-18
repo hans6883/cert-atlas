@@ -1,7 +1,7 @@
 {
   "exam_id": "abim-interventional-cardiology",
   "exam_name": "ABIM Interventional Cardiology",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Internal Medicine",
   "version": null,
   "source_url": "https://www.abim.org/media/apib3eza/interventional-cardiology-cert.pdf",
@@ -227,5 +227,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:32+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T19:45:15Z",
+    "evidence_url": "https://www.abim.org/media/apib3eza/interventional-cardiology-cert.pdf"
+  },
+  "official_objectives_url": "https://www.abim.org/media/apib3eza/interventional-cardiology-cert.pdf"
 }
