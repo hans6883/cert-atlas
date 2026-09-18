@@ -1,7 +1,7 @@
 {
   "exam_id": "ccs-certified-construction-specifier",
   "exam_name": "CCS Certified Construction Specifier",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Construction Specifications Institute (CSI)",
   "version": null,
   "source_url": "https://www.csiresources.org/certification/ccs/ccs-exam-description",
@@ -210,5 +210,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"CSI's Certified Construction Specifier (CCS) certification demonstrates advanced knowledge in all aspects of specifications development, including contractual relationships, organization, preparation, and enforcement.\"",
     "evidence_url": "https://www.csiresources.org/certification/ccs/ccs-exam-description",
     "verified_at": "2026-09-18T05:47:33Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:49:58Z",
+    "evidence_url": "https://www.csiresources.org/certification/ccs/ccs-exam-description"
+  },
+  "official_objectives_url": "https://www.csiresources.org/certification/ccs/ccs-exam-description"
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "cfa-level-1",
   "exam_name": "CFA Program Level I",
-  "exam_code": "CFA Level I",
+  "exam_code": null,
   "certifying_body": "CFA Institute",
   "certification_name": null,
   "version": null,
@@ -133,7 +133,7 @@
       "weight_max": 12.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cfainstitute.org/en/programs/cfa/exam/level-i",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -168,5 +168,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the CFA Program Level I exam page is live: 'The CFA Level I exam consists of 180 multiple-choice questions, divided into two sessions of 135 minutes each' and 'Topic weights 2027' outlines.",
     "evidence_url": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-i-exam",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:21:55Z",
+    "evidence_url": "https://www.cfainstitute.org/en/programs/cfa/exam/level-i"
   }
 }

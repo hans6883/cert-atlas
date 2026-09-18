@@ -811,7 +811,7 @@
     {
       "exam_id": "acca-fa",
       "exam_name": "Financial Accounting (FA/F3)",
-      "exam_code": "FA/F3",
+      "exam_code": "FA",
       "certifying_body": "ACCA",
       "vendor_slug": "acca",
       "domains": 3,
@@ -822,7 +822,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-02T00:53:28+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "acca-fm",
@@ -3835,7 +3837,7 @@
     {
       "exam_id": "abim-sleep-medicine-boards",
       "exam_name": "ABIM Sleep Medicine Board Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American Board of Internal Medicine",
       "vendor_slug": "american-board-of-internal-medicine",
       "domains": 9,
@@ -3846,7 +3848,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:32+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "abns-neurological-surgery-boards",
@@ -4062,7 +4066,7 @@
     {
       "exam_id": "acvs-large-animal",
       "exam_name": "ACVS Large Animal Surgery Board Certification Exam",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American College of Veterinary Surgeons (ACVS)",
       "vendor_slug": "american-college-of-veterinary-surgeons-acvs",
       "domains": 11,
@@ -4072,7 +4076,9 @@
       "practice_url": "https://quizforge.ai/tests/acvs-large-animal",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:34+00:00"
+      "verified_at": "2026-09-13T15:23:34+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "acf-executive-chef",
@@ -5195,7 +5201,7 @@
     {
       "exam_id": "cfa-level-1",
       "exam_name": "CFA Program Level I",
-      "exam_code": "CFA Level I",
+      "exam_code": null,
       "certifying_body": "CFA Institute",
       "vendor_slug": "cfa-institute",
       "domains": 10,
@@ -5206,7 +5212,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "cfa-level-2",
@@ -5683,17 +5691,18 @@
     {
       "exam_id": "cips-corporate-award",
       "exam_name": "CIPS Corporate Award",
-      "exam_code": "Corporate Award",
+      "exam_code": null,
       "certifying_body": "CIPS",
       "vendor_slug": "cips",
-      "domains": 3,
+      "domains": 0,
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.cips.org/qualifications/cips-qualifications/corporate-award/",
-      "practice_url": "https://quizforge.ai/tests/cips-corporate-award-2oqp0g",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "training_program",
+      "examination": false
     },
     {
       "exam_id": "cips-level2-certificate",
@@ -6385,7 +6394,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cncf-cks",
@@ -8616,7 +8627,7 @@
     {
       "exam_id": "ccs-certified-construction-specifier",
       "exam_name": "CCS Certified Construction Specifier",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "Construction Specifications Institute (CSI)",
       "vendor_slug": "construction-specifications-institute-csi",
       "domains": 6,
@@ -8627,7 +8638,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:35+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cbca-certified-business-analyst",
@@ -8814,7 +8827,7 @@
     {
       "exam_id": "dama-cdmp-practitioner",
       "exam_name": "CDMP Data Management Practitioner",
-      "exam_code": "CDMP Practitioner",
+      "exam_code": null,
       "certifying_body": "DAMA International",
       "vendor_slug": "dama-international",
       "domains": 14,
@@ -8824,7 +8837,9 @@
       "practice_url": "https://quizforge.ai/tests/cdmp-data-management-practitioner",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "danb-cda",
@@ -11689,7 +11704,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "faa-cfi",
@@ -12939,7 +12956,7 @@
     {
       "exam_id": "github-actions",
       "exam_name": "GitHub Actions",
-      "exam_code": "GitHub-Actions",
+      "exam_code": null,
       "certifying_body": "GitHub",
       "vendor_slug": "github",
       "domains": 4,
@@ -12950,7 +12967,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "github-administration",
@@ -13001,7 +13020,7 @@
     {
       "exam_id": "github-foundations",
       "exam_name": "GitHub Foundations",
-      "exam_code": "GitHub-Foundations",
+      "exam_code": null,
       "certifying_body": "GitHub",
       "vendor_slug": "github",
       "domains": 6,
@@ -13012,7 +13031,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "csm-certified-sports-manager",
@@ -13489,7 +13510,7 @@
     {
       "exam_id": "google-cloud-professional-cloud-security-engineer",
       "exam_name": "Professional Cloud Security Engineer",
-      "exam_code": "PCSE",
+      "exam_code": null,
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
       "domains": 5,
@@ -13500,7 +13521,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "google-cloud-professional-data-engineer",
@@ -13763,7 +13786,7 @@
     {
       "exam_id": "hl7-fhir-foundational-certification",
       "exam_name": "HL7 FHIR Foundational Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "HL7 International",
       "vendor_slug": "hl7-international",
       "domains": 5,
@@ -13774,7 +13797,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:38+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "hrci-aphr",
@@ -14947,22 +14972,23 @@
     {
       "exam_id": "huggingface-agents-course",
       "exam_name": "Hugging Face AI Agents Course",
-      "exam_code": "HF-AGENTS",
+      "exam_code": null,
       "certifying_body": "Hugging Face",
       "vendor_slug": "hugging-face",
-      "domains": 5,
+      "domains": 0,
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://huggingface.co/learn/agents-course",
-      "practice_url": "https://quizforge.ai/tests/hugging-face-ai-agents-course-2slpk2",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "course_without_assessment",
+      "examination": false
     },
     {
       "exam_id": "huggingface-transformers-course",
       "exam_name": "Hugging Face Transformers Course",
-      "exam_code": "HF-TRANSFORMERS",
+      "exam_code": null,
       "certifying_body": "Hugging Face",
       "vendor_slug": "hugging-face",
       "domains": 4,
@@ -14972,7 +14998,9 @@
       "practice_url": "https://quizforge.ai/tests/hugging-face-transformers-course-2skhno",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "iabac-aif-ai3010",
@@ -15966,7 +15994,7 @@
     {
       "exam_id": "ielts-general-training",
       "exam_name": "IELTS General Training",
-      "exam_code": "IELTS-GT",
+      "exam_code": null,
       "certifying_body": "IELTS",
       "vendor_slug": "ielts",
       "domains": 4,
@@ -15976,7 +16004,9 @@
       "practice_url": "https://quizforge.ai/tests/ielts-general-training",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "language_proficiency_test",
+      "examination": true
     },
     {
       "exam_id": "ielts-indicator",
@@ -18172,7 +18202,7 @@
     {
       "exam_id": "lfcs-linux-foundation-certified-sysadmin",
       "exam_name": "LFCS Linux Foundation Certified Systems Administrator",
-      "exam_code": "",
+      "exam_code": "LFCS",
       "certifying_body": "Linux Foundation",
       "vendor_slug": "linux-foundation",
       "domains": 5,
@@ -18183,7 +18213,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:39+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "linux-foundation-lfcs",
@@ -20894,7 +20926,7 @@
     {
       "exam_id": "fe-industrial-engineering-ncees",
       "exam_name": "FE: Industrial Engineering Exam",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "NCEES",
       "vendor_slug": "ncees",
       "domains": 13,
@@ -20905,7 +20937,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:37+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncees-fe-chemical",
@@ -21019,7 +21053,7 @@
     {
       "exam_id": "pe-geotechnical-engineering-ncees",
       "exam_name": "PE: Geotechnical Engineering",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "NCEES",
       "vendor_slug": "ncees",
       "domains": 10,
@@ -21030,7 +21064,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:41+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncees-pe-architectural",
@@ -21269,7 +21305,7 @@
     {
       "exam_id": "ncees-pe-fire-protection",
       "exam_name": "Principles and Practice of Engineering (PE) – Fire Protection",
-      "exam_code": "PE Fire Protection",
+      "exam_code": null,
       "certifying_body": "NCEES",
       "vendor_slug": "ncees",
       "domains": 7,
@@ -21280,7 +21316,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncees-pe-industrial-systems",
@@ -21794,7 +21832,7 @@
     {
       "exam_id": "nes-english",
       "exam_name": "NES English Language Arts (301)",
-      "exam_code": "NES-301",
+      "exam_code": "301",
       "certifying_body": "NES Teacher Exams",
       "vendor_slug": "nes-teacher-exams",
       "domains": 4,
@@ -21804,7 +21842,9 @@
       "practice_url": "https://quizforge.ai/tests/nes-english-language-arts-301-2wrp74",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nes-essential-academic",
@@ -24128,7 +24168,7 @@
     {
       "exam_id": "pmi-portfolio-management-professional-pfmp",
       "exam_name": "PMI Portfolio Management Professional (PfMP)",
-      "exam_code": "",
+      "exam_code": "PfMP",
       "certifying_body": "PMI",
       "vendor_slug": "pmi",
       "domains": 5,
@@ -24139,7 +24179,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:41+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "pmi-professional-in-business-analysis-pmi-pba",
@@ -24502,7 +24544,7 @@
     {
       "exam_id": "p3o-foundation-portfolio-programme-project-offices",
       "exam_name": "P3O Foundation - Portfolio Programme Project Offices",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "PeopleCert",
       "vendor_slug": "peoplecert",
       "domains": 8,
@@ -24512,7 +24554,9 @@
       "practice_url": "https://quizforge.ai/tests/p3o-foundation-portfolio-programme-project-offices",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T04:38:30+00:00"
+      "verified_at": "2026-09-14T04:38:30+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "axelos-itil-4-foundation",
@@ -25637,7 +25681,7 @@
     {
       "exam_id": "sas-advanced",
       "exam_name": "SAS Certified Advanced Programmer",
-      "exam_code": "",
+      "exam_code": "A00-232",
       "certifying_body": "SAS Institute",
       "vendor_slug": "sas-institute",
       "domains": 3,
@@ -25647,7 +25691,9 @@
       "practice_url": "https://quizforge.ai/tests/sas-advanced",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:08+00:00"
+      "verified_at": "2026-09-13T23:40:08+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "sas-a00-232",
@@ -28936,7 +28982,7 @@
     {
       "exam_id": "splunk-enterprise-certified-admin",
       "exam_name": "Splunk Enterprise Certified Admin",
-      "exam_code": "SPLK-1003",
+      "exam_code": null,
       "certifying_body": "Splunk",
       "vendor_slug": "splunk",
       "domains": 17,
@@ -28947,7 +28993,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "splunk-enterprise-certified-architect",
@@ -30039,7 +30087,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "vmware-vcp-nv",

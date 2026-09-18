@@ -1,7 +1,7 @@
 {
   "exam_id": "ielts-general-training",
   "exam_name": "IELTS General Training",
-  "exam_code": "IELTS-GT",
+  "exam_code": null,
   "certifying_body": "IELTS",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ielts.org/take-a-test/test-types/ielts-general-training-test",
   "official_study_resources": [],
   "aliases": [
     "ielts for migration",
@@ -65,5 +65,12 @@
     "ielts-general-training",
     "ielts-gt"
   ],
-  "practice_url": "https://quizforge.ai/tests/ielts-general-training"
+  "practice_url": "https://quizforge.ai/tests/ielts-general-training",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-18T16:25:52Z",
+    "evidence_url": "https://ielts.org/take-a-test/test-types/ielts-general-training-test"
+  }
 }

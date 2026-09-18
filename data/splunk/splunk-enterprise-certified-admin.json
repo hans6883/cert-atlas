@@ -1,7 +1,7 @@
 {
   "exam_id": "splunk-enterprise-certified-admin",
   "exam_name": "Splunk Enterprise Certified Admin",
-  "exam_code": "SPLK-1003",
+  "exam_code": null,
   "certifying_body": "Splunk",
   "certification_name": null,
   "version": null,
@@ -181,7 +181,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.splunk.com/en_us/pdfs/training/splunk-test-blueprint-enterprise-admin.pdf",
   "official_study_resources": [],
   "aliases": [
     "splk-1003",
@@ -197,5 +197,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification-track page live with 'Schedule Exam' (SPLK-1003).",
     "evidence_url": "https://www.splunk.com/en_us/training/certification-track/splunk-enterprise-certified-admin.html",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:38:09Z",
+    "evidence_url": "https://www.splunk.com/en_us/training/certification-track/splunk-enterprise-certified-admin.html"
   }
 }

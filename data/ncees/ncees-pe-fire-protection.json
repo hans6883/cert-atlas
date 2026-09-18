@@ -1,7 +1,7 @@
 {
   "exam_id": "ncees-pe-fire-protection",
   "exam_name": "Principles and Practice of Engineering (PE) – Fire Protection",
-  "exam_code": "PE Fire Protection",
+  "exam_code": null,
   "certifying_body": "NCEES",
   "certification_name": null,
   "version": null,
@@ -99,7 +99,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ncees.org/wp-content/uploads/2023/04/PE-Fire-Oct-2023-with-standards.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -132,5 +132,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"The PE Fire Protection exam is computer-based. It is closed book with electronic references. Codes and standards applicable to the exam are listed on the last page.\"",
     "evidence_url": "https://ncees.org/wp-content/uploads/2023/04/PE-Fire-Oct-2023-with-standards.pdf",
     "verified_at": "2026-09-18T03:04:49Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:48:51Z",
+    "evidence_url": "https://ncees.org/exams/pe-exam/fire-protection/"
   }
 }

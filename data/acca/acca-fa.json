@@ -1,7 +1,7 @@
 {
   "exam_id": "acca-fa",
   "exam_name": "Financial Accounting (FA/F3)",
-  "exam_code": "FA/F3",
+  "exam_code": "FA",
   "certifying_body": "ACCA",
   "certification_name": null,
   "version": null,
@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f3.html",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -225,5 +225,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: ACCA's Financial Accounting (FA) exam-resources page is live with pass rates through Jun 2026 (71%) and on-demand CBE guidance ('A practical guide to help you confidently ace your on-demand exam').",
     "evidence_url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f3.html",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-18T18:00:35Z",
+    "evidence_url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f3.html"
   }
 }

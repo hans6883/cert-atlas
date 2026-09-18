@@ -1,7 +1,7 @@
 {
   "exam_id": "nes-english",
   "exam_name": "NES English Language Arts (301)",
-  "exam_code": "NES-301",
+  "exam_code": "301",
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nestest.com/CCISWeb/Content/Docs/NT_301_English_Language_Arts_TFworksheet.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -96,5 +96,12 @@
     "nes-301",
     "nes-english"
   ],
-  "practice_url": "https://quizforge.ai/tests/nes-english-language-arts-301-2wrp74"
+  "practice_url": "https://quizforge.ai/tests/nes-english-language-arts-301-2wrp74",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:37:25Z",
+    "evidence_url": "https://www.west.nesinc.com/TestView.aspx?f=HTML_FRAG/NT301_TestPage.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "github-foundations",
   "exam_name": "GitHub Foundations",
-  "exam_code": "GitHub-Foundations",
+  "exam_code": null,
   "certifying_body": "GitHub",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -117,5 +117,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the GitHub Foundations Certification page is live ('Book your exam').",
     "evidence_url": "https://education.github.com/experiences/foundations_certificate",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:21:42Z",
+    "evidence_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications"
   }
 }

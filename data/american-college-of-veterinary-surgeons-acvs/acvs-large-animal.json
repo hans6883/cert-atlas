@@ -1,7 +1,7 @@
 {
   "exam_id": "acvs-large-animal",
   "exam_name": "ACVS Large Animal Surgery Board Certification Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American College of Veterinary Surgeons (ACVS)",
   "version": null,
   "source_url": "https://www.acvs.org/wp-content/uploads/2026/05/ACVS-Phase-II-examination-blueprint-04-2026.pdf",
@@ -289,5 +289,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T15:23:34+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T18:01:40Z",
+    "evidence_url": "https://www.acvs.org/residents/examination/"
+  },
+  "official_objectives_url": "https://www.acvs.org/wp-content/uploads/2026/05/ACVS-Phase-II-examination-blueprint-04-2026.pdf"
 }

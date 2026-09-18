@@ -1,7 +1,7 @@
 {
   "exam_id": "hl7-fhir-foundational-certification",
   "exam_name": "HL7 FHIR Foundational Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "HL7 International",
   "version": null,
   "source_url": "https://info.hl7.org/hubfs/Education/Brochures/HL7%20FHIR%20Foundation%20Exam%20Study%20Guide.pdf",
@@ -182,5 +182,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: HL7's FHIR certification page lists the current exams offered.",
     "evidence_url": "https://www.hl7.org/certification/fhir.cfm",
     "verified_at": "2026-09-15T22:30:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:21:55Z",
+    "evidence_url": "https://www.hl7.org/training/fhir-exam.cfm"
+  },
+  "official_objectives_url": "https://info.hl7.org/hubfs/Education/Brochures/HL7%20FHIR%20Foundational%20Implementer%20Exam%20Study%20Guide%20(1).pdf"
 }

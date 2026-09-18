@@ -1,7 +1,7 @@
 {
   "exam_id": "huggingface-transformers-course",
   "exam_name": "Hugging Face Transformers Course",
-  "exam_code": "HF-TRANSFORMERS",
+  "exam_code": null,
   "certifying_body": "Hugging Face",
   "certification_name": null,
   "version": null,
@@ -103,5 +103,12 @@
     "hugging face transformers course",
     "huggingface-transformers-course"
   ],
-  "practice_url": "https://quizforge.ai/tests/hugging-face-transformers-course-2skhno"
+  "practice_url": "https://quizforge.ai/tests/hugging-face-transformers-course-2skhno",
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-18T17:06:29Z",
+    "evidence_url": "https://huggingface.co/learn/llm-course/chapter1/11"
+  }
 }

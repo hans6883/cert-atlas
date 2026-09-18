@@ -1,7 +1,7 @@
 {
   "exam_id": "sas-advanced",
   "exam_name": "SAS Certified Advanced Programmer",
-  "exam_code": "",
+  "exam_code": "A00-232",
   "certifying_body": "SAS Institute",
   "version": null,
   "source_url": "https://www.sas.com/content/dam/sasdam/documents/20250124/advanced-programming-sas-94-exam-guide.pdf",
@@ -155,5 +155,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:08+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:38:07Z",
+    "evidence_url": "https://www.sas.com/en_us/certification/credentials/foundation-tools/advanced-programmer.html"
+  },
+  "official_objectives_url": "https://www.sas.com/en_us/certification/credentials/foundation-tools/advanced-programmer.html"
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "pmi-portfolio-management-professional-pfmp",
   "exam_name": "PMI Portfolio Management Professional (PfMP)",
-  "exam_code": "",
+  "exam_code": "PfMP",
   "certifying_body": "PMI",
   "version": null,
   "source_url": "https://www.pmi.org/certifications/portfolio-management-pfmp",
@@ -163,5 +163,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: PfMP certification page live ('Download the PfMP Exam Content Outline for details about the exam, eligibility requirements, and the application process'), no retirement wording.",
     "evidence_url": "https://www.pmi.org/certifications/portfolio-management-pfmp",
     "verified_at": "2026-09-14T19:35:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T18:01:26Z",
+    "evidence_url": "https://www.pmi.org/certifications/portfolio-management-pfmp"
+  },
+  "official_objectives_url": "https://www.pmi.org/certifications/portfolio-management-pfmp"
 }

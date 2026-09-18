@@ -1,7 +1,7 @@
 {
   "exam_id": "dama-cdmp-practitioner",
   "exam_name": "CDMP Data Management Practitioner",
-  "exam_code": "CDMP Practitioner",
+  "exam_code": null,
   "certifying_body": "DAMA International",
   "certification_name": null,
   "version": null,
@@ -136,7 +136,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.dama.org/cpages/cdmp-certification",
   "official_study_resources": [
     {
       "resource_type": "book",
@@ -155,5 +155,12 @@
     "dama practitioner",
     "dama-cdmp-practitioner"
   ],
-  "practice_url": "https://quizforge.ai/tests/cdmp-data-management-practitioner"
+  "practice_url": "https://quizforge.ai/tests/cdmp-data-management-practitioner",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:48:48Z",
+    "evidence_url": "https://www.dama.org/cpages/cdmp-certification"
+  }
 }

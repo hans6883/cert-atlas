@@ -1,7 +1,7 @@
 {
   "exam_id": "github-actions",
   "exam_name": "GitHub Actions",
-  "exam_code": "GitHub-Actions",
+  "exam_code": null,
   "certifying_body": "GitHub",
   "certification_name": null,
   "version": null,
@@ -72,7 +72,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -105,5 +105,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"You can certify your proficiency in automating workflows and accelerating development with GitHub Actions by earning a GitHub Actions certificate.\"",
     "evidence_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications",
     "verified_at": "2026-09-18T03:35:21Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:49:06Z",
+    "evidence_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications"
   }
 }
