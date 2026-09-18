@@ -3724,7 +3724,7 @@
     {
       "exam_id": "abfas-podiatric-surgery-board",
       "exam_name": "ABFAS American Board of Foot and Ankle Surgery Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American Board of Foot and Ankle Surgery (ABFAS)",
       "vendor_slug": "american-board-of-foot-and-ankle-surgery-abfas",
       "domains": 11,
@@ -3734,7 +3734,9 @@
       "practice_url": "https://quizforge.ai/tests/abfas-podiatric-surgery-board",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:56+00:00"
+      "verified_at": "2026-09-13T23:39:56+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "abhp-health-physics-part-1-exam",

@@ -1,7 +1,7 @@
 {
   "exam_id": "abfas-podiatric-surgery-board",
   "exam_name": "ABFAS American Board of Foot and Ankle Surgery Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Foot and Ankle Surgery (ABFAS)",
   "version": null,
   "source_url": "https://www.abfas.org/become-board-qualified/part-i-qualification-exam-overview/part-i-qualification-exam-subject-areas",
@@ -289,5 +289,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:56+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T22:43:01Z",
+    "evidence_url": "https://www.abfas.org/home/exam-requirements"
+  },
+  "official_objectives_url": "https://www.abfas.org/docs/default-source/abfas-documents/bcdoc.pdf"
 }
