@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18",
-  "total_vendors": 357,
+  "generated": "2026-09-19",
+  "total_vendors": 358,
   "vendors": [
     {
       "vendor_id": "servicenow",
@@ -1107,14 +1107,6 @@
       "slug": "jlpt"
     },
     {
-      "vendor_id": "loma",
-      "display_name": "LOMA",
-      "website": "https://www.loma.org",
-      "certification_page": "https://www.loma.org/designations",
-      "exam_count": 5,
-      "slug": "loma"
-    },
-    {
       "vendor_id": "mongodb",
       "display_name": "MongoDB",
       "website": "https://learn.mongodb.com",
@@ -1337,6 +1329,14 @@
       "certification_page": "https://www.ibo.org/programmes/",
       "exam_count": 4,
       "slug": "international-baccalaureate"
+    },
+    {
+      "vendor_id": "loma",
+      "display_name": "LOMA",
+      "website": "https://www.loma.org",
+      "certification_page": "https://www.loma.org/designations",
+      "exam_count": 4,
+      "slug": "loma"
     },
     {
       "vendor_id": "language_tests",
@@ -2105,6 +2105,14 @@
       "certification_page": "https://certifiedarchivists.org/",
       "exam_count": 1,
       "slug": "academy-of-certified-archivists"
+    },
+    {
+      "vendor_id": "alu",
+      "display_name": "Academy of Life Underwriting",
+      "website": "https://alu-web.com/",
+      "certification_page": "",
+      "exam_count": 1,
+      "slug": "academy-of-life-underwriting"
     },
     {
       "vendor_id": "avecct",

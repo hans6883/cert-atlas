@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "total_exams": 1965,
-  "total_vendors": 357,
+  "total_vendors": 358,
   "exams_with_domain_breakdowns": 1955,
   "exams": [
     {
@@ -489,21 +489,6 @@
       "verified_at": "2026-09-02T00:53:27+00:00"
     },
     {
-      "exam_id": "aapc-cpcd",
-      "exam_name": "Certified Professional Claims and Denials (CPCD)",
-      "exam_code": "CPCD",
-      "certifying_body": "AAPC",
-      "vendor_slug": "aapc",
-      "domains": 4,
-      "total_questions": 100,
-      "duration_minutes": 180,
-      "source_url": "https://www.aapc.com/certification/cpcd/",
-      "practice_url": "https://quizforge.ai/tests/certified-professional-claims-and-denials-cpcd-35ib9t",
-      "enriched": true,
-      "content_modified_at": null,
-      "verified_at": "2026-09-02T00:53:27+00:00"
-    },
-    {
       "exam_id": "aapc-cpc",
       "exam_name": "Certified Professional Coder (CPC)",
       "exam_code": "CPC",
@@ -520,6 +505,22 @@
       "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
+    },
+    {
+      "exam_id": "aapc-cpcd",
+      "exam_name": "Certified Professional Coder in Dermatology (CPCD)",
+      "exam_code": "CPCD",
+      "certifying_body": "AAPC",
+      "vendor_slug": "aapc",
+      "domains": 4,
+      "total_questions": 100,
+      "duration_minutes": 180,
+      "source_url": "https://www.aapc.com/certification/cpcd/",
+      "practice_url": "https://quizforge.ai/tests/certified-professional-claims-and-denials-cpcd-35ib9t",
+      "enriched": true,
+      "content_modified_at": null,
+      "verified_at": "2026-09-02T00:53:27+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "aapc-cpco",
@@ -2473,6 +2474,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:21:59+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -2559,7 +2561,8 @@
       "practice_url": "https://quizforge.ai/tests/asq-certified-quality-engineer-cqe",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "asq-cqia",
@@ -4840,7 +4843,8 @@
       "practice_url": "https://quizforge.ai/tests/boomi-associate-developer-certification-2ifvpb",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "boomi-professional-developer",
@@ -10815,17 +10819,18 @@
     {
       "exam_id": "datadog-data-fundamentals",
       "exam_name": "Datadog Certified Data Fundamentals",
-      "exam_code": "DD-DataFund",
+      "exam_code": null,
       "certifying_body": "Datadog",
       "vendor_slug": "datadog",
-      "domains": 4,
-      "total_questions": 60,
-      "duration_minutes": 90,
+      "domains": 0,
+      "total_questions": null,
+      "duration_minutes": null,
       "source_url": "https://www.datadoghq.com/certification/overview/",
-      "practice_url": "https://quizforge.ai/tests/datadog-certified-data-fundamentals-2htxif",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "not_a_credential",
+      "examination": false
     },
     {
       "exam_id": "datadog-fundamentals",
@@ -10846,17 +10851,18 @@
     {
       "exam_id": "datadog-sre-foundations",
       "exam_name": "Datadog SRE Foundations",
-      "exam_code": "DD-SRE",
+      "exam_code": null,
       "certifying_body": "Datadog",
       "vendor_slug": "datadog",
-      "domains": 4,
-      "total_questions": 60,
-      "duration_minutes": 90,
+      "domains": 0,
+      "total_questions": null,
+      "duration_minutes": null,
       "source_url": "https://www.datadoghq.com/certification/overview/",
-      "practice_url": "https://quizforge.ai/tests/datadog-sre-foundations-2hv5et",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "not_a_credential",
+      "examination": false
     },
     {
       "exam_id": "docker-dca",
@@ -10916,7 +10922,8 @@
       "practice_url": "https://quizforge.ai/tests/duolingo-english-test-practice",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "dynatrace-certified-ace-services",
@@ -13972,7 +13979,8 @@
       "practice_url": "https://quizforge.ai/tests/google-ads-video-certification-2t401t",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "google-analytics-4",
@@ -18410,7 +18418,7 @@
       "exam_name": "ALU 101 — Foundations of Life Underwriting",
       "exam_code": "ALU 101",
       "certifying_body": "LOMA",
-      "vendor_slug": "loma",
+      "vendor_slug": "academy-of-life-underwriting",
       "domains": 4,
       "total_questions": 100,
       "duration_minutes": 90,
@@ -18418,7 +18426,8 @@
       "practice_url": "https://quizforge.ai/tests/alu-101-%E2%80%94-foundations-of-life-underwriting-2fmo1k",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "loma-alu-201",
@@ -27327,7 +27336,8 @@
       "practice_url": "https://quizforge.ai/tests/professional-agile-leadership-i-pal-i-33667f",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "scrum-org-pal-ebm",
@@ -27342,7 +27352,8 @@
       "practice_url": "https://quizforge.ai/tests/professional-agile-leadership-%E2%80%94-evidence-based-management-pal-ebm-334yb1",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "scrum-org-psd-i",
@@ -27462,7 +27473,8 @@
       "practice_url": "https://quizforge.ai/tests/scaled-professional-scrum-sps-333qen",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "septic-installer-fl",
@@ -29984,7 +29996,8 @@
       "practice_url": "https://quizforge.ai/tests/texes-ppr-ec12",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "texes-science-4-8",
@@ -30371,7 +30384,8 @@
       "practice_url": "https://quizforge.ai/tests/uscg-able-seaman-credential-exam",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T04:38:30+00:00"
+      "verified_at": "2026-09-14T04:38:30+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "leed-ap-homes",
@@ -30945,7 +30959,7 @@
     {
       "exam_id": "zendesk-ai-powered-cx",
       "exam_name": "Zendesk AI-Powered CX Expert",
-      "exam_code": "Zendesk AI CX Expert",
+      "exam_code": null,
       "certifying_body": "Zendesk",
       "vendor_slug": "zendesk",
       "domains": 5,
@@ -30956,7 +30970,8 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "zendesk-app-developer",

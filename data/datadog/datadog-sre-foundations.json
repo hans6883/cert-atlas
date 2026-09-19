@@ -1,33 +1,11 @@
 {
   "exam_id": "datadog-sre-foundations",
   "exam_name": "Datadog SRE Foundations",
-  "exam_code": "DD-SRE",
+  "exam_code": null,
   "certifying_body": "Datadog",
   "certification_name": null,
   "version": null,
   "source_url": "https://www.datadoghq.com/certification/overview/",
-  "passing_score": 70,
-  "passing_score_scale": null,
-  "total_questions": 60,
-  "question_types": [
-    "Multiple Choice"
-  ],
-  "exam_format": "Linear (online, self-administered)",
-  "duration_minutes": 90,
-  "exam_price_usd": 0.0,
-  "exam_price_notes": null,
-  "voucher_url": null,
-  "exam_registration_url": "https://www.datadoghq.com/certification/overview/",
-  "testing_centers": [
-    {
-      "provider": "Online (Datadog Learning Center)",
-      "scheduling_url": "https://www.datadoghq.com/certification/overview/",
-      "notes": "All exams taken online through the Datadog Learning Center. No external proctoring."
-    }
-  ],
-  "online_proctoring_available": false,
-  "id_requirements": "Datadog Learning Center account required.",
-  "exam_rules": "Online self-administered. Closed-book. Exams are free with a Datadog account.",
   "certification_validity_years": 2,
   "renewal_required": true,
   "renewal_options": "Certifications valid for 2 years. Renew by retaking the exam through Datadog Learning Center.",
@@ -38,38 +16,6 @@
   "target_audience": null,
   "recommended_experience": null,
   "prerequisites": [],
-  "retake_policy": {
-    "waiting_period_days": 1,
-    "max_attempts_per_year": null,
-    "max_attempts_total": null,
-    "notes": "24-hour waiting period between attempts. Exams are free."
-  },
-  "domains": [
-    {
-      "id": "1",
-      "name": "SRE Principles and Reliability",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "SLOs and Error Budgets",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Incident Management and Alerting",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Observability Practices",
-      "weight_percent": 30.0,
-      "objectives": []
-    }
-  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -91,5 +37,11 @@
     "dd sre foundations",
     "dd-sre"
   ],
-  "practice_url": "https://quizforge.ai/tests/datadog-sre-foundations-2hv5et"
+  "credential": {
+    "type": "not_a_credential",
+    "label": "no such credential is offered by the issuer",
+    "examination": false,
+    "verified_at": "2026-09-19T08:22:52Z",
+    "evidence_url": "https://www.datadoghq.com/certification/overview/"
+  }
 }

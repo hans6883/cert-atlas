@@ -1,7 +1,7 @@
 {
   "exam_id": "zendesk-ai-powered-cx",
   "exam_name": "Zendesk AI-Powered CX Expert",
-  "exam_code": "Zendesk AI CX Expert",
+  "exam_code": null,
   "certifying_body": "Zendesk",
   "certification_name": null,
   "version": null,
@@ -116,10 +116,11 @@
     "zendesk-ai-powered-cx"
   ],
   "practice_url": "https://quizforge.ai/tests/zendesk-ai-powered-cx-expert-2o9mf4",
-  "lifecycle": {
-    "status": "current",
-    "summary": "Confirmed current on the issuer host on 2026-09-17: \"Prove your ability to automate support workflows with Copilot and configure AI agents in a realistic scenario to earn your official Zendesk AI Practitioner badge.\"",
-    "evidence_url": "https://academy.zendesk.com/path/zendesk-ai/zendesk-ai-assessment",
-    "verified_at": "2026-09-18T05:06:54Z"
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-19T08:22:52Z",
+    "evidence_url": "https://academy.zendesk.com/path/zendesk-ai/zendesk-ai-assessment"
   }
 }
