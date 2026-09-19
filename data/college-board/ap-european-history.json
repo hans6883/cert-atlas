@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-european-history",
   "exam_name": "AP European History",
-  "exam_code": "AP Euro",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-european-history-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -121,5 +121,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the AP European History course/exam page is live with the 2027 exam date ('Tue, May 4, 2027 | Session 2').",
     "evidence_url": "https://apstudents.collegeboard.org/courses/ap-european-history",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T20:48:07Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-european-history"
   }
 }

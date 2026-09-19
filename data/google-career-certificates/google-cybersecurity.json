@@ -1,31 +1,11 @@
 {
   "exam_id": "google-cybersecurity",
   "exam_name": "Google Cybersecurity Professional Certificate",
-  "exam_code": "Google Cybersecurity",
+  "exam_code": null,
   "certifying_body": "Google Career Certificates",
   "certification_name": null,
   "version": null,
   "source_url": "https://grow.google/certificates/cybersecurity/",
-  "passing_score": null,
-  "passing_score_scale": null,
-  "total_questions": null,
-  "question_types": [],
-  "exam_format": null,
-  "duration_minutes": null,
-  "exam_price_usd": null,
-  "exam_price_notes": "Coursera subscription ~$49/month; financial aid available; earns 30% discount toward CompTIA Security+ exam",
-  "voucher_url": null,
-  "exam_registration_url": null,
-  "testing_centers": [
-    {
-      "provider": "Coursera (online, self-paced)",
-      "scheduling_url": "https://www.coursera.org/google-certificates",
-      "notes": null
-    }
-  ],
-  "online_proctoring_available": true,
-  "id_requirements": "Coursera account; Google certificate credential shared via Credly badge upon completion",
-  "exam_rules": "No single timed proctored exam. Assessment is embedded across courses: multiple-choice quizzes (≥80% to pass), hands-on labs, peer-reviewed projects, and a capstone project. Learners can retry quizzes up to 3 times per attempt.",
   "certification_validity_years": null,
   "renewal_required": false,
   "renewal_options": "Certificates do not expire; no formal renewal required. Google recommends keeping skills current through continued learning.",
@@ -45,56 +25,6 @@
       "prerequisite_type": "recommended",
       "description": "None; no prior cybersecurity experience required; basic IT literacy helpful",
       "is_required": false
-    }
-  ],
-  "retake_policy": {
-    "waiting_period_days": 0,
-    "max_attempts_per_year": null,
-    "max_attempts_total": null,
-    "notes": "Quizzes can be retaken; no limit on course re-enrolment; learners progress at their own pace"
-  },
-  "domains": [
-    {
-      "id": "1",
-      "name": "Foundations of Cybersecurity (security domains, NIST frameworks, threat actors)",
-      "weight_percent": 12.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Security Risk Management (risk frameworks, security audits, NIST RMF)",
-      "weight_percent": 13.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Networks and Network Security (TCP/IP, firewalls, VPNs, intrusion detection)",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Linux and SQL for Security (command line, SQL queries for log analysis)",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Assets, Threats, and Vulnerabilities (asset classification, threat modelling, encryption)",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Detection and Response (incident lifecycle, SIEM tools, network traffic analysis)",
-      "weight_percent": 15.0,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Python Automation for Cybersecurity (scripts for security tasks)",
-      "weight_percent": 15.0,
-      "objectives": []
     }
   ],
   "official_objectives_url": null,
@@ -132,11 +62,17 @@
     "google cybersecurity professional certificate",
     "google-cybersecurity"
   ],
-  "practice_url": "https://quizforge.ai/tests/google-cybersecurity-professional-certificate-2vm8m4",
   "lifecycle": {
     "status": "current",
     "summary": "Confirmed current on the issuer host on 2026-09-16: the Google Cybersecurity Certificate page is live ('Enroll now', 'Get started on Coursera'; 'Prepare for a career as a cybersecurity analyst with a professional cybersecurity certificate from Google').",
     "evidence_url": "https://grow.google/certificates/cybersecurity/",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-19T20:36:22Z",
+    "evidence_url": "https://grow.google/certificates/cybersecurity/"
   }
 }

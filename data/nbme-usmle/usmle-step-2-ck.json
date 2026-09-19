@@ -105,7 +105,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.usmle.org/exam-resources/step-2-ck-materials/step-2-ck-content-outline-specifications",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -139,5 +139,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the USMLE Step 2 CK page is live.",
     "evidence_url": "https://www.usmle.org/step-exams/step-2-ck",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T20:36:07Z",
+    "evidence_url": "https://www.usmle.org/step-exams/step-2-ck"
   }
 }

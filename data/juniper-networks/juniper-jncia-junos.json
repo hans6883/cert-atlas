@@ -1,7 +1,7 @@
 {
   "exam_id": "juniper-jncia-junos",
   "exam_name": "JNCIA-Junos",
-  "exam_code": "JN0-105",
+  "exam_code": "JN0-106",
   "certifying_body": "Juniper Networks",
   "certification_name": null,
   "version": null,
@@ -312,5 +312,12 @@
     "summary": "Juniper Networks retired JN0-105 on 2026-04-05. JN0-106 is the named replacement path.",
     "evidence_url": "https://www.juniper.net/us/en/training/news.html",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:11:08Z",
+    "evidence_url": "https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "caie-igcse",
   "exam_name": "Cambridge IGCSE",
-  "exam_code": "IGCSE",
+  "exam_code": null,
   "certifying_body": "Cambridge International Education (CAIE)",
   "certification_name": null,
   "version": null,
@@ -49,7 +49,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/curriculum/",
   "official_study_resources": [],
   "aliases": [
     "caie-igcse",
@@ -64,5 +64,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: Cambridge International's IGCSE page is live: 'Today, it's the world's most popular international qualification for 14 to 16 year olds', 'a choice of over 70 subjects', June 2026 exam-series information.",
     "evidence_url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:12:18Z",
+    "evidence_url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-upper-secondary/cambridge-igcse/"
   }
 }

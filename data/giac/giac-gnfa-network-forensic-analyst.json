@@ -1,7 +1,7 @@
 {
   "exam_id": "giac-gnfa-network-forensic-analyst",
   "exam_name": "GIAC Network Forensic Analyst (GNFA)",
-  "exam_code": "GIAC-GNFA",
+  "exam_code": "GNFA",
   "certifying_body": "GIAC",
   "version": null,
   "source_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa",
@@ -227,5 +227,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Exam Format 1 proctored exam 66 questions 3 hours Minimum passing score of 70%'.",
     "evidence_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa",
     "verified_at": "2026-09-14T19:45:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T20:49:38Z",
+    "evidence_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa"
+  },
+  "official_objectives_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa"
 }
