@@ -1,7 +1,7 @@
 {
   "exam_id": "cte-video-production",
   "exam_name": "CTE Video Production Industry Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "YouScience (Precision Exams)",
   "version": null,
   "source_url": "https://resources.youscience.com/hubfs/cte/certifications/exam-blueprints/Video%20Production%201.pdf",
@@ -220,5 +220,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:01+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:46:14Z",
+    "evidence_url": "https://resources.youscience.com/rs/806-BFU-539/images/IndustryCertifications_ExamList_Brochure.pdf"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "faa-private-pilot-airplane-written-knowledge-test",
   "exam_name": "FAA Private Pilot Airplane Written Knowledge Test",
-  "exam_code": "",
+  "exam_code": "FAA-S-ACS-6C",
   "certifying_body": "FAA Pilot Certification",
   "version": null,
   "source_url": "https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf",
@@ -307,5 +307,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:46:16Z",
+    "evidence_url": "https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf"
+  },
+  "official_objectives_url": "https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf"
 }

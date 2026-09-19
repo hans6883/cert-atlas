@@ -68,7 +68,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.danb.org/exams/exam/ice-exam",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -97,5 +97,12 @@
     "infection control exam",
     "infection control ice exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/danb-ice-infection-control-examination"
+  "practice_url": "https://quizforge.ai/tests/danb-ice-infection-control-examination",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:15:22Z",
+    "evidence_url": "https://www.danb.org/exams/exam/ice-exam"
+  }
 }

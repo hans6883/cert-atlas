@@ -1,7 +1,7 @@
 {
   "exam_id": "nrc-reactor-operator-license-exam",
   "exam_name": "NRC Reactor Operator License Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "U.S. Nuclear Regulatory Commission (NRC)",
   "version": null,
   "source_url": "https://www.ecfr.gov/current/title-10/chapter-I/part-55/subpart-E/section-55.41",
@@ -352,5 +352,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:15:36Z",
+    "evidence_url": "https://www.ecfr.gov/current/title-10/chapter-I/part-55/subpart-E/section-55.41"
+  },
+  "official_objectives_url": "https://www.ecfr.gov/current/title-10/chapter-I/part-55/subpart-E/section-55.41"
 }

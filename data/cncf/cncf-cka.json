@@ -260,5 +260,12 @@
     "cncf-cka",
     "kubernetes admin"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-kubernetes-administrator-cka"
+  "practice_url": "https://quizforge.ai/tests/certified-kubernetes-administrator-cka",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:46:17Z",
+    "evidence_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
+  }
 }

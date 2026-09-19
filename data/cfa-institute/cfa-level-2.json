@@ -1,7 +1,7 @@
 {
   "exam_id": "cfa-level-2",
   "exam_name": "CFA Program Level II",
-  "exam_code": "CFA Level II",
+  "exam_code": null,
   "certifying_body": "CFA Institute",
   "certification_name": null,
   "version": null,
@@ -133,7 +133,7 @@
       "weight_max": 15.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cfainstitute.org/programs/cfa-program/exam",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -168,5 +168,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the CFA Program Level II exam page is live (structure, topic outlines).",
     "evidence_url": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:14:36Z",
+    "evidence_url": "https://www.cfainstitute.org/programs/cfa-program/exam"
   }
 }

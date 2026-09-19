@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-drug-and-alcohol-abuse",
   "exam_name": "Drug and Alcohol Abuse",
-  "exam_code": "DRUG",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -115,7 +115,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Substance-Abuse-Fact-Sheet-1.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes drug abuse",
@@ -125,5 +125,12 @@
     "dsst drug",
     "dsst-drug-and-alcohol-abuse"
   ],
-  "practice_url": "https://quizforge.ai/?q=Drug%20and%20Alcohol%20Abuse"
+  "practice_url": "https://quizforge.ai/?q=Drug%20and%20Alcohol%20Abuse",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-18T23:46:38Z",
+    "evidence_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Substance-Abuse-Fact-Sheet-1.pdf"
+  }
 }

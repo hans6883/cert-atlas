@@ -1,7 +1,7 @@
 {
   "exam_id": "abr-radiology",
   "exam_name": "ABR Diagnostic Radiology Core Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Radiology",
   "version": null,
   "source_url": "https://www.theabr.org/get-certified/diagnostic-radiology/",
@@ -434,5 +434,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:58+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:15:22Z",
+    "evidence_url": "https://www.theabr.org/get-certified/diagnostic-radiology/"
+  },
+  "official_objectives_url": "https://www.theabr.org/get-certified/diagnostic-radiology/"
 }

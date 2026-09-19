@@ -3672,7 +3672,7 @@
     {
       "exam_id": "aba-anesthesiology-boards",
       "exam_name": "ABA Anesthesiology Board Certification",
-      "exam_code": null,
+      "exam_code": "ADVANCED",
       "certifying_body": "American Board of Anesthesiology (ABA)",
       "vendor_slug": "american-board-of-anesthesiology-aba",
       "domains": 5,
@@ -4032,7 +4032,7 @@
     {
       "exam_id": "abr-radiology",
       "exam_name": "ABR Diagnostic Radiology Core Exam",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American Board of Radiology",
       "vendor_slug": "american-board-of-radiology",
       "domains": 17,
@@ -4042,7 +4042,9 @@
       "practice_url": "https://quizforge.ai/tests/abr-radiology",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:58+00:00"
+      "verified_at": "2026-09-13T23:39:58+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "abvs-vascular-surgery-boards",
@@ -5269,7 +5271,7 @@
     {
       "exam_id": "cfa-level-2",
       "exam_name": "CFA Program Level II",
-      "exam_code": "CFA Level II",
+      "exam_code": null,
       "certifying_body": "CFA Institute",
       "vendor_slug": "cfa-institute",
       "domains": 10,
@@ -5280,7 +5282,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "cfa-level-3",
@@ -6434,7 +6438,9 @@
       "practice_url": "https://quizforge.ai/tests/certified-kubernetes-administrator-cka",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cncf-ckad",
@@ -8977,7 +8983,9 @@
       "practice_url": "https://quizforge.ai/tests/danb-ice-infection-control-examination",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "danb-rhs",
@@ -10006,7 +10014,7 @@
     {
       "exam_id": "dsst-drug-and-alcohol-abuse",
       "exam_name": "Drug and Alcohol Abuse",
-      "exam_code": "DRUG",
+      "exam_code": null,
       "certifying_body": "DSST",
       "vendor_slug": "dsst",
       "domains": 14,
@@ -10016,7 +10024,9 @@
       "practice_url": "https://quizforge.ai/?q=Drug%20and%20Alcohol%20Abuse",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "naadac-certified-alcohol-drug-counselor-cadc",
@@ -11831,7 +11841,7 @@
     {
       "exam_id": "faa-private-pilot-airplane-written-knowledge-test",
       "exam_name": "FAA Private Pilot Airplane Written Knowledge Test",
-      "exam_code": "",
+      "exam_code": "FAA-S-ACS-6C",
       "certifying_body": "FAA Pilot Certification",
       "vendor_slug": "faa-pilot-certification",
       "domains": 12,
@@ -11841,7 +11851,9 @@
       "practice_url": "https://quizforge.ai/tests/faa-private-pilot-airplane-written-knowledge-test",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "faa-ppl",
@@ -17333,7 +17345,7 @@
     {
       "exam_id": "japan-it-passport-ipa-certification",
       "exam_name": "Japan IT Passport Certification (IPA)",
-      "exam_code": "",
+      "exam_code": "IP",
       "certifying_body": "Information-technology Promotion Agency, Japan (IPA)",
       "vendor_slug": "information-technology-promotion-agency-japan-ipa",
       "domains": 3,
@@ -17343,7 +17355,9 @@
       "practice_url": "https://quizforge.ai/tests/japan-it-passport-ipa-certification",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:05+00:00"
+      "verified_at": "2026-09-13T23:40:05+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "crni-certified-registered-nurse-infusion",
@@ -20493,7 +20507,7 @@
     {
       "exam_id": "nbrc-rrt-accs",
       "exam_name": "NBRC RRT-ACCS Adult Critical Care Specialist",
-      "exam_code": "",
+      "exam_code": "ACCS",
       "certifying_body": "NBRC",
       "vendor_slug": "nbrc",
       "domains": 2,
@@ -20503,7 +20517,9 @@
       "practice_url": "https://quizforge.ai/tests/nbrc-rrt-accs",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:05+00:00"
+      "verified_at": "2026-09-13T23:40:05+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nbrc-tmce",
@@ -24409,7 +24425,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ptcb-tech-check",
@@ -29921,7 +29939,7 @@
     {
       "exam_id": "nrc-reactor-operator-license-exam",
       "exam_name": "NRC Reactor Operator License Exam",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "U.S. Nuclear Regulatory Commission (NRC)",
       "vendor_slug": "u-s-nuclear-regulatory-commission-nrc",
       "domains": 14,
@@ -29931,7 +29949,9 @@
       "practice_url": "https://quizforge.ai/tests/nrc-reactor-operator-license-exam",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:03+00:00"
+      "verified_at": "2026-09-14T03:22:03+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "upsc-civil-services-mains",
@@ -30438,7 +30458,7 @@
     {
       "exam_id": "cte-video-production",
       "exam_name": "CTE Video Production Industry Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "YouScience (Precision Exams)",
       "vendor_slug": "youscience-precision-exams",
       "domains": 7,
@@ -30448,7 +30468,9 @@
       "practice_url": "https://quizforge.ai/tests/cte-video-production",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:01+00:00"
+      "verified_at": "2026-09-14T03:22:01+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "zendesk-ai-powered-cx",

@@ -1,7 +1,7 @@
 {
   "exam_id": "japan-it-passport-ipa-certification",
   "exam_name": "Japan IT Passport Certification (IPA)",
-  "exam_code": "",
+  "exam_code": "IP",
   "certifying_body": "Information-technology Promotion Agency, Japan (IPA)",
   "version": null,
   "source_url": "https://www.ipa.go.jp/en/it-examinations/nph2g600000007uh-att/000009648.pdf",
@@ -128,5 +128,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:05+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-18T23:46:44Z",
+    "evidence_url": "https://www.ipa.go.jp/en/it-examinations/nph2g600000007uh-att/000009648.pdf"
+  },
+  "official_objectives_url": "https://www.ipa.go.jp/en/it-examinations/nph2g600000007uh-att/000009648.pdf"
 }
