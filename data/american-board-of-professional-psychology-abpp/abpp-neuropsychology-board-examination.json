@@ -1,7 +1,7 @@
 {
   "exam_id": "abpp-neuropsychology-board-examination",
   "exam_name": "ABPP: Neuropsychology Board Examination",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Professional Psychology (ABPP)",
   "version": null,
   "source_url": "https://abpp.org/application-information/learn-about-specialty-boards/clinical-neuropsychology/faqs/",
@@ -185,5 +185,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:21:58+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:40Z",
+    "evidence_url": "https://abpp.org/application-information/learn-about-specialty-boards/clinical-neuropsychology"
+  },
+  "official_objectives_url": "https://abpp.org/application-information/learn-about-specialty-boards/clinical-neuropsychology"
 }

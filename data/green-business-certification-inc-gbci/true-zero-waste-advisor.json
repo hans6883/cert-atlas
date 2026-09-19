@@ -1,7 +1,7 @@
 {
   "exam_id": "true-zero-waste-advisor",
   "exam_name": "TRUE Zero Waste Advisor Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Green Business Certification Inc. (GBCI)",
   "version": null,
   "source_url": "https://true.gbci.org/true-advisor",
@@ -278,5 +278,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:08+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:22Z",
+    "evidence_url": "https://true.gbci.org/true-advisor"
+  },
+  "official_objectives_url": "https://true.gbci.org/true-advisor"
 }

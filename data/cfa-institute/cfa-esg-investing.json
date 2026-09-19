@@ -1,7 +1,7 @@
 {
   "exam_id": "cfa-esg-investing",
   "exam_name": "Certificate in ESG Investing",
-  "exam_code": "CFA ESG",
+  "exam_code": null,
   "certifying_body": "CFA Institute",
   "certification_name": null,
   "version": null,
@@ -103,7 +103,7 @@
       "weight_max": 20.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cfainstitute.org/programs/sustainable-investing-certificate/exam-info",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -131,5 +131,12 @@
     "cfa-esg-investing-certificate",
     "esg investing certificate"
   ],
-  "practice_url": "https://quizforge.ai/?q=Certificate%20in%20ESG%20Investing"
+  "practice_url": "https://quizforge.ai/?q=Certificate%20in%20ESG%20Investing",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:42Z",
+    "evidence_url": "https://www.cfainstitute.org/programs/esg-certification"
+  }
 }

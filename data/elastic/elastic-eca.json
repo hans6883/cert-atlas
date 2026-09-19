@@ -1,7 +1,7 @@
 {
   "exam_id": "elastic-eca",
   "exam_name": "Elastic Certified Analyst (ECA)",
-  "exam_code": "ECA",
+  "exam_code": null,
   "certifying_body": "Elastic",
   "certification_name": null,
   "version": null,
@@ -101,5 +101,12 @@
     "elastic-eca",
     "kibana analyst"
   ],
-  "practice_url": "https://quizforge.ai/tests/elastic-certified-analyst"
+  "practice_url": "https://quizforge.ai/tests/elastic-certified-analyst",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:20:47Z",
+    "evidence_url": "https://www.elastic.co/training/certification/faq"
+  }
 }

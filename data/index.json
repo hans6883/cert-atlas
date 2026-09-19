@@ -1228,7 +1228,7 @@
     {
       "exam_id": "acsm-certified-personal-trainer",
       "exam_name": "ACSM Certified Personal Trainer",
-      "exam_code": "",
+      "exam_code": "ACSM-CPT",
       "certifying_body": "ACSM",
       "vendor_slug": "acsm",
       "domains": 4,
@@ -1238,7 +1238,9 @@
       "practice_url": "https://quizforge.ai/tests/acsm-certified-personal-trainer",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:58+00:00"
+      "verified_at": "2026-09-13T23:39:58+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "act-standard",
@@ -1896,7 +1898,7 @@
     {
       "exam_id": "ardms-ob-gyn-sonography-specialty",
       "exam_name": "ARDMS: OB/GYN Sonography Specialty",
-      "exam_code": "",
+      "exam_code": "OB/GYN",
       "certifying_body": "ARDMS (Inteleos)",
       "vendor_slug": "ardms-inteleos",
       "domains": 5,
@@ -1906,7 +1908,9 @@
       "practice_url": "https://quizforge.ai/tests/ardms-ob-gyn-sonography-specialty",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:21:59+00:00"
+      "verified_at": "2026-09-14T03:21:59+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "arrt-ct",
@@ -3999,7 +4003,7 @@
     {
       "exam_id": "abpp-neuropsychology-board-examination",
       "exam_name": "ABPP: Neuropsychology Board Examination",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American Board of Professional Psychology (ABPP)",
       "vendor_slug": "american-board-of-professional-psychology-abpp",
       "domains": 5,
@@ -4009,7 +4013,9 @@
       "practice_url": "https://quizforge.ai/tests/abpp-neuropsychology-board-examination",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:21:58+00:00"
+      "verified_at": "2026-09-14T03:21:58+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "abp-pediatric-neurology",
@@ -4666,7 +4672,7 @@
     {
       "exam_id": "ices-certified-laser-safety-officer",
       "exam_name": "CLSO Certified Laser Safety Officer",
-      "exam_code": "",
+      "exam_code": "CLSO",
       "certifying_body": "Board of Laser Safety (BLS)",
       "vendor_slug": "board-of-laser-safety-bls",
       "domains": 9,
@@ -4676,7 +4682,9 @@
       "practice_url": "https://quizforge.ai/tests/ices-certified-laser-safety-officer",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "bcccp-board-certified-critical-care-pharmacist",
@@ -5350,7 +5358,7 @@
     {
       "exam_id": "cfa-esg-investing",
       "exam_name": "Certificate in ESG Investing",
-      "exam_code": "CFA ESG",
+      "exam_code": null,
       "certifying_body": "CFA Institute",
       "vendor_slug": "cfa-institute",
       "domains": 7,
@@ -5360,7 +5368,9 @@
       "practice_url": "https://quizforge.ai/?q=Certificate%20in%20ESG%20Investing",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cfp-board-cfp-exam",
@@ -6845,7 +6855,7 @@
     {
       "exam_id": "cscmp-supply-chain-management-professional-scpro",
       "exam_name": "CSCMP Supply Chain Management Professional (SCPro)",
-      "exam_code": "",
+      "exam_code": "SCPro",
       "certifying_body": "CSCMP (Council of Supply Chain Management Professionals)",
       "vendor_slug": "cscmp-council-of-supply-chain-management-professionals",
       "domains": 8,
@@ -6855,7 +6865,9 @@
       "practice_url": "https://quizforge.ai/tests/cscmp-supply-chain-management-professional-scpro",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:02+00:00"
+      "verified_at": "2026-09-13T23:40:02+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cset-english-1",
@@ -7324,7 +7336,7 @@
     {
       "exam_id": "ncbde-certified-diabetes-care-education-specialist-cdces",
       "exam_name": "NCBDE Certified Diabetes Care and Education Specialist (CDCES)",
-      "exam_code": "",
+      "exam_code": "CDCES",
       "certifying_body": "Certification Board for Diabetes Care and Education (CBDCE)",
       "vendor_slug": "certification-board-for-diabetes-care-and-education-cbdce",
       "domains": 3,
@@ -7334,7 +7346,9 @@
       "practice_url": "https://quizforge.ai/tests/ncbde-certified-diabetes-care-education-specialist-cdces",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:05+00:00"
+      "verified_at": "2026-09-13T23:40:05+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "checkpoint-cccs",
@@ -8742,7 +8756,7 @@
     {
       "exam_id": "cfi-cmsa-capital-markets-securities",
       "exam_name": "CMSA Capital Markets and Securities Analyst",
-      "exam_code": "",
+      "exam_code": "CMSA",
       "certifying_body": "Corporate Finance Institute",
       "vendor_slug": "corporate-finance-institute",
       "domains": 8,
@@ -8752,7 +8766,9 @@
       "practice_url": "https://quizforge.ai/tests/cfi-cmsa-capital-markets-securities",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:00+00:00"
+      "verified_at": "2026-09-13T23:40:00+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "fim-financial-modeling-valuation-analyst",
@@ -11255,7 +11271,7 @@
     {
       "exam_id": "elastic-eca",
       "exam_name": "Elastic Certified Analyst (ECA)",
-      "exam_code": "ECA",
+      "exam_code": null,
       "certifying_body": "Elastic",
       "vendor_slug": "elastic",
       "domains": 5,
@@ -11265,7 +11281,9 @@
       "practice_url": "https://quizforge.ai/tests/elastic-certified-analyst",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "elastic-ecba",
@@ -13102,7 +13120,7 @@
     {
       "exam_id": "github-advanced-security",
       "exam_name": "GitHub Advanced Security",
-      "exam_code": "GitHub-GHAS",
+      "exam_code": null,
       "certifying_body": "GitHub",
       "vendor_slug": "github",
       "domains": 6,
@@ -13112,7 +13130,9 @@
       "practice_url": "https://quizforge.ai/tests/github-advanced-security-certification",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "github-copilot",
@@ -13799,7 +13819,7 @@
     {
       "exam_id": "true-zero-waste-advisor",
       "exam_name": "TRUE Zero Waste Advisor Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "Green Business Certification Inc. (GBCI)",
       "vendor_slug": "green-business-certification-inc-gbci",
       "domains": 10,
@@ -13809,7 +13829,9 @@
       "practice_url": "https://quizforge.ai/tests/true-zero-waste-advisor",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:08+00:00"
+      "verified_at": "2026-09-13T23:40:08+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "hesi-a2",
@@ -16894,7 +16916,7 @@
     {
       "exam_id": "cpm-property-mgmt",
       "exam_name": "CPM - Certified Property Manager (IREM)",
-      "exam_code": "",
+      "exam_code": "CPM",
       "certifying_body": "IREM (Institute of Real Estate Management)",
       "vendor_slug": "irem-institute-of-real-estate-management",
       "domains": 6,
@@ -16904,7 +16926,9 @@
       "practice_url": "https://quizforge.ai/tests/cpm-property-mgmt",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:01+00:00"
+      "verified_at": "2026-09-13T23:40:01+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "isaca-csx-p",
@@ -19632,7 +19656,7 @@
     {
       "exam_id": "nabcep-pv-installation-professional",
       "exam_name": "NABCEP PVIP",
-      "exam_code": "",
+      "exam_code": "PVIP",
       "certifying_body": "NABCEP",
       "vendor_slug": "nabcep",
       "domains": 4,
@@ -19642,7 +19666,9 @@
       "practice_url": "https://quizforge.ai/tests/nabcep-pv-installation-professional",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:05+00:00"
+      "verified_at": "2026-09-13T23:40:05+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "excpt",
@@ -22902,7 +22928,7 @@
     {
       "exam_id": "haccp-manager-certification-ansi",
       "exam_name": "HACCP Manager Certification",
-      "exam_code": "",
+      "exam_code": "CFSHM",
       "certifying_body": "National Registry of Food Safety Professionals (NRFSP)",
       "vendor_slug": "national-registry-of-food-safety-professionals-nrfsp",
       "domains": 5,
@@ -22912,7 +22938,9 @@
       "practice_url": "https://quizforge.ai/tests/haccp-manager-certification-ansi",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nicsec-cosmetology-theory-examination",
@@ -26000,7 +26028,7 @@
     {
       "exam_id": "sqf-practitioner-certification",
       "exam_name": "SQF Practitioner Food Safety Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "SQFI (Safe Quality Food Institute)",
       "vendor_slug": "sqfi-safe-quality-food-institute",
       "domains": 3,
@@ -26010,7 +26038,9 @@
       "practice_url": "https://quizforge.ai/tests/sqf-practitioner-certification",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:08+00:00"
+      "verified_at": "2026-09-13T23:40:08+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ssat-elementary",
@@ -27777,7 +27807,9 @@
       "practice_url": "https://quizforge.ai/tests/servicenow-cis-sir",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "servicenow-cis-slm",

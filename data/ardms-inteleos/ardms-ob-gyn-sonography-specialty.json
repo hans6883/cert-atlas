@@ -1,7 +1,7 @@
 {
   "exam_id": "ardms-ob-gyn-sonography-specialty",
   "exam_name": "ARDMS: OB/GYN Sonography Specialty",
-  "exam_code": "",
+  "exam_code": "OB/GYN",
   "certifying_body": "ARDMS (Inteleos)",
   "version": null,
   "source_url": "https://www.ardms.org/wp-content/uploads/pdf/OBGYN-Examination-Content-Outline-FINAL.pdf",
@@ -182,5 +182,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:21:59+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:41Z",
+    "evidence_url": "https://www.ardms.org/get-certified/rdms/obstetrics-gynecology/"
+  },
+  "official_objectives_url": "https://www.ardms.org/get-certified/rdms/obstetrics-gynecology/"
 }

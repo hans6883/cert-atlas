@@ -1,7 +1,7 @@
 {
   "exam_id": "github-advanced-security",
   "exam_name": "GitHub Advanced Security",
-  "exam_code": "GitHub-GHAS",
+  "exam_code": null,
   "certifying_body": "GitHub",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -112,5 +112,12 @@
     "github-advanced-security",
     "github-ghas"
   ],
-  "practice_url": "https://quizforge.ai/tests/github-advanced-security-certification"
+  "practice_url": "https://quizforge.ai/tests/github-advanced-security-certification",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:04Z",
+    "evidence_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications"
+  }
 }

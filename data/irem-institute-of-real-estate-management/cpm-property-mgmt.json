@@ -1,7 +1,7 @@
 {
   "exam_id": "cpm-property-mgmt",
   "exam_name": "CPM - Certified Property Manager (IREM)",
-  "exam_code": "",
+  "exam_code": "CPM",
   "certifying_body": "IREM (Institute of Real Estate Management)",
   "version": null,
   "source_url": "https://www.irem.org/file%20library/globalnavigation/certifications/forindividuals/cpm/cpm-handbook-2025.pdf",
@@ -205,5 +205,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:01+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:04Z",
+    "evidence_url": "https://www.irem.org/cpm"
+  },
+  "official_objectives_url": "https://www.irem.org/cpm"
 }

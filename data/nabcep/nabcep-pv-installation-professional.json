@@ -1,7 +1,7 @@
 {
   "exam_id": "nabcep-pv-installation-professional",
   "exam_name": "NABCEP PVIP",
-  "exam_code": "",
+  "exam_code": "PVIP",
   "certifying_body": "NABCEP",
   "version": null,
   "source_url": "https://www.nabcep.org/wp-content/uploads/2018/12/NABCEP-PV-Installation-JTA-12-14-17.pdf",
@@ -173,5 +173,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:05+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:07Z",
+    "evidence_url": "https://www.nabcep.org/certifications/nabcep-board-certifications/"
+  },
+  "official_objectives_url": "https://www.nabcep.org/certifications/nabcep-board-certifications/"
 }

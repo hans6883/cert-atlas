@@ -1,7 +1,7 @@
 {
   "exam_id": "haccp-manager-certification-ansi",
   "exam_name": "HACCP Manager Certification",
-  "exam_code": "",
+  "exam_code": "CFSHM",
   "certifying_body": "National Registry of Food Safety Professionals (NRFSP)",
   "version": null,
   "source_url": "https://www.nrfsp.com/wp-content/uploads/Documents/HACCP/Examination_Content_Outline-HACCP.pdf",
@@ -192,5 +192,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:24Z",
+    "evidence_url": "https://www.nrfsp.com/wp-content/uploads/Documents/HACCP/Examinee_Information_Bulletin-HACCP.pdf"
+  },
+  "official_objectives_url": "https://www.nrfsp.com/wp-content/uploads/Documents/HACCP/Examinee_Information_Bulletin-HACCP.pdf"
 }

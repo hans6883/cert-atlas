@@ -1,7 +1,7 @@
 {
   "exam_id": "ncbde-certified-diabetes-care-education-specialist-cdces",
   "exam_name": "NCBDE Certified Diabetes Care and Education Specialist (CDCES)",
-  "exam_code": "",
+  "exam_code": "CDCES",
   "certifying_body": "Certification Board for Diabetes Care and Education (CBDCE)",
   "version": null,
   "source_url": "https://www.cbdce.org/certification_info/examination-handbook/",
@@ -157,5 +157,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:05+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:20:42Z",
+    "evidence_url": "https://www.cbdce.org/certification_info/examination-handbook/"
+  },
+  "official_objectives_url": "https://www.cbdce.org/certification_info/examination-handbook/"
 }

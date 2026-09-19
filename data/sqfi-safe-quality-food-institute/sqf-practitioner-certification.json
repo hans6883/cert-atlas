@@ -1,7 +1,7 @@
 {
   "exam_id": "sqf-practitioner-certification",
   "exam_name": "SQF Practitioner Food Safety Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "SQFI (Safe Quality Food Institute)",
   "version": null,
   "source_url": "https://www.sqfi.com/training-events/search-for-training/certified-sqf-practitioner-credential/7",
@@ -152,5 +152,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:08+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:20:59Z",
+    "evidence_url": "https://www.sqfi.com/training-events/search-for-training/certified-sqf-practitioner-credential"
   }
 }

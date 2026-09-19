@@ -1,7 +1,7 @@
 {
   "exam_id": "ices-certified-laser-safety-officer",
   "exam_name": "CLSO Certified Laser Safety Officer",
-  "exam_code": "",
+  "exam_code": "CLSO",
   "certifying_body": "Board of Laser Safety (BLS)",
   "version": null,
   "source_url": "https://assets.lasersafety.org/s3fs-public/assets/pdf/CLSO/CLSO%20Exam%20Ref%2019.pdf",
@@ -262,5 +262,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:21Z",
+    "evidence_url": "https://www.lasersafety.org/about-bls/what-is-certification"
+  },
+  "official_objectives_url": "https://www.lasersafety.org/become-certified/eligibility"
 }

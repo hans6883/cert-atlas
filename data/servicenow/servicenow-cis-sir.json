@@ -101,7 +101,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=3e804dd9977dfe90e7b47b70f053afb6",
+  "official_objectives_url": "https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incidence-response?id=kb_article_view&sysparm_article=KB0011559",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -126,5 +126,12 @@
     "servicenow-cis-secops",
     "servicenow-cis-sir"
   ],
-  "practice_url": "https://quizforge.ai/tests/servicenow-cis-sir"
+  "practice_url": "https://quizforge.ai/tests/servicenow-cis-sir",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:21:16Z",
+    "evidence_url": "https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incidence-response?id=kb_article_view&sysparm_article=KB0011559"
+  }
 }

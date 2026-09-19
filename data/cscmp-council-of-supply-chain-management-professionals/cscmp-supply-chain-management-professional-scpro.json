@@ -1,7 +1,7 @@
 {
   "exam_id": "cscmp-supply-chain-management-professional-scpro",
   "exam_name": "CSCMP Supply Chain Management Professional (SCPro)",
-  "exam_code": "",
+  "exam_code": "SCPro",
   "certifying_body": "CSCMP (Council of Supply Chain Management Professionals)",
   "version": null,
   "source_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx",
@@ -241,5 +241,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:02+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:21:01Z",
+    "evidence_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx"
   }
 }

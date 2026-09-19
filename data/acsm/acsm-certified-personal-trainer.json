@@ -1,7 +1,7 @@
 {
   "exam_id": "acsm-certified-personal-trainer",
   "exam_name": "ACSM Certified Personal Trainer",
-  "exam_code": "",
+  "exam_code": "ACSM-CPT",
   "certifying_body": "ACSM",
   "version": null,
   "source_url": "https://acsm.org/wp-content/uploads/2024/12/ACSM-Certified-Personal-Trainer-Exam-Content-Outline.pdf",
@@ -141,5 +141,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:58+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T02:52:08Z",
+    "evidence_url": "https://acsm.org/certification/get-certified/"
+  },
+  "official_objectives_url": "https://acsm.org/wp-content/uploads/2024/12/ACSM-Certified-Personal-Trainer-Exam-Content-Outline.pdf"
 }
