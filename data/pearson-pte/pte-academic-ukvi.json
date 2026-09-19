@@ -1,7 +1,7 @@
 {
   "exam_id": "pte-academic-ukvi",
   "exam_name": "PTE Academic UKVI",
-  "exam_code": "PTEA-UKVI",
+  "exam_code": "PTE Academic UKVI",
   "certifying_body": "Pearson PTE",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.pearsonpte.com/pte-academic-ukvi",
   "official_study_resources": [],
   "aliases": [
     "pte academic ukvi",
@@ -63,5 +63,12 @@
     "pte-academic-ukvi",
     "ptea-ukvi"
   ],
-  "practice_url": "https://quizforge.ai/tests/pte-academic-ukvi"
+  "practice_url": "https://quizforge.ai/tests/pte-academic-ukvi",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:38Z",
+    "evidence_url": "https://www.pearsonpte.com/pte-academic-ukvi"
+  }
 }

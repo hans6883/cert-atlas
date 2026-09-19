@@ -1,7 +1,7 @@
 {
   "exam_id": "nate-gas-furnace-service",
   "exam_name": "NATE Gas Furnace Service",
-  "exam_code": "NATE-GFS",
+  "exam_code": null,
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,12 +93,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://natex.org/wp-content/uploads/2022/06/kate_gssv1.pdf",
   "official_study_resources": [],
   "aliases": [
     "nate gas furnace service",
     "nate-gas-furnace-service",
     "nate-gfs"
   ],
-  "practice_url": "https://quizforge.ai/tests/nate-gas-furnace-service-2y21dn"
+  "practice_url": "https://quizforge.ai/tests/nate-gas-furnace-service-2y21dn",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:43Z",
+    "evidence_url": "https://natex.org/certification/traditional-pathway/"
+  }
 }

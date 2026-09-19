@@ -1,7 +1,7 @@
 {
   "exam_id": "cset-math-1",
   "exam_name": "CSET Mathematics Subtest I (Algebra & Number Theory)",
-  "exam_code": "CSET-M1",
+  "exam_code": "211",
   "certifying_body": "CSET",
   "certification_name": null,
   "version": null,
@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.cte.wa.gov",
+  "official_objectives_url": "https://www.ctcexams.nesinc.com/Content/StudyGuide/CA_SG_obj_211.htm",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -178,5 +178,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:34+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:50:59Z",
+    "evidence_url": "https://www.ctcexams.nesinc.com/Content/StudyGuide/CA_SG_obj_211.htm"
   }
 }

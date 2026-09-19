@@ -1,7 +1,7 @@
 {
   "exam_id": "toeic-speaking-writing",
   "exam_name": "TOEIC Speaking and Writing Tests",
-  "exam_code": "TOEIC S&W",
+  "exam_code": null,
   "certifying_body": "TOEIC (ETS)",
   "certification_name": null,
   "version": null,
@@ -43,7 +43,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ets.org/pdfs/toeic/toeic-speaking-writing-examinee-handbook.pdf",
   "official_study_resources": [],
   "aliases": [
     "toeic s w",
@@ -51,5 +51,12 @@
     "toeic speaking writing",
     "toeic-speaking-writing"
   ],
-  "practice_url": "https://quizforge.ai/tests/toeic-speaking-writing"
+  "practice_url": "https://quizforge.ai/tests/toeic-speaking-writing",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:37Z",
+    "evidence_url": "https://www.ets.org/toeic/about/speaking-writing.html"
+  }
 }

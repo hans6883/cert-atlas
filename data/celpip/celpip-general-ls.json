@@ -1,7 +1,7 @@
 {
   "exam_id": "celpip-general-ls",
   "exam_name": "CELPIP-General LS (Listening and Speaking)",
-  "exam_code": "CELPIP-LS",
+  "exam_code": null,
   "certifying_body": "CELPIP",
   "certification_name": null,
   "version": null,
@@ -115,7 +115,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.celpip.ca/take-celpip/test-format/",
   "official_study_resources": [],
   "aliases": [
     "celpip citizenship",
@@ -125,5 +125,12 @@
     "celpip-general-ls",
     "celpip-ls"
   ],
-  "practice_url": "https://quizforge.ai/tests/celpip-general-ls"
+  "practice_url": "https://quizforge.ai/tests/celpip-general-ls",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:03:51Z",
+    "evidence_url": "https://www.celpip.ca/take-celpip/test-format/"
+  }
 }

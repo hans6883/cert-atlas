@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-marketing-cloud-email-specialist",
   "exam_name": "Salesforce Certified Marketing Cloud Email Specialist",
-  "exam_code": "Marketing Cloud Email Specialist",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Marketing Cloud Email Specialist",
   "version": "Summer '23 release",
@@ -216,5 +216,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: exam guide titled 'Salesforce Certified Marketing Cloud Engagement Specialist' (the Email Specialist exam under its current name; the guide still describes 'The Email Specialist') live; no retirement wording; not in the 2027 retirements FAQ.",
     "evidence_url": "https://help.salesforce.com/s/articleView?id=005298950&type=1",
     "verified_at": "2026-09-14T20:05:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:16:10Z",
+    "evidence_url": "https://trailhead.salesforce.com/credentials/marketingcloudengagementspecialist"
   }
 }

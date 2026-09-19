@@ -1,7 +1,7 @@
 {
   "exam_id": "usmle-step-3",
   "exam_name": "USMLE Step 3",
-  "exam_code": "Step 3",
+  "exam_code": null,
   "certifying_body": "NBME (USMLE)",
   "certification_name": null,
   "version": null,
@@ -106,7 +106,7 @@
       "weight_max": 11.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.usmle.org/exam-resources/step-3-materials/step-3-content-outline-and-specifications",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -139,5 +139,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the USMLE Step 3 page is live.",
     "evidence_url": "https://www.usmle.org/step-exams/step-3",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:48Z",
+    "evidence_url": "https://www.usmle.org/step-exams/step-3"
   }
 }

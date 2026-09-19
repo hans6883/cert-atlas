@@ -1,7 +1,7 @@
 {
   "exam_id": "nystce-edpa",
   "exam_name": "NYSTCE EAS (Educating All Students) Test",
-  "exam_code": "NYSTCE-EAS",
+  "exam_code": "201",
   "certifying_body": "State Teacher Certification",
   "certification_name": null,
   "version": null,
@@ -88,7 +88,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nystce.nesinc.com/content/docs/NY201_OBJ_Final.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -118,5 +118,12 @@
     "nystce-eas",
     "nystce-edpa"
   ],
-  "practice_url": "https://quizforge.ai/tests/nystce-eas-educating-all-students-test-2lxhcp"
+  "practice_url": "https://quizforge.ai/tests/nystce-eas-educating-all-students-test-2lxhcp",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:44Z",
+    "evidence_url": "https://www.nystce.nesinc.com/TestView.aspx?f=HTML_FRAG/NY201_TestPage.html"
+  }
 }

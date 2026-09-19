@@ -1,7 +1,7 @@
 {
   "exam_id": "celpe-bras-intermediario-superior",
   "exam_name": "CELPE-Bras Intermediário Superior",
-  "exam_code": "CELPE-Bras Intermediário Superior",
+  "exam_code": null,
   "certifying_body": "CELPE-Bras",
   "certification_name": null,
   "version": null,
@@ -115,5 +115,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Sim, pois o Inep apenas certifica em quatro níveis, a saber: intermediário, intermediário superior, avançado e avançado superior. Para que o participante seja certificado, é preciso alcançar, pelo menos, o nível intermediário, tanto na parte escrita, quanto na parte oral.\"",
     "evidence_url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/celpe-bras",
     "verified_at": "2026-09-18T03:55:42Z"
+  },
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:16:07Z",
+    "evidence_url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/celpe-bras"
   }
 }

@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://training.confluent.io/learn/courses/1072/confluent-certified-developer-exam-preparation-guide",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -103,5 +103,18 @@
     "confluent-ccdak",
     "confluent-certified-developer-apache-kafka"
   ],
-  "practice_url": "https://quizforge.ai/tests/confluent-certified-developer-apache-kafka"
+  "practice_url": "https://quizforge.ai/tests/confluent-certified-developer-apache-kafka",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-18: \"The Confluent Certified Developer for Apache Kafka® (CCDAK) is designed for developers and solution architects who build applications with Apache Kafka®.\"",
+    "evidence_url": "https://www.confluent.io/certification/",
+    "verified_at": "2026-09-19T06:01:09Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:16:12Z",
+    "evidence_url": "https://www.confluent.io/certification/"
+  }
 }

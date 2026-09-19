@@ -1,7 +1,7 @@
 {
   "exam_id": "hesi-specialty-exams",
   "exam_name": "HESI Specialty Exams",
-  "exam_code": "HESI-SPEC",
+  "exam_code": null,
   "certifying_body": "HESI",
   "certification_name": null,
   "version": null,
@@ -78,5 +78,12 @@
     "hesi-spec",
     "hesi-specialty-exams"
   ],
-  "practice_url": "https://quizforge.ai/tests/hesi-specialty-exams"
+  "practice_url": "https://quizforge.ai/tests/hesi-specialty-exams",
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:23Z",
+    "evidence_url": "https://www.elsevier.com/products/hesi/hesi-exam-solutions-nursing"
+  }
 }

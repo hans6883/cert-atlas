@@ -1,7 +1,7 @@
 {
   "exam_id": "elec-master-fl",
   "exam_name": "Florida Electrical Contractor Exam",
-  "exam_code": "FL-EC",
+  "exam_code": null,
   "certifying_body": "Electrician Licensing",
   "certification_name": null,
   "version": null,
@@ -90,12 +90,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www2.myfloridalicense.com/servop/testing/documents/eleccib.pdf",
   "official_study_resources": [],
   "aliases": [
     "elec-master-fl",
     "fl-ec",
     "florida electrical contractor exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/florida-electrical-contractor-exam-2yj3z0"
+  "practice_url": "https://quizforge.ai/tests/florida-electrical-contractor-exam-2yj3z0",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:51:54Z",
+    "evidence_url": "https://www.myfloridalicense.com/DBPR/electrical-contractors/"
+  }
 }

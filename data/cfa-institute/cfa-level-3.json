@@ -1,7 +1,7 @@
 {
   "exam_id": "cfa-level-3",
   "exam_name": "CFA Program Level III",
-  "exam_code": "CFA Level III",
+  "exam_code": null,
   "certifying_body": "CFA Institute",
   "certification_name": null,
   "version": null,
@@ -130,7 +130,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026leveliii-portfolio-management-pathwaytopicoutline_online.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -162,5 +162,12 @@
     "cfa-level-3",
     "chartered financial analyst cfa"
   ],
-  "practice_url": "https://quizforge.ai/tests/cfa-level-3"
+  "practice_url": "https://quizforge.ai/tests/cfa-level-3",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:16:24Z",
+    "evidence_url": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-iii-exam"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "nate-hydronic-heating",
   "exam_name": "NATE Hydronic Gas Heating",
-  "exam_code": "NATE-HGH",
+  "exam_code": null,
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,12 +93,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://natex.org/wp-content/uploads/2022/06/kate_hgsv.pdf",
   "official_study_resources": [],
   "aliases": [
     "nate hydronic gas heating",
     "nate-hgh",
     "nate-hydronic-heating"
   ],
-  "practice_url": "https://quizforge.ai/tests/nate-hydronic-gas-heating-2kugkh"
+  "practice_url": "https://quizforge.ai/tests/nate-hydronic-gas-heating-2kugkh",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:04:35Z",
+    "evidence_url": "https://natex.org/technician/take-an-exam/traditional-pathway/"
+  }
 }

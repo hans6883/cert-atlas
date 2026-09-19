@@ -1,7 +1,7 @@
 {
   "exam_id": "plumb-medical-gas",
   "exam_name": "Medical Gas Installer/Verifier Exam (ASSE 6010/6020)",
-  "exam_code": "Med-Gas",
+  "exam_code": null,
   "certifying_body": "Plumber Licensing",
   "certification_name": null,
   "version": null,
@@ -90,12 +90,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.asse-plumbing.org/standards/professional-qualifications-standards/",
   "official_study_resources": [],
   "aliases": [
     "med-gas",
     "medical gas installer verifier exam asse 6010 6020",
     "plumb-medical-gas"
   ],
-  "practice_url": "https://quizforge.ai/tests/medical-gas-installer-verifier-exam-asse-6010-6020-2yakoc"
+  "practice_url": "https://quizforge.ai/tests/medical-gas-installer-verifier-exam-asse-6010-6020-2yakoc",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:51:55Z",
+    "evidence_url": "https://www.asse-plumbing.org/personnel-certification/"
+  }
 }

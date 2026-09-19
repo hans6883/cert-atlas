@@ -1,7 +1,7 @@
 {
   "exam_id": "fortinet-nse7-enterprise",
   "exam_name": "NSE 7 Network Security Architect",
-  "exam_code": "FCP_ZTP_AD-7.2",
+  "exam_code": "NSE7_EFW-7.2",
   "certifying_body": "Fortinet",
   "certification_name": "Fortinet Certified Trainer (FCT)",
   "version": null,
@@ -114,5 +114,12 @@
     "nse 7 network security architect",
     "nse7"
   ],
-  "practice_url": "https://quizforge.ai/?q=NSE%207%20Network%20Security%20Architect"
+  "practice_url": "https://quizforge.ai/?q=NSE%207%20Network%20Security%20Architect",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:47Z",
+    "evidence_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse_7"
+  }
 }

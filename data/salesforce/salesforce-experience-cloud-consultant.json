@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-experience-cloud-consultant",
   "exam_name": "Salesforce Certified Experience Cloud Consultant",
-  "exam_code": "Experience Cloud Consultant",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Experience Cloud Consultant",
   "version": "Winter '23 release",
@@ -283,7 +283,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://help.salesforce.com/s/articleView?id=005298944&type=1&language=en_US",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -316,5 +316,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Salesforce Certified Experience Cloud Consultant' exam guide live (60 questions / 105 minutes / passing 62%); no retirement wording; not in the 2027 retirements FAQ.",
     "evidence_url": "https://help.salesforce.com/s/articleView?id=005298944&type=1",
     "verified_at": "2026-09-14T20:05:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:16:09Z",
+    "evidence_url": "https://trailhead.salesforce.com/credentials/experiencecloudconsultant"
   }
 }

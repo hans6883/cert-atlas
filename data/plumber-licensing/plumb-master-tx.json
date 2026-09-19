@@ -1,7 +1,7 @@
 {
   "exam_id": "plumb-master-tx",
   "exam_name": "Texas Master Plumber Exam",
-  "exam_code": "TX-Master-P",
+  "exam_code": null,
   "certifying_body": "Plumber Licensing",
   "certification_name": null,
   "version": null,
@@ -109,5 +109,12 @@
     "texas master plumber exam",
     "tx-master-p"
   ],
-  "practice_url": "https://quizforge.ai/tests/texas-master-plumber-exam-2ye8dh"
+  "practice_url": "https://quizforge.ai/tests/texas-master-plumber-exam-2ye8dh",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:03:56Z",
+    "evidence_url": "https://tsbpe.texas.gov/license-types/master-plumber/"
+  }
 }

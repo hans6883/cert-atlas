@@ -1,7 +1,7 @@
 {
   "exam_id": "mongodb-associate-developer",
   "exam_name": "MongoDB Associate Developer Exam",
-  "exam_code": "C100DEV",
+  "exam_code": null,
   "certifying_body": "MongoDB",
   "certification_name": null,
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.mongodb.com/courses/mongodb-associate-developer-exam-study-guide",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -108,5 +108,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the MongoDB Associate Developer Exam page is live: 'Register Now'; Exam Details - 53 questions multiple choice, online proctored, 75 minutes, no prerequisites, $150 USD, English; Associate Developer Exam Study Guide.",
     "evidence_url": "https://learn.mongodb.com/pages/mongodb-associate-developer-exam",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:16:03Z",
+    "evidence_url": "https://learn.mongodb.com/pages/mongodb-associate-developer-exam"
   }
 }

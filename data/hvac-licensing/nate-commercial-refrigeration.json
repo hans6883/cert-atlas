@@ -1,7 +1,7 @@
 {
   "exam_id": "nate-commercial-refrigeration",
   "exam_name": "NATE Commercial Refrigeration",
-  "exam_code": "NATE-CR",
+  "exam_code": null,
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,12 +93,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://natex.org/wp-content/uploads/2020/06/Commercial-Refrigeration-Service-KATE.pdf",
   "official_study_resources": [],
   "aliases": [
     "nate commercial refrigeration",
     "nate-commercial-refrigeration",
     "nate-cr"
   ],
-  "practice_url": "https://quizforge.ai/tests/nate-commercial-refrigeration-2kt8o3"
+  "practice_url": "https://quizforge.ai/tests/nate-commercial-refrigeration-2kt8o3",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:41Z",
+    "evidence_url": "https://natex.org/certification/traditional-pathway/"
+  }
 }

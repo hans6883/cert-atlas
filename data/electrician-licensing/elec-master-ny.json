@@ -1,7 +1,7 @@
 {
   "exam_id": "elec-master-ny",
   "exam_name": "New York Master Electrician Exam (NYC)",
-  "exam_code": "NYC-Master-E",
+  "exam_code": null,
   "certifying_body": "Electrician Licensing",
   "certification_name": null,
   "version": null,
@@ -98,5 +98,12 @@
     "nyc",
     "nyc-master-e"
   ],
-  "practice_url": "https://quizforge.ai/tests/new-york-master-electrician-exam-nyc-2kc62q"
+  "practice_url": "https://quizforge.ai/tests/new-york-master-electrician-exam-nyc-2kc62q",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:04:09Z",
+    "evidence_url": "https://www.nyc.gov/site/buildings/industry/obtain-a-master-and-special-electrician-license.page"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "nes-essential-academic",
   "exam_name": "NES Essential Academic Skills (EAS)",
-  "exam_code": "NES-EAS",
+  "exam_code": null,
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
@@ -63,7 +63,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nestest.com/CCISWeb/TestView.aspx?f=HTML_FRAG/NT001_PrepMaterials.html",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -85,5 +85,12 @@
     "nes-eas",
     "nes-essential-academic"
   ],
-  "practice_url": "https://quizforge.ai/tests/nes-essential-academic-skills-eas-2m2cy8"
+  "practice_url": "https://quizforge.ai/tests/nes-essential-academic-skills-eas-2m2cy8",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:52:06Z",
+    "evidence_url": "https://www.nestest.com/CCISWeb/TestView.aspx?f=HTML_FRAG/NT001_TestPage.html"
+  }
 }

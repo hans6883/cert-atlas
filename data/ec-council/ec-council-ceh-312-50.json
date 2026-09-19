@@ -1,7 +1,7 @@
 {
   "exam_id": "ec-council-ceh-312-50",
   "exam_name": "Certified Ethical Hacker (CEH)",
-  "exam_code": "312-50",
+  "exam_code": null,
   "certifying_body": "EC-Council",
   "certification_name": "Certified Ethical Hacker (CEH)",
   "version": "v13",
@@ -460,7 +460,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -486,5 +486,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the cited CEH URL 302s to the CEH v13 (North America) page, live with the CEH AI program and exam; no retirement wording.",
     "evidence_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-v13-north-america/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:45Z",
+    "evidence_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
   }
 }

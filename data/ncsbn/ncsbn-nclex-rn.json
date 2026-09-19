@@ -1,7 +1,7 @@
 {
   "exam_id": "ncsbn-nclex-rn",
   "exam_name": "NCLEX-RN (National Council Licensure Examination for Registered Nurses)",
-  "exam_code": "NCLEX-RN",
+  "exam_code": null,
   "certifying_body": "NCSBN",
   "certification_name": null,
   "version": null,
@@ -123,7 +123,7 @@
       "weight_max": 17.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nclex.com/files/2026_RN_Test%20Plan_English-F.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -159,5 +159,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the NCLEX Test Plans page prints '2026 RN Test Plan - Effective April 1, 2026, through March 31, 2029' with the download link, and the PDF /files/2026_RN_Test%20Plan_English-F.pdf fetches plain ('NCLEX-RN Test Plan, Effective April 2026').",
     "evidence_url": "https://www.nclex.com/test-plans.page",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:50Z",
+    "evidence_url": "https://www.nclex.com/test-plans.page"
   }
 }

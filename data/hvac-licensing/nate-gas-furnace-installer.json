@@ -1,7 +1,7 @@
 {
   "exam_id": "nate-gas-furnace-installer",
   "exam_name": "NATE Gas Furnace Installer",
-  "exam_code": "NATE-GFI",
+  "exam_code": null,
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,12 +93,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://natex.org/wp-content/uploads/2022/06/kate_gsin.pdf",
   "official_study_resources": [],
   "aliases": [
     "nate gas furnace installer",
     "nate-gas-furnace-installer",
     "nate-gfi"
   ],
-  "practice_url": "https://quizforge.ai/tests/nate-gas-furnace-installer-2kqsvb"
+  "practice_url": "https://quizforge.ai/tests/nate-gas-furnace-installer-2kqsvb",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:39:13Z",
+    "evidence_url": "https://natex.org/technician/take-an-exam/traditional-pathway"
+  }
 }

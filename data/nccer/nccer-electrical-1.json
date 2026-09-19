@@ -1,7 +1,7 @@
 {
   "exam_id": "nccer-electrical-1",
   "exam_name": "NCCER Electrical Level 1",
-  "exam_code": "NCCER-ELEC1",
+  "exam_code": null,
   "certifying_body": "NCCER",
   "certification_name": null,
   "version": null,
@@ -109,7 +109,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nccer.org/media/2024/03/Electrical_11e_L1_Level-Test.pdf",
   "official_study_resources": [],
   "aliases": [
     "nccer electrical",
@@ -123,5 +123,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: NCCER serves the Electrical Level 1 (11th edition) level-test blueprint (module ids 26101-26112 with item counts).",
     "evidence_url": "https://www.nccer.org/media/2024/03/Electrical_11e_L1_Level-Test.pdf",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:48Z",
+    "evidence_url": "https://www.nccer.org/nccer-level-tests/"
   }
 }

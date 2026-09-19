@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-information-systems",
   "exam_name": "Information Systems and Computer Applications",
-  "exam_code": "INFO",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/information-systems",
   "official_study_resources": [],
   "aliases": [
     "clep information systems",
@@ -82,5 +82,18 @@
     "info",
     "information systems and computer applications"
   ],
-  "practice_url": "https://quizforge.ai/tests/information-systems-and-computer-applications-2tx9mz"
+  "practice_url": "https://quizforge.ai/tests/information-systems-and-computer-applications-2tx9mz",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-18: \"The Information Systems exam covers material usually taught in an introductory business course. Register for $97.00\"",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/information-systems",
+    "verified_at": "2026-09-19T06:01:09Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:16:12Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/information-systems"
+  }
 }

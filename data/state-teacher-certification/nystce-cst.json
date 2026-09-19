@@ -1,7 +1,7 @@
 {
   "exam_id": "nystce-cst",
   "exam_name": "NYSTCE Content Specialty Tests (varies by subject)",
-  "exam_code": "NYSTCE-CST",
+  "exam_code": null,
   "certifying_body": "State Teacher Certification",
   "certification_name": null,
   "version": null,
@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nystce.nesinc.com/content/docs/NY_fld04_objs.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -110,5 +110,12 @@
     "nystce cst",
     "nystce-cst"
   ],
-  "practice_url": "https://quizforge.ai/tests/nystce-content-specialty-tests-varies-by-subject-2wvcw9"
+  "practice_url": "https://quizforge.ai/tests/nystce-content-specialty-tests-varies-by-subject-2wvcw9",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:52:20Z",
+    "evidence_url": "https://www.nystce.nesinc.com/PageView.aspx?f=GEN_Tests.html"
+  }
 }

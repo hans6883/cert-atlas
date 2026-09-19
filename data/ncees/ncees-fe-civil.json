@@ -1,7 +1,7 @@
 {
   "exam_id": "ncees-fe-civil",
   "exam_name": "Fundamentals of Engineering (FE) – Civil",
-  "exam_code": "FE Civil",
+  "exam_code": null,
   "certifying_body": "NCEES",
   "certification_name": null,
   "version": null,
@@ -136,7 +136,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ncees.org/wp-content/uploads/2022/09/FE-Civil-CBT-specs-1.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -171,5 +171,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the NCEES FE exam page is live and lists the FE Civil discipline.",
     "evidence_url": "https://ncees.org/exams/fe-exam/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:46Z",
+    "evidence_url": "https://ncees.org/exams/fe-exam/"
   }
 }

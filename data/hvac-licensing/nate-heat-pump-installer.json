@@ -1,7 +1,7 @@
 {
   "exam_id": "nate-heat-pump-installer",
   "exam_name": "NATE Heat Pump Installer",
-  "exam_code": "NATE-HPI",
+  "exam_code": null,
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,12 +93,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://natex.org/wp-content/uploads/2021/06/Air-to-Air-Heat-Pump-Installation-KATE.pdf",
   "official_study_resources": [],
   "aliases": [
     "nate heat pump installer",
     "nate-heat-pump-installer",
     "nate-hpi"
   ],
-  "practice_url": "https://quizforge.ai/tests/nate-heat-pump-installer-2ks0rp"
+  "practice_url": "https://quizforge.ai/tests/nate-heat-pump-installer-2ks0rp",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:36Z",
+    "evidence_url": "https://natex.org/technician/take-an-exam/traditional-pathway"
+  }
 }

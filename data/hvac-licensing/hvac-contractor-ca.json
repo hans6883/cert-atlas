@@ -1,7 +1,7 @@
 {
   "exam_id": "hvac-contractor-ca",
   "exam_name": "California C-20 HVAC Contractor License Exam",
-  "exam_code": "CA-C20",
+  "exam_code": "C-20",
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,12 +93,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cslb.ca.gov/Resources/StudyGuides/C20StudyGuide.pdf",
   "official_study_resources": [],
   "aliases": [
     "ca-c20",
     "california c-20 hvac contractor license exam",
     "hvac-contractor-ca"
   ],
-  "practice_url": "https://quizforge.ai/tests/california-c-20-hvac-contractor-license-exam-2kvogu"
+  "practice_url": "https://quizforge.ai/tests/california-c-20-hvac-contractor-license-exam-2kvogu",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:15:44Z",
+    "evidence_url": "https://www.cslb.ca.gov/About_Us/Library/Licensing_Classifications/Licensing_Classifications_Detail.aspx?Class=C20"
+  }
 }
