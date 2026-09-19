@@ -1,7 +1,7 @@
 {
   "exam_id": "australia-citizenship",
   "exam_name": "Australian Citizenship Test",
-  "exam_code": "AUS-CIT",
+  "exam_code": null,
   "certifying_body": "Citizenship and Civics Tests",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://immi.homeaffairs.gov.au/citizenship/test-and-interview/our-common-bond",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -113,5 +113,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the Department of Home Affairs citizenship test page is live.",
     "evidence_url": "https://immi.homeaffairs.gov.au/citizenship/test-and-interview",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "civic_knowledge_test",
+    "label": "citizenship or civic knowledge test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:24Z",
+    "evidence_url": "https://immi.homeaffairs.gov.au/citizenship/test-and-interview/learn-about-citizenship-interview-and-test/learn-about-citizenship-test"
   }
 }

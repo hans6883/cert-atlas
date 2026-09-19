@@ -1,7 +1,7 @@
 {
   "exam_id": "uk-life-in-the-uk",
   "exam_name": "Life in the UK Test",
-  "exam_code": "LIUK",
+  "exam_code": null,
   "certifying_body": "Citizenship and Civics Tests",
   "certification_name": null,
   "version": null,
@@ -116,5 +116,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"This is the only official government service for booking the Life in the UK Test. You need to take the test as part of your application for British citizenship or settlement in the UK.\"",
     "evidence_url": "https://www.gov.uk/life-in-the-uk-test",
     "verified_at": "2026-09-18T03:04:49Z"
+  },
+  "credential": {
+    "type": "civic_knowledge_test",
+    "label": "citizenship or civic knowledge test",
+    "examination": true,
+    "verified_at": "2026-09-19T21:44:48Z",
+    "evidence_url": "https://www.gov.uk/life-in-the-uk-test"
   }
 }

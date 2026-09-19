@@ -1,7 +1,7 @@
 {
   "exam_id": "rces-echo",
   "exam_name": "RCES Registered Cardiac Electrophysiology Specialist",
-  "exam_code": "",
+  "exam_code": "RCES",
   "certifying_body": "Cardiovascular Credentialing International (CCI)",
   "version": null,
   "source_url": "https://cci-online.org/wp-content/uploads/2022/12/CCI_RCES_Exam_Overview_092019.pdf",
@@ -196,5 +196,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"The Registered Cardiac Electrophysiology Specialist (RCES) examination is for professionals working in the area of electrophysiology.\"",
     "evidence_url": "https://cci-online.org/credentials/registered-cardiac-electrophysiology-specialist/",
     "verified_at": "2026-09-18T03:55:42Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:19:58Z",
+    "evidence_url": "https://cci-online.org/credentials/registered-cardiac-electrophysiology-specialist/"
+  },
+  "official_objectives_url": "https://cci-online.org/wp-content/uploads/2022/12/CCI_RCES_Exam_Overview_092019.pdf"
 }

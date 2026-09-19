@@ -1,7 +1,7 @@
 {
   "exam_id": "ssc-mts",
   "exam_name": "SSC Multi-Tasking Staff",
-  "exam_code": "SSC MTS",
+  "exam_code": null,
   "certifying_body": "SSC (Staff Selection Commission)",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf",
   "official_study_resources": [
     {
       "resource_type": "website",
@@ -96,5 +96,12 @@
     "ssc multi-tasking staff",
     "ssc-mts"
   ],
-  "practice_url": "https://quizforge.ai/tests/ssc-mts"
+  "practice_url": "https://quizforge.ai/tests/ssc-mts",
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:25:27Z",
+    "evidence_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf"
+  }
 }

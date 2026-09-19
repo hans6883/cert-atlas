@@ -1,7 +1,7 @@
 {
   "exam_id": "nawt-pumper",
   "exam_name": "NAWT Pumping Technician",
-  "exam_code": "NAWT-PT",
+  "exam_code": null,
   "certifying_body": "Septic / Wastewater Licensing",
   "certification_name": null,
   "version": null,
@@ -88,5 +88,12 @@
     "nawt-pt",
     "nawt-pumper"
   ],
-  "practice_url": "https://quizforge.ai/tests/nawt-pumping-technician-2kkpdf"
+  "practice_url": "https://quizforge.ai/tests/nawt-pumping-technician-2kkpdf",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:19:54Z",
+    "evidence_url": "https://nawt.org/education-training/"
+  }
 }

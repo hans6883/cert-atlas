@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-pardot-specialist",
   "exam_name": "Salesforce Certified Pardot Specialist",
-  "exam_code": "Pardot Specialist",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Marketing Cloud Account Engagement Specialist",
   "version": "Summer '23 release",
@@ -225,5 +225,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: Trailhead credential page 'Marketing Cloud Account Engagement Specialist' (the Pardot Specialist exam under its current name) live; no retirement wording; the 2027 FAQ retires the Account Engagement CONSULTANT (row 13), not the Specialist.",
     "evidence_url": "https://trailhead.salesforce.com/en/credentials/marketingcloudaccountengagementspecialist",
     "verified_at": "2026-09-14T20:05:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:20:10Z",
+    "evidence_url": "https://trailhead.salesforce.com/credentials/marketingcloudaccountengagementspecialist"
   }
 }

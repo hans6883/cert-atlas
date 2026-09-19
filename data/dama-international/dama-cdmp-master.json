@@ -1,7 +1,7 @@
 {
   "exam_id": "dama-cdmp-master",
   "exam_name": "CDMP Data Management Master",
-  "exam_code": "CDMP Master",
+  "exam_code": null,
   "certifying_body": "DAMA International",
   "certification_name": null,
   "version": null,
@@ -136,7 +136,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://dama.org/certification/exam-information-and-pricing/",
   "official_study_resources": [
     {
       "resource_type": "book",
@@ -161,5 +161,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"The Master level recognizes individuals who not only score highly on certification exams but also bring significant real-world experience to the table.\"",
     "evidence_url": "https://dama.org/certification/cdmp-certification-levels/",
     "verified_at": "2026-09-18T03:35:21Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:08:43Z",
+    "evidence_url": "https://dama.org/certification/cdmp-certification-levels/"
   }
 }

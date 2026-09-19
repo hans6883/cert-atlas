@@ -1,7 +1,7 @@
 {
   "exam_id": "wonderlic-contemporary-cognitive-ability",
   "exam_name": "Wonderlic Contemporary Cognitive Ability Test (WCA)",
-  "exam_code": "WCA",
+  "exam_code": null,
   "certifying_body": "Wonderlic",
   "certification_name": null,
   "version": null,
@@ -65,5 +65,12 @@
     "wonderlic wca",
     "wonderlic-contemporary-cognitive-ability"
   ],
-  "practice_url": "https://quizforge.ai/tests/wonderlic-contemporary-cognitive-ability"
+  "practice_url": "https://quizforge.ai/tests/wonderlic-contemporary-cognitive-ability",
+  "credential": {
+    "type": "employment_assessment",
+    "label": "pre-employment assessment",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:09Z",
+    "evidence_url": "https://wonderlic.com/select-hiring-assessment/cognitive/"
+  }
 }

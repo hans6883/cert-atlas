@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-spanish-language",
   "exam_name": "AP Spanish Language and Culture",
-  "exam_code": "AP Spanish Lang",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apstudents.collegeboard.org/courses/ap-spanish-language-and-culture",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -115,5 +115,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"In AP Spanish Language and Culture, you’ll practice your communication skills in real-life situations as well as read and analyze Spanish literature.\"",
     "evidence_url": "https://apstudents.collegeboard.org/courses/ap-spanish-language-and-culture",
     "verified_at": "2026-09-18T03:35:21Z"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:07:58Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-spanish-language-and-culture"
   }
 }

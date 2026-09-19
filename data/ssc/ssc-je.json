@@ -1,7 +1,7 @@
 {
   "exam_id": "ssc-je",
   "exam_name": "SSC Junior Engineer",
-  "exam_code": "SSC JE",
+  "exam_code": null,
   "certifying_body": "SSC (Staff Selection Commission)",
   "certification_name": null,
   "version": null,
@@ -64,7 +64,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_28032024.pdf",
   "official_study_resources": [
     {
       "resource_type": "website",
@@ -91,5 +91,12 @@
     "ssc junior engineer",
     "ssc-je"
   ],
-  "practice_url": "https://quizforge.ai/tests/ssc-je"
+  "practice_url": "https://quizforge.ai/tests/ssc-je",
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:28:31Z",
+    "evidence_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_28032024.pdf"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "us-citizenship-civics-test",
   "exam_name": "US Citizenship Civics Test",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Citizenship and Civics Tests",
   "version": null,
   "source_url": "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
@@ -159,5 +159,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"USCIS will administer the 2025 Naturalization Civics Test to aliens who file Form N-400, Application for Naturalization on or after October 20, 2025.\"",
     "evidence_url": "https://www.uscis.gov/citizenship-resource-center/naturalization-test-and-study-resources/2025-civics-test",
     "verified_at": "2026-09-18T03:55:42Z"
-  }
+  },
+  "credential": {
+    "type": "civic_knowledge_test",
+    "label": "citizenship or civic knowledge test",
+    "examination": true,
+    "verified_at": "2026-09-19T22:19:57Z",
+    "evidence_url": "https://www.uscis.gov/citizenship-resource-center/naturalization-test-and-study-resources/2025-civics-test"
+  },
+  "official_objectives_url": "https://www.uscis.gov/citizenship-resource-center/naturalization-test-and-study-resources/2025-civics-test"
 }

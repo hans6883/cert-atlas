@@ -1,7 +1,7 @@
 {
   "exam_id": "nbpts-ecy-gen",
   "exam_name": "NBCT — Early Childhood through Young Adulthood/Career and Technical Education (EA/CTE)",
-  "exam_code": "EA/CTE",
+  "exam_code": null,
   "certifying_body": "NBPTS",
   "certification_name": null,
   "version": null,
@@ -89,7 +89,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nbpts.org/certification/candidate-center/first-time-and-returning-candidate-resources/",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -117,5 +117,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Updated: Generalist, Early Childhood (Aug. 2024)* Updated: Generalist, Middle Childhood (Aug. 2024)*\"",
     "evidence_url": "https://www.nbpts.org/certification/standards/",
     "verified_at": "2026-09-18T05:55:35Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:20:13Z",
+    "evidence_url": "https://www.nbpts.org/certification/"
   }
 }

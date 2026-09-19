@@ -1,7 +1,7 @@
 {
   "exam_id": "hashicorp-terraform-authoring-operations-professional-603",
   "exam_name": "HashiCorp Certified: Terraform Authoring and Operations Professional",
-  "exam_code": "Terraform Professional 603",
+  "exam_code": null,
   "certifying_body": "HashiCorp",
   "certification_name": null,
   "version": null,
@@ -121,5 +121,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: HashiCorp lists two Terraform certifications - 'Terraform Associate (004)' and 'HashiCorp Certified: Terraform Authoring and Operations Advanced' (Terraform 1.6, lab-based, 4 hours, $295, 'Register for the exam'); no retirement wording.",
     "evidence_url": "https://developer.hashicorp.com/certifications/infrastructure-automation",
     "verified_at": "2026-09-14T19:35:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:20:13Z",
+    "evidence_url": "https://www.hashicorp.com/en/blog/ace-your-terraform-professional-exam-5-tips-from-certified-pros"
   }
 }

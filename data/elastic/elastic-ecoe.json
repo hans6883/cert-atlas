@@ -1,7 +1,7 @@
 {
   "exam_id": "elastic-ecoe",
   "exam_name": "Elastic Certified Observability Engineer (ECOE)",
-  "exam_code": "ECOE",
+  "exam_code": null,
   "certifying_body": "Elastic",
   "certification_name": null,
   "version": null,
@@ -107,5 +107,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'The Elastic Certified Observability Engineer exam tests your knowledge and skills on using the Elastic Stack to implement observability ...', 'See full Elastic Certified Observability Engineer Exam schedule' (body text needs a render: 12,775 chars vs a 6,960-char nav shell to httpx).",
     "evidence_url": "https://www.elastic.co/training/elastic-certified-observability-engineer-exam",
     "verified_at": "2026-09-14T19:45:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:19:57Z",
+    "evidence_url": "https://www.elastic.co/training/certification/faq"
   }
 }

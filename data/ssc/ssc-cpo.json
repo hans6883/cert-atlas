@@ -1,7 +1,7 @@
 {
   "exam_id": "ssc-cpo",
   "exam_name": "SSC Central Police Organisations (Sub-Inspector)",
-  "exam_code": "SSC CPO",
+  "exam_code": null,
   "certifying_body": "SSC (Staff Selection Commission)",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/write-up%20CPO%202025.pdf",
   "official_study_resources": [
     {
       "resource_type": "website",
@@ -102,5 +102,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the SSC notice 'Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2026' is live: online applications 10.09.2026 to 30.09.2026; Paper-I, PST/PET, Paper-II and DME stages; 'Schedule of Computer Based Examination: To be notified later'.",
     "evidence_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:12:32Z",
+    "evidence_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/write-up%20CPO%202025.pdf"
   }
 }

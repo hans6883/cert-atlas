@@ -1,7 +1,7 @@
 {
   "exam_id": "isee-lower",
   "exam_name": "ISEE Lower Level",
-  "exam_code": "ISEE-L",
+  "exam_code": null,
   "certifying_body": "ISEE",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.erblearn.org/blog/what-is-the-isee/",
   "official_study_resources": [],
   "aliases": [
     "isee lower",
@@ -69,5 +69,12 @@
     "isee-l",
     "isee-lower"
   ],
-  "practice_url": "https://quizforge.ai/tests/isee-lower"
+  "practice_url": "https://quizforge.ai/tests/isee-lower",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T22:19:58Z",
+    "evidence_url": "https://www.erblearn.org/blog/what-is-the-isee/"
+  }
 }

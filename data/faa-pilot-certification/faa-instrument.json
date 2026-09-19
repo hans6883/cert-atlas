@@ -80,7 +80,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.faa.gov/training_testing/testing/acs",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -126,5 +126,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"IRA Instrument Rating Airplane 60 15 2.0 70\"",
     "evidence_url": "https://www.faa.gov/training_testing/testing/testing_matrix",
     "verified_at": "2026-09-18T03:55:42Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:20:41Z",
+    "evidence_url": "https://www.faa.gov/training_testing/testing/acs/acs_knowledge_test_table.pdf"
   }
 }

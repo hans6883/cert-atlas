@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.isaca.org/credentialing/cgeit/cgeit-exam-content-outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -229,5 +229,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'The Certified in the Governance of Enterprise IT (CGEIT) exam consists of 150 questions covering 4 job practice domains'; the only 'retired' string is the nav item 'Retired Credentials'.",
     "evidence_url": "https://www.isaca.org/credentialing/cgeit/cgeit-exam-content-outline",
     "verified_at": "2026-09-14T19:45:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:08:45Z",
+    "evidence_url": "https://www.isaca.org/credentialing/cgeit/cgeit-exam-content-outline"
   }
 }

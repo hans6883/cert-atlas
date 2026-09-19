@@ -1,7 +1,7 @@
 {
   "exam_id": "nna-notary-exam-tx",
   "exam_name": "Texas Notary Public (No exam required)",
-  "exam_code": "TX-Notary",
+  "exam_code": null,
   "certifying_body": "NNA / Notary",
   "certification_name": null,
   "version": null,
@@ -105,5 +105,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Applicants must complete the Notary Education Assessment at the end of the course, correctly answering 70% of the questions within 30 minutes to receive a proof of course completion.\"",
     "evidence_url": "https://www.nationalnotary.org/texas",
     "verified_at": "2026-09-18T06:28:09Z"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-19T22:19:56Z",
+    "evidence_url": "https://www.sos.state.tx.us/statdoc/notary-public.shtml"
   }
 }

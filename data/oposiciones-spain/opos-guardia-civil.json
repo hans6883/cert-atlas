@@ -1,7 +1,7 @@
 {
   "exam_id": "opos-guardia-civil",
   "exam_name": "Oposiciones Guardia Civil — Escala de Cabos y Guardias",
-  "exam_code": "GC Cabos y Guardias",
+  "exam_code": null,
   "certifying_body": "Oposiciones Spain",
   "certification_name": null,
   "version": null,
@@ -91,7 +91,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://web.guardiacivil.es/es/tramites/ingresos/ingresogc/proceso_selectivo_escalabasica",
   "official_study_resources": [
     {
       "resource_type": "syllabus",
@@ -260,5 +260,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the Guardia Civil's 'Ingreso en la Guardia Civil' page prints 'Provision de plazas en la Guardia Civil para el ano 2026 ... 3.240 plazas para ingreso en la Escala de Cabos y Guardias de la Guardia Civil' and describes the selection process ('Acceso a la Escala de Cabos y Guardias', convocatoria published in the BOE).",
     "evidence_url": "https://www.guardiacivil.es/es/tramites/ingresos/ingresogc/",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-19T20:48:08Z",
+    "evidence_url": "https://web.guardiacivil.es/es/tramites/ingresos/ingresogc/proceso_selectivo_escalabasica"
   }
 }

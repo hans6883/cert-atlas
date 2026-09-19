@@ -1,7 +1,7 @@
 {
   "exam_id": "upsc-ese",
   "exam_name": "Engineering Services Examination (IES)",
-  "exam_code": "ESE/IES",
+  "exam_code": null,
   "certifying_body": "UPSC (Union Public Service Commission)",
   "certification_name": null,
   "version": null,
@@ -64,7 +64,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf",
   "official_study_resources": [
     {
       "resource_type": "website",
@@ -91,5 +91,12 @@
     "ies",
     "upsc-ese"
   ],
-  "practice_url": "https://quizforge.ai/tests/engineering-services-examination-ies-2nk0j2"
+  "practice_url": "https://quizforge.ai/tests/engineering-services-examination-ies-2nk0j2",
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:30:27Z",
+    "evidence_url": "https://www.upsc.gov.in/examinations/Engineering%20Services%20%28Preliminary%29%20Examination%2C%202026"
+  }
 }

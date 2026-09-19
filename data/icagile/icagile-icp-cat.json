@@ -1,33 +1,11 @@
 {
   "exam_id": "icagile-icp-cat",
   "exam_name": "ICAgile Certified Professional — Coaching Agile Transitions (ICP-CAT)",
-  "exam_code": "ICP-CAT",
+  "exam_code": null,
   "certifying_body": "ICAgile",
   "certification_name": null,
   "version": null,
   "source_url": "https://www.icagile.com/certifications/coaching-agile-transitions",
-  "passing_score": null,
-  "passing_score_scale": null,
-  "total_questions": null,
-  "question_types": [
-    "Course Completion and Competency Assessment"
-  ],
-  "exam_format": "Instructor-led course with competency assessment (not a standalone exam)",
-  "duration_minutes": null,
-  "exam_price_usd": 0.0,
-  "exam_price_notes": null,
-  "voucher_url": null,
-  "exam_registration_url": "https://www.icagile.com/certifications",
-  "testing_centers": [
-    {
-      "provider": "Authorized ICAgile Training Provider",
-      "scheduling_url": "https://www.icagile.com/certifications",
-      "notes": "All ICAgile certifications are earned through attending courses from ICAgile-authorized training providers. No external testing center required."
-    }
-  ],
-  "online_proctoring_available": false,
-  "id_requirements": "ICAgile account required. Completed through authorized training provider.",
-  "exam_rules": "Certifications earned through course completion and competency assessment with an ICAgile-authorized provider. No standalone proctored exam. Training providers assess competency during course.",
   "certification_validity_years": null,
   "renewal_required": false,
   "renewal_options": "ICAgile certifications do not expire.",
@@ -43,38 +21,6 @@
       "prerequisite_type": "certification",
       "description": "ICP-ACC required",
       "is_required": true
-    }
-  ],
-  "retake_policy": {
-    "waiting_period_days": null,
-    "max_attempts_per_year": null,
-    "max_attempts_total": null,
-    "notes": "No retake needed — certifications awarded upon completing the course with an authorized provider."
-  },
-  "domains": [
-    {
-      "id": "1",
-      "name": "Transition Planning and Strategy",
-      "weight_percent": 30.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Change Resistance and Adoption",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Stakeholder Engagement",
-      "weight_percent": 25.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Measuring Agile Maturity",
-      "weight_percent": 20.0,
-      "objectives": []
     }
   ],
   "official_objectives_url": null,
@@ -97,11 +43,17 @@
     "icagile-icp-cat",
     "icp-cat"
   ],
-  "practice_url": "https://quizforge.ai/tests/icagile-certified-professional-%E2%80%94-coaching-agile-transitions-icp-cat-32cwm8",
   "lifecycle": {
     "status": "current",
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"As one of ICAgile’s most advanced knowledge-based certifications, the ICP-CAT Coaching Agile Transformations certification validates knowledge of how to coach leaders and align agile teams to achieve successful transformations.\"",
     "evidence_url": "https://www.icagile.com/certification/coaching-agile-transformations",
     "verified_at": "2026-09-18T03:55:42Z"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-19T22:20:14Z",
+    "evidence_url": "https://www.icagile.com/certification/coaching-agile-transformations"
   }
 }

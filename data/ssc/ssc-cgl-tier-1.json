@@ -1,7 +1,7 @@
 {
   "exam_id": "ssc-cgl-tier-1",
   "exam_name": "SSC Combined Graduate Level Tier I",
-  "exam_code": "SSC CGL Tier I",
+  "exam_code": null,
   "certifying_body": "SSC (Staff Selection Commission)",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ssc.gov.in/api/attachment/uploads/masterData/Syllabus/CGL-syllabus-169635-.pdf",
   "official_study_resources": [
     {
       "resource_type": "website",
@@ -102,5 +102,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the SSC 'Combined Graduate Level Examination, 2026' notice (F. No. HQ-C11018/1/2026-C-1) is live: applications 21.05.2026 to 22.06.2026; 'Tentative Schedule of Tier-I (Computer Based Examination) August-September, 2026'; the 12.09.2026 schedule notice fixes Tier-I at 30 September - 30 October 2026.",
     "evidence_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-19T20:48:04Z",
+    "evidence_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/CGLE_2025_Update_26092025.pdf"
   }
 }

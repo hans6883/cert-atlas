@@ -1,7 +1,7 @@
 {
   "exam_id": "databricks-gen-ai-engineer-associate",
   "exam_name": "Databricks Certified Generative AI Engineer Associate",
-  "exam_code": "Gen AI Engineer Associate",
+  "exam_code": null,
   "certifying_body": "Databricks",
   "certification_name": "Databricks Certified Generative AI Engineer Associate",
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.databricks.com/exam-delivery-platform",
+  "official_objectives_url": "https://www.databricks.com/sites/default/files/2026-03/Databricks-Certified-Generative-AI-Engineer-Associate-Exam-Guide-Mar26.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -117,5 +117,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification page live: 'Register for the exam', 'Validity period: 2 years', exam guide linked.",
     "evidence_url": "https://www.databricks.com/learn/certification/genai-engineer-associate",
     "verified_at": "2026-09-14T19:45:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:08:30Z",
+    "evidence_url": "https://www.databricks.com/learn/certification/genai-engineer-associate"
   }
 }
