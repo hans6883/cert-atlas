@@ -1,7 +1,7 @@
 {
   "exam_id": "cambridge-c2-proficiency",
   "exam_name": "Cambridge C2 Proficiency (CPE)",
-  "exam_code": "CPE",
+  "exam_code": "C2 Proficiency",
   "certifying_body": "Cambridge English",
   "certification_name": "C2 Proficiency (CPE)",
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cambridgeenglish.org/exams-and-tests/proficiency/exam-format/",
   "official_study_resources": [
     {
       "resource_type": "exam_preparation",
@@ -97,5 +97,12 @@
     "certificate of proficiency in english",
     "cpe"
   ],
-  "practice_url": "https://quizforge.ai/tests/cambridge-c2-proficiency-cpe-2piqp9"
+  "practice_url": "https://quizforge.ai/tests/cambridge-c2-proficiency-cpe-2piqp9",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:51Z",
+    "evidence_url": "https://www.cambridgeenglish.org/exams-and-tests/proficiency/"
+  }
 }

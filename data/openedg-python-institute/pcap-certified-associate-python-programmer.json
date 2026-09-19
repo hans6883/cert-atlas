@@ -1,7 +1,7 @@
 {
   "exam_id": "pcap-certified-associate-python-programmer",
   "exam_name": "PCAP Certified Associate in Python Programming (PCAP-31-03)",
-  "exam_code": "",
+  "exam_code": "PCAP-31-03",
   "certifying_body": "OpenEDG Python Institute",
   "version": null,
   "source_url": "https://pythoninstitute.org/pcap-exam-syllabus",
@@ -203,5 +203,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the PCAP-31-0x exam syllabus page is live.",
     "evidence_url": "https://pythoninstitute.org/pcap-exam-syllabus",
     "verified_at": "2026-09-15T22:30:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:09Z",
+    "evidence_url": "https://pythoninstitute.org/pcap"
+  },
+  "official_objectives_url": "https://pythoninstitute.org/pcap-exam-syllabus"
 }

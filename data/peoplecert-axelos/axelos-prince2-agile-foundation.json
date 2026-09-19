@@ -1,7 +1,7 @@
 {
   "exam_id": "axelos-prince2-agile-foundation",
   "exam_name": "PRINCE2 Agile Foundation",
-  "exam_code": "PRINCE2 Agile Foundation",
+  "exam_code": null,
   "certifying_body": "PeopleCert (AXELOS)",
   "certification_name": null,
   "version": null,
@@ -94,5 +94,12 @@
     "prince2 agile foundation",
     "prince2 agile foundation version 2"
   ],
-  "practice_url": "https://quizforge.ai/tests/prince2-agile"
+  "practice_url": "https://quizforge.ai/tests/prince2-agile",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:47Z",
+    "evidence_url": "https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-Agile-28/prince2-agile-practitioner-4076"
+  }
 }

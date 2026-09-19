@@ -1,7 +1,7 @@
 {
   "exam_id": "nes-mathematics",
   "exam_name": "NES Mathematics",
-  "exam_code": "NES Math",
+  "exam_code": "304",
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aepa.nesinc.com/Content/Docs/NES_Profile_304.pdf",
   "official_study_resources": [],
   "aliases": [
     "national evaluation series mathematics",
@@ -88,5 +88,12 @@
     "nes-304",
     "nes-mathematics"
   ],
-  "practice_url": "https://quizforge.ai/tests/nes-mathematics-304-2m3kum"
+  "practice_url": "https://quizforge.ai/tests/nes-mathematics-304-2m3kum",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:38Z",
+    "evidence_url": "https://www.west.nesinc.com/TestView.aspx?f=HTML_FRAG%2FNT304_TestPage.html"
+  }
 }

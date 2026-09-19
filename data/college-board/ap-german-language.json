@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-german-language",
   "exam_name": "AP German Language and Culture",
-  "exam_code": "AP German",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-german-language-and-culture-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -287,5 +287,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the AP German Language and Culture page is live.",
     "evidence_url": "https://apstudents.collegeboard.org/courses/ap-german-language-and-culture",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:10:28Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-german-language-and-culture"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "jlpt-n2",
   "exam_name": "JLPT N2 (Upper Intermediate)",
-  "exam_code": "JLPT N2",
+  "exam_code": "N2",
   "certifying_body": "JLPT",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.jlpt.jp/e/about/levelsummary.html",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -108,5 +108,12 @@
     "jlpt n2 upper intermediate",
     "jlpt-n2"
   ],
-  "practice_url": "https://quizforge.ai/tests/jlpt-n2-japanese-language-proficiency"
+  "practice_url": "https://quizforge.ai/tests/jlpt-n2-japanese-language-proficiency",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:13Z",
+    "evidence_url": "https://www.jlpt.jp/e/about/levelsummary.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "cpa-australia-ethics-governance",
   "exam_name": "CPA Program: Ethics and Governance",
-  "exam_code": "EG",
+  "exam_code": null,
   "certifying_body": "CPA Australia",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cpaaustralia.com.au/-/media/project/cpa/corporate/documents/become-a-cpa/cpa-program/cpa-program-subject-outline---ethics-and-governance---fourth-edition--updated.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -107,5 +107,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the CPA Program subjects guide lists Ethics and Governance as a live subject.",
     "evidence_url": "https://www.cpaaustralia.com.au/your-cpa-program/subjects-and-course-guide",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:12Z",
+    "evidence_url": "https://www.cpaaustralia.com.au/your-cpa-program/subjects-and-course-guide/ethics-and-governance"
   }
 }

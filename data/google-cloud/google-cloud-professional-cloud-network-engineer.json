@@ -1,7 +1,7 @@
 {
   "exam_id": "google-cloud-professional-cloud-network-engineer",
   "exam_name": "Professional Cloud Network Engineer",
-  "exam_code": "PCNE",
+  "exam_code": null,
   "certifying_body": "Google Cloud",
   "certification_name": null,
   "version": null,
@@ -80,7 +80,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cloud.google.com/learn/certification/guides/cloud-network-engineer",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -112,5 +112,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification page live: 'Prepare and register', 'Register'.",
     "evidence_url": "https://cloud.google.com/learn/certification/cloud-network-engineer",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:45Z",
+    "evidence_url": "https://cloud.google.com/learn/certification/cloud-network-engineer"
   }
 }

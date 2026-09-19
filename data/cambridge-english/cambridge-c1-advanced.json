@@ -1,7 +1,7 @@
 {
   "exam_id": "cambridge-c1-advanced",
   "exam_name": "Cambridge C1 Advanced (CAE)",
-  "exam_code": "CAE",
+  "exam_code": "C1 Advanced",
   "certifying_body": "Cambridge English",
   "certification_name": "C1 Advanced (CAE)",
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cambridgeenglish.org/exams-and-tests/advanced/exam-format/",
   "official_study_resources": [
     {
       "resource_type": "exam_preparation",
@@ -97,5 +97,12 @@
     "cambridge-c1-advanced",
     "certificate in advanced english"
   ],
-  "practice_url": "https://quizforge.ai/tests/cambridge-c1-advanced-cae-2phisv"
+  "practice_url": "https://quizforge.ai/tests/cambridge-c1-advanced-cae-2phisv",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:49Z",
+    "evidence_url": "https://www.cambridgeenglish.org/exams-and-tests/advanced/"
+  }
 }

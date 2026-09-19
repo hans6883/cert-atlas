@@ -1,7 +1,7 @@
 {
   "exam_id": "axelos-prince2-practitioner",
   "exam_name": "PRINCE2 7th Edition Practitioner",
-  "exam_code": "PRINCE2 Practitioner",
+  "exam_code": null,
   "certifying_body": "PeopleCert (AXELOS)",
   "certification_name": null,
   "version": null,
@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-practitioner-3581",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -100,5 +100,12 @@
     "prince2 practitioner",
     "prince2 project management practitioner version 7"
   ],
-  "practice_url": "https://quizforge.ai/tests/prince2-7th-edition-practitioner"
+  "practice_url": "https://quizforge.ai/tests/prince2-7th-edition-practitioner",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:10Z",
+    "evidence_url": "https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-practitioner-3581"
+  }
 }

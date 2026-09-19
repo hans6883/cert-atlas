@@ -200,5 +200,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Implementing Cisco Data Center Core Technologies (350-601 DCCOR) v1.1 is a 120-minute [exam] that certifies ...', 'Schedule'/'Register' present (Playwright domcontentloaded + 10 s, 23,796 chars; the only 'end-of-life' string is the products footer).",
     "evidence_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/dccor.html",
     "verified_at": "2026-09-14T19:45:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:12:11Z",
+    "evidence_url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/datacenter/ccnp-data-center/exams-and-training.html"
+  },
+  "official_objectives_url": "https://learningcontent.cisco.com/documents/marketing/exam-topics/350-601-DCCOR-v1.1.pdf"
 }

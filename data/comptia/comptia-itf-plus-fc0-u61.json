@@ -1,7 +1,7 @@
 {
   "exam_id": "comptia-itf-plus-fc0-u61",
   "exam_name": "CompTIA ITF+ (IT Fundamentals)",
-  "exam_code": "FC0-U61",
+  "exam_code": "FC0-U71",
   "certifying_body": "CompTIA",
   "certification_name": "CompTIA Tech+",
   "version": "V6",
@@ -296,7 +296,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-it-fundamentals-fc0-u61-exam-objectives",
+  "official_objectives_url": "https://www.comptia.org/en-us/certifications/tech/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -347,5 +347,12 @@
     "summary": "CompTIA retired FC0-U61. FC0-U71 is the named replacement path.",
     "evidence_url": "https://www.comptia.org/en-us/blog/get-answers-to-your-comptia-tech-questions/",
     "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:11Z",
+    "evidence_url": "https://www.comptia.org/en-us/certifications/tech/"
   }
 }

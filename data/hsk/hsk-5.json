@@ -1,7 +1,7 @@
 {
   "exam_id": "hsk-5",
   "exam_name": "HSK Level 5 (五级)",
-  "exam_code": "HSK 5",
+  "exam_code": null,
   "certifying_body": "HSK",
   "certification_name": null,
   "version": null,
@@ -68,7 +68,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.chinesetest.cn/userfiles/file/dagang/HSK5.pdf",
   "official_study_resources": [
     {
       "resource_type": "syllabus",
@@ -100,5 +100,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the HSK Level 5 page is live ('HSK (Level 5) has a total of 100 questions ... about 125 minutes').",
     "evidence_url": "https://www.chinesetest.cn/HSK/5",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T07:10:50Z",
+    "evidence_url": "https://www.chinesetest.cn/HSK/5"
   }
 }

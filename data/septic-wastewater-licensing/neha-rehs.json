@@ -1,7 +1,7 @@
 {
   "exam_id": "neha-rehs",
   "exam_name": "NEHA Registered Environmental Health Specialist (REHS) Exam",
-  "exam_code": "NEHA-REHS",
+  "exam_code": "REHS/RS",
   "certifying_body": "Septic / Wastewater Licensing",
   "certification_name": null,
   "version": null,
@@ -81,12 +81,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.neha.org/PDFs/REHS-RS-exam-content.pdf",
   "official_study_resources": [],
   "aliases": [
     "neha registered environmental health specialist rehs exam",
     "neha-rehs",
     "rehs"
   ],
-  "practice_url": "https://quizforge.ai/tests/neha-registered-environmental-health-specialist-rehs"
+  "practice_url": "https://quizforge.ai/tests/neha-registered-environmental-health-specialist-rehs",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:17Z",
+    "evidence_url": "https://www.neha.org/rehs-rs-credential"
+  }
 }

@@ -105,7 +105,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "CCSP Exam Outline",
+  "official_objectives_url": "https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -137,5 +137,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Register', 'Exam Outline' with the six domains listed.",
     "evidence_url": "https://www.isc2.org/certifications/ccsp",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:55Z",
+    "evidence_url": "https://www.isc2.org/certifications/ccsp"
   }
 }

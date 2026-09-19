@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://students-residents.aamc.org/media/9261/download",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -231,5 +231,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: AAMC's page announces registration for the 2027 MCAT testing season.",
     "evidence_url": "https://students-residents.aamc.org/register-mcat-exam/2027-mcat-registration-opening",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:24Z",
+    "evidence_url": "https://students-residents.aamc.org/about-mcat-exam/about-mcat-exam"
   }
 }

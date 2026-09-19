@@ -1,7 +1,7 @@
 {
   "exam_id": "hashicorp-terraform-associate-003",
   "exam_name": "HashiCorp Certified: Terraform Associate (003)",
-  "exam_code": "Terraform Associate 003",
+  "exam_code": "004",
   "certifying_body": "HashiCorp",
   "certification_name": null,
   "version": null,
@@ -102,7 +102,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://developer.hashicorp.com/certifications/infrastructure-automation",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -122,5 +122,12 @@
     "terraform associate",
     "terraform associate 003"
   ],
-  "practice_url": "https://quizforge.ai/tests/hashicorp-terraform-associate-003"
+  "practice_url": "https://quizforge.ai/tests/hashicorp-terraform-associate-003",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:05Z",
+    "evidence_url": "https://developer.hashicorp.com/certifications/infrastructure-automation"
+  }
 }

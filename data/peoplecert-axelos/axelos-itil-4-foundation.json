@@ -1,7 +1,7 @@
 {
   "exam_id": "axelos-itil-4-foundation",
   "exam_name": "ITIL 4 Foundation",
-  "exam_code": "ITIL 4 Foundation",
+  "exam_code": null,
   "certifying_body": "PeopleCert (AXELOS)",
   "certification_name": null,
   "version": null,
@@ -133,5 +133,12 @@
     "summary": "PeopleCert plans to sunset all ITIL 4 modules, ITIL 4 Foundation included, on 31 December 2027 (ITIL FAQ: 'The current plan is to sunset all ITIL 4 modules on 31 December 2027.'). The Foundation module of the successor scheme is ITIL Foundation (Version 5) ('the new Foundation module'); ITIL 4 Foundation holders need not retake it to progress, and may take the optional one-day ITIL Foundation Bridge (Version 5) (itself scheduled to retire 31 December 2027).",
     "evidence_url": "https://www.peoplecert.org/help-and-support/faq-itil",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:27Z",
+    "evidence_url": "https://www.peoplecert.org/itil-4-foundation"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "splunk-cloud-certified-admin",
   "exam_name": "Splunk Cloud Certified Admin",
-  "exam_code": "SPLK-1005",
+  "exam_code": null,
   "certifying_body": "Splunk",
   "certification_name": "Splunk Cloud Certified Admin",
   "version": null,
@@ -233,7 +233,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.splunk.com/en_us/pdfs/training/splunk-test-blueprint-cloud-admin.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -284,5 +284,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification-track page live with 'Schedule Exam' (SPLK-1005).",
     "evidence_url": "https://www.splunk.com/en_us/training/certification-track/splunk-cloud-certified-admin.html",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:22:59Z",
+    "evidence_url": "https://www.splunk.com/en_us/training/certification-track/splunk-cloud-certified-admin.html"
   }
 }

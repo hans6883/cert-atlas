@@ -1,31 +1,11 @@
 {
   "exam_id": "google-it-support",
   "exam_name": "Google IT Support Professional Certificate",
-  "exam_code": "Google IT Support",
+  "exam_code": null,
   "certifying_body": "Google Career Certificates",
   "certification_name": null,
   "version": null,
   "source_url": "https://grow.google/certificates/it-support/",
-  "passing_score": null,
-  "passing_score_scale": null,
-  "total_questions": null,
-  "question_types": [],
-  "exam_format": null,
-  "duration_minutes": null,
-  "exam_price_usd": null,
-  "exam_price_notes": "Coursera subscription ~$49/month (~$294 for 6 months); financial aid available; no separate exam fee",
-  "voucher_url": null,
-  "exam_registration_url": null,
-  "testing_centers": [
-    {
-      "provider": "Coursera (online, self-paced)",
-      "scheduling_url": "https://www.coursera.org/google-certificates",
-      "notes": null
-    }
-  ],
-  "online_proctoring_available": true,
-  "id_requirements": "Coursera account; Google certificate credential shared via Credly badge upon completion",
-  "exam_rules": "No single timed proctored exam. Assessment is embedded across courses: multiple-choice quizzes (≥80% to pass), hands-on labs, peer-reviewed projects, and a capstone project. Learners can retry quizzes up to 3 times per attempt.",
   "certification_validity_years": null,
   "renewal_required": false,
   "renewal_options": "Certificates do not expire; no formal renewal required. Google recommends keeping skills current through continued learning.",
@@ -45,44 +25,6 @@
       "prerequisite_type": "recommended",
       "description": "None; no prior experience or degree required; basic computer literacy helpful",
       "is_required": false
-    }
-  ],
-  "retake_policy": {
-    "waiting_period_days": 0,
-    "max_attempts_per_year": null,
-    "max_attempts_total": null,
-    "notes": "Quizzes can be retaken; no limit on course re-enrolment; learners progress at their own pace"
-  },
-  "domains": [
-    {
-      "id": "1",
-      "name": "Technical Support Fundamentals (hardware, software, troubleshooting)",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "The Bits and Bytes of Computer Networking (TCP/IP, DNS, DHCP, VPN)",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Operating Systems (Windows, Linux, ChromeOS, command line)",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "System Administration and IT Infrastructure Services (cloud, directory services)",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "IT Security (CIA triad, cryptography, network security, incident response)",
-      "weight_percent": 20.0,
-      "objectives": []
     }
   ],
   "official_objectives_url": null,
@@ -120,7 +62,6 @@
     "google it support professional certificate",
     "google-it-support"
   ],
-  "practice_url": "https://quizforge.ai/tests/google-it-support-professional-certificate-2vpwb9",
   "editorial": {
     "meta_description": "Prepare for the Google IT Support Professional Certificate covering hardware, networking, operating systems, system administration, and IT security.",
     "overview": "The Google IT Support Professional Certificate is offered by Google Career Certificates. This complete program covers five distinct domains spanning technical support fundamentals, computer networking, operating systems, system administration, and IT infrastructure services along with IT security, offering a structured curriculum designed for aspiring information technology professionals entering the modern workforce.",
@@ -256,5 +197,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the Google IT Support Certificate page is live.",
     "evidence_url": "https://grow.google/certificates/it-support/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-19T07:11:59Z",
+    "evidence_url": "https://grow.google/certificates/it-support/"
   }
 }

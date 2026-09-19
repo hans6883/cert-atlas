@@ -1,7 +1,7 @@
 {
   "exam_id": "naea-see-part3",
   "exam_name": "SEE Part 3 — Representation, Practices and Procedures (EA Part 3)",
-  "exam_code": "EA Part 3",
+  "exam_code": "SEE Part 3",
   "certifying_body": "NAEA (Enrolled Agent)",
   "certification_name": null,
   "version": null,
@@ -78,7 +78,7 @@
       "weight_max": 16.47
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.irs.gov/tax-professionals/enrolled-agents/sample-special-enrollment-examination-questions-and-answers",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -105,5 +105,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the IRS 'Become an enrolled agent' page is live and announces 'Effective March 1, 2026, the IRS Enrolled Agent Special Enrollment Exam (EA-SEE) is no longer developed and administered by Prometric, LLC. A new vendor, PSI Services, has been selected'; the exam continues (registration reopened May 1, 2026 per naea.org).",
     "evidence_url": "https://www.irs.gov/tax-professionals/enrolled-agents/become-an-enrolled-agent",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:41Z",
+    "evidence_url": "https://www.irs.gov/tax-professionals/enrolled-agents/sample-special-enrollment-examination-questions-and-answers"
   }
 }

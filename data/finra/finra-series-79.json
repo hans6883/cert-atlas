@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.finra.org/sites/default/files/Series_79_Content_Outline.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -95,5 +95,12 @@
     "s79",
     "series 79"
   ],
-  "practice_url": "https://quizforge.ai/tests/finra-series-79-investment-banking-representative"
+  "practice_url": "https://quizforge.ai/tests/finra-series-79-investment-banking-representative",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:40Z",
+    "evidence_url": "https://www.finra.org/registration-exams-ce/qualification-exams/series79"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "cpce-counselor-preparation-comprehensive-examination",
   "exam_name": "LPC-CPCE - Counselor Preparation Comprehensive Examination",
-  "exam_code": "",
+  "exam_code": "CPCE",
   "certifying_body": "Center for Credentialing & Education (CCE)",
   "version": null,
   "source_url": "https://www.cce-global.org/assets/cpce/cpce-handbook.pdf",
@@ -246,5 +246,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the CPCE Candidate Handbook PDF on cce-global.org is served (Pearson VUE delivery options, exam content); no retirement wording.",
     "evidence_url": "https://www.cce-global.org/assets/cpce/cpce-handbook.pdf",
     "verified_at": "2026-09-15T22:30:00Z"
-  }
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:58:51Z",
+    "evidence_url": "https://www.cce-global.org/cpce"
+  },
+  "official_objectives_url": "https://www.cce-global.org/assets/cpce/cpce-content-outline.pdf"
 }

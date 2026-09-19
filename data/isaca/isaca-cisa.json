@@ -89,7 +89,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.isaca.org/credentialing/cisa/cisa-exam-content-outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -267,5 +267,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: ISACA CISA page live with registration/scheduling and exam prep; the only 'retired' string is the site nav item 'Retired Credentials'.",
     "evidence_url": "https://www.isaca.org/credentialing/cisa",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:58:50Z",
+    "evidence_url": "https://www.isaca.org/credentialing/cisa"
   }
 }

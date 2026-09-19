@@ -1,7 +1,7 @@
 {
   "exam_id": "epa-608-core",
   "exam_name": "EPA 608 Core Exam",
-  "exam_code": "EPA-608-Core",
+  "exam_code": null,
   "certifying_body": "EPA Section 608",
   "certification_name": null,
   "version": null,
@@ -88,7 +88,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.epa.gov/section608/section-608-technician-certification-test-topics",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -123,5 +123,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: EPA's Section 608 technician certification requirements page is live and describes the core test ('The core test must be taken as a proctored exam in order to attain Universal Certification').",
     "evidence_url": "https://www.epa.gov/section608/section-608-technician-certification-requirements",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:54Z",
+    "evidence_url": "https://www.epa.gov/section608/section-608-technician-certification"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "faa-atp",
   "exam_name": "FAA Airline Transport Pilot Knowledge Test (ATP)",
-  "exam_code": "ATP",
+  "exam_code": "ATM",
   "certifying_body": "FAA Pilot Certification",
   "certification_name": null,
   "version": null,
@@ -134,7 +134,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -366,5 +366,12 @@
     "summary": "FAA Pilot Certification retired FAA Airline Transport Pilot Written Knowledge Test Practice Test. ATM is the collective replacement path.",
     "evidence_url": "https://www.faa.gov/training_testing/testing/testing_matrix",
     "verified_at": "2026-08-29T05:37:22+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:05Z",
+    "evidence_url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/test_questions/atm_questions.pdf"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "nasm-wls",
   "exam_name": "NASM Weight Loss Specialist (WLS)",
-  "exam_code": "NASM-WLS",
+  "exam_code": "WLS",
   "certifying_body": "NASM",
   "certification_name": null,
   "version": null,
@@ -106,5 +106,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the WLS product page prints 'The NASM WLS exam is online and open-book. It has 100 multiple-choice questions, a 90-minute limit, and a 70% passing score'.",
     "evidence_url": "https://www.nasm.org/products/weight-loss-specialization-bogo",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:58:35Z",
+    "evidence_url": "https://www.nasm.org/products/weight-loss-specialization-bogo"
   }
 }

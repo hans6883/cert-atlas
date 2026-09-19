@@ -1,7 +1,7 @@
 {
   "exam_id": "epa-608-universal",
   "exam_name": "EPA 608 Universal Certification",
-  "exam_code": "EPA-608-Universal",
+  "exam_code": null,
   "certifying_body": "EPA Section 608",
   "certification_name": null,
   "version": null,
@@ -100,7 +100,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.epa.gov/section608/test-topics",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -139,5 +139,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: EPA's Section 608 technician certification requirements page names the Universal certification ('For servicing all types of equipment (Universal)').",
     "evidence_url": "https://www.epa.gov/section608/section-608-technician-certification-requirements",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:47Z",
+    "evidence_url": "https://www.epa.gov/section608/section-608-technician-certification-requirements"
   }
 }

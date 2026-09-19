@@ -120,7 +120,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=aea18704977bb294e7b47b70f053af01",
+  "official_objectives_url": "https://learning.servicenow.com/lxp/en/credentials/certified-system-administrator-mainline-exam-blueprint?id=kb_article_view&sysparm_article=KB0011554",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -146,5 +146,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: Now Learning CSA credential page: 'This certification validates their ability to navigate the platform, configure applications, manage databases, and implement self-service and automation.'",
     "evidence_url": "https://learning.servicenow.com/lxp/en/now-platform/certified-system-administrator-csa?id=learning_content_prev&course_id=bc49278a47f8b21019dfe23c326d4390",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:10:47Z",
+    "evidence_url": "https://learning.servicenow.com/lxp/en/credentials/certified-system-administrator-mainline-exam-blueprint?id=kb_article_view&sysparm_article=KB0011554"
   }
 }

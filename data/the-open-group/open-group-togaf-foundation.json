@@ -1,7 +1,7 @@
 {
   "exam_id": "open-group-togaf-foundation",
   "exam_name": "TOGAF® Foundation (Level 1)",
-  "exam_code": "OG0-091",
+  "exam_code": "OGEA-101",
   "certifying_body": "The Open Group",
   "certification_name": null,
   "version": null,
@@ -94,7 +94,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certification.opengroup.org/docs/datasheets/togaf-exams.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -128,5 +128,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: The Open Group's TOGAF certification portfolio page lists 'TOGAF 9 Foundation [PDF Datasheet]' alongside the 10th Edition paths ('Learning paths introduced to support the TOGAF Standard, 10th Edition include direct paths from TOGAF 9 Foundation and upwards').",
     "evidence_url": "https://www.opengroup.org/certifications/togaf-certification-portfolio",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:12:26Z",
+    "evidence_url": "https://certification.opengroup.org/docs/datasheets/togaf-exams.pdf"
   }
 }

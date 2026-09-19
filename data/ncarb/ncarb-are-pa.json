@@ -1,7 +1,7 @@
 {
   "exam_id": "ncarb-are-pa",
   "exam_name": "ARE 5.0 — Programming & Analysis (PA)",
-  "exam_code": "ARE PA",
+  "exam_code": "PA",
   "certifying_body": "NCARB",
   "certification_name": null,
   "version": null,
@@ -85,7 +85,7 @@
       "weight_max": 43.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ncarb.org/sites/default/files/ARE5-Handbook.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -113,5 +113,12 @@
     "are programming analysis",
     "ncarb-are-pa"
   ],
-  "practice_url": "https://quizforge.ai/tests/ncarb-are-5-programming-analysis"
+  "practice_url": "https://quizforge.ai/tests/ncarb-are-5-programming-analysis",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:03Z",
+    "evidence_url": "https://www.ncarb.org/pass-the-are/prepare/programming-analysis"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-sales-cloud-consultant",
   "exam_name": "Salesforce Certified Sales Cloud Consultant",
-  "exam_code": "Sales Cloud Consultant",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Sales Cloud Consultant",
   "version": "Exam questions align to the Summer '25 Release",
@@ -219,5 +219,12 @@
     "salesforce certified sales cloud consultant",
     "salesforce-sales-cloud-consultant"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-sales-cloud-consultant"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-sales-cloud-consultant",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:45Z",
+    "evidence_url": "https://trailhead.salesforce.com/en/credentials/salescloudconsultant"
+  }
 }

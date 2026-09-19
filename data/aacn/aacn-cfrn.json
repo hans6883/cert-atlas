@@ -92,7 +92,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://bcen.org/wp-content/uploads/2026/02/BCEN-CFRN-ECO_Final_082026.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -126,5 +126,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: BCEN's CFRN page is live ('Apply for the CFRN Exam', fees).",
     "evidence_url": "https://bcen.org/cfrn/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:25:05Z",
+    "evidence_url": "https://bcen.org/cfrn/"
   }
 }

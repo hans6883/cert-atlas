@@ -1,7 +1,7 @@
 {
   "exam_id": "databricks-data-engineer-associate",
   "exam_name": "Databricks Certified Data Engineer Associate",
-  "exam_code": "Data Engineer Associate",
+  "exam_code": null,
   "certifying_body": "Databricks",
   "certification_name": "Databricks Certified Data Engineer Associate",
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "Data Engineer Associate Exam Guide",
+  "official_objectives_url": "https://www.databricks.com/sites/default/files/2026-05/databricks-certified-data-engineer-associate-exam-guide-may-2026-000.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -105,5 +105,12 @@
     "databricks-data-engineer-associate",
     "de associate"
   ],
-  "practice_url": "https://quizforge.ai/tests/databricks-data-engineer-associate"
+  "practice_url": "https://quizforge.ai/tests/databricks-data-engineer-associate",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:04Z",
+    "evidence_url": "https://www.databricks.com/learn/certification/data-engineer-associate"
+  }
 }

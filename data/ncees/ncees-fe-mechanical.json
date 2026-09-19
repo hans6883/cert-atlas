@@ -156,7 +156,7 @@
       "weight_max": 13.6
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ncees.org/wp-content/uploads/FE-Mechanical-CBT-specs.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -188,5 +188,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the NCEES FE exam page is live and lists the FE Mechanical discipline.",
     "evidence_url": "https://ncees.org/exams/fe-exam/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:50Z",
+    "evidence_url": "https://ncees.org/wp-content/uploads/FE-Mechanical-CBT-specs.pdf"
   }
 }

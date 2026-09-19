@@ -1,7 +1,7 @@
 {
   "exam_id": "nes-science",
   "exam_name": "NES Science (311)",
-  "exam_code": "NES-311",
+  "exam_code": "311",
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
@@ -75,7 +75,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nestest.com/CCISWeb/Content/Docs/NT_311_General_Science_TFworksheet.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -95,5 +95,12 @@
     "nes-311",
     "nes-science"
   ],
-  "practice_url": "https://quizforge.ai/tests/nes-science-311-2m4sr0"
+  "practice_url": "https://quizforge.ai/tests/nes-science-311-2m4sr0",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:36:56Z",
+    "evidence_url": "https://www.west.nesinc.com/TestView.aspx?f=HTML_FRAG/NT311_TestPage.html"
+  }
 }

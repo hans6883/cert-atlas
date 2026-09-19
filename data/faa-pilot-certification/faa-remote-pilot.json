@@ -98,7 +98,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/acs/uas_acs.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -145,5 +145,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the FAA Airman Knowledge Testing Matrix lists 'UAG Unmanned Aircraft General - Small 60 14 2.0 70' (questions, min age, hours, passing score).",
     "evidence_url": "https://www.faa.gov/training_testing/testing/testing_matrix",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:26Z",
+    "evidence_url": "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot"
   }
 }

@@ -99,7 +99,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.cisco.com/c/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/200-301-CCNA.pdf",
+  "official_objectives_url": "https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -133,5 +133,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Implementing and Administering Cisco Solutions (200-301 CCNA) v1.1 is a 120-minute exam ...'; no retirement wording (the only 'end-of-life' on the page is the product-documentation nav item).",
     "evidence_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html",
     "verified_at": "2026-09-14T20:05:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:22Z",
+    "evidence_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html"
   }
 }

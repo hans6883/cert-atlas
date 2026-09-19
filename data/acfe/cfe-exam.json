@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam/exam-blueprint",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -114,5 +114,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the ACFE 'About the CFE Exam' page is live.",
     "evidence_url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:55Z",
+    "evidence_url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam"
   }
 }

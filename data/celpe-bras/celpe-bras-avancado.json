@@ -1,7 +1,7 @@
 {
   "exam_id": "celpe-bras-avancado",
   "exam_name": "CELPE-Bras Avançado",
-  "exam_code": "CELPE-Bras Avançado",
+  "exam_code": null,
   "certifying_body": "CELPE-Bras",
   "certification_name": null,
   "version": null,
@@ -109,5 +109,12 @@
     "celpe-bras avançado",
     "celpe-bras-avancado"
   ],
-  "practice_url": "https://quizforge.ai/tests/celpe-bras-avan%C3%A7ado-2pdv3q"
+  "practice_url": "https://quizforge.ai/tests/celpe-bras-avan%C3%A7ado-2pdv3q",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:48Z",
+    "evidence_url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/celpe-bras"
+  }
 }

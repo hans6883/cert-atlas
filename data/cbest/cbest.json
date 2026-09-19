@@ -124,7 +124,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ctcexams.nesinc.com/content/docs/CBESTUpdatedTestSpecs.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -167,5 +167,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the CBEST test page is live ('The CBEST is now administered as three separate sections', registration, scaled scores); the only retirement on the page is the paper-based option ('the paper-based option for CBEST will no longer be offered', April 2021 Commission action).",
     "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CBEST_TestPage.html",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:59:04Z",
+    "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CBEST_TestPage.html"
   }
 }

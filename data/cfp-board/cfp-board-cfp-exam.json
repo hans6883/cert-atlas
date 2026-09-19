@@ -1,7 +1,7 @@
 {
   "exam_id": "cfp-board-cfp-exam",
   "exam_name": "CFP Exam (Certified Financial Planner)",
-  "exam_code": "CFP",
+  "exam_code": null,
   "certifying_body": "CFP Board",
   "certification_name": null,
   "version": null,
@@ -124,7 +124,7 @@
       "weight_max": 10.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cfp.net/certification-process/exam-requirement",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -159,5 +159,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: CFP Board's certification-process page is live ('The CFP exam is a 170-question ...').",
     "evidence_url": "https://www.cfp.net/certification-process",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:58Z",
+    "evidence_url": "https://www.cfp.net/certification-process/exam-requirement"
   }
 }

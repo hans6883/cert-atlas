@@ -1,7 +1,7 @@
 {
   "exam_id": "oracle-oci-architect-associate-1z0-1072",
   "exam_name": "Oracle Cloud Infrastructure 2023 Architect Associate (1Z0-1072-23)",
-  "exam_code": "1Z0-1072-23",
+  "exam_code": null,
   "certifying_body": "Oracle",
   "certification_name": null,
   "version": null,
@@ -339,5 +339,12 @@
     "summary": "Oracle's current exam for the Oracle Cloud Infrastructure Architect Associate certification is 1Z0-1072-26 ('Oracle Cloud Infrastructure Architect Associate (1Z0-1072-26) - NEW' on the 2026 learning path); the 2023 exam 1Z0-1072-23 is retired (retirement date 2026-08-10 carried from the prior record).",
     "evidence_url": "https://learn.oracle.com/ols/learning-path/become-an-oci-architect-associate-2026/146553/162234",
     "verified_at": "2026-09-14T18:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:36:59Z",
+    "evidence_url": "https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/training-readiness-plan.htm"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "google_cloud-associate-data-practitioner",
   "exam_name": "Associate Data Practitioner",
-  "exam_code": "Associate Data Practitioner",
+  "exam_code": null,
   "certifying_body": "Google",
   "certification_name": "Associate Data Practitioner",
   "source_url": "https://services.google.com/fh/files/misc/associate_data_practitioner_exam_guide_english.pdf",
@@ -39,5 +39,13 @@
   "aliases": [
     "associate data practitioner"
   ],
-  "practice_url": "https://quizforge.ai/tests/associate-data-practitioner-2pq23k"
+  "practice_url": "https://quizforge.ai/tests/associate-data-practitioner-2pq23k",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:48:11Z",
+    "evidence_url": "https://cloud.google.com/learn/certification/data-practitioner"
+  },
+  "official_objectives_url": "https://services.google.com/fh/files/misc/associate_data_practitioner_exam_guide_english.pdf"
 }

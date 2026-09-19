@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-introduction-to-business",
   "exam_name": "Introduction to Business",
-  "exam_code": "BSINS",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -67,7 +67,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Introduction-To-Business-Fact-Sheet-1.pdf",
   "official_study_resources": [],
   "aliases": [
     "bsins",
@@ -242,5 +242,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the DSST exam page is live ('Register for a DSST Exam', 'Download Fact Sheet', Form Codes) and the title is in the current /dsst-exams/ catalog.",
     "evidence_url": "https://getcollegecredit.com/exam/introduction-to-business/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T07:22:58Z",
+    "evidence_url": "https://getcollegecredit.com/exam/introduction-to-business/"
   }
 }

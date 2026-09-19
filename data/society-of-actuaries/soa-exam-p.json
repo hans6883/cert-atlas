@@ -1,7 +1,7 @@
 {
   "exam_id": "soa-exam-p",
   "exam_name": "Exam P (Probability)",
-  "exam_code": "EXAM-P",
+  "exam_code": "P",
   "certifying_body": "Society of Actuaries",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.soa.org/globalassets/assets/files/edu/2026/spring/syllabi/2026-05-exam-p-syllabus.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -97,5 +97,12 @@
     "soa p",
     "soa-exam-p"
   ],
-  "practice_url": "https://quizforge.ai/tests/soa-exam-p-probability"
+  "practice_url": "https://quizforge.ai/tests/soa-exam-p-probability",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:25Z",
+    "evidence_url": "https://www.soa.org/education/exam-req/edu-exam-p-detail/"
+  }
 }

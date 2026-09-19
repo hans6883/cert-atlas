@@ -1,7 +1,7 @@
 {
   "exam_id": "google-cloud-professional-cloud-architect",
   "exam_name": "Professional Cloud Architect",
-  "exam_code": "PCA",
+  "exam_code": null,
   "certifying_body": "Google Cloud",
   "certification_name": null,
   "version": null,
@@ -96,7 +96,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cloud.google.com/learn/certification/guides/professional-cloud-architect",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -122,5 +122,12 @@
     "pca",
     "professional cloud architect"
   ],
-  "practice_url": "https://quizforge.ai/tests/google-cloud-professional-cloud-architect"
+  "practice_url": "https://quizforge.ai/tests/google-cloud-professional-cloud-architect",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:01Z",
+    "evidence_url": "https://cloud.google.com/learn/certification/cloud-architect"
+  }
 }

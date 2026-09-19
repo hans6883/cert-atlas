@@ -1,7 +1,7 @@
 {
   "exam_id": "google-cloud-digital-leader",
   "exam_name": "Cloud Digital Leader",
-  "exam_code": "CDL",
+  "exam_code": null,
   "certifying_body": "Google Cloud",
   "certification_name": null,
   "version": null,
@@ -96,7 +96,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cloud.google.com/learn/certification/guides/cloud-digital-leader",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -127,5 +127,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification page live: 'Prepare and register', exam guide linked.",
     "evidence_url": "https://cloud.google.com/learn/certification/cloud-digital-leader",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:10Z",
+    "evidence_url": "https://cloud.google.com/learn/certification/cloud-digital-leader"
   }
 }

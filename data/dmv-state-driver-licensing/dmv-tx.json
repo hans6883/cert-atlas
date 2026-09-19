@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-tx",
   "exam_name": "Texas Driver's License Knowledge Test",
-  "exam_code": "TX",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -105,5 +105,12 @@
     "tx",
     "tx dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/texas-drivers-license-knowledge-test-2zncnm"
+  "practice_url": "https://quizforge.ai/tests/texas-drivers-license-knowledge-test-2zncnm",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:22:56Z",
+    "evidence_url": "https://www.dps.texas.gov/section/driver-license/apply-texas-driver-license"
+  }
 }

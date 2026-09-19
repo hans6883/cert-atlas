@@ -380,7 +380,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-200",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -412,5 +412,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification page (the /exams/sc-200/ URL redirects here): 'Exam SC-200 study guide', 'Exam SC-200 prep videos', 'Schedule exam'; no retirement banner.",
     "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:58:33Z",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-200"
   }
 }

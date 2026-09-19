@@ -1,7 +1,7 @@
 {
   "exam_id": "splunk-enterprise-security-certified-admin",
   "exam_name": "Splunk Enterprise Security Certified Admin",
-  "exam_code": "SPLK-2002",
+  "exam_code": null,
   "certifying_body": "Splunk",
   "certification_name": "Splunk Enterprise Security Certified Admin",
   "version": null,
@@ -309,7 +309,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.splunk.com/en_us/pdfs/training/splunk-test-blueprint-es-admin.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -329,5 +329,12 @@
     "splunk es admin",
     "splunk-enterprise-security-certified-admin"
   ],
-  "practice_url": "https://quizforge.ai/tests/splunk-enterprise-security-certified-admin"
+  "practice_url": "https://quizforge.ai/tests/splunk-enterprise-security-certified-admin",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:39Z",
+    "evidence_url": "https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html"
+  }
 }

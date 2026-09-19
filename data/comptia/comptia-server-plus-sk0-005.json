@@ -230,7 +230,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-server-sk0-005-exam-objectives",
+  "official_objectives_url": "https://www.comptia.org/en/certifications/server/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -272,5 +272,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Exam version: V5 Exam series code: SK0-005 Launch date: May 18, 2021'; the Exam details block prints NO 'Retirement:' line (Security+ prints one).",
     "evidence_url": "https://www.comptia.org/en-us/certifications/server/",
     "verified_at": "2026-09-14T19:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:11:54Z",
+    "evidence_url": "https://www.comptia.org/en/certifications/server/"
   }
 }

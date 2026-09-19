@@ -1,7 +1,7 @@
 {
   "exam_id": "ace-hc",
   "exam_name": "ACE Health Coach (ACE-HC)",
-  "exam_code": "ACE-HC",
+  "exam_code": null,
   "certifying_body": "ACE Fitness",
   "certification_name": null,
   "version": null,
@@ -75,7 +75,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.acefitness.org/fitness-certifications/certification-exam-content/",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -238,5 +238,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the ACE Health Coach Certification page is live ('If you have a background in health and fitness and are prepared to take the exam, you can register here'; NCCA-accredited study program).",
     "evidence_url": "https://www.acefitness.org/fitness-certifications/health-coach-certification/default.aspx",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T07:10:29Z",
+    "evidence_url": "https://www.acefitness.org/get-certified/health-coach/"
   }
 }

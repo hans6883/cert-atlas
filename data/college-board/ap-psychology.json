@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-psychology",
   "exam_name": "AP Psychology",
-  "exam_code": "AP Psych",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -123,7 +123,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -157,5 +157,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the AP Psychology course/exam page is live.",
     "evidence_url": "https://apstudents.collegeboard.org/courses/ap-psychology",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:58:53Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-psychology"
   }
 }

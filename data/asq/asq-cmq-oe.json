@@ -89,7 +89,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.asq.org/cert/resource/pdf/certification/CMQOE-2019-BoK.pdf",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -115,5 +115,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the CMQ/OE page is live with exam format (180 questions computer-delivered) and 'The new Certified Manager of Quality/Organizational Excellence Body of Knowledge will be tested starting with the July 2026 testing window' - a BoK refresh, not a retirement.",
     "evidence_url": "https://www.asq.org/cert/manager-of-quality",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:58:33Z",
+    "evidence_url": "https://www.asq.org/cert/manager-of-quality"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ncarb-are-ce",
   "exam_name": "ARE 5.0 — Construction & Evaluation (CE)",
-  "exam_code": "ARE CE",
+  "exam_code": "CE",
   "certifying_body": "NCARB",
   "certification_name": null,
   "version": null,
@@ -85,7 +85,7 @@
       "weight_max": 13.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ncarb.org/sites/default/files/ARE-5-Guidelines.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -114,5 +114,12 @@
     "ce",
     "ncarb-are-ce"
   ],
-  "practice_url": "https://quizforge.ai/tests/are-50-%E2%80%94-construction-and-evaluation-ce-33qwhx"
+  "practice_url": "https://quizforge.ai/tests/are-50-%E2%80%94-construction-and-evaluation-ce-33qwhx",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:37:07Z",
+    "evidence_url": "https://www.ncarb.org/pass-the-are/prepare/construction-evaluation"
+  }
 }

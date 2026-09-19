@@ -1,7 +1,7 @@
 {
   "exam_id": "cambridge-b2-first",
   "exam_name": "Cambridge B2 First (FCE)",
-  "exam_code": "FCE",
+  "exam_code": "B2 First",
   "certifying_body": "Cambridge English",
   "certification_name": "B2 First for Schools and B2 First",
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/first/format/",
   "official_study_resources": [
     {
       "resource_type": "exam_preparation",
@@ -97,5 +97,12 @@
     "fce",
     "first certificate in english"
   ],
-  "practice_url": "https://quizforge.ai/tests/cambridge-b2-first-fce-2tw1ql"
+  "practice_url": "https://quizforge.ai/tests/cambridge-b2-first-fce-2tw1ql",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T06:47:43Z",
+    "evidence_url": "https://www.cambridgeenglish.org/exams-and-tests/first/"
+  }
 }

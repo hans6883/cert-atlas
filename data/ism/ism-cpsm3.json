@@ -1,7 +1,7 @@
 {
   "exam_id": "ism-cpsm3",
   "exam_name": "CPSM Exam 3 — Leadership in Supply Management",
-  "exam_code": "CPSM3",
+  "exam_code": null,
   "certifying_body": "ISM",
   "certification_name": null,
   "version": null,
@@ -80,7 +80,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ismworld.org/globalassets/pub/docs/290-exam-specifications.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -116,5 +116,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the CPSM page lists the three CPSM exams, Exam 3 titled 'Leadership and Transformation in Supply Management', with learning systems and registration; no retirement wording.",
     "evidence_url": "https://www.ismworld.org/certification-and-training/certification/cpsm/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T06:58:31Z",
+    "evidence_url": "https://www.ismworld.org/71701127-leadership-and-transformation-in-supply-mgmt-exam-3rd-ed/"
   }
 }
