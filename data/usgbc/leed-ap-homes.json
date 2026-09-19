@@ -1,7 +1,7 @@
 {
   "exam_id": "leed-ap-homes",
   "exam_name": "LEED AP Homes Accreditation",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "U.S. Green Building Council (USGBC)",
   "version": null,
   "source_url": "https://www.usgbc.org/sites/default/files/education/courses/Homes_Candidate_Handbook_2018_FINAL.pdf",
@@ -264,5 +264,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"LEED AP Homes Suited for those involved in the design and construction of healthy, durable homes.\"",
     "evidence_url": "https://www.usgbc.org/credentials/leed-ap",
     "verified_at": "2026-09-18T17:27:22Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:23:14Z",
+    "evidence_url": "https://www.usgbc.org/credentials/leed-ap"
+  },
+  "official_objectives_url": "https://www.usgbc.org/resources/leed-ap-specialty-candidate-handbook"
 }

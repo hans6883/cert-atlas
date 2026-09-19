@@ -1,7 +1,7 @@
 {
   "exam_id": "cset-math-2",
   "exam_name": "CSET Mathematics Subtest II (Geometry, Probability & Statistics)",
-  "exam_code": "CSET-M2",
+  "exam_code": "212",
   "certifying_body": "CSET",
   "certification_name": "Single Subject Teaching Credential in Foundational-Level Mathematics",
   "version": null,
@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "Review the test structure for CSET: Foundational-Level Mathematics",
+  "official_objectives_url": "https://www.ctcexams.nesinc.com/content/docs/CSET_Prep/CS_212subtestdescription.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -92,5 +92,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"CSET: Mathematics consists of 3 subtests: Subtest I (test code 211) Subtest II (test code 212) Subtest III (test code 213)\"",
     "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG%2FCA_CSET211_TestPage.html",
     "verified_at": "2026-09-18T05:17:08Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:38:45Z",
+    "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CSET211_TestPage.html"
   }
 }

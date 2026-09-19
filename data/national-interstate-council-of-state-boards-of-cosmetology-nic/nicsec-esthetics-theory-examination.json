@@ -1,7 +1,7 @@
 {
   "exam_id": "nicsec-esthetics-theory-examination",
   "exam_name": "NIC Esthetics Theory State Board Examination",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "National-Interstate Council of State Boards of Cosmetology (NIC)",
   "version": null,
   "source_url": "https://nictesting.org/wp-content/uploads/formidable/3/NIC_Esthetics_Theory_CIB_ENG_Eff.-1.1.2020-v.2.26.20.f-2.pdf",
@@ -112,5 +112,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"The National Esthetics Theory Examination is the licensure examination for Estheticians, which is developed by the National-Interstate Council of State Boards of Cosmetology (NIC).\"",
     "evidence_url": "https://nictesting.org/wp-content/uploads/formidable/3/NIC_Esthetics_Theory_CIB_ENG_Eff.-1.1.2020-v.2.26.20.f.pdf",
     "verified_at": "2026-09-18T18:58:45Z"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:25:39Z",
+    "evidence_url": "https://nictesting.org/wp-content/uploads/formidable/3/NIC_Esthetics_Theory_CIB_Eff-1_2020-2.pdf"
+  },
+  "official_objectives_url": "https://nictesting.org/wp-content/uploads/formidable/3/NIC_Esthetics_Theory_CIB_Eff-1_2020-2.pdf"
 }

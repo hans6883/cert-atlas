@@ -52,7 +52,7 @@
     {
       "exam_id": "aacn-ccrn-adult",
       "exam_name": "CCRN — Adult Critical Care Registered Nurse",
-      "exam_code": "CCRN-Adult",
+      "exam_code": "CCRN",
       "certifying_body": "AACN",
       "vendor_slug": "aacn",
       "domains": 6,
@@ -63,7 +63,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aacn-ccrn-neonatal",
@@ -98,7 +100,7 @@
     {
       "exam_id": "aacn-ccrn-k",
       "exam_name": "CCRN-K — Critical Care RN Knowledge",
-      "exam_code": "CCRN-K",
+      "exam_code": "CCRN",
       "certifying_body": "AACN",
       "vendor_slug": "aacn",
       "domains": 2,
@@ -113,7 +115,9 @@
       "retired_on": "2023-11-14",
       "replacement_exam_code": "CCRN",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "/aacn/aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica"
+      "replacement_url": "/aacn/aacn-ccrn-ccrn-adult-direct-care-acute-critical-care-nursing-certifica",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aacn-cfrn",
@@ -647,6 +651,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:34+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -1869,7 +1874,9 @@
       "practice_url": "https://quizforge.ai/tests/apics-certified-logistics-transportation-distribution-cltd",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "apics-cpim-certified-in-planning-and-inventory-management-cpim-version",
@@ -1929,7 +1936,8 @@
       "practice_url": "https://quizforge.ai/tests/ardms-abdominal-sonography-specialty",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:35+00:00"
+      "verified_at": "2026-09-13T15:23:35+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ardms-ob-gyn-sonography-specialty",
@@ -2613,7 +2621,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "asq-csswb",
@@ -2677,7 +2687,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "asse-ohst",
@@ -2838,7 +2850,8 @@
       "practice_url": "https://quizforge.ai/tests/aswb-masters-social-work-licensing-exam",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "lcsw-social-work",
@@ -3089,7 +3102,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aws-developer-associate-dva-c02",
@@ -3422,6 +3437,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:45+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -3766,7 +3782,7 @@
     {
       "exam_id": "aanp-family-nurse-practitioner-certification-2024",
       "exam_name": "AANP Family Nurse Practitioner Certification Exam",
-      "exam_code": "",
+      "exam_code": "FNP",
       "certifying_body": "American Academy of Nurse Practitioners Certification Board (AANPCB)",
       "vendor_slug": "american-academy-of-nurse-practitioners-certification-board-aanpcb",
       "domains": 4,
@@ -3777,7 +3793,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:21:58+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aba-anesthesiology-boards",
@@ -3793,6 +3811,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:21:58+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -3981,6 +4000,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:32+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -4033,6 +4053,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:33+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -4068,6 +4089,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:33+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -6034,7 +6056,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-american-literature",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-analyzing-interpreting-literature",
@@ -6065,7 +6088,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-biology",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-calculus",
@@ -6126,7 +6150,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-college-composition",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-college-composition-modular",
@@ -6232,7 +6257,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-german-language-level-1",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-history-of-the-united-states-i",
@@ -6247,7 +6273,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-history-of-the-united-states-i",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-history-of-the-united-states-ii",
@@ -6278,7 +6305,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-human-growth-and-development",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-humanities",
@@ -6293,7 +6321,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-humanities",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-information-systems",
@@ -6341,7 +6370,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-introduction-to-educational-psychology",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-introductory-psychology",
@@ -6448,7 +6478,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-principles-of-marketing",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "clep-principles-of-microeconomics",
@@ -6524,7 +6555,8 @@
       "practice_url": "https://quizforge.ai/tests/clep-western-civilization-ii",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "cmaa-certified-construction-manager-ccm",
@@ -7062,7 +7094,7 @@
     {
       "exam_id": "cset-math-2",
       "exam_name": "CSET Mathematics Subtest II (Geometry, Probability & Statistics)",
-      "exam_code": "CSET-M2",
+      "exam_code": "212",
       "certifying_body": "CSET",
       "vendor_slug": "cset",
       "domains": 2,
@@ -7073,7 +7105,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "cset-science-biology",
@@ -7992,7 +8026,7 @@
     {
       "exam_id": "ap-comparative-government",
       "exam_name": "AP Comparative Government and Politics",
-      "exam_code": "AP Comparative Gov",
+      "exam_code": null,
       "certifying_body": "College Board",
       "vendor_slug": "college-board",
       "domains": 6,
@@ -8003,7 +8037,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "school_exam",
+      "examination": true
     },
     {
       "exam_id": "ap-computer-science-a",
@@ -8134,7 +8170,7 @@
     {
       "exam_id": "ap-human-geography",
       "exam_name": "AP Human Geography",
-      "exam_code": "AP HuGe",
+      "exam_code": null,
       "certifying_body": "College Board",
       "vendor_slug": "college-board",
       "domains": 7,
@@ -8145,7 +8181,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "school_exam",
+      "examination": true
     },
     {
       "exam_id": "ap-italian-language",
@@ -9002,7 +9040,8 @@
       "practice_url": "https://quizforge.ai/tests/fim-financial-modeling-valuation-analyst",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "crowdstrike-cccs",
@@ -9228,7 +9267,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "danb-ice",
@@ -10123,7 +10164,7 @@
     {
       "exam_id": "dmv-wy",
       "exam_name": "Wyoming Driver's License Knowledge Test",
-      "exam_code": "WY",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -10134,7 +10175,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "certified-business-continuity-professional-cbcp",
@@ -10938,7 +10981,8 @@
       "practice_url": "https://quizforge.ai/tests/datadog-apm-and-distributed-tracing-certification-2hwdb7",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "datadog-data-fundamentals",
@@ -10959,7 +11003,7 @@
     {
       "exam_id": "datadog-fundamentals",
       "exam_name": "Datadog Fundamentals",
-      "exam_code": "DD-Fundamentals",
+      "exam_code": null,
       "certifying_body": "Datadog",
       "vendor_slug": "datadog",
       "domains": 5,
@@ -10970,7 +11014,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "datadog-sre-foundations",
@@ -11391,7 +11437,7 @@
     {
       "exam_id": "praxis-art-content-knowledge-5134",
       "exam_name": "Praxis Art: Content Knowledge (5134)",
-      "exam_code": "",
+      "exam_code": "5134",
       "certifying_body": "ETS",
       "vendor_slug": "ets",
       "domains": 2,
@@ -11402,7 +11448,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:41+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "praxis-audiology-examination-ets",
@@ -11868,7 +11916,8 @@
       "practice_url": "https://quizforge.ai/tests/exhibitor-certified-trade-show-manager-ctsm",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:01+00:00"
+      "verified_at": "2026-09-14T03:22:01+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "exos-performance-specialist",
@@ -12852,18 +12901,19 @@
     {
       "exam_id": "pcqi-preventive-controls-qualified-individual",
       "exam_name": "PCQI: Preventive Controls Qualified Individual",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "Food Safety Preventive Controls Alliance (FSPCA)",
       "vendor_slug": "food-safety-preventive-controls-alliance-fspca",
-      "domains": 5,
+      "domains": 0,
       "total_questions": null,
-      "duration_minutes": 1320,
+      "duration_minutes": null,
       "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-training",
-      "practice_url": "https://quizforge.ai/tests/pcqi-preventive-controls-qualified-individual",
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T04:38:30+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "training_program",
+      "examination": false
     },
     {
       "exam_id": "fortinet-nse1",
@@ -13230,7 +13280,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "giac-gfact",
@@ -13253,7 +13305,7 @@
     {
       "exam_id": "giac-cloud-security-automation-gcsa",
       "exam_name": "GIAC Cloud Security Automation (GCSA)",
-      "exam_code": "",
+      "exam_code": "GCSA",
       "certifying_body": "GIAC",
       "vendor_slug": "giac",
       "domains": 18,
@@ -13264,7 +13316,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:38+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "giac-gxpn-exploit-researcher",
@@ -13845,18 +13899,19 @@
     {
       "exam_id": "google-ux-design",
       "exam_name": "Google UX Design Professional Certificate",
-      "exam_code": "Google UX Design",
+      "exam_code": null,
       "certifying_body": "Google Career Certificates",
       "vendor_slug": "google-career-certificates",
-      "domains": 6,
+      "domains": 0,
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://grow.google/certificates/ux-design/",
-      "practice_url": "https://quizforge.ai/tests/google-ux-design-professional-certificate-2vngii",
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "training_program",
+      "examination": false
     },
     {
       "exam_id": "google-cloud-associate-cloud-engineer",
@@ -14120,7 +14175,7 @@
     {
       "exam_id": "google-ads-shopping",
       "exam_name": "Google Ads Shopping Certification",
-      "exam_code": "Google-Ads-Shopping",
+      "exam_code": null,
       "certifying_body": "Google Skillshop",
       "vendor_slug": "google-skillshop",
       "domains": 4,
@@ -14131,12 +14186,14 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "google-ads-video",
       "exam_name": "Google Ads Video Certification",
-      "exam_code": "Google-Ads-Video",
+      "exam_code": null,
       "certifying_body": "Google Skillshop",
       "vendor_slug": "google-skillshop",
       "domains": 4,
@@ -14147,7 +14204,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "google-analytics-4",
@@ -14355,7 +14414,8 @@
       "practice_url": "https://quizforge.ai/tests/hrci-global-professional-human-resources-gphr",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "hrci-phr",
@@ -14977,7 +15037,8 @@
       "practice_url": "https://quizforge.ai/tests/crcst-certified-central-service-technician",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:37+00:00"
+      "verified_at": "2026-09-13T15:23:37+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "hiset-language-arts-reading",
@@ -15142,7 +15203,8 @@
       "practice_url": "https://quizforge.ai/tests/nbchpn-certified-hospice-palliative-nurse-chpn",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:39+00:00"
+      "verified_at": "2026-09-13T15:23:39+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "chtl-certified-hospitality-technology-professional",
@@ -16181,18 +16243,19 @@
     {
       "exam_id": "icagile-icp-apo",
       "exam_name": "ICAgile Certified Professional — Agile Product Ownership (ICP-APO)",
-      "exam_code": "ICP-APO",
+      "exam_code": null,
       "certifying_body": "ICAgile",
       "vendor_slug": "icagile",
-      "domains": 4,
+      "domains": 0,
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.icagile.com/certifications/agile-product-ownership",
-      "practice_url": "https://quizforge.ai/tests/icagile-certified-professional-%E2%80%94-agile-product-ownership-icp-apo-32e4im",
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "training_program",
+      "examination": false
     },
     {
       "exam_id": "icagile-icp-atf",
@@ -16292,7 +16355,7 @@
     {
       "exam_id": "icc-bo-b1",
       "exam_name": "ICC Building Official — B1 Building Official Management",
-      "exam_code": "B1",
+      "exam_code": null,
       "certifying_body": "ICC",
       "vendor_slug": "icc",
       "domains": 5,
@@ -16302,7 +16365,9 @@
       "practice_url": "https://quizforge.ai/tests/icc-building-official-%E2%80%94-b1-building-official-management-2k3ms2",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "icc-e1-electrical",
@@ -16785,7 +16850,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "iiba-cpoa",
@@ -17477,7 +17544,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:18:00+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "isc2-ccsp",
@@ -17950,7 +18019,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "language_proficiency_test",
+      "examination": true
     },
     {
       "exam_id": "dele-a2",
@@ -18896,7 +18967,7 @@
     {
       "exam_id": "mendix-advanced-developer",
       "exam_name": "Mendix Advanced Developer Certification",
-      "exam_code": "MAD",
+      "exam_code": null,
       "certifying_body": "Mendix",
       "vendor_slug": "mendix",
       "domains": 5,
@@ -18907,7 +18978,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "mendix-expert-developer",
@@ -18952,7 +19025,8 @@
       "practice_url": "https://quizforge.ai/tests/mendix-rapid-developer-certification-2ikrau",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "meta-certified-community-manager",
@@ -19150,7 +19224,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:37+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-ms-721-collaboration-communications",
@@ -19410,7 +19486,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-ms-102-m365-administrator",
@@ -19945,7 +20023,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:37+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "mat-education-norms",
@@ -20016,7 +20096,7 @@
     {
       "exam_id": "mongodb-associate-data-modeler",
       "exam_name": "MongoDB Associate Data Modeler Exam",
-      "exam_code": "C100DM",
+      "exam_code": null,
       "certifying_body": "MongoDB",
       "vendor_slug": "mongodb",
       "domains": 5,
@@ -20027,7 +20107,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "mongodb-associate-database-administrator",
@@ -20517,7 +20599,7 @@
     {
       "exam_id": "nasm-ces",
       "exam_name": "NASM Corrective Exercise Specialist (CES)",
-      "exam_code": "NASM-CES",
+      "exam_code": "CES",
       "certifying_body": "NASM",
       "vendor_slug": "nasm",
       "domains": 4,
@@ -20528,7 +20610,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "nasm-fns",
@@ -21165,7 +21249,7 @@
     {
       "exam_id": "aia-architect-exam",
       "exam_name": "ARE 5.0 Architect Registration Examination",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "NCARB",
       "vendor_slug": "ncarb",
       "domains": 6,
@@ -21176,7 +21260,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:35+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncarb-are-ce",
@@ -21606,7 +21692,8 @@
       "practice_url": "https://quizforge.ai/tests/ncchc-certified-correctional-health-professional-cchp",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:39+00:00"
+      "verified_at": "2026-09-13T15:23:39+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "nccpa-pance",
@@ -21937,7 +22024,7 @@
     {
       "exam_id": "ncees-pe-civil-structural",
       "exam_name": "Principles and Practice of Engineering (PE) – Civil: Structural",
-      "exam_code": "PE Civil: Structural",
+      "exam_code": null,
       "certifying_body": "NCEES",
       "vendor_slug": "ncees",
       "domains": 8,
@@ -21948,7 +22035,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:18:13+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncees-pe-civil-transportation",
@@ -22074,7 +22163,7 @@
     {
       "exam_id": "ncees-pe-industrial-systems",
       "exam_name": "Principles and Practice of Engineering (PE) – Industrial and Systems Engineering",
-      "exam_code": "PE Industrial and Systems Engineering",
+      "exam_code": null,
       "certifying_body": "NCEES",
       "vendor_slug": "ncees",
       "domains": 8,
@@ -22085,7 +22174,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncees-pe-mechanical",
@@ -22123,7 +22214,7 @@
     {
       "exam_id": "ncees-pe-mechanical-machine-design",
       "exam_name": "Principles and Practice of Engineering (PE) – Mechanical: Machine Design and Materials",
-      "exam_code": "PE Mechanical: Machine Design and Materials",
+      "exam_code": null,
       "certifying_body": "NCEES",
       "vendor_slug": "ncees",
       "domains": 6,
@@ -22134,7 +22225,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncees-pe-mechanical-thermal-fluid",
@@ -23435,6 +23528,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:08+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -23531,6 +23625,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:36+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -23564,12 +23659,13 @@
       "practice_url": "https://quizforge.ai/tests/nicsec-cosmetology-theory-examination",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:03+00:00"
+      "verified_at": "2026-09-14T03:22:03+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "nicsec-esthetics-theory-examination",
       "exam_name": "NIC Esthetics Theory State Board Examination",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "National-Interstate Council of State Boards of Cosmetology (NIC)",
       "vendor_slug": "national-interstate-council-of-state-boards-of-cosmetology-nic",
       "domains": 2,
@@ -23580,7 +23676,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:40+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nicsec-nail-technology-examination",
@@ -23980,18 +24078,19 @@
     {
       "exam_id": "osha-30-hour-construction-safety",
       "exam_name": "OSHA 30-Hour Construction Safety",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "OSHA (Occupational Safety and Health Administration)",
       "vendor_slug": "osha-occupational-safety-and-health-administration",
-      "domains": 8,
+      "domains": 0,
       "total_questions": null,
-      "duration_minutes": 1800,
+      "duration_minutes": null,
       "source_url": "https://www.osha.gov/sites/default/files/OTP_Construction_Procedures_2024.pdf",
-      "practice_url": "https://quizforge.ai/tests/osha-30-hour-construction-safety",
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:40+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "training_program",
+      "examination": false
     },
     {
       "exam_id": "osha-30-hour-general-industry-safety",
@@ -24694,7 +24793,7 @@
     {
       "exam_id": "outsystems-professional-architecture-specialist",
       "exam_name": "OutSystems Architecture Specialist",
-      "exam_code": "Arch-Specialist",
+      "exam_code": null,
       "certifying_body": "OutSystems",
       "vendor_slug": "outsystems",
       "domains": 5,
@@ -24705,7 +24804,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "outsystems-associate-mobile",
@@ -24936,7 +25037,8 @@
       "practice_url": "https://quizforge.ai/tests/iso-27001-lead-implementer-certification",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:39+00:00"
+      "verified_at": "2026-09-13T15:23:39+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "pm4ngos-project-management-development-pmdpro",
@@ -25265,7 +25367,7 @@
     {
       "exam_id": "pega-cpba",
       "exam_name": "Certified Pega Business Architect (CPBA)",
-      "exam_code": "PEGACPBA23V1",
+      "exam_code": "PEGACPBA25V1",
       "certifying_body": "Pegasystems",
       "vendor_slug": "pegasystems",
       "domains": 5,
@@ -25276,12 +25378,14 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "pega-pcdc",
       "exam_name": "Certified Pega Decisioning Consultant (PCDC)",
-      "exam_code": "PEGAPCDC23V1",
+      "exam_code": "PEGACPDC26V1",
       "certifying_body": "Pegasystems",
       "vendor_slug": "pegasystems",
       "domains": 5,
@@ -25292,12 +25396,14 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "pega-pclsa",
       "exam_name": "Certified Pega Lead System Architect (PCLSA)",
-      "exam_code": "PEGACPLSA23V1",
+      "exam_code": "PEGACPLSA25V1",
       "certifying_body": "Pegasystems",
       "vendor_slug": "pegasystems",
       "domains": 5,
@@ -25308,7 +25414,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "pega-cprpa",
@@ -25333,7 +25441,7 @@
     {
       "exam_id": "pega-pcssa",
       "exam_name": "Certified Pega Senior System Architect (PCSSA)",
-      "exam_code": "PEGAPCSSA23V1",
+      "exam_code": "PEGACPSSA25V1",
       "certifying_body": "Pegasystems",
       "vendor_slug": "pegasystems",
       "domains": 5,
@@ -25344,7 +25452,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "pega-cpsa",
@@ -25359,7 +25469,8 @@
       "practice_url": "https://quizforge.ai/tests/certified-pega-system-architect-cpsa-2hyt3y",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "dora-devops",
@@ -26108,7 +26219,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "red-hat-rhcsa-ex200",
@@ -26123,7 +26236,8 @@
       "practice_url": "https://quizforge.ai/tests/red-hat-certified-system-administrator-rhcsa-842c8791",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "red-seal-carpenter",
@@ -27242,7 +27356,7 @@
     {
       "exam_id": "salesforce-platform-developer-1",
       "exam_name": "Salesforce Certified Platform Developer I (PD1)",
-      "exam_code": "PD1",
+      "exam_code": null,
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
       "domains": 4,
@@ -27253,7 +27367,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "salesforce-platform-developer-2",
@@ -30347,7 +30463,8 @@
       "practice_url": "https://quizforge.ai/tests/toeic-bridge",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "toeic-listening-reading",
@@ -30711,7 +30828,7 @@
     {
       "exam_id": "leed-ap-homes",
       "exam_name": "LEED AP Homes Accreditation",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "U.S. Green Building Council (USGBC)",
       "vendor_slug": "usgbc",
       "domains": 9,
@@ -30722,7 +30839,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:02+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ans-nuclear-power-plant-operator",
@@ -31445,6 +31564,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:37+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     }

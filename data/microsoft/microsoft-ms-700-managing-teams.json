@@ -283,7 +283,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-700",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -316,5 +316,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: the MS-700 exam URL 302s to the Teams Administrator Associate certification page ('Exam MS-700', 'Schedule exam', no retirement wording); the study guide prints 'Skills measured as of July 29, 2026'.",
     "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/m365-teams-administrator-associate/",
     "verified_at": "2026-09-14T19:35:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:49:06Z",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-700"
   }
 }

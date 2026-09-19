@@ -1,7 +1,7 @@
 {
   "exam_id": "pega-pclsa",
   "exam_name": "Certified Pega Lead System Architect (PCLSA)",
-  "exam_code": "PEGACPLSA23V1",
+  "exam_code": "PEGACPLSA25V1",
   "certifying_body": "Pegasystems",
   "certification_name": null,
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://academy.pega.com/exam/pega-lead-system-architecture-exam-5",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -109,5 +109,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"The Pega Certified Lead System Architect is the top level of certification, after Certified Pega Senior System Architect, and signifies an expert capability that an elite group of resources achieve.\"",
     "evidence_url": "https://academy.pega.com/certifications",
     "verified_at": "2026-09-18T17:38:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:23:01Z",
+    "evidence_url": "https://academy.pega.com/exam/pega-lead-system-architecture-exam-5"
   }
 }

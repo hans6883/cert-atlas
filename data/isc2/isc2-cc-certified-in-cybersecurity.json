@@ -91,7 +91,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "CC Exam Outline",
+  "official_objectives_url": "https://www.isc2.org/certifications/cc/cc-certification-exam-outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -262,5 +262,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification page ('Take the first step to a rewarding career with Certified in Cybersecurity (CC) from ISC2'), no retirement wording.",
     "evidence_url": "https://www.isc2.org/certifications/cc",
     "verified_at": "2026-09-14T19:35:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:01:18Z",
+    "evidence_url": "https://www.isc2.org/certifications/cc"
   }
 }

@@ -401,7 +401,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.redhat.com/en/services/training/red-hat-certified-openshift-administrator-exam",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -427,5 +427,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"The Red Hat Certified System Administrator in OpenShift exam (EX280) tests the knowledge, skills, and ability to create, configure, and manage a cloud application platform using Red Hat OpenShift Container Platform.\"",
     "evidence_url": "https://www.redhat.com/en/services/training/red-hat-certified-openshift-administrator-exam",
     "verified_at": "2026-09-18T05:47:33Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:01:03Z",
+    "evidence_url": "https://www.redhat.com/en/services/training/red-hat-certified-openshift-administrator-exam"
   }
 }

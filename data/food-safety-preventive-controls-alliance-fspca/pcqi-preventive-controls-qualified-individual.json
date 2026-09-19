@@ -1,47 +1,13 @@
 {
   "exam_id": "pcqi-preventive-controls-qualified-individual",
   "exam_name": "PCQI: Preventive Controls Qualified Individual",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Food Safety Preventive Controls Alliance (FSPCA)",
   "version": null,
   "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-training",
-  "duration_minutes": 1320,
-  "domains": [
-    {
-      "id": "1",
-      "name": "resources for and preliminary steps in developing a food safety plan",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "types of hazards, conducting a hazard analysis, preventive controls for hazards",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "monitoring preventive controls, verification and validation, and corrective actions/corrections",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "recordkeeping",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "regulatory requirements",
-      "weight_percent": null,
-      "objectives": []
-    }
-  ],
   "aliases": [
     "PCQI: Preventive Controls Qualified Individual"
   ],
-  "practice_url": "https://quizforge.ai/tests/pcqi-preventive-controls-qualified-individual",
   "editorial": {
     "meta_description": "The PCQI certification from the FSPCA validates your ability to develop and apply risk-based preventive controls for human food manufacturing and processing.",
     "overview": "The PCQI: Preventive Controls Qualified Individual certification, administered by the Food Safety Preventive Controls Alliance (FSPCA), validates your ability to develop and apply risk-based preventive controls. The program ensures you can oversee the preparation of food safety plans, perform hazard analysis, and manage verification and validation procedures in compliance with U.S. food safety regulations for human food manufacturing and processing. This certification allows professionals to demonstrate expertise in maintaining high standards of food safety and regulatory compliance within their respective manufacturing facilities, ensuring that all safety protocols meet the 1320 minutes of required training standards across the 5 distinct domains of study.",
@@ -196,5 +162,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"This course developed by the FSPCA is the “standardized curriculum” recognized by FDA\"",
     "evidence_url": "https://www.fspca.net/pchf-pcqi-v2-0",
     "verified_at": "2026-09-18T05:17:08Z"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-19T22:49:11Z",
+    "evidence_url": "https://www.fspca.net/pchf-pcqi-v2-0"
   }
 }

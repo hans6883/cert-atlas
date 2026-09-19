@@ -1,7 +1,7 @@
 {
   "exam_id": "aia-architect-exam",
   "exam_name": "ARE 5.0 Architect Registration Examination",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "NCARB",
   "version": null,
   "source_url": "https://www.ncarb.org/sites/default/files/ARE-5-Guidelines.pdf",
@@ -215,5 +215,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"The current version of the exam, ARE 5.0, is developed by NCARB and features six divisions.\"",
     "evidence_url": "https://www.ncarb.org/pass-the-are",
     "verified_at": "2026-09-18T18:58:45Z"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:25:51Z",
+    "evidence_url": "https://www.ncarb.org/pass-the-are"
+  },
+  "official_objectives_url": "https://www.ncarb.org/sites/default/files/ARE-5-Guidelines.pdf"
 }

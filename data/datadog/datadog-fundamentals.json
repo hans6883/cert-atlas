@@ -1,7 +1,7 @@
 {
   "exam_id": "datadog-fundamentals",
   "exam_name": "Datadog Fundamentals",
-  "exam_code": "DD-Fundamentals",
+  "exam_code": null,
   "certifying_body": "Datadog",
   "certification_name": null,
   "version": null,
@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.datadoghq.com/pdf/datadog-fundamentals-exam-guide-aug-2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -102,5 +102,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Datadog Fundamentals is our foundational certification offering. This exam tests core knowledge required to use the platform effectively. Knowledge covered includes basic computer fundamentals, infrastructure deployment with Datadog, networking and Datadog Agent configuration, data collection, troubleshooting the Datadog Agent, and data visualization and utilization.\"",
     "evidence_url": "https://www.datadoghq.com/certification/overview/",
     "verified_at": "2026-09-18T04:39:06Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:37:25Z",
+    "evidence_url": "https://www.datadoghq.com/certification/overview/"
   }
 }

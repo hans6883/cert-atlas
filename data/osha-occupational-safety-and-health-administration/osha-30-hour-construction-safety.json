@@ -1,65 +1,13 @@
 {
   "exam_id": "osha-30-hour-construction-safety",
   "exam_name": "OSHA 30-Hour Construction Safety",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "OSHA (Occupational Safety and Health Administration)",
   "version": null,
   "source_url": "https://www.osha.gov/sites/default/files/OTP_Construction_Procedures_2024.pdf",
-  "duration_minutes": 1800,
-  "domains": [
-    {
-      "id": "1",
-      "name": "Introduction to OSHA",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Managing Safety and Health",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "OSHA Focus Four Hazards",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Personal Protective Equipment",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Health Hazards in Construction",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Stairways and Ladders",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Elective",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "8",
-      "name": "Optional",
-      "weight_percent": null,
-      "objectives": []
-    }
-  ],
   "aliases": [
     "OSHA 30-Hour Construction Safety"
   ],
-  "practice_url": "https://quizforge.ai/tests/osha-30-hour-construction-safety",
   "editorial": {
     "meta_description": "The OSHA 30-Hour Construction Safety certification covers workplace hazard identification, safety management, and regulatory compliance for construction.",
     "overview": "The OSHA 30-Hour Construction Safety certification, provided by the Occupational Safety and Health Administration, covers safety and health standards for construction work. It addresses hazard identification, site management, and regulatory requirements. This 1800-minute program ensures participants understand their rights, employer responsibilities, and safety protocols for various construction environments, including fall protection, electrical safety, and material handling procedures. The training provides a foundation for maintaining safe work sites.",
@@ -247,5 +195,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Through this program, workers can attend 10-hour or 30-hour classes delivered by OSHA-authorized trainers.\"",
     "evidence_url": "https://www.osha.gov/training/outreach",
     "verified_at": "2026-09-18T06:28:09Z"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-19T23:01:45Z",
+    "evidence_url": "https://www.osha.gov/node/58570"
   }
 }

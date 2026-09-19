@@ -1,7 +1,7 @@
 {
   "exam_id": "pega-cpba",
   "exam_name": "Certified Pega Business Architect (CPBA)",
-  "exam_code": "PEGACPBA23V1",
+  "exam_code": "PEGACPBA25V1",
   "certifying_body": "Pegasystems",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://academy.pega.com/exam/certified-pega-business-architect-6",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -103,5 +103,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"The Certified Pega Business Architect certification concentrates on the ability to participate in the design and construction of a Pega application.\"",
     "evidence_url": "https://academy.pega.com/certifications",
     "verified_at": "2026-09-18T17:38:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:23:03Z",
+    "evidence_url": "https://academy.pega.com/exam/certified-pega-business-architect-6"
   }
 }

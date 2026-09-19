@@ -1,7 +1,7 @@
 {
   "exam_id": "giac-cloud-security-automation-gcsa",
   "exam_name": "GIAC Cloud Security Automation (GCSA)",
-  "exam_code": "",
+  "exam_code": "GCSA",
   "certifying_body": "GIAC",
   "version": null,
   "source_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa",
@@ -454,5 +454,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: certification page states 'GIAC has set the passing score for the GCSA exam at 66% for all candidates who receive the exam version released on or after June 29th, 2024'; no retirement wording.",
     "evidence_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa",
     "verified_at": "2026-09-14T19:35:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:23:01Z",
+    "evidence_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa"
+  },
+  "official_objectives_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa"
 }

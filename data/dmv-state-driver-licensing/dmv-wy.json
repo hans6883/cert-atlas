@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-wy",
   "exam_name": "Wyoming Driver's License Knowledge Test",
-  "exam_code": "WY",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -110,5 +110,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Wyoming State Statute (W.S. 31-7-114) mandates that applicants for driver's licenses and permits must be examined.\"",
     "evidence_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/testing.html",
     "verified_at": "2026-09-18T05:17:08Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:37:43Z",
+    "evidence_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/testing.html"
   }
 }

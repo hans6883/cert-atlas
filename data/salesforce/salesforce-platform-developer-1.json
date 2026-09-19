@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-platform-developer-1",
   "exam_name": "Salesforce Certified Platform Developer I (PD1)",
-  "exam_code": "PD1",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Platform Developer",
   "version": "Exam questions align to the Summer '25 Release.",
@@ -185,7 +185,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://trailhead.salesforce.com/content/learn/modules/platform-developer-i-certification-prep-fundamentals-and-database-modeling/pd1-1-get-started",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -220,5 +220,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: 'Salesforce Certified Platform Developer I' exam guide live (60 questions / 105 minutes / passing 68%); no retirement wording; not in the 2027 retirements FAQ.",
     "evidence_url": "https://help.salesforce.com/s/articleView?id=005298965&type=1",
     "verified_at": "2026-09-14T20:05:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:25:32Z",
+    "evidence_url": "https://trailhead.salesforce.com/content/learn/modules/platform-developer-i-certification-prep-fundamentals-and-database-modeling/pd1-1-get-started"
   }
 }

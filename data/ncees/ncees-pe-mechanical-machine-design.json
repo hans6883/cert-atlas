@@ -1,7 +1,7 @@
 {
   "exam_id": "ncees-pe-mechanical-machine-design",
   "exam_name": "Principles and Practice of Engineering (PE) – Mechanical: Machine Design and Materials",
-  "exam_code": "PE Mechanical: Machine Design and Materials",
+  "exam_code": null,
   "certifying_body": "NCEES",
   "certification_name": null,
   "version": null,
@@ -93,7 +93,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ncees.org/wp-content/uploads/2025/10/MDM_Oct-2025_CBT32.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -126,5 +126,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"The PE Mechanical exam is computer-based and administered year-round at NCEES-approved Pearson test center.\"",
     "evidence_url": "https://ncees.org/exams/pe-exam/mechanical/",
     "verified_at": "2026-09-18T04:44:26Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T22:49:09Z",
+    "evidence_url": "https://ncees.org/exams/pe-exam/mechanical/"
   }
 }

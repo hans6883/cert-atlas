@@ -1,7 +1,7 @@
 {
   "exam_id": "aacn-ccrn-k",
   "exam_name": "CCRN-K — Critical Care RN Knowledge",
-  "exam_code": "CCRN-K",
+  "exam_code": "CCRN",
   "certifying_body": "AACN",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnkexamhandbook.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -225,5 +225,12 @@
     "summary": "AACN retired CCRN-K on 2023-11-14. CCRN is the named replacement path.",
     "evidence_url": "https://www.aacn.org/newsroom/ccrn-e-ccrn-k-and-pccn-k-transition-announcement",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:02:13Z",
+    "evidence_url": "https://www.aacn.org/certification/get-certified/ccrn-k-adult"
   }
 }

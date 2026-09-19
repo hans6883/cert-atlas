@@ -1,7 +1,7 @@
 {
   "exam_id": "aanp-family-nurse-practitioner-certification-2024",
   "exam_name": "AANP Family Nurse Practitioner Certification Exam",
-  "exam_code": "",
+  "exam_code": "FNP",
   "certifying_body": "American Academy of Nurse Practitioners Certification Board (AANPCB)",
   "version": null,
   "source_url": "https://www.aanpcert.org/certify/fnp-exam/",
@@ -174,5 +174,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"The FNP certification examination is an entry-level competency-based examination that tests clinical knowledge in family/individual across the life span.\"",
     "evidence_url": "https://www.aanpcert.org/certs/fnp",
     "verified_at": "2026-09-18T05:47:33Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:01:30Z",
+    "evidence_url": "https://www.aanpcert.org/certify/fnp-exam/"
+  },
+  "official_objectives_url": "https://www.aanpcert.org/certify/fnp-exam/"
 }
