@@ -1,7 +1,7 @@
 {
   "exam_id": "icmai-cma-intermediate-group2",
   "exam_name": "CMA Intermediate Group II",
-  "exam_code": "CMA Inter Gr. II",
+  "exam_code": null,
   "certifying_body": "ICMAI",
   "certification_name": null,
   "version": null,
@@ -227,5 +227,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:53+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:24:20Z",
+    "evidence_url": "https://icmai.in/ClntStudents/CourseDurationDelivery"
   }
 }

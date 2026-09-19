@@ -1,7 +1,7 @@
 {
   "exam_id": "ftce-middle-grades",
   "exam_name": "FTCE Middle Grades General Science 5-9",
-  "exam_code": "FTCE-MG-SCI",
+  "exam_code": "004",
   "certifying_body": "FTCE",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://fl.nesinc.com/studyguide/FL_SG_obj_004.htm",
   "official_study_resources": [],
   "aliases": [
     "ftce 5-9 science",
@@ -76,5 +76,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: the FTCE Middle Grades General Science 5-9 (004) test page is live: CBT, approximately 80 multiple-choice questions, 2 hours 30 minutes, by appointment year round, scaled score 200, $150.",
     "evidence_url": "https://www.fl.nesinc.com/testPage.asp?test=004",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:44:32Z",
+    "evidence_url": "https://fl.nesinc.com/prepPage.asp?test=004"
   }
 }

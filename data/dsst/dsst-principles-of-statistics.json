@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-principles-of-statistics",
   "exam_name": "Principles of Statistics",
-  "exam_code": "STATS",
+  "exam_code": "SS450, ST450, SY450, SZ450",
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -67,7 +67,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/DSST_PrinciplesofStatistics.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes statistics",
@@ -235,5 +235,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:29+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T21:23:50Z",
+    "evidence_url": "https://getcollegecredit.com/exam/principles-of-statistics/"
   }
 }

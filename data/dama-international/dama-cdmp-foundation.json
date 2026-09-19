@@ -1,7 +1,7 @@
 {
   "exam_id": "dama-cdmp-foundation",
   "exam_name": "CDMP Data Management Fundamentals (Foundation)",
-  "exam_code": "CDMP Foundation",
+  "exam_code": null,
   "certifying_body": "DAMA International",
   "certification_name": null,
   "version": null,
@@ -155,5 +155,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: DAMA's CDMP Certification Levels page is live: 'CDMP Associate - Pass Data Management Fundamentals (DMF) exam with >= 60%', Practitioner (DMF + 2 specialist exams >= 70%), Master (>= 80%); six specialty exams listed.",
     "evidence_url": "https://dama.org/certification/cdmp-certification-levels/",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:55:54Z",
+    "evidence_url": "https://dama.org/certification/exam-information-and-pricing/"
   }
 }

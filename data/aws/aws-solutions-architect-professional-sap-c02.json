@@ -110,5 +110,17 @@
     "sap-c02",
     "solutions architect professional"
   ],
-  "practice_url": "https://quizforge.ai/tests/aws-solutions-architect-professional-sap-c02"
+  "practice_url": "https://quizforge.ai/tests/aws-solutions-architect-professional-sap-c02",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-11-17",
+    "replacement": {
+      "exam_code": "SAP-C03",
+      "relationship": "direct_replacement",
+      "url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/"
+    },
+    "summary": "AWS's Solutions Architect - Professional page announces the version change: 'This exam is being updated. Registration for the updated version (SAP-C03) opens October 27, 2026. The last day to take the current exam (SAP-C02) is November 17, 2026.'",
+    "evidence_url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+    "verified_at": "2026-09-19T21:54:52Z"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "cfe-fraud-prevention",
   "exam_name": "CFE Part 4: Fraud Prevention and Deterrence",
-  "exam_code": "CFE-FPD",
+  "exam_code": null,
   "certifying_body": "ACFE",
   "certification_name": null,
   "version": null,
@@ -85,7 +85,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.acfe.com/-/media/files/acfe/pdfs/cfe-exam/cfe-exam-content-outline_2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -265,5 +265,12 @@
     "summary": "ACFE retired CFE-FPD on 2026-06-02. Fraud Prevention and Deterrence is the related successor path.",
     "evidence_url": "https://www.acfe.com/about-the-acfe/newsroom-for-media/press-releases/press-release-detail?s=updated-cfe-exam-2026-pr",
     "verified_at": "2026-08-29T05:37:22+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:45:33Z",
+    "evidence_url": "https://www.acfe.com/cfe-credential/about-the-cfe-exam/2026-cfe-exam-update"
   }
 }

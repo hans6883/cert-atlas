@@ -1,7 +1,7 @@
 {
   "exam_id": "rics-apc-quantity-surveying",
   "exam_name": "APC — Quantity Surveying and Construction",
-  "exam_code": "APC Quantity Surveying",
+  "exam_code": null,
   "certifying_body": "RICS",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.rics.org/content/dam/ricsglobal/documents/join-rics/QS-and-construction_December-2025.pdf",
   "official_study_resources": [
     {
       "resource_type": "guidance",
@@ -115,5 +115,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-16: RICS's sector pathways page lists the Quantity Surveying and Construction pathway with its Chartered Member (MRICS) core and optional competencies and the 'Quantity Surveying and Construction Pathway Guide (Chartered)' published 08 December 2025.",
     "evidence_url": "https://www.rics.org/join-rics/sector-pathways",
     "verified_at": "2026-09-16T12:00:00Z"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:44:31Z",
+    "evidence_url": "https://www.rics.org/join-rics/rics-member-grades/chartered-member-mrics/assessment-of-professional-competence-apc"
   }
 }

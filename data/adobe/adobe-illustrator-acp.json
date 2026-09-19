@@ -1,7 +1,7 @@
 {
   "exam_id": "adobe-illustrator-acp",
   "exam_name": "Adobe Certified Professional — Illustrator",
-  "exam_code": "9A0-412",
+  "exam_code": null,
   "certifying_body": "Adobe",
   "certification_name": null,
   "version": null,
@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certifiedprofessional.adobe.com/illustrator",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -252,5 +252,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:19+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:24:03Z",
+    "evidence_url": "https://certifiedprofessional.adobe.com/illustrator"
   }
 }

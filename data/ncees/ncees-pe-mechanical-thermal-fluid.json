@@ -1,7 +1,7 @@
 {
   "exam_id": "ncees-pe-mechanical-thermal-fluid",
   "exam_name": "Principles and Practice of Engineering (PE) – Mechanical: Thermal and Fluid Systems",
-  "exam_code": "PE Mechanical: Thermal and Fluid Systems",
+  "exam_code": null,
   "certifying_body": "NCEES",
   "certification_name": null,
   "version": null,
@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ncees.org/wp-content/uploads/2025/10/TF_Oct-2025_CBT83.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -122,5 +122,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Examinees have 9 hours to complete the exam, which contains 80 questions. The 9-hour time includes a tutorial and an optional scheduled break.\"",
     "evidence_url": "https://ncees.org/wp-content/uploads/2025/10/TF_Oct-2025_CBT83.pdf",
     "verified_at": "2026-09-18T03:04:49Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:45:35Z",
+    "evidence_url": "https://ncees.org/exams/pe-exam/mechanical/"
   }
 }

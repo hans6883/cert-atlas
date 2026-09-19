@@ -1,7 +1,7 @@
 {
   "exam_id": "comptia-a-plus-core2-220-1102",
   "exam_name": "CompTIA A+ Core 2",
-  "exam_code": "220-1102",
+  "exam_code": "220-1202",
   "certifying_body": "CompTIA",
   "certification_name": "CompTIA A+",
   "version": "V15",
@@ -197,7 +197,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-a-220-1101-220-1102-exam-objectives",
+  "official_objectives_url": "https://www.comptia.org/en-us/certifications/a/core-2-v15/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -246,5 +246,12 @@
     "summary": "CompTIA's current A+ Core 2 exam is 220-1202 (exam version V15, launched March 25, 2025); the 220-1102 (V14) exam is no longer offered on comptia.org - the A+ pages and sitemap carry only V15, and the site prints no 220-1102 retirement date. Successor: 220-1202 (same exam, next version).",
     "evidence_url": "https://www.comptia.org/en-us/certifications/a/core-2-v15/",
     "verified_at": "2026-09-14T19:45:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T21:44:35Z",
+    "evidence_url": "https://www.comptia.org/en-us/certifications/a/core-2-v15/"
   }
 }
