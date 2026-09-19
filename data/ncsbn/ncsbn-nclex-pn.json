@@ -107,7 +107,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nclex.com/test-plans.page",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -143,5 +143,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: NCSBN serves the 'NCLEX-PN Test Plan, Effective April 2026'.",
     "evidence_url": "https://nclex.com/files/2026_PN_Test%20Plan-F.pdf",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:43:18Z",
+    "evidence_url": "https://www.nclex.com/About.page"
   }
 }

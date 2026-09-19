@@ -142,7 +142,7 @@
       "weight_max": 4.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ncbex.org/sites/default/files/2023-01/MPRE_Subject_Matter_Outline.pdf",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -176,5 +176,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: NCBE's MPRE page is live; the MPRE is not part of the NextGen transition ('NCBE's official study aids offer real practice for every exam: NextGen UBE, legacy UBE, and MPRE').",
     "evidence_url": "https://www.ncbex.org/exams/mpre",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:28:19Z",
+    "evidence_url": "https://www.ncbex.org/exams/mpre/about-mpre"
   }
 }

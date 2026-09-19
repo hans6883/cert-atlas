@@ -1,7 +1,7 @@
 {
   "exam_id": "nawt-inspector",
   "exam_name": "NAWT Onsite Wastewater Inspector",
-  "exam_code": "NAWT-Insp",
+  "exam_code": null,
   "certifying_body": "Septic / Wastewater Licensing",
   "certification_name": null,
   "version": null,
@@ -94,5 +94,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: NAWT's training courses page: 'The NAWT Inspection Standards Certification Course is a two-day ... The training concludes with a comprehensive exam. Participants who pass earn NAWT certification'.",
     "evidence_url": "https://nawt.org/education-training/nawt-training-courses/",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:28:38Z",
+    "evidence_url": "https://nawt.org/education-training/nawt-training-courses/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "insurance-personal-lines",
   "exam_name": "Personal Lines Insurance License",
-  "exam_code": "PL",
+  "exam_code": null,
   "certifying_body": "Insurance Licensing",
   "certification_name": null,
   "version": null,
@@ -103,5 +103,12 @@
     "personal lines p c",
     "pl"
   ],
-  "practice_url": "https://quizforge.ai/tests/personal-lines-insurance-license-2n1q1c"
+  "practice_url": "https://quizforge.ai/tests/personal-lines-insurance-license-2n1q1c",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:28:03Z",
+    "evidence_url": "https://nipr.com/licensing-center/apply-for-a-license"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "nccco-ccm",
   "exam_name": "NCCCO Mobile Crane Operator (CCO-MC) Written",
-  "exam_code": "CCO-MC",
+  "exam_code": null,
   "certifying_body": "NCCCO",
   "certification_name": null,
   "version": null,
@@ -108,7 +108,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nccco.org/nccco/certifications/mobile-crane-operator/written-exam/core-exam-outline",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -134,5 +134,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: NCCCO's certification programs page lists Mobile Crane Operator with written exam options.",
     "evidence_url": "https://www.nccco.org/nccco-certification-programs",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:42:44Z",
+    "evidence_url": "https://www.nccco.org/nccco/certifications/mobile-crane-operator"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "vmware-vcp-nv",
   "exam_name": "VCP-NV 2024",
-  "exam_code": "2V0-41.23",
+  "exam_code": "2V0-41.24",
   "certifying_body": "VMware (Broadcom)",
   "certification_name": null,
   "version": null,
@@ -72,7 +72,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.broadcom.com/support/education/vmware/certification/vcp-nv",
+  "official_objectives_url": "https://docs.broadcom.com/docs/vmware-vcp-nv-exam-guide",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -256,5 +256,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-14: Broadcom's 'VMware Certified Professional - Network Virtualization (2V0-41.24)' page is live ('Register for Exam'; Required Exams 'VMware NSX 4.x Professional (2V0-41.24)'); no retirement wording.",
     "evidence_url": "https://www.broadcom.com/support/education/vmware/certification/vcp-nv-nsxt",
     "verified_at": "2026-09-14T20:05:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:42:32Z",
+    "evidence_url": "https://www.broadcom.com/support/education/vmware/certification/vcp-nv-nsxt"
   }
 }

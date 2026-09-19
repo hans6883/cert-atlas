@@ -1,7 +1,7 @@
 {
   "exam_id": "cset-english-1",
   "exam_name": "CSET English Subtests I-II (Reading Literature & Informational Texts; Language)",
-  "exam_code": "CSET-ENG1",
+  "exam_code": "105",
   "certifying_body": "CSET",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ctcexams.nesinc.com/Content/StudyGuide/CA_SG_obj_105.htm",
   "official_study_resources": [],
   "aliases": [
     "cset 107",
@@ -71,5 +71,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the CSET English test page is live.",
     "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CSET105_TestPage.html",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:43:17Z",
+    "evidence_url": "https://www.ctcexams.nesinc.com/GetInfo.aspx?f=CA_CSET105_TestPage.html"
   }
 }

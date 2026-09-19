@@ -1,7 +1,7 @@
 {
   "exam_id": "css-certified-sports-scientist-nsca",
   "exam_name": "CSCS Certified Strength and Conditioning Specialist - Practical Exam",
-  "exam_code": "",
+  "exam_code": "CSCS",
   "certifying_body": "NSCA",
   "version": null,
   "source_url": "https://www.nsca.com/certification/cscs/cscs-exam-description/",
@@ -175,5 +175,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: NSCA's CSCS page is live ('How to Register for an NSCA Exam', 'CSCS Exam Prep Material').",
     "evidence_url": "https://www.nsca.com/certification/cscs/",
     "verified_at": "2026-09-15T22:30:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:43:30Z",
+    "evidence_url": "https://www.nsca.com/certification/cscs/certified-strength-and-conditioning-specialist-exam-description/"
+  },
+  "official_objectives_url": "https://www.nsca.com/certification/cscs/certified-strength-and-conditioning-specialist-exam-description/"
 }

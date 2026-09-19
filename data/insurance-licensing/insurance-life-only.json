@@ -1,7 +1,7 @@
 {
   "exam_id": "insurance-life-only",
   "exam_name": "Life Insurance License",
-  "exam_code": "Life",
+  "exam_code": null,
   "certifying_body": "Insurance Licensing",
   "certification_name": null,
   "version": null,
@@ -103,5 +103,12 @@
     "life only",
     "life only license"
   ],
-  "practice_url": "https://quizforge.ai/tests/life-insurance-license-2my2c6"
+  "practice_url": "https://quizforge.ai/tests/life-insurance-license-2my2c6",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:28:19Z",
+    "evidence_url": "https://nipr.com/licensing-center/apply-for-a-license"
+  }
 }

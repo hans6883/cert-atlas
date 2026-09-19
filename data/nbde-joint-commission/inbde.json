@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://jcnde.ada.org/inbde/inbde-prepare",
   "official_study_resources": [
     {
       "resource_type": "candidate_guide",
@@ -120,5 +120,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: ADA's testing page lists the INBDE ('replaced the NBDE Parts I and II').",
     "evidence_url": "https://www.ada.org/education/testing",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:43:12Z",
+    "evidence_url": "https://jcnde.ada.org/inbde"
   }
 }

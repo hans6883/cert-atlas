@@ -1003,7 +1003,8 @@
       "practice_url": "https://quizforge.ai/tests/accuplacer-arithmetic",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-02T00:53:29+00:00"
+      "verified_at": "2026-09-02T00:53:29+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "accuplacer-esl-reading",
@@ -2048,7 +2049,7 @@
     {
       "exam_id": "arrt-si",
       "exam_name": "Sonography (S)",
-      "exam_code": "S",
+      "exam_code": null,
       "certifying_body": "ARRT",
       "vendor_slug": "arrt",
       "domains": 6,
@@ -2059,7 +2060,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "oat",
@@ -2424,7 +2427,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ase-l1",
@@ -2868,7 +2873,8 @@
       "practice_url": "https://quizforge.ai/tests/teas-7",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "teas-online-proctored",
@@ -2883,7 +2889,8 @@
       "practice_url": "https://quizforge.ai/tests/teas-online-proctored",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "teas-practice-assessment",
@@ -2914,7 +2921,8 @@
       "practice_url": "https://quizforge.ai/tests/teas-nursing-entrance-exam",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:45+00:00"
+      "verified_at": "2026-09-13T15:23:45+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "aws-ai-practitioner-aif-c01",
@@ -4376,7 +4384,8 @@
       "practice_url": "https://quizforge.ai/tests/appian-senior-developer-acd401-2i8kb0",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "aruba-acma",
@@ -4596,6 +4605,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:35+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -5768,19 +5778,20 @@
     {
       "exam_id": "cipd-advanced-diploma-od-development",
       "exam_name": "CIPD Advanced Diploma in Organisational Design and Development (Level 7)",
-      "exam_code": "Advanced Diploma OD&D L7",
+      "exam_code": null,
       "certifying_body": "CIPD",
       "vendor_slug": "cipd",
-      "domains": 5,
+      "domains": 0,
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.cipd.org/en/qualifications/organisational-design/advanced-diploma/",
-      "practice_url": null,
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:17:29+00:00",
       "lifecycle_status": "retired",
-      "retired_on": "2023-07-31"
+      "retired_on": "2023-07-31",
+      "credential_type": "academic_programme",
+      "examination": false
     },
     {
       "exam_id": "cipd-advanced-diploma-strategic-people-management",
@@ -6967,7 +6978,7 @@
     {
       "exam_id": "cset-english-1",
       "exam_name": "CSET English Subtests I-II (Reading Literature & Informational Texts; Language)",
-      "exam_code": "CSET-ENG1",
+      "exam_code": "105",
       "certifying_body": "CSET",
       "vendor_slug": "cset",
       "domains": 3,
@@ -6978,7 +6989,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "cset-math-1",
@@ -8333,7 +8346,7 @@
     {
       "exam_id": "ap-us-government",
       "exam_name": "AP United States Government and Politics",
-      "exam_code": "AP US Gov",
+      "exam_code": null,
       "certifying_body": "College Board",
       "vendor_slug": "college-board",
       "domains": 5,
@@ -8344,7 +8357,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "school_exam",
+      "examination": true
     },
     {
       "exam_id": "ap-us-history",
@@ -10071,7 +10086,7 @@
     {
       "exam_id": "dsst-art-of-the-western-world",
       "exam_name": "Art of the Western World",
-      "exam_code": "ART",
+      "exam_code": null,
       "certifying_body": "DSST",
       "vendor_slug": "dsst",
       "domains": 5,
@@ -10082,7 +10097,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "dsst-astronomy",
@@ -10332,7 +10349,7 @@
     {
       "exam_id": "dsst-human-resource-management",
       "exam_name": "Human Resource Management",
-      "exam_code": "HRM",
+      "exam_code": null,
       "certifying_body": "DSST",
       "vendor_slug": "dsst",
       "domains": 6,
@@ -10343,7 +10360,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T04:38:29+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "dsst-introduction-to-business",
@@ -10404,7 +10423,7 @@
     {
       "exam_id": "dsst-introduction-to-world-religions",
       "exam_name": "Introduction to World Religions",
-      "exam_code": "WREL",
+      "exam_code": null,
       "certifying_body": "DSST",
       "vendor_slug": "dsst",
       "domains": 7,
@@ -10415,7 +10434,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "dsst-lifespan-developmental-psychology",
@@ -10644,7 +10665,7 @@
     {
       "exam_id": "dsst-rise-and-fall-of-the-soviet-union",
       "exam_name": "Rise and Fall of the Soviet Union",
-      "exam_code": "USSR",
+      "exam_code": null,
       "certifying_body": "DSST",
       "vendor_slug": "dsst",
       "domains": 6,
@@ -10655,7 +10676,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "dsst-technical-writing",
@@ -11154,7 +11177,7 @@
     {
       "exam_id": "gre-general",
       "exam_name": "GRE General Test",
-      "exam_code": "GRE",
+      "exam_code": null,
       "certifying_body": "ETS",
       "vendor_slug": "ets",
       "domains": 3,
@@ -11165,7 +11188,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "gre-subject-biology",
@@ -11754,6 +11779,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:37+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -12577,7 +12603,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ftce-elementary-education",
@@ -13127,6 +13155,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:38+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -13175,7 +13204,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "giac-gsec",
@@ -13191,7 +13222,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "giac-gwapt",
@@ -15253,7 +15286,7 @@
     {
       "exam_id": "hubspot-inbound-sales",
       "exam_name": "Inbound Sales Certification",
-      "exam_code": "HubSpot-InboundSales",
+      "exam_code": null,
       "certifying_body": "HubSpot Academy",
       "vendor_slug": "hubspot-academy",
       "domains": 5,
@@ -15264,7 +15297,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "hubspot-marketing-hub",
@@ -15526,7 +15561,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "icgb",
@@ -16450,7 +16487,8 @@
       "practice_url": "https://quizforge.ai/tests/chmm-certified-hazardous-materials-manager",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T15:23:36+00:00"
+      "verified_at": "2026-09-13T15:23:36+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ccsa",
@@ -17903,7 +17941,7 @@
     {
       "exam_id": "insurance-life-health",
       "exam_name": "Life & Health Insurance License",
-      "exam_code": "L&H",
+      "exam_code": null,
       "certifying_body": "Insurance Licensing",
       "vendor_slug": "insurance-licensing",
       "domains": 5,
@@ -17913,12 +17951,14 @@
       "practice_url": "https://quizforge.ai/tests/life-and-health-insurance-license-2mvmjf",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "insurance-life-only",
       "exam_name": "Life Insurance License",
-      "exam_code": "Life",
+      "exam_code": null,
       "certifying_body": "Insurance Licensing",
       "vendor_slug": "insurance-licensing",
       "domains": 5,
@@ -17928,7 +17968,9 @@
       "practice_url": "https://quizforge.ai/tests/life-insurance-license-2my2c6",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "insurance-mortgage-protection",
@@ -17948,7 +17990,7 @@
     {
       "exam_id": "insurance-personal-lines",
       "exam_name": "Personal Lines Insurance License",
-      "exam_code": "PL",
+      "exam_code": null,
       "certifying_body": "Insurance Licensing",
       "vendor_slug": "insurance-licensing",
       "domains": 5,
@@ -17958,7 +18000,9 @@
       "practice_url": "https://quizforge.ai/tests/personal-lines-insurance-license-2n1q1c",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "insurance-adjuster",
@@ -18849,7 +18893,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:37+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-sc-400-information-protection",
@@ -18900,7 +18946,9 @@
       "enriched": false,
       "content_modified_at": "2026-09-04",
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-az-800-windows-server-hybrid-core",
@@ -19067,7 +19115,9 @@
       "enriched": false,
       "content_modified_at": "2026-09-04",
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-dp-100-azure-data-scientist",
@@ -19431,7 +19481,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-mb-500-dynamics-365-finance-operations-developer",
@@ -20397,6 +20449,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:03+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -20414,6 +20467,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:39+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -20509,7 +20563,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nbde-part-i-legacy",
@@ -20618,7 +20674,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "usmle-step-2-ck",
@@ -20733,6 +20791,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:01+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -21099,7 +21158,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncbe-ube",
@@ -21116,7 +21177,9 @@
       "content_modified_at": null,
       "verified_at": null,
       "lifecycle_status": "scheduled_retirement",
-      "retires_on": "2028-02"
+      "retires_on": "2028-02",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nccco-lift-director",
@@ -21136,7 +21199,7 @@
     {
       "exam_id": "nccco-ccm",
       "exam_name": "NCCCO Mobile Crane Operator (CCO-MC) Written",
-      "exam_code": "CCO-MC",
+      "exam_code": null,
       "certifying_body": "NCCCO",
       "vendor_slug": "nccco",
       "domains": 8,
@@ -21147,7 +21210,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nccco-ccm-practical",
@@ -22046,7 +22111,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ncsbn-nclex-rn",
@@ -22579,6 +22646,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -22971,7 +23039,7 @@
     {
       "exam_id": "css-certified-sports-scientist-nsca",
       "exam_name": "CSCS Certified Strength and Conditioning Specialist - Practical Exam",
-      "exam_code": "",
+      "exam_code": "CSCS",
       "certifying_body": "NSCA",
       "vendor_slug": "nsca",
       "domains": 4,
@@ -22982,7 +23050,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:37+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nsca-cscs-certified-strength-conditioning-specialist",
@@ -27499,7 +27569,7 @@
     {
       "exam_id": "nawt-inspector",
       "exam_name": "NAWT Onsite Wastewater Inspector",
-      "exam_code": "NAWT-Insp",
+      "exam_code": null,
       "certifying_body": "Septic / Wastewater Licensing",
       "vendor_slug": "septic-wastewater-licensing",
       "domains": 8,
@@ -27510,7 +27580,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nawt-installer-i",
@@ -29575,7 +29647,7 @@
     {
       "exam_id": "splunk-core-certified-power-user",
       "exam_name": "Splunk Core Certified Power User",
-      "exam_code": "SPLK-1002",
+      "exam_code": null,
       "certifying_body": "Splunk",
       "vendor_slug": "splunk",
       "domains": 10,
@@ -29586,7 +29658,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "splunk-core-certified-user",
@@ -30741,7 +30815,7 @@
     {
       "exam_id": "vmware-vcp-nv",
       "exam_name": "VCP-NV 2024",
-      "exam_code": "2V0-41.23",
+      "exam_code": "2V0-41.24",
       "certifying_body": "VMware (Broadcom)",
       "vendor_slug": "vmware-broadcom",
       "domains": 5,
@@ -30752,7 +30826,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:19:27+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "veeam-vmce-ai",

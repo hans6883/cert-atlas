@@ -1,7 +1,7 @@
 {
   "exam_id": "gre-general",
   "exam_name": "GRE General Test",
-  "exam_code": "GRE",
+  "exam_code": null,
   "certifying_body": "ETS",
   "certification_name": null,
   "version": null,
@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ets.org/gre/test-takers/general-test/prepare/content.html",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -119,5 +119,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the GRE General Test page is live.",
     "evidence_url": "https://www.ets.org/gre/test-takers/general-test/about.html",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T18:42:22Z",
+    "evidence_url": "https://www.ets.org/gre/test-takers/general-test/about.html"
   }
 }

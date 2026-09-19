@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-us-government",
   "exam_name": "AP United States Government and Politics",
-  "exam_code": "AP US Gov",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -85,7 +85,7 @@
       "weight_max": 27.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/courses/ap-united-states-government-and-politics/exam",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -121,5 +121,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the AP United States Government and Politics page is live.",
     "evidence_url": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:43:18Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics"
   }
 }

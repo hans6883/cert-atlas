@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ncbex.org/sites/default/files/2023-01/MBE_Subject_Matter_Outline.pdf",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -113,5 +113,12 @@
     "summary": "NCBE describes the UBE as 'The legacy Uniform Bar Examination, administered through February 2028' and states 'Between July 2026 and July 2028, most jurisdictions will transition from the legacy UBE to the NextGen UBE'; the NextGen implementation timeline prints 'Q3 2026 First administration of new exam' and 'Q1 2028 Final administration of MBE, MEE, and MPT'. Successor: the NextGen UBE.",
     "evidence_url": "https://www.ncbex.org/exams/ube/about-ube",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T18:27:38Z",
+    "evidence_url": "https://www.ncbex.org/exams/ube/about-ube"
   }
 }
