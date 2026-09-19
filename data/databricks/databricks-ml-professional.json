@@ -1,7 +1,7 @@
 {
   "exam_id": "databricks-ml-professional",
   "exam_name": "Databricks Certified Machine Learning Professional",
-  "exam_code": "ML Professional",
+  "exam_code": null,
   "certifying_body": "Databricks",
   "certification_name": "Databricks Certified Machine Learning Professional",
   "version": null,
@@ -104,7 +104,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://www.databricks.com/training/certification-exam-guide/machine-learning-professional-exam-guide",
+  "official_objectives_url": "https://www.databricks.com/sites/default/files/2025-10/databricks-certified-machine-learning-professional-exam-guide-september.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -130,5 +130,12 @@
     "databricks-ml-professional",
     "ml professional"
   ],
-  "practice_url": "https://quizforge.ai/tests/databricks-ml-professional"
+  "practice_url": "https://quizforge.ai/tests/databricks-ml-professional",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:26:39Z",
+    "evidence_url": "https://www.databricks.com/learn/certification/machine-learning-professional"
+  }
 }

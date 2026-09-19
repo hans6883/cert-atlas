@@ -132,7 +132,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.officialasvab.com/applicants/fact-sheet/",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -158,5 +158,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the ASVAB Fact Sheet (April 2025) states 'The ASVAB is administered via both computer and paper and pencil'.",
     "evidence_url": "https://www.officialasvab.com/wp-content/uploads/2025/04/ASVAB-Fact_Sheet.pdf",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T05:27:07Z",
+    "evidence_url": "https://www.officialasvab.com/applicants/faqs/"
   }
 }

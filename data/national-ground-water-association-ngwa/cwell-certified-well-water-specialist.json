@@ -1,7 +1,7 @@
 {
   "exam_id": "cwell-certified-well-water-specialist",
   "exam_name": "NGWA Certified Well Driller Examination",
-  "exam_code": "",
+  "exam_code": "CWD",
   "certifying_body": "National Ground Water Association (NGWA)",
   "version": null,
   "source_url": "https://www.ngwa.org/advance-your-career/certification/contractor-certification/certification-exams",
@@ -221,5 +221,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T00:14:05+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:26:25Z",
+    "evidence_url": "https://www.ngwa.org/advance-your-career/certification/contractor-certification/certification-exams"
+  },
+  "official_objectives_url": "https://www.ngwa.org/advance-your-career/certification/contractor-certification/certification-exams"
 }

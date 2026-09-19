@@ -1,7 +1,7 @@
 {
   "exam_id": "cdl-air-brakes",
   "exam_name": "CDL Air Brakes Endorsement Test",
-  "exam_code": "CDL-AB",
+  "exam_code": null,
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ai.fmcsa.dot.gov/downloadFile.axd?file=CDLTraining508Accessible.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -102,5 +102,12 @@
     "cdl-ab",
     "cdl-air-brakes"
   ],
-  "practice_url": "https://quizforge.ai/tests/cdl-air-brakes-endorsement-test-2xg36r"
+  "practice_url": "https://quizforge.ai/tests/cdl-air-brakes-endorsement-test-2xg36r",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T04:27:38Z",
+    "evidence_url": "https://csa.fmcsa.dot.gov/SafetyPlanner/MyFiles/SubSections.aspx?ch=23&sec=67&sub=157"
+  }
 }

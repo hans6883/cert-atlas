@@ -1,7 +1,7 @@
 {
   "exam_id": "cset-social-science",
   "exam_name": "CSET Social Science Subtest I (World History, U.S. History)",
-  "exam_code": "CSET-SS1",
+  "exam_code": "114",
   "certifying_body": "CSET",
   "certification_name": null,
   "version": null,
@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.cset.nesinc.com/",
+  "official_objectives_url": "https://www.ctcexams.nesinc.com/Content/StudyGuide/CA_SG_obj_114.htm",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -100,5 +100,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Online proctoring is available for this test. You may test remotely, including from home.\"",
     "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CSET114_TestPage.html",
     "verified_at": "2026-09-18T02:54:04Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T04:48:49Z",
+    "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG%2FCA_CSET114_TestPage.html"
   }
 }

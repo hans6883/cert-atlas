@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://siele.org/en/examenes",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -110,5 +110,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: Instituto Cervantes' SIELE page is live; siele.org offers 'RESERVA TU EXAMEN'.",
     "evidence_url": "https://examenes.cervantes.es/es/siele/que-es",
     "verified_at": "2026-09-15T22:30:00Z"
+  },
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-19T04:48:37Z",
+    "evidence_url": "https://siele.org/en/examenes"
   }
 }

@@ -2678,7 +2678,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "afqt",
@@ -4930,7 +4932,7 @@
     {
       "exam_id": "cdl-air-brakes",
       "exam_name": "CDL Air Brakes Endorsement Test",
-      "exam_code": "CDL-AB",
+      "exam_code": null,
       "certifying_body": "CDL / Commercial Driver Licensing",
       "vendor_slug": "cdl-commercial-driver-licensing",
       "domains": 4,
@@ -4940,7 +4942,9 @@
       "practice_url": "https://quizforge.ai/tests/cdl-air-brakes-endorsement-test-2xg36r",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "cdl-combination-vehicles",
@@ -6938,7 +6942,7 @@
     {
       "exam_id": "cset-social-science",
       "exam_name": "CSET Social Science Subtest I (World History, U.S. History)",
-      "exam_code": "CSET-SS1",
+      "exam_code": "114",
       "certifying_body": "CSET",
       "vendor_slug": "cset",
       "domains": 2,
@@ -6949,7 +6953,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "cwdp-certified-wireless-design-professional-cwdp-304",
@@ -10647,7 +10653,7 @@
     {
       "exam_id": "databricks-ml-professional",
       "exam_name": "Databricks Certified Machine Learning Professional",
-      "exam_code": "ML Professional",
+      "exam_code": null,
       "certifying_body": "Databricks",
       "vendor_slug": "databricks",
       "domains": 3,
@@ -10657,7 +10663,9 @@
       "practice_url": "https://quizforge.ai/tests/databricks-ml-professional",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "datadog-apm-monitoring",
@@ -14314,7 +14322,7 @@
     {
       "exam_id": "nate-ac-installer",
       "exam_name": "NATE Air Conditioning Installer",
-      "exam_code": "NATE-ACI",
+      "exam_code": null,
       "certifying_body": "HVAC Licensing",
       "vendor_slug": "hvac-licensing",
       "domains": 10,
@@ -14325,7 +14333,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nate-ac-service",
@@ -14375,7 +14385,7 @@
     {
       "exam_id": "nate-core",
       "exam_name": "NATE Core Exam",
-      "exam_code": "NATE-Core",
+      "exam_code": null,
       "certifying_body": "HVAC Licensing",
       "vendor_slug": "hvac-licensing",
       "domains": 10,
@@ -14386,7 +14396,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nate-gas-furnace-installer",
@@ -14436,7 +14448,7 @@
     {
       "exam_id": "nate-heat-pump-service",
       "exam_name": "NATE Heat Pump Service",
-      "exam_code": "NATE-HPS",
+      "exam_code": null,
       "certifying_body": "HVAC Licensing",
       "vendor_slug": "hvac-licensing",
       "domains": 10,
@@ -14446,7 +14458,9 @@
       "practice_url": "https://quizforge.ai/tests/nate-heat-pump-service-2y0th9",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nate-hydronic-heating",
@@ -17607,7 +17621,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "language_proficiency_test",
+      "examination": true
     },
     {
       "exam_id": "insurance-limited-lines-credit",
@@ -18291,7 +18307,7 @@
     {
       "exam_id": "ielts-ukvi",
       "exam_name": "IELTS for UKVI",
-      "exam_code": "IELTS-UKVI",
+      "exam_code": null,
       "certifying_body": "Language Proficiency Tests",
       "vendor_slug": "language-proficiency-tests",
       "domains": 4,
@@ -18302,7 +18318,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "language_proficiency_test",
+      "examination": true
     },
     {
       "exam_id": "linux-foundation-cka",
@@ -19882,7 +19900,7 @@
     {
       "exam_id": "psi-contractor-electrical",
       "exam_name": "PSI Contractor License Exam — Electrical",
-      "exam_code": "PSI-EC",
+      "exam_code": null,
       "certifying_body": "NASCLA",
       "vendor_slug": "nascla",
       "domains": 6,
@@ -19892,7 +19910,9 @@
       "practice_url": "https://quizforge.ai/tests/psi-contractor-license-exam-%E2%80%94-electrical-2k62kt",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "psi-contractor-general",
@@ -20171,7 +20191,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nbcot-otr",
@@ -22876,7 +22898,7 @@
     {
       "exam_id": "cwell-certified-well-water-specialist",
       "exam_name": "NGWA Certified Well Driller Examination",
-      "exam_code": "",
+      "exam_code": "CWD",
       "certifying_body": "National Ground Water Association (NGWA)",
       "vendor_slug": "national-ground-water-association-ngwa",
       "domains": 7,
@@ -22886,7 +22908,9 @@
       "practice_url": "https://quizforge.ai/tests/cwell-certified-well-water-specialist",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T00:14:05+00:00"
+      "verified_at": "2026-09-14T00:14:05+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nism-mutual-funds",
@@ -25182,7 +25206,7 @@
     {
       "exam_id": "plumb-journeyman-tx",
       "exam_name": "Texas Journeyman Plumber Exam",
-      "exam_code": "TX-Journey-P",
+      "exam_code": null,
       "certifying_body": "Plumber Licensing",
       "vendor_slug": "plumber-licensing",
       "domains": 6,
@@ -25192,7 +25216,9 @@
       "practice_url": "https://quizforge.ai/tests/texas-journeyman-plumber-exam-2kh1o9",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "plumb-master-tx",
@@ -25519,7 +25545,7 @@
     {
       "exam_id": "red-seal-plumber",
       "exam_name": "Red Seal Plumber Exam",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "Red Seal (Interprovincial Standards Red Seal Program)",
       "vendor_slug": "red-seal-interprovincial-standards-red-seal-program",
       "domains": 7,
@@ -25529,7 +25555,9 @@
       "practice_url": "https://quizforge.ai/tests/red-seal-plumber",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T00:14:07+00:00"
+      "verified_at": "2026-09-14T00:14:07+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ribo-insurance",
@@ -30647,7 +30675,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "zscaler-zdte",

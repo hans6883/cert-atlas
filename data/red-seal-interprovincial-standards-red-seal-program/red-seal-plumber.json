@@ -1,7 +1,7 @@
 {
   "exam_id": "red-seal-plumber",
   "exam_name": "Red Seal Plumber Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Red Seal (Interprovincial Standards Red Seal Program)",
   "version": null,
   "source_url": "https://red-seal.ca/eng/trades/plumbers/exam-information.shtml",
@@ -229,5 +229,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T00:14:07+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:26:25Z",
+    "evidence_url": "https://red-seal.ca/eng/trades/plumbers/exam-information.shtml"
+  },
+  "official_objectives_url": "https://red-seal.ca/eng/trades/plumbers/exam-information.shtml"
 }

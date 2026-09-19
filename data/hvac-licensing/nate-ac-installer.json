@@ -1,7 +1,7 @@
 {
   "exam_id": "nate-ac-installer",
   "exam_name": "NATE Air Conditioning Installer",
-  "exam_code": "NATE-ACI",
+  "exam_code": null,
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,7 +93,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://natex.org/wp-content/uploads/2022/06/kate_acin.pdf",
   "official_study_resources": [],
   "aliases": [
     "nate air conditioning installer",
@@ -106,5 +106,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"Installation Specialties: Air Conditioning Air Distribution Air to Air Heat Pump Gas Heating (Air)\"",
     "evidence_url": "https://natex.org/technician/take-an-exam/traditional-pathway",
     "verified_at": "2026-09-18T05:17:08Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T04:48:54Z",
+    "evidence_url": "https://natex.org/technician/take-an-exam/traditional-pathway"
   }
 }

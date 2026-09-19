@@ -1,7 +1,7 @@
 {
   "exam_id": "nate-heat-pump-service",
   "exam_name": "NATE Heat Pump Service",
-  "exam_code": "NATE-HPS",
+  "exam_code": null,
   "certifying_body": "HVAC Licensing",
   "certification_name": null,
   "version": null,
@@ -93,12 +93,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://natex.org/wp-content/uploads/2020/06/Heat-Pump-Service-KATE-2.7.pdf",
   "official_study_resources": [],
   "aliases": [
     "nate heat pump service",
     "nate-heat-pump-service",
     "nate-hps"
   ],
-  "practice_url": "https://quizforge.ai/tests/nate-heat-pump-service-2y0th9"
+  "practice_url": "https://quizforge.ai/tests/nate-heat-pump-service-2y0th9",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T04:27:22Z",
+    "evidence_url": "https://natex.org/technician/take-an-exam/traditional-pathway"
+  }
 }

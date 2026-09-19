@@ -1,7 +1,7 @@
 {
   "exam_id": "psi-contractor-electrical",
   "exam_name": "PSI Contractor License Exam — Electrical",
-  "exam_code": "PSI-EC",
+  "exam_code": null,
   "certifying_body": "NASCLA",
   "certification_name": null,
   "version": null,
@@ -110,5 +110,12 @@
     "psi-ec",
     "state electrical contractor exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/psi-contractor-license-exam-%E2%80%94-electrical-2k62kt"
+  "practice_url": "https://quizforge.ai/tests/psi-contractor-license-exam-%E2%80%94-electrical-2k62kt",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T05:27:08Z",
+    "evidence_url": "https://www.nascla.org/nascla-electrical-exams"
+  }
 }
