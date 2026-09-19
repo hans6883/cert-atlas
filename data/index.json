@@ -851,7 +851,7 @@
     {
       "exam_id": "acca-fr",
       "exam_name": "Financial Reporting (FR/F7)",
-      "exam_code": "FR/F7",
+      "exam_code": "FR",
       "certifying_body": "ACCA",
       "vendor_slug": "acca",
       "domains": 5,
@@ -866,7 +866,9 @@
       "retires_on": "2027-06-30",
       "replacement_exam_code": "E2",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": null
+      "replacement_url": null,
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "acca-ma",
@@ -8870,7 +8872,9 @@
       "practice_url": "https://quizforge.ai/tests/certified-data-management-professional-cdmp-associate",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "dama-cdmp-foundation",
@@ -10604,7 +10608,7 @@
     {
       "exam_id": "databricks-machine-learning-associate-databricks-certified-machine-lea",
       "exam_name": "Databricks Certified Machine Learning Associate",
-      "exam_code": "Machine Learning Associate",
+      "exam_code": null,
       "certifying_body": "Databricks",
       "vendor_slug": "databricks",
       "domains": 4,
@@ -10614,7 +10618,9 @@
       "practice_url": "https://quizforge.ai/tests/databricks-certified-machine-learning-associate",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:01+00:00"
+      "verified_at": "2026-09-14T03:22:01+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "databricks-ml-professional",
@@ -16399,7 +16405,9 @@
       "practice_url": "https://quizforge.ai/tests/iiba-certified-business-analysis-professional-cbap",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "iiba-ecba",
@@ -23212,7 +23220,7 @@
     {
       "exam_id": "nonprofit-leadership-alliance-cnp",
       "exam_name": "Certified Nonprofit Professional (CNP)",
-      "exam_code": "",
+      "exam_code": "CNP",
       "certifying_body": "Nonprofit Leadership Alliance",
       "vendor_slug": "nonprofit-leadership-alliance",
       "domains": 10,
@@ -23222,7 +23230,9 @@
       "practice_url": "https://quizforge.ai/tests/nonprofit-leadership-alliance-cnp",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:05+00:00"
+      "verified_at": "2026-09-13T23:40:05+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nutanix-nca",
@@ -24341,7 +24351,7 @@
     {
       "exam_id": "pmi-professional-in-business-analysis-pmi-pba",
       "exam_name": "PMI Professional in Business Analysis (PMI-PBA)",
-      "exam_code": "",
+      "exam_code": "PMI-PBA",
       "certifying_body": "PMI",
       "vendor_slug": "pmi",
       "domains": 5,
@@ -24351,7 +24361,9 @@
       "practice_url": "https://quizforge.ai/tests/pmi-professional-in-business-analysis-pmi-pba",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:06+00:00"
+      "verified_at": "2026-09-13T23:40:06+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "pmi-pgmp",
@@ -25431,7 +25443,7 @@
     {
       "exam_id": "red-seal-carpenter",
       "exam_name": "Red Seal Carpenter Exam",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "Red Seal (Interprovincial Standards Red Seal Program)",
       "vendor_slug": "red-seal-interprovincial-standards-red-seal-program",
       "domains": 7,
@@ -25441,7 +25453,9 @@
       "practice_url": "https://quizforge.ai/tests/red-seal-carpenter",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:04+00:00"
+      "verified_at": "2026-09-14T03:22:04+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "red-seal-electrician",
@@ -26715,7 +26729,7 @@
     {
       "exam_id": "safe-agile-popm",
       "exam_name": "SAFe Product Owner/Product Manager (POPM)",
-      "exam_code": "POPM",
+      "exam_code": null,
       "certifying_body": "Scaled Agile",
       "vendor_slug": "scaled-agile",
       "domains": 6,
@@ -26725,7 +26739,9 @@
       "practice_url": "https://quizforge.ai/tests/safe-product-owner",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "safe-agile-spc",
@@ -29944,7 +29960,7 @@
     {
       "exam_id": "ans-nuclear-power-plant-operator",
       "exam_name": "NRC Nuclear Power Plant Operator License",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "U.S. Nuclear Regulatory Commission (NRC)",
       "vendor_slug": "u-s-nuclear-regulatory-commission-nrc",
       "domains": 6,
@@ -29954,7 +29970,9 @@
       "practice_url": "https://quizforge.ai/tests/ans-nuclear-power-plant-operator",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:21:59+00:00"
+      "verified_at": "2026-09-14T03:21:59+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nrc-reactor-operator-license-exam",

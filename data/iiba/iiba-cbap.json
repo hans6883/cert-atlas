@@ -110,7 +110,7 @@
       "weight_max": 14.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.iiba.org/business-analysis-certifications/cbap/",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -137,5 +137,12 @@
     "certified business analysis professional cbap",
     "iiba-cbap"
   ],
-  "practice_url": "https://quizforge.ai/tests/iiba-certified-business-analysis-professional-cbap"
+  "practice_url": "https://quizforge.ai/tests/iiba-certified-business-analysis-professional-cbap",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T01:27:36Z",
+    "evidence_url": "https://www.iiba.org/business-analysis-certifications/cbap/"
+  }
 }

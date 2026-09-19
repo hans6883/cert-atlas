@@ -136,7 +136,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://dama.org/certification/cdmp-certification-levels/",
   "official_study_resources": [
     {
       "resource_type": "book",
@@ -155,5 +155,12 @@
     "dama associate",
     "dama-cdmp-associate"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-data-management-professional-cdmp-associate"
+  "practice_url": "https://quizforge.ai/tests/certified-data-management-professional-cdmp-associate",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T01:28:12Z",
+    "evidence_url": "https://dama.org/certification/cdmp-certification-levels/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ans-nuclear-power-plant-operator",
   "exam_name": "NRC Nuclear Power Plant Operator License",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "U.S. Nuclear Regulatory Commission (NRC)",
   "version": null,
   "source_url": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/operator-licensing",
@@ -217,5 +217,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:21:59+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T01:29:07Z",
+    "evidence_url": "https://www.nrc.gov/reactors/operator-licensing/licensing-process"
+  },
+  "official_objectives_url": "https://www.nrc.gov/reactors/operator-licensing/licensing-process"
 }

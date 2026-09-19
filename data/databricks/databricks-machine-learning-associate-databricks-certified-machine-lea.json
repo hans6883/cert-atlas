@@ -1,7 +1,7 @@
 {
   "exam_id": "databricks-machine-learning-associate-databricks-certified-machine-lea",
   "exam_name": "Databricks Certified Machine Learning Associate",
-  "exam_code": "Machine Learning Associate",
+  "exam_code": null,
   "certifying_body": "Databricks",
   "certification_name": "Databricks Certified Machine Learning Associate",
   "version": "as of 2025-03-01",
@@ -448,5 +448,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:01+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T01:51:49Z",
+    "evidence_url": "https://www.databricks.com/learn/certification/machine-learning-associate"
   }
 }

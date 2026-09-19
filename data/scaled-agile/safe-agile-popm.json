@@ -1,7 +1,7 @@
 {
   "exam_id": "safe-agile-popm",
   "exam_name": "SAFe Product Owner/Product Manager (POPM)",
-  "exam_code": "POPM",
+  "exam_code": null,
   "certifying_body": "Scaled Agile",
   "certification_name": "SAFe Product Owner/Product Manager",
   "version": null,
@@ -151,7 +151,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://scaledagile.com/training/safe-product-owner-product-manager/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -180,5 +180,12 @@
     "safe product owner product manager popm",
     "safe-agile-popm"
   ],
-  "practice_url": "https://quizforge.ai/tests/safe-product-owner"
+  "practice_url": "https://quizforge.ai/tests/safe-product-owner",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T01:27:35Z",
+    "evidence_url": "https://scaledagile.com/training/safe-product-owner-product-manager/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "pmi-professional-in-business-analysis-pmi-pba",
   "exam_name": "PMI Professional in Business Analysis (PMI-PBA)",
-  "exam_code": "",
+  "exam_code": "PMI-PBA",
   "certifying_body": "PMI",
   "version": null,
   "source_url": "https://www.pmi.org/certifications/business-analysis-pba",
@@ -186,5 +186,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:06+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T01:28:37Z",
+    "evidence_url": "https://www.pmi.org/certifications/business-analysis-pba"
+  },
+  "official_objectives_url": "https://www.pmi.org/certifications/business-analysis-pba"
 }
