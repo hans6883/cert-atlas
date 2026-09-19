@@ -1,7 +1,7 @@
 {
   "exam_id": "acca-ma",
   "exam_name": "Management Accounting (MA/F2)",
-  "exam_code": "MA/F2",
+  "exam_code": "MA/FMA",
   "certifying_body": "ACCA",
   "certification_name": null,
   "version": null,
@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/ma_fma_s26_j27_syllabus_and_study_guide.pdf",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -82,5 +82,12 @@
     "ma f2",
     "management accounting ma f2"
   ],
-  "practice_url": "https://quizforge.ai/tests/acca-applied-knowledge-ma"
+  "practice_url": "https://quizforge.ai/tests/acca-applied-knowledge-ma",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T03:44:22Z",
+    "evidence_url": "https://www.accaglobal.com/us/en/student/exam-support-resources/fundamentals-exams-study-resources/f2/session-cbe-introduction/ma-essentials.html"
+  }
 }

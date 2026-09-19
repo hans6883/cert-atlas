@@ -873,7 +873,7 @@
     {
       "exam_id": "acca-ma",
       "exam_name": "Management Accounting (MA/F2)",
-      "exam_code": "MA/F2",
+      "exam_code": "MA/FMA",
       "certifying_body": "ACCA",
       "vendor_slug": "acca",
       "domains": 3,
@@ -883,7 +883,9 @@
       "practice_url": "https://quizforge.ai/tests/acca-applied-knowledge-ma",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "acca-pm",
@@ -4596,7 +4598,7 @@
     {
       "exam_id": "brcgs-internal-auditor-food",
       "exam_name": "BRCGS Internal Auditor Food Safety Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "BRCGS",
       "vendor_slug": "brcgs",
       "domains": 4,
@@ -4606,7 +4608,9 @@
       "practice_url": "https://quizforge.ai/tests/brcgs-internal-auditor-food",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:21:59+00:00"
+      "verified_at": "2026-09-14T03:21:59+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "bce-biofeedback",
@@ -8976,7 +8980,7 @@
     {
       "exam_id": "danb-certified-orthodontic-assistant-coa",
       "exam_name": "DANB Certified Orthodontic Assistant (COA)",
-      "exam_code": "",
+      "exam_code": "COA",
       "certifying_body": "DANB",
       "vendor_slug": "danb",
       "domains": 8,
@@ -8986,7 +8990,9 @@
       "practice_url": "https://quizforge.ai/tests/danb-certified-orthodontic-assistant-coa",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T00:14:05+00:00"
+      "verified_at": "2026-09-14T00:14:05+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "danb-gchs",
@@ -16412,7 +16418,9 @@
       "practice_url": "https://quizforge.ai/tests/iiba-ccba-certification-competency-business",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "iiba-cbap",
@@ -17412,7 +17420,7 @@
     {
       "exam_id": "crni-certified-registered-nurse-infusion",
       "exam_name": "CRNI Certified Registered Nurse Infusion",
-      "exam_code": "",
+      "exam_code": "CRNI",
       "certifying_body": "Infusion Nurses Certification Corporation (INCC)",
       "vendor_slug": "infusion-nurses-certification-corporation-incc",
       "domains": 3,
@@ -17422,7 +17430,9 @@
       "practice_url": "https://quizforge.ai/tests/crni-certified-registered-nurse-infusion",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:02+00:00"
+      "verified_at": "2026-09-13T23:40:02+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cprm-certified-professional-records-management",
@@ -22881,7 +22891,7 @@
     {
       "exam_id": "nism-mutual-funds",
       "exam_name": "NISM Series V-A Mutual Fund Distributor",
-      "exam_code": "",
+      "exam_code": "NISM-Series-V-A",
       "certifying_body": "National Institute of Securities Markets (NISM)",
       "vendor_slug": "national-institute-of-securities-markets-nism",
       "domains": 12,
@@ -22891,7 +22901,9 @@
       "practice_url": "https://quizforge.ai/tests/nism-mutual-funds",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T00:14:07+00:00"
+      "verified_at": "2026-09-14T00:14:07+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "afo-aquatic-facility",
@@ -24730,7 +24742,7 @@
     {
       "exam_id": "dora-devops",
       "exam_name": "DORA DevOps Foundation",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "PeopleCert",
       "vendor_slug": "peoplecert",
       "domains": 8,
@@ -24740,7 +24752,9 @@
       "practice_url": "https://quizforge.ai/tests/dora-devops",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:02+00:00"
+      "verified_at": "2026-09-13T23:40:02+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "p3o-foundation-portfolio-programme-project-offices",

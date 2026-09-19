@@ -1,7 +1,7 @@
 {
   "exam_id": "dora-devops",
   "exam_name": "DORA DevOps Foundation",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "PeopleCert",
   "version": null,
   "source_url": "https://www.peoplecert.org/browse-certifications/devops/DevOps-13/devops-foundation-2457",
@@ -240,5 +240,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:02+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T03:23:30Z",
+    "evidence_url": "https://www.peoplecert.org/browse-certifications/devops/DevOps-13/devops-foundation-2457"
+  },
+  "official_objectives_url": "https://www.peoplecert.org/browse-certifications/devops/DevOps-13/devops-foundation-2457"
 }

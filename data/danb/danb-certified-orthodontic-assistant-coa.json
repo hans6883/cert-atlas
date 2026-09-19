@@ -1,7 +1,7 @@
 {
   "exam_id": "danb-certified-orthodontic-assistant-coa",
   "exam_name": "DANB Certified Orthodontic Assistant (COA)",
-  "exam_code": "",
+  "exam_code": "COA",
   "certifying_body": "DANB",
   "version": null,
   "source_url": "https://www.danb.org/exams/exam/coa-exam",
@@ -239,5 +239,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T00:14:05+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T03:45:44Z",
+    "evidence_url": "https://www.danb.org/exams/exam/coa-exam"
+  },
+  "official_objectives_url": "https://www.danb.org/exams/prepare-for-danb-exams"
 }

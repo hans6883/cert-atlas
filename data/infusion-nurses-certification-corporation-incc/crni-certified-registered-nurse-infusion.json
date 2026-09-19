@@ -1,7 +1,7 @@
 {
   "exam_id": "crni-certified-registered-nurse-infusion",
   "exam_name": "CRNI Certified Registered Nurse Infusion",
-  "exam_code": "",
+  "exam_code": "CRNI",
   "certifying_body": "Infusion Nurses Certification Corporation (INCC)",
   "version": null,
   "source_url": "https://www.ins1.org/wp-content/uploads/2025/11/2025-INCC-CRNI-Exam-Content-Outline.pdf",
@@ -153,5 +153,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:02+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T03:23:36Z",
+    "evidence_url": "https://www.ins1.org/crni/exam/overview/"
+  },
+  "official_objectives_url": "https://www.ins1.org/wp-content/uploads/2025/11/2025-INCC-CRNI-Exam-Content-Outline.pdf"
 }

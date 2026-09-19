@@ -1,7 +1,7 @@
 {
   "exam_id": "brcgs-internal-auditor-food",
   "exam_name": "BRCGS Internal Auditor Food Safety Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "BRCGS",
   "version": null,
   "source_url": "https://www.brcgs.com/product/internal-auditor-2-day/p-1857/",
@@ -172,5 +172,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:21:59+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T03:44:23Z",
+    "evidence_url": "https://www.brcgs.com/product/internal-auditor-2-day/p-1857/"
+  },
+  "official_objectives_url": "https://www.brcgs.com/product/internal-auditor-2-day/p-1857/"
 }
