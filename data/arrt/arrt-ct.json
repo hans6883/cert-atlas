@@ -1,7 +1,7 @@
 {
   "exam_id": "arrt-ct",
   "exam_name": "Computed Tomography (CT)",
-  "exam_code": "CT",
+  "exam_code": null,
   "certifying_body": "ARRT",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "weight_max": 43.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/7e8095ab-e424-496d-a5d4-d1e951d5783b/CT_Content_Specifications_2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -104,5 +104,12 @@
     "ct technologist certification",
     "rt ct"
   ],
-  "practice_url": "https://quizforge.ai/tests/arrt-computed-tomography"
+  "practice_url": "https://quizforge.ai/tests/arrt-computed-tomography",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T00:17:35Z",
+    "evidence_url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/computed-tomography"
+  }
 }

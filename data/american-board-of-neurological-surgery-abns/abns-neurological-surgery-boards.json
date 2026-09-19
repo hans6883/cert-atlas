@@ -1,7 +1,7 @@
 {
   "exam_id": "abns-neurological-surgery-boards",
   "exam_name": "ABNS Neurological Surgery Board Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Neurological Surgery (ABNS)",
   "version": null,
   "source_url": "https://www.abns.org/home/displayPDF/Final-2016-ABNS-Content-Outline.pdf/",
@@ -239,5 +239,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:57+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T00:17:52Z",
+    "evidence_url": "https://www.abns.org/content/primary-examination"
   }
 }

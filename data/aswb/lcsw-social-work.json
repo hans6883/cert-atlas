@@ -1,7 +1,7 @@
 {
   "exam_id": "lcsw-social-work",
   "exam_name": "LCSW Licensed Clinical Social Work Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "ASWB",
   "version": null,
   "source_url": "https://www.aswb.org/wp-content/uploads/2020/12/2018-Clinical.pdf",
@@ -171,5 +171,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:05+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T00:18:22Z",
+    "evidence_url": "https://www.aswb.org/exam/"
+  },
+  "official_objectives_url": "https://www.aswb.org/wp-content/uploads/2020/12/2018-Clinical.pdf"
 }

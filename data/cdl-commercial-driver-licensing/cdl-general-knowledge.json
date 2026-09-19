@@ -1,7 +1,7 @@
 {
   "exam_id": "cdl-general-knowledge",
   "exam_name": "CDL General Knowledge Test",
-  "exam_code": "CDL-GK",
+  "exam_code": null,
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -170,7 +170,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-G",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -191,5 +191,12 @@
     "commercial driver general knowledge",
     "fmcsa-cdl-general-knowledge-test"
   ],
-  "practice_url": "https://quizforge.ai/tests/cdl-commercial-driver-license-knowledge-test"
+  "practice_url": "https://quizforge.ai/tests/cdl-commercial-driver-license-knowledge-test",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-19T00:59:29Z",
+    "evidence_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-383/subpart-G"
+  }
 }

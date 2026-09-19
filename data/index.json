@@ -1332,7 +1332,7 @@
     {
       "exam_id": "dmcp-destination-management-certified-professional",
       "exam_name": "DMCP Destination Management Certified Professional",
-      "exam_code": "",
+      "exam_code": "DMCP",
       "certifying_body": "ADMEI",
       "vendor_slug": "admei",
       "domains": 4,
@@ -1342,7 +1342,9 @@
       "practice_url": "https://quizforge.ai/tests/dmcp-destination-management-certified-professional",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:02+00:00"
+      "verified_at": "2026-09-13T23:40:02+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "afp-ctp-recertification",
@@ -1907,7 +1909,7 @@
     {
       "exam_id": "arrt-ct",
       "exam_name": "Computed Tomography (CT)",
-      "exam_code": "CT",
+      "exam_code": null,
       "certifying_body": "ARRT",
       "vendor_slug": "arrt",
       "domains": 4,
@@ -1917,7 +1919,9 @@
       "practice_url": "https://quizforge.ai/tests/arrt-computed-tomography",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "arrt-f",
@@ -2761,7 +2765,7 @@
     {
       "exam_id": "lcsw-social-work",
       "exam_name": "LCSW Licensed Clinical Social Work Exam",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "ASWB",
       "vendor_slug": "aswb",
       "domains": 4,
@@ -2771,7 +2775,9 @@
       "practice_url": "https://quizforge.ai/tests/lcsw-social-work",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:05+00:00"
+      "verified_at": "2026-09-13T23:40:05+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "teas-6",
@@ -3788,7 +3794,7 @@
     {
       "exam_id": "abim-infectious-disease-boards",
       "exam_name": "ABIM Infectious Disease Board Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American Board of Internal Medicine",
       "vendor_slug": "american-board-of-internal-medicine",
       "domains": 10,
@@ -3798,7 +3804,9 @@
       "practice_url": "https://quizforge.ai/tests/abim-infectious-disease-boards",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:57+00:00"
+      "verified_at": "2026-09-13T23:39:57+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "abim-internal-medicine-board-exam",
@@ -3837,7 +3845,7 @@
     {
       "exam_id": "abim-rheumatology-boards",
       "exam_name": "ABIM Rheumatology Board Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American Board of Internal Medicine",
       "vendor_slug": "american-board-of-internal-medicine",
       "domains": 13,
@@ -3847,7 +3855,9 @@
       "practice_url": "https://quizforge.ai/tests/abim-rheumatology-boards",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:57+00:00"
+      "verified_at": "2026-09-13T23:39:57+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "abim-sleep-medicine-im",
@@ -3887,7 +3897,7 @@
     {
       "exam_id": "abns-neurological-surgery-boards",
       "exam_name": "ABNS Neurological Surgery Board Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "American Board of Neurological Surgery (ABNS)",
       "vendor_slug": "american-board-of-neurological-surgery-abns",
       "domains": 8,
@@ -3897,7 +3907,9 @@
       "practice_url": "https://quizforge.ai/tests/abns-neurological-surgery-boards",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:57+00:00"
+      "verified_at": "2026-09-13T23:39:57+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "abp-pediatric-cardiology",
@@ -4949,7 +4961,7 @@
     {
       "exam_id": "cdl-general-knowledge",
       "exam_name": "CDL General Knowledge Test",
-      "exam_code": "CDL-GK",
+      "exam_code": null,
       "certifying_body": "CDL / Commercial Driver Licensing",
       "vendor_slug": "cdl-commercial-driver-licensing",
       "domains": 20,
@@ -4959,7 +4971,9 @@
       "practice_url": "https://quizforge.ai/tests/cdl-commercial-driver-license-knowledge-test",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "cdl-hazmat",
@@ -9923,7 +9937,7 @@
     {
       "exam_id": "dsst-astronomy",
       "exam_name": "Astronomy",
-      "exam_code": "ASTRO",
+      "exam_code": null,
       "certifying_body": "DSST",
       "vendor_slug": "dsst",
       "domains": 8,
@@ -9933,7 +9947,9 @@
       "practice_url": "https://quizforge.ai/tests/astronomy-2pf304",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T04:38:28+00:00"
+      "verified_at": "2026-09-14T04:38:28+00:00",
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "dsst-business-ethics-and-society",
@@ -15283,7 +15299,7 @@
     {
       "exam_id": "iata-dangerous-goods-certification",
       "exam_name": "IATA Dangerous Goods Regulations (DGR) Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "IATA",
       "vendor_slug": "iata",
       "domains": 4,
@@ -15293,7 +15309,9 @@
       "practice_url": "https://quizforge.ai/tests/iata-dangerous-goods-certification",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "certified-healthcare-emergency-professional-chep",
@@ -27302,7 +27320,7 @@
     {
       "exam_id": "servsafe-manager",
       "exam_name": "ServSafe Food Protection Manager Certification",
-      "exam_code": "ServSafe Manager",
+      "exam_code": null,
       "certifying_body": "ServSafe",
       "vendor_slug": "servsafe",
       "domains": 7,
@@ -27312,7 +27330,9 @@
       "practice_url": "https://quizforge.ai/tests/servsafe-manager",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "servicenow-ai-agents",

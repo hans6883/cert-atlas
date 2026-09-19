@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-astronomy",
   "exam_name": "Astronomy",
-  "exam_code": "ASTRO",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/Astronomy.pdf",
   "official_study_resources": [],
   "aliases": [
     "astro",
@@ -239,5 +239,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:28+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T00:58:31Z",
+    "evidence_url": "https://getcollegecredit.com/exam/astronomy/"
   }
 }

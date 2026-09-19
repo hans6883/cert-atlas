@@ -1,7 +1,7 @@
 {
   "exam_id": "servsafe-manager",
   "exam_name": "ServSafe Food Protection Manager Certification",
-  "exam_code": "ServSafe Manager",
+  "exam_code": null,
   "certifying_body": "ServSafe",
   "certification_name": null,
   "version": null,
@@ -124,5 +124,12 @@
     "servsafe manager certification",
     "servsafe-manager"
   ],
-  "practice_url": "https://quizforge.ai/tests/servsafe-manager"
+  "practice_url": "https://quizforge.ai/tests/servsafe-manager",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T00:18:03Z",
+    "evidence_url": "https://www.servsafe.com/ServSafe-Manager"
+  }
 }

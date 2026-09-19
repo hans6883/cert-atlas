@@ -1,7 +1,7 @@
 {
   "exam_id": "iata-dangerous-goods-certification",
   "exam_name": "IATA Dangerous Goods Regulations (DGR) Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "IATA",
   "version": null,
   "source_url": "https://www.iata.org/en/training/courses/dgr-cargo-accepting/dgc002elen01/en/",
@@ -173,5 +173,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-19T00:17:40Z",
+    "evidence_url": "https://www.iata.org/en/training/courses/dgr-cargo-accepting/dgc002elen01/en/"
   }
 }

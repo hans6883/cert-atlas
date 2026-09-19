@@ -1,7 +1,7 @@
 {
   "exam_id": "abim-rheumatology-boards",
   "exam_name": "ABIM Rheumatology Board Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Internal Medicine",
   "version": null,
   "source_url": "https://www.abim.org/Media/khzogbsv/rheumatology.pdf",
@@ -306,5 +306,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:57+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T00:17:36Z",
+    "evidence_url": "https://www.abim.org/Media/khzogbsv/rheumatology.pdf"
+  },
+  "official_objectives_url": "https://www.abim.org/Media/khzogbsv/rheumatology.pdf"
 }
