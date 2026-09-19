@@ -1,7 +1,7 @@
 {
   "exam_id": "praxis-audiology-examination-ets",
   "exam_name": "Praxis Audiology Examination",
-  "exam_code": "",
+  "exam_code": "5343",
   "certifying_body": "ETS",
   "version": null,
   "source_url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5343.pdf",
@@ -201,5 +201,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-15: the ETS Praxis Audiology (5343) test page is live ('Register for a Test').",
     "evidence_url": "https://praxis.ets.org/test/audiology-5343.html",
     "verified_at": "2026-09-15T22:30:00Z"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-18T17:10:42Z",
+    "evidence_url": "https://praxis.ets.org/test/5343.html"
+  },
+  "official_objectives_url": "https://www.ets.org/pdfs/praxis/5343.pdf"
 }

@@ -11281,7 +11281,7 @@
     {
       "exam_id": "praxis-audiology-examination-ets",
       "exam_name": "Praxis Audiology Examination",
-      "exam_code": "",
+      "exam_code": "5343",
       "certifying_body": "ETS",
       "vendor_slug": "ets",
       "domains": 5,
@@ -11292,7 +11292,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T15:23:41+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "praxis-chemistry-content-knowledge-5245",
@@ -18144,18 +18146,19 @@
     {
       "exam_id": "ib-pyp",
       "exam_name": "IB Primary Years Programme (PYP)",
-      "exam_code": "PYP",
+      "exam_code": null,
       "certifying_body": "International Baccalaureate",
       "vendor_slug": "international-baccalaureate",
-      "domains": 6,
+      "domains": 0,
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.ibo.org/programmes/primary-years-programme/",
-      "practice_url": "https://quizforge.ai/tests/ib-pyp",
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "academic_programme",
+      "examination": false
     },
     {
       "exam_id": "icbo-building-plans-examiner",
@@ -20020,7 +20023,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "cba-certified-business-appraiser",
@@ -30374,7 +30379,7 @@
     {
       "exam_id": "uscg-able-seaman-credential-exam",
       "exam_name": "USCG Able Seaman Credential Examination",
-      "exam_code": "",
+      "exam_code": "AB01",
       "certifying_body": "U.S. Coast Guard (National Maritime Center)",
       "vendor_slug": "u-s-coast-guard-national-maritime-center",
       "domains": 2,
@@ -30385,7 +30390,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T04:38:30+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "leed-ap-homes",
