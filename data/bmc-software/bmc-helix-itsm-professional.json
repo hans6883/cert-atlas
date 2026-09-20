@@ -1,7 +1,7 @@
 {
   "exam_id": "bmc-helix-itsm-professional",
   "exam_name": "BMC Helix ITSM Professional",
-  "exam_code": "",
+  "exam_code": "SPPT-CERT-ITSM2210-CP",
   "certifying_body": "BMC Software",
   "version": null,
   "source_url": "https://www.bmc.com/content/dam/bmc/education/Abstract_SPPT-CERT-ITSM2210-CP.pdf",
@@ -340,5 +340,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:59+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:14:07Z",
+    "evidence_url": "https://www.bmc.com/content/dam/bmc/education/Abstract_SPPT-CERT-ITSM2210-CP.pdf"
+  },
+  "official_objectives_url": "https://www.bmc.com/content/dam/bmc/education/Abstract_SPPT-CERT-ITSM2210-CP.pdf"
 }

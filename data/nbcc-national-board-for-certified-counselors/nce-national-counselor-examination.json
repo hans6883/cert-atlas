@@ -1,7 +1,7 @@
 {
   "exam_id": "nce-national-counselor-examination",
   "exam_name": "NCE - National Counselor Examination",
-  "exam_code": "",
+  "exam_code": "NCE",
   "certifying_body": "NBCC (National Board for Certified Counselors)",
   "version": null,
   "source_url": "https://nbcc.org/assets/exam/nce_content_outline.pdf",
@@ -211,5 +211,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:42:14Z",
+    "evidence_url": "https://www.nbcc.org/exams/nce"
+  },
+  "official_objectives_url": "https://nbcc.org/assets/exam/nce_content_outline.pdf"
 }

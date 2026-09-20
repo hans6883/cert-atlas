@@ -1,7 +1,7 @@
 {
   "exam_id": "pncb-certified-pediatric-nurse-cpn",
   "exam_name": "PNCB Certified Pediatric Nurse (CPN)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Pediatric Nursing Certification Board (PNCB)",
   "version": null,
   "source_url": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf",
@@ -170,5 +170,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:06+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:42:24Z",
+    "evidence_url": "https://www.pncb.org/cpn-exam-resources"
+  },
+  "official_objectives_url": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf"
 }

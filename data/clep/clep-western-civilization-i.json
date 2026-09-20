@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-western-civilization-i",
   "exam_name": "Western Civilization I",
-  "exam_code": "WSTCIV1",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/western-civilization-1",
   "official_study_resources": [],
   "aliases": [
     "clep western civilization i",
@@ -76,5 +76,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Western Civilization I exam covers Ancient Greece, Rome, and the Near East; the Middle Ages; Renaissance and Reformation.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/western-civilization-1",
     "verified_at": "2026-09-20T01:37:14+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T01:41:05Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/western-civilization-1"
   }
 }

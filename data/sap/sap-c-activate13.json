@@ -1,7 +1,7 @@
 {
   "exam_id": "sap-c-activate13",
   "exam_name": "SAP Certified Associate — SAP Activate Project Manager",
-  "exam_code": "C_ACTIVATE13",
+  "exam_code": null,
   "certifying_body": "SAP",
   "certification_name": null,
   "version": null,
@@ -120,5 +120,12 @@
     "sap project management",
     "sap-c-activate13"
   ],
-  "practice_url": "https://quizforge.ai/tests/sap-certified-associate-activate-project-manager"
+  "practice_url": "https://quizforge.ai/tests/sap-certified-associate-activate-project-manager",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:14:40Z",
+    "evidence_url": "https://learning.sap.com/certifications/sap-certified-associate-project-manager-sap-activate-1"
+  }
 }

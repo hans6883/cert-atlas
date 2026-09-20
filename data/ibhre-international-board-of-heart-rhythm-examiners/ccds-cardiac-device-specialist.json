@@ -1,7 +1,7 @@
 {
   "exam_id": "ccds-cardiac-device-specialist",
   "exam_name": "CCDS Certified Cardiac Device Specialist",
-  "exam_code": "",
+  "exam_code": "CCDS",
   "certifying_body": "IBHRE (International Board of Heart Rhythm Examiners)",
   "version": null,
   "source_url": "https://ibhre.org/sites/default/files/2026-05/4.29.2026-CCDS-Exam-Outline.pdf",
@@ -280,5 +280,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The CCDS examination assesses essential specialized clinical knowledge and understanding of patient and device follow-up management of Cardiovascular Implantable Electronic Devices (CIED).\"",
     "evidence_url": "https://ibhre.org/Allied-Professionals/CCDS-Exam",
     "verified_at": "2026-09-20T01:37:14+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:41:06Z",
+    "evidence_url": "https://ibhre.org/Allied-Professionals/CCDS-Exam"
+  },
+  "official_objectives_url": "https://ibhre.org/sites/default/files/2026-05/4.29.2026-CCDS-Exam-Outline.pdf"
 }

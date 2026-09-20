@@ -1,7 +1,7 @@
 {
   "exam_id": "cwm-wealth-manager",
   "exam_name": "CWM Chartered Wealth Manager",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "AAFM India",
   "version": null,
   "source_url": "https://aafmindia.org/pages/examination",
@@ -459,5 +459,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Candidates can book their CWM level 1&2 exams through the NSE and Pearson portals.\"",
     "evidence_url": "https://aafmindia.org/pages/examination",
     "verified_at": "2026-09-20T01:37:14+00:00"
-  }
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:41:59Z",
+    "evidence_url": "https://aafmindia.org/examination"
+  },
+  "official_objectives_url": "https://aafmindia.org/examination"
 }

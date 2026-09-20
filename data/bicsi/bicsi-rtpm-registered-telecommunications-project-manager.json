@@ -1,7 +1,7 @@
 {
   "exam_id": "bicsi-rtpm-registered-telecommunications-project-manager",
   "exam_name": "BICSI RTPM: Registered Telecommunications Project Manager",
-  "exam_code": "",
+  "exam_code": "RTPM",
   "certifying_body": "BICSI",
   "version": null,
   "source_url": "https://www.bicsi.org/docs/default-source/certification-section-files/RTPM-Cred-Handbook-2024_Final.pdf",
@@ -240,5 +240,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:59+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:15:04Z",
+    "evidence_url": "https://www.bicsi.org/education-certification/certification/rtpm"
+  },
+  "official_objectives_url": "https://www.bicsi.org/docs/default-source/handbooks/rtpm-cred-handbook_09102025_1157.pdf"
 }

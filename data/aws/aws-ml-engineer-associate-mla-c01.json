@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://d1.awsstatic.com/training-and-certification/docs-machine-learning-engineer-associate/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf",
+  "official_objectives_url": "https://docs.aws.amazon.com/pdfs/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01.pdf",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -123,5 +123,12 @@
     "summary": "AWS retires MLA-C01 on 2026-09-28. MLA-C02 is the named replacement path.",
     "evidence_url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
     "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:41:08Z",
+    "evidence_url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/"
   }
 }

@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://nabp.pharmacy/programs/examinations/mpje/competency-statements/",
   "official_study_resources": [
     {
       "resource_type": "candidate_handbook",
@@ -94,5 +94,12 @@
     "multistate pharmacy jurisprudence examination",
     "pharmacy law exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/mpje-multistate-pharmacy-jurisprudence-examination"
+  "practice_url": "https://quizforge.ai/tests/mpje-multistate-pharmacy-jurisprudence-examination",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:42:12Z",
+    "evidence_url": "https://nabp.pharmacy/programs/examinations/mpje/competency-statements/"
+  }
 }

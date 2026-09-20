@@ -1,7 +1,7 @@
 {
   "exam_id": "certified-general-appraiser-exam",
   "exam_name": "National Real Estate Appraiser License (State Certified General)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "The Appraisal Foundation (AQB)",
   "version": null,
   "source_url": "https://test-takers.psiexams.com/api/content/bulletin/4779",
@@ -292,5 +292,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The National Uniform Licensing and Certification Examination (National Exam) is a critical step in the appraiser credentialing process.\"",
     "evidence_url": "https://appraisalfoundation.org/pages/national-uniform-licensing-and-certification-examination",
     "verified_at": "2026-09-20T01:37:14+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:41:06Z",
+    "evidence_url": "https://appraisalfoundation.org/pages/national-uniform-licensing-and-certification-examination"
   }
 }

@@ -316,7 +316,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate/",
+  "official_objectives_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -350,5 +350,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"This exam is an online, proctored, multiple-choice exam.\"",
     "evidence_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/",
     "verified_at": "2026-09-20T01:37:14+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:42:00Z",
+    "evidence_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/"
   }
 }

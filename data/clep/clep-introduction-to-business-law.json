@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-introduction-to-business-law",
   "exam_name": "Introduction to Business Law",
-  "exam_code": "BUSLAW",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -67,7 +67,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/introductory-business-law",
   "official_study_resources": [],
   "aliases": [
     "buslaw",
@@ -82,5 +82,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Introductory Business Law exam covers contracts, the history and sources of American law, and other topics.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/introductory-business-law",
     "verified_at": "2026-09-20T01:37:14+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T01:41:06Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/introductory-business-law"
   }
 }

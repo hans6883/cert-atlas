@@ -1,7 +1,7 @@
 {
   "exam_id": "scrum-alliance-csm",
   "exam_name": "Certified ScrumMaster (CSM)",
-  "exam_code": "CSM",
+  "exam_code": null,
   "certifying_body": "Scrum Alliance",
   "certification_name": null,
   "version": null,
@@ -78,7 +78,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -97,5 +97,12 @@
     "scrum master certification scrum alliance",
     "scrum-alliance-csm"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-scrummaster-csm-scrum-alliance"
+  "practice_url": "https://quizforge.ai/tests/certified-scrummaster-csm-scrum-alliance",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:43:12Z",
+    "evidence_url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+  }
 }

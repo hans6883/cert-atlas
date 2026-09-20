@@ -190,7 +190,7 @@
     {
       "exam_id": "cwm-wealth-manager",
       "exam_name": "CWM Chartered Wealth Manager",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "AAFM India",
       "vendor_slug": "aafm-india",
       "domains": 20,
@@ -201,7 +201,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:01+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "ccma-nha",
@@ -1164,7 +1166,7 @@
     {
       "exam_id": "cfcs-certified-financial-crimes-specialist",
       "exam_name": "CFCS: Certified Financial Crimes Specialist",
-      "exam_code": "",
+      "exam_code": "CFCS",
       "certifying_body": "ACFCS",
       "vendor_slug": "acfcs",
       "domains": 13,
@@ -1174,7 +1176,9 @@
       "practice_url": "https://quizforge.ai/tests/cfcs-certified-financial-crimes-specialist",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:00+00:00"
+      "verified_at": "2026-09-13T23:40:00+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cfe-exam",
@@ -1688,7 +1692,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "ancc-acns-bc",
@@ -3168,7 +3174,9 @@
       "retires_on": "2026-09-28",
       "replacement_exam_code": "MLA-C02",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": "https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-02/machine-learning-engineer-associate-02.html"
+      "replacement_url": "https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-02/machine-learning-engineer-associate-02.html",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aws-machine-learning-specialty-mls-c01",
@@ -4417,6 +4425,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -4711,7 +4720,7 @@
     {
       "exam_id": "bicsi-rtpm-registered-telecommunications-project-manager",
       "exam_name": "BICSI RTPM: Registered Telecommunications Project Manager",
-      "exam_code": "",
+      "exam_code": "RTPM",
       "certifying_body": "BICSI",
       "vendor_slug": "bicsi",
       "domains": 8,
@@ -4721,7 +4730,9 @@
       "practice_url": "https://quizforge.ai/tests/bicsi-rtpm-registered-telecommunications-project-manager",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:59+00:00"
+      "verified_at": "2026-09-13T23:39:59+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "bicsi-registered-communications-distribution-designer-rcdd",
@@ -4741,7 +4752,7 @@
     {
       "exam_id": "bmc-helix-itsm-professional",
       "exam_name": "BMC Helix ITSM Professional",
-      "exam_code": "",
+      "exam_code": "SPPT-CERT-ITSM2210-CP",
       "certifying_body": "BMC Software",
       "vendor_slug": "bmc-software",
       "domains": 15,
@@ -4751,7 +4762,9 @@
       "practice_url": "https://quizforge.ai/tests/bmc-helix-itsm-professional",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:39:59+00:00"
+      "verified_at": "2026-09-13T23:39:59+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "boc-at",
@@ -5622,6 +5635,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:00+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -6418,7 +6432,7 @@
     {
       "exam_id": "clep-introduction-to-business-law",
       "exam_name": "Introduction to Business Law",
-      "exam_code": "BUSLAW",
+      "exam_code": null,
       "certifying_body": "CLEP",
       "vendor_slug": "clep",
       "domains": 6,
@@ -6429,7 +6443,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "clep-introduction-to-educational-psychology",
@@ -6617,7 +6633,7 @@
     {
       "exam_id": "clep-western-civilization-i",
       "exam_name": "Western Civilization I",
-      "exam_code": "WSTCIV1",
+      "exam_code": null,
       "certifying_body": "CLEP",
       "vendor_slug": "clep",
       "domains": 5,
@@ -6628,7 +6644,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "course_assessment",
+      "examination": true
     },
     {
       "exam_id": "clep-western-civilization-ii",
@@ -6806,7 +6824,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cpa-australia-advanced-audit",
@@ -7283,6 +7303,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -7315,6 +7336,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -11167,7 +11189,8 @@
       "practice_url": "https://quizforge.ai/tests/docker-certified-associate-dca",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "docker-dce",
@@ -11344,7 +11367,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ec-council-chfi-312-49",
@@ -14760,7 +14785,7 @@
     {
       "exam_id": "crme-revenue-management",
       "exam_name": "CRME Certified Revenue Management Executive",
-      "exam_code": "",
+      "exam_code": "CRME",
       "certifying_body": "HSMAI",
       "vendor_slug": "hsmai",
       "domains": 11,
@@ -14771,7 +14796,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:02+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "hspt",
@@ -15091,10 +15118,12 @@
       "total_questions": 57,
       "duration_minutes": 60,
       "source_url": "https://www.hashicorp.com/certification/terraform-associate",
-      "practice_url": "https://quizforge.ai/tests/hashicorp-terraform-associate-003",
+      "practice_url": null,
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
       "credential_type": "certification",
       "examination": true
     },
@@ -15988,7 +16017,7 @@
     {
       "exam_id": "ccds-cardiac-device-specialist",
       "exam_name": "CCDS Certified Cardiac Device Specialist",
-      "exam_code": "",
+      "exam_code": "CCDS",
       "certifying_body": "IBHRE (International Board of Heart Rhythm Examiners)",
       "vendor_slug": "ibhre-international-board-of-heart-rhythm-examiners",
       "domains": 10,
@@ -15999,7 +16028,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:39:59+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ibm-guardium-v12",
@@ -16049,7 +16080,7 @@
     {
       "exam_id": "ibm-qradar-siem-foundation",
       "exam_name": "IBM QRadar SIEM Foundation",
-      "exam_code": "",
+      "exam_code": "C1000-175",
       "certifying_body": "IBM",
       "vendor_slug": "ibm",
       "domains": 14,
@@ -16059,7 +16090,9 @@
       "practice_url": "https://quizforge.ai/tests/ibm-qradar-siem-foundation",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ibps-clerk-prelims",
@@ -16577,6 +16610,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -16608,7 +16642,8 @@
       "practice_url": "https://quizforge.ai/tests/icc-p1-plumbing",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "icc-permit-tech",
@@ -18622,7 +18657,8 @@
       "practice_url": "https://quizforge.ai/tests/icbo-building-plans-examiner",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ced-certified-economic-developer",
@@ -19417,6 +19453,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -19650,7 +19687,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-ms-700-managing-teams",
@@ -19844,7 +19883,9 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-mb-220-dynamics-365-customer-insights",
@@ -20499,7 +20540,9 @@
       "practice_url": "https://quizforge.ai/tests/mpje-multistate-pharmacy-jurisprudence-examination",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "naplex",
@@ -20917,7 +20960,7 @@
     {
       "exam_id": "nce-national-counselor-examination",
       "exam_name": "NCE - National Counselor Examination",
-      "exam_code": "",
+      "exam_code": "NCE",
       "certifying_body": "NBCC (National Board for Certified Counselors)",
       "vendor_slug": "nbcc-national-board-for-certified-counselors",
       "domains": 6,
@@ -20927,7 +20970,9 @@
       "practice_url": "https://quizforge.ai/tests/nce-national-counselor-examination",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:03+00:00"
+      "verified_at": "2026-09-14T03:22:03+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nbce-part-2-chiropractic-clinical-sciences",
@@ -21500,6 +21545,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -23740,6 +23786,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:03+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -25116,7 +25163,7 @@
     {
       "exam_id": "iso-22301-lead-auditor-business-continuity",
       "exam_name": "ISO 22301 Lead Auditor Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "PECB",
       "vendor_slug": "pecb",
       "domains": 7,
@@ -25126,7 +25173,9 @@
       "practice_url": "https://quizforge.ai/tests/iso-22301-lead-auditor-business-continuity",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:04+00:00"
+      "verified_at": "2026-09-13T23:40:04+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "iso-27001-lead-auditor-isms",
@@ -25206,7 +25255,7 @@
     {
       "exam_id": "iso-9001-lead-auditor-certification",
       "exam_name": "ISO 9001 Lead Auditor Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "PECB",
       "vendor_slug": "pecb",
       "domains": 7,
@@ -25216,7 +25265,9 @@
       "practice_url": "https://quizforge.ai/tests/iso-9001-lead-auditor-certification",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:04+00:00"
+      "verified_at": "2026-09-13T23:40:04+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "iso-27001-lead-auditor-certification",
@@ -25568,7 +25619,7 @@
     {
       "exam_id": "pncb-certified-pediatric-nurse-cpn",
       "exam_name": "PNCB Certified Pediatric Nurse (CPN)",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "Pediatric Nursing Certification Board (PNCB)",
       "vendor_slug": "pediatric-nursing-certification-board-pncb",
       "domains": 4,
@@ -25578,7 +25629,9 @@
       "practice_url": "https://quizforge.ai/tests/pncb-certified-pediatric-nurse-cpn",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:06+00:00"
+      "verified_at": "2026-09-13T23:40:06+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "pega-cpba",
@@ -26772,7 +26825,7 @@
     {
       "exam_id": "sap-c-activate13",
       "exam_name": "SAP Certified Associate — SAP Activate Project Manager",
-      "exam_code": "C_ACTIVATE13",
+      "exam_code": null,
       "certifying_body": "SAP",
       "vendor_slug": "sap",
       "domains": 6,
@@ -26782,7 +26835,9 @@
       "practice_url": "https://quizforge.ai/tests/sap-certified-associate-activate-project-manager",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "sap-c-taw12-750",
@@ -27962,7 +28017,7 @@
     {
       "exam_id": "scrum-alliance-csm",
       "exam_name": "Certified ScrumMaster (CSM)",
-      "exam_code": "CSM",
+      "exam_code": null,
       "certifying_body": "Scrum Alliance",
       "vendor_slug": "scrum-alliance",
       "domains": 4,
@@ -27972,7 +28027,9 @@
       "practice_url": "https://quizforge.ai/tests/certified-scrummaster-csm-scrum-alliance",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "scrum-org-pal-i",
@@ -28670,7 +28727,8 @@
       "practice_url": "https://quizforge.ai/tests/servicenow-cis-discovery",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "servicenow-cis-em",
@@ -30926,7 +30984,7 @@
     {
       "exam_id": "certified-general-appraiser-exam",
       "exam_name": "National Real Estate Appraiser License (State Certified General)",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "The Appraisal Foundation (AQB)",
       "vendor_slug": "the-appraisal-foundation-aqb",
       "domains": 10,
@@ -30937,7 +30995,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:00+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "open-group-archimate-certified",
@@ -31617,7 +31677,7 @@
     {
       "exam_id": "cpbp-certified-professional-benefits-worldatwork",
       "exam_name": "CPBP: Certified Professional Benefits",
-      "exam_code": "",
+      "exam_code": "CBP",
       "certifying_body": "WorldatWork",
       "vendor_slug": "worldatwork",
       "domains": 7,
@@ -31628,7 +31688,9 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:01+00:00",
-      "lifecycle_status": "current"
+      "lifecycle_status": "current",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cte-video-production",

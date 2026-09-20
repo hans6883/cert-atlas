@@ -122,7 +122,14 @@
     "terraform associate",
     "terraform associate 003"
   ],
-  "practice_url": "https://quizforge.ai/tests/hashicorp-terraform-associate-003",
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "HashiCorp's Infrastructure Automation certifications page offers only the 004 version - 'HashiCorp Certified: Terraform Associate (004) Product version tested: Terraform 1.12 Prove your foundational Terraform knowledge and skills in an hour-long multiple-choice exam. Start studying Register for the exam' - and treats 003 as a prior version: 'Content differences between the 003 and 004 exams Exam updates summary: Four new topics' and 'Scenario 2: You hold an unexpired Terraform Associate certification from the 002 or 003 version of the exam ... Option 2: Pass the 004 version of the Terraform Associate exam'. Every 003 page on the issuer site redirects to its 004 counterpart. No retirement date is printed on the issuer site.",
+    "evidence_url": "https://developer.hashicorp.com/certifications/infrastructure-automation",
+    "verified_at": "2026-09-20T02:40:00Z"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

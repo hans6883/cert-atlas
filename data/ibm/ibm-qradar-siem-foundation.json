@@ -1,7 +1,7 @@
 {
   "exam_id": "ibm-qradar-siem-foundation",
   "exam_name": "IBM QRadar SIEM Foundation",
-  "exam_code": "",
+  "exam_code": "C1000-175",
   "certifying_body": "IBM",
   "version": null,
   "source_url": "https://www.ibm.com/training/credentials/getExam/C1000-175",
@@ -343,5 +343,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:14:38Z",
+    "evidence_url": "https://www.ibm.com/training/certification/ibm-certified-associate-security-qradar-siem-v75-C9006200"
+  },
+  "official_objectives_url": "https://www.ibm.com/training/certification/ibm-certified-associate-security-qradar-siem-v75-C9006200"
 }

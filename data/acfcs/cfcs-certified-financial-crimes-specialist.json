@@ -1,7 +1,7 @@
 {
   "exam_id": "cfcs-certified-financial-crimes-specialist",
   "exam_name": "CFCS: Certified Financial Crimes Specialist",
-  "exam_code": "",
+  "exam_code": "CFCS",
   "certifying_body": "ACFCS",
   "version": null,
   "source_url": "https://www.acfcs.org/content/CFCS%20English%20Study%20Manual%20%286th%20Edition%29.pdf",
@@ -325,5 +325,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:16:04Z",
+    "evidence_url": "https://www.acfcs.org/the-exam"
+  },
+  "official_objectives_url": "https://www.acfcs.org/content/CFCS%20English%20Study%20Manual%20%286th%20Edition%29.pdf"
 }
