@@ -1,7 +1,7 @@
 {
   "exam_id": "giac-gicsp-industrial-cyber-security",
   "exam_name": "Global Industrial Cyber Security Professional (GICSP)",
-  "exam_code": "GIAC-GICSP",
+  "exam_code": "GICSP",
   "certifying_body": "GIAC",
   "version": null,
   "source_url": "https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp",
@@ -253,5 +253,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:43+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:27:19Z",
+    "evidence_url": "https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp"
+  },
+  "official_objectives_url": "https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp"
 }

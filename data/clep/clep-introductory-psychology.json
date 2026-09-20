@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-introductory-psychology",
   "exam_name": "Introductory Psychology",
-  "exam_code": "PSYC",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -476,7 +476,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/introductory-psychology",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -540,5 +540,12 @@
     "introductory psychology",
     "psyc"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-introductory-psychology"
+  "practice_url": "https://quizforge.ai/tests/clep-introductory-psychology",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T02:27:59Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/introductory-psychology"
+  }
 }

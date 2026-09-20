@@ -1,7 +1,7 @@
 {
   "exam_id": "cnm-certified-nurse-midwife-amcb",
   "exam_name": "CNM: Certified Nurse-Midwife Examination",
-  "exam_code": "",
+  "exam_code": "CNM",
   "certifying_body": "American Midwifery Certification Board (AMCB)",
   "version": null,
   "source_url": "https://www.amcbmidwife.org/about-amcb/task-analysis",
@@ -174,5 +174,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:01+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:26:38Z",
+    "evidence_url": "https://www.amcbmidwife.org/amcb-certification/certification-examination"
+  },
+  "official_objectives_url": "https://www.amcbmidwife.org/about-amcb/task-analysis"
 }

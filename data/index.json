@@ -1729,7 +1729,9 @@
       "practice_url": "https://quizforge.ai/tests/agpcnp-bc-adult-gerontology-primary-care-np",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-02T21:44:52+00:00"
+      "verified_at": "2026-09-02T21:44:52+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ancc-cmsrn",
@@ -2448,6 +2450,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:17:23+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -2857,7 +2860,8 @@
       "practice_url": "https://quizforge.ai/tests/aswb-licensed-clinical-social-worker-lcsw-exam",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "aswb-masters",
@@ -3901,6 +3905,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:39:56+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -4354,7 +4359,7 @@
     {
       "exam_id": "cnm-certified-nurse-midwife-amcb",
       "exam_name": "CNM: Certified Nurse-Midwife Examination",
-      "exam_code": "",
+      "exam_code": "CNM",
       "certifying_body": "American Midwifery Certification Board (AMCB)",
       "vendor_slug": "american-midwifery-certification-board-amcb",
       "domains": 6,
@@ -4364,7 +4369,9 @@
       "practice_url": "https://quizforge.ai/tests/cnm-certified-nurse-midwife-amcb",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:01+00:00"
+      "verified_at": "2026-09-13T23:40:01+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aonl-certified-nurse-manager-leader-cnml",
@@ -6468,7 +6475,7 @@
     {
       "exam_id": "clep-introductory-psychology",
       "exam_name": "Introductory Psychology",
-      "exam_code": "PSYC",
+      "exam_code": null,
       "certifying_body": "CLEP",
       "vendor_slug": "clep",
       "domains": 13,
@@ -6478,7 +6485,9 @@
       "practice_url": "https://quizforge.ai/tests/clep-introductory-psychology",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "clep-introductory-sociology",
@@ -6679,7 +6688,8 @@
       "practice_url": "https://quizforge.ai/tests/cmaa-certified-construction-manager-ccm",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:01+00:00"
+      "verified_at": "2026-09-13T23:40:01+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "cmt-level-1",
@@ -8894,7 +8904,9 @@
       "practice_url": "https://quizforge.ai/tests/comptia-datasys-plus-ds0-001",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "comptia-itf-plus-fc0-u61",
@@ -9414,6 +9426,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -10324,7 +10337,8 @@
       "practice_url": "https://quizforge.ai/tests/certified-business-continuity-professional-cbcp",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:00+00:00"
+      "verified_at": "2026-09-13T23:40:00+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "dsst-a-history-of-the-vietnam-war",
@@ -10473,6 +10487,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "admission_or_placement_test",
       "examination": true
     },
@@ -12401,6 +12416,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:03+00:00",
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -13590,7 +13606,7 @@
     {
       "exam_id": "giac-gicsp-industrial-cyber-security",
       "exam_name": "Global Industrial Cyber Security Professional (GICSP)",
-      "exam_code": "GIAC-GICSP",
+      "exam_code": "GICSP",
       "certifying_body": "GIAC",
       "vendor_slug": "giac",
       "domains": 10,
@@ -13600,7 +13616,9 @@
       "practice_url": "https://quizforge.ai/tests/giac-gicsp-industrial-cyber-security",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-08-30T20:17:43+00:00"
+      "verified_at": "2026-08-30T20:17:43+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "gisp-geographic-information-systems-professional",
@@ -20525,7 +20543,8 @@
       "practice_url": "https://quizforge.ai/tests/nabp-foreign-pharmacy-graduate-equivalency-fpgee",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "mpje",
@@ -20541,6 +20560,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -20971,6 +20991,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:03+00:00",
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -22580,7 +22601,7 @@
     {
       "exam_id": "mches-master-certified-health-education-specialist",
       "exam_name": "MCHES: Master Certified Health Education Specialist",
-      "exam_code": "",
+      "exam_code": "MCHES",
       "certifying_body": "NCHEC",
       "vendor_slug": "nchec",
       "domains": 8,
@@ -22590,7 +22611,9 @@
       "practice_url": "https://quizforge.ai/tests/mches-master-certified-health-education-specialist",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:03+00:00"
+      "verified_at": "2026-09-14T03:22:03+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ncidq-interior-design-certification",
@@ -23596,7 +23619,8 @@
       "practice_url": "https://quizforge.ai/tests/nsca-cscs-certified-strength-conditioning-specialist",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:06+00:00"
+      "verified_at": "2026-09-13T23:40:06+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "nta-cmat",
@@ -23793,7 +23817,7 @@
     {
       "exam_id": "fcc-amateur-extra",
       "exam_name": "FCC Amateur Extra Class License Exam",
-      "exam_code": "",
+      "exam_code": "Element 4",
       "certifying_body": "National Conference of Volunteer Examiner Coordinators (NCVEC)",
       "vendor_slug": "national-conference-of-volunteer-examiner-coordinators-ncvec",
       "domains": 10,
@@ -23803,7 +23827,9 @@
       "practice_url": "https://quizforge.ai/tests/fcc-amateur-extra",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:01+00:00"
+      "verified_at": "2026-09-14T03:22:01+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "cwell-certified-well-water-specialist",
@@ -25174,6 +25200,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:04+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -25266,6 +25293,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:04+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -25630,6 +25658,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:06+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -28028,6 +28057,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },

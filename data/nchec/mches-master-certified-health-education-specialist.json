@@ -1,7 +1,7 @@
 {
   "exam_id": "mches-master-certified-health-education-specialist",
   "exam_name": "MCHES: Master Certified Health Education Specialist",
-  "exam_code": "",
+  "exam_code": "MCHES",
   "certifying_body": "NCHEC",
   "version": null,
   "source_url": "https://www.nchec.org/mches-exam",
@@ -241,5 +241,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:26:22Z",
+    "evidence_url": "https://www.nchec.org/mches-exam"
+  },
+  "official_objectives_url": "https://www.nchec.org/mches-exam"
 }

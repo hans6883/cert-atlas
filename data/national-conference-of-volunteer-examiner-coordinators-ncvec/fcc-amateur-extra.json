@@ -1,7 +1,7 @@
 {
   "exam_id": "fcc-amateur-extra",
   "exam_name": "FCC Amateur Extra Class License Exam",
-  "exam_code": "",
+  "exam_code": "Element 4",
   "certifying_body": "National Conference of Volunteer Examiner Coordinators (NCVEC)",
   "version": null,
   "source_url": "https://ncvec.org/downloads/2024-2028%20Extra%20Class%20Question%20Pool%20and%20Syllabus%20Public%20Release%20December%207%202023.pdf",
@@ -263,5 +263,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:01+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:27:31Z",
+    "evidence_url": "https://ncvec.org/index.php/2024-2028-extra-class-question-pool-release"
+  },
+  "official_objectives_url": "https://ncvec.org/index.php/2024-2028-extra-class-question-pool-release"
 }
