@@ -1,7 +1,7 @@
 {
   "exam_id": "hesi-a2",
   "exam_name": "HESI Admission Assessment (A2)",
-  "exam_code": "HESI-A2",
+  "exam_code": null,
   "certifying_body": "HESI",
   "certification_name": null,
   "version": null,
@@ -113,5 +113,12 @@
     "hesi entrance exam",
     "hesi-a2"
   ],
-  "practice_url": "https://quizforge.ai/tests/hesi-a2"
+  "practice_url": "https://quizforge.ai/tests/hesi-a2",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T23:58:14Z",
+    "evidence_url": "https://www.elsevier.com/products/hesi/hesi-exam-solutions-nursing"
+  }
 }

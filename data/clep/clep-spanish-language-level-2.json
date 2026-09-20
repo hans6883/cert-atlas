@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-spanish-language-level-2",
   "exam_name": "Spanish Language, Level 2",
-  "exam_code": "SPAN2",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -108,7 +108,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/spanish-language",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -160,5 +160,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Material taught during both years is incorporated into a single exam, covering both Level 1 and Level 2 content.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/spanish-language",
     "verified_at": "2026-09-19T20:31:38Z"
+  },
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:43Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/spanish-language"
   }
 }

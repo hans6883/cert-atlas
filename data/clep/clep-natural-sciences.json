@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-natural-sciences",
   "exam_name": "Natural Sciences",
-  "exam_code": "NATSCI",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -58,7 +58,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/natural-sciences",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -119,5 +119,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Natural Sciences exam covers introductory level topics for nonscience majors surveying both biological and physical sciences.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/natural-sciences",
     "verified_at": "2026-09-19T20:31:38Z"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:42Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/natural-sciences"
   }
 }

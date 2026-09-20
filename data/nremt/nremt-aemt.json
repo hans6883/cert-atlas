@@ -90,7 +90,7 @@
       "weight_max": 10.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://nremt.org/Pages/Examinations/AEMT-and-Paramedic-Certification-Examinations",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -118,5 +118,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"The primary focus of the Advanced Emergency Medical Technician (AEMT) is to provide basic and limited advanced emergency medical care and transportation for critical and emergent patients who access the emergency medical system (EMS).\"",
     "evidence_url": "https://www.nremt.org/AEMT/Certification",
     "verified_at": "2026-09-19T06:01:09Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:46:29Z",
+    "evidence_url": "https://nremt.org/Pages/Examinations/AEMT-and-Paramedic-Certification-Examinations"
   }
 }

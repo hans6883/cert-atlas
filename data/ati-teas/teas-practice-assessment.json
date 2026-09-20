@@ -1,7 +1,7 @@
 {
   "exam_id": "teas-practice-assessment",
   "exam_name": "ATI TEAS Practice Assessment",
-  "exam_code": "TEAS-PRAC",
+  "exam_code": null,
   "certifying_body": "ATI TEAS",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.atitesting.com/teas/exam-details",
   "official_study_resources": [],
   "aliases": [
     "ati teas practice",
@@ -77,5 +77,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"It is the ONLY official practice test aligned to the ATI TEAS, Version 7 exam and written by the creators of the TEAS.\"",
     "evidence_url": "https://www.atitesting.com/teas/practice-assessment",
     "verified_at": "2026-09-19T06:42:26Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T23:48:08Z",
+    "evidence_url": "https://www.atitesting.com/teas/exam-details"
   }
 }

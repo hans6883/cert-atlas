@@ -1,7 +1,7 @@
 {
   "exam_id": "teas-nursing-entrance-exam",
   "exam_name": "TEAS Nursing Entrance Exam",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "ATI TEAS",
   "version": null,
   "source_url": "https://www.atitesting.com/teas/exam-details",
@@ -174,5 +174,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The ATI TEAS is taken either in-person or remote online, and is proctored by ATI or an institution.\"",
     "evidence_url": "https://www.atitesting.com/teas/exam-details",
     "verified_at": "2026-09-19T18:30:45Z"
-  }
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:35Z",
+    "evidence_url": "https://www.atitesting.com/teas/exam-details"
+  },
+  "official_objectives_url": "https://www.atitesting.com/teas/exam-details"
 }

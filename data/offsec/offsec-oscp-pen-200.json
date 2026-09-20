@@ -202,7 +202,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.offsec.com/documentation/penetration-testing-with-kali.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -227,5 +227,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"Upon passing the exam, learners earn both the OSCP and OSCP+ certification. The OSCP+ designation will differ from the existing OSCP certification in only one way; it will expire three (3) years from issuance.\"",
     "evidence_url": "https://www.offsec.com/courses/pen-200/",
     "verified_at": "2026-09-18T18:58:45Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:46:05Z",
+    "evidence_url": "https://www.offsec.com/courses/pen-200/"
   }
 }

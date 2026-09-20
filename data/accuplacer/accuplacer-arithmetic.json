@@ -1,7 +1,7 @@
 {
   "exam_id": "accuplacer-arithmetic",
   "exam_name": "ACCUPLACER Arithmetic",
-  "exam_code": "AR",
+  "exam_code": null,
   "certifying_body": "ACCUPLACER",
   "certification_name": null,
   "version": null,
@@ -67,7 +67,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://accuplacer.collegeboard.org/accuplacer/pdf/next-generation-test-specifications-manual.pdf",
   "official_study_resources": [],
   "aliases": [
     "accuplacer arithmetic",
@@ -223,5 +223,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Arithmetic test focuses on computation, order of operations, estimation and rounding, comparing and ordering values in different formats, and recognizing equivalent values across formats.\"",
     "evidence_url": "https://accuplacer.collegeboard.org/students/prepare-for-accuplacer/whats-on-tests",
     "verified_at": "2026-09-19T18:30:45Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T23:59:43Z",
+    "evidence_url": "https://accuplacer.collegeboard.org/educators/whats-on-tests"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "appian-professional-developer",
   "exam_name": "Appian Professional Developer (ACD301)",
-  "exam_code": "ACD301",
+  "exam_code": null,
   "certifying_body": "Appian",
   "certification_name": null,
   "version": null,
@@ -89,7 +89,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://academy.appian.com/page/appian-certified-lead-developer",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -107,5 +107,12 @@
     "appian professional developer acd301",
     "appian-professional-developer"
   ],
-  "practice_url": "https://quizforge.ai/tests/appian-professional-developer-acd301-2i7cen"
+  "practice_url": "https://quizforge.ai/tests/appian-professional-developer-acd301-2i7cen",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:46:26Z",
+    "evidence_url": "https://academy.appian.com/page/appian-certifications"
+  }
 }

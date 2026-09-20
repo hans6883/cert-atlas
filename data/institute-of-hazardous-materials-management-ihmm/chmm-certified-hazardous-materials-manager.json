@@ -1,7 +1,7 @@
 {
   "exam_id": "chmm-certified-hazardous-materials-manager",
   "exam_name": "CHMM",
-  "exam_code": "",
+  "exam_code": "CHMM",
   "certifying_body": "IHMM",
   "version": null,
   "source_url": "https://ihmm.org/wp-content/uploads/2020/05/2020_CHMM_Blueprint.pdf",
@@ -297,5 +297,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"A candidate must meet all eligibility requirements before scheduling and taking their exam.\"",
     "evidence_url": "https://ihmm.org/chmm/",
     "verified_at": "2026-09-19T18:30:45Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:59:44Z",
+    "evidence_url": "https://ihmm.org/chmm/"
+  },
+  "official_objectives_url": "https://ihmm.org/wp-content/uploads/2020/05/2020_CHMM_Blueprint.pdf"
 }

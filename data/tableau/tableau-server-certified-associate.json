@@ -1,7 +1,7 @@
 {
   "exam_id": "tableau-server-certified-associate",
   "exam_name": "Tableau Server Certified Associate",
-  "exam_code": "TSCA",
+  "exam_code": null,
   "certifying_body": "Tableau",
   "certification_name": null,
   "version": null,
@@ -98,5 +98,12 @@
     "summary": "Tableau retired TSCA. Analytics-Admn-201 is the direct replacement path.",
     "evidence_url": "https://trailheadacademy.salesforce.com/certificate/exam-tableau-server-adm---Analytics-Admn-201",
     "verified_at": "2026-08-29T05:37:22+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:23:27Z",
+    "evidence_url": "https://www.tableau.com/learn/certification"
   }
 }

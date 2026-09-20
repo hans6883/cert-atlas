@@ -1,7 +1,7 @@
 {
   "exam_id": "bcpp-psychiatric-pharmacy",
   "exam_name": "BCPP Psychiatric Pharmacy Specialist",
-  "exam_code": "",
+  "exam_code": "BCPP",
   "certifying_body": "Board of Pharmacy Specialties",
   "version": null,
   "source_url": "https://bpsweb.org/wp-content/uploads/BCPP-2025-Examination-Specifications.pdf",
@@ -147,5 +147,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"Name of Credential BPS Board-Certified Psychiatric Pharmacist Certification-Issuing Body Board of Pharmacy Specialties Designation Awarded BCPP\"",
     "evidence_url": "https://bpsweb.org/wp-content/uploads/BCPP-2025-Examination-Specifications.pdf",
     "verified_at": "2026-09-18T17:38:00Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:46:04Z",
+    "evidence_url": "https://bpsweb.org/wp-content/uploads/BCPP-2025-Examination-Specifications.pdf"
+  },
+  "official_objectives_url": "https://bpsweb.org/wp-content/uploads/BCPP-2025-Examination-Specifications.pdf"
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-principles-of-management",
   "exam_name": "Principles of Management",
-  "exam_code": "MGMT",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/principles-management",
   "official_study_resources": [],
   "aliases": [
     "clep management",
@@ -76,5 +76,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Principles of Management exam requires knowledge of human resources and operational and functional aspects of management.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/principles-management",
     "verified_at": "2026-09-19T20:31:38Z"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:43Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/principles-management"
   }
 }

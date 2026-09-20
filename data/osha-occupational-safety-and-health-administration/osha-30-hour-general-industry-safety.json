@@ -1,77 +1,13 @@
 {
   "exam_id": "osha-30-hour-general-industry-safety",
   "exam_name": "OSHA 30-Hour General Industry Safety",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "OSHA (Occupational Safety and Health Administration)",
   "version": null,
   "source_url": "https://www.osha.gov/sites/default/files/OTP_General_Industry_Procedures_2024.pdf",
-  "duration_minutes": 1800,
-  "domains": [
-    {
-      "id": "1",
-      "name": "Introduction to OSHA",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Managing Safety and Health",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Walking and Working Surfaces, including fall protection",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Exit Routes, Emergency Action Plans, Fire Prevention Plans, and Fire Protection",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Electrical",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Personal Protective Equipment",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Materials Handling",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "8",
-      "name": "Hazard Communication",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "9",
-      "name": "Elective",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "10",
-      "name": "Optional",
-      "weight_percent": null,
-      "objectives": []
-    }
-  ],
   "aliases": [
     "OSHA 30-Hour General Industry Safety"
   ],
-  "practice_url": "https://quizforge.ai/tests/osha-30-hour-general-industry-safety",
   "editorial": {
     "meta_description": "Prepare for the OSHA 30-Hour General Industry Safety program by reviewing general industry standards, hazard recognition, and safety practices across all 10.",
     "overview": "The OSHA 30-Hour General Industry Safety program covers workplace safety and health standards across 10 distinct domains to ensure proper protocols. Certified by OSHA (Occupational Safety and Health Administration), this 1800-minute course provides detailed training focused on recognizing, avoiding, abating, and preventing various workplace hazards in general industry settings to ensure full compliance.",
@@ -279,5 +215,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The 30-hour training program is intended to provide workers with some safety responsibility a greater depth and variety of training.\"",
     "evidence_url": "https://www.osha.gov/training/outreach/overview",
     "verified_at": "2026-09-19T21:04:30Z"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-20T00:23:57Z",
+    "evidence_url": "https://www.osha.gov/node/58570"
   }
 }

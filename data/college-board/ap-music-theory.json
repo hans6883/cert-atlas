@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-music-theory",
   "exam_name": "AP Music Theory",
-  "exam_code": "AP Music Theory",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -99,7 +99,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-music-theory-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -347,5 +347,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"In AP Music Theory, you’ll advance your understanding of how music works by listening to a wide variety of music, reading musical scores, writing music, and singing.\"",
     "evidence_url": "https://apstudents.collegeboard.org/courses/ap-music-theory",
     "verified_at": "2026-09-19T07:24:28Z"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:59:42Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-music-theory/assessment"
   }
 }

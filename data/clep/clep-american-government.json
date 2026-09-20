@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-american-government",
   "exam_name": "American Government",
-  "exam_code": "AMGOV",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -181,7 +181,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/american-government",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -251,5 +251,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"The American Government exam covers material that is usually taught in a one-semester introductory course in American government and politics at the college level.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/american-government",
     "verified_at": "2026-09-19T06:42:26Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T23:58:14Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/american-government"
   }
 }

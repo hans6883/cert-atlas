@@ -1,7 +1,7 @@
 {
   "exam_id": "teas-7",
   "exam_name": "ATI TEAS 7",
-  "exam_code": "TEAS7",
+  "exam_code": null,
   "certifying_body": "ATI TEAS",
   "certification_name": null,
   "version": "7",
@@ -72,7 +72,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.atitesting.com/teas/exam-details",
   "official_study_resources": [],
   "aliases": [
     "ati teas",
@@ -89,5 +89,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The ATI TEAS exam is comprised of 170 total questions, with 209 minutes in allocated testing time.\"",
     "evidence_url": "https://www.atitesting.com/teas/exam-details",
     "verified_at": "2026-09-19T18:30:45Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:37Z",
+    "evidence_url": "https://www.atitesting.com/teas/register"
   }
 }

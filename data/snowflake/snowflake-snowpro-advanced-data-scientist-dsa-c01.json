@@ -1,7 +1,7 @@
 {
   "exam_id": "snowflake-snowpro-advanced-data-scientist-dsa-c01",
   "exam_name": "SnowPro Advanced: Data Scientist (DSA-C01)",
-  "exam_code": "DSA-C01",
+  "exam_code": "DSA-C03",
   "certifying_body": "Snowflake",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-datascientistC03/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -117,5 +117,12 @@
     "summary": "Snowflake retired DSA-C01. DSA-C03 is the named replacement path.",
     "evidence_url": "https://learn.snowflake.com/en/certifications",
     "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-19T23:58:16Z",
+    "evidence_url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-datascientistC03/"
   }
 }

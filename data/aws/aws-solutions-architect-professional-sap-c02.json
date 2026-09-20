@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf",
+  "official_objectives_url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-professional-02/solutions-architect-professional-02.html",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -122,5 +122,12 @@
     "summary": "AWS's Solutions Architect - Professional page announces the version change: 'This exam is being updated. Registration for the updated version (SAP-C03) opens October 27, 2026. The last day to take the current exam (SAP-C02) is November 17, 2026.'",
     "evidence_url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
     "verified_at": "2026-09-19T21:54:52Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:39Z",
+    "evidence_url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "hesi-exit-rn",
   "exam_name": "HESI Exit Exam (RN)",
-  "exam_code": "HESI-EXIT-RN",
+  "exam_code": null,
   "certifying_body": "HESI",
   "certification_name": null,
   "version": null,
@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.elsevier.com/products/hesi/hesi-exam-solutions-nursing",
   "official_study_resources": [],
   "aliases": [
     "hesi exit exam rn",
@@ -89,5 +89,12 @@
     "hesi-exit-rn",
     "rn"
   ],
-  "practice_url": "https://quizforge.ai/tests/hesi-exit-rn"
+  "practice_url": "https://quizforge.ai/tests/hesi-exit-rn",
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:40Z",
+    "evidence_url": "https://www.elsevier.com/products/hesi/hesi-exam-solutions-nursing"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "pm4ngos-project-management-development-pmdpro",
   "exam_name": "Project Management for Development Professionals (PMD Pro)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "PM4NGOs",
   "version": null,
   "source_url": "https://pm4ngos.org/download/128/english/19367127/project-dpro-guide-pmd-pro-2nd-edition.pdf",
@@ -332,5 +332,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The foundation exam (level 1) has been updated to the second edition content, but its structure has not changed.\"",
     "evidence_url": "https://pm4ngos.org/project-dpro-guide-pmd-pro-guide-2nd-edition/",
     "verified_at": "2026-09-19T21:04:30Z"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:56Z",
+    "evidence_url": "https://pm4ngos.org/candidates-and-learners/exams-certificates/"
+  },
+  "official_objectives_url": "https://pm4ngos.org/methodologies-guides/project-dpro/"
 }

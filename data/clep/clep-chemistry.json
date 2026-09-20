@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-chemistry",
   "exam_name": "Chemistry",
-  "exam_code": "CHEM",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -255,7 +255,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/chemistry",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -280,5 +280,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Chemistry exam covers material usually taught in a one-year general chemistry course.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/chemistry",
     "verified_at": "2026-09-19T20:31:38Z"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:42Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/chemistry"
   }
 }

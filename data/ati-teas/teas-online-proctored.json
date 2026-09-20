@@ -1,7 +1,7 @@
 {
   "exam_id": "teas-online-proctored",
   "exam_name": "ATI TEAS Online Proctored",
-  "exam_code": "TEAS7-OP",
+  "exam_code": null,
   "certifying_body": "ATI TEAS",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.atitesting.com/teas/exam-details",
   "official_study_resources": [],
   "aliases": [
     "ati teas online",
@@ -78,5 +78,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"This is an online method for taking the TEAS exam proctored by ATI.\"",
     "evidence_url": "https://www.atitesting.com/teas/register/teas-at-ati",
     "verified_at": "2026-09-19T18:30:45Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:37Z",
+    "evidence_url": "https://www.atitesting.com/teas/register/teas-at-ati"
   }
 }

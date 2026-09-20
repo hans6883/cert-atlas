@@ -1,7 +1,7 @@
 {
   "exam_id": "iso-14001-lead-auditor-certification",
   "exam_name": "ISO 14001 Lead Auditor Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "PECB",
   "version": null,
   "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-14001-lead-auditor-mc.pdf",
@@ -231,5 +231,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"After completing the training course, you can sit for the exam.\"",
     "evidence_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-14001/iso-14001-lead-auditor",
     "verified_at": "2026-09-19T22:24:05+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:24:04Z",
+    "evidence_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-14001/iso-14001-lead-auditor"
+  },
+  "official_objectives_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-14001-lead-auditor-mc"
 }

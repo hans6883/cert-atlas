@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-administrator-adm-201",
   "exam_name": "Salesforce Certified Administrator (ADM-201)",
-  "exam_code": "ADM-201",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Platform Administrator",
   "version": "Summer '25",
@@ -248,7 +248,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://trailhead.salesforce.com/content/learn/modules/administrator-certification-prep-setup-and-objects/get-started-with-administrator-certification-prep",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -284,5 +284,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Certified Platform Administrators are Salesforce pros who are always looking for ways to help their companies get even more out of the Salesforce Platform through additional features and capabilities.\"",
     "evidence_url": "https://trailhead.salesforce.com/credentials/platformadministrator",
     "verified_at": "2026-09-19T21:04:30Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:23:28Z",
+    "evidence_url": "https://trailhead.salesforce.com/credentials/platformadministrator"
   }
 }

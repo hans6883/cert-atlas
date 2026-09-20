@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-history-of-the-united-states-ii",
   "exam_name": "History of the United States II",
-  "exam_code": "USHII",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/history-of-the-us-2",
   "official_study_resources": [],
   "aliases": [
     "clep history of the united states ii",
@@ -95,5 +95,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The History of the United States II exam covers U.S. history from the end of the Civil War to the present.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/history-of-the-us-2",
     "verified_at": "2026-09-19T20:31:38Z"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T00:10:41Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/history-of-the-us-2"
   }
 }

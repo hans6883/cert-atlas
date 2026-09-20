@@ -1,7 +1,7 @@
 {
   "exam_id": "isee-primary",
   "exam_name": "ISEE Primary Level",
-  "exam_code": "ISEE-P",
+  "exam_code": null,
   "certifying_body": "ISEE",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cdn.erblearn.org/www/20260801_E3n_ISEE_QuickFacts_DIGITAL.pdf",
   "official_study_resources": [],
   "aliases": [
     "isee grade 2",
@@ -71,5 +71,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: the ISEE 'About the ISEE' page on admission.org (E3n, the ISEE provider) lists the Primary levels with their sections and timing - 'Primary Level 2 — applying to Grade 2 Section Questions Time Auditory Comprehension 6 7 minutes Reading 18 20 minutes' ... 'Primary Level 3 — applying to Grade 3' ... 'Primary Level 4 — applying to Grade 4' - and 'Students may take the ISEE once per testing season—Fall, Winter, and Spring/Summer'; iseeonline.erblearn.org still hosts registration ('Create your parent account or log in to register for tests').",
     "evidence_url": "https://www.admission.org/assessments/isee/about",
     "verified_at": "2026-09-19T21:54:52Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:23:52Z",
+    "evidence_url": "https://www.erblearn.org/blog/what-is-the-isee/"
   }
 }

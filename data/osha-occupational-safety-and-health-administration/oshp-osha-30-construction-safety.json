@@ -1,65 +1,13 @@
 {
   "exam_id": "oshp-osha-30-construction-safety",
   "exam_name": "OSHA 30-Hour Construction Industry Safety Outreach",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "OSHA",
   "version": null,
   "source_url": "https://www.osha.gov/sites/default/files/OTP_Construction_Procedures_2024.pdf",
-  "duration_minutes": 1800,
-  "domains": [
-    {
-      "id": "1",
-      "name": "Introduction to OSHA",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Managing Safety and Health",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "OSHA Focus Four Hazards",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Personal Protective Equipment",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Health Hazards in Construction",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "6",
-      "name": "Stairways and Ladders",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "7",
-      "name": "Elective",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "8",
-      "name": "Optional",
-      "weight_percent": null,
-      "objectives": []
-    }
-  ],
   "aliases": [
     "OSHA 30-Hour Construction Industry Safety Outreach"
   ],
-  "practice_url": "https://quizforge.ai/tests/oshp-osha-30-construction-safety",
   "editorial": {
     "meta_description": "Prepare for the OSHA 30-Hour Construction Industry Safety Outreach certification with guidance on safety management, hazard recognition, and site compliance.",
     "overview": "The OSHA 30-Hour Construction Industry Safety Outreach certification, administered by OSHA, covers safety standards for the construction industry. The program requires 1800 minutes of training across eight specific domains, focusing on hazard recognition, personal protective equipment, health controls, and safety management procedures to ensure workers remain safe on job sites during their daily operations.",
@@ -251,5 +199,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"Through this program, workers can attend 10-hour or 30-hour classes delivered by OSHA-authorized trainers. The 30-hour class is more appropriate for supervisors or workers with some safety responsibility.\"",
     "evidence_url": "https://www.osha.gov/training/outreach",
     "verified_at": "2026-09-19T06:42:26Z"
+  },
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-19T23:47:55Z",
+    "evidence_url": "https://www.osha.gov/node/58570"
   }
 }

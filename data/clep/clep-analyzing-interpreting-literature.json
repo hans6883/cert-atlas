@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-analyzing-interpreting-literature",
   "exam_name": "Analyzing and Interpreting Literature",
-  "exam_code": "AIL",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "weight_max": 20
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/analyzing-interpreting-literature",
   "official_study_resources": [],
   "aliases": [
     "ail",
@@ -70,5 +70,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"The Analyzing and Interpreting Literature exam covers material usually taught in a general undergraduate course in literature. Although the exam does not require familiarity with specific works, it does assume that test takers have read widely\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/analyzing-interpreting-literature",
     "verified_at": "2026-09-19T06:01:09Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-19T23:46:26Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/analyzing-interpreting-literature"
   }
 }
