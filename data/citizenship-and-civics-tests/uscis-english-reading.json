@@ -1,7 +1,7 @@
 {
   "exam_id": "uscis-english-reading",
   "exam_name": "USCIS English Reading Test (Naturalization)",
-  "exam_code": "N-400-EN-R",
+  "exam_code": null,
   "certifying_body": "Citizenship and Civics Tests",
   "certification_name": null,
   "version": null,
@@ -108,5 +108,12 @@
     "uscis english reading test naturalization",
     "uscis-english-reading"
   ],
-  "practice_url": "https://quizforge.ai/tests/uscis-english-reading-test-naturalization-2z9xrf"
+  "practice_url": "https://quizforge.ai/tests/uscis-english-reading-test-naturalization-2z9xrf",
+  "credential": {
+    "type": "civic_knowledge_test",
+    "label": "citizenship or civic knowledge test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:27:10Z",
+    "evidence_url": "https://www.uscis.gov/citizenship/learn-about-citizenship/the-naturalization-interview-and-test"
+  }
 }

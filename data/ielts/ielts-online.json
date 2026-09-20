@@ -1,7 +1,7 @@
 {
   "exam_id": "ielts-online",
   "exam_name": "IELTS Online",
-  "exam_code": "IELTS-ONL",
+  "exam_code": null,
   "certifying_body": "IELTS",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-online",
   "official_study_resources": [],
   "aliases": [
     "ielts at home",
@@ -64,5 +64,12 @@
     "ielts-onl",
     "ielts-online"
   ],
-  "practice_url": "https://quizforge.ai/tests/ielts-online"
+  "practice_url": "https://quizforge.ai/tests/ielts-online",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:02:33Z",
+    "evidence_url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-online"
+  }
 }

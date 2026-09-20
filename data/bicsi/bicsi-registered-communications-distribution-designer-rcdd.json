@@ -1,7 +1,7 @@
 {
   "exam_id": "bicsi-registered-communications-distribution-designer-rcdd",
   "exam_name": "BICSI Registered Communications Distribution Designer (RCDD)",
-  "exam_code": "",
+  "exam_code": "RCDD",
   "certifying_body": "BICSI",
   "version": null,
   "source_url": "https://www.bicsi.org/docs/default-source/default-document-library/rcdd-cred-handbook-2024_final_version15.pdf?sfvrsn=72ad4065_1",
@@ -168,5 +168,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:59+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:50:47Z",
+    "evidence_url": "https://www.bicsi.org/education-certification/certification/rcdd/how-to-prepare-for-the-rcdd-exam"
+  },
+  "official_objectives_url": "https://www.bicsi.org/docs/default-source/handbooks/rcdd-cred-handbook_v15_09112025_0916.pdf"
 }

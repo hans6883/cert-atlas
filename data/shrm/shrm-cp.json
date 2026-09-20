@@ -78,7 +78,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.shrm.org/content/dam/en/shrm/credentials/shrm-certification/bask/shrm-bask.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -96,5 +96,12 @@
     "shrm cp",
     "shrm-cp"
   ],
-  "practice_url": "https://quizforge.ai/tests/shrm-certified-professional-shrm-cp"
+  "practice_url": "https://quizforge.ai/tests/shrm-certified-professional-shrm-cp",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:50:30Z",
+    "evidence_url": "https://www.shrm.org/credentials/certification/shrm-cp"
+  }
 }

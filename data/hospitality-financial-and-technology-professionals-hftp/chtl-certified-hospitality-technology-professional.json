@@ -1,7 +1,7 @@
 {
   "exam_id": "chtl-certified-hospitality-technology-professional",
   "exam_name": "CHTP: Certified Hospitality Technology Professional",
-  "exam_code": "",
+  "exam_code": "CHTP",
   "certifying_body": "Hospitality Financial and Technology Professionals (HFTP)",
   "version": null,
   "source_url": "https://academy.hftp.org/browse/chtp/programs/chtp",
@@ -153,5 +153,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:00+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:13:33Z",
+    "evidence_url": "https://www.hftp.org/professional-development/academy/chtp"
   }
 }

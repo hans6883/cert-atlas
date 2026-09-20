@@ -1,7 +1,7 @@
 {
   "exam_id": "okta-certified-professional",
   "exam_name": "Okta Certified Professional",
-  "exam_code": "OCP",
+  "exam_code": "OKPRO1",
   "certifying_body": "Okta",
   "certification_name": null,
   "version": null,
@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certification.okta.com/page/professional-performance-exam-study-guide",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -104,5 +104,12 @@
     "okta professional",
     "okta-certified-professional"
   ],
-  "practice_url": "https://quizforge.ai/tests/okta-certified-professional"
+  "practice_url": "https://quizforge.ai/tests/okta-certified-professional",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:02:38Z",
+    "evidence_url": "https://certification.okta.com/okpro1-okta-certified-professional-performance-exam"
+  }
 }

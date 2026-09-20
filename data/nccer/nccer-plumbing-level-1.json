@@ -1,7 +1,7 @@
 {
   "exam_id": "nccer-plumbing-level-1",
   "exam_name": "NCCER Plumbing Level 1",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "NCCER",
   "version": null,
   "source_url": "https://www.nccer.org/media/2024/03/Plumbing_5e_L1_Level-Test.pdf",
@@ -324,5 +324,19 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:03+00:00"
-  }
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-19: \"These comprehensive tests combine items from all modules within a level of curriculum into one test.\"",
+    "evidence_url": "https://www.nccer.org/nccer-level-tests/",
+    "verified_at": "2026-09-20T03:44:52+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T03:13:12Z",
+    "evidence_url": "https://www.nccer.org/nccer-level-tests/"
+  },
+  "official_objectives_url": "https://www.nccer.org/media/2024/03/Plumbing_5e_L1_Level-Test.pdf"
 }

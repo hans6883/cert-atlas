@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-ny",
   "exam_name": "New York Driver's License Knowledge Test",
-  "exam_code": "NY",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -103,5 +103,12 @@
     "new york permit test",
     "ny dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/new-york-drivers-license-knowledge-test-2zzjng"
+  "practice_url": "https://quizforge.ai/tests/new-york-drivers-license-knowledge-test-2zzjng",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:14:47Z",
+    "evidence_url": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses"
+  }
 }

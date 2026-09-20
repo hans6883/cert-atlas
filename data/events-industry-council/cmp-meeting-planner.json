@@ -1,7 +1,7 @@
 {
   "exam_id": "cmp-meeting-planner",
   "exam_name": "CMP Certified Meeting Professional",
-  "exam_code": "",
+  "exam_code": "CMP",
   "certifying_body": "Events Industry Council",
   "version": null,
   "source_url": "https://news.eventscouncil.org/wp-content/uploads/2025/01/CMP-International-Standards-2025.pdf",
@@ -310,5 +310,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:01+00:00"
-  }
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:01:30Z",
+    "evidence_url": "https://eventscouncil.org/CMP"
+  },
+  "official_objectives_url": "https://eventscouncil.org/CMP/Future-CMPs/exam-structure-and-scoring"
 }

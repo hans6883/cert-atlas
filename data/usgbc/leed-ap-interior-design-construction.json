@@ -1,7 +1,7 @@
 {
   "exam_id": "leed-ap-interior-design-construction",
   "exam_name": "LEED AP Interior Design and Construction (ID+C)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "USGBC",
   "version": null,
   "source_url": "https://usgbc.gitbook.io/leed-candidate-handbooks/leed-ap-with-specialty-candidate-handbook",
@@ -245,5 +245,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:02+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:50:34Z",
+    "evidence_url": "https://usgbc.gitbook.io/leed-candidate-handbooks/leed-ap-with-specialty-candidate-handbook"
+  },
+  "official_objectives_url": "https://usgbc.gitbook.io/leed-candidate-handbooks/leed-ap-with-specialty-candidate-handbook"
 }

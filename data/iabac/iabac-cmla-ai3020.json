@@ -1,7 +1,7 @@
 {
   "exam_id": "iabac-cmla-ai3020",
   "exam_name": "Certified Machine Learning Associate (CMLA)",
-  "exam_code": "CMLA – AI3020",
+  "exam_code": "AI3020",
   "certifying_body": "IABAC",
   "certification_name": null,
   "version": null,
@@ -71,7 +71,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://iabac.org/resource/images/certifications/syllabus/EN_CMLA_Syllabus_V1.0.pdf",
   "official_study_resources": [],
   "aliases": [
     "certified machine learning associate cmla",
@@ -79,5 +79,12 @@
     "cmla ai3020",
     "iabac-cmla-ai3020"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-machine-learning-associate-cmla-2srt1z"
+  "practice_url": "https://quizforge.ai/tests/certified-machine-learning-associate-cmla-2srt1z",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:50:28Z",
+    "evidence_url": "https://iabac.org/artificial-intelligence-certification/certified-machine-learning-associate"
+  }
 }

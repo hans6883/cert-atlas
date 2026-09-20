@@ -1,7 +1,7 @@
 {
   "exam_id": "bce-biofeedback",
   "exam_name": "BCE Board Certified in Biofeedback",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Biofeedback Certification International Alliance (BCIA)",
   "version": null,
   "source_url": "https://bcia.memberclicks.net/assets/BFCommonDocs/2015BiofeedbackBlueprint.pdf",
@@ -255,5 +255,19 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:59+00:00"
-  }
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-19: \"The certification exam may only be taken using our online proctoring service which allows you to test on your own computer with no travel required.\"",
+    "evidence_url": "https://bcia.memberclicks.net/bf-entry-level",
+    "verified_at": "2026-09-20T03:44:52+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:14:12Z",
+    "evidence_url": "https://bcia.memberclicks.net/assets/BFCommonDocs/BF%20Brochure.pdf"
+  },
+  "official_objectives_url": "https://bcia.memberclicks.net/assets/BFCommonDocs/2015BiofeedbackBlueprint.pdf"
 }

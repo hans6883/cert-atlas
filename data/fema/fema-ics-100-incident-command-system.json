@@ -1,7 +1,7 @@
 {
   "exam_id": "fema-ics-100-incident-command-system",
   "exam_name": "ICS-100: Introduction to the Incident Command System",
-  "exam_code": "FEMA-ICS100",
+  "exam_code": "IS-100.C",
   "certifying_body": "FEMA",
   "version": null,
   "source_url": "https://training.fema.gov/is/courseoverview.aspx?code=IS-100.c&lang=en",
@@ -194,5 +194,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:02+00:00"
-  }
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T03:02:32Z",
+    "evidence_url": "https://training.fema.gov/is/courseoverview.aspx?code=IS-100.c&lang=en"
+  },
+  "official_objectives_url": "https://training.fema.gov/is/courseoverview.aspx?code=IS-100.c&lang=en"
 }

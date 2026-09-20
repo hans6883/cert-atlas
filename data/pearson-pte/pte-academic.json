@@ -1,7 +1,7 @@
 {
   "exam_id": "pte-academic",
   "exam_name": "PTE Academic",
-  "exam_code": "PTEA",
+  "exam_code": null,
   "certifying_body": "Pearson PTE",
   "certification_name": null,
   "version": null,
@@ -49,7 +49,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.pearsonpte.com/pte-academic/test-format/",
   "official_study_resources": [],
   "aliases": [
     "pearson english test",
@@ -61,5 +61,12 @@
     "pte-academic",
     "ptea"
   ],
-  "practice_url": "https://quizforge.ai/tests/pte-academic-2tutu8"
+  "practice_url": "https://quizforge.ai/tests/pte-academic-2tutu8",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:27:10Z",
+    "evidence_url": "https://www.pearsonpte.com/pte-academic"
+  }
 }

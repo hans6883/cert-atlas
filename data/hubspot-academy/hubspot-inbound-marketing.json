@@ -1,7 +1,7 @@
 {
   "exam_id": "hubspot-inbound-marketing",
   "exam_name": "Inbound Marketing Certification",
-  "exam_code": "HubSpot-Inbound",
+  "exam_code": null,
   "certifying_body": "HubSpot Academy",
   "certification_name": null,
   "version": null,
@@ -97,5 +97,12 @@
     "hubspot-inbound-marketing",
     "inbound marketing certification"
   ],
-  "practice_url": "https://quizforge.ai/tests/hubspot-inbound-marketing-certification"
+  "practice_url": "https://quizforge.ai/tests/hubspot-inbound-marketing-certification",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:50:15Z",
+    "evidence_url": "https://academy.hubspot.com/courses/inbound-marketing"
+  }
 }

@@ -80,7 +80,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://iassc.org/body-of-knowledge/green-belt-body-of-knowledge/",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -110,5 +110,12 @@
     "lss green belt",
     "six sigma green belt iassc"
   ],
-  "practice_url": "https://quizforge.ai/tests/iassc-lean-six-sigma-green-belt"
+  "practice_url": "https://quizforge.ai/tests/iassc-lean-six-sigma-green-belt",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:49:12Z",
+    "evidence_url": "https://iassc.org/six-sigma-certification/green-belt-certification/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-personal-finance",
   "exam_name": "Personal Finance",
-  "exam_code": "PFIN",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -79,7 +79,7 @@
       "weight_max": 15.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2025/11/Personal-Finance-1.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes personal finance",
@@ -89,5 +89,12 @@
     "personal finance dsst",
     "pfin"
   ],
-  "practice_url": "https://quizforge.ai/tests/dsst-personal-finance"
+  "practice_url": "https://quizforge.ai/tests/dsst-personal-finance",
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T03:27:09Z",
+    "evidence_url": "https://getcollegecredit.com/exam/personal-finance/"
+  }
 }

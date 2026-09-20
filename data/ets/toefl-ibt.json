@@ -71,7 +71,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -119,5 +119,12 @@
     "toefl internet-based test",
     "toefl-ibt"
   ],
-  "practice_url": "https://quizforge.ai/tests/toefl-ibt"
+  "practice_url": "https://quizforge.ai/tests/toefl-ibt",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:02:36Z",
+    "evidence_url": "https://www.ets.org/toefl/"
+  }
 }

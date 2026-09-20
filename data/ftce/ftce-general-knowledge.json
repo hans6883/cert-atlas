@@ -1,7 +1,7 @@
 {
   "exam_id": "ftce-general-knowledge",
   "exam_name": "FTCE General Knowledge (GK)",
-  "exam_code": "FTCE-GK",
+  "exam_code": "082",
   "certifying_body": "FTCE",
   "certification_name": null,
   "version": null,
@@ -66,5 +66,12 @@
     "ftce-gk",
     "gk"
   ],
-  "practice_url": "https://quizforge.ai/tests/ftce-general-knowledge"
+  "practice_url": "https://quizforge.ai/tests/ftce-general-knowledge",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:49:35Z",
+    "evidence_url": "https://fl.nesinc.com/testPage.asp?test=GK"
+  }
 }

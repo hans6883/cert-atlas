@@ -1,7 +1,7 @@
 {
   "exam_id": "mendix-intermediate-developer",
   "exam_name": "Mendix Intermediate Developer Certification",
-  "exam_code": "MID",
+  "exam_code": null,
   "certifying_body": "Mendix",
   "certification_name": null,
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://academy.mendix.com/link/certifications/22/intermediate",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -100,5 +100,12 @@
     "mendix-intermediate-developer",
     "mid"
   ],
-  "practice_url": "https://quizforge.ai/tests/mendix-intermediate-developer-certification-2ilz78"
+  "practice_url": "https://quizforge.ai/tests/mendix-intermediate-developer-certification-2ilz78",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:02:39Z",
+    "evidence_url": "https://docs.mendix.com/academy/purchasing-exams/"
+  }
 }

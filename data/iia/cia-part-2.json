@@ -1,7 +1,7 @@
 {
   "exam_id": "cia-part-2",
   "exam_name": "CIA Exam Part 2 — Practice of Internal Auditing",
-  "exam_code": "CIA-P2",
+  "exam_code": null,
   "certifying_body": "IIA",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.theiia.org/en/certifications/cia/exam-prep-resources/exam-syllabus/exam-syllabus-part-2/",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -103,5 +103,12 @@
     "cia-part-2",
     "practice of internal auditing"
   ],
-  "practice_url": "https://quizforge.ai/tests/cia-part-2-practice-internal-auditing"
+  "practice_url": "https://quizforge.ai/tests/cia-part-2-practice-internal-auditing",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:26:40Z",
+    "evidence_url": "https://www.theiia.org/en/certifications/cia/"
+  }
 }

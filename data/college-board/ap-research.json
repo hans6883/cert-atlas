@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-research",
   "exam_name": "AP Research",
-  "exam_code": "AP Research",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -107,7 +107,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -134,5 +134,12 @@
     "ap research",
     "ap-research"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-research-31erfj"
+  "practice_url": "https://quizforge.ai/tests/ap-research-31erfj",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T02:50:29Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-research/assessment"
+  }
 }

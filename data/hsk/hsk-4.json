@@ -1,7 +1,7 @@
 {
   "exam_id": "hsk-4",
   "exam_name": "HSK Level 4 (四级)",
-  "exam_code": "HSK 4",
+  "exam_code": null,
   "certifying_body": "HSK",
   "certification_name": null,
   "version": null,
@@ -94,5 +94,12 @@
     "hsk level 4 四级",
     "hsk-4"
   ],
-  "practice_url": "https://quizforge.ai/tests/hsk-level-4-%E5%9B%9B%E7%BA%A7-2ugs14"
+  "practice_url": "https://quizforge.ai/tests/hsk-level-4-%E5%9B%9B%E7%BA%A7-2ugs14",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T02:50:33Z",
+    "evidence_url": "https://www.chinesetest.cn/HSK/4"
+  }
 }

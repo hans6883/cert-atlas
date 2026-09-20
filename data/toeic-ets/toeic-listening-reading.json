@@ -1,7 +1,7 @@
 {
   "exam_id": "toeic-listening-reading",
   "exam_name": "TOEIC Listening and Reading Test",
-  "exam_code": "TOEIC L&R",
+  "exam_code": null,
   "certifying_body": "TOEIC (ETS)",
   "certification_name": null,
   "version": null,
@@ -43,7 +43,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ets.org/content/ets-org/language-master/en/home/toeic/about/listening-reading.html",
   "official_study_resources": [],
   "aliases": [
     "toeic",
@@ -52,5 +52,12 @@
     "toeic listening reading",
     "toeic-listening-reading"
   ],
-  "practice_url": "https://quizforge.ai/tests/toeic-listening-reading"
+  "practice_url": "https://quizforge.ai/tests/toeic-listening-reading",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:01:30Z",
+    "evidence_url": "https://www.ets.org/content/ets-org/language-master/en/home/toeic/about/listening-reading.html"
+  }
 }

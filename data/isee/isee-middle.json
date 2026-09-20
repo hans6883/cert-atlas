@@ -1,7 +1,7 @@
 {
   "exam_id": "isee-middle",
   "exam_name": "ISEE Middle Level",
-  "exam_code": "ISEE-M",
+  "exam_code": null,
   "certifying_body": "ISEE",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cdn.erblearn.org/www/20260801_E3n_ISEE_QuickFacts_DIGITAL.pdf",
   "official_study_resources": [],
   "aliases": [
     "isee middle",
@@ -69,5 +69,12 @@
     "isee-m",
     "isee-middle"
   ],
-  "practice_url": "https://quizforge.ai/tests/isee-middle"
+  "practice_url": "https://quizforge.ai/tests/isee-middle",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:01:29Z",
+    "evidence_url": "https://cdn.erblearn.org/www/20260801_E3n_ISEE_QuickFacts_DIGITAL.pdf"
+  }
 }

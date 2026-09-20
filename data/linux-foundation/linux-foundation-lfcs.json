@@ -261,7 +261,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -279,5 +279,12 @@
     "linux foundation certified systems administrator lfcs",
     "linux-foundation-lfcs"
   ],
-  "practice_url": "https://quizforge.ai/tests/linux-foundation-certified-systems-administrator-lfcs-37bdacfb"
+  "practice_url": "https://quizforge.ai/tests/linux-foundation-certified-systems-administrator-lfcs-37bdacfb",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:14:47Z",
+    "evidence_url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-money-and-banking",
   "exam_name": "Money and Banking",
-  "exam_code": "MNYBKG",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2025/11/Money-and-Banking-1.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes money and banking",
@@ -238,5 +238,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:29+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T03:15:09Z",
+    "evidence_url": "https://getcollegecredit.com/exam/money-and-banking/"
   }
 }
