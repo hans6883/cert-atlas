@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.isaca.org/credentialing/cism/cism-exam-content-outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -110,5 +110,12 @@
     "information security manager",
     "isaca-cism"
   ],
-  "practice_url": "https://quizforge.ai/tests/isaca-certified-information-security-manager-cism"
+  "practice_url": "https://quizforge.ai/tests/isaca-certified-information-security-manager-cism",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:47:12Z",
+    "evidence_url": "https://www.isaca.org/credentialing/cism/cism-exam-content-outline"
+  }
 }

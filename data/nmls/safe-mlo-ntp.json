@@ -1,7 +1,7 @@
 {
   "exam_id": "safe-mlo-ntp",
   "exam_name": "SAFE MLO Test — National Test with Uniform State Content (NTP)",
-  "exam_code": "NTP",
+  "exam_code": null,
   "certifying_body": "NMLS",
   "certification_name": null,
   "version": null,
@@ -90,7 +90,7 @@
       "weight_max": 11.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://mortgage.nationwidelicensingsystem.org/knowledge/Products/nmls/pubs/testingHbk/education/mlo_testing/mlo_test_faq/mlo_testing_hbk_testOutline.html",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -111,5 +111,12 @@
     "safe mlo test national test with uniform state content ntp",
     "safe-mlo-ntp"
   ],
-  "practice_url": "https://quizforge.ai/tests/safe-mlo-test-%E2%80%94-national-test-with-uniform-state-content-ntp-2x6bzp"
+  "practice_url": "https://quizforge.ai/tests/safe-mlo-test-%E2%80%94-national-test-with-uniform-state-content-ntp-2x6bzp",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:47:26Z",
+    "evidence_url": "https://mortgage.nationwidelicensingsystem.org/knowledge/products/nmls/pubs/ugIndState/licensing/individual/topics/licInd_PreppassingTheSafeMloTest.html"
+  }
 }

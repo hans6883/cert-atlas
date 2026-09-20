@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-me",
   "exam_name": "Maine Driver's License Knowledge Test",
-  "exam_code": "ME",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/driver-license-manual-and-Maine-motorist-handbook-and-study-guide",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,12 @@
     "me",
     "me dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/maine-drivers-license-knowledge-test-30fecf"
+  "practice_url": "https://quizforge.ai/tests/maine-drivers-license-knowledge-test-30fecf",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:32:22Z",
+    "evidence_url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/drivers-license-exam"
+  }
 }

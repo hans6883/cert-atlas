@@ -100,7 +100,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certification.opengroup.org/docs/datasheets/togaf-exams.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -128,5 +128,12 @@
     "togaf combined level 1 2",
     "togaf level 1 and 2"
   ],
-  "practice_url": "https://quizforge.ai/tests/togaf%C2%AE-combined-level-1-and-2-34cuot"
+  "practice_url": "https://quizforge.ai/tests/togaf%C2%AE-combined-level-1-and-2-34cuot",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:23Z",
+    "evidence_url": "https://certification.opengroup.org/docs/datasheets/togaf-exams.pdf"
+  }
 }

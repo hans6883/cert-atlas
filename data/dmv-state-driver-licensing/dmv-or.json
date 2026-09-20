@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-or",
   "exam_name": "Oregon Driver's License Knowledge Test",
-  "exam_code": "OR",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.oregon.gov/odot/dmv/pages/online_manual/testing.aspx",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -104,5 +104,12 @@
     "oregon driver s license test",
     "oregon permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/oregon-drivers-license-knowledge-test-2ztg5j"
+  "practice_url": "https://quizforge.ai/tests/oregon-drivers-license-knowledge-test-2ztg5j",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:36:14Z",
+    "evidence_url": "https://www.oregon.gov/odot/dmv/pages/online_manual/testing.aspx"
+  }
 }

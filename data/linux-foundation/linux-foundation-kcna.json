@@ -115,7 +115,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -130,5 +130,12 @@
   "aliases": [
     "linux-foundation-kcna"
   ],
-  "practice_url": "https://quizforge.ai/?q=Kubernetes%20and%20Cloud%20Native%20Associate%20%28KCNA%29"
+  "practice_url": "https://quizforge.ai/?q=Kubernetes%20and%20Cloud%20Native%20Associate%20%28KCNA%29",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:48Z",
+    "evidence_url": "https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-fl",
   "exam_name": "Florida Driver's License Knowledge Test",
-  "exam_code": "FL",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,12 @@
     "florida driver s license test",
     "florida permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/florida-drivers-license-knowledge-test-30qdfv"
+  "practice_url": "https://quizforge.ai/tests/florida-drivers-license-knowledge-test-30qdfv",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:18Z",
+    "evidence_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/"
+  }
 }

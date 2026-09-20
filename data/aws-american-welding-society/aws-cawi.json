@@ -119,7 +119,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://aws-p-001-delivery.sitecorecontenthub.cloud/api/public/content/CWI-Examination-User-Guide?v=dc1c78b8",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -146,5 +146,12 @@
     "aws-cawi",
     "certified associate welding inspector"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-associate-welding-inspector-cawi-2nhkqb"
+  "practice_url": "https://quizforge.ai/tests/certified-associate-welding-inspector-cawi-2nhkqb",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:21:36Z",
+    "evidence_url": "https://www.aws.org/certification-and-education/professional-certification/certified-associate-welding-inspector"
+  }
 }

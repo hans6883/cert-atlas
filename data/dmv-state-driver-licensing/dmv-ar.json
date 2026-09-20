@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-ar",
   "exam_name": "Arkansas Driver's License Knowledge Test",
-  "exam_code": "AR",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -227,5 +227,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:37+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:32:21Z",
+    "evidence_url": "https://www.dfa.arkansas.gov/online-services/drivers/"
   }
 }

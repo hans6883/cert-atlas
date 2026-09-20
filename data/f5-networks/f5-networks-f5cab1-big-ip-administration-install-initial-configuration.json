@@ -163,5 +163,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T09:36:36+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:10:14Z",
+    "evidence_url": "https://support.education.f5.com/hc/en-us/articles/35052524386075-BIG-IP-Administration-Install-Initial-Configuration-and-Upgrade-F5CAB1-exam"
   }
 }

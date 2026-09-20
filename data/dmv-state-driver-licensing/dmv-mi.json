@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-mi",
   "exam_name": "Michigan Driver's License Knowledge Test",
-  "exam_code": "MI",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.michigan.gov/sos/license-id/new-drivers-18-older",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,12 @@
     "michigan permit test",
     "michigan sos knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/michigan-drivers-license-knowledge-test-30bqna"
+  "practice_url": "https://quizforge.ai/tests/michigan-drivers-license-knowledge-test-30bqna",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:20:23Z",
+    "evidence_url": "https://www.michigan.gov/sos/license-id/new-drivers-18-older"
+  }
 }

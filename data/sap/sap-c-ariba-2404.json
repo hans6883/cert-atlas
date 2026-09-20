@@ -1,7 +1,7 @@
 {
   "exam_id": "sap-c-ariba-2404",
   "exam_name": "SAP Certified Application Associate — SAP Ariba Procurement",
-  "exam_code": "C_ARIBA_2404",
+  "exam_code": null,
   "certifying_body": "SAP",
   "certification_name": null,
   "version": null,
@@ -91,7 +91,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learning.sap.com/certifications/sap-certified-associate-sap-ariba-procurement",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -120,5 +120,12 @@
     "sap certified application associate sap ariba procurement",
     "sap-c-ariba-2404"
   ],
-  "practice_url": "https://quizforge.ai/tests/sap-certified-application-associate-%E2%80%94-sap-ariba-procurement-2iy672"
+  "practice_url": "https://quizforge.ai/tests/sap-certified-application-associate-%E2%80%94-sap-ariba-procurement-2iy672",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:36:04Z",
+    "evidence_url": "https://learning.sap.com/certifications/sap-certified-associate-sap-ariba-procurement"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "splunk-core-certified-user",
   "exam_name": "Splunk Core Certified User",
-  "exam_code": "SPLK-1001",
+  "exam_code": null,
   "certifying_body": "Splunk",
   "certification_name": null,
   "version": null,
@@ -109,7 +109,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.splunk.com/pdfs/training/splunk-test-blueprint-user.pdf",
   "official_study_resources": [],
   "aliases": [
     "splk-1001",
@@ -118,5 +118,12 @@
     "splunk user",
     "splunk-core-certified-user"
   ],
-  "practice_url": "https://quizforge.ai/tests/splunk-core-certified-user"
+  "practice_url": "https://quizforge.ai/tests/splunk-core-certified-user",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:58:39Z",
+    "evidence_url": "https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-user.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "re-salesperson-ca",
   "exam_name": "California Real Estate Salesperson Exam",
-  "exam_code": "CA-RE-Sales",
+  "exam_code": null,
   "certifying_body": "Real Estate Licensing",
   "certification_name": null,
   "version": null,
@@ -115,7 +115,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.dre.ca.gov/examinees/SalesExamContent.html",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -145,5 +145,12 @@
     "california salesperson exam",
     "re-salesperson-ca"
   ],
-  "practice_url": "https://quizforge.ai/tests/california-real-estate-salesperson-exam-2tpy8p"
+  "practice_url": "https://quizforge.ai/tests/california-real-estate-salesperson-exam-2tpy8p",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:58:40Z",
+    "evidence_url": "https://www.dre.ca.gov/examinees/SalesExamContent.html"
+  }
 }

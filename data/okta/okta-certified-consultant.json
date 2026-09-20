@@ -1,7 +1,7 @@
 {
   "exam_id": "okta-certified-consultant",
   "exam_name": "Okta Certified Consultant",
-  "exam_code": "OCC",
+  "exam_code": "OKCON1",
   "certifying_body": "Okta",
   "certification_name": null,
   "version": null,
@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certification.okta.com/page/occ-hoc-exam-study-guide",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -103,5 +103,12 @@
     "okta consultant",
     "okta-certified-consultant"
   ],
-  "practice_url": "https://quizforge.ai/tests/okta-certified-consultant-37vo8l"
+  "practice_url": "https://quizforge.ai/tests/okta-certified-consultant-37vo8l",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:46:41Z",
+    "evidence_url": "https://certification.okta.com/path/okta-certified-consultant-hands-on-configuration-certification-exam"
+  }
 }

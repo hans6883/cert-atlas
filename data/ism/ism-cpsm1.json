@@ -1,7 +1,7 @@
 {
   "exam_id": "ism-cpsm1",
   "exam_name": "CPSM Exam 1 — Foundation of Supply Management",
-  "exam_code": "CPSM1",
+  "exam_code": null,
   "certifying_body": "ISM",
   "certification_name": null,
   "version": null,
@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ismworld.org/globalassets/pub/docs/290-exam-specifications.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -266,5 +266,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:02+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:16Z",
+    "evidence_url": "https://www.ismworld.org/globalassets/pub/docs/certification--handbook2.pdf"
   }
 }

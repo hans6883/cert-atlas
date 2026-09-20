@@ -1,7 +1,7 @@
 {
   "exam_id": "iso-50001-lead-auditor-energy-management",
   "exam_name": "ISO 50001 Lead Auditor Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "PECB",
   "version": null,
   "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-50001-lead-auditor.pdf",
@@ -229,5 +229,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:04+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:36:16Z",
+    "evidence_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-50001/iso-50001-lead-auditor"
+  },
+  "official_objectives_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-50001-lead-auditor.pdf"
 }

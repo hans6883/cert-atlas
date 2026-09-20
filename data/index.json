@@ -596,7 +596,9 @@
       "practice_url": "https://quizforge.ai/tests/certified-rural-health-clinic-coder-crhc-35kr2k",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-02T00:53:28+00:00"
+      "verified_at": "2026-09-02T00:53:28+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "vtne-practical",
@@ -765,7 +767,7 @@
     {
       "exam_id": "acca-aa",
       "exam_name": "Audit and Assurance (AA/F8)",
-      "exam_code": "AA/F8",
+      "exam_code": "AA",
       "certifying_body": "ACCA",
       "vendor_slug": "acca",
       "domains": 5,
@@ -780,7 +782,9 @@
       "retires_on": "2027-06-30",
       "replacement_exam_code": "E3",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": null
+      "replacement_url": null,
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "acca-s1",
@@ -795,7 +799,9 @@
       "practice_url": "https://quizforge.ai/tests/business-and-sustainability-reporting-s1-practice-test-3eos1h",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:35+00:00"
+      "verified_at": "2026-09-13T09:36:35+00:00",
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "acca-baa",
@@ -840,7 +846,9 @@
       "practice_url": "https://quizforge.ai/tests/finance-and-investment-e4-practice-test-3emc8p",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:35+00:00"
+      "verified_at": "2026-09-13T09:36:35+00:00",
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "acca-fa",
@@ -1170,7 +1178,8 @@
       "practice_url": "https://quizforge.ai/tests/ace-certified-personal-trainer",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-02T00:53:29+00:00"
+      "verified_at": "2026-09-02T00:53:29+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "cfcs-certified-financial-crimes-specialist",
@@ -1211,7 +1220,7 @@
     {
       "exam_id": "cfe-financial-transactions",
       "exam_name": "CFE Part 1: Financial Transactions and Fraud Schemes",
-      "exam_code": "CFE-FT",
+      "exam_code": null,
       "certifying_body": "ACFE",
       "vendor_slug": "acfe",
       "domains": 5,
@@ -1223,12 +1232,14 @@
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:17:26+00:00",
       "lifecycle_status": "retired",
-      "retired_on": "2026-06-02"
+      "retired_on": "2026-06-02",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cfe-law",
       "exam_name": "CFE Part 2: Law",
-      "exam_code": "CFE-Law",
+      "exam_code": null,
       "certifying_body": "ACFE",
       "vendor_slug": "acfe",
       "domains": 5,
@@ -1240,7 +1251,9 @@
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:17:26+00:00",
       "lifecycle_status": "retired",
-      "retired_on": "2026-06-02"
+      "retired_on": "2026-06-02",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cfe-investigation",
@@ -2057,7 +2070,9 @@
       "practice_url": "https://quizforge.ai/tests/mammography-m-2fwf8m",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "arrt-nm",
@@ -2421,6 +2436,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -3059,7 +3075,9 @@
       "practice_url": "https://quizforge.ai/tests/aws-advanced-networking-specialty-ans-c01",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aws-cloud-practitioner-clf-c02",
@@ -3366,7 +3384,9 @@
       "practice_url": "https://quizforge.ai/tests/certified-associate-welding-inspector-cawi-2nhkqb",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aws-crl",
@@ -3445,7 +3465,9 @@
       "practice_url": "https://quizforge.ai/tests/certified-welding-supervisor-cws-2wbui5",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "aws-scwi",
@@ -4784,6 +4806,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:39:59+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -5523,6 +5546,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -5772,7 +5796,9 @@
       "practice_url": "https://quizforge.ai/tests/e1-managing-finance-in-a-digital-world-2fj0cf",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "cima-e2",
@@ -5787,7 +5813,8 @@
       "practice_url": "https://quizforge.ai/tests/e2-managing-performance-2fk88s",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "cima-e3",
@@ -7532,7 +7559,8 @@
       "practice_url": "https://quizforge.ai/tests/cas-exam-1-probability-actuarial",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T04:38:28+00:00"
+      "verified_at": "2026-09-14T04:38:28+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "cas-exam-5-basic-ratemaking-techniques",
@@ -7663,6 +7691,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -7724,7 +7753,9 @@
       "practice_url": "https://quizforge.ai/tests/iso-iec-42001-foundation-professional-certification-i42001f-37y41c",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ncbde-certified-diabetes-care-education-specialist-cdces",
@@ -7740,6 +7771,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:05+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -8105,6 +8137,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "school_exam",
       "examination": true
     },
@@ -8264,7 +8297,7 @@
     {
       "exam_id": "ap-english-language",
       "exam_name": "AP English Language and Composition",
-      "exam_code": "AP English Lang",
+      "exam_code": null,
       "certifying_body": "College Board",
       "vendor_slug": "college-board",
       "domains": 7,
@@ -8274,7 +8307,9 @@
       "practice_url": "https://quizforge.ai/tests/ap-english-language-and-composition-2j7xe4",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-02T21:44:53+00:00"
+      "verified_at": "2026-09-02T21:44:53+00:00",
+      "credential_type": "school_exam",
+      "examination": true
     },
     {
       "exam_id": "ap-english-literature",
@@ -8294,7 +8329,7 @@
     {
       "exam_id": "ap-environmental-science",
       "exam_name": "AP Environmental Science",
-      "exam_code": "AP Env Sci",
+      "exam_code": null,
       "certifying_body": "College Board",
       "vendor_slug": "college-board",
       "domains": 9,
@@ -8304,7 +8339,9 @@
       "practice_url": "https://quizforge.ai/tests/ap-environmental-science-2j95ah",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "school_exam",
+      "examination": true
     },
     {
       "exam_id": "ap-european-history",
@@ -8578,6 +8615,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "school_exam",
       "examination": true
     },
@@ -8680,7 +8718,7 @@
     {
       "exam_id": "ap-world-history",
       "exam_name": "AP World History: Modern",
-      "exam_code": "AP World History",
+      "exam_code": null,
       "certifying_body": "College Board",
       "vendor_slug": "college-board",
       "domains": 9,
@@ -8690,7 +8728,9 @@
       "practice_url": "https://quizforge.ai/tests/ap-world-history-modern-2jv3hd",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "school_exam",
+      "examination": true
     },
     {
       "exam_id": "psat-10",
@@ -9058,7 +9098,9 @@
       "practice_url": "https://quizforge.ai/tests/comptia-pentest-plus-pt0-003",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "comptia-project-plus-pk0-005",
@@ -9073,7 +9115,9 @@
       "practice_url": "https://quizforge.ai/tests/comptia-project-plus-pk0-005",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "comptia-security-plus-sy0-701",
@@ -9661,7 +9705,7 @@
     {
       "exam_id": "dmv-ar",
       "exam_name": "Arkansas Driver's License Knowledge Test",
-      "exam_code": "AR",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -9671,7 +9715,9 @@
       "practice_url": "https://quizforge.ai/tests/arkansas-drivers-license-knowledge-test-30wgxs",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-08-30T20:17:37+00:00"
+      "verified_at": "2026-08-30T20:17:37+00:00",
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-ca",
@@ -9758,7 +9804,7 @@
     {
       "exam_id": "dmv-fl",
       "exam_name": "Florida Driver's License Knowledge Test",
-      "exam_code": "FL",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -9768,7 +9814,9 @@
       "practice_url": "https://quizforge.ai/tests/florida-drivers-license-knowledge-test-30qdfv",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-ga",
@@ -9803,7 +9851,7 @@
     {
       "exam_id": "dmv-id",
       "exam_name": "Idaho Driver's License Knowledge Test",
-      "exam_code": "ID",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -9813,7 +9861,9 @@
       "practice_url": "https://quizforge.ai/tests/idaho-drivers-license-knowledge-test-30mpqq",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-il",
@@ -9912,7 +9962,7 @@
     {
       "exam_id": "dmv-me",
       "exam_name": "Maine Driver's License Knowledge Test",
-      "exam_code": "ME",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -9922,7 +9972,9 @@
       "practice_url": "https://quizforge.ai/tests/maine-drivers-license-knowledge-test-30fecf",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-md",
@@ -9957,7 +10009,7 @@
     {
       "exam_id": "dmv-mi",
       "exam_name": "Michigan Driver's License Knowledge Test",
-      "exam_code": "MI",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -9967,12 +10019,14 @@
       "practice_url": "https://quizforge.ai/tests/michigan-drivers-license-knowledge-test-30bqna",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-mn",
       "exam_name": "Minnesota Driver's License Knowledge Test",
-      "exam_code": "MN",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -9982,7 +10036,9 @@
       "practice_url": "https://quizforge.ai/tests/minnesota-drivers-license-knowledge-test-30aiqw",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-ms",
@@ -10002,7 +10058,7 @@
     {
       "exam_id": "dmv-mo",
       "exam_name": "Missouri Driver's License Knowledge Test",
-      "exam_code": "MO",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -10012,7 +10068,9 @@
       "practice_url": "https://quizforge.ai/tests/missouri-drivers-license-knowledge-test-3082y5",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-mt",
@@ -10064,7 +10122,7 @@
     {
       "exam_id": "dmv-nh",
       "exam_name": "New Hampshire Driver's License Knowledge Test",
-      "exam_code": "NH",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -10074,7 +10132,9 @@
       "practice_url": "https://quizforge.ai/tests/new-hampshire-drivers-license-knowledge-test-3037cl",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-nj",
@@ -10120,6 +10180,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -10190,7 +10251,7 @@
     {
       "exam_id": "dmv-or",
       "exam_name": "Oregon Driver's License Knowledge Test",
-      "exam_code": "OR",
+      "exam_code": null,
       "certifying_body": "DMV / State Driver Licensing",
       "vendor_slug": "dmv-state-driver-licensing",
       "domains": 5,
@@ -10200,7 +10261,9 @@
       "practice_url": "https://quizforge.ai/tests/oregon-drivers-license-knowledge-test-2ztg5j",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "dmv-pa",
@@ -10856,6 +10919,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T04:38:29+00:00",
+      "lifecycle_status": "current",
       "credential_type": "course_assessment",
       "examination": true
     },
@@ -11770,7 +11834,7 @@
     {
       "exam_id": "praxis-plt",
       "exam_name": "Praxis PLT (Principles of Learning and Teaching)",
-      "exam_code": "Praxis PLT",
+      "exam_code": null,
       "certifying_body": "ETS",
       "vendor_slug": "ets",
       "domains": 5,
@@ -11780,7 +11844,9 @@
       "practice_url": "https://quizforge.ai/tests/praxis-plt-principles-of-learning-and-teaching-312kfp",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "praxis-physics-content-knowledge-5265",
@@ -12214,7 +12280,9 @@
       "practice_url": "https://quizforge.ai/tests/big-ip-administration-install-initial-configuration-and-upgrade-f5cab1-practice-test-3dz65f",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:36+00:00"
+      "verified_at": "2026-09-13T09:36:36+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "f5-201",
@@ -12538,7 +12606,7 @@
     {
       "exam_id": "faa-ultralight",
       "exam_name": "FAA Recreational Pilot Knowledge Test (RPT)",
-      "exam_code": "RPT",
+      "exam_code": null,
       "certifying_body": "FAA Pilot Certification",
       "vendor_slug": "faa-pilot-certification",
       "domains": 12,
@@ -12548,7 +12616,9 @@
       "practice_url": "https://quizforge.ai/tests/faa-recreational-pilot-knowledge-test-rpt-2lcr27",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "faa-sport-pilot",
@@ -12798,7 +12868,9 @@
       "practice_url": "https://quizforge.ai/tests/municipal-fund-securities-limited-principal-exam-series-51-36tvcq",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "finra-series-53",
@@ -12880,7 +12952,9 @@
       "practice_url": "https://quizforge.ai/tests/private-securities-offerings-representative-exam-series-82-36q7nl",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "finra-series-4",
@@ -13091,6 +13165,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -13431,6 +13506,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:17:43+00:00",
+      "lifecycle_status": "current",
       "credential_type": "school_exam",
       "examination": true
     },
@@ -14226,7 +14302,7 @@
     {
       "exam_id": "google-associate-cloud-engineer",
       "exam_name": "Associate Cloud Engineer",
-      "exam_code": "ACE",
+      "exam_code": null,
       "certifying_body": "Google Cloud",
       "vendor_slug": "google-cloud",
       "domains": 4,
@@ -14236,7 +14312,9 @@
       "practice_url": "https://quizforge.ai/tests/google-associate-cloud-engineer",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-10T18:36:57+00:00"
+      "verified_at": "2026-09-10T18:36:57+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "google-cloud-digital-leader",
@@ -14410,7 +14488,7 @@
     {
       "exam_id": "google-ads-apps",
       "exam_name": "Google Ads Apps Certification",
-      "exam_code": "Google-Ads-Apps",
+      "exam_code": null,
       "certifying_body": "Google Skillshop",
       "vendor_slug": "google-skillshop",
       "domains": 4,
@@ -14420,7 +14498,9 @@
       "practice_url": "https://quizforge.ai/tests/google-ads-apps-certification-2t1k91",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "google-ads-display",
@@ -14440,7 +14520,7 @@
     {
       "exam_id": "google-ads-measurement",
       "exam_name": "Google Ads Measurement Certification",
-      "exam_code": "Google-Ads-Measurement",
+      "exam_code": null,
       "certifying_body": "Google Skillshop",
       "vendor_slug": "google-skillshop",
       "domains": 4,
@@ -14450,7 +14530,9 @@
       "practice_url": "https://quizforge.ai/tests/google-ads-measurement-certification-2t0ccn",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "google-ads-search",
@@ -14756,7 +14838,9 @@
       "practice_url": "https://quizforge.ai/tests/professional-in-human-resources-%E2%80%93-california-phrca-34k633",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "hrci-phri",
@@ -14805,6 +14889,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -14871,6 +14956,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -15805,6 +15891,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -15891,7 +15978,7 @@
     {
       "exam_id": "hubspot-social-media-marketing",
       "exam_name": "Social Media Marketing Certification",
-      "exam_code": "HubSpot-Social",
+      "exam_code": null,
       "certifying_body": "HubSpot Academy",
       "vendor_slug": "hubspot-academy",
       "domains": 5,
@@ -15901,7 +15988,9 @@
       "practice_url": "https://quizforge.ai/tests/social-media-marketing-certification-2vjstc",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "huggingface-agents-course",
@@ -15980,6 +16069,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -16019,7 +16109,7 @@
     {
       "exam_id": "cipp-a-certified-information-privacy-professional-asia",
       "exam_name": "Certified Information Privacy Professional/Asia (CIPP/A)",
-      "exam_code": "",
+      "exam_code": "CIPP/A",
       "certifying_body": "IAPP",
       "vendor_slug": "iapp",
       "domains": 5,
@@ -16029,7 +16119,9 @@
       "practice_url": "https://quizforge.ai/tests/cipp-a-certified-information-privacy-professional-asia",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:01+00:00"
+      "verified_at": "2026-09-13T23:40:01+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "asq-cssbb",
@@ -16111,6 +16203,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -16256,7 +16349,8 @@
       "practice_url": "https://quizforge.ai/tests/ibps-clerk-preliminary-examination-2w6ywm",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-08-30T20:17:49+00:00"
+      "verified_at": "2026-08-30T20:17:49+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ibps-po-mains",
@@ -17148,6 +17242,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -17275,6 +17370,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -17750,17 +17846,18 @@
     {
       "exam_id": "iosh-working-safely",
       "exam_name": "IOSH Working Safely",
-      "exam_code": "Working Safely",
+      "exam_code": null,
       "certifying_body": "IOSH",
       "vendor_slug": "iosh",
-      "domains": 5,
-      "total_questions": 20,
-      "duration_minutes": 60,
+      "domains": 0,
+      "total_questions": null,
+      "duration_minutes": null,
       "source_url": "https://iosh.com/training-and-skills/iosh-courses/working-safely/",
-      "practice_url": "https://quizforge.ai/tests/iosh-working-safely-2u70u1",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "training_program",
+      "examination": false
     },
     {
       "exam_id": "cpm-property-mgmt",
@@ -17837,7 +17934,9 @@
       "practice_url": "https://quizforge.ai/tests/isaca-certified-information-security-manager-cism",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "isaca-cisa",
@@ -17870,7 +17969,9 @@
       "practice_url": "https://quizforge.ai/tests/isaca-crisc-certified-risk-information-systems-control",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-08-30T20:17:59+00:00"
+      "verified_at": "2026-08-30T20:17:59+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "isaca-cgeit",
@@ -18066,7 +18167,7 @@
     {
       "exam_id": "ism-cpsm1",
       "exam_name": "CPSM Exam 1 — Foundation of Supply Management",
-      "exam_code": "CPSM1",
+      "exam_code": null,
       "certifying_body": "ISM",
       "vendor_slug": "ism",
       "domains": 5,
@@ -18076,7 +18177,9 @@
       "practice_url": "https://quizforge.ai/tests/cpsm-exam-1-%E2%80%94-foundation-of-supply-management-2h33q0",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-08-30T20:18:02+00:00"
+      "verified_at": "2026-08-30T20:18:02+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "ism-cpsm2",
@@ -18230,6 +18333,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -18246,7 +18350,9 @@
       "practice_url": "https://quizforge.ai/tests/istqb-certified-tester-foundation-level-ctfl",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "istqb-ctfl-at",
@@ -19114,7 +19220,9 @@
       "practice_url": "https://quizforge.ai/tests/flmi-part-1-%E2%80%94-insurance-foundations-loma-280-360lrj",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "loma-flmi-part2",
@@ -19270,7 +19378,9 @@
       "practice_url": "https://quizforge.ai/?q=Kubernetes%20and%20Cloud%20Native%20Associate%20%28KCNA%29",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "lfcs-linux-foundation-certified-sysadmin",
@@ -19304,6 +19414,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -20090,7 +20201,9 @@
       "practice_url": "https://quizforge.ai/tests/microsoft-dynamics-365-customer-service-mb-230",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-mb-240-dynamics-365-field-service",
@@ -20267,7 +20380,9 @@
       "practice_url": "https://quizforge.ai/tests/microsoft-identity-and-access-administrator-sc-300",
       "enriched": false,
       "content_modified_at": "2026-09-04",
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "microsoft-pl-500-power-automate-rpa",
@@ -21642,7 +21757,7 @@
     {
       "exam_id": "nbrc-respiratory-therapy-examination-respiratory-therapy-examination",
       "exam_name": "Respiratory Therapy Examination",
-      "exam_code": "Respiratory Therapy Examination",
+      "exam_code": null,
       "certifying_body": "NBRC",
       "vendor_slug": "nbrc",
       "domains": 5,
@@ -21652,7 +21767,9 @@
       "practice_url": "https://quizforge.ai/tests/respiratory-therapy-examination-practice-test-3ebd59",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:37+00:00"
+      "verified_at": "2026-09-13T09:36:37+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "certified-surgical-technologist-cst",
@@ -21985,7 +22102,7 @@
     {
       "exam_id": "nccco-signal-person",
       "exam_name": "NCCCO Signalperson Certification Written",
-      "exam_code": "SP",
+      "exam_code": null,
       "certifying_body": "NCCCO",
       "vendor_slug": "nccco",
       "domains": 4,
@@ -21995,7 +22112,9 @@
       "practice_url": "https://quizforge.ai/tests/nccco-signalperson-certification-written-2x7jw3",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "nccco-cct",
@@ -23068,7 +23187,7 @@
     {
       "exam_id": "nes-biology",
       "exam_name": "NES Biology",
-      "exam_code": "NES Biology",
+      "exam_code": "305",
       "certifying_body": "NES Teacher Exams",
       "vendor_slug": "nes-teacher-exams",
       "domains": 5,
@@ -23078,7 +23197,9 @@
       "practice_url": "https://quizforge.ai/tests/nes-biology-39rym0",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nes-elementary-education",
@@ -23098,7 +23219,7 @@
     {
       "exam_id": "nes-elementary",
       "exam_name": "NES Elementary Education Exam",
-      "exam_code": "NES-103",
+      "exam_code": "102/103",
       "certifying_body": "NES Teacher Exams",
       "vendor_slug": "nes-teacher-exams",
       "domains": 5,
@@ -23108,12 +23229,14 @@
       "practice_url": "https://quizforge.ai/tests/nes-elementary-education-exam-2m151v",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nes-english-language-arts",
       "exam_name": "NES English Language Arts",
-      "exam_code": "NES ELA",
+      "exam_code": "301",
       "certifying_body": "NES Teacher Exams",
       "vendor_slug": "nes-teacher-exams",
       "domains": 5,
@@ -23123,7 +23246,9 @@
       "practice_url": "https://quizforge.ai/tests/nes-english-language-arts-39t6ie",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "nes-english",
@@ -23546,7 +23671,7 @@
     {
       "exam_id": "safe-mlo-ntp",
       "exam_name": "SAFE MLO Test — National Test with Uniform State Content (NTP)",
-      "exam_code": "NTP",
+      "exam_code": null,
       "certifying_body": "NMLS",
       "vendor_slug": "nmls",
       "domains": 5,
@@ -23556,7 +23681,9 @@
       "practice_url": "https://quizforge.ai/tests/safe-mlo-test-%E2%80%94-national-test-with-uniform-state-content-ntp-2x6bzp",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "safe-mlo-state",
@@ -24395,7 +24522,9 @@
       "practice_url": "https://quizforge.ai/tests/new-relic-verified-foundation-nvf-practice-exam-3e0e1t",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:37+00:00"
+      "verified_at": "2026-09-13T09:36:37+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "cmp-cm-change-management-certified",
@@ -24657,7 +24786,7 @@
     {
       "exam_id": "okta-certified-access-gateway",
       "exam_name": "Okta Certified Access Gateway Specialist",
-      "exam_code": "OC-AccessGateway",
+      "exam_code": "OKAG1",
       "certifying_body": "Okta",
       "vendor_slug": "okta",
       "domains": 4,
@@ -24667,7 +24796,9 @@
       "practice_url": "https://quizforge.ai/tests/okta-certified-access-gateway-specialist-37s0jf",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "okta-certified-administrator",
@@ -24687,7 +24818,7 @@
     {
       "exam_id": "okta-certified-consultant",
       "exam_name": "Okta Certified Consultant",
-      "exam_code": "OCC",
+      "exam_code": "OKCON1",
       "certifying_body": "Okta",
       "vendor_slug": "okta",
       "domains": 5,
@@ -24697,7 +24828,9 @@
       "practice_url": "https://quizforge.ai/tests/okta-certified-consultant-37vo8l",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "okta-certified-developer",
@@ -24817,7 +24950,7 @@
     {
       "exam_id": "opos-cuerpo-auxiliar",
       "exam_name": "Cuerpo Auxiliar de la Administración del Estado",
-      "exam_code": "Auxiliar Admin",
+      "exam_code": null,
       "certifying_body": "Oposiciones Spain",
       "vendor_slug": "oposiciones-spain",
       "domains": 4,
@@ -24827,7 +24960,9 @@
       "practice_url": "https://quizforge.ai/tests/cuerpo-auxiliar-de-la-administraci%C3%B3n-del-estado-2ntrq5",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "recruitment_exam",
+      "examination": true
     },
     {
       "exam_id": "opos-bomberos",
@@ -25459,7 +25594,7 @@
     {
       "exam_id": "iso-50001-lead-auditor-energy-management",
       "exam_name": "ISO 50001 Lead Auditor Certification",
-      "exam_code": "",
+      "exam_code": null,
       "certifying_body": "PECB",
       "vendor_slug": "pecb",
       "domains": 7,
@@ -25469,7 +25604,9 @@
       "practice_url": "https://quizforge.ai/tests/iso-50001-lead-auditor-energy-management",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:04+00:00"
+      "verified_at": "2026-09-13T23:40:04+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "iso-9001-lead-auditor-certification",
@@ -25803,6 +25940,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -26546,7 +26684,8 @@
       "practice_url": "https://quizforge.ai/tests/apc-%E2%80%94-valuation-39wu7j",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "rics-associate-assessment",
@@ -26581,7 +26720,7 @@
     {
       "exam_id": "re-salesperson-ca",
       "exam_name": "California Real Estate Salesperson Exam",
-      "exam_code": "CA-RE-Sales",
+      "exam_code": null,
       "certifying_body": "Real Estate Licensing",
       "vendor_slug": "real-estate-licensing",
       "domains": 10,
@@ -26591,7 +26730,9 @@
       "practice_url": "https://quizforge.ai/tests/california-real-estate-salesperson-exam-2tpy8p",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "licensure_exam",
+      "examination": true
     },
     {
       "exam_id": "re-salesperson-fl",
@@ -26699,7 +26840,9 @@
       "practice_url": "https://quizforge.ai/tests/red-hat-certified-specialist-in-containers-%E2%80%93-ex188-2edjrf",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "red-hat-rhca-ex280",
@@ -26871,7 +27014,7 @@
     {
       "exam_id": "sap-c-bw4hana-27",
       "exam_name": "SAP Certified Application Associate — Reporting, Modeling and Data Acquisition with SAP BW/4HANA 2.x",
-      "exam_code": "C_BW4HANA_27",
+      "exam_code": "C_BW4H_214",
       "certifying_body": "SAP",
       "vendor_slug": "sap",
       "domains": 6,
@@ -26886,12 +27029,14 @@
       "retired_on": "",
       "replacement_exam_code": "C_BW4H",
       "replacement_relationship": "direct_replacement",
-      "replacement_url": null
+      "replacement_url": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "sap-c-ariba-2404",
       "exam_name": "SAP Certified Application Associate — SAP Ariba Procurement",
-      "exam_code": "C_ARIBA_2404",
+      "exam_code": null,
       "certifying_body": "SAP",
       "vendor_slug": "sap",
       "domains": 6,
@@ -26901,7 +27046,9 @@
       "practice_url": "https://quizforge.ai/tests/sap-certified-application-associate-%E2%80%94-sap-ariba-procurement-2iy672",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "sap-c-ibp-2205",
@@ -27242,7 +27389,9 @@
       "practice_url": "https://quizforge.ai/tests/sas-certified-specialist-base-programming",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "sas-a00-255",
@@ -27273,6 +27422,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -27307,7 +27457,9 @@
       "practice_url": "https://quizforge.ai/tests/shsat",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "admission_or_placement_test",
+      "examination": true
     },
     {
       "exam_id": "sqf-practitioner-certification",
@@ -27438,7 +27590,8 @@
       "practice_url": "https://quizforge.ai/tests/ssc-chsl",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ssc-je",
@@ -27934,7 +28087,7 @@
     {
       "exam_id": "salesforce-service-cloud-consultant",
       "exam_name": "Salesforce Certified Service Cloud Consultant",
-      "exam_code": "Service Cloud Consultant",
+      "exam_code": null,
       "certifying_body": "Salesforce",
       "vendor_slug": "salesforce",
       "domains": 8,
@@ -27944,7 +28097,9 @@
       "practice_url": "https://quizforge.ai/tests/salesforce-certified-service-cloud-consultant",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "salesforce-sharing-and-visibility-architect",
@@ -28107,7 +28262,9 @@
       "practice_url": "https://quizforge.ai/tests/safe-program-consultant-spc-3302pi",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "safe-agile-rte",
@@ -28545,6 +28702,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -29105,7 +29263,9 @@
       "practice_url": "https://quizforge.ai/tests/servicenow-certified-implementation-specialist-%E2%80%93-performance-analytics-cis-pa-2e2knz",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "servicenow-cis-procurement",
@@ -30249,7 +30409,9 @@
       "practice_url": "https://quizforge.ai/tests/snowpro-advanced-data-engineer-dea-c02-practice-test-3enk53",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:38+00:00"
+      "verified_at": "2026-09-13T09:36:38+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "snowflake-snowpro-advanced-data-engineer-dea-c01",
@@ -30321,7 +30483,9 @@
       "practice_url": "https://quizforge.ai/tests/snowpro-core-certification-cof-c03-practice-test-3el4cb",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:38+00:00"
+      "verified_at": "2026-09-13T09:36:38+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "snowflake-snowpro-core-cof-c02",
@@ -30457,13 +30621,14 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "professional_designation_by_exam",
       "examination": true
     },
     {
       "exam_id": "soa-exam-pa",
       "exam_name": "Exam PA (Predictive Analytics)",
-      "exam_code": "EXAM-PA",
+      "exam_code": "PA",
       "certifying_body": "Society of Actuaries",
       "vendor_slug": "society-of-actuaries",
       "domains": 6,
@@ -30473,7 +30638,9 @@
       "practice_url": "https://quizforge.ai/tests/soa-exam-pa",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "professional_designation_by_exam",
+      "examination": true
     },
     {
       "exam_id": "soa-exam-srm",
@@ -30549,7 +30716,7 @@
     {
       "exam_id": "splunk-core-certified-user",
       "exam_name": "Splunk Core Certified User",
-      "exam_code": "SPLK-1001",
+      "exam_code": null,
       "certifying_body": "Splunk",
       "vendor_slug": "splunk",
       "domains": 8,
@@ -30559,7 +30726,9 @@
       "practice_url": "https://quizforge.ai/tests/splunk-core-certified-user",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "splunk-enterprise-certified-admin",
@@ -30592,7 +30761,8 @@
       "practice_url": "https://quizforge.ai/tests/splunk-enterprise-certified-architect",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "splunk-enterprise-security-certified-admin",
@@ -31035,6 +31205,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -31332,7 +31503,9 @@
       "practice_url": "https://quizforge.ai/tests/togaf%C2%AE-combined-level-1-and-2-34cuot",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "open-group-togaf-foundation",
@@ -31515,6 +31688,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:22:02+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -31581,22 +31755,25 @@
       "practice_url": "https://quizforge.ai/tests/uipath-automation-developer-professional-exam-uipath-adpv1-practice-test-3eiojk",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T09:36:38+00:00"
+      "verified_at": "2026-09-13T09:36:38+00:00",
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "uipath-uiarpa",
       "exam_name": "UiPath Automation Explorer",
-      "exam_code": "UIARPA",
+      "exam_code": null,
       "certifying_body": "UiPath",
       "vendor_slug": "uipath",
-      "domains": 5,
-      "total_questions": 45,
-      "duration_minutes": 60,
+      "domains": 0,
+      "total_questions": null,
+      "duration_minutes": null,
       "source_url": "https://www.uipath.com/rpa/certification",
-      "practice_url": "https://quizforge.ai/tests/uipath-automation-explorer-38hmfh",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "training_program",
+      "examination": false
     },
     {
       "exam_id": "uipath-uiardv1",

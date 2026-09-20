@@ -1,7 +1,7 @@
 {
   "exam_id": "okta-certified-access-gateway",
   "exam_name": "Okta Certified Access Gateway Specialist",
-  "exam_code": "OC-AccessGateway",
+  "exam_code": "OKAG1",
   "certifying_body": "Okta",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certification.okta.com/page/okta-access-gateway-specialty-certification-exam-study-guide",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -100,5 +100,12 @@
     "okta certified access gateway specialist",
     "okta-certified-access-gateway"
   ],
-  "practice_url": "https://quizforge.ai/tests/okta-certified-access-gateway-specialist-37s0jf"
+  "practice_url": "https://quizforge.ai/tests/okta-certified-access-gateway-specialist-37s0jf",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:10:16Z",
+    "evidence_url": "https://certification.okta.com/path/okta-certified-access-gateway-specialty-certification-exam"
+  }
 }

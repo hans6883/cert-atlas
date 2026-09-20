@@ -1,7 +1,7 @@
 {
   "exam_id": "soa-exam-pa",
   "exam_name": "Exam PA (Predictive Analytics)",
-  "exam_code": "EXAM-PA",
+  "exam_code": "PA",
   "certifying_body": "Society of Actuaries",
   "certification_name": null,
   "version": null,
@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.soa.org/globalassets/assets/files/edu/2026/fall/syllabi/2026-10-exam-pa-syllabus.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -107,5 +107,12 @@
     "soa pa",
     "soa-exam-pa"
   ],
-  "practice_url": "https://quizforge.ai/tests/soa-exam-pa"
+  "practice_url": "https://quizforge.ai/tests/soa-exam-pa",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:36:11Z",
+    "evidence_url": "https://www.soa.org/Education/Exam-Req/edu-exam-pa-detail.aspx"
+  }
 }

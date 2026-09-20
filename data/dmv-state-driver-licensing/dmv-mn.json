@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-mn",
   "exam_name": "Minnesota Driver's License Knowledge Test",
-  "exam_code": "MN",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,12 @@
     "mn",
     "mn dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/minnesota-drivers-license-knowledge-test-30aiqw"
+  "practice_url": "https://quizforge.ai/tests/minnesota-drivers-license-knowledge-test-30aiqw",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:47:13Z",
+    "evidence_url": "https://dps.mn.gov/divisions/dvs/license-and-id/class-d-regular-dl/class-d-dl-new-resident"
+  }
 }

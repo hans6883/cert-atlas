@@ -1,7 +1,7 @@
 {
   "exam_id": "praxis-plt",
   "exam_name": "Praxis PLT (Principles of Learning and Teaching)",
-  "exam_code": "Praxis PLT",
+  "exam_code": null,
   "certifying_body": "ETS",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://praxis.ets.org/test/principles-of-learning-and-teaching-plt-prek12-5625.html",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -122,5 +122,12 @@
     "praxis plt principles of learning and teaching",
     "praxis-plt"
   ],
-  "practice_url": "https://quizforge.ai/tests/praxis-plt-principles-of-learning-and-teaching-312kfp"
+  "practice_url": "https://quizforge.ai/tests/praxis-plt-principles-of-learning-and-teaching-312kfp",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:36:11Z",
+    "evidence_url": "https://praxis.ets.org/test/principles-of-learning-and-teaching-plt-prek12-5625.html"
+  }
 }

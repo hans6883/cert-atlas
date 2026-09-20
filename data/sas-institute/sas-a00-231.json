@@ -80,7 +80,7 @@
       "weight_max": 20.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.sas.com/content/dam/SAS/documents/technical/certification/content-guide/specialist-base-programming.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -108,5 +108,12 @@
     "sas certified specialist base programming",
     "sas-a00-231"
   ],
-  "practice_url": "https://quizforge.ai/tests/sas-certified-specialist-base-programming"
+  "practice_url": "https://quizforge.ai/tests/sas-certified-specialist-base-programming",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:49Z",
+    "evidence_url": "https://www.sas.com/en_us/certification/credentials/foundation-tools/base-programming-specialist.html"
+  }
 }

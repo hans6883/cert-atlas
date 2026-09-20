@@ -1,7 +1,7 @@
 {
   "exam_id": "cipp-a-certified-information-privacy-professional-asia",
   "exam_name": "Certified Information Privacy Professional/Asia (CIPP/A)",
-  "exam_code": "",
+  "exam_code": "CIPP/A",
   "certifying_body": "IAPP",
   "version": null,
   "source_url": "https://iapp.org/certify/cippa",
@@ -192,5 +192,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:01+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:09:50Z",
+    "evidence_url": "https://iapp.org/certify/cippa"
+  },
+  "official_objectives_url": "https://iapp.org/certify/cippa"
 }

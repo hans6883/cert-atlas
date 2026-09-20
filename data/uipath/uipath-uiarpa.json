@@ -1,35 +1,11 @@
 {
   "exam_id": "uipath-uiarpa",
   "exam_name": "UiPath Automation Explorer",
-  "exam_code": "UIARPA",
+  "exam_code": null,
   "certifying_body": "UiPath",
   "certification_name": null,
   "version": null,
   "source_url": "https://www.uipath.com/rpa/certification",
-  "passing_score": null,
-  "passing_score_scale": null,
-  "total_questions": 45,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Select",
-    "Scenario-based"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 60,
-  "exam_price_usd": 0.0,
-  "exam_price_notes": null,
-  "voucher_url": null,
-  "exam_registration_url": "https://www.uipath.com/rpa/certification",
-  "testing_centers": [
-    {
-      "provider": "ExamBuilder",
-      "scheduling_url": "https://www.uipath.com/rpa/certification",
-      "notes": "Online proctored via ExamBuilder"
-    }
-  ],
-  "online_proctoring_available": true,
-  "id_requirements": "Government-issued photo ID required. Name must match exam registration exactly.",
-  "exam_rules": "Closed-book. No notes or external resources permitted. Professional-level exams include a practical component. Proctor monitors via webcam.",
   "certification_validity_years": 3,
   "renewal_required": true,
   "renewal_options": "Certifications valid for 3 years. Renew by retaking the current version of the exam.",
@@ -40,44 +16,6 @@
   "target_audience": null,
   "recommended_experience": null,
   "prerequisites": [],
-  "retake_policy": {
-    "waiting_period_days": 30,
-    "max_attempts_per_year": null,
-    "max_attempts_total": null,
-    "notes": "30-day waiting period after a failed attempt. Full exam fee required for each retake."
-  },
-  "domains": [
-    {
-      "id": "1",
-      "name": "RPA and Automation Fundamentals",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "UiPath Studio Basics",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Variables, Arguments, and Data Manipulation",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "UI Automation and Selectors",
-      "weight_percent": null,
-      "objectives": []
-    },
-    {
-      "id": "5",
-      "name": "Project Organization and Debugging",
-      "weight_percent": null,
-      "objectives": []
-    }
-  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -105,5 +43,11 @@
     "uipath explorer",
     "uipath-uiarpa"
   ],
-  "practice_url": "https://quizforge.ai/tests/uipath-automation-explorer-38hmfh"
+  "credential": {
+    "type": "training_program",
+    "label": "training programme, not an examination",
+    "examination": false,
+    "verified_at": "2026-09-20T05:09:48Z",
+    "evidence_url": "https://www.uipath.com/learning/certification"
+  }
 }

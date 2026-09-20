@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-mo",
   "exam_name": "Missouri Driver's License Knowledge Test",
-  "exam_code": "MO",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,12 @@
     "mo",
     "mo dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/missouri-drivers-license-knowledge-test-3082y5"
+  "practice_url": "https://quizforge.ai/tests/missouri-drivers-license-knowledge-test-3082y5",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:17Z",
+    "evidence_url": "https://dor.mo.gov/faq/drivers/general.php"
+  }
 }

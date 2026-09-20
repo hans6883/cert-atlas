@@ -1,7 +1,7 @@
 {
   "exam_id": "nes-biology",
   "exam_name": "NES Biology",
-  "exam_code": "NES Biology",
+  "exam_code": "305",
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
@@ -77,11 +77,18 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.west.nesinc.com/Content/Docs/NES_Framework_305.pdf",
   "official_study_resources": [],
   "aliases": [
     "nes biology",
     "nes-biology"
   ],
-  "practice_url": "https://quizforge.ai/tests/nes-biology-39rym0"
+  "practice_url": "https://quizforge.ai/tests/nes-biology-39rym0",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:09:42Z",
+    "evidence_url": "https://www.west.nesinc.com/TestView.aspx?f=HTML_FRAG/NT305_TestPage.html"
+  }
 }

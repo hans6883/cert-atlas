@@ -384,7 +384,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://start.uipath.com/rs/995-XLT-886/images/UiPath%20Certified%20Professional%20-%20Automation%20Developer%20Professional%20Exam%20Description.pdf?version=4",
+  "official_objectives_url": "https://start.uipath.com/rs/995-XLT-886/images/UiPath%20Certified%20Professional%20-%20Automation%20Developer%20Professional%20Exam%20Description.pdf",
   "official_study_resources": [],
   "aliases": [
     "uipath automation developer professional exam",
@@ -588,5 +588,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T09:36:38+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:21:23Z",
+    "evidence_url": "https://www.uipath.com/certification"
   }
 }

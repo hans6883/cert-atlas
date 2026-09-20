@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-service-cloud-consultant",
   "exam_name": "Salesforce Certified Service Cloud Consultant",
-  "exam_code": "Service Cloud Consultant",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Service Cloud Consultant",
   "version": "Exam questions align to the Summer '25 Release",
@@ -245,5 +245,12 @@
     "salesforce-service-cloud-consultant",
     "service cloud consultant"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-service-cloud-consultant"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-service-cloud-consultant",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:36:06Z",
+    "evidence_url": "https://trailhead.salesforce.com/en/credentials/agfserviceconsultant"
+  }
 }

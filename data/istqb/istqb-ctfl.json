@@ -96,7 +96,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.istqb.org/download-materials.html",
+  "official_objectives_url": "https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -126,5 +126,12 @@
     "istqb foundation level agile tester",
     "istqb-ctfl"
   ],
-  "practice_url": "https://quizforge.ai/tests/istqb-certified-tester-foundation-level-ctfl"
+  "practice_url": "https://quizforge.ai/tests/istqb-certified-tester-foundation-level-ctfl",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:21:20Z",
+    "evidence_url": "https://istqb.org/certifications/certified-tester-foundation-level/"
+  }
 }

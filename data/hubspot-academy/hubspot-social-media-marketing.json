@@ -1,7 +1,7 @@
 {
   "exam_id": "hubspot-social-media-marketing",
   "exam_name": "Social Media Marketing Certification",
-  "exam_code": "HubSpot-Social",
+  "exam_code": null,
   "certifying_body": "HubSpot Academy",
   "certification_name": null,
   "version": null,
@@ -97,5 +97,12 @@
     "hubspot-social-media-marketing",
     "social media marketing certification"
   ],
-  "practice_url": "https://quizforge.ai/tests/social-media-marketing-certification-2vjstc"
+  "practice_url": "https://quizforge.ai/tests/social-media-marketing-certification-2vjstc",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:47:11Z",
+    "evidence_url": "https://academy.hubspot.com/courses/social-media"
+  }
 }

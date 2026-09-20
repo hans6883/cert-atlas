@@ -1,7 +1,7 @@
 {
   "exam_id": "faa-ultralight",
   "exam_name": "FAA Recreational Pilot Knowledge Test (RPT)",
-  "exam_code": "RPT",
+  "exam_code": null,
   "certifying_body": "FAA Pilot Certification",
   "certification_name": null,
   "version": null,
@@ -116,7 +116,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-D",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -153,5 +153,12 @@
     "recreational pilot written",
     "rpt"
   ],
-  "practice_url": "https://quizforge.ai/tests/faa-recreational-pilot-knowledge-test-rpt-2lcr27"
+  "practice_url": "https://quizforge.ai/tests/faa-recreational-pilot-knowledge-test-rpt-2lcr27",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:47:18Z",
+    "evidence_url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-D"
+  }
 }

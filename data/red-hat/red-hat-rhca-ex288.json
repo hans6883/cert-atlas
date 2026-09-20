@@ -253,7 +253,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -273,5 +273,12 @@
     "red hat containers",
     "red-hat-rhca-ex288"
   ],
-  "practice_url": "https://quizforge.ai/tests/red-hat-certified-specialist-in-containers-%E2%80%93-ex188-2edjrf"
+  "practice_url": "https://quizforge.ai/tests/red-hat-certified-specialist-in-containers-%E2%80%93-ex188-2edjrf",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:20:38Z",
+    "evidence_url": "https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam"
+  }
 }

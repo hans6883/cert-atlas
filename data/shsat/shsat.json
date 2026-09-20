@@ -49,7 +49,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://pwsblobprd.schools.nyc/prd-pws/docs/default-source/default-document-library/nyc-guide-to-the-shsat-for-2027-admissions.pdf?sfvrsn=1eb0225c_8",
   "official_study_resources": [],
   "aliases": [
     "bronx science exam",
@@ -59,5 +59,12 @@
     "specialized high school admissions test",
     "stuyvesant exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/shsat"
+  "practice_url": "https://quizforge.ai/tests/shsat",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T05:47:23Z",
+    "evidence_url": "https://www.schools.nyc.gov/learning/testing/specialized-high-school-admissions-test"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "nes-english-language-arts",
   "exam_name": "NES English Language Arts",
-  "exam_code": "NES ELA",
+  "exam_code": "301",
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
@@ -77,12 +77,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.west.nesinc.com/Content/Docs/NES_Framework_301.pdf",
   "official_study_resources": [],
   "aliases": [
     "nes ela",
     "nes english language arts",
     "nes-english-language-arts"
   ],
-  "practice_url": "https://quizforge.ai/tests/nes-english-language-arts-39t6ie"
+  "practice_url": "https://quizforge.ai/tests/nes-english-language-arts-39t6ie",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:47:25Z",
+    "evidence_url": "https://www.west.nesinc.com/TestView.aspx?f=HTML_FRAG/NT301_TestPage.html"
+  }
 }

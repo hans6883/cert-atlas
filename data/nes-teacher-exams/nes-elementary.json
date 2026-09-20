@@ -1,7 +1,7 @@
 {
   "exam_id": "nes-elementary",
   "exam_name": "NES Elementary Education Exam",
-  "exam_code": "NES-103",
+  "exam_code": "102/103",
   "certifying_body": "NES Teacher Exams",
   "certification_name": null,
   "version": null,
@@ -75,7 +75,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nestest.com/CCISWeb/Content/Docs/NES_Profile_103.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -95,5 +95,12 @@
     "nes-103",
     "nes-elementary"
   ],
-  "practice_url": "https://quizforge.ai/tests/nes-elementary-education-exam-2m151v"
+  "practice_url": "https://quizforge.ai/tests/nes-elementary-education-exam-2m151v",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:20Z",
+    "evidence_url": "https://www.west.nesinc.com/GetInfo.aspx?f=NT102_TestPage.html&c=Test%20Information&q=What%20is%20the%20cost%20of%20the%20test?t=NT102"
+  }
 }

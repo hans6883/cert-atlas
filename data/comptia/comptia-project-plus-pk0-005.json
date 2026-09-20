@@ -247,7 +247,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://www.comptia.org/training/resources/exam-objectives/comptia-project-pk0-005-exam-objectives",
+  "official_objectives_url": "https://www.comptia.org/en-us/certifications/project/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -282,5 +282,12 @@
     "comptia-project-plus-pk0-005",
     "pk0-005"
   ],
-  "practice_url": "https://quizforge.ai/tests/comptia-project-plus-pk0-005"
+  "practice_url": "https://quizforge.ai/tests/comptia-project-plus-pk0-005",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:21:21Z",
+    "evidence_url": "https://www.comptia.org/en-us/certifications/project/"
+  }
 }

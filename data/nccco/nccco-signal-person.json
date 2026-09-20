@@ -1,7 +1,7 @@
 {
   "exam_id": "nccco-signal-person",
   "exam_name": "NCCCO Signalperson Certification Written",
-  "exam_code": "SP",
+  "exam_code": null,
   "certifying_body": "NCCCO",
   "certification_name": null,
   "version": null,
@@ -68,7 +68,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nccco.org/nccco/certifications/signalperson/written-exam/exam-outline",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -87,5 +87,12 @@
     "nccco-signal-person",
     "signal person"
   ],
-  "practice_url": "https://quizforge.ai/tests/nccco-signalperson-certification-written-2x7jw3"
+  "practice_url": "https://quizforge.ai/tests/nccco-signalperson-certification-written-2x7jw3",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:21:48Z",
+    "evidence_url": "https://www.nccco.org/nccco/certifications/signalperson"
+  }
 }

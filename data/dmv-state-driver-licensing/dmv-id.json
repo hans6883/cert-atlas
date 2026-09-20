@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-id",
   "exam_name": "Idaho Driver's License Knowledge Test",
-  "exam_code": "ID",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,12 @@
     "idaho itd knowledge test",
     "idaho permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/idaho-drivers-license-knowledge-test-30mpqq"
+  "practice_url": "https://quizforge.ai/tests/idaho-drivers-license-knowledge-test-30mpqq",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:56:20Z",
+    "evidence_url": "https://itd.idaho.gov/guide/taking-the-drivers-test/"
+  }
 }

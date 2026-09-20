@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.isaca.org/credentialing/crisc/crisc-exam-content-outline",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -246,5 +246,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:59+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:36:03Z",
+    "evidence_url": "https://www.isaca.org/credentialing/crisc/crisc-exam-content-outline"
   }
 }
