@@ -1,7 +1,7 @@
 {
   "exam_id": "ged-social-studies",
   "exam_name": "GED Social Studies",
-  "exam_code": "GED-SS",
+  "exam_code": null,
   "certifying_body": "GED Testing Service",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ged.com/about-test/test-subjects/social-studies.html",
   "official_study_resources": [],
   "aliases": [
     "ged social studies",
@@ -75,5 +75,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The GED Ready® practice test for Social Studies can help you determine if you are ready to take the actual test.\"",
     "evidence_url": "https://www.ged.com/about-test/test-subjects/social-studies.html",
     "verified_at": "2026-09-19T22:24:05+00:00"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:35:03Z",
+    "evidence_url": "https://www.ged.com/about-test/test-subjects/social-studies.html"
   }
 }

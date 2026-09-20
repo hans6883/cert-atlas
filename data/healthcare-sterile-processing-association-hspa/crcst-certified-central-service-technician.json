@@ -1,7 +1,7 @@
 {
   "exam_id": "crcst-certified-central-service-technician",
   "exam_name": "CRCST (Certified Registered Central Service Technician)",
-  "exam_code": "",
+  "exam_code": "CRCST",
   "certifying_body": "Healthcare Sterile Processing Association (HSPA)",
   "version": null,
   "source_url": "https://myhspa.org/wp-content/uploads/2023/07/CRCST_Exam_Content_Outline-1.pdf",
@@ -198,5 +198,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The current version of the test is comprised of 150 multiple choice questions\"",
     "evidence_url": "https://myhspa.org/certification/certification-overview/certified-registered-central-service-technician-crcst/",
     "verified_at": "2026-09-19T23:29:43+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:46:58Z",
+    "evidence_url": "https://myhspa.org/wp-content/uploads/2023/07/CRCST_Exam_Content_Outline-1.pdf"
+  },
+  "official_objectives_url": "https://myhspa.org/wp-content/uploads/2023/07/CRCST_Exam_Content_Outline-1.pdf"
 }

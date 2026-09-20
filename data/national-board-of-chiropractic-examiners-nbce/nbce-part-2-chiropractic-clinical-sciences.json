@@ -1,7 +1,7 @@
 {
   "exam_id": "nbce-part-2-chiropractic-clinical-sciences",
   "exam_name": "NBCE Part II Clinical Sciences Chiropractic Board Examination",
-  "exam_code": "",
+  "exam_code": "Part II",
   "certifying_body": "NBCE",
   "version": null,
   "source_url": "https://www.nbce.org/wp-content/uploads/NBCE-FINAL-Test-Plan-Part-II.pdf",
@@ -210,5 +210,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Part II is a computer-based test, covering clinical sciences.\"",
     "evidence_url": "https://www.mynbce.org/part-ii-exam/",
     "verified_at": "2026-09-20T00:34:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:18:52Z",
+    "evidence_url": "https://www.mynbce.org/part-ii-exam/"
+  },
+  "official_objectives_url": "https://www.mynbce.org/part-ii-test-plan/"
 }

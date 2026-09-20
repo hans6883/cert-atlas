@@ -1,7 +1,7 @@
 {
   "exam_id": "icc-f1-fire",
   "exam_name": "ICC F1 Fire Inspector I",
-  "exam_code": "F1",
+  "exam_code": "66",
   "certifying_body": "ICC",
   "certification_name": null,
   "version": null,
@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.iccsafe.org/wp-content/uploads/66_content.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -109,5 +109,12 @@
     "icc fire inspector",
     "icc-f1-fire"
   ],
-  "practice_url": "https://quizforge.ai/tests/icc-f1-fire"
+  "practice_url": "https://quizforge.ai/tests/icc-f1-fire",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:47:02Z",
+    "evidence_url": "https://www.iccsafe.org/products-and-services/fdm-training/"
+  }
 }

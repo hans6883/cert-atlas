@@ -1,7 +1,7 @@
 {
   "exam_id": "iso-27001-lead-implementer-certification",
   "exam_name": "ISO/IEC 27001 Lead Implementer Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "PECB",
   "version": null,
   "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-27001-lead-implementer-mc.pdf",
@@ -228,5 +228,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"After attending the training course, you can take the exam.\"",
     "evidence_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer",
     "verified_at": "2026-09-19T23:29:43+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:47:01Z",
+    "evidence_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer"
+  },
+  "official_objectives_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer"
 }

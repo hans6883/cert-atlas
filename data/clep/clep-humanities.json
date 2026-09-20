@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-humanities",
   "exam_name": "Humanities",
-  "exam_code": "HUM",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -58,7 +58,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/humanities",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -101,5 +101,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Humanities exam tests general knowledge of classical to contemporary literature, art, and music and other performing arts.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/humanities",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:46:59Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/humanities"
   }
 }

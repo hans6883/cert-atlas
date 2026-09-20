@@ -1,7 +1,7 @@
 {
   "exam_id": "acvo-veterinary-ophthalmology",
   "exam_name": "ACVO Veterinary Ophthalmology",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American College of Veterinary Ophthalmologists (ACVO)",
   "version": null,
   "source_url": "https://static1.squarespace.com/static/5eb9742dd2ae880e0ffa1abe/t/5ffc8f83abc9bd29e770d300/1742227172101/ACVO+blueprint+2020.pdf",
@@ -191,5 +191,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The exam is a multi-day process consisting of multiple written and practical components.\"",
     "evidence_url": "https://www.acvo.org/certification-1",
     "verified_at": "2026-09-20T00:34:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:18:53Z",
+    "evidence_url": "https://www.acvo.org/certification-1"
+  },
+  "official_objectives_url": "https://static1.squarespace.com/static/5eb9742dd2ae880e0ffa1abe/t/5ffc8f83abc9bd29e770d300/1742227172101/ACVO+blueprint+2020.pdf"
 }

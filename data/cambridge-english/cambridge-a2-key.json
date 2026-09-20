@@ -1,7 +1,7 @@
 {
   "exam_id": "cambridge-a2-key",
   "exam_name": "Cambridge A2 Key (KET)",
-  "exam_code": "A2K",
+  "exam_code": null,
   "certifying_body": "Cambridge English",
   "certification_name": "A2 Key for Schools and A2 Key",
   "version": null,
@@ -103,7 +103,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/key/format",
   "official_study_resources": [
     {
       "resource_type": "exam_preparation",
@@ -125,5 +125,12 @@
     "cambridge-a2-key",
     "ket"
   ],
-  "practice_url": "https://quizforge.ai/tests/cambridge-a2-key"
+  "practice_url": "https://quizforge.ai/tests/cambridge-a2-key",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T01:08:43Z",
+    "evidence_url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/key"
+  }
 }

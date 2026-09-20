@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-college-composition",
   "exam_name": "College Composition",
-  "exam_code": "COMP",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -254,7 +254,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/college-composition",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -342,5 +342,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The College Composition exam covers material usually taught in a one-semester college course in composition and features essays graded by the College Board.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/college-composition",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:46:57Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/college-composition"
   }
 }

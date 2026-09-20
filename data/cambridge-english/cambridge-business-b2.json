@@ -1,7 +1,7 @@
 {
   "exam_id": "cambridge-business-b2",
   "exam_name": "Cambridge B2 Business Vantage (BEC Vantage)",
-  "exam_code": "BEC-V",
+  "exam_code": null,
   "certifying_body": "Cambridge English",
   "certification_name": null,
   "version": null,
@@ -65,5 +65,12 @@
     "cambridge bec",
     "cambridge-business-b2"
   ],
-  "practice_url": "https://quizforge.ai/tests/cambridge-business-b2"
+  "practice_url": "https://quizforge.ai/tests/cambridge-business-b2",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:35:20Z",
+    "evidence_url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/business"
+  }
 }

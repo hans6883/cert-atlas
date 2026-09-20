@@ -1,7 +1,7 @@
 {
   "exam_id": "texes-content-math",
   "exam_name": "TExES Mathematics 7-12 (235)",
-  "exam_code": "TExES-Math",
+  "exam_code": "235",
   "certifying_body": "State Teacher Certification",
   "certification_name": null,
   "version": null,
@@ -94,7 +94,7 @@
       "weight_max": 10.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.tx.nesinc.com/TestView.aspx?f=HTML_FRAG/TX235_PrepMaterials.html",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -129,5 +129,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Test appointments are available on a first-come, first-served basis.\"",
     "evidence_url": "https://www.tx.nesinc.com/TestView.aspx?f=HTML_FRAG/TX235_TestPage.html",
     "verified_at": "2026-09-19T22:24:05+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:35:02Z",
+    "evidence_url": "https://www.tx.nesinc.com/TestView.aspx?f=HTML_FRAG/TX235_TestPage.html"
   }
 }

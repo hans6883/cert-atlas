@@ -108,7 +108,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -134,5 +134,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The performance-based Red Hat Certified System Administrator (RHCSA) exam (EX200) tests your knowledge in areas of system administration common across a wide range of environments and deployment scenarios.\"",
     "evidence_url": "https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:46:44Z",
+    "evidence_url": "https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam"
   }
 }

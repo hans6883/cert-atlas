@@ -1,7 +1,7 @@
 {
   "exam_id": "nicsec-cosmetology-theory-examination",
   "exam_name": "NIC Cosmetology Theory State Board Examination",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "National-Interstate Council of State Boards of Cosmetology (NIC)",
   "version": null,
   "source_url": "https://nictesting.org/wp-content/uploads/formidable/3/NIC_Cosmetology-Theory_ENG_CIB_Eff.-7.1.2022-1.pdf",
@@ -179,5 +179,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"NIC offers national Theory, Practical and Written Practical examinations for cosmetology and related fields that are standardized, valid and legally defensible using psychometric principles.\"",
     "evidence_url": "https://nictesting.org/nic-exam-types/",
     "verified_at": "2026-09-19T23:29:42Z"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:08:42Z",
+    "evidence_url": "https://nictesting.org/nic-exam-types/"
+  },
+  "official_objectives_url": "https://nictesting.org/wp-content/uploads/formidable/3/NIC_CIB_Theory_Cos_5.2016_12.31.15-1.pdf"
 }

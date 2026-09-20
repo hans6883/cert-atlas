@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-principles-of-microeconomics",
   "exam_name": "Principles of Microeconomics",
-  "exam_code": "MICECON",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/principles-microeconomics",
   "official_study_resources": [],
   "aliases": [
     "clep microeconomics",
@@ -70,5 +70,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Principles of Microeconomics exam covers economic principles applying to individual consumers and businesses.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/principles-microeconomics",
     "verified_at": "2026-09-20T00:34:00+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T01:19:09Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/principles-microeconomics"
   }
 }

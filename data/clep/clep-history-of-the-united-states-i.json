@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-history-of-the-united-states-i",
   "exam_name": "History of the United States I",
-  "exam_code": "USHI",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -67,7 +67,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/history-of-the-us-1",
   "official_study_resources": [],
   "aliases": [
     "clep history of the united states i",
@@ -83,5 +83,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The History of the United States I exam covers U.S. history from early European colonization to the end of Reconstruction.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/history-of-the-us-1",
     "verified_at": "2026-09-19T23:29:42Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T01:08:24Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/history-of-the-us-1"
   }
 }

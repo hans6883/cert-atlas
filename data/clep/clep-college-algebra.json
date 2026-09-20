@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-college-algebra",
   "exam_name": "College Algebra",
-  "exam_code": "COLALG",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -163,7 +163,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/college-algebra",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -182,5 +182,18 @@
     "college algebra",
     "college algebra clep"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-college-algebra"
+  "practice_url": "https://quizforge.ai/tests/clep-college-algebra",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-19: \"The College Algebra exam covers material usually taught in a one-semester college course in algebra.\"",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/college-algebra",
+    "verified_at": "2026-09-20T01:37:14+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T01:20:23Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/college-algebra"
+  }
 }

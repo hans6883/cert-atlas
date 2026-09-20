@@ -1,7 +1,7 @@
 {
   "exam_id": "cscmp-supply-chain",
   "exam_name": "CSCMP SCPro Level 1",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "CSCMP (Council of Supply Chain Management Professionals)",
   "version": null,
   "source_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx",
@@ -247,5 +247,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"SCPro™ Level One: Cornerstones of Supply Chain Management is the only industry certification that tests your knowledge of the entire supply chain through one comprehensive exam.\"",
     "evidence_url": "https://cscmp.org/CSCMP/Certify/SCPro__Level_One.aspx",
     "verified_at": "2026-09-20T00:34:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:08:45Z",
+    "evidence_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx"
+  },
+  "official_objectives_url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro__Level_One.aspx"
 }

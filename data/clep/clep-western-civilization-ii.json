@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-western-civilization-ii",
   "exam_name": "Western Civilization II",
-  "exam_code": "WSTCIV2",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/western-civilization-2",
   "official_study_resources": [],
   "aliases": [
     "clep western civilization ii",
@@ -94,5 +94,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Western Civilization II exam covers European history from the mid-17th century through the post-Second World War period.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/western-civilization-2",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:47:03Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/western-civilization-2"
   }
 }

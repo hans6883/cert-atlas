@@ -1,7 +1,7 @@
 {
   "exam_id": "aswb-masters",
   "exam_name": "ASWB Master's Examination (MSW Licensing)",
-  "exam_code": "ASWB-MSW",
+  "exam_code": null,
   "certifying_body": "ASWB",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "weight_max": 25.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aswb.org/exam/",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -112,5 +112,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Associate, Bachelors, or Masters exam: US$230\"",
     "evidence_url": "https://www.aswb.org/exam/",
     "verified_at": "2026-09-19T23:29:42Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:08:24Z",
+    "evidence_url": "https://www.aswb.org/students/"
   }
 }

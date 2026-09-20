@@ -1,7 +1,7 @@
 {
   "exam_id": "mendix-rapid-developer",
   "exam_name": "Mendix Rapid Developer Certification",
-  "exam_code": "MRD",
+  "exam_code": null,
   "certifying_body": "Mendix",
   "certification_name": null,
   "version": null,
@@ -100,5 +100,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"For free certification, as is the case with the Rapid Developer Certification, you just need to agree to the terms.\"",
     "evidence_url": "https://docs.mendix.com/academy/purchasing-exams/",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:46:43Z",
+    "evidence_url": "https://docs.mendix.com/developerportal/digital-execution/start-program/"
   }
 }

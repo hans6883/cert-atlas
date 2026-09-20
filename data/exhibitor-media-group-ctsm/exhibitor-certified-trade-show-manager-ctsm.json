@@ -1,7 +1,7 @@
 {
   "exam_id": "exhibitor-certified-trade-show-manager-ctsm",
   "exam_name": "CTSM - Certified Trade Show Manager",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Exhibitor Media Group (CTSM)",
   "version": null,
   "source_url": "https://www.exhibitoronline.com/ctsm/",
@@ -227,5 +227,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Upon completion of the coursework, candidates take a comprehensive exam and write an applied learning portfolio.\"",
     "evidence_url": "https://www.exhibitoronline.com/ctsm/",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:46:56Z",
+    "evidence_url": "https://www.exhibitoronline.com/ctsm/program.asp"
   }
 }

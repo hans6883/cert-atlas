@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-heres-to-your-health",
   "exam_name": "Here's to Your Health",
-  "exam_code": "HLTH",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Health-Human-Development-Fact-Sheet-1.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes health",
@@ -258,5 +258,12 @@
     "summary": "DSST retired HLTH. Health & Human Development is the direct replacement path.",
     "evidence_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/TechnicalDataSheet.pdf",
     "verified_at": "2026-08-29T05:37:22+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T00:46:31Z",
+    "evidence_url": "https://getcollegecredit.com/exam/health-human-development/"
   }
 }

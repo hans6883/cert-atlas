@@ -1,7 +1,7 @@
 {
   "exam_id": "ncea-level-2-advanced-esthetics-certification",
   "exam_name": "NCEA Level 2 Advanced Esthetics Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "National Coalition of Estheticians (NCEA)",
   "version": null,
   "source_url": "https://nceacertified.org/ncea-national-esthetician-certification-candidate-information-bulletin/",
@@ -174,5 +174,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:03+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:19:49Z",
+    "evidence_url": "https://nceacertified.org/ncea-national-esthetician-certification-candidate-information-bulletin/"
+  },
+  "official_objectives_url": "https://nceacertified.org/ncea-national-esthetician-certification-candidate-information-bulletin/"
 }

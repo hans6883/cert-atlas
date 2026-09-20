@@ -1,7 +1,7 @@
 {
   "exam_id": "fcc-gmdss",
   "exam_name": "FCC GMDSS Radio Operator License",
-  "exam_code": "",
+  "exam_code": "Element 7",
   "certifying_body": "Federal Communications Commission (FCC)",
   "version": null,
   "source_url": "https://docs.fcc.gov/public/attachments/DA-21-659A1_Rcd.pdf",
@@ -140,5 +140,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"GMDSS radio operating procedures and practices sufficient to show detailed practical knowledge of the operation of all GMDSS sub-systems and equipment.\"",
     "evidence_url": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/commercial-radio-operator-license-program/examinations",
     "verified_at": "2026-09-20T00:34:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:19:36Z",
+    "evidence_url": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/commercial-radio-operator-license-program/examinations"
+  },
+  "official_objectives_url": "https://www.fcc.gov/sites/default/files/question_pool_7_0.pdf"
 }

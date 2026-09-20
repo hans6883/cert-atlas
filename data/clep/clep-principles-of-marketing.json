@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-principles-of-marketing",
   "exam_name": "Principles of Marketing",
-  "exam_code": "MKT",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/principles-marketing",
   "official_study_resources": [],
   "aliases": [
     "clep marketing",
@@ -76,5 +76,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Principles of Marketing exam covers consumer and organizational markets, marketing strategy, and the marketing mix.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/principles-marketing",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T01:07:25Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/principles-marketing"
   }
 }

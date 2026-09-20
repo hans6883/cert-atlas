@@ -1,7 +1,7 @@
 {
   "exam_id": "abcn-neuropsychology",
   "exam_name": "ABCN Neuropsychology Board Certification",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Professional Psychology (ABPP)",
   "version": null,
   "source_url": "https://abpp.org/wp-content/uploads/2022/10/ABCN-Manual.pdf",
@@ -193,5 +193,13 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The examination is administered electronically at PearsonVUE testing centers during two-week windows, four times per year.\"",
     "evidence_url": "https://abpp.org/application-information/learn-about-specialty-boards/clinical-neuropsychology/faqs/",
     "verified_at": "2026-09-20T00:34:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:18:55Z",
+    "evidence_url": "https://abpp.org/application-information/learn-about-specialty-boards/clinical-neuropsychology/faqs/"
+  },
+  "official_objectives_url": "https://abpp.org/wp-content/uploads/2022/10/ABCN-Manual.pdf"
 }

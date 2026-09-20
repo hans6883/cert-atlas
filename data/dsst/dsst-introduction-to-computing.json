@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-introduction-to-computing",
   "exam_name": "Introduction to Computing",
-  "exam_code": "INTRCOMP",
+  "exam_code": "SP536",
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Computing-Information-Technology-Fact-Sheet.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes introduction to computing",
@@ -96,5 +96,12 @@
     "summary": "DSST retired INTRCOMP. COMIT is the named replacement path.",
     "evidence_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/TechnicalDataSheet.pdf",
     "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T01:18:55Z",
+    "evidence_url": "https://getcollegecredit.com/exam/computing-and-information-technology/"
   }
 }

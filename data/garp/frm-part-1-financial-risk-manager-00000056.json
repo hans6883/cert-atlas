@@ -1,7 +1,7 @@
 {
   "exam_id": "frm-part-1-financial-risk-manager-00000056",
   "exam_name": "FRM Part 1 - Financial Risk Manager",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "GARP",
   "version": null,
   "source_url": "https://www.garp.org/landing/frm-learning-objectives",
@@ -171,5 +171,19 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
-  }
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-19: \"Standard registration for the November 2026 FRM Exam is now open.\"",
+    "evidence_url": "https://www.garp.org/frm",
+    "verified_at": "2026-09-20T01:37:14+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:20:23Z",
+    "evidence_url": "https://www.garp.org/frm"
+  },
+  "official_objectives_url": "https://www.garp.org/landing/frm-learning-objectives"
 }

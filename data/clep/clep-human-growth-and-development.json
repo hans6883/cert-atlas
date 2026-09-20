@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-human-growth-and-development",
   "exam_name": "Human Growth and Development",
-  "exam_code": "HUMD",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -67,7 +67,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/human-growth-development",
   "official_study_resources": [],
   "aliases": [
     "clep human growth and development",
@@ -82,5 +82,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The Human Growth and Development exam covers theories and research related to physical, cognitive, and social development.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/human-growth-development",
     "verified_at": "2026-09-19T23:29:42Z"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T01:08:41Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/human-growth-development"
   }
 }

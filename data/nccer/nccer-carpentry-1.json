@@ -1,7 +1,7 @@
 {
   "exam_id": "nccer-carpentry-1",
   "exam_name": "NCCER Carpentry Level 1",
-  "exam_code": "NCCER-CARP1",
+  "exam_code": null,
   "certifying_body": "NCCER",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nccer.org/media/2024/03/Carpentry-6e_Level-1_INSTRUCTORS_Level-Test_Spec-Sheet.pdf",
   "official_study_resources": [],
   "aliases": [
     "nccer carpentry",
@@ -81,5 +81,12 @@
     "nccer-carp1",
     "nccer-carpentry-1"
   ],
-  "practice_url": "https://quizforge.ai/tests/nccer-carpentry"
+  "practice_url": "https://quizforge.ai/tests/nccer-carpentry",
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T01:19:50Z",
+    "evidence_url": "https://www.nccer.org/nccer-level-tests/"
+  }
 }

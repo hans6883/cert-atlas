@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-german-language-level-1",
   "exam_name": "German Language, Level 1",
-  "exam_code": "GER1",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -58,7 +58,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep/pdf/german-language-fact-sheet.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -137,5 +137,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The German Language exam is designed to measure knowledge and ability equivalent to that of students who have completed two to three semesters of college German language study.\"",
     "evidence_url": "https://clep.collegeboard.org/clep-exams/german-language",
     "verified_at": "2026-09-19T23:29:43+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T01:07:25Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/german-language"
   }
 }

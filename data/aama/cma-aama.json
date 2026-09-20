@@ -1,7 +1,7 @@
 {
   "exam_id": "cma-aama",
   "exam_name": "CMA (AAMA) Exam — Certified Medical Assistant",
-  "exam_code": "CMA",
+  "exam_code": "CMA (AAMA)",
   "certifying_body": "AAMA",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aama-ntl.org/docs/default-source/about-profession-and-credential/cma-exam/exam-content-outline-effective.pdf?sfvrsn=fda088ec_2",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -105,5 +105,18 @@
     "cma-aama",
     "medical assistant certification"
   ],
-  "practice_url": "https://quizforge.ai/tests/cma-certified-medical-assistant-aama-00000051"
+  "practice_url": "https://quizforge.ai/tests/cma-certified-medical-assistant-aama-00000051",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-19: \"A total of 4,171 CMA (AAMA) Certification Exams were administered from July 2024 to April 2025.\"",
+    "evidence_url": "https://www.aama-ntl.org/certification",
+    "verified_at": "2026-09-20T01:37:14+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T01:20:22Z",
+    "evidence_url": "https://www.aama-ntl.org/certification"
+  }
 }

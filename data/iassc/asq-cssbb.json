@@ -122,7 +122,7 @@
       "weight_max": 4.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.asq.org/cert/resource/pdf/certification/cssbb-cert-insert.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -160,5 +160,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"The CSSBB examination is a one-part, 165-question exam, and is offered in English only.\"",
     "evidence_url": "https://www.asq.org/cert/six-sigma-black-belt",
     "verified_at": "2026-09-19T22:24:05+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T00:35:15Z",
+    "evidence_url": "https://asq.org/cert/six-sigma-black-belt"
   }
 }
