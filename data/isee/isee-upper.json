@@ -1,7 +1,7 @@
 {
   "exam_id": "isee-upper",
   "exam_name": "ISEE Upper Level",
-  "exam_code": "ISEE-U",
+  "exam_code": null,
   "certifying_body": "ISEE",
   "certification_name": null,
   "version": null,
@@ -70,5 +70,12 @@
     "isee-u",
     "isee-upper"
   ],
-  "practice_url": "https://quizforge.ai/tests/isee-upper"
+  "practice_url": "https://quizforge.ai/tests/isee-upper",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:13Z",
+    "evidence_url": "https://www.erblearn.org/families/isee-by-erb/isee-admission-by-e3n/"
+  }
 }

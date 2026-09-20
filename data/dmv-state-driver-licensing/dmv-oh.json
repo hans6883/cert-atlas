@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-oh",
   "exam_name": "Ohio Driver's License Knowledge Test",
-  "exam_code": "OH",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -105,5 +105,12 @@
     "ohio driver s license test",
     "ohio permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/ohio-drivers-license-knowledge-test-2zvvyb"
+  "practice_url": "https://quizforge.ai/tests/ohio-drivers-license-knowledge-test-2zvvyb",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:15Z",
+    "evidence_url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+  }
 }

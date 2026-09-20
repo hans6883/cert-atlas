@@ -1,7 +1,7 @@
 {
   "exam_id": "nccco-rigger-ii",
   "exam_name": "NCCCO Rigger Level II Written",
-  "exam_code": "Rigger-II",
+  "exam_code": null,
   "certifying_body": "NCCCO",
   "certification_name": null,
   "version": null,
@@ -80,7 +80,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nccco.org/nccco/certifications/rigger/written-exam/level-ii-exam-outline",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -100,5 +100,12 @@
     "rigger level ii",
     "rigger-ii"
   ],
-  "practice_url": "https://quizforge.ai/tests/nccco-rigger-level-ii-written-2x8rsh"
+  "practice_url": "https://quizforge.ai/tests/nccco-rigger-level-ii-written-2x8rsh",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:48:30Z",
+    "evidence_url": "https://www.nccco.org/nccco/certifications/rigger"
+  }
 }

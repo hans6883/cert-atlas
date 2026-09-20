@@ -1,7 +1,7 @@
 {
   "exam_id": "nebosh-process-safety",
   "exam_name": "NEBOSH Certificate in Process Safety Management",
-  "exam_code": "PSM Certificate",
+  "exam_code": "PSM1",
   "certifying_body": "NEBOSH",
   "certification_name": null,
   "version": null,
@@ -90,7 +90,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nebosh.org.uk/documents/nebosh-hse-process-safety-management-learner-syllabus-guide/psm-learner-guide-v1.2.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -107,5 +107,12 @@
     "nebosh-process-safety",
     "psm certificate"
   ],
-  "practice_url": "https://quizforge.ai/tests/nebosh-certificate-in-process-safety-management-2u9gmt"
+  "practice_url": "https://quizforge.ai/tests/nebosh-certificate-in-process-safety-management-2u9gmt",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:12:59Z",
+    "evidence_url": "https://www.nebosh.org.uk/psm"
+  }
 }

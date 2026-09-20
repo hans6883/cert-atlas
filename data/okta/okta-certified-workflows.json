@@ -1,7 +1,7 @@
 {
   "exam_id": "okta-certified-workflows",
   "exam_name": "Okta Certified Workflows",
-  "exam_code": "OC-Workflows",
+  "exam_code": "OKWF1",
   "certifying_body": "Okta",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certification.okta.com/page/workflowscertexamstudyguide",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -99,5 +99,12 @@
     "okta workflows",
     "okta-certified-workflows"
   ],
-  "practice_url": "https://quizforge.ai/tests/okta-certified-workflows-37t8ft"
+  "practice_url": "https://quizforge.ai/tests/okta-certified-workflows-37t8ft",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:13Z",
+    "evidence_url": "https://certification.okta.com/okwf1-okta-certified-workflows-specialty-certification-exam"
+  }
 }

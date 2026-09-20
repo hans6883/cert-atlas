@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-ky",
   "exam_name": "Kentucky Driver's License Knowledge Test",
-  "exam_code": "KY",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -104,5 +104,12 @@
     "ky",
     "ky dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/kentucky-drivers-license-knowledge-test-30hu57"
+  "practice_url": "https://quizforge.ai/tests/kentucky-drivers-license-knowledge-test-30hu57",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:02:30Z",
+    "evidence_url": "https://drive.ky.gov/Drivers/Pages/Over-21.aspx"
+  }
 }

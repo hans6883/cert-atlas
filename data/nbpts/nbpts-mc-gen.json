@@ -1,7 +1,7 @@
 {
   "exam_id": "nbpts-mc-gen",
   "exam_name": "NBCT — Middle Childhood Generalist (MC/Generalist)",
-  "exam_code": "MC/Generalist",
+  "exam_code": null,
   "certifying_body": "NBPTS",
   "certification_name": null,
   "version": null,
@@ -89,7 +89,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nbpts.org/wp-content/uploads/2017/09/MC-GEN.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -109,5 +109,12 @@
     "nbct middle childhood generalist mc generalist",
     "nbpts-mc-gen"
   ],
-  "practice_url": "https://quizforge.ai/tests/nbct-%E2%80%94-middle-childhood-generalist-mc-generalist-33ogp5"
+  "practice_url": "https://quizforge.ai/tests/nbct-%E2%80%94-middle-childhood-generalist-mc-generalist-33ogp5",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:20Z",
+    "evidence_url": "https://www.nbpts.org/wp-content/uploads/2019/04/Choosing_the_Right_Certificate.pdf"
+  }
 }

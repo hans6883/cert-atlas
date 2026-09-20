@@ -1,7 +1,7 @@
 {
   "exam_id": "servicenow-cis-legal",
   "exam_name": "ServiceNow Certified Implementation Specialist – Legal Service Delivery (CIS-Legal)",
-  "exam_code": "CIS-Legal",
+  "exam_code": null,
   "certifying_body": "ServiceNow",
   "certification_name": null,
   "version": null,
@@ -71,7 +71,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learning.servicenow.com/lxp/en/credentials/legal-service-delivery-lsd-accreditation-exam-blueprint?id=kb_article_view&sysparm_article=KB0011665",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -189,5 +189,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:19:06+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:49:41Z",
+    "evidence_url": "https://learning.servicenow.com/lxp?achievement_id=d3af9ffa47fa5114abe089c2e36d4367&id=amap_detail"
   }
 }

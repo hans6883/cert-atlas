@@ -1,7 +1,7 @@
 {
   "exam_id": "servicenow-micro-atf",
   "exam_name": "ServiceNow Micro-Certification – Automated Test Framework (ATF)",
-  "exam_code": "Micro-ATF",
+  "exam_code": null,
   "certifying_body": "ServiceNow",
   "certification_name": null,
   "version": null,
@@ -107,7 +107,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=1531c42a9785ced06eedb30e6253af16",
+  "official_objectives_url": "https://learning.servicenow.com/lxp/en/credentials/micro-certification-blueprint-automated-test-framework?id=kb_article_view&sysparm_article=KB0011794",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -130,5 +130,12 @@
     "servicenow micro-certification automated test framework atf",
     "servicenow-micro-atf"
   ],
-  "practice_url": "https://quizforge.ai/tests/servicenow-micro-certification-%E2%80%93-automated-test-framework-atf-394siq"
+  "practice_url": "https://quizforge.ai/tests/servicenow-micro-certification-%E2%80%93-automated-test-framework-atf-394siq",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:49:27Z",
+    "evidence_url": "https://learning.servicenow.com/lxp/en/now-platform/automated-test-framework-atf-micro-certification-assessment?id=learning_path_prev&path_id=e22631dddbdef300760a71043996191f"
+  }
 }

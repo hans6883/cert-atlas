@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://scaledagile.com/certification/safe-practitioner/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -104,5 +104,12 @@
     "safe-agile-sp",
     "sp"
   ],
-  "practice_url": "https://quizforge.ai/tests/safe-agile-sp"
+  "practice_url": "https://quizforge.ai/tests/safe-agile-sp",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:10Z",
+    "evidence_url": "https://scaledagile.com/certification/safe-practitioner/"
+  }
 }

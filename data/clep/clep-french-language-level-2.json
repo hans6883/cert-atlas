@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-french-language-level-2",
   "exam_name": "French Language, Level 2",
-  "exam_code": "FREN2",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -93,7 +93,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/french-language",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -166,5 +166,12 @@
     "fren2",
     "french language level 2"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-french-language-level-2"
+  "practice_url": "https://quizforge.ai/tests/clep-french-language-level-2",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T04:01:36Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/french-language"
+  }
 }

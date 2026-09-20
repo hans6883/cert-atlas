@@ -1,7 +1,7 @@
 {
   "exam_id": "hsk-2",
   "exam_name": "HSK Level 2 (二级)",
-  "exam_code": "HSK 2",
+  "exam_code": null,
   "certifying_body": "HSK",
   "certification_name": null,
   "version": null,
@@ -62,7 +62,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.chinesetest.cn/HSK/2",
   "official_study_resources": [
     {
       "resource_type": "syllabus",
@@ -88,5 +88,12 @@
     "hsk level 2 二级",
     "hsk-2"
   ],
-  "practice_url": "https://quizforge.ai/tests/hsk-level-2-%E4%BA%8C%E7%BA%A7-2orwwu"
+  "practice_url": "https://quizforge.ai/tests/hsk-level-2-%E4%BA%8C%E7%BA%A7-2orwwu",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:48:33Z",
+    "evidence_url": "https://www.chinesetest.cn/HSK/2"
+  }
 }

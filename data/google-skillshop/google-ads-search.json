@@ -1,7 +1,7 @@
 {
   "exam_id": "google-ads-search",
   "exam_name": "Google Ads Search Certification",
-  "exam_code": "Google-Ads-Search",
+  "exam_code": null,
   "certifying_body": "Google Skillshop",
   "certification_name": "Google Ads Search Certification",
   "version": null,
@@ -96,5 +96,12 @@
     "google ads search certification",
     "google-ads-search"
   ],
-  "practice_url": "https://quizforge.ai/tests/google-ads-search-certification"
+  "practice_url": "https://quizforge.ai/tests/google-ads-search-certification",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:13:13Z",
+    "evidence_url": "https://skillshop.withgoogle.com/googleads"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ged-science",
   "exam_name": "GED Science",
-  "exam_code": "GED-SCI",
+  "exam_code": null,
   "certifying_body": "GED Testing Service",
   "certification_name": null,
   "version": null,
@@ -55,12 +55,19 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ged.com/about_test/test_subjects/science/",
   "official_study_resources": [],
   "aliases": [
     "ged science",
     "ged-sci",
     "ged-science"
   ],
-  "practice_url": "https://quizforge.ai/tests/ged-science"
+  "practice_url": "https://quizforge.ai/tests/ged-science",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:47Z",
+    "evidence_url": "https://ged.com/about_test/test_subjects/science/"
+  }
 }

@@ -288,5 +288,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T09:36:37+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:01:22Z",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-cloud-developer-associate/"
   }
 }

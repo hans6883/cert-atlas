@@ -1,7 +1,7 @@
 {
   "exam_id": "accuplacer-esl-reading",
   "exam_name": "ACCUPLACER ESL Reading",
-  "exam_code": "ESL-READ",
+  "exam_code": null,
   "certifying_body": "ACCUPLACER",
   "certification_name": null,
   "version": null,
@@ -109,7 +109,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://accuplacer.collegeboard.org/accuplacer/pdf/esl-test-descriptions.pdf",
   "official_study_resources": [],
   "aliases": [
     "accuplacer esl reading",
@@ -118,5 +118,12 @@
     "esl reading",
     "esl-read"
   ],
-  "practice_url": "https://quizforge.ai/tests/accuplacer-esl-reading"
+  "practice_url": "https://quizforge.ai/tests/accuplacer-esl-reading",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:33Z",
+    "evidence_url": "https://accuplacer.collegeboard.org/educators/whats-on-tests"
+  }
 }

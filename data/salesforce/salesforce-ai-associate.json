@@ -1,34 +1,11 @@
 {
   "exam_id": "salesforce-ai-associate",
   "exam_name": "Salesforce Certified AI Associate",
-  "exam_code": "AI Associate",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce AI Associate",
   "version": "Spring '24 release",
   "source_url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-AI-Associate-Exam-Guide",
-  "passing_score": 65,
-  "passing_score_scale": "Percentage",
-  "total_questions": 60,
-  "question_types": [
-    "Multiple Choice",
-    "Multiple Select"
-  ],
-  "exam_format": "Linear",
-  "duration_minutes": 105,
-  "exam_price_usd": 75.0,
-  "exam_price_notes": "Entry-level credential. Retake fee $75.",
-  "voucher_url": null,
-  "exam_registration_url": "https://www.webassessor.com/salesforce",
-  "testing_centers": [
-    {
-      "provider": "Kryterion / Webassessor",
-      "scheduling_url": "https://www.webassessor.com/salesforce",
-      "notes": "In-person and online proctored via Kryterion Webassessor"
-    }
-  ],
-  "online_proctoring_available": true,
-  "id_requirements": "One valid, government-issued photo ID. Name must match Webassessor registration exactly.",
-  "exam_rules": "Closed-book. No notes or reference materials. No access to Salesforce org. Proctor monitors via webcam.",
   "certification_validity_years": null,
   "renewal_required": true,
   "renewal_options": "Salesforce releases three major updates per year. For each release, certified professionals must complete a free maintenance module on Trailhead to retain their certification. No cost for maintenance.",
@@ -44,62 +21,6 @@
   "target_audience": "Individuals from all backgrounds, including business leaders and professionals who may have knowledge of AI, whether they are beginners or individuals with more experience.",
   "recommended_experience": "Foundational knowledge of Salesforce's core capabilities and the ability to navigate Salesforce.",
   "prerequisites": [],
-  "retake_policy": {
-    "waiting_period_days": 1,
-    "max_attempts_per_year": null,
-    "max_attempts_total": null,
-    "notes": "Retake available after scheduling (no mandatory waiting period for first retake). Retake fee ~$100 for most exams."
-  },
-  "domains": [
-    {
-      "id": "AI Fundamentals",
-      "name": "AI Fundamentals",
-      "weight_percent": 17.0,
-      "objectives": [
-        {
-          "id": "AI Fundamentals",
-          "title": "Explain the basic principles and applications of AI within Salesforce. Differentiate between the types of AI and their capabilities.",
-          "sub_objectives": []
-        }
-      ]
-    },
-    {
-      "id": "AI Capabilities in CRM",
-      "name": "AI Capabilities in CRM",
-      "weight_percent": 8.0,
-      "objectives": [
-        {
-          "id": "AI Capabilities in CRM",
-          "title": "Identify CRM AI capabilities. Describe the benefits of AI as they apply to CRM.",
-          "sub_objectives": []
-        }
-      ]
-    },
-    {
-      "id": "Ethical Considerations of AI",
-      "name": "Ethical Considerations of AI",
-      "weight_percent": 39.0,
-      "objectives": [
-        {
-          "id": "Ethical Considerations of AI",
-          "title": "Describe the ethical challenges of AI (for example, human bias in machine learning, lack of transparency, etc.). Apply Salesforce's Trusted AI Principles to given scenarios.",
-          "sub_objectives": []
-        }
-      ]
-    },
-    {
-      "id": "Data for AI",
-      "name": "Data for AI",
-      "weight_percent": 36.0,
-      "objectives": [
-        {
-          "id": "Data for AI",
-          "title": "Describe the importance of data quality. Describe the elements/components of data quality.",
-          "sub_objectives": []
-        }
-      ]
-    }
-  ],
   "official_objectives_url": null,
   "official_study_resources": [
     {
@@ -127,12 +48,18 @@
     "salesforce certified ai associate",
     "salesforce-ai-associate"
   ],
-  "practice_url": null,
   "lifecycle": {
     "status": "retired",
     "retired_on": "2026-02-02",
     "summary": "Salesforce retired AI ASSOCIATE on 2026-02-02. AI Specialist is the named replacement path.",
     "evidence_url": "https://help.salesforce.com/s/articleView?id=005298766&language=en_US&type=1",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "other",
+    "label": "other",
+    "examination": false,
+    "verified_at": "2026-09-20T04:13:13Z",
+    "evidence_url": "https://trailhead.salesforce.com/credentials/aiassociate"
   }
 }

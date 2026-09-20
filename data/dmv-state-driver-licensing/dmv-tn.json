@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-tn",
   "exam_name": "Tennessee Driver's License Knowledge Test",
-  "exam_code": "TN",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -104,5 +104,12 @@
     "tn",
     "tn dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/tennessee-drivers-license-knowledge-test-2zokk0"
+  "practice_url": "https://quizforge.ai/tests/tennessee-drivers-license-knowledge-test-2zokk0",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:13:43Z",
+    "evidence_url": "https://www.tn.gov/safety/driver-services/classd/new-drivers.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "nna-notary-exam-co",
   "exam_name": "Colorado Notary Public Exam",
-  "exam_code": "CO-Notary",
+  "exam_code": null,
   "certifying_body": "NNA / Notary",
   "certification_name": null,
   "version": null,
@@ -99,5 +99,12 @@
     "colorado notary public exam",
     "nna-notary-exam-co"
   ],
-  "practice_url": "https://quizforge.ai/tests/colorado-notary-public-exam-2yxqrl"
+  "practice_url": "https://quizforge.ai/tests/colorado-notary-public-exam-2yxqrl",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:48:58Z",
+    "evidence_url": "https://www.sos.state.co.us/pubs/notary/notaryTesting.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-co",
   "exam_name": "Colorado Driver's License Knowledge Test",
-  "exam_code": "CO",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -104,5 +104,12 @@
     "colorado permit test",
     "dmv-co"
   ],
-  "practice_url": "https://quizforge.ai/tests/colorado-drivers-license-knowledge-test-30u150"
+  "practice_url": "https://quizforge.ai/tests/colorado-drivers-license-knowledge-test-30u150",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:02:31Z",
+    "evidence_url": "https://dmv.colorado.gov/home-driving-knowledge-tests"
+  }
 }

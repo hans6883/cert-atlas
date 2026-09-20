@@ -1,7 +1,7 @@
 {
   "exam_id": "accuplacer-advanced-algebra",
   "exam_name": "ACCUPLACER Advanced Algebra and Functions",
-  "exam_code": "AAF",
+  "exam_code": null,
   "certifying_body": "ACCUPLACER",
   "certification_name": null,
   "version": null,
@@ -103,7 +103,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://accuplacer.collegeboard.org/accuplacer/pdf/next-generation-test-specifications-manual.pdf",
   "official_study_resources": [],
   "aliases": [
     "aaf",
@@ -112,5 +112,12 @@
     "accuplacer-advanced-algebra",
     "advanced algebra functions"
   ],
-  "practice_url": "https://quizforge.ai/tests/accuplacer-advanced-algebra"
+  "practice_url": "https://quizforge.ai/tests/accuplacer-advanced-algebra",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:49:43Z",
+    "evidence_url": "https://accuplacer.collegeboard.org/about/get-to-know-accuplacer"
+  }
 }

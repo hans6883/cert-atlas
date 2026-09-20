@@ -1,7 +1,7 @@
 {
   "exam_id": "netapp-ncda",
   "exam_name": "NCDA — NetApp Certified Data Administrator (ONTAP)",
-  "exam_code": "NS0-175",
+  "exam_code": null,
   "certifying_body": "NetApp",
   "certification_name": null,
   "version": null,
@@ -283,5 +283,12 @@
     "summary": "NetApp retired NS0-175. NS0-177 is the direct replacement path.",
     "evidence_url": "https://www.netapp.com/insight/certification/",
     "verified_at": "2026-08-29T05:37:22+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:02:18Z",
+    "evidence_url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/ontap-data-administration/"
   }
 }

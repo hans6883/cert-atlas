@@ -1,7 +1,7 @@
 {
   "exam_id": "dynatrace-associate",
   "exam_name": "Dynatrace Associate",
-  "exam_code": "DT-Associate",
+  "exam_code": null,
   "certifying_body": "Dynatrace",
   "certification_name": null,
   "version": null,
@@ -90,5 +90,12 @@
     "dynatrace associate certification",
     "dynatrace-associate"
   ],
-  "practice_url": "https://quizforge.ai/tests/dynatrace-associate-2hhqil"
+  "practice_url": "https://quizforge.ai/tests/dynatrace-associate-2hhqil",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:49:09Z",
+    "evidence_url": "https://university.dynatrace.com/learn/learning-plans/47/dynatrace-associate-certification-learning-plan"
+  }
 }

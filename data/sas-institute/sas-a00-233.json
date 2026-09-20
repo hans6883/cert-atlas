@@ -1,7 +1,7 @@
 {
   "exam_id": "sas-a00-233",
   "exam_name": "SAS Certified Professional: SAS Platform Administration",
-  "exam_code": "A00-233",
+  "exam_code": "A00-250",
   "certifying_body": "SAS Institute",
   "certification_name": null,
   "version": null,
@@ -72,7 +72,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.sas.com/content/dam/SAS/en_us/doc/other1/certification/exam-content/platform-admin.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -100,5 +100,12 @@
     "sas platform administration",
     "sas-a00-233"
   ],
-  "practice_url": "https://quizforge.ai/tests/sas-certified-professional-sas-platform-administration-2ex25j"
+  "practice_url": "https://quizforge.ai/tests/sas-certified-professional-sas-platform-administration-2ex25j",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:26:04Z",
+    "evidence_url": "https://www.sas.com/en_us/certification/credentials/administration/platform-administrator.html"
+  }
 }

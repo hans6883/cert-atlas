@@ -1,7 +1,7 @@
 {
   "exam_id": "axelos-itil-4-managing-professional",
   "exam_name": "ITIL 4 Managing Professional (MP) Transition",
-  "exam_code": "ITIL 4 MP",
+  "exam_code": null,
   "certifying_body": "PeopleCert (AXELOS)",
   "certification_name": null,
   "version": null,
@@ -109,5 +109,12 @@
     "summary": "PeopleCert (AXELOS) retires ITIL 4 MP on 2027-12-31. ITIL Managing Professional Transition (Version 5) is the named replacement path.",
     "evidence_url": "https://www.peoplecert.org/help-and-support/faq-itil",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:00:35Z",
+    "evidence_url": "https://www.peoplecert.org/help-and-support/faq-itil"
   }
 }

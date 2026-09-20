@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-nd",
   "exam_name": "North Dakota Driver's License Knowledge Test",
-  "exam_code": "ND",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -104,5 +104,12 @@
     "north dakota driver s license test",
     "north dakota permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/north-dakota-drivers-license-knowledge-test-2zx3up"
+  "practice_url": "https://quizforge.ai/tests/north-dakota-drivers-license-knowledge-test-2zx3up",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:11Z",
+    "evidence_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit"
+  }
 }

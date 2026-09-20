@@ -1,7 +1,7 @@
 {
   "exam_id": "nebosh-national-diploma",
   "exam_name": "NEBOSH National Diploma in Occupational Health and Safety",
-  "exam_code": "National Diploma",
+  "exam_code": null,
   "certifying_body": "NEBOSH",
   "certification_name": null,
   "version": null,
@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nebosh.org.uk/documents/dn-syllabus-guide-for-learners/dn-learner-guide-v1.1.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -106,5 +106,12 @@
     "summary": "NEBOSH retired NATIONAL DIPLOMA on 2026-02-25. Level 6 National Diploma for Occupational Health and Safety Management Professionals is the named replacement path.",
     "evidence_url": "https://www.nebosh.org.uk/qualifications/national-diploma-in-occupational-health-and-safety/",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:13:00Z",
+    "evidence_url": "https://www.nebosh.org.uk/qualifications/national-diploma-for-safety-and-health-management-professionals"
   }
 }

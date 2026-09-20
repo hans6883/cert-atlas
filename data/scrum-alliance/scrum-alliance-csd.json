@@ -78,7 +78,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.scrumalliance.org/docs/default-source/certification/learning-objectives/csd_learning_objectives_2024.pdf?sfvrsn=a59e6845_3",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -97,5 +97,12 @@
     "scrum developer certification",
     "scrum-alliance-csd"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-scrum-developer-csd-32xmwq"
+  "practice_url": "https://quizforge.ai/tests/certified-scrum-developer-csd-32xmwq",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:49:43Z",
+    "evidence_url": "https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer"
+  }
 }

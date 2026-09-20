@@ -1,7 +1,7 @@
 {
   "exam_id": "nasm-bcs",
   "exam_name": "NASM Behavior Change Specialist (BCS)",
-  "exam_code": "NASM-BCS",
+  "exam_code": "BCS",
   "certifying_body": "NASM",
   "certification_name": null,
   "version": null,
@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nasm.org/certifications/behavior-change-specialist",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -100,5 +100,12 @@
     "nasm behavior change specialist bcs",
     "nasm-bcs"
   ],
-  "practice_url": "https://quizforge.ai/tests/nasm-behavior-change-specialist-bcs-34e2l6"
+  "practice_url": "https://quizforge.ai/tests/nasm-behavior-change-specialist-bcs-34e2l6",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:12Z",
+    "evidence_url": "https://www.nasm.org/certifications/behavior-change-specialist"
+  }
 }

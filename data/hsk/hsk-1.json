@@ -1,7 +1,7 @@
 {
   "exam_id": "hsk-1",
   "exam_name": "HSK Level 1 (一级)",
-  "exam_code": "HSK 1",
+  "exam_code": null,
   "certifying_body": "HSK",
   "certification_name": null,
   "version": null,
@@ -62,7 +62,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.chinesetest.cn/HSK/1",
   "official_study_resources": [
     {
       "resource_type": "syllabus",
@@ -88,5 +88,12 @@
     "hsk level 1 一级",
     "hsk-1"
   ],
-  "practice_url": "https://quizforge.ai/tests/hsk-level-1-%E4%B8%80%E7%BA%A7-2ovklz"
+  "practice_url": "https://quizforge.ai/tests/hsk-level-1-%E4%B8%80%E7%BA%A7-2ovklz",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T03:49:12Z",
+    "evidence_url": "https://www.chinesetest.cn/HSK/1"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-principles-of-supervision",
   "exam_name": "Principles of Supervision",
-  "exam_code": "SUPR",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -67,7 +67,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2024/07/Principles-Of-Supervision-Fact-Sheet-1.pdf",
   "official_study_resources": [],
   "aliases": [
     "dantes supervision",
@@ -203,5 +203,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:29+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T04:25:32Z",
+    "evidence_url": "https://getcollegecredit.com/exam/principles-of-supervision/"
   }
 }

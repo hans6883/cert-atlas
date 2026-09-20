@@ -1,7 +1,7 @@
 {
   "exam_id": "cset-science-biology",
   "exam_name": "CSET Science Subtest II: Life Sciences (Biology/Life Science)",
-  "exam_code": "CSET-SCI-BIO",
+  "exam_code": "217",
   "certifying_body": "CSET",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ctcexams.nesinc.com/Content/StudyGuide/CA_SG_obj_217.htm",
   "official_study_resources": [],
   "aliases": [
     "cset 218",
@@ -72,5 +72,12 @@
     "cset-sci-bio",
     "cset-science-biology"
   ],
-  "practice_url": "https://quizforge.ai/tests/cset-science-biology"
+  "practice_url": "https://quizforge.ai/tests/cset-science-biology",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T03:48:18Z",
+    "evidence_url": "https://www.ctcexams.nesinc.com/TestView.aspx?f=HTML_FRAG/CA_CSET217_TestPage.html"
+  }
 }

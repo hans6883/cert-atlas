@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-nv",
   "exam_name": "Nevada Driver's License Knowledge Test",
-  "exam_code": "NV",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -104,5 +104,12 @@
     "nv",
     "nv dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/nevada-drivers-license-knowledge-test-304f8z"
+  "practice_url": "https://quizforge.ai/tests/nevada-drivers-license-knowledge-test-304f8z",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:01:22Z",
+    "evidence_url": "https://dmv.nv.gov/wtestadult.htm"
+  }
 }

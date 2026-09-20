@@ -1,7 +1,7 @@
 {
   "exam_id": "nbpts-ecy-sped",
   "exam_name": "NBCT — Early Childhood through Young Adulthood/Exceptional Needs Specialist",
-  "exam_code": "ECYA/ENS",
+  "exam_code": null,
   "certifying_body": "NBPTS",
   "certification_name": null,
   "version": null,
@@ -89,7 +89,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nbpts.org/wp-content/uploads/2019/04/Choosing_the_Right_Certificate.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -111,5 +111,12 @@
     "nbct special ed",
     "nbpts-ecy-sped"
   ],
-  "practice_url": "https://quizforge.ai/tests/nbct-%E2%80%94-early-childhood-through-young-adulthood-exceptional-needs-specialist-33m0we"
+  "practice_url": "https://quizforge.ai/tests/nbct-%E2%80%94-early-childhood-through-young-adulthood-exceptional-needs-specialist-33m0we",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T04:26:03Z",
+    "evidence_url": "https://www.nbpts.org/wp-content/uploads/2019/04/Choosing_the_Right_Certificate.pdf"
+  }
 }

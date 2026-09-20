@@ -1,7 +1,7 @@
 {
   "exam_id": "act-with-writing",
   "exam_name": "ACT with Writing",
-  "exam_code": "ACT+W",
+  "exam_code": null,
   "certifying_body": "ACT",
   "certification_name": null,
   "version": null,
@@ -75,7 +75,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-writing-test.html",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -103,5 +103,12 @@
     "act+w",
     "act-with-writing"
   ],
-  "practice_url": "https://quizforge.ai/tests/act-with-writing-2jwbdr"
+  "practice_url": "https://quizforge.ai/tests/act-with-writing-2jwbdr",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T04:01:21Z",
+    "evidence_url": "https://www.act.org/content/act/en/products-and-services/the-act.html"
+  }
 }
