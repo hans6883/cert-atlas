@@ -1,7 +1,7 @@
 {
   "exam_id": "certiprof-aims",
   "exam_name": "AI Management Professional Certification (AIMS™ / AIMPC™)",
-  "exam_code": "AIMS",
+  "exam_code": "AIMPC™",
   "certifying_body": "CertiProf",
   "certification_name": null,
   "version": null,
@@ -84,5 +84,12 @@
     "aims",
     "certiprof-aims"
   ],
-  "practice_url": "https://quizforge.ai/tests/ai-management-professional-certification-aims%E2%84%A2---aimpc%E2%84%A2-380ju4"
+  "practice_url": "https://quizforge.ai/tests/ai-management-professional-certification-aims%E2%84%A2---aimpc%E2%84%A2-380ju4",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-23T19:01:03Z",
+    "evidence_url": "https://certiprof.com/products/ai-management-certification-iso-42001"
+  }
 }

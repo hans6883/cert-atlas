@@ -1,7 +1,7 @@
 {
   "exam_id": "certnexus-cet-110",
   "exam_name": "Certified Ethical Emerging Technologist (CET)",
-  "exam_code": "CET-110",
+  "exam_code": "CEET",
   "certifying_body": "CertNexus",
   "certification_name": null,
   "version": null,
@@ -83,5 +83,12 @@
     "certnexus-cet-110",
     "cet-110"
   ],
-  "practice_url": "https://quizforge.ai/?q=Certified%20Ethical%20Emerging%20Technologist%20%28CET%29"
+  "practice_url": "https://quizforge.ai/?q=Certified%20Ethical%20Emerging%20Technologist%20%28CET%29",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-23T19:01:02Z",
+    "evidence_url": "https://certnexus.com/certified-ethical-emerging-technologist-ceet/"
+  }
 }

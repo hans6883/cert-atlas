@@ -1,7 +1,7 @@
 {
   "exam_id": "canada-citizenship",
   "exam_name": "Canadian Citizenship Test (Discover Canada)",
-  "exam_code": "CIT-0002",
+  "exam_code": null,
   "certifying_body": "Citizenship and Civics Tests",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/pub/discover.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -108,5 +108,12 @@
     "discover canada test",
     "ircc citizenship test"
   ],
-  "practice_url": "https://quizforge.ai/?q=Canadian%20Citizenship%20Test%20%28Discover%20Canada%29"
+  "practice_url": "https://quizforge.ai/?q=Canadian%20Citizenship%20Test%20%28Discover%20Canada%29",
+  "credential": {
+    "type": "civic_knowledge_test",
+    "label": "citizenship or civic knowledge test",
+    "examination": true,
+    "verified_at": "2026-09-23T19:02:02Z",
+    "evidence_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/test/study.html"
+  }
 }

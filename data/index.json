@@ -7996,7 +7996,7 @@
     {
       "exam_id": "certnexus-cet-110",
       "exam_name": "Certified Ethical Emerging Technologist (CET)",
-      "exam_code": "CET-110",
+      "exam_code": "CEET",
       "certifying_body": "CertNexus",
       "vendor_slug": "certnexus",
       "domains": 5,
@@ -8006,12 +8006,14 @@
       "practice_url": "https://quizforge.ai/?q=Certified%20Ethical%20Emerging%20Technologist%20%28CET%29",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "certiprof-aims",
       "exam_name": "AI Management Professional Certification (AIMS™ / AIMPC™)",
-      "exam_code": "AIMS",
+      "exam_code": "AIMPC™",
       "certifying_body": "CertiProf",
       "vendor_slug": "certiprof",
       "domains": 5,
@@ -8021,12 +8023,14 @@
       "practice_url": "https://quizforge.ai/tests/ai-management-professional-certification-aims%E2%84%A2---aimpc%E2%84%A2-380ju4",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "certiprof-iso42001-auditor",
       "exam_name": "ISO 42001 Internal Auditor Certification (I42001IA™)",
-      "exam_code": "I42001IA",
+      "exam_code": "I42001IA™",
       "certifying_body": "CertiProf",
       "vendor_slug": "certiprof",
       "domains": 4,
@@ -8036,7 +8040,9 @@
       "practice_url": "https://quizforge.ai/tests/iso-42001-internal-auditor-certification-i42001ia%E2%84%A2-37zbxq",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "certification",
+      "examination": true
     },
     {
       "exam_id": "certiprof-iso42001-foundation",
@@ -8317,7 +8323,7 @@
     {
       "exam_id": "canada-citizenship",
       "exam_name": "Canadian Citizenship Test (Discover Canada)",
-      "exam_code": "CIT-0002",
+      "exam_code": null,
       "certifying_body": "Citizenship and Civics Tests",
       "vendor_slug": "citizenship-and-civics-tests",
       "domains": 4,
@@ -8327,7 +8333,9 @@
       "practice_url": "https://quizforge.ai/?q=Canadian%20Citizenship%20Test%20%28Discover%20Canada%29",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "civic_knowledge_test",
+      "examination": true
     },
     {
       "exam_id": "uk-life-in-the-uk",
