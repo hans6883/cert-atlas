@@ -1882,6 +1882,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-02T21:44:52+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -3751,6 +3752,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-08-30T20:17:19+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -3891,10 +3893,12 @@
       "total_questions": 60,
       "duration_minutes": 120,
       "source_url": "https://edu.alibabacloud.com/certification/aca_devops",
-      "practice_url": "https://quizforge.ai/tests/aca-devops-associate-2wgq3o",
+      "practice_url": null,
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2025-03-31"
     },
     {
       "exam_id": "alibaba-cloud-aca-network",
@@ -4933,6 +4937,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -5573,6 +5578,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -5607,6 +5613,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -5642,6 +5649,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -5674,6 +5682,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "language_proficiency_test",
       "examination": true
     },
@@ -6356,7 +6365,8 @@
       "practice_url": "https://quizforge.ai/tests/cips-level-3-advanced-certificate-in-procurement-and-supply-operations-2upbbs",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "cips-level4-diploma",
@@ -8401,6 +8411,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "civic_knowledge_test",
       "examination": true
     },
@@ -9000,6 +9011,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "school_exam",
       "examination": true
     },
@@ -10167,6 +10179,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -10280,6 +10293,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -10748,6 +10762,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -11619,6 +11634,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -12289,7 +12305,8 @@
       "practice_url": "https://quizforge.ai/tests/praxis-physics-content-knowledge-5265",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:07+00:00"
+      "verified_at": "2026-09-13T23:40:07+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "praxis-social-studies-content-knowledge-5081",
@@ -12789,6 +12806,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -15757,6 +15775,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -15809,6 +15828,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -15978,6 +15998,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "school_exam",
       "examination": true
     },
@@ -16528,6 +16549,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "course_without_assessment",
       "examination": false
     },
@@ -16752,6 +16774,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -17331,6 +17354,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -17825,6 +17849,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -19667,6 +19692,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -20163,7 +20189,8 @@
       "practice_url": "https://quizforge.ai/tests/meta-certified-digital-marketing-associate",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "meta-certified-marketing-science-professional",
@@ -21840,6 +21867,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "course_assessment",
       "examination": true
     },
@@ -23567,7 +23595,8 @@
       "practice_url": "https://quizforge.ai/tests/ncidq-interior-design-certification",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:05+00:00"
+      "verified_at": "2026-09-13T23:40:05+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ccm-contracts-manager",
@@ -25526,7 +25555,8 @@
       "practice_url": "https://quizforge.ai/tests/okta-certified-developer-37ugc7",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "okta-certified-identity-governance-administrator",
@@ -25762,7 +25792,9 @@
       "practice_url": "https://quizforge.ai/tests/oracle-java-se-11-1z0-819",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-08-30T20:18:42+00:00"
+      "verified_at": "2026-08-30T20:18:42+00:00",
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-11-30"
     },
     {
       "exam_id": "oracle-java-se-8-programmer-i-1z0-808",
@@ -26064,7 +26096,8 @@
       "practice_url": "https://quizforge.ai/tests/oracle-plsql-developer-certified-professional-1z0-149",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "outsystems-mobile-developer-specialist-o11-and-odc-mobile-developer-sp",
@@ -26267,6 +26300,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:04+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -27287,6 +27321,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -27488,7 +27523,8 @@
       "practice_url": "https://quizforge.ai/tests/new-york-real-estate-salesperson-exam-2tmajj",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "re-broker-national",
@@ -28346,6 +28382,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "recruitment_exam",
       "examination": true
     },
@@ -28363,6 +28400,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "recruitment_exam",
       "examination": true
     },
@@ -29041,6 +29079,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -29091,6 +29130,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "training_program",
       "examination": false
     },
@@ -29415,6 +29455,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -31455,6 +31496,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "professional_designation_by_exam",
       "examination": true
     },
@@ -31788,6 +31830,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "school_exam",
       "examination": true
     },
@@ -32474,6 +32517,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "recruitment_exam",
       "examination": true
     },

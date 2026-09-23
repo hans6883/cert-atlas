@@ -593,5 +593,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:42+00:00"
+  },
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-11-30",
+    "summary": "Oracle's MyLearn exam page is titled 'Exam 1Z0-819: Java SE 11 Developer [Retires November 30, 2026]' and its overview opens 'Important Update: This Certification exam will retire on November 30, 2026.' The exam is still bookable (Proctored Online, 90 minutes, 50 questions, 68% passing) and still earns 'Oracle Certified Professional: Java SE 11 Developer'. Oracle names no successor for it on that page.",
+    "evidence_url": "https://mylearn.oracle.com/ou/exam/java-se-11-developer-1z0-819-retires-november-30-2026/105037/110627/170353",
+    "verified_at": "2026-09-23T17:56:03Z"
   }
 }
