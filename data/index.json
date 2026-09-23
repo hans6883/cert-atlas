@@ -530,7 +530,8 @@
       "practice_url": "https://quizforge.ai/tests/cppm-certified-physician-practice-manager",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-02T00:53:27+00:00"
+      "verified_at": "2026-09-02T00:53:27+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "aapc-cpc",
@@ -633,6 +634,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-02T00:53:28+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -840,6 +842,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:35+00:00",
+      "lifecycle_status": "current",
       "credential_type": "professional_designation_by_exam",
       "examination": true
     },
@@ -891,6 +894,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:35+00:00",
+      "lifecycle_status": "current",
       "credential_type": "professional_designation_by_exam",
       "examination": true
     },
@@ -2395,7 +2399,8 @@
       "practice_url": "https://quizforge.ai/tests/histotechnologist-htl-2fyv1e",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ascp-mlt",
@@ -2410,7 +2415,8 @@
       "practice_url": "https://quizforge.ai/tests/ascp-medical-laboratory-technician-mlt",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ascp-mt",
@@ -2470,7 +2476,8 @@
       "practice_url": "https://quizforge.ai/tests/specialist-in-blood-banking-sbb-3a45lu",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "ase-a1",
@@ -3218,6 +3225,8 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "scheduled_retirement",
+      "retires_on": "2026-12-31",
       "credential_type": "certification",
       "examination": true
     },
@@ -3805,7 +3814,8 @@
       "practice_url": "https://quizforge.ai/tests/adobe-experience-manager-sites-business-practitioner-33jl3m",
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-02T00:53:30+00:00"
+      "verified_at": "2026-09-02T00:53:30+00:00",
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "alibaba-cloud-aca-ai",
@@ -4994,6 +5004,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:39:59+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -5275,7 +5286,8 @@
       "practice_url": "https://quizforge.ai/tests/financial-accounting-and-reporting-2v7ltj",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "caanz-foundations-accounting",
@@ -5390,7 +5402,8 @@
       "practice_url": "https://quizforge.ai/tests/cdl-combination-vehicles-endorsement-test-2lf6uz",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "cdl-double-triple",
@@ -6007,6 +6020,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "professional_designation_by_exam",
       "examination": true
     },
@@ -6074,6 +6088,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "professional_designation_by_exam",
       "examination": true
     },
@@ -9553,10 +9568,12 @@
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://www.confluent.io/certification/confluent-certified-operator-apache-kafka/",
-      "practice_url": "https://quizforge.ai/tests/confluent-certified-operator-for-apache-kafka-ccoak-32wf0c",
+      "practice_url": null,
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
       "credential_type": "certification",
       "examination": true
     },
@@ -10215,6 +10232,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -10601,6 +10619,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },
@@ -11783,7 +11802,8 @@
       "practice_url": "https://quizforge.ai/tests/duolingo-english-test",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "duolingo-english-test-practice",
@@ -11832,6 +11852,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -12386,6 +12407,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:36+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -14424,7 +14446,8 @@
       "practice_url": "https://quizforge.ai/tests/goethe-zertifikat-a1-start-deutsch-1-2oz8b5",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "goethe-zertifikat-a2",
@@ -14565,6 +14588,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -14843,10 +14867,12 @@
       "total_questions": null,
       "duration_minutes": 120,
       "source_url": "https://services.google.com/fh/files/misc/professional_google_workspace_administrator_exam_guide_english.pdf",
-      "practice_url": "https://quizforge.ai/tests/gcp-professional-workspace-admin",
+      "practice_url": null,
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-13T23:40:03+00:00"
+      "verified_at": "2026-09-13T23:40:03+00:00",
+      "lifecycle_status": "retired",
+      "retired_on": "2024-12-31"
     },
     {
       "exam_id": "google-cloud-professional-cloud-architect",
@@ -14964,6 +14990,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -16302,7 +16329,8 @@
       "practice_url": "https://quizforge.ai/tests/hcip-datacom-core-technology-2mjfjl",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "hcip-security",
@@ -16838,6 +16866,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:03+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -17435,6 +17464,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "designation_by_assessment",
       "examination": false
     },
@@ -21453,10 +21483,12 @@
       "total_questions": null,
       "duration_minutes": null,
       "source_url": "https://www.nacva.com/Files/Body_of_Knowledge.pdf",
-      "practice_url": "https://quizforge.ai/tests/cba-certified-business-appraiser",
+      "practice_url": null,
       "enriched": true,
       "content_modified_at": null,
-      "verified_at": "2026-09-14T03:22:00+00:00"
+      "verified_at": "2026-09-14T03:22:00+00:00",
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "cva-certified-valuation-analyst",
@@ -24850,10 +24882,12 @@
       "total_questions": 90,
       "duration_minutes": 120,
       "source_url": "https://www.nrfsp.com/wp-content/uploads/Documents/HACCP/Examination_Content_Outline-HACCP.pdf",
-      "practice_url": "https://quizforge.ai/tests/haccp-manager-certification-ansi",
+      "practice_url": null,
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T23:40:03+00:00",
+      "lifecycle_status": "retired",
+      "retired_on": null,
       "credential_type": "certification",
       "examination": true
     },
@@ -32357,6 +32391,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-14T03:21:59+00:00",
+      "lifecycle_status": "current",
       "credential_type": "licensure_exam",
       "examination": true
     },

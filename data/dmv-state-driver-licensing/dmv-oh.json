@@ -106,6 +106,12 @@
     "ohio permit test"
   ],
   "practice_url": "https://quizforge.ai/tests/ohio-drivers-license-knowledge-test-2zvvyb",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-23: the Ohio BMV's First Issuance page still requires the knowledge test - 'Knowledge Test and Vision Screening Applicants must pass both the knowledge test and vision screening to obtain a temporary instruction permit identification card (TIPIC). The knowledge test is 40 multiple-choice questions about motor vehicle regulations and traffic signs. Applicants must answer 75 percent of the questions correctly to pass.' - and offers it two ways: 'At age 15 years and six months, an applicant may complete the knowledge test online at Ohio BMV - Online Services, or go to select deputy registrar locations or any driver exam station to take the knowledge test and vision screening, to begin the temporary permit process.' The BMV's sample knowledge test is published at bmv.ohio.gov/dl-sample-test.aspx.",
+    "evidence_url": "https://bmv.ohio.gov/dl-gdl.aspx",
+    "verified_at": "2026-09-23T00:00:00Z"
+  },
   "credential": {
     "type": "licensure_exam",
     "label": "licensure examination",

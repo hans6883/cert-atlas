@@ -111,6 +111,13 @@
     "aws-advanced-networking-specialty-ans-c01"
   ],
   "practice_url": "https://quizforge.ai/tests/aws-advanced-networking-specialty-ans-c01",
+  "lifecycle": {
+    "status": "scheduled_retirement",
+    "retires_on": "2026-12-31",
+    "summary": "AWS's exam page carries the retirement banner: 'AWS Certified Advanced Networking - Specialty This exam is being retired. The last day to take the exam is December 31, 2026. Certifications earned prior to the retirement of the exam will remain active for the standard three-year period. New AWS Certified Advanced Networking - Specialty certifications will not be issued after the retirement of the exam. To continue your networking learning journey, check out our available digital training on AWS Skill Builder.' The exam is still bookable until then ('Schedule an exam'). No successor exam is named - AWS points learners to Skill Builder digital training instead.",
+    "evidence_url": "https://aws.amazon.com/certification/certified-advanced-networking-specialty/",
+    "verified_at": "2026-09-23T00:00:00Z"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

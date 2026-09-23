@@ -64,7 +64,7 @@
   "aliases": [
     "CBA Certified Business Appraiser"
   ],
-  "practice_url": "https://quizforge.ai/tests/cba-certified-business-appraiser",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The CBA Certified Business Appraiser exam, administered by NACVA, covers valuation approaches, quantitative analysis, and professional standards for business.",
     "overview": "The CBA Certified Business Appraiser certification is managed by NACVA. This exam evaluates professional competency across nine distinct domains, ranging from engagement planning and qualitative analysis to complex valuation methodologies, cost of capital concepts, and the application of discounts and premiums. It ensures practitioners demonstrate the technical knowledge required to perform business valuations in accordance with established professional standards and industry requirements.",
@@ -254,5 +254,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:00+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "NACVA's CBA/MCBA page states the closure: 'Thus, in 2016, NACVA suspended its activities relating to the proliferation and further development of the CBA/ MCBA, and thereby the credential is no longer available to interested candidates. We have also dissolved the non-profit IBA.' Existing holders keep the designation ('To continue carrying the CBA/MCBA, designees must comply with the same recertification requirements imposed on NACVA's CVA/MAFF/ABAR designees.'). The page names no successor; NACVA's live credentials are the CVA, MAFF and ABAR.",
+    "evidence_url": "https://www.nacva.com/cba-mcba",
+    "verified_at": "2026-09-23T00:00:00Z"
   }
 }

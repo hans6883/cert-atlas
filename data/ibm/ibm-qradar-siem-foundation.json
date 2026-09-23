@@ -344,6 +344,12 @@
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
   },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-23: IBM's exam record for C1000-175 reports the exam as live with no withdrawal and no replacement - 'EXAM_SERIES_CODE\":\"C1000-175', 'EXAM_TITLE\":\"Foundations of IBM Security QRadar SIEM V7.5', 'WITHDRAWAL_DATE\":null', 'EXAM_STATUS\":\"Live', 'EXAM_REPLACED_FLAG\":false,\"REPLACE_BY_EXAM_SERIES_CODE\":null', 'EXAM_TIME_LIMIT\":90,\"EXAM_PASSING_SCORE\":66,\"EXAM_NUMBER_OF_QUESTIONS\":62' - and describes the credential: 'An IBM Certified Associate - Security QRadar SIEM V7.5 is an individual with entry level knowledge and experience with QRadar SIEM V7.5.' (record last modified 2025-10-14).",
+    "evidence_url": "https://www.ibm.com/training/credentials/getExam/C1000-175",
+    "verified_at": "2026-09-23T00:00:00Z"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

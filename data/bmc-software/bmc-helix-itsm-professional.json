@@ -341,6 +341,12 @@
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:59+00:00"
   },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-23: BMC's exam abstract (copyright 2025, hosted on bmc.com) says 'The BMC Certified Professional: Helix ITSM 22.x Online Proctored Exam will validate the technical competencies needed to successfully administer, configure and operate out-of-the-box (OOTB) baseline functionality for ITSM.' and lists its prerequisites ('BMC Certified Associate: Helix ITSM 22.x for Administrators Online Exam', 'BMC Certified Associate: AR System 22.x for Administrators Online Exam'); BMC's IT Certifications page describes the live path - 'To earn your BMC Certified Professional designation for products that have an Online Proctored Exam, you must be Certified Associate and pass the Online Proctored Exam.', 'Register and pay for BMC Certified Professional Online Proctored Exam for specific product interest.', 'To register for the latest certification, visit BMC Academy (for customers and partners).'",
+    "evidence_url": "https://www.bmc.com/content/dam/bmc/education/Abstract_SPPT-CERT-ITSM2210-CP.pdf",
+    "verified_at": "2026-09-23T00:00:00Z"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

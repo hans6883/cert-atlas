@@ -102,7 +102,14 @@
     "confluent operator",
     "confluent-ccoak"
   ],
-  "practice_url": "https://quizforge.ai/tests/confluent-certified-operator-for-apache-kafka-ccoak-32wf0c",
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "Confluent no longer offers the Confluent Certified Operator for Apache Kafka: the exam page confluent.io/certification/confluent-certified-operator-apache-kafka/ is a 404, and Confluent's certification catalogue now lists only three exams - the Confluent Certified Developer for Apache Kafka (CCDAK), 'Confluent Certified Administrator for Apache Kafka The Confluent Certified Administrator for Apache Kafka (CCAAK) is designed for professionals who manage and maintain Kafka cluster environments.' and 'Confluent Certified Cloud Operator The Confluent Cloud Certified Operator (CCAC) certification is designed for individuals who can confidently demonstrate a strong working knowledge of Confluent Cloud.' Confluent's own training catalogue likewise offers preparation guides only for the Developer, Administrator and Cloud Operator exams. No retirement notice and no date are printed, and no page names a successor to the CCOAK.",
+    "evidence_url": "https://www.confluent.io/certification/",
+    "verified_at": "2026-09-23T00:00:00Z"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

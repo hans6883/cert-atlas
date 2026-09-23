@@ -43,7 +43,7 @@
     "google-workspace-admin",
     "google-workspace-professional-administrator"
   ],
-  "practice_url": "https://quizforge.ai/tests/gcp-professional-workspace-admin",
+  "practice_url": null,
   "editorial": {
     "meta_description": "The Google Professional Workspace Administrator exam evaluates your technical proficiency in managing Google Workspace environments through account lifecycle.",
     "overview": "Certified by Google Cloud, this exam evaluates your ability to transform business objectives into Google Workspace configurations. It covers managing users, content, and integrations while maintaining secure and efficient data access. Administrators demonstrate an engineering mindset by using tools, programming languages, and APIs to automate workflows, educate end users, and increase operational efficiency across the organization's infrastructure. Candidates must demonstrate mastery of the platform to ensure that all organizational data remains protected while facilitating seamless collaboration across various departments and global teams.",
@@ -190,5 +190,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2024-12-31",
+    "summary": "Google's own exam guide page states the retirement: '[Retired] Professional Google Workspace Administrator This exam was retired on December 31, 2024. Current certifications will remain valid and recognized by Google Cloud for two years from the date the exam was passed.' Google Cloud's certification catalogue now lists Google Workspace Administrator only at Associate level, and the former Professional URL cloud.google.com/learn/certification/google-workspace-administrator serves the Associate Google Workspace Administrator page ('The Associate Google Workspace Administrator exam is now open for registration.', 'Length: 2 hours Registration fee: $125 (plus tax where applicable)'). No Google page read here states that the Associate replaces the Professional.",
+    "evidence_url": "https://cloud.google.com/learn/certification/guides/google-workspace-administrator",
+    "verified_at": "2026-09-23T00:00:00Z"
   }
 }

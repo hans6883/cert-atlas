@@ -43,7 +43,7 @@
   "aliases": [
     "HACCP Manager Certification"
   ],
-  "practice_url": "https://quizforge.ai/tests/haccp-manager-certification-ansi",
+  "practice_url": null,
   "editorial": {
     "meta_description": "Prepare for the HACCP Manager Certification exam by National Registry of Food Safety Professionals covering 90 questions in 120 minutes.",
     "overview": "The HACCP Manager Certification is administered by the National Registry of Food Safety Professionals (NRFSP). This professional certification evaluation tests your understanding of conducting preliminary activities, performing hazard analyses, setting up detailed control measures, executing verification activities, and implementing continuous improvement activities across food safety systems with a total of 90 questions.",
@@ -192,6 +192,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:03+00:00"
+  },
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "The National Registry of Food Safety Professionals no longer offers the Certified Food Safety HACCP Manager examination. Its Exam Center enumerates the exams a candidate can take - 'Take an Exam Food Manager For restaurant and commercial food service managers, wait staff, chefs, bartenders, hosts and hostesses, students, cooks, and shift leaders. Grocery Manager For grocery store general, department, and category managers, baristas, cashiers, front end associates, and food service clerks. Food Handler For food handlers, supervisors, servers, suppliers, culinary students, food demonstrators, and volunteers.' - and no HACCP exam appears there, in the Shop (whose categories are 'Administrator Resources (1) Food Safety Manager Resources (2) Grocery Manager Resources (1) Reprints (1)') or in the site navigation. The 2017 candidate information bulletin and the content outline remain hosted as files, and existing holders can still order a reprint ('Replace your food safety manager, grocery manager, convenience store manager, or HACCP manager certificate with a new printed certificate.'). No retirement notice or date is printed.",
+    "evidence_url": "https://www.nrfsp.com/exam-center/",
+    "verified_at": "2026-09-23T00:00:00Z"
   },
   "credential": {
     "type": "certification",
