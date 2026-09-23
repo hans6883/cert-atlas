@@ -1,7 +1,7 @@
 {
   "exam_id": "asvab-student",
   "exam_name": "Student ASVAB (Career Exploration)",
-  "exam_code": "Student ASVAB",
+  "exam_code": null,
   "certifying_body": "ASVAB",
   "certification_name": null,
   "version": null,
@@ -145,5 +145,12 @@
     "student asvab",
     "student asvab career exploration"
   ],
-  "practice_url": "https://quizforge.ai/?q=Student%20ASVAB%20%28Career%20Exploration%29"
+  "practice_url": "https://quizforge.ai/?q=Student%20ASVAB%20%28Career%20Exploration%29",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:18:31Z",
+    "evidence_url": "https://www.officialasvab.com/counselors-educators/asvab-career-exploration-program/"
+  }
 }

@@ -120,7 +120,14 @@
     "sap project management",
     "sap-c-activate13"
   ],
-  "practice_url": "https://quizforge.ai/tests/sap-certified-associate-activate-project-manager",
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": null,
+    "summary": "SAP no longer offers C_ACTIVATE13. SAP's own certification catalogue on learning.sap.com lists 97 bookable exam codes and C_ACTIVATE13 is not among them, and its page on SAP's training shop is gone: 'Page not found We Are Unable to Locate the Page You Requested. Dear Customer, Unfortunately, the page you are trying to reach no longer exists on the SAP Training Shop'. SAP's own definition applies: 'If an SAP Certification has been or will be retired, learners will no longer be able to book the certification exam or do an assessment to stay certified after the retirement date.' SAP publishes no retirement date and names no successor for this code; the SAP Activate project-manager certification it once carried is now sold as 'SAP Certified - Project Manager - SAP Activate' (C_ACT_2604).",
+    "evidence_url": "https://learning.sap.com/certifications",
+    "verified_at": "2026-09-23T16:26:26Z"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

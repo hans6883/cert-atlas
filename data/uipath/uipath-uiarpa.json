@@ -43,6 +43,13 @@
     "uipath explorer",
     "uipath-uiarpa"
   ],
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2023-10-13",
+    "summary": "UiPath's certification page lists this exam under 'Legacy and retired certifications': 'As of October 13, 2023, the RPA Associate (UiRPA) and Advanced RPA Developer (UiARD) certifications have been retired. Credentials obtained before this date will remain valid until October, 2026. After this period, UiPath will no longer recognize UiRPA and UiARD certificates.' UiPath names no single successor - 'To remain current in the UiPath Certified Professional program, you'll need to pass the qualifying exam for a currently available UiPath certification' - and its live catalogue is Agentic Automation Associate, Automation Developer Associate, Automation Developer Professional, Automation Business Analyst Professional, Specialized AI Professional, Test Cloud Architect Professional and the Agentic Automation Builder Professional.",
+    "evidence_url": "https://www.uipath.com/learning/certification",
+    "verified_at": "2026-09-23T16:26:26Z"
+  },
   "credential": {
     "type": "training_program",
     "label": "training programme, not an examination",

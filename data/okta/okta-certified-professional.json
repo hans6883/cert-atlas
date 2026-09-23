@@ -104,7 +104,14 @@
     "okta professional",
     "okta-certified-professional"
   ],
-  "practice_url": "https://quizforge.ai/tests/okta-certified-professional",
+  "practice_url": null,
+  "lifecycle": {
+    "status": "retired",
+    "retired_on": "2022-03-31",
+    "summary": "Okta's own exam page is headed 'Okta Professional Certification Exam--RETIRED' and says 'This exam was retired on March 31, 2022. It is no longer available.' and 'Candidates for the Okta Certified Professional certification must now take the Okta Professional Hands-On Configuration exam.' That successor was itself superseded - 'This exam was discontinued on June 1, 2024. It is no longer available. To earn the Okta Professional Certification, you can take the Okta Certified Professional Hands-On Configuration exam for OIE' - and the OIE exam page still prices the exam at 'Registration fee: $250 (plus tax where applicable)'.",
+    "evidence_url": "https://certification.okta.com/okta-certified-professional",
+    "verified_at": "2026-09-23T16:26:26Z"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

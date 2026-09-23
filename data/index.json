@@ -2976,7 +2976,7 @@
     {
       "exam_id": "asvab-student",
       "exam_name": "Student ASVAB (Career Exploration)",
-      "exam_code": "Student ASVAB",
+      "exam_code": null,
       "certifying_body": "ASVAB",
       "vendor_slug": "asvab",
       "domains": 10,
@@ -2986,7 +2986,9 @@
       "practice_url": "https://quizforge.ai/?q=Student%20ASVAB%20%28Career%20Exploration%29",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "credential_type": "school_exam",
+      "examination": true
     },
     {
       "exam_id": "aswb-advanced-generalist",
@@ -9090,6 +9092,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "admission_or_placement_test",
       "examination": true
     },
@@ -15761,6 +15764,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -18379,6 +18383,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "training_program",
       "examination": false
     },
@@ -18655,6 +18660,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "admission_or_placement_test",
       "examination": true
     },
@@ -18852,6 +18858,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -20774,6 +20781,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -20953,6 +20961,7 @@
       "enriched": false,
       "content_modified_at": "2026-09-04",
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -20990,6 +20999,7 @@
       "enriched": false,
       "content_modified_at": "2026-09-04",
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -21097,6 +21107,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:37+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -22204,6 +22215,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -22271,6 +22283,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -22288,6 +22301,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -22357,6 +22371,7 @@
       "enriched": true,
       "content_modified_at": null,
       "verified_at": "2026-09-13T09:36:37+00:00",
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -25504,10 +25519,12 @@
       "total_questions": 60,
       "duration_minutes": 90,
       "source_url": "https://certification.okta.com/okta-certified-professional-hands-on-configuration-exam-for-oie",
-      "practice_url": "https://quizforge.ai/tests/okta-certified-professional",
+      "practice_url": null,
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2022-03-31",
       "credential_type": "certification",
       "examination": true
     },
@@ -26079,6 +26096,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -27187,6 +27205,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -27514,6 +27533,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -27878,10 +27898,12 @@
       "total_questions": 80,
       "duration_minutes": 180,
       "source_url": "https://training.sap.com/certification/c_activate13",
-      "practice_url": "https://quizforge.ai/tests/sap-certified-associate-activate-project-manager",
+      "practice_url": null,
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null,
       "credential_type": "certification",
       "examination": true
     },
@@ -27965,10 +27987,12 @@
       "total_questions": 80,
       "duration_minutes": 180,
       "source_url": "https://training.sap.com/certification/c_hanatec_19",
-      "practice_url": "https://quizforge.ai/tests/sap-hana-technology-associate-c-hanatec",
+      "practice_url": null,
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "sas-a00-240",
@@ -28340,6 +28364,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -28443,6 +28468,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -29196,7 +29222,8 @@
       "practice_url": "https://quizforge.ai/tests/professional-scrum-master-psm-i",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "scrum-org-psm-ii",
@@ -29226,7 +29253,8 @@
       "practice_url": "https://quizforge.ai/tests/professional-scrum-master-iii-psm-iii-2h6rf5",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "scrum-org-pspo-i",
@@ -29241,7 +29269,8 @@
       "practice_url": "https://quizforge.ai/tests/professional-scrum-product-owner-i-pspo-i-338m06",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "scrum-org-pspo-ii",
@@ -29271,7 +29300,8 @@
       "practice_url": "https://quizforge.ai/tests/professional-scrum-product-owner-iii-pspo-iii-337e3s",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "scrum-org-sps",
@@ -29876,7 +29906,8 @@
       "practice_url": "https://quizforge.ai/tests/servicenow-cis-fsm",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "servicenow-cis-finance",
@@ -30545,6 +30576,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -31514,6 +31546,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
@@ -32389,7 +32422,8 @@
       "practice_url": "https://quizforge.ai/tests/upsc-cds",
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "current"
     },
     {
       "exam_id": "upsc-ese",
@@ -32523,6 +32557,8 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": "2023-10-13",
       "credential_type": "training_program",
       "examination": false
     },
@@ -32818,10 +32854,12 @@
       "total_questions": 50,
       "duration_minutes": 12,
       "source_url": "https://www.wonderlic.com/assessments/ability/wonderlic-personnel-test-revised/",
-      "practice_url": "https://quizforge.ai/tests/wonderlic-personnel-test",
+      "practice_url": null,
       "enriched": false,
       "content_modified_at": null,
-      "verified_at": null
+      "verified_at": null,
+      "lifecycle_status": "retired",
+      "retired_on": null
     },
     {
       "exam_id": "wonderlic-scholastic-level-exam",
@@ -32939,6 +32977,7 @@
       "enriched": false,
       "content_modified_at": null,
       "verified_at": null,
+      "lifecycle_status": "current",
       "credential_type": "certification",
       "examination": true
     },
