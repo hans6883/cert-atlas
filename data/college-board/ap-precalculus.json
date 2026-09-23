@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-precalculus",
   "exam_name": "AP Precalculus",
-  "exam_code": "AP Precalculus",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -75,7 +75,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -103,5 +103,12 @@
     "ap precalculus",
     "ap-precalculus"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-precalculus-31h78a"
+  "practice_url": "https://quizforge.ai/tests/ap-precalculus-31h78a",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:35:33Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-precalculus"
+  }
 }

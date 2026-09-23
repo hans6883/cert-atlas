@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-wa",
   "exam_name": "Washington Driver's License Knowledge Test",
-  "exam_code": "WA",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -105,5 +105,12 @@
     "washington driver s license test",
     "washington permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/washington-drivers-license-knowledge-test-2zih23"
+  "practice_url": "https://quizforge.ai/tests/washington-drivers-license-knowledge-test-2zih23",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:51:37Z",
+    "evidence_url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test"
+  }
 }

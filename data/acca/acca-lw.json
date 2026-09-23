@@ -1,7 +1,7 @@
 {
   "exam_id": "acca-lw",
   "exam_name": "Corporate and Business Law (LW/F4)",
-  "exam_code": "LW/F4",
+  "exam_code": "LW",
   "certifying_body": "ACCA",
   "certification_name": null,
   "version": null,
@@ -221,5 +221,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-02T00:53:28+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:48:06Z",
+    "evidence_url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f4.html"
   }
 }

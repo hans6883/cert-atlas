@@ -342,5 +342,18 @@
         "detail": "Compare an order-entry system with a sales-reporting workload. Describe their transaction and analytical needs, choose a suitable data model for each, and identify which Azure data service categories warrant further study. Explain the decision without treating product names as interchangeable. This is a study aid, not an official exam question or a prediction of your result."
       }
     ]
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"This certification is an opportunity to demonstrate your knowledge of core data concepts and related Microsoft Azure data services.\"",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:06:16Z",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900"
   }
 }

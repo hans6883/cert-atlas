@@ -90,7 +90,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ncbex.org/sites/default/files/2023-01/MPT_Skills_Tested_2023.pdf",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -118,5 +118,12 @@
     "multistate performance test mpt",
     "ncbe-mpt"
   ],
-  "practice_url": "https://quizforge.ai/tests/multistate-performance-test-mpt-2g4yjb"
+  "practice_url": "https://quizforge.ai/tests/multistate-performance-test-mpt-2g4yjb",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:17:21Z",
+    "evidence_url": "https://www.ncbex.org/exams/mpt/about-mpt"
+  }
 }

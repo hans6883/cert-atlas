@@ -1,7 +1,7 @@
 {
   "exam_id": "adobe-analytics-ae",
   "exam_name": "Adobe Analytics Business Practitioner",
-  "exam_code": "AD0-E212",
+  "exam_code": null,
   "certifying_body": "Adobe",
   "certification_name": null,
   "version": null,
@@ -277,5 +277,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-02T00:53:30+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:48:17Z",
+    "evidence_url": "https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/aa/aa-overview"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "api-570-piping-inspection-code-certification",
   "exam_name": "API 570: Piping Inspector Certification",
-  "exam_code": "",
+  "exam_code": "API 570",
   "certifying_body": "American Petroleum Institute (API)",
   "version": null,
   "source_url": "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/570/2026%20Files/Feburary%202026_570_BOK_final.pdf",
@@ -190,5 +190,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T00:14:04+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:52:41Z",
+    "evidence_url": "https://www.api.org/products-and-services/individual-certification-programs/certifications/api570"
+  },
+  "official_objectives_url": "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/570/2027/570_BOK_final_Feb_June 2027.pdf"
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "rics-apc-commercial-property",
   "exam_name": "APC — Commercial Property",
-  "exam_code": "APC Commercial Property",
+  "exam_code": null,
   "certifying_body": "RICS",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.rics.org/content/dam/ricsglobal/documents/join-rics/COMMERCIAL-Real-Estate_January-2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "guidance",
@@ -108,5 +108,18 @@
     "apc commercial property",
     "rics-apc-commercial-property"
   ],
-  "practice_url": "https://quizforge.ai/tests/apc-%E2%80%94-commercial-property-2vr47n"
+  "practice_url": "https://quizforge.ai/tests/apc-%E2%80%94-commercial-property-2vr47n",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"To become a Chartered Member on the Commercial Real Estate pathway, you will be assessed against three Core Competencies and four of the Optional Competencies.\"",
+    "evidence_url": "https://www.rics.org/join-rics/sector-pathways",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:54:47Z",
+    "evidence_url": "https://www.rics.org/join-rics/sector-pathways"
+  }
 }

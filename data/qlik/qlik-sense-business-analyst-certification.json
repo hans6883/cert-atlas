@@ -1,7 +1,7 @@
 {
   "exam_id": "qlik-sense-business-analyst-certification",
   "exam_name": "Qlik Sense Business Analyst Certification",
-  "exam_code": "",
+  "exam_code": "QSBA",
   "certifying_body": "Qlik",
   "version": null,
   "source_url": "https://learning.qlik.com/student/page/2161175-qlik-sense-business-analyst-certification-exam-details",
@@ -171,5 +171,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T00:14:07+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:24:03Z",
+    "evidence_url": "https://learning.qlik.com/student/page/2161175-qlik-sense-business-analyst-certification-e"
+  },
+  "official_objectives_url": "https://learning.qlik.com/student/page/2161175-qlik-sense-business-analyst-certification-e"
 }

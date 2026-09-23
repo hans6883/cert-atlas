@@ -107,7 +107,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.garp.org/scr",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -126,5 +126,18 @@
     "sustainability and climate risk",
     "sustainability and climate risk scr certificate"
   ],
-  "practice_url": "https://quizforge.ai/tests/sustainability-and-climate-risk-scr-certificate-36ozr7"
+  "practice_url": "https://quizforge.ai/tests/sustainability-and-climate-risk-scr-certificate-36ozr7",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Standard registration for the October 2026 SCR Exam is now open.\"",
+    "evidence_url": "https://www.garp.org/scr",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:55:01Z",
+    "evidence_url": "https://www.garp.org/scr"
+  }
 }

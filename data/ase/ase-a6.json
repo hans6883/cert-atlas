@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ase.com/wp-content/uploads/ASE_Automobile_Study_Guide.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -111,5 +111,12 @@
     "ase-a6",
     "electrical electronic systems certification"
   ],
-  "practice_url": "https://quizforge.ai/tests/ase-certification-electrical-electronic-systems-a6"
+  "practice_url": "https://quizforge.ai/tests/ase-certification-electrical-electronic-systems-a6",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:40:56Z",
+    "evidence_url": "https://ase.com/tests/a1-a9/"
+  }
 }

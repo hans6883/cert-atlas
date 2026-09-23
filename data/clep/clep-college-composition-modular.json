@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-college-composition-modular",
   "exam_name": "College Composition Modular",
-  "exam_code": "CCMB",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -254,7 +254,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/college-composition-modular",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -318,5 +318,12 @@
     "clep-college-composition-modular",
     "college composition modular"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-college-composition-modular"
+  "practice_url": "https://quizforge.ai/tests/clep-college-composition-modular",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T08:48:19Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/college-composition-modular"
+  }
 }

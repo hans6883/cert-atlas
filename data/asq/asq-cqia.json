@@ -71,7 +71,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.asq.org/cert/resource/pdf/certification/cqia-cert-insert.pdf",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -191,5 +191,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-02T21:44:58+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:02:20Z",
+    "evidence_url": "https://asq.org/cert/quality-improvement-associate"
   }
 }

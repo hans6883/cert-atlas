@@ -1,7 +1,7 @@
 {
   "exam_id": "icaew-aca-professional-level-business-planning",
   "exam_name": "ACA Professional Level: Business Planning: Taxation",
-  "exam_code": "BPT",
+  "exam_code": null,
   "certifying_body": "ICAEW",
   "certification_name": null,
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.icaew.com/-/media/corporate/files/learning-and-development/aca-syllabus/business-planning/2025-aca-syllabus-handbook-professional-business-planning-taxation.ashx",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -231,5 +231,12 @@
     "summary": "ICAEW retires BPT on 2026-09-30. Fundamental Case Study is the named replacement path.",
     "evidence_url": "https://www.icaew.com/learning-and-development/aca/employers/support-hub/transitional-arrangements",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:00:51Z",
+    "evidence_url": "https://www.icaew.com/students/exams/exam-resources/professional-level/business-planning/business-planning-taxation"
   }
 }

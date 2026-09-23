@@ -1,7 +1,7 @@
 {
   "exam_id": "abrsm-grade8-theory",
   "exam_name": "ABRSM Grade 8 Music Theory",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "ABRSM (Associated Board of the Royal Schools of Music)",
   "version": null,
   "source_url": "https://www.abrsm.org/sites/default/files/2023-09/Music%20Theory%20Qual%20Spec%20April%202023%20%5B2023%20rebrand%5D.pdf",
@@ -171,5 +171,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:21:58+00:00"
-  }
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:48:11Z",
+    "evidence_url": "https://www.abrsm.org/en-gb/music-theory/about-music-theory"
+  },
+  "official_objectives_url": "https://www.abrsm.org/sites/default/files/2023-09/Music%20Theory%20Qual%20Spec%20April%202023%20%5B2023%20rebrand%5D.pdf"
 }

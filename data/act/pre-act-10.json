@@ -1,7 +1,7 @@
 {
   "exam_id": "pre-act-10",
   "exam_name": "PreACT 10",
-  "exam_code": "PreACT 10",
+  "exam_code": null,
   "certifying_body": "ACT",
   "certification_name": null,
   "version": null,
@@ -97,5 +97,12 @@
     "preact 10",
     "preact for 10th grade"
   ],
-  "practice_url": "https://quizforge.ai/tests/preact-10-2jxja5"
+  "practice_url": "https://quizforge.ai/tests/preact-10-2jxja5",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:29:59Z",
+    "evidence_url": "https://www.act.org/content/act/en/products-and-services/preact.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "safe-mlo",
   "exam_name": "SAFE MLO Test — National Component (UST)",
-  "exam_code": "UST",
+  "exam_code": null,
   "certifying_body": "NMLS",
   "certification_name": null,
   "version": null,
@@ -80,7 +80,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://mortgage.nationwidelicensingsystem.org/knowledge/products/nmls/pubs/testingHbk/education/mlo_testing/mlo_test_faq/mlo_testing_hbk_testOutline-1.html",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -103,5 +103,12 @@
     "safe-mlo",
     "ust"
   ],
-  "practice_url": "https://quizforge.ai/tests/safe-mlo-test-%E2%80%94-national-component-ust-2lnq5n"
+  "practice_url": "https://quizforge.ai/tests/safe-mlo-test-%E2%80%94-national-component-ust-2lnq5n",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:19:00Z",
+    "evidence_url": "https://mortgage.nationwidelicensingsystem.org/knowledge/products/nmls/pubs/testingHbk/education/mlo_testing/mlo_test_guide/mlo_testing_hbk_testprep.html"
+  }
 }

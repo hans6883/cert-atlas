@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certification.opengroup.org/docs/datasheets/archimate-exams.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -109,5 +109,12 @@
     "oga-032",
     "open-group-archimate-certified"
   ],
-  "practice_url": "https://quizforge.ai/tests/archimate%C2%AE-3-certified-2gidfi"
+  "practice_url": "https://quizforge.ai/tests/archimate%C2%AE-3-certified-2gidfi",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:52:40Z",
+    "evidence_url": "https://www.opengroup.org/certifications/archimate-individual-certification"
+  }
 }

@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ahima.org/media/qjnjvl5t/chps_contentoutline_2022_final.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -88,5 +88,12 @@
     "chps",
     "healthcare privacy security"
   ],
-  "practice_url": "https://quizforge.ai/tests/chps-certified-healthcare-privacy-security"
+  "practice_url": "https://quizforge.ai/tests/chps-certified-healthcare-privacy-security",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:59:03Z",
+    "evidence_url": "https://www.ahima.org/certification-careers/certifications-overview/chps/"
+  }
 }

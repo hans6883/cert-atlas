@@ -1,7 +1,7 @@
 {
   "exam_id": "servsafe-alcohol-primary",
   "exam_name": "ServSafe Alcohol Primary",
-  "exam_code": "ServSafe Alc-P",
+  "exam_code": null,
   "certifying_body": "ServSafe",
   "certification_name": null,
   "version": null,
@@ -110,5 +110,12 @@
     "servsafe rbs",
     "servsafe-alcohol-primary"
   ],
-  "practice_url": "https://quizforge.ai/tests/servsafe-alcohol-primary-2kwwd8"
+  "practice_url": "https://quizforge.ai/tests/servsafe-alcohol-primary-2kwwd8",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:35:36Z",
+    "evidence_url": "https://www.servsafe.com/ServSafe-Alcohol/Get-Certified"
+  }
 }

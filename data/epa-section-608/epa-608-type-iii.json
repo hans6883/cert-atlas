@@ -1,7 +1,7 @@
 {
   "exam_id": "epa-608-type-iii",
   "exam_name": "EPA 608 Type III — Low-Pressure Systems",
-  "exam_code": "EPA-608-III",
+  "exam_code": null,
   "certifying_body": "EPA Section 608",
   "certification_name": null,
   "version": null,
@@ -88,7 +88,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.epa.gov/section608/test-topics",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -118,5 +118,12 @@
     "low-pressure refrigerant certification",
     "section 608 type iii"
   ],
-  "practice_url": "https://quizforge.ai/tests/epa-608-type-iii-%E2%80%94-low-pressure-systems-2yu32g"
+  "practice_url": "https://quizforge.ai/tests/epa-608-type-iii-%E2%80%94-low-pressure-systems-2yu32g",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:59:20Z",
+    "evidence_url": "https://www.epa.gov/section608/section-608-technician-certification-0"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "github-copilot",
   "exam_name": "GitHub Copilot",
-  "exam_code": "GitHub-Copilot",
+  "exam_code": null,
   "certifying_body": "GitHub",
   "certification_name": null,
   "version": null,
@@ -78,7 +78,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -105,5 +105,12 @@
     "github copilot certification",
     "github-copilot"
   ],
-  "practice_url": "https://quizforge.ai/tests/github-copilot-2hfapu"
+  "practice_url": "https://quizforge.ai/tests/github-copilot-2hfapu",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:52:20Z",
+    "evidence_url": "https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications/about-github-certifications"
+  }
 }

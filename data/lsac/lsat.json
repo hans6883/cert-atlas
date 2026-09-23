@@ -111,5 +111,12 @@
     "lsac exam",
     "lsat exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/lsac-lsat"
+  "practice_url": "https://quizforge.ai/tests/lsac-lsat",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T08:49:02Z",
+    "evidence_url": "https://www.lsac.org/lsat"
+  }
 }

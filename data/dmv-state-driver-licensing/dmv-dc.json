@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-dc",
   "exam_name": "District of Columbia Driver's License Knowledge Test",
-  "exam_code": "DC",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -104,5 +104,12 @@
     "dmv-dc",
     "washington dc driver s license test"
   ],
-  "practice_url": "https://quizforge.ai/tests/district-of-columbia-drivers-license-knowledge-test-30rlc9"
+  "practice_url": "https://quizforge.ai/tests/district-of-columbia-drivers-license-knowledge-test-30rlc9",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:13:13Z",
+    "evidence_url": "https://dmv.dc.gov/es/service/knowledge-test"
+  }
 }

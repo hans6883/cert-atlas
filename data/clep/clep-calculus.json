@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-calculus",
   "exam_name": "Calculus",
-  "exam_code": "CALC",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -148,7 +148,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://www.collegeboard.org/",
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/calculus",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -212,5 +212,12 @@
     "clep calculus",
     "clep-calculus"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-calculus"
+  "practice_url": "https://quizforge.ai/tests/clep-calculus",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T07:51:25Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/calculus"
+  }
 }

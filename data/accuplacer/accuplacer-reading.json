@@ -1,7 +1,7 @@
 {
   "exam_id": "accuplacer-reading",
   "exam_name": "ACCUPLACER Reading",
-  "exam_code": "NG-READING",
+  "exam_code": null,
   "certifying_body": "ACCUPLACER",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://accuplacer.collegeboard.org/accuplacer/pdf/next-generation-test-specifications-manual.pdf",
   "official_study_resources": [],
   "aliases": [
     "accuplacer next-generation reading",
@@ -70,5 +70,18 @@
     "ng reading",
     "ng-reading"
   ],
-  "practice_url": "https://quizforge.ai/tests/accuplacer-reading"
+  "practice_url": "https://quizforge.ai/tests/accuplacer-reading",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The Reading test assesses the test taker’s ability to derive meaning from a range of texts and to determine the meaning of words and phrases in short and extended contexts.\"",
+    "evidence_url": "https://accuplacer.collegeboard.org/educators/whats-on-tests",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T06:22:45Z",
+    "evidence_url": "https://accuplacer.collegeboard.org/educators/whats-on-tests"
+  }
 }

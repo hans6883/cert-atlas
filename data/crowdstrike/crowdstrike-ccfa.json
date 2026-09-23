@@ -92,7 +92,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://assets.crowdstrike.com/is/content/crowdstrikeinc/ccfa-certification-guidepdf",
   "official_study_resources": [],
   "aliases": [
     "ccfa",
@@ -101,5 +101,12 @@
     "crowdstrike-ccfa",
     "falcon administrator"
   ],
-  "practice_url": "https://quizforge.ai/tests/crowdstrike-certified-falcon-administrator-ccfa"
+  "practice_url": "https://quizforge.ai/tests/crowdstrike-certified-falcon-administrator-ccfa",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:25:39Z",
+    "evidence_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
+  }
 }

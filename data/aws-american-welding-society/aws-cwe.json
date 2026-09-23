@@ -71,7 +71,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aws.org/certification-and-education/professional-certification/certified-welding-educator/",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -98,5 +98,12 @@
     "certified welding educator",
     "welding educator"
   ],
-  "practice_url": "https://quizforge.ai/?q=Certified%20Welding%20Educator%20%28CWE%29"
+  "practice_url": "https://quizforge.ai/?q=Certified%20Welding%20Educator%20%28CWE%29",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:28:42Z",
+    "evidence_url": "https://www.aws.org/certification-and-education/professional-certification/certified-welding-educator/"
+  }
 }

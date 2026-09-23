@@ -1,7 +1,7 @@
 {
   "exam_id": "cima-scs",
   "exam_name": "Strategic Case Study (SCS)",
-  "exam_code": "SCS",
+  "exam_code": null,
   "certifying_body": "CIMA",
   "certification_name": null,
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://myfuture.cimaglobal.com/study-routes/the-self-tailored-learning-pathway/",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -107,5 +107,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-18: \"Resources to help you prepare for your case study exam.\"",
     "evidence_url": "https://hub.cimaglobal.com/proqual/2019/strategic/case-study",
     "verified_at": "2026-09-19T06:01:09Z"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:41:07Z",
+    "evidence_url": "https://myfuture.cimaglobal.com/study-routes/the-self-tailored-learning-pathway/"
   }
 }

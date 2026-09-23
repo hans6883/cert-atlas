@@ -79,7 +79,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.iccsafe.org/wp-content/uploads/e1_content.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -108,5 +108,12 @@
     "icc electrical inspector",
     "icc-e1-electrical"
   ],
-  "practice_url": "https://quizforge.ai/tests/icc-e1-electrical"
+  "practice_url": "https://quizforge.ai/tests/icc-e1-electrical",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:02:21Z",
+    "evidence_url": "https://www.iccsafe.org/professional-development/icc-iaei-electrical-inspector-joint-certification-program/"
+  }
 }

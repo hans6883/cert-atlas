@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-ai-specialist",
   "exam_name": "Salesforce Certified AI Specialist",
-  "exam_code": "AI Specialist",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Agentforce Specialist",
   "version": "Spring ’26",
@@ -224,7 +224,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://help.salesforce.com/s/articleView?id=005298924&language=en_US&type=1",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -253,5 +253,12 @@
     "salesforce certified ai specialist",
     "salesforce-ai-specialist"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-ai-specialist-38q5q5"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-ai-specialist-38q5q5",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:00:10Z",
+    "evidence_url": "https://help.salesforce.com/s/articleView?id=005298924&language=en_US&type=1"
+  }
 }

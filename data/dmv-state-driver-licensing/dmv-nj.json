@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-nj",
   "exam_name": "New Jersey Driver's License Knowledge Test",
-  "exam_code": "NJ",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nj.gov/mvc/about/manuals.htm",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,18 @@
     "nj",
     "nj dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/new-jersey-drivers-license-knowledge-test-301zg8"
+  "practice_url": "https://quizforge.ai/tests/new-jersey-drivers-license-knowledge-test-301zg8",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Make an appointment for your knowledge test after purchase of an examination permit.\"",
+    "evidence_url": "https://www.nj.gov/mvc/license/knowledgetest.htm",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:59:36Z",
+    "evidence_url": "https://www.nj.gov/mvc/license/knowledgetest.htm"
+  }
 }

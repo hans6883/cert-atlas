@@ -104,7 +104,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.checkpoint.com/downloads/training/CCSA-Exam-Prep-Guide.pdf",
   "official_study_resources": [],
   "aliases": [
     "156-215 81 20",
@@ -297,5 +297,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:27+00:00"
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Start with Certified Security Administrator (CCSA) to build core skills in managing Check Point security solutions.\"",
+    "evidence_url": "https://www.checkpoint.com/services/training/certification-program/",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:50:57Z",
+    "evidence_url": "https://www.checkpoint.com/downloads/training/CCSA-Exam-Prep-Guide.pdf"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ged-reasoning-through-language-arts",
   "exam_name": "GED Reasoning Through Language Arts",
-  "exam_code": "GED-RLA",
+  "exam_code": "RLA",
   "certifying_body": "GED Testing Service",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ged.com/content/dam/websites/ged/resources/en/assessment-guide-for-educators-rla.pdf",
   "official_study_resources": [],
   "aliases": [
     "ged english",
@@ -65,5 +65,12 @@
     "ged-reasoning-through-language-arts",
     "ged-rla"
   ],
-  "practice_url": "https://quizforge.ai/tests/ged-reasoning-through-language-arts"
+  "practice_url": "https://quizforge.ai/tests/ged-reasoning-through-language-arts",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:26:47Z",
+    "evidence_url": "https://www.ged.com/about_test/test_subjects/language_arts"
+  }
 }

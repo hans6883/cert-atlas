@@ -1,7 +1,7 @@
 {
   "exam_id": "soa-exam-srm",
   "exam_name": "Exam SRM (Statistics for Risk Modeling)",
-  "exam_code": "EXAM-SRM",
+  "exam_code": "SRM",
   "certifying_body": "Society of Actuaries",
   "certification_name": null,
   "version": null,
@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.soa.org/globalassets/assets/files/edu/2026/fall/syllabi/2026-09-exam-srm-syllabus.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -85,5 +85,12 @@
     "soa-exam-srm",
     "statistics for risk modeling"
   ],
-  "practice_url": "https://quizforge.ai/tests/soa-exam-srm"
+  "practice_url": "https://quizforge.ai/tests/soa-exam-srm",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:12:46Z",
+    "evidence_url": "https://www.soa.org/education/exam-req/edu-exam-srm-detail/"
+  }
 }

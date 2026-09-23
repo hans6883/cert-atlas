@@ -1,7 +1,7 @@
 {
   "exam_id": "google_cloud-professional-chromeos-administrator",
   "exam_name": "Professional ChromeOS Administrator",
-  "exam_code": "Professional ChromeOS Administrator",
+  "exam_code": null,
   "certifying_body": "Google",
   "certification_name": "Professional ChromeOS Administrator",
   "source_url": "https://www.chromeoscertification.com/chromeos-administrator",
@@ -38,5 +38,12 @@
   "aliases": [
     "professional chromeos administrator"
   ],
-  "practice_url": "https://quizforge.ai/tests/professional-chromeos-administrator-2pr9zx"
+  "practice_url": "https://quizforge.ai/tests/professional-chromeos-administrator-2pr9zx",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:21:37Z",
+    "evidence_url": "https://cloud.google.com/blog/products/chrome-enterprise/become-certified-chromeos-administrator/"
+  }
 }

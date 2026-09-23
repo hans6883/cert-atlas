@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-ne",
   "exam_name": "Nebraska Driver's License Knowledge Test",
-  "exam_code": "NE",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -104,5 +104,12 @@
     "nebraska driver s license test",
     "nebraska permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/nebraska-drivers-license-knowledge-test-305n5d"
+  "practice_url": "https://quizforge.ai/tests/nebraska-drivers-license-knowledge-test-305n5d",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:22:24Z",
+    "evidence_url": "https://dmv.nebraska.gov/dl/practice-drivers-license-exam"
+  }
 }

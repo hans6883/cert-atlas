@@ -1,7 +1,7 @@
 {
   "exam_id": "aswb-bachelors",
   "exam_name": "ASWB Bachelor's Examination (BSW Licensing)",
-  "exam_code": "ASWB-BSW",
+  "exam_code": "Bachelors",
   "certifying_body": "ASWB",
   "certification_name": null,
   "version": null,
@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aswb.org/wp-content/uploads/2026/05/2026-Social-Work-Licensing-Exam-Guidebook-5.4.2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -103,5 +103,12 @@
     "bachelor s social work exam",
     "bsw exam"
   ],
-  "practice_url": "https://quizforge.ai/tests/aswb-bachelor-social-work-exam-bsw"
+  "practice_url": "https://quizforge.ai/tests/aswb-bachelor-social-work-exam-bsw",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:33:17Z",
+    "evidence_url": "https://www.aswb.org/exam/"
+  }
 }

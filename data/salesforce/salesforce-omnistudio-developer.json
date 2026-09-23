@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-omnistudio-developer",
   "exam_name": "Salesforce Certified OmniStudio Developer",
-  "exam_code": "OmniStudio Developer",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Omnistudio Developer",
   "version": "Exam questions align to the Spring '26 release",
@@ -351,5 +351,12 @@
     "salesforce-omnistudio-developer",
     "vlocity developer"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-omnistudio-developer-2em323"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-omnistudio-developer-2em323",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:48:20Z",
+    "evidence_url": "https://trailhead.salesforce.com/credentials/omnistudiodeveloper"
+  }
 }

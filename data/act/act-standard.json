@@ -1,7 +1,7 @@
 {
   "exam_id": "act-standard",
   "exam_name": "ACT",
-  "exam_code": "ACT",
+  "exam_code": null,
   "certifying_body": "ACT",
   "certification_name": null,
   "version": null,
@@ -69,7 +69,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/act-exam-sections-and-structure.html",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -97,5 +97,12 @@
     "act-standard",
     "american college testing"
   ],
-  "practice_url": "https://quizforge.ai/?q=ACT"
+  "practice_url": "https://quizforge.ai/?q=ACT",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T12:40:23Z",
+    "evidence_url": "https://www.act.org/content/act/en/products-and-services/the-act.html"
+  }
 }

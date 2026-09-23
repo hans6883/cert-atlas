@@ -130,7 +130,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.offensive-security.com/osed/",
+  "official_objectives_url": "https://manage.offsec.com/app/uploads/2023/01/EXP-301-Syllabus-Google-Docs.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -147,5 +147,18 @@
     "offsec-osed-exp-301",
     "osed"
   ],
-  "practice_url": "https://quizforge.ai/tests/offsec-exploit-developer-osed-2dqdo5"
+  "practice_url": "https://quizforge.ai/tests/offsec-exploit-developer-osed-2dqdo5",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The OffSec Exploit Developer certification validates expertise in advanced exploit development techniques, including reverse engineering, writing shellcode, and bypassing modern mitigations\"",
+    "evidence_url": "https://www.offsec.com/courses/exp-301/",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:22:06Z",
+    "evidence_url": "https://www.offsec.com/courses/exp-301/"
+  }
 }

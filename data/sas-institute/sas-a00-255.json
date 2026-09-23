@@ -1,7 +1,7 @@
 {
   "exam_id": "sas-a00-255",
   "exam_name": "SAS Certified Specialist: Visual Business Analytics",
-  "exam_code": "A00-255",
+  "exam_code": "A00-470",
   "certifying_body": "SAS Institute",
   "certification_name": null,
   "version": null,
@@ -78,7 +78,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.sas.com/en_us/certification/exam-content-guides/visual-business-analytics.html",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -107,5 +107,12 @@
     "sas visual business analytics",
     "sas-a00-255"
   ],
-  "practice_url": "https://quizforge.ai/tests/sas-certified-specialist-visual-business-analytics-2eya1x"
+  "practice_url": "https://quizforge.ai/tests/sas-certified-specialist-visual-business-analytics-2eya1x",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:07:10Z",
+    "evidence_url": "https://www.sas.com/en_us/certification/credentials/bi-analytics/visual-business-analytics.html"
+  }
 }

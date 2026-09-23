@@ -79,7 +79,7 @@
       "weight_max": 20.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aicpa-cima.com/resources/download/learn-what-is-tested-on-the-cpa-exam",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -106,5 +106,12 @@
     "cpa tcp",
     "tcp"
   ],
-  "practice_url": "https://quizforge.ai/tests/cpa-tax-compliance-planning-tcp"
+  "practice_url": "https://quizforge.ai/tests/cpa-tax-compliance-planning-tcp",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:59:06Z",
+    "evidence_url": "https://www.aicpa-cima.com/resources/toolkit/cpa-exam"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "aws-cwi-recertification",
   "exam_name": "CWI Recertification",
-  "exam_code": "CWI-Recert",
+  "exam_code": null,
   "certifying_body": "AWS - American Welding Society",
   "certification_name": null,
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://aws-p-001-delivery.sitecorecontenthub.cloud/api/public/content/CWI-Part-B-Practical-Exam-Info-Guide",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -111,5 +111,18 @@
     "cwi renewal",
     "cwi-recert"
   ],
-  "practice_url": "https://quizforge.ai/tests/cwi-recertification-2nf4xj"
+  "practice_url": "https://quizforge.ai/tests/cwi-recertification-2nf4xj",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Certified Welding Inspectors (CWIs) have several options for recertification at the end of their 9-year certification period.\"",
+    "evidence_url": "https://www.aws.org/CWI",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:06:57Z",
+    "evidence_url": "https://www.aws.org/certification-and-education/professional-certification/certified-welding-inspector/"
+  }
 }

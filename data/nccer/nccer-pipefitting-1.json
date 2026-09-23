@@ -1,7 +1,7 @@
 {
   "exam_id": "nccer-pipefitting-1",
   "exam_name": "NCCER Pipefitting Level 1",
-  "exam_code": "NCCER-PIPE1",
+  "exam_code": null,
   "certifying_body": "NCCER",
   "certification_name": null,
   "version": null,
@@ -81,5 +81,12 @@
     "nccer-pipe1",
     "nccer-pipefitting-1"
   ],
-  "practice_url": "https://quizforge.ai/tests/nccer-pipefitting-1"
+  "practice_url": "https://quizforge.ai/tests/nccer-pipefitting-1",
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T08:14:56Z",
+    "evidence_url": "https://www.nccer.org/nccer-level-tests/"
+  }
 }

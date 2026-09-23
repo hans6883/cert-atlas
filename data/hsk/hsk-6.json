@@ -1,7 +1,7 @@
 {
   "exam_id": "hsk-6",
   "exam_name": "HSK Level 6 (六级)",
-  "exam_code": "HSK 6",
+  "exam_code": null,
   "certifying_body": "HSK",
   "certification_name": null,
   "version": null,
@@ -68,7 +68,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.chinesetest.cn/userfiles/file/dagang/HSK6.pdf",
   "official_study_resources": [
     {
       "resource_type": "syllabus",
@@ -94,5 +94,12 @@
     "hsk level 6 六级",
     "hsk-6"
   ],
-  "practice_url": "https://quizforge.ai/tests/hsk-level-6-%E5%85%AD%E7%BA%A7-2oucpm"
+  "practice_url": "https://quizforge.ai/tests/hsk-level-6-%E5%85%AD%E7%BA%A7-2oucpm",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T10:47:07Z",
+    "evidence_url": "https://www.chinesetest.cn/HSK/6"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ancc-acns-bc",
   "exam_name": "Adult-Gerontology Clinical Nurse Specialist, Board Certified (ACNS-BC)",
-  "exam_code": "ACNS-BC",
+  "exam_code": "AGCNS-BC",
   "certifying_body": "ANCC",
   "certification_name": null,
   "version": null,
@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nursingworld.org/globalassets/agcns-tco_08292025-for-webposting.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -277,5 +277,12 @@
     "summary": "ANCC retired ACNS-BC. AGCNS-BC is the named replacement path.",
     "evidence_url": "https://www.nursingworld.org/certification/certification-policies/certification-credentials/",
     "verified_at": "2026-08-27T06:56:26.491969+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:04:42Z",
+    "evidence_url": "https://www.nursingworld.org/our-certifications/adult-gerontology-clinical-nurse-specialist"
   }
 }

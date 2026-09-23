@@ -1,7 +1,7 @@
 {
   "exam_id": "accuplacer-writing",
   "exam_name": "ACCUPLACER Writing",
-  "exam_code": "NG-WRITING",
+  "exam_code": null,
   "certifying_body": "ACCUPLACER",
   "certification_name": null,
   "version": null,
@@ -49,7 +49,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://accuplacer.collegeboard.org/accuplacer/pdf/next-generation-test-specifications-manual.pdf",
   "official_study_resources": [],
   "aliases": [
     "accuplacer next-generation writing",
@@ -58,5 +58,12 @@
     "ng writing",
     "ng-writing"
   ],
-  "practice_url": "https://quizforge.ai/tests/accuplacer-writing"
+  "practice_url": "https://quizforge.ai/tests/accuplacer-writing",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T07:19:01Z",
+    "evidence_url": "https://accuplacer.collegeboard.org/students/prepare-for-accuplacer/whats-on-tests"
+  }
 }

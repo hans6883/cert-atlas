@@ -1,7 +1,7 @@
 {
   "exam_id": "atlassian-acp-420",
   "exam_name": "Atlassian Certified Jira Software Administrator for Cloud",
-  "exam_code": "ACP-420",
+  "exam_code": null,
   "certifying_body": "Atlassian",
   "certification_name": null,
   "version": null,
@@ -97,5 +97,12 @@
     "jira cloud admin",
     "jira software administrator cloud"
   ],
-  "practice_url": "https://quizforge.ai/tests/atlassian-certified-jira-software-administrator-for-cloud-32p3m2"
+  "practice_url": "https://quizforge.ai/tests/atlassian-certified-jira-software-administrator-for-cloud-32p3m2",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:45:58Z",
+    "evidence_url": "https://community.atlassian.com/learning/certifications/jira-administration-for-cloud"
+  }
 }

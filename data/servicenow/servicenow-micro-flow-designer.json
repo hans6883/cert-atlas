@@ -1,7 +1,7 @@
 {
   "exam_id": "servicenow-micro-flow-designer",
   "exam_name": "ServiceNow Micro-Certification – Flow Designer",
-  "exam_code": "Micro-FlowDesigner",
+  "exam_code": null,
   "certifying_body": "ServiceNow",
   "certification_name": null,
   "version": null,
@@ -85,7 +85,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://learning.servicenow.com/kb_view.do?sys_kb_id=47530496c32d86941ac0f60f05013172",
+  "official_objectives_url": "https://learning.servicenow.com/lxp/en/credentials/micro-certification-blueprint-flow-designer?id=kb_article_view&sysparm_article=KB0011784",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -106,5 +106,12 @@
     "servicenow micro-certification flow designer",
     "servicenow-micro-flow-designer"
   ],
-  "practice_url": "https://quizforge.ai/tests/servicenow-micro-certification-%E2%80%93-flow-designer-2e50gq"
+  "practice_url": "https://quizforge.ai/tests/servicenow-micro-certification-%E2%80%93-flow-designer-2e50gq",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:00:23Z",
+    "evidence_url": "https://learning.servicenow.com/lxp/en/credentials/micro-certification-blueprint-flow-designer?id=kb_article_view&sysparm_article=KB0011784"
+  }
 }

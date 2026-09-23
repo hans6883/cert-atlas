@@ -1,7 +1,7 @@
 {
   "exam_id": "ftce-professional-education",
   "exam_name": "FTCE Professional Education (PEd)",
-  "exam_code": "FTCE-PED",
+  "exam_code": "083",
   "certifying_body": "FTCE",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.fl.nesinc.com/studyguide/TIG_083/intro.asp",
   "official_study_resources": [],
   "aliases": [
     "ftce ped",
@@ -82,5 +82,12 @@
     "ftce-ped",
     "ftce-professional-education"
   ],
-  "practice_url": "https://quizforge.ai/tests/ftce-professional-education"
+  "practice_url": "https://quizforge.ai/tests/ftce-professional-education",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:49:02Z",
+    "evidence_url": "https://www.fl.nesinc.com/testPage.asp?test=PET"
+  }
 }

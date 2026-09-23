@@ -121,7 +121,7 @@
       ]
     }
   ],
-  "official_objectives_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate/",
+  "official_objectives_url": "https://training.linuxfoundation.org/kcna-program-changes/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -151,5 +151,12 @@
     "kubernetes associate",
     "認定kubernetesクラウドネイティブアソシエイト kcna-jp"
   ],
-  "practice_url": "https://quizforge.ai/tests/cncf-kubernetes-and-cloud-native-associate-kcna"
+  "practice_url": "https://quizforge.ai/tests/cncf-kubernetes-and-cloud-native-associate-kcna",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:42:42Z",
+    "evidence_url": "https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"
+  }
 }

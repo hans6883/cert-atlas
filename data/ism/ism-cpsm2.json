@@ -1,7 +1,7 @@
 {
   "exam_id": "ism-cpsm2",
   "exam_name": "CPSM Exam 2 — Effective Supply Management Performance",
-  "exam_code": "CPSM2",
+  "exam_code": null,
   "certifying_body": "ISM",
   "certification_name": null,
   "version": null,
@@ -86,7 +86,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ismworld.org/globalassets/pub/docs/290-exam-specifications.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -116,5 +116,12 @@
     "effective supply management performance",
     "ism-cpsm2"
   ],
-  "practice_url": "https://quizforge.ai/tests/cpsm-exam-2-%E2%80%94-effective-supply-management-performance-2h4bme"
+  "practice_url": "https://quizforge.ai/tests/cpsm-exam-2-%E2%80%94-effective-supply-management-performance-2h4bme",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:46:39Z",
+    "evidence_url": "https://www.ismworld.org/globalassets/pub/docs/certification--handbook2.pdf"
+  }
 }

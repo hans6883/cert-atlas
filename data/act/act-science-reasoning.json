@@ -1,7 +1,7 @@
 {
   "exam_id": "act-science-reasoning",
   "exam_name": "ACT Science Reasoning",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "ACT",
   "version": null,
   "source_url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-science-test.html",
@@ -151,5 +151,19 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:58+00:00"
-  }
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The science section measures the interpretation, analysis, evaluation, reasoning, and problem-solving skills required in the natural sciences.\"",
+    "evidence_url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-science-test.html",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T06:55:44Z",
+    "evidence_url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-science-test.html"
+  },
+  "official_objectives_url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-science-test.html"
 }

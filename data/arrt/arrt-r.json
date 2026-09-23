@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.arrt.org/Content-Specifications",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -99,5 +99,12 @@
     "registered technologist - r t",
     "rt r"
   ],
-  "practice_url": "https://quizforge.ai/tests/arrt-radiography-certification-examination"
+  "practice_url": "https://quizforge.ai/tests/arrt-radiography-certification-examination",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:40:26Z",
+    "evidence_url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography"
+  }
 }

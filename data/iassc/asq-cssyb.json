@@ -90,7 +90,7 @@
       "weight_max": 17.5
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://asq.org/cert/resource/pdf/certification/cssyb-cert-insert.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -122,5 +122,18 @@
     "cssyb",
     "six sigma yellow belt"
   ],
-  "practice_url": "https://quizforge.ai/tests/asq-certified-six-sigma-yellow-belt-cssyb-2lmi99"
+  "practice_url": "https://quizforge.ai/tests/asq-certified-six-sigma-yellow-belt-cssyb-2lmi99",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Computer Delivered - The CSSYB examination is a one-part, 90-question, 2 hour and 18 minutes exam and is offered in English only.\"",
+    "evidence_url": "https://asq.org/cert/six-sigma-yellow-belt",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:59:25Z",
+    "evidence_url": "https://asq.org/cert/six-sigma-yellow-belt"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "cips-level4-diploma",
   "exam_name": "CIPS Level 4 Diploma in Procurement and Supply",
-  "exam_code": "L4 Diploma",
+  "exam_code": null,
   "certifying_body": "CIPS",
   "certification_name": null,
   "version": null,
@@ -83,7 +83,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cips.org/qualifications/diploma-in-procurement-supply",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -100,5 +100,12 @@
     "cips-level4-diploma",
     "l4 diploma"
   ],
-  "practice_url": "https://quizforge.ai/tests/cips-level-4-diploma-procurement-supply"
+  "practice_url": "https://quizforge.ai/tests/cips-level-4-diploma-procurement-supply",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:42:42Z",
+    "evidence_url": "https://www.cips.org/qualifications/diploma-in-procurement-supply"
+  }
 }

@@ -84,7 +84,7 @@
       "weight_max": 59.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.arrt.org/Content-Specifications",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -236,5 +236,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:22+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:40:25Z",
+    "evidence_url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/nuclear-medicine-technology"
   }
 }

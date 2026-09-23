@@ -1,7 +1,7 @@
 {
   "exam_id": "cia-part-1",
   "exam_name": "CIA Exam Part 1 — Foundations of Internal Auditing",
-  "exam_code": "CIA-P1",
+  "exam_code": null,
   "certifying_body": "IIA",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.theiia.org/globalassets/site/certifications/certified-internal-auditor/cia-exam-why-how-and-what-is-changing/cia-part-1-syllabus.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -104,5 +104,12 @@
     "cia-part-1-certified-internal-auditor-essentials",
     "foundations of internal auditing"
   ],
-  "practice_url": "https://quizforge.ai/tests/cia-part-1-certified-internal-auditor-essentials"
+  "practice_url": "https://quizforge.ai/tests/cia-part-1-certified-internal-auditor-essentials",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:13:06Z",
+    "evidence_url": "https://www.theiia.org/en/certifications/cia/"
+  }
 }

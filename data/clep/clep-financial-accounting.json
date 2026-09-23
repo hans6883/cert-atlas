@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-financial-accounting",
   "exam_name": "Financial Accounting",
-  "exam_code": "FINAC",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -226,7 +226,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/financial-accounting",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -245,5 +245,12 @@
     "financial accounting",
     "financial accounting clep"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-financial-accounting"
+  "practice_url": "https://quizforge.ai/tests/clep-financial-accounting",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T08:13:30Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/financial-accounting"
+  }
 }

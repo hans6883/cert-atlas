@@ -1,7 +1,7 @@
 {
   "exam_id": "nascla-commercial-general",
   "exam_name": "NASCLA Accredited General Contractor Commercial Exam",
-  "exam_code": "NASCLA-GC",
+  "exam_code": null,
   "certifying_body": "NASCLA",
   "certification_name": null,
   "version": null,
@@ -291,5 +291,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:18:10+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:02:59Z",
+    "evidence_url": "https://www.nascla.org/nascla-commercial-exam"
   }
 }

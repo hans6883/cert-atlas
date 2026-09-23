@@ -1,7 +1,7 @@
 {
   "exam_id": "ftce-english-6-12",
   "exam_name": "FTCE English 6-12 Subject Area",
-  "exam_code": "FTCE-ENG",
+  "exam_code": "013",
   "certifying_body": "FTCE",
   "certification_name": null,
   "version": null,
@@ -55,7 +55,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.fl.nesinc.com/studyguide/FL_SG_about_013_redev.asp",
   "official_study_resources": [],
   "aliases": [
     "ftce english",
@@ -64,5 +64,12 @@
     "ftce-eng",
     "ftce-english-6-12"
   ],
-  "practice_url": "https://quizforge.ai/tests/ftce-english-6-12"
+  "practice_url": "https://quizforge.ai/tests/ftce-english-6-12",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:14:05Z",
+    "evidence_url": "https://www.fl.nesinc.com/testPage.asp?test=013"
+  }
 }

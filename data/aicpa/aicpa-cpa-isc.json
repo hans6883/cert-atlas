@@ -71,7 +71,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aicpa-cima.com/resources/download/learn-what-is-tested-on-the-cpa-exam",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -104,5 +104,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-17: \"The Discipline sections are Business Analysis and Reporting (BAR), Information Systems and Control (ISC), and Tax Compliance and Planning (TCP).\"",
     "evidence_url": "https://www.aicpa-cima.com/resources/toolkit/cpa-exam",
     "verified_at": "2026-09-18T03:55:42Z"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:59:06Z",
+    "evidence_url": "https://www.aicpa-cima.com/resources/toolkit/cpa-exam"
   }
 }

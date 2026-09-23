@@ -1,7 +1,7 @@
 {
   "exam_id": "nutanix-ncp-db",
   "exam_name": "NCP-DB (Nutanix Certified Professional - Database Automation)",
-  "exam_code": "NCP-DB-6.10",
+  "exam_code": "NCP-DB",
   "certifying_body": "Nutanix",
   "certification_name": null,
   "version": null,
@@ -93,5 +93,18 @@
     "nutanix ncp-db",
     "nutanix-ncp-db"
   ],
-  "practice_url": "https://quizforge.ai/tests/ncp-db-nutanix-certified-professional---database-automation-38ab16"
+  "practice_url": "https://quizforge.ai/tests/ncp-db-nutanix-certified-professional---database-automation-38ab16",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The Nutanix Certified Professional - Database Automation (NCP-DB) 7.5 exam will measure a candidate’s ability to deploy, administer, optimize, and troubleshoot database workloads using Nutanix Database Service (NDB).\"",
+    "evidence_url": "https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-professional-database-automation-v6-10",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:00:39Z",
+    "evidence_url": "https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-professional-database-automation-v6-10"
+  }
 }

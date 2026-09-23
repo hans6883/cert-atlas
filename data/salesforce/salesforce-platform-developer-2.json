@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-platform-developer-2",
   "exam_name": "Salesforce Certified Platform Developer II (PD2)",
-  "exam_code": "PD2",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Platform Developer II",
   "version": "Winter '24 release",
@@ -261,5 +261,18 @@
     "salesforce certified platform developer ii pd2",
     "salesforce-platform-developer-2"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-platform-developer-ii"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-platform-developer-ii",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Certified Platform Developer II (PDII) developers are experts in the advanced programmatic capabilities of the Salesforce Platform, as well as using data modeling to develop complex business logic and interfaces.\"",
+    "evidence_url": "https://trailhead.salesforce.com/en/credentials/platformdeveloperii",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:59:12Z",
+    "evidence_url": "https://trailhead.salesforce.com/en/credentials/platformdeveloperii"
+  }
 }

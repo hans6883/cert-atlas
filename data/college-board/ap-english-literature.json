@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-english-literature",
   "exam_name": "AP English Literature and Composition",
-  "exam_code": "AP English Lit",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -105,7 +105,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -135,5 +135,18 @@
     "ap lit and comp",
     "ap-english-literature"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-english-literature-and-composition-31naq7"
+  "practice_url": "https://quizforge.ai/tests/ap-english-literature-and-composition-31naq7",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Your AP coordinator will tell you when and where the exam will be administered.\"",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:17:21Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition/assessment"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "databricks-spark-developer-associate-python",
   "exam_name": "Databricks Certified Associate Developer for Apache Spark (Python)",
-  "exam_code": "Spark Developer Associate",
+  "exam_code": null,
   "certifying_body": "Databricks",
   "certification_name": "Databricks Certified Associate Developer for Apache Spark",
   "version": null,
@@ -131,7 +131,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.databricks.com/sites/default/files/2025-10/databricks-certified-associate-developer-apache-spark-exam-guide-oct-2025.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -160,5 +160,18 @@
     "spark associate",
     "spark developer associate"
   ],
-  "practice_url": "https://quizforge.ai/tests/databricks-certified-associate-developer-for-apache-spark-python-2eumcr"
+  "practice_url": "https://quizforge.ai/tests/databricks-certified-associate-developer-for-apache-spark-python-2eumcr",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Individuals who pass this certification exam can be expected to complete basic Spark DataFrame tasks using Python.\"",
+    "evidence_url": "https://www.databricks.com/learn/certification/apache-spark-developer-associate",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:54:31Z",
+    "evidence_url": "https://www.databricks.com/learn/certification/apache-spark-developer-associate"
+  }
 }

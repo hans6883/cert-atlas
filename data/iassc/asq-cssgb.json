@@ -98,7 +98,7 @@
       "weight_max": 15.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.asq.org/cert/resource/pdf/certification/2022-SSGB-BoK-Map.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -130,5 +130,12 @@
     "cssgb",
     "six sigma green belt"
   ],
-  "practice_url": "https://quizforge.ai/tests/asq-certified-six-sigma-green-belt-cssgb"
+  "practice_url": "https://quizforge.ai/tests/asq-certified-six-sigma-green-belt-cssgb",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:25:44Z",
+    "evidence_url": "https://www.asq.org/cert/resource/pdf/certification/cert-fact-sheet-cssgb.pdf"
+  }
 }

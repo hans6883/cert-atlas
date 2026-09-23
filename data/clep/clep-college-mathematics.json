@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-college-mathematics",
   "exam_name": "College Mathematics",
-  "exam_code": "COLMAT",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -240,7 +240,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/college-mathematics",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -295,5 +295,12 @@
     "college mathematics",
     "colmat"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-college-mathematics"
+  "practice_url": "https://quizforge.ai/tests/clep-college-mathematics",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T08:13:54Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/college-mathematics"
+  }
 }

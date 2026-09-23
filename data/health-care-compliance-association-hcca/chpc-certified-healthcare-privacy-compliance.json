@@ -1,7 +1,7 @@
 {
   "exam_id": "chpc-certified-healthcare-privacy-compliance",
   "exam_name": "CHPC: Certified in Healthcare Privacy Compliance",
-  "exam_code": "",
+  "exam_code": "CHPC",
   "certifying_body": "Health Care Compliance Association (HCCA)",
   "version": null,
   "source_url": "https://www.hcca-info.org/certification/become-certified/chpc/chpc-detailed-content-outline",
@@ -223,5 +223,19 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T03:22:00+00:00"
-  }
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The CHPC credential highlights your expertise in healthcare privacy and sets you apart as a trusted professional.\"",
+    "evidence_url": "https://www.hcca-info.org/certification/become-certified/chpc",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:54:50Z",
+    "evidence_url": "https://assets.hcca-info.org/Portals/2/PDF/CHPC/ccb-chpc-handbook.pdf"
+  },
+  "official_objectives_url": "https://assets.hcca-info.org/Portals/2/PDF/CHPC/ccb-chpc-handbook.pdf"
 }

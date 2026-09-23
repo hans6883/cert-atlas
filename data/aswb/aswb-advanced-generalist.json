@@ -1,7 +1,7 @@
 {
   "exam_id": "aswb-advanced-generalist",
   "exam_name": "ASWB Advanced Generalist Examination",
-  "exam_code": "ASWB-AG",
+  "exam_code": null,
   "certifying_body": "ASWB",
   "certification_name": null,
   "version": null,
@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aswb.org/wp-content/uploads/2026/05/2026-Social-Work-Licensing-Exam-Guidebook-5.4.2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -95,5 +95,12 @@
     "aswb-advanced-generalist",
     "aswb-ag"
   ],
-  "practice_url": "https://quizforge.ai/?q=ASWB%20Advanced%20Generalist%20Examination"
+  "practice_url": "https://quizforge.ai/?q=ASWB%20Advanced%20Generalist%20Examination",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:18:32Z",
+    "evidence_url": "https://www.aswb.org/students/"
+  }
 }

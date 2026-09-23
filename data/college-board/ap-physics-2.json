@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-physics-2",
   "exam_name": "AP Physics 2: Algebra-Based",
-  "exam_code": "AP Physics 2",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -116,5 +116,12 @@
     "ap-physics-2",
     "ap-physics-2-algebra-based-2jiwhk"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-physics-2-algebra-based-2jiwhk"
+  "practice_url": "https://quizforge.ai/tests/ap-physics-2-algebra-based-2jiwhk",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:04:41Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based"
+  }
 }

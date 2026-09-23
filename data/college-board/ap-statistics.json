@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-statistics",
   "exam_name": "AP Statistics",
-  "exam_code": "AP Stats",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -117,7 +117,7 @@
       "weight_max": 5.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-statistics-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -364,5 +364,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-02T21:44:55+00:00"
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Your AP coordinator will tell you when and where the exam will be administered.\"",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-statistics",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:17:18Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-statistics/assessment"
   }
 }

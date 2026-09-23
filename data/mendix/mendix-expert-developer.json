@@ -1,7 +1,7 @@
 {
   "exam_id": "mendix-expert-developer",
   "exam_name": "Mendix Expert Developer Certification",
-  "exam_code": "MED",
+  "exam_code": null,
   "certifying_body": "Mendix",
   "certification_name": null,
   "version": null,
@@ -100,5 +100,12 @@
     "mendix expert developer certification",
     "mendix-expert-developer"
   ],
-  "practice_url": "https://quizforge.ai/tests/mendix-expert-developer-certification-2ioezz"
+  "practice_url": "https://quizforge.ai/tests/mendix-expert-developer-certification-2ioezz",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:26:49Z",
+    "evidence_url": "https://docs.mendix.com/developerportal/digital-execution/start-program/"
+  }
 }

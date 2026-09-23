@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-us-history",
   "exam_name": "AP United States History",
-  "exam_code": "AP USH",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -117,7 +117,7 @@
       "weight_max": 6.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-us-history-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -146,5 +146,18 @@
     "ap-us-history",
     "apush"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-united-states-history-2jtvl0"
+  "practice_url": "https://quizforge.ai/tests/ap-united-states-history-2jtvl0",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Your AP coordinator will tell you when and where the exam will be administered.\"",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:06:40Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-united-states-history"
+  }
 }

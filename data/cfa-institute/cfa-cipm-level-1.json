@@ -1,7 +1,7 @@
 {
   "exam_id": "cfa-cipm-level-1",
   "exam_name": "CIPM Level I (Certificate in Investment Performance Measurement)",
-  "exam_code": "CIPM Level I",
+  "exam_code": null,
   "certifying_body": "CFA Institute",
   "certification_name": null,
   "version": null,
@@ -85,7 +85,7 @@
       "weight_max": 15.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cfainstitute.org/programs/cipm/curriculum",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -251,5 +251,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:26+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:30:11Z",
+    "evidence_url": "https://www.cfainstitute.org/programs/cipm/exam"
   }
 }

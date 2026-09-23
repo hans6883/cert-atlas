@@ -99,7 +99,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.cisco.com/c/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/200-901-DEVASC.pdf",
+  "official_objectives_url": "https://learningcontent.cisco.com/documents/marketing/exam-topics/200-901-DEVASC-v1.1.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -139,5 +139,12 @@
     "summary": "Cisco retired 200-901 on 2026-02-02. 200-901 CCNAAUTO is the direct replacement path.",
     "evidence_url": "https://learningnetwork.cisco.com/s/a-new-era-for-cisco-certifications",
     "verified_at": "2026-08-29T05:37:22+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:14:05Z",
+    "evidence_url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/devasc.html"
   }
 }

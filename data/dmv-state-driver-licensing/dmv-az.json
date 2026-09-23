@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-az",
   "exam_name": "Arizona Driver's License Knowledge Test",
-  "exam_code": "AZ",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -228,5 +228,18 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:37+00:00"
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"If you’ve never had a driver license in the United States, regardless of your age, you must pass a permit test before scheduling a road test.\"",
+    "evidence_url": "https://azdot.gov/mvd/services/driver-license-ID/permit-test",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:22:44Z",
+    "evidence_url": "https://azdot.gov/mvd/services/driver-services/tests-manuals-and-driving-schools/practice-tests"
   }
 }

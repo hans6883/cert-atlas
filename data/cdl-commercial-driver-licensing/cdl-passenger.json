@@ -1,7 +1,7 @@
 {
   "exam_id": "cdl-passenger",
   "exam_name": "CDL Passenger Transport Endorsement Test",
-  "exam_code": "CDL-P",
+  "exam_code": "P",
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -100,5 +100,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"Drivers who operate special types of CMVs must pass additional tests to obtain any of the following endorsements placed on their CDL:\"",
     "evidence_url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/drivers",
     "verified_at": "2026-09-20T00:34:00+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:29:40Z",
+    "evidence_url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/drivers"
   }
 }

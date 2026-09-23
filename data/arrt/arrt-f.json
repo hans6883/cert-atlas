@@ -1,7 +1,7 @@
 {
   "exam_id": "arrt-f",
   "exam_name": "Fluoroscopy (F) — Limited Permit",
-  "exam_code": "F",
+  "exam_code": null,
   "certifying_body": "ARRT",
   "certification_name": null,
   "version": null,
@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.arrt.org/pages/arrt-reference-documents/by-document-type/examination-content-specifications",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -96,5 +96,12 @@
     "limited permit x-ray",
     "lxmo exam"
   ],
-  "practice_url": "https://quizforge.ai/?q=Fluoroscopy%20%28F%29%20%E2%80%94%20Limited%20Permit"
+  "practice_url": "https://quizforge.ai/?q=Fluoroscopy%20%28F%29%20%E2%80%94%20Limited%20Permit",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:02:37Z",
+    "evidence_url": "https://www.arrt.org/pages/arrt-reference-documents/by-document-type/examination-content-specifications"
+  }
 }

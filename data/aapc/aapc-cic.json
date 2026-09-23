@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aapc.com/certifications/cic/taking-the-cic-exam",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -114,5 +114,12 @@
     "certified inpatient coder cic",
     "cic"
   ],
-  "practice_url": "https://quizforge.ai/?q=Certified%20Inpatient%20Coder%20%28CIC%29"
+  "practice_url": "https://quizforge.ai/?q=Certified%20Inpatient%20Coder%20%28CIC%29",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:14:23Z",
+    "evidence_url": "https://www.aapc.com/certifications/cic/taking-the-cic-exam"
+  }
 }

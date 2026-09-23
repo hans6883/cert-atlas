@@ -1,7 +1,7 @@
 {
   "exam_id": "goethe-zertifikat-b1",
   "exam_name": "Goethe-Zertifikat B1 (Zertifikat Deutsch)",
-  "exam_code": "GZ B1",
+  "exam_code": null,
   "certifying_body": "Goethe-Institut",
   "certification_name": "Goethe-Zertifikat B1",
   "version": null,
@@ -116,7 +116,7 @@
       "weight_max": 38.46
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.goethe.de/pro/relaunch/prf/my/Durchfuehrungsbestimmungen_B1.pdf",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -143,5 +143,12 @@
     "goethe-zertifikat-b1",
     "gz b1"
   ],
-  "practice_url": "https://quizforge.ai/tests/goethe-zertifikat-b1-zertifikat-deutsch-2p2w0a"
+  "practice_url": "https://quizforge.ai/tests/goethe-zertifikat-b1-zertifikat-deutsch-2p2w0a",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T09:12:43Z",
+    "evidence_url": "https://www.goethe.de/resources/files/pdf354/ansicht_flyer_pruefung_b1_de-v1.pdf"
+  }
 }

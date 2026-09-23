@@ -703,7 +703,7 @@
       "weight_max_percent": 20
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-800",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -857,5 +857,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-26T06:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:21:18Z",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-800"
   }
 }

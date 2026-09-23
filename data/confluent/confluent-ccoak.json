@@ -1,7 +1,7 @@
 {
   "exam_id": "confluent-ccoak",
   "exam_name": "Confluent Certified Operator for Apache Kafka (CCOAK)",
-  "exam_code": "CCOAK",
+  "exam_code": "CCAAK",
   "certifying_body": "Confluent",
   "certification_name": null,
   "version": null,
@@ -102,5 +102,12 @@
     "confluent operator",
     "confluent-ccoak"
   ],
-  "practice_url": "https://quizforge.ai/tests/confluent-certified-operator-for-apache-kafka-ccoak-32wf0c"
+  "practice_url": "https://quizforge.ai/tests/confluent-certified-operator-for-apache-kafka-ccoak-32wf0c",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:59:14Z",
+    "evidence_url": "https://www.confluent.io/certification/"
+  }
 }

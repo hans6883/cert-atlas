@@ -1,7 +1,7 @@
 {
   "exam_id": "cmt-level-1",
   "exam_name": "CMT Level I",
-  "exam_code": "CMT-I",
+  "exam_code": null,
   "certifying_body": "CMT Association",
   "certification_name": null,
   "version": null,
@@ -92,7 +92,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cmtassociation.org/wp-content/uploads/2026/05/2026-CMT-Program-Guide_v2026.03.20.pdf",
   "official_study_resources": [
     {
       "resource_type": "textbook",
@@ -109,5 +109,12 @@
     "cmt-i",
     "cmt-level-1"
   ],
-  "practice_url": "https://quizforge.ai/?q=CMT%20Level%20I"
+  "practice_url": "https://quizforge.ai/?q=CMT%20Level%20I",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:42:42Z",
+    "evidence_url": "https://cmtassociation.org/cmt-program/"
+  }
 }

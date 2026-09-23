@@ -1,7 +1,7 @@
 {
   "exam_id": "ndtr-exam",
   "exam_name": "Nutrition and Dietetics Technician, Registered (NDTR) Examination",
-  "exam_code": "NDTR",
+  "exam_code": null,
   "certifying_body": "CDR",
   "certification_name": null,
   "version": null,
@@ -76,7 +76,7 @@
       "weight_max": 14.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cdrnet.org/DTRExamOverview",
   "official_study_resources": [
     {
       "resource_type": "exam_content_guide",
@@ -99,5 +99,12 @@
     "nutrition and dietetics technician exam",
     "nutrition and dietetics technician registered ndtr examination"
   ],
-  "practice_url": "https://quizforge.ai/?q=Nutrition%20and%20Dietetics%20Technician%2C%20Registered%20%28NDTR%29%20Examination"
+  "practice_url": "https://quizforge.ai/?q=Nutrition%20and%20Dietetics%20Technician%2C%20Registered%20%28NDTR%29%20Examination",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:29:40Z",
+    "evidence_url": "https://www.cdrnet.org/ndtr"
+  }
 }

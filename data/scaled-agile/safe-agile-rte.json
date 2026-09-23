@@ -1,7 +1,7 @@
 {
   "exam_id": "safe-agile-rte",
   "exam_name": "SAFe Release Train Engineer (RTE)",
-  "exam_code": "RTE",
+  "exam_code": null,
   "certifying_body": "Scaled Agile",
   "certification_name": "SAFe Release Train Engineer",
   "version": null,
@@ -228,7 +228,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://scaledagile.com/training/safe-release-train-engineer/",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -257,5 +257,12 @@
     "safe rte",
     "safe-agile-rte"
   ],
-  "practice_url": "https://quizforge.ai/tests/safe-release-train-engineer-rte-2h7zbj"
+  "practice_url": "https://quizforge.ai/tests/safe-release-train-engineer-rte-2h7zbj",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:13:15Z",
+    "evidence_url": "https://scaledagile.com/training/safe-release-train-engineer/"
+  }
 }

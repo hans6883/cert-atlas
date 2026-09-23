@@ -93,7 +93,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://satsuite.collegeboard.org/media/pdf/official-student-guide-psat-10.pdf",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -120,5 +120,18 @@
     "psat10",
     "sophomore psat"
   ],
-  "practice_url": "https://quizforge.ai/tests/psat-10-2j31sl"
+  "practice_url": "https://quizforge.ai/tests/psat-10-2j31sl",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The PSAT 10 includes a Reading and Writing Section and a Math Section.\"",
+    "evidence_url": "https://satsuite.collegeboard.org/in-school-assessments/whats-on-the-test/psat-10",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T06:33:05Z",
+    "evidence_url": "https://satsuite.collegeboard.org/in-school-assessments/whats-on-the-test/psat-10"
+  }
 }

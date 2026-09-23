@@ -1,7 +1,7 @@
 {
   "exam_id": "atlassian-acp-300",
   "exam_name": "Atlassian Certified in Jira Service Management Administration",
-  "exam_code": "ACP-300",
+  "exam_code": null,
   "certifying_body": "Atlassian",
   "certification_name": null,
   "version": null,
@@ -98,5 +98,12 @@
     "jira service management admin",
     "jsm administrator"
   ],
-  "practice_url": "https://quizforge.ai/?q=Atlassian%20Certified%20in%20Jira%20Service%20Management%20Administration"
+  "practice_url": "https://quizforge.ai/?q=Atlassian%20Certified%20in%20Jira%20Service%20Management%20Administration",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:28:45Z",
+    "evidence_url": "https://community.atlassian.com/learning/certifications/managing-jira-service-projects-for-cloud"
+  }
 }

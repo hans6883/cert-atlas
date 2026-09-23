@@ -71,7 +71,7 @@
       "weight_max": 10.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://myfuture.cimaglobal.com/apprenticeships/level-4-apprenticeship/",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -89,5 +89,12 @@
     "cima-ba3",
     "fundamentals of financial accounting"
   ],
-  "practice_url": "https://quizforge.ai/?q=BA3%20%28Fundamentals%20of%20Financial%20Accounting%29"
+  "practice_url": "https://quizforge.ai/?q=BA3%20%28Fundamentals%20of%20Financial%20Accounting%29",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:40:59Z",
+    "evidence_url": "https://myfuture.cimaglobal.com/apprenticeships/level-4-apprenticeship/"
+  }
 }

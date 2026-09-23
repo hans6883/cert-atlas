@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-latin",
   "exam_name": "AP Latin",
-  "exam_code": "AP Latin",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -109,5 +109,12 @@
     "ap vergil",
     "ap-latin"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-latin-31kuxf"
+  "practice_url": "https://quizforge.ai/tests/ap-latin-31kuxf",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:30:14Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-latin"
+  }
 }

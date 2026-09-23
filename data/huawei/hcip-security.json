@@ -1,7 +1,7 @@
 {
   "exam_id": "hcip-security",
   "exam_name": "HCIP-Security V4.0",
-  "exam_code": "H12-721",
+  "exam_code": null,
   "certifying_body": "Huawei",
   "certification_name": null,
   "version": null,
@@ -273,5 +273,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:46+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:04:32Z",
+    "evidence_url": "https://e.huawei.com/en/talent/cert/"
   }
 }

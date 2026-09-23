@@ -1,34 +1,11 @@
 {
   "exam_id": "scrum-alliance-cspo",
   "exam_name": "Certified Scrum Product Owner (CSPO)",
-  "exam_code": "CSPO",
+  "exam_code": null,
   "certifying_body": "Scrum Alliance",
   "certification_name": null,
   "version": null,
   "source_url": "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner",
-  "passing_score": null,
-  "passing_score_scale": null,
-  "total_questions": null,
-  "question_types": [
-    "Multiple Choice (for CSM)",
-    "Course Completion (for CSPO, CSD, CAL)"
-  ],
-  "exam_format": "Varies: online assessment (CSM) or training completion (CSPO, CSD, CAL)",
-  "duration_minutes": null,
-  "exam_price_usd": 0.0,
-  "exam_price_notes": null,
-  "voucher_url": null,
-  "exam_registration_url": "https://www.scrumalliance.org/get-certified",
-  "testing_centers": [
-    {
-      "provider": "Online (Scrum Alliance)",
-      "scheduling_url": "https://www.scrumalliance.org/",
-      "notes": "CSM and CSP-SM exams taken online through Scrum Alliance portal after completing training. Most certifications are training-based, not exam-based."
-    }
-  ],
-  "online_proctoring_available": false,
-  "id_requirements": "Scrum Alliance account required. Training attendance verified.",
-  "exam_rules": "Most certifications awarded upon completing certified training. CSM includes an 50-question online exam (74% pass). CSP-SM/CSP-PO require active lower-level certifications and experience.",
   "certification_validity_years": 2,
   "renewal_required": true,
   "renewal_options": "All certifications expire every 2 years. Renew by earning 20 SEUs (Scrum Education Units) and paying renewal fee ($100).",
@@ -44,38 +21,6 @@
       "prerequisite_type": "training",
       "description": "Attend a 2-day CSPO course from a Certified Scrum Trainer (CST)",
       "is_required": true
-    }
-  ],
-  "retake_policy": {
-    "waiting_period_days": 60,
-    "max_attempts_per_year": null,
-    "max_attempts_total": null,
-    "notes": "60-day waiting period for CSM exam retake. Retake fee $25. Unlimited retakes."
-  },
-  "domains": [
-    {
-      "id": "1",
-      "name": "Product Ownership and Vision",
-      "weight_percent": 30.0,
-      "objectives": []
-    },
-    {
-      "id": "2",
-      "name": "Product Backlog Management",
-      "weight_percent": 30.0,
-      "objectives": []
-    },
-    {
-      "id": "3",
-      "name": "Stakeholder Collaboration",
-      "weight_percent": 20.0,
-      "objectives": []
-    },
-    {
-      "id": "4",
-      "name": "Release Planning and Value Delivery",
-      "weight_percent": 20.0,
-      "objectives": []
     }
   ],
   "official_objectives_url": null,
@@ -97,5 +42,17 @@
     "scrum product owner certification",
     "scrum-alliance-cspo"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-scrum-product-owner-cspo"
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Certified Scrum Product Owner is a globally recognized certification from Scrum Alliance.\"",
+    "evidence_url": "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "course_without_assessment",
+    "label": "course with no assessment",
+    "examination": false,
+    "verified_at": "2026-09-20T06:33:55Z",
+    "evidence_url": "https://support.scrumalliance.org/hc/en-us/articles/360037548392-Is-there-a-test-requirement-for-CSPO-certification"
+  }
 }

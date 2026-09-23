@@ -1,7 +1,7 @@
 {
   "exam_id": "executive-assessment",
   "exam_name": "Executive Assessment (EA)",
-  "exam_code": "EA",
+  "exam_code": null,
   "certifying_body": "GMAC",
   "certification_name": null,
   "version": null,
@@ -121,5 +121,12 @@
     "executive mba admissions test",
     "executive-assessment"
   ],
-  "practice_url": "https://quizforge.ai/tests/executive-assessment-ea-2jzz2w"
+  "practice_url": "https://quizforge.ai/tests/executive-assessment-ea-2jzz2w",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T10:47:18Z",
+    "evidence_url": "https://www.mba.com/exams/executive-assessment/about"
+  }
 }

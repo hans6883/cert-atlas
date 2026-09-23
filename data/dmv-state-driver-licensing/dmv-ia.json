@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-ia",
   "exam_name": "Iowa Driver's License Knowledge Test",
-  "exam_code": "IA",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -74,7 +74,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -105,5 +105,12 @@
     "iowa driver s license test",
     "iowa permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/iowa-drivers-license-knowledge-test-30k9xy"
+  "practice_url": "https://quizforge.ai/tests/iowa-drivers-license-knowledge-test-30k9xy",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:35:17Z",
+    "evidence_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/drivers-license-types-restrictions-endorsements"
+  }
 }

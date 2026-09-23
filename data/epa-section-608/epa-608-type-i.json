@@ -1,7 +1,7 @@
 {
   "exam_id": "epa-608-type-i",
   "exam_name": "EPA 608 Type I — Small Appliances",
-  "exam_code": "EPA-608-I",
+  "exam_code": null,
   "certifying_body": "EPA Section 608",
   "certification_name": null,
   "version": null,
@@ -88,7 +88,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.epa.gov/section608/section-608-technician-certification-requirements",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -119,5 +119,18 @@
     "small appliance certification",
     "type i small appliances"
   ],
-  "practice_url": "https://quizforge.ai/tests/epa-608-type-i-%E2%80%94-small-appliances-2ywiv8"
+  "practice_url": "https://quizforge.ai/tests/epa-608-type-i-%E2%80%94-small-appliances-2ywiv8",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Technicians are required to pass an EPA-approved test to earn Section 608 Technician Certification.\"",
+    "evidence_url": "https://www.epa.gov/section608/section-608-technician-certification-requirements",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:55:45Z",
+    "evidence_url": "https://www.epa.gov/section608/section-608-technician-certification-requirements"
+  }
 }

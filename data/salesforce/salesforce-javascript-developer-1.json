@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-javascript-developer-1",
   "exam_name": "Salesforce Certified JavaScript Developer I",
-  "exam_code": "JavaScript Developer I",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified JavaScript Developer",
   "version": "Exam questions align to the Summer '22 release",
@@ -226,7 +226,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://trailhead.salesforce.com/content/learn/modules/javascript-dev-i-cert-prep-variables-collections-functions-classes/get-started-with-salesforce-javascript-developer-i-certification-prep",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -254,5 +254,12 @@
     "salesforce js developer",
     "salesforce-javascript-developer-1"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-javascript-developer-i-2ejn9b"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-javascript-developer-i-2ejn9b",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:26:48Z",
+    "evidence_url": "https://trailhead.salesforce.com/content/learn/trails/study-for-the-salesforce-javascript-developer-i-exam"
+  }
 }

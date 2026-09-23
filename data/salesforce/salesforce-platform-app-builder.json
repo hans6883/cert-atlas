@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-platform-app-builder",
   "exam_name": "Salesforce Certified Platform App Builder",
-  "exam_code": "App Builder",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified Platform App Builder",
   "version": "Spring '24 release",
@@ -244,5 +244,12 @@
     "salesforce certified platform app builder",
     "salesforce-platform-app-builder"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-platform-app-builder-2dka68"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-platform-app-builder-2dka68",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:49:14Z",
+    "evidence_url": "https://trailhead.salesforce.com/credentials/platformappbuilder"
+  }
 }

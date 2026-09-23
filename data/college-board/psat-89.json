@@ -93,7 +93,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://satsuite.collegeboard.org/media/pdf/assessment-framework-for-digital-sat-suite.pdf",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -122,5 +122,12 @@
     "psat 9",
     "psat-89"
   ],
-  "practice_url": "https://quizforge.ai/tests/psat-8-9-2j49oy"
+  "practice_url": "https://quizforge.ai/tests/psat-8-9-2j49oy",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T06:32:52Z",
+    "evidence_url": "https://satsuite.collegeboard.org/in-school-assessments/whats-on-the-test/psat-8-9"
+  }
 }

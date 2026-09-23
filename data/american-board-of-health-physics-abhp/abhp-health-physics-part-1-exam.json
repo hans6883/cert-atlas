@@ -1,7 +1,7 @@
 {
   "exam_id": "abhp-health-physics-part-1-exam",
   "exam_name": "ABHP Health Physics Part I Examination",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "American Board of Health Physics (ABHP)",
   "version": null,
   "source_url": "https://www.aahp-abhp.org/certification/examination-prep-guide/",
@@ -194,5 +194,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:39:57+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:13:32Z",
+    "evidence_url": "https://www.aahp-abhp.org/certification/examination-prep-guide/"
+  },
+  "official_objectives_url": "https://www.aahp-abhp.org/certification/examination-prep-guide/"
 }

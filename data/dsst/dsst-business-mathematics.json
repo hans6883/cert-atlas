@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-business-mathematics",
   "exam_name": "Business Mathematics",
-  "exam_code": "BMATH",
+  "exam_code": "SS812",
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/DSST_BusinessMathematics.pdf",
   "official_study_resources": [],
   "aliases": [
     "bmath",
@@ -221,5 +221,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:29+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T10:04:43Z",
+    "evidence_url": "https://getcollegecredit.com/exam/business-mathematics/"
   }
 }

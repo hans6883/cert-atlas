@@ -350,5 +350,18 @@
         "detail": "For an organization adopting cloud services, distinguish authentication, authorization, security monitoring and compliance needs. Map each need to the relevant capability in the guide. Explain the responsibility being addressed before selecting a Microsoft product. This is a study aid, not an official exam question or a prediction of your result."
       }
     ]
+  },
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Demonstrate foundational knowledge on security, compliance, and identity concepts and related cloud-based Microsoft solutions.\"",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:06:39Z",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900"
   }
 }

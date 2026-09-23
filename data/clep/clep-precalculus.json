@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-precalculus",
   "exam_name": "Precalculus",
-  "exam_code": "PRECLC",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -139,7 +139,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/precalculus",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -194,5 +194,12 @@
     "precalculus clep",
     "preclc"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-precalculus"
+  "practice_url": "https://quizforge.ai/tests/clep-precalculus",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T07:51:22Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/precalculus"
+  }
 }

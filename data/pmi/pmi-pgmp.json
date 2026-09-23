@@ -92,7 +92,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pgmp-exam-content-outline.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -118,5 +118,12 @@
     "pmi-pgmp",
     "program management professional pgmp"
   ],
-  "practice_url": "https://quizforge.ai/tests/pmi-program-management-professional-pgmp"
+  "practice_url": "https://quizforge.ai/tests/pmi-program-management-professional-pgmp",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:25:18Z",
+    "evidence_url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pgmp-exam-content-outline.pdf"
+  }
 }

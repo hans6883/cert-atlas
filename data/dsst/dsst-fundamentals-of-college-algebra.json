@@ -1,7 +1,7 @@
 {
   "exam_id": "dsst-fundamentals-of-college-algebra",
   "exam_name": "Fundamentals of College Algebra",
-  "exam_code": "COLALG",
+  "exam_code": null,
   "certifying_body": "DSST",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://getcollegecredit.com/wp-content/uploads/2022/09/DSST_FundamentalsofCollegeAlgebra.pdf",
   "official_study_resources": [],
   "aliases": [
     "college algebra dsst",
@@ -214,5 +214,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-14T04:38:29+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T07:29:40Z",
+    "evidence_url": "https://getcollegecredit.com/exam/fundamentals-of-college-algebra/"
   }
 }

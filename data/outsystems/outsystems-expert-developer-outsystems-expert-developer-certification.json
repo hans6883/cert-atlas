@@ -1,25 +1,11 @@
 {
   "exam_id": "outsystems-expert-developer-outsystems-expert-developer-certification",
   "exam_name": "OutSystems Expert Developer Certification",
-  "exam_code": "Expert Developer",
+  "exam_code": null,
   "certifying_body": "OutSystems",
   "certification_name": "OutSystems Expert Developer",
   "version": null,
   "source_url": "https://www.outsystems.com/forums/discussion/101830/introducing-the-expert-developer-certification/",
-  "passing_score": null,
-  "passing_score_scale": null,
-  "total_questions": null,
-  "question_types": [],
-  "exam_format": null,
-  "duration_minutes": null,
-  "exam_price_usd": null,
-  "exam_price_notes": "First-party OutSystems announcement: Expert Developer is granted automatically when the listed Specialist badges are earned; there is no standalone Expert Developer exam. ODC path later added Agentic AI Specialist (live 2026-01-02). Retrieved 2026-08-27.",
-  "voucher_url": null,
-  "exam_registration_url": "https://www.outsystems.com/certifications/",
-  "testing_centers": [],
-  "online_proctoring_available": null,
-  "id_requirements": null,
-  "exam_rules": null,
   "certification_validity_years": null,
   "renewal_required": null,
   "renewal_options": null,
@@ -28,48 +14,6 @@
   "target_audience": null,
   "recommended_experience": null,
   "prerequisites": [],
-  "retake_policy": null,
-  "domains": [
-    {
-      "id": "1.0",
-      "name": "Required Specialist badges (no additional exam)",
-      "weight_percent": null,
-      "weight_min": null,
-      "weight_max": null,
-      "objectives": [
-        {
-          "id": "1.1",
-          "title": "Web Developer Specialist",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.2",
-          "title": "Mobile Developer Specialist",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.3",
-          "title": "Architecture Specialist",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.4",
-          "title": "Security Specialist",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.5",
-          "title": "Front-end Developer Specialist",
-          "sub_objectives": []
-        },
-        {
-          "id": "1.6",
-          "title": "Agentic AI Specialist (ODC Expert Developer path; announced as a required Specialist badge from 2026-01-02 with a six-month grace period for existing ODC Expert holders)",
-          "sub_objectives": []
-        }
-      ]
-    }
-  ],
   "official_objectives_url": "https://www.outsystems.com/forums/discussion/101830/introducing-the-expert-developer-certification/",
   "official_study_resources": [],
   "aliases": [
@@ -77,7 +21,6 @@
     "expert developer outsystems expert developer certification",
     "outsystems expert developer certification"
   ],
-  "practice_url": "https://quizforge.ai/tests/outsystems-expert-developer-certification-practice-test-3e7pg4",
   "editorial": {
     "meta_description": "Prepare for the OutSystems certification path by earning required specialist badges, covering architecture and mobile domains as of 2026-01-02.",
     "overview": "The OutSystems expert credential is granted automatically when the listed Specialist badges are earned, as there is no standalone exam for this specific professional level. Certified developers confirm their technical expertise across specific professional domains by completing the necessary prerequisites, ensuring they meet all standards set by OutSystems retrieved around 2026-08-27 and updated on 2026-01-02.",
@@ -171,5 +114,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T09:36:38+00:00"
+  },
+  "credential": {
+    "type": "designation_by_assessment",
+    "label": "designation earned by portfolio or interview assessment, not by examination",
+    "examination": false,
+    "verified_at": "2026-09-20T07:06:05Z",
+    "evidence_url": "https://www.outsystems.com/product-updates/odc-security-specialization"
   }
 }

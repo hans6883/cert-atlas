@@ -1,7 +1,7 @@
 {
   "exam_id": "faa-amt-parachute",
   "exam_name": "FAA Parachute Rigger Knowledge Test",
-  "exam_code": "PGT",
+  "exam_code": "RIG",
   "certifying_body": "FAA Aviation Maintenance",
   "certification_name": null,
   "version": null,
@@ -115,5 +115,12 @@
     "parachute rigger written",
     "pgt"
   ],
-  "practice_url": "https://quizforge.ai/tests/faa-parachute-rigger-knowledge-test-2ldyyl"
+  "practice_url": "https://quizforge.ai/tests/faa-parachute-rigger-knowledge-test-2ldyyl",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:29:39Z",
+    "evidence_url": "https://www.faa.gov/training_testing/testing/testing_matrix"
+  }
 }

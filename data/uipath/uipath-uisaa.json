@@ -1,7 +1,7 @@
 {
   "exam_id": "uipath-uisaa",
   "exam_name": "UiPath Solution Architect",
-  "exam_code": "UiSAA",
+  "exam_code": null,
   "certifying_body": "UiPath",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://start.uipath.com/rs/995-XLT-886/images/UiPath%20Certified%20-%20Solution%20Architect%20v1.0%20Exam%20Description_v1.0.pdf?version=11",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -112,5 +112,12 @@
     "uipath-uisaa",
     "uisaa"
   ],
-  "practice_url": "https://quizforge.ai/tests/uipath-solution-architect-38dyqb"
+  "practice_url": "https://quizforge.ai/tests/uipath-solution-architect-38dyqb",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:13:07Z",
+    "evidence_url": "https://www.uipath.com/learning/certification"
+  }
 }

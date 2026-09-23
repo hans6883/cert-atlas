@@ -1,7 +1,7 @@
 {
   "exam_id": "fortinet-nse2",
   "exam_name": "NSE 2 Network Security Associate",
-  "exam_code": "NSE2",
+  "exam_code": null,
   "certifying_body": "Fortinet",
   "certification_name": null,
   "version": null,
@@ -391,5 +391,12 @@
     "summary": "Fortinet retired NSE2 on 2026-07-15. NSE 2 – Introduction to the Next Generation Firewall is the named replacement path.",
     "evidence_url": "https://helpdesk.training.fortinet.com/support/solutions/articles/73000665776-are-any-courses-or-exams-being-retired-on-july-15-2026-",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:51:21Z",
+    "evidence_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse_2"
   }
 }

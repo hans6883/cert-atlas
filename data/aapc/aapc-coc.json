@@ -105,7 +105,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.aapc.com/certifications/coc/taking-the-coc-exam",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -332,5 +332,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-02T00:53:26+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:14:43Z",
+    "evidence_url": "https://www.aapc.com/certifications/coc"
   }
 }

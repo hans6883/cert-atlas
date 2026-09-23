@@ -1,7 +1,7 @@
 {
   "exam_id": "cima-ocs",
   "exam_name": "Operational Case Study (OCS)",
-  "exam_code": "OCS",
+  "exam_code": null,
   "certifying_body": "CIMA",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://myfuture.cimaglobal.com/study-routes/the-self-tailored-learning-pathway/",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -95,5 +95,12 @@
     "operational case study",
     "operational case study ocs"
   ],
-  "practice_url": "https://quizforge.ai/?q=Operational%20Case%20Study%20%28OCS%29"
+  "practice_url": "https://quizforge.ai/?q=Operational%20Case%20Study%20%28OCS%29",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:41:04Z",
+    "evidence_url": "https://myfuture.cimaglobal.com/study-routes/the-self-tailored-learning-pathway/"
+  }
 }

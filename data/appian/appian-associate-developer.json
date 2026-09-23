@@ -1,7 +1,7 @@
 {
   "exam_id": "appian-associate-developer",
   "exam_name": "Appian Associate Developer (ACD200)",
-  "exam_code": "ACD200",
+  "exam_code": null,
   "certifying_body": "Appian",
   "certification_name": null,
   "version": null,
@@ -77,7 +77,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://academy.appian.com/page/appian-certified-associate-developer",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -95,5 +95,12 @@
     "appian associate developer acd200",
     "appian-associate-developer"
   ],
-  "practice_url": "https://quizforge.ai/tests/appian-associate-developer-acd200-2i4wlv"
+  "practice_url": "https://quizforge.ai/tests/appian-associate-developer-acd200-2i4wlv",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:29:37Z",
+    "evidence_url": "https://academy.appian.com/page/appian-certified-associate-developer"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-nc",
   "exam_name": "North Carolina Driver's License Knowledge Test",
-  "exam_code": "NC",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -105,5 +105,18 @@
     "north carolina ncdot knowledge test",
     "north carolina permit test"
   ],
-  "practice_url": "https://quizforge.ai/tests/north-carolina-drivers-license-knowledge-test-2zybr2"
+  "practice_url": "https://quizforge.ai/tests/north-carolina-drivers-license-knowledge-test-2zybr2",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The N.C. Division of Motor Vehicles administers several tests when an individual applies for a license or learner permit – and in some cases, when they renew their license.\"",
+    "evidence_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-license-tests.aspx",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:32:53Z",
+    "evidence_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-license-tests.aspx"
+  }
 }

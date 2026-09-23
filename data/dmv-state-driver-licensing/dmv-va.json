@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-va",
   "exam_name": "Virginia Driver's License Knowledge Test",
-  "exam_code": "VA",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.dmv.virginia.gov/licenses-ids/exams/manual",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -115,5 +115,12 @@
     "virginia permit test",
     "virginia-drivers-license-knowledge-test"
   ],
-  "practice_url": "https://quizforge.ai/tests/virginia-drivers-license-knowledge-test-2zjoyh"
+  "practice_url": "https://quizforge.ai/tests/virginia-drivers-license-knowledge-test-2zjoyh",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:25:40Z",
+    "evidence_url": "https://www.dmv.virginia.gov/licenses-ids/exams/know-exam"
+  }
 }

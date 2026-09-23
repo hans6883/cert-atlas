@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-spanish-literature",
   "exam_name": "AP Spanish Literature and Culture",
-  "exam_code": "AP Spanish Lit",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -99,7 +99,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-spanish-literature-and-culture-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -127,5 +127,12 @@
     "ap spanish literature and culture",
     "ap-spanish-literature"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-spanish-literature-and-culture-2jns33"
+  "practice_url": "https://quizforge.ai/tests/ap-spanish-literature-and-culture-2jns33",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:13:17Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-spanish-literature-and-culture"
+  }
 }

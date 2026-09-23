@@ -1,7 +1,7 @@
 {
   "exam_id": "nasm-yfs",
   "exam_name": "NASM Youth Exercise Specialist (YFS)",
-  "exam_code": "NASM-YFS",
+  "exam_code": "YES",
   "certifying_body": "NASM",
   "certification_name": null,
   "version": null,
@@ -106,5 +106,12 @@
     "yfs",
     "youth exercise specialist"
   ],
-  "practice_url": "https://quizforge.ai/tests/nasm-youth-exercise-specialist-yfs-2gc9xl"
+  "practice_url": "https://quizforge.ai/tests/nasm-youth-exercise-specialist-yfs-2gc9xl",
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T09:50:09Z",
+    "evidence_url": "https://www.nasm.org/certifications/youth-exercise-specialist"
+  }
 }

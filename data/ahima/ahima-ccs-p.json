@@ -76,7 +76,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.ahima.org/media/mpocfdci/ccs-p-exam-content-outline.pdf",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -95,5 +95,12 @@
     "certified coding specialist physician",
     "certified coding specialist physician-based ccs-p"
   ],
-  "practice_url": "https://quizforge.ai/tests/ahima-certified-coding-specialist-physician-ccs-p"
+  "practice_url": "https://quizforge.ai/tests/ahima-certified-coding-specialist-physician-ccs-p",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:59:01Z",
+    "evidence_url": "https://www.ahima.org/certification-careers/certifications-overview/ccs-p/"
+  }
 }

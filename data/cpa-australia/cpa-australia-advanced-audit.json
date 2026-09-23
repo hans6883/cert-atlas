@@ -1,7 +1,7 @@
 {
   "exam_id": "cpa-australia-advanced-audit",
   "exam_name": "CPA Program: Advanced Audit and Assurance",
-  "exam_code": "AAA",
+  "exam_code": null,
   "certifying_body": "CPA Australia",
   "certification_name": null,
   "version": null,
@@ -84,7 +84,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.cpaaustralia.com.au/-/media/project/cpa/corporate/documents/become-a-cpa/cpa-program/cpa-program-subject-outline-advanced-audit-and-assurance-seventh-edition.pdf?rev=fb5174eee56140b294ddce4d10c2d66e",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -220,5 +220,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-08-30T20:17:34+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T12:42:43Z",
+    "evidence_url": "https://www.cpaaustralia.com.au/your-cpa-program/subjects-and-course-guide/advanced-audit-and-assurance"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "dmv-vt",
   "exam_name": "Vermont Driver's License Knowledge Test",
-  "exam_code": "VT",
+  "exam_code": null,
   "certifying_body": "DMV / State Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -104,5 +104,12 @@
     "vt",
     "vt dmv knowledge test"
   ],
-  "practice_url": "https://quizforge.ai/tests/vermont-drivers-license-knowledge-test-2zkwuv"
+  "practice_url": "https://quizforge.ai/tests/vermont-drivers-license-knowledge-test-2zkwuv",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:02:58Z",
+    "evidence_url": "https://dmv.vermont.gov/licenses/new/prepare-for-a-written-test"
+  }
 }

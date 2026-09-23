@@ -1,7 +1,7 @@
 {
   "exam_id": "juniper-jncie-ent",
   "exam_name": "JNCIE-ENT",
-  "exam_code": "JPR-ENT",
+  "exam_code": "JPR-946",
   "certifying_body": "Juniper Networks",
   "certification_name": null,
   "version": null,
@@ -96,7 +96,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.juniper.net/us/en/training/certification/tracks/enterprise-routing-switching/jncie-ent.html",
+  "official_objectives_url": "https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=14357",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -124,5 +124,18 @@
     "juniper expert enterprise",
     "juniper-jncie-ent"
   ],
-  "practice_url": "https://quizforge.ai/tests/jncie-ent-2f6tcl"
+  "practice_url": "https://quizforge.ai/tests/jncie-ent-2f6tcl",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"JNCIE-ENT is at the pinnacle of the enterprise routing and switching certification track.\"",
+    "evidence_url": "https://www.juniper.net/content/dam/www/assets/training/us/en/jncie-ent-flyer.pdf",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:21:34Z",
+    "evidence_url": "https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=14357"
+  }
 }

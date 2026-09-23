@@ -295,7 +295,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-420",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -322,5 +322,12 @@
     "microsoft certified azure cosmos db developer specialty",
     "microsoft-dp-420-azure-cosmos-db"
   ],
-  "practice_url": "https://quizforge.ai/tests/designing-and-implementing-cloud-native-applications-using-microsoft-azure-cosmos-db-39n30h"
+  "practice_url": "https://quizforge.ai/tests/designing-and-implementing-cloud-native-applications-using-microsoft-azure-cosmos-db-39n30h",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:51:26Z",
+    "evidence_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-420"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "acca-sbr",
   "exam_name": "Strategic Business Reporting (SBR/P2)",
-  "exam_code": "SBR/P2",
+  "exam_code": "SBR",
   "certifying_body": "ACCA",
   "certification_name": null,
   "version": null,
@@ -71,7 +71,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/professional-exams-study-resources/strategic-business-reporting/syllabus-and-study-guide.html",
   "official_study_resources": [
     {
       "resource_type": "webpage",
@@ -225,5 +225,12 @@
     "summary": "ACCA retires SBR/P2 on 2027-06-30. S1 is the named replacement path.",
     "evidence_url": "https://www.accaglobal.com/gb/en/campaigns/accountancy-redefined/future-acca-qualification/supporting-your-transition/acca-qualification-students.html",
     "verified_at": "2026-08-28T00:11:09.372202+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:04:43Z",
+    "evidence_url": "https://www.accaglobal.com/gb/en/student/exam-support-resources/professional-exams-study-resources/strategic-business-reporting.html"
   }
 }

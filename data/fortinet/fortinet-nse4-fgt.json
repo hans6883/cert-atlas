@@ -1,7 +1,7 @@
 {
   "exam_id": "fortinet-nse4-fgt",
   "exam_name": "NSE 4 Network Security Professional — FortiGate",
-  "exam_code": "FCP_FGT_AD-7.4",
+  "exam_code": null,
   "certifying_body": "Fortinet",
   "certification_name": "Fortinet Certified Trainer",
   "version": null,
@@ -169,7 +169,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.fortinet.com/training/certification/nse-4",
+  "official_objectives_url": "https://training.fortinet.com/local/staticpage/view.php?page=nse_4",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -403,5 +403,12 @@
     "summary": "Fortinet retired FCP_FGT_AD-7.4 on 2025-09-30. NSE 4 FortiOS 7.6 Administrator is the named replacement path.",
     "evidence_url": "https://training.fortinet.com/local/staticpage/view.php?page=fortios_administrator_exam",
     "verified_at": "2026-08-27T23:17:33.828687+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:21:16Z",
+    "evidence_url": "https://www.fortinet.com/training-certification"
   }
 }

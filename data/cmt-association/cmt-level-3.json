@@ -1,7 +1,7 @@
 {
   "exam_id": "cmt-level-3",
   "exam_name": "CMT Level III",
-  "exam_code": "CMT-III",
+  "exam_code": null,
   "certifying_body": "CMT Association",
   "certification_name": null,
   "version": null,
@@ -86,7 +86,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cmtassociation.org/cmt-program/learning-objectives/",
   "official_study_resources": [
     {
       "resource_type": "textbook",
@@ -103,5 +103,12 @@
     "cmt-iii",
     "cmt-level-3"
   ],
-  "practice_url": "https://quizforge.ai/tests/cmt-level-iii-2oltex"
+  "practice_url": "https://quizforge.ai/tests/cmt-level-iii-2oltex",
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:00:28Z",
+    "evidence_url": "https://cmtassociation.org/cmt-program/"
+  }
 }

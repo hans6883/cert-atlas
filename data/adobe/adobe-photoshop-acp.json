@@ -1,7 +1,7 @@
 {
   "exam_id": "adobe-photoshop-acp",
   "exam_name": "Adobe Certified Professional — Photoshop",
-  "exam_code": "9A0-411",
+  "exam_code": null,
   "certifying_body": "Adobe",
   "certification_name": null,
   "version": null,
@@ -82,7 +82,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://certifiedprofessional.adobe.com/photoshop",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -111,5 +111,12 @@
     "adobe-photoshop-acp",
     "photoshop certification"
   ],
-  "practice_url": "https://quizforge.ai/?q=Adobe%20Certified%20Professional%20%E2%80%94%20Photoshop"
+  "practice_url": "https://quizforge.ai/?q=Adobe%20Certified%20Professional%20%E2%80%94%20Photoshop",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:28:43Z",
+    "evidence_url": "https://certifiedprofessional.adobe.com/photoshop"
+  }
 }

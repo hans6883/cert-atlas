@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-calculus-ab",
   "exam_name": "AP Calculus AB",
-  "exam_code": "AP Calculus AB",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -109,7 +109,7 @@
       "weight_max": 15.0
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -323,5 +323,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-02T21:44:53+00:00"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T10:47:47Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab"
   }
 }

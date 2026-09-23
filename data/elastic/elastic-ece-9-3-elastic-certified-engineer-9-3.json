@@ -1,7 +1,7 @@
 {
   "exam_id": "elastic-ece-9-3-elastic-certified-engineer-9-3",
   "exam_name": "Elastic Certified Engineer (9.3)",
-  "exam_code": "Elastic Certified Engineer 9.3",
+  "exam_code": null,
   "certifying_body": "Elastic",
   "certification_name": "Elastic Certified Engineer",
   "version": 1,
@@ -200,5 +200,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T09:36:36+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:00:11Z",
+    "evidence_url": "https://www.elastic.co/training/certification/faq"
   }
 }

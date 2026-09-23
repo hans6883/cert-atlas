@@ -1,7 +1,7 @@
 {
   "exam_id": "boc-at",
   "exam_name": "BOC Athletic Trainer Certification Examination",
-  "exam_code": "BOC-AT",
+  "exam_code": null,
   "certifying_body": "BOC Athletic Training",
   "certification_name": null,
   "version": null,
@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://bocatc.org/document/content-outline-for-pa8/",
   "official_study_resources": [
     {
       "resource_type": "candidate_guide",
@@ -112,5 +112,12 @@
     "boc exam",
     "boc-at"
   ],
-  "practice_url": "https://quizforge.ai/?q=BOC%20Athletic%20Trainer%20Certification%20Examination"
+  "practice_url": "https://quizforge.ai/?q=BOC%20Athletic%20Trainer%20Certification%20Examination",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:28:46Z",
+    "evidence_url": "https://bocatc.org/educators/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ace-cpt",
   "exam_name": "ACE Personal Trainer (ACE-CPT)",
-  "exam_code": "ACE-CPT",
+  "exam_code": null,
   "certifying_body": "ACE Fitness",
   "certification_name": null,
   "version": null,
@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.acefitness.org/fitness-certifications/certification-exam-content/",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -269,5 +269,12 @@
     "summary": "Confirmed current on the issuer host on 2026-09-19: \"For the ACE Certified Personal Trainer Exam (NCCA-accredited), you can choose either an in-person proctored exam or an online exam with a Live Remote Proctor.\"",
     "evidence_url": "https://www.acefitness.org/fitness-certifications/personal-trainer-certification/",
     "verified_at": "2026-09-20T05:53:12+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:58:50Z",
+    "evidence_url": "https://www.acefitness.org/fitness-certifications/personal-trainer-certification/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ace-gfi",
   "exam_name": "ACE Group Fitness Instructor (ACE-GFI)",
-  "exam_code": "ACE-GFI",
+  "exam_code": null,
   "certifying_body": "ACE Fitness",
   "certification_name": null,
   "version": null,
@@ -81,7 +81,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.acefitness.org/fitness-certifications/ace-answers/exam-preparation-blog/7373/changes-to-the-group-fitness-instructor-exam-content-outline/",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -100,5 +100,12 @@
     "ace-gfi",
     "group fitness instructor"
   ],
-  "practice_url": "https://quizforge.ai/?q=ACE%20Group%20Fitness%20Instructor%20%28ACE-GFI%29"
+  "practice_url": "https://quizforge.ai/?q=ACE%20Group%20Fitness%20Instructor%20%28ACE-GFI%29",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:48:07Z",
+    "evidence_url": "https://www.acefitness.org/get-certified/group-fitness-instructor/"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ibps-po-mains",
   "exam_name": "IBPS PO Main Examination",
-  "exam_code": "IBPS PO Main",
+  "exam_code": null,
   "certifying_body": "IBPS",
   "certification_name": null,
   "version": null,
@@ -107,5 +107,12 @@
     "ibps po main examination",
     "ibps-po-mains"
   ],
-  "practice_url": "https://quizforge.ai/tests/ibps-po-main-examination-2nl8fg"
+  "practice_url": "https://quizforge.ai/tests/ibps-po-main-examination-2nl8fg",
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:45:16Z",
+    "evidence_url": "https://www.ibps.in/"
+  }
 }

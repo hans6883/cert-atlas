@@ -1,7 +1,7 @@
 {
   "exam_id": "irs-enrolled-agent-exam-part-2-business-tax",
   "exam_name": "IRS Enrolled Agent Part 2 Business Tax",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "Internal Revenue Service (IRS)",
   "version": null,
   "source_url": "https://content.psiexams.com/pdf/irs/IRS%20EA-SEE%20ECO%202.pdf",
@@ -155,5 +155,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:04+00:00"
-  }
+  },
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:02:56Z",
+    "evidence_url": "https://www.irs.gov/tax-professionals/enrolled-agents/become-an-enrolled-agent"
+  },
+  "official_objectives_url": "https://content.psiexams.com/pdf/irs/IRS%20EA-SEE%20ECO%202.pdf"
 }

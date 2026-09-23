@@ -88,7 +88,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.nhanow.com/certifications/electronic-health-records-specialist",
+  "official_objectives_url": "https://www.nhanow.com/docs/default-source/test-plans/nha_cehrs-test-plan.pdf?sfvrsn=ad996ae5_2",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -135,5 +135,18 @@
     "nha ehr specialist",
     "nha-cehrs"
   ],
-  "practice_url": "https://quizforge.ai/tests/certified-electronic-health-records-specialist-cehrs-353oh8"
+  "practice_url": "https://quizforge.ai/tests/certified-electronic-health-records-specialist-cehrs-353oh8",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"You'll take the 100-question exam either at your school, a PSI testing center near you, or through live remote proctoring at the location of your choice.\"",
+    "evidence_url": "https://www.nhanow.com/certification/nha-certifications/certified-electronic-health-records-specialist-(cehrs)",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:33:06Z",
+    "evidence_url": "https://www.nhanow.com/certification/nha-certifications/certified-electronic-health-records-specialist-(cehrs)"
+  }
 }

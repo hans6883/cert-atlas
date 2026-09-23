@@ -92,7 +92,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://bcen.org/tcrn/about-the-exam/",
   "official_study_resources": [
     {
       "resource_type": "official_study_guide",
@@ -119,5 +119,18 @@
     "trauma certified rn",
     "trauma nurse certification"
   ],
-  "practice_url": "https://quizforge.ai/tests/tcrn-%E2%80%94-trauma-certified-registered-nurse-33fxeh"
+  "practice_url": "https://quizforge.ai/tests/tcrn-%E2%80%94-trauma-certified-registered-nurse-33fxeh",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The Trauma Certified Registered Nurse (TCRN®) is the nationally recognized credential for RNs who care for trauma patients from injury through rehabilitation.\"",
+    "evidence_url": "https://bcen.org/exams/tcrn/",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:00:39Z",
+    "evidence_url": "https://bcen.org/exams/tcrn/"
+  }
 }

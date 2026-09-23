@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-studio-art-3d",
   "exam_name": "AP Art and Design: 3-D Art and Design",
-  "exam_code": "AP 3-D Art and Design",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -87,7 +87,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/pdf/ap-art-and-design-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -117,5 +117,18 @@
     "ap studio art 3-d design",
     "ap-studio-art-3d"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-art-and-design-3-d-art-and-design-2jq7vu"
+  "practice_url": "https://quizforge.ai/tests/ap-art-and-design-3-d-art-and-design-2jq7vu",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"This is the AP Program deadline. Your teacher or AP coordinator will likely set an earlier deadline, which you should follow, but you must submit all three AP Art and Design portfolio components as final in the AP Digital Portfolio by this date.\"",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-3-d-art-and-design",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T05:59:38Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-3-d-art-and-design"
+  }
 }

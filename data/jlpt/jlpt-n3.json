@@ -1,7 +1,7 @@
 {
   "exam_id": "jlpt-n3",
   "exam_name": "JLPT N3 (Intermediate)",
-  "exam_code": "JLPT N3",
+  "exam_code": "N3",
   "certifying_body": "JLPT",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.jlpt.jp/e/guideline/testsections.html",
   "official_study_resources": [
     {
       "resource_type": "practice_exam",
@@ -108,5 +108,12 @@
     "jlpt n3 intermediate",
     "jlpt-n3"
   ],
-  "practice_url": "https://quizforge.ai/tests/jlpt-n3-intermediate-2uj7tv"
+  "practice_url": "https://quizforge.ai/tests/jlpt-n3-intermediate-2uj7tv",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T08:25:44Z",
+    "evidence_url": "https://www.jlpt.jp/e/about/levelsummary.html"
+  }
 }

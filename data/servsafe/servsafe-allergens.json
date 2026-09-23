@@ -1,7 +1,7 @@
 {
   "exam_id": "servsafe-allergens",
   "exam_name": "ServSafe Allergens",
-  "exam_code": "ServSafe Allergens",
+  "exam_code": null,
   "certifying_body": "ServSafe",
   "certification_name": null,
   "version": null,
@@ -115,5 +115,18 @@
     "servsafe food allergens",
     "servsafe-allergens"
   ],
-  "practice_url": "https://quizforge.ai/tests/servsafe-allergens"
+  "practice_url": "https://quizforge.ai/tests/servsafe-allergens",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Once you pass the Assessment, you’ll be able to download your certificate directly from the site.\"",
+    "evidence_url": "https://www.servsafe.com/ServSafe-Allergens",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "course_assessment",
+    "label": "course assessment",
+    "examination": true,
+    "verified_at": "2026-09-20T06:32:54Z",
+    "evidence_url": "https://www.servsafe.com/ServSafe-Allergens"
+  }
 }

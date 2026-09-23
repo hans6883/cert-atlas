@@ -1,7 +1,7 @@
 {
   "exam_id": "nutanix-nca",
   "exam_name": "NCA (Nutanix Certified Associate)",
-  "exam_code": "NCA-6.10",
+  "exam_code": null,
   "certifying_body": "Nutanix",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-associate-v6-10",
+  "official_objectives_url": "https://www.nutanix.com/content/dam/nutanix/resources/datasheets/ds-ebg-nca-6-10.pdf",
   "official_study_resources": [],
   "aliases": [
     "nca",
@@ -80,5 +80,12 @@
     "nutanix certified associate",
     "nutanix-nca"
   ],
-  "practice_url": "https://quizforge.ai/tests/nca-nutanix-certified-associate-2f35ng"
+  "practice_url": "https://quizforge.ai/tests/nca-nutanix-certified-associate-2f35ng",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:51:25Z",
+    "evidence_url": "https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-associate-v6-10"
+  }
 }

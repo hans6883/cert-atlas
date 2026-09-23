@@ -1,7 +1,7 @@
 {
   "exam_id": "ielts-life-skills",
   "exam_name": "IELTS Life Skills",
-  "exam_code": "IELTS-LS",
+  "exam_code": null,
   "certifying_body": "IELTS",
   "certification_name": null,
   "version": null,
@@ -37,7 +37,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://ielts.org/take-a-test/test-types/ielts-tests-for-uk-visas-and-immigration/ielts-life-skills-test/life-skills-test-format-in-detail",
   "official_study_resources": [],
   "aliases": [
     "ielts a1",
@@ -47,5 +47,12 @@
     "ielts-life-skills",
     "ielts-ls"
   ],
-  "practice_url": "https://quizforge.ai/tests/ielts-life-skills"
+  "practice_url": "https://quizforge.ai/tests/ielts-life-skills",
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T10:35:35Z",
+    "evidence_url": "https://ielts.org/take-a-test/test-types/ielts-tests-for-uk-visas-and-immigration/ielts-life-skills-test"
+  }
 }

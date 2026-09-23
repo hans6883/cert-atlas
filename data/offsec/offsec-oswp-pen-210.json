@@ -142,7 +142,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://manage.offsec.com/app/uploads/2023/01/PEN-210-Syllabusv1.2.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -159,5 +159,12 @@
     "offsec-oswp-pen-210",
     "oswp"
   ],
-  "practice_url": "https://quizforge.ai/tests/offsec-wireless-professional-oswp-2drlkj"
+  "practice_url": "https://quizforge.ai/tests/offsec-wireless-professional-oswp-2drlkj",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:29:20Z",
+    "evidence_url": "https://www.offsec.com/courses/pen-210/"
+  }
 }

@@ -329,5 +329,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T09:36:36+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T12:28:41Z",
+    "evidence_url": "https://docs.aws.amazon.com/aws-certification/latest/security-specialty-03/security-specialty-03.html"
   }
 }

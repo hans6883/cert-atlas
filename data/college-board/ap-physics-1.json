@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-physics-1",
   "exam_name": "AP Physics 1: Algebra-Based",
-  "exam_code": "AP Physics 1",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -105,7 +105,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -134,5 +134,18 @@
     "ap-physics-1",
     "ap-physics-1-algebra-based-2jhol6"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-physics-1-algebra-based-2jhol6"
+  "practice_url": "https://quizforge.ai/tests/ap-physics-1-algebra-based-2jhol6",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"Learn all about the course and exam. Already enrolled? Join your class in My AP.\"",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:06:18Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "cmt-level-2",
   "exam_name": "CMT Level II",
-  "exam_code": "CMT-II",
+  "exam_code": null,
   "certifying_body": "CMT Association",
   "certification_name": null,
   "version": null,
@@ -92,7 +92,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://cmtassociation.org/cmt-program/learning-objectives/",
   "official_study_resources": [
     {
       "resource_type": "textbook",
@@ -109,5 +109,18 @@
     "cmt-ii",
     "cmt-level-2"
   ],
-  "practice_url": "https://quizforge.ai/tests/cmt-level-ii-2oklij"
+  "practice_url": "https://quizforge.ai/tests/cmt-level-ii-2oklij",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The Level I and II exams will be offered December 1 – 16, 2026 ET\"",
+    "evidence_url": "https://cmtassociation.org/cmt-program/register/",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "professional_designation_by_exam",
+    "label": "professional designation earned by examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:29:10Z",
+    "evidence_url": "https://cmtassociation.org/cmt-program/"
+  }
 }

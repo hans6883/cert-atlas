@@ -1,7 +1,7 @@
 {
   "exam_id": "chfm-certified-healthcare-facility-manager",
   "exam_name": "Certified Healthcare Facility Manager",
-  "exam_code": "",
+  "exam_code": "CHFM",
   "certifying_body": "AHA",
   "version": null,
   "source_url": "https://www.aha.org/system/files/media/file/2019/05/AHA_CC-CHFM-Handbook.pdf",
@@ -162,5 +162,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:00+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:14:45Z",
+    "evidence_url": "https://www.aha.org/career-resources/certification-center/chfm"
+  },
+  "official_objectives_url": "https://www.aha.org/system/files/media/file/2019/05/AHA_CC-CHFM-Handbook.pdf"
 }

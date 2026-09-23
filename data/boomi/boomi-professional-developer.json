@@ -1,7 +1,7 @@
 {
   "exam_id": "boomi-professional-developer",
   "exam_name": "Boomi Professional Developer Certification",
-  "exam_code": "BPD",
+  "exam_code": null,
   "certifying_body": "Boomi",
   "certification_name": null,
   "version": null,
@@ -100,5 +100,12 @@
     "boomi-professional-developer",
     "bpd"
   ],
-  "practice_url": "https://quizforge.ai/tests/boomi-professional-developer-certification-2ih3lp"
+  "practice_url": "https://quizforge.ai/tests/boomi-professional-developer-certification-2ih3lp",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:25:17Z",
+    "evidence_url": "https://help.boomi.com/docs/Atomsphere/Integration/Getting%20started/int-Boomi_Training_and_Certification"
+  }
 }

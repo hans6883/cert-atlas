@@ -1,7 +1,7 @@
 {
   "exam_id": "iso-27001-lead-auditor-isms",
   "exam_name": "ISO 27001 ISMS Lead Auditor Certification (PECB)",
-  "exam_code": "",
+  "exam_code": null,
   "certifying_body": "PECB",
   "version": null,
   "source_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-27001-lead-auditor-mc.pdf",
@@ -221,5 +221,13 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-13T23:40:04+00:00"
-  }
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:19:00Z",
+    "evidence_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor/"
+  },
+  "official_objectives_url": "https://pecb.com/pdf/candidate-handbooks/pecb-candidate-handbook-iso-27001-lead-auditor-mc.pdf"
 }

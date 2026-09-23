@@ -1,7 +1,7 @@
 {
   "exam_id": "nccco-ccot-practical",
   "exam_name": "NCCCO Overhead Crane Practical Exam",
-  "exam_code": "CCO-OT-P",
+  "exam_code": null,
   "certifying_body": "NCCCO",
   "certification_name": null,
   "version": null,
@@ -98,7 +98,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.nccco.org/nccco/certifications/overhead-crane-operator/practical-exam",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -117,5 +117,12 @@
     "nccco-ccot-practical",
     "overhead crane practical"
   ],
-  "practice_url": "https://quizforge.ai/tests/nccco-overhead-crane-practical-exam-2xdne0"
+  "practice_url": "https://quizforge.ai/tests/nccco-overhead-crane-practical-exam-2xdne0",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:30:12Z",
+    "evidence_url": "https://www.nccco.org/nccco/certifications/overhead-crane-operator"
+  }
 }

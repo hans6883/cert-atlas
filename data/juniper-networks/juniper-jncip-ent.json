@@ -96,7 +96,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.juniper.net/us/en/training/certification/tracks/enterprise-routing-switching/jncip-ent.html",
+  "official_objectives_url": "https://www.juniper.net/content/dam/www/assets/flyers/us/en/enterprise-routing-and-switching-professional-jncip-ent.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -125,5 +125,12 @@
     "juniper-jncip-ent",
     "juniper-jncip-ent-enterprise-routing-specialist"
   ],
-  "practice_url": "https://quizforge.ai/tests/juniper-jncip-ent-enterprise-routing-specialist"
+  "practice_url": "https://quizforge.ai/tests/juniper-jncip-ent-enterprise-routing-specialist",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T07:18:59Z",
+    "evidence_url": "https://www.juniper.net/gb/en/training/certification/tracks/enterprise-routing-switching/jncip-ent.html"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "exam_id": "ap-physics-c-electricity",
   "exam_name": "AP Physics C: Electricity and Magnetism",
-  "exam_code": "AP Physics C: E&M",
+  "exam_code": null,
   "certifying_body": "College Board",
   "certification_name": null,
   "version": null,
@@ -75,7 +75,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/assessment",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -104,5 +104,12 @@
     "ap physics c em",
     "ap-physics-c-electricity"
   ],
-  "practice_url": "https://quizforge.ai/tests/ap-physics-c-electricity-and-magnetism-2jk4dx"
+  "practice_url": "https://quizforge.ai/tests/ap-physics-c-electricity-and-magnetism-2jk4dx",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:48:20Z",
+    "evidence_url": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/assessment"
+  }
 }

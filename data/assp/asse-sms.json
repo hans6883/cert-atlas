@@ -1,7 +1,7 @@
 {
   "exam_id": "asse-sms",
   "exam_name": "Safety Management Specialist (SMS)",
-  "exam_code": "SMS",
+  "exam_code": "SMP",
   "certifying_body": "ASSP",
   "certification_name": null,
   "version": null,
@@ -121,5 +121,12 @@
     "summary": "ASSP retired SMS on 2025-03-03. SMP is the named replacement path.",
     "evidence_url": "https://www.bcsp.org/bcsp-news/about/bcsp-news/sms-to-smp",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:48:07Z",
+    "evidence_url": "https://www.bcsp.org/safety-management-professional-smp"
   }
 }

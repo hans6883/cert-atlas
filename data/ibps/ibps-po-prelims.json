@@ -1,7 +1,7 @@
 {
   "exam_id": "ibps-po-prelims",
   "exam_name": "IBPS PO Preliminary Examination",
-  "exam_code": "IBPS PO Pre",
+  "exam_code": null,
   "certifying_body": "IBPS",
   "certification_name": null,
   "version": null,
@@ -95,5 +95,12 @@
     "ibps po preliminary examination",
     "ibps-po-prelims"
   ],
-  "practice_url": "https://quizforge.ai/tests/ibps-po-preliminary-examination-2w86t0"
+  "practice_url": "https://quizforge.ai/tests/ibps-po-preliminary-examination-2w86t0",
+  "credential": {
+    "type": "recruitment_exam",
+    "label": "government recruitment examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:45:52Z",
+    "evidence_url": "https://www.ibps.in/"
+  }
 }

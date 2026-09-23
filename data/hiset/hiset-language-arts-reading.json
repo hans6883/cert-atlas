@@ -1,7 +1,7 @@
 {
   "exam_id": "hiset-language-arts-reading",
   "exam_name": "HiSET Language Arts – Reading",
-  "exam_code": "LAR",
+  "exam_code": null,
   "certifying_body": "HiSET",
   "certification_name": null,
   "version": null,
@@ -54,7 +54,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://hiset.org/wp-content/uploads/2025/05/taag.pdf",
   "official_study_resources": [],
   "aliases": [
     "hiset language arts reading",
@@ -63,5 +63,12 @@
     "hiset-language-arts-reading",
     "lar"
   ],
-  "practice_url": "https://quizforge.ai/tests/hiset-language-arts-reading"
+  "practice_url": "https://quizforge.ai/tests/hiset-language-arts-reading",
+  "credential": {
+    "type": "school_exam",
+    "label": "school examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:12:36Z",
+    "evidence_url": "https://hiset.org/about-hiset/"
+  }
 }

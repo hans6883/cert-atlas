@@ -106,6 +106,12 @@
     "me dmv knowledge test"
   ],
   "practice_url": "https://quizforge.ai/tests/maine-drivers-license-knowledge-test-30fecf",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"New drivers earn their driver's license by completing the written exam, a vision screening, and the road test.\"",
+    "evidence_url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/car-license/drivers-license-exam",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
   "credential": {
     "type": "licensure_exam",
     "label": "licensure examination",

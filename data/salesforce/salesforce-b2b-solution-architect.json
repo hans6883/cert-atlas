@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-b2b-solution-architect",
   "exam_name": "Salesforce Certified B2B Solution Architect",
-  "exam_code": "B2B Solution Architect",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified B2B Solution Architect",
   "version": "Exam questions align to the Summer '22 release",
@@ -177,7 +177,7 @@
       ]
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://help.salesforce.com/s/articleView?id=005299472&language=en_US&type=1",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -350,5 +350,12 @@
     "summary": "Salesforce retires the B2B Solution Architect certification on February 1, 2027 (last exam date August 31, 2026). The issuer's 2027 retirements FAQ names no successor exam: 'Comparable learning content for this certification is available on the Trailhead learning platform.'",
     "evidence_url": "https://help.salesforce.com/s/articleView?id=005360289&type=1&language=en_US",
     "verified_at": "2026-09-14T17:30:00Z"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:00:36Z",
+    "evidence_url": "https://help.salesforce.com/s/articleView?id=005299472&language=en_US&type=1"
   }
 }

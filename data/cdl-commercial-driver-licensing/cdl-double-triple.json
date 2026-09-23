@@ -1,7 +1,7 @@
 {
   "exam_id": "cdl-double-triple",
   "exam_name": "CDL Doubles/Triples Endorsement Test",
-  "exam_code": "CDL-T",
+  "exam_code": "T",
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -89,5 +89,12 @@
     "double triple trailers",
     "doubles triples"
   ],
-  "practice_url": "https://quizforge.ai/tests/cdl-doubles-triples-endorsement-test-2lhmnq"
+  "practice_url": "https://quizforge.ai/tests/cdl-doubles-triples-endorsement-test-2lhmnq",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:49:00Z",
+    "evidence_url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/drivers"
+  }
 }

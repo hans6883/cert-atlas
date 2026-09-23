@@ -1,7 +1,7 @@
 {
   "exam_id": "accuplacer-esl-writing",
   "exam_name": "ACCUPLACER ESL Writing",
-  "exam_code": "ESL-WRITE",
+  "exam_code": null,
   "certifying_body": "ACCUPLACER",
   "certification_name": null,
   "version": null,
@@ -61,7 +61,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://accuplacer.collegeboard.org/accuplacer/pdf/accuplacer-writeplacer-esl-sample-essays.pdf",
   "official_study_resources": [],
   "aliases": [
     "accuplacer esl writing",
@@ -187,5 +187,12 @@
     "status": "reviewed",
     "publishable": true,
     "reviewed_at": "2026-09-02T00:53:29+00:00"
+  },
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T08:59:59Z",
+    "evidence_url": "https://accuplacer.collegeboard.org/educators/whats-on-tests"
   }
 }

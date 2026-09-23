@@ -1,7 +1,7 @@
 {
   "exam_id": "elastic-ece",
   "exam_name": "Elastic Certified Engineer (ECE)",
-  "exam_code": "ECE",
+  "exam_code": null,
   "certifying_body": "Elastic",
   "certification_name": null,
   "version": null,
@@ -251,5 +251,12 @@
     "summary": "Elastic retires ELASTIC-ECE on 2026-09-01. Elastic Certified Engineer 9.3 is the named replacement path.",
     "evidence_url": "https://www.elastic.co/training/certification/faq",
     "verified_at": "2026-08-27T14:37:08.978449+00:00"
+  },
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:59:21Z",
+    "evidence_url": "https://www.elastic.co/training/certification/faq"
   }
 }

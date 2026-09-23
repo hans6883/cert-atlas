@@ -1,7 +1,7 @@
 {
   "exam_id": "clep-principles-of-macroeconomics",
   "exam_name": "Principles of Macroeconomics",
-  "exam_code": "MACECON",
+  "exam_code": null,
   "certifying_body": "CLEP",
   "certification_name": null,
   "version": null,
@@ -73,7 +73,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://clep.collegeboard.org/clep-exams/principles-macroeconomics",
   "official_study_resources": [],
   "aliases": [
     "clep macroeconomics",
@@ -82,5 +82,12 @@
     "macecon",
     "principles of macroeconomics"
   ],
-  "practice_url": "https://quizforge.ai/tests/clep-principles-of-macroeconomics"
+  "practice_url": "https://quizforge.ai/tests/clep-principles-of-macroeconomics",
+  "credential": {
+    "type": "admission_or_placement_test",
+    "label": "admission or placement test",
+    "examination": true,
+    "verified_at": "2026-09-20T08:13:32Z",
+    "evidence_url": "https://clep.collegeboard.org/clep-exams/principles-macroeconomics"
+  }
 }

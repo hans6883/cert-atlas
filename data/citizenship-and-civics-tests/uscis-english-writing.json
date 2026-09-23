@@ -1,7 +1,7 @@
 {
   "exam_id": "uscis-english-writing",
   "exam_name": "USCIS English Writing Test (Naturalization)",
-  "exam_code": "N-400-EN-W",
+  "exam_code": null,
   "certifying_body": "Citizenship and Civics Tests",
   "certification_name": null,
   "version": null,
@@ -70,7 +70,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test",
   "official_study_resources": [
     {
       "resource_type": "study_guide",
@@ -108,5 +108,12 @@
     "uscis english writing test naturalization",
     "uscis-english-writing"
   ],
-  "practice_url": "https://quizforge.ai/tests/uscis-english-writing-test-naturalization-2k16za"
+  "practice_url": "https://quizforge.ai/tests/uscis-english-writing-test-naturalization-2k16za",
+  "credential": {
+    "type": "civic_knowledge_test",
+    "label": "citizenship or civic knowledge test",
+    "examination": true,
+    "verified_at": "2026-09-20T09:13:13Z",
+    "evidence_url": "https://www.uscis.gov/citizenship/learn-about-citizenship/the-naturalization-interview-and-test"
+  }
 }

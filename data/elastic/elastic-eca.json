@@ -102,6 +102,12 @@
     "kibana analyst"
   ],
   "practice_url": "https://quizforge.ai/tests/elastic-certified-analyst",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"The Elastic Certified Engineer, Elastic Certified Observability Engineer and Elastic Certified Analyst exams are performance-based, meaning that you must successfully complete tasks in real time on an Elastic cluster while a proctor watches both you and your screen remotely.\"",
+    "evidence_url": "https://www.elastic.co/training/certification/faq",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
   "credential": {
     "type": "certification",
     "label": "certification examination",

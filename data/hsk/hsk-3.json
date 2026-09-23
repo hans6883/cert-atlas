@@ -1,7 +1,7 @@
 {
   "exam_id": "hsk-3",
   "exam_name": "HSK Level 3 (三级)",
-  "exam_code": "HSK 3",
+  "exam_code": null,
   "certifying_body": "HSK",
   "certification_name": null,
   "version": null,
@@ -68,7 +68,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://www.chinesetest.cn/HSK/3",
   "official_study_resources": [
     {
       "resource_type": "syllabus",
@@ -94,5 +94,18 @@
     "hsk level 3 三级",
     "hsk-3"
   ],
-  "practice_url": "https://quizforge.ai/tests/hsk-level-3-%E4%B8%89%E7%BA%A7-2ot4t8"
+  "practice_url": "https://quizforge.ai/tests/hsk-level-3-%E4%B8%89%E7%BA%A7-2ot4t8",
+  "lifecycle": {
+    "status": "current",
+    "summary": "Confirmed current on the issuer host on 2026-09-20: \"HSK (Level 3) is tailored for beginners who have acquired a broader proficiency in Chinese, encompassing skills in listening, reading, and basic writing.\"",
+    "evidence_url": "https://www.chinesetest.cn/HSK/3",
+    "verified_at": "2026-09-23T15:40:31+00:00"
+  },
+  "credential": {
+    "type": "language_proficiency_test",
+    "label": "language proficiency test",
+    "examination": true,
+    "verified_at": "2026-09-20T06:33:04Z",
+    "evidence_url": "https://www.chinesetest.cn/HSK/3"
+  }
 }

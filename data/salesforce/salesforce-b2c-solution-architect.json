@@ -1,7 +1,7 @@
 {
   "exam_id": "salesforce-b2c-solution-architect",
   "exam_name": "Salesforce Certified B2C Solution Architect",
-  "exam_code": "B2C Solution Architect",
+  "exam_code": null,
   "certifying_body": "Salesforce",
   "certification_name": "Salesforce Certified B2C Solution Architect",
   "version": "Winter '23 release",
@@ -214,5 +214,12 @@
     "salesforce certified b2c solution architect",
     "salesforce-b2c-solution-architect"
   ],
-  "practice_url": "https://quizforge.ai/tests/salesforce-certified-b2c-solution-architect-38v1bo"
+  "practice_url": "https://quizforge.ai/tests/salesforce-certified-b2c-solution-architect-38v1bo",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T06:33:05Z",
+    "evidence_url": "https://trailhead.salesforce.com/content/learn/modules/b2c-study-cert-get-started/b2c-p1-study-cert-get-started"
+  }
 }

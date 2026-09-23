@@ -1,7 +1,7 @@
 {
   "exam_id": "elec-master-tx",
   "exam_name": "Texas Master Electrician Exam",
-  "exam_code": "TX-Master-E",
+  "exam_code": null,
   "certifying_body": "Electrician Licensing",
   "certification_name": null,
   "version": null,
@@ -97,5 +97,12 @@
     "texas master electrician exam",
     "tx-master-e"
   ],
-  "practice_url": "https://quizforge.ai/tests/texas-master-electrician-exam-2kay6c"
+  "practice_url": "https://quizforge.ai/tests/texas-master-electrician-exam-2kay6c",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T08:25:37Z",
+    "evidence_url": "https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm"
+  }
 }

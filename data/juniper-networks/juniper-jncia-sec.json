@@ -78,7 +78,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncia-sec.html",
+  "official_objectives_url": "https://www.juniper.net/content/dam/www/assets/flyers/us/en/security-associate-jncia-sec.pdf",
   "official_study_resources": [
     {
       "resource_type": "online_course",
@@ -106,5 +106,12 @@
     "juniper associate security",
     "juniper-jncia-sec"
   ],
-  "practice_url": "https://quizforge.ai/tests/jncia-sec-2f5lg7"
+  "practice_url": "https://quizforge.ai/tests/jncia-sec-2f5lg7",
+  "credential": {
+    "type": "certification",
+    "label": "certification examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:12:46Z",
+    "evidence_url": "https://www.juniper.net/content/dam/www/assets/flyers/us/en/security-associate-jncia-sec.pdf"
+  }
 }

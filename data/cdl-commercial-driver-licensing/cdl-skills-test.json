@@ -1,7 +1,7 @@
 {
   "exam_id": "cdl-skills-test",
   "exam_name": "CDL Skills Test (Road Test)",
-  "exam_code": "CDL-Skills",
+  "exam_code": null,
   "certifying_body": "CDL / Commercial Driver Licensing",
   "certification_name": null,
   "version": null,
@@ -88,5 +88,12 @@
     "cdl-skills",
     "cdl-skills-test"
   ],
-  "practice_url": "https://quizforge.ai/tests/cdl-skills-test-road-test-2lk2gi"
+  "practice_url": "https://quizforge.ai/tests/cdl-skills-test-road-test-2lk2gi",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T09:00:26Z",
+    "evidence_url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/how-do-i-get-commercial-drivers-license"
+  }
 }

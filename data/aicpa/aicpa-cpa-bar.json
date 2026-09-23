@@ -65,7 +65,7 @@
       "objectives": []
     }
   ],
-  "official_objectives_url": null,
+  "official_objectives_url": "https://assets.ctfassets.net/rb9cdnjh59cm/71s84dkfo3KEsoLlz4vv6G/f4314469ec5368b5b4dd0d0184f00a71/CPA_Exam_Blueprints_2026.pdf",
   "official_study_resources": [
     {
       "resource_type": "pdf",
@@ -92,5 +92,12 @@
     "cpa bar",
     "cpa exam business analysis and reporting bar discipline"
   ],
-  "practice_url": "https://quizforge.ai/tests/cpa-business-analysis-reporting-bar"
+  "practice_url": "https://quizforge.ai/tests/cpa-business-analysis-reporting-bar",
+  "credential": {
+    "type": "licensure_exam",
+    "label": "licensure examination",
+    "examination": true,
+    "verified_at": "2026-09-20T11:59:05Z",
+    "evidence_url": "https://www.aicpa-cima.com/resources/toolkit/cpa-exam"
+  }
 }
